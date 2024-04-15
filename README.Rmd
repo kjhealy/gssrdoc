@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # gssrdoc <img src="man/figures/gssrdoc.png" align="right" width="120" />
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/kjhealy/gssrdoc/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/kjhealy/gssrdoc/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 Documentation for the General Social Survey Cumulative Data (1972-2022, release 2a) packaged for easy use in R. This package is a companion to the [`gssr`](https://github.com/kjhealy.gssr) package.

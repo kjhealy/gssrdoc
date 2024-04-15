@@ -1,10 +1,11 @@
 
-
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # gssrdoc <img src="man/figures/gssrdoc.png" align="right" width="120" />
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/kjhealy/gssrdoc/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/kjhealy/gssrdoc/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 Documentation for the General Social Survey Cumulative Data (1972-2022,
@@ -96,7 +97,7 @@ And,
 > ensure the analysis reflects actual changes in public opinion and is
 > not unduly influenced by the change in data collection methods. For
 > more information on the 2021 GSS methodology and its implications,
-> please visit https://gss.norc.org/Get-The-Data
+> please visit <https://gss.norc.org/Get-The-Data>
 
 ## Further details
 
