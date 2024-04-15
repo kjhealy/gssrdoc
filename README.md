@@ -44,6 +44,12 @@ install.packages('gssr', repos =
   c('https://kjhealy.r-universe.dev', 'https://cloud.r-project.org'))
 ```
 
+Because the packages have dependencies that are on CRAN, we add CRAN as
+well as the R Universe to the `repos` argument.
+
+The binary packages will install noticeably quicker than building the
+package from source. Plus, you can use `install.packages()` directly.
+
 ## Install direct from GitHub
 
 You can also install gssrdoc from
