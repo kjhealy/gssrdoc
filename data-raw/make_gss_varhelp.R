@@ -26,7 +26,8 @@ fix_pct <- function(x){
     stringr::str_replace_all("figures~like", "figures---like") |>
     stringr::str_replace_all("I~m", "I'm") |>
     stringr::str_replace_all("\\(~", "\\('") |>
-    stringr::str_replace_all("guess~\\)", "guess: ")
+    stringr::str_replace_all("guess~\\)", "guess: ") |>
+    stringr::str_replace_all("\\#spousepartfill", "spousepartfill")
 }
 
 
