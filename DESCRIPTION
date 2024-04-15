@@ -17,3 +17,5 @@ Depends:
 Suggests:
     tibble
 RoxygenNote: 7.3.1
+URL: https://github.com/kjhealy/gssrdoc
+BugReports: https://github.com/kjhealy/gssrdoc/issues
