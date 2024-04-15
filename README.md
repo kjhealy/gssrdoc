@@ -6,15 +6,47 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/kjhealy/gssrdoc/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/kjhealy/gssrdoc/actions/workflows/R-CMD-check.yaml)
+[![gssrdoc status
+badge](https://kjhealy.r-universe.dev/badges/gssrdoc)](https://kjhealy.r-universe.dev/gssrdoc)
 <!-- badges: end -->
 
 Documentation for the General Social Survey Cumulative Data (1972-2022,
 release 2a) packaged for easy use in R. This package is a companion to
 the [`gssr`](https://github.com/kjhealy.gssr) package.
 
+The General Social Survey Cumulative Data (1972-2022, release 2a) and
+Panel Data files packaged for easy use in R. The companion package to
+`{gssr}` is [`{gssrdoc}`](https://kjhealy.github.io/gssrdoc), which
+integrates the GSS codebook into R’s help system. I recommend you
+install both packages.
+
+<img src="man/figures/fefam_svy.png" width = "95%"/>
+
+## Installation
+
+The relatively large number of variables documented in `{gssrdoc}` means
+it is not suitable for hosting on [CRAN](https://cran.r-project.org/),
+the core R package repository. The same is true of the `{gssr}` package.
+
+### Install via R-Universe
+
+My [R Universe](https://kjhealy.r-universe.dev/) provides binary
+packages for `{gssrdoc}` and `{gssr}`. To install both packages, copy
+and paste the following code to the R console:
+
+``` r
+# Install 'gssrdoc' from 'ropensci' universe
+install.packages('gssrdoc', repos =
+  c('https://kjhealy.r-universe.dev', 'https://cloud.r-project.org'))
+
+# Also recommended: install 'gssr' as well
+install.packages('gssr', repos =
+  c('https://kjhealy.r-universe.dev', 'https://cloud.r-project.org'))
+```
+
 ## Install direct from GitHub
 
-You can install gssrdoc from
+You can also install gssrdoc from
 [GitHub](https://github.com/kjhealy/gssrdoc) with:
 
 ``` r
