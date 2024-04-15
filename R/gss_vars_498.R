@@ -1,0 +1,760 @@
+#'  Does r prefer self-employment or not ?
+#' 
+#'  empself
+#' 
+#' Question 1328. Suppose you were working and could choose between different kinds of jobs. Which of the following would you personally choose? I would advise... a. Being an employee or being self-employed
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |can't choose |employee |no answer |self-employ |Total |
+#'  |:-----|:-----|:------------|:--------|:---------|:-----------|:-----|
+#'  |1972  |1613  |-            |-        |-         |-           |1613  |
+#'  |1973  |1504  |-            |-        |-         |-           |1504  |
+#'  |1974  |1484  |-            |-        |-         |-           |1484  |
+#'  |1975  |1490  |-            |-        |-         |-           |1490  |
+#'  |1976  |1499  |-            |-        |-         |-           |1499  |
+#'  |1977  |1530  |-            |-        |-         |-           |1530  |
+#'  |1978  |1532  |-            |-        |-         |-           |1532  |
+#'  |1980  |1468  |-            |-        |-         |-           |1468  |
+#'  |1982  |1860  |-            |-        |-         |-           |1860  |
+#'  |1983  |1599  |-            |-        |-         |-           |1599  |
+#'  |1984  |1473  |-            |-        |-         |-           |1473  |
+#'  |1985  |1534  |-            |-        |-         |-           |1534  |
+#'  |1986  |1470  |-            |-        |-         |-           |1470  |
+#'  |1987  |1819  |-            |-        |-         |-           |1819  |
+#'  |1988  |1481  |-            |-        |-         |-           |1481  |
+#'  |1989  |84    |133          |475      |37        |808         |1537  |
+#'  |1990  |1372  |-            |-        |-         |-           |1372  |
+#'  |1991  |1517  |-            |-        |-         |-           |1517  |
+#'  |1993  |1606  |-            |-        |-         |-           |1606  |
+#'  |1994  |2992  |-            |-        |-         |-           |2992  |
+#'  |1996  |2904  |-            |-        |-         |-           |2904  |
+#'  |1998  |1609  |128          |313      |24        |758         |2832  |
+#'  |2000  |2817  |-            |-        |-         |-           |2817  |
+#'  |2002  |2765  |-            |-        |-         |-           |2765  |
+#'  |2004  |2812  |-            |-        |-         |-           |2812  |
+#'  |2006  |2992  |17           |569      |2         |930         |4510  |
+#'  |2008  |2023  |-            |-        |-         |-           |2023  |
+#'  |2010  |2044  |-            |-        |-         |-           |2044  |
+#'  |2012  |1974  |-            |-        |-         |-           |1974  |
+#'  |2014  |2538  |-            |-        |-         |-           |2538  |
+#'  |2016  |2867  |-            |-        |-         |-           |2867  |
+#'  |2018  |2348  |-            |-        |-         |-           |2348  |
+#'  |2021  |4032  |-            |-        |-         |-           |4032  |
+#'  |2022  |3544  |-            |-        |-         |-           |3544  |
+#'  |Total |68196 |278          |1357     |63        |2496        |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` employee
+#'   * `2` self-employ
+#'   * `NA(d)` can't choose
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name empself
+NULL
+
+#'  R preference re: firm size in
+#' 
+#'  smallbig
+#' 
+#' Question 1328. Suppose you were working and could choose between different kinds of jobs. Which of the following would you personally choose? I would advise... b. Working in a small firm or working in a large firm
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |big  |can't choose |no answer |small |Total |
+#'  |:-----|:-----|:----|:------------|:---------|:-----|:-----|
+#'  |1972  |1613  |-    |-            |-         |-     |1613  |
+#'  |1973  |1504  |-    |-            |-         |-     |1504  |
+#'  |1974  |1484  |-    |-            |-         |-     |1484  |
+#'  |1975  |1490  |-    |-            |-         |-     |1490  |
+#'  |1976  |1499  |-    |-            |-         |-     |1499  |
+#'  |1977  |1530  |-    |-            |-         |-     |1530  |
+#'  |1978  |1532  |-    |-            |-         |-     |1532  |
+#'  |1980  |1468  |-    |-            |-         |-     |1468  |
+#'  |1982  |1860  |-    |-            |-         |-     |1860  |
+#'  |1983  |1599  |-    |-            |-         |-     |1599  |
+#'  |1984  |1473  |-    |-            |-         |-     |1473  |
+#'  |1985  |1534  |-    |-            |-         |-     |1534  |
+#'  |1986  |1470  |-    |-            |-         |-     |1470  |
+#'  |1987  |1819  |-    |-            |-         |-     |1819  |
+#'  |1988  |1481  |-    |-            |-         |-     |1481  |
+#'  |1989  |84    |474  |194          |40        |745   |1537  |
+#'  |1990  |1372  |-    |-            |-         |-     |1372  |
+#'  |1991  |1517  |-    |-            |-         |-     |1517  |
+#'  |1993  |1606  |-    |-            |-         |-     |1606  |
+#'  |1994  |2992  |-    |-            |-         |-     |2992  |
+#'  |1996  |2904  |-    |-            |-         |-     |2904  |
+#'  |1998  |1609  |308  |159          |29        |727   |2832  |
+#'  |2000  |2817  |-    |-            |-         |-     |2817  |
+#'  |2002  |2765  |-    |-            |-         |-     |2765  |
+#'  |2004  |2812  |-    |-            |-         |-     |2812  |
+#'  |2006  |2992  |455  |48           |5         |1010  |4510  |
+#'  |2008  |2023  |-    |-            |-         |-     |2023  |
+#'  |2010  |2044  |-    |-            |-         |-     |2044  |
+#'  |2012  |1974  |-    |-            |-         |-     |1974  |
+#'  |2014  |2538  |-    |-            |-         |-     |2538  |
+#'  |2016  |2867  |-    |-            |-         |-     |2867  |
+#'  |2018  |2348  |-    |-            |-         |-     |2348  |
+#'  |2021  |4032  |-    |-            |-         |-     |4032  |
+#'  |2022  |3544  |-    |-            |-         |-     |3544  |
+#'  |Total |68196 |1237 |401          |74        |2482  |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` small
+#'   * `2` big
+#'   * `NA(d)` can't choose
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name smallbig
+NULL
+
+#'  R preference re: manufacture service, etc
+#' 
+#'  indusoth
+#' 
+#' Question 1328. Suppose you were working and could choose between different kinds of jobs. Which of the following would you personally choose? I would advise... c. Working in a manufacturing industry or in an office, sales, or service
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |can't choose |manufacture |no answer |office, sales, etc |Total |
+#'  |:-----|:-----|:------------|:-----------|:---------|:------------------|:-----|
+#'  |1972  |1613  |-            |-           |-         |-                  |1613  |
+#'  |1973  |1504  |-            |-           |-         |-                  |1504  |
+#'  |1974  |1484  |-            |-           |-         |-                  |1484  |
+#'  |1975  |1490  |-            |-           |-         |-                  |1490  |
+#'  |1976  |1499  |-            |-           |-         |-                  |1499  |
+#'  |1977  |1530  |-            |-           |-         |-                  |1530  |
+#'  |1978  |1532  |-            |-           |-         |-                  |1532  |
+#'  |1980  |1468  |-            |-           |-         |-                  |1468  |
+#'  |1982  |1860  |-            |-           |-         |-                  |1860  |
+#'  |1983  |1599  |-            |-           |-         |-                  |1599  |
+#'  |1984  |1473  |-            |-           |-         |-                  |1473  |
+#'  |1985  |1534  |-            |-           |-         |-                  |1534  |
+#'  |1986  |1470  |-            |-           |-         |-                  |1470  |
+#'  |1987  |1819  |-            |-           |-         |-                  |1819  |
+#'  |1988  |1481  |-            |-           |-         |-                  |1481  |
+#'  |1989  |84    |223          |341         |41        |848                |1537  |
+#'  |1990  |1372  |-            |-           |-         |-                  |1372  |
+#'  |1991  |1517  |-            |-           |-         |-                  |1517  |
+#'  |1993  |1606  |-            |-           |-         |-                  |1606  |
+#'  |1994  |2992  |-            |-           |-         |-                  |2992  |
+#'  |1996  |2904  |-            |-           |-         |-                  |2904  |
+#'  |1998  |2832  |-            |-           |-         |-                  |2832  |
+#'  |2000  |2817  |-            |-           |-         |-                  |2817  |
+#'  |2002  |2765  |-            |-           |-         |-                  |2765  |
+#'  |2004  |2812  |-            |-           |-         |-                  |2812  |
+#'  |2006  |4510  |-            |-           |-         |-                  |4510  |
+#'  |2008  |2023  |-            |-           |-         |-                  |2023  |
+#'  |2010  |2044  |-            |-           |-         |-                  |2044  |
+#'  |2012  |1974  |-            |-           |-         |-                  |1974  |
+#'  |2014  |2538  |-            |-           |-         |-                  |2538  |
+#'  |2016  |2867  |-            |-           |-         |-                  |2867  |
+#'  |2018  |2348  |-            |-           |-         |-                  |2348  |
+#'  |2021  |4032  |-            |-           |-         |-                  |4032  |
+#'  |2022  |3544  |-            |-           |-         |-                  |3544  |
+#'  |Total |70937 |223          |341         |41        |848                |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` manufacture
+#'   * `2` office, sales, etc
+#'   * `NA(d)` can't choose
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name indusoth
+NULL
+
+#'  R preference re: private public sector
+#' 
+#'  privgovt
+#' 
+#' Question 1328. Suppose you were working and could choose between different kinds of jobs. Which of the following would you personally choose? I would advise... d. Working in a private business or working for the government or civil service
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |can't choose |govt |no answer |private firm |Total |
+#'  |:-----|:-----|:------------|:----|:---------|:------------|:-----|
+#'  |1972  |1613  |-            |-    |-         |-            |1613  |
+#'  |1973  |1504  |-            |-    |-         |-            |1504  |
+#'  |1974  |1484  |-            |-    |-         |-            |1484  |
+#'  |1975  |1490  |-            |-    |-         |-            |1490  |
+#'  |1976  |1499  |-            |-    |-         |-            |1499  |
+#'  |1977  |1530  |-            |-    |-         |-            |1530  |
+#'  |1978  |1532  |-            |-    |-         |-            |1532  |
+#'  |1980  |1468  |-            |-    |-         |-            |1468  |
+#'  |1982  |1860  |-            |-    |-         |-            |1860  |
+#'  |1983  |1599  |-            |-    |-         |-            |1599  |
+#'  |1984  |1473  |-            |-    |-         |-            |1473  |
+#'  |1985  |1534  |-            |-    |-         |-            |1534  |
+#'  |1986  |1470  |-            |-    |-         |-            |1470  |
+#'  |1987  |1819  |-            |-    |-         |-            |1819  |
+#'  |1988  |1481  |-            |-    |-         |-            |1481  |
+#'  |1989  |84    |201          |394  |37        |821          |1537  |
+#'  |1990  |1372  |-            |-    |-         |-            |1372  |
+#'  |1991  |1517  |-            |-    |-         |-            |1517  |
+#'  |1993  |1606  |-            |-    |-         |-            |1606  |
+#'  |1994  |2992  |-            |-    |-         |-            |2992  |
+#'  |1996  |2904  |-            |-    |-         |-            |2904  |
+#'  |1998  |1609  |161          |231  |30        |801          |2832  |
+#'  |2000  |2817  |-            |-    |-         |-            |2817  |
+#'  |2002  |2765  |-            |-    |-         |-            |2765  |
+#'  |2004  |2812  |-            |-    |-         |-            |2812  |
+#'  |2006  |2992  |55           |449  |5         |1009         |4510  |
+#'  |2008  |2023  |-            |-    |-         |-            |2023  |
+#'  |2010  |2044  |-            |-    |-         |-            |2044  |
+#'  |2012  |1974  |-            |-    |-         |-            |1974  |
+#'  |2014  |2538  |-            |-    |-         |-            |2538  |
+#'  |2016  |2867  |-            |-    |-         |-            |2867  |
+#'  |2018  |2348  |-            |-    |-         |-            |2348  |
+#'  |2021  |4032  |-            |-    |-         |-            |4032  |
+#'  |2022  |3544  |-            |-    |-         |-            |3544  |
+#'  |Total |68196 |417          |1074 |72        |2631         |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` private firm
+#'   * `2` govt
+#'   * `NA(d)` can't choose
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name privgovt
+NULL
+
+#'  Does r work at least 10 hrs/wk
+#' 
+#'  workweek
+#' 
+#' Question 1329. Do you usually work 10 hours or more per week for pay in your main job?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |no  |no answer |not working |yes |iap  |Total |
+#'  |:-----|:--------------------------|:---|:---------|:-----------|:---|:----|:-----|
+#'  |1972  |1613                       |-   |-         |-           |-   |-    |1613  |
+#'  |1973  |1504                       |-   |-         |-           |-   |-    |1504  |
+#'  |1974  |1484                       |-   |-         |-           |-   |-    |1484  |
+#'  |1975  |1490                       |-   |-         |-           |-   |-    |1490  |
+#'  |1976  |1499                       |-   |-         |-           |-   |-    |1499  |
+#'  |1977  |1530                       |-   |-         |-           |-   |-    |1530  |
+#'  |1978  |1532                       |-   |-         |-           |-   |-    |1532  |
+#'  |1980  |1468                       |-   |-         |-           |-   |-    |1468  |
+#'  |1982  |1860                       |-   |-         |-           |-   |-    |1860  |
+#'  |1983  |1599                       |-   |-         |-           |-   |-    |1599  |
+#'  |1984  |1473                       |-   |-         |-           |-   |-    |1473  |
+#'  |1985  |1534                       |-   |-         |-           |-   |-    |1534  |
+#'  |1986  |1470                       |-   |-         |-           |-   |-    |1470  |
+#'  |1987  |1819                       |-   |-         |-           |-   |-    |1819  |
+#'  |1988  |1481                       |-   |-         |-           |-   |-    |1481  |
+#'  |1989  |-                          |160 |84        |395         |898 |-    |1537  |
+#'  |1990  |1372                       |-   |-         |-           |-   |-    |1372  |
+#'  |1991  |1517                       |-   |-         |-           |-   |-    |1517  |
+#'  |1993  |1606                       |-   |-         |-           |-   |-    |1606  |
+#'  |1994  |2992                       |-   |-         |-           |-   |-    |2992  |
+#'  |1996  |2904                       |-   |-         |-           |-   |-    |2904  |
+#'  |1998  |2832                       |-   |-         |-           |-   |-    |2832  |
+#'  |2000  |2817                       |-   |-         |-           |-   |-    |2817  |
+#'  |2002  |2765                       |-   |-         |-           |-   |-    |2765  |
+#'  |2004  |2812                       |-   |-         |-           |-   |-    |2812  |
+#'  |2006  |4510                       |-   |-         |-           |-   |-    |4510  |
+#'  |2008  |2023                       |-   |-         |-           |-   |-    |2023  |
+#'  |2010  |2044                       |-   |-         |-           |-   |-    |2044  |
+#'  |2012  |1974                       |-   |-         |-           |-   |-    |1974  |
+#'  |2014  |2538                       |-   |-         |-           |-   |-    |2538  |
+#'  |2016  |2867                       |-   |-         |-           |-   |-    |2867  |
+#'  |2018  |2348                       |-   |-         |-           |-   |-    |2348  |
+#'  |2021  |4032                       |-   |-         |-           |-   |-    |4032  |
+#'  |2022  |-                          |-   |-         |-           |-   |3544 |3544  |
+#'  |Total |67309                      |160 |84        |395         |898 |3544 |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `3` not working
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name workweek
+NULL
+
+#'  Would r like a job now
+#' 
+#'  wantjob
+#' 
+#' Question 1330. Would you like to have a paid job now?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |dont want |no answer |want full |want lt 10 hrs |want part |Total |
+#'  |:-----|:-----|:---------|:---------|:---------|:--------------|:---------|:-----|
+#'  |1972  |1613  |-         |-         |-         |-              |-         |1613  |
+#'  |1973  |1504  |-         |-         |-         |-              |-         |1504  |
+#'  |1974  |1484  |-         |-         |-         |-              |-         |1484  |
+#'  |1975  |1490  |-         |-         |-         |-              |-         |1490  |
+#'  |1976  |1499  |-         |-         |-         |-              |-         |1499  |
+#'  |1977  |1530  |-         |-         |-         |-              |-         |1530  |
+#'  |1978  |1532  |-         |-         |-         |-              |-         |1532  |
+#'  |1980  |1468  |-         |-         |-         |-              |-         |1468  |
+#'  |1982  |1860  |-         |-         |-         |-              |-         |1860  |
+#'  |1983  |1599  |-         |-         |-         |-              |-         |1599  |
+#'  |1984  |1473  |-         |-         |-         |-              |-         |1473  |
+#'  |1985  |1534  |-         |-         |-         |-              |-         |1534  |
+#'  |1986  |1470  |-         |-         |-         |-              |-         |1470  |
+#'  |1987  |1819  |-         |-         |-         |-              |-         |1819  |
+#'  |1988  |1481  |-         |-         |-         |-              |-         |1481  |
+#'  |1989  |908   |345       |109       |68        |42             |65        |1537  |
+#'  |1990  |1372  |-         |-         |-         |-              |-         |1372  |
+#'  |1991  |1517  |-         |-         |-         |-              |-         |1517  |
+#'  |1993  |1606  |-         |-         |-         |-              |-         |1606  |
+#'  |1994  |2992  |-         |-         |-         |-              |-         |2992  |
+#'  |1996  |2904  |-         |-         |-         |-              |-         |2904  |
+#'  |1998  |2832  |-         |-         |-         |-              |-         |2832  |
+#'  |2000  |2817  |-         |-         |-         |-              |-         |2817  |
+#'  |2002  |2765  |-         |-         |-         |-              |-         |2765  |
+#'  |2004  |2812  |-         |-         |-         |-              |-         |2812  |
+#'  |2006  |4510  |-         |-         |-         |-              |-         |4510  |
+#'  |2008  |2023  |-         |-         |-         |-              |-         |2023  |
+#'  |2010  |2044  |-         |-         |-         |-              |-         |2044  |
+#'  |2012  |1974  |-         |-         |-         |-              |-         |1974  |
+#'  |2014  |2538  |-         |-         |-         |-              |-         |2538  |
+#'  |2016  |2867  |-         |-         |-         |-              |-         |2867  |
+#'  |2018  |2348  |-         |-         |-         |-              |-         |2348  |
+#'  |2021  |4032  |-         |-         |-         |-              |-         |4032  |
+#'  |2022  |3544  |-         |-         |-         |-              |-         |3544  |
+#'  |Total |71761 |345       |109       |68        |42             |65        |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` want full
+#'   * `2` want part
+#'   * `3` want lt 10 hrs
+#'   * `4` dont want
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name wantjob
+NULL
+
+#'  Could r find a job (unemployed r's)
+#' 
+#'  findjob
+#' 
+#' Question 1331. If you were looking actively, how easy or difficult do you think it would be for you to find an acceptable job?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |can't choose |fairly difficult |fairly easy |neither easy nor difficult |no answer |very difficult |very easy |Total |
+#'  |:-----|:-----|:------------|:----------------|:-----------|:--------------------------|:---------|:--------------|:---------|:-----|
+#'  |1972  |1613  |-            |-                |-           |-                          |-         |-              |-         |1613  |
+#'  |1973  |1504  |-            |-                |-           |-                          |-         |-              |-         |1504  |
+#'  |1974  |1484  |-            |-                |-           |-                          |-         |-              |-         |1484  |
+#'  |1975  |1490  |-            |-                |-           |-                          |-         |-              |-         |1490  |
+#'  |1976  |1499  |-            |-                |-           |-                          |-         |-              |-         |1499  |
+#'  |1977  |1530  |-            |-                |-           |-                          |-         |-              |-         |1530  |
+#'  |1978  |1532  |-            |-                |-           |-                          |-         |-              |-         |1532  |
+#'  |1980  |1468  |-            |-                |-           |-                          |-         |-              |-         |1468  |
+#'  |1982  |1860  |-            |-                |-           |-                          |-         |-              |-         |1860  |
+#'  |1983  |1599  |-            |-                |-           |-                          |-         |-              |-         |1599  |
+#'  |1984  |1473  |-            |-                |-           |-                          |-         |-              |-         |1473  |
+#'  |1985  |1534  |-            |-                |-           |-                          |-         |-              |-         |1534  |
+#'  |1986  |1470  |-            |-                |-           |-                          |-         |-              |-         |1470  |
+#'  |1987  |1819  |-            |-                |-           |-                          |-         |-              |-         |1819  |
+#'  |1988  |1481  |-            |-                |-           |-                          |-         |-              |-         |1481  |
+#'  |1989  |1253  |10           |45               |44          |22                         |109       |41             |13        |1537  |
+#'  |1990  |1372  |-            |-                |-           |-                          |-         |-              |-         |1372  |
+#'  |1991  |1517  |-            |-                |-           |-                          |-         |-              |-         |1517  |
+#'  |1993  |1606  |-            |-                |-           |-                          |-         |-              |-         |1606  |
+#'  |1994  |2992  |-            |-                |-           |-                          |-         |-              |-         |2992  |
+#'  |1996  |2904  |-            |-                |-           |-                          |-         |-              |-         |2904  |
+#'  |1998  |1609  |44           |236              |365         |164                        |32        |148            |234       |2832  |
+#'  |2000  |2817  |-            |-                |-           |-                          |-         |-              |-         |2817  |
+#'  |2002  |2765  |-            |-                |-           |-                          |-         |-              |-         |2765  |
+#'  |2004  |2812  |-            |-                |-           |-                          |-         |-              |-         |2812  |
+#'  |2006  |4510  |-            |-                |-           |-                          |-         |-              |-         |4510  |
+#'  |2008  |2023  |-            |-                |-           |-                          |-         |-              |-         |2023  |
+#'  |2010  |2044  |-            |-                |-           |-                          |-         |-              |-         |2044  |
+#'  |2012  |1974  |-            |-                |-           |-                          |-         |-              |-         |1974  |
+#'  |2014  |2538  |-            |-                |-           |-                          |-         |-              |-         |2538  |
+#'  |2016  |2867  |-            |-                |-           |-                          |-         |-              |-         |2867  |
+#'  |2018  |2348  |-            |-                |-           |-                          |-         |-              |-         |2348  |
+#'  |2021  |4032  |-            |-                |-           |-                          |-         |-              |-         |4032  |
+#'  |2022  |3544  |-            |-                |-           |-                          |-         |-              |-         |3544  |
+#'  |Total |70883 |54           |281              |409         |186                        |141       |189            |247       |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` very easy
+#'   * `2` fairly easy
+#'   * `3` neither easy nor difficult
+#'   * `4` fairly difficult
+#'   * `5` very difficult
+#'   * `NA(d)` can't choose
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name findjob
+NULL
+
+#'  How hard does r work at job
+#' 
+#'  iwrkhard
+#' 
+#' Question 1332. Which of the following statements best describes your feelings about the job?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |can't choose |no answer |not to interfere |only minimum |real hard |Total |
+#'  |:-----|:-----|:------------|:---------|:----------------|:------------|:---------|:-----|
+#'  |1972  |1613  |-            |-         |-                |-            |-         |1613  |
+#'  |1973  |1504  |-            |-         |-                |-            |-         |1504  |
+#'  |1974  |1484  |-            |-         |-                |-            |-         |1484  |
+#'  |1975  |1490  |-            |-         |-                |-            |-         |1490  |
+#'  |1976  |1499  |-            |-         |-                |-            |-         |1499  |
+#'  |1977  |1530  |-            |-         |-                |-            |-         |1530  |
+#'  |1978  |1532  |-            |-         |-                |-            |-         |1532  |
+#'  |1980  |1468  |-            |-         |-                |-            |-         |1468  |
+#'  |1982  |1860  |-            |-         |-                |-            |-         |1860  |
+#'  |1983  |1599  |-            |-         |-                |-            |-         |1599  |
+#'  |1984  |1473  |-            |-         |-                |-            |-         |1473  |
+#'  |1985  |1534  |-            |-         |-                |-            |-         |1534  |
+#'  |1986  |1470  |-            |-         |-                |-            |-         |1470  |
+#'  |1987  |1819  |-            |-         |-                |-            |-         |1819  |
+#'  |1988  |1481  |-            |-         |-                |-            |-         |1481  |
+#'  |1989  |639   |11           |35        |265              |65           |522       |1537  |
+#'  |1990  |1372  |-            |-         |-                |-            |-         |1372  |
+#'  |1991  |1517  |-            |-         |-                |-            |-         |1517  |
+#'  |1993  |1606  |-            |-         |-                |-            |-         |1606  |
+#'  |1994  |2992  |-            |-         |-                |-            |-         |2992  |
+#'  |1996  |2904  |-            |-         |-                |-            |-         |2904  |
+#'  |1998  |1967  |13           |28        |306              |67           |451       |2832  |
+#'  |2000  |2817  |-            |-         |-                |-            |-         |2817  |
+#'  |2002  |2765  |-            |-         |-                |-            |-         |2765  |
+#'  |2004  |2812  |-            |-         |-                |-            |-         |2812  |
+#'  |2006  |4510  |-            |-         |-                |-            |-         |4510  |
+#'  |2008  |2023  |-            |-         |-                |-            |-         |2023  |
+#'  |2010  |2044  |-            |-         |-                |-            |-         |2044  |
+#'  |2012  |1974  |-            |-         |-                |-            |-         |1974  |
+#'  |2014  |2538  |-            |-         |-                |-            |-         |2538  |
+#'  |2016  |2867  |-            |-         |-                |-            |-         |2867  |
+#'  |2018  |2348  |-            |-         |-                |-            |-         |2348  |
+#'  |2021  |4032  |-            |-         |-                |-            |-         |4032  |
+#'  |2022  |3544  |-            |-         |-                |-            |-         |3544  |
+#'  |Total |70627 |24           |63        |571              |132          |973       |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` only minimum
+#'   * `2` not to interfere
+#'   * `3` real hard
+#'   * `NA(d)` can't choose
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name iwrkhard
+NULL
+
+#'  R preference re: work hrs and money
+#' 
+#'  hrsmoney
+#' 
+#' Question 1333. Think of the number of hours you work and the money you earn in your main job, including regular overtime. If you had only one of these three choices, which of the following would you prefer? 1. Work longer hours and earn more money 2. Work the same number of hours and earn the same money 3. Work fewer hours and earn less money
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |can't choose |no answer |work fewer hours and earn less money |work longer hours and earn more money |work the same number of hours and earn the same money |Total |
+#'  |:-----|:-----|:------------|:---------|:------------------------------------|:-------------------------------------|:-----------------------------------------------------|:-----|
+#'  |1972  |1613  |-            |-         |-                                    |-                                     |-                                                     |1613  |
+#'  |1973  |1504  |-            |-         |-                                    |-                                     |-                                                     |1504  |
+#'  |1974  |1484  |-            |-         |-                                    |-                                     |-                                                     |1484  |
+#'  |1975  |1490  |-            |-         |-                                    |-                                     |-                                                     |1490  |
+#'  |1976  |1499  |-            |-         |-                                    |-                                     |-                                                     |1499  |
+#'  |1977  |1530  |-            |-         |-                                    |-                                     |-                                                     |1530  |
+#'  |1978  |1532  |-            |-         |-                                    |-                                     |-                                                     |1532  |
+#'  |1980  |1468  |-            |-         |-                                    |-                                     |-                                                     |1468  |
+#'  |1982  |1860  |-            |-         |-                                    |-                                     |-                                                     |1860  |
+#'  |1983  |1599  |-            |-         |-                                    |-                                     |-                                                     |1599  |
+#'  |1984  |1473  |-            |-         |-                                    |-                                     |-                                                     |1473  |
+#'  |1985  |1534  |-            |-         |-                                    |-                                     |-                                                     |1534  |
+#'  |1986  |1470  |-            |-         |-                                    |-                                     |-                                                     |1470  |
+#'  |1987  |1819  |-            |-         |-                                    |-                                     |-                                                     |1819  |
+#'  |1988  |1481  |-            |-         |-                                    |-                                     |-                                                     |1481  |
+#'  |1989  |639   |72           |27        |44                                   |261                                   |494                                                   |1537  |
+#'  |1990  |1372  |-            |-         |-                                    |-                                     |-                                                     |1372  |
+#'  |1991  |1517  |-            |-         |-                                    |-                                     |-                                                     |1517  |
+#'  |1993  |1606  |-            |-         |-                                    |-                                     |-                                                     |1606  |
+#'  |1994  |2992  |-            |-         |-                                    |-                                     |-                                                     |2992  |
+#'  |1996  |2904  |-            |-         |-                                    |-                                     |-                                                     |2904  |
+#'  |1998  |1967  |71           |33        |77                                   |247                                   |437                                                   |2832  |
+#'  |2000  |2817  |-            |-         |-                                    |-                                     |-                                                     |2817  |
+#'  |2002  |2765  |-            |-         |-                                    |-                                     |-                                                     |2765  |
+#'  |2004  |2812  |-            |-         |-                                    |-                                     |-                                                     |2812  |
+#'  |2006  |3492  |4            |4         |57                                   |309                                   |644                                                   |4510  |
+#'  |2008  |2023  |-            |-         |-                                    |-                                     |-                                                     |2023  |
+#'  |2010  |2044  |-            |-         |-                                    |-                                     |-                                                     |2044  |
+#'  |2012  |1974  |-            |-         |-                                    |-                                     |-                                                     |1974  |
+#'  |2014  |2538  |-            |-         |-                                    |-                                     |-                                                     |2538  |
+#'  |2016  |1927  |6            |9         |42                                   |352                                   |531                                                   |2867  |
+#'  |2018  |2348  |-            |-         |-                                    |-                                     |-                                                     |2348  |
+#'  |2021  |4032  |-            |-         |-                                    |-                                     |-                                                     |4032  |
+#'  |2022  |3544  |-            |-         |-                                    |-                                     |-                                                     |3544  |
+#'  |Total |68669 |153          |73        |220                                  |1169                                  |2106                                                  |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` work longer hours and earn more money
+#'   * `2` work the same number of hours and earn the same money
+#'   * `3` work fewer hours and earn less money
+#'   * `NA(d)` can't choose
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name hrsmoney
+NULL
+
+#'  Importance of tenure
+#' 
+#'  ryrsfirm
+#' 
+#' Question 1334. Think of two people doing the same kind of work in your place. What do you personally think is important in deciding how much to pay them? Looking at the things below, please write '1' in the box next to the thing that you think is most important at your place of work. Then write '2' next to the thing that you think is next most important, and '3' next to the thing that you think is third most important. Leave the other boxes blank. At my work, deciding on two people doing the same kind of work, how important is... a. How long the employee has been with the firm
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |2nd most impt |3rd most impt |don't know |most impt |no answer |not chosen |Total |
+#'  |:-----|:-----|:-------------|:-------------|:----------|:---------|:---------|:----------|:-----|
+#'  |1972  |1613  |-             |-             |-          |-         |-         |-          |1613  |
+#'  |1973  |1504  |-             |-             |-          |-         |-         |-          |1504  |
+#'  |1974  |1484  |-             |-             |-          |-         |-         |-          |1484  |
+#'  |1975  |1490  |-             |-             |-          |-         |-         |-          |1490  |
+#'  |1976  |1499  |-             |-             |-          |-         |-         |-          |1499  |
+#'  |1977  |1530  |-             |-             |-          |-         |-         |-          |1530  |
+#'  |1978  |1532  |-             |-             |-          |-         |-         |-          |1532  |
+#'  |1980  |1468  |-             |-             |-          |-         |-         |-          |1468  |
+#'  |1982  |1860  |-             |-             |-          |-         |-         |-          |1860  |
+#'  |1983  |1599  |-             |-             |-          |-         |-         |-          |1599  |
+#'  |1984  |1473  |-             |-             |-          |-         |-         |-          |1473  |
+#'  |1985  |1534  |-             |-             |-          |-         |-         |-          |1534  |
+#'  |1986  |1470  |-             |-             |-          |-         |-         |-          |1470  |
+#'  |1987  |1819  |-             |-             |-          |-         |-         |-          |1819  |
+#'  |1988  |1481  |-             |-             |-          |-         |-         |-          |1481  |
+#'  |1989  |639   |132           |226           |25         |74        |178       |263        |1537  |
+#'  |1990  |1372  |-             |-             |-          |-         |-         |-          |1372  |
+#'  |1991  |1517  |-             |-             |-          |-         |-         |-          |1517  |
+#'  |1993  |1606  |-             |-             |-          |-         |-         |-          |1606  |
+#'  |1994  |2992  |-             |-             |-          |-         |-         |-          |2992  |
+#'  |1996  |2904  |-             |-             |-          |-         |-         |-          |2904  |
+#'  |1998  |2832  |-             |-             |-          |-         |-         |-          |2832  |
+#'  |2000  |2817  |-             |-             |-          |-         |-         |-          |2817  |
+#'  |2002  |2765  |-             |-             |-          |-         |-         |-          |2765  |
+#'  |2004  |2812  |-             |-             |-          |-         |-         |-          |2812  |
+#'  |2006  |4510  |-             |-             |-          |-         |-         |-          |4510  |
+#'  |2008  |2023  |-             |-             |-          |-         |-         |-          |2023  |
+#'  |2010  |2044  |-             |-             |-          |-         |-         |-          |2044  |
+#'  |2012  |1974  |-             |-             |-          |-         |-         |-          |1974  |
+#'  |2014  |2538  |-             |-             |-          |-         |-         |-          |2538  |
+#'  |2016  |2867  |-             |-             |-          |-         |-         |-          |2867  |
+#'  |2018  |2348  |-             |-             |-          |-         |-         |-          |2348  |
+#'  |2021  |4032  |-             |-             |-          |-         |-         |-          |4032  |
+#'  |2022  |3544  |-             |-             |-          |-         |-         |-          |3544  |
+#'  |Total |71492 |132           |226           |25         |74        |178       |263        |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` most impt
+#'   * `2` 2nd most impt
+#'   * `3` 3rd most impt
+#'   * `4` not chosen
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name ryrsfirm
+NULL
+

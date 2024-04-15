@@ -1,0 +1,762 @@
+#'  How much trust does r have in local gov
+#' 
+#'  loctrust
+#' 
+#' Question 326. How much of the time do you think you can trust the local government here is to do what is right?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |almost always |almost never |don't know |most of time |no answer |some of time |Total |
+#'  |:-----|:-----|:-------------|:------------|:----------|:------------|:---------|:------------|:-----|
+#'  |1972  |1613  |-             |-            |-          |-            |-         |-            |1613  |
+#'  |1973  |1504  |-             |-            |-          |-            |-         |-            |1504  |
+#'  |1974  |1484  |-             |-            |-          |-            |-         |-            |1484  |
+#'  |1975  |1490  |-             |-            |-          |-            |-         |-            |1490  |
+#'  |1976  |1499  |-             |-            |-          |-            |-         |-            |1499  |
+#'  |1977  |1530  |-             |-            |-          |-            |-         |-            |1530  |
+#'  |1978  |1532  |-             |-            |-          |-            |-         |-            |1532  |
+#'  |1980  |1468  |-             |-            |-          |-            |-         |-            |1468  |
+#'  |1982  |1860  |-             |-            |-          |-            |-         |-            |1860  |
+#'  |1983  |1599  |-             |-            |-          |-            |-         |-            |1599  |
+#'  |1984  |1473  |-             |-            |-          |-            |-         |-            |1473  |
+#'  |1985  |1534  |-             |-            |-          |-            |-         |-            |1534  |
+#'  |1986  |1470  |-             |-            |-          |-            |-         |-            |1470  |
+#'  |1987  |-     |196           |130          |78         |750          |12        |653          |1819  |
+#'  |1988  |1481  |-             |-            |-          |-            |-         |-            |1481  |
+#'  |1989  |1537  |-             |-            |-          |-            |-         |-            |1537  |
+#'  |1990  |1372  |-             |-            |-          |-            |-         |-            |1372  |
+#'  |1991  |1517  |-             |-            |-          |-            |-         |-            |1517  |
+#'  |1993  |1606  |-             |-            |-          |-            |-         |-            |1606  |
+#'  |1994  |2992  |-             |-            |-          |-            |-         |-            |2992  |
+#'  |1996  |2904  |-             |-            |-          |-            |-         |-            |2904  |
+#'  |1998  |2832  |-             |-            |-          |-            |-         |-            |2832  |
+#'  |2000  |2817  |-             |-            |-          |-            |-         |-            |2817  |
+#'  |2002  |2765  |-             |-            |-          |-            |-         |-            |2765  |
+#'  |2004  |2812  |-             |-            |-          |-            |-         |-            |2812  |
+#'  |2006  |4510  |-             |-            |-          |-            |-         |-            |4510  |
+#'  |2008  |2023  |-             |-            |-          |-            |-         |-            |2023  |
+#'  |2010  |2044  |-             |-            |-          |-            |-         |-            |2044  |
+#'  |2012  |1974  |-             |-            |-          |-            |-         |-            |1974  |
+#'  |2014  |2538  |-             |-            |-          |-            |-         |-            |2538  |
+#'  |2016  |2867  |-             |-            |-          |-            |-         |-            |2867  |
+#'  |2018  |2348  |-             |-            |-          |-            |-         |-            |2348  |
+#'  |2021  |4032  |-             |-            |-          |-            |-         |-            |4032  |
+#'  |2022  |3544  |-             |-            |-          |-            |-         |-            |3544  |
+#'  |Total |70571 |196           |130          |78         |750          |12        |653          |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` almost always
+#'   * `2` most of time
+#'   * `3` some of time
+#'   * `4` almost never
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name loctrust
+NULL
+
+#'  How much influence r feels on local gov
+#' 
+#'  locinflu
+#' 
+#' Question 337. How much influence do you think people like you can have over local government decisions?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |a little |a lot |don't know |moderate amount |no answer |none |Total |
+#'  |:-----|:-----|:--------|:-----|:----------|:---------------|:---------|:----|:-----|
+#'  |1972  |1613  |-        |-     |-          |-               |-         |-    |1613  |
+#'  |1973  |1504  |-        |-     |-          |-               |-         |-    |1504  |
+#'  |1974  |1484  |-        |-     |-          |-               |-         |-    |1484  |
+#'  |1975  |1490  |-        |-     |-          |-               |-         |-    |1490  |
+#'  |1976  |1499  |-        |-     |-          |-               |-         |-    |1499  |
+#'  |1977  |1530  |-        |-     |-          |-               |-         |-    |1530  |
+#'  |1978  |1532  |-        |-     |-          |-               |-         |-    |1532  |
+#'  |1980  |1468  |-        |-     |-          |-               |-         |-    |1468  |
+#'  |1982  |1860  |-        |-     |-          |-               |-         |-    |1860  |
+#'  |1983  |1599  |-        |-     |-          |-               |-         |-    |1599  |
+#'  |1984  |1473  |-        |-     |-          |-               |-         |-    |1473  |
+#'  |1985  |1534  |-        |-     |-          |-               |-         |-    |1534  |
+#'  |1986  |1470  |-        |-     |-          |-               |-         |-    |1470  |
+#'  |1987  |-     |650      |252   |33         |585             |7         |292  |1819  |
+#'  |1988  |1481  |-        |-     |-          |-               |-         |-    |1481  |
+#'  |1989  |1537  |-        |-     |-          |-               |-         |-    |1537  |
+#'  |1990  |1372  |-        |-     |-          |-               |-         |-    |1372  |
+#'  |1991  |1517  |-        |-     |-          |-               |-         |-    |1517  |
+#'  |1993  |1606  |-        |-     |-          |-               |-         |-    |1606  |
+#'  |1994  |2992  |-        |-     |-          |-               |-         |-    |2992  |
+#'  |1996  |2904  |-        |-     |-          |-               |-         |-    |2904  |
+#'  |1998  |2832  |-        |-     |-          |-               |-         |-    |2832  |
+#'  |2000  |2817  |-        |-     |-          |-               |-         |-    |2817  |
+#'  |2002  |2765  |-        |-     |-          |-               |-         |-    |2765  |
+#'  |2004  |2812  |-        |-     |-          |-               |-         |-    |2812  |
+#'  |2006  |4510  |-        |-     |-          |-               |-         |-    |4510  |
+#'  |2008  |2023  |-        |-     |-          |-               |-         |-    |2023  |
+#'  |2010  |2044  |-        |-     |-          |-               |-         |-    |2044  |
+#'  |2012  |1974  |-        |-     |-          |-               |-         |-    |1974  |
+#'  |2014  |2538  |-        |-     |-          |-               |-         |-    |2538  |
+#'  |2016  |2867  |-        |-     |-          |-               |-         |-    |2867  |
+#'  |2018  |2348  |-        |-     |-          |-               |-         |-    |2348  |
+#'  |2021  |4032  |-        |-     |-          |-               |-         |-    |4032  |
+#'  |2022  |3544  |-        |-     |-          |-               |-         |-    |3544  |
+#'  |Total |70571 |650      |252   |33         |585             |7         |292  |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` a lot
+#'   * `2` moderate amount
+#'   * `3` a little
+#'   * `4` none
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name locinflu
+NULL
+
+#'  Has r helped to solve local problems
+#' 
+#'  locprob
+#' 
+#' Question 338. Have you ever worked with others in this community to try to solve some community problems?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |no   |no answer |yes |Total |
+#'  |:-----|:-----|:----|:---------|:---|:-----|
+#'  |1972  |1613  |-    |-         |-   |1613  |
+#'  |1973  |1504  |-    |-         |-   |1504  |
+#'  |1974  |1484  |-    |-         |-   |1484  |
+#'  |1975  |1490  |-    |-         |-   |1490  |
+#'  |1976  |1499  |-    |-         |-   |1499  |
+#'  |1977  |1530  |-    |-         |-   |1530  |
+#'  |1978  |1532  |-    |-         |-   |1532  |
+#'  |1980  |1468  |-    |-         |-   |1468  |
+#'  |1982  |1860  |-    |-         |-   |1860  |
+#'  |1983  |1599  |-    |-         |-   |1599  |
+#'  |1984  |1473  |-    |-         |-   |1473  |
+#'  |1985  |1534  |-    |-         |-   |1534  |
+#'  |1986  |1470  |-    |-         |-   |1470  |
+#'  |1987  |-     |1206 |9         |604 |1819  |
+#'  |1988  |1481  |-    |-         |-   |1481  |
+#'  |1989  |1537  |-    |-         |-   |1537  |
+#'  |1990  |1372  |-    |-         |-   |1372  |
+#'  |1991  |1517  |-    |-         |-   |1517  |
+#'  |1993  |1606  |-    |-         |-   |1606  |
+#'  |1994  |2992  |-    |-         |-   |2992  |
+#'  |1996  |2904  |-    |-         |-   |2904  |
+#'  |1998  |2832  |-    |-         |-   |2832  |
+#'  |2000  |2817  |-    |-         |-   |2817  |
+#'  |2002  |2765  |-    |-         |-   |2765  |
+#'  |2004  |2812  |-    |-         |-   |2812  |
+#'  |2006  |4510  |-    |-         |-   |4510  |
+#'  |2008  |2023  |-    |-         |-   |2023  |
+#'  |2010  |2044  |-    |-         |-   |2044  |
+#'  |2012  |1974  |-    |-         |-   |1974  |
+#'  |2014  |2538  |-    |-         |-   |2538  |
+#'  |2016  |2867  |-    |-         |-   |2867  |
+#'  |2018  |2348  |-    |-         |-   |2348  |
+#'  |2021  |4032  |-    |-         |-   |4032  |
+#'  |2022  |3544  |-    |-         |-   |3544  |
+#'  |Total |70571 |1206 |9         |604 |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name locprob
+NULL
+
+#'  Has r helped to start new local group
+#' 
+#'  locgrp
+#' 
+#' Question 339. Have you ever taken part in forming a new group or a new organization to try to solve some community problems?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |no   |no answer |yes |Total |
+#'  |:-----|:-----|:----|:---------|:---|:-----|
+#'  |1972  |1613  |-    |-         |-   |1613  |
+#'  |1973  |1504  |-    |-         |-   |1504  |
+#'  |1974  |1484  |-    |-         |-   |1484  |
+#'  |1975  |1490  |-    |-         |-   |1490  |
+#'  |1976  |1499  |-    |-         |-   |1499  |
+#'  |1977  |1530  |-    |-         |-   |1530  |
+#'  |1978  |1532  |-    |-         |-   |1532  |
+#'  |1980  |1468  |-    |-         |-   |1468  |
+#'  |1982  |1860  |-    |-         |-   |1860  |
+#'  |1983  |1599  |-    |-         |-   |1599  |
+#'  |1984  |1473  |-    |-         |-   |1473  |
+#'  |1985  |1534  |-    |-         |-   |1534  |
+#'  |1986  |1470  |-    |-         |-   |1470  |
+#'  |1987  |-     |1498 |12        |309 |1819  |
+#'  |1988  |1481  |-    |-         |-   |1481  |
+#'  |1989  |1537  |-    |-         |-   |1537  |
+#'  |1990  |1372  |-    |-         |-   |1372  |
+#'  |1991  |1517  |-    |-         |-   |1517  |
+#'  |1993  |1606  |-    |-         |-   |1606  |
+#'  |1994  |2992  |-    |-         |-   |2992  |
+#'  |1996  |2904  |-    |-         |-   |2904  |
+#'  |1998  |2832  |-    |-         |-   |2832  |
+#'  |2000  |2817  |-    |-         |-   |2817  |
+#'  |2002  |2765  |-    |-         |-   |2765  |
+#'  |2004  |2812  |-    |-         |-   |2812  |
+#'  |2006  |4510  |-    |-         |-   |4510  |
+#'  |2008  |2023  |-    |-         |-   |2023  |
+#'  |2010  |2044  |-    |-         |-   |2044  |
+#'  |2012  |1974  |-    |-         |-   |1974  |
+#'  |2014  |2538  |-    |-         |-   |2538  |
+#'  |2016  |2867  |-    |-         |-   |2867  |
+#'  |2018  |2348  |-    |-         |-   |2348  |
+#'  |2021  |4032  |-    |-         |-   |4032  |
+#'  |2022  |3544  |-    |-         |-   |3544  |
+#'  |Total |70571 |1498 |12        |309 |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name locgrp
+NULL
+
+#'  Would local officials listen to problem
+#' 
+#'  loccare
+#' 
+#' Question 340. If you had some complaint about a local government activity and took that complaint to a member of the local government council, would you expect him or her to pay a lot of attention to what you say, some attention, very little attention, or none at all?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |lot of attention |no answer |none |some |very little |Total |
+#'  |:-----|:-----|:----------|:----------------|:---------|:----|:----|:-----------|:-----|
+#'  |1972  |1613  |-          |-                |-         |-    |-    |-           |1613  |
+#'  |1973  |1504  |-          |-                |-         |-    |-    |-           |1504  |
+#'  |1974  |1484  |-          |-                |-         |-    |-    |-           |1484  |
+#'  |1975  |1490  |-          |-                |-         |-    |-    |-           |1490  |
+#'  |1976  |1499  |-          |-                |-         |-    |-    |-           |1499  |
+#'  |1977  |1530  |-          |-                |-         |-    |-    |-           |1530  |
+#'  |1978  |1532  |-          |-                |-         |-    |-    |-           |1532  |
+#'  |1980  |1468  |-          |-                |-         |-    |-    |-           |1468  |
+#'  |1982  |1860  |-          |-                |-         |-    |-    |-           |1860  |
+#'  |1983  |1599  |-          |-                |-         |-    |-    |-           |1599  |
+#'  |1984  |1473  |-          |-                |-         |-    |-    |-           |1473  |
+#'  |1985  |1534  |-          |-                |-         |-    |-    |-           |1534  |
+#'  |1986  |1470  |-          |-                |-         |-    |-    |-           |1470  |
+#'  |1987  |-     |35         |487              |10        |121  |859  |307         |1819  |
+#'  |1988  |1481  |-          |-                |-         |-    |-    |-           |1481  |
+#'  |1989  |1537  |-          |-                |-         |-    |-    |-           |1537  |
+#'  |1990  |1372  |-          |-                |-         |-    |-    |-           |1372  |
+#'  |1991  |1517  |-          |-                |-         |-    |-    |-           |1517  |
+#'  |1993  |1606  |-          |-                |-         |-    |-    |-           |1606  |
+#'  |1994  |2992  |-          |-                |-         |-    |-    |-           |2992  |
+#'  |1996  |2904  |-          |-                |-         |-    |-    |-           |2904  |
+#'  |1998  |2832  |-          |-                |-         |-    |-    |-           |2832  |
+#'  |2000  |2817  |-          |-                |-         |-    |-    |-           |2817  |
+#'  |2002  |2765  |-          |-                |-         |-    |-    |-           |2765  |
+#'  |2004  |2812  |-          |-                |-         |-    |-    |-           |2812  |
+#'  |2006  |4510  |-          |-                |-         |-    |-    |-           |4510  |
+#'  |2008  |2023  |-          |-                |-         |-    |-    |-           |2023  |
+#'  |2010  |2044  |-          |-                |-         |-    |-    |-           |2044  |
+#'  |2012  |1974  |-          |-                |-         |-    |-    |-           |1974  |
+#'  |2014  |2538  |-          |-                |-         |-    |-    |-           |2538  |
+#'  |2016  |2867  |-          |-                |-         |-    |-    |-           |2867  |
+#'  |2018  |2348  |-          |-                |-         |-    |-    |-           |2348  |
+#'  |2021  |4032  |-          |-                |-         |-    |-    |-           |4032  |
+#'  |2022  |3544  |-          |-                |-         |-    |-    |-           |3544  |
+#'  |Total |70571 |35         |487              |10        |121  |859  |307         |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` lot of attention
+#'   * `2` some
+#'   * `3` very little
+#'   * `4` none
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name loccare
+NULL
+
+#'  How interested in politics is r
+#' 
+#'  intpol
+#' 
+#' Question 341. How interested are you in politics and national affairs?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no answer |not interested |slightly int |somewhat int |very interested |Total |
+#'  |:-----|:-----|:----------|:---------|:--------------|:------------|:------------|:---------------|:-----|
+#'  |1972  |1613  |-          |-         |-              |-            |-            |-               |1613  |
+#'  |1973  |1504  |-          |-         |-              |-            |-            |-               |1504  |
+#'  |1974  |1484  |-          |-         |-              |-            |-            |-               |1484  |
+#'  |1975  |1490  |-          |-         |-              |-            |-            |-               |1490  |
+#'  |1976  |1499  |-          |-         |-              |-            |-            |-               |1499  |
+#'  |1977  |1530  |-          |-         |-              |-            |-            |-               |1530  |
+#'  |1978  |1532  |-          |-         |-              |-            |-            |-               |1532  |
+#'  |1980  |1468  |-          |-         |-              |-            |-            |-               |1468  |
+#'  |1982  |1860  |-          |-         |-              |-            |-            |-               |1860  |
+#'  |1983  |1599  |-          |-         |-              |-            |-            |-               |1599  |
+#'  |1984  |1473  |-          |-         |-              |-            |-            |-               |1473  |
+#'  |1985  |1534  |-          |-         |-              |-            |-            |-               |1534  |
+#'  |1986  |1470  |-          |-         |-              |-            |-            |-               |1470  |
+#'  |1987  |-     |5          |9         |180            |481          |742          |402             |1819  |
+#'  |1988  |1481  |-          |-         |-              |-            |-            |-               |1481  |
+#'  |1989  |1537  |-          |-         |-              |-            |-            |-               |1537  |
+#'  |1990  |1372  |-          |-         |-              |-            |-            |-               |1372  |
+#'  |1991  |1517  |-          |-         |-              |-            |-            |-               |1517  |
+#'  |1993  |1606  |-          |-         |-              |-            |-            |-               |1606  |
+#'  |1994  |2992  |-          |-         |-              |-            |-            |-               |2992  |
+#'  |1996  |2904  |-          |-         |-              |-            |-            |-               |2904  |
+#'  |1998  |2832  |-          |-         |-              |-            |-            |-               |2832  |
+#'  |2000  |2817  |-          |-         |-              |-            |-            |-               |2817  |
+#'  |2002  |2765  |-          |-         |-              |-            |-            |-               |2765  |
+#'  |2004  |2812  |-          |-         |-              |-            |-            |-               |2812  |
+#'  |2006  |4510  |-          |-         |-              |-            |-            |-               |4510  |
+#'  |2008  |2023  |-          |-         |-              |-            |-            |-               |2023  |
+#'  |2010  |2044  |-          |-         |-              |-            |-            |-               |2044  |
+#'  |2012  |1974  |-          |-         |-              |-            |-            |-               |1974  |
+#'  |2014  |2538  |-          |-         |-              |-            |-            |-               |2538  |
+#'  |2016  |2867  |-          |-         |-              |-            |-            |-               |2867  |
+#'  |2018  |2348  |-          |-         |-              |-            |-            |-               |2348  |
+#'  |2021  |4032  |-          |-         |-              |-            |-            |-               |4032  |
+#'  |2022  |3544  |-          |-         |-              |-            |-            |-               |3544  |
+#'  |Total |70571 |5          |9         |180            |481          |742          |402             |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` very interested
+#'   * `2` somewhat int
+#'   * `3` slightly int
+#'   * `4` not interested
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name intpol
+NULL
+
+#'  Has r tried to influence votes of others
+#' 
+#'  swayvote
+#' 
+#' Question 342. During elections, do you ever try to show people why they should vote for one of the parties or candidates?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |never |no answer |often |rarely |sometimes |Total |
+#'  |:-----|:-----|:----------|:-----|:---------|:-----|:------|:---------|:-----|
+#'  |1972  |1613  |-          |-     |-         |-     |-      |-         |1613  |
+#'  |1973  |1504  |-          |-     |-         |-     |-      |-         |1504  |
+#'  |1974  |1484  |-          |-     |-         |-     |-      |-         |1484  |
+#'  |1975  |1490  |-          |-     |-         |-     |-      |-         |1490  |
+#'  |1976  |1499  |-          |-     |-         |-     |-      |-         |1499  |
+#'  |1977  |1530  |-          |-     |-         |-     |-      |-         |1530  |
+#'  |1978  |1532  |-          |-     |-         |-     |-      |-         |1532  |
+#'  |1980  |1468  |-          |-     |-         |-     |-      |-         |1468  |
+#'  |1982  |1860  |-          |-     |-         |-     |-      |-         |1860  |
+#'  |1983  |1599  |-          |-     |-         |-     |-      |-         |1599  |
+#'  |1984  |1473  |-          |-     |-         |-     |-      |-         |1473  |
+#'  |1985  |1534  |-          |-     |-         |-     |-      |-         |1534  |
+#'  |1986  |1470  |-          |-     |-         |-     |-      |-         |1470  |
+#'  |1987  |-     |4          |986   |9         |175   |247    |398       |1819  |
+#'  |1988  |1481  |-          |-     |-         |-     |-      |-         |1481  |
+#'  |1989  |1537  |-          |-     |-         |-     |-      |-         |1537  |
+#'  |1990  |1372  |-          |-     |-         |-     |-      |-         |1372  |
+#'  |1991  |1517  |-          |-     |-         |-     |-      |-         |1517  |
+#'  |1993  |1606  |-          |-     |-         |-     |-      |-         |1606  |
+#'  |1994  |2992  |-          |-     |-         |-     |-      |-         |2992  |
+#'  |1996  |2904  |-          |-     |-         |-     |-      |-         |2904  |
+#'  |1998  |2832  |-          |-     |-         |-     |-      |-         |2832  |
+#'  |2000  |2817  |-          |-     |-         |-     |-      |-         |2817  |
+#'  |2002  |2765  |-          |-     |-         |-     |-      |-         |2765  |
+#'  |2004  |2812  |-          |-     |-         |-     |-      |-         |2812  |
+#'  |2006  |4510  |-          |-     |-         |-     |-      |-         |4510  |
+#'  |2008  |2023  |-          |-     |-         |-     |-      |-         |2023  |
+#'  |2010  |2044  |-          |-     |-         |-     |-      |-         |2044  |
+#'  |2012  |1974  |-          |-     |-         |-     |-      |-         |1974  |
+#'  |2014  |2538  |-          |-     |-         |-     |-      |-         |2538  |
+#'  |2016  |2867  |-          |-     |-         |-     |-      |-         |2867  |
+#'  |2018  |2348  |-          |-     |-         |-     |-      |-         |2348  |
+#'  |2021  |4032  |-          |-     |-         |-     |-      |-         |4032  |
+#'  |2022  |3544  |-          |-     |-         |-     |-      |-         |3544  |
+#'  |Total |70571 |4          |986   |9         |175   |247    |398       |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` often
+#'   * `2` sometimes
+#'   * `3` rarely
+#'   * `4` never
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name swayvote
+NULL
+
+#'  Has r worked for parties or candidates
+#' 
+#'  workpol
+#' 
+#' Question 343. Have you done (other) work for one of the parties or candidates in most elections, some elections, only a few, or have you never done such work?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |most elections |never |no answer |only a few |some elections |Total |
+#'  |:-----|:-----|:--------------|:-----|:---------|:----------|:--------------|:-----|
+#'  |1972  |1613  |-              |-     |-         |-          |-              |1613  |
+#'  |1973  |1504  |-              |-     |-         |-          |-              |1504  |
+#'  |1974  |1484  |-              |-     |-         |-          |-              |1484  |
+#'  |1975  |1490  |-              |-     |-         |-          |-              |1490  |
+#'  |1976  |1499  |-              |-     |-         |-          |-              |1499  |
+#'  |1977  |1530  |-              |-     |-         |-          |-              |1530  |
+#'  |1978  |1532  |-              |-     |-         |-          |-              |1532  |
+#'  |1980  |1468  |-              |-     |-         |-          |-              |1468  |
+#'  |1982  |1860  |-              |-     |-         |-          |-              |1860  |
+#'  |1983  |1599  |-              |-     |-         |-          |-              |1599  |
+#'  |1984  |1473  |-              |-     |-         |-          |-              |1473  |
+#'  |1985  |1534  |-              |-     |-         |-          |-              |1534  |
+#'  |1986  |1470  |-              |-     |-         |-          |-              |1470  |
+#'  |1987  |-     |48             |1344  |10        |251        |166            |1819  |
+#'  |1988  |1481  |-              |-     |-         |-          |-              |1481  |
+#'  |1989  |1537  |-              |-     |-         |-          |-              |1537  |
+#'  |1990  |1372  |-              |-     |-         |-          |-              |1372  |
+#'  |1991  |1517  |-              |-     |-         |-          |-              |1517  |
+#'  |1993  |1606  |-              |-     |-         |-          |-              |1606  |
+#'  |1994  |2992  |-              |-     |-         |-          |-              |2992  |
+#'  |1996  |2904  |-              |-     |-         |-          |-              |2904  |
+#'  |1998  |2832  |-              |-     |-         |-          |-              |2832  |
+#'  |2000  |2817  |-              |-     |-         |-          |-              |2817  |
+#'  |2002  |2765  |-              |-     |-         |-          |-              |2765  |
+#'  |2004  |2812  |-              |-     |-         |-          |-              |2812  |
+#'  |2006  |4510  |-              |-     |-         |-          |-              |4510  |
+#'  |2008  |2023  |-              |-     |-         |-          |-              |2023  |
+#'  |2010  |2044  |-              |-     |-         |-          |-              |2044  |
+#'  |2012  |1974  |-              |-     |-         |-          |-              |1974  |
+#'  |2014  |2538  |-              |-     |-         |-          |-              |2538  |
+#'  |2016  |2867  |-              |-     |-         |-          |-              |2867  |
+#'  |2018  |2348  |-              |-     |-         |-          |-              |2348  |
+#'  |2021  |4032  |-              |-     |-         |-          |-              |4032  |
+#'  |2022  |3544  |-              |-     |-         |-          |-              |3544  |
+#'  |Total |70571 |48             |1344  |10        |251        |166            |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` most elections
+#'   * `2` some elections
+#'   * `3` only a few
+#'   * `4` never
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name workpol
+NULL
+
+#'  Has r attended political rallies
+#' 
+#'  polrally
+#' 
+#' Question 344. In the past three or four years, have you attended any political meetings or rallies?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |no   |no answer |yes |Total |
+#'  |:-----|:-----|:----|:---------|:---|:-----|
+#'  |1972  |1613  |-    |-         |-   |1613  |
+#'  |1973  |1504  |-    |-         |-   |1504  |
+#'  |1974  |1484  |-    |-         |-   |1484  |
+#'  |1975  |1490  |-    |-         |-   |1490  |
+#'  |1976  |1499  |-    |-         |-   |1499  |
+#'  |1977  |1530  |-    |-         |-   |1530  |
+#'  |1978  |1532  |-    |-         |-   |1532  |
+#'  |1980  |1468  |-    |-         |-   |1468  |
+#'  |1982  |1860  |-    |-         |-   |1860  |
+#'  |1983  |1599  |-    |-         |-   |1599  |
+#'  |1984  |1473  |-    |-         |-   |1473  |
+#'  |1985  |1534  |-    |-         |-   |1534  |
+#'  |1986  |1470  |-    |-         |-   |1470  |
+#'  |1987  |-     |1453 |12        |354 |1819  |
+#'  |1988  |1481  |-    |-         |-   |1481  |
+#'  |1989  |1537  |-    |-         |-   |1537  |
+#'  |1990  |1372  |-    |-         |-   |1372  |
+#'  |1991  |1517  |-    |-         |-   |1517  |
+#'  |1993  |1606  |-    |-         |-   |1606  |
+#'  |1994  |2992  |-    |-         |-   |2992  |
+#'  |1996  |2904  |-    |-         |-   |2904  |
+#'  |1998  |2832  |-    |-         |-   |2832  |
+#'  |2000  |2817  |-    |-         |-   |2817  |
+#'  |2002  |2765  |-    |-         |-   |2765  |
+#'  |2004  |2812  |-    |-         |-   |2812  |
+#'  |2006  |4510  |-    |-         |-   |4510  |
+#'  |2008  |2023  |-    |-         |-   |2023  |
+#'  |2010  |2044  |-    |-         |-   |2044  |
+#'  |2012  |1974  |-    |-         |-   |1974  |
+#'  |2014  |2538  |-    |-         |-   |2538  |
+#'  |2016  |2867  |-    |-         |-   |2867  |
+#'  |2018  |2348  |-    |-         |-   |2348  |
+#'  |2021  |4032  |-    |-         |-   |4032  |
+#'  |2022  |3544  |-    |-         |-   |3544  |
+#'  |Total |70571 |1453 |12        |354 |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name polrally
+NULL
+
+#'  Has r lobbied local officials
+#' 
+#'  loclobby
+#' 
+#' Question 345. Have you ever personally gone to see, or spokent to, or written to some member of local government or some other person of influence in the community about some needs or problems?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |no   |no answer |yes |Total |
+#'  |:-----|:-----|:----|:---------|:---|:-----|
+#'  |1972  |1613  |-    |-         |-   |1613  |
+#'  |1973  |1504  |-    |-         |-   |1504  |
+#'  |1974  |1484  |-    |-         |-   |1484  |
+#'  |1975  |1490  |-    |-         |-   |1490  |
+#'  |1976  |1499  |-    |-         |-   |1499  |
+#'  |1977  |1530  |-    |-         |-   |1530  |
+#'  |1978  |1532  |-    |-         |-   |1532  |
+#'  |1980  |1468  |-    |-         |-   |1468  |
+#'  |1982  |1860  |-    |-         |-   |1860  |
+#'  |1983  |1599  |-    |-         |-   |1599  |
+#'  |1984  |1473  |-    |-         |-   |1473  |
+#'  |1985  |1534  |-    |-         |-   |1534  |
+#'  |1986  |1470  |-    |-         |-   |1470  |
+#'  |1987  |-     |1216 |9         |594 |1819  |
+#'  |1988  |1481  |-    |-         |-   |1481  |
+#'  |1989  |1537  |-    |-         |-   |1537  |
+#'  |1990  |1372  |-    |-         |-   |1372  |
+#'  |1991  |1517  |-    |-         |-   |1517  |
+#'  |1993  |1606  |-    |-         |-   |1606  |
+#'  |1994  |2992  |-    |-         |-   |2992  |
+#'  |1996  |2904  |-    |-         |-   |2904  |
+#'  |1998  |2832  |-    |-         |-   |2832  |
+#'  |2000  |2817  |-    |-         |-   |2817  |
+#'  |2002  |2765  |-    |-         |-   |2765  |
+#'  |2004  |2812  |-    |-         |-   |2812  |
+#'  |2006  |4510  |-    |-         |-   |4510  |
+#'  |2008  |2023  |-    |-         |-   |2023  |
+#'  |2010  |2044  |-    |-         |-   |2044  |
+#'  |2012  |1974  |-    |-         |-   |1974  |
+#'  |2014  |2538  |-    |-         |-   |2538  |
+#'  |2016  |2867  |-    |-         |-   |2867  |
+#'  |2018  |2348  |-    |-         |-   |2348  |
+#'  |2021  |4032  |-    |-         |-   |4032  |
+#'  |2022  |3544  |-    |-         |-   |3544  |
+#'  |Total |70571 |1216 |9         |594 |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name loclobby
+NULL
+

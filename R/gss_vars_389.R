@@ -1,0 +1,774 @@
+#'  Engineers odd and peculiar
+#' 
+#'  engodd
+#' 
+#' Question Engineers are apt to be odd and peculiar people. Do you strongly agree, agree, disagree, or strongly disagree?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |agree |disagree |don't know |no answer |strongly agree |strongly disagree |Total |
+#'  |:-----|:-----|:-----|:--------|:----------|:---------|:--------------|:-----------------|:-----|
+#'  |1972  |1613  |-     |-        |-          |-         |-              |-                 |1613  |
+#'  |1973  |1504  |-     |-        |-          |-         |-              |-                 |1504  |
+#'  |1974  |1484  |-     |-        |-          |-         |-              |-                 |1484  |
+#'  |1975  |1490  |-     |-        |-          |-         |-              |-                 |1490  |
+#'  |1976  |1499  |-     |-        |-          |-         |-              |-                 |1499  |
+#'  |1977  |1530  |-     |-        |-          |-         |-              |-                 |1530  |
+#'  |1978  |1532  |-     |-        |-          |-         |-              |-                 |1532  |
+#'  |1980  |1468  |-     |-        |-          |-         |-              |-                 |1468  |
+#'  |1982  |1860  |-     |-        |-          |-         |-              |-                 |1860  |
+#'  |1983  |1599  |-     |-        |-          |-         |-              |-                 |1599  |
+#'  |1984  |1473  |-     |-        |-          |-         |-              |-                 |1473  |
+#'  |1985  |1534  |-     |-        |-          |-         |-              |-                 |1534  |
+#'  |1986  |1470  |-     |-        |-          |-         |-              |-                 |1470  |
+#'  |1987  |1819  |-     |-        |-          |-         |-              |-                 |1819  |
+#'  |1988  |1481  |-     |-        |-          |-         |-              |-                 |1481  |
+#'  |1989  |1537  |-     |-        |-          |-         |-              |-                 |1537  |
+#'  |1990  |1372  |-     |-        |-          |-         |-              |-                 |1372  |
+#'  |1991  |1517  |-     |-        |-          |-         |-              |-                 |1517  |
+#'  |1993  |1606  |-     |-        |-          |-         |-              |-                 |1606  |
+#'  |1994  |2992  |-     |-        |-          |-         |-              |-                 |2992  |
+#'  |1996  |2904  |-     |-        |-          |-         |-              |-                 |2904  |
+#'  |1998  |2832  |-     |-        |-          |-         |-              |-                 |2832  |
+#'  |2000  |2817  |-     |-        |-          |-         |-              |-                 |2817  |
+#'  |2002  |2765  |-     |-        |-          |-         |-              |-                 |2765  |
+#'  |2004  |2812  |-     |-        |-          |-         |-              |-                 |2812  |
+#'  |2006  |4510  |-     |-        |-          |-         |-              |-                 |4510  |
+#'  |2008  |2023  |-     |-        |-          |-         |-              |-                 |2023  |
+#'  |2010  |2044  |-     |-        |-          |-         |-              |-                 |2044  |
+#'  |2012  |1489  |108   |252      |55         |5         |22             |43                |1974  |
+#'  |2014  |2538  |-     |-        |-          |-         |-              |-                 |2538  |
+#'  |2016  |2867  |-     |-        |-          |-         |-              |-                 |2867  |
+#'  |2018  |2348  |-     |-        |-          |-         |-              |-                 |2348  |
+#'  |2021  |4032  |-     |-        |-          |-         |-              |-                 |4032  |
+#'  |2022  |3544  |-     |-        |-          |-         |-              |-                 |3544  |
+#'  |Total |71905 |108   |252      |55         |5         |22             |43                |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` disagree
+#'   * `4` strongly disagree
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name engodd
+NULL
+
+#'  Engineers want to make life better for avg person
+#' 
+#'  engbtr
+#' 
+#' Question Most engineers want to work on things that will make life better for the average person. Do you strongly agree, agree, disagree, or strongly disagree?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |agree |disagree |don't know |no answer |strongly agree |strongly disagree |Total |
+#'  |:-----|:-----|:-----|:--------|:----------|:---------|:--------------|:-----------------|:-----|
+#'  |1972  |1613  |-     |-        |-          |-         |-              |-                 |1613  |
+#'  |1973  |1504  |-     |-        |-          |-         |-              |-                 |1504  |
+#'  |1974  |1484  |-     |-        |-          |-         |-              |-                 |1484  |
+#'  |1975  |1490  |-     |-        |-          |-         |-              |-                 |1490  |
+#'  |1976  |1499  |-     |-        |-          |-         |-              |-                 |1499  |
+#'  |1977  |1530  |-     |-        |-          |-         |-              |-                 |1530  |
+#'  |1978  |1532  |-     |-        |-          |-         |-              |-                 |1532  |
+#'  |1980  |1468  |-     |-        |-          |-         |-              |-                 |1468  |
+#'  |1982  |1860  |-     |-        |-          |-         |-              |-                 |1860  |
+#'  |1983  |1599  |-     |-        |-          |-         |-              |-                 |1599  |
+#'  |1984  |1473  |-     |-        |-          |-         |-              |-                 |1473  |
+#'  |1985  |1534  |-     |-        |-          |-         |-              |-                 |1534  |
+#'  |1986  |1470  |-     |-        |-          |-         |-              |-                 |1470  |
+#'  |1987  |1819  |-     |-        |-          |-         |-              |-                 |1819  |
+#'  |1988  |1481  |-     |-        |-          |-         |-              |-                 |1481  |
+#'  |1989  |1537  |-     |-        |-          |-         |-              |-                 |1537  |
+#'  |1990  |1372  |-     |-        |-          |-         |-              |-                 |1372  |
+#'  |1991  |1517  |-     |-        |-          |-         |-              |-                 |1517  |
+#'  |1993  |1606  |-     |-        |-          |-         |-              |-                 |1606  |
+#'  |1994  |2992  |-     |-        |-          |-         |-              |-                 |2992  |
+#'  |1996  |2904  |-     |-        |-          |-         |-              |-                 |2904  |
+#'  |1998  |2832  |-     |-        |-          |-         |-              |-                 |2832  |
+#'  |2000  |2817  |-     |-        |-          |-         |-              |-                 |2817  |
+#'  |2002  |2765  |-     |-        |-          |-         |-              |-                 |2765  |
+#'  |2004  |2812  |-     |-        |-          |-         |-              |-                 |2812  |
+#'  |2006  |4510  |-     |-        |-          |-         |-              |-                 |4510  |
+#'  |2008  |2023  |-     |-        |-          |-         |-              |-                 |2023  |
+#'  |2010  |2044  |-     |-        |-          |-         |-              |-                 |2044  |
+#'  |2012  |1489  |348   |36       |37         |3         |59             |2                 |1974  |
+#'  |2014  |2538  |-     |-        |-          |-         |-              |-                 |2538  |
+#'  |2016  |2867  |-     |-        |-          |-         |-              |-                 |2867  |
+#'  |2018  |2348  |-     |-        |-          |-         |-              |-                 |2348  |
+#'  |2021  |4032  |-     |-        |-          |-         |-              |-                 |4032  |
+#'  |2022  |3544  |-     |-        |-          |-         |-              |-                 |3544  |
+#'  |Total |71905 |348   |36       |37         |3         |59             |2                 |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` disagree
+#'   * `4` strongly disagree
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name engbtr
+NULL
+
+#'  Engineers not religious
+#' 
+#'  engrel
+#' 
+#' Question Engineers are not likely to be very religious people. Do you strongly agree, agree, disagree, or strongly disagree?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |agree |disagree |don't know |no answer |strongly agree |strongly disagree |Total |
+#'  |:-----|:-----|:-----|:--------|:----------|:---------|:--------------|:-----------------|:-----|
+#'  |1972  |1613  |-     |-        |-          |-         |-              |-                 |1613  |
+#'  |1973  |1504  |-     |-        |-          |-         |-              |-                 |1504  |
+#'  |1974  |1484  |-     |-        |-          |-         |-              |-                 |1484  |
+#'  |1975  |1490  |-     |-        |-          |-         |-              |-                 |1490  |
+#'  |1976  |1499  |-     |-        |-          |-         |-              |-                 |1499  |
+#'  |1977  |1530  |-     |-        |-          |-         |-              |-                 |1530  |
+#'  |1978  |1532  |-     |-        |-          |-         |-              |-                 |1532  |
+#'  |1980  |1468  |-     |-        |-          |-         |-              |-                 |1468  |
+#'  |1982  |1860  |-     |-        |-          |-         |-              |-                 |1860  |
+#'  |1983  |1599  |-     |-        |-          |-         |-              |-                 |1599  |
+#'  |1984  |1473  |-     |-        |-          |-         |-              |-                 |1473  |
+#'  |1985  |1534  |-     |-        |-          |-         |-              |-                 |1534  |
+#'  |1986  |1470  |-     |-        |-          |-         |-              |-                 |1470  |
+#'  |1987  |1819  |-     |-        |-          |-         |-              |-                 |1819  |
+#'  |1988  |1481  |-     |-        |-          |-         |-              |-                 |1481  |
+#'  |1989  |1537  |-     |-        |-          |-         |-              |-                 |1537  |
+#'  |1990  |1372  |-     |-        |-          |-         |-              |-                 |1372  |
+#'  |1991  |1517  |-     |-        |-          |-         |-              |-                 |1517  |
+#'  |1993  |1606  |-     |-        |-          |-         |-              |-                 |1606  |
+#'  |1994  |2992  |-     |-        |-          |-         |-              |-                 |2992  |
+#'  |1996  |2904  |-     |-        |-          |-         |-              |-                 |2904  |
+#'  |1998  |2832  |-     |-        |-          |-         |-              |-                 |2832  |
+#'  |2000  |2817  |-     |-        |-          |-         |-              |-                 |2817  |
+#'  |2002  |2765  |-     |-        |-          |-         |-              |-                 |2765  |
+#'  |2004  |2812  |-     |-        |-          |-         |-              |-                 |2812  |
+#'  |2006  |4510  |-     |-        |-          |-         |-              |-                 |4510  |
+#'  |2008  |2023  |-     |-        |-          |-         |-              |-                 |2023  |
+#'  |2010  |2044  |-     |-        |-          |-         |-              |-                 |2044  |
+#'  |2012  |1489  |77    |271      |97         |6         |3              |31                |1974  |
+#'  |2014  |2538  |-     |-        |-          |-         |-              |-                 |2538  |
+#'  |2016  |2867  |-     |-        |-          |-         |-              |-                 |2867  |
+#'  |2018  |2348  |-     |-        |-          |-         |-              |-                 |2348  |
+#'  |2021  |4032  |-     |-        |-          |-         |-              |-                 |4032  |
+#'  |2022  |3544  |-     |-        |-          |-         |-              |-                 |3544  |
+#'  |Total |71905 |77    |271      |97         |6         |3              |31                |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` disagree
+#'   * `4` strongly disagree
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name engrel
+NULL
+
+#'  Engineers only interested in work
+#' 
+#'  engint
+#' 
+#' Question Engineers have few other interests but their work. Do you strongly agree, agree, disagree, or strongly disagree?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |agree |disagree |don't know |no answer |strongly agree |strongly disagree |Total |
+#'  |:-----|:-----|:-----|:--------|:----------|:---------|:--------------|:-----------------|:-----|
+#'  |1972  |1613  |-     |-        |-          |-         |-              |-                 |1613  |
+#'  |1973  |1504  |-     |-        |-          |-         |-              |-                 |1504  |
+#'  |1974  |1484  |-     |-        |-          |-         |-              |-                 |1484  |
+#'  |1975  |1490  |-     |-        |-          |-         |-              |-                 |1490  |
+#'  |1976  |1499  |-     |-        |-          |-         |-              |-                 |1499  |
+#'  |1977  |1530  |-     |-        |-          |-         |-              |-                 |1530  |
+#'  |1978  |1532  |-     |-        |-          |-         |-              |-                 |1532  |
+#'  |1980  |1468  |-     |-        |-          |-         |-              |-                 |1468  |
+#'  |1982  |1860  |-     |-        |-          |-         |-              |-                 |1860  |
+#'  |1983  |1599  |-     |-        |-          |-         |-              |-                 |1599  |
+#'  |1984  |1473  |-     |-        |-          |-         |-              |-                 |1473  |
+#'  |1985  |1534  |-     |-        |-          |-         |-              |-                 |1534  |
+#'  |1986  |1470  |-     |-        |-          |-         |-              |-                 |1470  |
+#'  |1987  |1819  |-     |-        |-          |-         |-              |-                 |1819  |
+#'  |1988  |1481  |-     |-        |-          |-         |-              |-                 |1481  |
+#'  |1989  |1537  |-     |-        |-          |-         |-              |-                 |1537  |
+#'  |1990  |1372  |-     |-        |-          |-         |-              |-                 |1372  |
+#'  |1991  |1517  |-     |-        |-          |-         |-              |-                 |1517  |
+#'  |1993  |1606  |-     |-        |-          |-         |-              |-                 |1606  |
+#'  |1994  |2992  |-     |-        |-          |-         |-              |-                 |2992  |
+#'  |1996  |2904  |-     |-        |-          |-         |-              |-                 |2904  |
+#'  |1998  |2832  |-     |-        |-          |-         |-              |-                 |2832  |
+#'  |2000  |2817  |-     |-        |-          |-         |-              |-                 |2817  |
+#'  |2002  |2765  |-     |-        |-          |-         |-              |-                 |2765  |
+#'  |2004  |2812  |-     |-        |-          |-         |-              |-                 |2812  |
+#'  |2006  |4510  |-     |-        |-          |-         |-              |-                 |4510  |
+#'  |2008  |2023  |-     |-        |-          |-         |-              |-                 |2023  |
+#'  |2010  |2044  |-     |-        |-          |-         |-              |-                 |2044  |
+#'  |2012  |1489  |67    |291      |73         |4         |8              |42                |1974  |
+#'  |2014  |2538  |-     |-        |-          |-         |-              |-                 |2538  |
+#'  |2016  |2867  |-     |-        |-          |-         |-              |-                 |2867  |
+#'  |2018  |2348  |-     |-        |-          |-         |-              |-                 |2348  |
+#'  |2021  |4032  |-     |-        |-          |-         |-              |-                 |4032  |
+#'  |2022  |3544  |-     |-        |-          |-         |-              |-                 |3544  |
+#'  |Total |71905 |67    |291      |73         |4         |8              |42                |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` disagree
+#'   * `4` strongly disagree
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name engint
+NULL
+
+#'  Engineers earn less
+#' 
+#'  engearn
+#' 
+#' Question Engineers earn less than other people with equally demanding jobs. Do you strongly agree, agree, disagree, or strongly disagree?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |agree |disagree |don't know |no answer |strongly agree |strongly disagree |Total |
+#'  |:-----|:-----|:-----|:--------|:----------|:---------|:--------------|:-----------------|:-----|
+#'  |1972  |1613  |-     |-        |-          |-         |-              |-                 |1613  |
+#'  |1973  |1504  |-     |-        |-          |-         |-              |-                 |1504  |
+#'  |1974  |1484  |-     |-        |-          |-         |-              |-                 |1484  |
+#'  |1975  |1490  |-     |-        |-          |-         |-              |-                 |1490  |
+#'  |1976  |1499  |-     |-        |-          |-         |-              |-                 |1499  |
+#'  |1977  |1530  |-     |-        |-          |-         |-              |-                 |1530  |
+#'  |1978  |1532  |-     |-        |-          |-         |-              |-                 |1532  |
+#'  |1980  |1468  |-     |-        |-          |-         |-              |-                 |1468  |
+#'  |1982  |1860  |-     |-        |-          |-         |-              |-                 |1860  |
+#'  |1983  |1599  |-     |-        |-          |-         |-              |-                 |1599  |
+#'  |1984  |1473  |-     |-        |-          |-         |-              |-                 |1473  |
+#'  |1985  |1534  |-     |-        |-          |-         |-              |-                 |1534  |
+#'  |1986  |1470  |-     |-        |-          |-         |-              |-                 |1470  |
+#'  |1987  |1819  |-     |-        |-          |-         |-              |-                 |1819  |
+#'  |1988  |1481  |-     |-        |-          |-         |-              |-                 |1481  |
+#'  |1989  |1537  |-     |-        |-          |-         |-              |-                 |1537  |
+#'  |1990  |1372  |-     |-        |-          |-         |-              |-                 |1372  |
+#'  |1991  |1517  |-     |-        |-          |-         |-              |-                 |1517  |
+#'  |1993  |1606  |-     |-        |-          |-         |-              |-                 |1606  |
+#'  |1994  |2992  |-     |-        |-          |-         |-              |-                 |2992  |
+#'  |1996  |2904  |-     |-        |-          |-         |-              |-                 |2904  |
+#'  |1998  |2832  |-     |-        |-          |-         |-              |-                 |2832  |
+#'  |2000  |2817  |-     |-        |-          |-         |-              |-                 |2817  |
+#'  |2002  |2765  |-     |-        |-          |-         |-              |-                 |2765  |
+#'  |2004  |2812  |-     |-        |-          |-         |-              |-                 |2812  |
+#'  |2006  |4510  |-     |-        |-          |-         |-              |-                 |4510  |
+#'  |2008  |2023  |-     |-        |-          |-         |-              |-                 |2023  |
+#'  |2010  |2044  |-     |-        |-          |-         |-              |-                 |2044  |
+#'  |2012  |1489  |33    |333      |70         |5         |5              |39                |1974  |
+#'  |2014  |2538  |-     |-        |-          |-         |-              |-                 |2538  |
+#'  |2016  |2867  |-     |-        |-          |-         |-              |-                 |2867  |
+#'  |2018  |2348  |-     |-        |-          |-         |-              |-                 |2348  |
+#'  |2021  |4032  |-     |-        |-          |-         |-              |-                 |4032  |
+#'  |2022  |3544  |-     |-        |-          |-         |-              |-                 |3544  |
+#'  |Total |71905 |33    |333      |70         |5         |5              |39                |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` disagree
+#'   * `4` strongly disagree
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name engearn
+NULL
+
+#'  Being engineer boring
+#' 
+#'  engbrng
+#' 
+#' Question A job as an engineer would be boring. Do you strongly agree, agree, disagree, or strongly disagree?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |agree |disagree |don't know |no answer |strongly agree |strongly disagree |Total |
+#'  |:-----|:-----|:-----|:--------|:----------|:---------|:--------------|:-----------------|:-----|
+#'  |1972  |1613  |-     |-        |-          |-         |-              |-                 |1613  |
+#'  |1973  |1504  |-     |-        |-          |-         |-              |-                 |1504  |
+#'  |1974  |1484  |-     |-        |-          |-         |-              |-                 |1484  |
+#'  |1975  |1490  |-     |-        |-          |-         |-              |-                 |1490  |
+#'  |1976  |1499  |-     |-        |-          |-         |-              |-                 |1499  |
+#'  |1977  |1530  |-     |-        |-          |-         |-              |-                 |1530  |
+#'  |1978  |1532  |-     |-        |-          |-         |-              |-                 |1532  |
+#'  |1980  |1468  |-     |-        |-          |-         |-              |-                 |1468  |
+#'  |1982  |1860  |-     |-        |-          |-         |-              |-                 |1860  |
+#'  |1983  |1599  |-     |-        |-          |-         |-              |-                 |1599  |
+#'  |1984  |1473  |-     |-        |-          |-         |-              |-                 |1473  |
+#'  |1985  |1534  |-     |-        |-          |-         |-              |-                 |1534  |
+#'  |1986  |1470  |-     |-        |-          |-         |-              |-                 |1470  |
+#'  |1987  |1819  |-     |-        |-          |-         |-              |-                 |1819  |
+#'  |1988  |1481  |-     |-        |-          |-         |-              |-                 |1481  |
+#'  |1989  |1537  |-     |-        |-          |-         |-              |-                 |1537  |
+#'  |1990  |1372  |-     |-        |-          |-         |-              |-                 |1372  |
+#'  |1991  |1517  |-     |-        |-          |-         |-              |-                 |1517  |
+#'  |1993  |1606  |-     |-        |-          |-         |-              |-                 |1606  |
+#'  |1994  |2992  |-     |-        |-          |-         |-              |-                 |2992  |
+#'  |1996  |2904  |-     |-        |-          |-         |-              |-                 |2904  |
+#'  |1998  |2832  |-     |-        |-          |-         |-              |-                 |2832  |
+#'  |2000  |2817  |-     |-        |-          |-         |-              |-                 |2817  |
+#'  |2002  |2765  |-     |-        |-          |-         |-              |-                 |2765  |
+#'  |2004  |2812  |-     |-        |-          |-         |-              |-                 |2812  |
+#'  |2006  |4510  |-     |-        |-          |-         |-              |-                 |4510  |
+#'  |2008  |2023  |-     |-        |-          |-         |-              |-                 |2023  |
+#'  |2010  |2044  |-     |-        |-          |-         |-              |-                 |2044  |
+#'  |2012  |1489  |49    |331      |54         |3         |12             |36                |1974  |
+#'  |2014  |2538  |-     |-        |-          |-         |-              |-                 |2538  |
+#'  |2016  |2867  |-     |-        |-          |-         |-              |-                 |2867  |
+#'  |2018  |2348  |-     |-        |-          |-         |-              |-                 |2348  |
+#'  |2021  |4032  |-     |-        |-          |-         |-              |-                 |4032  |
+#'  |2022  |3544  |-     |-        |-          |-         |-              |-                 |3544  |
+#'  |Total |71905 |49    |331      |54         |3         |12             |36                |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` disagree
+#'   * `4` strongly disagree
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name engbrng
+NULL
+
+#'  How scientific is farming
+#' 
+#'  farming
+#' 
+#' Question How scientific is each of the following work activities? Farming. Is farming very scientific, pretty scientific, not too scientific, or not scientific at all?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |haven't heard of it (volunteered) |no answer |not scientific at all |not too scientific |pretty scientific |very scientific |Total |
+#'  |:-----|:-----|:----------|:---------------------------------|:---------|:---------------------|:------------------|:-----------------|:---------------|:-----|
+#'  |1972  |1613  |-          |-                                 |-         |-                     |-                  |-                 |-               |1613  |
+#'  |1973  |1504  |-          |-                                 |-         |-                     |-                  |-                 |-               |1504  |
+#'  |1974  |1484  |-          |-                                 |-         |-                     |-                  |-                 |-               |1484  |
+#'  |1975  |1490  |-          |-                                 |-         |-                     |-                  |-                 |-               |1490  |
+#'  |1976  |1499  |-          |-                                 |-         |-                     |-                  |-                 |-               |1499  |
+#'  |1977  |1530  |-          |-                                 |-         |-                     |-                  |-                 |-               |1530  |
+#'  |1978  |1532  |-          |-                                 |-         |-                     |-                  |-                 |-               |1532  |
+#'  |1980  |1468  |-          |-                                 |-         |-                     |-                  |-                 |-               |1468  |
+#'  |1982  |1860  |-          |-                                 |-         |-                     |-                  |-                 |-               |1860  |
+#'  |1983  |1599  |-          |-                                 |-         |-                     |-                  |-                 |-               |1599  |
+#'  |1984  |1473  |-          |-                                 |-         |-                     |-                  |-                 |-               |1473  |
+#'  |1985  |1534  |-          |-                                 |-         |-                     |-                  |-                 |-               |1534  |
+#'  |1986  |1470  |-          |-                                 |-         |-                     |-                  |-                 |-               |1470  |
+#'  |1987  |1819  |-          |-                                 |-         |-                     |-                  |-                 |-               |1819  |
+#'  |1988  |1481  |-          |-                                 |-         |-                     |-                  |-                 |-               |1481  |
+#'  |1989  |1537  |-          |-                                 |-         |-                     |-                  |-                 |-               |1537  |
+#'  |1990  |1372  |-          |-                                 |-         |-                     |-                  |-                 |-               |1372  |
+#'  |1991  |1517  |-          |-                                 |-         |-                     |-                  |-                 |-               |1517  |
+#'  |1993  |1606  |-          |-                                 |-         |-                     |-                  |-                 |-               |1606  |
+#'  |1994  |2992  |-          |-                                 |-         |-                     |-                  |-                 |-               |2992  |
+#'  |1996  |2904  |-          |-                                 |-         |-                     |-                  |-                 |-               |2904  |
+#'  |1998  |2832  |-          |-                                 |-         |-                     |-                  |-                 |-               |2832  |
+#'  |2000  |2817  |-          |-                                 |-         |-                     |-                  |-                 |-               |2817  |
+#'  |2002  |2765  |-          |-                                 |-         |-                     |-                  |-                 |-               |2765  |
+#'  |2004  |2812  |-          |-                                 |-         |-                     |-                  |-                 |-               |2812  |
+#'  |2006  |4510  |-          |-                                 |-         |-                     |-                  |-                 |-               |4510  |
+#'  |2008  |2023  |-          |-                                 |-         |-                     |-                  |-                 |-               |2023  |
+#'  |2010  |2044  |-          |-                                 |-         |-                     |-                  |-                 |-               |2044  |
+#'  |2012  |1469  |8          |2                                 |2         |30                    |101                |258               |104             |1974  |
+#'  |2014  |2538  |-          |-                                 |-         |-                     |-                  |-                 |-               |2538  |
+#'  |2016  |2867  |-          |-                                 |-         |-                     |-                  |-                 |-               |2867  |
+#'  |2018  |2348  |-          |-                                 |-         |-                     |-                  |-                 |-               |2348  |
+#'  |2021  |4032  |-          |-                                 |-         |-                     |-                  |-                 |-               |4032  |
+#'  |2022  |3544  |-          |-                                 |-         |-                     |-                  |-                 |-               |3544  |
+#'  |Total |71885 |8          |2                                 |2         |30                    |101                |258               |104             |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` very scientific
+#'   * `2` pretty scientific
+#'   * `3` not too scientific
+#'   * `4` not scientific at all
+#'   * `5` haven't heard of it (volunteered)
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name farming
+NULL
+
+#'  How scientific is journalism
+#' 
+#'  journlsm
+#' 
+#' Question Journalism. (Is journalism...?)
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |haven't heard of it (volunteered) |no answer |not scientific at all |not too scientific |pretty scientific |very scientific |Total |
+#'  |:-----|:-----|:----------|:---------------------------------|:---------|:---------------------|:------------------|:-----------------|:---------------|:-----|
+#'  |1972  |1613  |-          |-                                 |-         |-                     |-                  |-                 |-               |1613  |
+#'  |1973  |1504  |-          |-                                 |-         |-                     |-                  |-                 |-               |1504  |
+#'  |1974  |1484  |-          |-                                 |-         |-                     |-                  |-                 |-               |1484  |
+#'  |1975  |1490  |-          |-                                 |-         |-                     |-                  |-                 |-               |1490  |
+#'  |1976  |1499  |-          |-                                 |-         |-                     |-                  |-                 |-               |1499  |
+#'  |1977  |1530  |-          |-                                 |-         |-                     |-                  |-                 |-               |1530  |
+#'  |1978  |1532  |-          |-                                 |-         |-                     |-                  |-                 |-               |1532  |
+#'  |1980  |1468  |-          |-                                 |-         |-                     |-                  |-                 |-               |1468  |
+#'  |1982  |1860  |-          |-                                 |-         |-                     |-                  |-                 |-               |1860  |
+#'  |1983  |1599  |-          |-                                 |-         |-                     |-                  |-                 |-               |1599  |
+#'  |1984  |1473  |-          |-                                 |-         |-                     |-                  |-                 |-               |1473  |
+#'  |1985  |1534  |-          |-                                 |-         |-                     |-                  |-                 |-               |1534  |
+#'  |1986  |1470  |-          |-                                 |-         |-                     |-                  |-                 |-               |1470  |
+#'  |1987  |1819  |-          |-                                 |-         |-                     |-                  |-                 |-               |1819  |
+#'  |1988  |1481  |-          |-                                 |-         |-                     |-                  |-                 |-               |1481  |
+#'  |1989  |1537  |-          |-                                 |-         |-                     |-                  |-                 |-               |1537  |
+#'  |1990  |1372  |-          |-                                 |-         |-                     |-                  |-                 |-               |1372  |
+#'  |1991  |1517  |-          |-                                 |-         |-                     |-                  |-                 |-               |1517  |
+#'  |1993  |1606  |-          |-                                 |-         |-                     |-                  |-                 |-               |1606  |
+#'  |1994  |2992  |-          |-                                 |-         |-                     |-                  |-                 |-               |2992  |
+#'  |1996  |2904  |-          |-                                 |-         |-                     |-                  |-                 |-               |2904  |
+#'  |1998  |2832  |-          |-                                 |-         |-                     |-                  |-                 |-               |2832  |
+#'  |2000  |2817  |-          |-                                 |-         |-                     |-                  |-                 |-               |2817  |
+#'  |2002  |2765  |-          |-                                 |-         |-                     |-                  |-                 |-               |2765  |
+#'  |2004  |2812  |-          |-                                 |-         |-                     |-                  |-                 |-               |2812  |
+#'  |2006  |4510  |-          |-                                 |-         |-                     |-                  |-                 |-               |4510  |
+#'  |2008  |2023  |-          |-                                 |-         |-                     |-                  |-                 |-               |2023  |
+#'  |2010  |2044  |-          |-                                 |-         |-                     |-                  |-                 |-               |2044  |
+#'  |2012  |1469  |25         |3                                 |2         |127                   |245                |73                |30              |1974  |
+#'  |2014  |2538  |-          |-                                 |-         |-                     |-                  |-                 |-               |2538  |
+#'  |2016  |2867  |-          |-                                 |-         |-                     |-                  |-                 |-               |2867  |
+#'  |2018  |2348  |-          |-                                 |-         |-                     |-                  |-                 |-               |2348  |
+#'  |2021  |4032  |-          |-                                 |-         |-                     |-                  |-                 |-               |4032  |
+#'  |2022  |3544  |-          |-                                 |-         |-                     |-                  |-                 |-               |3544  |
+#'  |Total |71885 |25         |3                                 |2         |127                   |245                |73                |30              |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` very scientific
+#'   * `2` pretty scientific
+#'   * `3` not too scientific
+#'   * `4` not scientific at all
+#'   * `5` haven't heard of it (volunteered)
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name journlsm
+NULL
+
+#'  How scientific is firefighting
+#' 
+#'  fireftng
+#' 
+#' Question Firefighting. (Is firefighting...?)
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |haven't heard of it (volunteered) |no answer |not scientific at all |not too scientific |pretty scientific |very scientific |Total |
+#'  |:-----|:-----|:----------|:---------------------------------|:---------|:---------------------|:------------------|:-----------------|:---------------|:-----|
+#'  |1972  |1613  |-          |-                                 |-         |-                     |-                  |-                 |-               |1613  |
+#'  |1973  |1504  |-          |-                                 |-         |-                     |-                  |-                 |-               |1504  |
+#'  |1974  |1484  |-          |-                                 |-         |-                     |-                  |-                 |-               |1484  |
+#'  |1975  |1490  |-          |-                                 |-         |-                     |-                  |-                 |-               |1490  |
+#'  |1976  |1499  |-          |-                                 |-         |-                     |-                  |-                 |-               |1499  |
+#'  |1977  |1530  |-          |-                                 |-         |-                     |-                  |-                 |-               |1530  |
+#'  |1978  |1532  |-          |-                                 |-         |-                     |-                  |-                 |-               |1532  |
+#'  |1980  |1468  |-          |-                                 |-         |-                     |-                  |-                 |-               |1468  |
+#'  |1982  |1860  |-          |-                                 |-         |-                     |-                  |-                 |-               |1860  |
+#'  |1983  |1599  |-          |-                                 |-         |-                     |-                  |-                 |-               |1599  |
+#'  |1984  |1473  |-          |-                                 |-         |-                     |-                  |-                 |-               |1473  |
+#'  |1985  |1534  |-          |-                                 |-         |-                     |-                  |-                 |-               |1534  |
+#'  |1986  |1470  |-          |-                                 |-         |-                     |-                  |-                 |-               |1470  |
+#'  |1987  |1819  |-          |-                                 |-         |-                     |-                  |-                 |-               |1819  |
+#'  |1988  |1481  |-          |-                                 |-         |-                     |-                  |-                 |-               |1481  |
+#'  |1989  |1537  |-          |-                                 |-         |-                     |-                  |-                 |-               |1537  |
+#'  |1990  |1372  |-          |-                                 |-         |-                     |-                  |-                 |-               |1372  |
+#'  |1991  |1517  |-          |-                                 |-         |-                     |-                  |-                 |-               |1517  |
+#'  |1993  |1606  |-          |-                                 |-         |-                     |-                  |-                 |-               |1606  |
+#'  |1994  |2992  |-          |-                                 |-         |-                     |-                  |-                 |-               |2992  |
+#'  |1996  |2904  |-          |-                                 |-         |-                     |-                  |-                 |-               |2904  |
+#'  |1998  |2832  |-          |-                                 |-         |-                     |-                  |-                 |-               |2832  |
+#'  |2000  |2817  |-          |-                                 |-         |-                     |-                  |-                 |-               |2817  |
+#'  |2002  |2765  |-          |-                                 |-         |-                     |-                  |-                 |-               |2765  |
+#'  |2004  |2812  |-          |-                                 |-         |-                     |-                  |-                 |-               |2812  |
+#'  |2006  |4510  |-          |-                                 |-         |-                     |-                  |-                 |-               |4510  |
+#'  |2008  |2023  |-          |-                                 |-         |-                     |-                  |-                 |-               |2023  |
+#'  |2010  |2044  |-          |-                                 |-         |-                     |-                  |-                 |-               |2044  |
+#'  |2012  |1469  |15         |1                                 |3         |62                    |143                |193               |88              |1974  |
+#'  |2014  |2538  |-          |-                                 |-         |-                     |-                  |-                 |-               |2538  |
+#'  |2016  |2867  |-          |-                                 |-         |-                     |-                  |-                 |-               |2867  |
+#'  |2018  |2348  |-          |-                                 |-         |-                     |-                  |-                 |-               |2348  |
+#'  |2021  |4032  |-          |-                                 |-         |-                     |-                  |-                 |-               |4032  |
+#'  |2022  |3544  |-          |-                                 |-         |-                     |-                  |-                 |-               |3544  |
+#'  |Total |71885 |15         |1                                 |3         |62                    |143                |193               |88              |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` very scientific
+#'   * `2` pretty scientific
+#'   * `3` not too scientific
+#'   * `4` not scientific at all
+#'   * `5` haven't heard of it (volunteered)
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name fireftng
+NULL
+
+#'  How scientific is marriage counseling
+#' 
+#'  marrcoun
+#' 
+#' Question Marriage counseling. (Is marriage counseling...?)
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |haven't heard of it (volunteered) |no answer |not scientific at all |not too scientific |pretty scientific |very scientific |Total |
+#'  |:-----|:-----|:----------|:---------------------------------|:---------|:---------------------|:------------------|:-----------------|:---------------|:-----|
+#'  |1972  |1613  |-          |-                                 |-         |-                     |-                  |-                 |-               |1613  |
+#'  |1973  |1504  |-          |-                                 |-         |-                     |-                  |-                 |-               |1504  |
+#'  |1974  |1484  |-          |-                                 |-         |-                     |-                  |-                 |-               |1484  |
+#'  |1975  |1490  |-          |-                                 |-         |-                     |-                  |-                 |-               |1490  |
+#'  |1976  |1499  |-          |-                                 |-         |-                     |-                  |-                 |-               |1499  |
+#'  |1977  |1530  |-          |-                                 |-         |-                     |-                  |-                 |-               |1530  |
+#'  |1978  |1532  |-          |-                                 |-         |-                     |-                  |-                 |-               |1532  |
+#'  |1980  |1468  |-          |-                                 |-         |-                     |-                  |-                 |-               |1468  |
+#'  |1982  |1860  |-          |-                                 |-         |-                     |-                  |-                 |-               |1860  |
+#'  |1983  |1599  |-          |-                                 |-         |-                     |-                  |-                 |-               |1599  |
+#'  |1984  |1473  |-          |-                                 |-         |-                     |-                  |-                 |-               |1473  |
+#'  |1985  |1534  |-          |-                                 |-         |-                     |-                  |-                 |-               |1534  |
+#'  |1986  |1470  |-          |-                                 |-         |-                     |-                  |-                 |-               |1470  |
+#'  |1987  |1819  |-          |-                                 |-         |-                     |-                  |-                 |-               |1819  |
+#'  |1988  |1481  |-          |-                                 |-         |-                     |-                  |-                 |-               |1481  |
+#'  |1989  |1537  |-          |-                                 |-         |-                     |-                  |-                 |-               |1537  |
+#'  |1990  |1372  |-          |-                                 |-         |-                     |-                  |-                 |-               |1372  |
+#'  |1991  |1517  |-          |-                                 |-         |-                     |-                  |-                 |-               |1517  |
+#'  |1993  |1606  |-          |-                                 |-         |-                     |-                  |-                 |-               |1606  |
+#'  |1994  |2992  |-          |-                                 |-         |-                     |-                  |-                 |-               |2992  |
+#'  |1996  |2904  |-          |-                                 |-         |-                     |-                  |-                 |-               |2904  |
+#'  |1998  |2832  |-          |-                                 |-         |-                     |-                  |-                 |-               |2832  |
+#'  |2000  |2817  |-          |-                                 |-         |-                     |-                  |-                 |-               |2817  |
+#'  |2002  |2765  |-          |-                                 |-         |-                     |-                  |-                 |-               |2765  |
+#'  |2004  |2812  |-          |-                                 |-         |-                     |-                  |-                 |-               |2812  |
+#'  |2006  |4510  |-          |-                                 |-         |-                     |-                  |-                 |-               |4510  |
+#'  |2008  |2023  |-          |-                                 |-         |-                     |-                  |-                 |-               |2023  |
+#'  |2010  |2044  |-          |-                                 |-         |-                     |-                  |-                 |-               |2044  |
+#'  |2012  |1469  |23         |2                                 |3         |179                   |161                |101               |36              |1974  |
+#'  |2014  |2538  |-          |-                                 |-         |-                     |-                  |-                 |-               |2538  |
+#'  |2016  |2867  |-          |-                                 |-         |-                     |-                  |-                 |-               |2867  |
+#'  |2018  |2348  |-          |-                                 |-         |-                     |-                  |-                 |-               |2348  |
+#'  |2021  |4032  |-          |-                                 |-         |-                     |-                  |-                 |-               |4032  |
+#'  |2022  |3544  |-          |-                                 |-         |-                     |-                  |-                 |-               |3544  |
+#'  |Total |71885 |23         |2                                 |3         |179                   |161                |101               |36              |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` very scientific
+#'   * `2` pretty scientific
+#'   * `3` not too scientific
+#'   * `4` not scientific at all
+#'   * `5` haven't heard of it (volunteered)
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name marrcoun
+NULL
+

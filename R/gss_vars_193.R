@@ -1,0 +1,759 @@
+#'  How learned the availability of the home
+#' 
+#'  learnhme
+#' 
+#' Question 599. How did you learn about the availability of the home you purchased?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |a friend of a friend or relative, etc |a friend or acquaintance |from a real estate agent |from a relative, including in-laws |from an advertisement or sign |i built it myself |no answer |Total |
+#'  |:-----|:-----|:-------------------------------------|:------------------------|:------------------------|:----------------------------------|:-----------------------------|:-----------------|:---------|:-----|
+#'  |1972  |1613  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |1613  |
+#'  |1973  |1504  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |1504  |
+#'  |1974  |1484  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |1484  |
+#'  |1975  |1490  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |1490  |
+#'  |1976  |1499  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |1499  |
+#'  |1977  |1530  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |1530  |
+#'  |1978  |1532  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |1532  |
+#'  |1980  |1468  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |1468  |
+#'  |1982  |1860  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |1860  |
+#'  |1983  |1599  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |1599  |
+#'  |1984  |1473  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |1473  |
+#'  |1985  |1534  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |1534  |
+#'  |1986  |1470  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |1470  |
+#'  |1987  |1819  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |1819  |
+#'  |1988  |1481  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |1481  |
+#'  |1989  |1537  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |1537  |
+#'  |1990  |1372  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |1372  |
+#'  |1991  |1517  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |1517  |
+#'  |1993  |1606  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |1606  |
+#'  |1994  |2992  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |2992  |
+#'  |1996  |2451  |13                                    |63                       |146                      |49                                 |116                           |57                |9         |2904  |
+#'  |1998  |2832  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |2832  |
+#'  |2000  |2817  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |2817  |
+#'  |2002  |2765  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |2765  |
+#'  |2004  |2812  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |2812  |
+#'  |2006  |4510  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |4510  |
+#'  |2008  |2023  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |2023  |
+#'  |2010  |2044  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |2044  |
+#'  |2012  |1974  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |1974  |
+#'  |2014  |2538  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |2538  |
+#'  |2016  |2867  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |2867  |
+#'  |2018  |2348  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |2348  |
+#'  |2021  |4032  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |4032  |
+#'  |2022  |3544  |-                                     |-                        |-                        |-                                  |-                             |-                 |-         |3544  |
+#'  |Total |71937 |13                                    |63                       |146                      |49                                 |116                           |57                |9         |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` from a relative, including in-laws
+#'   * `2` a friend or acquaintance
+#'   * `3` a friend of a friend or relative, etc
+#'   * `4` from an advertisement or sign
+#'   * `5` from a real estate agent
+#'   * `6` i built it myself
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name learnhme
+NULL
+
+#'  Was the home new or previously owned?
+#' 
+#'  newowned
+#' 
+#' Question 600. Was th home new or previously owned?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |new |no answer |previously owned |Total |
+#'  |:-----|:-----|:---|:---------|:----------------|:-----|
+#'  |1972  |1613  |-   |-         |-                |1613  |
+#'  |1973  |1504  |-   |-         |-                |1504  |
+#'  |1974  |1484  |-   |-         |-                |1484  |
+#'  |1975  |1490  |-   |-         |-                |1490  |
+#'  |1976  |1499  |-   |-         |-                |1499  |
+#'  |1977  |1530  |-   |-         |-                |1530  |
+#'  |1978  |1532  |-   |-         |-                |1532  |
+#'  |1980  |1468  |-   |-         |-                |1468  |
+#'  |1982  |1860  |-   |-         |-                |1860  |
+#'  |1983  |1599  |-   |-         |-                |1599  |
+#'  |1984  |1473  |-   |-         |-                |1473  |
+#'  |1985  |1534  |-   |-         |-                |1534  |
+#'  |1986  |1470  |-   |-         |-                |1470  |
+#'  |1987  |1819  |-   |-         |-                |1819  |
+#'  |1988  |1481  |-   |-         |-                |1481  |
+#'  |1989  |1537  |-   |-         |-                |1537  |
+#'  |1990  |1372  |-   |-         |-                |1372  |
+#'  |1991  |1517  |-   |-         |-                |1517  |
+#'  |1993  |1606  |-   |-         |-                |1606  |
+#'  |1994  |2992  |-   |-         |-                |2992  |
+#'  |1996  |2451  |134 |1         |318              |2904  |
+#'  |1998  |2832  |-   |-         |-                |2832  |
+#'  |2000  |2817  |-   |-         |-                |2817  |
+#'  |2002  |2765  |-   |-         |-                |2765  |
+#'  |2004  |2812  |-   |-         |-                |2812  |
+#'  |2006  |4510  |-   |-         |-                |4510  |
+#'  |2008  |2023  |-   |-         |-                |2023  |
+#'  |2010  |2044  |-   |-         |-                |2044  |
+#'  |2012  |1974  |-   |-         |-                |1974  |
+#'  |2014  |2538  |-   |-         |-                |2538  |
+#'  |2016  |2867  |-   |-         |-                |2867  |
+#'  |2018  |2348  |-   |-         |-                |2348  |
+#'  |2021  |4032  |-   |-         |-                |4032  |
+#'  |2022  |3544  |-   |-         |-                |3544  |
+#'  |Total |71937 |134 |1         |318              |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` new
+#'   * `2` previously owned
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name newowned
+NULL
+
+#'  Relationship to the previous owner of the home
+#' 
+#'  relhome
+#' 
+#' Question 601. Which of the following best describes your relationship to the previous owner of the home you purchased?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |a friend of a friend-relative |a friend or acquaintance |a relative including in-laws |had previous business dealings |no answer |no prior relationship |Total |
+#'  |:-----|:-----|:-----------------------------|:------------------------|:----------------------------|:------------------------------|:---------|:---------------------|:-----|
+#'  |1972  |1613  |-                             |-                        |-                            |-                              |-         |-                     |1613  |
+#'  |1973  |1504  |-                             |-                        |-                            |-                              |-         |-                     |1504  |
+#'  |1974  |1484  |-                             |-                        |-                            |-                              |-         |-                     |1484  |
+#'  |1975  |1490  |-                             |-                        |-                            |-                              |-         |-                     |1490  |
+#'  |1976  |1499  |-                             |-                        |-                            |-                              |-         |-                     |1499  |
+#'  |1977  |1530  |-                             |-                        |-                            |-                              |-         |-                     |1530  |
+#'  |1978  |1532  |-                             |-                        |-                            |-                              |-         |-                     |1532  |
+#'  |1980  |1468  |-                             |-                        |-                            |-                              |-         |-                     |1468  |
+#'  |1982  |1860  |-                             |-                        |-                            |-                              |-         |-                     |1860  |
+#'  |1983  |1599  |-                             |-                        |-                            |-                              |-         |-                     |1599  |
+#'  |1984  |1473  |-                             |-                        |-                            |-                              |-         |-                     |1473  |
+#'  |1985  |1534  |-                             |-                        |-                            |-                              |-         |-                     |1534  |
+#'  |1986  |1470  |-                             |-                        |-                            |-                              |-         |-                     |1470  |
+#'  |1987  |1819  |-                             |-                        |-                            |-                              |-         |-                     |1819  |
+#'  |1988  |1481  |-                             |-                        |-                            |-                              |-         |-                     |1481  |
+#'  |1989  |1537  |-                             |-                        |-                            |-                              |-         |-                     |1537  |
+#'  |1990  |1372  |-                             |-                        |-                            |-                              |-         |-                     |1372  |
+#'  |1991  |1517  |-                             |-                        |-                            |-                              |-         |-                     |1517  |
+#'  |1993  |1606  |-                             |-                        |-                            |-                              |-         |-                     |1606  |
+#'  |1994  |2992  |-                             |-                        |-                            |-                              |-         |-                     |2992  |
+#'  |1996  |2584  |12                            |31                       |22                           |9                              |2         |244                   |2904  |
+#'  |1998  |2832  |-                             |-                        |-                            |-                              |-         |-                     |2832  |
+#'  |2000  |2817  |-                             |-                        |-                            |-                              |-         |-                     |2817  |
+#'  |2002  |2765  |-                             |-                        |-                            |-                              |-         |-                     |2765  |
+#'  |2004  |2812  |-                             |-                        |-                            |-                              |-         |-                     |2812  |
+#'  |2006  |4510  |-                             |-                        |-                            |-                              |-         |-                     |4510  |
+#'  |2008  |2023  |-                             |-                        |-                            |-                              |-         |-                     |2023  |
+#'  |2010  |2044  |-                             |-                        |-                            |-                              |-         |-                     |2044  |
+#'  |2012  |1974  |-                             |-                        |-                            |-                              |-         |-                     |1974  |
+#'  |2014  |2538  |-                             |-                        |-                            |-                              |-         |-                     |2538  |
+#'  |2016  |2867  |-                             |-                        |-                            |-                              |-         |-                     |2867  |
+#'  |2018  |2348  |-                             |-                        |-                            |-                              |-         |-                     |2348  |
+#'  |2021  |4032  |-                             |-                        |-                            |-                              |-         |-                     |4032  |
+#'  |2022  |3544  |-                             |-                        |-                            |-                              |-         |-                     |3544  |
+#'  |Total |72070 |12                            |31                       |22                           |9                              |2         |244                   |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` a relative including in-laws
+#'   * `2` a friend or acquaintance
+#'   * `3` a friend of a friend-relative
+#'   * `4` had previous business dealings
+#'   * `5` no prior relationship
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name relhome
+NULL
+
+#'  Describe your purchase
+#' 
+#'  whosold
+#' 
+#' Question 602. Which of the following best describes your purchase?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |directly from builder |directly from previous owner |other |through a real estate agent |Total |
+#'  |:-----|:-----|:---------------------|:----------------------------|:-----|:---------------------------|:-----|
+#'  |1972  |1613  |-                     |-                            |-     |-                           |1613  |
+#'  |1973  |1504  |-                     |-                            |-     |-                           |1504  |
+#'  |1974  |1484  |-                     |-                            |-     |-                           |1484  |
+#'  |1975  |1490  |-                     |-                            |-     |-                           |1490  |
+#'  |1976  |1499  |-                     |-                            |-     |-                           |1499  |
+#'  |1977  |1530  |-                     |-                            |-     |-                           |1530  |
+#'  |1978  |1532  |-                     |-                            |-     |-                           |1532  |
+#'  |1980  |1468  |-                     |-                            |-     |-                           |1468  |
+#'  |1982  |1860  |-                     |-                            |-     |-                           |1860  |
+#'  |1983  |1599  |-                     |-                            |-     |-                           |1599  |
+#'  |1984  |1473  |-                     |-                            |-     |-                           |1473  |
+#'  |1985  |1534  |-                     |-                            |-     |-                           |1534  |
+#'  |1986  |1470  |-                     |-                            |-     |-                           |1470  |
+#'  |1987  |1819  |-                     |-                            |-     |-                           |1819  |
+#'  |1988  |1481  |-                     |-                            |-     |-                           |1481  |
+#'  |1989  |1537  |-                     |-                            |-     |-                           |1537  |
+#'  |1990  |1372  |-                     |-                            |-     |-                           |1372  |
+#'  |1991  |1517  |-                     |-                            |-     |-                           |1517  |
+#'  |1993  |1606  |-                     |-                            |-     |-                           |1606  |
+#'  |1994  |2992  |-                     |-                            |-     |-                           |2992  |
+#'  |1996  |2451  |61                    |102                          |72    |218                         |2904  |
+#'  |1998  |2832  |-                     |-                            |-     |-                           |2832  |
+#'  |2000  |2817  |-                     |-                            |-     |-                           |2817  |
+#'  |2002  |2765  |-                     |-                            |-     |-                           |2765  |
+#'  |2004  |2812  |-                     |-                            |-     |-                           |2812  |
+#'  |2006  |4510  |-                     |-                            |-     |-                           |4510  |
+#'  |2008  |2023  |-                     |-                            |-     |-                           |2023  |
+#'  |2010  |2044  |-                     |-                            |-     |-                           |2044  |
+#'  |2012  |1974  |-                     |-                            |-     |-                           |1974  |
+#'  |2014  |2538  |-                     |-                            |-     |-                           |2538  |
+#'  |2016  |2867  |-                     |-                            |-     |-                           |2867  |
+#'  |2018  |2348  |-                     |-                            |-     |-                           |2348  |
+#'  |2021  |4032  |-                     |-                            |-     |-                           |4032  |
+#'  |2022  |3544  |-                     |-                            |-     |-                           |3544  |
+#'  |Total |71937 |61                    |102                          |72    |218                         |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` directly from builder
+#'   * `2` directly from previous owner
+#'   * `3` through a real estate agent
+#'   * `4` other
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name whosold
+NULL
+
+#'  R's own previous knowledge made r choose
+#' 
+#'  realtora
+#' 
+#' Question 603. What made you choose the realtor with whom you worked? a. My own previous knowledge of the realtor/agency
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no  |no answer |yes |Total |
+#'  |:-----|:-----|:----------|:---|:---------|:---|:-----|
+#'  |1972  |1613  |-          |-   |-         |-   |1613  |
+#'  |1973  |1504  |-          |-   |-         |-   |1504  |
+#'  |1974  |1484  |-          |-   |-         |-   |1484  |
+#'  |1975  |1490  |-          |-   |-         |-   |1490  |
+#'  |1976  |1499  |-          |-   |-         |-   |1499  |
+#'  |1977  |1530  |-          |-   |-         |-   |1530  |
+#'  |1978  |1532  |-          |-   |-         |-   |1532  |
+#'  |1980  |1468  |-          |-   |-         |-   |1468  |
+#'  |1982  |1860  |-          |-   |-         |-   |1860  |
+#'  |1983  |1599  |-          |-   |-         |-   |1599  |
+#'  |1984  |1473  |-          |-   |-         |-   |1473  |
+#'  |1985  |1534  |-          |-   |-         |-   |1534  |
+#'  |1986  |1470  |-          |-   |-         |-   |1470  |
+#'  |1987  |1819  |-          |-   |-         |-   |1819  |
+#'  |1988  |1481  |-          |-   |-         |-   |1481  |
+#'  |1989  |1537  |-          |-   |-         |-   |1537  |
+#'  |1990  |1372  |-          |-   |-         |-   |1372  |
+#'  |1991  |1517  |-          |-   |-         |-   |1517  |
+#'  |1993  |1606  |-          |-   |-         |-   |1606  |
+#'  |1994  |2992  |-          |-   |-         |-   |2992  |
+#'  |1996  |2686  |2          |114 |51        |51  |2904  |
+#'  |1998  |2832  |-          |-   |-         |-   |2832  |
+#'  |2000  |2817  |-          |-   |-         |-   |2817  |
+#'  |2002  |2765  |-          |-   |-         |-   |2765  |
+#'  |2004  |2812  |-          |-   |-         |-   |2812  |
+#'  |2006  |4510  |-          |-   |-         |-   |4510  |
+#'  |2008  |2023  |-          |-   |-         |-   |2023  |
+#'  |2010  |2044  |-          |-   |-         |-   |2044  |
+#'  |2012  |1974  |-          |-   |-         |-   |1974  |
+#'  |2014  |2538  |-          |-   |-         |-   |2538  |
+#'  |2016  |2867  |-          |-   |-         |-   |2867  |
+#'  |2018  |2348  |-          |-   |-         |-   |2348  |
+#'  |2021  |4032  |-          |-   |-         |-   |4032  |
+#'  |2022  |3544  |-          |-   |-         |-   |3544  |
+#'  |Total |72172 |2          |114 |51        |51  |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name realtora
+NULL
+
+#'  A friend-relative recommended r choose
+#' 
+#'  realtorb
+#' 
+#' Question 603. What made you choose the realtor with whom you worked? b. A friend or relative recommended them.
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no  |no answer |yes |Total |
+#'  |:-----|:-----|:----------|:---|:---------|:---|:-----|
+#'  |1972  |1613  |-          |-   |-         |-   |1613  |
+#'  |1973  |1504  |-          |-   |-         |-   |1504  |
+#'  |1974  |1484  |-          |-   |-         |-   |1484  |
+#'  |1975  |1490  |-          |-   |-         |-   |1490  |
+#'  |1976  |1499  |-          |-   |-         |-   |1499  |
+#'  |1977  |1530  |-          |-   |-         |-   |1530  |
+#'  |1978  |1532  |-          |-   |-         |-   |1532  |
+#'  |1980  |1468  |-          |-   |-         |-   |1468  |
+#'  |1982  |1860  |-          |-   |-         |-   |1860  |
+#'  |1983  |1599  |-          |-   |-         |-   |1599  |
+#'  |1984  |1473  |-          |-   |-         |-   |1473  |
+#'  |1985  |1534  |-          |-   |-         |-   |1534  |
+#'  |1986  |1470  |-          |-   |-         |-   |1470  |
+#'  |1987  |1819  |-          |-   |-         |-   |1819  |
+#'  |1988  |1481  |-          |-   |-         |-   |1481  |
+#'  |1989  |1537  |-          |-   |-         |-   |1537  |
+#'  |1990  |1372  |-          |-   |-         |-   |1372  |
+#'  |1991  |1517  |-          |-   |-         |-   |1517  |
+#'  |1993  |1606  |-          |-   |-         |-   |1606  |
+#'  |1994  |2992  |-          |-   |-         |-   |2992  |
+#'  |1996  |2686  |2          |114 |34        |68  |2904  |
+#'  |1998  |2832  |-          |-   |-         |-   |2832  |
+#'  |2000  |2817  |-          |-   |-         |-   |2817  |
+#'  |2002  |2765  |-          |-   |-         |-   |2765  |
+#'  |2004  |2812  |-          |-   |-         |-   |2812  |
+#'  |2006  |4510  |-          |-   |-         |-   |4510  |
+#'  |2008  |2023  |-          |-   |-         |-   |2023  |
+#'  |2010  |2044  |-          |-   |-         |-   |2044  |
+#'  |2012  |1974  |-          |-   |-         |-   |1974  |
+#'  |2014  |2538  |-          |-   |-         |-   |2538  |
+#'  |2016  |2867  |-          |-   |-         |-   |2867  |
+#'  |2018  |2348  |-          |-   |-         |-   |2348  |
+#'  |2021  |4032  |-          |-   |-         |-   |4032  |
+#'  |2022  |3544  |-          |-   |-         |-   |3544  |
+#'  |Total |72172 |2          |114 |34        |68  |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name realtorb
+NULL
+
+#'  An acquaintance recommended r choose
+#' 
+#'  realtorc
+#' 
+#' Question 603. What made you choose the realtor with whom you worked? c. An acquaintance recommended them
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no  |no answer |yes |Total |
+#'  |:-----|:-----|:----------|:---|:---------|:---|:-----|
+#'  |1972  |1613  |-          |-   |-         |-   |1613  |
+#'  |1973  |1504  |-          |-   |-         |-   |1504  |
+#'  |1974  |1484  |-          |-   |-         |-   |1484  |
+#'  |1975  |1490  |-          |-   |-         |-   |1490  |
+#'  |1976  |1499  |-          |-   |-         |-   |1499  |
+#'  |1977  |1530  |-          |-   |-         |-   |1530  |
+#'  |1978  |1532  |-          |-   |-         |-   |1532  |
+#'  |1980  |1468  |-          |-   |-         |-   |1468  |
+#'  |1982  |1860  |-          |-   |-         |-   |1860  |
+#'  |1983  |1599  |-          |-   |-         |-   |1599  |
+#'  |1984  |1473  |-          |-   |-         |-   |1473  |
+#'  |1985  |1534  |-          |-   |-         |-   |1534  |
+#'  |1986  |1470  |-          |-   |-         |-   |1470  |
+#'  |1987  |1819  |-          |-   |-         |-   |1819  |
+#'  |1988  |1481  |-          |-   |-         |-   |1481  |
+#'  |1989  |1537  |-          |-   |-         |-   |1537  |
+#'  |1990  |1372  |-          |-   |-         |-   |1372  |
+#'  |1991  |1517  |-          |-   |-         |-   |1517  |
+#'  |1993  |1606  |-          |-   |-         |-   |1606  |
+#'  |1994  |2992  |-          |-   |-         |-   |2992  |
+#'  |1996  |2686  |2          |150 |54        |12  |2904  |
+#'  |1998  |2832  |-          |-   |-         |-   |2832  |
+#'  |2000  |2817  |-          |-   |-         |-   |2817  |
+#'  |2002  |2765  |-          |-   |-         |-   |2765  |
+#'  |2004  |2812  |-          |-   |-         |-   |2812  |
+#'  |2006  |4510  |-          |-   |-         |-   |4510  |
+#'  |2008  |2023  |-          |-   |-         |-   |2023  |
+#'  |2010  |2044  |-          |-   |-         |-   |2044  |
+#'  |2012  |1974  |-          |-   |-         |-   |1974  |
+#'  |2014  |2538  |-          |-   |-         |-   |2538  |
+#'  |2016  |2867  |-          |-   |-         |-   |2867  |
+#'  |2018  |2348  |-          |-   |-         |-   |2348  |
+#'  |2021  |4032  |-          |-   |-         |-   |4032  |
+#'  |2022  |3544  |-          |-   |-         |-   |3544  |
+#'  |Total |72172 |2          |150 |54        |12  |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name realtorc
+NULL
+
+#'  General reputation made r choose
+#' 
+#'  realtord
+#' 
+#' Question 603. What made you choose the realtor with whom you worked? d. General reputation in the community
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no  |no answer |yes |Total |
+#'  |:-----|:-----|:----------|:---|:---------|:---|:-----|
+#'  |1972  |1613  |-          |-   |-         |-   |1613  |
+#'  |1973  |1504  |-          |-   |-         |-   |1504  |
+#'  |1974  |1484  |-          |-   |-         |-   |1484  |
+#'  |1975  |1490  |-          |-   |-         |-   |1490  |
+#'  |1976  |1499  |-          |-   |-         |-   |1499  |
+#'  |1977  |1530  |-          |-   |-         |-   |1530  |
+#'  |1978  |1532  |-          |-   |-         |-   |1532  |
+#'  |1980  |1468  |-          |-   |-         |-   |1468  |
+#'  |1982  |1860  |-          |-   |-         |-   |1860  |
+#'  |1983  |1599  |-          |-   |-         |-   |1599  |
+#'  |1984  |1473  |-          |-   |-         |-   |1473  |
+#'  |1985  |1534  |-          |-   |-         |-   |1534  |
+#'  |1986  |1470  |-          |-   |-         |-   |1470  |
+#'  |1987  |1819  |-          |-   |-         |-   |1819  |
+#'  |1988  |1481  |-          |-   |-         |-   |1481  |
+#'  |1989  |1537  |-          |-   |-         |-   |1537  |
+#'  |1990  |1372  |-          |-   |-         |-   |1372  |
+#'  |1991  |1517  |-          |-   |-         |-   |1517  |
+#'  |1993  |1606  |-          |-   |-         |-   |1606  |
+#'  |1994  |2992  |-          |-   |-         |-   |2992  |
+#'  |1996  |2686  |2          |138 |54        |24  |2904  |
+#'  |1998  |2832  |-          |-   |-         |-   |2832  |
+#'  |2000  |2817  |-          |-   |-         |-   |2817  |
+#'  |2002  |2765  |-          |-   |-         |-   |2765  |
+#'  |2004  |2812  |-          |-   |-         |-   |2812  |
+#'  |2006  |4510  |-          |-   |-         |-   |4510  |
+#'  |2008  |2023  |-          |-   |-         |-   |2023  |
+#'  |2010  |2044  |-          |-   |-         |-   |2044  |
+#'  |2012  |1974  |-          |-   |-         |-   |1974  |
+#'  |2014  |2538  |-          |-   |-         |-   |2538  |
+#'  |2016  |2867  |-          |-   |-         |-   |2867  |
+#'  |2018  |2348  |-          |-   |-         |-   |2348  |
+#'  |2021  |4032  |-          |-   |-         |-   |4032  |
+#'  |2022  |3544  |-          |-   |-         |-   |3544  |
+#'  |Total |72172 |2          |138 |54        |24  |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name realtord
+NULL
+
+#'  I saw their advertisement made r choose
+#' 
+#'  realtore
+#' 
+#' Question 603. What made you choose the realtor with whom you worked? e. I saw their advertisement
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no  |no answer |yes |Total |
+#'  |:-----|:-----|:----------|:---|:---------|:---|:-----|
+#'  |1972  |1613  |-          |-   |-         |-   |1613  |
+#'  |1973  |1504  |-          |-   |-         |-   |1504  |
+#'  |1974  |1484  |-          |-   |-         |-   |1484  |
+#'  |1975  |1490  |-          |-   |-         |-   |1490  |
+#'  |1976  |1499  |-          |-   |-         |-   |1499  |
+#'  |1977  |1530  |-          |-   |-         |-   |1530  |
+#'  |1978  |1532  |-          |-   |-         |-   |1532  |
+#'  |1980  |1468  |-          |-   |-         |-   |1468  |
+#'  |1982  |1860  |-          |-   |-         |-   |1860  |
+#'  |1983  |1599  |-          |-   |-         |-   |1599  |
+#'  |1984  |1473  |-          |-   |-         |-   |1473  |
+#'  |1985  |1534  |-          |-   |-         |-   |1534  |
+#'  |1986  |1470  |-          |-   |-         |-   |1470  |
+#'  |1987  |1819  |-          |-   |-         |-   |1819  |
+#'  |1988  |1481  |-          |-   |-         |-   |1481  |
+#'  |1989  |1537  |-          |-   |-         |-   |1537  |
+#'  |1990  |1372  |-          |-   |-         |-   |1372  |
+#'  |1991  |1517  |-          |-   |-         |-   |1517  |
+#'  |1993  |1606  |-          |-   |-         |-   |1606  |
+#'  |1994  |2992  |-          |-   |-         |-   |2992  |
+#'  |1996  |2686  |2          |106 |38        |72  |2904  |
+#'  |1998  |2832  |-          |-   |-         |-   |2832  |
+#'  |2000  |2817  |-          |-   |-         |-   |2817  |
+#'  |2002  |2765  |-          |-   |-         |-   |2765  |
+#'  |2004  |2812  |-          |-   |-         |-   |2812  |
+#'  |2006  |4510  |-          |-   |-         |-   |4510  |
+#'  |2008  |2023  |-          |-   |-         |-   |2023  |
+#'  |2010  |2044  |-          |-   |-         |-   |2044  |
+#'  |2012  |1974  |-          |-   |-         |-   |1974  |
+#'  |2014  |2538  |-          |-   |-         |-   |2538  |
+#'  |2016  |2867  |-          |-   |-         |-   |2867  |
+#'  |2018  |2348  |-          |-   |-         |-   |2348  |
+#'  |2021  |4032  |-          |-   |-         |-   |4032  |
+#'  |2022  |3544  |-          |-   |-         |-   |3544  |
+#'  |Total |72172 |2          |106 |38        |72  |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name realtore
+NULL
+
+#'  Convenience made r choose the realtor
+#' 
+#'  realtorf
+#' 
+#' Question 603. What made you choose the realtor with whom you worked? f. Convenience
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no  |no answer |yes |Total |
+#'  |:-----|:-----|:----------|:---|:---------|:---|:-----|
+#'  |1972  |1613  |-          |-   |-         |-   |1613  |
+#'  |1973  |1504  |-          |-   |-         |-   |1504  |
+#'  |1974  |1484  |-          |-   |-         |-   |1484  |
+#'  |1975  |1490  |-          |-   |-         |-   |1490  |
+#'  |1976  |1499  |-          |-   |-         |-   |1499  |
+#'  |1977  |1530  |-          |-   |-         |-   |1530  |
+#'  |1978  |1532  |-          |-   |-         |-   |1532  |
+#'  |1980  |1468  |-          |-   |-         |-   |1468  |
+#'  |1982  |1860  |-          |-   |-         |-   |1860  |
+#'  |1983  |1599  |-          |-   |-         |-   |1599  |
+#'  |1984  |1473  |-          |-   |-         |-   |1473  |
+#'  |1985  |1534  |-          |-   |-         |-   |1534  |
+#'  |1986  |1470  |-          |-   |-         |-   |1470  |
+#'  |1987  |1819  |-          |-   |-         |-   |1819  |
+#'  |1988  |1481  |-          |-   |-         |-   |1481  |
+#'  |1989  |1537  |-          |-   |-         |-   |1537  |
+#'  |1990  |1372  |-          |-   |-         |-   |1372  |
+#'  |1991  |1517  |-          |-   |-         |-   |1517  |
+#'  |1993  |1606  |-          |-   |-         |-   |1606  |
+#'  |1994  |2992  |-          |-   |-         |-   |2992  |
+#'  |1996  |2686  |2          |112 |51        |53  |2904  |
+#'  |1998  |2832  |-          |-   |-         |-   |2832  |
+#'  |2000  |2817  |-          |-   |-         |-   |2817  |
+#'  |2002  |2765  |-          |-   |-         |-   |2765  |
+#'  |2004  |2812  |-          |-   |-         |-   |2812  |
+#'  |2006  |4510  |-          |-   |-         |-   |4510  |
+#'  |2008  |2023  |-          |-   |-         |-   |2023  |
+#'  |2010  |2044  |-          |-   |-         |-   |2044  |
+#'  |2012  |1974  |-          |-   |-         |-   |1974  |
+#'  |2014  |2538  |-          |-   |-         |-   |2538  |
+#'  |2016  |2867  |-          |-   |-         |-   |2867  |
+#'  |2018  |2348  |-          |-   |-         |-   |2348  |
+#'  |2021  |4032  |-          |-   |-         |-   |4032  |
+#'  |2022  |3544  |-          |-   |-         |-   |3544  |
+#'  |Total |72172 |2          |112 |51        |53  |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name realtorf
+NULL
+

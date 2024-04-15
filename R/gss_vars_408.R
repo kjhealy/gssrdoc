@@ -1,0 +1,750 @@
+#'  What x should do: talk to family
+#' 
+#'  mhdofam
+#' 
+#' Question 1133. What do you think (NAME) should do about this situation? a. Talk to family
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no   |no answer |yes |Total |
+#'  |:-----|:-----|:----------|:----|:---------|:---|:-----|
+#'  |1972  |1613  |-          |-    |-         |-   |1613  |
+#'  |1973  |1504  |-          |-    |-         |-   |1504  |
+#'  |1974  |1484  |-          |-    |-         |-   |1484  |
+#'  |1975  |1490  |-          |-    |-         |-   |1490  |
+#'  |1976  |1499  |-          |-    |-         |-   |1499  |
+#'  |1977  |1530  |-          |-    |-         |-   |1530  |
+#'  |1978  |1532  |-          |-    |-         |-   |1532  |
+#'  |1980  |1468  |-          |-    |-         |-   |1468  |
+#'  |1982  |1860  |-          |-    |-         |-   |1860  |
+#'  |1983  |1599  |-          |-    |-         |-   |1599  |
+#'  |1984  |1473  |-          |-    |-         |-   |1473  |
+#'  |1985  |1534  |-          |-    |-         |-   |1534  |
+#'  |1986  |1470  |-          |-    |-         |-   |1470  |
+#'  |1987  |1819  |-          |-    |-         |-   |1819  |
+#'  |1988  |1481  |-          |-    |-         |-   |1481  |
+#'  |1989  |1537  |-          |-    |-         |-   |1537  |
+#'  |1990  |1372  |-          |-    |-         |-   |1372  |
+#'  |1991  |1517  |-          |-    |-         |-   |1517  |
+#'  |1993  |1606  |-          |-    |-         |-   |1606  |
+#'  |1994  |2992  |-          |-    |-         |-   |2992  |
+#'  |1996  |2904  |-          |-    |-         |-   |2904  |
+#'  |1998  |2832  |-          |-    |-         |-   |2832  |
+#'  |2000  |2817  |-          |-    |-         |-   |2817  |
+#'  |2002  |2765  |-          |-    |-         |-   |2765  |
+#'  |2004  |2812  |-          |-    |-         |-   |2812  |
+#'  |2006  |3085  |12         |1111 |6         |296 |4510  |
+#'  |2008  |2023  |-          |-    |-         |-   |2023  |
+#'  |2010  |2044  |-          |-    |-         |-   |2044  |
+#'  |2012  |1974  |-          |-    |-         |-   |1974  |
+#'  |2014  |2538  |-          |-    |-         |-   |2538  |
+#'  |2016  |2867  |-          |-    |-         |-   |2867  |
+#'  |2018  |2348  |-          |-    |-         |-   |2348  |
+#'  |2021  |4032  |-          |-    |-         |-   |4032  |
+#'  |2022  |3544  |-          |-    |-         |-   |3544  |
+#'  |Total |70965 |12         |1111 |6         |296 |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name mhdofam
+NULL
+
+#'  What x should do: talk to friends
+#' 
+#'  mhdofrnd
+#' 
+#' Question 1133. What do you think (NAME) should do about this situation? b. Talk to friends
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no   |no answer |yes |Total |
+#'  |:-----|:-----|:----------|:----|:---------|:---|:-----|
+#'  |1972  |1613  |-          |-    |-         |-   |1613  |
+#'  |1973  |1504  |-          |-    |-         |-   |1504  |
+#'  |1974  |1484  |-          |-    |-         |-   |1484  |
+#'  |1975  |1490  |-          |-    |-         |-   |1490  |
+#'  |1976  |1499  |-          |-    |-         |-   |1499  |
+#'  |1977  |1530  |-          |-    |-         |-   |1530  |
+#'  |1978  |1532  |-          |-    |-         |-   |1532  |
+#'  |1980  |1468  |-          |-    |-         |-   |1468  |
+#'  |1982  |1860  |-          |-    |-         |-   |1860  |
+#'  |1983  |1599  |-          |-    |-         |-   |1599  |
+#'  |1984  |1473  |-          |-    |-         |-   |1473  |
+#'  |1985  |1534  |-          |-    |-         |-   |1534  |
+#'  |1986  |1470  |-          |-    |-         |-   |1470  |
+#'  |1987  |1819  |-          |-    |-         |-   |1819  |
+#'  |1988  |1481  |-          |-    |-         |-   |1481  |
+#'  |1989  |1537  |-          |-    |-         |-   |1537  |
+#'  |1990  |1372  |-          |-    |-         |-   |1372  |
+#'  |1991  |1517  |-          |-    |-         |-   |1517  |
+#'  |1993  |1606  |-          |-    |-         |-   |1606  |
+#'  |1994  |2992  |-          |-    |-         |-   |2992  |
+#'  |1996  |2904  |-          |-    |-         |-   |2904  |
+#'  |1998  |2832  |-          |-    |-         |-   |2832  |
+#'  |2000  |2817  |-          |-    |-         |-   |2817  |
+#'  |2002  |2765  |-          |-    |-         |-   |2765  |
+#'  |2004  |2812  |-          |-    |-         |-   |2812  |
+#'  |2006  |3085  |12         |1269 |6         |138 |4510  |
+#'  |2008  |2023  |-          |-    |-         |-   |2023  |
+#'  |2010  |2044  |-          |-    |-         |-   |2044  |
+#'  |2012  |1974  |-          |-    |-         |-   |1974  |
+#'  |2014  |2538  |-          |-    |-         |-   |2538  |
+#'  |2016  |2867  |-          |-    |-         |-   |2867  |
+#'  |2018  |2348  |-          |-    |-         |-   |2348  |
+#'  |2021  |4032  |-          |-    |-         |-   |4032  |
+#'  |2022  |3544  |-          |-    |-         |-   |3544  |
+#'  |Total |70965 |12         |1269 |6         |138 |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name mhdofrnd
+NULL
+
+#'  What x should do: talk to relic leader
+#' 
+#'  mhdorel
+#' 
+#' Question 1133. What do you think (NAME) should do about this situation? c. Talk to a religious leader
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no   |no answer |yes |Total |
+#'  |:-----|:-----|:----------|:----|:---------|:---|:-----|
+#'  |1972  |1613  |-          |-    |-         |-   |1613  |
+#'  |1973  |1504  |-          |-    |-         |-   |1504  |
+#'  |1974  |1484  |-          |-    |-         |-   |1484  |
+#'  |1975  |1490  |-          |-    |-         |-   |1490  |
+#'  |1976  |1499  |-          |-    |-         |-   |1499  |
+#'  |1977  |1530  |-          |-    |-         |-   |1530  |
+#'  |1978  |1532  |-          |-    |-         |-   |1532  |
+#'  |1980  |1468  |-          |-    |-         |-   |1468  |
+#'  |1982  |1860  |-          |-    |-         |-   |1860  |
+#'  |1983  |1599  |-          |-    |-         |-   |1599  |
+#'  |1984  |1473  |-          |-    |-         |-   |1473  |
+#'  |1985  |1534  |-          |-    |-         |-   |1534  |
+#'  |1986  |1470  |-          |-    |-         |-   |1470  |
+#'  |1987  |1819  |-          |-    |-         |-   |1819  |
+#'  |1988  |1481  |-          |-    |-         |-   |1481  |
+#'  |1989  |1537  |-          |-    |-         |-   |1537  |
+#'  |1990  |1372  |-          |-    |-         |-   |1372  |
+#'  |1991  |1517  |-          |-    |-         |-   |1517  |
+#'  |1993  |1606  |-          |-    |-         |-   |1606  |
+#'  |1994  |2992  |-          |-    |-         |-   |2992  |
+#'  |1996  |2904  |-          |-    |-         |-   |2904  |
+#'  |1998  |2832  |-          |-    |-         |-   |2832  |
+#'  |2000  |2817  |-          |-    |-         |-   |2817  |
+#'  |2002  |2765  |-          |-    |-         |-   |2765  |
+#'  |2004  |2812  |-          |-    |-         |-   |2812  |
+#'  |2006  |3085  |12         |1323 |6         |84  |4510  |
+#'  |2008  |2023  |-          |-    |-         |-   |2023  |
+#'  |2010  |2044  |-          |-    |-         |-   |2044  |
+#'  |2012  |1974  |-          |-    |-         |-   |1974  |
+#'  |2014  |2538  |-          |-    |-         |-   |2538  |
+#'  |2016  |2867  |-          |-    |-         |-   |2867  |
+#'  |2018  |2348  |-          |-    |-         |-   |2348  |
+#'  |2021  |4032  |-          |-    |-         |-   |4032  |
+#'  |2022  |3544  |-          |-    |-         |-   |3544  |
+#'  |Total |70965 |12         |1323 |6         |84  |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name mhdorel
+NULL
+
+#'  What x should do: go to doctor
+#' 
+#'  mhdodoc
+#' 
+#' Question 1133. What do you think (NAME) should do about this situation? d. Go to a doctor
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no  |no answer |yes |Total |
+#'  |:-----|:-----|:----------|:---|:---------|:---|:-----|
+#'  |1972  |1613  |-          |-   |-         |-   |1613  |
+#'  |1973  |1504  |-          |-   |-         |-   |1504  |
+#'  |1974  |1484  |-          |-   |-         |-   |1484  |
+#'  |1975  |1490  |-          |-   |-         |-   |1490  |
+#'  |1976  |1499  |-          |-   |-         |-   |1499  |
+#'  |1977  |1530  |-          |-   |-         |-   |1530  |
+#'  |1978  |1532  |-          |-   |-         |-   |1532  |
+#'  |1980  |1468  |-          |-   |-         |-   |1468  |
+#'  |1982  |1860  |-          |-   |-         |-   |1860  |
+#'  |1983  |1599  |-          |-   |-         |-   |1599  |
+#'  |1984  |1473  |-          |-   |-         |-   |1473  |
+#'  |1985  |1534  |-          |-   |-         |-   |1534  |
+#'  |1986  |1470  |-          |-   |-         |-   |1470  |
+#'  |1987  |1819  |-          |-   |-         |-   |1819  |
+#'  |1988  |1481  |-          |-   |-         |-   |1481  |
+#'  |1989  |1537  |-          |-   |-         |-   |1537  |
+#'  |1990  |1372  |-          |-   |-         |-   |1372  |
+#'  |1991  |1517  |-          |-   |-         |-   |1517  |
+#'  |1993  |1606  |-          |-   |-         |-   |1606  |
+#'  |1994  |2992  |-          |-   |-         |-   |2992  |
+#'  |1996  |2904  |-          |-   |-         |-   |2904  |
+#'  |1998  |2832  |-          |-   |-         |-   |2832  |
+#'  |2000  |2817  |-          |-   |-         |-   |2817  |
+#'  |2002  |2765  |-          |-   |-         |-   |2765  |
+#'  |2004  |2812  |-          |-   |-         |-   |2812  |
+#'  |2006  |3085  |12         |529 |6         |878 |4510  |
+#'  |2008  |2023  |-          |-   |-         |-   |2023  |
+#'  |2010  |2044  |-          |-   |-         |-   |2044  |
+#'  |2012  |1974  |-          |-   |-         |-   |1974  |
+#'  |2014  |2538  |-          |-   |-         |-   |2538  |
+#'  |2016  |2867  |-          |-   |-         |-   |2867  |
+#'  |2018  |2348  |-          |-   |-         |-   |2348  |
+#'  |2021  |4032  |-          |-   |-         |-   |4032  |
+#'  |2022  |3544  |-          |-   |-         |-   |3544  |
+#'  |Total |70965 |12         |529 |6         |878 |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name mhdodoc
+NULL
+
+#'  What x should do: go to psychiatrist
+#' 
+#'  mhdopsyc
+#' 
+#' Question 1133. What do you think (NAME) should do about this situation? e. Go to a psychiatrist
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no   |no answer |yes |Total |
+#'  |:-----|:-----|:----------|:----|:---------|:---|:-----|
+#'  |1972  |1613  |-          |-    |-         |-   |1613  |
+#'  |1973  |1504  |-          |-    |-         |-   |1504  |
+#'  |1974  |1484  |-          |-    |-         |-   |1484  |
+#'  |1975  |1490  |-          |-    |-         |-   |1490  |
+#'  |1976  |1499  |-          |-    |-         |-   |1499  |
+#'  |1977  |1530  |-          |-    |-         |-   |1530  |
+#'  |1978  |1532  |-          |-    |-         |-   |1532  |
+#'  |1980  |1468  |-          |-    |-         |-   |1468  |
+#'  |1982  |1860  |-          |-    |-         |-   |1860  |
+#'  |1983  |1599  |-          |-    |-         |-   |1599  |
+#'  |1984  |1473  |-          |-    |-         |-   |1473  |
+#'  |1985  |1534  |-          |-    |-         |-   |1534  |
+#'  |1986  |1470  |-          |-    |-         |-   |1470  |
+#'  |1987  |1819  |-          |-    |-         |-   |1819  |
+#'  |1988  |1481  |-          |-    |-         |-   |1481  |
+#'  |1989  |1537  |-          |-    |-         |-   |1537  |
+#'  |1990  |1372  |-          |-    |-         |-   |1372  |
+#'  |1991  |1517  |-          |-    |-         |-   |1517  |
+#'  |1993  |1606  |-          |-    |-         |-   |1606  |
+#'  |1994  |2992  |-          |-    |-         |-   |2992  |
+#'  |1996  |2904  |-          |-    |-         |-   |2904  |
+#'  |1998  |2832  |-          |-    |-         |-   |2832  |
+#'  |2000  |2817  |-          |-    |-         |-   |2817  |
+#'  |2002  |2765  |-          |-    |-         |-   |2765  |
+#'  |2004  |2812  |-          |-    |-         |-   |2812  |
+#'  |2006  |3085  |12         |1048 |6         |359 |4510  |
+#'  |2008  |2023  |-          |-    |-         |-   |2023  |
+#'  |2010  |2044  |-          |-    |-         |-   |2044  |
+#'  |2012  |1974  |-          |-    |-         |-   |1974  |
+#'  |2014  |2538  |-          |-    |-         |-   |2538  |
+#'  |2016  |2867  |-          |-    |-         |-   |2867  |
+#'  |2018  |2348  |-          |-    |-         |-   |2348  |
+#'  |2021  |4032  |-          |-    |-         |-   |4032  |
+#'  |2022  |3544  |-          |-    |-         |-   |3544  |
+#'  |Total |70965 |12         |1048 |6         |359 |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name mhdopsyc
+NULL
+
+#'  What x should do: go to counselor
+#' 
+#'  mhdomhp
+#' 
+#' Question 1133. What do you think (NAME) should do about this situation? f. Go to a counselor or another mental health professional
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no   |no answer |yes |Total |
+#'  |:-----|:-----|:----------|:----|:---------|:---|:-----|
+#'  |1972  |1613  |-          |-    |-         |-   |1613  |
+#'  |1973  |1504  |-          |-    |-         |-   |1504  |
+#'  |1974  |1484  |-          |-    |-         |-   |1484  |
+#'  |1975  |1490  |-          |-    |-         |-   |1490  |
+#'  |1976  |1499  |-          |-    |-         |-   |1499  |
+#'  |1977  |1530  |-          |-    |-         |-   |1530  |
+#'  |1978  |1532  |-          |-    |-         |-   |1532  |
+#'  |1980  |1468  |-          |-    |-         |-   |1468  |
+#'  |1982  |1860  |-          |-    |-         |-   |1860  |
+#'  |1983  |1599  |-          |-    |-         |-   |1599  |
+#'  |1984  |1473  |-          |-    |-         |-   |1473  |
+#'  |1985  |1534  |-          |-    |-         |-   |1534  |
+#'  |1986  |1470  |-          |-    |-         |-   |1470  |
+#'  |1987  |1819  |-          |-    |-         |-   |1819  |
+#'  |1988  |1481  |-          |-    |-         |-   |1481  |
+#'  |1989  |1537  |-          |-    |-         |-   |1537  |
+#'  |1990  |1372  |-          |-    |-         |-   |1372  |
+#'  |1991  |1517  |-          |-    |-         |-   |1517  |
+#'  |1993  |1606  |-          |-    |-         |-   |1606  |
+#'  |1994  |2992  |-          |-    |-         |-   |2992  |
+#'  |1996  |2904  |-          |-    |-         |-   |2904  |
+#'  |1998  |2832  |-          |-    |-         |-   |2832  |
+#'  |2000  |2817  |-          |-    |-         |-   |2817  |
+#'  |2002  |2765  |-          |-    |-         |-   |2765  |
+#'  |2004  |2812  |-          |-    |-         |-   |2812  |
+#'  |2006  |3085  |12         |1087 |6         |320 |4510  |
+#'  |2008  |2023  |-          |-    |-         |-   |2023  |
+#'  |2010  |2044  |-          |-    |-         |-   |2044  |
+#'  |2012  |1974  |-          |-    |-         |-   |1974  |
+#'  |2014  |2538  |-          |-    |-         |-   |2538  |
+#'  |2016  |2867  |-          |-    |-         |-   |2867  |
+#'  |2018  |2348  |-          |-    |-         |-   |2348  |
+#'  |2021  |4032  |-          |-    |-         |-   |4032  |
+#'  |2022  |3544  |-          |-    |-         |-   |3544  |
+#'  |Total |70965 |12         |1087 |6         |320 |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name mhdomhp
+NULL
+
+#'  What x should do: go to spiritual healer
+#' 
+#'  mhdoheal
+#' 
+#' Question 1133. What do you think (NAME) should do about this situation? g. Go to a spiritual or traditional healer
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no   |no answer |yes |Total |
+#'  |:-----|:-----|:----------|:----|:---------|:---|:-----|
+#'  |1972  |1613  |-          |-    |-         |-   |1613  |
+#'  |1973  |1504  |-          |-    |-         |-   |1504  |
+#'  |1974  |1484  |-          |-    |-         |-   |1484  |
+#'  |1975  |1490  |-          |-    |-         |-   |1490  |
+#'  |1976  |1499  |-          |-    |-         |-   |1499  |
+#'  |1977  |1530  |-          |-    |-         |-   |1530  |
+#'  |1978  |1532  |-          |-    |-         |-   |1532  |
+#'  |1980  |1468  |-          |-    |-         |-   |1468  |
+#'  |1982  |1860  |-          |-    |-         |-   |1860  |
+#'  |1983  |1599  |-          |-    |-         |-   |1599  |
+#'  |1984  |1473  |-          |-    |-         |-   |1473  |
+#'  |1985  |1534  |-          |-    |-         |-   |1534  |
+#'  |1986  |1470  |-          |-    |-         |-   |1470  |
+#'  |1987  |1819  |-          |-    |-         |-   |1819  |
+#'  |1988  |1481  |-          |-    |-         |-   |1481  |
+#'  |1989  |1537  |-          |-    |-         |-   |1537  |
+#'  |1990  |1372  |-          |-    |-         |-   |1372  |
+#'  |1991  |1517  |-          |-    |-         |-   |1517  |
+#'  |1993  |1606  |-          |-    |-         |-   |1606  |
+#'  |1994  |2992  |-          |-    |-         |-   |2992  |
+#'  |1996  |2904  |-          |-    |-         |-   |2904  |
+#'  |1998  |2832  |-          |-    |-         |-   |2832  |
+#'  |2000  |2817  |-          |-    |-         |-   |2817  |
+#'  |2002  |2765  |-          |-    |-         |-   |2765  |
+#'  |2004  |2812  |-          |-    |-         |-   |2812  |
+#'  |2006  |3085  |12         |1399 |6         |8   |4510  |
+#'  |2008  |2023  |-          |-    |-         |-   |2023  |
+#'  |2010  |2044  |-          |-    |-         |-   |2044  |
+#'  |2012  |1974  |-          |-    |-         |-   |1974  |
+#'  |2014  |2538  |-          |-    |-         |-   |2538  |
+#'  |2016  |2867  |-          |-    |-         |-   |2867  |
+#'  |2018  |2348  |-          |-    |-         |-   |2348  |
+#'  |2021  |4032  |-          |-    |-         |-   |4032  |
+#'  |2022  |3544  |-          |-    |-         |-   |3544  |
+#'  |Total |70965 |12         |1399 |6         |8   |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name mhdoheal
+NULL
+
+#'  What x should do: take non-prescription medication
+#' 
+#'  mhdootc
+#' 
+#' Question 1133. What do you think (NAME) should do about this situation? h. Take non-prescription medication
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no   |no answer |yes |Total |
+#'  |:-----|:-----|:----------|:----|:---------|:---|:-----|
+#'  |1972  |1613  |-          |-    |-         |-   |1613  |
+#'  |1973  |1504  |-          |-    |-         |-   |1504  |
+#'  |1974  |1484  |-          |-    |-         |-   |1484  |
+#'  |1975  |1490  |-          |-    |-         |-   |1490  |
+#'  |1976  |1499  |-          |-    |-         |-   |1499  |
+#'  |1977  |1530  |-          |-    |-         |-   |1530  |
+#'  |1978  |1532  |-          |-    |-         |-   |1532  |
+#'  |1980  |1468  |-          |-    |-         |-   |1468  |
+#'  |1982  |1860  |-          |-    |-         |-   |1860  |
+#'  |1983  |1599  |-          |-    |-         |-   |1599  |
+#'  |1984  |1473  |-          |-    |-         |-   |1473  |
+#'  |1985  |1534  |-          |-    |-         |-   |1534  |
+#'  |1986  |1470  |-          |-    |-         |-   |1470  |
+#'  |1987  |1819  |-          |-    |-         |-   |1819  |
+#'  |1988  |1481  |-          |-    |-         |-   |1481  |
+#'  |1989  |1537  |-          |-    |-         |-   |1537  |
+#'  |1990  |1372  |-          |-    |-         |-   |1372  |
+#'  |1991  |1517  |-          |-    |-         |-   |1517  |
+#'  |1993  |1606  |-          |-    |-         |-   |1606  |
+#'  |1994  |2992  |-          |-    |-         |-   |2992  |
+#'  |1996  |2904  |-          |-    |-         |-   |2904  |
+#'  |1998  |2832  |-          |-    |-         |-   |2832  |
+#'  |2000  |2817  |-          |-    |-         |-   |2817  |
+#'  |2002  |2765  |-          |-    |-         |-   |2765  |
+#'  |2004  |2812  |-          |-    |-         |-   |2812  |
+#'  |2006  |3085  |12         |1389 |6         |18  |4510  |
+#'  |2008  |2023  |-          |-    |-         |-   |2023  |
+#'  |2010  |2044  |-          |-    |-         |-   |2044  |
+#'  |2012  |1974  |-          |-    |-         |-   |1974  |
+#'  |2014  |2538  |-          |-    |-         |-   |2538  |
+#'  |2016  |2867  |-          |-    |-         |-   |2867  |
+#'  |2018  |2348  |-          |-    |-         |-   |2348  |
+#'  |2021  |4032  |-          |-    |-         |-   |4032  |
+#'  |2022  |3544  |-          |-    |-         |-   |3544  |
+#'  |Total |70965 |12         |1389 |6         |18  |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name mhdootc
+NULL
+
+#'  What x should do: take prescription medication
+#' 
+#'  mhdorx
+#' 
+#' Question 1133. What do you think (NAME) should do about this situation? i. Take prescription medication
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no   |no answer |yes |Total |
+#'  |:-----|:-----|:----------|:----|:---------|:---|:-----|
+#'  |1972  |1613  |-          |-    |-         |-   |1613  |
+#'  |1973  |1504  |-          |-    |-         |-   |1504  |
+#'  |1974  |1484  |-          |-    |-         |-   |1484  |
+#'  |1975  |1490  |-          |-    |-         |-   |1490  |
+#'  |1976  |1499  |-          |-    |-         |-   |1499  |
+#'  |1977  |1530  |-          |-    |-         |-   |1530  |
+#'  |1978  |1532  |-          |-    |-         |-   |1532  |
+#'  |1980  |1468  |-          |-    |-         |-   |1468  |
+#'  |1982  |1860  |-          |-    |-         |-   |1860  |
+#'  |1983  |1599  |-          |-    |-         |-   |1599  |
+#'  |1984  |1473  |-          |-    |-         |-   |1473  |
+#'  |1985  |1534  |-          |-    |-         |-   |1534  |
+#'  |1986  |1470  |-          |-    |-         |-   |1470  |
+#'  |1987  |1819  |-          |-    |-         |-   |1819  |
+#'  |1988  |1481  |-          |-    |-         |-   |1481  |
+#'  |1989  |1537  |-          |-    |-         |-   |1537  |
+#'  |1990  |1372  |-          |-    |-         |-   |1372  |
+#'  |1991  |1517  |-          |-    |-         |-   |1517  |
+#'  |1993  |1606  |-          |-    |-         |-   |1606  |
+#'  |1994  |2992  |-          |-    |-         |-   |2992  |
+#'  |1996  |2904  |-          |-    |-         |-   |2904  |
+#'  |1998  |2832  |-          |-    |-         |-   |2832  |
+#'  |2000  |2817  |-          |-    |-         |-   |2817  |
+#'  |2002  |2765  |-          |-    |-         |-   |2765  |
+#'  |2004  |2812  |-          |-    |-         |-   |2812  |
+#'  |2006  |3085  |12         |1279 |6         |128 |4510  |
+#'  |2008  |2023  |-          |-    |-         |-   |2023  |
+#'  |2010  |2044  |-          |-    |-         |-   |2044  |
+#'  |2012  |1974  |-          |-    |-         |-   |1974  |
+#'  |2014  |2538  |-          |-    |-         |-   |2538  |
+#'  |2016  |2867  |-          |-    |-         |-   |2867  |
+#'  |2018  |2348  |-          |-    |-         |-   |2348  |
+#'  |2021  |4032  |-          |-    |-         |-   |4032  |
+#'  |2022  |3544  |-          |-    |-         |-   |3544  |
+#'  |Total |70965 |12         |1279 |6         |128 |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name mhdorx
+NULL
+
+#'  What x should do: check into a hospital
+#' 
+#'  mhdohosp
+#' 
+#' Question 1133. What do you think (NAME) should do about this situation? j. Check into a hospital
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no   |no answer |yes |Total |
+#'  |:-----|:-----|:----------|:----|:---------|:---|:-----|
+#'  |1972  |1613  |-          |-    |-         |-   |1613  |
+#'  |1973  |1504  |-          |-    |-         |-   |1504  |
+#'  |1974  |1484  |-          |-    |-         |-   |1484  |
+#'  |1975  |1490  |-          |-    |-         |-   |1490  |
+#'  |1976  |1499  |-          |-    |-         |-   |1499  |
+#'  |1977  |1530  |-          |-    |-         |-   |1530  |
+#'  |1978  |1532  |-          |-    |-         |-   |1532  |
+#'  |1980  |1468  |-          |-    |-         |-   |1468  |
+#'  |1982  |1860  |-          |-    |-         |-   |1860  |
+#'  |1983  |1599  |-          |-    |-         |-   |1599  |
+#'  |1984  |1473  |-          |-    |-         |-   |1473  |
+#'  |1985  |1534  |-          |-    |-         |-   |1534  |
+#'  |1986  |1470  |-          |-    |-         |-   |1470  |
+#'  |1987  |1819  |-          |-    |-         |-   |1819  |
+#'  |1988  |1481  |-          |-    |-         |-   |1481  |
+#'  |1989  |1537  |-          |-    |-         |-   |1537  |
+#'  |1990  |1372  |-          |-    |-         |-   |1372  |
+#'  |1991  |1517  |-          |-    |-         |-   |1517  |
+#'  |1993  |1606  |-          |-    |-         |-   |1606  |
+#'  |1994  |2992  |-          |-    |-         |-   |2992  |
+#'  |1996  |2904  |-          |-    |-         |-   |2904  |
+#'  |1998  |2832  |-          |-    |-         |-   |2832  |
+#'  |2000  |2817  |-          |-    |-         |-   |2817  |
+#'  |2002  |2765  |-          |-    |-         |-   |2765  |
+#'  |2004  |2812  |-          |-    |-         |-   |2812  |
+#'  |2006  |3085  |12         |1372 |6         |35  |4510  |
+#'  |2008  |2023  |-          |-    |-         |-   |2023  |
+#'  |2010  |2044  |-          |-    |-         |-   |2044  |
+#'  |2012  |1974  |-          |-    |-         |-   |1974  |
+#'  |2014  |2538  |-          |-    |-         |-   |2538  |
+#'  |2016  |2867  |-          |-    |-         |-   |2867  |
+#'  |2018  |2348  |-          |-    |-         |-   |2348  |
+#'  |2021  |4032  |-          |-    |-         |-   |4032  |
+#'  |2022  |3544  |-          |-    |-         |-   |3544  |
+#'  |Total |70965 |12         |1372 |6         |35  |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name mhdohosp
+NULL
+

@@ -1,0 +1,754 @@
+#'  A man won't get a job or promotion
+#' 
+#'  discaffm
+#' 
+#' Question 561a. What do you think the chances are these days that a man won't get a job or a promotion while an equally or less qualified woman gets one instead?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no answer |not very likely |somewhat likely |very likely |very unlikely |skipped on web |Total |
+#'  |:-----|:-----|:----------|:---------|:---------------|:---------------|:-----------|:-------------|:--------------|:-----|
+#'  |1972  |1613  |-          |-         |-               |-               |-           |-             |-              |1613  |
+#'  |1973  |1504  |-          |-         |-               |-               |-           |-             |-              |1504  |
+#'  |1974  |1484  |-          |-         |-               |-               |-           |-             |-              |1484  |
+#'  |1975  |1490  |-          |-         |-               |-               |-           |-             |-              |1490  |
+#'  |1976  |1499  |-          |-         |-               |-               |-           |-             |-              |1499  |
+#'  |1977  |1530  |-          |-         |-               |-               |-           |-             |-              |1530  |
+#'  |1978  |1532  |-          |-         |-               |-               |-           |-             |-              |1532  |
+#'  |1980  |1468  |-          |-         |-               |-               |-           |-             |-              |1468  |
+#'  |1982  |1860  |-          |-         |-               |-               |-           |-             |-              |1860  |
+#'  |1983  |1599  |-          |-         |-               |-               |-           |-             |-              |1599  |
+#'  |1984  |1473  |-          |-         |-               |-               |-           |-             |-              |1473  |
+#'  |1985  |1534  |-          |-         |-               |-               |-           |-             |-              |1534  |
+#'  |1986  |1470  |-          |-         |-               |-               |-           |-             |-              |1470  |
+#'  |1987  |1819  |-          |-         |-               |-               |-           |-             |-              |1819  |
+#'  |1988  |1481  |-          |-         |-               |-               |-           |-             |-              |1481  |
+#'  |1989  |1537  |-          |-         |-               |-               |-           |-             |-              |1537  |
+#'  |1990  |1372  |-          |-         |-               |-               |-           |-             |-              |1372  |
+#'  |1991  |1517  |-          |-         |-               |-               |-           |-             |-              |1517  |
+#'  |1993  |1606  |-          |-         |-               |-               |-           |-             |-              |1606  |
+#'  |1994  |2992  |-          |-         |-               |-               |-           |-             |-              |2992  |
+#'  |1996  |2199  |49         |2         |194             |259             |98          |103           |-              |2904  |
+#'  |1998  |2832  |-          |-         |-               |-               |-           |-             |-              |2832  |
+#'  |2000  |1868  |49         |55        |270             |302             |117         |156           |-              |2817  |
+#'  |2002  |2327  |10         |-         |123             |168             |63          |74            |-              |2765  |
+#'  |2004  |2359  |15         |1         |138             |170             |59          |70            |-              |2812  |
+#'  |2006  |3516  |19         |1         |322             |366             |122         |164           |-              |4510  |
+#'  |2008  |1375  |17         |1         |192             |270             |81          |87            |-              |2023  |
+#'  |2010  |1313  |21         |3         |244             |282             |79          |102           |-              |2044  |
+#'  |2012  |1314  |17         |4         |216             |247             |72          |104           |-              |1974  |
+#'  |2014  |1712  |25         |-         |262             |314             |92          |133           |-              |2538  |
+#'  |2016  |1931  |23         |-         |307             |324             |106         |176           |-              |2867  |
+#'  |2018  |1554  |14         |1         |264             |273             |89          |153           |-              |2348  |
+#'  |2021  |2689  |2          |1         |511             |422             |119         |284           |4              |4032  |
+#'  |2022  |2339  |20         |1         |411             |403             |108         |258           |4              |3544  |
+#'  |Total |61708 |281        |70        |3454            |3800            |1205        |1864          |8              |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` very likely
+#'   * `2` somewhat likely
+#'   * `3` not very likely
+#'   * `4` very unlikely
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name discaffm
+NULL
+
+#'  A woman won't get a job or promotion
+#' 
+#'  discaffw
+#' 
+#' Question 561b. What do you think the chances are these days that a woman won't get a job or promotion while an equally or less qualified man gets one instead?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no answer |not very likely |somewhat likely |very likely |very unlikely |not available in this year |Total |
+#'  |:-----|:-----|:----------|:---------|:---------------|:---------------|:-----------|:-------------|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-         |-               |-               |-           |-             |-                          |1613  |
+#'  |1973  |1504  |-          |-         |-               |-               |-           |-             |-                          |1504  |
+#'  |1974  |1484  |-          |-         |-               |-               |-           |-             |-                          |1484  |
+#'  |1975  |1490  |-          |-         |-               |-               |-           |-             |-                          |1490  |
+#'  |1976  |1499  |-          |-         |-               |-               |-           |-             |-                          |1499  |
+#'  |1977  |1530  |-          |-         |-               |-               |-           |-             |-                          |1530  |
+#'  |1978  |1532  |-          |-         |-               |-               |-           |-             |-                          |1532  |
+#'  |1980  |1468  |-          |-         |-               |-               |-           |-             |-                          |1468  |
+#'  |1982  |1860  |-          |-         |-               |-               |-           |-             |-                          |1860  |
+#'  |1983  |1599  |-          |-         |-               |-               |-           |-             |-                          |1599  |
+#'  |1984  |1473  |-          |-         |-               |-               |-           |-             |-                          |1473  |
+#'  |1985  |1534  |-          |-         |-               |-               |-           |-             |-                          |1534  |
+#'  |1986  |1470  |-          |-         |-               |-               |-           |-             |-                          |1470  |
+#'  |1987  |1819  |-          |-         |-               |-               |-           |-             |-                          |1819  |
+#'  |1988  |1481  |-          |-         |-               |-               |-           |-             |-                          |1481  |
+#'  |1989  |1537  |-          |-         |-               |-               |-           |-             |-                          |1537  |
+#'  |1990  |1372  |-          |-         |-               |-               |-           |-             |-                          |1372  |
+#'  |1991  |1517  |-          |-         |-               |-               |-           |-             |-                          |1517  |
+#'  |1993  |1606  |-          |-         |-               |-               |-           |-             |-                          |1606  |
+#'  |1994  |2992  |-          |-         |-               |-               |-           |-             |-                          |2992  |
+#'  |1996  |2149  |31         |11        |152             |363             |132         |66            |-                          |2904  |
+#'  |1998  |2832  |-          |-         |-               |-               |-           |-             |-                          |2832  |
+#'  |2000  |1889  |29         |129       |153             |357             |200         |60            |-                          |2817  |
+#'  |2002  |2295  |21         |-         |65              |234             |121         |29            |-                          |2765  |
+#'  |2004  |2359  |17         |1         |65              |218             |116         |36            |-                          |2812  |
+#'  |2006  |3512  |39         |-         |198             |440             |236         |85            |-                          |4510  |
+#'  |2008  |1342  |9          |-         |135             |323             |165         |49            |-                          |2023  |
+#'  |2010  |1345  |25         |-         |127             |312             |170         |65            |-                          |2044  |
+#'  |2012  |1332  |21         |-         |133             |294             |134         |60            |-                          |1974  |
+#'  |2014  |1689  |19         |1         |164             |413             |175         |77            |-                          |2538  |
+#'  |2016  |1915  |17         |-         |163             |480             |211         |81            |-                          |2867  |
+#'  |2018  |1583  |22         |-         |139             |338             |197         |69            |-                          |2348  |
+#'  |2021  |-     |-          |-         |-               |-               |-           |-             |4032                       |4032  |
+#'  |2022  |2315  |48         |-         |253             |521             |302         |105           |-                          |3544  |
+#'  |Total |58937 |298        |142       |1747            |4293            |2159        |782           |4032                       |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` very likely
+#'   * `2` somewhat likely
+#'   * `3` not very likely
+#'   * `4` very unlikely
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name discaffw
+NULL
+
+#'  Allow workers more flexible hours
+#' 
+#'  flextime
+#' 
+#' Question 562. It is becoming more common for employers to offer ways for people to comine work and being a parent. For each of the following, please tell me whether or not you think that employers should offer these options to their workers. a. Allow workers more flexible working hours, to handle family responsibilities.
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no answer |no, should not offer this option |yes, should offer this option |Total |
+#'  |:-----|:-----|:----------|:---------|:--------------------------------|:-----------------------------|:-----|
+#'  |1972  |1613  |-          |-         |-                                |-                             |1613  |
+#'  |1973  |1504  |-          |-         |-                                |-                             |1504  |
+#'  |1974  |1484  |-          |-         |-                                |-                             |1484  |
+#'  |1975  |1490  |-          |-         |-                                |-                             |1490  |
+#'  |1976  |1499  |-          |-         |-                                |-                             |1499  |
+#'  |1977  |1530  |-          |-         |-                                |-                             |1530  |
+#'  |1978  |1532  |-          |-         |-                                |-                             |1532  |
+#'  |1980  |1468  |-          |-         |-                                |-                             |1468  |
+#'  |1982  |1860  |-          |-         |-                                |-                             |1860  |
+#'  |1983  |1599  |-          |-         |-                                |-                             |1599  |
+#'  |1984  |1473  |-          |-         |-                                |-                             |1473  |
+#'  |1985  |1534  |-          |-         |-                                |-                             |1534  |
+#'  |1986  |1470  |-          |-         |-                                |-                             |1470  |
+#'  |1987  |1819  |-          |-         |-                                |-                             |1819  |
+#'  |1988  |1481  |-          |-         |-                                |-                             |1481  |
+#'  |1989  |1537  |-          |-         |-                                |-                             |1537  |
+#'  |1990  |1372  |-          |-         |-                                |-                             |1372  |
+#'  |1991  |1517  |-          |-         |-                                |-                             |1517  |
+#'  |1993  |1606  |-          |-         |-                                |-                             |1606  |
+#'  |1994  |2992  |-          |-         |-                                |-                             |2992  |
+#'  |1996  |1444  |41         |3         |142                              |1274                          |2904  |
+#'  |1998  |2832  |-          |-         |-                                |-                             |2832  |
+#'  |2000  |2817  |-          |-         |-                                |-                             |2817  |
+#'  |2002  |2765  |-          |-         |-                                |-                             |2765  |
+#'  |2004  |2812  |-          |-         |-                                |-                             |2812  |
+#'  |2006  |4510  |-          |-         |-                                |-                             |4510  |
+#'  |2008  |2023  |-          |-         |-                                |-                             |2023  |
+#'  |2010  |2044  |-          |-         |-                                |-                             |2044  |
+#'  |2012  |1974  |-          |-         |-                                |-                             |1974  |
+#'  |2014  |2538  |-          |-         |-                                |-                             |2538  |
+#'  |2016  |2867  |-          |-         |-                                |-                             |2867  |
+#'  |2018  |2348  |-          |-         |-                                |-                             |2348  |
+#'  |2021  |4032  |-          |-         |-                                |-                             |4032  |
+#'  |2022  |3544  |-          |-         |-                                |-                             |3544  |
+#'  |Total |70930 |41         |3         |142                              |1274                          |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes, should offer this option
+#'   * `2` no, should not offer this option
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name flextime
+NULL
+
+#'  Offer paid time off to new parents.
+#' 
+#'  parleave
+#' 
+#' Question 562. It is becoming more common for employers to offer ways for people to comine work and being a parent. For each of the following, please tell me whether or not you think that employers should offer these options to their workers. b. offer paid time off to new parents.
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no answer |no, should not offer this option |yes, should offer this option |Total |
+#'  |:-----|:-----|:----------|:---------|:--------------------------------|:-----------------------------|:-----|
+#'  |1972  |1613  |-          |-         |-                                |-                             |1613  |
+#'  |1973  |1504  |-          |-         |-                                |-                             |1504  |
+#'  |1974  |1484  |-          |-         |-                                |-                             |1484  |
+#'  |1975  |1490  |-          |-         |-                                |-                             |1490  |
+#'  |1976  |1499  |-          |-         |-                                |-                             |1499  |
+#'  |1977  |1530  |-          |-         |-                                |-                             |1530  |
+#'  |1978  |1532  |-          |-         |-                                |-                             |1532  |
+#'  |1980  |1468  |-          |-         |-                                |-                             |1468  |
+#'  |1982  |1860  |-          |-         |-                                |-                             |1860  |
+#'  |1983  |1599  |-          |-         |-                                |-                             |1599  |
+#'  |1984  |1473  |-          |-         |-                                |-                             |1473  |
+#'  |1985  |1534  |-          |-         |-                                |-                             |1534  |
+#'  |1986  |1470  |-          |-         |-                                |-                             |1470  |
+#'  |1987  |1819  |-          |-         |-                                |-                             |1819  |
+#'  |1988  |1481  |-          |-         |-                                |-                             |1481  |
+#'  |1989  |1537  |-          |-         |-                                |-                             |1537  |
+#'  |1990  |1372  |-          |-         |-                                |-                             |1372  |
+#'  |1991  |1517  |-          |-         |-                                |-                             |1517  |
+#'  |1993  |1606  |-          |-         |-                                |-                             |1606  |
+#'  |1994  |2992  |-          |-         |-                                |-                             |2992  |
+#'  |1996  |1444  |60         |5         |338                              |1057                          |2904  |
+#'  |1998  |2832  |-          |-         |-                                |-                             |2832  |
+#'  |2000  |2817  |-          |-         |-                                |-                             |2817  |
+#'  |2002  |2765  |-          |-         |-                                |-                             |2765  |
+#'  |2004  |2812  |-          |-         |-                                |-                             |2812  |
+#'  |2006  |4510  |-          |-         |-                                |-                             |4510  |
+#'  |2008  |2023  |-          |-         |-                                |-                             |2023  |
+#'  |2010  |2044  |-          |-         |-                                |-                             |2044  |
+#'  |2012  |1974  |-          |-         |-                                |-                             |1974  |
+#'  |2014  |2538  |-          |-         |-                                |-                             |2538  |
+#'  |2016  |2867  |-          |-         |-                                |-                             |2867  |
+#'  |2018  |2348  |-          |-         |-                                |-                             |2348  |
+#'  |2021  |4032  |-          |-         |-                                |-                             |4032  |
+#'  |2022  |3544  |-          |-         |-                                |-                             |3544  |
+#'  |Total |70930 |60         |5         |338                              |1057                          |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes, should offer this option
+#'   * `2` no, should not offer this option
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name parleave
+NULL
+
+#'  Men benefit from traditional family
+#' 
+#'  menben
+#' 
+#' Question 563. In many married couples, women take the main responsibility for the care of the home and children, while men take the main responsibility for supporting the family financially. Who benefits from this: men, women, children, everyone, or no one? a. Men
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no  |no answer |yes |Total |
+#'  |:-----|:-----|:----------|:---|:---------|:---|:-----|
+#'  |1972  |1613  |-          |-   |-         |-   |1613  |
+#'  |1973  |1504  |-          |-   |-         |-   |1504  |
+#'  |1974  |1484  |-          |-   |-         |-   |1484  |
+#'  |1975  |1490  |-          |-   |-         |-   |1490  |
+#'  |1976  |1499  |-          |-   |-         |-   |1499  |
+#'  |1977  |1530  |-          |-   |-         |-   |1530  |
+#'  |1978  |1532  |-          |-   |-         |-   |1532  |
+#'  |1980  |1468  |-          |-   |-         |-   |1468  |
+#'  |1982  |1860  |-          |-   |-         |-   |1860  |
+#'  |1983  |1599  |-          |-   |-         |-   |1599  |
+#'  |1984  |1473  |-          |-   |-         |-   |1473  |
+#'  |1985  |1534  |-          |-   |-         |-   |1534  |
+#'  |1986  |1470  |-          |-   |-         |-   |1470  |
+#'  |1987  |1819  |-          |-   |-         |-   |1819  |
+#'  |1988  |1481  |-          |-   |-         |-   |1481  |
+#'  |1989  |1537  |-          |-   |-         |-   |1537  |
+#'  |1990  |1372  |-          |-   |-         |-   |1372  |
+#'  |1991  |1517  |-          |-   |-         |-   |1517  |
+#'  |1993  |1606  |-          |-   |-         |-   |1606  |
+#'  |1994  |2992  |-          |-   |-         |-   |2992  |
+#'  |1996  |1444  |76         |493 |317       |574 |2904  |
+#'  |1998  |2832  |-          |-   |-         |-   |2832  |
+#'  |2000  |2817  |-          |-   |-         |-   |2817  |
+#'  |2002  |2765  |-          |-   |-         |-   |2765  |
+#'  |2004  |2812  |-          |-   |-         |-   |2812  |
+#'  |2006  |4510  |-          |-   |-         |-   |4510  |
+#'  |2008  |2023  |-          |-   |-         |-   |2023  |
+#'  |2010  |2044  |-          |-   |-         |-   |2044  |
+#'  |2012  |1974  |-          |-   |-         |-   |1974  |
+#'  |2014  |2538  |-          |-   |-         |-   |2538  |
+#'  |2016  |2867  |-          |-   |-         |-   |2867  |
+#'  |2018  |2348  |-          |-   |-         |-   |2348  |
+#'  |2021  |4032  |-          |-   |-         |-   |4032  |
+#'  |2022  |3544  |-          |-   |-         |-   |3544  |
+#'  |Total |70930 |76         |493 |317       |574 |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name menben
+NULL
+
+#'  Women benefit from traditional family
+#' 
+#'  womenben
+#' 
+#' Question 563. In many married couples, women take the main responsibility for the care of the home and children, while men take the main responsibility for supporting the family financially. Who benefits from this: men, women, children, everyone, or no one? b. Women
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no  |no answer |yes |Total |
+#'  |:-----|:-----|:----------|:---|:---------|:---|:-----|
+#'  |1972  |1613  |-          |-   |-         |-   |1613  |
+#'  |1973  |1504  |-          |-   |-         |-   |1504  |
+#'  |1974  |1484  |-          |-   |-         |-   |1484  |
+#'  |1975  |1490  |-          |-   |-         |-   |1490  |
+#'  |1976  |1499  |-          |-   |-         |-   |1499  |
+#'  |1977  |1530  |-          |-   |-         |-   |1530  |
+#'  |1978  |1532  |-          |-   |-         |-   |1532  |
+#'  |1980  |1468  |-          |-   |-         |-   |1468  |
+#'  |1982  |1860  |-          |-   |-         |-   |1860  |
+#'  |1983  |1599  |-          |-   |-         |-   |1599  |
+#'  |1984  |1473  |-          |-   |-         |-   |1473  |
+#'  |1985  |1534  |-          |-   |-         |-   |1534  |
+#'  |1986  |1470  |-          |-   |-         |-   |1470  |
+#'  |1987  |1819  |-          |-   |-         |-   |1819  |
+#'  |1988  |1481  |-          |-   |-         |-   |1481  |
+#'  |1989  |1537  |-          |-   |-         |-   |1537  |
+#'  |1990  |1372  |-          |-   |-         |-   |1372  |
+#'  |1991  |1517  |-          |-   |-         |-   |1517  |
+#'  |1993  |1606  |-          |-   |-         |-   |1606  |
+#'  |1994  |2992  |-          |-   |-         |-   |2992  |
+#'  |1996  |1444  |81         |573 |330       |476 |2904  |
+#'  |1998  |2832  |-          |-   |-         |-   |2832  |
+#'  |2000  |2817  |-          |-   |-         |-   |2817  |
+#'  |2002  |2765  |-          |-   |-         |-   |2765  |
+#'  |2004  |2812  |-          |-   |-         |-   |2812  |
+#'  |2006  |4510  |-          |-   |-         |-   |4510  |
+#'  |2008  |2023  |-          |-   |-         |-   |2023  |
+#'  |2010  |2044  |-          |-   |-         |-   |2044  |
+#'  |2012  |1974  |-          |-   |-         |-   |1974  |
+#'  |2014  |2538  |-          |-   |-         |-   |2538  |
+#'  |2016  |2867  |-          |-   |-         |-   |2867  |
+#'  |2018  |2348  |-          |-   |-         |-   |2348  |
+#'  |2021  |4032  |-          |-   |-         |-   |4032  |
+#'  |2022  |3544  |-          |-   |-         |-   |3544  |
+#'  |Total |70930 |81         |573 |330       |476 |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name womenben
+NULL
+
+#'  Children benefit from traditional family
+#' 
+#'  chldben
+#' 
+#' Question 563. In many married couples, women take the main responsibility for the care of the home and children, while men take the main responsibility for supporting the family financially. Who benefits from this: men, women, children, everyone, or no one? c. Children
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no  |no answer |yes |Total |
+#'  |:-----|:-----|:----------|:---|:---------|:---|:-----|
+#'  |1972  |1613  |-          |-   |-         |-   |1613  |
+#'  |1973  |1504  |-          |-   |-         |-   |1504  |
+#'  |1974  |1484  |-          |-   |-         |-   |1484  |
+#'  |1975  |1490  |-          |-   |-         |-   |1490  |
+#'  |1976  |1499  |-          |-   |-         |-   |1499  |
+#'  |1977  |1530  |-          |-   |-         |-   |1530  |
+#'  |1978  |1532  |-          |-   |-         |-   |1532  |
+#'  |1980  |1468  |-          |-   |-         |-   |1468  |
+#'  |1982  |1860  |-          |-   |-         |-   |1860  |
+#'  |1983  |1599  |-          |-   |-         |-   |1599  |
+#'  |1984  |1473  |-          |-   |-         |-   |1473  |
+#'  |1985  |1534  |-          |-   |-         |-   |1534  |
+#'  |1986  |1470  |-          |-   |-         |-   |1470  |
+#'  |1987  |1819  |-          |-   |-         |-   |1819  |
+#'  |1988  |1481  |-          |-   |-         |-   |1481  |
+#'  |1989  |1537  |-          |-   |-         |-   |1537  |
+#'  |1990  |1372  |-          |-   |-         |-   |1372  |
+#'  |1991  |1517  |-          |-   |-         |-   |1517  |
+#'  |1993  |1606  |-          |-   |-         |-   |1606  |
+#'  |1994  |2992  |-          |-   |-         |-   |2992  |
+#'  |1996  |1444  |67         |369 |300       |724 |2904  |
+#'  |1998  |2832  |-          |-   |-         |-   |2832  |
+#'  |2000  |2817  |-          |-   |-         |-   |2817  |
+#'  |2002  |2765  |-          |-   |-         |-   |2765  |
+#'  |2004  |2812  |-          |-   |-         |-   |2812  |
+#'  |2006  |4510  |-          |-   |-         |-   |4510  |
+#'  |2008  |2023  |-          |-   |-         |-   |2023  |
+#'  |2010  |2044  |-          |-   |-         |-   |2044  |
+#'  |2012  |1974  |-          |-   |-         |-   |1974  |
+#'  |2014  |2538  |-          |-   |-         |-   |2538  |
+#'  |2016  |2867  |-          |-   |-         |-   |2867  |
+#'  |2018  |2348  |-          |-   |-         |-   |2348  |
+#'  |2021  |4032  |-          |-   |-         |-   |4032  |
+#'  |2022  |3544  |-          |-   |-         |-   |3544  |
+#'  |Total |70930 |67         |369 |300       |724 |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name chldben
+NULL
+
+#'  Everyone benefit from traditional family
+#' 
+#'  allben
+#' 
+#' Question 563. In many married couples, women take the main responsibility for the care of the home and children, while men take the main responsibility for supporting the family financially. Who benefits from this: men, women, children, everyone, or no one? d. Everyone
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no  |no answer |yes |Total |
+#'  |:-----|:-----|:----------|:---|:---------|:---|:-----|
+#'  |1972  |1613  |-          |-   |-         |-   |1613  |
+#'  |1973  |1504  |-          |-   |-         |-   |1504  |
+#'  |1974  |1484  |-          |-   |-         |-   |1484  |
+#'  |1975  |1490  |-          |-   |-         |-   |1490  |
+#'  |1976  |1499  |-          |-   |-         |-   |1499  |
+#'  |1977  |1530  |-          |-   |-         |-   |1530  |
+#'  |1978  |1532  |-          |-   |-         |-   |1532  |
+#'  |1980  |1468  |-          |-   |-         |-   |1468  |
+#'  |1982  |1860  |-          |-   |-         |-   |1860  |
+#'  |1983  |1599  |-          |-   |-         |-   |1599  |
+#'  |1984  |1473  |-          |-   |-         |-   |1473  |
+#'  |1985  |1534  |-          |-   |-         |-   |1534  |
+#'  |1986  |1470  |-          |-   |-         |-   |1470  |
+#'  |1987  |1819  |-          |-   |-         |-   |1819  |
+#'  |1988  |1481  |-          |-   |-         |-   |1481  |
+#'  |1989  |1537  |-          |-   |-         |-   |1537  |
+#'  |1990  |1372  |-          |-   |-         |-   |1372  |
+#'  |1991  |1517  |-          |-   |-         |-   |1517  |
+#'  |1993  |1606  |-          |-   |-         |-   |1606  |
+#'  |1994  |2992  |-          |-   |-         |-   |2992  |
+#'  |1996  |1444  |77         |397 |149       |837 |2904  |
+#'  |1998  |2832  |-          |-   |-         |-   |2832  |
+#'  |2000  |2817  |-          |-   |-         |-   |2817  |
+#'  |2002  |2765  |-          |-   |-         |-   |2765  |
+#'  |2004  |2812  |-          |-   |-         |-   |2812  |
+#'  |2006  |4510  |-          |-   |-         |-   |4510  |
+#'  |2008  |2023  |-          |-   |-         |-   |2023  |
+#'  |2010  |2044  |-          |-   |-         |-   |2044  |
+#'  |2012  |1974  |-          |-   |-         |-   |1974  |
+#'  |2014  |2538  |-          |-   |-         |-   |2538  |
+#'  |2016  |2867  |-          |-   |-         |-   |2867  |
+#'  |2018  |2348  |-          |-   |-         |-   |2348  |
+#'  |2021  |4032  |-          |-   |-         |-   |4032  |
+#'  |2022  |3544  |-          |-   |-         |-   |3544  |
+#'  |Total |70930 |77         |397 |149       |837 |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name allben
+NULL
+
+#'  No one benefit from traditional family
+#' 
+#'  nooneben
+#' 
+#' Question 563. In many married couples, women take the main responsibility for the care of the home and children, while men take the main responsibility for supporting the family financially. Who benefits from this: men, women, children, everyone, or no one? e. No one
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no  |no answer |yes |Total |
+#'  |:-----|:-----|:----------|:---|:---------|:---|:-----|
+#'  |1972  |1613  |-          |-   |-         |-   |1613  |
+#'  |1973  |1504  |-          |-   |-         |-   |1504  |
+#'  |1974  |1484  |-          |-   |-         |-   |1484  |
+#'  |1975  |1490  |-          |-   |-         |-   |1490  |
+#'  |1976  |1499  |-          |-   |-         |-   |1499  |
+#'  |1977  |1530  |-          |-   |-         |-   |1530  |
+#'  |1978  |1532  |-          |-   |-         |-   |1532  |
+#'  |1980  |1468  |-          |-   |-         |-   |1468  |
+#'  |1982  |1860  |-          |-   |-         |-   |1860  |
+#'  |1983  |1599  |-          |-   |-         |-   |1599  |
+#'  |1984  |1473  |-          |-   |-         |-   |1473  |
+#'  |1985  |1534  |-          |-   |-         |-   |1534  |
+#'  |1986  |1470  |-          |-   |-         |-   |1470  |
+#'  |1987  |1819  |-          |-   |-         |-   |1819  |
+#'  |1988  |1481  |-          |-   |-         |-   |1481  |
+#'  |1989  |1537  |-          |-   |-         |-   |1537  |
+#'  |1990  |1372  |-          |-   |-         |-   |1372  |
+#'  |1991  |1517  |-          |-   |-         |-   |1517  |
+#'  |1993  |1606  |-          |-   |-         |-   |1606  |
+#'  |1994  |2992  |-          |-   |-         |-   |2992  |
+#'  |1996  |1444  |86         |853 |372       |149 |2904  |
+#'  |1998  |2832  |-          |-   |-         |-   |2832  |
+#'  |2000  |2817  |-          |-   |-         |-   |2817  |
+#'  |2002  |2765  |-          |-   |-         |-   |2765  |
+#'  |2004  |2812  |-          |-   |-         |-   |2812  |
+#'  |2006  |4510  |-          |-   |-         |-   |4510  |
+#'  |2008  |2023  |-          |-   |-         |-   |2023  |
+#'  |2010  |2044  |-          |-   |-         |-   |2044  |
+#'  |2012  |1974  |-          |-   |-         |-   |1974  |
+#'  |2014  |2538  |-          |-   |-         |-   |2538  |
+#'  |2016  |2867  |-          |-   |-         |-   |2867  |
+#'  |2018  |2348  |-          |-   |-         |-   |2348  |
+#'  |2021  |4032  |-          |-   |-         |-   |4032  |
+#'  |2022  |3544  |-          |-   |-         |-   |3544  |
+#'  |Total |70930 |86         |853 |372       |149 |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name nooneben
+NULL
+
+#'  Men hurt from traditional family
+#' 
+#'  menhrt
+#' 
+#' Question 564. Who is hurt by this argument: men, women, children, everyone, or no one? a. Men
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no  |no answer |yes |Total |
+#'  |:-----|:-----|:----------|:---|:---------|:---|:-----|
+#'  |1972  |1613  |-          |-   |-         |-   |1613  |
+#'  |1973  |1504  |-          |-   |-         |-   |1504  |
+#'  |1974  |1484  |-          |-   |-         |-   |1484  |
+#'  |1975  |1490  |-          |-   |-         |-   |1490  |
+#'  |1976  |1499  |-          |-   |-         |-   |1499  |
+#'  |1977  |1530  |-          |-   |-         |-   |1530  |
+#'  |1978  |1532  |-          |-   |-         |-   |1532  |
+#'  |1980  |1468  |-          |-   |-         |-   |1468  |
+#'  |1982  |1860  |-          |-   |-         |-   |1860  |
+#'  |1983  |1599  |-          |-   |-         |-   |1599  |
+#'  |1984  |1473  |-          |-   |-         |-   |1473  |
+#'  |1985  |1534  |-          |-   |-         |-   |1534  |
+#'  |1986  |1470  |-          |-   |-         |-   |1470  |
+#'  |1987  |1819  |-          |-   |-         |-   |1819  |
+#'  |1988  |1481  |-          |-   |-         |-   |1481  |
+#'  |1989  |1537  |-          |-   |-         |-   |1537  |
+#'  |1990  |1372  |-          |-   |-         |-   |1372  |
+#'  |1991  |1517  |-          |-   |-         |-   |1517  |
+#'  |1993  |1606  |-          |-   |-         |-   |1606  |
+#'  |1994  |2992  |-          |-   |-         |-   |2992  |
+#'  |1996  |1444  |84         |803 |366       |207 |2904  |
+#'  |1998  |2832  |-          |-   |-         |-   |2832  |
+#'  |2000  |2817  |-          |-   |-         |-   |2817  |
+#'  |2002  |2765  |-          |-   |-         |-   |2765  |
+#'  |2004  |2812  |-          |-   |-         |-   |2812  |
+#'  |2006  |4510  |-          |-   |-         |-   |4510  |
+#'  |2008  |2023  |-          |-   |-         |-   |2023  |
+#'  |2010  |2044  |-          |-   |-         |-   |2044  |
+#'  |2012  |1974  |-          |-   |-         |-   |1974  |
+#'  |2014  |2538  |-          |-   |-         |-   |2538  |
+#'  |2016  |2867  |-          |-   |-         |-   |2867  |
+#'  |2018  |2348  |-          |-   |-         |-   |2348  |
+#'  |2021  |4032  |-          |-   |-         |-   |4032  |
+#'  |2022  |3544  |-          |-   |-         |-   |3544  |
+#'  |Total |70930 |84         |803 |366       |207 |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name menhrt
+NULL
+

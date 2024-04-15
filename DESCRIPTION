@@ -1,0 +1,19 @@
+Package: gssrdoc
+Type: Package
+Title: Document General Social Survey Variable
+Version: 0.1.0
+Authors@R: 
+    person(given = "Kieran",
+           family = "Healy",
+           role = c("aut", "cre"),
+           email = "kieran.healy@duke.edu",
+           comment = c(ORCID = "https://orcid.org/0000-0001-9114-981X"))
+Description: The General Social Survey (GSS) is a long-running, mostly annual survey of US households. It is administered by the National Opinion Research Center (NORC). This package contains the a tibble with information on the survey variables, together with every variable documented as an R help page. For more information on the GSS see \url{http://gss.norc.org}.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+Suggests:
+    tibble
+RoxygenNote: 7.3.1

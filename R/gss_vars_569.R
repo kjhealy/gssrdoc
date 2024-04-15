@@ -1,0 +1,768 @@
+#'  Govt investigate foreign business contacts
+#' 
+#'  askfrbiz
+#' 
+#' Question 585. Before giving an individual a SECRET or TOP SECRET clearance, the government should have the right to ask him or her detailed, personal questions in the following areas: h. Foreign business contacts
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |definitely should |definitely should not |don't know |no answer |probably should |probably should not |Total |
+#'  |:-----|:-----|:-----------------|:---------------------|:----------|:---------|:---------------|:-------------------|:-----|
+#'  |1972  |1613  |-                 |-                     |-          |-         |-               |-                   |1613  |
+#'  |1973  |1504  |-                 |-                     |-          |-         |-               |-                   |1504  |
+#'  |1974  |1484  |-                 |-                     |-          |-         |-               |-                   |1484  |
+#'  |1975  |1490  |-                 |-                     |-          |-         |-               |-                   |1490  |
+#'  |1976  |1499  |-                 |-                     |-          |-         |-               |-                   |1499  |
+#'  |1977  |1530  |-                 |-                     |-          |-         |-               |-                   |1530  |
+#'  |1978  |1532  |-                 |-                     |-          |-         |-               |-                   |1532  |
+#'  |1980  |1468  |-                 |-                     |-          |-         |-               |-                   |1468  |
+#'  |1982  |1860  |-                 |-                     |-          |-         |-               |-                   |1860  |
+#'  |1983  |1599  |-                 |-                     |-          |-         |-               |-                   |1599  |
+#'  |1984  |1473  |-                 |-                     |-          |-         |-               |-                   |1473  |
+#'  |1985  |1534  |-                 |-                     |-          |-         |-               |-                   |1534  |
+#'  |1986  |1470  |-                 |-                     |-          |-         |-               |-                   |1470  |
+#'  |1987  |1819  |-                 |-                     |-          |-         |-               |-                   |1819  |
+#'  |1988  |1481  |-                 |-                     |-          |-         |-               |-                   |1481  |
+#'  |1989  |1537  |-                 |-                     |-          |-         |-               |-                   |1537  |
+#'  |1990  |1372  |-                 |-                     |-          |-         |-               |-                   |1372  |
+#'  |1991  |1517  |-                 |-                     |-          |-         |-               |-                   |1517  |
+#'  |1993  |1606  |-                 |-                     |-          |-         |-               |-                   |1606  |
+#'  |1994  |2992  |-                 |-                     |-          |-         |-               |-                   |2992  |
+#'  |1996  |2904  |-                 |-                     |-          |-         |-               |-                   |2904  |
+#'  |1998  |2832  |-                 |-                     |-          |-         |-               |-                   |2832  |
+#'  |2000  |1398  |846               |49                    |53         |10        |371             |90                  |2817  |
+#'  |2002  |2765  |-                 |-                     |-          |-         |-               |-                   |2765  |
+#'  |2004  |2812  |-                 |-                     |-          |-         |-               |-                   |2812  |
+#'  |2006  |4510  |-                 |-                     |-          |-         |-               |-                   |4510  |
+#'  |2008  |2023  |-                 |-                     |-          |-         |-               |-                   |2023  |
+#'  |2010  |2044  |-                 |-                     |-          |-         |-               |-                   |2044  |
+#'  |2012  |1974  |-                 |-                     |-          |-         |-               |-                   |1974  |
+#'  |2014  |2538  |-                 |-                     |-          |-         |-               |-                   |2538  |
+#'  |2016  |2867  |-                 |-                     |-          |-         |-               |-                   |2867  |
+#'  |2018  |2348  |-                 |-                     |-          |-         |-               |-                   |2348  |
+#'  |2021  |4032  |-                 |-                     |-          |-         |-               |-                   |4032  |
+#'  |2022  |3544  |-                 |-                     |-          |-         |-               |-                   |3544  |
+#'  |Total |70971 |846               |49                    |53         |10        |371             |90                  |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` definitely should
+#'   * `2` probably should
+#'   * `3` probably should not
+#'   * `4` definitely should not
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name askfrbiz
+NULL
+
+#'  Govt investigate foreign travel
+#' 
+#'  askfrtrv
+#' 
+#' Question 585. Before giving an individual a SECRET or TOP SECRET clearance, the government should have the right to ask him or her detailed, personal questions in the following areas: i. Foreign travel
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |definitely should |definitely should not |don't know |no answer |probably should |probably should not |Total |
+#'  |:-----|:-----|:-----------------|:---------------------|:----------|:---------|:---------------|:-------------------|:-----|
+#'  |1972  |1613  |-                 |-                     |-          |-         |-               |-                   |1613  |
+#'  |1973  |1504  |-                 |-                     |-          |-         |-               |-                   |1504  |
+#'  |1974  |1484  |-                 |-                     |-          |-         |-               |-                   |1484  |
+#'  |1975  |1490  |-                 |-                     |-          |-         |-               |-                   |1490  |
+#'  |1976  |1499  |-                 |-                     |-          |-         |-               |-                   |1499  |
+#'  |1977  |1530  |-                 |-                     |-          |-         |-               |-                   |1530  |
+#'  |1978  |1532  |-                 |-                     |-          |-         |-               |-                   |1532  |
+#'  |1980  |1468  |-                 |-                     |-          |-         |-               |-                   |1468  |
+#'  |1982  |1860  |-                 |-                     |-          |-         |-               |-                   |1860  |
+#'  |1983  |1599  |-                 |-                     |-          |-         |-               |-                   |1599  |
+#'  |1984  |1473  |-                 |-                     |-          |-         |-               |-                   |1473  |
+#'  |1985  |1534  |-                 |-                     |-          |-         |-               |-                   |1534  |
+#'  |1986  |1470  |-                 |-                     |-          |-         |-               |-                   |1470  |
+#'  |1987  |1819  |-                 |-                     |-          |-         |-               |-                   |1819  |
+#'  |1988  |1481  |-                 |-                     |-          |-         |-               |-                   |1481  |
+#'  |1989  |1537  |-                 |-                     |-          |-         |-               |-                   |1537  |
+#'  |1990  |1372  |-                 |-                     |-          |-         |-               |-                   |1372  |
+#'  |1991  |1517  |-                 |-                     |-          |-         |-               |-                   |1517  |
+#'  |1993  |1606  |-                 |-                     |-          |-         |-               |-                   |1606  |
+#'  |1994  |2992  |-                 |-                     |-          |-         |-               |-                   |2992  |
+#'  |1996  |2904  |-                 |-                     |-          |-         |-               |-                   |2904  |
+#'  |1998  |2832  |-                 |-                     |-          |-         |-               |-                   |2832  |
+#'  |2000  |1398  |738               |83                    |46         |7         |406             |139                 |2817  |
+#'  |2002  |2765  |-                 |-                     |-          |-         |-               |-                   |2765  |
+#'  |2004  |2812  |-                 |-                     |-          |-         |-               |-                   |2812  |
+#'  |2006  |4510  |-                 |-                     |-          |-         |-               |-                   |4510  |
+#'  |2008  |2023  |-                 |-                     |-          |-         |-               |-                   |2023  |
+#'  |2010  |2044  |-                 |-                     |-          |-         |-               |-                   |2044  |
+#'  |2012  |1974  |-                 |-                     |-          |-         |-               |-                   |1974  |
+#'  |2014  |2538  |-                 |-                     |-          |-         |-               |-                   |2538  |
+#'  |2016  |2867  |-                 |-                     |-          |-         |-               |-                   |2867  |
+#'  |2018  |2348  |-                 |-                     |-          |-         |-               |-                   |2348  |
+#'  |2021  |4032  |-                 |-                     |-          |-         |-               |-                   |4032  |
+#'  |2022  |3544  |-                 |-                     |-          |-         |-               |-                   |3544  |
+#'  |Total |70971 |738               |83                    |46         |7         |406             |139                 |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` definitely should
+#'   * `2` probably should
+#'   * `3` probably should not
+#'   * `4` definitely should not
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name askfrtrv
+NULL
+
+#'  Govt investigate use of computers
+#' 
+#'  askcomp
+#' 
+#' Question 585. Before giving an individual a SECRET or TOP SECRET clearance, the government should have the right to ask him or her detailed, personal questions in the following areas: j. Illegal or unauthorized use of computers
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |definitely should |definitely should not |don't know |no answer |probably should |probably should not |Total |
+#'  |:-----|:-----|:-----------------|:---------------------|:----------|:---------|:---------------|:-------------------|:-----|
+#'  |1972  |1613  |-                 |-                     |-          |-         |-               |-                   |1613  |
+#'  |1973  |1504  |-                 |-                     |-          |-         |-               |-                   |1504  |
+#'  |1974  |1484  |-                 |-                     |-          |-         |-               |-                   |1484  |
+#'  |1975  |1490  |-                 |-                     |-          |-         |-               |-                   |1490  |
+#'  |1976  |1499  |-                 |-                     |-          |-         |-               |-                   |1499  |
+#'  |1977  |1530  |-                 |-                     |-          |-         |-               |-                   |1530  |
+#'  |1978  |1532  |-                 |-                     |-          |-         |-               |-                   |1532  |
+#'  |1980  |1468  |-                 |-                     |-          |-         |-               |-                   |1468  |
+#'  |1982  |1860  |-                 |-                     |-          |-         |-               |-                   |1860  |
+#'  |1983  |1599  |-                 |-                     |-          |-         |-               |-                   |1599  |
+#'  |1984  |1473  |-                 |-                     |-          |-         |-               |-                   |1473  |
+#'  |1985  |1534  |-                 |-                     |-          |-         |-               |-                   |1534  |
+#'  |1986  |1470  |-                 |-                     |-          |-         |-               |-                   |1470  |
+#'  |1987  |1819  |-                 |-                     |-          |-         |-               |-                   |1819  |
+#'  |1988  |1481  |-                 |-                     |-          |-         |-               |-                   |1481  |
+#'  |1989  |1537  |-                 |-                     |-          |-         |-               |-                   |1537  |
+#'  |1990  |1372  |-                 |-                     |-          |-         |-               |-                   |1372  |
+#'  |1991  |1517  |-                 |-                     |-          |-         |-               |-                   |1517  |
+#'  |1993  |1606  |-                 |-                     |-          |-         |-               |-                   |1606  |
+#'  |1994  |2992  |-                 |-                     |-          |-         |-               |-                   |2992  |
+#'  |1996  |2904  |-                 |-                     |-          |-         |-               |-                   |2904  |
+#'  |1998  |2832  |-                 |-                     |-          |-         |-               |-                   |2832  |
+#'  |2000  |1398  |1053              |32                    |45         |10        |247             |32                  |2817  |
+#'  |2002  |2765  |-                 |-                     |-          |-         |-               |-                   |2765  |
+#'  |2004  |2812  |-                 |-                     |-          |-         |-               |-                   |2812  |
+#'  |2006  |4510  |-                 |-                     |-          |-         |-               |-                   |4510  |
+#'  |2008  |2023  |-                 |-                     |-          |-         |-               |-                   |2023  |
+#'  |2010  |2044  |-                 |-                     |-          |-         |-               |-                   |2044  |
+#'  |2012  |1974  |-                 |-                     |-          |-         |-               |-                   |1974  |
+#'  |2014  |2538  |-                 |-                     |-          |-         |-               |-                   |2538  |
+#'  |2016  |2867  |-                 |-                     |-          |-         |-               |-                   |2867  |
+#'  |2018  |2348  |-                 |-                     |-          |-         |-               |-                   |2348  |
+#'  |2021  |4032  |-                 |-                     |-          |-         |-               |-                   |4032  |
+#'  |2022  |3544  |-                 |-                     |-          |-         |-               |-                   |3544  |
+#'  |Total |70971 |1053              |32                    |45         |10        |247             |32                  |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` definitely should
+#'   * `2` probably should
+#'   * `3` probably should not
+#'   * `4` definitely should not
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name askcomp
+NULL
+
+#'  Govt favor secrecy over workers privacy?
+#' 
+#'  secprvcy
+#' 
+#' Question 1586. When faced with the conflict between an individual's right to privacy and the government's need to collect personal background information before giving a SECRET or TOP SECRET clearance, the government should: 1. Favor protecting an individual's right to privacy by not gathering information. 2. Favor the government's need to protect security by gathering information.
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |favor govt right |favor indiv right |no answer |Total |
+#'  |:-----|:-----|:----------|:----------------|:-----------------|:---------|:-----|
+#'  |1972  |1613  |-          |-                |-                 |-         |1613  |
+#'  |1973  |1504  |-          |-                |-                 |-         |1504  |
+#'  |1974  |1484  |-          |-                |-                 |-         |1484  |
+#'  |1975  |1490  |-          |-                |-                 |-         |1490  |
+#'  |1976  |1499  |-          |-                |-                 |-         |1499  |
+#'  |1977  |1530  |-          |-                |-                 |-         |1530  |
+#'  |1978  |1532  |-          |-                |-                 |-         |1532  |
+#'  |1980  |1468  |-          |-                |-                 |-         |1468  |
+#'  |1982  |1860  |-          |-                |-                 |-         |1860  |
+#'  |1983  |1599  |-          |-                |-                 |-         |1599  |
+#'  |1984  |1473  |-          |-                |-                 |-         |1473  |
+#'  |1985  |1534  |-          |-                |-                 |-         |1534  |
+#'  |1986  |1470  |-          |-                |-                 |-         |1470  |
+#'  |1987  |1819  |-          |-                |-                 |-         |1819  |
+#'  |1988  |1481  |-          |-                |-                 |-         |1481  |
+#'  |1989  |1537  |-          |-                |-                 |-         |1537  |
+#'  |1990  |1372  |-          |-                |-                 |-         |1372  |
+#'  |1991  |1517  |-          |-                |-                 |-         |1517  |
+#'  |1993  |1606  |-          |-                |-                 |-         |1606  |
+#'  |1994  |1518  |79         |1156             |229               |10        |2992  |
+#'  |1996  |2904  |-          |-                |-                 |-         |2904  |
+#'  |1998  |2832  |-          |-                |-                 |-         |2832  |
+#'  |2000  |2817  |-          |-                |-                 |-         |2817  |
+#'  |2002  |2765  |-          |-                |-                 |-         |2765  |
+#'  |2004  |2812  |-          |-                |-                 |-         |2812  |
+#'  |2006  |4510  |-          |-                |-                 |-         |4510  |
+#'  |2008  |2023  |-          |-                |-                 |-         |2023  |
+#'  |2010  |2044  |-          |-                |-                 |-         |2044  |
+#'  |2012  |1974  |-          |-                |-                 |-         |1974  |
+#'  |2014  |2538  |-          |-                |-                 |-         |2538  |
+#'  |2016  |2867  |-          |-                |-                 |-         |2867  |
+#'  |2018  |2348  |-          |-                |-                 |-         |2348  |
+#'  |2021  |4032  |-          |-                |-                 |-         |4032  |
+#'  |2022  |3544  |-          |-                |-                 |-         |3544  |
+#'  |Total |70916 |79         |1156             |229               |10        |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` favor indiv right
+#'   * `2` favor govt right
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name secprvcy
+NULL
+
+#'  Government maintain secrecy on diplomatic initiatives
+#' 
+#'  secdiplo
+#' 
+#' Question 1587. Should or should not the government maintain a high level of secrecy surrounding: (READ A-D) a. Diplomatic initiatives
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |definitely should |definitely should not |don't know |no answer |probably should |probably should not |Total |
+#'  |:-----|:-----|:-----------------|:---------------------|:----------|:---------|:---------------|:-------------------|:-----|
+#'  |1972  |1613  |-                 |-                     |-          |-         |-               |-                   |1613  |
+#'  |1973  |1504  |-                 |-                     |-          |-         |-               |-                   |1504  |
+#'  |1974  |1484  |-                 |-                     |-          |-         |-               |-                   |1484  |
+#'  |1975  |1490  |-                 |-                     |-          |-         |-               |-                   |1490  |
+#'  |1976  |1499  |-                 |-                     |-          |-         |-               |-                   |1499  |
+#'  |1977  |1530  |-                 |-                     |-          |-         |-               |-                   |1530  |
+#'  |1978  |1532  |-                 |-                     |-          |-         |-               |-                   |1532  |
+#'  |1980  |1468  |-                 |-                     |-          |-         |-               |-                   |1468  |
+#'  |1982  |1860  |-                 |-                     |-          |-         |-               |-                   |1860  |
+#'  |1983  |1599  |-                 |-                     |-          |-         |-               |-                   |1599  |
+#'  |1984  |1473  |-                 |-                     |-          |-         |-               |-                   |1473  |
+#'  |1985  |1534  |-                 |-                     |-          |-         |-               |-                   |1534  |
+#'  |1986  |1470  |-                 |-                     |-          |-         |-               |-                   |1470  |
+#'  |1987  |1819  |-                 |-                     |-          |-         |-               |-                   |1819  |
+#'  |1988  |1481  |-                 |-                     |-          |-         |-               |-                   |1481  |
+#'  |1989  |1537  |-                 |-                     |-          |-         |-               |-                   |1537  |
+#'  |1990  |1372  |-                 |-                     |-          |-         |-               |-                   |1372  |
+#'  |1991  |1517  |-                 |-                     |-          |-         |-               |-                   |1517  |
+#'  |1993  |1606  |-                 |-                     |-          |-         |-               |-                   |1606  |
+#'  |1994  |2992  |-                 |-                     |-          |-         |-               |-                   |2992  |
+#'  |1996  |1444  |491               |68                    |146        |2         |573             |180                 |2904  |
+#'  |1998  |1445  |400               |65                    |142        |11        |624             |145                 |2832  |
+#'  |2000  |2817  |-                 |-                     |-          |-         |-               |-                   |2817  |
+#'  |2002  |2765  |-                 |-                     |-          |-         |-               |-                   |2765  |
+#'  |2004  |2812  |-                 |-                     |-          |-         |-               |-                   |2812  |
+#'  |2006  |4510  |-                 |-                     |-          |-         |-               |-                   |4510  |
+#'  |2008  |2023  |-                 |-                     |-          |-         |-               |-                   |2023  |
+#'  |2010  |2044  |-                 |-                     |-          |-         |-               |-                   |2044  |
+#'  |2012  |1974  |-                 |-                     |-          |-         |-               |-                   |1974  |
+#'  |2014  |2538  |-                 |-                     |-          |-         |-               |-                   |2538  |
+#'  |2016  |2867  |-                 |-                     |-          |-         |-               |-                   |2867  |
+#'  |2018  |2348  |-                 |-                     |-          |-         |-               |-                   |2348  |
+#'  |2021  |4032  |-                 |-                     |-          |-         |-               |-                   |4032  |
+#'  |2022  |3544  |-                 |-                     |-          |-         |-               |-                   |3544  |
+#'  |Total |69543 |891               |133                   |288        |13        |1197            |325                 |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` definitely should
+#'   * `2` probably should
+#'   * `3` probably should not
+#'   * `4` definitely should not
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name secdiplo
+NULL
+
+#'  Government maintain secrecy on military operations
+#' 
+#'  secmilop
+#' 
+#' Question 1587. Should or should not the government maintain a high level of secrecy surrounding: (READ A-D) b. Military operations
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |definitely should |definitely should not |don't know |no answer |probably should |probably should not |Total |
+#'  |:-----|:-----|:-----------------|:---------------------|:----------|:---------|:---------------|:-------------------|:-----|
+#'  |1972  |1613  |-                 |-                     |-          |-         |-               |-                   |1613  |
+#'  |1973  |1504  |-                 |-                     |-          |-         |-               |-                   |1504  |
+#'  |1974  |1484  |-                 |-                     |-          |-         |-               |-                   |1484  |
+#'  |1975  |1490  |-                 |-                     |-          |-         |-               |-                   |1490  |
+#'  |1976  |1499  |-                 |-                     |-          |-         |-               |-                   |1499  |
+#'  |1977  |1530  |-                 |-                     |-          |-         |-               |-                   |1530  |
+#'  |1978  |1532  |-                 |-                     |-          |-         |-               |-                   |1532  |
+#'  |1980  |1468  |-                 |-                     |-          |-         |-               |-                   |1468  |
+#'  |1982  |1860  |-                 |-                     |-          |-         |-               |-                   |1860  |
+#'  |1983  |1599  |-                 |-                     |-          |-         |-               |-                   |1599  |
+#'  |1984  |1473  |-                 |-                     |-          |-         |-               |-                   |1473  |
+#'  |1985  |1534  |-                 |-                     |-          |-         |-               |-                   |1534  |
+#'  |1986  |1470  |-                 |-                     |-          |-         |-               |-                   |1470  |
+#'  |1987  |1819  |-                 |-                     |-          |-         |-               |-                   |1819  |
+#'  |1988  |1481  |-                 |-                     |-          |-         |-               |-                   |1481  |
+#'  |1989  |1537  |-                 |-                     |-          |-         |-               |-                   |1537  |
+#'  |1990  |1372  |-                 |-                     |-          |-         |-               |-                   |1372  |
+#'  |1991  |1517  |-                 |-                     |-          |-         |-               |-                   |1517  |
+#'  |1993  |1606  |-                 |-                     |-          |-         |-               |-                   |1606  |
+#'  |1994  |2992  |-                 |-                     |-          |-         |-               |-                   |2992  |
+#'  |1996  |1444  |842               |44                    |50         |2         |425             |97                  |2904  |
+#'  |1998  |1445  |736               |30                    |59         |11        |479             |72                  |2832  |
+#'  |2000  |2817  |-                 |-                     |-          |-         |-               |-                   |2817  |
+#'  |2002  |2765  |-                 |-                     |-          |-         |-               |-                   |2765  |
+#'  |2004  |2812  |-                 |-                     |-          |-         |-               |-                   |2812  |
+#'  |2006  |4510  |-                 |-                     |-          |-         |-               |-                   |4510  |
+#'  |2008  |2023  |-                 |-                     |-          |-         |-               |-                   |2023  |
+#'  |2010  |2044  |-                 |-                     |-          |-         |-               |-                   |2044  |
+#'  |2012  |1974  |-                 |-                     |-          |-         |-               |-                   |1974  |
+#'  |2014  |2538  |-                 |-                     |-          |-         |-               |-                   |2538  |
+#'  |2016  |2867  |-                 |-                     |-          |-         |-               |-                   |2867  |
+#'  |2018  |2348  |-                 |-                     |-          |-         |-               |-                   |2348  |
+#'  |2021  |4032  |-                 |-                     |-          |-         |-               |-                   |4032  |
+#'  |2022  |3544  |-                 |-                     |-          |-         |-               |-                   |3544  |
+#'  |Total |69543 |1578              |74                    |109        |13        |904             |169                 |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` definitely should
+#'   * `2` probably should
+#'   * `3` probably should not
+#'   * `4` definitely should not
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name secmilop
+NULL
+
+#'  Government maintain secrecy on domestic terrorism
+#' 
+#'  secterr
+#' 
+#' Question 1587. Should or should not the government maintain a high level of secrecy surrounding: (READ A-D) c. Efforts to control domestic terrorism
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |definitely should |definitely should not |don't know |no answer |probably should |probably should not |Total |
+#'  |:-----|:-----|:-----------------|:---------------------|:----------|:---------|:---------------|:-------------------|:-----|
+#'  |1972  |1613  |-                 |-                     |-          |-         |-               |-                   |1613  |
+#'  |1973  |1504  |-                 |-                     |-          |-         |-               |-                   |1504  |
+#'  |1974  |1484  |-                 |-                     |-          |-         |-               |-                   |1484  |
+#'  |1975  |1490  |-                 |-                     |-          |-         |-               |-                   |1490  |
+#'  |1976  |1499  |-                 |-                     |-          |-         |-               |-                   |1499  |
+#'  |1977  |1530  |-                 |-                     |-          |-         |-               |-                   |1530  |
+#'  |1978  |1532  |-                 |-                     |-          |-         |-               |-                   |1532  |
+#'  |1980  |1468  |-                 |-                     |-          |-         |-               |-                   |1468  |
+#'  |1982  |1860  |-                 |-                     |-          |-         |-               |-                   |1860  |
+#'  |1983  |1599  |-                 |-                     |-          |-         |-               |-                   |1599  |
+#'  |1984  |1473  |-                 |-                     |-          |-         |-               |-                   |1473  |
+#'  |1985  |1534  |-                 |-                     |-          |-         |-               |-                   |1534  |
+#'  |1986  |1470  |-                 |-                     |-          |-         |-               |-                   |1470  |
+#'  |1987  |1819  |-                 |-                     |-          |-         |-               |-                   |1819  |
+#'  |1988  |1481  |-                 |-                     |-          |-         |-               |-                   |1481  |
+#'  |1989  |1537  |-                 |-                     |-          |-         |-               |-                   |1537  |
+#'  |1990  |1372  |-                 |-                     |-          |-         |-               |-                   |1372  |
+#'  |1991  |1517  |-                 |-                     |-          |-         |-               |-                   |1517  |
+#'  |1993  |1606  |-                 |-                     |-          |-         |-               |-                   |1606  |
+#'  |1994  |2992  |-                 |-                     |-          |-         |-               |-                   |2992  |
+#'  |1996  |1444  |838               |71                    |60         |3         |373             |115                 |2904  |
+#'  |1998  |1445  |694               |68                    |73         |11        |427             |114                 |2832  |
+#'  |2000  |2817  |-                 |-                     |-          |-         |-               |-                   |2817  |
+#'  |2002  |2765  |-                 |-                     |-          |-         |-               |-                   |2765  |
+#'  |2004  |2812  |-                 |-                     |-          |-         |-               |-                   |2812  |
+#'  |2006  |4510  |-                 |-                     |-          |-         |-               |-                   |4510  |
+#'  |2008  |2023  |-                 |-                     |-          |-         |-               |-                   |2023  |
+#'  |2010  |2044  |-                 |-                     |-          |-         |-               |-                   |2044  |
+#'  |2012  |1974  |-                 |-                     |-          |-         |-               |-                   |1974  |
+#'  |2014  |2538  |-                 |-                     |-          |-         |-               |-                   |2538  |
+#'  |2016  |2867  |-                 |-                     |-          |-         |-               |-                   |2867  |
+#'  |2018  |2348  |-                 |-                     |-          |-         |-               |-                   |2348  |
+#'  |2021  |4032  |-                 |-                     |-          |-         |-               |-                   |4032  |
+#'  |2022  |3544  |-                 |-                     |-          |-         |-               |-                   |3544  |
+#'  |Total |69543 |1532              |139                   |133        |14        |800             |229                 |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` definitely should
+#'   * `2` probably should
+#'   * `3` probably should not
+#'   * `4` definitely should not
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name secterr
+NULL
+
+#'  Government maintain secrecy on the intelligence budget
+#' 
+#'  secbudgt
+#' 
+#' Question 1587. Should or should not the government maintain a high level of secrecy surrounding: (READ A-D) d. The US intelligence budget
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |definitely should |definitely should not |don't know |no answer |probably should |probably should not |Total |
+#'  |:-----|:-----|:-----------------|:---------------------|:----------|:---------|:---------------|:-------------------|:-----|
+#'  |1972  |1613  |-                 |-                     |-          |-         |-               |-                   |1613  |
+#'  |1973  |1504  |-                 |-                     |-          |-         |-               |-                   |1504  |
+#'  |1974  |1484  |-                 |-                     |-          |-         |-               |-                   |1484  |
+#'  |1975  |1490  |-                 |-                     |-          |-         |-               |-                   |1490  |
+#'  |1976  |1499  |-                 |-                     |-          |-         |-               |-                   |1499  |
+#'  |1977  |1530  |-                 |-                     |-          |-         |-               |-                   |1530  |
+#'  |1978  |1532  |-                 |-                     |-          |-         |-               |-                   |1532  |
+#'  |1980  |1468  |-                 |-                     |-          |-         |-               |-                   |1468  |
+#'  |1982  |1860  |-                 |-                     |-          |-         |-               |-                   |1860  |
+#'  |1983  |1599  |-                 |-                     |-          |-         |-               |-                   |1599  |
+#'  |1984  |1473  |-                 |-                     |-          |-         |-               |-                   |1473  |
+#'  |1985  |1534  |-                 |-                     |-          |-         |-               |-                   |1534  |
+#'  |1986  |1470  |-                 |-                     |-          |-         |-               |-                   |1470  |
+#'  |1987  |1819  |-                 |-                     |-          |-         |-               |-                   |1819  |
+#'  |1988  |1481  |-                 |-                     |-          |-         |-               |-                   |1481  |
+#'  |1989  |1537  |-                 |-                     |-          |-         |-               |-                   |1537  |
+#'  |1990  |1372  |-                 |-                     |-          |-         |-               |-                   |1372  |
+#'  |1991  |1517  |-                 |-                     |-          |-         |-               |-                   |1517  |
+#'  |1993  |1606  |-                 |-                     |-          |-         |-               |-                   |1606  |
+#'  |1994  |2992  |-                 |-                     |-          |-         |-               |-                   |2992  |
+#'  |1996  |1444  |382               |241                   |87         |2         |397             |351                 |2904  |
+#'  |1998  |1445  |320               |197                   |87         |12        |453             |318                 |2832  |
+#'  |2000  |2817  |-                 |-                     |-          |-         |-               |-                   |2817  |
+#'  |2002  |2765  |-                 |-                     |-          |-         |-               |-                   |2765  |
+#'  |2004  |2812  |-                 |-                     |-          |-         |-               |-                   |2812  |
+#'  |2006  |4510  |-                 |-                     |-          |-         |-               |-                   |4510  |
+#'  |2008  |2023  |-                 |-                     |-          |-         |-               |-                   |2023  |
+#'  |2010  |2044  |-                 |-                     |-          |-         |-               |-                   |2044  |
+#'  |2012  |1974  |-                 |-                     |-          |-         |-               |-                   |1974  |
+#'  |2014  |2538  |-                 |-                     |-          |-         |-               |-                   |2538  |
+#'  |2016  |2867  |-                 |-                     |-          |-         |-               |-                   |2867  |
+#'  |2018  |2348  |-                 |-                     |-          |-         |-               |-                   |2348  |
+#'  |2021  |4032  |-                 |-                     |-          |-         |-               |-                   |4032  |
+#'  |2022  |3544  |-                 |-                     |-          |-         |-               |-                   |3544  |
+#'  |Total |69543 |702               |438                   |174        |14        |850             |669                 |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` definitely should
+#'   * `2` probably should
+#'   * `3` probably should not
+#'   * `4` definitely should not
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name secbudgt
+NULL
+
+#'  Government should verify financial assets
+#' 
+#'  chkfinan
+#' 
+#' Question 1588. Before giving an individual a SECRET or TOP SECRET clearance, the government should contact other people and verify information provided by the individual concerning his or her: (READ A-C) a. Financial assets and liabilities
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |definitely should |definitely should not |don't know |no answer |probably should |probably should not |Total |
+#'  |:-----|:-----|:-----------------|:---------------------|:----------|:---------|:---------------|:-------------------|:-----|
+#'  |1972  |1613  |-                 |-                     |-          |-         |-               |-                   |1613  |
+#'  |1973  |1504  |-                 |-                     |-          |-         |-               |-                   |1504  |
+#'  |1974  |1484  |-                 |-                     |-          |-         |-               |-                   |1484  |
+#'  |1975  |1490  |-                 |-                     |-          |-         |-               |-                   |1490  |
+#'  |1976  |1499  |-                 |-                     |-          |-         |-               |-                   |1499  |
+#'  |1977  |1530  |-                 |-                     |-          |-         |-               |-                   |1530  |
+#'  |1978  |1532  |-                 |-                     |-          |-         |-               |-                   |1532  |
+#'  |1980  |1468  |-                 |-                     |-          |-         |-               |-                   |1468  |
+#'  |1982  |1860  |-                 |-                     |-          |-         |-               |-                   |1860  |
+#'  |1983  |1599  |-                 |-                     |-          |-         |-               |-                   |1599  |
+#'  |1984  |1473  |-                 |-                     |-          |-         |-               |-                   |1473  |
+#'  |1985  |1534  |-                 |-                     |-          |-         |-               |-                   |1534  |
+#'  |1986  |1470  |-                 |-                     |-          |-         |-               |-                   |1470  |
+#'  |1987  |1819  |-                 |-                     |-          |-         |-               |-                   |1819  |
+#'  |1988  |1481  |-                 |-                     |-          |-         |-               |-                   |1481  |
+#'  |1989  |1537  |-                 |-                     |-          |-         |-               |-                   |1537  |
+#'  |1990  |1372  |-                 |-                     |-          |-         |-               |-                   |1372  |
+#'  |1991  |1517  |-                 |-                     |-          |-         |-               |-                   |1517  |
+#'  |1993  |1606  |-                 |-                     |-          |-         |-               |-                   |1606  |
+#'  |1994  |2992  |-                 |-                     |-          |-         |-               |-                   |2992  |
+#'  |1996  |1444  |693               |123                   |48         |2         |420             |174                 |2904  |
+#'  |1998  |1445  |538               |121                   |49         |11        |454             |214                 |2832  |
+#'  |2000  |2817  |-                 |-                     |-          |-         |-               |-                   |2817  |
+#'  |2002  |2765  |-                 |-                     |-          |-         |-               |-                   |2765  |
+#'  |2004  |2812  |-                 |-                     |-          |-         |-               |-                   |2812  |
+#'  |2006  |4510  |-                 |-                     |-          |-         |-               |-                   |4510  |
+#'  |2008  |2023  |-                 |-                     |-          |-         |-               |-                   |2023  |
+#'  |2010  |2044  |-                 |-                     |-          |-         |-               |-                   |2044  |
+#'  |2012  |1974  |-                 |-                     |-          |-         |-               |-                   |1974  |
+#'  |2014  |2538  |-                 |-                     |-          |-         |-               |-                   |2538  |
+#'  |2016  |2867  |-                 |-                     |-          |-         |-               |-                   |2867  |
+#'  |2018  |2348  |-                 |-                     |-          |-         |-               |-                   |2348  |
+#'  |2021  |4032  |-                 |-                     |-          |-         |-               |-                   |4032  |
+#'  |2022  |3544  |-                 |-                     |-          |-         |-               |-                   |3544  |
+#'  |Total |69543 |1231              |244                   |97         |13        |874             |388                 |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` definitely should
+#'   * `2` probably should
+#'   * `3` probably should not
+#'   * `4` definitely should not
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name chkfinan
+NULL
+
+#'  Government should verify spouse's financial assets
+#' 
+#'  chkspfin
+#' 
+#' Question 1588. Before giving an individual a SECRET or TOP SECRET clearance, the government should contact other people and verify information provided by the individual concerning his or her: (READ A-C) b. Spouse's financial assets and liabilities
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |definitely should |definitely should not |don't know |no answer |probably should |probably should not |Total |
+#'  |:-----|:-----|:-----------------|:---------------------|:----------|:---------|:---------------|:-------------------|:-----|
+#'  |1972  |1613  |-                 |-                     |-          |-         |-               |-                   |1613  |
+#'  |1973  |1504  |-                 |-                     |-          |-         |-               |-                   |1504  |
+#'  |1974  |1484  |-                 |-                     |-          |-         |-               |-                   |1484  |
+#'  |1975  |1490  |-                 |-                     |-          |-         |-               |-                   |1490  |
+#'  |1976  |1499  |-                 |-                     |-          |-         |-               |-                   |1499  |
+#'  |1977  |1530  |-                 |-                     |-          |-         |-               |-                   |1530  |
+#'  |1978  |1532  |-                 |-                     |-          |-         |-               |-                   |1532  |
+#'  |1980  |1468  |-                 |-                     |-          |-         |-               |-                   |1468  |
+#'  |1982  |1860  |-                 |-                     |-          |-         |-               |-                   |1860  |
+#'  |1983  |1599  |-                 |-                     |-          |-         |-               |-                   |1599  |
+#'  |1984  |1473  |-                 |-                     |-          |-         |-               |-                   |1473  |
+#'  |1985  |1534  |-                 |-                     |-          |-         |-               |-                   |1534  |
+#'  |1986  |1470  |-                 |-                     |-          |-         |-               |-                   |1470  |
+#'  |1987  |1819  |-                 |-                     |-          |-         |-               |-                   |1819  |
+#'  |1988  |1481  |-                 |-                     |-          |-         |-               |-                   |1481  |
+#'  |1989  |1537  |-                 |-                     |-          |-         |-               |-                   |1537  |
+#'  |1990  |1372  |-                 |-                     |-          |-         |-               |-                   |1372  |
+#'  |1991  |1517  |-                 |-                     |-          |-         |-               |-                   |1517  |
+#'  |1993  |1606  |-                 |-                     |-          |-         |-               |-                   |1606  |
+#'  |1994  |2992  |-                 |-                     |-          |-         |-               |-                   |2992  |
+#'  |1996  |1444  |542               |170                   |50         |3         |436             |259                 |2904  |
+#'  |1998  |1445  |434               |166                   |55         |12        |433             |287                 |2832  |
+#'  |2000  |2817  |-                 |-                     |-          |-         |-               |-                   |2817  |
+#'  |2002  |2765  |-                 |-                     |-          |-         |-               |-                   |2765  |
+#'  |2004  |2812  |-                 |-                     |-          |-         |-               |-                   |2812  |
+#'  |2006  |4510  |-                 |-                     |-          |-         |-               |-                   |4510  |
+#'  |2008  |2023  |-                 |-                     |-          |-         |-               |-                   |2023  |
+#'  |2010  |2044  |-                 |-                     |-          |-         |-               |-                   |2044  |
+#'  |2012  |1974  |-                 |-                     |-          |-         |-               |-                   |1974  |
+#'  |2014  |2538  |-                 |-                     |-          |-         |-               |-                   |2538  |
+#'  |2016  |2867  |-                 |-                     |-          |-         |-               |-                   |2867  |
+#'  |2018  |2348  |-                 |-                     |-          |-         |-               |-                   |2348  |
+#'  |2021  |4032  |-                 |-                     |-          |-         |-               |-                   |4032  |
+#'  |2022  |3544  |-                 |-                     |-          |-         |-               |-                   |3544  |
+#'  |Total |69543 |976               |336                   |105        |15        |869             |546                 |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` definitely should
+#'   * `2` probably should
+#'   * `3` probably should not
+#'   * `4` definitely should not
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name chkspfin
+NULL
+

@@ -1,0 +1,10 @@
+^renv$
+^renv\.lock$
+^.*\.Rproj$
+^\.Rproj\.user$
+^data-raw$
+^LICENSE\.md$
+^README\.Rmd$
+^docs$
+^_pkgdown\.yml$
+^pkgdown$

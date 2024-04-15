@@ -1,0 +1,760 @@
+#'  In the past 7 days, r's average fatigue
+#' 
+#'  fatigue
+#' 
+#' Question In the past seven days, how would you rate your fatigue on average?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |mild |moderate |no answer |none |severe |very severe |skipped on web |Total |
+#'  |:-----|:-----|:----------|:----|:--------|:---------|:----|:------|:-----------|:--------------|:-----|
+#'  |1972  |1613  |-          |-    |-        |-         |-    |-      |-           |-              |1613  |
+#'  |1973  |1504  |-          |-    |-        |-         |-    |-      |-           |-              |1504  |
+#'  |1974  |1484  |-          |-    |-        |-         |-    |-      |-           |-              |1484  |
+#'  |1975  |1490  |-          |-    |-        |-         |-    |-      |-           |-              |1490  |
+#'  |1976  |1499  |-          |-    |-        |-         |-    |-      |-           |-              |1499  |
+#'  |1977  |1530  |-          |-    |-        |-         |-    |-      |-           |-              |1530  |
+#'  |1978  |1532  |-          |-    |-        |-         |-    |-      |-           |-              |1532  |
+#'  |1980  |1468  |-          |-    |-        |-         |-    |-      |-           |-              |1468  |
+#'  |1982  |1860  |-          |-    |-        |-         |-    |-      |-           |-              |1860  |
+#'  |1983  |1599  |-          |-    |-        |-         |-    |-      |-           |-              |1599  |
+#'  |1984  |1473  |-          |-    |-        |-         |-    |-      |-           |-              |1473  |
+#'  |1985  |1534  |-          |-    |-        |-         |-    |-      |-           |-              |1534  |
+#'  |1986  |1470  |-          |-    |-        |-         |-    |-      |-           |-              |1470  |
+#'  |1987  |1819  |-          |-    |-        |-         |-    |-      |-           |-              |1819  |
+#'  |1988  |1481  |-          |-    |-        |-         |-    |-      |-           |-              |1481  |
+#'  |1989  |1537  |-          |-    |-        |-         |-    |-      |-           |-              |1537  |
+#'  |1990  |1372  |-          |-    |-        |-         |-    |-      |-           |-              |1372  |
+#'  |1991  |1517  |-          |-    |-        |-         |-    |-      |-           |-              |1517  |
+#'  |1993  |1606  |-          |-    |-        |-         |-    |-      |-           |-              |1606  |
+#'  |1994  |2992  |-          |-    |-        |-         |-    |-      |-           |-              |2992  |
+#'  |1996  |2904  |-          |-    |-        |-         |-    |-      |-           |-              |2904  |
+#'  |1998  |2832  |-          |-    |-        |-         |-    |-      |-           |-              |2832  |
+#'  |2000  |2817  |-          |-    |-        |-         |-    |-      |-           |-              |2817  |
+#'  |2002  |2765  |-          |-    |-        |-         |-    |-      |-           |-              |2765  |
+#'  |2004  |2812  |-          |-    |-        |-         |-    |-      |-           |-              |2812  |
+#'  |2006  |4510  |-          |-    |-        |-         |-    |-      |-           |-              |4510  |
+#'  |2008  |2023  |-          |-    |-        |-         |-    |-      |-           |-              |2023  |
+#'  |2010  |2044  |-          |-    |-        |-         |-    |-      |-           |-              |2044  |
+#'  |2012  |1974  |-          |-    |-        |-         |-    |-      |-           |-              |1974  |
+#'  |2014  |2538  |-          |-    |-        |-         |-    |-      |-           |-              |2538  |
+#'  |2016  |2867  |-          |-    |-        |-         |-    |-      |-           |-              |2867  |
+#'  |2018  |-     |7          |898  |795      |18        |409  |184    |37          |-              |2348  |
+#'  |2021  |389   |2          |1491 |1124     |1         |684  |253    |63          |25             |4032  |
+#'  |2022  |3544  |-          |-    |-        |-         |-    |-      |-           |-              |3544  |
+#'  |Total |66399 |9          |2389 |1919     |19        |1093 |437    |100         |25             |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` none
+#'   * `2` mild
+#'   * `3` moderate
+#'   * `4` severe
+#'   * `5` very severe
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name fatigue
+NULL
+
+#'  In the past 7 days, r's average pain
+#' 
+#'  ratepain
+#' 
+#' Question On a scale from 0 to 10, with 0 meaning no pain and 10 being the worst imaginable pain, how would you rate your pain on average?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |0 - no pain |1   |10 - the worst imaginable pain |2   |3   |4   |5   |6   |7   |8  |9  |don't know |no answer |Total |
+#'  |:-----|:-----|:-----------|:---|:------------------------------|:---|:---|:---|:---|:---|:---|:--|:--|:----------|:---------|:-----|
+#'  |1972  |1613  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |1613  |
+#'  |1973  |1504  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |1504  |
+#'  |1974  |1484  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |1484  |
+#'  |1975  |1490  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |1490  |
+#'  |1976  |1499  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |1499  |
+#'  |1977  |1530  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |1530  |
+#'  |1978  |1532  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |1532  |
+#'  |1980  |1468  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |1468  |
+#'  |1982  |1860  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |1860  |
+#'  |1983  |1599  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |1599  |
+#'  |1984  |1473  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |1473  |
+#'  |1985  |1534  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |1534  |
+#'  |1986  |1470  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |1470  |
+#'  |1987  |1819  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |1819  |
+#'  |1988  |1481  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |1481  |
+#'  |1989  |1537  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |1537  |
+#'  |1990  |1372  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |1372  |
+#'  |1991  |1517  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |1517  |
+#'  |1993  |1606  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |1606  |
+#'  |1994  |2992  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |2992  |
+#'  |1996  |2904  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |2904  |
+#'  |1998  |2832  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |2832  |
+#'  |2000  |2817  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |2817  |
+#'  |2002  |2765  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |2765  |
+#'  |2004  |2812  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |2812  |
+#'  |2006  |4510  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |4510  |
+#'  |2008  |2023  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |2023  |
+#'  |2010  |2044  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |2044  |
+#'  |2012  |1974  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |1974  |
+#'  |2014  |2538  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |2538  |
+#'  |2016  |2867  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |2867  |
+#'  |2018  |-     |569         |353 |23                             |312 |295 |193 |204 |143 |140 |68 |28 |3          |17        |2348  |
+#'  |2021  |4032  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |4032  |
+#'  |2022  |3544  |-           |-   |-                              |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |3544  |
+#'  |Total |70042 |569         |353 |23                             |312 |295 |193 |204 |143 |140 |68 |28 |3          |17        |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `0` 0 - no pain
+#'   * `10` 10 - the worst imaginable pain
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name ratepain
+NULL
+
+#'  Women only: women should be able to have legal abortions
+#' 
+#'  abfelegl
+#' 
+#' Question Leaving aside what you think of abortion for yourself, do you think a woman should continue to be able to have an abortion legally or not, or would you say it depends?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |it depends |no answer |should |should not |Total |
+#'  |:-----|:-----|:----------|:----------|:---------|:------|:----------|:-----|
+#'  |1972  |1613  |-          |-          |-         |-      |-          |1613  |
+#'  |1973  |1504  |-          |-          |-         |-      |-          |1504  |
+#'  |1974  |1484  |-          |-          |-         |-      |-          |1484  |
+#'  |1975  |1490  |-          |-          |-         |-      |-          |1490  |
+#'  |1976  |1499  |-          |-          |-         |-      |-          |1499  |
+#'  |1977  |1530  |-          |-          |-         |-      |-          |1530  |
+#'  |1978  |1532  |-          |-          |-         |-      |-          |1532  |
+#'  |1980  |1468  |-          |-          |-         |-      |-          |1468  |
+#'  |1982  |1860  |-          |-          |-         |-      |-          |1860  |
+#'  |1983  |1599  |-          |-          |-         |-      |-          |1599  |
+#'  |1984  |1473  |-          |-          |-         |-      |-          |1473  |
+#'  |1985  |1534  |-          |-          |-         |-      |-          |1534  |
+#'  |1986  |1470  |-          |-          |-         |-      |-          |1470  |
+#'  |1987  |1819  |-          |-          |-         |-      |-          |1819  |
+#'  |1988  |1481  |-          |-          |-         |-      |-          |1481  |
+#'  |1989  |1537  |-          |-          |-         |-      |-          |1537  |
+#'  |1990  |1372  |-          |-          |-         |-      |-          |1372  |
+#'  |1991  |1517  |-          |-          |-         |-      |-          |1517  |
+#'  |1993  |1606  |-          |-          |-         |-      |-          |1606  |
+#'  |1994  |2992  |-          |-          |-         |-      |-          |2992  |
+#'  |1996  |2904  |-          |-          |-         |-      |-          |2904  |
+#'  |1998  |2832  |-          |-          |-         |-      |-          |2832  |
+#'  |2000  |2817  |-          |-          |-         |-      |-          |2817  |
+#'  |2002  |2765  |-          |-          |-         |-      |-          |2765  |
+#'  |2004  |2812  |-          |-          |-         |-      |-          |2812  |
+#'  |2006  |4510  |-          |-          |-         |-      |-          |4510  |
+#'  |2008  |2023  |-          |-          |-         |-      |-          |2023  |
+#'  |2010  |2044  |-          |-          |-         |-      |-          |2044  |
+#'  |2012  |1974  |-          |-          |-         |-      |-          |1974  |
+#'  |2014  |2538  |-          |-          |-         |-      |-          |2538  |
+#'  |2016  |2867  |-          |-          |-         |-      |-          |2867  |
+#'  |2018  |1052  |9          |581        |32        |481    |193        |2348  |
+#'  |2021  |4032  |-          |-          |-         |-      |-          |4032  |
+#'  |2022  |3544  |-          |-          |-         |-      |-          |3544  |
+#'  |Total |71094 |9          |581        |32        |481    |193        |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` should
+#'   * `2` should not
+#'   * `3` it depends
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name abfelegl
+NULL
+
+#'  Men only: women should be able to have legal abortions
+#' 
+#'  abmelegl
+#' 
+#' Question Leaving aside what you think of abortion for those close to you, do you think a woman should continue to be able to have an abortion legally or not or would you say it depends?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |it depends |no answer |should |should not |Total |
+#'  |:-----|:-----|:----------|:----------|:---------|:------|:----------|:-----|
+#'  |1972  |1613  |-          |-          |-         |-      |-          |1613  |
+#'  |1973  |1504  |-          |-          |-         |-      |-          |1504  |
+#'  |1974  |1484  |-          |-          |-         |-      |-          |1484  |
+#'  |1975  |1490  |-          |-          |-         |-      |-          |1490  |
+#'  |1976  |1499  |-          |-          |-         |-      |-          |1499  |
+#'  |1977  |1530  |-          |-          |-         |-      |-          |1530  |
+#'  |1978  |1532  |-          |-          |-         |-      |-          |1532  |
+#'  |1980  |1468  |-          |-          |-         |-      |-          |1468  |
+#'  |1982  |1860  |-          |-          |-         |-      |-          |1860  |
+#'  |1983  |1599  |-          |-          |-         |-      |-          |1599  |
+#'  |1984  |1473  |-          |-          |-         |-      |-          |1473  |
+#'  |1985  |1534  |-          |-          |-         |-      |-          |1534  |
+#'  |1986  |1470  |-          |-          |-         |-      |-          |1470  |
+#'  |1987  |1819  |-          |-          |-         |-      |-          |1819  |
+#'  |1988  |1481  |-          |-          |-         |-      |-          |1481  |
+#'  |1989  |1537  |-          |-          |-         |-      |-          |1537  |
+#'  |1990  |1372  |-          |-          |-         |-      |-          |1372  |
+#'  |1991  |1517  |-          |-          |-         |-      |-          |1517  |
+#'  |1993  |1606  |-          |-          |-         |-      |-          |1606  |
+#'  |1994  |2992  |-          |-          |-         |-      |-          |2992  |
+#'  |1996  |2904  |-          |-          |-         |-      |-          |2904  |
+#'  |1998  |2832  |-          |-          |-         |-      |-          |2832  |
+#'  |2000  |2817  |-          |-          |-         |-      |-          |2817  |
+#'  |2002  |2765  |-          |-          |-         |-      |-          |2765  |
+#'  |2004  |2812  |-          |-          |-         |-      |-          |2812  |
+#'  |2006  |4510  |-          |-          |-         |-      |-          |4510  |
+#'  |2008  |2023  |-          |-          |-         |-      |-          |2023  |
+#'  |2010  |2044  |-          |-          |-         |-      |-          |2044  |
+#'  |2012  |1974  |-          |-          |-         |-      |-          |1974  |
+#'  |2014  |2538  |-          |-          |-         |-      |-          |2538  |
+#'  |2016  |2867  |-          |-          |-         |-      |-          |2867  |
+#'  |2018  |1296  |9          |464        |22        |423    |134        |2348  |
+#'  |2021  |4032  |-          |-          |-         |-      |-          |4032  |
+#'  |2022  |3544  |-          |-          |-         |-      |-          |3544  |
+#'  |Total |71338 |9          |464        |22        |423    |134        |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` should
+#'   * `2` should not
+#'   * `3` it depends
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name abmelegl
+NULL
+
+#'  R has a moral opposition to abortion
+#' 
+#'  abmoral
+#' 
+#' Question Leaving aside whether or not you think abortion should be legal, are you morally opposed to abortion or not, or would you say it depends?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |it depends |morally opposed |no answer |not morally opposed |skipped on web |Total |
+#'  |:-----|:-----|:----------|:----------|:---------------|:---------|:-------------------|:--------------|:-----|
+#'  |1972  |1613  |-          |-          |-               |-         |-                   |-              |1613  |
+#'  |1973  |1504  |-          |-          |-               |-         |-                   |-              |1504  |
+#'  |1974  |1484  |-          |-          |-               |-         |-                   |-              |1484  |
+#'  |1975  |1490  |-          |-          |-               |-         |-                   |-              |1490  |
+#'  |1976  |1499  |-          |-          |-               |-         |-                   |-              |1499  |
+#'  |1977  |1530  |-          |-          |-               |-         |-                   |-              |1530  |
+#'  |1978  |1532  |-          |-          |-               |-         |-                   |-              |1532  |
+#'  |1980  |1468  |-          |-          |-               |-         |-                   |-              |1468  |
+#'  |1982  |1860  |-          |-          |-               |-         |-                   |-              |1860  |
+#'  |1983  |1599  |-          |-          |-               |-         |-                   |-              |1599  |
+#'  |1984  |1473  |-          |-          |-               |-         |-                   |-              |1473  |
+#'  |1985  |1534  |-          |-          |-               |-         |-                   |-              |1534  |
+#'  |1986  |1470  |-          |-          |-               |-         |-                   |-              |1470  |
+#'  |1987  |1819  |-          |-          |-               |-         |-                   |-              |1819  |
+#'  |1988  |1481  |-          |-          |-               |-         |-                   |-              |1481  |
+#'  |1989  |1537  |-          |-          |-               |-         |-                   |-              |1537  |
+#'  |1990  |1372  |-          |-          |-               |-         |-                   |-              |1372  |
+#'  |1991  |1517  |-          |-          |-               |-         |-                   |-              |1517  |
+#'  |1993  |1606  |-          |-          |-               |-         |-                   |-              |1606  |
+#'  |1994  |2992  |-          |-          |-               |-         |-                   |-              |2992  |
+#'  |1996  |2904  |-          |-          |-               |-         |-                   |-              |2904  |
+#'  |1998  |2832  |-          |-          |-               |-         |-                   |-              |2832  |
+#'  |2000  |2817  |-          |-          |-               |-         |-                   |-              |2817  |
+#'  |2002  |2765  |-          |-          |-               |-         |-                   |-              |2765  |
+#'  |2004  |2812  |-          |-          |-               |-         |-                   |-              |2812  |
+#'  |2006  |4510  |-          |-          |-               |-         |-                   |-              |4510  |
+#'  |2008  |2023  |-          |-          |-               |-         |-                   |-              |2023  |
+#'  |2010  |2044  |-          |-          |-               |-         |-                   |-              |2044  |
+#'  |2012  |1974  |-          |-          |-               |-         |-                   |-              |1974  |
+#'  |2014  |2538  |-          |-          |-               |-         |-                   |-              |2538  |
+#'  |2016  |2867  |-          |-          |-               |-         |-                   |-              |2867  |
+#'  |2018  |-     |12         |995        |660             |49        |632                 |-              |2348  |
+#'  |2021  |4032  |-          |-          |-               |-         |-                   |-              |4032  |
+#'  |2022  |2309  |-          |417        |255             |-         |562                 |1              |3544  |
+#'  |Total |68807 |12         |1412       |915             |49        |1194                |1              |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` morally opposed
+#'   * `2` not morally opposed
+#'   * `3` it depends
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name abmoral
+NULL
+
+#'  Difficulty of obtaining abortion in r's state
+#' 
+#'  abstate1
+#' 
+#' Question Here in (CURRENT STATE), how easy or hard do you think it is for a woman to get an abortion?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |easy |hard |neither easy nor hard |no answer |very easy |very hard |Total |
+#'  |:-----|:-----|:----------|:----|:----|:---------------------|:---------|:---------|:---------|:-----|
+#'  |1972  |1613  |-          |-    |-    |-                     |-         |-         |-         |1613  |
+#'  |1973  |1504  |-          |-    |-    |-                     |-         |-         |-         |1504  |
+#'  |1974  |1484  |-          |-    |-    |-                     |-         |-         |-         |1484  |
+#'  |1975  |1490  |-          |-    |-    |-                     |-         |-         |-         |1490  |
+#'  |1976  |1499  |-          |-    |-    |-                     |-         |-         |-         |1499  |
+#'  |1977  |1530  |-          |-    |-    |-                     |-         |-         |-         |1530  |
+#'  |1978  |1532  |-          |-    |-    |-                     |-         |-         |-         |1532  |
+#'  |1980  |1468  |-          |-    |-    |-                     |-         |-         |-         |1468  |
+#'  |1982  |1860  |-          |-    |-    |-                     |-         |-         |-         |1860  |
+#'  |1983  |1599  |-          |-    |-    |-                     |-         |-         |-         |1599  |
+#'  |1984  |1473  |-          |-    |-    |-                     |-         |-         |-         |1473  |
+#'  |1985  |1534  |-          |-    |-    |-                     |-         |-         |-         |1534  |
+#'  |1986  |1470  |-          |-    |-    |-                     |-         |-         |-         |1470  |
+#'  |1987  |1819  |-          |-    |-    |-                     |-         |-         |-         |1819  |
+#'  |1988  |1481  |-          |-    |-    |-                     |-         |-         |-         |1481  |
+#'  |1989  |1537  |-          |-    |-    |-                     |-         |-         |-         |1537  |
+#'  |1990  |1372  |-          |-    |-    |-                     |-         |-         |-         |1372  |
+#'  |1991  |1517  |-          |-    |-    |-                     |-         |-         |-         |1517  |
+#'  |1993  |1606  |-          |-    |-    |-                     |-         |-         |-         |1606  |
+#'  |1994  |2992  |-          |-    |-    |-                     |-         |-         |-         |2992  |
+#'  |1996  |2904  |-          |-    |-    |-                     |-         |-         |-         |2904  |
+#'  |1998  |2832  |-          |-    |-    |-                     |-         |-         |-         |2832  |
+#'  |2000  |2817  |-          |-    |-    |-                     |-         |-         |-         |2817  |
+#'  |2002  |2765  |-          |-    |-    |-                     |-         |-         |-         |2765  |
+#'  |2004  |2812  |-          |-    |-    |-                     |-         |-         |-         |2812  |
+#'  |2006  |4510  |-          |-    |-    |-                     |-         |-         |-         |4510  |
+#'  |2008  |2023  |-          |-    |-    |-                     |-         |-         |-         |2023  |
+#'  |2010  |2044  |-          |-    |-    |-                     |-         |-         |-         |2044  |
+#'  |2012  |1974  |-          |-    |-    |-                     |-         |-         |-         |1974  |
+#'  |2014  |2538  |-          |-    |-    |-                     |-         |-         |-         |2538  |
+#'  |2016  |2867  |-          |-    |-    |-                     |-         |-         |-         |2867  |
+#'  |2018  |-     |442        |671  |217  |518                   |50        |367       |83        |2348  |
+#'  |2021  |4032  |-          |-    |-    |-                     |-         |-         |-         |4032  |
+#'  |2022  |3544  |-          |-    |-    |-                     |-         |-         |-         |3544  |
+#'  |Total |70042 |442        |671  |217  |518                   |50        |367       |83        |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` very easy
+#'   * `2` easy
+#'   * `3` neither easy nor hard
+#'   * `4` hard
+#'   * `5` very hard
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name abstate1
+NULL
+
+#'  Change abortion laws in r's state to make it easier or harder to get an abortion
+#' 
+#'  abstate2
+#' 
+#' Question Here in (CURRENT STATE), do you think that laws should be changed to make it easier for a woman to get an abortion, be changed to make it harder for a woman to get an abortion, or should the laws stay as they are now?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |make it easier |make it harder |no answer |stay the same as now |Total |
+#'  |:-----|:-----|:----------|:--------------|:--------------|:---------|:--------------------|:-----|
+#'  |1972  |1613  |-          |-              |-              |-         |-                    |1613  |
+#'  |1973  |1504  |-          |-              |-              |-         |-                    |1504  |
+#'  |1974  |1484  |-          |-              |-              |-         |-                    |1484  |
+#'  |1975  |1490  |-          |-              |-              |-         |-                    |1490  |
+#'  |1976  |1499  |-          |-              |-              |-         |-                    |1499  |
+#'  |1977  |1530  |-          |-              |-              |-         |-                    |1530  |
+#'  |1978  |1532  |-          |-              |-              |-         |-                    |1532  |
+#'  |1980  |1468  |-          |-              |-              |-         |-                    |1468  |
+#'  |1982  |1860  |-          |-              |-              |-         |-                    |1860  |
+#'  |1983  |1599  |-          |-              |-              |-         |-                    |1599  |
+#'  |1984  |1473  |-          |-              |-              |-         |-                    |1473  |
+#'  |1985  |1534  |-          |-              |-              |-         |-                    |1534  |
+#'  |1986  |1470  |-          |-              |-              |-         |-                    |1470  |
+#'  |1987  |1819  |-          |-              |-              |-         |-                    |1819  |
+#'  |1988  |1481  |-          |-              |-              |-         |-                    |1481  |
+#'  |1989  |1537  |-          |-              |-              |-         |-                    |1537  |
+#'  |1990  |1372  |-          |-              |-              |-         |-                    |1372  |
+#'  |1991  |1517  |-          |-              |-              |-         |-                    |1517  |
+#'  |1993  |1606  |-          |-              |-              |-         |-                    |1606  |
+#'  |1994  |2992  |-          |-              |-              |-         |-                    |2992  |
+#'  |1996  |2904  |-          |-              |-              |-         |-                    |2904  |
+#'  |1998  |2832  |-          |-              |-              |-         |-                    |2832  |
+#'  |2000  |2817  |-          |-              |-              |-         |-                    |2817  |
+#'  |2002  |2765  |-          |-              |-              |-         |-                    |2765  |
+#'  |2004  |2812  |-          |-              |-              |-         |-                    |2812  |
+#'  |2006  |4510  |-          |-              |-              |-         |-                    |4510  |
+#'  |2008  |2023  |-          |-              |-              |-         |-                    |2023  |
+#'  |2010  |2044  |-          |-              |-              |-         |-                    |2044  |
+#'  |2012  |1974  |-          |-              |-              |-         |-                    |1974  |
+#'  |2014  |2538  |-          |-              |-              |-         |-                    |2538  |
+#'  |2016  |2867  |-          |-              |-              |-         |-                    |2867  |
+#'  |2018  |-     |235        |403            |610            |54        |1046                 |2348  |
+#'  |2021  |4032  |-          |-              |-              |-         |-                    |4032  |
+#'  |2022  |3544  |-          |-              |-              |-         |-                    |3544  |
+#'  |Total |70042 |235        |403            |610            |54        |1046                 |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` make it easier
+#'   * `2` make it harder
+#'   * `3` stay the same as now
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name abstate2
+NULL
+
+#'  R would help with arrangements for abortion
+#' 
+#'  abhelp1
+#' 
+#' Question If a close family member or friend decided to have an abortion, which of the following kinds of help, if any, would you give if you were able?A. Help with arrangements, like a ride or childcare?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no  |no answer |yes  |skipped on web |Total |
+#'  |:-----|:-----|:----------|:---|:---------|:----|:--------------|:-----|
+#'  |1972  |1613  |-          |-   |-         |-    |-              |1613  |
+#'  |1973  |1504  |-          |-   |-         |-    |-              |1504  |
+#'  |1974  |1484  |-          |-   |-         |-    |-              |1484  |
+#'  |1975  |1490  |-          |-   |-         |-    |-              |1490  |
+#'  |1976  |1499  |-          |-   |-         |-    |-              |1499  |
+#'  |1977  |1530  |-          |-   |-         |-    |-              |1530  |
+#'  |1978  |1532  |-          |-   |-         |-    |-              |1532  |
+#'  |1980  |1468  |-          |-   |-         |-    |-              |1468  |
+#'  |1982  |1860  |-          |-   |-         |-    |-              |1860  |
+#'  |1983  |1599  |-          |-   |-         |-    |-              |1599  |
+#'  |1984  |1473  |-          |-   |-         |-    |-              |1473  |
+#'  |1985  |1534  |-          |-   |-         |-    |-              |1534  |
+#'  |1986  |1470  |-          |-   |-         |-    |-              |1470  |
+#'  |1987  |1819  |-          |-   |-         |-    |-              |1819  |
+#'  |1988  |1481  |-          |-   |-         |-    |-              |1481  |
+#'  |1989  |1537  |-          |-   |-         |-    |-              |1537  |
+#'  |1990  |1372  |-          |-   |-         |-    |-              |1372  |
+#'  |1991  |1517  |-          |-   |-         |-    |-              |1517  |
+#'  |1993  |1606  |-          |-   |-         |-    |-              |1606  |
+#'  |1994  |2992  |-          |-   |-         |-    |-              |2992  |
+#'  |1996  |2904  |-          |-   |-         |-    |-              |2904  |
+#'  |1998  |2832  |-          |-   |-         |-    |-              |2832  |
+#'  |2000  |2817  |-          |-   |-         |-    |-              |2817  |
+#'  |2002  |2765  |-          |-   |-         |-    |-              |2765  |
+#'  |2004  |2812  |-          |-   |-         |-    |-              |2812  |
+#'  |2006  |4510  |-          |-   |-         |-    |-              |4510  |
+#'  |2008  |2023  |-          |-   |-         |-    |-              |2023  |
+#'  |2010  |2044  |-          |-   |-         |-    |-              |2044  |
+#'  |2012  |1974  |-          |-   |-         |-    |-              |1974  |
+#'  |2014  |2538  |-          |-   |-         |-    |-              |2538  |
+#'  |2016  |2867  |-          |-   |-         |-    |-              |2867  |
+#'  |2018  |-     |62         |633 |63        |1590 |-              |2348  |
+#'  |2021  |4032  |-          |-   |-         |-    |-              |4032  |
+#'  |2022  |2309  |-          |266 |-         |965  |4              |3544  |
+#'  |Total |68807 |62         |899 |63        |2555 |4              |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name abhelp1
+NULL
+
+#'  R would help with paying for abortion
+#' 
+#'  abhelp2
+#' 
+#' Question If a close family member or friend decided to have an abortion, which of the following kinds of help, if any, would you give if you were able? B. Help paying for the abortion?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no   |no answer |yes  |skipped on web |Total |
+#'  |:-----|:-----|:----------|:----|:---------|:----|:--------------|:-----|
+#'  |1972  |1613  |-          |-    |-         |-    |-              |1613  |
+#'  |1973  |1504  |-          |-    |-         |-    |-              |1504  |
+#'  |1974  |1484  |-          |-    |-         |-    |-              |1484  |
+#'  |1975  |1490  |-          |-    |-         |-    |-              |1490  |
+#'  |1976  |1499  |-          |-    |-         |-    |-              |1499  |
+#'  |1977  |1530  |-          |-    |-         |-    |-              |1530  |
+#'  |1978  |1532  |-          |-    |-         |-    |-              |1532  |
+#'  |1980  |1468  |-          |-    |-         |-    |-              |1468  |
+#'  |1982  |1860  |-          |-    |-         |-    |-              |1860  |
+#'  |1983  |1599  |-          |-    |-         |-    |-              |1599  |
+#'  |1984  |1473  |-          |-    |-         |-    |-              |1473  |
+#'  |1985  |1534  |-          |-    |-         |-    |-              |1534  |
+#'  |1986  |1470  |-          |-    |-         |-    |-              |1470  |
+#'  |1987  |1819  |-          |-    |-         |-    |-              |1819  |
+#'  |1988  |1481  |-          |-    |-         |-    |-              |1481  |
+#'  |1989  |1537  |-          |-    |-         |-    |-              |1537  |
+#'  |1990  |1372  |-          |-    |-         |-    |-              |1372  |
+#'  |1991  |1517  |-          |-    |-         |-    |-              |1517  |
+#'  |1993  |1606  |-          |-    |-         |-    |-              |1606  |
+#'  |1994  |2992  |-          |-    |-         |-    |-              |2992  |
+#'  |1996  |2904  |-          |-    |-         |-    |-              |2904  |
+#'  |1998  |2832  |-          |-    |-         |-    |-              |2832  |
+#'  |2000  |2817  |-          |-    |-         |-    |-              |2817  |
+#'  |2002  |2765  |-          |-    |-         |-    |-              |2765  |
+#'  |2004  |2812  |-          |-    |-         |-    |-              |2812  |
+#'  |2006  |4510  |-          |-    |-         |-    |-              |4510  |
+#'  |2008  |2023  |-          |-    |-         |-    |-              |2023  |
+#'  |2010  |2044  |-          |-    |-         |-    |-              |2044  |
+#'  |2012  |1974  |-          |-    |-         |-    |-              |1974  |
+#'  |2014  |2538  |-          |-    |-         |-    |-              |2538  |
+#'  |2016  |2867  |-          |-    |-         |-    |-              |2867  |
+#'  |2018  |-     |59         |1576 |57        |656  |-              |2348  |
+#'  |2021  |4032  |-          |-    |-         |-    |-              |4032  |
+#'  |2022  |2309  |-          |673  |-         |549  |13             |3544  |
+#'  |Total |68807 |59         |2249 |57        |1205 |13             |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name abhelp2
+NULL
+
+#'  R would help with paying for abortion-related other costs
+#' 
+#'  abhelp3
+#' 
+#' Question If a close family member or friend decided to have an abortion, which of the following kinds of help, if any, would you give if you were able? C. Help paying for costs other than the abortion, like for a ride or hotel if she needs to stay overnight?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no   |no answer |yes  |skipped on web |Total |
+#'  |:-----|:-----|:----------|:----|:---------|:----|:--------------|:-----|
+#'  |1972  |1613  |-          |-    |-         |-    |-              |1613  |
+#'  |1973  |1504  |-          |-    |-         |-    |-              |1504  |
+#'  |1974  |1484  |-          |-    |-         |-    |-              |1484  |
+#'  |1975  |1490  |-          |-    |-         |-    |-              |1490  |
+#'  |1976  |1499  |-          |-    |-         |-    |-              |1499  |
+#'  |1977  |1530  |-          |-    |-         |-    |-              |1530  |
+#'  |1978  |1532  |-          |-    |-         |-    |-              |1532  |
+#'  |1980  |1468  |-          |-    |-         |-    |-              |1468  |
+#'  |1982  |1860  |-          |-    |-         |-    |-              |1860  |
+#'  |1983  |1599  |-          |-    |-         |-    |-              |1599  |
+#'  |1984  |1473  |-          |-    |-         |-    |-              |1473  |
+#'  |1985  |1534  |-          |-    |-         |-    |-              |1534  |
+#'  |1986  |1470  |-          |-    |-         |-    |-              |1470  |
+#'  |1987  |1819  |-          |-    |-         |-    |-              |1819  |
+#'  |1988  |1481  |-          |-    |-         |-    |-              |1481  |
+#'  |1989  |1537  |-          |-    |-         |-    |-              |1537  |
+#'  |1990  |1372  |-          |-    |-         |-    |-              |1372  |
+#'  |1991  |1517  |-          |-    |-         |-    |-              |1517  |
+#'  |1993  |1606  |-          |-    |-         |-    |-              |1606  |
+#'  |1994  |2992  |-          |-    |-         |-    |-              |2992  |
+#'  |1996  |2904  |-          |-    |-         |-    |-              |2904  |
+#'  |1998  |2832  |-          |-    |-         |-    |-              |2832  |
+#'  |2000  |2817  |-          |-    |-         |-    |-              |2817  |
+#'  |2002  |2765  |-          |-    |-         |-    |-              |2765  |
+#'  |2004  |2812  |-          |-    |-         |-    |-              |2812  |
+#'  |2006  |4510  |-          |-    |-         |-    |-              |4510  |
+#'  |2008  |2023  |-          |-    |-         |-    |-              |2023  |
+#'  |2010  |2044  |-          |-    |-         |-    |-              |2044  |
+#'  |2012  |1974  |-          |-    |-         |-    |-              |1974  |
+#'  |2014  |2538  |-          |-    |-         |-    |-              |2538  |
+#'  |2016  |2867  |-          |-    |-         |-    |-              |2867  |
+#'  |2018  |-     |47         |981  |59        |1261 |-              |2348  |
+#'  |2021  |4032  |-          |-    |-         |-    |-              |4032  |
+#'  |2022  |2309  |-          |460  |-         |769  |6              |3544  |
+#'  |Total |68807 |47         |1441 |59        |2030 |6              |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name abhelp3
+NULL
+

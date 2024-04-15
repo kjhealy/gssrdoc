@@ -1,0 +1,770 @@
+#'  R's child 3 considered jewish
+#' 
+#'  kd3jwoth
+#' 
+#' Question None
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |no |Total |
+#'  |:-----|:-----|:--|:-----|
+#'  |1972  |1613  |-  |1613  |
+#'  |1973  |1504  |-  |1504  |
+#'  |1974  |1484  |-  |1484  |
+#'  |1975  |1490  |-  |1490  |
+#'  |1976  |1499  |-  |1499  |
+#'  |1977  |1530  |-  |1530  |
+#'  |1978  |1532  |-  |1532  |
+#'  |1980  |1468  |-  |1468  |
+#'  |1982  |1860  |-  |1860  |
+#'  |1983  |1599  |-  |1599  |
+#'  |1984  |1473  |-  |1473  |
+#'  |1985  |1534  |-  |1534  |
+#'  |1986  |1470  |-  |1470  |
+#'  |1987  |1819  |-  |1819  |
+#'  |1988  |1481  |-  |1481  |
+#'  |1989  |1537  |-  |1537  |
+#'  |1990  |1372  |-  |1372  |
+#'  |1991  |1517  |-  |1517  |
+#'  |1993  |1606  |-  |1606  |
+#'  |1994  |2992  |-  |2992  |
+#'  |1996  |2904  |-  |2904  |
+#'  |1998  |2832  |-  |2832  |
+#'  |2000  |2817  |-  |2817  |
+#'  |2002  |2765  |-  |2765  |
+#'  |2004  |2812  |-  |2812  |
+#'  |2006  |4510  |-  |4510  |
+#'  |2008  |1995  |28 |2023  |
+#'  |2010  |2044  |-  |2044  |
+#'  |2012  |1974  |-  |1974  |
+#'  |2014  |2538  |-  |2538  |
+#'  |2016  |2867  |-  |2867  |
+#'  |2018  |2348  |-  |2348  |
+#'  |2021  |4032  |-  |4032  |
+#'  |2022  |3544  |-  |3544  |
+#'  |Total |72362 |28 |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` half/part
+#'   * `3` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name kd3jwoth
+NULL
+
+#'  R's child 4 considered jewish
+#' 
+#'  kd4jwoth
+#' 
+#' Question None
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |no |Total |
+#'  |:-----|:-----|:--|:-----|
+#'  |1972  |1613  |-  |1613  |
+#'  |1973  |1504  |-  |1504  |
+#'  |1974  |1484  |-  |1484  |
+#'  |1975  |1490  |-  |1490  |
+#'  |1976  |1499  |-  |1499  |
+#'  |1977  |1530  |-  |1530  |
+#'  |1978  |1532  |-  |1532  |
+#'  |1980  |1468  |-  |1468  |
+#'  |1982  |1860  |-  |1860  |
+#'  |1983  |1599  |-  |1599  |
+#'  |1984  |1473  |-  |1473  |
+#'  |1985  |1534  |-  |1534  |
+#'  |1986  |1470  |-  |1470  |
+#'  |1987  |1819  |-  |1819  |
+#'  |1988  |1481  |-  |1481  |
+#'  |1989  |1537  |-  |1537  |
+#'  |1990  |1372  |-  |1372  |
+#'  |1991  |1517  |-  |1517  |
+#'  |1993  |1606  |-  |1606  |
+#'  |1994  |2992  |-  |2992  |
+#'  |1996  |2904  |-  |2904  |
+#'  |1998  |2832  |-  |2832  |
+#'  |2000  |2817  |-  |2817  |
+#'  |2002  |2765  |-  |2765  |
+#'  |2004  |2812  |-  |2812  |
+#'  |2006  |4510  |-  |4510  |
+#'  |2008  |2014  |9  |2023  |
+#'  |2010  |2044  |-  |2044  |
+#'  |2012  |1974  |-  |1974  |
+#'  |2014  |2538  |-  |2538  |
+#'  |2016  |2867  |-  |2867  |
+#'  |2018  |2348  |-  |2348  |
+#'  |2021  |4032  |-  |4032  |
+#'  |2022  |3544  |-  |3544  |
+#'  |Total |72381 |9  |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` half/part
+#'   * `3` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name kd4jwoth
+NULL
+
+#'  R's child 5 considered jewish
+#' 
+#'  kd5jwoth
+#' 
+#' Question None
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |no |Total |
+#'  |:-----|:-----|:--|:-----|
+#'  |1972  |1613  |-  |1613  |
+#'  |1973  |1504  |-  |1504  |
+#'  |1974  |1484  |-  |1484  |
+#'  |1975  |1490  |-  |1490  |
+#'  |1976  |1499  |-  |1499  |
+#'  |1977  |1530  |-  |1530  |
+#'  |1978  |1532  |-  |1532  |
+#'  |1980  |1468  |-  |1468  |
+#'  |1982  |1860  |-  |1860  |
+#'  |1983  |1599  |-  |1599  |
+#'  |1984  |1473  |-  |1473  |
+#'  |1985  |1534  |-  |1534  |
+#'  |1986  |1470  |-  |1470  |
+#'  |1987  |1819  |-  |1819  |
+#'  |1988  |1481  |-  |1481  |
+#'  |1989  |1537  |-  |1537  |
+#'  |1990  |1372  |-  |1372  |
+#'  |1991  |1517  |-  |1517  |
+#'  |1993  |1606  |-  |1606  |
+#'  |1994  |2992  |-  |2992  |
+#'  |1996  |2904  |-  |2904  |
+#'  |1998  |2832  |-  |2832  |
+#'  |2000  |2817  |-  |2817  |
+#'  |2002  |2765  |-  |2765  |
+#'  |2004  |2812  |-  |2812  |
+#'  |2006  |4510  |-  |4510  |
+#'  |2008  |2022  |1  |2023  |
+#'  |2010  |2044  |-  |2044  |
+#'  |2012  |1974  |-  |1974  |
+#'  |2014  |2538  |-  |2538  |
+#'  |2016  |2867  |-  |2867  |
+#'  |2018  |2348  |-  |2348  |
+#'  |2021  |4032  |-  |4032  |
+#'  |2022  |3544  |-  |3544  |
+#'  |Total |72389 |1  |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` half/part
+#'   * `3` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name kd5jwoth
+NULL
+
+#'  Has r developed emergency plans
+#' 
+#'  done911a
+#' 
+#' Question Community-wide disasters happen, and these happen for a variety of reasons, such as acts of nature, terrorism, industrial accidents, and other causes. Do you know anyone who has done any of the following things because of terrorism since September 11th, 2001? Have you, or anyone you know developed emergency plans (evacuation, meeting places)? FI PROBE: IF RESPONDENT ANSWERS "YES," ASK: Was this you, someone you know, or both yourself and someone you know?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no   |no answer |yes, both respondent and someone respondent knows |yes, respondent |yes, someone respondent knows |Total |
+#'  |:-----|:-----|:----------|:----|:---------|:-------------------------------------------------|:---------------|:-----------------------------|:-----|
+#'  |1972  |1613  |-          |-    |-         |-                                                 |-               |-                             |1613  |
+#'  |1973  |1504  |-          |-    |-         |-                                                 |-               |-                             |1504  |
+#'  |1974  |1484  |-          |-    |-         |-                                                 |-               |-                             |1484  |
+#'  |1975  |1490  |-          |-    |-         |-                                                 |-               |-                             |1490  |
+#'  |1976  |1499  |-          |-    |-         |-                                                 |-               |-                             |1499  |
+#'  |1977  |1530  |-          |-    |-         |-                                                 |-               |-                             |1530  |
+#'  |1978  |1532  |-          |-    |-         |-                                                 |-               |-                             |1532  |
+#'  |1980  |1468  |-          |-    |-         |-                                                 |-               |-                             |1468  |
+#'  |1982  |1860  |-          |-    |-         |-                                                 |-               |-                             |1860  |
+#'  |1983  |1599  |-          |-    |-         |-                                                 |-               |-                             |1599  |
+#'  |1984  |1473  |-          |-    |-         |-                                                 |-               |-                             |1473  |
+#'  |1985  |1534  |-          |-    |-         |-                                                 |-               |-                             |1534  |
+#'  |1986  |1470  |-          |-    |-         |-                                                 |-               |-                             |1470  |
+#'  |1987  |1819  |-          |-    |-         |-                                                 |-               |-                             |1819  |
+#'  |1988  |1481  |-          |-    |-         |-                                                 |-               |-                             |1481  |
+#'  |1989  |1537  |-          |-    |-         |-                                                 |-               |-                             |1537  |
+#'  |1990  |1372  |-          |-    |-         |-                                                 |-               |-                             |1372  |
+#'  |1991  |1517  |-          |-    |-         |-                                                 |-               |-                             |1517  |
+#'  |1993  |1606  |-          |-    |-         |-                                                 |-               |-                             |1606  |
+#'  |1994  |2992  |-          |-    |-         |-                                                 |-               |-                             |2992  |
+#'  |1996  |2904  |-          |-    |-         |-                                                 |-               |-                             |2904  |
+#'  |1998  |2832  |-          |-    |-         |-                                                 |-               |-                             |2832  |
+#'  |2000  |2817  |-          |-    |-         |-                                                 |-               |-                             |2817  |
+#'  |2002  |2765  |-          |-    |-         |-                                                 |-               |-                             |2765  |
+#'  |2004  |2812  |-          |-    |-         |-                                                 |-               |-                             |2812  |
+#'  |2006  |4510  |-          |-    |-         |-                                                 |-               |-                             |4510  |
+#'  |2008  |671   |9          |1029 |5         |105                                               |69              |135                           |2023  |
+#'  |2010  |2044  |-          |-    |-         |-                                                 |-               |-                             |2044  |
+#'  |2012  |1974  |-          |-    |-         |-                                                 |-               |-                             |1974  |
+#'  |2014  |2538  |-          |-    |-         |-                                                 |-               |-                             |2538  |
+#'  |2016  |2867  |-          |-    |-         |-                                                 |-               |-                             |2867  |
+#'  |2018  |2348  |-          |-    |-         |-                                                 |-               |-                             |2348  |
+#'  |2021  |4032  |-          |-    |-         |-                                                 |-               |-                             |4032  |
+#'  |2022  |3544  |-          |-    |-         |-                                                 |-               |-                             |3544  |
+#'  |Total |71038 |9          |1029 |5         |105                                               |69              |135                           |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `0` no
+#'   * `1` yes, respondent
+#'   * `2` yes, someone respondent knows
+#'   * `3` yes, both respondent and someone respondent knows
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name done911a
+NULL
+
+#'  How effective r thinks developing emergency plans
+#' 
+#'  eff911a
+#' 
+#' Question How effective do you think developing emergency plans (evacuation, meeting places) is for people dealing with terrorism? Would you say 1, not at all effective, 5, extremely effective, or you may use any number in between?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |1 not at all effective |2   |3   |4   |5 extremely effective |don't know |no answer |Total |
+#'  |:-----|:-----|:----------------------|:---|:---|:---|:---------------------|:----------|:---------|:-----|
+#'  |1972  |1613  |-                      |-   |-   |-   |-                     |-          |-         |1613  |
+#'  |1973  |1504  |-                      |-   |-   |-   |-                     |-          |-         |1504  |
+#'  |1974  |1484  |-                      |-   |-   |-   |-                     |-          |-         |1484  |
+#'  |1975  |1490  |-                      |-   |-   |-   |-                     |-          |-         |1490  |
+#'  |1976  |1499  |-                      |-   |-   |-   |-                     |-          |-         |1499  |
+#'  |1977  |1530  |-                      |-   |-   |-   |-                     |-          |-         |1530  |
+#'  |1978  |1532  |-                      |-   |-   |-   |-                     |-          |-         |1532  |
+#'  |1980  |1468  |-                      |-   |-   |-   |-                     |-          |-         |1468  |
+#'  |1982  |1860  |-                      |-   |-   |-   |-                     |-          |-         |1860  |
+#'  |1983  |1599  |-                      |-   |-   |-   |-                     |-          |-         |1599  |
+#'  |1984  |1473  |-                      |-   |-   |-   |-                     |-          |-         |1473  |
+#'  |1985  |1534  |-                      |-   |-   |-   |-                     |-          |-         |1534  |
+#'  |1986  |1470  |-                      |-   |-   |-   |-                     |-          |-         |1470  |
+#'  |1987  |1819  |-                      |-   |-   |-   |-                     |-          |-         |1819  |
+#'  |1988  |1481  |-                      |-   |-   |-   |-                     |-          |-         |1481  |
+#'  |1989  |1537  |-                      |-   |-   |-   |-                     |-          |-         |1537  |
+#'  |1990  |1372  |-                      |-   |-   |-   |-                     |-          |-         |1372  |
+#'  |1991  |1517  |-                      |-   |-   |-   |-                     |-          |-         |1517  |
+#'  |1993  |1606  |-                      |-   |-   |-   |-                     |-          |-         |1606  |
+#'  |1994  |2992  |-                      |-   |-   |-   |-                     |-          |-         |2992  |
+#'  |1996  |2904  |-                      |-   |-   |-   |-                     |-          |-         |2904  |
+#'  |1998  |2832  |-                      |-   |-   |-   |-                     |-          |-         |2832  |
+#'  |2000  |2817  |-                      |-   |-   |-   |-                     |-          |-         |2817  |
+#'  |2002  |2765  |-                      |-   |-   |-   |-                     |-          |-         |2765  |
+#'  |2004  |2812  |-                      |-   |-   |-   |-                     |-          |-         |2812  |
+#'  |2006  |4510  |-                      |-   |-   |-   |-                     |-          |-         |4510  |
+#'  |2008  |671   |167                    |135 |430 |197 |351                   |67         |5         |2023  |
+#'  |2010  |2044  |-                      |-   |-   |-   |-                     |-          |-         |2044  |
+#'  |2012  |1974  |-                      |-   |-   |-   |-                     |-          |-         |1974  |
+#'  |2014  |2538  |-                      |-   |-   |-   |-                     |-          |-         |2538  |
+#'  |2016  |2867  |-                      |-   |-   |-   |-                     |-          |-         |2867  |
+#'  |2018  |2348  |-                      |-   |-   |-   |-                     |-          |-         |2348  |
+#'  |2021  |4032  |-                      |-   |-   |-   |-                     |-          |-         |4032  |
+#'  |2022  |3544  |-                      |-   |-   |-   |-                     |-          |-         |3544  |
+#'  |Total |71038 |167                    |135 |430 |197 |351                   |67         |5         |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` 1 not at all effective
+#'   * `2` 2
+#'   * `3` 3
+#'   * `4` 4
+#'   * `5` 5 extremely effective
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name eff911a
+NULL
+
+#'  Has r stockpiled supplies
+#' 
+#'  done911b
+#' 
+#' Question (Do you know anyone who has done any of the following things because of terrorism since September 11th, 2001?) Have you, or anyone you know stockpiled supplies (food, water, antibiotics, etc.)? FI PROBE: IF RESPONDENT ANSWERS "YES," ASK: Was this you, someone you know, or both yourself and someone you know?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no   |no answer |yes, both respondent and someone respondent knows |yes, respondent |yes, someone respondent knows |Total |
+#'  |:-----|:-----|:----------|:----|:---------|:-------------------------------------------------|:---------------|:-----------------------------|:-----|
+#'  |1972  |1613  |-          |-    |-         |-                                                 |-               |-                             |1613  |
+#'  |1973  |1504  |-          |-    |-         |-                                                 |-               |-                             |1504  |
+#'  |1974  |1484  |-          |-    |-         |-                                                 |-               |-                             |1484  |
+#'  |1975  |1490  |-          |-    |-         |-                                                 |-               |-                             |1490  |
+#'  |1976  |1499  |-          |-    |-         |-                                                 |-               |-                             |1499  |
+#'  |1977  |1530  |-          |-    |-         |-                                                 |-               |-                             |1530  |
+#'  |1978  |1532  |-          |-    |-         |-                                                 |-               |-                             |1532  |
+#'  |1980  |1468  |-          |-    |-         |-                                                 |-               |-                             |1468  |
+#'  |1982  |1860  |-          |-    |-         |-                                                 |-               |-                             |1860  |
+#'  |1983  |1599  |-          |-    |-         |-                                                 |-               |-                             |1599  |
+#'  |1984  |1473  |-          |-    |-         |-                                                 |-               |-                             |1473  |
+#'  |1985  |1534  |-          |-    |-         |-                                                 |-               |-                             |1534  |
+#'  |1986  |1470  |-          |-    |-         |-                                                 |-               |-                             |1470  |
+#'  |1987  |1819  |-          |-    |-         |-                                                 |-               |-                             |1819  |
+#'  |1988  |1481  |-          |-    |-         |-                                                 |-               |-                             |1481  |
+#'  |1989  |1537  |-          |-    |-         |-                                                 |-               |-                             |1537  |
+#'  |1990  |1372  |-          |-    |-         |-                                                 |-               |-                             |1372  |
+#'  |1991  |1517  |-          |-    |-         |-                                                 |-               |-                             |1517  |
+#'  |1993  |1606  |-          |-    |-         |-                                                 |-               |-                             |1606  |
+#'  |1994  |2992  |-          |-    |-         |-                                                 |-               |-                             |2992  |
+#'  |1996  |2904  |-          |-    |-         |-                                                 |-               |-                             |2904  |
+#'  |1998  |2832  |-          |-    |-         |-                                                 |-               |-                             |2832  |
+#'  |2000  |2817  |-          |-    |-         |-                                                 |-               |-                             |2817  |
+#'  |2002  |2765  |-          |-    |-         |-                                                 |-               |-                             |2765  |
+#'  |2004  |2812  |-          |-    |-         |-                                                 |-               |-                             |2812  |
+#'  |2006  |4510  |-          |-    |-         |-                                                 |-               |-                             |4510  |
+#'  |2008  |671   |6          |1050 |4         |72                                                |72              |148                           |2023  |
+#'  |2010  |2044  |-          |-    |-         |-                                                 |-               |-                             |2044  |
+#'  |2012  |1974  |-          |-    |-         |-                                                 |-               |-                             |1974  |
+#'  |2014  |2538  |-          |-    |-         |-                                                 |-               |-                             |2538  |
+#'  |2016  |2867  |-          |-    |-         |-                                                 |-               |-                             |2867  |
+#'  |2018  |2348  |-          |-    |-         |-                                                 |-               |-                             |2348  |
+#'  |2021  |4032  |-          |-    |-         |-                                                 |-               |-                             |4032  |
+#'  |2022  |3544  |-          |-    |-         |-                                                 |-               |-                             |3544  |
+#'  |Total |71038 |6          |1050 |4         |72                                                |72              |148                           |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `0` no
+#'   * `1` yes, respondent
+#'   * `2` yes, someone respondent knows
+#'   * `3` yes, both respondent and someone respondent knows
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name done911b
+NULL
+
+#'  How effective r thinks stockpiling supplies
+#' 
+#'  eff911b
+#' 
+#' Question How effective do you think stockpiling supplies (food, water, antibiotics, etc.) is for people dealing with terrorism? (Would you say 1, not at all effective, 5, extremely effective, or you may use any number in between?)
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |1 not at all effective |2   |3   |4   |5 extremely effective |don't know |no answer |Total |
+#'  |:-----|:-----|:----------------------|:---|:---|:---|:---------------------|:----------|:---------|:-----|
+#'  |1972  |1613  |-                      |-   |-   |-   |-                     |-          |-         |1613  |
+#'  |1973  |1504  |-                      |-   |-   |-   |-                     |-          |-         |1504  |
+#'  |1974  |1484  |-                      |-   |-   |-   |-                     |-          |-         |1484  |
+#'  |1975  |1490  |-                      |-   |-   |-   |-                     |-          |-         |1490  |
+#'  |1976  |1499  |-                      |-   |-   |-   |-                     |-          |-         |1499  |
+#'  |1977  |1530  |-                      |-   |-   |-   |-                     |-          |-         |1530  |
+#'  |1978  |1532  |-                      |-   |-   |-   |-                     |-          |-         |1532  |
+#'  |1980  |1468  |-                      |-   |-   |-   |-                     |-          |-         |1468  |
+#'  |1982  |1860  |-                      |-   |-   |-   |-                     |-          |-         |1860  |
+#'  |1983  |1599  |-                      |-   |-   |-   |-                     |-          |-         |1599  |
+#'  |1984  |1473  |-                      |-   |-   |-   |-                     |-          |-         |1473  |
+#'  |1985  |1534  |-                      |-   |-   |-   |-                     |-          |-         |1534  |
+#'  |1986  |1470  |-                      |-   |-   |-   |-                     |-          |-         |1470  |
+#'  |1987  |1819  |-                      |-   |-   |-   |-                     |-          |-         |1819  |
+#'  |1988  |1481  |-                      |-   |-   |-   |-                     |-          |-         |1481  |
+#'  |1989  |1537  |-                      |-   |-   |-   |-                     |-          |-         |1537  |
+#'  |1990  |1372  |-                      |-   |-   |-   |-                     |-          |-         |1372  |
+#'  |1991  |1517  |-                      |-   |-   |-   |-                     |-          |-         |1517  |
+#'  |1993  |1606  |-                      |-   |-   |-   |-                     |-          |-         |1606  |
+#'  |1994  |2992  |-                      |-   |-   |-   |-                     |-          |-         |2992  |
+#'  |1996  |2904  |-                      |-   |-   |-   |-                     |-          |-         |2904  |
+#'  |1998  |2832  |-                      |-   |-   |-   |-                     |-          |-         |2832  |
+#'  |2000  |2817  |-                      |-   |-   |-   |-                     |-          |-         |2817  |
+#'  |2002  |2765  |-                      |-   |-   |-   |-                     |-          |-         |2765  |
+#'  |2004  |2812  |-                      |-   |-   |-   |-                     |-          |-         |2812  |
+#'  |2006  |4510  |-                      |-   |-   |-   |-                     |-          |-         |4510  |
+#'  |2008  |671   |272                    |166 |401 |164 |275                   |69         |5         |2023  |
+#'  |2010  |2044  |-                      |-   |-   |-   |-                     |-          |-         |2044  |
+#'  |2012  |1974  |-                      |-   |-   |-   |-                     |-          |-         |1974  |
+#'  |2014  |2538  |-                      |-   |-   |-   |-                     |-          |-         |2538  |
+#'  |2016  |2867  |-                      |-   |-   |-   |-                     |-          |-         |2867  |
+#'  |2018  |2348  |-                      |-   |-   |-   |-                     |-          |-         |2348  |
+#'  |2021  |4032  |-                      |-   |-   |-   |-                     |-          |-         |4032  |
+#'  |2022  |3544  |-                      |-   |-   |-   |-                     |-          |-         |3544  |
+#'  |Total |71038 |272                    |166 |401 |164 |275                   |69         |5         |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` 1 not at all effective
+#'   * `2` 2
+#'   * `3` 3
+#'   * `4` 4
+#'   * `5` 5 extremely effective
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name eff911b
+NULL
+
+#'  Has r purchased things to make them safer
+#' 
+#'  done911c
+#' 
+#' Question (Do you know anyone who has done any of the following things because of terrorism since September 11th, 2001?) Have you, or anyone you know purchased things to make them safer (gas masks, duct tape, things to make their house safer, etc.)? FI PROBE: IF RESPONDENT ANSWERS "YES," ASK: Was this you, someone you know, or both yourself and someone you know?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no   |no answer |yes, both respondent and someone respondent knows |yes, respondent |yes, someone respondent knows |Total |
+#'  |:-----|:-----|:----------|:----|:---------|:-------------------------------------------------|:---------------|:-----------------------------|:-----|
+#'  |1972  |1613  |-          |-    |-         |-                                                 |-               |-                             |1613  |
+#'  |1973  |1504  |-          |-    |-         |-                                                 |-               |-                             |1504  |
+#'  |1974  |1484  |-          |-    |-         |-                                                 |-               |-                             |1484  |
+#'  |1975  |1490  |-          |-    |-         |-                                                 |-               |-                             |1490  |
+#'  |1976  |1499  |-          |-    |-         |-                                                 |-               |-                             |1499  |
+#'  |1977  |1530  |-          |-    |-         |-                                                 |-               |-                             |1530  |
+#'  |1978  |1532  |-          |-    |-         |-                                                 |-               |-                             |1532  |
+#'  |1980  |1468  |-          |-    |-         |-                                                 |-               |-                             |1468  |
+#'  |1982  |1860  |-          |-    |-         |-                                                 |-               |-                             |1860  |
+#'  |1983  |1599  |-          |-    |-         |-                                                 |-               |-                             |1599  |
+#'  |1984  |1473  |-          |-    |-         |-                                                 |-               |-                             |1473  |
+#'  |1985  |1534  |-          |-    |-         |-                                                 |-               |-                             |1534  |
+#'  |1986  |1470  |-          |-    |-         |-                                                 |-               |-                             |1470  |
+#'  |1987  |1819  |-          |-    |-         |-                                                 |-               |-                             |1819  |
+#'  |1988  |1481  |-          |-    |-         |-                                                 |-               |-                             |1481  |
+#'  |1989  |1537  |-          |-    |-         |-                                                 |-               |-                             |1537  |
+#'  |1990  |1372  |-          |-    |-         |-                                                 |-               |-                             |1372  |
+#'  |1991  |1517  |-          |-    |-         |-                                                 |-               |-                             |1517  |
+#'  |1993  |1606  |-          |-    |-         |-                                                 |-               |-                             |1606  |
+#'  |1994  |2992  |-          |-    |-         |-                                                 |-               |-                             |2992  |
+#'  |1996  |2904  |-          |-    |-         |-                                                 |-               |-                             |2904  |
+#'  |1998  |2832  |-          |-    |-         |-                                                 |-               |-                             |2832  |
+#'  |2000  |2817  |-          |-    |-         |-                                                 |-               |-                             |2817  |
+#'  |2002  |2765  |-          |-    |-         |-                                                 |-               |-                             |2765  |
+#'  |2004  |2812  |-          |-    |-         |-                                                 |-               |-                             |2812  |
+#'  |2006  |4510  |-          |-    |-         |-                                                 |-               |-                             |4510  |
+#'  |2008  |671   |7          |1157 |5         |47                                                |38              |98                            |2023  |
+#'  |2010  |2044  |-          |-    |-         |-                                                 |-               |-                             |2044  |
+#'  |2012  |1974  |-          |-    |-         |-                                                 |-               |-                             |1974  |
+#'  |2014  |2538  |-          |-    |-         |-                                                 |-               |-                             |2538  |
+#'  |2016  |2867  |-          |-    |-         |-                                                 |-               |-                             |2867  |
+#'  |2018  |2348  |-          |-    |-         |-                                                 |-               |-                             |2348  |
+#'  |2021  |4032  |-          |-    |-         |-                                                 |-               |-                             |4032  |
+#'  |2022  |3544  |-          |-    |-         |-                                                 |-               |-                             |3544  |
+#'  |Total |71038 |7          |1157 |5         |47                                                |38              |98                            |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `0` no
+#'   * `1` yes, respondent
+#'   * `2` yes, someone respondent knows
+#'   * `3` yes, both respondent and someone respondent knows
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name done911c
+NULL
+
+#'  How effective r thinks purchasing things to make them safer
+#' 
+#'  eff911c
+#' 
+#' Question How effective do you think purchasing things to make them safer (gas masks, duct tape, things to make their house safer, etc.) is for people dealing with terrorism? (Would you say 1, not at all effective, 5, extremely effective, or you may use any number in between?)
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |1 not at all effective |2   |3   |4   |5 extremely effective |don't know |no answer |Total |
+#'  |:-----|:-----|:----------------------|:---|:---|:---|:---------------------|:----------|:---------|:-----|
+#'  |1972  |1613  |-                      |-   |-   |-   |-                     |-          |-         |1613  |
+#'  |1973  |1504  |-                      |-   |-   |-   |-                     |-          |-         |1504  |
+#'  |1974  |1484  |-                      |-   |-   |-   |-                     |-          |-         |1484  |
+#'  |1975  |1490  |-                      |-   |-   |-   |-                     |-          |-         |1490  |
+#'  |1976  |1499  |-                      |-   |-   |-   |-                     |-          |-         |1499  |
+#'  |1977  |1530  |-                      |-   |-   |-   |-                     |-          |-         |1530  |
+#'  |1978  |1532  |-                      |-   |-   |-   |-                     |-          |-         |1532  |
+#'  |1980  |1468  |-                      |-   |-   |-   |-                     |-          |-         |1468  |
+#'  |1982  |1860  |-                      |-   |-   |-   |-                     |-          |-         |1860  |
+#'  |1983  |1599  |-                      |-   |-   |-   |-                     |-          |-         |1599  |
+#'  |1984  |1473  |-                      |-   |-   |-   |-                     |-          |-         |1473  |
+#'  |1985  |1534  |-                      |-   |-   |-   |-                     |-          |-         |1534  |
+#'  |1986  |1470  |-                      |-   |-   |-   |-                     |-          |-         |1470  |
+#'  |1987  |1819  |-                      |-   |-   |-   |-                     |-          |-         |1819  |
+#'  |1988  |1481  |-                      |-   |-   |-   |-                     |-          |-         |1481  |
+#'  |1989  |1537  |-                      |-   |-   |-   |-                     |-          |-         |1537  |
+#'  |1990  |1372  |-                      |-   |-   |-   |-                     |-          |-         |1372  |
+#'  |1991  |1517  |-                      |-   |-   |-   |-                     |-          |-         |1517  |
+#'  |1993  |1606  |-                      |-   |-   |-   |-                     |-          |-         |1606  |
+#'  |1994  |2992  |-                      |-   |-   |-   |-                     |-          |-         |2992  |
+#'  |1996  |2904  |-                      |-   |-   |-   |-                     |-          |-         |2904  |
+#'  |1998  |2832  |-                      |-   |-   |-   |-                     |-          |-         |2832  |
+#'  |2000  |2817  |-                      |-   |-   |-   |-                     |-          |-         |2817  |
+#'  |2002  |2765  |-                      |-   |-   |-   |-                     |-          |-         |2765  |
+#'  |2004  |2812  |-                      |-   |-   |-   |-                     |-          |-         |2812  |
+#'  |2006  |4510  |-                      |-   |-   |-   |-                     |-          |-         |4510  |
+#'  |2008  |671   |378                    |186 |373 |139 |202                   |69         |5         |2023  |
+#'  |2010  |2044  |-                      |-   |-   |-   |-                     |-          |-         |2044  |
+#'  |2012  |1974  |-                      |-   |-   |-   |-                     |-          |-         |1974  |
+#'  |2014  |2538  |-                      |-   |-   |-   |-                     |-          |-         |2538  |
+#'  |2016  |2867  |-                      |-   |-   |-   |-                     |-          |-         |2867  |
+#'  |2018  |2348  |-                      |-   |-   |-   |-                     |-          |-         |2348  |
+#'  |2021  |4032  |-                      |-   |-   |-   |-                     |-          |-         |4032  |
+#'  |2022  |3544  |-                      |-   |-   |-   |-                     |-          |-         |3544  |
+#'  |Total |71038 |378                    |186 |373 |139 |202                   |69         |5         |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `1` 1 not at all effective
+#'   * `2` 2
+#'   * `3` 3
+#'   * `4` 4
+#'   * `5` 5 extremely effective
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name eff911c
+NULL
+
+#'  Has r learned where to get more info about terrorism
+#' 
+#'  done911d
+#' 
+#' Question (Do you know anyone who has done any of the following things because of terrorism since September 11th, 2001?) Have you, or anyone you know learned where to get more information about terrorism? FI PROBE: IF RESPONDENT ANSWERS "YES," ASK: Was this you, someone you know, or both yourself and someone you know?
+#' 
+#' @section Overview: 
+#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no  |no answer |yes, both respondent and someone respondent knows |yes, respondent |yes, someone respondent knows |Total |
+#'  |:-----|:-----|:----------|:---|:---------|:-------------------------------------------------|:---------------|:-----------------------------|:-----|
+#'  |1972  |1613  |-          |-   |-         |-                                                 |-               |-                             |1613  |
+#'  |1973  |1504  |-          |-   |-         |-                                                 |-               |-                             |1504  |
+#'  |1974  |1484  |-          |-   |-         |-                                                 |-               |-                             |1484  |
+#'  |1975  |1490  |-          |-   |-         |-                                                 |-               |-                             |1490  |
+#'  |1976  |1499  |-          |-   |-         |-                                                 |-               |-                             |1499  |
+#'  |1977  |1530  |-          |-   |-         |-                                                 |-               |-                             |1530  |
+#'  |1978  |1532  |-          |-   |-         |-                                                 |-               |-                             |1532  |
+#'  |1980  |1468  |-          |-   |-         |-                                                 |-               |-                             |1468  |
+#'  |1982  |1860  |-          |-   |-         |-                                                 |-               |-                             |1860  |
+#'  |1983  |1599  |-          |-   |-         |-                                                 |-               |-                             |1599  |
+#'  |1984  |1473  |-          |-   |-         |-                                                 |-               |-                             |1473  |
+#'  |1985  |1534  |-          |-   |-         |-                                                 |-               |-                             |1534  |
+#'  |1986  |1470  |-          |-   |-         |-                                                 |-               |-                             |1470  |
+#'  |1987  |1819  |-          |-   |-         |-                                                 |-               |-                             |1819  |
+#'  |1988  |1481  |-          |-   |-         |-                                                 |-               |-                             |1481  |
+#'  |1989  |1537  |-          |-   |-         |-                                                 |-               |-                             |1537  |
+#'  |1990  |1372  |-          |-   |-         |-                                                 |-               |-                             |1372  |
+#'  |1991  |1517  |-          |-   |-         |-                                                 |-               |-                             |1517  |
+#'  |1993  |1606  |-          |-   |-         |-                                                 |-               |-                             |1606  |
+#'  |1994  |2992  |-          |-   |-         |-                                                 |-               |-                             |2992  |
+#'  |1996  |2904  |-          |-   |-         |-                                                 |-               |-                             |2904  |
+#'  |1998  |2832  |-          |-   |-         |-                                                 |-               |-                             |2832  |
+#'  |2000  |2817  |-          |-   |-         |-                                                 |-               |-                             |2817  |
+#'  |2002  |2765  |-          |-   |-         |-                                                 |-               |-                             |2765  |
+#'  |2004  |2812  |-          |-   |-         |-                                                 |-               |-                             |2812  |
+#'  |2006  |4510  |-          |-   |-         |-                                                 |-               |-                             |4510  |
+#'  |2008  |671   |13         |927 |5         |165                                               |164             |78                            |2023  |
+#'  |2010  |2044  |-          |-   |-         |-                                                 |-               |-                             |2044  |
+#'  |2012  |1974  |-          |-   |-         |-                                                 |-               |-                             |1974  |
+#'  |2014  |2538  |-          |-   |-         |-                                                 |-               |-                             |2538  |
+#'  |2016  |2867  |-          |-   |-         |-                                                 |-               |-                             |2867  |
+#'  |2018  |2348  |-          |-   |-         |-                                                 |-               |-                             |2348  |
+#'  |2021  |4032  |-          |-   |-         |-                                                 |-               |-                             |4032  |
+#'  |2022  |3544  |-          |-   |-         |-                                                 |-               |-                             |3544  |
+#'  |Total |71038 |13         |927 |5         |165                                               |164             |78                            |72390 |
+#' 
+#' @section Values: 
+#' 
+#'   * `0` no
+#'   * `1` yes, respondent
+#'   * `2` yes, someone respondent knows
+#'   * `3` yes, both respondent and someone respondent knows
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(q)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' @keywords variable
+#' @md
+#' @name done911d
+NULL
+
