@@ -6,7 +6,8 @@ authors:
 url: https://kjhealy.github.io/gssrdoc
 
 template:
-  package: preferably
+  bootstrap: 5
+  bootswatch: pulse
 
 reference:
   - title: "Objects"
