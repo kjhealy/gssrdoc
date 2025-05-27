@@ -6,6 +6,7 @@ authors:
 url: https://kjhealy.github.io/gssrdoc
 
 template:
+  bootstrap: 5
   bslib:
     base_font: {google: "IBM Plex Sans"}
     heading_font: {google: "IBM Plex Sans"}
