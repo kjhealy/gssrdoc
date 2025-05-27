@@ -17,7 +17,7 @@ Question When you and your (spouse/partner) make decisions about choosing shared
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab don't know \tab mostly me \tab mostly my {spousepartfill} \tab no answer \tab someone else \tab sometimes me/sometimes my {spousepartfill} \tab we decide together \tab not available in this year \tab Total \cr
+   year \tab iap \tab don't know \tab mostly me \tab mostly my spousepartfill \tab no answer \tab someone else \tab sometimes me/sometimes my spousepartfill \tab we decide together \tab not available in this year \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -61,8 +61,8 @@ Counts by year:\tabular{lllllllllll}{
 
 \itemize{
 \item \code{1} mostly me
-\item \code{2} mostly my {spousepartfill}
-\item \code{3} sometimes me/sometimes my {spousepartfill}
+\item \code{2} mostly my spousepartfill
+\item \code{3} sometimes me/sometimes my spousepartfill
 \item \code{4} we decide together
 \item \code{5} someone else
 \item \code{NA(d)} don't know

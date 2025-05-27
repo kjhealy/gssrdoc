@@ -17,7 +17,8 @@ Depends:
 Imports: 
     dplyr,
     rlang,
-    tidyr
+    tidyr,
+    utils
 Suggests:
     tibble
 RoxygenNote: 7.3.2

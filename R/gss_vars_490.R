@@ -9,7 +9,7 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap   |don't know |mostly me |mostly my {spousepartfill} |no answer |someone else |sometimes me/sometimes my {spousepartfill} |we decide together |not available in this year |Total |
+#'  |year  |iap   |don't know |mostly me |mostly my spousepartfill |no answer |someone else |sometimes me/sometimes my spousepartfill |we decide together |not available in this year |Total |
 #'  |:-----|:-----|:----------|:---------|:---------------------------|:---------|:------------|:-------------------------------------------|:------------------|:--------------------------|:-----|
 #'  |1972  |1613  |-          |-         |-                           |-         |-            |-                                           |-                  |-                          |1613  |
 #'  |1973  |1504  |-          |-         |-                           |-         |-            |-                                           |-                  |-                          |1504  |
@@ -51,8 +51,8 @@
 #' @section Values: 
 #' 
 #'   * `1` mostly me
-#'   * `2` mostly my {spousepartfill}
-#'   * `3` sometimes me/sometimes my {spousepartfill}
+#'   * `2` mostly my spousepartfill
+#'   * `3` sometimes me/sometimes my spousepartfill
 #'   * `4` we decide together
 #'   * `5` someone else
 #'   * `NA(d)` don't know
