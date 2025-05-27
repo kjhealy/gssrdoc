@@ -1,9 +1,9 @@
 # Run make_gss_all.R first
 # Make a version where all the NAs are explicit
 # We'll use this when making gss_doc
+library(tidyverse)
 
-
-load(here::here("data", "gss_all.rda"))
+load(here::here("data-raw", "from_gssr", "gss_all.rda"))
 
 # This is slow
 gss_all_labelled <- gss_all |>

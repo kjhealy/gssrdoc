@@ -17,7 +17,7 @@ Question 1346. About how many people work at the location where you work? (Count
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{llllllllllllll}{
-   year \tab iap \tab 1,000-1,999 \tab 1-9 \tab 10-49 \tab 100-499 \tab 2,000+ \tab 50-99 \tab 500-999 \tab don't know \tab no answer \tab skipped on web \tab 11 \tab Total \cr
+   year \tab iap \tab 1,000-1,999 \tab 1-9 \tab 10-49 \tab 100-499 \tab 2,000+ \tab 50-99 \tab 500-999 \tab don't know \tab no answer \tab skipped on web \tab not available in this release \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -51,8 +51,9 @@ Counts by year:\tabular{llllllllllllll}{
    2016 \tab 1141 \tab 62 \tab 432 \tab 407 \tab 318 \tab 174 \tab 195 \tab 98 \tab 19 \tab 21 \tab - \tab - \tab 2867 \cr
    2018 \tab 900 \tab 58 \tab 342 \tab 329 \tab 285 \tab 158 \tab 176 \tab 70 \tab 13 \tab 17 \tab - \tab - \tab 2348 \cr
    2021 \tab 1779 \tab 85 \tab 418 \tab 431 \tab 440 \tab 329 \tab 235 \tab 137 \tab 120 \tab 46 \tab 12 \tab - \tab 4032 \cr
-   2022 \tab 1503 \tab 71 \tab 470 \tab 454 \tab 357 \tab 234 \tab 232 \tab 110 \tab - \tab 7 \tab 4 \tab 102 \tab 3544 \cr
-   Total \tab 44970 \tab 1125 \tab 6864 \tab 6216 \tab 5184 \tab 2413 \tab 3189 \tab 1581 \tab 392 \tab 338 \tab 16 \tab 102 \tab 72390 \cr
+   2022 \tab 1503 \tab 71 \tab 470 \tab 454 \tab 357 \tab 234 \tab 232 \tab 110 \tab 102 \tab 7 \tab 4 \tab - \tab 3544 \cr
+   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
+   Total \tab 44970 \tab 1125 \tab 6864 \tab 6216 \tab 5184 \tab 2413 \tab 3189 \tab 1581 \tab 494 \tab 338 \tab 16 \tab 3309 \tab 75699 \cr
 }
 }
 
@@ -72,7 +73,6 @@ Counts by year:\tabular{llllllllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

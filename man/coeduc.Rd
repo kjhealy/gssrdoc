@@ -17,7 +17,7 @@ Question None
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{llllllllllllllllllllllll}{
-   year \tab iap \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 20 \tab 4 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab 3 \tab no formal schooling \tab 5 \tab Total \cr
+   year \tab iap \tab 1 year of college \tab 10th grade \tab 11th grade \tab 12th grade \tab 2 years of college \tab 3 years of college \tab 4 years of college \tab 4th grade \tab 5 years of college \tab 6 years of college \tab 6th grade \tab 7 years of college \tab 7th grade \tab 8 or more years of college \tab 8th grade \tab 9th grade \tab don't know \tab no answer \tab 3rd grade \tab no formal schooling \tab 5th grade \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -46,13 +46,14 @@ Counts by year:\tabular{llllllllllllllllllllllll}{
    2006 \tab 4510 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
    2008 \tab 2023 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
    2010 \tab 2044 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2044 \cr
-   2012 \tab 1806 \tab 11 \tab 13 \tab 55 \tab 8 \tab 16 \tab 4 \tab 22 \tab 3 \tab 4 \tab 2 \tab 2 \tab 1 \tab 4 \tab 2 \tab 3 \tab 4 \tab 14 \tab - \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab 2325 \tab 6 \tab 13 \tab 88 \tab 15 \tab 18 \tab 10 \tab 21 \tab 4 \tab 6 \tab 1 \tab - \tab 1 \tab 1 \tab 2 \tab 3 \tab 6 \tab 14 \tab 4 \tab - \tab - \tab - \tab 2538 \cr
-   2016 \tab 2603 \tab 9 \tab 16 \tab 100 \tab 24 \tab 22 \tab 8 \tab 30 \tab 10 \tab 4 \tab 4 \tab 8 \tab 1 \tab 4 \tab 1 \tab 4 \tab 8 \tab 7 \tab 3 \tab 1 \tab - \tab - \tab 2867 \cr
-   2018 \tab 2117 \tab 10 \tab 14 \tab 80 \tab 16 \tab 32 \tab 9 \tab 38 \tab 6 \tab 7 \tab 1 \tab 3 \tab - \tab 3 \tab 2 \tab 1 \tab 1 \tab 5 \tab 2 \tab - \tab 1 \tab - \tab 2348 \cr
-   2021 \tab 3660 \tab 7 \tab 11 \tab 119 \tab 22 \tab 46 \tab 15 \tab 69 \tab 7 \tab 15 \tab 4 \tab 10 \tab 3 \tab 2 \tab 2 \tab 3 \tab 6 \tab 11 \tab 18 \tab 1 \tab 1 \tab - \tab 4032 \cr
-   2022 \tab 3228 \tab 10 \tab 10 \tab 104 \tab 21 \tab 38 \tab 17 \tab 58 \tab 11 \tab 12 \tab 4 \tab 2 \tab - \tab 1 \tab 1 \tab 3 \tab 8 \tab - \tab 11 \tab 1 \tab 2 \tab 2 \tab 3544 \cr
-   Total \tab 70826 \tab 53 \tab 77 \tab 546 \tab 106 \tab 172 \tab 63 \tab 238 \tab 41 \tab 48 \tab 16 \tab 25 \tab 6 \tab 15 \tab 10 \tab 17 \tab 33 \tab 51 \tab 38 \tab 3 \tab 4 \tab 2 \tab 72390 \cr
+   2012 \tab 1806 \tab 8 \tab 11 \tab 13 \tab 55 \tab 16 \tab 4 \tab 22 \tab 1 \tab 3 \tab 4 \tab 4 \tab 2 \tab 2 \tab 2 \tab 3 \tab 4 \tab 14 \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 2325 \tab 15 \tab 6 \tab 13 \tab 88 \tab 18 \tab 10 \tab 21 \tab 1 \tab 4 \tab 6 \tab 1 \tab 1 \tab 2 \tab - \tab 3 \tab 6 \tab 14 \tab 4 \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 2603 \tab 24 \tab 9 \tab 16 \tab 100 \tab 22 \tab 8 \tab 30 \tab 1 \tab 10 \tab 4 \tab 4 \tab 4 \tab 1 \tab 8 \tab 4 \tab 8 \tab 7 \tab 3 \tab 1 \tab - \tab - \tab 2867 \cr
+   2018 \tab 2117 \tab 16 \tab 10 \tab 14 \tab 80 \tab 32 \tab 9 \tab 38 \tab - \tab 6 \tab 7 \tab 3 \tab 1 \tab 2 \tab 3 \tab 1 \tab 1 \tab 5 \tab 2 \tab - \tab 1 \tab - \tab 2348 \cr
+   2021 \tab 3660 \tab 22 \tab 7 \tab 11 \tab 119 \tab 46 \tab 15 \tab 69 \tab 3 \tab 7 \tab 15 \tab 2 \tab 4 \tab 2 \tab 10 \tab 3 \tab 6 \tab 11 \tab 18 \tab 1 \tab 1 \tab - \tab 4032 \cr
+   2022 \tab 3234 \tab 20 \tab 10 \tab 10 \tab 103 \tab 37 \tab 17 \tab 56 \tab - \tab 11 \tab 12 \tab 1 \tab 4 \tab 1 \tab 2 \tab 3 \tab 8 \tab 5 \tab 5 \tab 1 \tab 2 \tab 2 \tab 3544 \cr
+   2024 \tab 3049 \tab 21 \tab 12 \tab 7 \tab 89 \tab 27 \tab 8 \tab 51 \tab - \tab 7 \tab 12 \tab 3 \tab - \tab 1 \tab 6 \tab 2 \tab 4 \tab 9 \tab - \tab - \tab 1 \tab - \tab 3309 \cr
+   Total \tab 73881 \tab 126 \tab 65 \tab 84 \tab 634 \tab 198 \tab 71 \tab 287 \tab 6 \tab 48 \tab 60 \tab 18 \tab 16 \tab 11 \tab 31 \tab 19 \tab 37 \tab 65 \tab 32 \tab 3 \tab 5 \tab 2 \tab 75699 \cr
 }
 }
 
@@ -60,13 +61,32 @@ Counts by year:\tabular{llllllllllllllllllllllll}{
 
 \itemize{
 \item \code{0} no formal schooling
+\item \code{1} 1st grade
+\item \code{2} 2nd grade
+\item \code{3} 3rd grade
+\item \code{4} 4th grade
+\item \code{5} 5th grade
+\item \code{6} 6th grade
+\item \code{7} 7th grade
+\item \code{8} 8th grade
+\item \code{9} 9th grade
+\item \code{10} 10th grade
+\item \code{11} 11th grade
+\item \code{12} 12th grade
+\item \code{13} 1 year of college
+\item \code{14} 2 years of college
+\item \code{15} 3 years of college
+\item \code{16} 4 years of college
+\item \code{17} 5 years of college
+\item \code{18} 6 years of college
+\item \code{19} 7 years of college
+\item \code{20} 8 or more years of college
 \item \code{NA(d)} don't know
 \item \code{NA(i)} iap
 \item \code{NA(j)} I don't have a job
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

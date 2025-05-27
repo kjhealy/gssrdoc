@@ -17,7 +17,7 @@ Question 1630. Is respondent a visitor?
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{lllllll}{
-   year \tab iap \tab r is household member \tab r is visitor \tab no answer \tab not available in this release \tab Total \cr
+   year \tab iap \tab r is household member \tab r is visitor \tab no answer \tab not available in this year \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -50,9 +50,10 @@ Counts by year:\tabular{lllllll}{
    2014 \tab - \tab 2534 \tab 4 \tab - \tab - \tab 2538 \cr
    2016 \tab - \tab 2857 \tab 10 \tab - \tab - \tab 2867 \cr
    2018 \tab - \tab 2342 \tab 6 \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
-   2022 \tab 3544 \tab - \tab - \tab - \tab - \tab 3544 \cr
-   Total \tab 8900 \tab 59343 \tab 110 \tab 5 \tab 4032 \tab 72390 \cr
+   2021 \tab - \tab 4032 \tab - \tab - \tab - \tab 4032 \cr
+   2022 \tab - \tab 3535 \tab 9 \tab - \tab - \tab 3544 \cr
+   2024 \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
+   Total \tab 5356 \tab 66910 \tab 119 \tab 5 \tab 3309 \tab 75699 \cr
 }
 }
 
@@ -67,7 +68,6 @@ Counts by year:\tabular{lllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

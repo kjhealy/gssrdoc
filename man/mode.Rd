@@ -17,7 +17,7 @@ Question WAS THIS CASE COMPLETED IN-PERSON OR OVER THE PHONE?
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab by phone \tab in-person \tab don't know \tab no answer \tab web \tab combination in-person/phone \tab Total \cr
+   year \tab iap \tab by phone \tab in-person \tab don't know \tab no answer \tab web \tab multimode \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -52,7 +52,8 @@ Counts by year:\tabular{lllllllll}{
    2018 \tab - \tab 245 \tab 2094 \tab - \tab 9 \tab - \tab - \tab 2348 \cr
    2021 \tab - \tab 471 \tab - \tab - \tab - \tab 3561 \tab - \tab 4032 \cr
    2022 \tab - \tab 206 \tab 1573 \tab - \tab - \tab 1636 \tab 129 \tab 3544 \cr
-   Total \tab 43698 \tab 3058 \tab 20273 \tab 1 \tab 34 \tab 5197 \tab 129 \tab 72390 \cr
+   2024 \tab - \tab 254 \tab 1174 \tab - \tab - \tab 1762 \tab 119 \tab 3309 \cr
+   Total \tab 43698 \tab 3312 \tab 21447 \tab 1 \tab 34 \tab 6959 \tab 248 \tab 75699 \cr
 }
 }
 
@@ -61,7 +62,7 @@ Counts by year:\tabular{lllllllll}{
 \itemize{
 \item \code{1} in-person
 \item \code{2} by phone
-\item \code{3} combination in-person/phone
+\item \code{3} multimode
 \item \code{4} web
 \item \code{NA(d)} don't know
 \item \code{NA(i)} iap
@@ -69,7 +70,6 @@ Counts by year:\tabular{lllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

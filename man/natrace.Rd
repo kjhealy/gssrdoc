@@ -2,7 +2,7 @@
 % Please edit documentation in R/gss_vars_24.R
 \name{natrace}
 \alias{natrace}
-\title{Improving the conditions of blacks}
+\title{Improving the conditions of black people}
 \source{
 General Social Survey https://gss.norc.org
 }
@@ -52,7 +52,8 @@ Counts by year:\tabular{lllllllll}{
    2018 \tab 1160 \tab 386 \tab 100 \tab 10 \tab 605 \tab 87 \tab - \tab 2348 \cr
    2021 \tab 2045 \tab 596 \tab 12 \tab 2 \tab 1020 \tab 343 \tab 14 \tab 4032 \cr
    2022 \tab 1764 \tab 515 \tab 76 \tab 10 \tab 941 \tab 229 \tab 9 \tab 3544 \cr
-   Total \tab 31471 \tab 16275 \tab 3201 \tab 240 \tab 14102 \tab 7078 \tab 23 \tab 72390 \cr
+   2024 \tab 1626 \tab 572 \tab 77 \tab 6 \tab 807 \tab 212 \tab 9 \tab 3309 \cr
+   Total \tab 33097 \tab 16847 \tab 3278 \tab 246 \tab 14909 \tab 7290 \tab 32 \tab 75699 \cr
 }
 }
 
@@ -68,7 +69,6 @@ Counts by year:\tabular{lllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

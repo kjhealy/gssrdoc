@@ -50,9 +50,10 @@ Counts by year:\tabular{lllllll}{
    2014 \tab 2536 \tab 1 \tab 1 \tab - \tab - \tab 2538 \cr
    2016 \tab 2865 \tab 1 \tab 1 \tab - \tab - \tab 2867 \cr
    2018 \tab 2348 \tab - \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
+   2021 \tab 4027 \tab 2 \tab 3 \tab - \tab - \tab 4032 \cr
    2022 \tab 3543 \tab - \tab 1 \tab - \tab - \tab 3544 \cr
-   Total \tab 68310 \tab 22 \tab 22 \tab 4 \tab 4032 \tab 72390 \cr
+   2024 \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
+   Total \tab 72337 \tab 24 \tab 25 \tab 4 \tab 3309 \tab 75699 \cr
 }
 }
 
@@ -61,13 +62,13 @@ Counts by year:\tabular{lllllll}{
 \itemize{
 \item \code{1} male
 \item \code{2} female
+\item \code{3} other
 \item \code{NA(d)} don't know
 \item \code{NA(i)} iap
 \item \code{NA(j)} I don't have a job
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

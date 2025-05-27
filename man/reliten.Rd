@@ -51,8 +51,9 @@ Counts by year:\tabular{llllllllll}{
    2016 \tab 3 \tab 4 \tab 23 \tab 619 \tab 1015 \tab 155 \tab 1048 \tab - \tab 2867 \cr
    2018 \tab 5 \tab 7 \tab 22 \tab 542 \tab 869 \tab 101 \tab 802 \tab - \tab 2348 \cr
    2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
-   2022 \tab 2188 \tab 22 \tab 3 \tab - \tab 560 \tab 171 \tab 600 \tab - \tab 3544 \cr
-   Total \tab 5322 \tab 358 \tab 1592 \tab 7629 \tab 24298 \tab 5907 \tab 23252 \tab 4032 \tab 72390 \cr
+   2022 \tab 1731 \tab 22 \tab 33 \tab 427 \tab 560 \tab 171 \tab 600 \tab - \tab 3544 \cr
+   2024 \tab 1853 \tab 22 \tab 15 \tab 289 \tab 427 \tab 173 \tab 530 \tab - \tab 3309 \cr
+   Total \tab 6718 \tab 380 \tab 1637 \tab 8345 \tab 24725 \tab 6080 \tab 23782 \tab 4032 \tab 75699 \cr
 }
 }
 
@@ -69,7 +70,6 @@ Counts by year:\tabular{llllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

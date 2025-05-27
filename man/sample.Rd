@@ -25,13 +25,16 @@ Question 1664. The GSS has employed various sampling procedures and frames.
 \item \code{8} 1990 sample frame, full probability
 \item \code{9} 2000 sample frame, full probability
 \item \code{10} 2010 sample frame, full probability
+\item \code{11} 2020 address based sample, full probability
+\item \code{12} 2022 amerispeak frame, full probability black/hispanic/aanhpi oversample
+\item \code{13} 2020 sample frame, full probability
+\item \code{14} 2024 amerispeak frame, full probability black/hispanic/aanhpi oversample
 \item \code{NA(d)} don't know
 \item \code{NA(i)} iap
 \item \code{NA(j)} I don't have a job
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

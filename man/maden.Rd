@@ -16,43 +16,44 @@ Question 359a. If Protestant: What specific denomination is that, if any?
 
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
-Counts by year:\tabular{lllllllllllllllllllllllllllll}{
-   year \tab iap \tab afr meth ep zion \tab afr meth episcopal \tab am bapt ch in usa \tab am baptist asso \tab am lutheran \tab baptist-dk which \tab episcopal \tab luth ch in america \tab lutheran-dk which \tab lutheran-mo synod \tab methodist-dk which \tab nat bapt conv of am \tab nat bapt conv usa \tab no answer \tab no denomination \tab other \tab other baptists \tab other lutheran \tab other methodist \tab other presbyterian \tab presbyterian c in us \tab presbyterian-dk wh \tab southern baptist \tab united methodist \tab united pres ch in us \tab wi evan luth synod \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab 1470 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab 1819 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 566 \tab 2 \tab 9 \tab 9 \tab 25 \tab 21 \tab 98 \tab 31 \tab 12 \tab 33 \tab 19 \tab 43 \tab 2 \tab 6 \tab 8 \tab 34 \tab 161 \tab 35 \tab 7 \tab 9 \tab 7 \tab 14 \tab 30 \tab 163 \tab 116 \tab 18 \tab 3 \tab 1481 \cr
-   1989 \tab 1537 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1537 \cr
-   1990 \tab 1372 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1372 \cr
-   1991 \tab 1517 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
-   1993 \tab 1606 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab 2992 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2992 \cr
-   1996 \tab 2904 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
-   1998 \tab 2832 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2832 \cr
-   2000 \tab 2817 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
-   2002 \tab 2765 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab 2812 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
-   2006 \tab 4510 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
-   2008 \tab 2023 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
-   2010 \tab 2044 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2044 \cr
-   2012 \tab 1974 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab 2538 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
-   2016 \tab 2867 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
-   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab 4032 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \cr
-   2022 \tab 3544 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
-   Total \tab 71475 \tab 2 \tab 9 \tab 9 \tab 25 \tab 21 \tab 98 \tab 31 \tab 12 \tab 33 \tab 19 \tab 43 \tab 2 \tab 6 \tab 8 \tab 34 \tab 161 \tab 35 \tab 7 \tab 9 \tab 7 \tab 14 \tab 30 \tab 163 \tab 116 \tab 18 \tab 3 \tab 72390 \cr
+Counts by year:\tabular{llllllllllllllllllllllllllllll}{
+   year \tab iap \tab afr meth ep zion \tab afr meth episcopal \tab am bapt ch in usa \tab am baptist asso \tab am lutheran \tab baptist-dk which \tab episcopal \tab luth ch in america \tab lutheran-dk which \tab lutheran-mo synod \tab methodist-dk which \tab nat bapt conv of am \tab nat bapt conv usa \tab no answer \tab no denomination \tab other \tab other baptists \tab other lutheran \tab other methodist \tab other presbyterian \tab presbyterian c in us \tab presbyterian-dk wh \tab southern baptist \tab united methodist \tab united pres ch in us \tab wi evan luth synod \tab not available in this year \tab Total \cr
+   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
+   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
+   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
+   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
+   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
+   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
+   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
+   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
+   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
+   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
+   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
+   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
+   1986 \tab 1470 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
+   1987 \tab 1819 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
+   1988 \tab 566 \tab 2 \tab 9 \tab 9 \tab 25 \tab 21 \tab 98 \tab 31 \tab 12 \tab 33 \tab 19 \tab 43 \tab 2 \tab 6 \tab 8 \tab 34 \tab 161 \tab 35 \tab 7 \tab 9 \tab 7 \tab 14 \tab 30 \tab 163 \tab 116 \tab 18 \tab 3 \tab - \tab 1481 \cr
+   1989 \tab 1537 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1537 \cr
+   1990 \tab 1372 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1372 \cr
+   1991 \tab 1517 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
+   1993 \tab 1606 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
+   1994 \tab 2992 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2992 \cr
+   1996 \tab 2904 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
+   1998 \tab 2832 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2832 \cr
+   2000 \tab 2817 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 2765 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab 2812 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
+   2006 \tab 4510 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
+   2008 \tab 2023 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
+   2010 \tab 2044 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2044 \cr
+   2012 \tab 1974 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 2538 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 2867 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab 4032 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \cr
+   2022 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab 3544 \cr
+   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
+   Total \tab 67931 \tab 2 \tab 9 \tab 9 \tab 25 \tab 21 \tab 98 \tab 31 \tab 12 \tab 33 \tab 19 \tab 43 \tab 2 \tab 6 \tab 8 \tab 34 \tab 161 \tab 35 \tab 7 \tab 9 \tab 7 \tab 14 \tab 30 \tab 163 \tab 116 \tab 18 \tab 3 \tab 6853 \tab 75699 \cr
 }
 }
 
@@ -91,7 +92,6 @@ Counts by year:\tabular{lllllllllllllllllllllllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

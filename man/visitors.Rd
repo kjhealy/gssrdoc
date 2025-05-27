@@ -17,7 +17,7 @@ Question 1631. Number of visitors in household.
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab 1 visitor \tab 2 visitors \tab 4 visitors \tab no visitors \tab 3 visitors \tab not available in this release \tab Total \cr
+   year \tab iap \tab 1 visitor \tab 2 visitors \tab 4 visitors \tab no visitors \tab 3 visitors \tab not available in this year \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -50,9 +50,10 @@ Counts by year:\tabular{lllllllll}{
    2014 \tab - \tab 15 \tab 1 \tab - \tab 2520 \tab 2 \tab - \tab 2538 \cr
    2016 \tab - \tab 23 \tab 3 \tab 1 \tab 2839 \tab 1 \tab - \tab 2867 \cr
    2018 \tab - \tab 27 \tab 5 \tab - \tab 2316 \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
-   2022 \tab 3544 \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
-   Total \tab 8900 \tab 461 \tab 123 \tab 18 \tab 58829 \tab 27 \tab 4032 \tab 72390 \cr
+   2021 \tab - \tab 105 \tab 17 \tab 2 \tab 3905 \tab 3 \tab - \tab 4032 \cr
+   2022 \tab - \tab 33 \tab 2 \tab 1 \tab 3508 \tab - \tab - \tab 3544 \cr
+   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
+   Total \tab 5356 \tab 599 \tab 142 \tab 21 \tab 66242 \tab 30 \tab 3309 \tab 75699 \cr
 }
 }
 
@@ -70,7 +71,6 @@ Counts by year:\tabular{lllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

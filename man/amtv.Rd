@@ -16,43 +16,44 @@ Question Now we would like to ask a few questions about relations between Americ
 
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab agree \tab agree strongly \tab can't choose \tab disagree \tab disagree strongly \tab neither agree nor disagree \tab no answer \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab 1470 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab 1819 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 1481 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1481 \cr
-   1989 \tab 1537 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1537 \cr
-   1990 \tab 1372 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1372 \cr
-   1991 \tab 1517 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
-   1993 \tab 1606 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab 2992 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2992 \cr
-   1996 \tab 1537 \tab 359 \tab 124 \tab 45 \tab 317 \tab 77 \tab 421 \tab 24 \tab 2904 \cr
-   1998 \tab 2832 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2832 \cr
-   2000 \tab 2817 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
-   2002 \tab 2765 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab 1596 \tab 292 \tab 105 \tab 27 \tab 362 \tab 79 \tab 350 \tab 1 \tab 2812 \cr
-   2006 \tab 4510 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
-   2008 \tab 2023 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
-   2010 \tab 2044 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2044 \cr
-   2012 \tab 1974 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab 1264 \tab 286 \tab 70 \tab 55 \tab 379 \tab 110 \tab 370 \tab 4 \tab 2538 \cr
-   2016 \tab 2867 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
-   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab 4032 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \cr
-   2022 \tab 3544 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
-   Total \tab 68533 \tab 937 \tab 299 \tab 127 \tab 1058 \tab 266 \tab 1141 \tab 29 \tab 72390 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab agree \tab agree strongly \tab can't choose \tab disagree \tab disagree strongly \tab neither agree nor disagree \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
+   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
+   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
+   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
+   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
+   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
+   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
+   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
+   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
+   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
+   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
+   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
+   1986 \tab 1470 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
+   1987 \tab 1819 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
+   1988 \tab 1481 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1481 \cr
+   1989 \tab 1537 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1537 \cr
+   1990 \tab 1372 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1372 \cr
+   1991 \tab 1517 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
+   1993 \tab 1606 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
+   1994 \tab 2992 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2992 \cr
+   1996 \tab 1537 \tab 359 \tab 124 \tab 45 \tab 317 \tab 77 \tab 421 \tab 24 \tab - \tab - \tab 2904 \cr
+   1998 \tab 2832 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2832 \cr
+   2000 \tab 2817 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 2765 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab 1596 \tab 292 \tab 105 \tab 27 \tab 362 \tab 79 \tab 350 \tab 1 \tab - \tab - \tab 2812 \cr
+   2006 \tab 4510 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
+   2008 \tab 2023 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
+   2010 \tab 2044 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2044 \cr
+   2012 \tab 1974 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 1264 \tab 286 \tab 70 \tab 55 \tab 379 \tab 110 \tab 370 \tab 4 \tab - \tab - \tab 2538 \cr
+   2016 \tab 2867 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab 4032 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \cr
+   2022 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab - \tab 3544 \cr
+   2024 \tab 1663 \tab 309 \tab 95 \tab 99 \tab 446 \tab 137 \tab 538 \tab 3 \tab - \tab 19 \tab 3309 \cr
+   Total \tab 66652 \tab 1246 \tab 394 \tab 226 \tab 1504 \tab 403 \tab 1679 \tab 32 \tab 3544 \tab 19 \tab 75699 \cr
 }
 }
 
@@ -70,7 +71,6 @@ Counts by year:\tabular{llllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

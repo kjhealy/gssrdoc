@@ -17,7 +17,7 @@ Question 34b. Number of members 6 to 12 years.
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{llllllllllllll}{
-   year \tab 0 household members between 6 to 12 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 8 or more \tab no answer \tab not available in this release \tab iap \tab skipped on web \tab Total \cr
+   year \tab 0 household members between 6 to 12 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 8 or more \tab no answer \tab skipped on web \tab iap \tab not available in this release \tab Total \cr
    1972 \tab 1159 \tab 252 \tab 135 \tab 47 \tab 14 \tab 4 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1101 \tab 212 \tab 124 \tab 47 \tab 19 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1066 \tab 224 \tab 137 \tab 49 \tab 1 \tab 5 \tab - \tab - \tab 2 \tab - \tab - \tab - \tab 1484 \cr
@@ -50,9 +50,10 @@ Counts by year:\tabular{llllllllllllll}{
    2014 \tab 2220 \tab 195 \tab 93 \tab 24 \tab 2 \tab - \tab - \tab - \tab 4 \tab - \tab - \tab - \tab 2538 \cr
    2016 \tab 2497 \tab 229 \tab 86 \tab 23 \tab 6 \tab - \tab - \tab - \tab 26 \tab - \tab - \tab - \tab 2867 \cr
    2018 \tab 2047 \tab 183 \tab 72 \tab 12 \tab 5 \tab - \tab - \tab - \tab 29 \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab - \tab - \tab 4032 \cr
-   2022 \tab 1545 \tab 137 \tab 67 \tab 16 \tab 3 \tab - \tab - \tab - \tab 8 \tab - \tab 1764 \tab 4 \tab 3544 \cr
-   Total \tab 53852 \tab 7729 \tab 3580 \tab 820 \tab 158 \tab 31 \tab 9 \tab 2 \tab 409 \tab 4032 \tab 1764 \tab 4 \tab 72390 \cr
+   2021 \tab 3544 \tab 313 \tab 131 \tab 38 \tab 3 \tab - \tab - \tab - \tab - \tab 3 \tab - \tab - \tab 4032 \cr
+   2022 \tab 1544 \tab 138 \tab 67 \tab 16 \tab 3 \tab - \tab - \tab - \tab 8 \tab 4 \tab 1764 \tab - \tab 3544 \cr
+   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
+   Total \tab 57395 \tab 8043 \tab 3711 \tab 858 \tab 161 \tab 31 \tab 9 \tab 2 \tab 409 \tab 7 \tab 1764 \tab 3309 \tab 75699 \cr
 }
 }
 
@@ -67,7 +68,6 @@ Counts by year:\tabular{llllllllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

@@ -2,7 +2,7 @@
 % Please edit documentation in R/gss_vars_611.R
 \name{kish}
 \alias{kish}
-\title{NA}
+\title{Kish}
 \source{
 General Social Survey https://gss.norc.org
 }
@@ -21,7 +21,6 @@ Question None
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

@@ -17,7 +17,7 @@ Question 1629. Respondent's relationship to household head.
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{llllllllllllll}{
-   year \tab not available in this year \tab child (natural, adopted, step) \tab head of household \tab no answer \tab non-relative \tab other relative \tab parent/parent-in-law \tab son-/daughter-in-law \tab spouse \tab grand/great-grandchild \tab not available in this release \tab iap \tab Total \cr
+   year \tab not available in this year \tab child (natural, adopted, step) \tab head of household \tab no answer \tab non-relative \tab other relative \tab parent/parent-in-law \tab son-/daughter-in-law \tab spouse \tab grand/great-grandchild \tab iap \tab skipped on web \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -50,9 +50,10 @@ Counts by year:\tabular{llllllllllllll}{
    2014 \tab - \tab 180 \tab 1718 \tab 1 \tab 100 \tab 54 \tab 3 \tab 1 \tab 478 \tab 3 \tab - \tab - \tab 2538 \cr
    2016 \tab - \tab 198 \tab 1952 \tab 2 \tab 104 \tab 80 \tab 8 \tab - \tab 519 \tab 4 \tab - \tab - \tab 2867 \cr
    2018 \tab - \tab 161 \tab 1596 \tab 2 \tab 113 \tab 23 \tab 20 \tab 13 \tab 414 \tab 6 \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab - \tab 4032 \cr
-   2022 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab 3544 \cr
-   Total \tab 4601 \tab 3422 \tab 37853 \tab 1821 \tab 2061 \tab 678 \tab 232 \tab 87 \tab 13949 \tab 110 \tab 4032 \tab 3544 \tab 72390 \cr
+   2021 \tab - \tab 133 \tab 3076 \tab 202 \tab 150 \tab 25 \tab 17 \tab 2 \tab 394 \tab 8 \tab 10 \tab 15 \tab 4032 \cr
+   2022 \tab - \tab 92 \tab 1361 \tab 19 \tab 79 \tab 20 \tab 14 \tab 6 \tab 184 \tab 3 \tab 1764 \tab 2 \tab 3544 \cr
+   2024 \tab 3309 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \cr
+   Total \tab 7910 \tab 3647 \tab 42290 \tab 2042 \tab 2290 \tab 723 \tab 263 \tab 95 \tab 14527 \tab 121 \tab 1774 \tab 17 \tab 75699 \cr
 }
 }
 
@@ -73,7 +74,6 @@ Counts by year:\tabular{llllllllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

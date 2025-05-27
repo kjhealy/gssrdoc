@@ -17,7 +17,7 @@ Question 1609. DWELLING TYPE.
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{llllllllllllllll}{
-   year \tab iap \tab 2-family house, 2 units one above the other \tab 2-family house, 2 units side-by-side \tab apartment house (5 or more units, 3 stories or less) \tab apartment house (5 or more units, 4 stories or more) \tab apartment in a partly commercial structure \tab detached 3-4 family house \tab detached single family house \tab no answer \tab other \tab row house (3 or more units in an attached row) \tab trailer \tab don't know \tab not available in this release \tab Total \cr
+   year \tab iap \tab 2-family house, 2 units one above the other \tab 2-family house, 2 units side-by-side \tab apartment house (5 or more units, 3 stories or less) \tab apartment house (5 or more units, 4 stories or more) \tab apartment in a partly commercial structure \tab detached 3-4 family house \tab detached single family house \tab no answer \tab other \tab row house (3 or more units in an attached row) \tab trailer \tab don't know \tab not available in this year \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -52,7 +52,8 @@ Counts by year:\tabular{llllllllllllllll}{
    2018 \tab - \tab 26 \tab 87 \tab 307 \tab 98 \tab 7 \tab 32 \tab 1519 \tab 1 \tab 6 \tab 127 \tab 138 \tab - \tab - \tab 2348 \cr
    2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
    2022 \tab 1642 \tab 23 \tab 58 \tab 278 \tab 99 \tab 10 \tab 18 \tab 1069 \tab - \tab 26 \tab 90 \tab 113 \tab 118 \tab - \tab 3544 \cr
-   Total \tab 13762 \tab 1272 \tab 1936 \tab 6849 \tab 2261 \tab 284 \tab 998 \tab 33556 \tab 344 \tab 550 \tab 2572 \tab 3417 \tab 557 \tab 4032 \tab 72390 \cr
+   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
+   Total \tab 13762 \tab 1272 \tab 1936 \tab 6849 \tab 2261 \tab 284 \tab 998 \tab 33556 \tab 344 \tab 550 \tab 2572 \tab 3417 \tab 557 \tab 7341 \tab 75699 \cr
 }
 }
 
@@ -75,7 +76,6 @@ Counts by year:\tabular{llllllllllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

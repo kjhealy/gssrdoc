@@ -17,7 +17,7 @@ Question Was that a diploma awarded by your high school at graduation at the end
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab ged \tab high school diploma \tab high school diploma after post high school class \tab no answer \tab other \tab don't know \tab skipped on web \tab 7 \tab Total \cr
+   year \tab iap \tab ged \tab high school diploma \tab high school diploma after post high school class \tab no answer \tab other \tab don't know \tab skipped on web \tab not available in this release \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -51,8 +51,9 @@ Counts by year:\tabular{lllllllllll}{
    2016 \tab 328 \tab 245 \tab 2237 \tab - \tab 15 \tab 41 \tab 1 \tab - \tab - \tab 2867 \cr
    2018 \tab 262 \tab 183 \tab 1891 \tab 3 \tab 6 \tab 3 \tab - \tab - \tab - \tab 2348 \cr
    2021 \tab 269 \tab 306 \tab 3396 \tab 9 \tab 24 \tab 13 \tab 8 \tab 7 \tab - \tab 4032 \cr
-   2022 \tab 359 \tab 276 \tab 2858 \tab 3 \tab 13 \tab 29 \tab 1 \tab 3 \tab 2 \tab 3544 \cr
-   Total \tab 56923 \tab 1339 \tab 13915 \tab 21 \tab 66 \tab 103 \tab 11 \tab 10 \tab 2 \tab 72390 \cr
+   2022 \tab 359 \tab 276 \tab 2858 \tab 3 \tab 13 \tab 29 \tab 3 \tab 3 \tab - \tab 3544 \cr
+   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
+   Total \tab 56923 \tab 1339 \tab 13915 \tab 21 \tab 66 \tab 103 \tab 13 \tab 10 \tab 3309 \tab 75699 \cr
 }
 }
 
@@ -69,7 +70,6 @@ Counts by year:\tabular{lllllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

@@ -17,7 +17,7 @@ Question None
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{lll}{
-   year \tab 7222.21 \tab Total \cr
+   year \tab 7224.1 \tab Total \cr
    1972 \tab 1613 \tab 1613 \cr
    1973 \tab 1504 \tab 1504 \cr
    1974 \tab 1484 \tab 1484 \cr
@@ -52,7 +52,8 @@ Counts by year:\tabular{lll}{
    2018 \tab 2348 \tab 2348 \cr
    2021 \tab 4032 \tab 4032 \cr
    2022 \tab 3544 \tab 3544 \cr
-   Total \tab 72390 \tab 72390 \cr
+   2024 \tab 3309 \tab 3309 \cr
+   Total \tab 75699 \tab 75699 \cr
 }
 }
 
@@ -65,7 +66,6 @@ Counts by year:\tabular{lll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

@@ -17,7 +17,7 @@ Question Do you (does your (SPOUSE or PARTNER) have a supervisor on (your/his/he
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab skipped on web \tab 6 \tab Total \cr
+   year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab skipped on web \tab not available in this release \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -51,8 +51,9 @@ Counts by year:\tabular{lllllllll}{
    2016 \tab 914 \tab 5 \tab 359 \tab 1 \tab 1588 \tab - \tab - \tab 2867 \cr
    2018 \tab 693 \tab 5 \tab 293 \tab 1 \tab 1356 \tab - \tab - \tab 2348 \cr
    2021 \tab 1419 \tab 40 \tab 434 \tab 1 \tab 2132 \tab 6 \tab - \tab 4032 \cr
-   2022 \tab 1203 \tab - \tab 398 \tab 6 \tab 1910 \tab 5 \tab 22 \tab 3544 \cr
-   Total \tab 63828 \tab 50 \tab 1484 \tab 9 \tab 6986 \tab 11 \tab 22 \tab 72390 \cr
+   2022 \tab 1203 \tab 22 \tab 398 \tab 6 \tab 1910 \tab 5 \tab - \tab 3544 \cr
+   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
+   Total \tab 63828 \tab 72 \tab 1484 \tab 9 \tab 6986 \tab 11 \tab 3309 \tab 75699 \cr
 }
 }
 
@@ -67,7 +68,6 @@ Counts by year:\tabular{lllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

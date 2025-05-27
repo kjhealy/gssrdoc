@@ -52,7 +52,8 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllll}{
    2018 \tab 899 \tab 32 \tab 48 \tab 43 \tab 46 \tab 32 \tab 25 \tab 14 \tab 36 \tab 48 \tab 61 \tab 46 \tab 73 \tab 32 \tab 96 \tab 81 \tab 21 \tab 136 \tab 21 \tab 114 \tab 12 \tab 114 \tab 18 \tab 81 \tab 33 \tab 67 \tab 26 \tab 60 \tab 33 \tab - \tab 2348 \cr
    2021 \tab 1307 \tab 52 \tab 88 \tab 96 \tab 61 \tab 54 \tab 57 \tab 49 \tab 62 \tab 129 \tab 73 \tab 74 \tab 124 \tab 28 \tab 148 \tab 122 \tab 24 \tab 220 \tab 32 \tab 203 \tab 27 \tab 267 \tab 30 \tab 191 \tab 43 \tab 166 \tab 161 \tab 63 \tab 36 \tab 45 \tab 4032 \cr
    2022 \tab 1308 \tab 35 \tab 70 \tab 79 \tab 43 \tab 56 \tab 49 \tab 32 \tab 42 \tab 115 \tab 78 \tab 62 \tab 93 \tab 29 \tab 123 \tab 108 \tab 20 \tab 161 \tab 26 \tab 188 \tab 17 \tab 205 \tab 20 \tab 146 \tab 52 \tab 118 \tab 111 \tab 113 \tab 23 \tab 22 \tab 3544 \cr
-   Total \tab 64249 \tab 170 \tab 257 \tab 254 \tab 195 \tab 163 \tab 191 \tab 109 \tab 192 \tab 343 \tab 286 \tab 246 \tab 387 \tab 121 \tab 485 \tab 419 \tab 95 \tab 675 \tab 110 \tab 642 \tab 87 \tab 727 \tab 92 \tab 497 \tab 162 \tab 419 \tab 312 \tab 321 \tab 117 \tab 67 \tab 72390 \cr
+   2024 \tab 1202 \tab 40 \tab 55 \tab 82 \tab 37 \tab 58 \tab 37 \tab 52 \tab 41 \tab 129 \tab 57 \tab 54 \tab 65 \tab 25 \tab 110 \tab 105 \tab 30 \tab 166 \tab 31 \tab 150 \tab 20 \tab 199 \tab 20 \tab 144 \tab 32 \tab 121 \tab 136 \tab 33 \tab 30 \tab 48 \tab 3309 \cr
+   Total \tab 65451 \tab 210 \tab 312 \tab 336 \tab 232 \tab 221 \tab 228 \tab 161 \tab 233 \tab 472 \tab 343 \tab 300 \tab 452 \tab 146 \tab 595 \tab 524 \tab 125 \tab 841 \tab 141 \tab 792 \tab 107 \tab 926 \tab 112 \tab 641 \tab 194 \tab 540 \tab 448 \tab 354 \tab 147 \tab 115 \tab 75699 \cr
 }
 }
 
@@ -92,7 +93,6 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

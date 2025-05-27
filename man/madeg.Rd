@@ -2,7 +2,7 @@
 % Please edit documentation in R/gss_vars_10.R
 \name{madeg}
 \alias{madeg}
-\title{Mothers highest degree}
+\title{Mother's (or youngest same-sex parent's) highest degree}
 \source{
 General Social Survey https://gss.norc.org
 }
@@ -51,8 +51,9 @@ Counts by year:\tabular{lllllllllll}{
    2016 \tab 144 \tab 292 \tab 97 \tab 146 \tab 1349 \tab 101 \tab 736 \tab 2 \tab - \tab 2867 \cr
    2018 \tab 141 \tab 272 \tab 95 \tab 118 \tab 1048 \tab 84 \tab 589 \tab 1 \tab - \tab 2348 \cr
    2021 \tab 220 \tab 486 \tab 247 \tab 255 \tab 2019 \tab 100 \tab 698 \tab 1 \tab 6 \tab 4032 \cr
-   2022 \tab 197 \tab 449 \tab - \tab 237 \tab 1562 \tab 422 \tab 677 \tab - \tab - \tab 3544 \cr
-   Total \tab 2328 \tab 5102 \tab 3716 \tab 2154 \tab 28798 \tab 4561 \tab 25037 \tab 688 \tab 6 \tab 72390 \cr
+   2022 \tab 197 \tab 449 \tab 326 \tab 237 \tab 1561 \tab 78 \tab 696 \tab - \tab - \tab 3544 \cr
+   2024 \tab 187 \tab 402 \tab 46 \tab 197 \tab 1492 \tab 170 \tab 814 \tab - \tab 1 \tab 3309 \cr
+   Total \tab 2515 \tab 5504 \tab 4088 \tab 2351 \tab 30289 \tab 4387 \tab 25870 \tab 688 \tab 7 \tab 75699 \cr
 }
 }
 
@@ -70,7 +71,6 @@ Counts by year:\tabular{lllllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

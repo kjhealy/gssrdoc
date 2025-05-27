@@ -2,7 +2,7 @@
 % Please edit documentation in R/gss_vars_627.R
 \name{maborn}
 \alias{maborn}
-\title{Was r's mother born in this country?}
+\title{Was r's mother (or youngest same-sex parent) born in this country?}
 \source{
 General Social Survey https://gss.norc.org
 }
@@ -52,7 +52,8 @@ Counts by year:\tabular{llllllll}{
    2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
    2021 \tab 48 \tab 27 \tab 627 \tab 18 \tab 3312 \tab - \tab 4032 \cr
    2022 \tab - \tab 19 \tab 669 \tab 8 \tab 2841 \tab 7 \tab 3544 \cr
-   Total \tab 64862 \tab 46 \tab 1296 \tab 26 \tab 6153 \tab 7 \tab 72390 \cr
+   2024 \tab - \tab 25 \tab 620 \tab 15 \tab 2643 \tab 6 \tab 3309 \cr
+   Total \tab 64862 \tab 71 \tab 1916 \tab 41 \tab 8796 \tab 13 \tab 75699 \cr
 }
 }
 
@@ -67,7 +68,6 @@ Counts by year:\tabular{llllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

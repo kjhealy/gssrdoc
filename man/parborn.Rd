@@ -17,7 +17,7 @@ Question 32. Were both your parents born in this country?
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{llllllllllllll}{
-   year \tab iap \tab both born in the u.s. \tab mother don't know, father don't know \tab mother no, father yes \tab mother yes, father don't know \tab mother yes, father no \tab neither born in the u.s. \tab no answer \tab mother no, father don't know \tab mother don't know, father no \tab mother don't know, father yes \tab not available in this year \tab Total \cr
+   year \tab iap \tab both born in the u.s. \tab mother don't know, father don't know \tab mother no, father yes \tab mother yes, father don't know \tab mother yes, father no \tab neither born in the u.s. \tab no answer \tab mother no, father don't know \tab mother don't know, father no \tab mother don't know, father yes \tab skipped on web \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -50,9 +50,10 @@ Counts by year:\tabular{llllllllllllll}{
    2014 \tab - \tab 1950 \tab - \tab 66 \tab 6 \tab 69 \tab 435 \tab 4 \tab 2 \tab 3 \tab 3 \tab - \tab 2538 \cr
    2016 \tab - \tab 2238 \tab 2 \tab 84 \tab 5 \tab 92 \tab 429 \tab 13 \tab 2 \tab 1 \tab 1 \tab - \tab 2867 \cr
    2018 \tab - \tab 1823 \tab 4 \tab 62 \tab 7 \tab 72 \tab 371 \tab 6 \tab 3 \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
-   2022 \tab 3544 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
-   Total \tab 12652 \tab 45148 \tab 53 \tab 1259 \tab 110 \tab 1745 \tab 7116 \tab 210 \tab 36 \tab 16 \tab 13 \tab 4032 \tab 72390 \cr
+   2021 \tab - \tab 3157 \tab 26 \tab 99 \tab 34 \tab 121 \tab 522 \tab 18 \tab 6 \tab 6 \tab 13 \tab 30 \tab 4032 \cr
+   2022 \tab - \tab 2688 \tab 16 \tab 89 \tab 33 \tab 120 \tab 575 \tab 7 \tab 5 \tab 1 \tab 10 \tab - \tab 3544 \cr
+   2024 \tab - \tab 2521 \tab 20 \tab 96 \tab 29 \tab 93 \tab 521 \tab 3 \tab 3 \tab 3 \tab 11 \tab 9 \tab 3309 \cr
+   Total \tab 9108 \tab 53514 \tab 115 \tab 1543 \tab 206 \tab 2079 \tab 8734 \tab 238 \tab 50 \tab 26 \tab 47 \tab 39 \tab 75699 \cr
 }
 }
 
@@ -74,7 +75,6 @@ Counts by year:\tabular{llllllllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

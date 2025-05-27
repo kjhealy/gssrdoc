@@ -52,7 +52,8 @@ Counts by year:\tabular{llllllll}{
    2018 \tab 789 \tab 49 \tab 521 \tab 13 \tab 976 \tab - \tab 2348 \cr
    2021 \tab 2552 \tab 260 \tab 325 \tab 4 \tab 887 \tab 4 \tab 4032 \cr
    2022 \tab 2373 \tab 34 \tab 324 \tab 6 \tab 803 \tab 4 \tab 3544 \cr
-   Total \tab 34514 \tab 1610 \tab 15351 \tab 136 \tab 20771 \tab 8 \tab 72390 \cr
+   2024 \tab 1754 \tab 69 \tab 538 \tab 5 \tab 932 \tab 11 \tab 3309 \cr
+   Total \tab 36268 \tab 1679 \tab 15889 \tab 141 \tab 21703 \tab 19 \tab 75699 \cr
 }
 }
 
@@ -67,7 +68,6 @@ Counts by year:\tabular{llllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

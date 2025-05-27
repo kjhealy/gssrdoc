@@ -2,7 +2,7 @@
 % Please edit documentation in R/gss_vars_48.R
 \name{affrmact}
 \alias{affrmact}
-\title{Favor preference in hiring blacks}
+\title{Favor preference in hiring black people}
 \source{
 General Social Survey https://gss.norc.org
 }
@@ -52,7 +52,8 @@ Counts by year:\tabular{llllllllll}{
    2018 \tab 789 \tab 88 \tab 24 \tab 132 \tab 443 \tab 230 \tab 642 \tab - \tab 2348 \cr
    2021 \tab 1378 \tab 22 \tab 4 \tab 299 \tab 818 \tab 349 \tab 1162 \tab - \tab 4032 \cr
    2022 \tab 1168 \tab 119 \tab 15 \tab 248 \tab 667 \tab 395 \tab 919 \tab 13 \tab 3544 \cr
-   Total \tab 47193 \tab 1172 \tab 211 \tab 1988 \tab 6790 \tab 2866 \tab 12157 \tab 13 \tab 72390 \cr
+   2024 \tab 1126 \tab 115 \tab 17 \tab 220 \tab 573 \tab 333 \tab 884 \tab 41 \tab 3309 \cr
+   Total \tab 48319 \tab 1287 \tab 228 \tab 2208 \tab 7363 \tab 3199 \tab 13041 \tab 54 \tab 75699 \cr
 }
 }
 
@@ -69,7 +70,6 @@ Counts by year:\tabular{llllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

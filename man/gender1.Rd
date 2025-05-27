@@ -17,7 +17,7 @@ Question 1621. Please tell me the names of the people who usually live in this h
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab female \tab male \tab no answer \tab don't know \tab not available in this release \tab 3 \tab skipped on web \tab Total \cr
+   year \tab iap \tab female \tab male \tab no answer \tab don't know \tab other \tab skipped on web \tab not available in this release \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -50,9 +50,10 @@ Counts by year:\tabular{llllllllll}{
    2014 \tab - \tab 1107 \tab 1431 \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
    2016 \tab - \tab 1357 \tab 1510 \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
    2018 \tab - \tab 1121 \tab 1227 \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab - \tab - \tab 4032 \cr
-   2022 \tab 1779 \tab 849 \tab 908 \tab 1 \tab - \tab - \tab 6 \tab 1 \tab 3544 \cr
-   Total \tab 7135 \tab 22101 \tab 39026 \tab 88 \tab 1 \tab 4032 \tab 6 \tab 1 \tab 72390 \cr
+   2021 \tab 203 \tab 1788 \tab 1999 \tab - \tab - \tab 27 \tab 15 \tab - \tab 4032 \cr
+   2022 \tab 1779 \tab 849 \tab 908 \tab 1 \tab - \tab 6 \tab 1 \tab - \tab 3544 \cr
+   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
+   Total \tab 7338 \tab 23889 \tab 41025 \tab 88 \tab 1 \tab 33 \tab 16 \tab 3309 \tab 75699 \cr
 }
 }
 
@@ -61,13 +62,13 @@ Counts by year:\tabular{llllllllll}{
 \itemize{
 \item \code{1} male
 \item \code{2} female
+\item \code{3} other
 \item \code{NA(d)} don't know
 \item \code{NA(i)} iap
 \item \code{NA(j)} I don't have a job
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

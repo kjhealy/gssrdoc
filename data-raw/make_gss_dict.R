@@ -9,9 +9,9 @@ library(socviz)
 library(labelled)
 
 ## gss data
-load(here::here("data", "gss_all.rda"))
+load(here::here("data-raw", "from_gssr", "gss_all.rda"))
 
-## Labelled gss obj ()
+## Labelled gss obj
 load(here("data-raw", "objects", "gss_all_labelled.rda"))
 
 
@@ -74,7 +74,7 @@ gss_dict <- gss_dict |>
   left_join(gss_ballot_tbl, by = "variable")
 
 ## Next we join gss_doc, created in make_gss_doc.R
-load(file = here::here("data", "gss_doc.rda"))
+gss_doc <- readRDS(file = here::here("data-raw", "objects", "gss_doc.rda"))
 
 gss_dict <- left_join(gss_dict, gss_doc, by = "variable") |>
   relocate(var_type, .after = col_type) |>

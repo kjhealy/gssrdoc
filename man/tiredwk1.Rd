@@ -17,7 +17,7 @@ Question You have arrived at work too tired to function well because of the hous
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab doesn't apply/no job \tab don't know \tab never \tab no answer \tab once or twice \tab several times a month \tab several times a week \tab 5 \tab skipped on web \tab Total \cr
+   year \tab iap \tab doesn't apply/no job \tab don't know \tab never \tab no answer \tab once or twice \tab several times a month \tab several times a week \tab skipped on web \tab not available in this year \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -51,8 +51,9 @@ Counts by year:\tabular{llllllllllll}{
    2016 \tab 2867 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
    2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
    2021 \tab 4032 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \cr
-   2022 \tab 2386 \tab - \tab 8 \tab 497 \tab 4 \tab 180 \tab 84 \tab 43 \tab 331 \tab 11 \tab 3544 \cr
-   Total \tab 69930 \tab 452 \tab 11 \tab 1106 \tab 12 \tab 333 \tab 127 \tab 77 \tab 331 \tab 11 \tab 72390 \cr
+   2022 \tab 2386 \tab 331 \tab 8 \tab 497 \tab 4 \tab 180 \tab 84 \tab 43 \tab 11 \tab - \tab 3544 \cr
+   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
+   Total \tab 69930 \tab 783 \tab 11 \tab 1106 \tab 12 \tab 333 \tab 127 \tab 77 \tab 11 \tab 3309 \tab 75699 \cr
 }
 }
 
@@ -70,7 +71,6 @@ Counts by year:\tabular{llllllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

@@ -17,7 +17,7 @@ Question 1628. Number of family generations in household.
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab four generations \tab one generation \tab three generations, child(ren), grandchildren \tab three generations, child(ren), parent \tab two generations, children \tab two generations, grandchild(ren) \tab two generations, parents \tab not available in this release \tab Total \cr
+   year \tab iap \tab four generations \tab one generation \tab three generations, child(ren), grandchildren \tab three generations, child(ren), parent \tab two generations, children \tab two generations, grandchild(ren) \tab two generations, parents \tab not available in this year \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -50,9 +50,10 @@ Counts by year:\tabular{lllllllllll}{
    2014 \tab - \tab - \tab 1534 \tab 6 \tab 11 \tab 972 \tab 2 \tab 13 \tab - \tab 2538 \cr
    2016 \tab - \tab 1 \tab 1784 \tab 7 \tab 18 \tab 1032 \tab 9 \tab 16 \tab - \tab 2867 \cr
    2018 \tab - \tab 1 \tab 1478 \tab 53 \tab 30 \tab 738 \tab 18 \tab 30 \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
-   2022 \tab 3544 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
-   Total \tab 8900 \tab 28 \tab 33066 \tab 981 \tab 496 \tab 24010 \tab 401 \tab 476 \tab 4032 \tab 72390 \cr
+   2021 \tab - \tab - \tab 2602 \tab 63 \tab 37 \tab 1216 \tab 44 \tab 70 \tab - \tab 4032 \cr
+   2022 \tab 1764 \tab 4 \tab 1168 \tab 15 \tab 23 \tab 515 \tab 16 \tab 39 \tab - \tab 3544 \cr
+   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
+   Total \tab 7120 \tab 32 \tab 36836 \tab 1059 \tab 556 \tab 25741 \tab 461 \tab 585 \tab 3309 \tab 75699 \cr
 }
 }
 
@@ -72,7 +73,6 @@ Counts by year:\tabular{lllllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

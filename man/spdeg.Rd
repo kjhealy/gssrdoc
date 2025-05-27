@@ -50,9 +50,10 @@ Counts by year:\tabular{lllllllllll}{
    2014 \tab 89 \tab 238 \tab 4 \tab 169 \tab 529 \tab 1376 \tab 129 \tab 4 \tab - \tab 2538 \cr
    2016 \tab 89 \tab 261 \tab 6 \tab 163 \tab 578 \tab 1654 \tab 113 \tab 3 \tab - \tab 2867 \cr
    2018 \tab 79 \tab 221 \tab 2 \tab 138 \tab 443 \tab 1348 \tab 112 \tab 5 \tab - \tab 2348 \cr
-   2021 \tab 146 \tab 517 \tab 19 \tab 388 \tab 769 \tab 2026 \tab 151 \tab - \tab 16 \tab 4032 \cr
-   2022 \tab 105 \tab 337 \tab - \tab 273 \tab 616 \tab 2080 \tab 130 \tab 2 \tab 1 \tab 3544 \cr
-   Total \tab 1980 \tab 5837 \tab 177 \tab 3361 \tab 18448 \tab 35531 \tab 6874 \tab 165 \tab 17 \tab 72390 \cr
+   2021 \tab 146 \tab 517 \tab 19 \tab 388 \tab 769 \tab 2029 \tab 151 \tab - \tab 13 \tab 4032 \cr
+   2022 \tab 106 \tab 339 \tab 21 \tab 273 \tab 618 \tab 2074 \tab 110 \tab 2 \tab 1 \tab 3544 \cr
+   2024 \tab 124 \tab 345 \tab 4 \tab 241 \tab 527 \tab 1957 \tab 111 \tab - \tab - \tab 3309 \cr
+   Total \tab 2105 \tab 6184 \tab 202 \tab 3602 \tab 18977 \tab 37485 \tab 6965 \tab 165 \tab 14 \tab 75699 \cr
 }
 }
 
@@ -70,7 +71,6 @@ Counts by year:\tabular{lllllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

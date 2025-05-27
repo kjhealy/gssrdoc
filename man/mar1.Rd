@@ -17,7 +17,7 @@ Question 1621. Please tell me the names of the people who usually live in this h
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab divorced \tab married \tab never married \tab separated \tab widowed \tab don't know \tab no answer \tab not available in this release \tab skipped on web \tab Total \cr
+   year \tab iap \tab divorced \tab married \tab never married \tab separated \tab widowed \tab don't know \tab no answer \tab skipped on web \tab not available in this release \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -50,9 +50,10 @@ Counts by year:\tabular{llllllllllll}{
    2014 \tab - \tab 391 \tab 1246 \tab 509 \tab 92 \tab 221 \tab 61 \tab 18 \tab - \tab - \tab 2538 \cr
    2016 \tab - \tab 473 \tab 1320 \tab 609 \tab 121 \tab 273 \tab 37 \tab 34 \tab - \tab - \tab 2867 \cr
    2018 \tab - \tab 390 \tab 1078 \tab 477 \tab 109 \tab 219 \tab 57 \tab 18 \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab - \tab 4032 \cr
-   2022 \tab 1780 \tab 309 \tab 774 \tab 477 \tab 52 \tab 137 \tab 2 \tab 7 \tab - \tab 6 \tab 3544 \cr
-   Total \tab 7136 \tab 8499 \tab 33255 \tab 10186 \tab 2378 \tab 6294 \tab 300 \tab 304 \tab 4032 \tab 6 \tab 72390 \cr
+   2021 \tab 211 \tab 619 \tab 1905 \tab 850 \tab 88 \tab 312 \tab 1 \tab 2 \tab 44 \tab - \tab 4032 \cr
+   2022 \tab 1780 \tab 309 \tab 775 \tab 476 \tab 52 \tab 137 \tab 2 \tab 7 \tab 6 \tab - \tab 3544 \cr
+   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
+   Total \tab 7347 \tab 9118 \tab 35161 \tab 11035 \tab 2466 \tab 6606 \tab 301 \tab 306 \tab 50 \tab 3309 \tab 75699 \cr
 }
 }
 
@@ -70,7 +71,6 @@ Counts by year:\tabular{llllllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

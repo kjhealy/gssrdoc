@@ -17,7 +17,7 @@ Question 27. Were you living with both your own mother and father areound the ti
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{lllllllllllllll}{
-   year \tab both own mother and father \tab father and stepmother \tab father only \tab mother and stepfather \tab mother only \tab other arrangement with relatives (e.g., aunt and uncle, grandparents) \tab some other female relative (no male head) \tab some other male relative (no female head) \tab no answer \tab other \tab iap \tab don't know \tab skipped on web \tab Total \cr
+   year \tab both own parents \tab father and stepparent \tab father only \tab mother and stepparent \tab mother only \tab other arrangement with relatives (e.g., aunt and uncle, grandparents) \tab some other female relative (no male head) \tab some other male relative (no female head) \tab no answer \tab other \tab iap \tab don't know \tab skipped on web \tab Total \cr
    1972 \tab 1198 \tab 27 \tab 35 \tab 52 \tab 173 \tab 93 \tab 25 \tab 10 \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1174 \tab 31 \tab 46 \tab 43 \tab 123 \tab 41 \tab 14 \tab 6 \tab 2 \tab 24 \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1126 \tab 25 \tab 36 \tab 47 \tab 152 \tab 30 \tab 20 \tab 9 \tab - \tab 39 \tab - \tab - \tab - \tab 1484 \cr
@@ -52,7 +52,8 @@ Counts by year:\tabular{lllllllllllllll}{
    2018 \tab 1499 \tab 37 \tab 74 \tab 150 \tab 411 \tab 56 \tab 46 \tab 9 \tab 1 \tab 65 \tab - \tab - \tab - \tab 2348 \cr
    2021 \tab 2910 \tab 83 \tab 97 \tab 230 \tab 522 \tab 60 \tab 40 \tab 9 \tab 3 \tab 76 \tab - \tab 1 \tab 1 \tab 4032 \cr
    2022 \tab 2360 \tab 78 \tab 67 \tab 228 \tab 539 \tab 100 \tab 58 \tab 11 \tab 2 \tab 100 \tab - \tab - \tab 1 \tab 3544 \cr
-   Total \tab 50108 \tab 1360 \tab 1697 \tab 3660 \tab 9325 \tab 1594 \tab 1078 \tab 231 \tab 34 \tab 1782 \tab 1518 \tab 1 \tab 2 \tab 72390 \cr
+   2024 \tab 2265 \tab 56 \tab 81 \tab 163 \tab 506 \tab 77 \tab 52 \tab 19 \tab 5 \tab 83 \tab - \tab 1 \tab 1 \tab 3309 \cr
+   Total \tab 52373 \tab 1416 \tab 1778 \tab 3823 \tab 9831 \tab 1671 \tab 1130 \tab 250 \tab 39 \tab 1865 \tab 1518 \tab 2 \tab 3 \tab 75699 \cr
 }
 }
 
@@ -60,9 +61,9 @@ Counts by year:\tabular{lllllllllllllll}{
 
 \itemize{
 \item \code{0} other
-\item \code{1} both own mother and father
-\item \code{2} father and stepmother
-\item \code{3} mother and stepfather
+\item \code{1} both own parents
+\item \code{2} father and stepparent
+\item \code{3} mother and stepparent
 \item \code{4} father only
 \item \code{5} mother only
 \item \code{6} some other male relative (no female head)
@@ -74,7 +75,6 @@ Counts by year:\tabular{lllllllllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

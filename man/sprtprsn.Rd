@@ -17,7 +17,7 @@ Question 684. To what extent do you consider yourself a spiritual person? Are yo
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab don't know \tab moderately spirtual \tab no answer \tab not spiritual at all \tab slightly spiritual \tab very spiritual \tab skipped on web \tab Total \cr
+   year \tab iap \tab don't know \tab moderately spiritual \tab no answer \tab not spiritual at all \tab slightly spiritual \tab very spiritual \tab skipped on web \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -52,7 +52,8 @@ Counts by year:\tabular{llllllllll}{
    2018 \tab - \tab 18 \tab 831 \tab 12 \tab 265 \tab 522 \tab 700 \tab - \tab 2348 \cr
    2021 \tab - \tab 4 \tab 1362 \tab 48 \tab 605 \tab 1006 \tab 961 \tab 46 \tab 4032 \cr
    2022 \tab - \tab 17 \tab 1202 \tab 19 \tab 502 \tab 831 \tab 957 \tab 16 \tab 3544 \cr
-   Total \tab 46583 \tab 173 \tab 9520 \tab 164 \tab 2979 \tab 5817 \tab 7092 \tab 62 \tab 72390 \cr
+   2024 \tab - \tab 31 \tab 1054 \tab 10 \tab 472 \tab 754 \tab 957 \tab 31 \tab 3309 \cr
+   Total \tab 46583 \tab 204 \tab 10574 \tab 174 \tab 3451 \tab 6571 \tab 8049 \tab 93 \tab 75699 \cr
 }
 }
 
@@ -60,7 +61,7 @@ Counts by year:\tabular{llllllllll}{
 
 \itemize{
 \item \code{1} very spiritual
-\item \code{2} moderately spirtual
+\item \code{2} moderately spiritual
 \item \code{3} slightly spiritual
 \item \code{4} not spiritual at all
 \item \code{NA(d)} don't know
@@ -69,7 +70,6 @@ Counts by year:\tabular{llllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

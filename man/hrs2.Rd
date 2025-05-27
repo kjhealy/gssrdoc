@@ -52,7 +52,8 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
    2018 \tab 2293 \tab 1 \tab 2 \tab - \tab - \tab 2 \tab 3 \tab - \tab 21 \tab - \tab 7 \tab - \tab - \tab 1 \tab 7 \tab - \tab - \tab - \tab - \tab 1 \tab 3 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 2348 \cr
    2021 \tab 3920 \tab 1 \tab 4 \tab - \tab 1 \tab 4 \tab 2 \tab - \tab 35 \tab - \tab 9 \tab 1 \tab - \tab 1 \tab 24 \tab - \tab - \tab 2 \tab 5 \tab 1 \tab 6 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 1 \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 5 \tab 4032 \cr
    2022 \tab 3449 \tab 2 \tab - \tab - \tab 1 \tab 3 \tab 2 \tab - \tab 36 \tab 3 \tab 10 \tab 3 \tab - \tab 1 \tab 4 \tab 4 \tab 1 \tab - \tab 4 \tab 1 \tab 2 \tab 1 \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 2 \tab 1 \tab - \tab 2 \tab 2 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4 \tab 3544 \cr
-   Total \tab 70851 \tab 18 \tab 26 \tab 5 \tab 45 \tab 59 \tab 51 \tab 7 \tab 590 \tab 24 \tab 115 \tab 24 \tab 6 \tab 21 \tab 124 \tab 26 \tab 24 \tab 8 \tab 61 \tab 21 \tab 71 \tab 5 \tab 3 \tab 5 \tab 8 \tab 10 \tab 4 \tab 11 \tab 1 \tab 3 \tab 9 \tab 1 \tab 5 \tab 9 \tab 4 \tab 3 \tab 16 \tab 21 \tab 5 \tab 2 \tab 12 \tab 8 \tab 4 \tab 1 \tab 2 \tab 4 \tab 2 \tab 5 \tab 11 \tab 2 \tab 1 \tab 2 \tab 3 \tab 6 \tab 1 \tab 2 \tab 3 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 9 \tab 72390 \cr
+   2024 \tab 3241 \tab 2 \tab 1 \tab 1 \tab 2 \tab 4 \tab 3 \tab - \tab 24 \tab 2 \tab 3 \tab - \tab - \tab 1 \tab 6 \tab 3 \tab - \tab - \tab 5 \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 3 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 2 \tab 3309 \cr
+   Total \tab 74092 \tab 20 \tab 27 \tab 6 \tab 47 \tab 63 \tab 54 \tab 7 \tab 614 \tab 26 \tab 118 \tab 24 \tab 6 \tab 22 \tab 130 \tab 29 \tab 24 \tab 8 \tab 66 \tab 21 \tab 73 \tab 5 \tab 3 \tab 5 \tab 8 \tab 10 \tab 4 \tab 12 \tab 1 \tab 3 \tab 10 \tab 1 \tab 5 \tab 9 \tab 4 \tab 3 \tab 19 \tab 21 \tab 5 \tab 2 \tab 12 \tab 8 \tab 4 \tab 1 \tab 2 \tab 4 \tab 2 \tab 5 \tab 12 \tab 2 \tab 1 \tab 2 \tab 3 \tab 6 \tab 1 \tab 2 \tab 3 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 2 \tab 1 \tab 11 \tab 75699 \cr
 }
 }
 
@@ -66,7 +67,6 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

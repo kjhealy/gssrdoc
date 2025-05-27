@@ -17,7 +17,7 @@ Question 1621. Please tell me the names of the people who usually live in this h
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 12 \tab 13 \tab 17 \tab 2 \tab 5 \tab 7 \tab 10 \tab 11 \tab 22 \tab 3 \tab 4 \tab 6 \tab 8 \tab no answer \tab 14 \tab 16 \tab 9 \tab 19 \tab 25 \tab 42 \tab 28 \tab 20 \tab 24 \tab 26 \tab 58 \tab 30 \tab 31 \tab 15 \tab don't know \tab 33 \tab 40 \tab 55 \tab not available in this release \tab 18 \tab Total \cr
+   year \tab iap \tab 0 \tab 1 \tab 12 \tab 13 \tab 17 \tab 2 \tab 5 \tab 7 \tab 10 \tab 11 \tab 22 \tab 3 \tab 4 \tab 6 \tab 8 \tab no answer \tab 14 \tab 16 \tab 9 \tab 19 \tab 25 \tab 42 \tab 28 \tab 20 \tab 24 \tab 26 \tab 58 \tab 30 \tab 31 \tab 15 \tab don't know \tab 33 \tab 40 \tab 55 \tab 46 \tab not available in this release \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -50,9 +50,10 @@ Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllll}{
    2014 \tab 2531 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 1 \tab 1 \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
    2016 \tab 2858 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3 \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 2867 \cr
    2018 \tab 2342 \tab 1 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab - \tab 4032 \cr
-   2022 \tab 3538 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 3544 \cr
-   Total \tab 68166 \tab 13 \tab 20 \tab 5 \tab 4 \tab 2 \tab 19 \tab 14 \tab 9 \tab 9 \tab 8 \tab 2 \tab 12 \tab 12 \tab 14 \tab 11 \tab 9 \tab 3 \tab 1 \tab 6 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4032 \tab 1 \tab 72390 \cr
+   2021 \tab 4025 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 4032 \cr
+   2022 \tab 3538 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
+   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
+   Total \tab 72191 \tab 13 \tab 22 \tab 5 \tab 4 \tab 2 \tab 19 \tab 14 \tab 9 \tab 11 \tab 8 \tab 2 \tab 12 \tab 12 \tab 14 \tab 11 \tab 9 \tab 3 \tab 2 \tab 6 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3309 \tab 75699 \cr
 }
 }
 
@@ -68,7 +69,6 @@ Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

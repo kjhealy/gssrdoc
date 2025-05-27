@@ -36,7 +36,7 @@ load(here::here("data-raw", "objects", "gss_all_labelled.rda"))
 # Using the local data we've saved, we read in a list of all the web pages.
 # Our goal is to get them into a tractable format (a tibble or data frame).
 # From there we can write some functions to, e.g., query the codebook directly
-# from the console, or alterantively produce the codebook in a format suitable
+# from the console, or alternatively produce the codebook in a format suitable
 # for integrating into the R help system via a package.
 
 ## The names of all the files we just created
@@ -242,6 +242,9 @@ gss_doc <- gss_doc |>
   rename(variable = var_name) |>
   rename(var_doc_label = var_label)
 
-## Save out
-usethis::use_data(gss_doc, overwrite = TRUE, compress = "xz")
 
+
+## Save out
+#usethis::use_data(gss_doc, overwrite = TRUE, compress = "xz")
+
+saveRDS(gss_doc, file = here("data-raw", "objects", "gss_doc.rda"), compress = "xz")

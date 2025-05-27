@@ -593,13 +593,84 @@ Question 1562a. Not including blood donations, in what month and year was your l
 \item \code{202102} feb 2021
 \item \code{202103} mar 2021
 \item \code{202104} apr 2021
-\item \code{202198} 2021, don't know month
+\item \code{202105} may 2021
+\item \code{202106} jun 2021
+\item \code{202107} jul 2021
+\item \code{202108} aug 2021
+\item \code{202109} sep 2021
+\item \code{202110} oct 2021
+\item \code{202111} nov 2021
+\item \code{202112} dec 2021
+\item \code{202198} 2021, don't know when
 \item \code{202199} 2021, no month given
+\item \code{202201} jan 2022
+\item \code{202202} feb 2022
+\item \code{202203} mar 2022
+\item \code{202204} apr 2022
+\item \code{202205} may 2022
+\item \code{202206} jun 2022
+\item \code{202207} jul 2022
+\item \code{202208} aug 2022
+\item \code{202209} sep 2022
+\item \code{202210} oct 2022
+\item \code{202211} nov 2022
+\item \code{202212} dec 2022
+\item \code{202298} 2022, don't know when
+\item \code{202299} 2022, no month given
+\item \code{202301} jan 2023
+\item \code{202302} feb 2023
+\item \code{202303} mar 2023
+\item \code{202304} apr 2023
+\item \code{202305} may 2023
+\item \code{202306} jun 2023
+\item \code{202307} jul 2023
+\item \code{202308} aug 2023
+\item \code{202309} sep 2023
+\item \code{202310} oct 2023
+\item \code{202311} nov 2023
+\item \code{202312} dec 2023
+\item \code{202398} 2023, don't know when
+\item \code{202399} 2023, no month given
+\item \code{202401} jan 2024
+\item \code{202402} feb 2024
+\item \code{202403} mar 2024
+\item \code{202404} apr 2024
+\item \code{202405} may 2024
+\item \code{202406} jun 2024
+\item \code{202407} jul 2024
+\item \code{202408} aug 2024
+\item \code{202409} sep 2024
+\item \code{202410} oct 2024
+\item \code{202411} nov 2024
+\item \code{202412} dec 2024
+\item \code{202498} 2024, don't know when
+\item \code{202499} 2024, no month given
+\item \code{999801} jan, don't know year
 \item \code{999802} feb, don't know year
-\item \code{999806} june, don't know year
+\item \code{999803} mar, don't know year
+\item \code{999804} apr, don't know year
+\item \code{999805} may, don't know year
+\item \code{999806} jun, don't know year
+\item \code{999807} jul, don't know year
+\item \code{999808} aug, don't know year
+\item \code{999809} sep, don't know year
+\item \code{999810} oct, don't know year
+\item \code{999811} nov, don't know year
+\item \code{999812} dec, don't know year
 \item \code{999898} don't know year & month
 \item \code{999899} don't know year & no answer month
+\item \code{999901} jan, no answer year
+\item \code{999902} feb, no answer year
+\item \code{999903} mar, no answer year
+\item \code{999904} apr, no answer year
+\item \code{999905} may, no answer year
+\item \code{999906} jun, no answer year
+\item \code{999907} jul, no answer year
+\item \code{999908} aug, no answer year
+\item \code{999909} sep, no answer year
 \item \code{999910} oct, no answer year
+\item \code{999911} nov, no answer year
+\item \code{999912} dec, no answer year
 \item \code{999998} no answer year & don't know month
 \item \code{999999} no answer year & month
 \item \code{NA(d)} don't know
@@ -608,7 +679,6 @@ Question 1562a. Not including blood donations, in what month and year was your l
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

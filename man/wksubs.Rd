@@ -17,7 +17,7 @@ Question 191a. If yes: Does that person have a superviosr on the job to whom he 
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab no \tab no answer \tab yes \tab don't know \tab skipped on web \tab 6 \tab Total \cr
+   year \tab iap \tab no \tab no answer \tab yes \tab don't know \tab skipped on web \tab not available in this release \tab Total \cr
    1972 \tab 657 \tab 193 \tab 35 \tab 728 \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 646 \tab 159 \tab 16 \tab 667 \tab 16 \tab - \tab - \tab 1504 \cr
    1974 \tab 628 \tab 156 \tab 22 \tab 669 \tab 9 \tab - \tab - \tab 1484 \cr
@@ -51,8 +51,9 @@ Counts by year:\tabular{lllllllll}{
    2016 \tab 1279 \tab 279 \tab 27 \tab 1270 \tab 12 \tab - \tab - \tab 2867 \cr
    2018 \tab 1009 \tab 208 \tab 12 \tab 1108 \tab 11 \tab - \tab - \tab 2348 \cr
    2021 \tab 1911 \tab 232 \tab 38 \tab 1817 \tab 23 \tab 11 \tab - \tab 4032 \cr
-   2022 \tab 1652 \tab 282 \tab 34 \tab 1543 \tab - \tab 8 \tab 25 \tab 3544 \cr
-   Total \tab 38480 \tab 5917 \tab 1450 \tab 26244 \tab 255 \tab 19 \tab 25 \tab 72390 \cr
+   2022 \tab 1652 \tab 282 \tab 34 \tab 1543 \tab 25 \tab 8 \tab - \tab 3544 \cr
+   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
+   Total \tab 38480 \tab 5917 \tab 1450 \tab 26244 \tab 280 \tab 19 \tab 3309 \tab 75699 \cr
 }
 }
 
@@ -67,7 +68,6 @@ Counts by year:\tabular{lllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

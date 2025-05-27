@@ -17,7 +17,7 @@ Question A. IF YES: Do any of those persons supervise anyone else?
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab don't know \tab no \tab yes \tab no answer \tab skipped on web \tab 6 \tab Total \cr
+   year \tab iap \tab don't know \tab no \tab yes \tab no answer \tab skipped on web \tab not available in this release \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -51,8 +51,9 @@ Counts by year:\tabular{lllllllll}{
    2016 \tab 2118 \tab 7 \tab 518 \tab 224 \tab - \tab - \tab - \tab 2867 \cr
    2018 \tab 1753 \tab 4 \tab 390 \tab 201 \tab - \tab - \tab - \tab 2348 \cr
    2021 \tab 3170 \tab 15 \tab 567 \tab 272 \tab 1 \tab 7 \tab - \tab 4032 \cr
-   2022 \tab 2748 \tab - \tab 532 \tab 243 \tab 6 \tab 4 \tab 11 \tab 3544 \cr
-   Total \tab 69388 \tab 26 \tab 2007 \tab 940 \tab 7 \tab 11 \tab 11 \tab 72390 \cr
+   2022 \tab 2748 \tab 11 \tab 532 \tab 243 \tab 6 \tab 4 \tab - \tab 3544 \cr
+   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
+   Total \tab 69388 \tab 37 \tab 2007 \tab 940 \tab 7 \tab 11 \tab 3309 \tab 75699 \cr
 }
 }
 
@@ -67,7 +68,6 @@ Counts by year:\tabular{lllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

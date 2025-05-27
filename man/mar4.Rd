@@ -17,7 +17,7 @@ Question 1621. Please tell me the names of the people who usually live in this h
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab divorced \tab married \tab never married \tab no answer \tab separated \tab widowed \tab don't know \tab not available in this release \tab skipped on web \tab Total \cr
+   year \tab iap \tab divorced \tab married \tab never married \tab no answer \tab separated \tab widowed \tab don't know \tab skipped on web \tab not available in this release \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -50,9 +50,10 @@ Counts by year:\tabular{llllllllllll}{
    2014 \tab 2265 \tab 2 \tab 20 \tab 226 \tab 4 \tab 10 \tab 5 \tab 6 \tab - \tab - \tab 2538 \cr
    2016 \tab 2596 \tab 6 \tab 21 \tab 218 \tab 5 \tab 11 \tab 3 \tab 7 \tab - \tab - \tab 2867 \cr
    2018 \tab 2108 \tab 3 \tab 22 \tab 199 \tab 1 \tab 10 \tab 2 \tab 3 \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab - \tab 4032 \cr
-   2022 \tab 3331 \tab 11 \tab 29 \tab 165 \tab 4 \tab - \tab 2 \tab - \tab - \tab 2 \tab 3544 \cr
-   Total \tab 61853 \tab 125 \tab 389 \tab 5418 \tab 346 \tab 109 \tab 82 \tab 34 \tab 4032 \tab 2 \tab 72390 \cr
+   2021 \tab 3559 \tab 21 \tab 36 \tab 392 \tab - \tab 8 \tab 12 \tab - \tab 4 \tab - \tab 4032 \cr
+   2022 \tab 3386 \tab 5 \tab 17 \tab 131 \tab 4 \tab - \tab 1 \tab - \tab - \tab - \tab 3544 \cr
+   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
+   Total \tab 65467 \tab 140 \tab 413 \tab 5776 \tab 346 \tab 117 \tab 93 \tab 34 \tab 4 \tab 3309 \tab 75699 \cr
 }
 }
 
@@ -70,7 +71,6 @@ Counts by year:\tabular{llllllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

@@ -1,4 +1,4 @@
-#' Data Dictionary for the GSS Cumulative Data File 1972-2022
+#' Data Dictionary for the GSS Cumulative Data File 1972-2024
 #'
 #' A tibble containing information on the variables in the GSS Cumulative Data File.
 #' @format A tibble.

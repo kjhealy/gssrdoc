@@ -17,7 +17,7 @@ Question None
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{lllllll}{
-   year \tab iap \tab can trust \tab can't be too careful \tab depends (phone mode only: volunteered) \tab skipped on web \tab Total \cr
+   year \tab iap \tab can't be too careful \tab depends(phone mode only, volunteered) \tab most people can be trusted \tab skipped on web \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -50,25 +50,25 @@ Counts by year:\tabular{lllllll}{
    2014 \tab 2538 \tab - \tab - \tab - \tab - \tab 2538 \cr
    2016 \tab 2867 \tab - \tab - \tab - \tab - \tab 2867 \cr
    2018 \tab 2348 \tab - \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab 2719 \tab 527 \tab 776 \tab 4 \tab 6 \tab 4032 \cr
-   2022 \tab 2962 \tab 195 \tab 383 \tab 1 \tab 3 \tab 3544 \cr
-   Total \tab 70495 \tab 722 \tab 1159 \tab 5 \tab 9 \tab 72390 \cr
+   2021 \tab 2719 \tab 776 \tab 4 \tab 527 \tab 6 \tab 4032 \cr
+   2022 \tab 2962 \tab 383 \tab 1 \tab 195 \tab 3 \tab 3544 \cr
+   2024 \tab 2665 \tab 412 \tab 8 \tab 217 \tab 7 \tab 3309 \cr
+   Total \tab 73160 \tab 1571 \tab 13 \tab 939 \tab 16 \tab 75699 \cr
 }
 }
 
 \section{Values}{
 
 \itemize{
-\item \code{1} can trust
+\item \code{1} most people can be trusted
 \item \code{2} can't be too careful
-\item \code{3} depends (phone mode only: volunteered)
+\item \code{3} depends(phone mode only, volunteered)
 \item \code{NA(d)} don't know
 \item \code{NA(i)} iap
 \item \code{NA(j)} I don't have a job
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

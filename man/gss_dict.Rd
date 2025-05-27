@@ -3,7 +3,7 @@
 \docType{data}
 \name{gss_dict}
 \alias{gss_dict}
-\title{Data Dictionary for the GSS Cumulative Data File 1972-2022}
+\title{Data Dictionary for the GSS Cumulative Data File 1972-2024}
 \format{
 A tibble.
 

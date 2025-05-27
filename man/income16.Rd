@@ -52,7 +52,8 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllll}{
    2018 \tab - \tab 27 \tab 70 \tab 128 \tab 70 \tab 77 \tab 44 \tab 72 \tab 37 \tab 171 \tab 65 \tab 77 \tab 80 \tab 19 \tab 116 \tab 101 \tab 14 \tab 159 \tab 15 \tab 187 \tab 9 \tab 215 \tab 13 \tab 167 \tab 41 \tab 145 \tab 91 \tab 105 \tab 33 \tab - \tab 2348 \cr
    2021 \tab - \tab 50 \tab 87 \tab 207 \tab 80 \tab 141 \tab 74 \tab 140 \tab 66 \tab 372 \tab 80 \tab 69 \tab 131 \tab 19 \tab 155 \tab 136 \tab 11 \tab 266 \tab 17 \tab 253 \tab 12 \tab 367 \tab 18 \tab 314 \tab 54 \tab 326 \tab 335 \tab 80 \tab 64 \tab 108 \tab 4032 \cr
    2022 \tab - \tab 33 \tab 104 \tab 169 \tab 83 \tab 147 \tab 64 \tab 97 \tab 51 \tab 330 \tab 92 \tab 100 \tab 129 \tab 18 \tab 162 \tab 152 \tab 11 \tab 211 \tab 16 \tab 239 \tab 14 \tab 304 \tab 16 \tab 240 \tab 40 \tab 249 \tab 268 \tab 132 \tab 39 \tab 34 \tab 3544 \cr
-   Total \tab 59599 \tab 145 \tab 349 \tab 630 \tab 304 \tab 464 \tab 247 \tab 370 \tab 219 \tab 1037 \tab 332 \tab 347 \tab 455 \tab 80 \tab 564 \tab 515 \tab 49 \tab 854 \tab 67 \tab 886 \tab 50 \tab 1144 \tab 70 \tab 935 \tab 183 \tab 899 \tab 828 \tab 454 \tab 172 \tab 142 \tab 72390 \cr
+   2024 \tab - \tab 48 \tab 97 \tab 165 \tab 78 \tab 130 \tab 51 \tab 107 \tab 52 \tab 355 \tab 77 \tab 62 \tab 91 \tab 26 \tab 123 \tab 126 \tab 18 \tab 185 \tab 25 \tab 236 \tab 14 \tab 268 \tab 16 \tab 235 \tab 34 \tab 245 \tab 246 \tab 77 \tab 67 \tab 55 \tab 3309 \cr
+   Total \tab 59599 \tab 193 \tab 446 \tab 795 \tab 382 \tab 594 \tab 298 \tab 477 \tab 271 \tab 1392 \tab 409 \tab 409 \tab 546 \tab 106 \tab 687 \tab 641 \tab 67 \tab 1039 \tab 92 \tab 1122 \tab 64 \tab 1412 \tab 86 \tab 1170 \tab 217 \tab 1144 \tab 1074 \tab 531 \tab 239 \tab 197 \tab 75699 \cr
 }
 }
 
@@ -91,7 +92,6 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable

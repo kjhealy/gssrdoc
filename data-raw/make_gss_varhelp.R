@@ -47,8 +47,8 @@ availableCores()
 n_cores <- availableCores()
 
 
-## This is made in gssr, not here
-load(here("data-raw", "objects", "gss_dict.rda"))
+## This is made by data-raw/make_gss_dict.R
+load(here("data", "gss_dict.rda"))
 
 prettify_yrtab <- function(x) {
   # We don't need yr crosstabs for year or id

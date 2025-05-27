@@ -17,7 +17,7 @@ Question None
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{lllllllllll}{
-   year \tab east north central \tab east south atlantic \tab middle atlantic \tab mountain \tab new england \tab pacific \tab south atlantic \tab west north central \tab west south central \tab Total \cr
+   year \tab east north central \tab east south central \tab middle atlantic \tab mountain \tab new england \tab pacific \tab south atlantic \tab west north central \tab west south central \tab Total \cr
    1972 \tab 305 \tab 84 \tab 298 \tab 56 \tab 90 \tab 224 \tab 218 \tab 141 \tab 197 \tab 1613 \cr
    1973 \tab 333 \tab 75 \tab 268 \tab 59 \tab 75 \tab 194 \tab 284 \tab 95 \tab 121 \tab 1504 \cr
    1974 \tab 334 \tab 75 \tab 257 \tab 55 \tab 71 \tab 195 \tab 282 \tab 95 \tab 120 \tab 1484 \cr
@@ -52,7 +52,8 @@ Counts by year:\tabular{lllllllllll}{
    2018 \tab 388 \tab 163 \tab 232 \tab 183 \tab 124 \tab 343 \tab 513 \tab 125 \tab 277 \tab 2348 \cr
    2021 \tab 676 \tab 270 \tab 414 \tab 345 \tab 203 \tab 584 \tab 800 \tab 314 \tab 426 \tab 4032 \cr
    2022 \tab 577 \tab 229 \tab 348 \tab 296 \tab 177 \tab 510 \tab 817 \tab 221 \tab 369 \tab 3544 \cr
-   Total \tab 13143 \tab 4783 \tab 10051 \tab 4706 \tab 3480 \tab 9844 \tab 14169 \tab 5219 \tab 6995 \tab 72390 \cr
+   2024 \tab 587 \tab 328 \tab 454 \tab 224 \tab 87 \tab 422 \tab 611 \tab 225 \tab 371 \tab 3309 \cr
+   Total \tab 13730 \tab 5111 \tab 10505 \tab 4930 \tab 3567 \tab 10266 \tab 14780 \tab 5444 \tab 7366 \tab 75699 \cr
 }
 }
 
@@ -64,7 +65,7 @@ Counts by year:\tabular{lllllllllll}{
 \item \code{3} east north central
 \item \code{4} west north central
 \item \code{5} south atlantic
-\item \code{6} east south atlantic
+\item \code{6} east south central
 \item \code{7} west south central
 \item \code{8} mountain
 \item \code{9} pacific
@@ -74,7 +75,6 @@ Counts by year:\tabular{lllllllllll}{
 \item \code{NA(m)} dk, na, iap
 \item \code{NA(n)} no answer
 \item \code{NA(p)} not imputable
-\item \code{NA(q)} not imputable
 \item \code{NA(r)} refused
 \item \code{NA(s)} skipped on web
 \item \code{NA(u)} uncodeable
