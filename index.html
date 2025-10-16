@@ -24,7 +24,7 @@
 
     <a class="navbar-brand me-2" href="index.html">gssrdoc</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.7.0</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.8.0</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,6 +34,7 @@
     <div id="navbar" class="collapse navbar-collapse ms-3">
       <ul class="navbar-nav me-auto">
 <li class="nav-item"><a class="nav-link" href="reference/index.html">Reference</a></li>
+<li class="nav-item"><a class="nav-link" href="articles/topics.html">Topics</a></li>
       </ul>
 <ul class="navbar-nav">
 <li class="nav-item"><a class="external-link nav-link" href="https://github.com/kjhealy/gssrdoc"><span class="fa fa-github"></span></a></li>
@@ -49,7 +50,7 @@
 </h1></div>
 <!-- badges: start -->
 
-<p>Documentation for the General Social Survey Cumulative Data (1972-2024, release 1) packaged for easy use in R. This package is a companion to the <a href="https://github.com/kjhealy.gssr" class="external-link"><code>gssr</code></a> package. I recommend you install both of them.</p>
+<p>Documentation for the General Social Survey Cumulative Data (1972-2024) packaged for easy use in R. This package is a companion to the <a href="https://github.com/kjhealy.gssr" class="external-link"><code>gssr</code></a> package. I recommend you install both of them.</p>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
@@ -80,8 +81,9 @@
 <div class="section level2">
 <h2 id="integrated-help">Integrated Help<a class="anchor" aria-label="anchor" href="#integrated-help"></a>
 </h2>
-<p><a href="https://github.com/kjhealy/gssrdoc" class="external-link">gssrdoc</a> provides documentation for all GSS variables in the cumulative data file via R’s help system. You can browse variables by name in the package’s help file or type <code>?</code> followed by the name of the variable at the console to get a standard R help page containing information on the variable, the values it takes and (in most cases) a crosstabulation of the variable’s values for each year of the GSS. This facility is particularly convenient in an IDE such as RStudio or Microsoft Visual Studio.</p>
-<p><img src="reference/figures/fefam_help.png"></p>
+<p><a href="https://github.com/kjhealy/gssrdoc" class="external-link">gssrdoc</a> provides documentation for all GSS variables in the cumulative data file via R’s help system. You can browse variables by name in the package’s help file or type <code>?</code> followed by the name of the variable at the console to get a standard R help page containing information on the variable, the values it takes, the years and ballots it is available for, and (in most cases) a crosstabulation of the variable’s values for each year of the GSS. This facility is particularly convenient in an IDE such as RStudio or Microsoft Visual Studio. The help page for each variable links to the <a href="https://gssdataexplorer.norc.org" class="external-link">GSS Data Explorer</a> page for that variable. The “See Also” section at the bottom of the help page incorporates the GSS’s own cross-referencing by module and topic.</p>
+<p><img src="reference/figures/fefam_help_1.png" alt="Upper part of fefam help" caption="Upper part of fefam help"></p>
+<p><img src="reference/figures/fefam_help_2.png" alt="Lower part of fefam help" caption="Lower part of fefam help"></p>
 <p>Information about the variables is also contained in the <code>gss_dict</code> object:</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://tibble.tidyverse.org/" class="external-link">tibble</a></span><span class="op">)</span></span>
