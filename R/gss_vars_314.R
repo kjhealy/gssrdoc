@@ -31,7 +31,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name disrspct
@@ -69,7 +68,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -111,7 +109,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name notsmart
@@ -149,7 +146,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -191,7 +187,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name threaten
@@ -226,7 +221,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -265,7 +259,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name hlthphys
@@ -300,7 +293,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -339,7 +331,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name satsoc
@@ -374,7 +365,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable

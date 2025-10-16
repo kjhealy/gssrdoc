@@ -25,7 +25,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name brv16gpanum
@@ -58,7 +57,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -93,7 +91,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name brv16sisnum
@@ -126,7 +123,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -161,7 +157,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name brv16cuznum
@@ -195,7 +190,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name brv16frndnum
@@ -228,7 +222,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -264,7 +257,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name gestate
@@ -298,7 +290,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -337,7 +328,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
-#' 
 #' 
 #' @keywords variable
 #' @md

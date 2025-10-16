@@ -27,7 +27,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name smallgap
@@ -61,7 +60,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -99,7 +97,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name partlsc
@@ -135,7 +132,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name partpart
@@ -169,7 +165,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -209,7 +204,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name hlphome
@@ -245,7 +239,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -285,7 +278,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name hlpdown
@@ -323,7 +315,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name hlpadvce
@@ -359,7 +350,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable

@@ -31,9 +31,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Federal Government
-#' @family Spending
-#' @family Taxes
 #' 
 #' @keywords variable
 #' @md
@@ -74,10 +71,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Crime
-#' @family Federal Government
-#' @family Spending
-#' @family Taxes
 #' 
 #' @keywords variable
 #' @md
@@ -118,9 +111,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Federal Government
-#' @family Spending
-#' @family Taxes
 #' 
 #' @keywords variable
 #' @md
@@ -161,9 +151,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Federal Government
-#' @family Spending
-#' @family Taxes
 #' 
 #' @keywords variable
 #' @md
@@ -204,10 +191,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Aged
-#' @family Federal Government
-#' @family Spending
-#' @family Taxes
 #' 
 #' @keywords variable
 #' @md
@@ -248,9 +231,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Federal Government
-#' @family Spending
-#' @family Taxes
 #' 
 #' @keywords variable
 #' @md
@@ -291,10 +271,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Art/The Arts (And Literature)
-#' @family Federal Government
-#' @family Spending
-#' @family Taxes
 #' 
 #' @keywords variable
 #' @md
@@ -331,7 +307,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Taxes
 #' 
 #' @keywords variable
 #' @md
@@ -367,8 +342,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Business
-#' @family Taxes
 #' 
 #' @keywords variable
 #' @md
@@ -403,7 +376,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Economy
 #' 
 #' @keywords variable
 #' @md

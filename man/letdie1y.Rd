@@ -38,9 +38,9 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/5573/vshow}
 
 \seealso{
 Other Form Y: 
+\code{\link{pilloky}},
 \code{\link{polhitoy}},
 \code{\link{popespky}}
 }
-\concept{Euthanasia}
 \concept{Form Y}
 \keyword{variable}

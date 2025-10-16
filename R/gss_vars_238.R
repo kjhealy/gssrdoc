@@ -24,7 +24,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name artgst
@@ -56,7 +55,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -90,7 +88,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name artloc
@@ -122,7 +119,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -168,7 +164,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name prfmmostoth
@@ -213,7 +208,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name artmostoth
@@ -245,7 +239,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jobs
-#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -278,7 +271,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jobs
-#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -315,7 +307,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jobs
-#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -349,7 +340,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jobs
-#' @family Job
 #' 
 #' @keywords variable
 #' @md

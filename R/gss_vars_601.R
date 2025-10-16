@@ -27,8 +27,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Welfare
-#' @family Income
-#' @family Welfare
 #' 
 #' @keywords variable
 #' @md
@@ -65,8 +63,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Welfare
-#' @family Income
-#' @family Welfare
 #' 
 #' @keywords variable
 #' @md
@@ -102,8 +98,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Welfare
-#' @family Income
 #' @family Welfare
 #' 
 #' @keywords variable
@@ -142,8 +136,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work and Relationships
-#' @family Job
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -180,7 +172,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Work and Relationships
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name talkspvs
@@ -215,7 +206,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work and Relationships
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -281,7 +271,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Cohort and Birth
-#' @family Age
 #' 
 #' @keywords variable
 #' @md
@@ -332,7 +321,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Cohort and Birth
-#' @family Marriage
 #' 
 #' @keywords variable
 #' @md
@@ -404,7 +392,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Cohort and Birth
-#' @family Astrological Sign
 #' 
 #' @keywords variable
 #' @md
@@ -471,7 +458,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
-#' @family Interview
 #' 
 #' @keywords variable
 #' @md

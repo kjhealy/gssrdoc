@@ -49,10 +49,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Federal Government
-#' @family Spending
-#' @family Split Ballots
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -111,10 +107,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Federal Government
-#' @family Spending
-#' @family Split Ballots
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -173,11 +165,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Crime
-#' @family Federal Government
-#' @family Spending
-#' @family Split Ballots
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -236,11 +223,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Drug Use And Addiction
-#' @family Federal Government
-#' @family Spending
-#' @family Split Ballots
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -299,11 +281,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Education
-#' @family Federal Government
-#' @family Spending
-#' @family Split Ballots
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -361,10 +338,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Federal Government
-#' @family Spending
-#' @family Split Ballots
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -423,10 +396,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Federal Government
-#' @family Spending
-#' @family Split Ballots
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -485,10 +454,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Federal Government
-#' @family Spending
-#' @family Split Ballots
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -547,10 +512,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Federal Government
-#' @family Spending
-#' @family Split Ballots
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -585,10 +546,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Federal Government
-#' @family Spending
-#' @family Split Ballots
-#' @family United States
 #' 
 #' @keywords variable
 #' @md

@@ -27,7 +27,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name dclindus
@@ -61,7 +60,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -100,7 +98,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name hivafraid
@@ -135,7 +132,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -174,7 +170,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name hivdscrm
@@ -211,7 +206,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name ptnrornt
@@ -243,7 +237,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -279,7 +272,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -319,7 +311,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name poltrtblk
@@ -355,7 +346,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable

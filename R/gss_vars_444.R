@@ -30,9 +30,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Economy
-#' @family Federal Government
-#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -73,9 +70,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Aged
-#' @family Economy
-#' @family Federal Government
 #' 
 #' @keywords variable
 #' @md
@@ -115,8 +109,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Economy
-#' @family Federal Government
 #' 
 #' @keywords variable
 #' @md
@@ -157,8 +149,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Economy
-#' @family Federal Government
 #' 
 #' @keywords variable
 #' @md
@@ -200,9 +190,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Economy
-#' @family Federal Government
-#' @family Inequality, Income
 #' 
 #' @keywords variable
 #' @md
@@ -241,8 +228,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Economy
-#' @family Federal Government
 #' 
 #' @keywords variable
 #' @md
@@ -281,9 +266,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Economy
-#' @family Federal Government
-#' @family Housing
 #' 
 #' @keywords variable
 #' @md
@@ -320,7 +302,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Civil Liberties
 #' 
 #' @keywords variable
 #' @md
@@ -357,8 +338,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Civil Liberties
-#' @family Demonstrations
 #' 
 #' @keywords variable
 #' @md
@@ -395,8 +374,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Civil Liberties
-#' @family Demonstrations
 #' 
 #' @keywords variable
 #' @md

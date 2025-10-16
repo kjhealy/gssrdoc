@@ -39,17 +39,10 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/2990/vshow}
 Other Information Seeking Online: 
 \code{\link{caninf1}},
 \code{\link{caninf10}},
-\code{\link{caninf2}},
-\code{\link{caninf3}},
-\code{\link{caninf4}},
-\code{\link{caninf5}},
-\code{\link{caninf6}},
-\code{\link{caninf8}},
-\code{\link{caninf9}}
-
-Other Political: 
-\code{\link{caninf1}},
-\code{\link{caninf10}},
+\code{\link{caninf11}},
+\code{\link{caninf12}},
+\code{\link{caninf13}},
+\code{\link{caninf14}},
 \code{\link{caninf2}},
 \code{\link{caninf3}},
 \code{\link{caninf4}},
@@ -59,5 +52,4 @@ Other Political:
 \code{\link{caninf9}}
 }
 \concept{Information Seeking Online}
-\concept{Political}
 \keyword{variable}

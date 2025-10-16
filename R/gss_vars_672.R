@@ -27,7 +27,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family ANES
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name econstat
@@ -60,7 +59,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ANES
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -99,7 +97,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name intrnetuse
@@ -131,7 +128,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -165,7 +161,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name nouseint2
@@ -197,7 +192,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -231,7 +225,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name nouseint4
@@ -263,7 +256,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -297,7 +289,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name nouseint6
@@ -329,7 +320,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
-#' 
 #' 
 #' @keywords variable
 #' @md

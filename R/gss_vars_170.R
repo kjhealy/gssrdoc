@@ -562,7 +562,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name sbocc10
@@ -594,7 +593,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -634,7 +632,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name sboccstatus
@@ -667,7 +664,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -971,7 +967,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name sbind10
@@ -1010,7 +1005,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name sbindstatus
@@ -1044,7 +1038,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name sbindtag
@@ -1076,7 +1069,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name sbpres10
@@ -1107,7 +1099,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -1143,7 +1134,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
-#' @family Ethnicity
 #' 
 #' @keywords variable
 #' @md

@@ -25,7 +25,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name brv5bronum
@@ -58,7 +57,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -93,7 +91,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name brv5silnum
@@ -126,7 +123,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -161,7 +157,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name brv5frndnum
@@ -195,7 +190,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name brv5cowknum
@@ -228,7 +222,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -264,7 +257,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name brv16
@@ -299,7 +291,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name brv16sp
@@ -333,7 +324,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
-#' 
 #' 
 #' @keywords variable
 #' @md

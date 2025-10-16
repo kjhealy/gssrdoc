@@ -35,10 +35,11 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/4988/vshow}
 
 \seealso{
 Other Civil Liberties: 
-\code{\link{allowmar}}
-
-Other Civil Liberties: 
-\code{\link{allowmar}}
+\code{\link{allowcom}},
+\code{\link{allowmar}},
+\code{\link{forbdcom}},
+\code{\link{forbdmar}},
+\code{\link{forbdrac}}
 }
 \concept{Civil Liberties}
 \keyword{variable}

@@ -35,34 +35,43 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/5063/vshow}
 
 \seealso{
 Other High Risk Behaviors: 
+\code{\link{acqntsex}},
+\code{\link{aidscndm}},
+\code{\link{aidslook}},
+\code{\link{condom}},
+\code{\link{crack30}},
+\code{\link{evcrack}},
+\code{\link{evidu}},
 \code{\link{evpaidsx}},
 \code{\link{evstray}},
+\code{\link{frndsex}},
+\code{\link{hivkiss}},
+\code{\link{hivtest}},
+\code{\link{hivtest1}},
+\code{\link{hivtest2}},
+\code{\link{hivvac}},
+\code{\link{idu30}},
+\code{\link{matesex}},
+\code{\link{nocondom}},
+\code{\link{nodocidu}},
 \code{\link{nummen}},
 \code{\link{numwomen}},
+\code{\link{othersex}},
+\code{\link{paidsex}},
+\code{\link{partners}},
 \code{\link{partnrs5}},
 \code{\link{partopen}},
+\code{\link{pikupsex}},
+\code{\link{ptnrsxnow1}},
+\code{\link{relatsex}},
+\code{\link{sexfreq}},
 \code{\link{sexfreq1}},
 \code{\link{sexfreq2}},
+\code{\link{sexornt}},
+\code{\link{sexornt1}},
+\code{\link{sexpaid}},
+\code{\link{sexsex}},
 \code{\link{sexsex5}}
-
-Other Sex: 
-\code{\link{evpaidsx}},
-\code{\link{evstray}},
-\code{\link{nummen}},
-\code{\link{numwomen}},
-\code{\link{partnrs5}},
-\code{\link{partopen}},
-\code{\link{sexfreq1}},
-\code{\link{sexfreq2}},
-\code{\link{sexsex5}}
-
-Other Split Ballots: 
-\code{\link{partnrs5}},
-\code{\link{partopen}},
-\code{\link{sexfreq1}},
-\code{\link{sexfreq2}}
 }
 \concept{High Risk Behaviors}
-\concept{Sex}
-\concept{Split Ballots}
 \keyword{variable}

@@ -27,8 +27,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
 #' @family Genes and the Environment
-#' @family Feelings
-#' @family Satisfaction
 #' 
 #' @keywords variable
 #' @md
@@ -62,7 +60,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes and the Environment
-#' @family Satisfaction
 #' 
 #' @keywords variable
 #' @md
@@ -96,7 +93,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes and the Environment
-#' @family Genetic Testing
 #' 
 #' @keywords variable
 #' @md
@@ -134,7 +130,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes and the Environment
-#' @family Satisfaction
 #' 
 #' @keywords variable
 #' @md
@@ -172,7 +167,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes and the Environment
-#' @family Satisfaction
 #' 
 #' @keywords variable
 #' @md
@@ -210,7 +204,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes and the Environment
-#' @family Satisfaction
 #' 
 #' @keywords variable
 #' @md
@@ -248,7 +241,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes and the Environment
-#' @family Satisfaction
 #' 
 #' @keywords variable
 #' @md
@@ -286,7 +278,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes and the Environment
-#' @family Satisfaction
 #' 
 #' @keywords variable
 #' @md
@@ -321,7 +312,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes and the Environment
-#' @family Interview
 #' 
 #' @keywords variable
 #' @md
@@ -358,7 +348,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruistic Love
-#' @family Values
 #' 
 #' @keywords variable
 #' @md

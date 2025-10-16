@@ -55,10 +55,6 @@ Other Military Service & Work:
 \code{\link{vetyears}},
 \code{\link{workdy}},
 \code{\link{workhr}}
-
-Other Veteran Status: 
-\code{\link{vetyears}}
 }
 \concept{Military Service & Work}
-\concept{Veteran Status}
 \keyword{variable}

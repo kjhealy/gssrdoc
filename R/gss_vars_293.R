@@ -27,7 +27,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
-#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -64,7 +63,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
-#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -105,7 +103,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
 #' @family Paradata
-#' @family Dwelling (R's)
 #' 
 #' @keywords variable
 #' @md
@@ -144,7 +141,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
-#' @family Computers And Internet
 #' 
 #' @keywords variable
 #' @md
@@ -184,8 +180,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Freedom
-#' @family Feelings
 #' @family Freedom
 #' 
 #' @keywords variable
@@ -227,8 +221,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
-#' @family Feelings
-#' @family Freedom
 #' 
 #' @keywords variable
 #' @md
@@ -268,8 +260,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Freedom
-#' @family Feelings
 #' @family Freedom
 #' 
 #' @keywords variable
@@ -312,7 +302,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
-#' @family Freedom
 #' 
 #' @keywords variable
 #' @md
@@ -354,7 +343,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
-#' @family Freedom
 #' 
 #' @keywords variable
 #' @md
@@ -395,7 +383,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Freedom
 #' @family Freedom
 #' 
 #' @keywords variable

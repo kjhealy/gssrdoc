@@ -23,10 +23,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Self Employment
-#' @family Business
-#' @family Corporations
-#' @family Employment
-#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -66,10 +62,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Self Employment
-#' @family Business
-#' @family Corporations
-#' @family Employment
-#' @family Income
 #' 
 #' @keywords variable
 #' @md
@@ -103,10 +95,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Self Employment
-#' @family Business
-#' @family Corporations
-#' @family Employment
-#' @family Income
 #' 
 #' @keywords variable
 #' @md
@@ -147,10 +135,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Self Employment
-#' @family Business
-#' @family Corporations
-#' @family Income
-#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -185,10 +169,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Self Employment
-#' @family Business
-#' @family Corporations
-#' @family Employment
-#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -220,9 +200,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Self Employment
-#' @family Business
-#' @family Employment
-#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -266,7 +243,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
-#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -301,9 +277,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
-#' @family Family
-#' @family Jews
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -338,8 +311,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
-#' @family Jews
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -374,7 +345,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
-#' @family Jews
 #' 
 #' @keywords variable
 #' @md

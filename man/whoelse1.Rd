@@ -49,18 +49,26 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/5550/vshow}
 
 \seealso{
 Other Paradata: 
-\code{\link{whoelse2}}
-
-Other Voluntary Associations: 
-\code{\link{bthgrp5d}},
-\code{\link{bthgrp5e}},
-\code{\link{frstgrp1}},
-\code{\link{frstgrp2}},
-\code{\link{frstgrp3}},
-\code{\link{frstgrp4}},
-\code{\link{frstgrp5}},
-\code{\link{whoelse2}}
+\code{\link{consent}},
+\code{\link{easyget}},
+\code{\link{feelevel}},
+\code{\link{feeused}},
+\code{\link{huclean}},
+\code{\link{intage}},
+\code{\link{intethn}},
+\code{\link{intid}},
+\code{\link{intsex}},
+\code{\link{intyrs}},
+\code{\link{lngthinv}},
+\code{\link{mode}()},
+\code{\link{saqgene}},
+\code{\link{saqissp}},
+\code{\link{saqsex}},
+\code{\link{whoelse2}},
+\code{\link{whoelse3}},
+\code{\link{whoelse4}},
+\code{\link{whoelse5}},
+\code{\link{whoelse6}}
 }
 \concept{Paradata}
-\concept{Voluntary Associations}
 \keyword{variable}

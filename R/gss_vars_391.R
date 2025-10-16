@@ -23,8 +23,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Shared Capitalism
-#' @family Job
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -57,8 +55,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Shared Capitalism
-#' @family Job
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -94,8 +90,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Shared Capitalism
-#' @family Employment
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -130,7 +124,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Shared Capitalism
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -178,8 +171,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Shared Capitalism
-#' @family Job
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -215,7 +206,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Shared Capitalism
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -250,7 +240,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Shared Capitalism
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -286,8 +275,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Shared Capitalism
-#' @family Job
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -336,8 +323,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Shared Capitalism
-#' @family Employment
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -372,8 +357,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Shared Capitalism
-#' @family Job
-#' @family Work
 #' 
 #' @keywords variable
 #' @md

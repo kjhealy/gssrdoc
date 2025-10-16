@@ -26,7 +26,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family ANES
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name whovotets
@@ -63,7 +62,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ANES
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name voteprob
@@ -94,7 +92,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ANES
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -127,7 +124,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ANES
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name ratechall1ts
@@ -158,7 +154,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ANES
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -191,7 +186,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ANES
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name ratechall3ts
@@ -222,7 +216,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -255,7 +248,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name chldfam_blk
@@ -287,7 +279,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name chldfam_hisp
@@ -318,7 +309,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
-#' 
 #' 
 #' @keywords variable
 #' @md

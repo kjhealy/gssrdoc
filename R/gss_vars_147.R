@@ -25,7 +25,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Inequality, Income
 #' 
 #' @keywords variable
 #' @md
@@ -60,7 +59,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
 #' @family Multiculturalism
-#' @family Values
 #' 
 #' @keywords variable
 #' @md
@@ -94,7 +92,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -130,7 +127,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Success
 #' 
 #' @keywords variable
 #' @md
@@ -166,7 +162,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Success
 #' 
 #' @keywords variable
 #' @md
@@ -202,7 +197,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Success
 #' 
 #' @keywords variable
 #' @md
@@ -238,7 +232,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Success
 #' 
 #' @keywords variable
 #' @md
@@ -273,7 +266,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Success
 #' 
 #' @keywords variable
 #' @md
@@ -310,7 +302,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Music
 #' 
 #' @keywords variable
 #' @md
@@ -347,7 +338,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Music
 #' 
 #' @keywords variable
 #' @md

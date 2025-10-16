@@ -23,7 +23,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Misc I
-#' @family Federal Government
 #' 
 #' @keywords variable
 #' @md
@@ -59,7 +58,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Misc I
-#' @family Media
 #' 
 #' @keywords variable
 #' @md
@@ -93,8 +91,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Misc I
-#' @family Social Mobility
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -127,7 +123,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Disability
-#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -160,7 +155,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Disability
-#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -193,7 +187,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Disability
-#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -226,7 +219,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Disability
-#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -259,7 +251,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Disability
-#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -292,7 +283,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Disability
-#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -325,7 +315,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Disability
-#' @family Health
 #' 
 #' @keywords variable
 #' @md

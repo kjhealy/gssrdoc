@@ -28,7 +28,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
-#' @family Unemployment
 #' 
 #' @keywords variable
 #' @md
@@ -66,7 +65,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
-#' @family Unemployment
 #' 
 #' @keywords variable
 #' @md
@@ -102,7 +100,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
-#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -137,7 +134,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -170,7 +166,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
-#' @family Employment
 #' 
 #' @keywords variable
 #' @md
@@ -211,7 +206,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
 #' @family ISSP Religion
-#' @family Happiness
 #' 
 #' @keywords variable
 #' @md
@@ -248,8 +242,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Courts
-#' @family Crime
 #' 
 #' @keywords variable
 #' @md
@@ -286,7 +278,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Capital Punishment
 #' 
 #' @keywords variable
 #' @md
@@ -325,7 +316,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -364,7 +354,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Sex
 #' 
 #' @keywords variable
 #' @md

@@ -68,12 +68,8 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/5291/vshow}
 \seealso{
 Other Residence: 
 \code{\link{dwelcity}},
-\code{\link{dwelngh}}
-
-Other Dwelling (R's): 
-\code{\link{dwelcity}},
-\code{\link{dwelngh}}
+\code{\link{dwelngh}},
+\code{\link{dwelown}}
 }
-\concept{Dwelling (R's)}
 \concept{Residence}
 \keyword{variable}

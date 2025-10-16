@@ -58,8 +58,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Income
-#' @family Satisfaction
 #' 
 #' @keywords variable
 #' @md
@@ -127,7 +125,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Income
 #' 
 #' @keywords variable
 #' @md
@@ -197,7 +194,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Income
 #' 
 #' @keywords variable
 #' @md
@@ -229,7 +225,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Income
 #' 
 #' @keywords variable
 #' @md
@@ -261,7 +256,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Income
 #' 
 #' @keywords variable
 #' @md
@@ -324,8 +318,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Job
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -389,7 +381,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -427,7 +418,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name wksub1
@@ -463,7 +453,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -526,8 +515,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Job
-#' @family Work
 #' 
 #' @keywords variable
 #' @md

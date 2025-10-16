@@ -38,12 +38,10 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/3707/vshow}
 
 \seealso{
 Other Misc I: 
-\code{\link{natdisin}}
-
-Other Federal Government: 
-\code{\link{natdisin}}
+\code{\link{getaheay}},
+\code{\link{natdiscm}},
+\code{\link{natdisin}},
+\code{\link{newsprnt}}
 }
-\concept{Federal Government}
 \concept{Misc I}
-\concept{Spending}
 \keyword{variable}

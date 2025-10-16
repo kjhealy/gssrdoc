@@ -28,7 +28,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name cvdtour
@@ -64,7 +63,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -102,7 +100,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name cvdarmus
@@ -138,7 +135,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -176,7 +172,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name cvdarpo
@@ -212,7 +207,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -250,7 +244,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name cvdpod
@@ -280,7 +273,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -320,7 +312,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name wrkwayup_next
@@ -357,7 +348,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
-#' 
 #' 
 #' @keywords variable
 #' @md

@@ -42,16 +42,10 @@ Other Genes:
 \code{\link{genedef2}},
 \code{\link{genedef3}},
 \code{\link{genegoo1}},
-\code{\link{geneself}}
-
-Other Genetic Testing: 
-\code{\link{geneabrt}},
-\code{\link{genedef1}},
-\code{\link{genedef2}},
-\code{\link{genedef3}},
-\code{\link{genegoo1}},
-\code{\link{geneself}}
+\code{\link{genegood}},
+\code{\link{geneself}},
+\code{\link{genetest}},
+\code{\link{genetst1}}
 }
 \concept{Genes}
-\concept{Genetic Testing}
 \keyword{variable}

@@ -47,26 +47,30 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/5322/vshow}
 \seealso{
 Other Religious Attendance and Identity: 
 \code{\link{attreg}},
+\code{\link{attrelig}},
+\code{\link{attweek}},
+\code{\link{cathid}},
+\code{\link{charisma}},
+\code{\link{eatout}},
 \code{\link{friday}},
+\code{\link{godoc}},
 \code{\link{mediarel}},
+\code{\link{monday}},
+\code{\link{numdays}},
 \code{\link{othrel}},
 \code{\link{othrel1}},
+\code{\link{othrel3}},
+\code{\link{relid1}},
+\code{\link{relid2}},
+\code{\link{relid3}},
+\code{\link{relidbst}},
+\code{\link{religid}},
 \code{\link{saturday}},
-\code{\link{thursday}},
-\code{\link{tuesday}},
-\code{\link{wednesdy}}
-
-Other Religion: 
-\code{\link{attreg}},
-\code{\link{friday}},
-\code{\link{mediarel}},
-\code{\link{othrel}},
-\code{\link{othrel1}},
-\code{\link{saturday}},
+\code{\link{seefilm}},
+\code{\link{sunday}},
 \code{\link{thursday}},
 \code{\link{tuesday}},
 \code{\link{wednesdy}}
 }
-\concept{Religion}
 \concept{Religious Attendance and Identity}
 \keyword{variable}

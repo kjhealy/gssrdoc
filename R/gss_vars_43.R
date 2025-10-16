@@ -35,7 +35,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family World View
 #' 
 #' @keywords variable
 #' @md
@@ -70,7 +69,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family World View
 #' 
 #' @keywords variable
 #' @md
@@ -105,8 +103,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Religion
-#' @family World View
 #' 
 #' @keywords variable
 #' @md
@@ -149,7 +145,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family World View
 #' 
 #' @keywords variable
 #' @md
@@ -184,7 +179,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family World View
 #' 
 #' @keywords variable
 #' @md
@@ -219,7 +213,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family World View
 #' 
 #' @keywords variable
 #' @md
@@ -254,7 +247,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family World View
 #' 
 #' @keywords variable
 #' @md
@@ -289,7 +281,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -324,7 +315,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -360,7 +350,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md

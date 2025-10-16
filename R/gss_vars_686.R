@@ -23,7 +23,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name chldchld_oth
@@ -54,7 +53,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -87,7 +85,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name chldshop_blk
@@ -118,7 +115,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -151,7 +147,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name chldshop_wht
@@ -182,7 +177,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -217,7 +211,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
-#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -297,8 +290,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
-#' @family Ethnicity
-#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -343,8 +334,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Workplace Conflict
-#' @family Business
-#' @family Employment
 #' 
 #' @keywords variable
 #' @md
@@ -386,7 +375,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Ethnicity
-#' @family Citizenship
 #' 
 #' @keywords variable
 #' @md

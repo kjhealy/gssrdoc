@@ -36,18 +36,10 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/4984/vshow}
 \seealso{
 Other Civil Liberties: 
 \code{\link{allowcom}},
-\code{\link{forbdmar}},
-\code{\link{forbdrac}}
-
-Other Civil Liberties: 
-\code{\link{allowcom}},
-\code{\link{forbdmar}},
-\code{\link{forbdrac}}
-
-Other Split Ballots: 
+\code{\link{allowmar}},
+\code{\link{allowrac}},
 \code{\link{forbdmar}},
 \code{\link{forbdrac}}
 }
 \concept{Civil Liberties}
-\concept{Split Ballots}
 \keyword{variable}

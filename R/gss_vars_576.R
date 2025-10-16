@@ -23,7 +23,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Racial/Ethnic Identity
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name racethwh
@@ -54,7 +53,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Racial/Ethnic Identity
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -87,7 +85,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Racial/Ethnic Identity
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name racethbl
@@ -118,7 +115,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Racial/Ethnic Identity
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -151,7 +147,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Racial/Ethnic Identity
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name racethna
@@ -182,7 +177,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Racial/Ethnic Identity
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -220,7 +214,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -263,7 +256,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Ethnicity
-#' @family Citizenship
 #' 
 #' @keywords variable
 #' @md
@@ -305,8 +297,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Ethnicity
-#' @family Citizenship
-#' @family Immigration
 #' 
 #' @keywords variable
 #' @md
@@ -339,7 +329,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable

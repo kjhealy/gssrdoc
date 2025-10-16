@@ -27,7 +27,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
-#' @family Federal Government
 #' 
 #' @keywords variable
 #' @md
@@ -64,7 +63,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
-#' @family Federal Government
 #' 
 #' @keywords variable
 #' @md
@@ -101,7 +99,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
-#' @family Federal Government
 #' 
 #' @keywords variable
 #' @md
@@ -139,7 +136,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
-#' @family Federal Government
 #' 
 #' @keywords variable
 #' @md
@@ -177,7 +173,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -215,7 +210,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -253,7 +247,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -291,7 +284,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -329,7 +321,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -367,7 +358,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
-#' @family United States
 #' 
 #' @keywords variable
 #' @md

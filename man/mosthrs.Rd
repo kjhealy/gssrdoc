@@ -35,7 +35,10 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/6293/vshow}
 
 \seealso{
 Other Flexible Work: 
+\code{\link{advsched}},
+\code{\link{leasthrs}},
 \code{\link{paidhow}},
+\code{\link{sethrs}},
 \code{\link{usualhrs}}
 }
 \concept{Flexible Work}

@@ -39,13 +39,9 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/3056/vshow}
 
 \seealso{
 Other Altruistic Love: 
-\code{\link{agape2}},
-\code{\link{agape3}}
-
-Other Values: 
+\code{\link{agape1}},
 \code{\link{agape2}},
 \code{\link{agape3}}
 }
 \concept{Altruistic Love}
-\concept{Values}
 \keyword{variable}

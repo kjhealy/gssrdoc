@@ -43,17 +43,6 @@ Other Military Service & Work:
 \code{\link{vetkind}},
 \code{\link{vetyears}},
 \code{\link{workhr}}
-
-Other Job: 
-\code{\link{spdays}},
-\code{\link{sphour}}
-
-Other Work: 
-\code{\link{spdays}},
-\code{\link{sphour}},
-\code{\link{workhr}}
 }
-\concept{Job}
 \concept{Military Service & Work}
-\concept{Work}
 \keyword{variable}

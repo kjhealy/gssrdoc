@@ -25,8 +25,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
-#' @family Cohabitation
-#' @family Marriage
 #' 
 #' @keywords variable
 #' @md
@@ -61,8 +59,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
-#' @family Cohabitation
-#' @family Marriage
 #' 
 #' @keywords variable
 #' @md
@@ -102,7 +98,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
-#' @family Marriage
 #' 
 #' @keywords variable
 #' @md
@@ -141,7 +136,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
 #' @family ISSP Family & Gender Roles
-#' @family Marriage
 #' 
 #' @keywords variable
 #' @md
@@ -179,7 +173,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
-#' @family Marriage
 #' 
 #' @keywords variable
 #' @md
@@ -217,7 +210,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
-#' @family Marriage
 #' 
 #' @keywords variable
 #' @md
@@ -256,7 +248,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
-#' @family Marriage
 #' 
 #' @keywords variable
 #' @md
@@ -297,7 +288,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
-#' @family Marriage
 #' 
 #' @keywords variable
 #' @md
@@ -335,8 +325,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
-#' @family Marriage
-#' @family Parents
 #' 
 #' @keywords variable
 #' @md
@@ -374,8 +362,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
-#' @family Marriage
-#' @family Parents
 #' 
 #' @keywords variable
 #' @md

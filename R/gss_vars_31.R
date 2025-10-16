@@ -26,7 +26,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Civil Liberties
 #' 
 #' @keywords variable
 #' @md
@@ -86,7 +85,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Civil Liberties
 #' 
 #' @keywords variable
 #' @md
@@ -146,7 +144,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Civil Liberties
 #' 
 #' @keywords variable
 #' @md
@@ -206,7 +203,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Civil Liberties
 #' 
 #' @keywords variable
 #' @md
@@ -270,7 +266,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Civil Liberties
 #' 
 #' @keywords variable
 #' @md
@@ -334,7 +329,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Civil Liberties
 #' 
 #' @keywords variable
 #' @md
@@ -398,7 +392,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Civil Liberties
 #' 
 #' @keywords variable
 #' @md
@@ -457,7 +450,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Civil Liberties
 #' 
 #' @keywords variable
 #' @md
@@ -516,7 +508,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Civil Liberties
 #' 
 #' @keywords variable
 #' @md
@@ -575,7 +566,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Civil Liberties
 #' 
 #' @keywords variable
 #' @md

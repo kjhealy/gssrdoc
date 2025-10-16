@@ -25,7 +25,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Shared Capitalism
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -58,7 +57,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Shared Capitalism
-#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -93,7 +91,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -131,7 +128,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name esopnot
@@ -163,7 +159,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -203,7 +198,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health III
-#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -236,7 +230,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health III
-#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -271,7 +264,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health III
-#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -306,7 +298,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health III
-#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -341,7 +332,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health III
-#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md

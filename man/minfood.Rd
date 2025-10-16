@@ -34,10 +34,14 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/5203/vshow}
 
 \seealso{
 Other Income: 
-\code{\link{minthree}}
-
-Other Income: 
-\code{\link{minthree}}
+\code{\link{coninc}},
+\code{\link{conrinc}},
+\code{\link{incdef}},
+\code{\link{minfour}},
+\code{\link{minthree}},
+\code{\link{povline}},
+\code{\link{realinc}},
+\code{\link{realrinc}}
 }
 \concept{Income}
 \keyword{variable}

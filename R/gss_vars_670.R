@@ -21,7 +21,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name wtssnrps_nea
@@ -51,7 +50,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name wtssps_next
@@ -79,7 +77,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -114,7 +111,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name neaeligible
@@ -147,7 +143,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name nexteligible
@@ -179,7 +174,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -216,7 +210,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name conlabory
@@ -249,7 +242,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -286,7 +278,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name marsamey
@@ -318,7 +309,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' 
 #' 
 #' @keywords variable
 #' @md

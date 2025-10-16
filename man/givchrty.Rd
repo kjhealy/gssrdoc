@@ -43,26 +43,31 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/2882/vshow}
 
 \seealso{
 Other Altruism: 
+\code{\link{accptoth}},
+\code{\link{careself}},
+\code{\link{carried}},
 \code{\link{cutahead}},
+\code{\link{directns}},
+\code{\link{empathy1}},
+\code{\link{empathy2}},
+\code{\link{empathy3}},
+\code{\link{empathy4}},
 \code{\link{empathy5}},
 \code{\link{empathy6}},
 \code{\link{empathy7}},
 \code{\link{givblood}},
 \code{\link{givhmlss}},
 \code{\link{givseat}},
+\code{\link{helpaway}},
+\code{\link{loanitem}},
+\code{\link{othshelp}},
+\code{\link{peoptrbl}},
 \code{\link{retchnge}},
-\code{\link{volchrty}}
-
-Other Altruism: 
-\code{\link{cutahead}},
-\code{\link{empathy5}},
-\code{\link{empathy6}},
-\code{\link{empathy7}},
-\code{\link{givblood}},
-\code{\link{givhmlss}},
-\code{\link{givseat}},
-\code{\link{retchnge}},
-\code{\link{volchrty}}
+\code{\link{selffrst}},
+\code{\link{selfless}},
+\code{\link{valgiven}},
+\code{\link{volchrty}},
+\code{\link{volmonth}}
 }
 \concept{Altruism}
 \keyword{variable}

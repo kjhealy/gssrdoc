@@ -25,7 +25,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes
-#' @family Genetic Testing
 #' 
 #' @keywords variable
 #' @md
@@ -60,7 +59,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes
-#' @family Genetic Testing
 #' 
 #' @keywords variable
 #' @md
@@ -97,7 +95,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes
-#' @family Genetic Testing
 #' 
 #' @keywords variable
 #' @md
@@ -134,8 +131,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes
-#' @family Abortion
-#' @family Genetic Testing
 #' 
 #' @keywords variable
 #' @md
@@ -170,7 +165,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name maleornt
@@ -203,7 +197,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name geneself2
@@ -234,7 +227,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -304,7 +296,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes
-#' @family Genetic Testing
 #' 
 #' @keywords variable
 #' @md
@@ -373,7 +364,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes
-#' @family Genetic Testing
 #' 
 #' @keywords variable
 #' @md
@@ -442,7 +432,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes
-#' @family Genetic Testing
 #' 
 #' @keywords variable
 #' @md

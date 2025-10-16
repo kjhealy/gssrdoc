@@ -51,28 +51,17 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/5494/vshow}
 Other War and International: 
 \code{\link{canada}},
 \code{\link{china}},
+\code{\link{commun}},
+\code{\link{commun10}},
 \code{\link{egypt}},
 \code{\link{england}},
 \code{\link{israel}},
-\code{\link{japan}}
-
-Other Countries: 
-\code{\link{canada}},
-\code{\link{china}},
-\code{\link{egypt}},
-\code{\link{england}},
-\code{\link{israel}},
-\code{\link{japan}}
-
-Other Split Ballots: 
-\code{\link{canada}},
-\code{\link{china}},
-\code{\link{egypt}},
-\code{\link{england}},
-\code{\link{israel}},
-\code{\link{japan}}
+\code{\link{japan}},
+\code{\link{russia}},
+\code{\link{usintl}},
+\code{\link{usun}},
+\code{\link{uswar}},
+\code{\link{uswary}}
 }
-\concept{Countries}
-\concept{Split Ballots}
 \concept{War and International}
 \keyword{variable}

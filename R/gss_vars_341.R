@@ -27,7 +27,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruistic Love
-#' @family Values
 #' 
 #' @keywords variable
 #' @md
@@ -64,7 +63,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruistic Love
-#' @family Values
 #' 
 #' @keywords variable
 #' @md
@@ -101,7 +99,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruistic Love
-#' @family Values
 #' 
 #' @keywords variable
 #' @md
@@ -133,7 +130,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Guns
 #' @family Guns
 #' 
 #' @keywords variable
@@ -168,7 +164,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Guns
-#' @family Guns
 #' 
 #' @keywords variable
 #' @md
@@ -201,7 +196,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Guns
-#' @family Guns
 #' 
 #' @keywords variable
 #' @md
@@ -233,7 +227,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Guns
 #' @family Guns
 #' 
 #' @keywords variable
@@ -272,7 +265,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -304,7 +296,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -337,7 +328,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md

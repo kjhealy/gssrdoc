@@ -60,25 +60,11 @@ Other Income:
 \code{\link{coninc}},
 \code{\link{conrinc}},
 \code{\link{incdef}},
+\code{\link{minfood}},
 \code{\link{minfour}},
+\code{\link{minthree}},
 \code{\link{realinc}},
 \code{\link{realrinc}}
-
-Other Household: 
-\code{\link{incdef}}
-
-Other Income: 
-\code{\link{coninc}},
-\code{\link{conrinc}},
-\code{\link{incdef}},
-\code{\link{minfour}},
-\code{\link{realinc}},
-\code{\link{realrinc}}
-
-Other Poverty: 
-\code{\link{incdef}}
 }
-\concept{Household}
 \concept{Income}
-\concept{Poverty}
 \keyword{variable}

@@ -28,7 +28,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name physacts
@@ -63,7 +62,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -102,7 +100,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name fatigue
@@ -133,7 +130,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -169,7 +165,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name abfelegl
@@ -201,7 +196,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -238,7 +232,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name abmoral
@@ -274,7 +267,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name abstate1
@@ -306,7 +298,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -341,7 +332,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
-#' 
 #' 
 #' @keywords variable
 #' @md

@@ -59,27 +59,16 @@ Other War and International:
 \code{\link{brazil}},
 \code{\link{canada}},
 \code{\link{china}},
+\code{\link{commun}},
+\code{\link{commun10}},
 \code{\link{england}},
 \code{\link{israel}},
-\code{\link{japan}}
-
-Other Countries: 
-\code{\link{brazil}},
-\code{\link{canada}},
-\code{\link{china}},
-\code{\link{england}},
-\code{\link{israel}},
-\code{\link{japan}}
-
-Other Split Ballots: 
-\code{\link{brazil}},
-\code{\link{canada}},
-\code{\link{china}},
-\code{\link{england}},
-\code{\link{israel}},
-\code{\link{japan}}
+\code{\link{japan}},
+\code{\link{russia}},
+\code{\link{usintl}},
+\code{\link{usun}},
+\code{\link{uswar}},
+\code{\link{uswary}}
 }
-\concept{Countries}
-\concept{Split Ballots}
 \concept{War and International}
 \keyword{variable}

@@ -36,34 +36,34 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/3927/vshow}
 
 \seealso{
 Other Sexual Orientation: 
+\code{\link{adoptkid}},
+\code{\link{attractd}},
+\code{\link{emphlth1}},
+\code{\link{emphlth2}},
 \code{\link{evdwell}},
 \code{\link{evharjb}},
+\code{\link{evkid}},
 \code{\link{evlosejb}},
 \code{\link{evnegjob}},
 \code{\link{harjob5}},
+\code{\link{hlthcovr}},
+\code{\link{hlthtype}},
+\code{\link{kidlived}},
+\code{\link{kidnow1}},
 \code{\link{kidnow2}},
+\code{\link{kidresp}},
 \code{\link{losejob5}},
+\code{\link{marunion}},
+\code{\link{mykids}},
 \code{\link{negjob5}},
+\code{\link{othkids}},
+\code{\link{relgendr}},
+\code{\link{sexsex18}},
+\code{\link{sexunion}},
+\code{\link{sppart}},
+\code{\link{toldsmsx}},
+\code{\link{toldsxor}},
 \code{\link{toldwork}}
-
-Other Dwelling (R's): 
-\code{\link{evdwell}}
-
-Other Gays And Lesbians: 
-\code{\link{evdwell}},
-\code{\link{evharjb}},
-\code{\link{evlosejb}},
-\code{\link{evnegjob}},
-\code{\link{harjob5}},
-\code{\link{losejob5}},
-\code{\link{negjob5}},
-\code{\link{toldwork}}
-
-Other Residence: 
-\code{\link{evdwell}}
 }
-\concept{Dwelling (R's)}
-\concept{Gays And Lesbians}
-\concept{Residence}
 \concept{Sexual Orientation}
 \keyword{variable}

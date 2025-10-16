@@ -28,7 +28,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
-#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -65,7 +64,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Children
 #' @family Children
 #' 
 #' @keywords variable
@@ -104,7 +102,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
-#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -141,7 +138,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Children
 #' @family Children
 #' 
 #' @keywords variable
@@ -180,7 +176,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
-#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -217,7 +212,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Children
 #' @family Children
 #' 
 #' @keywords variable
@@ -256,8 +250,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
-#' @family Children
-#' @family Drug Use And Addiction
 #' 
 #' @keywords variable
 #' @md
@@ -294,7 +286,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Children
 #' @family Children
 #' 
 #' @keywords variable
@@ -333,8 +324,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
-#' @family Birth Control
-#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -372,8 +361,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
-#' @family Life Events
-#' @family Trauma
 #' 
 #' @keywords variable
 #' @md

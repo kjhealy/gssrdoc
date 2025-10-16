@@ -26,7 +26,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Citizenship
 #' 
 #' @keywords variable
 #' @md
@@ -62,7 +61,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Citizenship
 #' 
 #' @keywords variable
 #' @md
@@ -98,7 +96,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Citizenship
 #' 
 #' @keywords variable
 #' @md
@@ -134,7 +131,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Citizenship
 #' 
 #' @keywords variable
 #' @md
@@ -194,8 +190,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Federal Government
-#' @family Inequality, Income
 #' 
 #' @keywords variable
 #' @md
@@ -256,7 +250,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Federal Government
 #' 
 #' @keywords variable
 #' @md
@@ -315,8 +308,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Federal Government
-#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -375,9 +366,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Affirmative Action
-#' @family Federal Government
-#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -413,7 +401,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -447,7 +434,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Social Networks
 #' @family Social Networks
 #' 
 #' @keywords variable

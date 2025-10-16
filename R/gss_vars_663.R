@@ -26,7 +26,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name firstkidsex
@@ -60,7 +59,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -96,7 +94,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name femself
@@ -130,7 +127,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -173,7 +169,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -233,7 +228,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name denom_next
@@ -269,7 +263,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name jew_next
@@ -299,7 +292,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -335,7 +327,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name racdif1x
@@ -367,7 +358,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable

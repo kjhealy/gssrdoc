@@ -24,8 +24,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
-#' @family Jews
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -59,7 +57,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -104,9 +101,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
-#' @family Children
-#' @family Jews
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -151,9 +145,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
-#' @family Children
-#' @family Jews
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -198,9 +189,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
-#' @family Children
-#' @family Jews
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -244,9 +232,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
-#' @family Children
-#' @family Jews
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -290,9 +275,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
-#' @family Children
-#' @family Jews
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -336,9 +318,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
-#' @family Children
-#' @family Jews
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -382,9 +361,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
-#' @family Children
-#' @family Jews
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -428,9 +404,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
-#' @family Children
-#' @family Jews
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md

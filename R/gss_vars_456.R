@@ -22,7 +22,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Residence
 #' 
 #' @keywords variable
 #' @md
@@ -54,7 +53,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Residence
 #' 
 #' @keywords variable
 #' @md
@@ -94,7 +92,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -128,7 +125,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Siblings
 #' 
 #' @keywords variable
 #' @md
@@ -162,7 +158,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -200,7 +195,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -237,7 +231,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -272,7 +265,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
 #' @family ISSP Social Networks & Support Systems
-#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -306,7 +298,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -344,7 +335,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Family
 #' 
 #' @keywords variable
 #' @md

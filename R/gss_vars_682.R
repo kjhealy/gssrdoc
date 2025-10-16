@@ -26,7 +26,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name rumopeer
@@ -60,7 +59,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -96,7 +94,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name schshoot
@@ -130,7 +127,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -166,7 +162,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name negself
@@ -200,7 +195,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -236,7 +230,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name risklife
@@ -271,7 +264,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name takelife
@@ -305,7 +297,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name sexornt1
@@ -338,7 +329,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
-#' @family Health
 #' 
 #' @keywords variable
 #' @md

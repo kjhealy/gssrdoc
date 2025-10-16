@@ -25,7 +25,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name artwhy3
@@ -58,7 +57,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -93,7 +91,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name artwhy5
@@ -126,7 +123,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -161,7 +157,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name artwhy7
@@ -193,7 +188,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -239,7 +233,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name artwhy9
@@ -271,7 +264,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -306,7 +298,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name nogo1
@@ -339,7 +330,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
-#' 
 #' 
 #' @keywords variable
 #' @md

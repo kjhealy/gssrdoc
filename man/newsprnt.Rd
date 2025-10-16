@@ -39,8 +39,9 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/3710/vshow}
 \seealso{
 Other Misc I: 
 \code{\link{getaheay}},
-\code{\link{natdiscm}}
+\code{\link{natdiscm}},
+\code{\link{natdisin}},
+\code{\link{spnatdis}}
 }
-\concept{Media}
 \concept{Misc I}
 \keyword{variable}

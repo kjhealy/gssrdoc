@@ -35,8 +35,11 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/4989/vshow}
 
 \seealso{
 Other Civil Liberties: 
-\code{\link{allowrac}}
+\code{\link{allowcom}},
+\code{\link{allowrac}},
+\code{\link{forbdcom}},
+\code{\link{forbdmar}},
+\code{\link{forbdrac}}
 }
 \concept{Civil Liberties}
-\concept{Race}
 \keyword{variable}

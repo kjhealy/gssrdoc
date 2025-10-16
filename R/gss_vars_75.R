@@ -32,7 +32,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Guns
 #' 
 #' @keywords variable
 #' @md
@@ -79,7 +78,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Violence
 #' 
 #' @keywords variable
 #' @md
@@ -127,7 +125,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Violence
 #' 
 #' @keywords variable
 #' @md
@@ -175,8 +172,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Drinking
-#' @family Violence
 #' 
 #' @keywords variable
 #' @md
@@ -224,7 +219,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Violence
 #' 
 #' @keywords variable
 #' @md
@@ -272,7 +266,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Violence
 #' 
 #' @keywords variable
 #' @md
@@ -320,7 +313,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Violence
 #' 
 #' @keywords variable
 #' @md
@@ -382,8 +374,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Police
-#' @family Violence
 #' 
 #' @keywords variable
 #' @md
@@ -446,8 +436,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Police
-#' @family Violence
 #' 
 #' @keywords variable
 #' @md
@@ -510,8 +498,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Police
-#' @family Violence
 #' 
 #' @keywords variable
 #' @md

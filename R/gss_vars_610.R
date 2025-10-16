@@ -26,8 +26,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
-#' @family Dwelling (R's)
-#' @family Residence
 #' 
 #' @keywords variable
 #' @md
@@ -63,8 +61,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
-#' @family Dwelling (R's)
-#' @family Residence
 #' 
 #' @keywords variable
 #' @md
@@ -99,7 +95,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -137,7 +132,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name hlthstrt
@@ -170,7 +164,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -215,7 +208,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name huaddwhy
@@ -258,7 +250,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name dwellpre
@@ -290,7 +281,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -327,7 +317,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name respond
@@ -361,7 +350,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable

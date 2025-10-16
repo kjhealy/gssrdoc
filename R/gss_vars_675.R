@@ -27,7 +27,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name intsearch
@@ -62,7 +61,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -99,7 +97,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name intstream
@@ -134,7 +131,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -171,7 +167,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name intmeet
@@ -206,7 +201,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -243,7 +237,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name inttrig
@@ -278,7 +271,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -315,7 +307,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name intcnfrm
@@ -347,7 +338,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
-#' 
 #' 
 #' @keywords variable
 #' @md

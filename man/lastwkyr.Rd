@@ -35,15 +35,26 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/2869/vshow}
 
 \seealso{
 Other Employee Compensation: 
+\code{\link{compperf}},
 \code{\link{cowrkhrd}},
+\code{\link{deptperf}},
 \code{\link{donothng}},
+\code{\link{extr2001}},
+\code{\link{extrapay}},
+\code{\link{extraval}},
+\code{\link{extrayr}},
+\code{\link{indperf}},
 \code{\link{lastwkmo}},
+\code{\link{ownstock}},
+\code{\link{seecowrk}},
+\code{\link{stockops}},
+\code{\link{stockval}},
 \code{\link{talkemp}},
-\code{\link{talksup}}
-
-Other Work: 
-\code{\link{lastwkmo}}
+\code{\link{talksup}},
+\code{\link{workfor}},
+\code{\link{workfor1}},
+\code{\link{yearval}},
+\code{\link{yearval1}}
 }
 \concept{Employee Compensation}
-\concept{Work}
 \keyword{variable}

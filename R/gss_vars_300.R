@@ -26,7 +26,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
-#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -62,7 +61,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
-#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -97,7 +95,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
-#' @family Ethnicity
 #' 
 #' @keywords variable
 #' @md
@@ -134,7 +131,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
-#' @family Ethnicity
 #' 
 #' @keywords variable
 #' @md
@@ -171,7 +167,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
-#' @family Ethnicity
 #' 
 #' @keywords variable
 #' @md
@@ -208,7 +203,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
-#' @family Ethnicity
 #' 
 #' @keywords variable
 #' @md
@@ -245,7 +239,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
-#' @family Ethnicity
 #' 
 #' @keywords variable
 #' @md
@@ -278,7 +271,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
-#' @family Blacks
 #' 
 #' @keywords variable
 #' @md
@@ -311,7 +303,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
-#' @family Asian Americans
 #' 
 #' @keywords variable
 #' @md
@@ -344,7 +335,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
-#' @family Hispanics
 #' 
 #' @keywords variable
 #' @md

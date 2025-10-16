@@ -37,14 +37,8 @@ Other Income:
 \code{\link{coninc}},
 \code{\link{conrinc}},
 \code{\link{incdef}},
-\code{\link{povline}},
-\code{\link{realinc}},
-\code{\link{realrinc}}
-
-Other Income: 
-\code{\link{coninc}},
-\code{\link{conrinc}},
-\code{\link{incdef}},
+\code{\link{minfood}},
+\code{\link{minthree}},
 \code{\link{povline}},
 \code{\link{realinc}},
 \code{\link{realrinc}}

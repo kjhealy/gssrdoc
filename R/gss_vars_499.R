@@ -27,7 +27,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
-#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -65,9 +64,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
-#' @family Employment
-#' @family Job
-#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -105,9 +101,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
-#' @family Employment
-#' @family Job
-#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -145,9 +138,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
-#' @family Employment
-#' @family Job
-#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -185,9 +175,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
-#' @family Employment
-#' @family Job
-#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -225,9 +212,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
-#' @family Employment
-#' @family Job
-#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -265,9 +249,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
-#' @family Employment
-#' @family Job
-#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -305,9 +286,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
-#' @family Employment
-#' @family Job
-#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -343,9 +321,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
-#' @family Employment
-#' @family Job
-#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -385,7 +360,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
-#' @family Job
 #' 
 #' @keywords variable
 #' @md

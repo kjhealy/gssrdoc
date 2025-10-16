@@ -27,7 +27,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name aiworry
@@ -60,7 +59,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name aimed
@@ -92,7 +90,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -129,7 +126,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name owndecns
@@ -163,7 +159,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -200,7 +195,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name immcrime1
@@ -235,7 +229,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -273,7 +266,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name immideas1
@@ -309,7 +301,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name immwlfare
@@ -341,7 +332,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
-#' 
 #' 
 #' @keywords variable
 #' @md

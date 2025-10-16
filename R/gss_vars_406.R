@@ -26,8 +26,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
-#' @family Race
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -63,7 +61,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gun Control
-#' @family Guns
 #' 
 #' @keywords variable
 #' @md
@@ -97,7 +94,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gun Control
-#' @family Guns
 #' 
 #' @keywords variable
 #' @md
@@ -130,7 +126,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gun Control
-#' @family Guns
 #' 
 #' @keywords variable
 #' @md
@@ -163,7 +158,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gun Control
-#' @family Guns
 #' 
 #' @keywords variable
 #' @md
@@ -196,7 +190,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gun Control
-#' @family Guns
 #' 
 #' @keywords variable
 #' @md
@@ -230,7 +223,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gun Control
-#' @family Guns
 #' 
 #' @keywords variable
 #' @md
@@ -263,7 +255,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gun Control
-#' @family Guns
 #' 
 #' @keywords variable
 #' @md
@@ -299,8 +290,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Misc I
-#' @family Federal Government
-#' @family Spending
 #' 
 #' @keywords variable
 #' @md
@@ -333,7 +322,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Misc I
-#' @family Federal Government
 #' 
 #' @keywords variable
 #' @md

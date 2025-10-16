@@ -23,9 +23,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
-#' @family Contribute Money To
-#' @family Religion
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -58,9 +55,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
-#' @family Contribute Money To
-#' @family Political
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -94,8 +88,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
-#' @family Contribute Money To
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -127,7 +119,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -158,7 +149,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Religion
 #' @family Religion
 #' 
 #' @keywords variable
@@ -195,7 +185,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -229,7 +218,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
-#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -263,8 +251,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
-#' @family Children
-#' @family Education
 #' 
 #' @keywords variable
 #' @md
@@ -300,8 +286,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
-#' @family Children
-#' @family Education
 #' 
 #' @keywords variable
 #' @md
@@ -337,8 +321,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
-#' @family Children
-#' @family Education
 #' 
 #' @keywords variable
 #' @md

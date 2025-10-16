@@ -27,7 +27,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name incgap1
@@ -59,7 +58,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -94,7 +92,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -131,7 +128,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name fulldem
@@ -166,7 +162,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -203,7 +198,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name conpow
@@ -238,7 +232,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -275,7 +268,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name experts
@@ -311,7 +303,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name biasnews
@@ -345,7 +336,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
-#' 
 #' 
 #' @keywords variable
 #' @md

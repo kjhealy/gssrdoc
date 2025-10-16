@@ -24,8 +24,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' @family Sex
-#' @family Siblings
 #' 
 #' @keywords variable
 #' @md
@@ -59,8 +57,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' @family Sex
-#' @family Siblings
 #' 
 #' @keywords variable
 #' @md
@@ -94,8 +90,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' @family Sex
-#' @family Siblings
 #' 
 #' @keywords variable
 #' @md
@@ -128,8 +122,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' @family Date Of Birth
-#' @family Siblings
 #' 
 #' @keywords variable
 #' @md
@@ -162,8 +154,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' @family Date Of Birth
-#' @family Siblings
 #' 
 #' @keywords variable
 #' @md
@@ -196,8 +186,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' @family Date Of Birth
-#' @family Siblings
 #' 
 #' @keywords variable
 #' @md
@@ -230,8 +218,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' @family Date Of Birth
-#' @family Siblings
 #' 
 #' @keywords variable
 #' @md
@@ -264,8 +250,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' @family Date Of Birth
-#' @family Siblings
 #' 
 #' @keywords variable
 #' @md
@@ -298,8 +282,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' @family Date Of Birth
-#' @family Siblings
 #' 
 #' @keywords variable
 #' @md
@@ -332,8 +314,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' @family Date Of Birth
-#' @family Siblings
 #' 
 #' @keywords variable
 #' @md

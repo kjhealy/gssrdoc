@@ -27,7 +27,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
-#' @family Adult Transitions
 #' 
 #' @keywords variable
 #' @md
@@ -60,7 +59,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Adult Transitions
 #' @family Adult Transitions
 #' 
 #' @keywords variable
@@ -98,7 +96,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
-#' @family Adult Transitions
 #' 
 #' @keywords variable
 #' @md
@@ -131,7 +128,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Adult Transitions
 #' @family Adult Transitions
 #' 
 #' @keywords variable
@@ -169,7 +165,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
-#' @family Adult Transitions
 #' 
 #' @keywords variable
 #' @md
@@ -202,7 +197,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Adult Transitions
 #' @family Adult Transitions
 #' 
 #' @keywords variable
@@ -237,7 +231,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
-#' @family Demonstrations
 #' 
 #' @keywords variable
 #' @md
@@ -271,7 +264,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
-#' @family Demonstrations
 #' 
 #' @keywords variable
 #' @md
@@ -305,7 +297,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
-#' @family Demonstrations
 #' 
 #' @keywords variable
 #' @md
@@ -339,7 +330,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
-#' @family Demonstrations
 #' 
 #' @keywords variable
 #' @md

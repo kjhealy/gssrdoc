@@ -26,7 +26,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Social Class
 #' 
 #' @keywords variable
 #' @md
@@ -62,8 +61,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Social Class
-#' @family Social Mobility
 #' 
 #' @keywords variable
 #' @md
@@ -99,7 +96,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Social Class
 #' 
 #' @keywords variable
 #' @md
@@ -135,8 +131,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Social Class
-#' @family Social Mobility
 #' 
 #' @keywords variable
 #' @md
@@ -172,8 +166,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Social Class
-#' @family Social Mobility
 #' 
 #' @keywords variable
 #' @md
@@ -209,8 +201,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Social Class
-#' @family Social Mobility
 #' 
 #' @keywords variable
 #' @md
@@ -246,7 +236,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Social Class
 #' 
 #' @keywords variable
 #' @md
@@ -282,7 +271,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Social Class
 #' 
 #' @keywords variable
 #' @md
@@ -318,8 +306,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Social Class
-#' @family Social Mobility
 #' 
 #' @keywords variable
 #' @md
@@ -355,7 +341,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Social Class
 #' 
 #' @keywords variable
 #' @md

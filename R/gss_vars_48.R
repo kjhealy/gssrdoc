@@ -25,8 +25,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Race
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -61,8 +59,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Race
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -97,7 +93,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -132,7 +127,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -166,7 +160,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -200,7 +193,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -234,7 +226,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -284,8 +275,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Affirmative Action
-#' @family Federal Government
 #' 
 #' @keywords variable
 #' @md
@@ -336,10 +325,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Blacks
-#' @family Opportunity
-#' @family Race
-#' @family Social Mobility
 #' 
 #' @keywords variable
 #' @md
@@ -377,8 +362,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Blacks
-#' @family Race
 #' 
 #' @keywords variable
 #' @md

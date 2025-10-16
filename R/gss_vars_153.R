@@ -27,8 +27,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Marriage
-#' @family Values
 #' 
 #' @keywords variable
 #' @md
@@ -65,8 +63,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Children
-#' @family Values
 #' 
 #' @keywords variable
 #' @md
@@ -103,8 +99,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Religion
-#' @family Values
 #' 
 #' @keywords variable
 #' @md
@@ -141,7 +135,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Values
 #' 
 #' @keywords variable
 #' @md
@@ -178,7 +171,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Values
 #' 
 #' @keywords variable
 #' @md
@@ -215,8 +207,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Values
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -253,7 +243,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Values
 #' 
 #' @keywords variable
 #' @md
@@ -287,7 +276,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family World Events
 #' 
 #' @keywords variable
 #' @md
@@ -321,7 +309,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family World Events
 #' 
 #' @keywords variable
 #' @md
@@ -355,7 +342,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family World Events
 #' 
 #' @keywords variable
 #' @md

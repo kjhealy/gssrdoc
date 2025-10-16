@@ -30,7 +30,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name agehef10
@@ -67,7 +66,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -108,7 +106,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name agehef12
@@ -145,7 +142,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -186,7 +182,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name agehef14
@@ -216,7 +211,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -262,7 +256,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name hhtype1_exp
@@ -294,7 +287,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -336,7 +328,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name subsamprate
@@ -364,7 +355,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable

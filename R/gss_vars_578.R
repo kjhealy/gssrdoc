@@ -47,7 +47,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Residence
-#' @family Dwelling (R's)
 #' 
 #' @keywords variable
 #' @md
@@ -83,7 +82,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -142,8 +140,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Vocabulary
-#' @family Knowledge
-#' @family Vocabulary Test
 #' 
 #' @keywords variable
 #' @md
@@ -201,8 +197,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Vocabulary
-#' @family Knowledge
-#' @family Vocabulary Test
 #' 
 #' @keywords variable
 #' @md
@@ -260,8 +254,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Vocabulary
-#' @family Knowledge
-#' @family Vocabulary Test
 #' 
 #' @keywords variable
 #' @md
@@ -319,8 +311,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Vocabulary
-#' @family Knowledge
-#' @family Vocabulary Test
 #' 
 #' @keywords variable
 #' @md
@@ -378,8 +368,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Vocabulary
-#' @family Knowledge
-#' @family Vocabulary Test
 #' 
 #' @keywords variable
 #' @md
@@ -437,8 +425,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Vocabulary
-#' @family Knowledge
-#' @family Vocabulary Test
 #' 
 #' @keywords variable
 #' @md
@@ -496,8 +482,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Vocabulary
-#' @family Knowledge
-#' @family Vocabulary Test
 #' 
 #' @keywords variable
 #' @md
@@ -555,8 +539,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Vocabulary
-#' @family Knowledge
-#' @family Vocabulary Test
 #' 
 #' @keywords variable
 #' @md

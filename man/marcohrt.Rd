@@ -57,5 +57,4 @@ Other Cohort and Birth:
 \code{\link{zodiac}}
 }
 \concept{Cohort and Birth}
-\concept{Marriage}
 \keyword{variable}

@@ -38,10 +38,6 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/4972/vshow}
 \seealso{
 Other Misc II: 
 \code{\link{scitesty}}
-
-Other Religion: 
-\code{\link{scitesty}}
 }
 \concept{Misc II}
-\concept{Religion}
 \keyword{variable}

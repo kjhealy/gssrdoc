@@ -337,7 +337,7 @@ gss_doc_rd <- gss_doc |>
 #         rd4,
 #         sourcestring,
 #         rd4a,
-#         rd4b,
+#         #rd4b,
 #         roclet_empty_line,
 #         rd5,
 #         true_blank_line,
@@ -367,6 +367,7 @@ docstring <- gss_doc_rd |>
       module_df,
       with_empty_default(\(x) pmap_chr(x, make_rd_family))
     ),
+    ## Too many subjects to include, but we get them anyway
     rd4b = map_chr(
       subject_df,
       with_empty_default(\(x) pmap_chr(x, make_rd_family))
@@ -381,7 +382,7 @@ docstring <- gss_doc_rd |>
         rd4,
         sourcestring,
         rd4a,
-        rd4b,
+        # 4d4b, # omit subjects
         roclet_empty_line,
         rd5,
         true_blank_line,
@@ -426,6 +427,10 @@ gen_rds <- function(r_file) {
   })
 }
 
-
+## Doing it this way won't successfully get all the @family crossrefs
+## But it is faster than the single-threaded devtools::document() on
+## the full data file.
 gss_varfiles <- fs::dir_ls(here::here("R"), glob = "*vars*")
 furrr::future_walk(gss_varfiles, gen_rds)
+
+## Or do it single-threaded to guarantee crossrefs

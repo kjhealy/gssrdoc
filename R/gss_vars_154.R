@@ -24,7 +24,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family World Events
 #' 
 #' @keywords variable
 #' @md
@@ -71,7 +70,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Education
 #' 
 #' @keywords variable
 #' @md
@@ -118,7 +116,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Education
 #' 
 #' @keywords variable
 #' @md
@@ -165,7 +162,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Education
 #' 
 #' @keywords variable
 #' @md
@@ -212,7 +208,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Education
 #' 
 #' @keywords variable
 #' @md
@@ -245,8 +240,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' @family Family
-#' @family Parents
 #' 
 #' @keywords variable
 #' @md
@@ -278,9 +271,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' @family Date Of Birth
-#' @family Family
-#' @family Parents
 #' 
 #' @keywords variable
 #' @md
@@ -312,8 +302,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' @family Family
-#' @family Parents
 #' 
 #' @keywords variable
 #' @md
@@ -346,8 +334,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' @family Family
-#' @family Parents
 #' 
 #' @keywords variable
 #' @md
@@ -379,9 +365,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' @family Date Of Birth
-#' @family Family
-#' @family Parents
 #' 
 #' @keywords variable
 #' @md

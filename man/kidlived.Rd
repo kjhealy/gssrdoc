@@ -37,33 +37,32 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/3915/vshow}
 Other Sexual Orientation: 
 \code{\link{adoptkid}},
 \code{\link{attractd}},
+\code{\link{dwell5}},
+\code{\link{emphlth1}},
+\code{\link{emphlth2}},
+\code{\link{evdwell}},
+\code{\link{evharjb}},
 \code{\link{evkid}},
+\code{\link{evlosejb}},
+\code{\link{evnegjob}},
+\code{\link{harjob5}},
+\code{\link{hlthcovr}},
+\code{\link{hlthtype}},
 \code{\link{kidnow1}},
+\code{\link{kidnow2}},
 \code{\link{kidresp}},
+\code{\link{losejob5}},
 \code{\link{marunion}},
+\code{\link{mykids}},
+\code{\link{negjob5}},
+\code{\link{othkids}},
 \code{\link{relgendr}},
+\code{\link{sexsex18}},
 \code{\link{sexunion}},
-\code{\link{toldsxor}}
-
-Other Children: 
-\code{\link{adoptkid}},
-\code{\link{evkid}},
-\code{\link{kidnow1}},
-\code{\link{kidresp}}
-
-Other Family: 
-\code{\link{adoptkid}},
-\code{\link{evkid}},
-\code{\link{kidnow1}},
-\code{\link{kidresp}},
-\code{\link{marunion}}
-
-Other Household: 
-\code{\link{kidnow1}},
-\code{\link{kidresp}}
+\code{\link{sppart}},
+\code{\link{toldsmsx}},
+\code{\link{toldsxor}},
+\code{\link{toldwork}}
 }
-\concept{Children}
-\concept{Family}
-\concept{Household}
 \concept{Sexual Orientation}
 \keyword{variable}

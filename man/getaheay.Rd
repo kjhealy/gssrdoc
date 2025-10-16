@@ -37,9 +37,9 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/3711/vshow}
 \seealso{
 Other Misc I: 
 \code{\link{natdiscm}},
-\code{\link{newsprnt}}
+\code{\link{natdisin}},
+\code{\link{newsprnt}},
+\code{\link{spnatdis}}
 }
 \concept{Misc I}
-\concept{Social Mobility}
-\concept{Work}
 \keyword{variable}

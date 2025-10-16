@@ -62,19 +62,31 @@ Question Weight for Black oversamples.
 
 \seealso{
 Other Sampling and Weights: 
+\code{\link{ballot}},
+\code{\link{batch}},
 \code{\link{cshutyp06}},
+\code{\link{cshutyp08}},
+\code{\link{cshutyp10}},
+\code{\link{cshutyp12}},
+\code{\link{formwt}},
+\code{\link{issp}},
 \code{\link{phase}},
 \code{\link{res2006}},
 \code{\link{res2008}},
 \code{\link{res2010}},
 \code{\link{res2012}},
+\code{\link{sampcode}},
+\code{\link{sample}()},
 \code{\link{spaneng}},
 \code{\link{spanint}},
-\code{\link{spanself}}
-
-Other Sample: 
-\code{\link{phase}}
+\code{\link{spanself}},
+\code{\link{subsamprate}},
+\code{\link{version}},
+\code{\link{vpsu}},
+\code{\link{vstrat}},
+\code{\link{wtss}},
+\code{\link{wtssall}},
+\code{\link{wtssnr}}
 }
-\concept{Sample}
 \concept{Sampling and Weights}
 \keyword{variable}

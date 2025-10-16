@@ -35,10 +35,4 @@ Question What is your race? Indicate one or more races that you consider yoursel
 For details see the \href{https://gssdataexplorer.norc.org/variables/7465/vshow}{GSS Data Explorer page for \code{raceacs16}}.
 }
 
-\seealso{
-Other Race: 
-\code{\link{raceacs13}},
-\code{\link{raceacs14}}
-}
-\concept{Race}
 \keyword{variable}

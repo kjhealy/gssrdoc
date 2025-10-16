@@ -54,7 +54,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
-#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -118,7 +117,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
-#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -182,7 +180,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
-#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -246,7 +243,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
-#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -310,7 +306,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
-#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -374,7 +369,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
-#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -438,7 +432,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
-#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -502,7 +495,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
-#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -567,7 +559,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name relhh13
@@ -630,7 +621,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
-#' @family Household
 #' 
 #' @keywords variable
 #' @md

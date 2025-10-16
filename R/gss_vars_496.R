@@ -27,7 +27,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name extrawrk
@@ -65,7 +64,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name extraern
@@ -96,7 +94,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -140,7 +137,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name jbendmo
@@ -179,7 +175,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name exjobsat
@@ -214,7 +209,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -254,7 +248,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name newskill
@@ -292,7 +285,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -332,7 +324,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name tempwork
@@ -370,7 +361,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
-#' 
 #' 
 #' @keywords variable
 #' @md

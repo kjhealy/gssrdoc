@@ -25,8 +25,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Children
-#' @family Drug Use And Addiction
 #' 
 #' @keywords variable
 #' @md
@@ -61,7 +59,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -96,7 +93,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -131,7 +127,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -166,7 +161,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -201,7 +195,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -236,7 +229,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -271,9 +263,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Children
-#' @family Movies
-#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -309,7 +298,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Seat Belts
 #' 
 #' @keywords variable
 #' @md
@@ -345,7 +333,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Smoking
 #' 
 #' @keywords variable
 #' @md

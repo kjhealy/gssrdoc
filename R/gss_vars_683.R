@@ -24,7 +24,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name nocondom
@@ -57,7 +56,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
-#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -93,7 +91,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name femself1
@@ -127,7 +124,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -163,7 +159,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name femsee1
@@ -198,7 +193,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name mascsee1
@@ -231,7 +225,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -266,7 +259,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name racdif5x
@@ -300,7 +292,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -335,7 +326,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ANES
-#' 
 #' 
 #' @keywords variable
 #' @md

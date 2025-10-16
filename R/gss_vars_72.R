@@ -49,7 +49,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Euthanasia
 #' 
 #' @keywords variable
 #' @md
@@ -86,7 +85,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Euthanasia
 #' 
 #' @keywords variable
 #' @md
@@ -146,7 +144,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Suicide
 #' 
 #' @keywords variable
 #' @md
@@ -206,7 +203,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Suicide
 #' 
 #' @keywords variable
 #' @md
@@ -266,7 +262,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Suicide
 #' 
 #' @keywords variable
 #' @md
@@ -326,7 +321,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Suicide
 #' 
 #' @keywords variable
 #' @md
@@ -363,7 +357,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Suicide
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name suinum
@@ -398,7 +391,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Suicide
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -452,7 +444,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Suicide
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name suirel1
@@ -488,7 +479,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Suicide
-#' 
 #' 
 #' @keywords variable
 #' @md

@@ -22,8 +22,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' @family Family
-#' @family Parents
 #' 
 #' @keywords variable
 #' @md
@@ -55,7 +53,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' @family Education
 #' 
 #' @keywords variable
 #' @md
@@ -88,8 +85,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' @family Employment
-#' @family Labor Force Status
 #' 
 #' @keywords variable
 #' @md
@@ -121,7 +116,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -153,8 +147,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' @family Occupation
-#' @family Occupational Prestige
 #' 
 #' @keywords variable
 #' @md
@@ -187,8 +179,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' @family Occupation
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -220,8 +210,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' @family Industry
-#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -251,8 +239,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' @family Job
-#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -287,8 +273,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' @family Knowledge
-#' @family Reasoning Abilities
 #' 
 #' @keywords variable
 #' @md
@@ -323,8 +307,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
-#' @family Knowledge
-#' @family Reasoning Abilities
 #' 
 #' @keywords variable
 #' @md

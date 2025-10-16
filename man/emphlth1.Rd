@@ -35,32 +35,34 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/3928/vshow}
 
 \seealso{
 Other Sexual Orientation: 
+\code{\link{adoptkid}},
+\code{\link{attractd}},
+\code{\link{dwell5}},
 \code{\link{emphlth2}},
+\code{\link{evdwell}},
+\code{\link{evharjb}},
+\code{\link{evkid}},
+\code{\link{evlosejb}},
+\code{\link{evnegjob}},
+\code{\link{harjob5}},
 \code{\link{hlthcovr}},
 \code{\link{hlthtype}},
+\code{\link{kidlived}},
+\code{\link{kidnow1}},
+\code{\link{kidnow2}},
+\code{\link{kidresp}},
+\code{\link{losejob5}},
+\code{\link{marunion}},
 \code{\link{mykids}},
+\code{\link{negjob5}},
 \code{\link{othkids}},
-\code{\link{sppart}}
-
-Other Employment: 
-\code{\link{emphlth2}}
-
-Other Health: 
-\code{\link{emphlth2}},
-\code{\link{hlthcovr}},
-\code{\link{hlthtype}},
-\code{\link{mykids}},
-\code{\link{othkids}},
-\code{\link{sppart}}
-
-Other Job: 
-\code{\link{emphlth2}},
-\code{\link{harsexjb}},
-\code{\link{hlthtype}},
-\code{\link{mykids}}
+\code{\link{relgendr}},
+\code{\link{sexsex18}},
+\code{\link{sexunion}},
+\code{\link{sppart}},
+\code{\link{toldsmsx}},
+\code{\link{toldsxor}},
+\code{\link{toldwork}}
 }
-\concept{Employment}
-\concept{Health}
-\concept{Job}
 \concept{Sexual Orientation}
 \keyword{variable}

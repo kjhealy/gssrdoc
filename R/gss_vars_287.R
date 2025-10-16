@@ -25,7 +25,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name pinterst
@@ -58,7 +57,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -93,7 +91,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name vine
@@ -127,7 +124,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name clssmtes
@@ -159,7 +155,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -211,7 +206,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name snsmot2a
@@ -262,7 +256,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name snsmot2b
@@ -312,7 +305,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -377,7 +369,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name snsmnew
@@ -407,7 +398,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable

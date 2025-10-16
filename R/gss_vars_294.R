@@ -26,7 +26,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
-#' @family Freedom
 #' 
 #' @keywords variable
 #' @md
@@ -62,7 +61,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
-#' @family Freedom
 #' 
 #' @keywords variable
 #' @md
@@ -96,7 +94,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
-#' @family Freedom
 #' 
 #' @keywords variable
 #' @md
@@ -129,7 +126,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Freedom
 #' @family Freedom
 #' 
 #' @keywords variable
@@ -167,7 +163,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
 #' @family ANES
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -204,7 +199,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Freedom
 #' @family Freedom
 #' 
 #' @keywords variable
@@ -243,7 +237,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
-#' @family Freedom
 #' 
 #' @keywords variable
 #' @md
@@ -280,7 +273,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Freedom
 #' @family Freedom
 #' 
 #' @keywords variable
@@ -319,10 +311,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
-#' @family Freedom
-#' @family Leisure
-#' @family Political
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -359,7 +347,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Freedom
 #' @family Freedom
 #' 
 #' @keywords variable

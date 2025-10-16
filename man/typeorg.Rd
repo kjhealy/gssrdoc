@@ -36,15 +36,35 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/2140/vshow}
 
 \seealso{
 Other Jobs: 
+\code{\link{daily}},
+\code{\link{doingdys}},
+\code{\link{doingfin}},
+\code{\link{doingtrn}},
+\code{\link{formldys}},
+\code{\link{formlfin}},
+\code{\link{formlhrs}},
+\code{\link{formltrn}},
+\code{\link{genderwk}},
+\code{\link{hourly}},
+\code{\link{howpaid}},
+\code{\link{locyrs}},
+\code{\link{monthly}},
+\code{\link{numemp}},
 \code{\link{occtrain}},
 \code{\link{occyrs}},
-\code{\link{trainsch}}
-
-Other Job: 
-\code{\link{occtrain}},
-\code{\link{occyrs}},
-\code{\link{trainsch}}
+\code{\link{orgsize}},
+\code{\link{othyrs}},
+\code{\link{otjtrain}},
+\code{\link{partorg}},
+\code{\link{samework}},
+\code{\link{siteyrs}},
+\code{\link{trainsch}},
+\code{\link{trusting}},
+\code{\link{weekly}},
+\code{\link{wojob}},
+\code{\link{wojobyrs}},
+\code{\link{wrkoth}},
+\code{\link{yearly}}
 }
-\concept{Job}
 \concept{Jobs}
 \keyword{variable}

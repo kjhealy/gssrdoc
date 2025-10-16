@@ -25,7 +25,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
-#' @family Feelings
 #' 
 #' @keywords variable
 #' @md
@@ -60,7 +59,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
-#' @family Feelings
 #' 
 #' @keywords variable
 #' @md
@@ -95,7 +93,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
-#' @family Feelings
 #' 
 #' @keywords variable
 #' @md
@@ -135,7 +132,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Altruism
 #' @family Altruism
 #' 
 #' @keywords variable
@@ -177,7 +173,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
-#' @family Altruism
 #' 
 #' @keywords variable
 #' @md
@@ -217,7 +212,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Altruism
 #' @family Altruism
 #' 
 #' @keywords variable
@@ -259,7 +253,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
-#' @family Altruism
 #' 
 #' @keywords variable
 #' @md
@@ -299,7 +292,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Altruism
 #' @family Altruism
 #' 
 #' @keywords variable
@@ -341,7 +333,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Altruism
-#' @family Altruism
 #' 
 #' @keywords variable
 #' @md
@@ -381,7 +372,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Altruism
 #' @family Altruism
 #' 
 #' @keywords variable

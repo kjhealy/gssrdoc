@@ -24,7 +24,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -58,7 +57,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -92,7 +90,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -126,7 +123,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -159,7 +155,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -192,7 +187,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -225,7 +219,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -258,7 +251,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -291,7 +283,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -326,7 +317,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md

@@ -27,7 +27,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Radio Listening
 #' 
 #' @keywords variable
 #' @md
@@ -98,7 +97,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Telephone In Household
 #' 
 #' @keywords variable
 #' @md
@@ -133,7 +131,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Interview
 #' 
 #' @keywords variable
 #' @md
@@ -200,7 +197,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Interview
 #' 
 #' @keywords variable
 #' @md
@@ -267,7 +263,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Interview
 #' 
 #' @keywords variable
 #' @md
@@ -332,7 +327,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -366,7 +360,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name random
@@ -398,7 +391,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Abortion
 #' 
 #' @keywords variable
 #' @md
@@ -433,7 +425,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Abortion
 #' 
 #' @keywords variable
 #' @md
@@ -468,7 +459,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Abortion
 #' 
 #' @keywords variable
 #' @md

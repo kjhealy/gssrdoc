@@ -53,7 +53,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -91,7 +90,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name wksup1
@@ -127,7 +125,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -190,9 +187,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Employment
-#' @family Labor Force Status
-#' @family Unemployment
 #' 
 #' @keywords variable
 #' @md
@@ -232,8 +226,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Income
-#' @family Welfare
 #' 
 #' @keywords variable
 #' @md
@@ -266,8 +258,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Income
-#' @family Welfare
 #' 
 #' @keywords variable
 #' @md
@@ -330,7 +320,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Labor Unions
 #' 
 #' @keywords variable
 #' @md
@@ -369,7 +358,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -432,7 +420,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -483,8 +470,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Parents
-#' @family Social Mobility
 #' 
 #' @keywords variable
 #' @md

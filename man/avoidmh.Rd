@@ -37,11 +37,12 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/3570/vshow}
 
 \seealso{
 Other Mental Health III: 
-\code{\link{gesttalk}}
-
-Other Mental Health: 
-\code{\link{gesttalk}}
+\code{\link{gesttalk}},
+\code{\link{mhothrel}},
+\code{\link{mhothyou}},
+\code{\link{mhtrtoth}},
+\code{\link{seemhpub}},
+\code{\link{viglab06}}
 }
-\concept{Mental Health}
 \concept{Mental Health III}
 \keyword{variable}

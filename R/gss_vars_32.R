@@ -51,8 +51,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Civil Liberties
-#' @family Gays And Lesbians
 #' 
 #' @keywords variable
 #' @md
@@ -113,8 +111,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Civil Liberties
-#' @family Gays And Lesbians
 #' 
 #' @keywords variable
 #' @md
@@ -175,8 +171,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Civil Liberties
-#' @family Gays And Lesbians
 #' 
 #' @keywords variable
 #' @md
@@ -218,8 +212,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Civil Liberties
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -261,8 +253,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Civil Liberties
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -304,8 +294,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Civil Liberties
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -339,7 +327,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Capital Punishment
 #' 
 #' @keywords variable
 #' @md
@@ -404,7 +391,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Capital Punishment
 #' 
 #' @keywords variable
 #' @md
@@ -439,7 +425,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Capital Punishment
 #' 
 #' @keywords variable
 #' @md
@@ -474,7 +459,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Capital Punishment
 #' 
 #' @keywords variable
 #' @md

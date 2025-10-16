@@ -35,21 +35,16 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/3099/vshow}
 
 \seealso{
 Other Women & Alcohol: 
+\code{\link{drink1}},
 \code{\link{drink12}},
+\code{\link{drink3}},
+\code{\link{drink5}},
 \code{\link{drink6up}},
 \code{\link{drink8}},
 \code{\link{drinkmax}},
-\code{\link{drinkyr}},
-\code{\link{evdrink}}
-
-Other Drinking: 
-\code{\link{drink12}},
-\code{\link{drink6up}},
-\code{\link{drink8}},
-\code{\link{drinkmax}},
+\code{\link{drinkmin}},
 \code{\link{drinkyr}},
 \code{\link{evdrink}}
 }
-\concept{Drinking}
 \concept{Women & Alcohol}
 \keyword{variable}

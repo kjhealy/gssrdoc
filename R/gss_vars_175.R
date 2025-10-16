@@ -26,9 +26,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
-#' @family Ethnicity
-#' @family Federal Government
-#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -64,10 +61,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
-#' @family Blacks
-#' @family Ethnicity
-#' @family Federal Government
-#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -103,10 +96,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
-#' @family Ethnicity
-#' @family Federal Government
-#' @family Hispanics
-#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -142,10 +131,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
-#' @family Asian Americans
-#' @family Ethnicity
-#' @family Federal Government
-#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -179,7 +164,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
-#' @family Immigration
 #' 
 #' @keywords variable
 #' @md
@@ -213,7 +197,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
-#' @family Immigration
 #' 
 #' @keywords variable
 #' @md
@@ -247,7 +230,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
-#' @family Immigration
 #' 
 #' @keywords variable
 #' @md
@@ -281,7 +263,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
-#' @family Immigration
 #' 
 #' @keywords variable
 #' @md
@@ -317,7 +298,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
-#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -351,7 +331,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
-#' @family Economy
 #' 
 #' @keywords variable
 #' @md

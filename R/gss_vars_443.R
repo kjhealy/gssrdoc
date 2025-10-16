@@ -28,7 +28,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -66,8 +65,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Business
-#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -105,8 +102,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Federal Government
-#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -142,9 +137,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Business
-#' @family Economy
-#' @family Federal Government
 #' 
 #' @keywords variable
 #' @md
@@ -179,9 +171,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Business
-#' @family Economy
-#' @family Federal Government
 #' 
 #' @keywords variable
 #' @md
@@ -217,9 +206,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Business
-#' @family Economy
-#' @family Federal Government
 #' 
 #' @keywords variable
 #' @md
@@ -255,10 +241,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Business
-#' @family Economy
-#' @family Federal Government
-#' @family Financial Institutions And Banks
 #' 
 #' @keywords variable
 #' @md
@@ -293,9 +275,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Business
-#' @family Economy
-#' @family Federal Government
 #' 
 #' @keywords variable
 #' @md
@@ -338,8 +317,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Economy
-#' @family Federal Government
 #' 
 #' @keywords variable
 #' @md
@@ -379,9 +356,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Economy
-#' @family Federal Government
-#' @family Wage/Price Controls
 #' 
 #' @keywords variable
 #' @md

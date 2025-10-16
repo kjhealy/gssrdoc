@@ -31,7 +31,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Paradata
-#' @family Interview
 #' 
 #' @keywords variable
 #' @md
@@ -71,7 +70,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Paradata
-#' @family Interview
 #' 
 #' @keywords variable
 #' @md
@@ -107,7 +105,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Paradata
-#' @family Interview
 #' 
 #' @keywords variable
 #' @md
@@ -151,7 +148,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Paradata
-#' @family Interview
 #' 
 #' @keywords variable
 #' @md
@@ -196,7 +192,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Paradata
-#' @family Interview
 #' 
 #' @keywords variable
 #' @md
@@ -237,7 +232,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Paradata
-#' @family Interview
 #' 
 #' @keywords variable
 #' @md
@@ -274,7 +268,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Paradata
-#' @family Interview
 #' 
 #' @keywords variable
 #' @md
@@ -314,7 +307,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Paradata
-#' @family Interview
 #' 
 #' @keywords variable
 #' @md
@@ -350,7 +342,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name adminconsent
@@ -384,7 +375,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Form Y
-#' @family Birth Control
 #' 
 #' @keywords variable
 #' @md

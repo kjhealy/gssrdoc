@@ -23,7 +23,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
-#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -59,7 +58,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
-#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -92,7 +90,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
-#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -128,7 +125,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
-#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -161,7 +157,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
-#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -195,7 +190,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
-#' @family Science
 #' 
 #' @keywords variable
 #' @md
@@ -229,7 +223,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
-#' @family Science
 #' 
 #' @keywords variable
 #' @md
@@ -263,8 +256,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
-#' @family Knowledge
-#' @family Science
 #' 
 #' @keywords variable
 #' @md
@@ -298,8 +289,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
-#' @family Knowledge
-#' @family Science
 #' 
 #' @keywords variable
 #' @md
@@ -334,7 +323,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Religion
 #' @family Religion
 #' 
 #' @keywords variable

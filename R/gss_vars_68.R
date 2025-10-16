@@ -52,8 +52,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Abortion
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -86,7 +84,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Abortion
 #' 
 #' @keywords variable
 #' @md
@@ -119,8 +116,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Abortion
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -153,8 +148,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Abortion
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -187,8 +180,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Abortion
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -221,8 +212,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Abortion
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -255,8 +244,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Abortion
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -289,8 +276,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Abortion
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -326,8 +311,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Abortion
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -363,8 +346,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Abortion
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md

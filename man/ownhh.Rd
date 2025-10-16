@@ -39,17 +39,26 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/2898/vshow}
 
 \seealso{
 Other Adult Transitions: 
+\code{\link{boycott}},
+\code{\link{conoffcl}},
 \code{\link{eddone}},
 \code{\link{eddone1}},
 \code{\link{finind}},
 \code{\link{finind1}},
 \code{\link{ftwork}},
 \code{\link{ftwork1}},
-\code{\link{ownhh1}}
-
-Other Household: 
-\code{\link{ownhh1}}
+\code{\link{getmar}},
+\code{\link{getmar1}},
+\code{\link{givchng}},
+\code{\link{havchld}},
+\code{\link{havchld1}},
+\code{\link{hlpneedy}},
+\code{\link{ownhh1}},
+\code{\link{partthon}},
+\code{\link{protest}},
+\code{\link{signpet}},
+\code{\link{supfam}},
+\code{\link{supfam1}}
 }
 \concept{Adult Transitions}
-\concept{Household}
 \keyword{variable}

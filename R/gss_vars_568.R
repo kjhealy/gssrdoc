@@ -22,7 +22,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Income
-#' @family Income
 #' 
 #' @keywords variable
 #' @md
@@ -53,7 +52,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Income
 #' @family Income
 #' 
 #' @keywords variable
@@ -92,7 +90,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -130,7 +127,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -165,7 +161,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -204,7 +199,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -243,7 +237,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -282,8 +275,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
-#' @family Drug Use And Addiction
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -322,7 +313,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -361,7 +351,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
-#' @family United States
 #' 
 #' @keywords variable
 #' @md

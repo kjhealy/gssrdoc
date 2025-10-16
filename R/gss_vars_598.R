@@ -57,7 +57,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name pasei10educ
@@ -123,7 +122,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name pasei10inc
@@ -169,7 +167,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -217,7 +214,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name masei10educ
@@ -263,7 +259,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -330,7 +325,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name spsei10
@@ -395,7 +389,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -462,7 +455,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name spsei10inc
@@ -500,7 +492,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name cosei10
@@ -537,7 +528,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
-#' 
 #' 
 #' @keywords variable
 #' @md

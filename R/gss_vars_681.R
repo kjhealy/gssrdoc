@@ -27,7 +27,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name usmca2
@@ -61,7 +60,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
-#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -97,7 +95,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name bullied
@@ -131,7 +128,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -167,7 +163,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name imprvown1
@@ -199,7 +194,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -233,7 +227,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name mustmed1
@@ -265,7 +258,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -301,7 +293,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name physill1
@@ -335,7 +326,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
-#' 
 #' 
 #' @keywords variable
 #' @md

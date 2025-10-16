@@ -61,26 +61,12 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/5197/vshow}
 Other Income: 
 \code{\link{coninc}},
 \code{\link{conrinc}},
+\code{\link{minfood}},
 \code{\link{minfour}},
+\code{\link{minthree}},
 \code{\link{povline}},
 \code{\link{realinc}},
 \code{\link{realrinc}}
-
-Other Household: 
-\code{\link{povline}}
-
-Other Income: 
-\code{\link{coninc}},
-\code{\link{conrinc}},
-\code{\link{minfour}},
-\code{\link{povline}},
-\code{\link{realinc}},
-\code{\link{realrinc}}
-
-Other Poverty: 
-\code{\link{povline}}
 }
-\concept{Household}
 \concept{Income}
-\concept{Poverty}
 \keyword{variable}

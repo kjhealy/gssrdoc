@@ -33,7 +33,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Taxes
 #' 
 #' @keywords variable
 #' @md
@@ -74,7 +73,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Taxes
 #' 
 #' @keywords variable
 #' @md
@@ -115,7 +113,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Taxes
 #' 
 #' @keywords variable
 #' @md
@@ -154,7 +151,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Taxes
 #' 
 #' @keywords variable
 #' @md
@@ -192,7 +188,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Social Class
 #' 
 #' @keywords variable
 #' @md
@@ -230,7 +225,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Social Class
 #' 
 #' @keywords variable
 #' @md
@@ -266,7 +260,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Social Class
 #' 
 #' @keywords variable
 #' @md
@@ -304,7 +297,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Social Class
 #' 
 #' @keywords variable
 #' @md
@@ -340,7 +332,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Social Class
 #' 
 #' @keywords variable
 #' @md
@@ -376,7 +367,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Social Class
 #' 
 #' @keywords variable
 #' @md

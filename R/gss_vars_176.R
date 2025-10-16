@@ -24,7 +24,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
-#' @family Economy
 #' 
 #' @keywords variable
 #' @md
@@ -58,7 +57,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
-#' @family Economy
 #' 
 #' @keywords variable
 #' @md
@@ -92,7 +90,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
-#' @family Economy
 #' 
 #' @keywords variable
 #' @md
@@ -126,7 +123,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
-#' @family Economy
 #' 
 #' @keywords variable
 #' @md
@@ -160,7 +156,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
-#' @family Economy
 #' 
 #' @keywords variable
 #' @md
@@ -195,8 +190,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
-#' @family Affirmative Action
-#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -231,8 +224,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
-#' @family Immigration
-#' @family Job
 #' 
 #' @keywords variable
 #' @md
@@ -267,7 +258,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Romantic Relationships
 #' 
 #' @keywords variable
 #' @md
@@ -302,8 +292,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Cohabitation
-#' @family Romantic Relationships
 #' 
 #' @keywords variable
 #' @md
@@ -337,7 +325,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Romantic Relationships
 #' 
 #' @keywords variable
 #' @md

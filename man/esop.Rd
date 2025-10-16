@@ -37,7 +37,9 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/3561/vshow}
 
 \seealso{
 Other Shared Capitalism: 
+\code{\link{buyvalue}},
 \code{\link{compwage}},
+\code{\link{defpensn}},
 \code{\link{empinput}},
 \code{\link{emptrain}},
 \code{\link{extr2005}},
@@ -45,26 +47,8 @@ Other Shared Capitalism:
 \code{\link{ops2005}},
 \code{\link{slfmangd}},
 \code{\link{talkteam}},
-\code{\link{wealth}}
-
-Other Job: 
-\code{\link{emptrain}},
-\code{\link{extr2005}},
-\code{\link{numorg}},
-\code{\link{ops2005}}
-
-Other Work: 
-\code{\link{compwage}},
-\code{\link{empinput}},
-\code{\link{emptrain}},
-\code{\link{extr2005}},
-\code{\link{numorg}},
-\code{\link{ops2005}},
-\code{\link{slfmangd}},
-\code{\link{talkteam}},
+\code{\link{trdestck}},
 \code{\link{wealth}}
 }
-\concept{Job}
 \concept{Shared Capitalism}
-\concept{Work}
 \keyword{variable}

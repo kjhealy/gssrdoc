@@ -55,13 +55,19 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/6183/vshow}
 
 \seealso{
 Other Suicide: 
-\code{\link{suicide1}},
-\code{\link{suicide2}},
-\code{\link{suicide3}},
-\code{\link{suicide4}},
+\code{\link{suiclse1}},
+\code{\link{suiclse2}},
+\code{\link{suimths1}},
+\code{\link{suimths2}},
 \code{\link{suineg1}},
+\code{\link{suineg2}},
 \code{\link{suinum}},
-\code{\link{suinum1}}
+\code{\link{suinum1}},
+\code{\link{suirel2}},
+\code{\link{suitime1}},
+\code{\link{suitime2}},
+\code{\link{suiyrs1}},
+\code{\link{suiyrs2}}
 }
 \concept{Suicide}
 \keyword{variable}

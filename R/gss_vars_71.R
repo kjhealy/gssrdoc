@@ -40,7 +40,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -90,8 +89,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Rape
-#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -141,7 +138,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -205,7 +201,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -267,8 +262,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Movies
-#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -301,9 +294,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Movies
-#' @family Sex
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -338,8 +328,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Sex
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -374,8 +362,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Sex
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -410,8 +396,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Sex
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -467,8 +451,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Children
-#' @family Violence
 #' 
 #' @keywords variable
 #' @md

@@ -27,7 +27,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
-#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -63,9 +62,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
-#' @family Federal Government
-#' @family Social Security
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -100,9 +96,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
-#' @family Federal Government
-#' @family Social Security
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -135,9 +128,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
-#' @family Federal Government
-#' @family Social Security
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -175,7 +165,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
-#' @family Terminal Illness
 #' 
 #' @keywords variable
 #' @md
@@ -212,7 +201,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
-#' @family Terminal Illness
 #' 
 #' @keywords variable
 #' @md
@@ -249,7 +237,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
-#' @family Terminal Illness
 #' 
 #' @keywords variable
 #' @md
@@ -286,7 +273,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
-#' @family Terminal Illness
 #' 
 #' @keywords variable
 #' @md
@@ -323,7 +309,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
-#' @family Terminal Illness
 #' 
 #' @keywords variable
 #' @md
@@ -360,7 +345,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
-#' @family Terminal Illness
 #' 
 #' @keywords variable
 #' @md

@@ -30,7 +30,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name lotr1
@@ -67,7 +66,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -106,7 +104,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name lotr3
@@ -143,7 +140,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -182,7 +178,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name lotr5
@@ -219,7 +214,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -261,7 +255,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name hope1
@@ -301,7 +294,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -343,7 +335,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name hope3
@@ -383,7 +374,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
-#' 
 #' 
 #' @keywords variable
 #' @md

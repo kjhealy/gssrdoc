@@ -37,45 +37,40 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/3017/vshow}
 
 \seealso{
 Other Workplace Conflict: 
+\code{\link{actupset}},
 \code{\link{denyrais}},
+\code{\link{difstand}},
 \code{\link{eharaswk}},
+\code{\link{gdjobsec}},
+\code{\link{health1}},
+\code{\link{hotargus}},
 \code{\link{ignorwk}},
+\code{\link{jobsecok}},
+\code{\link{lackinfo}},
 \code{\link{liedcwkr}},
+\code{\link{lookaway}},
+\code{\link{manvsemp}},
+\code{\link{mntlhlth}},
+\code{\link{numemps}},
+\code{\link{numemps_0422}},
+\code{\link{othcredt}},
+\code{\link{perspace}},
+\code{\link{physharm}},
+\code{\link{putdown}},
+\code{\link{reliedon}},
+\code{\link{rptprobs}},
 \code{\link{rudewk}},
 \code{\link{rumorwk}},
+\code{\link{shout}},
+\code{\link{skipwork}},
+\code{\link{supcares}},
+\code{\link{treatres}},
+\code{\link{trynewjb}},
+\code{\link{wkageism}},
 \code{\link{wkbhvrs}},
-\code{\link{wkrspns}}
-
-Other Employment: 
-\code{\link{denyrais}},
-\code{\link{eharaswk}},
-\code{\link{ignorwk}},
-\code{\link{liedcwkr}},
-\code{\link{rudewk}},
-\code{\link{rumorwk}},
-\code{\link{wkbhvrs}}
-
-Other Job: 
-\code{\link{denyrais}},
-\code{\link{eharaswk}},
-\code{\link{ignorwk}},
-\code{\link{liedcwkr}},
-\code{\link{rudewk}},
-\code{\link{rumorwk}},
-\code{\link{wkbhvrs}}
-
-Other Work: 
-\code{\link{denyrais}},
-\code{\link{eharaswk}},
-\code{\link{ignorwk}},
-\code{\link{liedcwkr}},
-\code{\link{rudewk}},
-\code{\link{rumorwk}},
-\code{\link{wkbhvrs}},
-\code{\link{wkrspns}}
+\code{\link{wkracism}},
+\code{\link{wkrspns}},
+\code{\link{wkvsfam}}
 }
-\concept{Employment}
-\concept{Job}
-\concept{Work}
 \concept{Workplace Conflict}
 \keyword{variable}

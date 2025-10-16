@@ -25,9 +25,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Family
-#' @family Job
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -61,9 +58,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Family
-#' @family Job
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -111,9 +105,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Affirmative Action
-#' @family Job
-#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -160,9 +151,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Affirmative Action
-#' @family Job
-#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -196,9 +184,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Family
-#' @family Job
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -232,9 +217,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Family
-#' @family Job
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -268,8 +250,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Family
-#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -303,9 +283,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Family
-#' @family Household
-#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -339,9 +316,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Children
-#' @family Family
-#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -375,8 +349,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Family
-#' @family Household
 #' 
 #' @keywords variable
 #' @md

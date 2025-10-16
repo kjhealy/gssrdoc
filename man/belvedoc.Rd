@@ -38,25 +38,26 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/2752/vshow}
 Other Doctors & Patients: 
 \code{\link{chosedoc}},
 \code{\link{diffcare}},
+\code{\link{docaskme}},
+\code{\link{doccosts}},
+\code{\link{docdecid}},
+\code{\link{docinfo}},
+\code{\link{docnomri}},
+\code{\link{docrely}},
+\code{\link{docsat}},
+\code{\link{docswtch}},
+\code{\link{docvig}},
 \code{\link{fininc}},
 \code{\link{fininc1}},
 \code{\link{fininc2}},
 \code{\link{fininc3}},
 \code{\link{fininc4}},
 \code{\link{hlthplan}},
-\code{\link{insrlmts}}
-
-Other Health: 
-\code{\link{chosedoc}},
-\code{\link{diffcare}},
-\code{\link{fininc}},
-\code{\link{fininc1}},
-\code{\link{fininc2}},
-\code{\link{fininc3}},
-\code{\link{fininc4}},
-\code{\link{hlthplan}},
-\code{\link{insrlmts}}
+\code{\link{insrchng}},
+\code{\link{insrlmts}},
+\code{\link{regdoc}},
+\code{\link{regdocyr}},
+\code{\link{secopin}}
 }
 \concept{Doctors & Patients}
-\concept{Health}
 \keyword{variable}

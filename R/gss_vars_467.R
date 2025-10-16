@@ -28,8 +28,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Education
-#' @family Social Mobility
 #' 
 #' @keywords variable
 #' @md
@@ -67,8 +65,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Education
-#' @family Social Mobility
 #' 
 #' @keywords variable
 #' @md
@@ -105,7 +101,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Social Mobility
 #' 
 #' @keywords variable
 #' @md
@@ -142,7 +137,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Social Mobility
 #' 
 #' @keywords variable
 #' @md
@@ -180,7 +174,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Social Mobility
 #' 
 #' @keywords variable
 #' @md
@@ -219,7 +212,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Social Mobility
 #' 
 #' @keywords variable
 #' @md
@@ -257,7 +249,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Social Mobility
 #' 
 #' @keywords variable
 #' @md
@@ -295,8 +286,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Race
-#' @family Social Mobility
 #' 
 #' @keywords variable
 #' @md
@@ -334,7 +323,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Social Mobility
 #' 
 #' @keywords variable
 #' @md
@@ -371,7 +359,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Social Mobility
 #' 
 #' @keywords variable
 #' @md

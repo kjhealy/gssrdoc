@@ -39,16 +39,45 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/2667/vshow}
 \seealso{
 Other Freedom: 
 \code{\link{choice}},
+\code{\link{cntrlife}},
+\code{\link{expunpop}},
+\code{\link{freeexp1}},
+\code{\link{freeexp2}},
+\code{\link{freeexp3}},
+\code{\link{freemns1}},
+\code{\link{freemns2}},
+\code{\link{freemns3}},
 \code{\link{freenow}},
+\code{\link{freeprss}},
 \code{\link{howfree}},
 \code{\link{inpeace}},
 \code{\link{leftlone}},
 \code{\link{nogovt}},
 \code{\link{partpol}},
 \code{\link{rfreenow}},
-\code{\link{rhowfree}}
+\code{\link{rhowfree}},
+\code{\link{wlthpov}}
+
+Other ANES: 
+\code{\link{econstat}},
+\code{\link{lkelyvot}},
+\code{\link{polintrst}},
+\code{\link{ratechall124}},
+\code{\link{ratechall1ts}},
+\code{\link{ratechall224}},
+\code{\link{ratechall2ts}},
+\code{\link{ratechall324}},
+\code{\link{ratechall3ts}},
+\code{\link{ratedemp}},
+\code{\link{rateincumb24}},
+\code{\link{rateincumbts}},
+\code{\link{ratemaga}},
+\code{\link{raterepp}},
+\code{\link{voteprob}},
+\code{\link{whovote24}},
+\code{\link{whovote24a}},
+\code{\link{whovotets}}
 }
 \concept{ANES}
 \concept{Freedom}
-\concept{United States}
 \keyword{variable}

@@ -42,10 +42,6 @@ Other Immigration:
 \code{\link{natborn}},
 \code{\link{rundrstd}},
 \code{\link{travelus}}
-
-Other Interview: 
-\code{\link{rundrstd}}
 }
 \concept{Immigration}
-\concept{Interview}
 \keyword{variable}

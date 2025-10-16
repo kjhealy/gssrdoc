@@ -84,26 +84,38 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/3898/vshow}
 \seealso{
 Other Global Economics: 
 \code{\link{agecmeus}},
+\code{\link{autonojb}},
+\code{\link{curempyr}},
 \code{\link{emphlth}},
 \code{\link{emphplan}},
+\code{\link{findnwjb}},
+\code{\link{inclstjb}},
+\code{\link{intlcowk}},
+\code{\link{lastyrwk}},
+\code{\link{leavejb}},
+\code{\link{losejb12}},
+\code{\link{lostjobs}},
+\code{\link{meetf2f1}},
+\code{\link{meetf2f2}},
+\code{\link{moretrde}},
 \code{\link{natdeg}},
+\code{\link{newjobs}},
 \code{\link{othplan}},
+\code{\link{pastpay}},
+\code{\link{paychnge}},
 \code{\link{typevisa}},
-\code{\link{visa}}
-
-Other Citizenship: 
-\code{\link{agecmeus}},
-\code{\link{typevisa}},
-\code{\link{visa}}
-
-Other Immigration: 
-\code{\link{agecmeus}},
-\code{\link{natdeg}},
-\code{\link{typevisa}},
-\code{\link{visa}}
+\code{\link{visa}},
+\code{\link{whyjbct1}},
+\code{\link{whyjbct2}},
+\code{\link{whyleave}},
+\code{\link{whylose1}},
+\code{\link{whylose2}},
+\code{\link{whylose3}},
+\code{\link{whynojb1}},
+\code{\link{whynojb2}},
+\code{\link{wkcomptr}},
+\code{\link{wocomptr}},
+\code{\link{work3yrs}}
 }
-\concept{Citizenship}
 \concept{Global Economics}
-\concept{Immigration}
-\concept{Nativity}
 \keyword{variable}

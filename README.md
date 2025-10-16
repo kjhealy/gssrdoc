@@ -64,10 +64,10 @@ documentation while using R in an IDE such as RStudio, VSCode, or
 Positron. The help page for each variable links to the [GSS Data
 Explorer](https://gssdataexplorer.norc.org) page for that variable. The
 “See Also” section at the bottom of the help page incorporates the GSS’s
-own cross-referencing by module and topic. The [documentation website
-for the packge](https://kjhealy.github.io/gssrdoc) has a full listing of
-the variables and a topical index organized by survey module and
-subject.
+own cross-referencing by module. The [documentation website for the
+packge](https://kjhealy.github.io/gssrdoc) has a full listing of the
+variables and a topical index organized by survey module and the GSS’s
+own subject tags.
 
 <img src="man/figures/organsb_sshot.png" alt="The help page for organsb" />
 

@@ -63,6 +63,5 @@ Question Date of interview.
 For details see the \href{https://gssdataexplorer.norc.org/variables/5467/vshow}{GSS Data Explorer page for \code{dateintv}}.
 }
 
-\concept{Date Of Interview}
 \concept{Date of Interview}
 \keyword{variable}

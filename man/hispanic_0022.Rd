@@ -80,10 +80,4 @@ As of 2024, HISPANIC has been recoded to remove certain sensitive categories. Th
 For details see the \href{https://gssdataexplorer.norc.org/variables/8112/vshow}{GSS Data Explorer page for \code{hispanic_0022}}.
 }
 
-\seealso{
-Other Ethnicity: 
-\code{\link{uscitzn_0822}}
-}
-\concept{Ethnicity}
-\concept{Race}
 \keyword{variable}

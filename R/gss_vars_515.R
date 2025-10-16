@@ -26,7 +26,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -62,7 +61,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -98,7 +96,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -134,7 +131,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -169,7 +165,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -204,7 +199,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -240,7 +234,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -275,8 +268,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Dwelling (R's)
-#' @family Residence
 #' 
 #' @keywords variable
 #' @md
@@ -313,8 +304,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Civil Liberties
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -351,7 +340,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md

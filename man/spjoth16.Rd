@@ -37,22 +37,25 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/3825/vshow}
 
 \seealso{
 Other Jewish Identity: 
+\code{\link{bmitzvah}},
+\code{\link{kd1jwoth}},
+\code{\link{kd1relig}},
+\code{\link{kd2jwoth}},
+\code{\link{kd2relig}},
+\code{\link{kd3jwoth}},
+\code{\link{kd3relig}},
+\code{\link{kd4jwoth}},
+\code{\link{kd4relig}},
+\code{\link{kd5jwoth}},
+\code{\link{kd5relig}},
+\code{\link{kd6relig}},
+\code{\link{kd7relig}},
+\code{\link{kd8relig}},
+\code{\link{kidnum}},
 \code{\link{majwoth}},
 \code{\link{pajwoth}},
-\code{\link{spjrel16}}
-
-Other Family: 
-\code{\link{spjrel16}}
-
-Other Jews: 
-\code{\link{majwoth}},
-\code{\link{pajwoth}}
-
-Other Religion: 
-\code{\link{majwoth}}
+\code{\link{spjrel16}},
+\code{\link{synmem}}
 }
-\concept{Family}
 \concept{Jewish Identity}
-\concept{Jews}
-\concept{Religion}
 \keyword{variable}

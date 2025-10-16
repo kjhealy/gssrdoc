@@ -44,5 +44,4 @@ Other Immigration:
 \code{\link{rundrstd}}
 }
 \concept{Immigration}
-\concept{Transportation}
 \keyword{variable}

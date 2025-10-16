@@ -64,8 +64,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Family
-#' @family Parents
 #' 
 #' @keywords variable
 #' @md
@@ -135,9 +133,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Divorce
-#' @family Family
-#' @family Parents
 #' 
 #' @keywords variable
 #' @md
@@ -187,7 +182,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Labor Force Status
 #' 
 #' @keywords variable
 #' @md
@@ -229,7 +223,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Labor Force Status
 #' 
 #' @keywords variable
 #' @md
@@ -269,7 +262,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Labor Force Status
 #' 
 #' @keywords variable
 #' @md
@@ -311,7 +303,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Labor Force Status
 #' 
 #' @keywords variable
 #' @md
@@ -359,7 +350,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Labor Force Status
 #' 
 #' @keywords variable
 #' @md
@@ -427,7 +417,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Income
 #' 
 #' @keywords variable
 #' @md
@@ -489,7 +478,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Nativity
 #' 
 #' @keywords variable
 #' @md
@@ -558,7 +546,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Nativity
 #' 
 #' @keywords variable
 #' @md

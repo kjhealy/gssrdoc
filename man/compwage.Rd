@@ -38,6 +38,8 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/3554/vshow}
 
 \seealso{
 Other Shared Capitalism: 
+\code{\link{buyvalue}},
+\code{\link{defpensn}},
 \code{\link{empinput}},
 \code{\link{emptrain}},
 \code{\link{esop}},
@@ -46,23 +48,8 @@ Other Shared Capitalism:
 \code{\link{ops2005}},
 \code{\link{slfmangd}},
 \code{\link{talkteam}},
-\code{\link{wealth}}
-
-Other Employment: 
-\code{\link{wealth}}
-
-Other Work: 
-\code{\link{empinput}},
-\code{\link{emptrain}},
-\code{\link{esop}},
-\code{\link{extr2005}},
-\code{\link{numorg}},
-\code{\link{ops2005}},
-\code{\link{slfmangd}},
-\code{\link{talkteam}},
+\code{\link{trdestck}},
 \code{\link{wealth}}
 }
-\concept{Employment}
 \concept{Shared Capitalism}
-\concept{Work}
 \keyword{variable}

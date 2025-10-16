@@ -44,8 +44,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
-#' @family Countries
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -92,8 +90,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
-#' @family Countries
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -147,8 +143,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
-#' @family Countries
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -195,8 +189,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
-#' @family Countries
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -250,8 +242,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
-#' @family Countries
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -305,8 +295,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
-#' @family Countries
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -360,8 +348,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
-#' @family Countries
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -397,8 +383,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Welfare
-#' @family Income
 #' @family Welfare
 #' 
 #' @keywords variable
@@ -436,8 +420,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Welfare
-#' @family Income
-#' @family Welfare
 #' 
 #' @keywords variable
 #' @md
@@ -473,8 +455,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Welfare
-#' @family Income
 #' @family Welfare
 #' 
 #' @keywords variable

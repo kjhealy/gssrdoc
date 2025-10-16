@@ -38,36 +38,13 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/3820/vshow}
 Other Self Employment: 
 \code{\link{bizgross}},
 \code{\link{numemps5}},
+\code{\link{numown}},
+\code{\link{ownbiz}},
 \code{\link{owninc}},
 \code{\link{paidemps}},
-\code{\link{whybiz}}
-
-Other Business: 
-\code{\link{bizgross}},
-\code{\link{numemps5}},
-\code{\link{owninc}},
-\code{\link{paidemps}},
-\code{\link{whybiz}}
-
-Other Corporations: 
-\code{\link{bizgross}},
-\code{\link{owninc}},
-\code{\link{paidemps}},
-\code{\link{whybiz}}
-
-Other Employment: 
-\code{\link{bizgross}},
-\code{\link{numemps5}},
-\code{\link{paidemps}},
-\code{\link{whybiz}}
-
-Other Income: 
-\code{\link{bizgross}},
-\code{\link{owninc}}
+\code{\link{startbiz}},
+\code{\link{whybiz}},
+\code{\link{yearbiz}}
 }
-\concept{Business}
-\concept{Corporations}
-\concept{Employment}
-\concept{Income}
 \concept{Self Employment}
 \keyword{variable}

@@ -96,8 +96,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Immigration
-#' @family Ethnicity
-#' @family Nativity
 #' 
 #' @keywords variable
 #' @md
@@ -132,7 +130,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Immigration
-#' @family Dwelling (R's)
 #' 
 #' @keywords variable
 #' @md
@@ -167,7 +164,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Immigration
-#' @family Transportation
 #' 
 #' @keywords variable
 #' @md
@@ -202,7 +198,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Immigration
-#' @family Immigration
 #' 
 #' @keywords variable
 #' @md
@@ -236,7 +231,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Immigration
-#' @family Interview
 #' 
 #' @keywords variable
 #' @md
@@ -271,7 +265,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Immigration
-#' @family Interview
 #' 
 #' @keywords variable
 #' @md
@@ -303,7 +296,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes and the Environment
-#' @family Genetic Testing
 #' 
 #' @keywords variable
 #' @md
@@ -335,7 +327,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes and the Environment
-#' @family Genetic Testing
 #' 
 #' @keywords variable
 #' @md
@@ -367,7 +358,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes and the Environment
-#' @family Genetic Testing
 #' 
 #' @keywords variable
 #' @md
@@ -399,7 +389,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes and the Environment
-#' @family Genetic Testing
 #' 
 #' @keywords variable
 #' @md

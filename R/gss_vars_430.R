@@ -22,8 +22,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
-#' @family Religion
-#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -56,9 +54,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
-#' @family Religion
-#' @family Romantic Relationships
-#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -91,9 +86,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
-#' @family Religion
-#' @family Romantic Relationships
-#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -126,9 +118,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
-#' @family Religion
-#' @family Romantic Relationships
-#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -161,8 +150,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
-#' @family Religion
-#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -195,8 +182,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
-#' @family Religion
-#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -229,8 +214,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
-#' @family Religion
-#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -263,8 +246,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
-#' @family Religion
-#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -297,8 +278,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
-#' @family Religion
-#' @family Sex
 #' 
 #' @keywords variable
 #' @md
@@ -331,8 +310,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
-#' @family Religion
-#' @family Sex
 #' 
 #' @keywords variable
 #' @md

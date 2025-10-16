@@ -30,8 +30,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Religion
-#' @family World View
 #' 
 #' @keywords variable
 #' @md
@@ -69,8 +67,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Religion
-#' @family World View
 #' 
 #' @keywords variable
 #' @md
@@ -108,7 +104,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -154,7 +149,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -429,7 +423,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -475,7 +468,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -750,7 +742,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -796,7 +787,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -1071,7 +1061,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -1111,7 +1100,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md

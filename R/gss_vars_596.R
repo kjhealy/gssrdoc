@@ -30,7 +30,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
-#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -74,7 +73,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Occupation
 #' @family Occupation
 #' 
 #' @keywords variable
@@ -138,7 +136,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
-#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -201,7 +198,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
-#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -244,7 +240,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Occupation
 #' @family Occupation
 #' 
 #' @keywords variable
@@ -307,7 +302,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Occupation
 #' @family Occupation
 #' 
 #' @keywords variable
@@ -956,7 +950,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name isco08
@@ -1603,7 +1596,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name paisco08
@@ -2230,7 +2222,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -2877,7 +2868,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
-#' 
 #' 
 #' @keywords variable
 #' @md

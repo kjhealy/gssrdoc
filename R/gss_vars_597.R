@@ -610,7 +610,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name coisco08
@@ -654,7 +653,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
-#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -686,7 +684,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -731,7 +728,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
-#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -770,7 +766,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Occupation
 #' @family Occupation
 #' 
 #' @keywords variable
@@ -815,7 +810,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Occupation
 #' @family Occupation
 #' 
 #' @keywords variable
@@ -883,7 +877,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name sei10
@@ -948,7 +941,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -1015,7 +1007,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name sei10inc
@@ -1080,7 +1071,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
-#' 
 #' 
 #' @keywords variable
 #' @md

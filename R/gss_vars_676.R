@@ -27,7 +27,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name intpolview
@@ -62,7 +61,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -100,7 +98,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name intviews
@@ -135,7 +132,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -172,7 +168,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name harmgood1
@@ -208,7 +203,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name nextgen1
@@ -243,7 +237,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name intscam
@@ -277,7 +270,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -315,7 +307,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name polnewsfrom
@@ -349,7 +340,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
-#' 
 #' 
 #' @keywords variable
 #' @md

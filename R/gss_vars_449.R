@@ -27,7 +27,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name givinfusa
@@ -62,7 +61,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -99,7 +97,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -136,7 +133,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -173,7 +169,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -210,7 +205,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -247,7 +241,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -283,7 +276,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -319,7 +311,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -355,7 +346,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Political
 #' 
 #' @keywords variable
 #' @md

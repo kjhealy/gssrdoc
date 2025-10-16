@@ -24,7 +24,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name broadband
@@ -55,7 +54,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ANES
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -88,7 +86,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ANES
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name ratechall124
@@ -119,7 +116,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ANES
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -152,7 +148,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ANES
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name ratechall324
@@ -183,7 +178,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ANES
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -216,7 +210,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ANES
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name raterepp
@@ -247,7 +240,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ANES
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -284,7 +276,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ANES
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name lkelyvot
@@ -318,7 +309,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ANES
-#' 
 #' 
 #' @keywords variable
 #' @md

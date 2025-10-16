@@ -24,7 +24,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -58,7 +57,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -92,7 +90,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -126,8 +123,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
-#' @family Household
-#' @family Purchases/Transactions
 #' 
 #' @keywords variable
 #' @md
@@ -161,8 +156,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
-#' @family Household
-#' @family Purchases/Transactions
 #' 
 #' @keywords variable
 #' @md
@@ -196,9 +189,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
-#' @family Household
-#' @family Purchases/Transactions
-#' @family Relatives
 #' 
 #' @keywords variable
 #' @md
@@ -232,9 +222,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
-#' @family Friends
-#' @family Household
-#' @family Purchases/Transactions
 #' 
 #' @keywords variable
 #' @md
@@ -268,8 +255,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
-#' @family Household
-#' @family Purchases/Transactions
 #' 
 #' @keywords variable
 #' @md
@@ -303,7 +288,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
-#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -336,7 +320,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Mental Health
 #' @family Mental Health
 #' 
 #' @keywords variable

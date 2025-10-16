@@ -27,7 +27,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Music
 #' 
 #' @keywords variable
 #' @md
@@ -64,7 +63,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Music
 #' 
 #' @keywords variable
 #' @md
@@ -101,7 +99,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Music
 #' 
 #' @keywords variable
 #' @md
@@ -138,7 +135,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Music
 #' 
 #' @keywords variable
 #' @md
@@ -175,7 +171,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Music
 #' 
 #' @keywords variable
 #' @md
@@ -212,7 +207,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Music
 #' 
 #' @keywords variable
 #' @md
@@ -246,8 +240,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Leisure
-#' @family Sports
 #' 
 #' @keywords variable
 #' @md
@@ -283,7 +275,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Leisure
 #' 
 #' @keywords variable
 #' @md
@@ -319,7 +310,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Leisure
 #' 
 #' @keywords variable
 #' @md
@@ -353,8 +343,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
-#' @family Leisure
-#' @family Sports
 #' 
 #' @keywords variable
 #' @md

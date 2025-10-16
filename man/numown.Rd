@@ -34,25 +34,15 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/3816/vshow}
 
 \seealso{
 Other Self Employment: 
+\code{\link{bizgross}},
+\code{\link{bizshare}},
+\code{\link{numemps5}},
 \code{\link{ownbiz}},
+\code{\link{owninc}},
+\code{\link{paidemps}},
 \code{\link{startbiz}},
-\code{\link{yearbiz}}
-
-Other Business: 
-\code{\link{ownbiz}},
-\code{\link{startbiz}},
-\code{\link{yearbiz}}
-
-Other Employment: 
-\code{\link{ownbiz}},
-\code{\link{startbiz}},
-\code{\link{yearbiz}}
-
-Other Job: 
+\code{\link{whybiz}},
 \code{\link{yearbiz}}
 }
-\concept{Business}
-\concept{Employment}
-\concept{Job}
 \concept{Self Employment}
 \keyword{variable}

@@ -36,8 +36,8 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/5572/vshow}
 \seealso{
 Other Form Y: 
 \code{\link{letdie1y}},
+\code{\link{pilloky}},
 \code{\link{popespky}}
 }
 \concept{Form Y}
-\concept{Police}
 \keyword{variable}

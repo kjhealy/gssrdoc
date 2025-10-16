@@ -44,41 +44,39 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/3878/vshow}
 
 \seealso{
 Other Global Economics: 
+\code{\link{agecmeus}},
+\code{\link{autonojb}},
+\code{\link{bornsp}},
+\code{\link{curempyr}},
+\code{\link{emphlth}},
+\code{\link{emphplan}},
 \code{\link{findnwjb}},
+\code{\link{inclstjb}},
+\code{\link{intlcowk}},
+\code{\link{lastyrwk}},
+\code{\link{leavejb}},
 \code{\link{losejb12}},
 \code{\link{lostjobs}},
+\code{\link{meetf2f1}},
+\code{\link{meetf2f2}},
 \code{\link{moretrde}},
+\code{\link{natdeg}},
 \code{\link{newjobs}},
+\code{\link{othplan}},
+\code{\link{pastpay}},
+\code{\link{paychnge}},
+\code{\link{typevisa}},
+\code{\link{visa}},
+\code{\link{whyjbct1}},
+\code{\link{whyleave}},
 \code{\link{whylose1}},
 \code{\link{whylose2}},
 \code{\link{whylose3}},
-\code{\link{wkcomptr}}
-
-Other Employment: 
-\code{\link{losejb12}},
-\code{\link{lostjobs}},
-\code{\link{moretrde}},
-\code{\link{newjobs}},
-\code{\link{whylose1}},
-\code{\link{whylose2}},
-\code{\link{whylose3}}
-
-Other Job: 
-\code{\link{findnwjb}},
-\code{\link{losejb12}},
-\code{\link{lostjobs}},
-\code{\link{moretrde}},
-\code{\link{newjobs}},
-\code{\link{wkcomptr}}
-
-Other Unemployment: 
-\code{\link{losejb12}},
-\code{\link{lostjobs}},
-\code{\link{moretrde}},
-\code{\link{newjobs}}
+\code{\link{whynojb1}},
+\code{\link{whynojb2}},
+\code{\link{wkcomptr}},
+\code{\link{wocomptr}},
+\code{\link{work3yrs}}
 }
-\concept{Employment}
 \concept{Global Economics}
-\concept{Job}
-\concept{Unemployment}
 \keyword{variable}

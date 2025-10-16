@@ -27,7 +27,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Social Class
 #' 
 #' @keywords variable
 #' @md
@@ -66,8 +65,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Occupation
-#' @family Opportunity
 #' 
 #' @keywords variable
 #' @md
@@ -108,7 +105,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -143,7 +139,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -184,8 +179,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Job
-#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -220,8 +213,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Job
-#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -262,8 +253,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Job
-#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -298,7 +287,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -335,7 +323,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -372,7 +359,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
-#' @family United States
 #' 
 #' @keywords variable
 #' @md

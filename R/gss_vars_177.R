@@ -26,8 +26,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Marriage
-#' @family Romantic Relationships
 #' 
 #' @keywords variable
 #' @md
@@ -62,8 +60,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Marriage
-#' @family Romantic Relationships
 #' 
 #' @keywords variable
 #' @md
@@ -97,7 +93,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -131,7 +126,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -181,8 +175,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Affirmative Action
-#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -216,8 +208,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Cohabitation
-#' @family Marriage
 #' 
 #' @keywords variable
 #' @md
@@ -251,8 +241,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Cohabitation
-#' @family Marriage
 #' 
 #' @keywords variable
 #' @md
@@ -286,8 +274,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Cohabitation
-#' @family Marriage
 #' 
 #' @keywords variable
 #' @md
@@ -325,7 +311,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -363,7 +348,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Household
 #' 
 #' @keywords variable
 #' @md

@@ -65,11 +65,6 @@ Other Military Service & Work:
 \code{\link{vetkind}},
 \code{\link{workdy}},
 \code{\link{workhr}}
-
-Other Veteran Status: 
-\code{\link{vetkind}}
 }
-\concept{Military}
 \concept{Military Service & Work}
-\concept{Veteran Status}
 \keyword{variable}

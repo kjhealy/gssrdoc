@@ -65,8 +65,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
-#' @family Family
-#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -145,9 +143,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
-#' @family Cohabitation
-#' @family Family
-#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -221,8 +216,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
-#' @family Family
-#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -296,8 +289,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
-#' @family Family
-#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -373,8 +364,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
-#' @family Family
-#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -447,8 +436,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
-#' @family Family
-#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -523,8 +510,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
-#' @family Family
-#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -603,9 +588,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
-#' @family Cohabitation
-#' @family Family
-#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -679,8 +661,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
-#' @family Family
-#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -754,8 +734,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
-#' @family Family
-#' @family Household
 #' 
 #' @keywords variable
 #' @md

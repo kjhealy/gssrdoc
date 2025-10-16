@@ -25,7 +25,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Capital Punishment
 #' 
 #' @keywords variable
 #' @md
@@ -89,7 +88,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Guns
 #' 
 #' @keywords variable
 #' @md
@@ -125,8 +123,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Guns
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -162,8 +158,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Guns
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -198,8 +192,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Guns
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -266,9 +258,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Courts
-#' @family Crime
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -304,9 +293,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Courts
-#' @family Crime
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -341,8 +327,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Crime
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -377,8 +361,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Crime
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -413,8 +395,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Crime
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md

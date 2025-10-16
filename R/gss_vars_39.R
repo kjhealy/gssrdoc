@@ -27,8 +27,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Religion
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -65,8 +63,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Religion
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -103,8 +99,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Religion
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -149,8 +143,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Religion
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -195,8 +187,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Religion
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -241,8 +231,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Religion
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -287,8 +275,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Religion
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -323,8 +309,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Religion
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -359,8 +343,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Religion
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -405,7 +387,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md

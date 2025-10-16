@@ -26,7 +26,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name mnthsusa
@@ -83,8 +82,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Military Service & Work
-#' @family Military
-#' @family Veteran Status
 #' 
 #' @keywords variable
 #' @md
@@ -132,7 +129,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Military Service & Work
-#' @family Veteran Status
 #' 
 #' @keywords variable
 #' @md
@@ -168,8 +164,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Military Service & Work
-#' @family Job
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -205,7 +199,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Military Service & Work
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -241,8 +234,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Military Service & Work
-#' @family Job
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -278,8 +269,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Military Service & Work
-#' @family Job
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -344,7 +333,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Residence
-#' @family Dwelling (R's)
 #' 
 #' @keywords variable
 #' @md
@@ -382,7 +370,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Residence
-#' @family Dwelling (R's)
 #' 
 #' @keywords variable
 #' @md
@@ -420,7 +407,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Residence
-#' @family Dwelling (R's)
 #' 
 #' @keywords variable
 #' @md

@@ -26,7 +26,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
-#' @family Trauma
 #' 
 #' @keywords variable
 #' @md
@@ -62,8 +61,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
-#' @family Children
-#' @family Trauma
 #' 
 #' @keywords variable
 #' @md
@@ -99,7 +96,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
-#' @family Trauma
 #' 
 #' @keywords variable
 #' @md
@@ -135,7 +131,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
-#' @family Trauma
 #' 
 #' @keywords variable
 #' @md
@@ -171,7 +166,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
-#' @family Trauma
 #' 
 #' @keywords variable
 #' @md
@@ -207,7 +201,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
-#' @family Trauma
 #' 
 #' @keywords variable
 #' @md
@@ -243,7 +236,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
-#' @family Trauma
 #' 
 #' @keywords variable
 #' @md
@@ -279,7 +271,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
-#' @family Trauma
 #' 
 #' @keywords variable
 #' @md
@@ -315,8 +306,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
-#' @family Children
-#' @family Trauma
 #' 
 #' @keywords variable
 #' @md
@@ -352,7 +341,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
-#' @family Trauma
 #' 
 #' @keywords variable
 #' @md

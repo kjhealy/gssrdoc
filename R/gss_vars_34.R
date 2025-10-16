@@ -25,8 +25,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Crime
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -61,8 +59,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Crime
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -97,8 +93,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Crime
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -144,8 +138,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Civil Liberties
-#' @family Wiretapping
 #' 
 #' @keywords variable
 #' @md
@@ -206,8 +198,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Marijuana
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -241,8 +231,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Marijuana
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -320,7 +308,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -413,7 +400,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -694,7 +680,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -729,7 +714,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md

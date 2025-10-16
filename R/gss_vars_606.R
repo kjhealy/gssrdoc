@@ -37,7 +37,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Paradata
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -84,7 +83,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Paradata
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -131,7 +129,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Paradata
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -178,7 +175,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Paradata
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -218,7 +214,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Paradata
-#' @family Interview
 #' 
 #' @keywords variable
 #' @md
@@ -259,7 +254,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Paradata
-#' @family Interview
 #' 
 #' @keywords variable
 #' @md
@@ -293,7 +287,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Paradata
-#' @family Interview
 #' 
 #' @keywords variable
 #' @md
@@ -333,7 +326,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Paradata
-#' @family Interview
 #' 
 #' @keywords variable
 #' @md
@@ -379,7 +371,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Paradata
-#' @family Interview
 #' 
 #' @keywords variable
 #' @md
@@ -420,7 +411,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Paradata
-#' @family Interview
 #' 
 #' @keywords variable
 #' @md

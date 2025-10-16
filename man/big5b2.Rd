@@ -39,19 +39,15 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/4980/vshow}
 
 \seealso{
 Other Big 5: 
+\code{\link{big5a1}},
 \code{\link{big5a2}},
+\code{\link{big5b1}},
+\code{\link{big5c1}},
 \code{\link{big5c2}},
-\code{\link{big5d2}},
-\code{\link{big5e1}},
-\code{\link{big5e2}}
-
-Other Feelings: 
-\code{\link{big5a2}},
-\code{\link{big5c2}},
+\code{\link{big5d1}},
 \code{\link{big5d2}},
 \code{\link{big5e1}},
 \code{\link{big5e2}}
 }
 \concept{Big 5}
-\concept{Feelings}
 \keyword{variable}

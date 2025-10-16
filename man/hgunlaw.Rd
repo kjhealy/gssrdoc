@@ -38,11 +38,6 @@ Other Guns:
 \code{\link{crimdown}},
 \code{\link{crimup}},
 \code{\link{hguncrim}}
-
-Other Guns: 
-\code{\link{crimdown}},
-\code{\link{crimup}},
-\code{\link{hguncrim}}
 }
 \concept{Guns}
 \keyword{variable}

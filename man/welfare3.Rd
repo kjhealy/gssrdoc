@@ -40,16 +40,10 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/5500/vshow}
 \seealso{
 Other Welfare: 
 \code{\link{welfare1}},
-\code{\link{welfare2}}
-
-Other Income: 
-\code{\link{welfare1}},
-\code{\link{welfare2}}
-
-Other Welfare: 
-\code{\link{welfare1}},
-\code{\link{welfare2}}
+\code{\link{welfare2}},
+\code{\link{welfare4}},
+\code{\link{welfare5}},
+\code{\link{welfare6}}
 }
-\concept{Income}
 \concept{Welfare}
 \keyword{variable}

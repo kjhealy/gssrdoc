@@ -22,7 +22,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name uscitznv_2122
@@ -51,7 +50,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -119,7 +117,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Siblings
 #' 
 #' @keywords variable
 #' @md
@@ -180,7 +177,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Ethnicity
-#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -241,7 +237,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Ethnicity
-#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -302,7 +297,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Ethnicity
-#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -368,7 +362,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable

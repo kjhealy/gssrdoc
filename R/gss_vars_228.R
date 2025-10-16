@@ -26,7 +26,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -62,7 +61,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -97,7 +95,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -132,7 +129,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -170,7 +166,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -206,7 +201,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -242,7 +236,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -278,7 +271,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -317,7 +309,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -355,7 +346,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md

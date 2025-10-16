@@ -41,12 +41,8 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/5292/vshow}
 \seealso{
 Other Residence: 
 \code{\link{dwelcity}},
-\code{\link{dwelling}}
-
-Other Dwelling (R's): 
-\code{\link{dwelcity}},
-\code{\link{dwelling}}
+\code{\link{dwelling}},
+\code{\link{dwelown}}
 }
-\concept{Dwelling (R's)}
 \concept{Residence}
 \keyword{variable}

@@ -54,7 +54,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
-#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -118,7 +117,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
-#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -182,7 +180,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
-#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -246,7 +243,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
-#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -309,7 +305,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Date of Interview
-#' @family Date Of Interview
 #' 
 #' @keywords variable
 #' @md
@@ -356,7 +351,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Occupation
 #' @family Occupation
 #' 
 #' @keywords variable
@@ -405,7 +399,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
-#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -453,7 +446,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
-#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -498,7 +490,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
-#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -542,7 +533,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Occupation
 #' @family Occupation
 #' 
 #' @keywords variable

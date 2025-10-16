@@ -50,7 +50,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Guns
 #' 
 #' @keywords variable
 #' @md
@@ -91,8 +90,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Arrest (R's)
-#' @family Police
 #' 
 #' @keywords variable
 #' @md
@@ -133,8 +130,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Arrest (R's)
-#' @family Police
 #' 
 #' @keywords variable
 #' @md
@@ -167,7 +162,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Courts
 #' 
 #' @keywords variable
 #' @md
@@ -200,8 +194,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Courts
-#' @family Police
 #' 
 #' @keywords variable
 #' @md
@@ -262,7 +254,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Hunting
 #' 
 #' @keywords variable
 #' @md
@@ -302,7 +293,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name hunt1
@@ -337,7 +327,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Hunting
 #' 
 #' @keywords variable
 #' @md
@@ -402,7 +391,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Newspaper Readership
 #' 
 #' @keywords variable
 #' @md
@@ -463,7 +451,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Television Viewing
 #' 
 #' @keywords variable
 #' @md

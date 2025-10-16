@@ -28,8 +28,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
-#' @family Poverty
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -67,8 +65,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
-#' @family Poverty
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -106,8 +102,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
-#' @family Poverty
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -146,8 +140,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
-#' @family Poverty
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -186,8 +178,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
-#' @family Poverty
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -226,8 +216,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
-#' @family Poverty
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -266,7 +254,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
-#' @family Affirmative Action
 #' 
 #' @keywords variable
 #' @md
@@ -301,7 +288,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
-#' @family Whites
 #' 
 #' @keywords variable
 #' @md
@@ -336,7 +322,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
-#' @family Jews
 #' 
 #' @keywords variable
 #' @md
@@ -371,7 +356,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
-#' @family Blacks
 #' 
 #' @keywords variable
 #' @md

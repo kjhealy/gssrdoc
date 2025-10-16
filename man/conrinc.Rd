@@ -63,15 +63,9 @@ Question Inflation-adjusted personal income.
 Other Income: 
 \code{\link{coninc}},
 \code{\link{incdef}},
+\code{\link{minfood}},
 \code{\link{minfour}},
-\code{\link{povline}},
-\code{\link{realinc}},
-\code{\link{realrinc}}
-
-Other Income: 
-\code{\link{coninc}},
-\code{\link{incdef}},
-\code{\link{minfour}},
+\code{\link{minthree}},
 \code{\link{povline}},
 \code{\link{realinc}},
 \code{\link{realrinc}}

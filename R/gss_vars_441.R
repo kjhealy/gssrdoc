@@ -24,7 +24,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -63,8 +62,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Economy
-#' @family Wage/Price Controls
 #' 
 #' @keywords variable
 #' @md
@@ -103,8 +100,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Economy
-#' @family Wage/Price Controls
 #' 
 #' @keywords variable
 #' @md
@@ -145,8 +140,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Economy
-#' @family Spending
 #' 
 #' @keywords variable
 #' @md
@@ -187,7 +180,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Economy
 #' 
 #' @keywords variable
 #' @md
@@ -228,7 +220,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Economy
 #' 
 #' @keywords variable
 #' @md
@@ -269,7 +260,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Economy
 #' 
 #' @keywords variable
 #' @md
@@ -310,7 +300,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Economy
 #' 
 #' @keywords variable
 #' @md
@@ -351,7 +340,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Economy
 #' 
 #' @keywords variable
 #' @md
@@ -392,10 +380,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Environment
-#' @family Federal Government
-#' @family Spending
-#' @family Taxes
 #' 
 #' @keywords variable
 #' @md

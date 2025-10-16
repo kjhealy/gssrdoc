@@ -26,7 +26,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -62,7 +61,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -98,7 +96,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -148,7 +145,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -198,7 +194,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -249,7 +244,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -300,7 +294,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -350,7 +343,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -400,7 +392,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -441,7 +432,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md

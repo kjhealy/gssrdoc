@@ -24,7 +24,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
-#' @family Computers And Internet
 #' 
 #' @keywords variable
 #' @md
@@ -58,7 +57,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
-#' @family Computers And Internet
 #' 
 #' @keywords variable
 #' @md
@@ -93,7 +91,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
-#' @family Computers And Internet
 #' 
 #' @keywords variable
 #' @md
@@ -128,7 +125,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
-#' @family Computers And Internet
 #' 
 #' @keywords variable
 #' @md
@@ -163,7 +159,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
-#' @family Computers And Internet
 #' 
 #' @keywords variable
 #' @md
@@ -198,7 +193,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
-#' @family Computers And Internet
 #' 
 #' @keywords variable
 #' @md
@@ -232,7 +226,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
-#' @family Computers And Internet
 #' 
 #' @keywords variable
 #' @md
@@ -266,7 +259,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
-#' @family Computers And Internet
 #' 
 #' @keywords variable
 #' @md
@@ -300,7 +292,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
-#' @family Computers And Internet
 #' 
 #' @keywords variable
 #' @md
@@ -334,7 +325,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
-#' @family Computers And Internet
 #' 
 #' @keywords variable
 #' @md

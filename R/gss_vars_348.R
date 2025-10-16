@@ -23,8 +23,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
-#' @family Religion
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -57,7 +55,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -90,7 +87,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -122,7 +118,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -154,7 +149,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -186,7 +180,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -218,7 +211,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -250,7 +242,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -282,7 +273,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -314,7 +304,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md

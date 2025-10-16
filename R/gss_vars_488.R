@@ -30,8 +30,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
-#' @family Happiness
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -71,9 +69,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
-#' @family Job
-#' @family Satisfaction
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -114,7 +109,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
-#' @family Satisfaction
 #' 
 #' @keywords variable
 #' @md
@@ -148,7 +142,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
-#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -186,7 +179,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
-#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -225,7 +217,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
-#' @family Income
 #' 
 #' @keywords variable
 #' @md
@@ -263,7 +254,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
-#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -301,7 +291,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
-#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -338,7 +327,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
-#' @family Children
 #' 
 #' @keywords variable
 #' @md
@@ -375,7 +363,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
-#' @family Children
 #' 
 #' @keywords variable
 #' @md

@@ -48,8 +48,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Vocabulary
-#' @family Knowledge
-#' @family Vocabulary Test
 #' 
 #' @keywords variable
 #' @md
@@ -107,8 +105,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Vocabulary
-#' @family Knowledge
-#' @family Vocabulary Test
 #' 
 #' @keywords variable
 #' @md
@@ -165,8 +161,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Vocabulary
-#' @family Knowledge
-#' @family Vocabulary Test
 #' 
 #' @keywords variable
 #' @md
@@ -202,7 +196,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religious Attendance and Identity
-#' @family Life Events
 #' 
 #' @keywords variable
 #' @md
@@ -238,7 +231,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religious Attendance and Identity
-#' @family Life Events
 #' 
 #' @keywords variable
 #' @md
@@ -274,7 +266,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religious Attendance and Identity
-#' @family Life Events
 #' 
 #' @keywords variable
 #' @md
@@ -310,8 +301,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religious Attendance and Identity
-#' @family Life Events
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -344,7 +333,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religious Attendance and Identity
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -378,7 +366,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religious Attendance and Identity
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -412,7 +399,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religious Attendance and Identity
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md

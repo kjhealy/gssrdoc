@@ -43,7 +43,5 @@ Other Work and Relationships:
 \code{\link{effctsup}},
 \code{\link{talkspvs}}
 }
-\concept{Job}
-\concept{Work}
 \concept{Work and Relationships}
 \keyword{variable}

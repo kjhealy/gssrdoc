@@ -58,8 +58,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Confidence
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -127,8 +125,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Confidence
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -196,10 +192,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Confidence
-#' @family Courts
-#' @family Federal Government
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -267,8 +259,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Confidence
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -336,9 +326,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Confidence
-#' @family Federal Government
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -406,9 +393,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Confidence
-#' @family Federal Government
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -443,10 +427,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Business
-#' @family Confidence
-#' @family Financial Institutions And Banks
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -481,9 +461,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Business
-#' @family Confidence
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -518,9 +495,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Confidence
-#' @family Religion
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -555,9 +529,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Confidence
-#' @family Education
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md

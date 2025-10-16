@@ -26,8 +26,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
-#' @family Economy
-#' @family Federal Government
 #' 
 #' @keywords variable
 #' @md
@@ -63,8 +61,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
-#' @family Environment
-#' @family Federal Government
 #' 
 #' @keywords variable
 #' @md
@@ -100,7 +96,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
-#' @family Purchases/Transactions
 #' 
 #' @keywords variable
 #' @md
@@ -133,7 +128,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
-#' @family Purchases/Transactions
 #' 
 #' @keywords variable
 #' @md
@@ -166,10 +160,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
-#' @family Agriculture
-#' @family Labor Force Status
-#' @family Occupation
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -204,7 +194,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
-#' @family Labor Force Status
 #' 
 #' @keywords variable
 #' @md
@@ -244,9 +233,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
-#' @family Agriculture
-#' @family Industry
-#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
@@ -281,7 +267,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
-#' @family Economy
 #' 
 #' @keywords variable
 #' @md
@@ -318,9 +303,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
-#' @family Household
-#' @family Income
-#' @family Purchases/Transactions
 #' 
 #' @keywords variable
 #' @md
@@ -358,8 +340,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
-#' @family Household
-#' @family Purchases/Transactions
 #' 
 #' @keywords variable
 #' @md

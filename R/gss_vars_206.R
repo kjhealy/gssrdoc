@@ -24,7 +24,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -58,7 +57,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -92,7 +90,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -125,7 +122,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -158,7 +154,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -191,7 +186,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -224,7 +218,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -257,7 +250,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -290,7 +282,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -323,7 +314,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md

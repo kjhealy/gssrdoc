@@ -40,13 +40,17 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/2734/vshow}
 
 \seealso{
 Other Prejudice: 
+\code{\link{ethadapt}},
 \code{\link{ethdiff}},
+\code{\link{ethignor}},
+\code{\link{ethimp}},
+\code{\link{ethnofit}},
+\code{\link{ethtrads}},
+\code{\link{feelasns}},
+\code{\link{feelblks}},
+\code{\link{feelhsps}},
 \code{\link{feelwhts}},
 \code{\link{whtsdiff}}
-
-Other Ethnicity: 
-\code{\link{ethdiff}}
 }
-\concept{Ethnicity}
 \concept{Prejudice}
 \keyword{variable}

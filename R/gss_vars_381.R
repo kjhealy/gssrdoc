@@ -26,8 +26,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
-#' @family Knowledge
-#' @family Science
 #' 
 #' @keywords variable
 #' @md
@@ -63,7 +61,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
-#' @family Science
 #' 
 #' @keywords variable
 #' @md
@@ -98,7 +95,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
-#' @family Interview
 #' 
 #' @keywords variable
 #' @md
@@ -137,8 +133,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
-#' @family Foreign Affairs
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -177,8 +171,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
-#' @family Agriculture
-#' @family United States
 #' 
 #' @keywords variable
 #' @md
@@ -218,7 +210,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
-#' @family Education
 #' 
 #' @keywords variable
 #' @md
@@ -258,7 +249,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
-#' @family Science
 #' 
 #' @keywords variable
 #' @md
@@ -298,7 +288,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
-#' @family Economy
 #' 
 #' @keywords variable
 #' @md
@@ -338,7 +327,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
-#' @family Technology
 #' 
 #' @keywords variable
 #' @md
@@ -377,8 +365,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
-#' @family Health
-#' @family Science
 #' 
 #' @keywords variable
 #' @md

@@ -36,17 +36,19 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/3551/vshow}
 }
 
 \seealso{
-Other Work: 
-\code{\link{architct}},
-\code{\link{cmprgmng}},
-\code{\link{engnring}},
-\code{\link{finlcoun}},
-\code{\link{fireftng}},
-\code{\link{lawenfrc}},
-\code{\link{marrcoun}},
-\code{\link{medtreat}},
-\code{\link{slsmnshp}}
+Other Shared Capitalism: 
+\code{\link{compwage}},
+\code{\link{defpensn}},
+\code{\link{empinput}},
+\code{\link{emptrain}},
+\code{\link{esop}},
+\code{\link{extr2005}},
+\code{\link{numorg}},
+\code{\link{ops2005}},
+\code{\link{slfmangd}},
+\code{\link{talkteam}},
+\code{\link{trdestck}},
+\code{\link{wealth}}
 }
 \concept{Shared Capitalism}
-\concept{Work}
 \keyword{variable}

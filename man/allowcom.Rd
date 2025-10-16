@@ -35,11 +35,8 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/4987/vshow}
 
 \seealso{
 Other Civil Liberties: 
-\code{\link{forbdcom}},
-\code{\link{forbdmar}},
-\code{\link{forbdrac}}
-
-Other Civil Liberties: 
+\code{\link{allowmar}},
+\code{\link{allowrac}},
 \code{\link{forbdcom}},
 \code{\link{forbdmar}},
 \code{\link{forbdrac}}

@@ -35,25 +35,35 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/2162/vshow}
 
 \seealso{
 Other Jobs: 
+\code{\link{doingdys}},
+\code{\link{doingfin}},
+\code{\link{doingtrn}},
+\code{\link{formldys}},
+\code{\link{formlfin}},
+\code{\link{formlhrs}},
+\code{\link{formltrn}},
+\code{\link{genderwk}},
 \code{\link{hourly}},
+\code{\link{howpaid}},
+\code{\link{locyrs}},
 \code{\link{monthly}},
+\code{\link{numemp}},
+\code{\link{occtrain}},
+\code{\link{occyrs}},
+\code{\link{orgsize}},
+\code{\link{othyrs}},
+\code{\link{otjtrain}},
+\code{\link{partorg}},
+\code{\link{samework}},
+\code{\link{siteyrs}},
+\code{\link{trainsch}},
 \code{\link{trusting}},
+\code{\link{typeorg}},
 \code{\link{weekly}},
-\code{\link{yearly}}
-
-Other Job: 
-\code{\link{hourly}},
-\code{\link{monthly}},
-\code{\link{weekly}},
-\code{\link{yearly}}
-
-Other Occupation: 
-\code{\link{hourly}},
-\code{\link{monthly}},
-\code{\link{weekly}},
+\code{\link{wojob}},
+\code{\link{wojobyrs}},
+\code{\link{wrkoth}},
 \code{\link{yearly}}
 }
-\concept{Job}
 \concept{Jobs}
-\concept{Occupation}
 \keyword{variable}

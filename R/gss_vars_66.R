@@ -41,8 +41,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Children
-#' @family Social Mobility
 #' 
 #' @keywords variable
 #' @md
@@ -90,7 +88,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -139,7 +136,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -191,7 +187,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -251,8 +246,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Split Ballots
-#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -287,8 +280,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Split Ballots
-#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -325,8 +316,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' @family Gender
-#' @family Split Ballots
-#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -361,8 +350,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Split Ballots
-#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -397,8 +384,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Split Ballots
-#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -433,8 +418,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Split Ballots
-#' @family Women
 #' 
 #' @keywords variable
 #' @md

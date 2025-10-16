@@ -31,7 +31,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Marital Status
 #' 
 #' @keywords variable
 #' @md
@@ -73,7 +72,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name marcohab
@@ -107,7 +105,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -142,7 +139,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -177,7 +173,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -212,7 +207,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -247,7 +241,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -291,7 +284,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -330,7 +322,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -370,7 +361,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Family
 #' 
 #' @keywords variable
 #' @md

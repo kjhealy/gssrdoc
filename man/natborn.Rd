@@ -114,7 +114,5 @@ Other Immigration:
 \code{\link{rundrstd}},
 \code{\link{travelus}}
 }
-\concept{Ethnicity}
 \concept{Immigration}
-\concept{Nativity}
 \keyword{variable}

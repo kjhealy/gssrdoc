@@ -54,7 +54,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name coden
@@ -307,7 +306,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name coother
@@ -348,7 +346,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name cojew
@@ -387,7 +384,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name cofund
@@ -422,7 +418,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -481,9 +476,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Prayer In School
-#' @family Religion
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -517,9 +509,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Prayer In School
-#' @family Religion
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -558,8 +547,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Religion
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -617,8 +604,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Religion
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
@@ -660,8 +645,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Religion
-#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md

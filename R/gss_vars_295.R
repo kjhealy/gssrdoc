@@ -28,7 +28,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
-#' @family Freedom
 #' 
 #' @keywords variable
 #' @md
@@ -63,7 +62,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
-#' @family Media
 #' 
 #' @keywords variable
 #' @md
@@ -99,7 +97,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
-#' @family Social Class
 #' 
 #' @keywords variable
 #' @md
@@ -132,7 +129,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Freedom
 #' @family Freedom
 #' 
 #' @keywords variable
@@ -168,7 +164,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
-#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -203,7 +198,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
-#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -236,7 +230,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
-#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -269,7 +262,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
-#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -302,7 +294,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
-#' @family Health
 #' 
 #' @keywords variable
 #' @md
@@ -335,7 +326,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
-#' @family Health
 #' 
 #' @keywords variable
 #' @md

@@ -26,7 +26,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -62,7 +61,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -98,7 +96,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -135,7 +132,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -172,7 +168,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -209,7 +204,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -246,7 +240,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -283,7 +276,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -320,8 +312,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
-#' @family Asian Americans
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -358,8 +348,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
-#' @family Blacks
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md

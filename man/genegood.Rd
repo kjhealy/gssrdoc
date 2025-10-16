@@ -38,13 +38,15 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/5085/vshow}
 
 \seealso{
 Other Genes: 
-\code{\link{genetest}},
-\code{\link{genetst1}}
-
-Other Genetic Testing: 
+\code{\link{geneabrt}},
+\code{\link{genedef1}},
+\code{\link{genedef2}},
+\code{\link{genedef3}},
+\code{\link{genegoo1}},
+\code{\link{genegoo2}},
+\code{\link{geneself}},
 \code{\link{genetest}},
 \code{\link{genetst1}}
 }
 \concept{Genes}
-\concept{Genetic Testing}
 \keyword{variable}

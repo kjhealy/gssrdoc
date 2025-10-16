@@ -39,8 +39,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
-#' @family Education
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -89,7 +87,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -138,8 +135,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
-#' @family Education
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -188,7 +183,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -237,8 +231,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
-#' @family Agriculture
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -287,8 +279,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
-#' @family Leisure
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -337,7 +327,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -386,8 +375,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
-#' @family Religion
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -436,7 +423,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -484,7 +470,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md

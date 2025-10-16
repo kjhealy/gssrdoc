@@ -27,7 +27,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -64,7 +63,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -101,7 +99,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -136,7 +133,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Civil Liberties
 #' 
 #' @keywords variable
 #' @md
@@ -175,7 +171,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family People
 #' 
 #' @keywords variable
 #' @md
@@ -216,8 +211,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Anomia
-#' @family People
 #' 
 #' @keywords variable
 #' @md
@@ -255,8 +248,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Confidence
-#' @family Science
 #' 
 #' @keywords variable
 #' @md
@@ -295,7 +286,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -334,7 +324,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -373,7 +362,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md

@@ -24,7 +24,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
-#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
@@ -60,8 +59,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
-#' @family Political
-#' @family Residence
 #' 
 #' @keywords variable
 #' @md
@@ -96,7 +93,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
-#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -131,7 +127,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
-#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -164,7 +159,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
-#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -197,7 +191,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
-#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -232,7 +225,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
-#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -267,7 +259,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
-#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -302,7 +293,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
-#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -337,7 +327,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
-#' @family Political
 #' 
 #' @keywords variable
 #' @md

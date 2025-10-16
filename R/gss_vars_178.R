@@ -25,7 +25,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Household
 #' 
 #' @keywords variable
 #' @md
@@ -61,8 +60,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Income
-#' @family Women
 #' 
 #' @keywords variable
 #' @md
@@ -98,8 +95,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Family
-#' @family Success
 #' 
 #' @keywords variable
 #' @md
@@ -135,8 +130,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Success
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -172,9 +165,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Family
-#' @family Success
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -209,9 +199,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Family
-#' @family Job
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -246,9 +233,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Family
-#' @family Job
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -282,9 +266,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Family
-#' @family Job
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -319,9 +300,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Family
-#' @family Job
-#' @family Work
 #' 
 #' @keywords variable
 #' @md
@@ -356,9 +334,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
-#' @family Family
-#' @family Job
-#' @family Work
 #' 
 #' @keywords variable
 #' @md

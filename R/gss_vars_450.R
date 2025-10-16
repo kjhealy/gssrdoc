@@ -25,7 +25,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -62,7 +61,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -99,7 +97,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -136,7 +133,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
-#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -177,7 +173,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -211,8 +206,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Family
-#' @family Parents
 #' 
 #' @keywords variable
 #' @md
@@ -252,7 +245,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -292,7 +284,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -330,7 +321,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Family
 #' 
 #' @keywords variable
 #' @md
@@ -363,8 +353,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
-#' @family Family
-#' @family Parents
 #' 
 #' @keywords variable
 #' @md

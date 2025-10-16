@@ -36,13 +36,16 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/2732/vshow}
 \seealso{
 Other Prejudice: 
 \code{\link{ethadapt}},
+\code{\link{ethdiff}},
 \code{\link{ethignor}},
 \code{\link{ethimp}},
 \code{\link{ethnofit}},
+\code{\link{ethsame}},
 \code{\link{ethtrads}},
 \code{\link{feelasns}},
-\code{\link{feelblks}}
+\code{\link{feelblks}},
+\code{\link{feelwhts}},
+\code{\link{whtsdiff}}
 }
-\concept{Hispanics}
 \concept{Prejudice}
 \keyword{variable}

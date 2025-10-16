@@ -33,5 +33,4 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/5082/vshow}
 }
 
 \concept{Birth Order}
-\concept{Siblings}
 \keyword{variable}

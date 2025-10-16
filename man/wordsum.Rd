@@ -59,18 +59,16 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/5305/vshow}
 
 \seealso{
 Other Vocabulary: 
-\code{\link{wordi}},
-\code{\link{wordj}}
-
-Other Knowledge: 
-\code{\link{wordi}},
-\code{\link{wordj}}
-
-Other Vocabulary Test: 
+\code{\link{worda}},
+\code{\link{wordb}},
+\code{\link{wordc}},
+\code{\link{wordd}},
+\code{\link{worde}},
+\code{\link{wordf}},
+\code{\link{wordg}},
+\code{\link{wordh}},
 \code{\link{wordi}},
 \code{\link{wordj}}
 }
-\concept{Knowledge}
 \concept{Vocabulary}
-\concept{Vocabulary Test}
 \keyword{variable}

@@ -32,7 +32,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name hope5
@@ -72,7 +71,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -117,7 +115,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -162,7 +159,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -200,7 +196,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -234,7 +229,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
-#' @family Art/The Arts (And Literature)
 #' 
 #' @keywords variable
 #' @md
@@ -270,7 +264,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -306,7 +299,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
-#' @family Art/The Arts (And Literature)
 #' 
 #' @keywords variable
 #' @md
@@ -339,8 +331,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
-#' @family Civil Liberties
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -374,7 +364,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md

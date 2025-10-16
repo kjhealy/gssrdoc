@@ -43,7 +43,17 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/6207/vshow}
 
 \seealso{
 Other Hope and Optimism: 
-\code{\link{hope6}}
+\code{\link{hope1}},
+\code{\link{hope2}},
+\code{\link{hope3}},
+\code{\link{hope4}},
+\code{\link{hope6}},
+\code{\link{lotr1}},
+\code{\link{lotr2}},
+\code{\link{lotr3}},
+\code{\link{lotr4}},
+\code{\link{lotr5}},
+\code{\link{lotr6}}
 }
 \concept{Hope and Optimism}
 \keyword{variable}

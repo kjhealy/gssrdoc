@@ -66,27 +66,10 @@ Other Vocabulary:
 \code{\link{wordd}},
 \code{\link{wordf}},
 \code{\link{wordg}},
-\code{\link{wordh}}
-
-Other Knowledge: 
-\code{\link{worda}},
-\code{\link{wordb}},
-\code{\link{wordc}},
-\code{\link{wordd}},
-\code{\link{wordf}},
-\code{\link{wordg}},
-\code{\link{wordh}}
-
-Other Vocabulary Test: 
-\code{\link{worda}},
-\code{\link{wordb}},
-\code{\link{wordc}},
-\code{\link{wordd}},
-\code{\link{wordf}},
-\code{\link{wordg}},
-\code{\link{wordh}}
+\code{\link{wordh}},
+\code{\link{wordi}},
+\code{\link{wordj}},
+\code{\link{wordsum}}
 }
-\concept{Knowledge}
 \concept{Vocabulary}
-\concept{Vocabulary Test}
 \keyword{variable}

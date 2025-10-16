@@ -23,7 +23,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
-#' @family Genetic Testing
 #' 
 #' @keywords variable
 #' @md
@@ -56,7 +55,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
-#' @family Genetic Testing
 #' 
 #' @keywords variable
 #' @md
@@ -90,7 +88,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
-#' @family Genetic Testing
 #' 
 #' @keywords variable
 #' @md
@@ -127,8 +124,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
-#' @family Corporations
-#' @family Social Class
 #' 
 #' @keywords variable
 #' @md
@@ -165,8 +160,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
-#' @family Corporations
-#' @family Social Class
 #' 
 #' @keywords variable
 #' @md
@@ -203,7 +196,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
-#' @family Labor Unions
 #' 
 #' @keywords variable
 #' @md
@@ -240,7 +232,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
-#' @family Labor Unions
 #' 
 #' @keywords variable
 #' @md
@@ -274,8 +265,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
-#' @family Corporations
-#' @family Trauma
 #' 
 #' @keywords variable
 #' @md
@@ -309,7 +298,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
-#' @family Corporations
 #' 
 #' @keywords variable
 #' @md
@@ -343,7 +331,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
-#' @family Corporations
 #' 
 #' @keywords variable
 #' @md

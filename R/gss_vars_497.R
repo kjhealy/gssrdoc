@@ -30,7 +30,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name moveinus
@@ -68,7 +67,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
-#' 
 #' 
 #' @keywords variable
 #' @md
@@ -112,7 +110,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name econsup1
@@ -148,7 +145,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name worecsup
@@ -183,8 +179,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
-#' @family Trauma
-#' @family Unemployment
 #' 
 #' @keywords variable
 #' @md
@@ -220,8 +214,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
-#' @family Trauma
-#' @family Unemployment
 #' 
 #' @keywords variable
 #' @md
@@ -257,8 +249,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
-#' @family Trauma
-#' @family Unemployment
 #' 
 #' @keywords variable
 #' @md
@@ -294,8 +284,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
-#' @family Trauma
-#' @family Unemployment
 #' 
 #' @keywords variable
 #' @md
@@ -331,8 +319,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
-#' @family Trauma
-#' @family Unemployment
 #' 
 #' @keywords variable
 #' @md
@@ -368,8 +354,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
-#' @family Trauma
-#' @family Unemployment
 #' 
 #' @keywords variable
 #' @md

@@ -46,6 +46,8 @@ Other Hope and Optimism:
 \code{\link{hope1}},
 \code{\link{hope2}},
 \code{\link{hope4}},
+\code{\link{hope5}},
+\code{\link{hope6}},
 \code{\link{lotr1}},
 \code{\link{lotr2}},
 \code{\link{lotr3}},

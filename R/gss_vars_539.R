@@ -26,7 +26,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
-#' @family Civil Liberties
 #' 
 #' @keywords variable
 #' @md
@@ -62,7 +61,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
-#' @family Race
 #' 
 #' @keywords variable
 #' @md
@@ -99,7 +97,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
-#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -136,7 +133,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
-#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -173,7 +169,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
-#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -210,7 +205,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
-#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -247,7 +241,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
-#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -284,7 +277,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
-#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -321,7 +313,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
-#' @family Political
 #' 
 #' @keywords variable
 #' @md
@@ -357,7 +348,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
-#' @family Political
 #' 
 #' @keywords variable
 #' @md

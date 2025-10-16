@@ -35,13 +35,17 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/2733/vshow}
 
 \seealso{
 Other Prejudice: 
+\code{\link{ethadapt}},
 \code{\link{ethdiff}},
+\code{\link{ethignor}},
+\code{\link{ethimp}},
+\code{\link{ethnofit}},
 \code{\link{ethsame}},
-\code{\link{whtsdiff}}
-
-Other Whites: 
+\code{\link{ethtrads}},
+\code{\link{feelasns}},
+\code{\link{feelblks}},
+\code{\link{feelhsps}},
 \code{\link{whtsdiff}}
 }
 \concept{Prejudice}
-\concept{Whites}
 \keyword{variable}

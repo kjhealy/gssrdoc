@@ -25,7 +25,6 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health III
-#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -60,7 +59,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health III
-#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
@@ -97,7 +95,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name numknown
@@ -133,7 +130,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -170,7 +166,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -207,7 +202,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -244,7 +238,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -281,7 +274,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -318,7 +310,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
@@ -355,7 +346,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
-#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md

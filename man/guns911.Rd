@@ -41,15 +41,6 @@ Other Gun Control:
 \code{\link{othguns}},
 \code{\link{rifles50}},
 \code{\link{semiguns}}
-
-Other Guns: 
-\code{\link{gunsales}},
-\code{\link{gunsdrnk}},
-\code{\link{gunsdrug}},
-\code{\link{othguns}},
-\code{\link{rifles50}},
-\code{\link{semiguns}}
 }
 \concept{Gun Control}
-\concept{Guns}
 \keyword{variable}

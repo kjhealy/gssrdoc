@@ -46,34 +46,12 @@ Other Self Employment:
 \code{\link{bizgross}},
 \code{\link{bizshare}},
 \code{\link{numemps5}},
+\code{\link{numown}},
+\code{\link{ownbiz}},
 \code{\link{paidemps}},
-\code{\link{whybiz}}
-
-Other Business: 
-\code{\link{bizgross}},
-\code{\link{bizshare}},
-\code{\link{numemps5}},
-\code{\link{paidemps}},
-\code{\link{whybiz}}
-
-Other Corporations: 
-\code{\link{bizgross}},
-\code{\link{bizshare}},
-\code{\link{paidemps}},
-\code{\link{whybiz}}
-
-Other Income: 
-\code{\link{bizgross}},
-\code{\link{bizshare}}
-
-Other Job: 
-\code{\link{numemps5}},
-\code{\link{paidemps}},
-\code{\link{whybiz}}
+\code{\link{startbiz}},
+\code{\link{whybiz}},
+\code{\link{yearbiz}}
 }
-\concept{Business}
-\concept{Corporations}
-\concept{Income}
-\concept{Job}
 \concept{Self Employment}
 \keyword{variable}

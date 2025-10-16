@@ -57,6 +57,11 @@ Question (Do you/Does your family) own your (home/apartment), pay rent, or what?
 For details see the \href{https://gssdataexplorer.norc.org/variables/5294/vshow}{GSS Data Explorer page for \code{dwelown}}.
 }
 
-\concept{Dwelling (R's)}
+\seealso{
+Other Residence: 
+\code{\link{dwelcity}},
+\code{\link{dwelling}},
+\code{\link{dwelngh}}
+}
 \concept{Residence}
 \keyword{variable}

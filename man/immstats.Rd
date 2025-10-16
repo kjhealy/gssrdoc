@@ -42,13 +42,6 @@ Other Immigration:
 \code{\link{robject}},
 \code{\link{rundrstd}},
 \code{\link{travelus}}
-
-Other Immigration: 
-\code{\link{bornhome}},
-\code{\link{natborn}},
-\code{\link{robject}},
-\code{\link{rundrstd}},
-\code{\link{travelus}}
 }
 \concept{Immigration}
 \keyword{variable}

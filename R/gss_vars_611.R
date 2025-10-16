@@ -28,7 +28,6 @@
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name neisafe
@@ -64,7 +63,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -104,7 +102,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name rgroomed
@@ -141,7 +138,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' 
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name rweight
@@ -176,7 +172,6 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
 #' 
 #' 
 #' @keywords variable
@@ -225,7 +220,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
-#' @family Sample
 #' 
 #' @keywords variable
 #' @md
@@ -273,7 +267,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
-#' @family Sample
 #' 
 #' @keywords variable
 #' @md
@@ -334,7 +327,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
-#' @family Sample
 #' 
 #' @keywords variable
 #' @md
@@ -396,7 +388,6 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
 #' 
-#' 
 #' @keywords variable
 #' @md
 #' @name vstrat
@@ -456,7 +447,6 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
-#' @family Sample
 #' 
 #' @keywords variable
 #' @md

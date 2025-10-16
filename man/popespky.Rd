@@ -39,8 +39,8 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/5571/vshow}
 \seealso{
 Other Form Y: 
 \code{\link{letdie1y}},
+\code{\link{pilloky}},
 \code{\link{polhitoy}}
 }
 \concept{Form Y}
-\concept{Religion}
 \keyword{variable}

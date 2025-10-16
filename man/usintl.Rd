@@ -50,24 +50,19 @@ For details see the \href{https://gssdataexplorer.norc.org/variables/5486/vshow}
 
 \seealso{
 Other War and International: 
+\code{\link{brazil}},
+\code{\link{canada}},
+\code{\link{china}},
 \code{\link{commun}},
 \code{\link{commun10}},
+\code{\link{egypt}},
+\code{\link{england}},
+\code{\link{israel}},
+\code{\link{japan}},
 \code{\link{russia}},
 \code{\link{usun}},
 \code{\link{uswar}},
 \code{\link{uswary}}
-
-Other Foreign Affairs: 
-\code{\link{usun}},
-\code{\link{uswar}},
-\code{\link{uswary}}
-
-Other United States: 
-\code{\link{usun}},
-\code{\link{uswar}},
-\code{\link{uswary}}
 }
-\concept{Foreign Affairs}
-\concept{United States}
 \concept{War and International}
 \keyword{variable}
