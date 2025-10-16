@@ -4,7 +4,7 @@
 \alias{chldvig}
 \title{Vignette asked}
 \source{
-General Social Survey https://gss.norc.org II
+General Social Survey https://gss.norc.org
 }
 \description{
 chldvig
@@ -129,6 +129,14 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 
 \seealso{
+Other Mental Health II: 
+\code{\link{badchar}},
+\code{\link{chembal}},
+\code{\link{chldhlp}},
+\code{\link{chldprb}},
+\code{\link{chldprob}},
+\code{\link{stressfl}}
+
 Other Children: 
 \code{\link{badchar}},
 \code{\link{chembal}},
@@ -138,4 +146,5 @@ Other Children:
 }
 \concept{Children}
 \concept{Mental Health}
+\concept{Mental Health II}
 \keyword{variable}

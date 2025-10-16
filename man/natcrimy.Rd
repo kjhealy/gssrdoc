@@ -111,7 +111,18 @@ Other Core:
 \code{\link{natracey}},
 \code{\link{natspacz}}
 
-Other Federal Governmentending: 
+Other Federal Government: 
+\code{\link{nataidy}},
+\code{\link{natarmsy}},
+\code{\link{natcityy}},
+\code{\link{natdrugy}},
+\code{\link{nateducy}},
+\code{\link{natfarey}},
+\code{\link{nathealy}},
+\code{\link{natracey}},
+\code{\link{natspacz}}
+
+Other Spending: 
 \code{\link{nataidy}},
 \code{\link{natarmsy}},
 \code{\link{natcityy}},
@@ -146,7 +157,8 @@ Other United States:
 }
 \concept{Core}
 \concept{Crime}
-\concept{Federal Governmentending}
+\concept{Federal Government}
+\concept{Spending}
 \concept{Split Ballots}
 \concept{United States}
 \keyword{variable}

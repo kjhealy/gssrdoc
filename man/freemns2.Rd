@@ -82,7 +82,14 @@ Counts by year:\tabular{lllllllllllll}{
 }
 
 \seealso{
-Other Freedomeelings: 
+Other Freedom: 
+\code{\link{freeexp1}},
+\code{\link{freeexp2}},
+\code{\link{freeexp3}},
+\code{\link{freemns1}},
+\code{\link{freemns3}}
+
+Other Feelings: 
 \code{\link{freemns1}},
 \code{\link{freemns3}}
 
@@ -93,6 +100,6 @@ Other Freedom:
 \code{\link{freemns1}},
 \code{\link{freemns3}}
 }
+\concept{Feelings}
 \concept{Freedom}
-\concept{Freedomeelings}
 \keyword{variable}

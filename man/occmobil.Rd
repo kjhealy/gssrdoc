@@ -79,6 +79,27 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\concept{ISSP Social Inequalityccupation}
+\seealso{
+Other ISSP Social Inequality: 
+\code{\link{conage}},
+\code{\link{firstjob}},
+\code{\link{firstslf}},
+\code{\link{lastjob}},
+\code{\link{lastslf}},
+\code{\link{pajob}},
+\code{\link{paslf}},
+\code{\link{rewrdeff}},
+\code{\link{rewrdint}}
+
+Other Occupation: 
+\code{\link{firstjob}},
+\code{\link{firstslf}},
+\code{\link{lastjob}},
+\code{\link{lastslf}},
+\code{\link{pajob}},
+\code{\link{paslf}}
+}
+\concept{ISSP Social Inequality}
+\concept{Occupation}
 \concept{Opportunity}
 \keyword{variable}

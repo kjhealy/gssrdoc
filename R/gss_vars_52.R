@@ -315,7 +315,8 @@ NULL
 #'  |Total |24409 |14858        |1810       |8783       |149       |25670     |20             |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Corenfidence
+#' @family Core
+#' @family Confidence
 #' @family Courts
 #' @family Federal Government
 #' @family Split Ballots

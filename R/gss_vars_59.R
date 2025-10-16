@@ -510,7 +510,8 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' @family Employment
-#' @family Labor Force Statuseeks Worked
+#' @family Labor Force Status
+#' @family Weeks Worked
 #' @family Work
 #' 
 #' @keywords variable

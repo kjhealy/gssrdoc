@@ -104,9 +104,18 @@ Other Core:
 \code{\link{papres80}},
 \code{\link{pawrkslf}}
 
+Other Occupation: 
+\code{\link{paind16}},
+\code{\link{paind80}},
+\code{\link{paocc10}},
+\code{\link{paocc80}},
+\code{\link{papres80}},
+\code{\link{pawrkslf}}
+
 Other Occupational Prestige: 
 \code{\link{papres80}}
 }
 \concept{Core}
+\concept{Occupation}
 \concept{Occupational Prestige}
 \keyword{variable}

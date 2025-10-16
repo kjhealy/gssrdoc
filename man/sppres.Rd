@@ -106,9 +106,19 @@ Other Core:
 \code{\link{sppres80}},
 \code{\link{spwrkslf}}
 
+Other Occupation: 
+\code{\link{spind}},
+\code{\link{spind80}},
+\code{\link{spocc}},
+\code{\link{spocc10}},
+\code{\link{spocc80}},
+\code{\link{sppres80}},
+\code{\link{spwrkslf}}
+
 Other Occupational Prestige: 
 \code{\link{sppres80}}
 }
 \concept{Core}
+\concept{Occupation}
 \concept{Occupational Prestige}
 \keyword{variable}

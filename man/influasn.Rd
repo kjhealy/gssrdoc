@@ -81,6 +81,7 @@ Other Intergroup Relations:
 \code{\link{asnjobs}},
 \code{\link{blkhouse}},
 \code{\link{blkjobs}},
+\code{\link{hsphouse}},
 \code{\link{hspjobs}},
 \code{\link{influhsp}},
 \code{\link{influso}},

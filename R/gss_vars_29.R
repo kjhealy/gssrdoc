@@ -141,7 +141,8 @@ NULL
 #'  |Total |67373 |48         |18        |531            |450               |172            |254               |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family CoreClass
+#' @family Core
+#' @family Social Class
 #' @family Social Mobility
 #' 
 #' @keywords variable
@@ -293,7 +294,8 @@ NULL
 #'  |Total |67373 |26         |25        |508            |469               |133            |312               |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family CoreClass
+#' @family Core
+#' @family Social Class
 #' @family Social Mobility
 #' 
 #' @keywords variable
@@ -369,7 +371,8 @@ NULL
 #'  |Total |67373 |21         |25        |639            |191               |573            |24                |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family CoreClass
+#' @family Core
+#' @family Social Class
 #' @family Social Mobility
 #' 
 #' @keywords variable
@@ -445,7 +448,8 @@ NULL
 #'  |Total |67373 |31         |27        |490            |512               |112            |301               |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family CoreClass
+#' @family Core
+#' @family Social Class
 #' @family Social Mobility
 #' 
 #' @keywords variable
@@ -673,7 +677,8 @@ NULL
 #'  |Total |67373 |51         |27        |794            |289               |243            |69                |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family CoreClass
+#' @family Core
+#' @family Social Class
 #' @family Social Mobility
 #' 
 #' @keywords variable

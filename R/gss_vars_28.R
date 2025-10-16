@@ -65,7 +65,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Federal Governmentending
+#' @family Federal Government
+#' @family Spending
 #' @family Split Ballots
 #' @family United States
 #' 
@@ -142,7 +143,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Federal Governmentending
+#' @family Federal Government
+#' @family Spending
 #' @family Split Ballots
 #' @family United States
 #' 
@@ -219,7 +221,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Federal Governmentending
+#' @family Federal Government
+#' @family Spending
 #' @family Split Ballots
 #' @family United States
 #' 
@@ -296,7 +299,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Federal Governmentending
+#' @family Federal Government
+#' @family Spending
 #' @family Split Ballots
 #' @family United States
 #' 
@@ -755,7 +759,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family CorporationsClass
+#' @family Corporations
+#' @family Social Class
 #' @family Social Mobility
 #' 
 #' @keywords variable

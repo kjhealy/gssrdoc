@@ -75,6 +75,17 @@ Counts by year:\tabular{lllllll}{
 }
 
 \seealso{
+Other Work Organizations: 
+\code{\link{fndjob5}},
+\code{\link{fndjob6}},
+\code{\link{fndjob7}},
+\code{\link{fndjob8}},
+\code{\link{fndjob9}},
+\code{\link{intltest}},
+\code{\link{ltrsref}},
+\code{\link{physical}},
+\code{\link{skiltest}}
+
 Other Employment: 
 \code{\link{fndjob5}},
 \code{\link{fndjob6}},
@@ -86,7 +97,8 @@ Other Employment:
 \code{\link{physical}},
 \code{\link{skiltest}}
 }
+\concept{Drinking}
 \concept{Drug Use And Addiction}
 \concept{Employment}
-\concept{Work Organizationsinking}
+\concept{Work Organizations}
 \keyword{variable}

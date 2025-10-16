@@ -87,6 +87,9 @@ Other Global Economics:
 \code{\link{whynojb1}},
 \code{\link{whynojb2}}
 
+Other Computers And Internet: 
+\code{\link{autonojb}}
+
 Other Job: 
 \code{\link{autonojb}},
 \code{\link{inclstjb}},

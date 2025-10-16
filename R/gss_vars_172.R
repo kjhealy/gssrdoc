@@ -145,7 +145,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
-#' @family Civil Libertiesace
+#' @family Civil Liberties
+#' @family Race
 #' @family Religion
 #' @family Split Ballots
 #' 
@@ -223,7 +224,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
-#' @family Civil Libertiesace
+#' @family Civil Liberties
+#' @family Race
 #' @family Religion
 #' @family Split Ballots
 #' 

@@ -324,6 +324,7 @@ Other Family Mobility:
 
 Other Occupation: 
 \code{\link{sbocc80}},
+\code{\link{sbpres80}},
 \code{\link{sbwrkslf}}
 
 Other Siblings: 

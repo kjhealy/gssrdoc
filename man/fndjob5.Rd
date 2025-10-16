@@ -76,6 +76,7 @@ Counts by year:\tabular{lllllll}{
 
 \seealso{
 Other Work Organizations: 
+\code{\link{drugtest}},
 \code{\link{fndjob6}},
 \code{\link{fndjob7}},
 \code{\link{fndjob8}},

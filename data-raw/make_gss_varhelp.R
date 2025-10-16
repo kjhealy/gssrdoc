@@ -75,23 +75,6 @@ fix_rox_dashes <- function(x) {
 }
 
 
-### Required objects
-## This is made by data-raw/make_gss_dict.R
-load(here("data", "gss_dict.rda"))
-
-## And by data-raw/make_gss_doc.R
-gss_doc <- readRDS(here("data-raw", "objects", "gss_doc.rda"))
-
-## Harmonize with gss_dict; replace NAs with something inoffensive
-gss_doc_rd <- gss_doc |>
-  rename(label = description, var_text = question) |>
-  mutate(
-    across(where(is.character), \(x) ifelse(is.na(x), "-", x)),
-    var_text = map_chr(var_text, \(x) fix_rox_newlines(x)),
-    var_text = map_chr(var_text, \(x) fix_rox_dashes(x))
-  )
-
-
 ### Formatting functions
 sourcestring <- "\n#'\n#' @source General Social Survey https://gss.norc.org"
 true_blank_line <- "\n"
@@ -207,9 +190,6 @@ make_rd_ballotinfo <- function(yrballot_df) {
   paste0(headstring, paste("#' ", o, collapse = "\n"))
 }
 
-remove_duplicate_family <- function(x) {
-  str_replace_all(x, "(\\n#' @family [^\\n]+)(?=.*\\1)", "")
-}
 
 with_empty_default <- function(.f, .default = "\n#' ") {
   force(.f)
@@ -224,11 +204,25 @@ with_empty_default <- function(.f, .default = "\n#' ") {
   }
 }
 
+# remove_duplicate_family <- function(x) {
+#   str_replace_all(x, "(\\n#' @family [^\\n]+)(?=.*\\1)", "")
+# }
+
+remove_duplicate_family <- function(x) {
+  map_chr(
+    x,
+    ~ {
+      tags <- str_extract_all(.x, "\\n#' @family [^\\n]+")[[1]]
+      paste(unique(tags), collapse = "")
+    }
+  )
+}
+
 make_rd_family <- function(...) {
   values <- list(...)
 
   out <- paste0(
-    paste(
+    paste0(
       "\n#' @family ",
       values
     ),
@@ -248,6 +242,23 @@ make_rd_varname <- function(variable) {
 }
 
 
+### Required objects
+## This is made by data-raw/make_gss_dict.R
+load(here("data", "gss_dict.rda"))
+
+## And by data-raw/make_gss_doc.R
+gss_doc <- readRDS(here("data-raw", "objects", "gss_doc.rda"))
+
+## Harmonize with gss_dict; replace NAs with something inoffensive
+gss_doc_rd <- gss_doc |>
+  rename(label = description, var_text = question) |>
+  mutate(
+    across(where(is.character), \(x) ifelse(is.na(x), "-", x)),
+    var_text = map_chr(var_text, \(x) fix_rox_newlines(x)),
+    var_text = map_chr(var_text, \(x) fix_rox_dashes(x))
+  )
+
+
 # Check a df
 # gss_doc_rd |>
 #   filter(variable %in% c("padeg", "madeg", "fefam", "vote16")) |>
@@ -257,7 +268,7 @@ make_rd_varname <- function(variable) {
 #   select(variable, rd4b)
 
 # docstring_test <- gss_doc_rd |>
-#   filter(variable %in% c("padeg", "polviews", "fefam", "vote16")) |>
+#   filter(variable %in% c("padeg", "polviews", "fefam", "weekswrk", "vote16")) |>
 #   mutate(
 #     rd1 = pmap_chr(list(variable, label, var_text), make_rd_skel),
 #     rd2 = map_chr(value_labels, make_rd_describe),

@@ -89,6 +89,7 @@ Other Mental Health II:
 \code{\link{chembal}},
 \code{\link{chldhlp}},
 \code{\link{chldprob}},
+\code{\link{chldvig}},
 \code{\link{stressfl}}
 }
 \concept{Mental Health II}

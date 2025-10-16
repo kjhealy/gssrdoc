@@ -93,6 +93,8 @@ Other Blacks:
 
 Other Race: 
 \code{\link{ethorgs}},
+\code{\link{ethspkno}},
+\code{\link{ethspkok}},
 \code{\link{symptblk}}
 }
 \concept{Blacks}

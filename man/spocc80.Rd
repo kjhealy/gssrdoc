@@ -563,6 +563,8 @@ Other Occupation:
 \code{\link{spind80}},
 \code{\link{spocc}},
 \code{\link{spocc10}},
+\code{\link{sppres}},
+\code{\link{sppres80}},
 \code{\link{spwrkslf}}
 }
 \concept{Core}

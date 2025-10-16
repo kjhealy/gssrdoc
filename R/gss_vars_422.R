@@ -65,7 +65,8 @@
 #'  |Total |67494 |823                    |138 |193 |44 |64                    |83         |7         |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Terrorism Preparednesserrorism
+#' @family Terrorism Preparedness
+#' @family Terrorism
 #' @family Transportation
 #' 
 #' @keywords variable
@@ -448,7 +449,8 @@ NULL
 #'  |Total |67494 |12         |1212 |7         |34                                                |47              |40                            |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Terrorism Preparednesserrorism
+#' @family Terrorism Preparedness
+#' @family Terrorism
 #' @family Transportation
 #' 
 #' @keywords variable
@@ -524,7 +526,8 @@ NULL
 #'  |Total |67494 |621                    |153 |268 |94 |130                   |78         |8         |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Terrorism Preparednesserrorism
+#' @family Terrorism Preparedness
+#' @family Terrorism
 #' @family Transportation
 #' 
 #' @keywords variable
@@ -754,7 +757,8 @@ NULL
 #'  |Total |67494 |13         |1301 |7         |11                                                |10              |10                            |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Terrorism Preparednesserrorism
+#' @family Terrorism Preparedness
+#' @family Terrorism
 #' @family Transportation
 #' 
 #' @keywords variable

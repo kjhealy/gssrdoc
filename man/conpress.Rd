@@ -116,6 +116,8 @@ Other Core:
 \code{\link{confed}},
 \code{\link{confinan}},
 \code{\link{conlabor}},
+\code{\link{satfam}},
+\code{\link{satfrnd}},
 \code{\link{sathealt}}
 
 Other Confidence: 

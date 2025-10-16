@@ -83,6 +83,7 @@ Other ISSP Social Inequality:
 \code{\link{firstslf}},
 \code{\link{lastjob}},
 \code{\link{lastslf}},
+\code{\link{occmobil}},
 \code{\link{pajob}},
 \code{\link{paslf}},
 \code{\link{rewrdeff}},

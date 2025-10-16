@@ -88,8 +88,14 @@ Other Multiculturalism:
 \code{\link{letin}},
 \code{\link{symptblk}}
 
-Other Civil Libertiesace: 
+Other Civil Liberties: 
 \code{\link{ethspkok}}
+
+Other Race: 
+\code{\link{admirblk}},
+\code{\link{ethorgs}},
+\code{\link{ethspkok}},
+\code{\link{symptblk}}
 
 Other Religion: 
 \code{\link{ethspkok}}
@@ -97,8 +103,9 @@ Other Religion:
 Other Split Ballots: 
 \code{\link{ethspkok}}
 }
-\concept{Civil Libertiesace}
+\concept{Civil Liberties}
 \concept{Multiculturalism}
+\concept{Race}
 \concept{Religion}
 \concept{Split Ballots}
 \keyword{variable}

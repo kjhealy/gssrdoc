@@ -384,7 +384,8 @@ NULL
 #'  |Total |67432 |64                        |161                     |56                              |24         |115                          |73                                         |137   |272                        |51                             |461                    |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Freedomeelings
+#' @family Freedom
+#' @family Feelings
 #' @family Freedom
 #' 
 #' @keywords variable
@@ -465,7 +466,8 @@ NULL
 #'  |Total |68266 |22                        |49                      |43                              |62                           |53                                         |41    |160                        |39                             |111                    |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Freedomeelings
+#' @family Freedom
+#' @family Feelings
 #' @family Freedom
 #' 
 #' @keywords variable
@@ -546,7 +548,8 @@ NULL
 #'  |Total |68652 |9                         |21                      |16                              |14                           |18                                         |18    |53                         |17                             |28                     |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Freedomeelings
+#' @family Freedom
+#' @family Feelings
 #' @family Freedom
 #' 
 #' @keywords variable

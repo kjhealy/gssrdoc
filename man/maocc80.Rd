@@ -562,6 +562,7 @@ Other Core:
 Other Occupation: 
 \code{\link{maind80}},
 \code{\link{maocc10}},
+\code{\link{mapres80}},
 \code{\link{mawrkslf}},
 \code{\link{paind10}}
 }

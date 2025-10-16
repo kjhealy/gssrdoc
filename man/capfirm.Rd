@@ -77,6 +77,8 @@ Counts by year:\tabular{llllllllll}{
 
 \seealso{
 Other Core: 
+\code{\link{courts}},
+\code{\link{courtsy}},
 \code{\link{crimfirm}},
 \code{\link{crimimp}},
 \code{\link{criminfo}},

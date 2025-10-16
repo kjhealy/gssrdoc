@@ -145,7 +145,8 @@ NULL
 #'  |Total |66010 |617         |706    |391   |526                  |209                 |200       |132                  |55              |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family ISSP Social Inequalityccupation
+#' @family ISSP Social Inequality
+#' @family Occupation
 #' @family Opportunity
 #' 
 #' @keywords variable

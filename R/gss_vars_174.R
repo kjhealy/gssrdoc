@@ -526,7 +526,8 @@ NULL
 #'  |Total |67372 |1310                    |115                        |37         |12        |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Multiculturalismducation
+#' @family Multiculturalism
+#' @family Education
 #' @family Ethnicity
 #' @family Race
 #' 
@@ -601,7 +602,8 @@ NULL
 #'  |Total |67372 |1329                    |82                         |41         |22        |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Multiculturalismducation
+#' @family Multiculturalism
+#' @family Education
 #' @family Ethnicity
 #' @family Race
 #' 
@@ -676,7 +678,8 @@ NULL
 #'  |Total |67372 |630                    |193        |11        |306                  |334                    |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Multiculturalismducation
+#' @family Multiculturalism
+#' @family Education
 #' @family Ethnicity
 #' @family Race
 #' 
@@ -753,7 +756,8 @@ NULL
 #'  |Total |67372 |267   |532      |68         |415                        |10        |93             |89                |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Multiculturalismducation
+#' @family Multiculturalism
+#' @family Education
 #' @family Ethnicity
 #' @family Race
 #' 

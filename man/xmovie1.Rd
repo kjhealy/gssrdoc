@@ -75,11 +75,27 @@ Counts by year:\tabular{llllllll}{
 
 \seealso{
 Other Core: 
+\code{\link{pornfirm}},
+\code{\link{pornimp}},
+\code{\link{porninfo}},
 \code{\link{pornlaw}},
 \code{\link{pornmorl}},
 \code{\link{pornout}},
 \code{\link{pornrape}},
 \code{\link{spanking}},
+\code{\link{xmovie}}
+
+Other Movies: 
+\code{\link{xmovie}}
+
+Other Sex: 
+\code{\link{pornfirm}},
+\code{\link{pornimp}},
+\code{\link{porninfo}},
+\code{\link{pornlaw}},
+\code{\link{pornmorl}},
+\code{\link{pornout}},
+\code{\link{pornrape}},
 \code{\link{xmovie}}
 
 Other Split Ballots: 
@@ -88,6 +104,7 @@ Other Split Ballots:
 \code{\link{porninfo}}
 }
 \concept{Core}
-\concept{Moviesex}
+\concept{Movies}
+\concept{Sex}
 \concept{Split Ballots}
 \keyword{variable}

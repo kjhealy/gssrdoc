@@ -87,7 +87,12 @@ Other Core:
 \code{\link{natroadz}},
 \code{\link{natsocz}}
 
-Other Federal Governmentending: 
+Other Federal Government: 
+\code{\link{natparkz}},
+\code{\link{natroadz}},
+\code{\link{natsocz}}
+
+Other Spending: 
 \code{\link{natparkz}},
 \code{\link{natroadz}},
 \code{\link{natsocz}}
@@ -103,7 +108,8 @@ Other United States:
 \code{\link{natsocz}}
 }
 \concept{Core}
-\concept{Federal Governmentending}
+\concept{Federal Government}
+\concept{Spending}
 \concept{Split Ballots}
 \concept{United States}
 \keyword{variable}

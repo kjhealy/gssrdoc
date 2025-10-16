@@ -92,9 +92,15 @@ Other Employment:
 \code{\link{feless1}},
 \code{\link{feless2}}
 
-Other Jobmen: 
+Other Job: 
 \code{\link{feless1}},
 \code{\link{feless2}}
+
+Other Women: 
+\code{\link{fekids1}},
+\code{\link{feless1}},
+\code{\link{feless2}},
+\code{\link{womenhrt}}
 
 Other Work: 
 \code{\link{feless1}},
@@ -102,6 +108,7 @@ Other Work:
 }
 \concept{Employment}
 \concept{Gender}
-\concept{Jobmen}
+\concept{Job}
+\concept{Women}
 \concept{Work}
 \keyword{variable}

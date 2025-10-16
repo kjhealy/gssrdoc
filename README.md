@@ -67,7 +67,9 @@ Explorer](https://gssdataexplorer.norc.org) page for that variable. The
 “See Also” section at the bottom of the help page incorporates the GSS’s
 own cross-referencing by module and topic.
 
-<img src="man/figures/fefam_help.png" />
+<img src="man/figures/fefam_help_1.png" alt="Upper part of fefam help" caption="Upper part of fefam help"/>
+
+<img src="man/figures/fefam_help_2.png" alt="Lower part of fefam help" caption="Lower part of fefam help"/>
 
 Information about the variables is also contained in the `gss_dict`
 object:

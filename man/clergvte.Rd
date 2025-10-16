@@ -86,6 +86,7 @@ Other ISSP Religion:
 \code{\link{churhpow}},
 \code{\link{clerggov}},
 \code{\link{conchurh}},
+\code{\link{concourt}},
 \code{\link{conschls}},
 \code{\link{godchnge}},
 \code{\link{polsgod}},

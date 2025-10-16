@@ -91,6 +91,7 @@ Counts by year:\tabular{lllllllllll}{
 Other Core: 
 \code{\link{conarmyy}},
 \code{\link{confedy}},
+\code{\link{conjudgy}},
 \code{\link{conlaboy}},
 \code{\link{conlegiy}},
 \code{\link{conmediy}},

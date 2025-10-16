@@ -77,11 +77,27 @@ Counts by year:\tabular{llllllllll}{
 }
 
 \seealso{
-Other CoreClass: 
+Other Core: 
+\code{\link{equal7}},
 \code{\link{equal8}},
+\code{\link{usclass1}},
 \code{\link{usclass2}},
 \code{\link{usclass3}},
-\code{\link{usclass7}}
+\code{\link{usclass5}},
+\code{\link{usclass6}},
+\code{\link{usclass7}},
+\code{\link{usclass8}}
+
+Other Social Class: 
+\code{\link{equal7}},
+\code{\link{equal8}},
+\code{\link{usclass1}},
+\code{\link{usclass2}},
+\code{\link{usclass3}},
+\code{\link{usclass5}},
+\code{\link{usclass6}},
+\code{\link{usclass7}},
+\code{\link{usclass8}}
 
 Other Social Mobility: 
 \code{\link{equal8}},
@@ -89,6 +105,7 @@ Other Social Mobility:
 \code{\link{usclass3}},
 \code{\link{usclass7}}
 }
-\concept{CoreClass}
+\concept{Core}
+\concept{Social Class}
 \concept{Social Mobility}
 \keyword{variable}

@@ -831,7 +831,8 @@ NULL
 #'  |Total |44602 |5032          |1174     |43         |6982       |504  |4294        |1679 |4468            |68        |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Coreatisfaction
+#' @family Core
+#' @family Satisfaction
 #' @family Split Ballots
 #' 
 #' @keywords variable
@@ -927,7 +928,8 @@ NULL
 #'  |Total |44602 |3010          |1018     |127        |7965       |83        |849  |4287        |1312 |5593            |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Coreatisfaction
+#' @family Core
+#' @family Satisfaction
 #' @family Split Ballots
 #' 
 #' @keywords variable

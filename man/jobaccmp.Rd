@@ -77,6 +77,8 @@ Counts by year:\tabular{lllllllllllll}{
 
 \seealso{
 Other Core: 
+\code{\link{class}()},
+\code{\link{classy}},
 \code{\link{jobhelp}},
 \code{\link{jobpeop}},
 \code{\link{jobresp}},

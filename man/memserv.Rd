@@ -95,6 +95,7 @@ Other Socio-political participation:
 \code{\link{mempolit}},
 \code{\link{memsport}},
 \code{\link{memunion}},
+\code{\link{memvet}},
 \code{\link{memyouth}}
 
 Other Voluntary Associations: 

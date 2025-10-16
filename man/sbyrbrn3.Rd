@@ -75,6 +75,9 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 
 \seealso{
 Other Family Mobility: 
+\code{\link{sbsex7}},
+\code{\link{sbsex8}},
+\code{\link{sbsex9}},
 \code{\link{sbyrbrn1}},
 \code{\link{sbyrbrn2}},
 \code{\link{sbyrbrn4}},

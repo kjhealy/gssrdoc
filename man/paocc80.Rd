@@ -562,6 +562,8 @@ Other Occupation:
 \code{\link{paind16}},
 \code{\link{paind80}},
 \code{\link{paocc10}},
+\code{\link{papres16}},
+\code{\link{papres80}},
 \code{\link{pawrkslf}}
 }
 \concept{Core}

@@ -83,7 +83,8 @@ Counts by year:\tabular{llllllllll}{
 Other ISSP Religion: 
 \code{\link{deathpen}},
 \code{\link{hapunhap}},
-\code{\link{premars1}}
+\code{\link{premars1}},
+\code{\link{stiffpun}}
 
 Other Sex: 
 \code{\link{premars1}}

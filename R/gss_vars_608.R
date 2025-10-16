@@ -656,7 +656,8 @@ NULL
 #'
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Sampling and Weightsample
+#' @family Sampling and Weights
+#' @family Sample
 #' @family Split Ballots
 #' 
 #' @keywords variable

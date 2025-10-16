@@ -95,13 +95,23 @@ Other High Risk Behaviors:
 \code{\link{evpaidsx}},
 \code{\link{evstray}},
 \code{\link{nummen}},
-\code{\link{numwomen}}
+\code{\link{numwomen}},
+\code{\link{partnrs5}},
+\code{\link{partopen}},
+\code{\link{partopn5}},
+\code{\link{sexfreq1}},
+\code{\link{sexfreq2}}
 
 Other Sex: 
 \code{\link{evpaidsx}},
 \code{\link{evstray}},
 \code{\link{nummen}},
-\code{\link{numwomen}}
+\code{\link{numwomen}},
+\code{\link{partnrs5}},
+\code{\link{partopen}},
+\code{\link{partopn5}},
+\code{\link{sexfreq1}},
+\code{\link{sexfreq2}}
 }
 \concept{High Risk Behaviors}
 \concept{Sex}

@@ -80,15 +80,23 @@ Counts by year:\tabular{lllllllllll}{
 Other Terrorism Preparedness: 
 \code{\link{done911i}},
 \code{\link{done911j}},
+\code{\link{done911k}},
 \code{\link{done911l}},
+\code{\link{done911m}},
+\code{\link{eff911h}},
 \code{\link{eff911i}},
+\code{\link{eff911k}},
 \code{\link{eff911l}}
 
 Other Terrorism: 
 \code{\link{done911i}},
 \code{\link{done911j}},
+\code{\link{done911k}},
 \code{\link{done911l}},
+\code{\link{done911m}},
+\code{\link{eff911h}},
 \code{\link{eff911i}},
+\code{\link{eff911k}},
 \code{\link{eff911l}}
 }
 \concept{Terrorism}

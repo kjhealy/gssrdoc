@@ -167,7 +167,8 @@ NULL
 #'  |Total |34247 |185                     |24059     |128            |2346       |47              |1100       |627        |574           |18                     |8604        |411       |44         |3309                          |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family High Risk Behaviorsex
+#' @family High Risk Behaviors
+#' @family Sex
 #' @family Split Ballots
 #' 
 #' @keywords variable
@@ -914,7 +915,8 @@ NULL
 #'  |Total |36579 |5821                 |6616                |5980              |2162                     |2322      |8593       |4023         |3217          |386        |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family High Risk Behaviorsex
+#' @family High Risk Behaviors
+#' @family Sex
 #' @family Split Ballots
 #' 
 #' @keywords variable

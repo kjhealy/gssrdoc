@@ -87,12 +87,14 @@ Other ISSP Religion:
 \code{\link{clerggov}},
 \code{\link{clergvte}},
 \code{\link{conchurh}},
+\code{\link{concourt}},
 \code{\link{godchnge}},
 \code{\link{polsgod}},
 \code{\link{religpub}}
 
 Other Confidence: 
-\code{\link{conchurh}}
+\code{\link{conchurh}},
+\code{\link{concourt}}
 }
 \concept{Confidence}
 \concept{ISSP Religion}

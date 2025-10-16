@@ -107,7 +107,13 @@ Other Core:
 \code{\link{wrkslf}},
 \code{\link{wrkstat}},
 \code{\link{year}}
+
+Other Occupation: 
+\code{\link{occ}},
+\code{\link{wrkgovt}},
+\code{\link{wrkslf}}
 }
 \concept{Core}
+\concept{Occupation}
 \concept{Occupational Prestige}
 \keyword{variable}

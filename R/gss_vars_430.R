@@ -135,7 +135,8 @@ NULL
 #'  |Total |68822 |22 |2   |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Clergy/Sexeligion
+#' @family Clergy/Sex
+#' @family Religion
 #' @family Romantic Relationships
 #' @family Sex
 #' 
@@ -209,7 +210,8 @@ NULL
 #'  |Total |68839 |6  |1   |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Clergy/Sexeligion
+#' @family Clergy/Sex
+#' @family Religion
 #' @family Romantic Relationships
 #' @family Sex
 #' 
@@ -283,7 +285,8 @@ NULL
 #'  |Total |68844 |2  |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Clergy/Sexeligion
+#' @family Clergy/Sex
+#' @family Religion
 #' @family Romantic Relationships
 #' @family Sex
 #' 

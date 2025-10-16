@@ -76,6 +76,16 @@ Counts by year:\tabular{llllllllll}{
 }
 
 \seealso{
+Other ISSP Social Inequality: 
+\code{\link{goodlife}},
+\code{\link{inequal1}},
+\code{\link{inequal2}},
+\code{\link{inequal3}},
+\code{\link{inequal4}},
+\code{\link{inequal5}},
+\code{\link{oppol}},
+\code{\link{opsex}}
+
 Other Inequality, Income: 
 \code{\link{inequal1}},
 \code{\link{inequal2}},
@@ -83,6 +93,7 @@ Other Inequality, Income:
 \code{\link{inequal4}},
 \code{\link{inequal5}}
 }
-\concept{ISSP Social Inequalitycentives}
+\concept{ISSP Social Inequality}
+\concept{Incentives}
 \concept{Inequality, Income}
 \keyword{variable}

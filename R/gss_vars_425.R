@@ -139,7 +139,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
-#' @family Businessmputers And Internet
+#' @family Business
+#' @family Computers And Internet
 #' @family Corporations
 #' @family Employment
 #' @family Job

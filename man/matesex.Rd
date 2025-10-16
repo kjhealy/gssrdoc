@@ -98,7 +98,9 @@ Other High Risk Behaviors:
 \code{\link{frndsex}},
 \code{\link{othersex}},
 \code{\link{paidsex}},
+\code{\link{partners}},
 \code{\link{pikupsex}},
+\code{\link{sexfreq}},
 \code{\link{sexsex}}
 
 Other Sex: 
@@ -106,7 +108,9 @@ Other Sex:
 \code{\link{frndsex}},
 \code{\link{othersex}},
 \code{\link{paidsex}},
+\code{\link{partners}},
 \code{\link{pikupsex}},
+\code{\link{sexfreq}},
 \code{\link{sexsex}}
 }
 \concept{High Risk Behaviors}

@@ -326,6 +326,8 @@ Other Occupation:
 \code{\link{spocc}},
 \code{\link{spocc10}},
 \code{\link{spocc80}},
+\code{\link{sppres}},
+\code{\link{sppres80}},
 \code{\link{spwrkslf}}
 }
 \concept{Core}

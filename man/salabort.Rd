@@ -84,12 +84,14 @@ Other Core:
 \code{\link{salfergt}},
 \code{\link{sallabor}},
 \code{\link{salsatfn}},
+\code{\link{salsci}},
 \code{\link{unemp5}}
 
 Other Salience Of Issues: 
 \code{\link{salfergt}},
 \code{\link{sallabor}},
-\code{\link{salsatfn}}
+\code{\link{salsatfn}},
+\code{\link{salsci}}
 }
 \concept{Abortion}
 \concept{Core}

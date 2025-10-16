@@ -114,6 +114,8 @@ Other Core:
 \code{\link{confed}},
 \code{\link{conlabor}},
 \code{\link{conpress}},
+\code{\link{satfam}},
+\code{\link{satfrnd}},
 \code{\link{sathealt}}
 
 Other Business: 

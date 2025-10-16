@@ -77,7 +77,20 @@ Counts by year:\tabular{lllllllllll}{
 }
 
 \seealso{
-Other Multiculturalismducation: 
+Other Multiculturalism: 
+\code{\link{colaff}},
+\code{\link{colaffy}},
+\code{\link{congeth}},
+\code{\link{discaffy}},
+\code{\link{ethhist}},
+\code{\link{jobaff}},
+\code{\link{owneth}},
+\code{\link{schleth}},
+\code{\link{teacheth}}
+
+Other Education: 
+\code{\link{colaff}},
+\code{\link{colaffy}},
 \code{\link{ethhist}},
 \code{\link{schleth}},
 \code{\link{teacheth}}
@@ -96,7 +109,8 @@ Other Race:
 \code{\link{schleth}},
 \code{\link{teacheth}}
 }
+\concept{Education}
 \concept{Ethnicity}
-\concept{Multiculturalismducation}
+\concept{Multiculturalism}
 \concept{Race}
 \keyword{variable}

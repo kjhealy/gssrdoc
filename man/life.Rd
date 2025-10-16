@@ -109,6 +109,8 @@ Other Core:
 \code{\link{hapcohab}},
 \code{\link{health}},
 \code{\link{helpful}},
+\code{\link{satcity}},
+\code{\link{sathobby}},
 \code{\link{trust}},
 \code{\link{trusty}}
 }

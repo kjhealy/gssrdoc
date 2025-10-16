@@ -104,7 +104,13 @@ Other Core:
 \code{\link{confed}},
 \code{\link{confinan}},
 \code{\link{conlabor}},
-\code{\link{conpress}}
+\code{\link{conpress}},
+\code{\link{satfam}},
+\code{\link{satfrnd}}
+
+Other Satisfaction: 
+\code{\link{satfam}},
+\code{\link{satfrnd}}
 
 Other Split Ballots: 
 \code{\link{conbus}},
@@ -118,6 +124,7 @@ Other Split Ballots:
 \code{\link{satfrnd}}
 }
 \concept{Core}
-\concept{Healthatisfaction}
+\concept{Health}
+\concept{Satisfaction}
 \concept{Split Ballots}
 \keyword{variable}

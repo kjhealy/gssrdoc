@@ -392,6 +392,7 @@ Other Occupation:
 \code{\link{maind80}},
 \code{\link{maocc10}},
 \code{\link{maocc80}},
+\code{\link{mapres80}},
 \code{\link{mawrkslf}}
 }
 \concept{Core}

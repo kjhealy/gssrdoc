@@ -448,7 +448,8 @@ NULL
 #'  |2024  |-     |-          |-            |-         |-                |-              |-          |3309                       |3309  |
 #'  |Total |62514 |31         |3224         |23        |82               |418            |2554       |6853                       |75699 |
 #'
-#' @source General Social Survey https://gss.norc.orgSocial Networks & Support Systems
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Social Networks & Support Systems
 #' @family ISSP Religion
 #' @family Happiness
 #' 
@@ -526,7 +527,8 @@ NULL
 #'  |Total |67487 |607   |41       |28         |138                        |5         |532            |8                 |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family ISSP Religionourts
+#' @family ISSP Religion
+#' @family Courts
 #' @family Crime
 #' 
 #' @keywords variable

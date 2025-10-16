@@ -75,6 +75,7 @@ Counts by year:\tabular{lllll}{
 
 \seealso{
 Other Clergy/Sex: 
+\code{\link{clsclsex}},
 \code{\link{hushrel3}},
 \code{\link{knwclsex}},
 \code{\link{toldexp1}},

@@ -102,7 +102,10 @@ Other Household:
 \code{\link{noonehrt}}
 
 Other Women: 
-\code{\link{fekids1}}
+\code{\link{fekids1}},
+\code{\link{feless1}},
+\code{\link{feless2}},
+\code{\link{feless3}}
 }
 \concept{Family}
 \concept{Gender}

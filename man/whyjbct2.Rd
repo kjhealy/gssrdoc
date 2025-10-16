@@ -87,6 +87,7 @@ Other Global Economics:
 \code{\link{findnwjb}},
 \code{\link{losejb12}},
 \code{\link{lostjobs}},
+\code{\link{moretrde}},
 \code{\link{newjobs}},
 \code{\link{whylose1}},
 \code{\link{whylose2}},

@@ -83,7 +83,14 @@ Other Family Mobility:
 \code{\link{occfirst}},
 \code{\link{payrdied}},
 \code{\link{wrkslfst}}
+
+Other Occupation: 
+\code{\link{datefrst}},
+\code{\link{indfirst}},
+\code{\link{occfirst}},
+\code{\link{wrkslfst}}
 }
 \concept{Family Mobility}
+\concept{Occupation}
 \concept{Occupational Prestige}
 \keyword{variable}

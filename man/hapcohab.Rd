@@ -86,6 +86,8 @@ Other Core:
 \code{\link{health}},
 \code{\link{helpful}},
 \code{\link{life}},
+\code{\link{satcity}},
+\code{\link{sathobby}},
 \code{\link{trust}},
 \code{\link{trusty}}
 }

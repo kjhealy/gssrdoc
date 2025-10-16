@@ -100,7 +100,9 @@ Other High Risk Behaviors:
 \code{\link{matesex}},
 \code{\link{othersex}},
 \code{\link{paidsex}},
-\code{\link{pikupsex}}
+\code{\link{partners}},
+\code{\link{pikupsex}},
+\code{\link{sexfreq}}
 
 Other Sex: 
 \code{\link{acqntsex}},
@@ -108,7 +110,9 @@ Other Sex:
 \code{\link{matesex}},
 \code{\link{othersex}},
 \code{\link{paidsex}},
-\code{\link{pikupsex}}
+\code{\link{partners}},
+\code{\link{pikupsex}},
+\code{\link{sexfreq}}
 }
 \concept{High Risk Behaviors}
 \concept{Sex}

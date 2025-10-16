@@ -98,7 +98,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Federal Governmentending
+#' @family Federal Government
+#' @family Spending
 #' @family Split Ballots
 #' @family United States
 #' 
@@ -199,7 +200,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Federal Governmentending
+#' @family Federal Government
+#' @family Spending
 #' @family Split Ballots
 #' @family United States
 #' 
@@ -301,7 +303,8 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' @family Aged
-#' @family Federal Governmentending
+#' @family Federal Government
+#' @family Spending
 #' @family Split Ballots
 #' @family United States
 #' 
@@ -401,7 +404,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Federal Governmentending
+#' @family Federal Government
+#' @family Spending
 #' @family Split Ballots
 #' @family United States
 #' 
@@ -501,7 +505,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Federal Governmentending
+#' @family Federal Government
+#' @family Spending
 #' @family Split Ballots
 #' @family United States
 #' 
@@ -590,7 +595,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Federal Governmentending
+#' @family Federal Government
+#' @family Spending
 #' @family Split Ballots
 #' @family United States
 #' 
@@ -678,7 +684,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Federal Governmentending
+#' @family Federal Government
+#' @family Spending
 #' @family Split Ballots
 #' @family United States
 #' 
@@ -863,7 +870,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Federal Governmentending
+#' @family Federal Government
+#' @family Spending
 #' @family Split Ballots
 #' @family United States
 #' 
@@ -965,7 +973,8 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
 #' @family Environment
-#' @family Federal Governmentending
+#' @family Federal Government
+#' @family Spending
 #' @family Split Ballots
 #' @family United States
 #' 

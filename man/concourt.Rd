@@ -80,6 +80,23 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
+\seealso{
+Other ISSP Religion: 
+\code{\link{afterlif}},
+\code{\link{churhpow}},
+\code{\link{clerggov}},
+\code{\link{clergvte}},
+\code{\link{conchurh}},
+\code{\link{conschls}},
+\code{\link{godchnge}},
+\code{\link{polsgod}},
+\code{\link{religpub}}
+
+Other Confidence: 
+\code{\link{conchurh}},
+\code{\link{conschls}}
+}
+\concept{Confidence}
 \concept{Courts}
-\concept{ISSP Religionnfidence}
+\concept{ISSP Religion}
 \keyword{variable}

@@ -82,6 +82,7 @@ Other Mental Health II:
 \code{\link{chembal}},
 \code{\link{chldhlp}},
 \code{\link{chldprb}},
+\code{\link{chldvig}},
 \code{\link{stressfl}}
 
 Other Children: 

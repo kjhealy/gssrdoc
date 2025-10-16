@@ -115,6 +115,7 @@ Other Core:
 \code{\link{conclery}},
 \code{\link{coneducy}},
 \code{\link{confinay}},
+\code{\link{conjudge}},
 \code{\link{conmedic}},
 \code{\link{consci}},
 \code{\link{contv}}
@@ -125,6 +126,7 @@ Other Confidence:
 \code{\link{conclery}},
 \code{\link{coneducy}},
 \code{\link{confinay}},
+\code{\link{conjudge}},
 \code{\link{conmedic}},
 \code{\link{consci}},
 \code{\link{contv}}

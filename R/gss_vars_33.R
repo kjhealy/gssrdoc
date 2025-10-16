@@ -505,7 +505,8 @@ NULL
 #'  |Total |8115        |4279       |301       |44103              |4697        |10172 |4032                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Coreourts
+#' @family Core
+#' @family Courts
 #' @family Crime
 #' @family Split Ballots
 #' 
@@ -582,7 +583,8 @@ NULL
 #'  |Total |67178 |86          |348          |19        |1125             |90        |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Coreourts
+#' @family Core
+#' @family Courts
 #' @family Crime
 #' @family Split Ballots
 #' 

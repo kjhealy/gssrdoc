@@ -94,9 +94,27 @@ Other Business:
 \code{\link{ownmass}},
 \code{\link{ownpower}},
 \code{\link{ownsteel}}
+
+Other Economy: 
+\code{\link{jobsall}},
+\code{\link{ownautos}},
+\code{\link{ownmass}},
+\code{\link{ownpower}},
+\code{\link{ownsteel}},
+\code{\link{pricecon}}
+
+Other Federal Government: 
+\code{\link{govtpow}},
+\code{\link{jobsall}},
+\code{\link{ownautos}},
+\code{\link{ownmass}},
+\code{\link{ownpower}},
+\code{\link{ownsteel}},
+\code{\link{pricecon}}
 }
 \concept{Business}
-\concept{Economyederal Government}
+\concept{Economy}
+\concept{Federal Government}
 \concept{Financial Institutions And Banks}
 \concept{ISSP Role of Gov't}
 \keyword{variable}

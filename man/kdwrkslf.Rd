@@ -98,7 +98,8 @@ Other Children:
 
 Other Occupation: 
 \code{\link{kdind80}},
-\code{\link{kdocc80}}
+\code{\link{kdocc80}},
+\code{\link{kdpres80}}
 }
 \concept{Children}
 \concept{Family Mobility}

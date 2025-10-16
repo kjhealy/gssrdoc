@@ -728,7 +728,8 @@ NULL
 #'  |Total |68684 |88 |74  |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Clergy/Sexamily
+#' @family Clergy/Sex
+#' @family Family
 #' @family Friends
 #' @family Religion
 #' @family Sex

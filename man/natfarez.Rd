@@ -87,11 +87,23 @@ Other Core:
 \code{\link{nathealz}},
 \code{\link{natracez}}
 
-Other Federal Governmentending: 
+Other Federal Government: 
 \code{\link{nataidz}},
 \code{\link{natarmsz}},
 \code{\link{natcityz}},
 \code{\link{natcrimz}},
+\code{\link{natdrugz}},
+\code{\link{nateducz}},
+\code{\link{natenviz}},
+\code{\link{nathealz}},
+\code{\link{natracez}}
+
+Other Spending: 
+\code{\link{nataidz}},
+\code{\link{natarmsz}},
+\code{\link{natcityz}},
+\code{\link{natcrimz}},
+\code{\link{natdrugz}},
 \code{\link{nateducz}},
 \code{\link{natenviz}},
 \code{\link{nathealz}},
@@ -118,7 +130,8 @@ Other United States:
 \code{\link{natracez}}
 }
 \concept{Core}
-\concept{Federal Governmentending}
+\concept{Federal Government}
+\concept{Spending}
 \concept{Split Ballots}
 \concept{United States}
 \keyword{variable}

@@ -129,6 +129,7 @@ Other Core:
 
 Other Occupation: 
 \code{\link{occ}},
+\code{\link{prestige}},
 \code{\link{wrkgovt}}
 
 Other Work: 

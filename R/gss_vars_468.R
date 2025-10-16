@@ -312,7 +312,8 @@ NULL
 #'  |Total |67282 |302                   |80           |97                  |25        |759                 |301               |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family ISSP Social Inequalitycentives
+#' @family ISSP Social Inequality
+#' @family Incentives
 #' @family Inequality, Income
 #' 
 #' @keywords variable

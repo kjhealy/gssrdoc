@@ -79,7 +79,11 @@ Other Multiculturalism:
 \code{\link{colaffy}},
 \code{\link{congeth}},
 \code{\link{discaffy}},
-\code{\link{jobaff}}
+\code{\link{ethhist}},
+\code{\link{jobaff}},
+\code{\link{schleth}},
+\code{\link{teacheth}},
+\code{\link{whoteach}}
 
 Other Ethnicity: 
 \code{\link{congeth}},

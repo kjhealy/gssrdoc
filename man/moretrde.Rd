@@ -76,6 +76,17 @@ Counts by year:\tabular{llllllllll}{
 }
 
 \seealso{
+Other Global Economics: 
+\code{\link{findnwjb}},
+\code{\link{losejb12}},
+\code{\link{lostjobs}},
+\code{\link{newjobs}},
+\code{\link{whyjbct2}},
+\code{\link{whylose1}},
+\code{\link{whylose2}},
+\code{\link{whylose3}},
+\code{\link{wkcomptr}}
+
 Other Employment: 
 \code{\link{losejb12}},
 \code{\link{lostjobs}},
@@ -99,9 +110,10 @@ Other Unemployment:
 \code{\link{newjobs}},
 \code{\link{whyjbct2}}
 }
+\concept{Economy}
 \concept{Employment}
 \concept{Foreign Affairs}
-\concept{Global Economicsconomy}
+\concept{Global Economics}
 \concept{Job}
 \concept{Unemployment}
 \keyword{variable}

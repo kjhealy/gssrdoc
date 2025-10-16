@@ -78,16 +78,34 @@ Counts by year:\tabular{llllllllll}{
 }
 
 \seealso{
-Other Terrorism Preparednesserrorism: 
+Other Terrorism Preparedness: 
+\code{\link{done911i}},
+\code{\link{done911j}},
+\code{\link{done911l}},
 \code{\link{done911m}},
 \code{\link{eff911h}},
-\code{\link{eff911k}}
+\code{\link{eff911i}},
+\code{\link{eff911j}},
+\code{\link{eff911k}},
+\code{\link{eff911l}}
+
+Other Terrorism: 
+\code{\link{done911i}},
+\code{\link{done911j}},
+\code{\link{done911l}},
+\code{\link{done911m}},
+\code{\link{eff911h}},
+\code{\link{eff911i}},
+\code{\link{eff911j}},
+\code{\link{eff911k}},
+\code{\link{eff911l}}
 
 Other Transportation: 
 \code{\link{done911m}},
 \code{\link{eff911h}},
 \code{\link{eff911k}}
 }
-\concept{Terrorism Preparednesserrorism}
+\concept{Terrorism}
+\concept{Terrorism Preparedness}
 \concept{Transportation}
 \keyword{variable}

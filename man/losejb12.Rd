@@ -79,6 +79,7 @@ Counts by year:\tabular{llllllllll}{
 Other Global Economics: 
 \code{\link{findnwjb}},
 \code{\link{lostjobs}},
+\code{\link{moretrde}},
 \code{\link{newjobs}},
 \code{\link{whyjbct2}},
 \code{\link{whylose1}},

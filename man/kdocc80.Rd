@@ -602,6 +602,7 @@ Other Children:
 
 Other Occupation: 
 \code{\link{kdind80}},
+\code{\link{kdpres80}},
 \code{\link{kdwrkslf}}
 }
 \concept{Children}

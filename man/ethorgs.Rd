@@ -94,6 +94,8 @@ Other Political:
 
 Other Race: 
 \code{\link{admirblk}},
+\code{\link{ethspkno}},
+\code{\link{ethspkok}},
 \code{\link{symptblk}}
 }
 \concept{Ethnicity}

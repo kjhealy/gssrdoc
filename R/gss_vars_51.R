@@ -85,7 +85,8 @@
 #'  |Total |44603 |1721          |520      |73         |8032       |100       |431  |2588        |713  |10065           |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Coreatisfaction
+#' @family Core
+#' @family Satisfaction
 #' @family Split Ballots
 #' 
 #' @keywords variable
@@ -181,7 +182,8 @@ NULL
 #'  |Total |44602 |2277          |482      |36         |9531       |80        |167  |3662        |729  |7280            |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Coreatisfaction
+#' @family Core
+#' @family Satisfaction
 #' @family Split Ballots
 #' 
 #' @keywords variable
@@ -278,7 +280,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Healthatisfaction
+#' @family Health
+#' @family Satisfaction
 #' @family Split Ballots
 #' 
 #' @keywords variable

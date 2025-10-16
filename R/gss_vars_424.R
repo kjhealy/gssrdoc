@@ -547,7 +547,8 @@ NULL
 #'  |Total |67988 |159            |136               |19         |14        |254                     |276             |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Global Economicsconomy
+#' @family Global Economics
+#' @family Economy
 #' @family Employment
 #' @family Foreign Affairs
 #' @family Job

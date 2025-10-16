@@ -81,12 +81,14 @@ Other Intergroup Relations:
 \code{\link{asnjobs}},
 \code{\link{blkhouse}},
 \code{\link{blkjobs}},
+\code{\link{hsphouse}},
 \code{\link{hspjobs}},
 \code{\link{influasn}},
 \code{\link{influso}},
 \code{\link{racwork}}
 
 Other Hispanics: 
+\code{\link{hsphouse}},
 \code{\link{hspjobs}}
 }
 \concept{Hispanics}

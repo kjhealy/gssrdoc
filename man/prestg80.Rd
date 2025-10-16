@@ -96,7 +96,15 @@ Other Core:
 \code{\link{occ80}},
 \code{\link{occindv}},
 \code{\link{occonet}}
+
+Other Occupation: 
+\code{\link{commute}},
+\code{\link{indus80}},
+\code{\link{industry}},
+\code{\link{occ10}},
+\code{\link{occ80}}
 }
 \concept{Core}
+\concept{Occupation}
 \concept{Occupational Prestige}
 \keyword{variable}

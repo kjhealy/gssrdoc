@@ -81,6 +81,7 @@ Counts by year:\tabular{lllllllllll}{
 Other ISSP Religion: 
 \code{\link{hapunhap}},
 \code{\link{premars1}},
+\code{\link{stiffpun}},
 \code{\link{xmarsex1}}
 }
 \concept{Capital Punishment}

@@ -97,12 +97,14 @@ Counts by year:\tabular{lllllllllllll}{
 \seealso{
 Other Sampling and Weights: 
 \code{\link{ballot}},
+\code{\link{formwt}},
 \code{\link{issp}},
 \code{\link{sampcode}},
 \code{\link{sample}()}
 
 Other Sample: 
 \code{\link{ballot}},
+\code{\link{formwt}},
 \code{\link{issp}},
 \code{\link{sampcode}},
 \code{\link{sample}()}

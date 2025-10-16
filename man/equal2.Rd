@@ -87,6 +87,9 @@ Other Core:
 \code{\link{natparkz}},
 \code{\link{natroadz}},
 \code{\link{natsocz}}
+
+Other Corporations: 
+\code{\link{equal6}}
 }
 \concept{Core}
 \concept{Corporations}

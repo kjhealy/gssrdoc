@@ -75,6 +75,25 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\concept{Corealience Of Issues}
+\seealso{
+Other Core: 
+\code{\link{divorce5}},
+\code{\link{divrel1}},
+\code{\link{divrel4}},
+\code{\link{racdif4}},
+\code{\link{salabort}},
+\code{\link{salfergt}},
+\code{\link{sallabor}},
+\code{\link{salsatfn}},
+\code{\link{unemp5}}
+
+Other Salience Of Issues: 
+\code{\link{salabort}},
+\code{\link{salfergt}},
+\code{\link{sallabor}},
+\code{\link{salsatfn}}
+}
+\concept{Core}
+\concept{Salience Of Issues}
 \concept{Science}
 \keyword{variable}

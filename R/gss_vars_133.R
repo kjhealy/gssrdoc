@@ -518,7 +518,8 @@ NULL
 #'  |Total |67474 |251   |112        |8         |156         |273           |572  |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Intergroup Relationsispanics
+#' @family Intergroup Relations
+#' @family Hispanics
 #' @family Housing
 #' 
 #' @keywords variable

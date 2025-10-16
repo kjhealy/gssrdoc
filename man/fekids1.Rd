@@ -100,6 +100,9 @@ Other Household:
 \code{\link{womenhrt}}
 
 Other Women: 
+\code{\link{feless1}},
+\code{\link{feless2}},
+\code{\link{feless3}},
 \code{\link{womenhrt}}
 }
 \concept{Children}

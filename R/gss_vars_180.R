@@ -519,7 +519,8 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
 #' @family Employment
-#' @family Jobmen
+#' @family Job
+#' @family Women
 #' @family Work
 #' 
 #' @keywords variable
@@ -597,7 +598,8 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
 #' @family Employment
-#' @family Jobmen
+#' @family Job
+#' @family Women
 #' @family Work
 #' 
 #' @keywords variable
@@ -675,7 +677,8 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
 #' @family Employment
-#' @family Jobmen
+#' @family Job
+#' @family Women
 #' @family Work
 #' 
 #' @keywords variable

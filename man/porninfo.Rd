@@ -76,15 +76,33 @@ Counts by year:\tabular{llllllllll}{
 }
 
 \seealso{
-Other Coreex: 
+Other Core: 
 \code{\link{pornfirm}},
-\code{\link{pornimp}}
+\code{\link{pornimp}},
+\code{\link{pornlaw}},
+\code{\link{pornmorl}},
+\code{\link{pornout}},
+\code{\link{pornrape}},
+\code{\link{spanking}},
+\code{\link{xmovie}},
+\code{\link{xmovie1}}
+
+Other Sex: 
+\code{\link{pornfirm}},
+\code{\link{pornimp}},
+\code{\link{pornlaw}},
+\code{\link{pornmorl}},
+\code{\link{pornout}},
+\code{\link{pornrape}},
+\code{\link{xmovie}},
+\code{\link{xmovie1}}
 
 Other Split Ballots: 
 \code{\link{pornfirm}},
 \code{\link{pornimp}},
 \code{\link{xmovie1}}
 }
-\concept{Coreex}
+\concept{Core}
+\concept{Sex}
 \concept{Split Ballots}
 \keyword{variable}

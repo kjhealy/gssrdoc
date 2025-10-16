@@ -541,7 +541,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family Moviesex
+#' @family Movies
+#' @family Sex
 #' @family Split Ballots
 #' 
 #' @keywords variable
@@ -616,7 +617,8 @@ NULL
 #'  |Total |67373 |17         |481       |14        |223            |577          |161             |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Coreex
+#' @family Core
+#' @family Sex
 #' @family Split Ballots
 #' 
 #' @keywords variable
@@ -691,7 +693,8 @@ NULL
 #'  |Total |67373 |209              |18         |303       |20        |542       |381              |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Coreex
+#' @family Core
+#' @family Sex
 #' @family Split Ballots
 #' 
 #' @keywords variable
@@ -766,7 +769,8 @@ NULL
 #'  |Total |67373 |37                 |765                  |26         |23        |205             |417               |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Coreex
+#' @family Core
+#' @family Sex
 #' @family Split Ballots
 #' 
 #' @keywords variable

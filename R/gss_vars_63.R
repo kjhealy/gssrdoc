@@ -548,7 +548,8 @@ NULL
 #'  |Total |4970        |32465        |251       |2442        |32248         |3064 |235        |1        |23             |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Coreocial Class
+#' @family Core
+#' @family Social Class
 #' @family Split Ballots
 #' 
 #' @keywords variable
@@ -624,7 +625,8 @@ NULL
 #'  |Total |68095 |32          |308          |6         |18          |79                 |308           |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Coreocial Class
+#' @family Core
+#' @family Social Class
 #' @family Split Ballots
 #' 
 #' @keywords variable
@@ -711,7 +713,8 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
-#' @family ISSP Social Inequalityocial Class
+#' @family ISSP Social Inequality
+#' @family Social Class
 #' @family Split Ballots
 #' 
 #' @keywords variable

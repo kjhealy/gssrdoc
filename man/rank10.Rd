@@ -76,12 +76,19 @@ Counts by year:\tabular{llllllllllllllll}{
 
 \seealso{
 Other Core: 
+\code{\link{class}()},
+\code{\link{classy}},
 \code{\link{jobaccmp}},
 \code{\link{jobhelp}},
 \code{\link{jobpeop}},
 \code{\link{jobresp}},
 \code{\link{jobsafe}},
 \code{\link{jobsoc}},
+\code{\link{rank}()}
+
+Other Social Class: 
+\code{\link{class}()},
+\code{\link{classy}},
 \code{\link{rank}()}
 }
 \concept{Core}

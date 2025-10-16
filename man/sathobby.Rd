@@ -97,7 +97,17 @@ Counts by year:\tabular{lllllllllllll}{
 }
 
 \seealso{
-Other Coreatisfaction: 
+Other Core: 
+\code{\link{fair}},
+\code{\link{hapcohab}},
+\code{\link{health}},
+\code{\link{helpful}},
+\code{\link{life}},
+\code{\link{satcity}},
+\code{\link{trust}},
+\code{\link{trusty}}
+
+Other Satisfaction: 
 \code{\link{satcity}}
 
 Other Split Ballots: 
@@ -105,6 +115,7 @@ Other Split Ballots:
 \code{\link{trust}},
 \code{\link{trusty}}
 }
-\concept{Coreatisfaction}
+\concept{Core}
+\concept{Satisfaction}
 \concept{Split Ballots}
 \keyword{variable}

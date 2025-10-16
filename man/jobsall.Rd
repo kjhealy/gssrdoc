@@ -97,6 +97,7 @@ Other ISSP Role of Gov't:
 
 Other Economy: 
 \code{\link{ownautos}},
+\code{\link{ownbanks}},
 \code{\link{ownmass}},
 \code{\link{ownpower}},
 \code{\link{ownsteel}},
@@ -105,6 +106,7 @@ Other Economy:
 Other Federal Government: 
 \code{\link{govtpow}},
 \code{\link{ownautos}},
+\code{\link{ownbanks}},
 \code{\link{ownmass}},
 \code{\link{ownpower}},
 \code{\link{ownsteel}},

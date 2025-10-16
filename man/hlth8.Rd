@@ -101,7 +101,8 @@ Other Trauma:
 \code{\link{work2}},
 \code{\link{work3}}
 }
-\concept{Childreninking}
+\concept{Children}
+\concept{Drinking}
 \concept{Drug Use And Addiction}
 \concept{Health}
 \concept{Negative Life Events}

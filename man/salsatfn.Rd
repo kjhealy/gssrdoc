@@ -84,12 +84,14 @@ Other Core:
 \code{\link{salabort}},
 \code{\link{salfergt}},
 \code{\link{sallabor}},
+\code{\link{salsci}},
 \code{\link{unemp5}}
 
 Other Salience Of Issues: 
 \code{\link{salabort}},
 \code{\link{salfergt}},
-\code{\link{sallabor}}
+\code{\link{sallabor}},
+\code{\link{salsci}}
 }
 \concept{Core}
 \concept{Income}

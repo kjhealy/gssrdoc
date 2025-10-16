@@ -93,7 +93,9 @@ Other Blacks:
 
 Other Race: 
 \code{\link{admirblk}},
-\code{\link{ethorgs}}
+\code{\link{ethorgs}},
+\code{\link{ethspkno}},
+\code{\link{ethspkok}}
 }
 \concept{Blacks}
 \concept{Multiculturalism}

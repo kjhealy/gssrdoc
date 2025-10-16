@@ -100,7 +100,8 @@ Other Core:
 \code{\link{salabort}},
 \code{\link{salfergt}},
 \code{\link{sallabor}},
-\code{\link{salsatfn}}
+\code{\link{salsatfn}},
+\code{\link{salsci}}
 
 Other Trauma: 
 \code{\link{divorce5}},

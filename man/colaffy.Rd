@@ -79,8 +79,12 @@ Other Multiculturalism:
 \code{\link{colaff}},
 \code{\link{congeth}},
 \code{\link{discaffy}},
+\code{\link{ethhist}},
 \code{\link{jobaff}},
-\code{\link{owneth}}
+\code{\link{owneth}},
+\code{\link{schleth}},
+\code{\link{teacheth}},
+\code{\link{whoteach}}
 
 Other Affirmative Action: 
 \code{\link{colaff}},
@@ -93,7 +97,11 @@ Other Blacks:
 \code{\link{jobaff}}
 
 Other Education: 
-\code{\link{colaff}}
+\code{\link{colaff}},
+\code{\link{ethhist}},
+\code{\link{schleth}},
+\code{\link{teacheth}},
+\code{\link{whoteach}}
 }
 \concept{Affirmative Action}
 \concept{Blacks}

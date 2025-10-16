@@ -93,7 +93,13 @@ Other ISSP Environment:
 \code{\link{topprob2}},
 \code{\link{trust5}}
 
-Other Crimeconomyducation: 
+Other Crime: 
+\code{\link{topprob2}}
+
+Other Economy: 
+\code{\link{topprob2}}
+
+Other Education: 
 \code{\link{topprob2}}
 
 Other Environment: 
@@ -114,7 +120,9 @@ Other United States:
 \code{\link{futenrgy}},
 \code{\link{topprob2}}
 }
-\concept{Crimeconomyducation}
+\concept{Crime}
+\concept{Economy}
+\concept{Education}
 \concept{Environment}
 \concept{Foreign Affairs}
 \concept{ISSP Environment}

@@ -42,6 +42,7 @@ Other Family Mobility:
 Other Occupation: 
 \code{\link{indfirst}},
 \code{\link{occfirst}},
+\code{\link{presfrst}},
 \code{\link{wrkslfst}}
 }
 \concept{Family Mobility}

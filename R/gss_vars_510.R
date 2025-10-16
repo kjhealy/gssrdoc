@@ -150,7 +150,8 @@ NULL
 #'  |Total |63663 |896                        |222                 |82         |85        |352                  |2488            |1058                   |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family ISSP Religionnfidence
+#' @family ISSP Religion
+#' @family Confidence
 #' @family Courts
 #' 
 #' @keywords variable

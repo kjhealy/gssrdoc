@@ -92,6 +92,7 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 Other Core: 
 \code{\link{income06}},
 \code{\link{income16}},
+\code{\link{region}},
 \code{\link{rincom06}},
 \code{\link{rincom16}},
 \code{\link{rincom98}},

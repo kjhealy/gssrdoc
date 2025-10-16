@@ -446,8 +446,6 @@ NULL
 #' @family Science Knowledge & Attitudes
 #' @family Knowledge
 #' @family Science
-#' @family Knowledge
-#' @family Science
 #' 
 #' @keywords variable
 #' @md

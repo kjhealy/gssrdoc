@@ -79,7 +79,10 @@ Other Clergy/Sex:
 \code{\link{clrgmar3}},
 \code{\link{counsel1}},
 \code{\link{counsel2}},
-\code{\link{counsel3}}
+\code{\link{counsel3}},
+\code{\link{openrel1}},
+\code{\link{openrel2}},
+\code{\link{openrel3}}
 
 Other Religion: 
 \code{\link{clrgmar1}},
@@ -87,7 +90,10 @@ Other Religion:
 \code{\link{clrgmar3}},
 \code{\link{counsel1}},
 \code{\link{counsel2}},
-\code{\link{counsel3}}
+\code{\link{counsel3}},
+\code{\link{openrel1}},
+\code{\link{openrel2}},
+\code{\link{openrel3}}
 
 Other Sex: 
 \code{\link{clrgmar1}},

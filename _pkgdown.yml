@@ -12,6 +12,11 @@ template:
     heading_font: {google: "IBM Plex Sans"}
     code_font: {google: "IBM Plex Mono"}
 
+articles:
+  - title: "Topics"
+    contents:
+    - articles/topics
+
 reference:
   - title: "Objects"
     desc: >
@@ -126,6 +131,11 @@ reference:
     - starts_with("z")
 
 navbar:
+  left:
+    - text: Reference
+      href: reference/index.html
+    - text: Topics
+      href: articles/topics.html
   right:
    - icon: fa-github
      href: https://github.com/kjhealy/gssrdoc

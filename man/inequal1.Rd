@@ -85,6 +85,7 @@ Other Markets:
 
 Other ISSP Social Inequality: 
 \code{\link{goodlife}},
+\code{\link{incentiv}},
 \code{\link{inequal2}},
 \code{\link{inequal3}},
 \code{\link{inequal4}},

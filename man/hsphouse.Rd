@@ -77,10 +77,26 @@ Counts by year:\tabular{llllllllll}{
 }
 
 \seealso{
+Other Intergroup Relations: 
+\code{\link{asnhouse}},
+\code{\link{asnjobs}},
+\code{\link{blkhouse}},
+\code{\link{blkjobs}},
+\code{\link{hspjobs}},
+\code{\link{influasn}},
+\code{\link{influhsp}},
+\code{\link{influso}},
+\code{\link{racwork}}
+
+Other Hispanics: 
+\code{\link{hspjobs}},
+\code{\link{influhsp}}
+
 Other Housing: 
 \code{\link{asnhouse}},
 \code{\link{blkhouse}}
 }
+\concept{Hispanics}
 \concept{Housing}
-\concept{Intergroup Relationsispanics}
+\concept{Intergroup Relations}
 \keyword{variable}

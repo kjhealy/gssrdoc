@@ -101,9 +101,13 @@ Other Core:
 
 Other Employment: 
 \code{\link{partfull}}
+
+Other Labor Force Status: 
+\code{\link{partfull}}
 }
 \concept{Core}
 \concept{Employment}
-\concept{Labor Force Statuseeks Worked}
+\concept{Labor Force Status}
+\concept{Weeks Worked}
 \concept{Work}
 \keyword{variable}

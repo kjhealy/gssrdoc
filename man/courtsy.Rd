@@ -77,7 +77,18 @@ Counts by year:\tabular{lllllllll}{
 }
 
 \seealso{
-Other Coreourts: 
+Other Core: 
+\code{\link{capfirm}},
+\code{\link{courts}},
+\code{\link{crimfirm}},
+\code{\link{crimimp}},
+\code{\link{criminfo}},
+\code{\link{gunfirm}},
+\code{\link{gunimp}},
+\code{\link{guninfo}},
+\code{\link{gunlaw}}
+
+Other Courts: 
 \code{\link{courts}}
 
 Other Crime: 
@@ -95,7 +106,8 @@ Other Split Ballots:
 \code{\link{gunimp}},
 \code{\link{guninfo}}
 }
-\concept{Coreourts}
+\concept{Core}
+\concept{Courts}
 \concept{Crime}
 \concept{Split Ballots}
 \keyword{variable}

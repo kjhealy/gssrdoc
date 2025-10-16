@@ -486,7 +486,8 @@ NULL
 #'  |Total |47993 |19157 |220       |1468 |8          |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Socio-political participationeteran Status
+#' @family Socio-political participation
+#' @family Veteran Status
 #' @family Voluntary Associations
 #' 
 #' @keywords variable

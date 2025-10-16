@@ -562,7 +562,8 @@ Other Occupation:
 \code{\link{commute}},
 \code{\link{indus80}},
 \code{\link{industry}},
-\code{\link{occ10}}
+\code{\link{occ10}},
+\code{\link{prestg80}}
 }
 \concept{Core}
 \concept{Occupation}

@@ -111,7 +111,17 @@ Other Core:
 \code{\link{natsci}},
 \code{\link{natspacy}}
 
-Other Federal Governmentending: 
+Other Federal Government: 
+\code{\link{natchld}},
+\code{\link{natenviy}},
+\code{\link{natfare}},
+\code{\link{natmass}},
+\code{\link{natpark}},
+\code{\link{natroad}},
+\code{\link{natsci}},
+\code{\link{natspacy}}
+
+Other Spending: 
 \code{\link{natchld}},
 \code{\link{natenviy}},
 \code{\link{natfare}},
@@ -145,7 +155,8 @@ Other United States:
 }
 \concept{Aged}
 \concept{Core}
-\concept{Federal Governmentending}
+\concept{Federal Government}
+\concept{Spending}
 \concept{Split Ballots}
 \concept{United States}
 \keyword{variable}

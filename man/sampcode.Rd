@@ -62,12 +62,14 @@ Question SAMPLING ERROR CODE.
 \seealso{
 Other Sampling and Weights: 
 \code{\link{ballot}},
+\code{\link{formwt}},
 \code{\link{issp}},
 \code{\link{sample}()},
 \code{\link{version}}
 
 Other Sample: 
 \code{\link{ballot}},
+\code{\link{formwt}},
 \code{\link{issp}},
 \code{\link{sample}()},
 \code{\link{version}}

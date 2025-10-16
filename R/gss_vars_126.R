@@ -365,7 +365,8 @@ NULL
 #'  |Total |67474 |632   |79             |454      |61                |141        |5         |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Intergroup Relationscentives
+#' @family Intergroup Relations
+#' @family Incentives
 #' @family Inequality, Income
 #' 
 #' @keywords variable
@@ -517,7 +518,8 @@ NULL
 #'  |Total |67474 |738   |281            |291      |35                |22         |5         |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Intergroup Relationscentives
+#' @family Intergroup Relations
+#' @family Incentives
 #' @family Inequality, Income
 #' 
 #' @keywords variable

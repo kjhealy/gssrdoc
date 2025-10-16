@@ -78,15 +78,25 @@ Counts by year:\tabular{llllllllll}{
 
 \seealso{
 Other Core: 
+\code{\link{equal8}},
 \code{\link{usclass1}},
+\code{\link{usclass2}},
+\code{\link{usclass3}},
+\code{\link{usclass4}},
 \code{\link{usclass5}},
 \code{\link{usclass6}},
+\code{\link{usclass7}},
 \code{\link{usclass8}}
 
 Other Social Class: 
+\code{\link{equal8}},
 \code{\link{usclass1}},
+\code{\link{usclass2}},
+\code{\link{usclass3}},
+\code{\link{usclass4}},
 \code{\link{usclass5}},
 \code{\link{usclass6}},
+\code{\link{usclass7}},
 \code{\link{usclass8}}
 }
 \concept{Core}

@@ -63,7 +63,8 @@
 #'  |Total |68437 |4          |185    |196  |24        |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Family Mobilityex
+#' @family Family Mobility
+#' @family Sex
 #' @family Siblings
 #' 
 #' @keywords variable
@@ -137,7 +138,8 @@ NULL
 #'  |Total |68556 |2          |132    |137  |19        |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Family Mobilityex
+#' @family Family Mobility
+#' @family Sex
 #' @family Siblings
 #' 
 #' @keywords variable
@@ -211,7 +213,8 @@ NULL
 #'  |Total |68649 |3          |94     |85   |15        |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Family Mobilityex
+#' @family Family Mobility
+#' @family Sex
 #' @family Siblings
 #' 
 #' @keywords variable

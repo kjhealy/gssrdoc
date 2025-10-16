@@ -78,6 +78,7 @@ Counts by year:\tabular{lllllllllllll}{
 \seealso{
 Other Core: 
 \code{\link{confedy}},
+\code{\link{conjudgy}},
 \code{\link{conlaboy}},
 \code{\link{conlegiy}},
 \code{\link{conmediy}},
@@ -88,6 +89,7 @@ Other Core:
 
 Other Confidence: 
 \code{\link{confedy}},
+\code{\link{conjudgy}},
 \code{\link{conlaboy}},
 \code{\link{conlegiy}},
 \code{\link{conmediy}},

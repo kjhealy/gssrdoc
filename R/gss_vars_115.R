@@ -148,8 +148,6 @@ NULL
 #' @family Religion
 #' @family Jews
 #' @family Religion
-#' @family Jews
-#' @family Religion
 #' 
 #' @keywords variable
 #' @md
@@ -553,8 +551,6 @@ NULL
 #'  |Total |68744 |28           |1          |7         |12            |22       |32     |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Religion
-#' @family Jews
 #' @family Religion
 #' @family Jews
 #' @family Religion

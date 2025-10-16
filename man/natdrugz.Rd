@@ -86,6 +86,28 @@ Other Core:
 \code{\link{natfarez}},
 \code{\link{nathealz}},
 \code{\link{natracez}}
+
+Other Federal Government: 
+\code{\link{nataidz}},
+\code{\link{natarmsz}},
+\code{\link{natcityz}},
+\code{\link{natcrimz}},
+\code{\link{nateducz}},
+\code{\link{natenviz}},
+\code{\link{natfarez}},
+\code{\link{nathealz}},
+\code{\link{natracez}}
+
+Other Spending: 
+\code{\link{nataidz}},
+\code{\link{natarmsz}},
+\code{\link{natcityz}},
+\code{\link{natcrimz}},
+\code{\link{nateducz}},
+\code{\link{natenviz}},
+\code{\link{natfarez}},
+\code{\link{nathealz}},
+\code{\link{natracez}}
 }
 \concept{Core}
 \concept{Drug Use And Addiction}

@@ -553,6 +553,7 @@ Other Family Mobility:
 
 Other Occupation: 
 \code{\link{sbind80}},
+\code{\link{sbpres80}},
 \code{\link{sbwrkslf}}
 
 Other Siblings: 

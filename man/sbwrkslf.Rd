@@ -94,7 +94,8 @@ Other Family Mobility:
 
 Other Occupation: 
 \code{\link{sbind80}},
-\code{\link{sbocc80}}
+\code{\link{sbocc80}},
+\code{\link{sbpres80}}
 
 Other Siblings: 
 \code{\link{sbdeg}},

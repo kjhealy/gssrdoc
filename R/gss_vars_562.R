@@ -66,7 +66,8 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
-#' @family Childreninking
+#' @family Children
+#' @family Drinking
 #' @family Drug Use And Addiction
 #' @family Health
 #' @family Trauma

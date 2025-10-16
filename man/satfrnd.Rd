@@ -97,8 +97,20 @@ Counts by year:\tabular{lllllllllllll}{
 }
 
 \seealso{
-Other Coreatisfaction: 
-\code{\link{satfam}}
+Other Core: 
+\code{\link{conbus}},
+\code{\link{conclerg}},
+\code{\link{coneduc}},
+\code{\link{confed}},
+\code{\link{confinan}},
+\code{\link{conlabor}},
+\code{\link{conpress}},
+\code{\link{satfam}},
+\code{\link{sathealt}}
+
+Other Satisfaction: 
+\code{\link{satfam}},
+\code{\link{sathealt}}
 
 Other Split Ballots: 
 \code{\link{conbus}},
@@ -111,6 +123,7 @@ Other Split Ballots:
 \code{\link{satfam}},
 \code{\link{sathealt}}
 }
-\concept{Coreatisfaction}
+\concept{Core}
+\concept{Satisfaction}
 \concept{Split Ballots}
 \keyword{variable}

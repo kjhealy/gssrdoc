@@ -87,8 +87,18 @@ Other Core:
 \code{\link{natparkz}},
 \code{\link{natroadz}},
 \code{\link{natsocz}}
+
+Other Corporations: 
+\code{\link{equal2}}
+
+Other Social Class: 
+\code{\link{equal1}},
+\code{\link{equal3}},
+\code{\link{equal4}},
+\code{\link{equal5}}
 }
 \concept{Core}
-\concept{CorporationsClass}
+\concept{Corporations}
+\concept{Social Class}
 \concept{Social Mobility}
 \keyword{variable}

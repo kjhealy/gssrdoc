@@ -78,6 +78,8 @@ Counts by year:\tabular{llllllllll}{
 
 \seealso{
 Other Intergroup Relations: 
+\code{\link{socdif1}},
+\code{\link{socdif3}},
 \code{\link{socdif4}},
 \code{\link{whypoor1}},
 \code{\link{whypoor2}},

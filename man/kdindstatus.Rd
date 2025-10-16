@@ -83,7 +83,13 @@ Counts by year:\tabular{llllllllll}{
 Other Family Mobility: 
 \code{\link{kdindtag}},
 \code{\link{kdpres10}},
-\code{\link{kdpres105plus}}
+\code{\link{kdpres105plus}},
+\code{\link{sbsex1}},
+\code{\link{sbsex2}},
+\code{\link{sbsex3}},
+\code{\link{sbsex4}},
+\code{\link{sbsex5}},
+\code{\link{sbsex6}}
 }
 \concept{Family Mobility}
 \keyword{variable}

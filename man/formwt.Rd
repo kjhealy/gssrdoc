@@ -60,6 +60,22 @@ Question Weight for form variables.
 }
 }
 
-\concept{Sampling and Weightsample}
+\seealso{
+Other Sampling and Weights: 
+\code{\link{ballot}},
+\code{\link{issp}},
+\code{\link{sampcode}},
+\code{\link{sample}()},
+\code{\link{version}}
+
+Other Sample: 
+\code{\link{ballot}},
+\code{\link{issp}},
+\code{\link{sampcode}},
+\code{\link{sample}()},
+\code{\link{version}}
+}
+\concept{Sample}
+\concept{Sampling and Weights}
 \concept{Split Ballots}
 \keyword{variable}

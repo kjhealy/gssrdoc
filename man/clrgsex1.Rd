@@ -80,7 +80,10 @@ Other Clergy/Sex:
 \code{\link{clrggen3}},
 \code{\link{clrgsex2}},
 \code{\link{clrgsex3}},
-\code{\link{hushrel1}}
+\code{\link{hushrel1}},
+\code{\link{ongorel1}},
+\code{\link{ongorel2}},
+\code{\link{ongorel3}}
 
 Other Religion: 
 \code{\link{clrggen1}},
@@ -88,7 +91,10 @@ Other Religion:
 \code{\link{clrggen3}},
 \code{\link{clrgsex2}},
 \code{\link{clrgsex3}},
-\code{\link{hushrel1}}
+\code{\link{hushrel1}},
+\code{\link{ongorel1}},
+\code{\link{ongorel2}},
+\code{\link{ongorel3}}
 
 Other Sex: 
 \code{\link{clrggen1}},

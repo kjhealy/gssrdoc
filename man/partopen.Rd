@@ -74,11 +74,27 @@ Counts by year:\tabular{llllllllllllllll}{
 }
 
 \seealso{
-Other High Risk Behaviorsex: 
+Other High Risk Behaviors: 
+\code{\link{evpaidsx}},
+\code{\link{evstray}},
+\code{\link{nummen}},
+\code{\link{numwomen}},
 \code{\link{partnrs5}},
 \code{\link{partopn5}},
 \code{\link{sexfreq1}},
-\code{\link{sexfreq2}}
+\code{\link{sexfreq2}},
+\code{\link{sexsex5}}
+
+Other Sex: 
+\code{\link{evpaidsx}},
+\code{\link{evstray}},
+\code{\link{nummen}},
+\code{\link{numwomen}},
+\code{\link{partnrs5}},
+\code{\link{partopn5}},
+\code{\link{sexfreq1}},
+\code{\link{sexfreq2}},
+\code{\link{sexsex5}}
 
 Other Split Ballots: 
 \code{\link{partnrs5}},
@@ -86,6 +102,7 @@ Other Split Ballots:
 \code{\link{sexfreq1}},
 \code{\link{sexfreq2}}
 }
-\concept{High Risk Behaviorsex}
+\concept{High Risk Behaviors}
+\concept{Sex}
 \concept{Split Ballots}
 \keyword{variable}

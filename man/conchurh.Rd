@@ -86,12 +86,14 @@ Other ISSP Religion:
 \code{\link{churhpow}},
 \code{\link{clerggov}},
 \code{\link{clergvte}},
+\code{\link{concourt}},
 \code{\link{conschls}},
 \code{\link{godchnge}},
 \code{\link{polsgod}},
 \code{\link{religpub}}
 
 Other Confidence: 
+\code{\link{concourt}},
 \code{\link{conschls}}
 
 Other Religion: 

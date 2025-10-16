@@ -85,6 +85,9 @@ Other Global Economics:
 \code{\link{whynojb2}},
 \code{\link{wocomptr}}
 
+Other Computers And Internet: 
+\code{\link{wocomptr}}
+
 Other Employment: 
 \code{\link{lastyrwk}},
 \code{\link{leavejb}},
@@ -116,7 +119,8 @@ Other Work:
 \code{\link{meetf2f1}},
 \code{\link{meetf2f2}}
 }
-\concept{Businessmputers And Internet}
+\concept{Business}
+\concept{Computers And Internet}
 \concept{Corporations}
 \concept{Employment}
 \concept{Global Economics}

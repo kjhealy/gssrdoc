@@ -103,6 +103,9 @@ Other Core:
 
 Other Employment: 
 \code{\link{weekswrk}}
+
+Other Labor Force Status: 
+\code{\link{weekswrk}}
 }
 \concept{Core}
 \concept{Employment}

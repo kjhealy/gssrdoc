@@ -88,7 +88,8 @@ Other Family Mobility:
 Other Occupation: 
 \code{\link{datefrst}},
 \code{\link{indfirst}},
-\code{\link{occfirst}}
+\code{\link{occfirst}},
+\code{\link{presfrst}}
 }
 \concept{Family Mobility}
 \concept{Occupation}

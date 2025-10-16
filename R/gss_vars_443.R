@@ -536,7 +536,8 @@ NULL
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
 #' @family Business
-#' @family Economyederal Government
+#' @family Economy
+#' @family Federal Government
 #' @family Financial Institutions And Banks
 #' 
 #' @keywords variable

@@ -84,6 +84,7 @@ Other Core:
 \code{\link{salfergt}},
 \code{\link{sallabor}},
 \code{\link{salsatfn}},
+\code{\link{salsci}},
 \code{\link{unemp5}}
 
 Other Marital Status: 

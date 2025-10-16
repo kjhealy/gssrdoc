@@ -83,6 +83,7 @@ Counts by year:\tabular{llllllllll}{
 Other ISSP Religion: 
 \code{\link{deathpen}},
 \code{\link{hapunhap}},
+\code{\link{stiffpun}},
 \code{\link{xmarsex1}}
 
 Other Sex: 

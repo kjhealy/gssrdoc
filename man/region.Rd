@@ -115,11 +115,23 @@ Counts by year:\tabular{lllllllllll}{
 }
 
 \seealso{
+Other Core: 
+\code{\link{dotdata}},
+\code{\link{income06}},
+\code{\link{income16}},
+\code{\link{rincom06}},
+\code{\link{rincom16}},
+\code{\link{rincom98}},
+\code{\link{size}},
+\code{\link{srcbelt}},
+\code{\link{xnorcsiz}}
+
 Other Residence: 
 \code{\link{size}},
 \code{\link{srcbelt}},
 \code{\link{xnorcsiz}}
 }
-\concept{Coregion}
+\concept{Core}
+\concept{Region}
 \concept{Residence}
 \keyword{variable}

@@ -71,7 +71,9 @@
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
-#' @family Crimeconomyducation
+#' @family Crime
+#' @family Economy
+#' @family Education
 #' @family Environment
 #' @family Foreign Affairs
 #' @family Salience Of Issues
@@ -156,7 +158,9 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
-#' @family Crimeconomyducation
+#' @family Crime
+#' @family Economy
+#' @family Education
 #' @family Environment
 #' @family Foreign Affairs
 #' @family Salience Of Issues

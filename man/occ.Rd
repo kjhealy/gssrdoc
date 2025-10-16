@@ -64,6 +64,7 @@ Other Core:
 \code{\link{year}}
 
 Other Occupation: 
+\code{\link{prestige}},
 \code{\link{wrkgovt}},
 \code{\link{wrkslf}}
 }

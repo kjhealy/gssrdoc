@@ -584,7 +584,8 @@ NULL
 #'  |Total |67934 |803 |11        |98  |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Work Organizationsinking
+#' @family Work Organizations
+#' @family Drinking
 #' @family Drug Use And Addiction
 #' @family Employment
 #' 

@@ -98,13 +98,31 @@ Counts by year:\tabular{llllllllllll}{
 }
 
 \seealso{
-Other High Risk Behaviorsex: 
-\code{\link{partners}}
+Other High Risk Behaviors: 
+\code{\link{acqntsex}},
+\code{\link{frndsex}},
+\code{\link{matesex}},
+\code{\link{othersex}},
+\code{\link{paidsex}},
+\code{\link{partners}},
+\code{\link{pikupsex}},
+\code{\link{sexsex}}
+
+Other Sex: 
+\code{\link{acqntsex}},
+\code{\link{frndsex}},
+\code{\link{matesex}},
+\code{\link{othersex}},
+\code{\link{paidsex}},
+\code{\link{partners}},
+\code{\link{pikupsex}},
+\code{\link{sexsex}}
 
 Other Split Ballots: 
 \code{\link{aidsfare}},
 \code{\link{partners}}
 }
-\concept{High Risk Behaviorsex}
+\concept{High Risk Behaviors}
+\concept{Sex}
 \concept{Split Ballots}
 \keyword{variable}

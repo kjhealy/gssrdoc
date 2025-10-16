@@ -466,7 +466,8 @@ NULL
 #'  |Total |67314 |785          |31         |7         |561       |148        |6853                       |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Corealience Of Issues
+#' @family Core
+#' @family Salience Of Issues
 #' @family Science
 #' 
 #' @keywords variable

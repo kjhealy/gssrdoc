@@ -77,6 +77,14 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
+\seealso{
+Other ISSP Religion: 
+\code{\link{deathpen}},
+\code{\link{hapunhap}},
+\code{\link{premars1}},
+\code{\link{xmarsex1}}
+}
+\concept{Courts}
 \concept{Crime}
-\concept{ISSP Religionourts}
+\concept{ISSP Religion}
 \keyword{variable}

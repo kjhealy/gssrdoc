@@ -94,8 +94,14 @@ Other Children:
 \code{\link{kdind80}},
 \code{\link{kdocc80}},
 \code{\link{kdwrkslf}}
+
+Other Occupation: 
+\code{\link{kdind80}},
+\code{\link{kdocc80}},
+\code{\link{kdwrkslf}}
 }
 \concept{Children}
 \concept{Family Mobility}
+\concept{Occupation}
 \concept{Occupational Prestige}
 \keyword{variable}

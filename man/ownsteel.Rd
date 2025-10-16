@@ -98,6 +98,7 @@ Other Business:
 Other Economy: 
 \code{\link{jobsall}},
 \code{\link{ownautos}},
+\code{\link{ownbanks}},
 \code{\link{ownmass}},
 \code{\link{ownpower}},
 \code{\link{pricecon}}
@@ -106,6 +107,7 @@ Other Federal Government:
 \code{\link{govtpow}},
 \code{\link{jobsall}},
 \code{\link{ownautos}},
+\code{\link{ownbanks}},
 \code{\link{ownmass}},
 \code{\link{ownpower}},
 \code{\link{pricecon}}

@@ -109,6 +109,28 @@ Counts by year:\tabular{lllllllll}{
 }
 
 \seealso{
+Other Core: 
+\code{\link{conarmy}},
+\code{\link{conbusy}},
+\code{\link{conclery}},
+\code{\link{coneducy}},
+\code{\link{confinay}},
+\code{\link{conlegis}},
+\code{\link{conmedic}},
+\code{\link{consci}},
+\code{\link{contv}}
+
+Other Confidence: 
+\code{\link{conarmy}},
+\code{\link{conbusy}},
+\code{\link{conclery}},
+\code{\link{coneducy}},
+\code{\link{confinay}},
+\code{\link{conlegis}},
+\code{\link{conmedic}},
+\code{\link{consci}},
+\code{\link{contv}}
+
 Other Federal Government: 
 \code{\link{conarmy}},
 \code{\link{conlegis}}
@@ -124,7 +146,8 @@ Other Split Ballots:
 \code{\link{consci}},
 \code{\link{contv}}
 }
-\concept{Corenfidence}
+\concept{Confidence}
+\concept{Core}
 \concept{Courts}
 \concept{Federal Government}
 \concept{Split Ballots}

@@ -4,7 +4,7 @@
 \alias{hapunhap}
 \title{Happy or unhappy with life today}
 \source{
-General Social Survey https://gss.norc.orgSocial Networks & Support Systems
+General Social Survey https://gss.norc.org
 }
 \description{
 hapunhap
@@ -84,8 +84,10 @@ Counts by year:\tabular{llllllllll}{
 Other ISSP Religion: 
 \code{\link{deathpen}},
 \code{\link{premars1}},
+\code{\link{stiffpun}},
 \code{\link{xmarsex1}}
 }
 \concept{Happiness}
 \concept{ISSP Religion}
+\concept{ISSP Social Networks & Support Systems}
 \keyword{variable}

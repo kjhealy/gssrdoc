@@ -107,6 +107,7 @@ Other Core:
 \code{\link{dotdata}},
 \code{\link{income06}},
 \code{\link{income16}},
+\code{\link{region}},
 \code{\link{rincom06}},
 \code{\link{rincom98}},
 \code{\link{size}},

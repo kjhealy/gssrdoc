@@ -110,8 +110,21 @@ Counts by year:\tabular{lllllllllll}{
 }
 
 \seealso{
-Other Coreocial Class: 
-\code{\link{classy}}
+Other Core: 
+\code{\link{classy}},
+\code{\link{jobaccmp}},
+\code{\link{jobhelp}},
+\code{\link{jobpeop}},
+\code{\link{jobresp}},
+\code{\link{jobsafe}},
+\code{\link{jobsoc}},
+\code{\link{rank}()},
+\code{\link{rank10}}
+
+Other Social Class: 
+\code{\link{classy}},
+\code{\link{rank}()},
+\code{\link{rank10}}
 
 Other Split Ballots: 
 \code{\link{classy}},
@@ -123,6 +136,7 @@ Other Split Ballots:
 \code{\link{jobsoc}},
 \code{\link{rank}()}
 }
-\concept{Coreocial Class}
+\concept{Core}
+\concept{Social Class}
 \concept{Split Ballots}
 \keyword{variable}

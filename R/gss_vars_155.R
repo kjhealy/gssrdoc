@@ -353,6 +353,7 @@ NULL
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
+#' @family Occupation
 #' @family Occupational Prestige
 #' 
 #' @keywords variable

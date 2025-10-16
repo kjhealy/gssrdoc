@@ -98,6 +98,9 @@ Counts by year:\tabular{llllllllll}{
 
 \seealso{
 Other Core: 
+\code{\link{pornfirm}},
+\code{\link{pornimp}},
+\code{\link{porninfo}},
 \code{\link{pornlaw}},
 \code{\link{pornmorl}},
 \code{\link{pornout}},

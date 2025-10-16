@@ -56,7 +56,9 @@ remotes::install_github("kjhealy/gssrdoc")
 
 `{gssrdoc}` provides documentation for all GSS variables in the cumulative data file via R's help system. You can browse variables by name in the package's help file or type `?` followed by the name of the variable at the console to get a standard R help page containing information on the variable, the values it takes, the years and ballots it is available for, and (in most cases) a crosstabulation of the variable's values for each year of the GSS. This facility is particularly convenient in an IDE such as RStudio or Microsoft Visual Studio. The help page for each variable links to the [GSS Data Explorer](https://gssdataexplorer.norc.org) page for that variable. The "See Also" section at the bottom of the help page incorporates the GSS's own cross-referencing by module and topic. 
 
-<img src="man/figures/fefam_help.png" />
+<img src="man/figures/fefam_help_1.png" alt="Upper part of fefam help" caption="Upper part of fefam help"/>
+
+<img src="man/figures/fefam_help_2.png" alt="Lower part of fefam help" caption="Lower part of fefam help"/>
 
 Information about the variables is also contained in the `gss_dict` object:
 

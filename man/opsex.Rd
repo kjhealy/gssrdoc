@@ -81,6 +81,7 @@ Counts by year:\tabular{llllllllllll}{
 \seealso{
 Other ISSP Social Inequality: 
 \code{\link{goodlife}},
+\code{\link{incentiv}},
 \code{\link{inequal1}},
 \code{\link{inequal2}},
 \code{\link{inequal3}},

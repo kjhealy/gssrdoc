@@ -79,8 +79,12 @@ Other Multiculturalism:
 \code{\link{colaff}},
 \code{\link{colaffy}},
 \code{\link{congeth}},
+\code{\link{ethhist}},
 \code{\link{jobaff}},
-\code{\link{owneth}}
+\code{\link{owneth}},
+\code{\link{schleth}},
+\code{\link{teacheth}},
+\code{\link{whoteach}}
 
 Other Affirmative Action: 
 \code{\link{colaff}},

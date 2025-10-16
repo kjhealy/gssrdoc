@@ -604,7 +604,8 @@ NULL
 #'  |Total |13730              |5111               |10505           |4930     |3567        |10266   |14780          |5444               |7366               |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Coregion
+#' @family Core
+#' @family Region
 #' @family Residence
 #' 
 #' @keywords variable
