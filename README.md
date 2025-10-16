@@ -12,7 +12,7 @@ badge](https://kjhealy.r-universe.dev/badges/gssrdoc)](https://kjhealy.r-univers
 
 Documentation for the General Social Survey Cumulative Data (1972-2024)
 packaged for easy use in R. This package is a companion to the
-[`gssr`](https://github.com/kjhealy.gssr) package. I recommend you
+[`gssr`](https://kjhealy.github.io/gssr) package. I recommend you
 install both of them.
 
 ## Installation
