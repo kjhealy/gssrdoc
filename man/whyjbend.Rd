@@ -10,11 +10,38 @@ General Social Survey https://gss.norc.org
 whyjbend
 }
 \details{
-Question 1365. What was the main reason that your job ended?
+Question What was the main reason that your job ended?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} i reached retirement age
+\item \code{2} i retired early, by choice
+\item \code{3} i retired early, not by choice
+\item \code{4} i became (permanently) disabled
+\item \code{5} my place of work was shut down
+\item \code{6} i was dismissed
+\item \code{7} my term of employment/contract ended
+\item \code{8} family responsibilities
+\item \code{9} i got married
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4595/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllll}{
    year \tab iap \tab don't know \tab family responsibilities \tab i became (permanently) disabled \tab i got married \tab i reached retirement age \tab i retired early, by choice \tab i retired early, not by choice \tab i was dismissed \tab my place of work was shut down \tab my term of employment/contract ended \tab not available in this year \tab Total \cr
@@ -57,31 +84,36 @@ Counts by year:\tabular{llllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} i reached retirement age
-\item \code{2} i retired early, by choice
-\item \code{3} i retired early, not by choice
-\item \code{4} i became (permanently) disabled
-\item \code{5} my place of work was shut down
-\item \code{6} i was dismissed
-\item \code{7} my term of employment/contract ended
-\item \code{8} family responsibilities
-\item \code{9} i got married
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1998 \tab A/B/C \tab full \cr
+   2006 \tab D/-/- \tab partial \cr
+   2016 \tab B/C/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Work Orientation: 
+\code{\link{evjob}},
+\code{\link{getjob}},
+\code{\link{leavejob}},
+\code{\link{lookjob}},
+\code{\link{priagncy}},
+\code{\link{pubagncy}},
+\code{\link{wantjob2}},
+\code{\link{worryjob}},
+\code{\link{yrjobend}}
+
+Other Unemployment: 
+\code{\link{evjob}},
+\code{\link{getjob}},
+\code{\link{lookjob}},
+\code{\link{priagncy}},
+\code{\link{pubagncy}},
+\code{\link{wantjob2}},
+\code{\link{yrjobend}}
+}
+\concept{Unemployment}
+\concept{Work Orientation}
 \keyword{variable}

@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 smokecig
 }
 \details{
-Question 177b. Do you smoke cigarettes?
+Question Do you smoke?
+B. Do you smoke cigarettes?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes
+\item \code{2} no
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/534/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllll}{
    year \tab iap \tab no \tab no answer \tab yes \tab not available in this year \tab Total \cr
@@ -57,24 +78,34 @@ Counts by year:\tabular{lllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes
-\item \code{2} no
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1977 \tab - \tab full \cr
+   1978 \tab - \tab full \cr
+   1980 \tab - \tab full \cr
+   1983 \tab - \tab full \cr
+   1984 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{anomia1}},
+\code{\link{anomia2}},
+\code{\link{anomia3}},
+\code{\link{anomia4}},
+\code{\link{anomia5}},
+\code{\link{anomia6}},
+\code{\link{cigweek}},
+\code{\link{evsmoke}},
+\code{\link{quitsmk}}
+
+Other Smoking: 
+\code{\link{cigweek}},
+\code{\link{evsmoke}},
+\code{\link{quitsmk}}
+}
+\concept{Core}
+\concept{Smoking}
 \keyword{variable}

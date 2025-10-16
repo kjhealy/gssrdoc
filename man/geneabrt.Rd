@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 geneabrt
 }
 \details{
-Question 1567. Suppose a test shows the baby has a serious genetic defect. Would you (yourself want to/ want your partner to) have an abortion if a test shows the baby has a serious genetic defect?
+Question Suppose a test shows the baby has a serious genetic defect. Would you (yourself want to/ want your partner to) have an abortion if a test shows the baby has a serious genetic defect?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} have abortion
+\item \code{2} no abortion
+\item \code{7} refused
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5089/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab don't know \tab have abortion \tab no abortion \tab no answer \tab refused \tab not available in this year \tab Total \cr
@@ -57,25 +78,34 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} have abortion
-\item \code{2} no abortion
-\item \code{7} refused
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1990 \tab A/C/- \tab partial \cr
+   1996 \tab A/C/- \tab partial \cr
+   2004 \tab A/B/C \tab full \cr
+   2018 \tab A/C/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Genes: 
+\code{\link{genedef1}},
+\code{\link{genedef2}},
+\code{\link{genedef3}},
+\code{\link{genegoo1}},
+\code{\link{genegoo2}},
+\code{\link{geneself}}
+
+Other Genetic Testing: 
+\code{\link{genedef1}},
+\code{\link{genedef2}},
+\code{\link{genedef3}},
+\code{\link{genegoo1}},
+\code{\link{genegoo2}},
+\code{\link{geneself}}
+}
+\concept{Abortion}
+\concept{Genes}
+\concept{Genetic Testing}
 \keyword{variable}

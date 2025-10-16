@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 tempgen1
 }
 \details{
-Question In general, do you think that a rise in the world's temperature caused by climate change is…
+Question H. In general, do you think that a rise in the worldâ€™s temperature caused by climate change is . . .
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} extremely dangerous
+\item \code{2} very dangerous
+\item \code{3} somewhat dangerous
+\item \code{4} not very dangerous
+\item \code{5} not dangerous at all
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4810/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab can't choose \tab extremely dangerous \tab no answer \tab not dangerous at all \tab not very dangerous \tab somewhat dangerous \tab very dangerous \tab skipped on web \tab not available in this year \tab not available in this release \tab Total \cr
@@ -57,27 +80,35 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} extremely dangerous
-\item \code{2} very dangerous
-\item \code{3} somewhat dangerous
-\item \code{4} not very dangerous
-\item \code{5} not dangerous at all
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2010 \tab A/B \tab partial \cr
+   2021 \tab A/B \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Environment: 
+\code{\link{busgrn}},
+\code{\link{grneffme}},
+\code{\link{h2oless}},
+\code{\link{helpharm}},
+\code{\link{nobuygrn}},
+\code{\link{peopgrn}},
+\code{\link{redcehme}}
+
+Other Environment: 
+\code{\link{busgrn}},
+\code{\link{grneffme}},
+\code{\link{h2oless}},
+\code{\link{helpharm}},
+\code{\link{nobuygrn}},
+\code{\link{peopgrn}},
+\code{\link{redcehme}}
+}
+\concept{Environment}
+\concept{ISSP Environment}
+\concept{Knowledge}
+\concept{Science}
 \keyword{variable}

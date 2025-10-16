@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 tablprce
 }
 \details{
-Question 625. Consider the following situation: a small facotry produces tables and sells all that it can make at $200 each. Because of changes in the price of materials, the cost of making each table has recently decreased by $20. The factory does not lower its price for the tables. Is this acceptable or unfair?
+Question Consider the following situation: A small factory produces tables and sells all that it can make at $200 each. because of changes in the price of materials, the cost of making each table has recently decreased by $20. The factory does not lower its price for the tables. Is this acceptable or unfair?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} acceptable
+\item \code{2} unfair
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1865/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab acceptable \tab don't know \tab no answer \tab unfair \tab not available in this year \tab Total \cr
@@ -57,24 +77,36 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} acceptable
-\item \code{2} unfair
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Markets: 
+\code{\link{adoption}},
+\code{\link{frndawk}},
+\code{\link{frnddeal}},
+\code{\link{organsb}},
+\code{\link{organsw}},
+\code{\link{sellbaby}},
+\code{\link{sellorgn}},
+\code{\link{sellsex}},
+\code{\link{transrel}}
+
+Other Purchases/Transactions: 
+\code{\link{adoption}},
+\code{\link{frndawk}},
+\code{\link{frnddeal}},
+\code{\link{organsb}},
+\code{\link{organsw}},
+\code{\link{sellbaby}},
+\code{\link{sellorgn}},
+\code{\link{sellsex}},
+\code{\link{transrel}}
+}
+\concept{Markets}
+\concept{Purchases/Transactions}
 \keyword{variable}

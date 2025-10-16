@@ -1,11 +1,205 @@
+#'  Eligible for performance based pay
+#' 
+#'  extrapay
+#' 
+#' Question In your job are you eligible for any type of performance-based pay, such as individual or group bonuses or any type of profit-sharing?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2855/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no   |no answer |yes  |skipped on web |not available in this year |Total |
+#'  |:-----|:-----|:----------|:----|:---------|:----|:--------------|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-    |-         |-    |-              |-                          |1613  |
+#'  |1973  |1504  |-          |-    |-         |-    |-              |-                          |1504  |
+#'  |1974  |1484  |-          |-    |-         |-    |-              |-                          |1484  |
+#'  |1975  |1490  |-          |-    |-         |-    |-              |-                          |1490  |
+#'  |1976  |1499  |-          |-    |-         |-    |-              |-                          |1499  |
+#'  |1977  |1530  |-          |-    |-         |-    |-              |-                          |1530  |
+#'  |1978  |1532  |-          |-    |-         |-    |-              |-                          |1532  |
+#'  |1980  |1468  |-          |-    |-         |-    |-              |-                          |1468  |
+#'  |1982  |1860  |-          |-    |-         |-    |-              |-                          |1860  |
+#'  |1983  |1599  |-          |-    |-         |-    |-              |-                          |1599  |
+#'  |1984  |1473  |-          |-    |-         |-    |-              |-                          |1473  |
+#'  |1985  |1534  |-          |-    |-         |-    |-              |-                          |1534  |
+#'  |1986  |1470  |-          |-    |-         |-    |-              |-                          |1470  |
+#'  |1987  |1819  |-          |-    |-         |-    |-              |-                          |1819  |
+#'  |1988  |1481  |-          |-    |-         |-    |-              |-                          |1481  |
+#'  |1989  |1537  |-          |-    |-         |-    |-              |-                          |1537  |
+#'  |1990  |1372  |-          |-    |-         |-    |-              |-                          |1372  |
+#'  |1991  |1517  |-          |-    |-         |-    |-              |-                          |1517  |
+#'  |1993  |1606  |-          |-    |-         |-    |-              |-                          |1606  |
+#'  |1994  |2992  |-          |-    |-         |-    |-              |-                          |2992  |
+#'  |1996  |2904  |-          |-    |-         |-    |-              |-                          |2904  |
+#'  |1998  |2832  |-          |-    |-         |-    |-              |-                          |2832  |
+#'  |2000  |2817  |-          |-    |-         |-    |-              |-                          |2817  |
+#'  |2002  |969   |19         |1164 |16        |597  |-              |-                          |2765  |
+#'  |2004  |2812  |-          |-    |-         |-    |-              |-                          |2812  |
+#'  |2006  |2778  |25         |1046 |17        |644  |-              |-                          |4510  |
+#'  |2008  |2023  |-          |-    |-         |-    |-              |-                          |2023  |
+#'  |2010  |2044  |-          |-    |-         |-    |-              |-                          |2044  |
+#'  |2012  |1974  |-          |-    |-         |-    |-              |-                          |1974  |
+#'  |2014  |1765  |7          |502  |3         |261  |-              |-                          |2538  |
+#'  |2016  |2867  |-          |-    |-         |-    |-              |-                          |2867  |
+#'  |2018  |900   |18         |898  |32        |500  |-              |-                          |2348  |
+#'  |2021  |4032  |-          |-    |-         |-    |-              |-                          |4032  |
+#'  |2022  |2569  |37         |599  |7         |322  |10             |-                          |3544  |
+#'  |2024  |-     |-          |-    |-         |-    |-              |3309                       |3309  |
+#'  |Total |65666 |106        |4209 |75        |2324 |10             |3309                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Employee Compensation
+#' @family Job
+#' 
+#' @keywords variable
+#' @md
+#' @name extrapay
+NULL
+
+
+#'  Size of perf based pay depend on profits
+#' 
+#'  compperf
+#' 
+#' Question A. Does the size of these performance-based payments depend on company profits or performance?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2856/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no  |no answer |yes  |not available in this year |Total |
+#'  |:-----|:-----|:----------|:---|:---------|:----|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-   |-         |-    |-                          |1613  |
+#'  |1973  |1504  |-          |-   |-         |-    |-                          |1504  |
+#'  |1974  |1484  |-          |-   |-         |-    |-                          |1484  |
+#'  |1975  |1490  |-          |-   |-         |-    |-                          |1490  |
+#'  |1976  |1499  |-          |-   |-         |-    |-                          |1499  |
+#'  |1977  |1530  |-          |-   |-         |-    |-                          |1530  |
+#'  |1978  |1532  |-          |-   |-         |-    |-                          |1532  |
+#'  |1980  |1468  |-          |-   |-         |-    |-                          |1468  |
+#'  |1982  |1860  |-          |-   |-         |-    |-                          |1860  |
+#'  |1983  |1599  |-          |-   |-         |-    |-                          |1599  |
+#'  |1984  |1473  |-          |-   |-         |-    |-                          |1473  |
+#'  |1985  |1534  |-          |-   |-         |-    |-                          |1534  |
+#'  |1986  |1470  |-          |-   |-         |-    |-                          |1470  |
+#'  |1987  |1819  |-          |-   |-         |-    |-                          |1819  |
+#'  |1988  |1481  |-          |-   |-         |-    |-                          |1481  |
+#'  |1989  |1537  |-          |-   |-         |-    |-                          |1537  |
+#'  |1990  |1372  |-          |-   |-         |-    |-                          |1372  |
+#'  |1991  |1517  |-          |-   |-         |-    |-                          |1517  |
+#'  |1993  |1606  |-          |-   |-         |-    |-                          |1606  |
+#'  |1994  |2992  |-          |-   |-         |-    |-                          |2992  |
+#'  |1996  |2904  |-          |-   |-         |-    |-                          |2904  |
+#'  |1998  |2832  |-          |-   |-         |-    |-                          |2832  |
+#'  |2000  |2817  |-          |-   |-         |-    |-                          |2817  |
+#'  |2002  |2152  |10         |102 |16        |485  |-                          |2765  |
+#'  |2004  |2812  |-          |-   |-         |-    |-                          |2812  |
+#'  |2006  |3849  |9          |113 |17        |522  |-                          |4510  |
+#'  |2008  |2023  |-          |-   |-         |-    |-                          |2023  |
+#'  |2010  |2044  |-          |-   |-         |-    |-                          |2044  |
+#'  |2012  |1974  |-          |-   |-         |-    |-                          |1974  |
+#'  |2014  |2275  |4          |52  |2         |205  |-                          |2538  |
+#'  |2016  |2867  |-          |-   |-         |-    |-                          |2867  |
+#'  |2018  |1846  |13         |82  |2         |405  |-                          |2348  |
+#'  |2021  |4032  |-          |-   |-         |-    |-                          |4032  |
+#'  |2022  |3222  |16         |63  |1         |242  |-                          |3544  |
+#'  |2024  |-     |-          |-   |-         |-    |3309                       |3309  |
+#'  |Total |70029 |52         |412 |38        |1859 |3309                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2022 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Employee Compensation
+#' @family Job
+#' 
+#' @keywords variable
+#' @md
+#' @name compperf
+NULL
+
+
 #'  Size of perf based pay depend on workgroup
 #' 
 #'  deptperf
 #' 
-#' Question 919b. Does the size of these performance-based payments depend on workgroup or department performance?
+#' Question B. Does the size of these performance-based payments depend on workgroup or department performance?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2857/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +242,33 @@
 #'  |2024  |-     |-          |-   |-         |-    |-              |3309                       |3309  |
 #'  |Total |70029 |58         |931 |37        |1333 |2              |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2022 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Employee Compensation
+#' @family Job
+#' 
+#' @keywords variable
+#' @md
+#' @name deptperf
+NULL
+
+
+#'  Size of perf based pay depend on individual
+#' 
+#'  indperf
+#' 
+#' Question C. Does the size of these performance-based payments depend on individual performance?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -65,22 +286,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name deptperf
-NULL
-
-#'  Size of perf based pay depend on individual
-#' 
-#'  indperf
-#' 
-#' Question 919c. Does the size of these performance-based payments depend on individual performance?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2858/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,6 +330,33 @@ NULL
 #'  |2024  |-     |-          |-   |-         |-    |-              |3309                       |3309  |
 #'  |Total |70029 |40         |628 |37        |1655 |1              |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2022 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Employee Compensation
+#' @family Job
+#' 
+#' @keywords variable
+#' @md
+#' @name indperf
+NULL
+
+
+#'  Did r receive perf based payment in 2001
+#' 
+#'  extr2001
+#' 
+#' Question Did you receive any of these performance-based payments in the year 2001?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -140,22 +374,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name indperf
-NULL
-
-#'  Did r receive perf based payment in 2001
-#' 
-#'  extr2001
-#' 
-#' Question 920. Did you receive any of these performance-based payments in the year 2001?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2859/vshow).
 #'
 #' Counts by year: 
 #'
@@ -198,6 +418,30 @@ NULL
 #'  |2024  |-     |-          |-   |-         |-   |3309                       |3309  |
 #'  |Total |68233 |1          |200 |17        |395 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Employee Compensation
+#' @family Job
+#' 
+#' @keywords variable
+#' @md
+#' @name extr2001
+NULL
+
+
+#'  Did r receive any  performance-based incentives in 2017
+#' 
+#'  extr2017
+#' 
+#' Question Did you receive any of these performance-based payments in the year 2017?
+#' IF ASKED: Performance-based pay means individual or group bonuses, commissions, or any type of profit-sharing.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -215,22 +459,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name extr2001
-NULL
-
-#'  Did r receive any  performance-based incentives in 2017
-#' 
-#'  extr2017
-#' 
-#' Question B. Did you receive any of these performance-based payments in the year 2017? IF ASKED: Performance-based pay means individual or group bonuses, commissions, or any type of profit-sharing.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7223/vshow).
 #'
 #' Counts by year: 
 #'
@@ -273,10 +503,32 @@ NULL
 #'  |2024  |-     |-   |-   |3309                       |3309  |
 #'  |Total |68346 |140 |360 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name extr2017
+NULL
+
+
+#'  Total dollar value of pay in previous year
+#' 
+#'  extraval
+#' 
+#' Question What was the approximate total dollar value of these various payments in 2001/5?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `9999995` other
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -290,22 +542,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name extr2017
-NULL
-
-#'  Total dollar value of pay in previous year
-#' 
-#'  extraval
-#' 
-#' Question 921. What was the approximate total dollar value of these various payments in 2001/5?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2860/vshow).
 #'
 #' Counts by year: 
 #'
@@ -348,9 +586,33 @@ NULL
 #'  |2024  |-     |-  |-   |-    |-     |-    |-     |-    |-     |-      |-    |-     |-       |-    |-     |-    |-     |-   |-   |-    |-     |-      |-     |-   |-    |-     |-    |-  |-    |-     |-    |-    |-  |-   |-    |-     |-    |-    |-    |-   |-    |-    |-   |-    |-     |-      |-    |-  |-   |-    |-     |-    |-   |-    |-     |-    |-     |-  |-   |-    |-     |-   |-   |-     |-   |-  |-   |-    |-   |-     |-     |-  |-   |-    |-   |-    |-   |-    |-   |-  |-   |-    |-   |-    |-     |-    |-   |-    |-    |-   |-    |-     |-   |-     |-     |-          |-         |-     |-  |-   |-   |-      |-    |-    |-   |-    |-  |-   |-   |-     |-     |-  |-    |-    |-     |-   |-    |-    |-   |-  |-     |-   |-  |-     |-    |-  |-     |-   |-    |-     |-   |-    |-     |-  |-  |-     |-  |-   |-    |-   |-  |-  |-   |-  |-    |-      |-      |-      |-  |-     |-  |-    |-     |-   |-     |-     |-     |-   |-  |-    |-    |-     |-   |-     |-    |-      |-    |-     |-    |-     |3309                       |3309  |
 #'  |Total |67540 |4  |23  |69   |41    |1    |1     |6    |4     |1      |25   |10    |1       |2    |5     |7    |2     |1   |12  |34   |19    |3      |2     |1   |5    |2     |2    |1  |4    |5     |1    |1    |2  |30  |73   |16    |1    |1    |2    |1   |2    |2    |15  |31   |7     |1      |1    |2  |33  |46   |13    |1    |5   |14   |5     |1    |1     |1  |14  |27   |7     |1   |4   |5     |1   |11 |44  |51   |1   |1     |1     |2  |25  |19   |4   |3    |1   |1    |1   |1  |18  |19   |10  |9    |1     |1    |19  |11   |1    |6   |3    |2     |1   |1     |2     |81         |155       |20    |10 |1   |1   |1      |2    |3    |1   |5    |1  |1   |2   |2     |2     |1  |2    |1    |1     |1   |1    |1    |1   |1  |1     |1   |2  |1     |14   |2  |8     |1   |1    |1     |2   |1    |2     |1  |1  |1     |1  |1   |1    |1   |1  |1  |2   |1  |1    |1      |2      |1      |2  |1     |1  |1    |1     |1   |1     |1     |1     |1   |1  |1    |1    |1     |1   |1     |1    |1      |1    |1     |1    |1     |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Employee Compensation
+#' @family Job
+#' 
+#' @keywords variable
+#' @md
+#' @name extraval
+NULL
+
+
+#'  Year of the most recent perf based payments
+#' 
+#'  extrayr
+#' 
+#' Question What was the most recent year in which you received these performance-based payments?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `9999995` other
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -364,22 +626,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name extraval
-NULL
-
-#'  Year of the most recent perf based payments
-#' 
-#'  extrayr
-#' 
-#' Question 922. What was the most recent year in which you received these performance-based payments?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2861/vshow).
 #'
 #' Counts by year: 
 #'
@@ -422,8 +670,36 @@ NULL
 #'  |2024  |-     |-    |-    |-    |-    |-    |-    |-    |-    |-          |-         |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-              |3309                       |3309  |
 #'  |Total |71441 |1    |1    |3    |5    |4    |22   |67   |29   |206        |98        |1    |1    |1    |1    |6    |13   |41   |1    |4    |5    |2    |19   |103  |113  |1    |1    |8    |22   |34   |71   |7    |13   |6    |32   |7              |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Employee Compensation
+#' @family Job
+#' 
+#' @keywords variable
+#' @md
+#' @name extrayr
+NULL
+
+
+#'  Total dollar value of payments in that year
+#' 
+#'  yearval
+#' 
+#' Question What was the approximate total dollar value of these various payments in that year?
+#' 
+#' 
 #' @section Values: 
 #' 
+#'   * `9999995` other
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -437,22 +713,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name extrayr
-NULL
-
-#'  Total dollar value of payments in that year
-#' 
-#'  yearval
-#' 
-#' Question 923. What was the approximate total dollar value of these various payments in that year?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2862/vshow).
 #'
 #' Counts by year: 
 #'
@@ -495,9 +757,37 @@ NULL
 #'  |2024  |-     |-  |-   |-    |-     |-    |-     |-    |-    |-     |-  |-    |-    |-   |-    |-     |-    |-   |-    |-  |-   |-    |-     |-   |-    |-   |-    |-     |-   |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-    |-  |-   |-    |-     |-  |-   |-   |-    |-          |-         |-     |-  |-    |-   |-   |-     |-     |-   |-    |-  |-     |-    |-  |-     |-  |-     |-  |-     |-      |-      |-     |-   |-     |-    |-     |-     |-    |-     |-     |-    |-    |-  |-      |-      |-      |-   |-    |-     |-    |-      |-  |-    |-    |-    |-   |-    |-  |-   |-    |-  |-   |-  |-     |-     |-     |-  |-   |-    |-  |-      |-   |-   |-     |-    |-  |-   |-    |-     |-  |-  |-    |-  |-   |-   |3309                       |3309  |
 #'  |Total |68225 |9  |19  |35   |7     |1    |4     |2    |3    |3     |1  |16   |2    |15  |20   |4     |2    |1   |1    |2  |9   |11   |3     |1   |2    |20  |26   |4     |1   |12  |9    |4     |1   |3   |4  |31  |19   |3   |9   |7    |1  |4   |6    |1     |5  |5   |8   |5    |70         |70        |6     |17 |6    |4   |2   |1     |1     |1   |1    |1  |2     |6    |1  |1     |1  |1     |1  |1     |1      |1      |1     |1   |3     |1    |1     |1     |1    |2     |1     |2    |1    |1  |1      |2      |1      |1   |1    |1     |1    |1      |1  |1    |1    |4    |1   |1    |1  |1   |1    |1  |1   |1  |1     |1     |1     |1  |1   |2    |1  |1      |1   |1   |1     |1    |1  |1   |2    |1     |1  |1  |1    |1  |1   |1   |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2022 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Employee Compensation
+#' @family Job
+#' 
+#' @keywords variable
+#' @md
+#' @name yearval
+NULL
+
+
+#'  How easy to see whether co-workers working
+#' 
+#'  seecowrk
+#' 
+#' Question In your job how easy is it for you to see whether your co-workers are working well or poorly? On a scale of 0 to 10 please describe with 0 meaning not at all easy to see and 10 meaning very easy to see.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `9999995` other
+#'   * `0` not at all easy to see
+#'   * `10` very easy to see
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -511,22 +801,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name yearval
-NULL
-
-#'  How easy to see whether co-workers working
-#' 
-#'  seecowrk
-#' 
-#' Question 924a. In your job how easy is it for you to see whether your co-workers are working well or poorly? On a scale of 0 to 10 please describe with 0 meaning not at all easy to see and 10 meaning very easy to see.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2863/vshow).
 #'
 #' Counts by year: 
 #'
@@ -569,180 +845,20 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-   |-  |-   |-   |-   |-          |-         |-                      |-                |3309                       |3309  |
 #'  |Total |65318 |50 |62 |73 |82 |220 |92 |207 |451 |254 |101        |49        |339                    |1548             |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `0` not at all easy to see
-#'   * `10` very easy to see
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Employee Compensation
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
 #' @name seecowrk
 NULL
 
-#'  How hard to say how people work at workplace
-#' 
-#'  cowrkhrd
-#' 
-#' Question 924b. t your workplace, how hard would you say that people work with 0 meaning not at all hard and 10 meaning very hard?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |1  |2  |3  |4   |5   |6   |7   |8   |9   |don't know |no answer |not at all hard |very hard |not available in this year |Total |
-#'  |:-----|:-----|:--|:--|:--|:---|:---|:---|:---|:---|:---|:----------|:---------|:---------------|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1613  |
-#'  |1973  |1504  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1504  |
-#'  |1974  |1484  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1484  |
-#'  |1975  |1490  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1490  |
-#'  |1976  |1499  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1499  |
-#'  |1977  |1530  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1530  |
-#'  |1978  |1532  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1532  |
-#'  |1980  |1468  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1468  |
-#'  |1982  |1860  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1860  |
-#'  |1983  |1599  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1599  |
-#'  |1984  |1473  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1473  |
-#'  |1985  |1534  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1534  |
-#'  |1986  |1470  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1470  |
-#'  |1987  |1819  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1819  |
-#'  |1988  |1481  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1481  |
-#'  |1989  |1537  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1537  |
-#'  |1990  |1372  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1372  |
-#'  |1991  |1517  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1517  |
-#'  |1993  |1606  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1606  |
-#'  |1994  |2992  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |2992  |
-#'  |1996  |2904  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |2904  |
-#'  |1998  |2832  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |2832  |
-#'  |2000  |2817  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |2817  |
-#'  |2002  |969   |10 |24 |47 |61  |284 |136 |283 |335 |160 |35         |15        |94              |312       |-                          |2765  |
-#'  |2004  |2812  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |2812  |
-#'  |2006  |2778  |5  |24 |49 |53  |237 |124 |248 |341 |147 |72         |27        |49              |356       |-                          |4510  |
-#'  |2008  |2023  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |2023  |
-#'  |2010  |2044  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |2044  |
-#'  |2012  |1974  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1974  |
-#'  |2014  |2538  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |2538  |
-#'  |2016  |2867  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |2867  |
-#'  |2018  |2348  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |2348  |
-#'  |2021  |4032  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |4032  |
-#'  |2022  |-     |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |3544                       |3544  |
-#'  |2024  |-     |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |3309                       |3309  |
-#'  |Total |65318 |15 |48 |96 |114 |521 |260 |531 |676 |307 |107        |42        |143             |668       |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `0` not at all hard
-#'   * `10` very hard
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name cowrkhrd
-NULL
-
-#'  How likely to talk directly if coworker not work
-#' 
-#'  talkemp
-#' 
-#' Question 925. If you were to see a fellow employee not working as hard or well as he or she should, how likely would you be to: a. Talk directly to the employee
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no answer |not at all likely |not very likely |somewhat likely |very likely |not available in this year |Total |
-#'  |:-----|:-----|:----------|:---------|:-----------------|:---------------|:---------------|:-----------|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-         |-                 |-               |-               |-           |-                          |1613  |
-#'  |1973  |1504  |-          |-         |-                 |-               |-               |-           |-                          |1504  |
-#'  |1974  |1484  |-          |-         |-                 |-               |-               |-           |-                          |1484  |
-#'  |1975  |1490  |-          |-         |-                 |-               |-               |-           |-                          |1490  |
-#'  |1976  |1499  |-          |-         |-                 |-               |-               |-           |-                          |1499  |
-#'  |1977  |1530  |-          |-         |-                 |-               |-               |-           |-                          |1530  |
-#'  |1978  |1532  |-          |-         |-                 |-               |-               |-           |-                          |1532  |
-#'  |1980  |1468  |-          |-         |-                 |-               |-               |-           |-                          |1468  |
-#'  |1982  |1860  |-          |-         |-                 |-               |-               |-           |-                          |1860  |
-#'  |1983  |1599  |-          |-         |-                 |-               |-               |-           |-                          |1599  |
-#'  |1984  |1473  |-          |-         |-                 |-               |-               |-           |-                          |1473  |
-#'  |1985  |1534  |-          |-         |-                 |-               |-               |-           |-                          |1534  |
-#'  |1986  |1470  |-          |-         |-                 |-               |-               |-           |-                          |1470  |
-#'  |1987  |1819  |-          |-         |-                 |-               |-               |-           |-                          |1819  |
-#'  |1988  |1481  |-          |-         |-                 |-               |-               |-           |-                          |1481  |
-#'  |1989  |1537  |-          |-         |-                 |-               |-               |-           |-                          |1537  |
-#'  |1990  |1372  |-          |-         |-                 |-               |-               |-           |-                          |1372  |
-#'  |1991  |1517  |-          |-         |-                 |-               |-               |-           |-                          |1517  |
-#'  |1993  |1606  |-          |-         |-                 |-               |-               |-           |-                          |1606  |
-#'  |1994  |2992  |-          |-         |-                 |-               |-               |-           |-                          |2992  |
-#'  |1996  |2904  |-          |-         |-                 |-               |-               |-           |-                          |2904  |
-#'  |1998  |2832  |-          |-         |-                 |-               |-               |-           |-                          |2832  |
-#'  |2000  |2817  |-          |-         |-                 |-               |-               |-           |-                          |2817  |
-#'  |2002  |969   |40         |29        |480               |301             |432             |514         |-                          |2765  |
-#'  |2004  |2812  |-          |-         |-                 |-               |-               |-           |-                          |2812  |
-#'  |2006  |2778  |69         |30        |420               |284             |383             |546         |-                          |4510  |
-#'  |2008  |2023  |-          |-         |-                 |-               |-               |-           |-                          |2023  |
-#'  |2010  |2044  |-          |-         |-                 |-               |-               |-           |-                          |2044  |
-#'  |2012  |1974  |-          |-         |-                 |-               |-               |-           |-                          |1974  |
-#'  |2014  |2538  |-          |-         |-                 |-               |-               |-           |-                          |2538  |
-#'  |2016  |2867  |-          |-         |-                 |-               |-               |-           |-                          |2867  |
-#'  |2018  |2348  |-          |-         |-                 |-               |-               |-           |-                          |2348  |
-#'  |2021  |4032  |-          |-         |-                 |-               |-               |-           |-                          |4032  |
-#'  |2022  |-     |-          |-         |-                 |-               |-               |-           |3544                       |3544  |
-#'  |2024  |-     |-          |-         |-                 |-               |-               |-           |3309                       |3309  |
-#'  |Total |65318 |109        |59        |900               |585             |815             |1060        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` not at all likely
-#'   * `2` not very likely
-#'   * `3` somewhat likely
-#'   * `4` very likely
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name talkemp
-NULL
 

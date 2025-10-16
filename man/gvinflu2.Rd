@@ -10,11 +10,42 @@ General Social Survey https://gss.norc.org
 gvinflu2
 }
 \details{
-Question B. And which do you think has the second most influence on the actions of the American govern
+Question (HAND CARD C4)
+(Here is a list of people and organizations that can influence government actions.)
+And which do you think has the second most influence on the actions of the American government?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} the media
+\item \code{2} trade unions
+\item \code{3} businesses, banks and industry
+\item \code{4} religious organizations/authorities
+\item \code{5} the military/army
+\item \code{6} organized crime
+\item \code{7} people who vote for the party/parties in government
+\item \code{8} citizens in general
+\item \code{9} civic and voluntary organizations
+\item \code{10} international organizations (e.g. united nations, international monetary fund)
+\item \code{11} can't choose
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6309/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllll}{
    year \tab iap \tab 100 \tab businesses, banks and industry \tab can't choose \tab citizens in general \tab civic and voluntary organizations \tab international organizations (e.g. united nations, international monetary fund) \tab no answer \tab organized crime \tab people who vote for the party/parties in government \tab religious organizations/authorities \tab the media \tab the military/army \tab trade unions \tab not available in this year \tab Total \cr
@@ -57,33 +88,24 @@ Counts by year:\tabular{lllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} the media
-\item \code{2} trade unions
-\item \code{3} businesses, banks and industry
-\item \code{4} religious organizations/authorities
-\item \code{5} the military/army
-\item \code{6} organized crime
-\item \code{7} people who vote for the party/parties in government
-\item \code{8} citizens in general
-\item \code{9} civic and voluntary organizations
-\item \code{10} international organizations (e.g. united nations, international monetary fund)
-\item \code{11} can't choose
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2016 \tab A/B \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Role of Gov't: 
+\code{\link{gvinflu1}},
+\code{\link{poleff11}},
+\code{\link{poleff12}},
+\code{\link{poleff13}},
+\code{\link{poleff14}},
+\code{\link{poleff15}},
+\code{\link{poleff16}},
+\code{\link{polgbeco}},
+\code{\link{prvdschl}}
+}
+\concept{ISSP Role of Gov't}
 \keyword{variable}

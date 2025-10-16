@@ -10,11 +10,29 @@ General Social Survey https://gss.norc.org
 dotged
 }
 \details{
-Question None
+Question D. Occupational General Educational Development (GED).
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/126/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab 1.21 \tab 1.4 \tab 1.46 \tab 1.61 \tab 1.76 \tab 1.86 \tab 1.87 \tab 1.91 \tab 1.92 \tab 1.94 \tab 1.98 \tab 2 \tab 2.05 \tab 2.06 \tab 2.07 \tab 2.08 \tab 2.1 \tab 2.12 \tab 2.14 \tab 2.17 \tab 2.18 \tab 2.19 \tab 2.21 \tab 2.23 \tab 2.24 \tab 2.25 \tab 2.26 \tab 2.28 \tab 2.33 \tab 2.34 \tab 2.35 \tab 2.36 \tab 2.39 \tab 2.4 \tab 2.41 \tab 2.42 \tab 2.43 \tab 2.46 \tab 2.47 \tab 2.48 \tab 2.49 \tab 2.51 \tab 2.52 \tab 2.53 \tab 2.54 \tab 2.55 \tab 2.57 \tab 2.58 \tab 2.6 \tab 2.61 \tab 2.62 \tab 2.67 \tab 2.69 \tab 2.7 \tab 2.75 \tab 2.77 \tab 2.78 \tab 2.82 \tab 2.83 \tab 2.84 \tab 2.85 \tab 2.86 \tab 2.87 \tab 2.88 \tab 2.89 \tab 2.9 \tab 2.92 \tab 2.93 \tab 2.94 \tab 2.95 \tab 2.96 \tab 2.97 \tab 2.98 \tab 2.99 \tab 3 \tab 3.01 \tab 3.02 \tab 3.04 \tab 3.05 \tab 3.06 \tab 3.07 \tab 3.08 \tab 3.09 \tab 3.1 \tab 3.11 \tab 3.12 \tab 3.13 \tab 3.14 \tab 3.16 \tab 3.17 \tab 3.2 \tab 3.21 \tab 3.26 \tab 3.27 \tab 3.3 \tab 3.33 \tab 3.4 \tab 3.41 \tab 3.46 \tab 3.47 \tab 3.5 \tab 3.53 \tab 3.54 \tab 3.57 \tab 3.59 \tab 3.6 \tab 3.63 \tab 3.66 \tab 3.68 \tab 3.69 \tab 3.73 \tab 3.74 \tab 3.75 \tab 3.79 \tab 3.81 \tab 3.82 \tab 3.84 \tab 3.85 \tab 3.86 \tab 3.87 \tab 3.89 \tab 3.91 \tab 3.92 \tab 3.93 \tab 3.94 \tab 3.95 \tab 3.96 \tab 3.97 \tab 3.98 \tab 3.99 \tab 4 \tab 4.01 \tab 4.03 \tab 4.04 \tab 4.05 \tab 4.08 \tab 4.09 \tab 4.1 \tab 4.11 \tab 4.12 \tab 4.13 \tab 4.14 \tab 4.15 \tab 4.19 \tab 4.21 \tab 4.22 \tab 4.26 \tab 4.27 \tab 4.28 \tab 4.33 \tab 4.36 \tab 4.37 \tab 4.4 \tab 4.43 \tab 4.46 \tab 4.47 \tab 4.51 \tab 4.56 \tab 4.61 \tab 4.62 \tab 4.69 \tab 4.7 \tab 4.75 \tab 4.76 \tab 4.77 \tab 4.81 \tab 4.83 \tab 4.85 \tab 4.86 \tab 4.89 \tab 4.93 \tab 4.94 \tab 4.95 \tab 4.96 \tab 4.97 \tab 4.99 \tab 5 \tab 5.04 \tab 5.06 \tab 5.1 \tab 5.11 \tab 5.13 \tab 5.21 \tab 5.23 \tab 5.25 \tab 5.26 \tab 5.28 \tab 5.29 \tab 5.39 \tab 5.47 \tab 5.48 \tab 5.56 \tab 5.59 \tab 5.63 \tab 5.64 \tab 5.67 \tab 5.7 \tab 5.75 \tab 5.79 \tab 5.84 \tab 5.88 \tab 5.92 \tab 5.93 \tab 5.95 \tab 5.97 \tab iap \tab 1 \tab 1.7 \tab 1.72 \tab 2.16 \tab 2.2 \tab 2.37 \tab 2.63 \tab 2.68 \tab 2.76 \tab 2.81 \tab 3.03 \tab 3.19 \tab 3.42 \tab 3.58 \tab 3.76 \tab 3.77 \tab 3.8 \tab 3.83 \tab 4.02 \tab 4.32 \tab 4.42 \tab 4.8 \tab 4.88 \tab 4.91 \tab 5.14 \tab 5.33 \tab 5.66 \tab 6 \tab 1.93 \tab 2.02 \tab 2.04 \tab 2.29 \tab 2.64 \tab 2.91 \tab 3.28 \tab 3.48 \tab 3.9 \tab 4.16 \tab 4.63 \tab 5.07 \tab 5.38 \tab 5.55 \tab 5.91 \tab 1.82 \tab 2.22 \tab 2.38 \tab 4.17 \tab 4.24 \tab 4.25 \tab 5.83 \tab 1.75 \tab 1.85 \tab 3.18 \tab 3.49 \tab 4.39 \tab 4.98 \tab 5.19 \tab 1.96 \tab 2.45 \tab 2.59 \tab 3.78 \tab 4.41 \tab 1.95 \tab 2.74 \tab 4.82 \tab 1.84 \tab 1.88 \tab 2.66 \tab 5.57 \tab 1.26 \tab 4.6 \tab 4.73 \tab 4.06 \tab 1.71 \tab 2.3 \tab 5.65 \tab not available in this year \tab Total \cr
@@ -57,22 +75,52 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1972 \tab -/-/- \tab full \cr
+   1973 \tab -/-/- \tab full \cr
+   1974 \tab -/-/- \tab full \cr
+   1975 \tab -/-/- \tab full \cr
+   1976 \tab -/-/- \tab full \cr
+   1977 \tab -/-/- \tab full \cr
+   1978 \tab -/-/- \tab full \cr
+   1980 \tab -/-/- \tab full \cr
+   1982 \tab -/-/- \tab full \cr
+   1983 \tab -/-/- \tab full \cr
+   1984 \tab -/-/- \tab full \cr
+   1985 \tab -/-/- \tab full \cr
+   1986 \tab -/-/- \tab full \cr
+   1987 \tab -/-/- \tab full \cr
+   1988 \tab A/B/C \tab full \cr
+   1989 \tab A/B/C \tab full \cr
+   1990 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{dotpeop}},
+\code{\link{dotpres}},
+\code{\link{dotsvp}},
+\code{\link{dotthng}},
+\code{\link{spdotdat}},
+\code{\link{spdotged}},
+\code{\link{spdotpeo}},
+\code{\link{spdotsvp}},
+\code{\link{spdotthn}}
+
+Other D.O.T. Codes: 
+\code{\link{dotpeop}},
+\code{\link{dotpres}},
+\code{\link{dotsvp}},
+\code{\link{dotthng}},
+\code{\link{spdotdat}},
+\code{\link{spdotged}},
+\code{\link{spdotpeo}},
+\code{\link{spdotsvp}},
+\code{\link{spdotthn}}
+}
+\concept{Core}
+\concept{D.O.T. Codes}
 \keyword{variable}

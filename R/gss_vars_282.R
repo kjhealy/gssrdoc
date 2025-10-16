@@ -1,11 +1,197 @@
+#'  Minutes per week using work computer make money
+#' 
+#'  incminw
+#' 
+#' Question For about how many minutes or hours a week do you use your work computer for each of the following: 
+#' B. Other income-producing activities? 
+#' 1. Minutes per week?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2569/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |0   |15 |2  |20 |30 |7  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:-----|:---|:--|:--|:--|:--|:--|:----------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1613  |
+#'  |1973  |1504  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1504  |
+#'  |1974  |1484  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1484  |
+#'  |1975  |1490  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1490  |
+#'  |1976  |1499  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1499  |
+#'  |1977  |1530  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1530  |
+#'  |1978  |1532  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1532  |
+#'  |1980  |1468  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1468  |
+#'  |1982  |1860  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1860  |
+#'  |1983  |1599  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1599  |
+#'  |1984  |1473  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1473  |
+#'  |1985  |1534  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1534  |
+#'  |1986  |1470  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1470  |
+#'  |1987  |1819  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1819  |
+#'  |1988  |1481  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1481  |
+#'  |1989  |1537  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1537  |
+#'  |1990  |1372  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1372  |
+#'  |1991  |1517  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1517  |
+#'  |1993  |1606  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1606  |
+#'  |1994  |2992  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |2992  |
+#'  |1996  |2904  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |2904  |
+#'  |1998  |2832  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |2832  |
+#'  |2000  |2486  |267 |1  |1  |1  |1  |1  |1          |58        |-                          |2817  |
+#'  |2002  |2765  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |2765  |
+#'  |2004  |2812  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |2812  |
+#'  |2006  |4510  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |4510  |
+#'  |2008  |2023  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |2023  |
+#'  |2010  |2044  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |2044  |
+#'  |2012  |1974  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1974  |
+#'  |2014  |2538  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |2538  |
+#'  |2016  |2867  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |2867  |
+#'  |2018  |2348  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |2348  |
+#'  |2021  |4032  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |4032  |
+#'  |2022  |-     |-   |-  |-  |-  |-  |-  |-          |-         |3544                       |3544  |
+#'  |2024  |-     |-   |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
+#'  |Total |68515 |267 |1  |1  |1  |1  |1  |1          |58        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Information Society
+#' @family Computers And Internet
+#' 
+#' @keywords variable
+#' @md
+#' @name incminw
+NULL
+
+
+#'  Hours per week using work computer make money
+#' 
+#'  inchrw
+#' 
+#' Question For about how many minutes or hours a week do you use your work computer for each of the following: 
+#' B. Other income-producing activities? 
+#' 2. Hours per week?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2570/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |0   |1  |10 |2  |20 |30 |5  |6  |8  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:-----|:---|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1613  |
+#'  |1973  |1504  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1504  |
+#'  |1974  |1484  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1484  |
+#'  |1975  |1490  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1490  |
+#'  |1976  |1499  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1499  |
+#'  |1977  |1530  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1530  |
+#'  |1978  |1532  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1532  |
+#'  |1980  |1468  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1468  |
+#'  |1982  |1860  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1860  |
+#'  |1983  |1599  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1599  |
+#'  |1984  |1473  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1473  |
+#'  |1985  |1534  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1534  |
+#'  |1986  |1470  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1470  |
+#'  |1987  |1819  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1819  |
+#'  |1988  |1481  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1481  |
+#'  |1989  |1537  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1537  |
+#'  |1990  |1372  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1372  |
+#'  |1991  |1517  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1517  |
+#'  |1993  |1606  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1606  |
+#'  |1994  |2992  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2992  |
+#'  |1996  |2904  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2904  |
+#'  |1998  |2832  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2832  |
+#'  |2000  |2486  |233 |4  |1  |2  |3  |1  |4  |1  |1  |1          |80        |-                          |2817  |
+#'  |2002  |2765  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2765  |
+#'  |2004  |2812  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2812  |
+#'  |2006  |4510  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |4510  |
+#'  |2008  |2023  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2023  |
+#'  |2010  |2044  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2044  |
+#'  |2012  |1974  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1974  |
+#'  |2014  |2538  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2538  |
+#'  |2016  |2867  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2867  |
+#'  |2018  |2348  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2348  |
+#'  |2021  |4032  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |4032  |
+#'  |2022  |-     |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3544                       |3544  |
+#'  |2024  |-     |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
+#'  |Total |68515 |233 |4  |1  |2  |3  |1  |4  |1  |1  |1          |80        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Information Society
+#' @family Computers And Internet
+#' 
+#' @keywords variable
+#' @md
+#' @name inchrw
+NULL
+
+
 #'  Minutes per week using work computer hsehld mng
 #' 
 #'  ecomminw
 #' 
-#' Question 803. For about how many minutes or hours a week do you use your work computer for each of the following: c. Shopping, paying bills and other household management?
+#' Question For about how many minutes or hours a week do you use your work computer for each of the following: 
+#' C. Shopping, paying bills and other household management? 
+#' 1. Minutes per week?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2571/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +234,31 @@
 #'  |2024  |-     |-   |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68515 |268 |1  |4  |1  |3  |1          |53        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Information Society
+#' @family Computers And Internet
+#' 
+#' @keywords variable
+#' @md
+#' @name ecomminw
+NULL
+
+
+#'  Hours per week using work computer hsehld mngmn
+#' 
+#'  ecomhrw
+#' 
+#' Question For about how many minutes or hours a week do you use your work computer for each of the following: 
+#' C. Shopping, paying bills and other household management? 
+#' 2. Hours per week?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -63,22 +274,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name ecomminw
-NULL
-
-#'  Hours per week using work computer hsehld mngmn
-#' 
-#'  ecomhrw
-#' 
-#' Question 803. For about how many minutes or hours a week do you use your work computer for each of the following: c. Shopping, paying bills and other household management?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2572/vshow).
 #'
 #' Counts by year: 
 #'
@@ -121,6 +318,31 @@ NULL
 #'  |2024  |-     |-   |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68515 |241 |4  |2  |2  |3  |1          |78        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Information Society
+#' @family Computers And Internet
+#' 
+#' @keywords variable
+#' @md
+#' @name ecomhrw
+NULL
+
+
+#'  Minutes per week using work computer personal i
+#' 
+#'  perminw
+#' 
+#' Question For about how many minutes or hours a week do you use your work computer for each of the following: 
+#' D. Personal interests, games, or enjoyment? 
+#' 1. Minutes per week?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -136,22 +358,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name ecomhrw
-NULL
-
-#'  Minutes per week using work computer personal i
-#' 
-#'  perminw
-#' 
-#' Question 803. For about how many minutes or hours a week do you use your work computer for each of the following: d. Personal interests, games, or enjoyment?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2573/vshow).
 #'
 #' Counts by year: 
 #'
@@ -194,6 +402,31 @@ NULL
 #'  |2024  |-     |-   |-  |-  |-  |-  |-         |3309                       |3309  |
 #'  |Total |68515 |269 |1  |10 |1  |1  |49        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Information Society
+#' @family Computers And Internet
+#' 
+#' @keywords variable
+#' @md
+#' @name perminw
+NULL
+
+
+#'  Hours per week using work computer personal int
+#' 
+#'  perhrw
+#' 
+#' Question For about how many minutes or hours a week do you use your work computer for each of the following: 
+#' D. Personal interests, games, or enjoyment? 
+#' 2. Hours per week?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -209,22 +442,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name perminw
-NULL
-
-#'  Hours per week using work computer personal int
-#' 
-#'  perhrw
-#' 
-#' Question 803. For about how many minutes or hours a week do you use your work computer for each of the following: d. Personal interests, games, or enjoyment?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2574/vshow).
 #'
 #' Counts by year: 
 #'
@@ -267,6 +486,31 @@ NULL
 #'  |2024  |-     |-   |-  |-  |-  |-  |-  |-  |-  |-  |-         |3309                       |3309  |
 #'  |Total |68515 |224 |13 |3  |9  |2  |1  |3  |1  |1  |74        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Information Society
+#' @family Computers And Internet
+#' 
+#' @keywords variable
+#' @md
+#' @name perhrw
+NULL
+
+
+#'  Minutes per week using work computer email
+#' 
+#'  emminw
+#' 
+#' Question For about how many minutes or hours a week do you use your work computer for each of the following: 
+#' E. Sending or receiving e-mail? 
+#' 1. Minutes per week?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -282,22 +526,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name perhrw
-NULL
-
-#'  Minutes per week using work computer email
-#' 
-#'  emminw
-#' 
-#' Question 803. For about how many minutes or hours a week do you use your work computer for each of the following: e. Sending or receiving email?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2575/vshow).
 #'
 #' Counts by year: 
 #'
@@ -340,6 +570,32 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |3309                       |3309  |
 #'  |Total |68545 |5  |25 |29 |9  |12 |94 |4  |8  |9  |4  |9          |84        |2  |4  |2  |1  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/-   |partial      |
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Information Society
+#' @family Computers And Internet
+#' 
+#' @keywords variable
+#' @md
+#' @name emminw
+NULL
+
+
+#'  Hours per week using work computer email
+#' 
+#'  emhrw
+#' 
+#' Question For about how many minutes or hours a week do you use your work computer for each of the following: 
+#' E. Sending or receiving e-mail? 
+#' 2. Hours per week?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -355,22 +611,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name emminw
-NULL
-
-#'  Hours per week using work computer email
-#' 
-#'  emhrw
-#' 
-#' Question 803. For about how many minutes or hours a week do you use your work computer for each of the following: e. Sending or receiving email?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2576/vshow).
 #'
 #' Counts by year: 
 #'
@@ -413,6 +655,32 @@ NULL
 #'  |2024  |-     |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |3309                       |3309  |
 #'  |Total |67966 |175 |55 |12 |30 |113 |27 |61 |19 |50 |17 |70 |1  |18 |23 |9          |113       |2  |5  |2  |1  |3  |4  |1  |1  |2  |10 |2  |1  |2  |1  |2  |1  |2  |30 |1  |1  |1  |11 |1  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/-   |partial      |
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Information Society
+#' @family Computers And Internet
+#' 
+#' @keywords variable
+#' @md
+#' @name emhrw
+NULL
+
+
+#'  Minutes per week using work computer www
+#' 
+#'  wwwminw
+#' 
+#' Question For about how many minutes or hours a week do you use your work computer for each of the following: 
+#' F. Using the World Wide Web (other than for e-mail)? 
+#' 1. Minutes per week?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -428,22 +696,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name emhrw
-NULL
-
-#'  Minutes per week using work computer www
-#' 
-#'  wwwminw
-#' 
-#' Question 803. For about how many minutes or hours a week do you use your work computer for each of the following: f. Using the World Wide Web (other than for email)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2577/vshow).
 #'
 #' Counts by year: 
 #'
@@ -486,6 +740,32 @@ NULL
 #'  |2024  |-     |-    |-  |-  |-  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |3309                       |3309  |
 #'  |Total |67322 |1266 |16 |21 |13 |83 |1  |5  |10 |9          |86        |4  |1  |1  |1  |3  |1  |3  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/-   |partial      |
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Information Society
+#' @family Computers And Internet
+#' 
+#' @keywords variable
+#' @md
+#' @name wwwminw
+NULL
+
+
+#'  Hours per week using work computer www
+#' 
+#'  wwwhrw
+#' 
+#' Question For about how many minutes or hours a week do you use your work computer for each of the following: 
+#' F. Using the World Wide Web (other than for e-mail)? 
+#' 2. Hours per week?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -501,22 +781,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wwwminw
-NULL
-
-#'  Hours per week using work computer www
-#' 
-#'  wwwhrw
-#' 
-#' Question 803. For about how many minutes or hours a week do you use your work computer for each of the following: f. Using the World Wide Web (other than for email)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2578/vshow).
 #'
 #' Counts by year: 
 #'
@@ -559,176 +825,20 @@ NULL
 #'  |2024  |-     |-   |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |3309                       |3309  |
 #'  |Total |67322 |728 |183 |43 |4  |17 |115 |16 |2  |1  |71 |9  |42 |78 |19 |9          |111       |2  |1  |1  |1  |4  |3  |2  |2  |6  |3  |3  |1  |17 |19 |11 |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/-   |partial      |
+#'  |2002 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Information Society
+#' @family Computers And Internet
 #' 
 #' @keywords variable
 #' @md
 #' @name wwwhrw
 NULL
 
-#'  Does r use computer not at home or work
-#' 
-#'  compoth
-#' 
-#' Question 804a. Do you use a computer at some other place besides your home or workplace~say, at school, library, friend's home, or other location?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |no   |no answer |yes |not available in this year |Total |
-#'  |:-----|:-----|:----|:---------|:---|:--------------------------|:-----|
-#'  |1972  |1613  |-    |-         |-   |-                          |1613  |
-#'  |1973  |1504  |-    |-         |-   |-                          |1504  |
-#'  |1974  |1484  |-    |-         |-   |-                          |1484  |
-#'  |1975  |1490  |-    |-         |-   |-                          |1490  |
-#'  |1976  |1499  |-    |-         |-   |-                          |1499  |
-#'  |1977  |1530  |-    |-         |-   |-                          |1530  |
-#'  |1978  |1532  |-    |-         |-   |-                          |1532  |
-#'  |1980  |1468  |-    |-         |-   |-                          |1468  |
-#'  |1982  |1860  |-    |-         |-   |-                          |1860  |
-#'  |1983  |1599  |-    |-         |-   |-                          |1599  |
-#'  |1984  |1473  |-    |-         |-   |-                          |1473  |
-#'  |1985  |1534  |-    |-         |-   |-                          |1534  |
-#'  |1986  |1470  |-    |-         |-   |-                          |1470  |
-#'  |1987  |1819  |-    |-         |-   |-                          |1819  |
-#'  |1988  |1481  |-    |-         |-   |-                          |1481  |
-#'  |1989  |1537  |-    |-         |-   |-                          |1537  |
-#'  |1990  |1372  |-    |-         |-   |-                          |1372  |
-#'  |1991  |1517  |-    |-         |-   |-                          |1517  |
-#'  |1993  |1606  |-    |-         |-   |-                          |1606  |
-#'  |1994  |2992  |-    |-         |-   |-                          |2992  |
-#'  |1996  |2904  |-    |-         |-   |-                          |2904  |
-#'  |1998  |2832  |-    |-         |-   |-                          |2832  |
-#'  |2000  |2294  |371  |28        |124 |-                          |2817  |
-#'  |2002  |855   |1415 |13        |482 |-                          |2765  |
-#'  |2004  |2812  |-    |-         |-   |-                          |2812  |
-#'  |2006  |4510  |-    |-         |-   |-                          |4510  |
-#'  |2008  |2023  |-    |-         |-   |-                          |2023  |
-#'  |2010  |2044  |-    |-         |-   |-                          |2044  |
-#'  |2012  |1974  |-    |-         |-   |-                          |1974  |
-#'  |2014  |2538  |-    |-         |-   |-                          |2538  |
-#'  |2016  |2867  |-    |-         |-   |-                          |2867  |
-#'  |2018  |2348  |-    |-         |-   |-                          |2348  |
-#'  |2021  |4032  |-    |-         |-   |-                          |4032  |
-#'  |2022  |-     |-    |-         |-   |3544                       |3544  |
-#'  |2024  |-     |-    |-         |-   |3309                       |3309  |
-#'  |Total |66413 |1786 |41        |606 |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name compoth
-NULL
-
-#'  Does r use computer at school
-#' 
-#'  compschl
-#' 
-#' Question 804. From which of these locations do you use this other computer? b. School
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |no  |no answer |yes |not available in this year |Total |
-#'  |:-----|:-----|:---|:---------|:---|:--------------------------|:-----|
-#'  |1972  |1613  |-   |-         |-   |-                          |1613  |
-#'  |1973  |1504  |-   |-         |-   |-                          |1504  |
-#'  |1974  |1484  |-   |-         |-   |-                          |1484  |
-#'  |1975  |1490  |-   |-         |-   |-                          |1490  |
-#'  |1976  |1499  |-   |-         |-   |-                          |1499  |
-#'  |1977  |1530  |-   |-         |-   |-                          |1530  |
-#'  |1978  |1532  |-   |-         |-   |-                          |1532  |
-#'  |1980  |1468  |-   |-         |-   |-                          |1468  |
-#'  |1982  |1860  |-   |-         |-   |-                          |1860  |
-#'  |1983  |1599  |-   |-         |-   |-                          |1599  |
-#'  |1984  |1473  |-   |-         |-   |-                          |1473  |
-#'  |1985  |1534  |-   |-         |-   |-                          |1534  |
-#'  |1986  |1470  |-   |-         |-   |-                          |1470  |
-#'  |1987  |1819  |-   |-         |-   |-                          |1819  |
-#'  |1988  |1481  |-   |-         |-   |-                          |1481  |
-#'  |1989  |1537  |-   |-         |-   |-                          |1537  |
-#'  |1990  |1372  |-   |-         |-   |-                          |1372  |
-#'  |1991  |1517  |-   |-         |-   |-                          |1517  |
-#'  |1993  |1606  |-   |-         |-   |-                          |1606  |
-#'  |1994  |2992  |-   |-         |-   |-                          |2992  |
-#'  |1996  |2904  |-   |-         |-   |-                          |2904  |
-#'  |1998  |2832  |-   |-         |-   |-                          |2832  |
-#'  |2000  |2665  |85  |28        |39  |-                          |2817  |
-#'  |2002  |2537  |156 |3         |69  |-                          |2765  |
-#'  |2004  |2812  |-   |-         |-   |-                          |2812  |
-#'  |2006  |4510  |-   |-         |-   |-                          |4510  |
-#'  |2008  |2023  |-   |-         |-   |-                          |2023  |
-#'  |2010  |2044  |-   |-         |-   |-                          |2044  |
-#'  |2012  |1974  |-   |-         |-   |-                          |1974  |
-#'  |2014  |2538  |-   |-         |-   |-                          |2538  |
-#'  |2016  |2867  |-   |-         |-   |-                          |2867  |
-#'  |2018  |2348  |-   |-         |-   |-                          |2348  |
-#'  |2021  |4032  |-   |-         |-   |-                          |4032  |
-#'  |2022  |-     |-   |-         |-   |3544                       |3544  |
-#'  |2024  |-     |-   |-         |-   |3309                       |3309  |
-#'  |Total |68466 |241 |31        |108 |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name compschl
-NULL
 

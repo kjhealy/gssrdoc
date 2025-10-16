@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 jobaff
 }
 \details{
-Question 534. Some people say that because of past discrimination, blacks should be given preference in hiring and promotion. Others say that such preference in hiring and promotion of blacks is wrong because it discriminates against others. What about your opinion - are you for or against preferential hiring and promotion of blacks? Do you favor/oppose preference in hiring and promotion strongly or not strongly?
+Question Some people say that because of past discrimination, blacks should be given preference in hiring and promotion. Others say that such preference in hiring and promotion of blacks is wrong because it discriminates against others. What about your opinion--are you for or against preferential hiring and promotion of blacks?
+IF FOR:Do you favor preference in hiring and promotion strongly or not strongly?
+IF AGAINST:Do you oppose preference in hiring and promotion strongly or not strongly?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} strongly for pref
+\item \code{2} for preference
+\item \code{3} against preference
+\item \code{4} strongly against pref
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1625/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab against preference \tab don't know \tab for preference \tab no answer \tab strongly against pref \tab strongly for pref \tab not available in this year \tab Total \cr
@@ -57,26 +81,41 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} strongly for pref
-\item \code{2} for preference
-\item \code{3} against preference
-\item \code{4} strongly against pref
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Multiculturalism: 
+\code{\link{colaff}},
+\code{\link{colaffy}},
+\code{\link{congeth}},
+\code{\link{discaffy}},
+\code{\link{owneth}}
+
+Other Affirmative Action: 
+\code{\link{colaff}},
+\code{\link{colaffy}},
+\code{\link{discaffy}}
+
+Other Blacks: 
+\code{\link{colaff}},
+\code{\link{colaffy}},
+\code{\link{discaffy}}
+
+Other Federal Government: 
+\code{\link{congeth}},
+\code{\link{owneth}}
+
+Other Job: 
+\code{\link{discaffy}}
+}
+\concept{Affirmative Action}
+\concept{Blacks}
+\concept{Federal Government}
+\concept{Job}
+\concept{Multiculturalism}
 \keyword{variable}

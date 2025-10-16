@@ -11,10 +11,29 @@ usualhrs
 }
 \details{
 Question How many hours a week do you usually work, at all paid jobs?
+HOURS:
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6292/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 0 \tab 10 \tab 15 \tab 16 \tab 18 \tab 2 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 27 \tab 28 \tab 29 \tab 30 \tab 32 \tab 33 \tab 34 \tab 35 \tab 36 \tab 37 \tab 38 \tab 39 \tab 4 \tab 40 \tab 41 \tab 42 \tab 43 \tab 44 \tab 45 \tab 46 \tab 48 \tab 5 \tab 50 \tab 52 \tab 55 \tab 58 \tab 6 \tab 60 \tab 65 \tab 67 \tab 7 \tab 70 \tab 72 \tab 75 \tab 8 \tab 80 \tab 99 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +76,17 @@ Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllll}
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2016 \tab C \tab partial \cr
 }
 }
 
+\seealso{
+Other Flexible Work: 
+\code{\link{mosthrs}},
+\code{\link{paidhow}}
+}
+\concept{Flexible Work}
 \keyword{variable}

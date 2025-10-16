@@ -1,11 +1,194 @@
+#'  How many years r born a member of hobby club1
+#' 
+#'  yrhobby2
+#' 
+#' Question I. How many years have you been a member of 
+#' 2. Second hobby or garden club
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3184/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |1  |10 |12 |2  |20 |3  |40 |5  |7  |8  |no answer |not available in this year |Total |
+#'  |:-----|:-----|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1613  |
+#'  |1973  |1504  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1504  |
+#'  |1974  |1484  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1484  |
+#'  |1975  |1490  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1490  |
+#'  |1976  |1499  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1499  |
+#'  |1977  |1530  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1530  |
+#'  |1978  |1532  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1532  |
+#'  |1980  |1468  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1468  |
+#'  |1982  |1860  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1860  |
+#'  |1983  |1599  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1599  |
+#'  |1984  |1473  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1473  |
+#'  |1985  |1534  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1534  |
+#'  |1986  |1470  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1470  |
+#'  |1987  |1819  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1819  |
+#'  |1988  |1481  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1481  |
+#'  |1989  |1537  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1537  |
+#'  |1990  |1372  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1372  |
+#'  |1991  |1517  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1517  |
+#'  |1993  |1606  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1606  |
+#'  |1994  |2992  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2992  |
+#'  |1996  |2904  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2904  |
+#'  |1998  |2832  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2832  |
+#'  |2000  |2817  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2817  |
+#'  |2002  |2765  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2765  |
+#'  |2004  |2786  |6  |3  |1  |1  |1  |3  |1  |1  |1  |1  |7         |-                          |2812  |
+#'  |2006  |4510  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |4510  |
+#'  |2008  |2023  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2023  |
+#'  |2010  |2044  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2044  |
+#'  |2012  |1974  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1974  |
+#'  |2014  |2538  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2538  |
+#'  |2016  |2867  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2867  |
+#'  |2018  |2348  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2348  |
+#'  |2021  |4032  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |4032  |
+#'  |2022  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |3544                       |3544  |
+#'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |3309                       |3309  |
+#'  |Total |68820 |6  |3  |1  |1  |1  |3  |1  |1  |1  |1  |7         |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Voluntary Assocations/Social Networks
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name yrhobby2
+NULL
+
+
+#'  How many years r born a member of hobby club1
+#' 
+#'  yrhobby3
+#' 
+#' Question I. How many years have you been a member of 
+#' 3. Third hobby or garden club
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3185/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |0  |10 |2  |8  |no answer |not available in this year |Total |
+#'  |:-----|:-----|:--|:--|:--|:--|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-  |-  |-  |-  |-         |-                          |1613  |
+#'  |1973  |1504  |-  |-  |-  |-  |-         |-                          |1504  |
+#'  |1974  |1484  |-  |-  |-  |-  |-         |-                          |1484  |
+#'  |1975  |1490  |-  |-  |-  |-  |-         |-                          |1490  |
+#'  |1976  |1499  |-  |-  |-  |-  |-         |-                          |1499  |
+#'  |1977  |1530  |-  |-  |-  |-  |-         |-                          |1530  |
+#'  |1978  |1532  |-  |-  |-  |-  |-         |-                          |1532  |
+#'  |1980  |1468  |-  |-  |-  |-  |-         |-                          |1468  |
+#'  |1982  |1860  |-  |-  |-  |-  |-         |-                          |1860  |
+#'  |1983  |1599  |-  |-  |-  |-  |-         |-                          |1599  |
+#'  |1984  |1473  |-  |-  |-  |-  |-         |-                          |1473  |
+#'  |1985  |1534  |-  |-  |-  |-  |-         |-                          |1534  |
+#'  |1986  |1470  |-  |-  |-  |-  |-         |-                          |1470  |
+#'  |1987  |1819  |-  |-  |-  |-  |-         |-                          |1819  |
+#'  |1988  |1481  |-  |-  |-  |-  |-         |-                          |1481  |
+#'  |1989  |1537  |-  |-  |-  |-  |-         |-                          |1537  |
+#'  |1990  |1372  |-  |-  |-  |-  |-         |-                          |1372  |
+#'  |1991  |1517  |-  |-  |-  |-  |-         |-                          |1517  |
+#'  |1993  |1606  |-  |-  |-  |-  |-         |-                          |1606  |
+#'  |1994  |2992  |-  |-  |-  |-  |-         |-                          |2992  |
+#'  |1996  |2904  |-  |-  |-  |-  |-         |-                          |2904  |
+#'  |1998  |2832  |-  |-  |-  |-  |-         |-                          |2832  |
+#'  |2000  |2817  |-  |-  |-  |-  |-         |-                          |2817  |
+#'  |2002  |2765  |-  |-  |-  |-  |-         |-                          |2765  |
+#'  |2004  |2799  |1  |1  |3  |1  |7         |-                          |2812  |
+#'  |2006  |4510  |-  |-  |-  |-  |-         |-                          |4510  |
+#'  |2008  |2023  |-  |-  |-  |-  |-         |-                          |2023  |
+#'  |2010  |2044  |-  |-  |-  |-  |-         |-                          |2044  |
+#'  |2012  |1974  |-  |-  |-  |-  |-         |-                          |1974  |
+#'  |2014  |2538  |-  |-  |-  |-  |-         |-                          |2538  |
+#'  |2016  |2867  |-  |-  |-  |-  |-         |-                          |2867  |
+#'  |2018  |2348  |-  |-  |-  |-  |-         |-                          |2348  |
+#'  |2021  |4032  |-  |-  |-  |-  |-         |-                          |4032  |
+#'  |2022  |-     |-  |-  |-  |-  |-         |3544                       |3544  |
+#'  |2024  |-     |-  |-  |-  |-  |-         |3309                       |3309  |
+#'  |Total |68833 |1  |1  |3  |1  |7         |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Voluntary Assocations/Social Networks
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name yrhobby3
+NULL
+
+
 #'  How many years r born a member of school fraternity1
 #' 
 #'  yrgreek1
 #' 
-#' Question 1026j. How many years have you been a member of (SCHOOL FRATERNITY OR SORORITY)?
+#' Question J. How many years have you been a member of 
+#' 1. First school fraternity or sorority
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3186/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +231,30 @@
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68780 |3  |4  |3  |1  |2  |2  |2  |1  |4  |6  |1  |4  |1  |4  |4  |1  |1  |1  |5  |1  |1  |1  |1  |1  |1  |2  |1          |7         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Voluntary Assocations/Social Networks
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name yrgreek1
+NULL
+
+
+#'  How many years r born a member of school fraternity2
+#' 
+#'  yrgreek2
+#' 
+#' Question J. How many years have you been a member of 
+#' 2. Second school fraternity or sorority
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -63,22 +270,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name yrgreek1
-NULL
-
-#'  How many years r born a member of school fraternity2
-#' 
-#'  yrgreek2
-#' 
-#' Question 1026j. How many years have you been a member of (SCHOOL FRATERNITY OR SORORITY)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3187/vshow).
 #'
 #' Counts by year: 
 #'
@@ -121,6 +314,30 @@ NULL
 #'  |2024  |-     |-  |-  |-         |3309                       |3309  |
 #'  |Total |68838 |1  |1  |6         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Voluntary Assocations/Social Networks
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name yrgreek2
+NULL
+
+
+#'  How many years r born a member of school fraternity3
+#' 
+#'  yrgreek3
+#' 
+#' Question J. How many years have you been a member of 
+#' 3. Third school fraternity or sorority
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -136,22 +353,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name yrgreek2
-NULL
-
-#'  How many years r born a member of school fraternity3
-#' 
-#'  yrgreek3
-#' 
-#' Question 1026j. How many years have you been a member of (SCHOOL FRATERNITY OR SORORITY)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3188/vshow).
 #'
 #' Counts by year: 
 #'
@@ -194,6 +397,30 @@ NULL
 #'  |2024  |-     |-         |3309                       |3309  |
 #'  |Total |68840 |6         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Voluntary Assocations/Social Networks
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name yrgreek3
+NULL
+
+
+#'  How many years r born a member of national group1
+#' 
+#'  yrnat1
+#' 
+#' Question K. How many years have you been a member ofâ€¦? 
+#' 1. First nationality group
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -209,22 +436,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name yrgreek3
-NULL
-
-#'  How many years r born a member of national group1
-#' 
-#'  yrnat1
-#' 
-#' Question 1026k. How many years have you been a member of (NATIONALITY GROUP)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3189/vshow).
 #'
 #' Counts by year: 
 #'
@@ -267,6 +480,30 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |3309                       |3309  |
 #'  |Total |68802 |2  |2  |1  |1  |1  |2  |1  |1  |1  |4  |4  |1  |3  |2  |2  |1  |1  |2  |1  |3  |8         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Voluntary Assocations/Social Networks
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name yrnat1
+NULL
+
+
+#'  How many years r born a member of national group2
+#' 
+#'  yrnat2
+#' 
+#' Question K. How many years have you been a member ofâ€¦? 
+#' 2. Second nationality group
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -282,22 +519,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name yrnat1
-NULL
-
-#'  How many years r born a member of national group2
-#' 
-#'  yrnat2
-#' 
-#' Question 1026k. How many years have you been a member of (NATIONALITY GROUP)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3190/vshow).
 #'
 #' Counts by year: 
 #'
@@ -340,6 +563,30 @@ NULL
 #'  |2024  |-     |-  |-  |-         |3309                       |3309  |
 #'  |Total |68838 |1  |1  |6         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Voluntary Assocations/Social Networks
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name yrnat2
+NULL
+
+
+#'  How many years r born a member of national group3
+#' 
+#'  yrnat3
+#' 
+#' Question K. How many years have you been a member ofâ€¦? 
+#' 3. Third nationality group
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -355,22 +602,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name yrnat2
-NULL
-
-#'  How many years r born a member of national group3
-#' 
-#'  yrnat3
-#' 
-#' Question 1026k. How many years have you been a member of (NATIONALITY GROUP)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3191/vshow).
 #'
 #' Counts by year: 
 #'
@@ -413,6 +646,30 @@ NULL
 #'  |2024  |-     |-         |3309                       |3309  |
 #'  |Total |68840 |6         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Voluntary Assocations/Social Networks
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name yrnat3
+NULL
+
+
+#'  How many years r born a member of farm organization1
+#' 
+#'  yrfarm1
+#' 
+#' Question L. How many years have you been a member of 
+#' 1. First farm organization
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -428,22 +685,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name yrnat3
-NULL
-
-#'  How many years r born a member of farm organization1
-#' 
-#'  yrfarm1
-#' 
-#' Question 1026l. How many years have you been a member of (FARM ORGANIZATION)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3192/vshow).
 #'
 #' Counts by year: 
 #'
@@ -486,6 +729,30 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |3309                       |3309  |
 #'  |Total |68797 |1  |5  |5  |1  |1  |2  |1  |1  |2  |1  |5  |5  |1  |2  |1  |1  |1  |1  |1  |1  |2  |2  |6         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Voluntary Assocations/Social Networks
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name yrfarm1
+NULL
+
+
+#'  How many years r born a member of farm organization2
+#' 
+#'  yrfarm2
+#' 
+#' Question L. How many years have you been a member of 
+#' 2. Second farm organization
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -501,22 +768,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name yrfarm1
-NULL
-
-#'  How many years r born a member of farm organization2
-#' 
-#'  yrfarm2
-#' 
-#' Question 1026l. How many years have you been a member of (FARM ORGANIZATION)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3193/vshow).
 #'
 #' Counts by year: 
 #'
@@ -559,172 +812,20 @@ NULL
 #'  |2024  |-     |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68838 |1  |1  |1          |5         |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Voluntary Assocations/Social Networks
+#' @family Agriculture
+#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
 #' @name yrfarm2
 NULL
 
-#'  How many years r born a member of farm organization3
-#' 
-#'  yrfarm3
-#' 
-#' Question 1026l. How many years have you been a member of (FARM ORGANIZATION)?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |20 |no answer |not available in this year |Total |
-#'  |:-----|:-----|:--|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-  |-         |-                          |1613  |
-#'  |1973  |1504  |-  |-         |-                          |1504  |
-#'  |1974  |1484  |-  |-         |-                          |1484  |
-#'  |1975  |1490  |-  |-         |-                          |1490  |
-#'  |1976  |1499  |-  |-         |-                          |1499  |
-#'  |1977  |1530  |-  |-         |-                          |1530  |
-#'  |1978  |1532  |-  |-         |-                          |1532  |
-#'  |1980  |1468  |-  |-         |-                          |1468  |
-#'  |1982  |1860  |-  |-         |-                          |1860  |
-#'  |1983  |1599  |-  |-         |-                          |1599  |
-#'  |1984  |1473  |-  |-         |-                          |1473  |
-#'  |1985  |1534  |-  |-         |-                          |1534  |
-#'  |1986  |1470  |-  |-         |-                          |1470  |
-#'  |1987  |1819  |-  |-         |-                          |1819  |
-#'  |1988  |1481  |-  |-         |-                          |1481  |
-#'  |1989  |1537  |-  |-         |-                          |1537  |
-#'  |1990  |1372  |-  |-         |-                          |1372  |
-#'  |1991  |1517  |-  |-         |-                          |1517  |
-#'  |1993  |1606  |-  |-         |-                          |1606  |
-#'  |1994  |2992  |-  |-         |-                          |2992  |
-#'  |1996  |2904  |-  |-         |-                          |2904  |
-#'  |1998  |2832  |-  |-         |-                          |2832  |
-#'  |2000  |2817  |-  |-         |-                          |2817  |
-#'  |2002  |2765  |-  |-         |-                          |2765  |
-#'  |2004  |2806  |1  |5         |-                          |2812  |
-#'  |2006  |4510  |-  |-         |-                          |4510  |
-#'  |2008  |2023  |-  |-         |-                          |2023  |
-#'  |2010  |2044  |-  |-         |-                          |2044  |
-#'  |2012  |1974  |-  |-         |-                          |1974  |
-#'  |2014  |2538  |-  |-         |-                          |2538  |
-#'  |2016  |2867  |-  |-         |-                          |2867  |
-#'  |2018  |2348  |-  |-         |-                          |2348  |
-#'  |2021  |4032  |-  |-         |-                          |4032  |
-#'  |2022  |-     |-  |-         |3544                       |3544  |
-#'  |2024  |-     |-  |-         |3309                       |3309  |
-#'  |Total |68840 |1  |5         |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name yrfarm3
-NULL
-
-#'  How many years r born a member of literary group1
-#' 
-#'  yrlit1
-#' 
-#' Question 1026m. How many years have you been a member of (LITERARY, ART, DISCUSSION, OR STUDY GROUPS)?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |0  |1  |10 |12 |13 |14 |15 |2  |20 |24 |25 |3  |30 |4  |40 |5  |50 |58 |6  |7  |8  |9  |don't know |no answer |not available in this year |Total |
-#'  |:-----|:-----|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1613  |
-#'  |1973  |1504  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1504  |
-#'  |1974  |1484  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1484  |
-#'  |1975  |1490  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1490  |
-#'  |1976  |1499  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1499  |
-#'  |1977  |1530  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1530  |
-#'  |1978  |1532  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1532  |
-#'  |1980  |1468  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1468  |
-#'  |1982  |1860  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1860  |
-#'  |1983  |1599  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1599  |
-#'  |1984  |1473  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1473  |
-#'  |1985  |1534  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1534  |
-#'  |1986  |1470  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1470  |
-#'  |1987  |1819  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1819  |
-#'  |1988  |1481  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1481  |
-#'  |1989  |1537  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1537  |
-#'  |1990  |1372  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1372  |
-#'  |1991  |1517  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1517  |
-#'  |1993  |1606  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1606  |
-#'  |1994  |2992  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2992  |
-#'  |1996  |2904  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2904  |
-#'  |1998  |2832  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2832  |
-#'  |2000  |2817  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2817  |
-#'  |2002  |2765  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2765  |
-#'  |2004  |2653  |5  |30 |7  |1  |1  |1  |6  |21 |7  |1  |1  |23 |1  |12 |1  |14 |1  |1  |3  |4  |3  |3  |1          |11        |-                          |2812  |
-#'  |2006  |4510  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |4510  |
-#'  |2008  |2023  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2023  |
-#'  |2010  |2044  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2044  |
-#'  |2012  |1974  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1974  |
-#'  |2014  |2538  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2538  |
-#'  |2016  |2867  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2867  |
-#'  |2018  |2348  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2348  |
-#'  |2021  |4032  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |4032  |
-#'  |2022  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3544                       |3544  |
-#'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
-#'  |Total |68687 |5  |30 |7  |1  |1  |1  |6  |21 |7  |1  |1  |23 |1  |12 |1  |14 |1  |1  |3  |4  |3  |3  |1          |11        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name yrlit1
-NULL
 

@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 polaryr2
 }
 \details{
-Question 1076. 2007-2008 has been designated the International Polar Year. During this year, many scientific and educational organizations will be making efforts to increase public awareness of the Earth's polar regions. These organizations hope that people will learn more about the people and animals that live near the poles, the changes taking place in the environment there, and new scientific discoveries about the Arctic and the Antarctic. Still looking at Card B22, do you think you would be very likely, somewhat likely, somewhat unlikely, or very unlikely to... b. Read a newspaper article about the polar regions?
+Question 2007-2008 has been designated the International Polar Year. During this year, many scientific and educational organizations will be making efforts to increase public awareness of the Earthâ€™s polar regions. These organizations hope that people will learn more about the people and animals that live near the poles, the changes taking place in the environment there, and new scientific discoveries about the Arctic and the Antarctic. Still looking at Card B22, do you think you would be very likely, somewhat likely, somewhat unlikely, or very unlikely toâ€¦
+B. Read a newspaper article about the polar regions?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very likely
+\item \code{2} somewhat likely
+\item \code{3} somewhat unlikely
+\item \code{4} very unlikely
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3425/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab don't know \tab no answer \tab somewhat likely \tab somewhat unlikely \tab very likely \tab very unlikely \tab not available in this year \tab Total \cr
@@ -57,26 +80,37 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very likely
-\item \code{2} somewhat likely
-\item \code{3} somewhat unlikely
-\item \code{4} very unlikely
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab B/C \tab partial \cr
+   2010 \tab A/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{polaryr1}},
+\code{\link{polaryr3}},
+\code{\link{polaryr4}},
+\code{\link{polaryr5}},
+\code{\link{tvbears}},
+\code{\link{tvinuit}},
+\code{\link{tvmeltng}},
+\code{\link{tvoil}},
+\code{\link{tvozone}}
+
+Other Science: 
+\code{\link{polaryr1}},
+\code{\link{polaryr3}},
+\code{\link{polaryr4}},
+\code{\link{polaryr5}},
+\code{\link{tvbears}},
+\code{\link{tvinuit}},
+\code{\link{tvmeltng}},
+\code{\link{tvoil}},
+\code{\link{tvozone}}
+}
+\concept{Science}
+\concept{Science Knowledge & Attitudes}
 \keyword{variable}

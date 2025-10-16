@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 mhgenes
 }
 \details{
-Question 1134. Is it very likely, somewhat likely, not very likely, or not at all likely that (NAME)'s situation is caused by... e. A genetic or inherited problem
+Question Is it very likely, somewhat likely, not very likely, or not at all likely that (NAME)''s situation is caused byâ€¦
+E. A genetic or inherited problem.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very likely
+\item \code{2} somewhat likely
+\item \code{3} not very likely
+\item \code{4} not at all likely
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3746/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab don't know \tab no answer \tab not at all likely \tab not very likely \tab somewhat likely \tab very likely \tab not available in this year \tab Total \cr
@@ -57,26 +80,36 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very likely
-\item \code{2} somewhat likely
-\item \code{3} not very likely
-\item \code{4} not at all likely
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab D \tab partial \cr
 }
 }
 
+\seealso{
+Other Mental Health IV: 
+\code{\link{mhbrain}},
+\code{\link{mhchrctr}},
+\code{\link{mhdomove}},
+\code{\link{mhdonone}},
+\code{\link{mhdooth}},
+\code{\link{mhgod}},
+\code{\link{mhluck}},
+\code{\link{mhraised}},
+\code{\link{mhstress}}
+
+Other Mental Health: 
+\code{\link{mhbrain}},
+\code{\link{mhchrctr}},
+\code{\link{mhdomove}},
+\code{\link{mhdonone}},
+\code{\link{mhdooth}},
+\code{\link{mhgod}},
+\code{\link{mhluck}},
+\code{\link{mhraised}},
+\code{\link{mhstress}}
+}
+\concept{Mental Health}
+\concept{Mental Health IV}
 \keyword{variable}

@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 geneexps
 }
 \details{
-Question 984. For the following pair of questions, please circle the letter of the one that comes closer to your opinion:
+Question For the following pair of questions, please circle the letter of the one that comes closer to your opinion:
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} genes play major role in determining personality
+\item \code{2} it is experience that determine personality
+\item \code{9} refused
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3046/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab genes play major role in determining personality \tab it is experience that determine personality \tab no answer \tab not available in this year \tab Total \cr
@@ -57,25 +78,24 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} genes play major role in determining personality
-\item \code{2} it is experience that determine personality
-\item \code{9} refused
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Genes and the Environment: 
+\code{\link{athletic}},
+\code{\link{depndabl}},
+\code{\link{intrwght}},
+\code{\link{kindpers}},
+\code{\link{moregood}},
+\code{\link{owndoing}},
+\code{\link{sadblue}},
+\code{\link{selfish}}
+}
+\concept{Genes and the Environment}
+\concept{Genetic Testing}
 \keyword{variable}

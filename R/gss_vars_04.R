@@ -1,11 +1,151 @@
+#'  Ever been divorced or separated
+#' 
+#'  divorce
+#' 
+#' Question Are you currently--married, widowed, divorced, separated, or have you never been married?
+#'  B. IF CURRENTLY MARRIED OR WIDOWED:  Have you ever been divorced or legally separated?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/21/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |no    |no answer |yes  |don't know |skipped on web |Total |
+#'  |:-----|:-----|:-----|:---------|:----|:----------|:--------------|:-----|
+#'  |1972  |314   |1078  |38        |183  |-          |-              |1613  |
+#'  |1973  |305   |1035  |6         |158  |-          |-              |1504  |
+#'  |1974  |298   |1015  |5         |166  |-          |-              |1484  |
+#'  |1975  |344   |969   |3         |174  |-          |-              |1490  |
+#'  |1976  |356   |978   |10        |155  |-          |-              |1499  |
+#'  |1977  |390   |947   |14        |179  |-          |-              |1530  |
+#'  |1978  |418   |928   |6         |180  |-          |-              |1532  |
+#'  |1980  |415   |872   |12        |169  |-          |-              |1468  |
+#'  |1982  |645   |980   |7         |228  |-          |-              |1860  |
+#'  |1983  |472   |938   |4         |185  |-          |-              |1599  |
+#'  |1984  |490   |809   |7         |167  |-          |-              |1473  |
+#'  |1985  |502   |837   |6         |189  |-          |-              |1534  |
+#'  |1986  |474   |806   |4         |186  |-          |-              |1470  |
+#'  |1987  |686   |910   |9         |214  |-          |-              |1819  |
+#'  |1988  |532   |761   |6         |182  |-          |-              |1481  |
+#'  |1989  |537   |809   |5         |186  |-          |-              |1537  |
+#'  |1990  |472   |700   |6         |194  |-          |-              |1372  |
+#'  |1991  |545   |768   |4         |200  |-          |-              |1517  |
+#'  |1993  |574   |812   |7         |213  |-          |-              |1606  |
+#'  |1994  |1163  |1398  |8         |422  |1          |-              |2992  |
+#'  |1996  |1230  |1269  |15        |389  |1          |-              |2904  |
+#'  |1998  |1202  |1242  |22        |366  |-          |-              |2832  |
+#'  |2000  |1265  |1172  |23        |357  |-          |-              |2817  |
+#'  |2002  |1249  |1155  |-         |361  |-          |-              |2765  |
+#'  |2004  |1129  |1278  |3         |402  |-          |-              |2812  |
+#'  |2006  |1968  |1870  |6         |665  |1          |-              |4510  |
+#'  |2008  |882   |859   |5         |277  |-          |-              |2023  |
+#'  |2010  |971   |813   |2         |258  |-          |-              |2044  |
+#'  |2012  |911   |799   |1         |263  |-          |-              |1974  |
+#'  |2014  |1167  |1019  |6         |346  |-          |-              |2538  |
+#'  |2016  |1403  |1084  |6         |374  |-          |-              |2867  |
+#'  |2018  |1148  |896   |6         |298  |-          |-              |2348  |
+#'  |2021  |1722  |1695  |1         |605  |-          |9              |4032  |
+#'  |2022  |1821  |1237  |8         |475  |-          |3              |3544  |
+#'  |2024  |1703  |1207  |1         |397  |1          |-              |3309  |
+#'  |Total |29703 |35945 |272       |9763 |4          |12             |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Divorce
+#' @family Family
+#' @family Marital Status
+#' 
+#' @keywords variable
+#' @md
+#' @name divorce
+NULL
+
+
 #'  Ever been widowed
 #' 
 #'  widowed
 #' 
-#' Question 4c. if currently married, separated, or divorced: Have you ever been widowed?
+#' Question Are you currently--married, widowed, divorced, separated, or have you never been married?
+#'  C. IF CURRENTLY MARRIED, SEPARATED, OR DIVORCED: Have you ever been widowed?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/22/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,10 +188,61 @@
 #'  |2024  |1333  |1909  |-         |66   |-          |1              |3309  |
 #'  |Total |38874 |35118 |584       |1106 |6          |11             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Family
+#' @family Marital Status
+#' 
+#' @keywords variable
+#' @md
+#' @name widowed
+NULL
+
+
+#'  Spouse labor force status
+#' 
+#'  spwrksta
+#' 
+#' Question Last week was your (wife/husband) working full time, part time, going to school, keeping house, or what?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` working full time
+#'   * `2` working part time
+#'   * `3` with a job, but not at work because of temporary illness, vacation, strike
+#'   * `4` unemployed, laid off, looking for work
+#'   * `5` retired
+#'   * `6` in school
+#'   * `7` keeping house
+#'   * `8` other
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -65,22 +256,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name widowed
-NULL
-
-#'  Spouse labor force status
-#' 
-#'  spwrksta
-#' 
-#' Question 5. Last week was your (wife/husband) working full time, part time, going to school, keeping house, or what?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/23/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,16 +300,67 @@ NULL
 #'  |2024  |1946  |13        |135           |2         |31    |355     |29                                     |26                                                                         |656               |108               |4              |4          |3309  |
 #'  |Total |36708 |411       |6391          |113       |741   |5337    |788                                    |760                                                                        |20985             |3442              |16             |7          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Labor Force Status
+#' 
+#' @keywords variable
+#' @md
+#' @name spwrksta
+NULL
+
+
+#'  Number of hrs spouse worked last week
+#' 
+#'  sphrs1
+#' 
+#' Question Last week was your (wife/husband) working full time, part time, going to school, keeping house, or what?
+#'  A. IF WORKING, FULL OR PART TIME:  How many hours did (he/she) work last week, at all jobs?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` working full time
-#'   * `2` working part time
-#'   * `3` with a job, but not at work because of temporary illness, vacation, strike
-#'   * `4` unemployed, laid off, looking for work
-#'   * `5` retired
-#'   * `6` in school
-#'   * `7` keeping house
-#'   * `8` other
+#'   * `89` 89+ hours
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -146,22 +374,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name spwrksta
-NULL
-
-#'  Number of hrs spouse worked last week
-#' 
-#'  sphrs1
-#' 
-#' Question 5a. If working, full or part time: How many hours did (he/she) work last week, at all jobs?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/24/vshow).
 #'
 #' Counts by year: 
 #'
@@ -204,6 +418,65 @@ NULL
 #'  |2024  |2539  |10  |1  |6   |3   |-   |3  |-  |29  |-  |1  |9   |10  |1  |1  |28  |6   |-  |6   |8   |1   |9   |-  |-  |391   |5   |5  |4   |38   |9   |-  |59   |-  |6   |-  |9   |1   |-  |1  |-  |41   |-  |-  |3   |-  |5   |1  |-  |-  |-  |8   |8   |3  |5         |6          |2         |1  |1  |-  |1  |2  |3   |1  |2  |-  |-  |-  |-  |1  |1  |-  |-  |-  |-  |1  |-  |-  |-  |-  |1  |-  |-  |-  |-  |-  |-  |4  |-  |-  |1  |-  |8              |3309  |
 #'  |Total |51803 |189 |9  |115 |194 |207 |68 |13 |706 |30 |47 |315 |296 |77 |27 |711 |357 |16 |523 |222 |154 |234 |33 |36 |10330 |200 |87 |190 |1117 |594 |37 |2118 |22 |126 |76 |455 |126 |17 |45 |5  |1410 |29 |13 |203 |23 |321 |96 |8  |58 |2  |132 |220 |40 |139       |121        |236       |13 |15 |36 |15 |38 |109 |51 |52 |22 |4  |4  |13 |21 |30 |39 |18 |9  |5  |15 |28 |19 |7  |3  |13 |11 |7  |6  |14 |12 |4  |21 |5  |1  |23 |1  |37             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Hours Worked
+#' @family Job
+#' @family Labor Force Status
+#' 
+#' @keywords variable
+#' @md
+#' @name sphrs1
+NULL
+
+
+#'  No. of hrs spouse usually works a week
+#' 
+#'  sphrs2
+#' 
+#' Question Last week was your (wife/husband) working full time, part time, going to school, keeping house, or what?
+#'  B. IF WITH A JOB, BUT NOT AT WORK: How many hours a week does (he/she) usually work, at all jobs?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `89` 89+ hours
@@ -220,22 +493,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name sphrs1
-NULL
-
-#'  No. of hrs spouse usually works a week
-#' 
-#'  sphrs2
-#' 
-#' Question 5b. If with a job, but not at work: How many hours a week does (he/she) usually work, at all jobs?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/25/vshow).
 #'
 #' Counts by year: 
 #'
@@ -278,9 +537,69 @@ NULL
 #'  |2024  |3277  |-  |-  |1  |1  |10  |1  |-  |-  |-          |2         |-  |1  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |4  |1  |1  |-  |3  |-  |2  |-  |-  |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |4              |1  |3309  |
 #'  |Total |74817 |2  |5  |23 |20 |351 |16 |46 |2  |5          |157       |1  |8  |5  |6  |2  |2  |4  |1  |4  |3  |1  |5  |1  |48 |13 |22 |7  |28 |1  |6  |2  |6  |2         |7  |3  |11 |1  |3  |2  |4  |5  |1  |4  |1  |2  |5  |1  |1  |1  |1  |2  |1  |1  |19             |1  |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Hours Worked
+#' @family Job
+#' @family Labor Force Status
+#' 
+#' @keywords variable
+#' @md
+#' @name sphrs2
+NULL
+
+
+#'  Spouse ever work as long as a year
+#' 
+#'  spevwork
+#' 
+#' Question Last week was your (wife/husband) working full time, part time, going to school, keeping house, or what?
+#'  C. IF RETIRED, IN SCHOOL, KEEPING HOUSE, OR OTHER:  Did (he/she) ever work for as long as one year?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `89` 89+ hours
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -294,22 +613,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name sphrs2
-NULL
-
-#'  Spouse ever work as long as a year
-#' 
-#'  spevwork
-#' 
-#' Question 5c. If retired, in school, keeping house, or other: Did (he/she) ever work for as long as one year?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/26/vshow).
 #'
 #' Counts by year: 
 #'
@@ -352,10 +657,73 @@ NULL
 #'  |2024  |2765  |60   |2         |473   |4          |5              |3309  |
 #'  |Total |62664 |2156 |138       |10678 |45         |18             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Labor Force Status
+#' 
+#' @keywords variable
+#' @md
+#' @name spevwork
+NULL
+
+
+#'  Partner's labor force status
+#' 
+#'  cowrksta
+#' 
+#' Question Last week was your partner working full time, part time, going to school, keeping house, or what?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` working full time
+#'   * `2` working part time
+#'   * `3` with a job, but not at work because of temporary illness, vacation, strike
+#'   * `4` unemployed, laid off, looking for work
+#'   * `5` retired
+#'   * `6` in school
+#'   * `7` keeping house
+#'   * `8` other
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -369,22 +737,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name spevwork
-NULL
-
-#'  Partner's labor force status
-#' 
-#'  cowrksta
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6152/vshow).
 #'
 #' Counts by year: 
 #'
@@ -427,16 +781,45 @@ NULL
 #'  |2024  |3048  |3         |19            |4     |22      |17                                     |4                                                                          |158               |31                |2         |1              |3309  |
 #'  |Total |73879 |47        |159           |49    |148     |121                                    |32                                                                         |1066              |182               |15        |1              |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name cowrksta
+NULL
+
+
+#'  Partner self-emp. or works for somebody else
+#' 
+#'  cowrkslf
+#' 
+#' Question A. What kind of work (does/did) your (PARTNER) normally do? That is, what (is/was) (his/her) job called?
+#' OCCUPATION: (See REMARKS) 
+#' B. What (does/did) (PARTNER) actually do in that job? Tell me, what (are/were) some of (his/her) main duties?
+#' C. What kind of place (does/did) (PARTNER) work for?
+#' INDUSTRY: (See REMARKS) 
+#' D. What (do/did) they (make/do)?
+#' E. (Is/Was) (he/she) self-employed or (does/did) (he/she) work for someone else?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` working full time
-#'   * `2` working part time
-#'   * `3` with a job, but not at work because of temporary illness, vacation, strike
-#'   * `4` unemployed, laid off, looking for work
-#'   * `5` retired
-#'   * `6` in school
-#'   * `7` keeping house
-#'   * `8` other
+#'   * `1` self-employed
+#'   * `2` someone else
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -450,22 +833,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name cowrksta
-NULL
-
-#'  Partner self-emp. or works for somebody else
-#' 
-#'  cowrkslf
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6153/vshow).
 #'
 #' Counts by year: 
 #'
@@ -508,10 +877,39 @@ NULL
 #'  |2024  |-     |-          |-         |-             |-            |-              |3309                          |3309  |
 #'  |Total |70915 |10         |21        |149           |1289         |6              |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name cowrkslf
+NULL
+
+
+#'  Partner ever work as long as a year
+#' 
+#'  coevwork
+#' 
+#' Question Last week was your partner working full time, part time, going to school, keeping house, or what? C. IF RETIRED, IN SCHOOL, KEEPING HOUSE, OR OTHER: Did (he/she) ever work for as long as one year?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` self-employed
-#'   * `2` someone else
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -525,22 +923,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name cowrkslf
-NULL
-
-#'  Partner ever work as long as a year
-#' 
-#'  coevwork
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6154/vshow).
 #'
 #' Counts by year: 
 #'
@@ -583,10 +967,39 @@ NULL
 #'  |2024  |3258  |-          |7  |2         |41  |1              |3309  |
 #'  |Total |75277 |17         |74 |16        |313 |2              |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name coevwork
+NULL
+
+
+#'  Number of hours partner worked last week
+#' 
+#'  cohrs1
+#' 
+#' Question Last week was your (partner) working full time, part time, going to school, keeping house, or what?
+#'  A. IF WORKING, FULL OR PART TIME:  How many hours did (he/she) work last week, at all jobs?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `89` 89+ hours
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -600,22 +1013,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name coevwork
-NULL
-
-#'  Number of hours partner worked last week
-#' 
-#'  cohrs1
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6155/vshow).
 #'
 #' Counts by year: 
 #'
@@ -658,101 +1057,25 @@ NULL
 #'  |2024  |3117  |1  |4  |7  |2  |8  |5  |9  |2  |2  |1  |85  |4  |7  |3  |11  |1  |10 |-  |1  |-  |1         |2          |3  |1  |-  |-  |-  |-  |1  |-  |-  |-  |3  |-  |1  |1  |2         |1  |-  |-  |-  |-  |1  |-  |1  |-  |1  |-  |-  |2  |1  |1  |-  |1  |-  |2              |-  |1  |-  |-  |1  |1  |3309  |
 #'  |Total |74438 |7  |16 |31 |17 |62 |17 |30 |18 |10 |5  |528 |17 |50 |26 |106 |21 |81 |2  |20 |2  |9         |21         |15 |5  |5  |3  |4  |2  |5  |1  |2  |2  |13 |1  |7  |12 |15        |6  |3  |1  |7  |6  |4  |3  |2  |1  |4  |2  |1  |8  |2  |3  |1  |2  |1  |6              |3  |3  |1  |1  |1  |1  |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `89` 89+ hours
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
 #' 
 #' @keywords variable
 #' @md
 #' @name cohrs1
 NULL
 
-#'  No. of hours partner usually works a week
-#' 
-#'  cohrs2
-#' 
-#' Question None
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |30 |42 |40 |50 |don't know |no answer |34 |52 |32 |25 |35 |70 |89+ hours |45 |skipped on web |Total |
-#'  |:-----|:-----|:--|:--|:--|:--|:----------|:---------|:--|:--|:--|:--|:--|:--|:---------|:--|:--------------|:-----|
-#'  |1972  |1613  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |1613  |
-#'  |1973  |1504  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |1504  |
-#'  |1974  |1484  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |1484  |
-#'  |1975  |1490  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |1490  |
-#'  |1976  |1499  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |1499  |
-#'  |1977  |1530  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |1530  |
-#'  |1978  |1532  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |1532  |
-#'  |1980  |1468  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |1468  |
-#'  |1982  |1860  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |1860  |
-#'  |1983  |1599  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |1599  |
-#'  |1984  |1473  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |1473  |
-#'  |1985  |1534  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |1534  |
-#'  |1986  |1470  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |1470  |
-#'  |1987  |1819  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |1819  |
-#'  |1988  |1481  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |1481  |
-#'  |1989  |1537  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |1537  |
-#'  |1990  |1372  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |1372  |
-#'  |1991  |1517  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |1517  |
-#'  |1993  |1606  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |1606  |
-#'  |1994  |2992  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |2992  |
-#'  |1996  |2904  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |2904  |
-#'  |1998  |2832  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |2832  |
-#'  |2000  |2817  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |2817  |
-#'  |2002  |2765  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |2765  |
-#'  |2004  |2812  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |2812  |
-#'  |2006  |4510  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |4510  |
-#'  |2008  |2023  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |2023  |
-#'  |2010  |2044  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |2044  |
-#'  |2012  |1972  |1  |1  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-         |-  |-              |1974  |
-#'  |2014  |2532  |-  |-  |1  |1  |1          |3         |-  |-  |-  |-  |-  |-  |-         |-  |-              |2538  |
-#'  |2016  |2862  |-  |-  |2  |1  |-          |-         |1  |1  |-  |-  |-  |-  |-         |-  |-              |2867  |
-#'  |2018  |2343  |-  |-  |1  |2  |1          |-         |-  |-  |1  |-  |-  |-  |-         |-  |-              |2348  |
-#'  |2021  |4014  |1  |-  |5  |-  |-          |8         |-  |-  |-  |1  |1  |1  |1         |-  |-              |4032  |
-#'  |2022  |3539  |1  |-  |3  |-  |-          |1         |-  |-  |-  |-  |-  |-  |-         |-  |-              |3544  |
-#'  |2024  |3302  |-  |-  |3  |-  |-          |2         |-  |-  |-  |-  |-  |-  |-         |1  |1              |3309  |
-#'  |Total |75651 |3  |1  |15 |4  |2          |14        |1  |1  |1  |1  |1  |1  |1         |1  |1              |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `89` 89+ hours
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name cohrs2
-NULL
 

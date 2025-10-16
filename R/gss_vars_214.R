@@ -1,11 +1,196 @@
+#'  In what order talk things over with family & friends
+#' 
+#'  ortlkfm
+#' 
+#' Question Here are the things you said NAME should do. INTERVIEWER: READ "YES" ANSWERS AND ASK: In what order should s/he do them? 
+#' A. Talk things over with family and friends.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2021/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |1    |10 |2   |3   |4   |5   |6  |7  |8  |9  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:-----|:----|:--|:---|:---|:---|:---|:--|:--|:--|:--|:----------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |1613  |
+#'  |1973  |1504  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |1504  |
+#'  |1974  |1484  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |1484  |
+#'  |1975  |1490  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |1490  |
+#'  |1976  |1499  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |1499  |
+#'  |1977  |1530  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |1530  |
+#'  |1978  |1532  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |1532  |
+#'  |1980  |1468  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |1468  |
+#'  |1982  |1860  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |1860  |
+#'  |1983  |1599  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |1599  |
+#'  |1984  |1473  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |1473  |
+#'  |1985  |1534  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |1534  |
+#'  |1986  |1470  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |1470  |
+#'  |1987  |1819  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |1819  |
+#'  |1988  |1481  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |1481  |
+#'  |1989  |1537  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |1537  |
+#'  |1990  |1372  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |1372  |
+#'  |1991  |1517  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |1517  |
+#'  |1993  |1606  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |1606  |
+#'  |1994  |2992  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |2992  |
+#'  |1996  |1527  |701  |1  |186 |123 |102 |62  |41 |14 |9  |4  |2          |132       |-                          |2904  |
+#'  |1998  |2832  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |2832  |
+#'  |2000  |2817  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |2817  |
+#'  |2002  |2765  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |2765  |
+#'  |2004  |2812  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |2812  |
+#'  |2006  |3147  |802  |1  |145 |111 |79  |76  |51 |37 |12 |7  |-          |42        |-                          |4510  |
+#'  |2008  |2023  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |2023  |
+#'  |2010  |2044  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |2044  |
+#'  |2012  |1974  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |1974  |
+#'  |2014  |2538  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |2538  |
+#'  |2016  |2867  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |2867  |
+#'  |2018  |2348  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |2348  |
+#'  |2021  |4032  |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-                          |4032  |
+#'  |2022  |-     |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |3544                       |3544  |
+#'  |2024  |-     |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |3309                       |3309  |
+#'  |Total |66106 |1503 |2  |331 |234 |181 |138 |92 |51 |21 |11 |2          |174       |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name ortlkfm
+NULL
+
+
+#'  In what order talk to a minister, priest, rabbi etc
+#' 
+#'  ortlkclr
+#' 
+#' Question Here are the things you said NAME should do. INTERVIEWER: READ "YES" ANSWERS AND ASK: In what order should s/he do them? 
+#' B. Talk to a minister, priest, rabbi or other religious leader.                                             
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2022/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |1   |10 |2   |3   |4   |5   |6   |7   |8  |9  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:-----|:---|:--|:---|:---|:---|:---|:---|:---|:--|:--|:----------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |1613  |
+#'  |1973  |1504  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |1504  |
+#'  |1974  |1484  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |1484  |
+#'  |1975  |1490  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |1490  |
+#'  |1976  |1499  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |1499  |
+#'  |1977  |1530  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |1530  |
+#'  |1978  |1532  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |1532  |
+#'  |1980  |1468  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |1468  |
+#'  |1982  |1860  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |1860  |
+#'  |1983  |1599  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |1599  |
+#'  |1984  |1473  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |1473  |
+#'  |1985  |1534  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |1534  |
+#'  |1986  |1470  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |1470  |
+#'  |1987  |1819  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |1819  |
+#'  |1988  |1481  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |1481  |
+#'  |1989  |1537  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |1537  |
+#'  |1990  |1372  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |1372  |
+#'  |1991  |1517  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |1517  |
+#'  |1993  |1606  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |1606  |
+#'  |1994  |2992  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |2992  |
+#'  |1996  |1699  |109 |1  |316 |183 |154 |122 |90  |61  |22 |4  |3          |140       |-                          |2904  |
+#'  |1998  |2832  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |2832  |
+#'  |2000  |2817  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |2817  |
+#'  |2002  |2765  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |2765  |
+#'  |2004  |2812  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |2812  |
+#'  |2006  |3288  |74  |-  |379 |185 |131 |121 |124 |100 |60 |13 |-          |35        |-                          |4510  |
+#'  |2008  |2023  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |2023  |
+#'  |2010  |2044  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |2044  |
+#'  |2012  |1974  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |1974  |
+#'  |2014  |2538  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |2538  |
+#'  |2016  |2867  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |2867  |
+#'  |2018  |2348  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |2348  |
+#'  |2021  |4032  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-                          |4032  |
+#'  |2022  |-     |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |3544                       |3544  |
+#'  |2024  |-     |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |3309                       |3309  |
+#'  |Total |66419 |183 |1  |695 |368 |285 |243 |214 |161 |82 |17 |3          |175       |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name ortlkclr
+NULL
+
+
 #'  In what order go to a general medical doctor
 #' 
 #'  ormeddoc
 #' 
-#' Question 660. Here are the things you said NAME should do. INTERVIEWER: READ "YES" ANSWERS AND ASK: In what order should s/he do them? c. Go to a general medical doctor for help
+#' Question Here are the things you said NAME should do. INTERVIEWER: READ "YES" ANSWERS AND ASK: In what order should s/he do them? 
+#' C. Go to a general medical doctor for help.
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2023/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +233,31 @@
 #'  |2024  |-     |-   |-   |-   |-   |-   |-   |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |66583 |435 |584 |520 |241 |157 |107 |45 |20 |3  |4          |147       |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name ormeddoc
+NULL
+
+
+#'  In what order go to a psychiatrist for help
+#' 
+#'  ormntldc
+#' 
+#' Question Here are the things you said NAME should do. INTERVIEWER: READ "YES" ANSWERS AND ASK: In what order should s/he do them? 
+#' D. Go to a psychiatrist for help.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -63,22 +273,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name ormeddoc
-NULL
-
-#'  In what order go to a psychiatrist for help
-#' 
-#'  ormntldc
-#' 
-#' Question 660. Here are the things you said NAME should do. INTERVIEWER: READ "YES" ANSWERS AND ASK: In what order should s/he do them? d. Go to a psychiatrist for help
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2024/vshow).
 #'
 #' Counts by year: 
 #'
@@ -121,6 +317,31 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |66729 |167 |271 |392 |433 |319 |221 |108 |36 |6  |4          |160       |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name ormntldc
+NULL
+
+
+#'  In what order go to a therapist, or counselor
+#' 
+#'  ormntlot
+#' 
+#' Question Here are the things you said NAME should do. INTERVIEWER: READ "YES" ANSWERS AND ASK: In what order should s/he do them? 
+#' E. Go to a therapist, or counselor, like a psychologist, social worker, or other mental health professional for help.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -136,22 +357,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name ormntldc
-NULL
-
-#'  In what order go to a therapist, or counselor
-#' 
-#'  ormntlot
-#' 
-#' Question 660. Here are the things you said NAME should do. INTERVIEWER: READ "YES" ANSWERS AND ASK: In what order should s/he do them? e. Go to a therapist, or counselor, like a psychologist, social worker, or other mental health professional for help
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2025/vshow).
 #'
 #' Counts by year: 
 #'
@@ -194,6 +401,31 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-   |-   |-   |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |66410 |181 |318 |459 |526 |464 |197 |80 |19 |6  |3          |183       |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name ormntlot
+NULL
+
+
+#'  In what order go to a spiritual or a natural healer
+#' 
+#'  orhealer
+#' 
+#' Question Here are the things you said NAME should do. INTERVIEWER: READ "YES" ANSWERS AND ASK: In what order should s/he do them? 
+#' F. Go to a spiritual or a natural healer for help.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -209,22 +441,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name ormntlot
-NULL
-
-#'  In what order go to a spiritual or a natural healer
-#' 
-#'  orhealer
-#' 
-#' Question 660. Here are the things you said NAME should do. INTERVIEWER: READ "YES" ANSWERS AND ASK: In what order should s/he do them? f. Go to a spiritual or a natural leader for help
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2026/vshow).
 #'
 #' Counts by year: 
 #'
@@ -267,6 +485,31 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-   |-   |-   |-   |-  |-          |-         |3309                       |3309  |
 #'  |Total |67951 |12 |6  |35 |52 |76 |106 |178 |156 |113 |66 |1          |94        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name orhealer
+NULL
+
+
+#'  In what order join a self-help group
+#' 
+#'  orslfhlp
+#' 
+#' Question Here are the things you said NAME should do. INTERVIEWER: READ "YES" ANSWERS AND ASK: In what order should s/he do them? 
+#' G. Join a self-help group where people with similar problems help each other.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -282,22 +525,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name orhealer
-NULL
-
-#'  In what order join a self-help group
-#' 
-#'  orslfhlp
-#' 
-#' Question 660. Here are the things you said NAME should do. INTERVIEWER: READ "YES" ANSWERS AND ASK: In what order should s/he do them? g. Join a self-help group where people with similar problems help each other
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2027/vshow).
 #'
 #' Counts by year: 
 #'
@@ -340,6 +569,31 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-   |-   |-   |-   |-  |-  |-          |-         |-  |3309                       |3309  |
 #'  |Total |66456 |121 |257 |312 |360 |406 |387 |264 |74 |19 |2          |186       |2  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name orslfhlp
+NULL
+
+
+#'  In what order take non-prescription medication
+#' 
+#'  orotcmed
+#' 
+#' Question Here are the things you said NAME should do. INTERVIEWER: READ "YES" ANSWERS AND ASK: In what order should s/he do them? 
+#' H. Take non-prescription medication, like over the counter sleeping pills.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -355,22 +609,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name orslfhlp
-NULL
-
-#'  In what order take non-prescription medication
-#' 
-#'  orotcmed
-#' 
-#' Question 660. Here are the things you said NAME should do. INTERVIEWER: READ "YES" ANSWERS AND ASK: In what order should s/he do them? h. Take non-prescription medication, like over the counter sleeping pills
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2028/vshow).
 #'
 #' Counts by year: 
 #'
@@ -413,6 +653,31 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |3309                       |3309  |
 #'  |Total |68509 |7  |9  |17 |15 |40 |21 |47 |40 |49 |18 |74        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name orotcmed
+NULL
+
+
+#'  In what order take prescription medication
+#' 
+#'  orrxmed
+#' 
+#' Question Here are the things you said NAME should do. INTERVIEWER: READ "YES" ANSWERS AND ASK: In what order should s/he do them? 
+#' I. Take prescription medication.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -428,22 +693,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name orotcmed
-NULL
-
-#'  In what order take prescription medication
-#' 
-#'  orrxmed
-#' 
-#' Question 660. Here are the things you said NAME should do. INTERVIEWER: READ "YES" ANSWERS AND ASK: In what order should s/he do them? i. take prescription medication
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2029/vshow).
 #'
 #' Counts by year: 
 #'
@@ -486,6 +737,31 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-   |-   |-   |-   |-   |-   |-  |-          |-         |3309                       |3309  |
 #'  |Total |67003 |10 |1  |91 |163 |236 |273 |323 |346 |195 |51 |3          |151       |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name orrxmed
+NULL
+
+
+#'  In what order check into a mental hospital
+#' 
+#'  ormntlhs
+#' 
+#' Question Here are the things you said NAME should do. INTERVIEWER: READ "YES" ANSWERS AND ASK: In what order should s/he do them? 
+#' J. Check into a mental hospital.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -501,22 +777,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name orrxmed
-NULL
-
-#'  In what order check into a mental hospital
-#' 
-#'  ormntlhs
-#' 
-#' Question 660. Here are the things you said NAME should do. INTERVIEWER: READ "YES" ANSWERS AND ASK: In what order should s/he do them? j. Check into a mental hospital
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2030/vshow).
 #'
 #' Counts by year: 
 #'
@@ -559,176 +821,20 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-   |-   |-  |-          |-         |3309                       |3309  |
 #'  |Total |67888 |57 |40 |40 |46 |50 |78 |87 |146 |192 |98 |3          |121       |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
 #' @name ormntlhs
 NULL
 
-#'  X should be forced to be examined at a clinic by law
-#' 
-#'  mustdoc
-#' 
-#' Question 661. Some cities and states have laws that force people with problems like NAME into treatment. Do you think that people like NAME should be forced by law to... a. Get treatment at a clinic or from a doctor
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no   |no answer |yes  |not available in this year |skipped on web |Total |
-#'  |:-----|:-----|:----------|:----|:---------|:----|:--------------------------|:--------------|:-----|
-#'  |1972  |1613  |-          |-    |-         |-    |-                          |-              |1613  |
-#'  |1973  |1504  |-          |-    |-         |-    |-                          |-              |1504  |
-#'  |1974  |1484  |-          |-    |-         |-    |-                          |-              |1484  |
-#'  |1975  |1490  |-          |-    |-         |-    |-                          |-              |1490  |
-#'  |1976  |1499  |-          |-    |-         |-    |-                          |-              |1499  |
-#'  |1977  |1530  |-          |-    |-         |-    |-                          |-              |1530  |
-#'  |1978  |1532  |-          |-    |-         |-    |-                          |-              |1532  |
-#'  |1980  |1468  |-          |-    |-         |-    |-                          |-              |1468  |
-#'  |1982  |1860  |-          |-    |-         |-    |-                          |-              |1860  |
-#'  |1983  |1599  |-          |-    |-         |-    |-                          |-              |1599  |
-#'  |1984  |1473  |-          |-    |-         |-    |-                          |-              |1473  |
-#'  |1985  |1534  |-          |-    |-         |-    |-                          |-              |1534  |
-#'  |1986  |1470  |-          |-    |-         |-    |-                          |-              |1470  |
-#'  |1987  |1819  |-          |-    |-         |-    |-                          |-              |1819  |
-#'  |1988  |1481  |-          |-    |-         |-    |-                          |-              |1481  |
-#'  |1989  |1537  |-          |-    |-         |-    |-                          |-              |1537  |
-#'  |1990  |1372  |-          |-    |-         |-    |-                          |-              |1372  |
-#'  |1991  |1517  |-          |-    |-         |-    |-                          |-              |1517  |
-#'  |1993  |1606  |-          |-    |-         |-    |-                          |-              |1606  |
-#'  |1994  |2992  |-          |-    |-         |-    |-                          |-              |2992  |
-#'  |1996  |1460  |79         |844  |18        |503  |-                          |-              |2904  |
-#'  |1998  |2832  |-          |-    |-         |-    |-                          |-              |2832  |
-#'  |2000  |2817  |-          |-    |-         |-    |-                          |-              |2817  |
-#'  |2002  |2765  |-          |-    |-         |-    |-                          |-              |2765  |
-#'  |2004  |2812  |-          |-    |-         |-    |-                          |-              |2812  |
-#'  |2006  |3073  |52         |956  |16        |413  |-                          |-              |4510  |
-#'  |2008  |2023  |-          |-    |-         |-    |-                          |-              |2023  |
-#'  |2010  |2044  |-          |-    |-         |-    |-                          |-              |2044  |
-#'  |2012  |1974  |-          |-    |-         |-    |-                          |-              |1974  |
-#'  |2014  |2538  |-          |-    |-         |-    |-                          |-              |2538  |
-#'  |2016  |2867  |-          |-    |-         |-    |-                          |-              |2867  |
-#'  |2018  |1175  |30         |693  |28        |422  |-                          |-              |2348  |
-#'  |2021  |4032  |-          |-    |-         |-    |-                          |-              |4032  |
-#'  |2022  |-     |-          |-    |-         |-    |3544                       |-              |3544  |
-#'  |2024  |1693  |45         |1010 |12        |519  |-                          |30             |3309  |
-#'  |Total |66485 |206        |3503 |74        |1857 |3544                       |30             |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name mustdoc
-NULL
-
-#'  X should be forced to take prescribed medication by law
-#' 
-#'  mustmed
-#' 
-#' Question 661. Some cities and states have laws that force people with problems like NAME into treatment. Do you think that people like NAME should be forced by law to... b. Take a prescription medication to control his/her behavior
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no   |no answer |yes  |not available in this year |skipped on web |Total |
-#'  |:-----|:-----|:----------|:----|:---------|:----|:--------------------------|:--------------|:-----|
-#'  |1972  |1613  |-          |-    |-         |-    |-                          |-              |1613  |
-#'  |1973  |1504  |-          |-    |-         |-    |-                          |-              |1504  |
-#'  |1974  |1484  |-          |-    |-         |-    |-                          |-              |1484  |
-#'  |1975  |1490  |-          |-    |-         |-    |-                          |-              |1490  |
-#'  |1976  |1499  |-          |-    |-         |-    |-                          |-              |1499  |
-#'  |1977  |1530  |-          |-    |-         |-    |-                          |-              |1530  |
-#'  |1978  |1532  |-          |-    |-         |-    |-                          |-              |1532  |
-#'  |1980  |1468  |-          |-    |-         |-    |-                          |-              |1468  |
-#'  |1982  |1860  |-          |-    |-         |-    |-                          |-              |1860  |
-#'  |1983  |1599  |-          |-    |-         |-    |-                          |-              |1599  |
-#'  |1984  |1473  |-          |-    |-         |-    |-                          |-              |1473  |
-#'  |1985  |1534  |-          |-    |-         |-    |-                          |-              |1534  |
-#'  |1986  |1470  |-          |-    |-         |-    |-                          |-              |1470  |
-#'  |1987  |1819  |-          |-    |-         |-    |-                          |-              |1819  |
-#'  |1988  |1481  |-          |-    |-         |-    |-                          |-              |1481  |
-#'  |1989  |1537  |-          |-    |-         |-    |-                          |-              |1537  |
-#'  |1990  |1372  |-          |-    |-         |-    |-                          |-              |1372  |
-#'  |1991  |1517  |-          |-    |-         |-    |-                          |-              |1517  |
-#'  |1993  |1606  |-          |-    |-         |-    |-                          |-              |1606  |
-#'  |1994  |2992  |-          |-    |-         |-    |-                          |-              |2992  |
-#'  |1996  |1460  |82         |970  |20        |372  |-                          |-              |2904  |
-#'  |1998  |2832  |-          |-    |-         |-    |-                          |-              |2832  |
-#'  |2000  |2817  |-          |-    |-         |-    |-                          |-              |2817  |
-#'  |2002  |2765  |-          |-    |-         |-    |-                          |-              |2765  |
-#'  |2004  |2812  |-          |-    |-         |-    |-                          |-              |2812  |
-#'  |2006  |3073  |52         |999  |15        |371  |-                          |-              |4510  |
-#'  |2008  |2023  |-          |-    |-         |-    |-                          |-              |2023  |
-#'  |2010  |2044  |-          |-    |-         |-    |-                          |-              |2044  |
-#'  |2012  |1974  |-          |-    |-         |-    |-                          |-              |1974  |
-#'  |2014  |2538  |-          |-    |-         |-    |-                          |-              |2538  |
-#'  |2016  |2867  |-          |-    |-         |-    |-                          |-              |2867  |
-#'  |2018  |1175  |32         |795  |28        |318  |-                          |-              |2348  |
-#'  |2021  |4032  |-          |-    |-         |-    |-                          |-              |4032  |
-#'  |2022  |-     |-          |-    |-         |-    |3544                       |-              |3544  |
-#'  |2024  |1693  |52         |1086 |13        |435  |-                          |30             |3309  |
-#'  |Total |66485 |218        |3850 |76        |1496 |3544                       |30             |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name mustmed
-NULL
 

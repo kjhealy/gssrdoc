@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 schlhead
 }
 \details{
-Question 349. What is the name of the head of the local school system?
+Question What is the name of the head of the local school system? (CORRECT ANSWERS INCLUDE THE NAME OF THE HEAD OF THE LOCAL SCHOOL BOARD OR THE NAME OF THE SUPERINTENDENT OF SCHOOLS).
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} correct
+\item \code{2} incorrect
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1037/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab correct \tab don't know \tab incorrect \tab no answer \tab not available in this year \tab Total \cr
@@ -57,24 +77,41 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} correct
-\item \code{2} incorrect
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1987 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Socio-political participation: 
+\code{\link{fedtrust}},
+\code{\link{governor}},
+\code{\link{loclobby}},
+\code{\link{locself}},
+\code{\link{locvote}},
+\code{\link{othlobby}},
+\code{\link{othself}},
+\code{\link{polrally}},
+\code{\link{usrep}}
+
+Other Knowledge: 
+\code{\link{governor}},
+\code{\link{usrep}}
+
+Other Political: 
+\code{\link{governor}},
+\code{\link{loclobby}},
+\code{\link{locself}},
+\code{\link{locvote}},
+\code{\link{othlobby}},
+\code{\link{othself}},
+\code{\link{polrally}},
+\code{\link{usrep}}
+}
+\concept{Education}
+\concept{Knowledge}
+\concept{Political}
+\concept{Socio-political participation}
 \keyword{variable}

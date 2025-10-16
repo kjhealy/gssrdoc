@@ -11,10 +11,35 @@ pandmet
 }
 \details{
 Question Thinking about how often you met with your extended family and friends in person before the COVID-19 pandemic, would you say you now meet them in person more often, less often, or about the same?
+
+NOTE: This variable originates on the GSS Next follow-on, and should not be analyzed without the GSS Next-specific weights WTSSPS_NEXT or WTSSNRPS_NEXT
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} much less often
+\item \code{2} a little less often
+\item \code{3} about the same
+\item \code{4} a little more often
+\item \code{5} much more often
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7955/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab not available in this year \tab a little less often \tab a little more often \tab about the same \tab can't choose \tab iap \tab much less often \tab much more often \tab skipped on web \tab Total \cr
@@ -57,27 +82,24 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} much less often
-\item \code{2} a little less often
-\item \code{3} about the same
-\item \code{4} a little more often
-\item \code{5} much more often
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other GSS Next: 
+\code{\link{biokids}},
+\code{\link{covemply}},
+\code{\link{covid12}},
+\code{\link{fluvax}},
+\code{\link{malekids}},
+\code{\link{pandinc}},
+\code{\link{vaxhstncy}},
+\code{\link{vaxkids}},
+\code{\link{vaxsafe}}
+}
+\concept{GSS Next}
 \keyword{variable}

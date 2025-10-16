@@ -10,11 +10,50 @@ General Social Survey https://gss.norc.org
 borrow1
 }
 \details{
-Question 1211. Suppose you needed to borrow a large sum of money. a. Who would you turn to first for help?
+Question Suppose you needed to borrow a large sum of money.
+A. Who would you turn to first for help?
+B. Who would you turn to second?
+PLEASE CIRCLE ONLY ONE FIRST CHOICE NUMBER AND ONE SECOND CHOICE NUMBER.
+A. First Choice
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} spouse
+\item \code{2} mother
+\item \code{3} father
+\item \code{4} daughter
+\item \code{5} son
+\item \code{6} sister
+\item \code{7} brother
+\item \code{8} other relative
+\item \code{9} closest friend
+\item \code{10} other friend
+\item \code{11} neighbor
+\item \code{12} coworker
+\item \code{13} bank
+\item \code{14} employer
+\item \code{15} govt or soc ser
+\item \code{16} other
+\item \code{17} no one
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4173/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllll}{
    year \tab iap \tab bank \tab brother \tab closest friend \tab coworker \tab daughter \tab don't know \tab employer \tab father \tab govt or soc ser \tab mother \tab no answer \tab no one \tab other \tab other friend \tab other relative \tab sister \tab son \tab spouse \tab not available in this year \tab Total \cr
@@ -57,39 +96,36 @@ Counts by year:\tabular{llllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} spouse
-\item \code{2} mother
-\item \code{3} father
-\item \code{4} daughter
-\item \code{5} son
-\item \code{6} sister
-\item \code{7} brother
-\item \code{8} other relative
-\item \code{9} closest friend
-\item \code{10} other friend
-\item \code{11} neighbor
-\item \code{12} coworker
-\item \code{13} bank
-\item \code{14} employer
-\item \code{15} govt or soc ser
-\item \code{16} other
-\item \code{17} no one
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1986 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Social Networks & Support Systems: 
+\code{\link{borrow2}},
+\code{\link{change1}},
+\code{\link{change2}},
+\code{\link{down1}},
+\code{\link{down2}},
+\code{\link{sick1}},
+\code{\link{sick2}},
+\code{\link{upset1}},
+\code{\link{upset2}}
+
+Other Social Networks: 
+\code{\link{borrow2}},
+\code{\link{change1}},
+\code{\link{change2}},
+\code{\link{down1}},
+\code{\link{down2}},
+\code{\link{sick1}},
+\code{\link{sick2}},
+\code{\link{upset1}},
+\code{\link{upset2}}
+}
+\concept{ISSP Social Networks & Support Systems}
+\concept{Social Networks}
 \keyword{variable}

@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 undocwrk
 }
 \details{
-Question 520a. What about "undocumented aliens," that is, those who have immigrated to this country illegally? 1. Should illegal immigrants be entitled to work permits, or not?
+Question Under current law, immigrants who come from other countries to the United States legally are entitled, from the very beginning, to government assistance such as Medicaid, food stamps, or welfare on the same basis as citizens. But some people say they should not be eligible until they have lived here for a year or more. Which do you think? Do you think that immigrants who are here legally should be eligible for such services as soon as they come, or should they not be eligible?'
+A. What about "undocumented aliens," that is, those who have immigrated to this country illegally?
+\enumerate{
+\item Should illegal immigrants be entitled to work permits, or not?
 }
+}
+\section{Values}{
+
+\itemize{
+\item \code{1} yes, entitled
+\item \code{2} no, not entitled
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1617/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab no answer \tab no, not entitled \tab yes, entitled \tab not available in this year \tab Total \cr
@@ -57,24 +81,47 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes, entitled
-\item \code{2} no, not entitled
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Multiculturalism: 
+\code{\link{hspasn10}},
+\code{\link{immecon}},
+\code{\link{immfare}},
+\code{\link{immpush}},
+\code{\link{immunemp}},
+\code{\link{immunite}},
+\code{\link{immwrkup}},
+\code{\link{undoccol}},
+\code{\link{undockid}}
+
+Other Federal Government: 
+\code{\link{immfare}},
+\code{\link{undoccol}},
+\code{\link{undockid}}
+
+Other Immigration: 
+\code{\link{immecon}},
+\code{\link{immfare}},
+\code{\link{immpush}},
+\code{\link{immunemp}},
+\code{\link{immunite}},
+\code{\link{immwrkup}},
+\code{\link{undoccol}},
+\code{\link{undockid}}
+
+Other United States: 
+\code{\link{immfare}},
+\code{\link{undoccol}},
+\code{\link{undockid}}
+}
+\concept{Federal Government}
+\concept{Immigration}
+\concept{Multiculturalism}
+\concept{United States}
 \keyword{variable}

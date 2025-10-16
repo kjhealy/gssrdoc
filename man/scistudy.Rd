@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 scistudy
 }
 \details{
-Question 1039. Now, for a slightly different type of question. When you read news stories, you see certain sets of words and terms. We are interested in how many people recognize certain kinds of terms. First, some articles refer to the results of a scientific study. When you read or hear the term scientific study, do you have a clear understanding of what it means, a general sense of what it means, or little understanding of what it means?
+Question Now, for a slightly different type of question. When you read news stories, you see certain sets of words and terms. We are interested in how many people recognize certain kinds of terms. First, some articles refer to the results of a scientific study. When you read or hear the term scientific study, do you have a clear understanding of what it means, a general sense of what it means, or little understanding of what it means?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} clear understanding
+\item \code{2} general sense
+\item \code{3} little understanding
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3328/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab clear understanding \tab don't know \tab general sense \tab little understanding \tab no answer \tab not available in this year \tab Total \cr
@@ -57,25 +78,49 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} clear understanding
-\item \code{2} general sense
-\item \code{3} little understanding
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab B/C/- \tab partial \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/C/- \tab partial \cr
+   2012 \tab B/C/- \tab partial \cr
+   2014 \tab B/C/- \tab partial \cr
+   2016 \tab A/B/- \tab partial \cr
+   2018 \tab A/B/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{astrolgy}},
+\code{\link{astrosci}},
+\code{\link{balneg}},
+\code{\link{balpos}},
+\code{\link{expdesgn}},
+\code{\link{exptext}},
+\code{\link{odds1}},
+\code{\link{scibnfts}},
+\code{\link{scitext}}
+
+Other Knowledge: 
+\code{\link{expdesgn}},
+\code{\link{exptext}},
+\code{\link{odds1}},
+\code{\link{scitext}}
+
+Other Science: 
+\code{\link{astrolgy}},
+\code{\link{astrosci}},
+\code{\link{balneg}},
+\code{\link{balpos}},
+\code{\link{expdesgn}},
+\code{\link{exptext}},
+\code{\link{odds1}},
+\code{\link{scibnfts}},
+\code{\link{scitext}}
+}
+\concept{Knowledge}
+\concept{Science}
+\concept{Science Knowledge & Attitudes}
 \keyword{variable}

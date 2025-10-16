@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 getaheay
 }
 \details{
-Question 1123. Which do you think is the most important reason why people get ahead: their own hard work or lucky breaks and help from other people?
+Question Which do you think is the most important reason why people get ahead: their own hard work or lucky breaks and help from other people?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} hard work most important
+\item \code{2} hard work, luck equally important
+\item \code{3} luck or help from other people most important
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3711/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab don't know \tab hard work most important \tab hard work, luck equally important \tab luck or help from other people most important \tab no answer \tab not available in this year \tab Total \cr
@@ -57,25 +78,19 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} hard work most important
-\item \code{2} hard work, luck equally important
-\item \code{3} luck or help from other people most important
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab D \tab partial \cr
 }
 }
 
+\seealso{
+Other Misc I: 
+\code{\link{natdiscm}},
+\code{\link{newsprnt}}
+}
+\concept{Misc I}
+\concept{Social Mobility}
+\concept{Work}
 \keyword{variable}

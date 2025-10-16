@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 execrnk
 }
 \details{
-Question 1272. Now we would like to know where you and other people fit in. Please look at the diagram you think best describes America today, the one you chose first: c. The chairman of a large national corporation?
+Question Now we would like to know where you and other people fit in. Please look at the diagram you think best describes America today, the one you chose first:
+C. The chairman of a large national corporation?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} top
+\item \code{7} bottom
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4340/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab bottom \tab can't choose \tab no answer \tab top \tab not available in this year \tab Total \cr
@@ -57,24 +78,31 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} top
-\item \code{7} bottom
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Social Inequality: 
+\code{\link{famrnk}},
+\code{\link{justpay}},
+\code{\link{pasup}},
+\code{\link{paychild}},
+\code{\link{paydowel}},
+\code{\link{payhard}},
+\code{\link{soctype1}},
+\code{\link{soctype2}},
+\code{\link{unsklrnk}}
+
+Other Social Class: 
+\code{\link{famrnk}},
+\code{\link{soctype1}},
+\code{\link{soctype2}},
+\code{\link{unsklrnk}}
+}
+\concept{ISSP Social Inequality}
+\concept{Social Class}
 \keyword{variable}

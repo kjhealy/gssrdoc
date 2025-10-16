@@ -1,11 +1,133 @@
+#'  Tries hard to succeed
+#' 
+#'  success
+#' 
+#' Question A. Which three qualities listed on this card would you say are the most desirable for a child to have? 
+#' B. Which one of these three is the most desirable of all? 
+#' C. All of the qualities listed on this card may be desirable, but could you tell me which three you consider least important? 
+#' D. And which one of these three is least important of all? 
+#' 2. That he tries hard to succeed
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` 1 most desirable
+#'   * `2` 3 most desirable
+#'   * `3` not mentioned
+#'   * `4` 3 least desirable
+#'   * `5` 1 least desirable
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/475/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |1 least desirable |1 most desirable |3 least desirable |3 most desirable |no answer |not mentioned |don't know |not available in this year |Total |
+#'  |:-----|:-----|:-----------------|:----------------|:-----------------|:----------------|:---------|:-------------|:----------|:--------------------------|:-----|
+#'  |1972  |1613  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1613  |
+#'  |1973  |-     |99                |37               |311               |168              |4         |885           |-          |-                          |1504  |
+#'  |1974  |1484  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1484  |
+#'  |1975  |-     |64                |34               |301               |141              |9         |941           |-          |-                          |1490  |
+#'  |1976  |-     |75                |39               |305               |148              |9         |923           |-          |-                          |1499  |
+#'  |1977  |1530  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1530  |
+#'  |1978  |-     |73                |41               |344               |181              |10        |881           |2          |-                          |1532  |
+#'  |1980  |975   |21                |22               |83                |58               |3         |305           |1          |-                          |1468  |
+#'  |1982  |1860  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1860  |
+#'  |1983  |-     |60                |42               |292               |195              |20        |990           |-          |-                          |1599  |
+#'  |1984  |1473  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1473  |
+#'  |1985  |1534  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1534  |
+#'  |1986  |1470  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1470  |
+#'  |1987  |1819  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1819  |
+#'  |1988  |1481  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1481  |
+#'  |1989  |1537  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1537  |
+#'  |1990  |1372  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1372  |
+#'  |1991  |1517  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1517  |
+#'  |1993  |1606  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1606  |
+#'  |1994  |2992  |-                 |-                |-                 |-                |-         |-             |-          |-                          |2992  |
+#'  |1996  |2904  |-                 |-                |-                 |-                |-         |-             |-          |-                          |2904  |
+#'  |1998  |2832  |-                 |-                |-                 |-                |-         |-             |-          |-                          |2832  |
+#'  |2000  |2817  |-                 |-                |-                 |-                |-         |-             |-          |-                          |2817  |
+#'  |2002  |2765  |-                 |-                |-                 |-                |-         |-             |-          |-                          |2765  |
+#'  |2004  |2812  |-                 |-                |-                 |-                |-         |-             |-          |-                          |2812  |
+#'  |2006  |4510  |-                 |-                |-                 |-                |-         |-             |-          |-                          |4510  |
+#'  |2008  |2023  |-                 |-                |-                 |-                |-         |-             |-          |-                          |2023  |
+#'  |2010  |2044  |-                 |-                |-                 |-                |-         |-             |-          |-                          |2044  |
+#'  |2012  |1974  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1974  |
+#'  |2014  |2538  |-                 |-                |-                 |-                |-         |-             |-          |-                          |2538  |
+#'  |2016  |2867  |-                 |-                |-                 |-                |-         |-             |-          |-                          |2867  |
+#'  |2018  |2348  |-                 |-                |-                 |-                |-         |-             |-          |-                          |2348  |
+#'  |2021  |4032  |-                 |-                |-                 |-                |-         |-             |-          |-                          |4032  |
+#'  |2022  |-     |-                 |-                |-                 |-                |-         |-             |-          |3544                       |3544  |
+#'  |2024  |-     |-                 |-                |-                 |-                |-         |-             |-          |3309                       |3309  |
+#'  |Total |60729 |392               |215              |1636              |891              |55        |4925          |3          |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-       |full         |
+#'  |1975 |-       |full         |
+#'  |1976 |-       |full         |
+#'  |1978 |-       |full         |
+#'  |1980 |-       |full         |
+#'  |1983 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name success
+NULL
+
+
 #'  Honest
 #' 
 #'  honest
 #' 
-#' Question 167a. Which three qualities listed on this card would you say are the most desirable for a child to have? b. Which one of these three is the most desirable of all? c. All of the qualities listed on this card may be desirable, but could you tell me which three you consider least important? d. And which of these three is least important of all? THAT HE IS HONEST
+#' Question A. Which three qualities listed on this card would you say are the most desirable for a child to have? 
+#' B. Which one of these three is the most desirable of all? 
+#' C. All of the qualities listed on this card may be desirable, but could you tell me which three you consider least important? 
+#' D. And which one of these three is least important of all? 
+#' 3. That he is honest
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` 1 most desirable
+#'   * `2` 3 most desirable
+#'   * `3` not mentioned
+#'   * `4` 3 least desirable
+#'   * `5` 1 least desirable
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/476/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +170,39 @@
 #'  |2024  |-     |-                 |-                |-                 |-                |-         |-             |-          |3309                       |3309  |
 #'  |Total |60729 |32                |3029             |88                |2443             |55        |2467          |3          |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-       |full         |
+#'  |1975 |-       |full         |
+#'  |1976 |-       |full         |
+#'  |1978 |-       |full         |
+#'  |1980 |-       |full         |
+#'  |1983 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name honest
+NULL
+
+
+#'  Neat and clean
+#' 
+#'  clean
+#' 
+#' Question A. Which three qualities listed on this card would you say are the most desirable for a child to have? 
+#' B. Which one of these three is the most desirable of all? 
+#' C. All of the qualities listed on this card may be desirable, but could you tell me which three you consider least important? 
+#' D. And which one of these three is least important of all? 
+#' 4. That he is neat and clean
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` 1 most desirable
@@ -68,22 +223,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name honest
-NULL
-
-#'  Neat and clean
-#' 
-#'  clean
-#' 
-#' Question 167a. Which three qualities listed on this card would you say are the most desirable for a child to have? b. Which one of these three is the most desirable of all? c. All of the qualities listed on this card may be desirable, but could you tell me which three you consider least important? d. And which of these three is least important of all? THAT HE IS NEAT AND CLEAN
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/477/vshow).
 #'
 #' Counts by year: 
 #'
@@ -126,6 +267,39 @@ NULL
 #'  |2024  |-     |-                 |-                |-                 |-                |-         |-             |-          |3309                       |3309  |
 #'  |Total |60729 |1051              |58               |2002              |562              |57        |4384          |3          |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-       |full         |
+#'  |1975 |-       |full         |
+#'  |1976 |-       |full         |
+#'  |1978 |-       |full         |
+#'  |1980 |-       |full         |
+#'  |1983 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name clean
+NULL
+
+
+#'  Good sense and sound judgment
+#' 
+#'  judgment
+#' 
+#' Question A. Which three qualities listed on this card would you say are the most desirable for a child to have? 
+#' B. Which one of these three is the most desirable of all? 
+#' C. All of the qualities listed on this card may be desirable, but could you tell me which three you consider least important? 
+#' D. And which one of these three is least important of all? 
+#' 5. That he has good sense and sound judgment
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` 1 most desirable
@@ -146,22 +320,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name clean
-NULL
-
-#'  Good sense and sound judgment
-#' 
-#'  judgment
-#' 
-#' Question 167a. Which three qualities listed on this card would you say are the most desirable for a child to have? b. Which one of these three is the most desirable of all? c. All of the qualities listed on this card may be desirable, but could you tell me which three you consider least important? d. And which of these three is least important of all? THAT HE HAS GOOD SENSE AND SOUND JUDGMENT
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/478/vshow).
 #'
 #' Counts by year: 
 #'
@@ -204,6 +364,39 @@ NULL
 #'  |2024  |-     |-                 |-                |-                 |-                |-         |-             |-          |3309                       |3309  |
 #'  |Total |60729 |107               |1388             |512               |1630             |55        |4422          |3          |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-       |full         |
+#'  |1975 |-       |full         |
+#'  |1976 |-       |full         |
+#'  |1978 |-       |full         |
+#'  |1980 |-       |full         |
+#'  |1983 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name judgment
+NULL
+
+
+#'  Self-control
+#' 
+#'  control
+#' 
+#' Question A. Which three qualities listed on this card would you say are the most desirable for a child to have? 
+#' B. Which one of these three is the most desirable of all? 
+#' C. All of the qualities listed on this card may be desirable, but could you tell me which three you consider least important? 
+#' D. And which one of these three is least important of all? 
+#' 6. That he has self-control
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` 1 most desirable
@@ -224,22 +417,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name judgment
-NULL
-
-#'  Self-control
-#' 
-#'  control
-#' 
-#' Question 167a. Which three qualities listed on this card would you say are the most desirable for a child to have? b. Which one of these three is the most desirable of all? c. All of the qualities listed on this card may be desirable, but could you tell me which three you consider least important? d. And which of these three is least important of all? THAT HE HAS SELF-CONTROL
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/479/vshow).
 #'
 #' Counts by year: 
 #'
@@ -282,6 +461,39 @@ NULL
 #'  |2024  |-     |-                 |-                |-                 |-                |-         |-             |-          |3309                       |3309  |
 #'  |Total |60729 |138               |239              |773               |1159             |56        |5749          |3          |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-       |full         |
+#'  |1975 |-       |full         |
+#'  |1976 |-       |full         |
+#'  |1978 |-       |full         |
+#'  |1980 |-       |full         |
+#'  |1983 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name control
+NULL
+
+
+#'  Acts like boy-acts like girl
+#' 
+#'  role
+#' 
+#' Question A. Which three qualities listed on this card would you say are the most desirable for a child to have? 
+#' B. Which one of these three is the most desirable of all? 
+#' C. All of the qualities listed on this card may be desirable, but could you tell me which three you consider least important? 
+#' D. And which one of these three is least important of all? 
+#' 7. That he acts like a boy (she acts like a girl)
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` 1 most desirable
@@ -302,22 +514,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name control
-NULL
-
-#'  Acts like boy-acts like girl
-#' 
-#'  role
-#' 
-#' Question 167a. Which three qualities listed on this card would you say are the most desirable for a child to have? b. Which one of these three is the most desirable of all? c. All of the qualities listed on this card may be desirable, but could you tell me which three you consider least important? d. And which of these three is least important of all? THAT HE ACTS LIKE A BOY/SHE ACTS LIKE A GIRL
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/480/vshow).
 #'
 #' Counts by year: 
 #'
@@ -360,6 +558,39 @@ NULL
 #'  |2024  |-     |-                 |-                |-                 |-                |-         |-             |-          |3309                       |3309  |
 #'  |Total |60729 |3287              |62               |1845              |248              |55        |2617          |3          |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-       |full         |
+#'  |1975 |-       |full         |
+#'  |1976 |-       |full         |
+#'  |1978 |-       |full         |
+#'  |1980 |-       |full         |
+#'  |1983 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name role
+NULL
+
+
+#'  Gets along well with other children
+#' 
+#'  amicable
+#' 
+#' Question A. Which three qualities listed on this card would you say are the most desirable for a child to have? 
+#' B. Which one of these three is the most desirable of all? 
+#' C. All of the qualities listed on this card may be desirable, but could you tell me which three you consider least important? 
+#' D. And which one of these three is least important of all? 
+#' 8. That he gets along well with other children
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` 1 most desirable
@@ -380,22 +611,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name role
-NULL
-
-#'  Gets along well with other children
-#' 
-#'  amicable
-#' 
-#' Question 167a. Which three qualities listed on this card would you say are the most desirable for a child to have? b. Which one of these three is the most desirable of all? c. All of the qualities listed on this card may be desirable, but could you tell me which three you consider least important? d. And which of these three is least important of all? THAT HE GETS ALONG WELL WITH OTHER CHILDREN
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/481/vshow).
 #'
 #' Counts by year: 
 #'
@@ -438,6 +655,39 @@ NULL
 #'  |2024  |-     |-                 |-                |-                 |-                |-         |-             |-          |3309                       |3309  |
 #'  |Total |60729 |252               |150              |942               |904              |57        |5809          |3          |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-       |full         |
+#'  |1975 |-       |full         |
+#'  |1976 |-       |full         |
+#'  |1978 |-       |full         |
+#'  |1980 |-       |full         |
+#'  |1983 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name amicable
+NULL
+
+
+#'  Obeys parents well
+#' 
+#'  obeys
+#' 
+#' Question A. Which three qualities listed on this card would you say are the most desirable for a child to have? 
+#' B. Which one of these three is the most desirable of all? 
+#' C. All of the qualities listed on this card may be desirable, but could you tell me which three you consider least important? 
+#' D. And which one of these three is least important of all? 
+#' 9. That he obeys his parents well
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` 1 most desirable
@@ -458,22 +708,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name amicable
-NULL
-
-#'  Obeys parents well
-#' 
-#'  obeys
-#' 
-#' Question 167a. Which three qualities listed on this card would you say are the most desirable for a child to have? b. Which one of these three is the most desirable of all? c. All of the qualities listed on this card may be desirable, but could you tell me which three you consider least important? d. And which of these three is least important of all? THAT HE OBEYS HIS PARENTS WELL
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/482/vshow).
 #'
 #' Counts by year: 
 #'
@@ -516,6 +752,39 @@ NULL
 #'  |2024  |-     |-                 |-                |-                 |-                |-         |-             |-          |3309                       |3309  |
 #'  |Total |60729 |58                |1150             |470               |1350             |55        |5031          |3          |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-       |full         |
+#'  |1975 |-       |full         |
+#'  |1976 |-       |full         |
+#'  |1978 |-       |full         |
+#'  |1980 |-       |full         |
+#'  |1983 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name obeys
+NULL
+
+
+#'  Responsible
+#' 
+#'  responsi
+#' 
+#' Question A. Which three qualities listed on this card would you say are the most desirable for a child to have? 
+#' B. Which one of these three is the most desirable of all? 
+#' C. All of the qualities listed on this card may be desirable, but could you tell me which three you consider least important? 
+#' D. And which one of these three is least important of all? 
+#' 10. That he is responsible
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` 1 most desirable
@@ -536,22 +805,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name obeys
-NULL
-
-#'  Responsible
-#' 
-#'  responsi
-#' 
-#' Question 167a. Which three qualities listed on this card would you say are the most desirable for a child to have? b. Which one of these three is the most desirable of all? c. All of the qualities listed on this card may be desirable, but could you tell me which three you consider least important? d. And which of these three is least important of all? THAT HE IS RESPONSIBLE
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/483/vshow).
 #'
 #' Counts by year: 
 #'
@@ -594,6 +849,39 @@ NULL
 #'  |2024  |-     |-                 |-                |-                 |-                |-         |-             |-          |3309                       |3309  |
 #'  |Total |60729 |99                |625              |425               |2020             |57        |4888          |3          |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-       |full         |
+#'  |1975 |-       |full         |
+#'  |1976 |-       |full         |
+#'  |1978 |-       |full         |
+#'  |1980 |-       |full         |
+#'  |1983 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name responsi
+NULL
+
+
+#'  Considerate of others
+#' 
+#'  consider
+#' 
+#' Question A. Which three qualities listed on this card would you say are the most desirable for a child to have? 
+#' B. Which one of these three is the most desirable of all? 
+#' `C. All of the qualities listed on this card may be desirable, but could you tell me which three you consider least important? 
+#' D. And which one of these three is least important of all? 
+#' 11. That he is considerate of others
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` 1 most desirable
@@ -614,22 +902,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name responsi
-NULL
-
-#'  Considerate of others
-#' 
-#'  consider
-#' 
-#' Question 167a. Which three qualities listed on this card would you say are the most desirable for a child to have? b. Which one of these three is the most desirable of all? c. All of the qualities listed on this card may be desirable, but could you tell me which three you consider least important? d. And which of these three is least important of all? THAT HE IS CONSIDERATE OF OTHERS
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/484/vshow).
 #'
 #' Counts by year: 
 #'
@@ -672,109 +946,25 @@ NULL
 #'  |2024  |-     |-                 |-                |-                 |-                |-         |-             |-          |3309                       |3309  |
 #'  |Total |60729 |94                |572              |454               |1718             |55        |5221          |3          |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` 1 most desirable
-#'   * `2` 3 most desirable
-#'   * `3` not mentioned
-#'   * `4` 3 least desirable
-#'   * `5` 1 least desirable
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-       |full         |
+#'  |1975 |-       |full         |
+#'  |1976 |-       |full         |
+#'  |1978 |-       |full         |
+#'  |1980 |-       |full         |
+#'  |1983 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
 #' @name consider
 NULL
 
-#'  Interested how and why things happen
-#' 
-#'  interest
-#' 
-#' Question 167a. Which three qualities listed on this card would you say are the most desirable for a child to have? b. Which one of these three is the most desirable of all? c. All of the qualities listed on this card may be desirable, but could you tell me which three you consider least important? d. And which of these three is least important of all? THAT HE IS INTERESTED IN HOW AND WHY THINGS HAPPEN
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |1 least desirable |1 most desirable |3 least desirable |3 most desirable |no answer |not mentioned |don't know |not available in this year |Total |
-#'  |:-----|:-----|:-----------------|:----------------|:-----------------|:----------------|:---------|:-------------|:----------|:--------------------------|:-----|
-#'  |1972  |1613  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1613  |
-#'  |1973  |-     |204               |62               |323               |230              |4         |681           |-          |-                          |1504  |
-#'  |1974  |1484  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1484  |
-#'  |1975  |-     |218               |42               |396               |165              |10        |659           |-          |-                          |1490  |
-#'  |1976  |-     |175               |47               |341               |234              |10        |692           |-          |-                          |1499  |
-#'  |1977  |1530  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1530  |
-#'  |1978  |-     |217               |41               |426               |176              |10        |660           |2          |-                          |1532  |
-#'  |1980  |975   |62                |20               |125               |63               |3         |219           |1          |-                          |1468  |
-#'  |1982  |1860  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1860  |
-#'  |1983  |-     |257               |33               |465               |176              |20        |648           |-          |-                          |1599  |
-#'  |1984  |1473  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1473  |
-#'  |1985  |1534  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1534  |
-#'  |1986  |1470  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1470  |
-#'  |1987  |1819  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1819  |
-#'  |1988  |1481  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1481  |
-#'  |1989  |1537  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1537  |
-#'  |1990  |1372  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1372  |
-#'  |1991  |1517  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1517  |
-#'  |1993  |1606  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1606  |
-#'  |1994  |2992  |-                 |-                |-                 |-                |-         |-             |-          |-                          |2992  |
-#'  |1996  |2904  |-                 |-                |-                 |-                |-         |-             |-          |-                          |2904  |
-#'  |1998  |2832  |-                 |-                |-                 |-                |-         |-             |-          |-                          |2832  |
-#'  |2000  |2817  |-                 |-                |-                 |-                |-         |-             |-          |-                          |2817  |
-#'  |2002  |2765  |-                 |-                |-                 |-                |-         |-             |-          |-                          |2765  |
-#'  |2004  |2812  |-                 |-                |-                 |-                |-         |-             |-          |-                          |2812  |
-#'  |2006  |4510  |-                 |-                |-                 |-                |-         |-             |-          |-                          |4510  |
-#'  |2008  |2023  |-                 |-                |-                 |-                |-         |-             |-          |-                          |2023  |
-#'  |2010  |2044  |-                 |-                |-                 |-                |-         |-             |-          |-                          |2044  |
-#'  |2012  |1974  |-                 |-                |-                 |-                |-         |-             |-          |-                          |1974  |
-#'  |2014  |2538  |-                 |-                |-                 |-                |-         |-             |-          |-                          |2538  |
-#'  |2016  |2867  |-                 |-                |-                 |-                |-         |-             |-          |-                          |2867  |
-#'  |2018  |2348  |-                 |-                |-                 |-                |-         |-             |-          |-                          |2348  |
-#'  |2021  |4032  |-                 |-                |-                 |-                |-         |-             |-          |-                          |4032  |
-#'  |2022  |-     |-                 |-                |-                 |-                |-         |-             |-          |3544                       |3544  |
-#'  |2024  |-     |-                 |-                |-                 |-                |-         |-             |-          |3309                       |3309  |
-#'  |Total |60729 |1133              |245              |2076              |1044             |57        |3559          |3          |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` 1 most desirable
-#'   * `2` 3 most desirable
-#'   * `3` not mentioned
-#'   * `4` 3 least desirable
-#'   * `5` 1 least desirable
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name interest
-NULL
 

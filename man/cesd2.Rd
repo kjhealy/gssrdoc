@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 cesd2
 }
 \details{
-Question I will now read out a list of the ways you might have felt or behaved during the past week. Using this card, please tell me how much of the time during the past week? B. ...your sleep was restless?
+Question (HAND CARD N1)
+(Using this card, please tell me how much of the time during the past week...)
+...your sleep was restless?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} none or almost none of the time
+\item \code{2} some of the time
+\item \code{3} most of the time
+\item \code{4} all or almost all of the time
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6298/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab all or almost all of the time \tab don't know \tab most of the time \tab no answer \tab none or almost none of the time \tab some of the time \tab not available in this year \tab Total \cr
@@ -57,26 +81,19 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} none or almost none of the time
-\item \code{2} some of the time
-\item \code{3} most of the time
-\item \code{4} all or almost all of the time
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2016 \tab C \tab partial \cr
 }
 }
 
+\seealso{
+Other ESS Health: 
+\code{\link{cesd1}},
+\code{\link{cesd3}},
+\code{\link{cesd4}},
+\code{\link{cesd5}}
+}
+\concept{ESS Health}
 \keyword{variable}

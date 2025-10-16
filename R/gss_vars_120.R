@@ -1,11 +1,212 @@
+#'  What is friend 3s religious preference
+#' 
+#'  frndrel3
+#' 
+#' Question What''s is (NAME''S) religious preference?  Is it Protestant, Catholic, Jewish, some other religion, or no religion? 
+#' 3. Religion of Third Person
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` protestant
+#'   * `2` catholic
+#'   * `3` jewish
+#'   * `4` none
+#'   * `5` other
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1110/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |catholic |don't know |jewish |no answer |none |other |protestant |not available in this year |Total |
+#'  |:-----|:-----|:--------|:----------|:------|:---------|:----|:-----|:----------|:--------------------------|:-----|
+#'  |1972  |1613  |-        |-          |-      |-         |-    |-     |-          |-                          |1613  |
+#'  |1973  |1504  |-        |-          |-      |-         |-    |-     |-          |-                          |1504  |
+#'  |1974  |1484  |-        |-          |-      |-         |-    |-     |-          |-                          |1484  |
+#'  |1975  |1490  |-        |-          |-      |-         |-    |-     |-          |-                          |1490  |
+#'  |1976  |1499  |-        |-          |-      |-         |-    |-     |-          |-                          |1499  |
+#'  |1977  |1530  |-        |-          |-      |-         |-    |-     |-          |-                          |1530  |
+#'  |1978  |1532  |-        |-          |-      |-         |-    |-     |-          |-                          |1532  |
+#'  |1980  |1468  |-        |-          |-      |-         |-    |-     |-          |-                          |1468  |
+#'  |1982  |1860  |-        |-          |-      |-         |-    |-     |-          |-                          |1860  |
+#'  |1983  |1599  |-        |-          |-      |-         |-    |-     |-          |-                          |1599  |
+#'  |1984  |1473  |-        |-          |-      |-         |-    |-     |-          |-                          |1473  |
+#'  |1985  |1534  |-        |-          |-      |-         |-    |-     |-          |-                          |1534  |
+#'  |1986  |1470  |-        |-          |-      |-         |-    |-     |-          |-                          |1470  |
+#'  |1987  |1819  |-        |-          |-      |-         |-    |-     |-          |-                          |1819  |
+#'  |1988  |336   |248      |167        |36     |76        |85   |36    |497        |-                          |1481  |
+#'  |1989  |1537  |-        |-          |-      |-         |-    |-     |-          |-                          |1537  |
+#'  |1990  |1372  |-        |-          |-      |-         |-    |-     |-          |-                          |1372  |
+#'  |1991  |1517  |-        |-          |-      |-         |-    |-     |-          |-                          |1517  |
+#'  |1993  |1606  |-        |-          |-      |-         |-    |-     |-          |-                          |1606  |
+#'  |1994  |2992  |-        |-          |-      |-         |-    |-     |-          |-                          |2992  |
+#'  |1996  |2904  |-        |-          |-      |-         |-    |-     |-          |-                          |2904  |
+#'  |1998  |2047  |150      |161        |19     |77        |71   |33    |274        |-                          |2832  |
+#'  |2000  |2817  |-        |-          |-      |-         |-    |-     |-          |-                          |2817  |
+#'  |2002  |2765  |-        |-          |-      |-         |-    |-     |-          |-                          |2765  |
+#'  |2004  |2812  |-        |-          |-      |-         |-    |-     |-          |-                          |2812  |
+#'  |2006  |4510  |-        |-          |-      |-         |-    |-     |-          |-                          |4510  |
+#'  |2008  |2023  |-        |-          |-      |-         |-    |-     |-          |-                          |2023  |
+#'  |2010  |2044  |-        |-          |-      |-         |-    |-     |-          |-                          |2044  |
+#'  |2012  |1974  |-        |-          |-      |-         |-    |-     |-          |-                          |1974  |
+#'  |2014  |2538  |-        |-          |-      |-         |-    |-     |-          |-                          |2538  |
+#'  |2016  |2867  |-        |-          |-      |-         |-    |-     |-          |-                          |2867  |
+#'  |2018  |2348  |-        |-          |-      |-         |-    |-     |-          |-                          |2348  |
+#'  |2021  |4032  |-        |-          |-      |-         |-    |-     |-          |-                          |4032  |
+#'  |2022  |-     |-        |-          |-      |-         |-    |-     |-          |3544                       |3544  |
+#'  |2024  |-     |-        |-          |-      |-         |-    |-     |-          |3309                       |3309  |
+#'  |Total |66916 |398      |328        |55     |153       |156  |69    |771        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Friends
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name frndrel3
+NULL
+
+
+#'  What is friend 4s religious preference
+#' 
+#'  frndrel4
+#' 
+#' Question What''s is (NAME''S) religious preference?  Is it Protestant, Catholic, Jewish, some other religion, or no religion? 
+#' 4. Religion of Fourth Person
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` protestant
+#'   * `2` catholic
+#'   * `3` jewish
+#'   * `4` none
+#'   * `5` other
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1111/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |catholic |don't know |jewish |no answer |none |other |protestant |not available in this year |Total |
+#'  |:-----|:-----|:--------|:----------|:------|:---------|:----|:-----|:----------|:--------------------------|:-----|
+#'  |1972  |1613  |-        |-          |-      |-         |-    |-     |-          |-                          |1613  |
+#'  |1973  |1504  |-        |-          |-      |-         |-    |-     |-          |-                          |1504  |
+#'  |1974  |1484  |-        |-          |-      |-         |-    |-     |-          |-                          |1484  |
+#'  |1975  |1490  |-        |-          |-      |-         |-    |-     |-          |-                          |1490  |
+#'  |1976  |1499  |-        |-          |-      |-         |-    |-     |-          |-                          |1499  |
+#'  |1977  |1530  |-        |-          |-      |-         |-    |-     |-          |-                          |1530  |
+#'  |1978  |1532  |-        |-          |-      |-         |-    |-     |-          |-                          |1532  |
+#'  |1980  |1468  |-        |-          |-      |-         |-    |-     |-          |-                          |1468  |
+#'  |1982  |1860  |-        |-          |-      |-         |-    |-     |-          |-                          |1860  |
+#'  |1983  |1599  |-        |-          |-      |-         |-    |-     |-          |-                          |1599  |
+#'  |1984  |1473  |-        |-          |-      |-         |-    |-     |-          |-                          |1473  |
+#'  |1985  |1534  |-        |-          |-      |-         |-    |-     |-          |-                          |1534  |
+#'  |1986  |1470  |-        |-          |-      |-         |-    |-     |-          |-                          |1470  |
+#'  |1987  |1819  |-        |-          |-      |-         |-    |-     |-          |-                          |1819  |
+#'  |1988  |1481  |-        |-          |-      |-         |-    |-     |-          |-                          |1481  |
+#'  |1989  |1537  |-        |-          |-      |-         |-    |-     |-          |-                          |1537  |
+#'  |1990  |1372  |-        |-          |-      |-         |-    |-     |-          |-                          |1372  |
+#'  |1991  |1517  |-        |-          |-      |-         |-    |-     |-          |-                          |1517  |
+#'  |1993  |1606  |-        |-          |-      |-         |-    |-     |-          |-                          |1606  |
+#'  |1994  |2992  |-        |-          |-      |-         |-    |-     |-          |-                          |2992  |
+#'  |1996  |2904  |-        |-          |-      |-         |-    |-     |-          |-                          |2904  |
+#'  |1998  |2197  |127      |132        |16     |76        |52   |31    |201        |-                          |2832  |
+#'  |2000  |2817  |-        |-          |-      |-         |-    |-     |-          |-                          |2817  |
+#'  |2002  |2765  |-        |-          |-      |-         |-    |-     |-          |-                          |2765  |
+#'  |2004  |2812  |-        |-          |-      |-         |-    |-     |-          |-                          |2812  |
+#'  |2006  |4510  |-        |-          |-      |-         |-    |-     |-          |-                          |4510  |
+#'  |2008  |2023  |-        |-          |-      |-         |-    |-     |-          |-                          |2023  |
+#'  |2010  |2044  |-        |-          |-      |-         |-    |-     |-          |-                          |2044  |
+#'  |2012  |1974  |-        |-          |-      |-         |-    |-     |-          |-                          |1974  |
+#'  |2014  |2538  |-        |-          |-      |-         |-    |-     |-          |-                          |2538  |
+#'  |2016  |2867  |-        |-          |-      |-         |-    |-     |-          |-                          |2867  |
+#'  |2018  |2348  |-        |-          |-      |-         |-    |-     |-          |-                          |2348  |
+#'  |2021  |4032  |-        |-          |-      |-         |-    |-     |-          |-                          |4032  |
+#'  |2022  |-     |-        |-          |-      |-         |-    |-     |-          |3544                       |3544  |
+#'  |2024  |-     |-        |-          |-      |-         |-    |-     |-          |3309                       |3309  |
+#'  |Total |68211 |127      |132        |16     |76        |52   |31    |201        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Friends
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name frndrel4
+NULL
+
+
 #'  What is friend 5s religious preference
 #' 
 #'  frndrel5
 #' 
-#' Question 381. What is (NAME)'s religous preference?
+#' Question What''s is (NAME''S) religious preference?  Is it Protestant, Catholic, Jewish, some other religion, or no religion? 
+#' 5. Religion of Fifth Person
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` protestant
+#'   * `2` catholic
+#'   * `3` jewish
+#'   * `4` none
+#'   * `5` other
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1112/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,13 +249,61 @@
 #'  |2024  |-     |-        |-          |-      |-         |-    |-     |-          |3309                       |3309  |
 #'  |Total |68352 |104      |105        |10     |72        |47   |21    |135        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Friends
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name frndrel5
+NULL
+
+
+#'  What is friend 1s specific denomination
+#' 
+#'  frndden1
+#' 
+#' Question What specific denomination is that, if any? 
+#' (PROBE FOR EXACT DENOMINATION. REFER TO PROTESTANT DENOMINATION LIST AND CIRCLE APPROPRIATE CODE BELOW). 
+#' 1. Denomination of First Person
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` protestant
-#'   * `2` catholic
-#'   * `3` jewish
-#'   * `4` none
-#'   * `5` other
+#'   * `10` am baptist asso
+#'   * `11` am bapt ch in usa
+#'   * `12` nat bapt conv of am
+#'   * `13` nat bapt conv usa
+#'   * `14` southern baptist
+#'   * `15` other baptists
+#'   * `18` baptist-dk which
+#'   * `20` afr meth episcopal
+#'   * `21` afr meth ep zion
+#'   * `22` united methodist
+#'   * `23` other methodist
+#'   * `28` methodist-dk which
+#'   * `30` am lutheran
+#'   * `31` luth ch in america
+#'   * `32` lutheran-mo synod
+#'   * `33` wi evan luth synod
+#'   * `34` other lutheran
+#'   * `35` evangelical lutheran
+#'   * `38` lutheran-dk which
+#'   * `40` presbyterian c in us
+#'   * `41` united pres ch in usa
+#'   * `42` other presbyterian
+#'   * `43` presbyt ch usa
+#'   * `48` presbyterian-dk wh
+#'   * `50` episcopal
+#'   * `60` other
+#'   * `70` no denomination
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -68,22 +317,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name frndrel5
-NULL
-
-#'  What is friend 1s specific denomination
-#' 
-#'  frndden1
-#' 
-#' Question 382. If Protestant: What specific denomination is that, if any?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1113/vshow).
 #'
 #' Counts by year: 
 #'
@@ -126,6 +361,33 @@ NULL
 #'  |2024  |-     |-                |-                  |-                 |-               |-           |-                |-          |-         |-                    |-                  |-                 |-                 |-                  |-                 |-         |-               |-     |-              |-              |-               |-                    |-                  |-                |-                |-                     |-                   |-                  |-              |3309                       |3309  |
 #'  |Total |67650 |2                |9                  |6                 |24              |24          |136              |24         |25        |3                    |4                  |42                |21                |36                 |7                 |198       |133             |170   |33             |6              |6               |7                    |34                 |143              |84               |14                    |3                   |1                  |1              |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Friends
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name frndden1
+NULL
+
+
+#'  What is friend 2s specific denomination
+#' 
+#'  frndden2
+#' 
+#' Question What specific denomination is that, if any? 
+#' (PROBE FOR EXACT DENOMINATION. REFER TO PROTESTANT DENOMINATION LIST AND CIRCLE APPROPRIATE CODE BELOW). 
+#' 2. Denomination of Second Person
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `10` am baptist asso
@@ -168,22 +430,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name frndden1
-NULL
-
-#'  What is friend 2s specific denomination
-#' 
-#'  frndden2
-#' 
-#' Question 382. If Protestant: What specific denomination is that, if any?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1114/vshow).
 #'
 #' Counts by year: 
 #'
@@ -226,6 +474,33 @@ NULL
 #'  |2024  |-     |-                |-                  |-                 |-               |-           |-                |-          |-         |-                    |-                  |-                 |-                 |-                  |-                 |-         |-               |-     |-              |-              |-               |-                  |-                    |-                  |-                |-                |-                     |-                   |-              |3309                       |3309  |
 #'  |Total |67793 |1                |7                  |7                 |15              |28          |97               |27         |33        |3                    |4                  |39                |15                |25                 |4                 |207       |129             |136   |30             |6              |5               |7                  |7                    |26                 |111              |69               |12                    |2                   |1              |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Friends
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name frndden2
+NULL
+
+
+#'  What is friend 3s specific denomination
+#' 
+#'  frndden3
+#' 
+#' Question What specific denomination is that, if any? 
+#' (PROBE FOR EXACT DENOMINATION. REFER TO PROTESTANT DENOMINATION LIST AND CIRCLE APPROPRIATE CODE BELOW). 
+#' 3. Denomination of Third Person
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `10` am baptist asso
@@ -268,22 +543,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name frndden2
-NULL
-
-#'  What is friend 3s specific denomination
-#' 
-#'  frndden3
-#' 
-#' Question 382. If Protestant: What specific denomination is that, if any?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1115/vshow).
 #'
 #' Counts by year: 
 #'
@@ -326,6 +587,33 @@ NULL
 #'  |2024  |-     |-                |-                  |-                 |-               |-           |-                |-          |-         |-                  |-                 |-                 |-                  |-                   |-                 |-         |-               |-     |-              |-              |-               |-                  |-                    |-                  |-                |-                |-                     |-                  |-                    |3309                       |3309  |
 #'  |Total |67922 |1                |3                  |8                 |19              |16          |78               |14         |22        |5                  |23                |19                |32                 |2                   |4                 |196       |95              |128   |26             |5              |9               |3                  |4                    |23                 |115              |60               |11                    |1                  |2                    |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Friends
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name frndden3
+NULL
+
+
+#'  What is friend 4s specific denomination
+#' 
+#'  frndden4
+#' 
+#' Question What specific denomination is that, if any? 
+#' (PROBE FOR EXACT DENOMINATION. REFER TO PROTESTANT DENOMINATION LIST AND CIRCLE APPROPRIATE CODE BELOW). 
+#' 4. Denomination of Fourth Person
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `10` am baptist asso
@@ -368,22 +656,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name frndden3
-NULL
-
-#'  What is friend 4s specific denomination
-#' 
-#'  frndden4
-#' 
-#' Question 382. If Protestant: What specific denomination is that, if any?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1116/vshow).
 #'
 #' Counts by year: 
 #'
@@ -426,6 +700,32 @@ NULL
 #'  |2024  |-     |-                 |-               |-           |-                |-          |-         |-                  |-                 |-                 |-                  |-                 |-         |-               |-     |-              |-              |-               |-                  |-              |-                  |-                |-                |-                     |-                  |3309                       |3309  |
 #'  |Total |68569 |1                 |3               |6           |22               |2          |7         |1                  |7                 |4                 |4                  |1                 |96        |39              |29    |2              |6              |2               |3                  |1              |5                  |22               |9                |2                     |3                  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Friends
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name frndden4
+NULL
+
+
+#'  What is friend 5s specific denomination
+#' 
+#'  frndden5
+#' 
+#' Question What specific denomination is that, if any? 
+#' (PROBE FOR EXACT DENOMINATION. REFER TO PROTESTANT DENOMINATION LIST AND CIRCLE APPROPRIATE CODE BELOW). 
+#' 5. Denomination of Fifth Person
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `10` am baptist asso
@@ -468,22 +768,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name frndden4
-NULL
-
-#'  What is friend 5s specific denomination
-#' 
-#'  frndden5
-#' 
-#' Question 382. If Protestant: What specific denomination is that, if any?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1117/vshow).
 #'
 #' Counts by year: 
 #'
@@ -526,35 +812,33 @@ NULL
 #'  |2024  |-     |-                  |-                 |-               |-           |-                |-          |-         |-                  |-                 |-                 |-                  |-         |-               |-     |-              |-              |-               |-              |-                    |-                  |-                |-                |-                     |-                  |3309                       |3309  |
 #'  |Total |68639 |1                  |1                 |5               |3           |16               |3          |9         |1                  |1                 |1                 |5                  |83        |34              |14    |4              |3              |1               |2              |1                    |1                  |12               |3                |2                     |1                  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Friends
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name frndden5
+NULL
+
+
+#'  What is friend 1s other prot denom
+#' 
+#'  frndoth1
+#' 
+#' Question What specific denomination is that, if any? 
+#' 1. Denomination of first friend
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `10` am baptist asso
-#'   * `11` am bapt ch in usa
-#'   * `12` nat bapt conv of am
-#'   * `13` nat bapt conv usa
-#'   * `14` southern baptist
-#'   * `15` other baptists
-#'   * `18` baptist-dk which
-#'   * `20` afr meth episcopal
-#'   * `21` afr meth ep zion
-#'   * `22` united methodist
-#'   * `23` other methodist
-#'   * `28` methodist-dk which
-#'   * `30` am lutheran
-#'   * `31` luth ch in america
-#'   * `32` lutheran-mo synod
-#'   * `33` wi evan luth synod
-#'   * `34` other lutheran
-#'   * `35` evangelical lutheran
-#'   * `38` lutheran-dk which
-#'   * `40` presbyterian c in us
-#'   * `41` united pres ch in usa
-#'   * `42` other presbyterian
-#'   * `43` presbyt ch usa
-#'   * `48` presbyterian-dk wh
-#'   * `50` episcopal
-#'   * `60` other
-#'   * `70` no denomination
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -568,22 +852,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name frndden5
-NULL
-
-#'  What is friend 1s other prot denom
-#' 
-#'  frndoth1
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1118/vshow).
 #'
 #' Counts by year: 
 #'
@@ -626,6 +896,31 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-  |-  |-  |-  |-  |3309                       |3309  |
 #'  |Total |68478 |1   |1   |1   |12 |1   |1   |1  |1  |1  |3  |2  |2  |11 |9  |1  |8  |1  |6  |2  |6  |3  |1  |6  |9  |10 |1  |1  |8  |2  |2  |11 |3  |5  |3  |5  |1  |1  |1  |1  |1  |7          |203       |1   |1  |7  |1  |1  |1  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name frndoth1
+NULL
+
+
+#'  What is friend 2s other prot denom
+#' 
+#'  frndoth2
+#' 
+#' Question What specific denomination is that, if any? 
+#' 2. Denomination of second friend
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -641,22 +936,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name frndoth1
-NULL
-
-#'  What is friend 2s other prot denom
-#' 
-#'  frndoth2
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1119/vshow).
 #'
 #' Counts by year: 
 #'
@@ -699,172 +980,20 @@ NULL
 #'  |2024  |-     |-  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-  |-  |-  |-  |-  |3309                       |3309  |
 #'  |Total |68503 |1  |1   |11 |1   |1  |2  |2  |1  |2  |1  |2  |12 |9  |1  |4  |1  |4  |2  |1  |2  |1  |5  |11 |10 |1  |4  |3  |1  |8  |2  |4  |1  |2  |1  |1  |6          |212       |1   |1   |1  |1  |3  |1  |1  |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
 #' @name frndoth2
 NULL
 
-#'  What is friend 3s other prot denom
-#' 
-#'  frndoth3
-#' 
-#' Question None
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |12 |14 |18 |20 |23 |33 |35 |36 |40 |44 |51 |52 |54 |56 |58 |59 |61 |64 |65 |67 |68 |71 |74 |77 |78 |80 |81 |9  |93 |95 |97 |don't know |no answer |103 |138 |149 |150 |31 |63 |69 |99 |not available in this year |Total |
-#'  |:-----|:-----|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:---|:---|:---|:---|:--|:--|:--|:--|:--------------------------|:-----|
-#'  |1972  |1613  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |1613  |
-#'  |1973  |1504  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |1504  |
-#'  |1974  |1484  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |1484  |
-#'  |1975  |1490  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |1490  |
-#'  |1976  |1499  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |1499  |
-#'  |1977  |1530  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |1530  |
-#'  |1978  |1532  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |1532  |
-#'  |1980  |1468  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |1468  |
-#'  |1982  |1860  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |1860  |
-#'  |1983  |1599  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |1599  |
-#'  |1984  |1473  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |1473  |
-#'  |1985  |1534  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |1534  |
-#'  |1986  |1470  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |1470  |
-#'  |1987  |1819  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |1819  |
-#'  |1988  |1303  |9  |1  |2  |1  |1  |2  |4  |4  |4  |1  |2  |1  |1  |2  |8  |10 |1  |3  |4  |1  |10 |2  |1  |2  |1  |1  |2  |1  |1  |1  |1  |2          |91        |-   |-   |-   |-   |-  |-  |-  |-  |-                          |1481  |
-#'  |1989  |1537  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |1537  |
-#'  |1990  |1372  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |1372  |
-#'  |1991  |1517  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |1517  |
-#'  |1993  |1606  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |1606  |
-#'  |1994  |2992  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |2992  |
-#'  |1996  |2904  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |2904  |
-#'  |1998  |2686  |3  |-  |-  |-  |-  |1  |4  |-  |1  |-  |-  |-  |-  |4  |1  |-  |-  |-  |-  |-  |3  |-  |-  |1  |-  |1  |1  |-  |-  |-  |1  |4          |110       |1   |1   |1   |1   |3  |1  |2  |1  |-                          |2832  |
-#'  |2000  |2817  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |2817  |
-#'  |2002  |2765  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |2765  |
-#'  |2004  |2812  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |2812  |
-#'  |2006  |4510  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |4510  |
-#'  |2008  |2023  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |2023  |
-#'  |2010  |2044  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |2044  |
-#'  |2012  |1974  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |1974  |
-#'  |2014  |2538  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |2538  |
-#'  |2016  |2867  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |2867  |
-#'  |2018  |2348  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |2348  |
-#'  |2021  |4032  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |-                          |4032  |
-#'  |2022  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |3544                       |3544  |
-#'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |-   |-   |-   |-  |-  |-  |-  |3309                       |3309  |
-#'  |Total |68522 |12 |1  |2  |1  |1  |3  |8  |4  |5  |1  |2  |1  |1  |6  |9  |10 |1  |3  |4  |1  |13 |2  |1  |3  |1  |2  |3  |1  |1  |1  |2  |6          |201       |1   |1   |1   |1   |3  |1  |2  |1  |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name frndoth3
-NULL
-
-#'  What is friend 4s other prot denom
-#' 
-#'  frndoth4
-#' 
-#' Question None
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |138 |150 |3  |31 |33 |35 |36 |40 |56 |58 |64 |68 |69 |70 |77 |don't know |no answer |not available in this year |Total |
-#'  |:-----|:-----|:---|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1613  |
-#'  |1973  |1504  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1504  |
-#'  |1974  |1484  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1484  |
-#'  |1975  |1490  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1490  |
-#'  |1976  |1499  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1499  |
-#'  |1977  |1530  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1530  |
-#'  |1978  |1532  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1532  |
-#'  |1980  |1468  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1468  |
-#'  |1982  |1860  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1860  |
-#'  |1983  |1599  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1599  |
-#'  |1984  |1473  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1473  |
-#'  |1985  |1534  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1534  |
-#'  |1986  |1470  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1470  |
-#'  |1987  |1819  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1819  |
-#'  |1988  |1481  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1481  |
-#'  |1989  |1537  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1537  |
-#'  |1990  |1372  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1372  |
-#'  |1991  |1517  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1517  |
-#'  |1993  |1606  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1606  |
-#'  |1994  |2992  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2992  |
-#'  |1996  |2904  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2904  |
-#'  |1998  |2710  |1   |1   |1  |1  |1  |2  |1  |1  |1  |4  |1  |3  |1  |1  |2  |4          |96        |-                          |2832  |
-#'  |2000  |2817  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2817  |
-#'  |2002  |2765  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2765  |
-#'  |2004  |2812  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2812  |
-#'  |2006  |4510  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |4510  |
-#'  |2008  |2023  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2023  |
-#'  |2010  |2044  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2044  |
-#'  |2012  |1974  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1974  |
-#'  |2014  |2538  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2538  |
-#'  |2016  |2867  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2867  |
-#'  |2018  |2348  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2348  |
-#'  |2021  |4032  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |4032  |
-#'  |2022  |-     |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3544                       |3544  |
-#'  |2024  |-     |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
-#'  |Total |68724 |1   |1   |1  |1  |1  |2  |1  |1  |1  |4  |1  |3  |1  |1  |2  |4          |96        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name frndoth4
-NULL
 

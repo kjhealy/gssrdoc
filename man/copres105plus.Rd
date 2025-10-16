@@ -10,11 +10,29 @@ General Social Survey https://gss.norc.org
 copres105plus
 }
 \details{
-Question None
+Question COPRES105PLUS is based on the 2010 Census occupation classification. This prestige score is calculated using an alternative method, based on the percentage of ratings that is greater than or equal to a threshold (rating five). The effect of individual raters is also removed using hierarchical linear modeling (HLM).
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6362/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 18 \tab 19 \tab 20 \tab 23 \tab 24 \tab 26 \tab 27 \tab 28 \tab 29 \tab 33 \tab 34 \tab 35 \tab 36 \tab 37 \tab 38 \tab 39 \tab 40 \tab 42 \tab 44 \tab 45 \tab 48 \tab 49 \tab 50 \tab 53 \tab 54 \tab 55 \tab 56 \tab 58 \tab 59 \tab 6 \tab 62 \tab 63 \tab 65 \tab 68 \tab 7 \tab 71 \tab 72 \tab 73 \tab 75 \tab 78 \tab 79 \tab 80 \tab 83 \tab 85 \tab 87 \tab 89 \tab 90 \tab 91 \tab 94 \tab 17 \tab 21 \tab 25 \tab 31 \tab 32 \tab 43 \tab 51 \tab 60 \tab 64 \tab 66 \tab 74 \tab 76 \tab 8 \tab 81 \tab 88 \tab 9 \tab 92 \tab 93 \tab 95 \tab 22 \tab 47 \tab 52 \tab 61 \tab 69 \tab 77 \tab 84 \tab 86 \tab 5 \tab 70 \tab 97 \tab 46 \tab not available in this release \tab Total \cr
@@ -57,22 +75,22 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2021 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
+   2024 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Occupation: 
+\code{\link{cosei10inc}}
+}
+\concept{Occupation}
 \keyword{variable}

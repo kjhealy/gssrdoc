@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 amproud
 }
 \details{
-Question 518. How proud are you to be an American?
+Question How proud are you to be an American . . . extremely proud, very proud, somewhat proud, or not very proud?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} extremely proud
+\item \code{2} very proud
+\item \code{3} somewhat proud
+\item \code{4} not very proud
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1598/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab don't know \tab extremely proud \tab no answer \tab not very proud \tab somewhat proud \tab very proud \tab not available in this year \tab Total \cr
@@ -57,26 +79,28 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} extremely proud
-\item \code{2} very proud
-\item \code{3} somewhat proud
-\item \code{4} not very proud
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Multiculturalism: 
+\code{\link{amissue}},
+\code{\link{amissue1}},
+\code{\link{amrank}},
+\code{\link{ethid1}},
+\code{\link{ethissu1}},
+\code{\link{ethissue}},
+\code{\link{gvtapart}},
+\code{\link{gvtmelt}},
+\code{\link{meltpot}}
+
+Other United States: 
+\code{\link{amrank}}
+}
+\concept{Multiculturalism}
+\concept{United States}
 \keyword{variable}

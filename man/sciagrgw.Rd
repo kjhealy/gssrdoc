@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 sciagrgw
 }
 \details{
-Question 1055. Please look at Card B3. On a scale of 1 to 5, where 1 means "Near complete agreement" and 5 means "No agreement at all", to what extent do environmental scientists agree among themselves about the existence and causes of global warming?
+Question Please look at Card B3. On a scale of 1 to 5, where 1 means â€œNear complete agreementâ€ and 5 means â€œNo agreement at allâ€, to what extent do environmental scientists agree among themselves about the existence and causes of global warming?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} near complete agreement
+\item \code{5} no agreement at all
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3358/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab 2 \tab 3 \tab 4 \tab don't know \tab near complete agreement \tab no agreement at all \tab no answer \tab not available in this year \tab Total \cr
@@ -57,24 +77,39 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} near complete agreement
-\item \code{5} no agreement at all
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab B/C \tab partial \cr
+   2010 \tab A/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{colsci}},
+\code{\link{colscinm}},
+\code{\link{gwbiz}},
+\code{\link{gwpol}},
+\code{\link{gwsci}},
+\code{\link{hsbio}},
+\code{\link{hschem}},
+\code{\link{hsmath}},
+\code{\link{hsphys}}
+
+Other Environment: 
+\code{\link{gwbiz}},
+\code{\link{gwpol}},
+\code{\link{gwsci}}
+
+Other Science: 
+\code{\link{colsci}},
+\code{\link{colscinm}},
+\code{\link{gwbiz}},
+\code{\link{gwpol}},
+\code{\link{gwsci}}
+}
+\concept{Environment}
+\concept{Science}
+\concept{Science Knowledge & Attitudes}
 \keyword{variable}

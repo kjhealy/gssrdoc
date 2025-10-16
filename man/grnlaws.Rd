@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 grnlaws
 }
 \details{
-Question 1193. On the whole, do you think it should or should not be the government's responsibility to impose strict laws to make industry do less damage to the environment? PLEASE CHECK ONLY ONE BOX ONE EACH LINE.
+Question On the whole, do you think it should or should not be the government's responsibility to impose strict laws to make industry do less damage to the environment? PLEASE CHECK ONLY ONE BOX ONE EACH LINE.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} definitely should be
+\item \code{2} probably should be
+\item \code{3} probably should not be
+\item \code{4} definitely should not be
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4094/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab can't choose \tab definitely should be \tab definitely should not be \tab no answer \tab probably should be \tab probably should not be \tab not available in this year \tab Total \cr
@@ -57,26 +79,27 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} definitely should be
-\item \code{2} probably should be
-\item \code{3} probably should not be
-\item \code{4} definitely should not be
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
+   2006 \tab D/-/- \tab partial \cr
+   2016 \tab A/B/- \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Role of Gov't: 
+\code{\link{gendereq}},
+\code{\link{polint}},
+\code{\link{prvdhlth}},
+\code{\link{prvdold}},
+\code{\link{rprtst1}},
+\code{\link{rprtst15}},
+\code{\link{rprtst3}},
+\code{\link{rprtst35}},
+\code{\link{unionsok}}
+}
+\concept{Environment}
+\concept{ISSP Role of Gov't}
 \keyword{variable}

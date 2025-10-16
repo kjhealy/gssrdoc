@@ -10,11 +10,40 @@ General Social Survey https://gss.norc.org
 socid3
 }
 \details{
-Question 1457. We are all part of different groups. Some are more important to us than others when we think of ourselves. In general, which in the following list is most important to you in describing who you are? and the second most important? and the third most important?
+Question We are all part of different groups. Some are more important to us than others when we think of ourselves. in general, which in the following list is most important to you in describing who you are?  and the second most important? and the third most important?
+C. Third Most Important
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} current occupation
+\item \code{2} race ethnic background
+\item \code{3} gender
+\item \code{4} age group
+\item \code{5} religion
+\item \code{6} political party
+\item \code{7} nationality
+\item \code{8} family or marital status
+\item \code{9} social class
+\item \code{10} region
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4880/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllll}{
    year \tab iap \tab age group \tab current occupation \tab don't know \tab family or marital status \tab gender \tab nationality \tab no answer \tab political party \tab race ethnic background \tab region \tab religion \tab social class \tab not available in this year \tab Total \cr
@@ -57,32 +86,29 @@ Counts by year:\tabular{llllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} current occupation
-\item \code{2} race ethnic background
-\item \code{3} gender
-\item \code{4} age group
-\item \code{5} religion
-\item \code{6} political party
-\item \code{7} nationality
-\item \code{8} family or marital status
-\item \code{9} social class
-\item \code{10} region
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP National Identity: 
+\code{\link{amancstr}},
+\code{\link{citworld}},
+\code{\link{decsorgs}},
+\code{\link{freetrde}},
+\code{\link{intlincs}},
+\code{\link{lessprd}},
+\code{\link{powrorgs}},
+\code{\link{socid1}},
+\code{\link{socid2}}
+
+Other Occupation: 
+\code{\link{socid1}},
+\code{\link{socid2}}
+}
+\concept{ISSP National Identity}
+\concept{Occupation}
 \keyword{variable}

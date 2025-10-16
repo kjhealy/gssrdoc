@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 formlhrs
 }
 \details{
-Question 702d. In total, did the total number of hours add up to...
+Question E. In total, did the total number of hours add up to...
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} 35 hours or less
+\item \code{2} 35 hours-70 hrs
+\item \code{3} over 70 hours
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2153/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab 35 hours or less \tab 35 hours-70 hrs \tab don't know \tab no answer \tab over 70 hours \tab not available in this year \tab Total \cr
@@ -57,25 +78,34 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} 35 hours or less
-\item \code{2} 35 hours-70 hrs
-\item \code{3} over 70 hours
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1998 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Jobs: 
+\code{\link{doingdys}},
+\code{\link{doingfin}},
+\code{\link{doingtrn}},
+\code{\link{formldys}},
+\code{\link{formlfin}},
+\code{\link{howpaid}},
+\code{\link{numemp}},
+\code{\link{wojob}},
+\code{\link{wojobyrs}}
+
+Other Job: 
+\code{\link{doingdys}},
+\code{\link{doingfin}},
+\code{\link{doingtrn}},
+\code{\link{formldys}},
+\code{\link{formlfin}},
+\code{\link{howpaid}},
+\code{\link{numemp}}
+}
+\concept{Job}
+\concept{Jobs}
 \keyword{variable}

@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 feelhsps
 }
 \details{
-Question 849c. In general, how warm or cool do you feel towards Hispanics?
+Question C. In general, how warm or cool do you feel towards Hispanics?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very warm
+\item \code{9} very cool
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2732/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllll}{
    year \tab iap \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab don't know \tab no answer \tab very cool \tab very warm \tab not available in this year \tab Total \cr
@@ -57,24 +77,23 @@ Counts by year:\tabular{lllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very warm
-\item \code{9} very cool
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Prejudice: 
+\code{\link{ethadapt}},
+\code{\link{ethignor}},
+\code{\link{ethimp}},
+\code{\link{ethnofit}},
+\code{\link{ethtrads}},
+\code{\link{feelasns}},
+\code{\link{feelblks}}
+}
+\concept{Hispanics}
+\concept{Prejudice}
 \keyword{variable}

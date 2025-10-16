@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 racpush
 }
 \details{
-Question 127. Here are some opinions other people have expressed in connection with (negro/black)-white relations. Do you agree or disagree with each statement: a. (Negroes/blacks/African-Americans) shouldn't push themselves where they're not wanted.
+Question Here are some opinions other people have expressed in connection with (Negro/Black)-white relations. Which statement on the card comes closest to how you, yourself, feel? The first one is . . .
+A. (Negroes/Blacks/African-Americans) shouldn't push themselves where they're not wanted.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} agree strongly
+\item \code{2} agree slightly
+\item \code{3} disagree slightly
+\item \code{4} disagree strongly
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/385/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab agree slightly \tab agree strongly \tab disagree slightly \tab disagree strongly \tab don't know \tab iap \tab no answer \tab not available in this year \tab Total \cr
@@ -57,26 +80,43 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} agree strongly
-\item \code{2} agree slightly
-\item \code{3} disagree slightly
-\item \code{4} disagree strongly
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1972 \tab -/- \tab full \cr
+   1973 \tab -/- \tab full \cr
+   1975 \tab -/- \tab full \cr
+   1976 \tab -/- \tab full \cr
+   1977 \tab -/- \tab full \cr
+   1980 \tab -/- \tab full \cr
+   1982 \tab -/- \tab full \cr
+   1984 \tab -/- \tab full \cr
+   1985 \tab -/- \tab full \cr
+   1994 \tab A/C \tab partial \cr
+   1996 \tab A/C \tab partial \cr
+   1998 \tab A/C \tab partial \cr
+   2000 \tab A/C \tab partial \cr
+   2002 \tab A/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{cathtemp}},
+\code{\link{feclergy}},
+\code{\link{fepriest}},
+\code{\link{jewtemp}},
+\code{\link{mslmtemp}},
+\code{\link{racdin}},
+\code{\link{racmar}},
+\code{\link{racmar10}},
+\code{\link{relgrade}}
+
+Other Race: 
+\code{\link{racdin}},
+\code{\link{racmar}},
+\code{\link{racmar10}}
+}
+\concept{Core}
+\concept{Race}
 \keyword{variable}

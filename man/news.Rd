@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 news
 }
 \details{
-Question 241. How often do you read the newspaper - every day, a few times a week, once a week, less than once a week, or never?
+Question How often do you read the newspaper--every day, a few times a week, once a week, less than once a week, or never?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} every day
+\item \code{2} a few times a week
+\item \code{3} once a week
+\item \code{4} less than once a week
+\item \code{5} never
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/690/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab a few times a week \tab every day \tab less than once a week \tab never \tab no answer \tab once a week \tab iap \tab skipped on web \tab don't know \tab Total \cr
@@ -57,27 +80,54 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} every day
-\item \code{2} a few times a week
-\item \code{3} once a week
-\item \code{4} less than once a week
-\item \code{5} never
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1972 \tab -/-/- \tab full \cr
+   1975 \tab -/-/- \tab full \cr
+   1977 \tab -/-/- \tab full \cr
+   1978 \tab -/-/- \tab full \cr
+   1982 \tab -/-/- \tab full \cr
+   1983 \tab -/-/- \tab full \cr
+   1985 \tab -/-/- \tab full \cr
+   1986 \tab -/-/- \tab full \cr
+   1987 \tab -/-/- \tab full \cr
+   1988 \tab A/B/- \tab partial \cr
+   1989 \tab A/B/- \tab partial \cr
+   1990 \tab A/B/- \tab partial \cr
+   1991 \tab A/B/- \tab partial \cr
+   1993 \tab A/B/- \tab partial \cr
+   1994 \tab A/B/- \tab partial \cr
+   1996 \tab A/B/- \tab partial \cr
+   1998 \tab A/B/- \tab partial \cr
+   2000 \tab A/B/- \tab partial \cr
+   2002 \tab A/B/- \tab partial \cr
+   2004 \tab A/B/- \tab partial \cr
+   2006 \tab A/B/D \tab partial \cr
+   2008 \tab A/B/- \tab partial \cr
+   2010 \tab A/B/- \tab partial \cr
+   2012 \tab A/B/- \tab partial \cr
+   2014 \tab A/B/- \tab partial \cr
+   2016 \tab A/B/- \tab partial \cr
+   2018 \tab A/B/- \tab partial \cr
+   2021 \tab A/B/- \tab partial \cr
+   2022 \tab A/B/- \tab partial \cr
+   2024 \tab A/B/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{arrest}},
+\code{\link{convictd}},
+\code{\link{hunt}},
+\code{\link{hunt1}},
+\code{\link{huntothr}},
+\code{\link{lockedup}},
+\code{\link{rowngun}},
+\code{\link{ticket}},
+\code{\link{tvhours}}
+}
+\concept{Core}
+\concept{Newspaper Readership}
 \keyword{variable}

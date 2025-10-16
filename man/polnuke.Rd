@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 polnuke
 }
 \details{
-Question None
+Question Hereâ€™s another public issue: nuclear power. Nuclear power uses the energy of the atom to generate electricity. some people say that nuclear power is a safe option to meet the energy needs of the United States without burning fossil fuels such as coal, oil, or natural gas. Others are concerned about potential risks in the operation of nuclear plants and about the disposal of nuclear waste. Please look at Card E13. (On a scale of 1 to 5, where 1 means "Very Well" and 5 means  Not At All), how well do the following groups understand the likely effects of using nuclear power to generate electricity?
+A. Elected officials (How well elected officials know risk by nuclear power?)
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very well
+\item \code{5} not at all
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3488/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab 2 \tab 3 \tab 4 \tab don't know \tab no answer \tab not at all \tab very well \tab not available in this year \tab Total \cr
@@ -57,24 +78,28 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very well
-\item \code{5} not at all
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2010 \tab A/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{daynight}},
+\code{\link{fishexp1}},
+\code{\link{fishexp2}},
+\code{\link{genes}},
+\code{\link{gills}},
+\code{\link{morempg}},
+\code{\link{seesand}},
+\code{\link{upbreath}},
+\code{\link{weighing}}
+
+Other Environment: 
+\code{\link{morempg}}
+}
+\concept{Environment}
+\concept{Science Knowledge & Attitudes}
 \keyword{variable}

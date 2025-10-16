@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 hmemaker
 }
 \details{
-Question 571. We'd like your views on how the women's movement has affected certain groups. For each group I name, please tell me whether you think the women's movement has improved their lives, made their lives worse, or had no effect on their lives. a. Full-time homemaker
+Question We'd like your views on how the women's movement has affected certain groups. For each group I name, please tell me whether you think the women's movement has improved their lives, made their lives worse, or had no effect On their lives.
+A. Full-time homemaker
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} improved their life
+\item \code{2} made their life worse
+\item \code{3} had no effect on their life
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1700/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab don't know \tab had no effect on their life \tab improved their life \tab made their life worse \tab no answer \tab not available in this year \tab Total \cr
@@ -57,25 +79,36 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} improved their life
-\item \code{2} made their life worse
-\item \code{3} had no effect on their life
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Gender: 
+\code{\link{fehire}},
+\code{\link{fekids2}},
+\code{\link{fekids3}},
+\code{\link{fekids4}},
+\code{\link{fekids5}},
+\code{\link{feminist}},
+\code{\link{fenews}},
+\code{\link{mebear}},
+\code{\link{wrkclass}}
+
+Other Women: 
+\code{\link{fehire}},
+\code{\link{fekids2}},
+\code{\link{fekids3}},
+\code{\link{fekids4}},
+\code{\link{fekids5}},
+\code{\link{feminist}},
+\code{\link{fenews}},
+\code{\link{mebear}},
+\code{\link{wrkclass}}
+}
+\concept{Gender}
+\concept{Women}
 \keyword{variable}

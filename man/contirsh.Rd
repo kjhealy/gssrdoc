@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 contirsh
 }
 \details{
-Question 738. Since the beginning of our country, people of many different races, nationalities, and religions have come here and settled. As I name some of these groups please tell me if the group has made one of the most important positive contributions to this country, an important contribution, some contribution, or little positive contribution to this community. i. Irish
+Question Since the beginning of our country, people of many different races, nationalities, and religions have come here. and settled. As I name some of these groups please tell me if the group has made one of the most important positive contributions to this country, an important contribution, some contribution, or little positive contribution to this community.
+I. Irish?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} most important contribution
+\item \code{2} important contribution
+\item \code{3} some contribution
+\item \code{4} little positive contribution
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2279/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab don't know \tab important contribution \tab little positive contribution \tab most important contribution \tab no answer \tab some contribution \tab not available in this year \tab Total \cr
@@ -57,26 +80,36 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} most important contribution
-\item \code{2} important contribution
-\item \code{3} some contribution
-\item \code{4} little positive contribution
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Multi-Ethnic United States: 
+\code{\link{contblk}},
+\code{\link{contchn}},
+\code{\link{contcuba}},
+\code{\link{conteng}},
+\code{\link{contitl}},
+\code{\link{contjew}},
+\code{\link{contmex}},
+\code{\link{contpr}},
+\code{\link{contvn}}
+
+Other United States: 
+\code{\link{contblk}},
+\code{\link{contchn}},
+\code{\link{contcuba}},
+\code{\link{conteng}},
+\code{\link{contitl}},
+\code{\link{contjew}},
+\code{\link{contmex}},
+\code{\link{contpr}},
+\code{\link{contvn}}
+}
+\concept{Multi-Ethnic United States}
+\concept{United States}
 \keyword{variable}

@@ -10,11 +10,44 @@ General Social Survey https://gss.norc.org
 difrace1
 }
 \details{
-Question 1603a. WHY DO YOU THINK YOUR RACIAL CLASSIFICATION OF THE RESPONDENT IN "A" DIFFERED FROM THE RESPONDENT'S SELF-CLASSIFICATION IN "C"?
+Question A. WHY DO YOU THINK YOUR RACIAL CLASSIFICATION OF THE RESPONDENT IN "A" DIFFERED FROM THE RESPONDENT'S SELF-CLASSIFICATION IN "C"?
+\enumerate{
+\item First reason
 }
+}
+\section{Values}{
+
+\itemize{
+\item \code{1} r not serious
+\item \code{2} hispanic chosen over white
+\item \code{3} hispanic chosen over black
+\item \code{4} physically doesn't match race
+\item \code{5} racially mixed
+\item \code{6} r rejects racial categories
+\item \code{7} r rejects 'black' label
+\item \code{8} is married to member of another race
+\item \code{9} white or black chosen over hispanic
+\item \code{10} feelings, not biology matters
+\item \code{11} identifies with other than 'real' race
+\item \code{12} other hispanic complications
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5280/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab hispanic chosen over black \tab hispanic chosen over white \tab is married to member of another race \tab physically doesn't match race \tab r not serious \tab r rejects 'black' label \tab r rejects racial categories \tab racially mixed \tab white or black chosen over hispanic \tab not available in this year \tab Total \cr
@@ -57,34 +90,36 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} r not serious
-\item \code{2} hispanic chosen over white
-\item \code{3} hispanic chosen over black
-\item \code{4} physically doesn't match race
-\item \code{5} racially mixed
-\item \code{6} r rejects racial categories
-\item \code{7} r rejects 'black' label
-\item \code{8} is married to member of another race
-\item \code{9} white or black chosen over hispanic
-\item \code{10} feelings, not biology matters
-\item \code{11} identifies with other than 'real' race
-\item \code{12} other hispanic complications
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Ethnicity: 
+\code{\link{difrace2}},
+\code{\link{difrace3}},
+\code{\link{hispanic}},
+\code{\link{racecen1}},
+\code{\link{racecen2}},
+\code{\link{racecen3}},
+\code{\link{racedbtf}},
+\code{\link{racesee}},
+\code{\link{raceself}}
+
+Other Race: 
+\code{\link{difrace2}},
+\code{\link{difrace3}},
+\code{\link{hispanic}},
+\code{\link{racecen1}},
+\code{\link{racecen2}},
+\code{\link{racecen3}},
+\code{\link{racedbtf}},
+\code{\link{racesee}},
+\code{\link{raceself}}
+}
+\concept{Ethnicity}
+\concept{Race}
 \keyword{variable}

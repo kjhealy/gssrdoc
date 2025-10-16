@@ -1,11 +1,199 @@
+#'  Company granted r stock options in 2005
+#' 
+#'  ops2005
+#' 
+#' Question Did your company grant you any  stock options  in 2005?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3552/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no |no answer |yes |not available in this year |Total |
+#'  |:-----|:-----|:----------|:--|:---------|:---|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-  |-         |-   |-                          |1613  |
+#'  |1973  |1504  |-          |-  |-         |-   |-                          |1504  |
+#'  |1974  |1484  |-          |-  |-         |-   |-                          |1484  |
+#'  |1975  |1490  |-          |-  |-         |-   |-                          |1490  |
+#'  |1976  |1499  |-          |-  |-         |-   |-                          |1499  |
+#'  |1977  |1530  |-          |-  |-         |-   |-                          |1530  |
+#'  |1978  |1532  |-          |-  |-         |-   |-                          |1532  |
+#'  |1980  |1468  |-          |-  |-         |-   |-                          |1468  |
+#'  |1982  |1860  |-          |-  |-         |-   |-                          |1860  |
+#'  |1983  |1599  |-          |-  |-         |-   |-                          |1599  |
+#'  |1984  |1473  |-          |-  |-         |-   |-                          |1473  |
+#'  |1985  |1534  |-          |-  |-         |-   |-                          |1534  |
+#'  |1986  |1470  |-          |-  |-         |-   |-                          |1470  |
+#'  |1987  |1819  |-          |-  |-         |-   |-                          |1819  |
+#'  |1988  |1481  |-          |-  |-         |-   |-                          |1481  |
+#'  |1989  |1537  |-          |-  |-         |-   |-                          |1537  |
+#'  |1990  |1372  |-          |-  |-         |-   |-                          |1372  |
+#'  |1991  |1517  |-          |-  |-         |-   |-                          |1517  |
+#'  |1993  |1606  |-          |-  |-         |-   |-                          |1606  |
+#'  |1994  |2992  |-          |-  |-         |-   |-                          |2992  |
+#'  |1996  |2904  |-          |-  |-         |-   |-                          |2904  |
+#'  |1998  |2832  |-          |-  |-         |-   |-                          |2832  |
+#'  |2000  |2817  |-          |-  |-         |-   |-                          |2817  |
+#'  |2002  |2765  |-          |-  |-         |-   |-                          |2765  |
+#'  |2004  |2812  |-          |-  |-         |-   |-                          |2812  |
+#'  |2006  |4389  |3          |49 |2         |67  |-                          |4510  |
+#'  |2008  |2023  |-          |-  |-         |-   |-                          |2023  |
+#'  |2010  |2044  |-          |-  |-         |-   |-                          |2044  |
+#'  |2012  |1974  |-          |-  |-         |-   |-                          |1974  |
+#'  |2014  |2538  |-          |-  |-         |-   |-                          |2538  |
+#'  |2016  |2867  |-          |-  |-         |-   |-                          |2867  |
+#'  |2018  |2348  |-          |-  |-         |-   |-                          |2348  |
+#'  |2021  |4032  |-          |-  |-         |-   |-                          |4032  |
+#'  |2022  |-     |-          |-  |-         |-   |3544                       |3544  |
+#'  |2024  |-     |-          |-  |-         |-   |3309                       |3309  |
+#'  |Total |68725 |3          |49 |2         |67  |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Shared Capitalism
+#' @family Job
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name ops2005
+NULL
+
+
+#'  Received performance based payment in 2005
+#' 
+#'  extr2005
+#' 
+#' Question Did you receive any of these performance-based payments in the year 2005?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3553/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |no  |no answer |yes |not available in this year |Total |
+#'  |:-----|:-----|:---|:---------|:---|:--------------------------|:-----|
+#'  |1972  |1613  |-   |-         |-   |-                          |1613  |
+#'  |1973  |1504  |-   |-         |-   |-                          |1504  |
+#'  |1974  |1484  |-   |-         |-   |-                          |1484  |
+#'  |1975  |1490  |-   |-         |-   |-                          |1490  |
+#'  |1976  |1499  |-   |-         |-   |-                          |1499  |
+#'  |1977  |1530  |-   |-         |-   |-                          |1530  |
+#'  |1978  |1532  |-   |-         |-   |-                          |1532  |
+#'  |1980  |1468  |-   |-         |-   |-                          |1468  |
+#'  |1982  |1860  |-   |-         |-   |-                          |1860  |
+#'  |1983  |1599  |-   |-         |-   |-                          |1599  |
+#'  |1984  |1473  |-   |-         |-   |-                          |1473  |
+#'  |1985  |1534  |-   |-         |-   |-                          |1534  |
+#'  |1986  |1470  |-   |-         |-   |-                          |1470  |
+#'  |1987  |1819  |-   |-         |-   |-                          |1819  |
+#'  |1988  |1481  |-   |-         |-   |-                          |1481  |
+#'  |1989  |1537  |-   |-         |-   |-                          |1537  |
+#'  |1990  |1372  |-   |-         |-   |-                          |1372  |
+#'  |1991  |1517  |-   |-         |-   |-                          |1517  |
+#'  |1993  |1606  |-   |-         |-   |-                          |1606  |
+#'  |1994  |2992  |-   |-         |-   |-                          |2992  |
+#'  |1996  |2904  |-   |-         |-   |-                          |2904  |
+#'  |1998  |2832  |-   |-         |-   |-                          |2832  |
+#'  |2000  |2817  |-   |-         |-   |-                          |2817  |
+#'  |2002  |2765  |-   |-         |-   |-                          |2765  |
+#'  |2004  |2812  |-   |-         |-   |-                          |2812  |
+#'  |2006  |3849  |157 |19        |485 |-                          |4510  |
+#'  |2008  |2023  |-   |-         |-   |-                          |2023  |
+#'  |2010  |2044  |-   |-         |-   |-                          |2044  |
+#'  |2012  |1974  |-   |-         |-   |-                          |1974  |
+#'  |2014  |2538  |-   |-         |-   |-                          |2538  |
+#'  |2016  |2867  |-   |-         |-   |-                          |2867  |
+#'  |2018  |2348  |-   |-         |-   |-                          |2348  |
+#'  |2021  |4032  |-   |-         |-   |-                          |4032  |
+#'  |2022  |-     |-   |-         |-   |3544                       |3544  |
+#'  |2024  |-     |-   |-         |-   |3309                       |3309  |
+#'  |Total |68185 |157 |19        |485 |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Shared Capitalism
+#' @family Job
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name extr2005
+NULL
+
+
 #'  Annual wages in previous year were higher than same jobs in other companies
 #' 
 #'  compwage
 #' 
-#' Question 1087. Do you believe your fixed annual wages in calendar year 2005 were higher or lower than those of employees with similar experience and job descriptions in other companies in your region? Please answer on a 1 to 5 scale.
+#' Question Do you believe your fixed annual wages in calendar year 2005 were higher or lower than those of employees with similar experience and job descriptions in other companies in your region? Please answer on a 1 to 5 scale.
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` 1 - lower
+#'   * `5` 5 - higher
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3554/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,10 +236,39 @@
 #'  |2024  |-     |-         |-   |-    |-   |-          |-          |-         |-              |3309                       |3309  |
 #'  |Total |67462 |777       |748 |2140 |611 |373        |189        |72        |18             |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2022 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Shared Capitalism
+#' @family Employment
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name compwage
+NULL
+
+
+#'  If employee not working: talk directly to the employee
+#' 
+#'  talkteam
+#' 
+#' Question If you were to see a fellow employee not working as hard or well as he or she should, how likely would you be to talk about it in a work group or team? (Would you sayâ€¦)
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` 1 - lower
-#'   * `5` 5 - higher
+#'   * `1` not at all likely
+#'   * `2` not very likely
+#'   * `3` somewhat likely
+#'   * `4` very likely
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -65,22 +282,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name compwage
-NULL
-
-#'  If employee not working: talk directly to the employee
-#' 
-#'  talkteam
-#' 
-#' Question 1088. If you were to see a fellow employee not working as hard or well as he or she should, how likely would you be to talk about it in a work group or team? (Would you say...)
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3555/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,12 +326,45 @@ NULL
 #'  |2024  |-     |-          |-         |-                 |-               |-               |-           |3309                       |3309  |
 #'  |Total |67114 |68         |35        |575               |305             |424             |325         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Shared Capitalism
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name talkteam
+NULL
+
+
+#'  Number of people working in organization at all locations
+#' 
+#'  numorg
+#' 
+#' Question About how many people work in your organization at all locations? Count part-time as well as full-time employees.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` not at all likely
-#'   * `2` not very likely
-#'   * `3` somewhat likely
-#'   * `4` very likely
+#'   * `9981` 1-9 in range
+#'   * `9982` 10-49 in range
+#'   * `9983` 50-99 in range
+#'   * `9984` 100-499 in range
+#'   * `9985` 500-999 in range
+#'   * `9986` 1,000-1,999 in range
+#'   * `9987` 2,000-2,999 in range
+#'   * `9988` 3,000-3,999 in range
+#'   * `9989` 4,000-4,999 in range
+#'   * `9990` 5,000-10,000 in range
+#'   * `9991` 10,000-50,000 in range
+#'   * `9992` 50,000-100,000 in range
+#'   * `9993` above 100,000 in range
+#'   * `9997` 10,000 or more
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -142,22 +378,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name talkteam
-NULL
-
-#'  Number of people working in organization at all locations
-#' 
-#'  numorg
-#' 
-#' Question 1089. About how many people work in your organization at all locations? Count part-time as well as full-time employees.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3556/vshow).
 #'
 #' Counts by year: 
 #'
@@ -200,22 +422,37 @@ NULL
 #'  |2024  |-     |-   |-                    |-            |-  |-              |-                      |-              |-   |-                |-    |-    |-  |-   |-    |-   |-  |-   |-    |-  |-   |-  |-   |-  |-   |-    |-   |-   |-  |-   |-    |-   |-   |-  |-   |-   |-  |-   |-    |-  |-   |-                    |-  |-   |-    |-   |-  |-  |-   |-  |-    |-   |-   |-  |-   |-    |-   |-    |-  |-   |-                    |-  |-   |-    |-   |-    |-  |-  |-   |-    |-  |-   |-    |-  |-                    |-  |-   |-    |-  |-   |-  |-    |-  |-  |-   |-   |-  |-  |-  |-                     |-   |-                       |-              |-   |-                |-    |-   |-  |-   |-  |-  |-  |-   |-    |-  |-  |-   |-  |-    |-  |-  |-  |-   |-    |-  |-   |-  |-   |-    |-  |-  |-  |-   |-    |-  |-  |-    |-  |-  |-   |-    |-  |-    |-                      |-          |-         |-    |-  |-   |-  |-  |-  |-  |-   |-  |-   |-   |-  |-   |-   |-    |-  |-  |-  |-  |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-  |-   |-    |-  |-   |-  |-  |3309                       |3309  |
 #'  |Total |63706 |277 |114                  |146          |59 |229            |141                    |270            |81  |332              |76   |2    |26 |4   |3    |1   |37 |20  |10   |25 |7   |10 |3   |46 |49  |17   |1   |2   |14 |5   |1    |1   |3   |12 |2   |5   |9  |4   |6    |4  |114 |95                   |66 |68  |74   |1   |2  |5  |2   |4  |1    |1   |4   |29 |25  |11   |1   |1    |2  |100 |53                   |45 |54  |26   |1   |3    |1  |20 |12  |3    |2  |2   |2    |75 |49                   |34 |39  |10   |3  |1   |1  |2    |1  |10 |8   |1   |2  |6  |79 |132                   |111 |76                      |182            |75  |166              |42   |1   |2  |4   |1  |56 |22 |16  |12   |1  |3  |1   |10 |3    |1  |51 |26 |9   |9    |2  |1   |15 |2   |2    |1  |43 |18 |18  |6    |2  |2  |1    |58 |8  |4   |4    |1  |1    |206                    |273        |197       |3    |2  |1   |3  |3  |4  |1  |1   |1  |2   |1   |4  |2   |2   |2    |1  |1  |1  |2  |1   |2   |1   |1   |2   |1    |1   |1   |1   |1   |1   |1   |1  |1   |1    |1  |1   |1  |1  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Shared Capitalism
+#' @family Job
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name numorg
+NULL
+
+
+#'  R involved in any task force for decision-making
+#' 
+#'  empinput
+#' 
+#' Question Some companies have organized workplace decision-making in ways to get more employee input and involvement. Are you personally involved in any group,  team, committee, or task force that  addresses issues such as product quality, cost cutting, productivity, health and safety, or other workplace issues?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `9981` 1-9 in range
-#'   * `9982` 10-49 in range
-#'   * `9983` 50-99 in range
-#'   * `9984` 100-499 in range
-#'   * `9985` 500-999 in range
-#'   * `9986` 1,000-1,999 in range
-#'   * `9987` 2,000-2,999 in range
-#'   * `9988` 3,000-3,999 in range
-#'   * `9989` 4,000-4,999 in range
-#'   * `9990` 5,000-10,000 in range
-#'   * `9991` 10,000-50,000 in range
-#'   * `9992` 50,000-100,000 in range
-#'   * `9993` above 100,000 in range
-#'   * `9997` 10,000 or more
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -229,22 +466,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name numorg
-NULL
-
-#'  R involved in any task force for decision-making
-#' 
-#'  empinput
-#' 
-#' Question 1090. Some companies have organized workplace decision-making in ways to get more employee input and involvement. Are you personally involved in any group, team, committee, or task force that addresses issues such as product quality, cost cutting, productivity, health and safety, or other workplace issues?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3557/vshow).
 #'
 #' Counts by year: 
 #'
@@ -287,6 +510,32 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-    |-              |3309                       |3309  |
 #'  |Total |67463 |78         |3395 |63        |1383 |8              |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2022 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Shared Capitalism
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name empinput
+NULL
+
+
+#'  R involved in a self-managed team
+#' 
+#'  slfmangd
+#' 
+#' Question A. Are you currently involved in a self-managed team?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -304,22 +553,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name empinput
-NULL
-
-#'  R involved in a self-managed team
-#' 
-#'  slfmangd
-#' 
-#' Question 1090a. Are you currently involved in a self-managed team?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3558/vshow).
 #'
 #' Counts by year: 
 #'
@@ -362,6 +597,31 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-    |-              |3309                       |3309  |
 #'  |Total |68236 |81         |2649 |61        |1356 |7              |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Shared Capitalism
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name slfmangd
+NULL
+
+
+#'  Received formal training from employer
+#' 
+#'  emptrain
+#' 
+#' Question B. In the last 12 months have you received any formal training from your current employer, such as in classes or seminars sponsored by the employer?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -379,22 +639,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name slfmangd
-NULL
-
-#'  Received formal training from employer
-#' 
-#'  emptrain
-#' 
-#' Question 1090b. n the last 12 months have you received any formal training from your current employer, such as in classes or seminars sponsored by the employer?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3559/vshow).
 #'
 #' Counts by year: 
 #'
@@ -437,10 +683,50 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-    |-              |3309                       |3309  |
 #'  |Total |67463 |45         |2416 |55        |2405 |6              |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2022 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Shared Capitalism
+#' @family Job
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name emptrain
+NULL
+
+
+#'  Total wealth of respondent
+#' 
+#'  wealth
+#' 
+#' Question Please estimate your total wealth.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` less than $5,000
+#'   * `2` $5,000 to $20,000
+#'   * `3` $20,000 to $40,000
+#'   * `4` $40,000 to $75,000
+#'   * `5` $75,000 to $100,000
+#'   * `6` $100,000 to $150,000
+#'   * `7` $150,000 to $250,000
+#'   * `8` $250,000 to $500,000
+#'   * `9` $500,000 to $1 million
+#'   * `10` $1 million to $2 million
+#'   * `11` $2 million to $3 million
+#'   * `12` $3 million to $4 million
+#'   * `13` $4 million to $5 million
+#'   * `14` $5 million to $10 million
+#'   * `15` above $10 million
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -454,22 +740,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name emptrain
-NULL
-
-#'  Total wealth of respondent
-#' 
-#'  wealth
-#' 
-#' Question 1092. Please estimate your total wealth. IF ASKED: Wealth means the value of your house plus the value of your vehicles, stocks and mutual funds, cash, checking accounts, retirement accounts including 401(k) and pension assets, and any other assets minus what you owe for your mortgage and your debts.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3560/vshow).
 #'
 #' Counts by year: 
 #'
@@ -512,23 +784,37 @@ NULL
 #'  |2024  |-     |-                        |-                    |-                    |-                        |-                  |-                    |-                        |-                  |-                         |-                 |-                      |-                   |-                 |-          |-                |-         |-                        |-              |3309                       |3309  |
 #'  |Total |67463 |152                      |319                  |456                  |44                       |437                |641                  |13                       |415                |19                        |541               |371                    |283                 |13                |277        |560              |352       |14                       |20             |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2022 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Shared Capitalism
+#' @family Employment
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name wealth
+NULL
+
+
+#'  R is member of esop
+#' 
+#'  esop
+#' 
+#' Question A. Are you a member of an Employee Stock Ownership Plan commonly called an ESOP?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` less than $5,000
-#'   * `2` $5,000 to $20,000
-#'   * `3` $20,000 to $40,000
-#'   * `4` $40,000 to $75,000
-#'   * `5` $75,000 to $100,000
-#'   * `6` $100,000 to $150,000
-#'   * `7` $150,000 to $250,000
-#'   * `8` $250,000 to $500,000
-#'   * `9` $500,000 to $1 million
-#'   * `10` $1 million to $2 million
-#'   * `11` $2 million to $3 million
-#'   * `12` $3 million to $4 million
-#'   * `13` $4 million to $5 million
-#'   * `14` $5 million to $10 million
-#'   * `15` above $10 million
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -542,22 +828,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wealth
-NULL
-
-#'  R is member of esop
-#' 
-#'  esop
-#' 
-#' Question A. Are you a member of an Employee Stock Ownership Plan commonly called an ESOP?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3561/vshow).
 #'
 #' Counts by year: 
 #'
@@ -600,178 +872,22 @@ NULL
 #'  |2024  |-     |-          |-   |-         |-   |-              |3309                       |3309  |
 #'  |Total |71957 |22         |300 |4         |105 |2              |3309                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2014 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2022 |B/C/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Shared Capitalism
+#' @family Job
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
 #' @name esop
 NULL
 
-#'  R has defined benefit pension plan
-#' 
-#'  defpensn
-#' 
-#' Question B. Do you have a defined benefit pension plan at your company?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no   |no answer |yes  |skipped on web |not available in this year |Total |
-#'  |:-----|:-----|:----------|:----|:---------|:----|:--------------|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-    |-         |-    |-              |-                          |1613  |
-#'  |1973  |1504  |-          |-    |-         |-    |-              |-                          |1504  |
-#'  |1974  |1484  |-          |-    |-         |-    |-              |-                          |1484  |
-#'  |1975  |1490  |-          |-    |-         |-    |-              |-                          |1490  |
-#'  |1976  |1499  |-          |-    |-         |-    |-              |-                          |1499  |
-#'  |1977  |1530  |-          |-    |-         |-    |-              |-                          |1530  |
-#'  |1978  |1532  |-          |-    |-         |-    |-              |-                          |1532  |
-#'  |1980  |1468  |-          |-    |-         |-    |-              |-                          |1468  |
-#'  |1982  |1860  |-          |-    |-         |-    |-              |-                          |1860  |
-#'  |1983  |1599  |-          |-    |-         |-    |-              |-                          |1599  |
-#'  |1984  |1473  |-          |-    |-         |-    |-              |-                          |1473  |
-#'  |1985  |1534  |-          |-    |-         |-    |-              |-                          |1534  |
-#'  |1986  |1470  |-          |-    |-         |-    |-              |-                          |1470  |
-#'  |1987  |1819  |-          |-    |-         |-    |-              |-                          |1819  |
-#'  |1988  |1481  |-          |-    |-         |-    |-              |-                          |1481  |
-#'  |1989  |1537  |-          |-    |-         |-    |-              |-                          |1537  |
-#'  |1990  |1372  |-          |-    |-         |-    |-              |-                          |1372  |
-#'  |1991  |1517  |-          |-    |-         |-    |-              |-                          |1517  |
-#'  |1993  |1606  |-          |-    |-         |-    |-              |-                          |1606  |
-#'  |1994  |2992  |-          |-    |-         |-    |-              |-                          |2992  |
-#'  |1996  |2904  |-          |-    |-         |-    |-              |-                          |2904  |
-#'  |1998  |2832  |-          |-    |-         |-    |-              |-                          |2832  |
-#'  |2000  |2817  |-          |-    |-         |-    |-              |-                          |2817  |
-#'  |2002  |2765  |-          |-    |-         |-    |-              |-                          |2765  |
-#'  |2004  |2812  |-          |-    |-         |-    |-              |-                          |2812  |
-#'  |2006  |4510  |-          |-    |-         |-    |-              |-                          |4510  |
-#'  |2008  |2023  |-          |-    |-         |-    |-              |-                          |2023  |
-#'  |2010  |2044  |-          |-    |-         |-    |-              |-                          |2044  |
-#'  |2012  |1974  |-          |-    |-         |-    |-              |-                          |1974  |
-#'  |2014  |1765  |4          |491  |2         |276  |-              |-                          |2538  |
-#'  |2016  |2867  |-          |-    |-         |-    |-              |-                          |2867  |
-#'  |2018  |900   |24         |868  |31        |525  |-              |-                          |2348  |
-#'  |2021  |4032  |-          |-    |-         |-    |-              |-                          |4032  |
-#'  |2022  |2570  |52         |591  |6         |316  |9              |-                          |3544  |
-#'  |2024  |-     |-          |-    |-         |-    |-              |3309                       |3309  |
-#'  |Total |69195 |80         |1950 |39        |1117 |9              |3309                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name defpensn
-NULL
-
-#'  Company stock publicly traded
-#' 
-#'  trdestck
-#' 
-#' Question C. If your company has stock, is the stock of the company where your work traded on a stock market such as the New York Stock Exchange or the NASDAQ
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no  |no answer |yes |not available in this year |Total |
-#'  |:-----|:-----|:----------|:---|:---------|:---|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-   |-         |-   |-                          |1613  |
-#'  |1973  |1504  |-          |-   |-         |-   |-                          |1504  |
-#'  |1974  |1484  |-          |-   |-         |-   |-                          |1484  |
-#'  |1975  |1490  |-          |-   |-         |-   |-                          |1490  |
-#'  |1976  |1499  |-          |-   |-         |-   |-                          |1499  |
-#'  |1977  |1530  |-          |-   |-         |-   |-                          |1530  |
-#'  |1978  |1532  |-          |-   |-         |-   |-                          |1532  |
-#'  |1980  |1468  |-          |-   |-         |-   |-                          |1468  |
-#'  |1982  |1860  |-          |-   |-         |-   |-                          |1860  |
-#'  |1983  |1599  |-          |-   |-         |-   |-                          |1599  |
-#'  |1984  |1473  |-          |-   |-         |-   |-                          |1473  |
-#'  |1985  |1534  |-          |-   |-         |-   |-                          |1534  |
-#'  |1986  |1470  |-          |-   |-         |-   |-                          |1470  |
-#'  |1987  |1819  |-          |-   |-         |-   |-                          |1819  |
-#'  |1988  |1481  |-          |-   |-         |-   |-                          |1481  |
-#'  |1989  |1537  |-          |-   |-         |-   |-                          |1537  |
-#'  |1990  |1372  |-          |-   |-         |-   |-                          |1372  |
-#'  |1991  |1517  |-          |-   |-         |-   |-                          |1517  |
-#'  |1993  |1606  |-          |-   |-         |-   |-                          |1606  |
-#'  |1994  |2992  |-          |-   |-         |-   |-                          |2992  |
-#'  |1996  |2904  |-          |-   |-         |-   |-                          |2904  |
-#'  |1998  |2832  |-          |-   |-         |-   |-                          |2832  |
-#'  |2000  |2817  |-          |-   |-         |-   |-                          |2817  |
-#'  |2002  |2765  |-          |-   |-         |-   |-                          |2765  |
-#'  |2004  |2812  |-          |-   |-         |-   |-                          |2812  |
-#'  |2006  |4510  |-          |-   |-         |-   |-                          |4510  |
-#'  |2008  |2023  |-          |-   |-         |-   |-                          |2023  |
-#'  |2010  |2044  |-          |-   |-         |-   |-                          |2044  |
-#'  |2012  |1974  |-          |-   |-         |-   |-                          |1974  |
-#'  |2014  |1765  |115        |530 |5         |123 |-                          |2538  |
-#'  |2016  |2867  |-          |-   |-         |-   |-                          |2867  |
-#'  |2018  |2348  |-          |-   |-         |-   |-                          |2348  |
-#'  |2021  |4032  |-          |-   |-         |-   |-                          |4032  |
-#'  |2022  |-     |-          |-   |-         |-   |3544                       |3544  |
-#'  |2024  |-     |-          |-   |-         |-   |3309                       |3309  |
-#'  |Total |68073 |115        |530 |5         |123 |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name trdestck
-NULL
 

@@ -1,11 +1,200 @@
+#'  Have you ever taken prozac
+#' 
+#'  usedproz
+#' 
+#' Question Next, I''d like to ask you some questions about the medication called Prozac. 
+#' B. Have you, yourself, ever taken Prozac?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2221/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no   |no answer |yes |not available in this year |Total |
+#'  |:-----|:-----|:----------|:----|:---------|:---|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-    |-         |-   |-                          |1613  |
+#'  |1973  |1504  |-          |-    |-         |-   |-                          |1504  |
+#'  |1974  |1484  |-          |-    |-         |-   |-                          |1484  |
+#'  |1975  |1490  |-          |-    |-         |-   |-                          |1490  |
+#'  |1976  |1499  |-          |-    |-         |-   |-                          |1499  |
+#'  |1977  |1530  |-          |-    |-         |-   |-                          |1530  |
+#'  |1978  |1532  |-          |-    |-         |-   |-                          |1532  |
+#'  |1980  |1468  |-          |-    |-         |-   |-                          |1468  |
+#'  |1982  |1860  |-          |-    |-         |-   |-                          |1860  |
+#'  |1983  |1599  |-          |-    |-         |-   |-                          |1599  |
+#'  |1984  |1473  |-          |-    |-         |-   |-                          |1473  |
+#'  |1985  |1534  |-          |-    |-         |-   |-                          |1534  |
+#'  |1986  |1470  |-          |-    |-         |-   |-                          |1470  |
+#'  |1987  |1819  |-          |-    |-         |-   |-                          |1819  |
+#'  |1988  |1481  |-          |-    |-         |-   |-                          |1481  |
+#'  |1989  |1537  |-          |-    |-         |-   |-                          |1537  |
+#'  |1990  |1372  |-          |-    |-         |-   |-                          |1372  |
+#'  |1991  |1517  |-          |-    |-         |-   |-                          |1517  |
+#'  |1993  |1606  |-          |-    |-         |-   |-                          |1606  |
+#'  |1994  |2992  |-          |-    |-         |-   |-                          |2992  |
+#'  |1996  |2904  |-          |-    |-         |-   |-                          |2904  |
+#'  |1998  |1635  |7          |1078 |15        |97  |-                          |2832  |
+#'  |2000  |2817  |-          |-    |-         |-   |-                          |2817  |
+#'  |2002  |2765  |-          |-    |-         |-   |-                          |2765  |
+#'  |2004  |2812  |-          |-    |-         |-   |-                          |2812  |
+#'  |2006  |3238  |2          |1123 |15        |132 |-                          |4510  |
+#'  |2008  |2023  |-          |-    |-         |-   |-                          |2023  |
+#'  |2010  |2044  |-          |-    |-         |-   |-                          |2044  |
+#'  |2012  |1974  |-          |-    |-         |-   |-                          |1974  |
+#'  |2014  |2538  |-          |-    |-         |-   |-                          |2538  |
+#'  |2016  |2867  |-          |-    |-         |-   |-                          |2867  |
+#'  |2018  |2348  |-          |-    |-         |-   |-                          |2348  |
+#'  |2021  |4032  |-          |-    |-         |-   |-                          |4032  |
+#'  |2022  |-     |-          |-    |-         |-   |3544                       |3544  |
+#'  |2024  |-     |-          |-    |-         |-   |3309                       |3309  |
+#'  |Total |66377 |9          |2201 |30        |229 |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name usedproz
+NULL
+
+
+#'  Have you known anyone who took prozac
+#' 
+#'  knwnproz
+#' 
+#' Question Next, I''d like to ask you some questions about the medication called Prozac. 
+#' C. Have you ever personally known anyone who took Prozac?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2222/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no  |no answer |yes  |not available in this year |Total |
+#'  |:-----|:-----|:----------|:---|:---------|:----|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-   |-         |-    |-                          |1613  |
+#'  |1973  |1504  |-          |-   |-         |-    |-                          |1504  |
+#'  |1974  |1484  |-          |-   |-         |-    |-                          |1484  |
+#'  |1975  |1490  |-          |-   |-         |-    |-                          |1490  |
+#'  |1976  |1499  |-          |-   |-         |-    |-                          |1499  |
+#'  |1977  |1530  |-          |-   |-         |-    |-                          |1530  |
+#'  |1978  |1532  |-          |-   |-         |-    |-                          |1532  |
+#'  |1980  |1468  |-          |-   |-         |-    |-                          |1468  |
+#'  |1982  |1860  |-          |-   |-         |-    |-                          |1860  |
+#'  |1983  |1599  |-          |-   |-         |-    |-                          |1599  |
+#'  |1984  |1473  |-          |-   |-         |-    |-                          |1473  |
+#'  |1985  |1534  |-          |-   |-         |-    |-                          |1534  |
+#'  |1986  |1470  |-          |-   |-         |-    |-                          |1470  |
+#'  |1987  |1819  |-          |-   |-         |-    |-                          |1819  |
+#'  |1988  |1481  |-          |-   |-         |-    |-                          |1481  |
+#'  |1989  |1537  |-          |-   |-         |-    |-                          |1537  |
+#'  |1990  |1372  |-          |-   |-         |-    |-                          |1372  |
+#'  |1991  |1517  |-          |-   |-         |-    |-                          |1517  |
+#'  |1993  |1606  |-          |-   |-         |-    |-                          |1606  |
+#'  |1994  |2992  |-          |-   |-         |-    |-                          |2992  |
+#'  |1996  |2904  |-          |-   |-         |-    |-                          |2904  |
+#'  |1998  |1635  |41         |470 |16        |670  |-                          |2832  |
+#'  |2000  |2817  |-          |-   |-         |-    |-                          |2817  |
+#'  |2002  |2765  |-          |-   |-         |-    |-                          |2765  |
+#'  |2004  |2812  |-          |-   |-         |-    |-                          |2812  |
+#'  |2006  |3238  |20         |502 |15        |735  |-                          |4510  |
+#'  |2008  |2023  |-          |-   |-         |-    |-                          |2023  |
+#'  |2010  |2044  |-          |-   |-         |-    |-                          |2044  |
+#'  |2012  |1974  |-          |-   |-         |-    |-                          |1974  |
+#'  |2014  |2538  |-          |-   |-         |-    |-                          |2538  |
+#'  |2016  |2867  |-          |-   |-         |-    |-                          |2867  |
+#'  |2018  |2348  |-          |-   |-         |-    |-                          |2348  |
+#'  |2021  |4032  |-          |-   |-         |-    |-                          |4032  |
+#'  |2022  |-     |-          |-   |-         |-    |3544                       |3544  |
+#'  |2024  |-     |-          |-   |-         |-    |3309                       |3309  |
+#'  |Total |66377 |61         |972 |31        |1405 |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name knwnproz
+NULL
+
+
 #'  What can you tell me about prozac is used for
 #' 
 #'  prozfor1
 #' 
-#' Question 724. What can you tell me about what Prozac is used for?
+#' Question What can you tell me about what Prozac is used for? 
+#' A. First mention
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2223/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +237,31 @@
 #'  |2024  |-     |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |3309                       |3309  |
 #'  |Total |66391 |847 |32 |29 |31 |26 |17 |15 |11 |53 |4  |539 |33 |12 |5  |5  |13 |18 |19 |35 |57 |18 |13 |47 |60 |4  |15 |145        |44        |90 |12 |1  |2  |8  |1  |6  |91 |97 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name prozfor1
+NULL
+
+
+#'  What can you tell me about prozac is used for
+#' 
+#'  prozfor2
+#' 
+#' Question What can you tell me about what Prozac is used for? 
+#' B. Second mention
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -63,22 +277,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name prozfor1
-NULL
-
-#'  What can you tell me about prozac is used for
-#' 
-#'  prozfor2
-#' 
-#' Question 724. What can you tell me about what Prozac is used for?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2224/vshow).
 #'
 #' Counts by year: 
 #'
@@ -121,6 +321,31 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-  |-  |-  |-  |-  |-  |-          |3309                       |3309  |
 #'  |Total |67271 |35 |21 |34 |28 |22 |17 |9  |15 |3  |13 |2  |68 |21 |21 |6  |2  |15 |32 |8  |25 |14 |22 |5  |84 |14 |6  |4  |6         |2  |8  |5  |2  |2  |5  |999        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name prozfor2
+NULL
+
+
+#'  What can you tell me about prozac is used for
+#' 
+#'  prozfor3
+#' 
+#' Question What can you tell me about what Prozac is used for? 
+#' C. Third Mention
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -136,22 +361,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name prozfor2
-NULL
-
-#'  What can you tell me about prozac is used for
-#' 
-#'  prozfor3
-#' 
-#' Question 724. What can you tell me about what Prozac is used for?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2225/vshow).
 #'
 #' Counts by year: 
 #'
@@ -194,9 +405,39 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-  |-  |-  |-  |-  |-  |-  |-          |3309                       |3309  |
 #'  |Total |67513 |9  |4  |4  |4  |5  |1  |7  |5  |8  |5  |3  |10 |6  |3  |6  |3  |5  |7  |2  |6         |1  |1  |1  |1  |2  |3  |5  |1216       |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name prozfor3
+NULL
+
+
+#'  Prozac is harmful to the body
+#' 
+#'  proz1
+#' 
+#' Question How much do you agree or disagree with the following statements? 
+#' A. Prozac is harmful to the body.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `NA(d)` don't know
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` neither agree nor disagree
+#'   * `4` disagree
+#'   * `5` strongly disagree
+#'   * `NA(d)` can't choose
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
 #'   * `NA(m)` dk, na, iap
@@ -209,22 +450,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name prozfor3
-NULL
-
-#'  Prozac is harmful to the body
-#' 
-#'  proz1
-#' 
-#' Question 725. How much do you agree or disagree with the following statements? a. Prozac is harmful to the body
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2226/vshow).
 #'
 #' Counts by year: 
 #'
@@ -267,6 +494,31 @@ NULL
 #'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |66377 |476   |423          |436      |908                        |26        |137            |63                |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name proz1
+NULL
+
+
+#'  If no symptoms should discontinue prozac
+#' 
+#'  proz2
+#' 
+#' Question How much do you agree or disagree with the following statements? 
+#' B. If symptoms are no longer present, people should discontinue Prozac.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -287,22 +539,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name proz1
-NULL
-
-#'  If no symptoms should discontinue prozac
-#' 
-#'  proz2
-#' 
-#' Question 725. How much do you agree or disagree with the following statements? b. If symptoms are no longer present, people should discontinue Prozac.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2227/vshow).
 #'
 #' Counts by year: 
 #'
@@ -345,6 +583,30 @@ NULL
 #'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |67649 |428   |192          |225      |163                        |11        |126            |52                |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name proz2
+NULL
+
+
+#'  Taking prozac interferes with daily activities
+#' 
+#'  proz3
+#' 
+#' Question How much do you agree or disagree with the following statements? 
+#' C. Taking Prozac interferes with daily activities.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -365,22 +627,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name proz2
-NULL
-
-#'  Taking prozac interferes with daily activities
-#' 
-#'  proz3
-#' 
-#' Question 725. How much do you agree or disagree with the following statements? c. Taking Prozac interferes with daily activiites
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2228/vshow).
 #'
 #' Counts by year: 
 #'
@@ -423,6 +671,31 @@ NULL
 #'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |66377 |524   |418          |641      |665                        |28        |108            |85                |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name proz3
+NULL
+
+
+#'  Taking prozac helps people deal with stress
+#' 
+#'  proz4
+#' 
+#' Question How much do you agree or disagree with the following statements? 
+#' D. Taking Prozac helps people deal with day-to-day stresses.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -443,22 +716,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name proz3
-NULL
-
-#'  Taking prozac helps people deal with stress
-#' 
-#'  proz4
-#' 
-#' Question 725. How much do you agree or disagree with the following statements? d. Taking Prozac helps people deal with day-to-day stresses
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2229/vshow).
 #'
 #' Counts by year: 
 #'
@@ -501,6 +760,31 @@ NULL
 #'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |66377 |1382  |339          |93       |431                        |27        |169            |28                |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name proz4
+NULL
+
+
+#'  Taking prozac makes relations easier
+#' 
+#'  proz5
+#' 
+#' Question How much do you agree or disagree with the following statements? 
+#' E. Taking Prozac makes things easier in relations with family and friends.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -521,22 +805,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name proz4
-NULL
-
-#'  Taking prozac makes relations easier
-#' 
-#'  proz5
-#' 
-#' Question 725. How much do you agree or disagree with the following statements? e. Taking Prozac makes things easier in relations with family and friends.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2230/vshow).
 #'
 #' Counts by year: 
 #'
@@ -579,187 +849,20 @@ NULL
 #'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |66377 |1133  |375          |181      |594                        |29        |124            |33                |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` neither agree nor disagree
-#'   * `4` disagree
-#'   * `5` strongly disagree
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
 #' @name proz5
 NULL
 
-#'  Prozac helps people control their symptoms
-#' 
-#'  proz6
-#' 
-#' Question 725. How much do you agree or disagree with the following statements? f. I think Prozac helps people control their symptoms
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |agree |can't choose |disagree |neither agree nor disagree |no answer |strongly agree |strongly disagree |not available in this year |Total |
-#'  |:-----|:-----|:-----|:------------|:--------|:--------------------------|:---------|:--------------|:-----------------|:--------------------------|:-----|
-#'  |1972  |1613  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1613  |
-#'  |1973  |1504  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1504  |
-#'  |1974  |1484  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1484  |
-#'  |1975  |1490  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1490  |
-#'  |1976  |1499  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1499  |
-#'  |1977  |1530  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1530  |
-#'  |1978  |1532  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1532  |
-#'  |1980  |1468  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1468  |
-#'  |1982  |1860  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1860  |
-#'  |1983  |1599  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1599  |
-#'  |1984  |1473  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1473  |
-#'  |1985  |1534  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1534  |
-#'  |1986  |1470  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1470  |
-#'  |1987  |1819  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1819  |
-#'  |1988  |1481  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1481  |
-#'  |1989  |1537  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1537  |
-#'  |1990  |1372  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1372  |
-#'  |1991  |1517  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1517  |
-#'  |1993  |1606  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1606  |
-#'  |1994  |2992  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2992  |
-#'  |1996  |2904  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2904  |
-#'  |1998  |1635  |647   |210          |58       |207                        |11        |53             |11                |-                          |2832  |
-#'  |2000  |2817  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2817  |
-#'  |2002  |2765  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2765  |
-#'  |2004  |2812  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2812  |
-#'  |2006  |3238  |700   |127          |60       |261                        |16        |87             |21                |-                          |4510  |
-#'  |2008  |2023  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2023  |
-#'  |2010  |2044  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2044  |
-#'  |2012  |1974  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1974  |
-#'  |2014  |2538  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2538  |
-#'  |2016  |2867  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2867  |
-#'  |2018  |2348  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2348  |
-#'  |2021  |4032  |-     |-            |-        |-                          |-         |-              |-                 |-                          |4032  |
-#'  |2022  |-     |-     |-            |-        |-                          |-         |-              |-                 |3544                       |3544  |
-#'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |3309                       |3309  |
-#'  |Total |66377 |1347  |337          |118      |468                        |27        |140            |32                |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` neither agree nor disagree
-#'   * `4` disagree
-#'   * `5` strongly disagree
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name proz6
-NULL
-
-#'  Prozac makes people feel better about themselves
-#' 
-#'  proz7
-#' 
-#' Question 725. How much do you agree or disagree with the following statements? g. Taking Prozac makes people feel better about themselves.
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |agree |can't choose |disagree |neither agree nor disagree |no answer |strongly agree |strongly disagree |not available in this year |Total |
-#'  |:-----|:-----|:-----|:------------|:--------|:--------------------------|:---------|:--------------|:-----------------|:--------------------------|:-----|
-#'  |1972  |1613  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1613  |
-#'  |1973  |1504  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1504  |
-#'  |1974  |1484  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1484  |
-#'  |1975  |1490  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1490  |
-#'  |1976  |1499  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1499  |
-#'  |1977  |1530  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1530  |
-#'  |1978  |1532  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1532  |
-#'  |1980  |1468  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1468  |
-#'  |1982  |1860  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1860  |
-#'  |1983  |1599  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1599  |
-#'  |1984  |1473  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1473  |
-#'  |1985  |1534  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1534  |
-#'  |1986  |1470  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1470  |
-#'  |1987  |1819  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1819  |
-#'  |1988  |1481  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1481  |
-#'  |1989  |1537  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1537  |
-#'  |1990  |1372  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1372  |
-#'  |1991  |1517  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1517  |
-#'  |1993  |1606  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1606  |
-#'  |1994  |2992  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2992  |
-#'  |1996  |2904  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2904  |
-#'  |1998  |1635  |491   |250          |96       |272                        |13        |52             |23                |-                          |2832  |
-#'  |2000  |2817  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2817  |
-#'  |2002  |2765  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2765  |
-#'  |2004  |2812  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2812  |
-#'  |2006  |3238  |545   |127          |95       |392                        |16        |71             |26                |-                          |4510  |
-#'  |2008  |2023  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2023  |
-#'  |2010  |2044  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2044  |
-#'  |2012  |1974  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1974  |
-#'  |2014  |2538  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2538  |
-#'  |2016  |2867  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2867  |
-#'  |2018  |2348  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2348  |
-#'  |2021  |4032  |-     |-            |-        |-                          |-         |-              |-                 |-                          |4032  |
-#'  |2022  |-     |-     |-            |-        |-                          |-         |-              |-                 |3544                       |3544  |
-#'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |3309                       |3309  |
-#'  |Total |66377 |1036  |377          |191      |664                        |29        |123            |49                |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` neither agree nor disagree
-#'   * `4` disagree
-#'   * `5` strongly disagree
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name proz7
-NULL
 

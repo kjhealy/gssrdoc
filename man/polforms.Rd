@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 polforms
 }
 \details{
-Question 779. In general, when you visit Web sites devoted to political or social policy issues, current affairs, or political campaigns, is it VERY TRUE for you, SOMEWHAT TRUE, or NOT TRUE that: a. Visiting such Web sites helps you form an opinion on issues about which you are undecided?
+Question In general, when you visit Web sites devoted to political or social policy issues, current affairs, or political campaigns, is it VERY TRUE for you, SOMEWHAT TRUE, or NOT TRUE that:
+A. Visiting such Web sites helps you form an opinion on issues about which you are undecided?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very true
+\item \code{2} somewhat true
+\item \code{3} not true
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2447/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab don't know \tab no answer \tab not true \tab somewhat true \tab very true \tab not available in this year \tab Total \cr
@@ -57,25 +79,37 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very true
-\item \code{2} somewhat true
-\item \code{3} not true
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
+   2002 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Information Society: 
+\code{\link{contact}},
+\code{\link{meeting}},
+\code{\link{petition}},
+\code{\link{polchnge}},
+\code{\link{polconf}},
+\code{\link{poldsagr}},
+\code{\link{polneutl}},
+\code{\link{polnew}},
+\code{\link{votefor}}
+
+Other Computers And Internet: 
+\code{\link{contact}},
+\code{\link{meeting}},
+\code{\link{petition}},
+\code{\link{polchnge}},
+\code{\link{polconf}},
+\code{\link{poldsagr}},
+\code{\link{polneutl}},
+\code{\link{polnew}},
+\code{\link{votefor}}
+}
+\concept{Computers And Internet}
+\concept{Information Society}
 \keyword{variable}

@@ -10,11 +10,39 @@ General Social Survey https://gss.norc.org
 aidswho
 }
 \details{
-Question 1526. Think about the person you have known best, living or dead, who came down with AIDS. Please tell me the letter of the category on the card which best describes your relationship to that person.
+Question Think about the person you have known best, living or dead, who came down with AIDS. Please tell me the letter of the category on the card which best describes your relationship to that person.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} husband or wife
+\item \code{2} partner or lover
+\item \code{3} son or daughter
+\item \code{4} other relative
+\item \code{5} friend
+\item \code{6} neighbor
+\item \code{7} co-worker
+\item \code{8} acquaintance
+\item \code{9} patient
+\item \code{10} other
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5007/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllll}{
    year \tab iap \tab acquaintance \tab co-worker \tab friend \tab husband or wife \tab neighbor \tab no answer \tab other \tab other relative \tab patient \tab partner or lover \tab son or daughter \tab not available in this year \tab Total \cr
@@ -57,32 +85,32 @@ Counts by year:\tabular{lllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} husband or wife
-\item \code{2} partner or lover
-\item \code{3} son or daughter
-\item \code{4} other relative
-\item \code{5} friend
-\item \code{6} neighbor
-\item \code{7} co-worker
-\item \code{8} acquaintance
-\item \code{9} patient
-\item \code{10} other
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1988 \tab A/B/C \tab full \cr
+   1989 \tab A/B/C \tab full \cr
+   1990 \tab A/B/C \tab full \cr
+   1991 \tab B/C/- \tab partial \cr
+   1993 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Victims & AIDS: 
+\code{\link{aidsknow}},
+\code{\link{cideage2}},
+\code{\link{cideage3}},
+\code{\link{ciderac2}},
+\code{\link{ciderac3}},
+\code{\link{cidereg2}},
+\code{\link{cidereg3}},
+\code{\link{cidesex3}},
+\code{\link{cidewho3}}
+
+Other Aids: 
+\code{\link{aidsknow}}
+}
+\concept{Aids}
+\concept{Victims & AIDS}
 \keyword{variable}

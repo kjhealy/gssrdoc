@@ -10,11 +10,30 @@ General Social Survey https://gss.norc.org
 yearval
 }
 \details{
-Question 923. What was the approximate total dollar value of these various payments in that year?
+Question What was the approximate total dollar value of these various payments in that year?
 }
+\section{Values}{
+
+\itemize{
+\item \code{9999995} other
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2862/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 1 \tab 100 \tab 1000 \tab 10000 \tab 1100 \tab 12000 \tab 1250 \tab 1300 \tab 14000 \tab 15 \tab 1500 \tab 1800 \tab 200 \tab 2000 \tab 20000 \tab 2200 \tab 225 \tab 2300 \tab 25 \tab 250 \tab 2500 \tab 25000 \tab 270 \tab 2750 \tab 300 \tab 3000 \tab 30000 \tab 350 \tab 400 \tab 4000 \tab 40000 \tab 444 \tab 450 \tab 50 \tab 500 \tab 5000 \tab 550 \tab 600 \tab 6000 \tab 65 \tab 700 \tab 7000 \tab 70000 \tab 75 \tab 750 \tab 800 \tab 8000 \tab don't know \tab no answer \tab other \tab 0 \tab 1200 \tab 150 \tab 175 \tab 26000 \tab 28000 \tab 325 \tab 3500 \tab 40 \tab 5e+05 \tab 7500 \tab 8 \tab 95000 \tab 98 \tab 100.5 \tab 11 \tab 11000 \tab 110000 \tab 120000 \tab 13000 \tab 135 \tab 15000 \tab 1600 \tab 16000 \tab 17000 \tab 1750 \tab 18000 \tab 1e+05 \tab 2100 \tab 2372 \tab 24 \tab 2499.5 \tab 2500.5 \tab 250000 \tab 251 \tab 2800 \tab 299.5 \tab 3300 \tab 3499.5 \tab 35 \tab 4100 \tab 4250 \tab 4500 \tab 475 \tab 4800 \tab 5 \tab 520 \tab 5200 \tab 60 \tab 650 \tab 70 \tab 72000 \tab 749.5 \tab 75000 \tab 80 \tab 900 \tab 9000 \tab 10 \tab 1000.5 \tab 124 \tab 125 \tab 13500 \tab 1400 \tab 18 \tab 240 \tab 2400 \tab 287.5 \tab 3 \tab 30 \tab 50.5 \tab 62 \tab 620 \tab 950 \tab not available in this year \tab Total \cr
@@ -57,23 +76,38 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{9999995} other
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2022 \tab B/C/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Employee Compensation: 
+\code{\link{compperf}},
+\code{\link{deptperf}},
+\code{\link{extr2001}},
+\code{\link{extrapay}},
+\code{\link{extraval}},
+\code{\link{extrayr}},
+\code{\link{indperf}},
+\code{\link{seecowrk}}
+
+Other Job: 
+\code{\link{compperf}},
+\code{\link{deptperf}},
+\code{\link{extr2001}},
+\code{\link{extrapay}},
+\code{\link{extraval}},
+\code{\link{extrayr}},
+\code{\link{indperf}},
+\code{\link{seecowrk}}
+}
+\concept{Employee Compensation}
+\concept{Job}
 \keyword{variable}

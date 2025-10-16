@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 elecfair
 }
 \details{
-Question 1483. Thinking of the last national election in America, how fair was it regarding the opportunities of the candidates and parties to campaign?
+Question Thinking of the last national election in America, how fair was it regarding the opportunities of the candidates and parties to campaign?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very fair
+\item \code{2} somewhat fair
+\item \code{3} neither fair nor unfair
+\item \code{4} somewhat unfair
+\item \code{5} very unfair
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4956/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab can't choose \tab neither fair nor unfair \tab no answer \tab somewhat fair \tab somewhat unfair \tab very fair \tab very unfair \tab not available in this year \tab Total \cr
@@ -57,27 +80,37 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very fair
-\item \code{2} somewhat fair
-\item \code{3} neither fair nor unfair
-\item \code{4} somewhat unfair
-\item \code{5} very unfair
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Citizenship: 
+\code{\link{chngeoth}},
+\code{\link{choices}},
+\code{\link{elecvote}},
+\code{\link{govngos}},
+\code{\link{polactve}},
+\code{\link{powerun}},
+\code{\link{refrndms}},
+\code{\link{servepeo}},
+\code{\link{unrghts}}
+
+Other Political: 
+\code{\link{chngeoth}},
+\code{\link{choices}},
+\code{\link{elecvote}},
+\code{\link{govngos}},
+\code{\link{polactve}},
+\code{\link{powerun}},
+\code{\link{refrndms}},
+\code{\link{servepeo}},
+\code{\link{unrghts}}
+}
+\concept{ISSP Citizenship}
+\concept{Political}
 \keyword{variable}

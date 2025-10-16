@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 nateducy
 }
 \details{
-Question 69. We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. g. Education
+Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?
+G. Education
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} too little
+\item \code{2} about right
+\item \code{3} too much
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/205/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab about right \tab don't know \tab no answer \tab too little \tab too much \tab skipped on web \tab Total \cr
@@ -57,25 +79,85 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} too little
-\item \code{2} about right
-\item \code{3} too much
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1984 \tab -/-/- \tab full \cr
+   1985 \tab -/-/- \tab full \cr
+   1986 \tab -/-/- \tab full \cr
+   1987 \tab -/-/- \tab full \cr
+   1988 \tab A/B/C \tab full \cr
+   1989 \tab A/B/C \tab full \cr
+   1990 \tab A/B/C \tab full \cr
+   1991 \tab A/B/C \tab full \cr
+   1993 \tab A/B/C \tab full \cr
+   1994 \tab A/B/C \tab full \cr
+   1996 \tab A/B/C \tab full \cr
+   1998 \tab A/B/C \tab full \cr
+   2000 \tab A/B/C \tab full \cr
+   2002 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2021 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
+   2024 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{nataidy}},
+\code{\link{natarmsy}},
+\code{\link{natcityy}},
+\code{\link{natcrimy}},
+\code{\link{natdrugy}},
+\code{\link{natfarey}},
+\code{\link{nathealy}},
+\code{\link{natracey}},
+\code{\link{natspacz}}
+
+Other Federal Governmentending: 
+\code{\link{nataidy}},
+\code{\link{natarmsy}},
+\code{\link{natcityy}},
+\code{\link{natcrimy}},
+\code{\link{natdrugy}},
+\code{\link{natfarey}},
+\code{\link{nathealy}},
+\code{\link{natracey}},
+\code{\link{natspacz}}
+
+Other Split Ballots: 
+\code{\link{nataidy}},
+\code{\link{natarmsy}},
+\code{\link{natcityy}},
+\code{\link{natcrimy}},
+\code{\link{natdrugy}},
+\code{\link{natfarey}},
+\code{\link{nathealy}},
+\code{\link{natracey}},
+\code{\link{natspacz}}
+
+Other United States: 
+\code{\link{nataidy}},
+\code{\link{natarmsy}},
+\code{\link{natcityy}},
+\code{\link{natcrimy}},
+\code{\link{natdrugy}},
+\code{\link{natfarey}},
+\code{\link{nathealy}},
+\code{\link{natracey}},
+\code{\link{natspacz}}
+}
+\concept{Core}
+\concept{Education}
+\concept{Federal Governmentending}
+\concept{Split Ballots}
+\concept{United States}
 \keyword{variable}

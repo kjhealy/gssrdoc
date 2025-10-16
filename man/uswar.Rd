@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 uswar
 }
 \details{
-Question 97. Do you expect the United States to fight in another war within the next ten years?
+Question Do you expect the United States to fight in another war within the next ten years?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes
+\item \code{2} no
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5484/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab not available in this year \tab Total \cr
@@ -57,24 +77,48 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes
-\item \code{2} no
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1973 \tab - \tab full \cr
+   1975 \tab - \tab full \cr
+   1976 \tab - \tab full \cr
+   1978 \tab - \tab full \cr
+   1982 \tab - \tab full \cr
+   1983 \tab - \tab full \cr
+   1985 \tab - \tab full \cr
+   2010 \tab B \tab partial \cr
+   2012 \tab B \tab partial \cr
+   2014 \tab B \tab partial \cr
+   2016 \tab B \tab partial \cr
 }
 }
 
+\seealso{
+Other War and International: 
+\code{\link{commun}},
+\code{\link{commun10}},
+\code{\link{russia}},
+\code{\link{usintl}},
+\code{\link{usun}},
+\code{\link{uswary}}
+
+Other Foreign Affairs: 
+\code{\link{usintl}},
+\code{\link{usun}},
+\code{\link{uswary}}
+
+Other Split Ballots: 
+\code{\link{russia}},
+\code{\link{uswary}}
+
+Other United States: 
+\code{\link{usintl}},
+\code{\link{usun}},
+\code{\link{uswary}}
+}
+\concept{Foreign Affairs}
+\concept{Split Ballots}
+\concept{United States}
+\concept{War and International}
 \keyword{variable}

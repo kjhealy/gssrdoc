@@ -12,9 +12,32 @@ polefy16
 \details{
 Question How often do the people we elect to Congress try to keep the promises they have made during the election: Never, rarely, sometimes, very often, or extremely often?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} never
+\item \code{2} rarely
+\item \code{3} sometimes
+\item \code{4} very often
+\item \code{5} extremely often
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3976/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab don't know \tab extremely often \tab never \tab no answer \tab rarely \tab sometimes \tab very often \tab not available in this year \tab Total \cr
@@ -57,27 +80,35 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} never
-\item \code{2} rarely
-\item \code{3} sometimes
-\item \code{4} very often
-\item \code{5} extremely often
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2012 \tab A/C \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Role of Gov't: 
+\code{\link{polefy11}},
+\code{\link{polefy13}},
+\code{\link{polefy15}},
+\code{\link{polefy17}},
+\code{\link{polefy3}},
+\code{\link{prespop}},
+\code{\link{volacty2}},
+\code{\link{volactyr}}
+
+Other Federal Government: 
+\code{\link{polefy17}}
+
+Other Political: 
+\code{\link{polefy11}},
+\code{\link{polefy13}},
+\code{\link{polefy15}},
+\code{\link{polefy3}},
+\code{\link{prespop}}
+}
+\concept{Federal Government}
+\concept{ISSP Role of Gov't}
+\concept{Political}
 \keyword{variable}

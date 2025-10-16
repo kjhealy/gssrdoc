@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 hlth1
 }
 \details{
-Question 1575. Now, I'm going to ask you about various events and conditions that happen to people. I'm interested in those that happened to you during the last 12 months, that is since (CURRENT MONTH), 2003. As I ask you about the specific events, please think carefully, so I can record things accurately. a. First, thinking about health related matters, did any of the following happen to you since February/March, 1990? 1. Ill enough to go to a doctor
+Question Now, I'm going to ask you about various events and conditions that happen to people. I'm interested in those that happened to you during the last 12 months, that is since (CURRENT MONTH), (1990/2003). As I ask you about the specific events, please think carefully, so I can record things accurately.
+A. First, thinking about health related matters, did any of the following happen to you since (CURRENT MONTH, 1990/2003)?
+\enumerate{
+\item Ill enough to go to a doctor.
 }
+}
+\section{Values}{
+
+\itemize{
+\item \code{1} yes
+\item \code{2} no
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5136/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab no \tab no answer \tab yes \tab don't know \tab not available in this year \tab Total \cr
@@ -57,24 +81,46 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes
-\item \code{2} no
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1991 \tab B/C/- \tab partial \cr
+   2004 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Negative Life Events: 
+\code{\link{hlth2}},
+\code{\link{hlth3}},
+\code{\link{hlth4}},
+\code{\link{hlth5}},
+\code{\link{hlth6}},
+\code{\link{hlth7}},
+\code{\link{prob2}},
+\code{\link{prob3}},
+\code{\link{prob4}}
+
+Other Health: 
+\code{\link{hlth2}},
+\code{\link{hlth3}},
+\code{\link{hlth4}},
+\code{\link{hlth5}},
+\code{\link{hlth6}},
+\code{\link{hlth7}}
+
+Other Trauma: 
+\code{\link{hlth2}},
+\code{\link{hlth3}},
+\code{\link{hlth4}},
+\code{\link{hlth5}},
+\code{\link{hlth6}},
+\code{\link{hlth7}},
+\code{\link{prob2}},
+\code{\link{prob3}},
+\code{\link{prob4}}
+}
+\concept{Health}
+\concept{Negative Life Events}
+\concept{Trauma}
 \keyword{variable}

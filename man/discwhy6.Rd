@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 discwhy6
 }
 \details{
-Question 414a. Do you feel this way because of something that happened to you personally, because it happened to a relative, family member, or lcose friend, because you saw it occuring at work, or because you have heard about it from the media or other sources? 6. Other (specify)
+Question What do you think the chances are these days that a white person won't get a job or promotion while an equally or less qualified black person gets one instead?  Is this very likely, somewhat likely, or not very likely to happen these days?
+A. Do you feel this way because of something that happened to you personally, because it happened to a relative, family member or close friend, because you saw it occurring at work, or because you have heard about it from the media or other sources? (CHECK ALL THAT APPLY)
+6. Other (SPECIFY)
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} general,no source
+\item \code{2} all of the above
+\item \code{3} the law
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1257/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab all of the above \tab don't know \tab general,no source \tab no answer \tab the law \tab not available in this year \tab Total \cr
@@ -57,25 +80,40 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} general,no source
-\item \code{2} all of the above
-\item \code{3} the law
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1990 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Intergroup Relations: 
+\code{\link{affact}},
+\code{\link{discaff}},
+\code{\link{discwhy1}},
+\code{\link{discwhy2}},
+\code{\link{discwhy3}},
+\code{\link{discwhy4}},
+\code{\link{discwhy5}}
+
+Other Multiculturalism: 
+\code{\link{discaff}},
+\code{\link{discwhy1}},
+\code{\link{discwhy2}},
+\code{\link{discwhy3}},
+\code{\link{discwhy4}},
+\code{\link{discwhy5}}
+
+Other Blacks: 
+\code{\link{discaff}},
+\code{\link{discwhy1}},
+\code{\link{discwhy2}},
+\code{\link{discwhy3}},
+\code{\link{discwhy4}},
+\code{\link{discwhy5}}
+}
+\concept{Blacks}
+\concept{Intergroup Relations}
+\concept{Multiculturalism}
 \keyword{variable}

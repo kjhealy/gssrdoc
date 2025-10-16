@@ -10,11 +10,44 @@ General Social Survey https://gss.norc.org
 rincome
 }
 \details{
-Question 38. Did you earn any income from (OCCUPATION DESCRIBED IN Q2) last year? a. If yes: In which of these groups did your earnings from (OCCUPATION IN Q2) for last year fall? That is, before taxes or other deductions.
+Question Did you earn any income from (OCCUPATION DESCRIBED IN OCC-INDUSTRY) in (the previous year)?
+Yes ............. (ASK RINCOME)
+No .............. (See REMARKS)
+A. IF YES:  In which of these groups did your earnings from (OCCUPATION IN OCC) for last year--(the previous year)--fall? That is, before taxes or other deductions. Just tell me the letter.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} under $1,000
+\item \code{2} $1,000 to $2,999
+\item \code{3} $3,000 to $3,999
+\item \code{4} $4,000 to $4,999
+\item \code{5} $5,000 to $5,999
+\item \code{6} $6,000 to $6,999
+\item \code{7} $7,000 to $7,999
+\item \code{8} $8,000 to $9,999
+\item \code{9} $10,000 to $14,999
+\item \code{10} $15,000 to $19,999
+\item \code{11} $20,000 to $24,999
+\item \code{12} $25,000 or more
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/105/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllll}{
    year \tab iap \tab $1,000 to $2,999 \tab $10,000 to $14,999 \tab $15,000 to $19,999 \tab $20,000 to $24,999 \tab $25,000 or more \tab $3,000 to $3,999 \tab $4,000 to $4,999 \tab $5,000 to $5,999 \tab $6,000 to $6,999 \tab $7,000 to $7,999 \tab $8,000 to $9,999 \tab don't know \tab refused \tab under $1,000 \tab no answer \tab skipped on web \tab Total \cr
@@ -57,34 +90,60 @@ Counts by year:\tabular{lllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} under $1,000
-\item \code{2} $1,000 to $2,999
-\item \code{3} $3,000 to $3,999
-\item \code{4} $4,000 to $4,999
-\item \code{5} $5,000 to $5,999
-\item \code{6} $6,000 to $6,999
-\item \code{7} $7,000 to $7,999
-\item \code{8} $8,000 to $9,999
-\item \code{9} $10,000 to $14,999
-\item \code{10} $15,000 to $19,999
-\item \code{11} $20,000 to $24,999
-\item \code{12} $25,000 or more
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1974 \tab -/-/-/- \tab full \cr
+   1975 \tab -/-/-/- \tab full \cr
+   1976 \tab -/-/-/- \tab full \cr
+   1977 \tab -/-/-/- \tab full \cr
+   1978 \tab -/-/-/- \tab full \cr
+   1980 \tab -/-/-/- \tab full \cr
+   1982 \tab -/-/-/- \tab full \cr
+   1983 \tab -/-/-/- \tab full \cr
+   1984 \tab -/-/-/- \tab full \cr
+   1985 \tab -/-/-/- \tab full \cr
+   1986 \tab -/-/-/- \tab full \cr
+   1987 \tab -/-/-/- \tab full \cr
+   1988 \tab A/B/C/- \tab full \cr
+   1989 \tab A/B/C/- \tab full \cr
+   1990 \tab A/B/C/- \tab full \cr
+   1991 \tab A/B/C/- \tab full \cr
+   1993 \tab A/B/C/- \tab full \cr
+   1994 \tab A/B/C/- \tab full \cr
+   1996 \tab A/B/C/- \tab full \cr
+   1998 \tab A/B/C/- \tab full \cr
+   2000 \tab A/B/C/- \tab full \cr
+   2002 \tab A/B/C/- \tab full \cr
+   2004 \tab A/B/C/- \tab full \cr
+   2006 \tab A/B/C/D \tab full \cr
+   2008 \tab A/B/C/- \tab full \cr
+   2010 \tab A/B/C/- \tab full \cr
+   2012 \tab A/B/C/- \tab full \cr
+   2014 \tab A/B/C/- \tab full \cr
+   2016 \tab A/B/C/- \tab full \cr
+   2018 \tab A/B/C/- \tab full \cr
+   2021 \tab A/B/C/- \tab full \cr
+   2022 \tab A/B/C/- \tab full \cr
+   2024 \tab A/B/C/- \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{adults}},
+\code{\link{babies}},
+\code{\link{earnrs}},
+\code{\link{granborn}},
+\code{\link{hompop}},
+\code{\link{income}},
+\code{\link{preteen}},
+\code{\link{teens}},
+\code{\link{unrelat}}
+
+Other Income: 
+\code{\link{income}}
+}
+\concept{Core}
+\concept{Income}
 \keyword{variable}

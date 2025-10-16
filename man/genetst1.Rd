@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 genetst1
 }
 \details{
-Question The next few questions are about a special technique called "genetic screening," which makes it possible to predict whether or not a person is likely to develop certain inherited diseases. 1564b. How much would you say you have heard or read about genetic testing?
+Question B. How much would you say you have heard or read about genetic testing?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} a great deal
+\item \code{2} something but not very much
+\item \code{3} nothing at all
+\item \code{7} refused
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5084/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab a great deal \tab don't know \tab no answer \tab nothing at all \tab something but not very much \tab not available in this year \tab Total \cr
@@ -57,26 +79,24 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} a great deal
-\item \code{2} something but not very much
-\item \code{3} nothing at all
-\item \code{7} refused
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/C/- \tab partial \cr
+   2004 \tab A/B/C \tab full \cr
+   2018 \tab A/C/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Genes: 
+\code{\link{genegood}},
+\code{\link{genetest}}
+
+Other Genetic Testing: 
+\code{\link{genegood}},
+\code{\link{genetest}}
+}
+\concept{Genes}
+\concept{Genetic Testing}
 \keyword{variable}

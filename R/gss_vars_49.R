@@ -1,11 +1,128 @@
+#'  How close r feels to black people
+#' 
+#'  closeblk
+#' 
+#' Question In the past few years, do you think conditions for black people have improved, gotten worse, or stayed about the same? A. In general, how close do you feel to Black people?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` not at all close
+#'   * `5` neither one or the other
+#'   * `9` very close
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/426/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |2   |3   |4   |6    |7    |8   |don't know |neither one or the other |no answer |not at all close |very close |not available in this year |not available in this release |Total |
+#'  |:-----|:-----|:---|:---|:---|:----|:----|:---|:----------|:------------------------|:---------|:----------------|:----------|:--------------------------|:-----------------------------|:-----|
+#'  |1972  |1613  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1613  |
+#'  |1973  |1504  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1504  |
+#'  |1974  |1484  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1484  |
+#'  |1975  |1490  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1490  |
+#'  |1976  |1499  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1499  |
+#'  |1977  |1530  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1530  |
+#'  |1978  |1532  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1532  |
+#'  |1980  |1468  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1468  |
+#'  |1982  |1860  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1860  |
+#'  |1983  |1599  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1599  |
+#'  |1984  |1473  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1473  |
+#'  |1985  |1534  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1534  |
+#'  |1986  |1470  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1470  |
+#'  |1987  |1819  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1819  |
+#'  |1988  |1481  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1481  |
+#'  |1989  |1537  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1537  |
+#'  |1990  |1372  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1372  |
+#'  |1991  |1517  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1517  |
+#'  |1993  |1606  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1606  |
+#'  |1994  |2992  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |2992  |
+#'  |1996  |1932  |24  |45  |48  |76   |100  |33  |12         |427                      |6         |64               |137        |-                          |-                             |2904  |
+#'  |1998  |950   |86  |97  |77  |138  |197  |97  |28         |797                      |15        |119              |231        |-                          |-                             |2832  |
+#'  |2000  |956   |54  |83  |73  |152  |208  |115 |18         |751                      |31        |130              |246        |-                          |-                             |2817  |
+#'  |2002  |1841  |15  |36  |43  |82   |90   |56  |3          |406                      |3         |50               |140        |-                          |-                             |2765  |
+#'  |2004  |1914  |18  |24  |45  |73   |119  |56  |5          |402                      |2         |33               |121        |-                          |-                             |2812  |
+#'  |2006  |2507  |42  |54  |69  |164  |260  |93  |9          |891                      |2         |107              |312        |-                          |-                             |4510  |
+#'  |2008  |671   |31  |48  |50  |106  |176  |88  |14         |561                      |5         |73               |200        |-                          |-                             |2023  |
+#'  |2010  |763   |34  |56  |43  |115  |171  |70  |11         |495                      |6         |60               |220        |-                          |-                             |2044  |
+#'  |2012  |666   |29  |47  |54  |114  |158  |90  |10         |505                      |4         |50               |247        |-                          |-                             |1974  |
+#'  |2014  |824   |26  |62  |75  |141  |226  |113 |7          |640                      |6         |60               |358        |-                          |-                             |2538  |
+#'  |2016  |978   |39  |61  |65  |136  |259  |140 |2          |686                      |9         |75               |417        |-                          |-                             |2867  |
+#'  |2018  |2348  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |2348  |
+#'  |2021  |4032  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |4032  |
+#'  |2022  |-     |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |3544                       |-                             |3544  |
+#'  |2024  |-     |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |3309                          |3309  |
+#'  |Total |52762 |398 |613 |642 |1297 |1964 |951 |119        |6561                     |89        |821              |2629       |3544                       |3309                          |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/C     |partial      |
+#'  |1998 |A/C     |partial      |
+#'  |2000 |A/C     |partial      |
+#'  |2002 |A/C     |partial      |
+#'  |2004 |A/C     |partial      |
+#'  |2006 |A/C     |partial      |
+#'  |2008 |A/C     |partial      |
+#'  |2010 |A/C     |partial      |
+#'  |2012 |A/C     |partial      |
+#'  |2014 |A/C     |partial      |
+#'  |2016 |A/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Blacks
+#' @family Ethnicity
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name closeblk
+NULL
+
+
 #'  How close feel to whites
 #' 
 #'  closewht
 #' 
-#' Question 154b. And in general, how close do you feel to whites?
+#' Question In the past few years, do you think conditions for black people have improved, gotten worse, or stayed about the same?
+#' B. And in general, how close do you feel to Whites?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` not at all close
+#'   * `5` neither one or the other
+#'   * `9` very close
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/427/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,11 +165,47 @@
 #'  |2024  |-     |-   |-   |-   |-    |-    |-    |-          |-                        |-         |-                |-          |-                          |3309                          |3309  |
 #'  |Total |52762 |151 |231 |336 |1059 |2266 |2002 |102        |4896                     |160       |217              |4664       |3544                       |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/C     |partial      |
+#'  |1998 |A/C     |partial      |
+#'  |2000 |A/C     |partial      |
+#'  |2002 |A/C     |partial      |
+#'  |2004 |A/C     |partial      |
+#'  |2006 |A/C     |partial      |
+#'  |2008 |A/C     |partial      |
+#'  |2010 |A/C     |partial      |
+#'  |2012 |A/C     |partial      |
+#'  |2014 |A/C     |partial      |
+#'  |2016 |A/C     |partial      |
+#'  |2018 |A/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Ethnicity
+#' @family Race
+#' @family Whites
+#' 
+#' @keywords variable
+#' @md
+#' @name closewht
+NULL
+
+
+#'  People running country don't care
+#' 
+#'  alienat1
+#' 
+#' Question Now I want to read you some things some people have told us they have felt from time to time. Do you tend to feel or not . . . (READ LIST) 
+#' A. The people running the country don''t really care what happens to you.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` not at all close
-#'   * `5` neither one or the other
-#'   * `9` very close
+#'   * `1` feel
+#'   * `2` not feel
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -66,22 +219,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name closewht
-NULL
-
-#'  People running country don't care
-#' 
-#'  alienat1
-#' 
-#' Question 156. Now I want to read you some things some people have told us they have felt from time to time. Do you tend to feel or not: a. The people running the country don't really care what happens to you?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/428/vshow).
 #'
 #' Counts by year: 
 #'
@@ -124,6 +263,31 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-        |3309                       |3309  |
 #'  |Total |67314 |63         |779  |12        |678      |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1978 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Alienation
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name alienat1
+NULL
+
+
+#'  Rich get richer, poor poorer
+#' 
+#'  alienat2
+#' 
+#' Question Now I want to read you some things some people have told us they have felt from time to time. Do you tend to feel or not . . . (READ LIST) 
+#' B. The rich get richer and the poor get poorer. 
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` feel
@@ -141,22 +305,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name alienat1
-NULL
-
-#'  Rich get richer, poor poorer
-#' 
-#'  alienat2
-#' 
-#' Question 156. Now I want to read you some things some people have told us they have felt from time to time. Do you tend to feel or not: b. The rich get richer and the poor get poorer?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/429/vshow).
 #'
 #' Counts by year: 
 #'
@@ -199,6 +349,31 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-        |3309                       |3309  |
 #'  |Total |67314 |43         |1120 |14        |355      |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1978 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Alienation
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name alienat2
+NULL
+
+
+#'  What you think doesn't count
+#' 
+#'  alienat3
+#' 
+#' Question Now I want to read you some things some people have told us they have felt from time to time. Do you tend to feel or not . . . (READ LIST) 
+#' C. What you think doesn''t count very much anymore. 
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` feel
@@ -216,22 +391,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name alienat2
-NULL
-
-#'  What you think doesn't count
-#' 
-#'  alienat3
-#' 
-#' Question 156. Now I want to read you some things some people have told us they have felt from time to time. Do you tend to feel or not: c. What you think doesn't count very much anymore?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/430/vshow).
 #'
 #' Counts by year: 
 #'
@@ -274,6 +435,30 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-        |3309                       |3309  |
 #'  |Total |67314 |87         |836  |15        |594      |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1978 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name alienat3
+NULL
+
+
+#'  You're left out of things
+#' 
+#'  alienat4
+#' 
+#' Question Now I want to read you some things some people have told us they have felt from time to time. Do you tend to feel or not . . . (READ LIST) 
+#' D. You''re left out of things going on around you. 
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` feel
@@ -291,22 +476,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name alienat3
-NULL
-
-#'  You're left out of things
-#' 
-#'  alienat4
-#' 
-#' Question 156. Now I want to read you some things some people have told us they have felt from time to time. Do you tend to feel or not: d. You're left out of things going on around you?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/431/vshow).
 #'
 #' Counts by year: 
 #'
@@ -349,6 +520,31 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-        |3309                       |3309  |
 #'  |Total |67314 |42         |429  |14        |1047     |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1978 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Alienation
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name alienat4
+NULL
+
+
+#'  Powerful people take advantage of you
+#' 
+#'  alienat5
+#' 
+#' Question Now I want to read you some things some people have told us they have felt from time to time. Do you tend to feel or not . . . (READ LIST) 
+#' E. Most people with power try to take advantage of people like yourself. 
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` feel
@@ -366,22 +562,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name alienat4
-NULL
-
-#'  Powerful people take advantage of you
-#' 
-#'  alienat5
-#' 
-#' Question 156. Now I want to read you some things some people have told us they have felt from time to time. Do you tend to feel or not: e. Most people with power try to take advantage of people like yourself?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/432/vshow).
 #'
 #' Counts by year: 
 #'
@@ -424,6 +606,31 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-        |3309                       |3309  |
 #'  |Total |67314 |50         |845  |12        |625      |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1978 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Alienation
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name alienat5
+NULL
+
+
+#'  People in wash d.c. are out of touch
+#' 
+#'  alienat6
+#' 
+#' Question Now I want to read you some things some people have told us they have felt from time to time. Do you tend to feel or not . . . (READ LIST) 
+#' F. The people in Washington, D.C. are out of touch with the rest of the country.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` feel
@@ -441,22 +648,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name alienat5
-NULL
-
-#'  People in wash d.c. are out of touch
-#' 
-#'  alienat6
-#' 
-#' Question 156. Now I want to read you some things some people have told us they have felt from time to time. Do you tend to feel or not: f. The people in Washington, D.C. are out of touch with the rest of the country.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/433/vshow).
 #'
 #' Counts by year: 
 #'
@@ -499,10 +692,35 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-        |3309                       |3309  |
 #'  |Total |67314 |93         |854  |12        |573      |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1978 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Alienation
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name alienat6
+NULL
+
+
+#'  General happiness
+#' 
+#'  happy
+#' 
+#' Question Taken all together, how would you say things are these days--would you say that you are very happy, pretty happy, or not too happy?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` feel
-#'   * `2` not feel
+#'   * `1` very happy
+#'   * `2` pretty happy
+#'   * `3` not too happy
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -516,22 +734,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name alienat6
-NULL
-
-#'  General happiness
-#' 
-#'  happy
-#' 
-#' Question 157. Taken all together, how would you say things are these days - would you say that you are very happy, pretty happy, or not too happy?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/434/vshow).
 #'
 #' Counts by year: 
 #'
@@ -574,6 +778,65 @@ NULL
 #'  |2024  |3         |705           |1892         |684        |13         |-    |12             |3309  |
 #'  |Total |346       |10095         |39705        |21069      |64         |4383 |37             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Happiness
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name happy
+NULL
+
+
+#'  Happiness of marriage
+#' 
+#'  hapmar
+#' 
+#' Question A. Taking things all together, how would you describe your marriage? 
+#' Would you say that your marriage is very happy, pretty happy, or not too happy?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` very happy
@@ -592,22 +855,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name happy
-NULL
-
-#'  Happiness of marriage
-#' 
-#'  hapmar
-#' 
-#' Question 158. Taking all things together, how would you describe your marriage?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/435/vshow).
 #'
 #' Counts by year: 
 #'
@@ -650,105 +899,54 @@ NULL
 #'  |2024  |1938  |1          |14        |45            |504          |802        |5              |3309  |
 #'  |Total |40079 |53         |197       |1111          |12010        |22229      |20             |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` very happy
-#'   * `2` pretty happy
-#'   * `3` not too happy
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Happiness
+#' @family Marital Status
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
 #' @name hapmar
 NULL
 
-#'  Happiness of relt with partner
-#' 
-#'  hapcohab
-#' 
-#' Question Taking things all together, would you say that your relationship with your partner is very happy, pretty happy, or not too happy?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |not too happy |pretty happy |very happy |don't know |no answer |skipped on web |Total |
-#'  |:-----|:-----|:-------------|:------------|:----------|:----------|:---------|:--------------|:-----|
-#'  |1972  |1613  |-             |-            |-          |-          |-         |-              |1613  |
-#'  |1973  |1504  |-             |-            |-          |-          |-         |-              |1504  |
-#'  |1974  |1484  |-             |-            |-          |-          |-         |-              |1484  |
-#'  |1975  |1490  |-             |-            |-          |-          |-         |-              |1490  |
-#'  |1976  |1499  |-             |-            |-          |-          |-         |-              |1499  |
-#'  |1977  |1530  |-             |-            |-          |-          |-         |-              |1530  |
-#'  |1978  |1532  |-             |-            |-          |-          |-         |-              |1532  |
-#'  |1980  |1468  |-             |-            |-          |-          |-         |-              |1468  |
-#'  |1982  |1860  |-             |-            |-          |-          |-         |-              |1860  |
-#'  |1983  |1599  |-             |-            |-          |-          |-         |-              |1599  |
-#'  |1984  |1473  |-             |-            |-          |-          |-         |-              |1473  |
-#'  |1985  |1534  |-             |-            |-          |-          |-         |-              |1534  |
-#'  |1986  |1470  |-             |-            |-          |-          |-         |-              |1470  |
-#'  |1987  |1819  |-             |-            |-          |-          |-         |-              |1819  |
-#'  |1988  |1481  |-             |-            |-          |-          |-         |-              |1481  |
-#'  |1989  |1537  |-             |-            |-          |-          |-         |-              |1537  |
-#'  |1990  |1372  |-             |-            |-          |-          |-         |-              |1372  |
-#'  |1991  |1517  |-             |-            |-          |-          |-         |-              |1517  |
-#'  |1993  |1606  |-             |-            |-          |-          |-         |-              |1606  |
-#'  |1994  |2992  |-             |-            |-          |-          |-         |-              |2992  |
-#'  |1996  |2904  |-             |-            |-          |-          |-         |-              |2904  |
-#'  |1998  |2832  |-             |-            |-          |-          |-         |-              |2832  |
-#'  |2000  |2817  |-             |-            |-          |-          |-         |-              |2817  |
-#'  |2002  |2765  |-             |-            |-          |-          |-         |-              |2765  |
-#'  |2004  |2812  |-             |-            |-          |-          |-         |-              |2812  |
-#'  |2006  |4510  |-             |-            |-          |-          |-         |-              |4510  |
-#'  |2008  |2023  |-             |-            |-          |-          |-         |-              |2023  |
-#'  |2010  |2044  |-             |-            |-          |-          |-         |-              |2044  |
-#'  |2012  |1806  |3             |62           |103        |-          |-         |-              |1974  |
-#'  |2014  |2328  |9             |70           |129        |2          |-         |-              |2538  |
-#'  |2016  |2603  |11            |102          |149        |1          |1         |-              |2867  |
-#'  |2018  |2116  |9             |75           |148        |-          |-         |-              |2348  |
-#'  |2021  |3665  |24            |155          |185        |1          |1         |1              |4032  |
-#'  |2022  |3226  |10            |113          |190        |1          |3         |1              |3544  |
-#'  |2024  |3048  |12            |95           |153        |-          |-         |1              |3309  |
-#'  |Total |73879 |78            |672          |1057       |5          |5         |3              |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` very happy
-#'   * `2` pretty happy
-#'   * `3` not too happy
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hapcohab
-NULL
 

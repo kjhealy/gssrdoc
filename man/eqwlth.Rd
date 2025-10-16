@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 eqwlth
 }
 \details{
-Question 74a. Some people think that the government in Washington ought to reduce the income differences between the rich and the poor, perhaps by raising the taxes of wealthy families or by giving income assistance to the poor. Others think that the government should not concern itself with reducing this income difference between the rich and the poor. Here is a card with a scale from 1 to 7. Think of a score of 1 as meaning that the government ought to reduce the income differences between rich and poor, and a score of 7 meaning that the government should not concern itself with reducing income differences. What score between 1 and 7 comes closest to the way you feel?
+Question A. Some people think that the government in Washington ought to reduce the income differences between the rich and the poor, perhaps by raising the taxes of wealthy families or by giving income assistance to the poor. Others think that the government should not concern itself with reducing this income difference between the rich and the poor. Here is a card with a scale from 1 to 7. Think of a score of 1 as meaning that the government ought to reduce the income differences between rich and poor, and a score of 7 meaning that the government should not concern itself with reducing income differences. What score between 1 and 7 comes closest to the way you feel? (CIRCLE ONE):
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} the government should reduce income differences
+\item \code{7} the government should not concern itself with reducing income differences
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/243/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab don't know \tab no answer \tab the government should not concern itself with reducing income differences \tab the government should reduce income differences \tab skipped on web \tab Total \cr
@@ -57,24 +77,59 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} the government should reduce income differences
-\item \code{7} the government should not concern itself with reducing income differences
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1978 \tab -/- \tab full \cr
+   1980 \tab -/- \tab full \cr
+   1983 \tab -/- \tab full \cr
+   1984 \tab -/- \tab full \cr
+   1986 \tab -/- \tab full \cr
+   1987 \tab -/- \tab full \cr
+   1988 \tab B/C \tab partial \cr
+   1989 \tab B/C \tab partial \cr
+   1990 \tab B/C \tab partial \cr
+   1991 \tab B/C \tab partial \cr
+   1993 \tab B/C \tab partial \cr
+   1994 \tab B/C \tab partial \cr
+   1996 \tab B/C \tab partial \cr
+   1998 \tab B/C \tab partial \cr
+   2000 \tab B/C \tab partial \cr
+   2002 \tab B/C \tab partial \cr
+   2004 \tab B/C \tab partial \cr
+   2006 \tab B/C \tab partial \cr
+   2008 \tab B/C \tab partial \cr
+   2010 \tab B/C \tab partial \cr
+   2012 \tab B/C \tab partial \cr
+   2014 \tab B/C \tab partial \cr
+   2016 \tab B/C \tab partial \cr
+   2018 \tab B/C \tab partial \cr
+   2021 \tab B/C \tab partial \cr
+   2022 \tab B/C \tab partial \cr
+   2024 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{colath}},
+\code{\link{colsoc}},
+\code{\link{educop}},
+\code{\link{eqwlthy}},
+\code{\link{govcare}},
+\code{\link{libath}},
+\code{\link{spkath}},
+\code{\link{spksoc}},
+\code{\link{tax}}
+
+Other Inequality, Income: 
+\code{\link{eqwlthy}}
+
+Other Split Ballots: 
+\code{\link{eqwlthy}},
+\code{\link{tax}}
+}
+\concept{Core}
+\concept{Inequality, Income}
+\concept{Split Ballots}
 \keyword{variable}

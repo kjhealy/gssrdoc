@@ -1,11 +1,150 @@
+#'  Satisfaction with financial situation
+#' 
+#'  satfin
+#' 
+#' Question A. We are interested in how people are getting along financially these days. So far as you and your family are concerned, would you say that you are pretty well satisfied with your present financial situation, more or less satisfied, or not satisfied at all?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` pretty well satisfied
+#'   * `2` more or less satisfied
+#'   * `3` not satisfied at all
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/572/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |don't know |more or less satisfied |no answer |not satisfied at all |pretty well satisfied |iap  |skipped on web |Total |
+#'  |:-----|:----------|:----------------------|:---------|:--------------------|:---------------------|:----|:--------------|:-----|
+#'  |1972  |1          |720                    |4         |366                  |522                   |-    |-              |1613  |
+#'  |1973  |1          |683                    |2         |357                  |461                   |-    |-              |1504  |
+#'  |1974  |2          |674                    |4         |343                  |461                   |-    |-              |1484  |
+#'  |1975  |4          |627                    |7         |394                  |458                   |-    |-              |1490  |
+#'  |1976  |4          |686                    |3         |348                  |458                   |-    |-              |1499  |
+#'  |1977  |3          |664                    |6         |337                  |520                   |-    |-              |1530  |
+#'  |1978  |2          |646                    |1         |365                  |518                   |-    |-              |1532  |
+#'  |1980  |4          |652                    |2         |393                  |417                   |-    |-              |1468  |
+#'  |1982  |5          |814                    |8         |579                  |454                   |-    |-              |1860  |
+#'  |1983  |5          |657                    |2         |479                  |456                   |-    |-              |1599  |
+#'  |1984  |3          |668                    |6         |381                  |415                   |-    |-              |1473  |
+#'  |1985  |5          |671                    |4         |401                  |453                   |-    |-              |1534  |
+#'  |1986  |3          |626                    |1         |395                  |445                   |-    |-              |1470  |
+#'  |1987  |2          |855                    |6         |454                  |502                   |-    |-              |1819  |
+#'  |1988  |3          |663                    |4         |360                  |451                   |-    |-              |1481  |
+#'  |1989  |4          |678                    |1         |385                  |469                   |-    |-              |1537  |
+#'  |1990  |3          |591                    |2         |370                  |406                   |-    |-              |1372  |
+#'  |1991  |5          |687                    |6         |402                  |417                   |-    |-              |1517  |
+#'  |1993  |7          |712                    |3         |454                  |430                   |-    |-              |1606  |
+#'  |1994  |5          |1365                   |11        |779                  |832                   |-    |-              |2992  |
+#'  |1996  |4          |1287                   |4         |806                  |803                   |-    |-              |2904  |
+#'  |1998  |5          |1255                   |3         |720                  |849                   |-    |-              |2832  |
+#'  |2000  |9          |1261                   |5         |708                  |834                   |-    |-              |2817  |
+#'  |2002  |2          |568                    |1         |391                  |410                   |1393 |-              |2765  |
+#'  |2004  |3          |562                    |2         |354                  |419                   |1472 |-              |2812  |
+#'  |2006  |4          |1310                   |8         |774                  |896                   |1518 |-              |4510  |
+#'  |2008  |5          |819                    |2         |624                  |573                   |-    |-              |2023  |
+#'  |2010  |1          |918                    |5         |642                  |478                   |-    |-              |2044  |
+#'  |2012  |2          |857                    |5         |573                  |537                   |-    |-              |1974  |
+#'  |2014  |3          |1141                   |3         |693                  |698                   |-    |-              |2538  |
+#'  |2016  |5          |1255                   |6         |785                  |816                   |-    |-              |2867  |
+#'  |2018  |7          |1047                   |3         |554                  |737                   |-    |-              |2348  |
+#'  |2021  |-          |1800                   |1         |962                  |1254                  |-    |15             |4032  |
+#'  |2022  |7          |1568                   |4         |1081                 |877                   |-    |7              |3544  |
+#'  |2024  |6          |1456                   |5         |1061                 |774                   |-    |7              |3309  |
+#'  |Total |134        |31443                  |140       |19070                |20500                 |4383 |29             |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Income
+#' @family Satisfaction
+#' 
+#' @keywords variable
+#' @md
+#' @name satfin
+NULL
+
+
 #'  Change in financial situation
 #' 
 #'  finalter
 #' 
-#' Question 187b. During the last few years, has your financial situation been getting better, worse, or has it stayed the same?
+#' Question B. During the last few years, has your financial situation been getting better, worse, or has it stayed the same?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` better
+#'   * `2` worse
+#'   * `3` stayed same
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/573/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,11 +187,70 @@
 #'  |2024  |975    |9          |5         |1271        |1040  |-    |9              |3309  |
 #'  |Total |26333  |190        |220       |28051       |16497 |4383 |25             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Income
+#' 
+#' @keywords variable
+#' @md
+#' @name finalter
+NULL
+
+
+#'  Opinion of family income
+#' 
+#'  finrela
+#' 
+#' Question Compared with American families in general, would you say your family income is far below average, below average, average, above average, or far above average? (PROBE: Just your best guess.)
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` better
-#'   * `2` worse
-#'   * `3` stayed same
+#'   * `1` far below average
+#'   * `2` below average
+#'   * `3` average
+#'   * `4` above average
+#'   * `5` far above average
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -66,22 +264,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name finalter
-NULL
-
-#'  Opinion of family income
-#' 
-#'  finrela
-#' 
-#' Question 188. Compared with American families in general, would you say your family income is far below average, below average, average, above average, or far above average?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/574/vshow).
 #'
 #' Counts by year: 
 #'
@@ -124,13 +308,66 @@ NULL
 #'  |2024  |724           |1289    |862           |22         |109               |290               |5         |-    |8              |3309  |
 #'  |Total |13614         |33692   |17389         |544        |1628              |4257              |172       |4383 |20             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Income
+#' 
+#' @keywords variable
+#' @md
+#' @name finrela
+NULL
+
+
+#'  Income family needs
+#' 
+#'  incneed
+#' 
+#' Question Living where you do now and meeting the expenses you consider necessary, what would be the very smallest amount of income per month--after taxes--your household would need to make ends meet?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` far below average
-#'   * `2` below average
-#'   * `3` average
-#'   * `4` above average
-#'   * `5` far above average
+#'   * `99997` depends
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -144,22 +381,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name finrela
-NULL
-
-#'  Income family needs
-#' 
-#'  incneed
-#' 
-#' Question 189. Living where you do now and meeting the expenses you consider necessary, what would be the very smallest amount of income per month - after taxes - your household would need to make ends meet?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/575/vshow).
 #'
 #' Counts by year: 
 #'
@@ -202,9 +425,32 @@ NULL
 #'  |2024  |-     |-   |-    |-     |-    |-    |-    |-    |-     |-   |-    |-    |-    |-    |-   |-    |-   |-    |-   |-    |-   |-    |-    |-     |-    |-   |-    |-   |-    |-   |-    |-    |-   |-   |-    |-     |-   |-   |-   |-   |-    |-   |-   |-   |-  |-   |-    |-     |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-    |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-    |-     |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-       |-          |-         |3309                       |3309  |
 #'  |Total |66986 |8   |261  |1     |20   |1    |1    |95   |1     |2   |2    |18   |24   |1    |1   |86   |1   |16   |1   |1    |1   |1    |14   |1     |1    |33  |66   |1   |2    |1   |3    |2    |1   |12  |20   |1     |1   |1   |2   |1   |3    |1   |1   |1   |1  |59  |8    |1     |2   |2   |1   |1   |11  |4    |1   |4   |2   |1   |95  |7    |1   |1   |1    |2   |1   |1   |1   |14  |1   |1   |1   |2   |2   |126 |4    |1   |14  |1   |1   |135 |1    |1     |1   |9   |1   |1   |2   |76  |1   |17  |1   |1   |1   |168 |1   |1   |1   |10  |51  |1   |3   |1   |45      |223        |19        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1982 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Income
+#' 
+#' @keywords variable
+#' @md
+#' @name incneed
+NULL
+
+
+#'  Minimum amount of income needed per week
+#' 
+#'  mininc
+#' 
+#' Question What is the smallest amount of money a family of four (husband, wife and two children) needs each week to get along in this community?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `99997` depends
+#'   * `997` $997+ per week
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -218,22 +464,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name incneed
-NULL
-
-#'  Minimum amount of income needed per week
-#' 
-#'  mininc
-#' 
-#' Question 190. What is the smallest amount of money a family of four (husband, wife, and two children) needs each week to get along in this community?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/576/vshow).
 #'
 #' Counts by year: 
 #'
@@ -276,9 +508,33 @@ NULL
 #'  |2024  |-     |-              |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-          |-         |3309                       |3309  |
 #'  |Total |67376 |33             |15  |2   |3   |51  |1   |2   |4   |1   |200 |1   |4   |1   |1   |1  |153 |1   |5   |295 |2   |1   |1   |86  |5   |1   |245 |1   |1   |1  |33  |1  |138 |1   |1   |1   |41  |1   |2   |18  |8   |9   |3   |78         |17        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Income
+#' 
+#' @keywords variable
+#' @md
+#' @name mininc
+NULL
+
+
+#'  Does r or spouse have supervisor
+#' 
+#'  wksub
+#' 
+#' Question Do you (does your (SPOUSE)) have a supervisor on (your/his/her) job to whom you are (he/she/is) directly responsible?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `997` $997+ per week
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -292,22 +548,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name mininc
-NULL
-
-#'  Does r or spouse have supervisor
-#' 
-#'  wksub
-#' 
-#' Question 191. Do you (does your (SPOUSE)) have a supervisor on (your/his/her) job to whom you are (he/she is) directly responsible?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/577/vshow).
 #'
 #' Counts by year: 
 #'
@@ -350,10 +592,65 @@ NULL
 #'  |2024  |-     |-    |-         |-     |-          |-              |3309                          |3309  |
 #'  |Total |31194 |7748 |511       |32796 |130        |11             |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/C/-/- |partial      |
+#'  |1989 |A/C/-/- |partial      |
+#'  |1990 |A/C/-/- |partial      |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/C/-/- |partial      |
+#'  |1994 |A/C/-/- |partial      |
+#'  |1996 |A/C/-/- |partial      |
+#'  |1998 |A/C/-/- |partial      |
+#'  |2000 |A/C/-/- |partial      |
+#'  |2002 |A/C/-/- |partial      |
+#'  |2004 |A/C/-/- |partial      |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Job
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name wksub
+NULL
+
+
+#'  Does supervisor have supervisor
+#' 
+#'  wksubs
+#' 
+#' Question Do you (does your (SPOUSE)) have a supervisor on (your/his/her) job to whom you are (he/she/is) directly responsible? 
+#' A. IF YES: Does that person have a supervisor on the job to whom he is directly responsible?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `3` yes
+#'   * `4` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -367,22 +664,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wksub
-NULL
-
-#'  Does supervisor have supervisor
-#' 
-#'  wksubs
-#' 
-#' Question 191a. If yes: Does that person have a superviosr on the job to whom he is directly responsible?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/578/vshow).
 #'
 #' Counts by year: 
 #'
@@ -425,10 +708,63 @@ NULL
 #'  |2024  |-     |-    |-         |-     |-          |-              |3309                          |3309  |
 #'  |Total |38480 |5917 |1450      |26244 |280        |19             |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/C/-/- |partial      |
+#'  |1989 |A/C/-/- |partial      |
+#'  |1990 |A/C/-/- |partial      |
+#'  |1991 |A/C/-/- |partial      |
+#'  |1993 |A/C/-/- |partial      |
+#'  |1994 |A/C/-/- |partial      |
+#'  |1996 |A/C/-/- |partial      |
+#'  |1998 |A/C/-/- |partial      |
+#'  |2000 |A/C/-/- |partial      |
+#'  |2002 |A/C/-/- |partial      |
+#'  |2004 |A/C/-/- |partial      |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name wksubs
+NULL
+
+
+#'  Does r or spouse or partner have a supervisor
+#' 
+#'  wksub1
+#' 
+#' Question Do you (does your (SPOUSE or PARTNER) have a supervisor on (your/his/her) job to whom you are (he/she/is) directly responsible?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `3` yes
-#'   * `4` no
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -442,22 +778,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wksubs
-NULL
-
-#'  Does r or spouse or partner have a supervisor
-#' 
-#'  wksub1
-#' 
-#' Question Do you (does your (SPOUSE or PARTNER) have a supervisor on (your/his/her) job to whom you are (he/she/is) directly responsible?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6176/vshow).
 #'
 #' Counts by year: 
 #'
@@ -500,10 +822,37 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-    |-              |3309                          |3309  |
 #'  |Total |63828 |72         |1484 |9         |6986 |11             |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name wksub1
+NULL
+
+
+#'  Does supervisor have supervisor
+#' 
+#'  wksubs1
+#' 
+#' Question IF YES: Does that person have a supervisor on the job to whom he is directly responsible?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `3` yes
+#'   * `4` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -517,22 +866,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wksub1
-NULL
-
-#'  Does supervisor have supervisor
-#' 
-#'  wksubs1
-#' 
-#' Question A. IF YES: Does that person have a supervisor on the job to whom he is directly responsible?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6177/vshow).
 #'
 #' Counts by year: 
 #'
@@ -575,10 +910,37 @@ NULL
 #'  |2024  |-     |-          |-    |-    |-         |-              |3309                          |3309  |
 #'  |Total |65386 |77         |1027 |5871 |10        |19             |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name wksubs1
+NULL
+
+
+#'  Does r or spouse supervise anyone
+#' 
+#'  wksup
+#' 
+#' Question In your (SPOUSE'S) job, (do you/does he/she) supervise anyone who is directly responsible to (you/him/her)?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `3` yes
-#'   * `4` no
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -592,22 +954,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wksubs1
-NULL
-
-#'  Does r or spouse supervise anyone
-#' 
-#'  wksup
-#' 
-#' Question 192. In your (SPOUSE)'s job, (do you/does he/she) supervise anyone who is directly responsible to (you/him/her)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/579/vshow).
 #'
 #' Counts by year: 
 #'
@@ -650,103 +998,50 @@ NULL
 #'  |2024  |1250  |1406  |10        |605   |30         |8              |3309  |
 #'  |Total |32713 |25695 |1080      |15956 |225        |30             |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/C/-/- |partial      |
+#'  |1989 |A/C/-/- |partial      |
+#'  |1990 |A/C/-/- |partial      |
+#'  |1991 |A/C/-/- |partial      |
+#'  |1993 |A/C/-/- |partial      |
+#'  |1994 |A/C/-/- |partial      |
+#'  |1996 |A/C/-/- |partial      |
+#'  |1998 |A/C/-/- |partial      |
+#'  |2000 |A/C/-/- |partial      |
+#'  |2002 |A/C/-/- |partial      |
+#'  |2004 |A/C/-/- |partial      |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Job
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
 #' @name wksup
 NULL
 
-#'  Does subordinate supervise anyone
-#' 
-#'  wksups
-#' 
-#' Question 192a. If yes: Do any of those persons supervise anyone else?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |no    |no answer |yes  |don't know |skipped on web |not available in this release |Total |
-#'  |:-----|:-----|:-----|:---------|:----|:----------|:--------------|:-----------------------------|:-----|
-#'  |1972  |1146  |266   |56        |145  |-          |-              |-                             |1613  |
-#'  |1973  |1069  |272   |9         |147  |7          |-              |-                             |1504  |
-#'  |1974  |1007  |284   |54        |134  |5          |-              |-                             |1484  |
-#'  |1975  |1490  |-     |-         |-    |-          |-              |-                             |1490  |
-#'  |1976  |1023  |242   |105       |125  |4          |-              |-                             |1499  |
-#'  |1977  |1050  |266   |70        |139  |5          |-              |-                             |1530  |
-#'  |1978  |1532  |-     |-         |-    |-          |-              |-                             |1532  |
-#'  |1980  |983   |318   |25        |135  |7          |-              |-                             |1468  |
-#'  |1982  |1294  |339   |79        |146  |2          |-              |-                             |1860  |
-#'  |1983  |1599  |-     |-         |-    |-          |-              |-                             |1599  |
-#'  |1984  |999   |273   |43        |154  |4          |-              |-                             |1473  |
-#'  |1985  |1046  |299   |22        |162  |5          |-              |-                             |1534  |
-#'  |1986  |1470  |-     |-         |-    |-          |-              |-                             |1470  |
-#'  |1987  |1254  |334   |55        |174  |2          |-              |-                             |1819  |
-#'  |1988  |1146  |141   |106       |84   |4          |-              |-                             |1481  |
-#'  |1989  |1204  |210   |24        |97   |2          |-              |-                             |1537  |
-#'  |1990  |1098  |176   |14        |81   |3          |-              |-                             |1372  |
-#'  |1991  |1261  |145   |19        |87   |5          |-              |-                             |1517  |
-#'  |1993  |1265  |198   |15        |124  |4          |-              |-                             |1606  |
-#'  |1994  |2378  |378   |29        |202  |5          |-              |-                             |2992  |
-#'  |1996  |2273  |351   |55        |217  |8          |-              |-                             |2904  |
-#'  |1998  |2224  |348   |50        |204  |6          |-              |-                             |2832  |
-#'  |2000  |2231  |310   |89        |181  |6          |-              |-                             |2817  |
-#'  |2002  |2243  |371   |5         |145  |1          |-              |-                             |2765  |
-#'  |2004  |2255  |376   |22        |156  |3          |-              |-                             |2812  |
-#'  |2006  |3301  |833   |14        |358  |4          |-              |-                             |4510  |
-#'  |2008  |1467  |402   |7         |143  |4          |-              |-                             |2023  |
-#'  |2010  |1543  |348   |16        |133  |4          |-              |-                             |2044  |
-#'  |2012  |1455  |344   |12        |157  |6          |-              |-                             |1974  |
-#'  |2014  |1149  |460   |749       |176  |4          |-              |-                             |2538  |
-#'  |2016  |2121  |500   |17        |222  |7          |-              |-                             |2867  |
-#'  |2018  |1758  |378   |11        |197  |4          |-              |-                             |2348  |
-#'  |2021  |3083  |560   |92        |265  |13         |19             |-                             |4032  |
-#'  |2022  |2694  |513   |80        |238  |8          |11             |-                             |3544  |
-#'  |2024  |-     |-     |-         |-    |-          |-              |3309                          |3309  |
-#'  |Total |55111 |10235 |1944      |4928 |142        |30             |3309                          |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `3` yes
-#'   * `4` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wksups
-NULL
 

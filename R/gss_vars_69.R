@@ -1,11 +1,119 @@
+#'  How firm is r's opinion on abortion
+#' 
+#'  abfirm
+#' 
+#' Question C. How firm are you about your opinion on abortion--would you say you are very likely to change your opinion, somewhat likely to change, somewhat unlikely to change or very unlikely to change?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` change very likely
+#'   * `2` somewhat likely
+#'   * `3` somewhat unlikely
+#'   * `4` change very unlikely
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/617/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |change very likely |change very unlikely |don't know |no answer |somewhat likely |somewhat unlikely |not available in this year |Total |
+#'  |:-----|:-----|:------------------|:--------------------|:----------|:---------|:---------------|:-----------------|:--------------------------|:-----|
+#'  |1972  |1613  |-                  |-                    |-          |-         |-               |-                 |-                          |1613  |
+#'  |1973  |1504  |-                  |-                    |-          |-         |-               |-                 |-                          |1504  |
+#'  |1974  |1484  |-                  |-                    |-          |-         |-               |-                 |-                          |1484  |
+#'  |1975  |1490  |-                  |-                    |-          |-         |-               |-                 |-                          |1490  |
+#'  |1976  |1499  |-                  |-                    |-          |-         |-               |-                 |-                          |1499  |
+#'  |1977  |1530  |-                  |-                    |-          |-         |-               |-                 |-                          |1530  |
+#'  |1978  |1532  |-                  |-                    |-          |-         |-               |-                 |-                          |1532  |
+#'  |1980  |1468  |-                  |-                    |-          |-         |-               |-                 |-                          |1468  |
+#'  |1982  |-     |48                 |1108                 |63         |13        |215             |413               |-                          |1860  |
+#'  |1983  |1599  |-                  |-                    |-          |-         |-               |-                 |-                          |1599  |
+#'  |1984  |-     |44                 |869                  |23         |7         |195             |335               |-                          |1473  |
+#'  |1985  |1534  |-                  |-                    |-          |-         |-               |-                 |-                          |1534  |
+#'  |1986  |1470  |-                  |-                    |-          |-         |-               |-                 |-                          |1470  |
+#'  |1987  |1819  |-                  |-                    |-          |-         |-               |-                 |-                          |1819  |
+#'  |1988  |1481  |-                  |-                    |-          |-         |-               |-                 |-                          |1481  |
+#'  |1989  |1537  |-                  |-                    |-          |-         |-               |-                 |-                          |1537  |
+#'  |1990  |1372  |-                  |-                    |-          |-         |-               |-                 |-                          |1372  |
+#'  |1991  |1517  |-                  |-                    |-          |-         |-               |-                 |-                          |1517  |
+#'  |1993  |1606  |-                  |-                    |-          |-         |-               |-                 |-                          |1606  |
+#'  |1994  |2992  |-                  |-                    |-          |-         |-               |-                 |-                          |2992  |
+#'  |1996  |2904  |-                  |-                    |-          |-         |-               |-                 |-                          |2904  |
+#'  |1998  |2832  |-                  |-                    |-          |-         |-               |-                 |-                          |2832  |
+#'  |2000  |2817  |-                  |-                    |-          |-         |-               |-                 |-                          |2817  |
+#'  |2002  |2765  |-                  |-                    |-          |-         |-               |-                 |-                          |2765  |
+#'  |2004  |2812  |-                  |-                    |-          |-         |-               |-                 |-                          |2812  |
+#'  |2006  |4510  |-                  |-                    |-          |-         |-               |-                 |-                          |4510  |
+#'  |2008  |2023  |-                  |-                    |-          |-         |-               |-                 |-                          |2023  |
+#'  |2010  |2044  |-                  |-                    |-          |-         |-               |-                 |-                          |2044  |
+#'  |2012  |1974  |-                  |-                    |-          |-         |-               |-                 |-                          |1974  |
+#'  |2014  |2538  |-                  |-                    |-          |-         |-               |-                 |-                          |2538  |
+#'  |2016  |2867  |-                  |-                    |-          |-         |-               |-                 |-                          |2867  |
+#'  |2018  |2348  |-                  |-                    |-          |-         |-               |-                 |-                          |2348  |
+#'  |2021  |4032  |-                  |-                    |-          |-         |-               |-                 |-                          |4032  |
+#'  |2022  |-     |-                  |-                    |-          |-         |-               |-                 |3544                       |3544  |
+#'  |2024  |-     |-                  |-                    |-          |-         |-               |-                 |3309                       |3309  |
+#'  |Total |65513 |92                 |1977                 |86         |20        |410             |748               |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1982 |-       |full         |
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Abortion
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name abfirm
+NULL
+
+
 #'  How concerned is r about abortion
 #' 
 #'  abcare
 #' 
-#' Question 210. How concerned are you personally about the abortion issue?
+#' Question How concerned are you personally about the abortion issue?  Are you very concerned, somewhat concerned, not very concerned, or not concerned at all?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` very concerned
+#'   * `2` somewhat concerned
+#'   * `3` not very concerned
+#'   * `4` not concerned at all
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/618/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,12 +156,33 @@
 #'  |2024  |-     |-          |-         |-                    |-                  |-                  |-              |3309                       |3309  |
 #'  |Total |68362 |5          |3         |35                   |77                 |209                |155            |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name abcare
+NULL
+
+
+#'  Ideal number of children
+#' 
+#'  chldidel
+#' 
+#' Question What do you think is the ideal number of children for a family to have?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` very concerned
-#'   * `2` somewhat concerned
-#'   * `3` not very concerned
-#'   * `4` not concerned at all
+#'   * `7` 7 or more
+#'   * `8` as many as you want
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -67,22 +196,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name abcare
-NULL
-
-#'  Ideal number of children
-#' 
-#'  chldidel
-#' 
-#' Question 211. What do you think is the ideal number of children for a family to have?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/619/vshow).
 #'
 #' Counts by year: 
 #'
@@ -125,10 +240,65 @@ NULL
 #'  |2024  |32  |59   |826   |442   |153  |33  |12  |13        |555                 |43         |1126  |4         |11             |3309  |
 #'  |Total |591 |1107 |23243 |10978 |4929 |735 |339 |204       |5001                |1365       |27192 |4         |11             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#'  |1996 |A/B     |partial      |
+#'  |1998 |A/B     |partial      |
+#'  |2000 |A/B     |partial      |
+#'  |2002 |A/B     |partial      |
+#'  |2004 |A/B     |partial      |
+#'  |2006 |A/B     |partial      |
+#'  |2008 |A/B     |partial      |
+#'  |2010 |A/B     |partial      |
+#'  |2012 |A/B     |partial      |
+#'  |2014 |A/B     |partial      |
+#'  |2016 |A/B     |partial      |
+#'  |2018 |A/B     |partial      |
+#'  |2021 |A/B     |partial      |
+#'  |2022 |A/B     |partial      |
+#'  |2024 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name chldidel
+NULL
+
+
+#'  Expect more children
+#' 
+#'  chldmore
+#' 
+#' Question Do you expect to have any (more) children?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `7` 7 or more
-#'   * `8` as many as you want
+#'   * `1` yes
+#'   * `2` no
+#'   * `3` uncertain
+#'   * `4` inappropriate
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -142,22 +312,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name chldidel
-NULL
-
-#'  Expect more children
-#' 
-#'  chldmore
-#' 
-#' Question 212. Do you expect to have any (more) children?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/620/vshow).
 #'
 #' Counts by year: 
 #'
@@ -200,12 +356,48 @@ NULL
 #'  |2024  |-             |-     |-         |-         |-    |-     |3309                       |3309  |
 #'  |Total |1297          |14302 |184       |857       |4504 |47702 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name chldmore
+NULL
+
+
+#'  How many children expected
+#' 
+#'  chldnum
+#' 
+#' Question Do you expect to have any (more) children? 
+#' A. How many (more)?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `3` uncertain
-#'   * `4` inappropriate
+#'   * `8` 8 or more
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -219,22 +411,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name chldmore
-NULL
-
-#'  How many children expected
-#' 
-#'  chldnum
-#' 
-#' Question 212a. How many (more)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/621/vshow).
 #'
 #' Counts by year: 
 #'
@@ -277,9 +455,47 @@ NULL
 #'  |2024  |-    |-    |-   |-   |-  |-  |-         |-          |-     |-  |3309                       |3309  |
 #'  |Total |1428 |1947 |628 |217 |49 |30 |16        |368        |64158 |5  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name chldnum
+NULL
+
+
+#'  Children expected in 5 years
+#' 
+#'  chldsoon
+#' 
+#' Question Do you expect to have any (more) children? 
+#' B. How many (more) in the next five years?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `8` 8 or more
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -293,22 +509,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name chldnum
-NULL
-
-#'  Children expected in 5 years
-#' 
-#'  chldsoon
-#' 
-#' Question 212b. How many (more) in the next five years?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/622/vshow).
 #'
 #' Counts by year: 
 #'
@@ -351,8 +553,40 @@ NULL
 #'  |2024  |-   |-    |-   |-  |-  |-     |-         |-  |-          |3309                       |3309  |
 #'  |Total |459 |1156 |651 |61 |6  |66084 |316       |11 |102        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-       |full         |
+#'  |1974 |-       |full         |
+#'  |1975 |-       |full         |
+#'  |1976 |-       |full         |
+#'  |1977 |-       |full         |
+#'  |1978 |-       |full         |
+#'  |1982 |-       |full         |
+#'  |1983 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name chldsoon
+NULL
+
+
+#'  Birth control information
+#' 
+#'  pill
+#' 
+#' Question A. In some places in the United States, it is not legal to supply birth control information. How do you feel about this--do you think birth control information should be available to anyone who wants it, or not?
+#' 
+#' 
 #' @section Values: 
 #' 
+#'   * `1` available
+#'   * `2` not available
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -366,22 +600,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name chldsoon
-NULL
-
-#'  Birth control information
-#' 
-#'  pill
-#' 
-#' Question 213a. In some places in the United States, it is not legal to supply birth control information. How do you feel about this - do you think birth control information should be available to anyone who wants it, or not?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/623/vshow).
 #'
 #' Counts by year: 
 #'
@@ -424,10 +644,38 @@ NULL
 #'  |2024  |-     |-         |-          |-             |-         |3309                       |3309  |
 #'  |Total |60883 |7179      |144        |628           |12        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-       |full         |
+#'  |1975 |-       |full         |
+#'  |1977 |-       |full         |
+#'  |1982 |-       |full         |
+#'  |1983 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Birth Control
+#' 
+#' @keywords variable
+#' @md
+#' @name pill
+NULL
+
+
+#'  Birth control information to teens
+#' 
+#'  teenpill
+#' 
+#' Question B. Do you think birth control information should be available to teenagers who want it, or not?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` available
 #'   * `2` not available
+#'   * `3` depends on age
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -441,22 +689,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name pill
-NULL
-
-#'  Birth control information to teens
-#' 
-#'  teenpill
-#' 
-#' Question 213b. Do you think birth control information should be avaialable to teenagers who want it, or not?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/624/vshow).
 #'
 #' Counts by year: 
 #'
@@ -499,11 +733,39 @@ NULL
 #'  |2024  |-     |-         |-              |-          |-         |-             |3309                       |3309  |
 #'  |Total |60883 |6495      |3              |194        |39        |1232          |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-       |full         |
+#'  |1975 |-       |full         |
+#'  |1977 |-       |full         |
+#'  |1982 |-       |full         |
+#'  |1983 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Birth Control
+#' 
+#' @keywords variable
+#' @md
+#' @name teenpill
+NULL
+
+
+#'  Birth control to teenagers 14-16
+#' 
+#'  pillok
+#' 
+#' Question C. Do you strongly agree, agree, disagree, or strongly disagree that methods of birth control should be available to teenagers between the ages of 14 and 16 if their parents do not approve?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` available
-#'   * `2` not available
-#'   * `3` depends on age
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` disagree
+#'   * `4` strongly disagree
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -517,22 +779,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name teenpill
-NULL
-
-#'  Birth control to teenagers 14-16
-#' 
-#'  pillok
-#' 
-#' Question 213c. Do you strongly agree, agree, or strongly disagree that methods of birth control should be available to teenagers between the ages of 14 and 16 if their parents do not approve?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/625/vshow).
 #'
 #' Counts by year: 
 #'
@@ -575,12 +823,55 @@ NULL
 #'  |2024  |1126  |706   |433      |41         |1         |659            |325               |18             |3309  |
 #'  |Total |41936 |10494 |7251     |742        |83        |9404           |5745              |44             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#'  |1996 |A/B     |partial      |
+#'  |1998 |A/B     |partial      |
+#'  |2000 |A/B     |partial      |
+#'  |2002 |A/B     |partial      |
+#'  |2004 |A/B     |partial      |
+#'  |2006 |A/B     |partial      |
+#'  |2008 |A/B     |partial      |
+#'  |2010 |A/B     |partial      |
+#'  |2012 |A/B     |partial      |
+#'  |2014 |A/B     |partial      |
+#'  |2016 |A/B     |partial      |
+#'  |2018 |A/B     |partial      |
+#'  |2021 |A/B     |partial      |
+#'  |2022 |A/B     |partial      |
+#'  |2024 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Birth Control
+#' 
+#' @keywords variable
+#' @md
+#' @name pillok
+NULL
+
+
+#'  Sex education in public schools
+#' 
+#'  sexeduc
+#' 
+#' Question Would you be for or against sex education in the public schools?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` disagree
-#'   * `4` strongly disagree
+#'   * `1` favor
+#'   * `2` oppose
+#'   * `3` depends on age/grade (vol.)
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -594,22 +885,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name pillok
-NULL
-
-#'  Sex education in public schools
-#' 
-#'  sexeduc
-#' 
-#' Question 214. Would you be for or against sex education in the public schools?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/626/vshow).
 #'
 #' Counts by year: 
 #'
@@ -652,105 +929,47 @@ NULL
 #'  |2024  |1126  |-                           |38         |1857  |4         |274    |10             |3309  |
 #'  |Total |31762 |9                           |892        |37496 |107       |5401   |32             |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` favor
-#'   * `2` oppose
-#'   * `3` depends on age/grade (vol.)
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#'  |1996 |A/B     |partial      |
+#'  |1998 |A/B     |partial      |
+#'  |2000 |A/B     |partial      |
+#'  |2002 |A/B     |partial      |
+#'  |2004 |A/B     |partial      |
+#'  |2006 |A/B     |partial      |
+#'  |2008 |A/B     |partial      |
+#'  |2010 |A/B     |partial      |
+#'  |2012 |A/B     |partial      |
+#'  |2014 |A/B     |partial      |
+#'  |2016 |A/B     |partial      |
+#'  |2018 |A/B     |partial      |
+#'  |2021 |A/B     |partial      |
+#'  |2022 |A/B     |partial      |
+#'  |2024 |A/B     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Education
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
 #' @name sexeduc
 NULL
 
-#'  Divorce laws
-#' 
-#'  divlaw
-#' 
-#' Question 215a. Should divorce in this country be easier or more difficult to obtain than it is now?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |easier |more difficult |no answer |stay as is |not available in this year |Total |
-#'  |:-----|:-----|:----------|:------|:--------------|:---------|:----------|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-      |-              |-         |-          |-                          |1613  |
-#'  |1973  |1504  |-          |-      |-              |-         |-          |-                          |1504  |
-#'  |1974  |-     |77         |472    |624            |3         |308        |-                          |1484  |
-#'  |1975  |-     |71         |425    |692            |1         |301        |-                          |1490  |
-#'  |1976  |-     |80         |409    |743            |3         |264        |-                          |1499  |
-#'  |1977  |-     |74         |447    |736            |5         |268        |-                          |1530  |
-#'  |1978  |-     |63         |405    |629            |23        |412        |-                          |1532  |
-#'  |1980  |1468  |-          |-      |-              |-         |-          |-                          |1468  |
-#'  |1982  |-     |112        |491    |877            |3         |377        |-                          |1860  |
-#'  |1983  |-     |73         |379    |835            |2         |310        |-                          |1599  |
-#'  |1984  |1473  |-          |-      |-              |-         |-          |-                          |1473  |
-#'  |1985  |-     |64         |355    |813            |5         |297        |-                          |1534  |
-#'  |1986  |-     |60         |391    |758            |2         |259        |-                          |1470  |
-#'  |1987  |1819  |-          |-      |-              |-         |-          |-                          |1819  |
-#'  |1988  |493   |53         |241    |472            |6         |216        |-                          |1481  |
-#'  |1989  |531   |62         |251    |512            |1         |180        |-                          |1537  |
-#'  |1990  |444   |48         |212    |456            |1         |211        |-                          |1372  |
-#'  |1991  |493   |46         |284    |493            |3         |198        |-                          |1517  |
-#'  |1993  |526   |75         |280    |511            |3         |211        |-                          |1606  |
-#'  |1994  |1015  |112        |512    |916            |9         |428        |-                          |2992  |
-#'  |1996  |944   |110        |527    |960            |6         |357        |-                          |2904  |
-#'  |1998  |961   |122        |428    |967            |3         |351        |-                          |2832  |
-#'  |2000  |940   |105        |442    |912            |8         |410        |-                          |2817  |
-#'  |2002  |1857  |23         |238    |447            |4         |196        |-                          |2765  |
-#'  |2004  |1906  |47         |226    |459            |2         |172        |-                          |2812  |
-#'  |2006  |2518  |83         |494    |879            |-         |536        |-                          |4510  |
-#'  |2008  |694   |52         |364    |609            |5         |299        |-                          |2023  |
-#'  |2010  |614   |83         |450    |579            |5         |313        |-                          |2044  |
-#'  |2012  |672   |88         |432    |503            |6         |273        |-                          |1974  |
-#'  |2014  |863   |94         |574    |663            |5         |339        |-                          |2538  |
-#'  |2016  |979   |87         |702    |705            |11        |383        |-                          |2867  |
-#'  |2018  |789   |104        |648    |502            |10        |295        |-                          |2348  |
-#'  |2021  |-     |-          |-      |-              |-         |-          |4032                       |4032  |
-#'  |2022  |2299  |114        |606    |272            |3         |250        |-                          |3544  |
-#'  |2024  |2324  |79         |455    |243            |3         |205        |-                          |3309  |
-#'  |Total |29739 |2261       |12140  |18767          |141       |8619       |4032                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` easier
-#'   * `2` more difficult
-#'   * `3` stay as is
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name divlaw
-NULL
 

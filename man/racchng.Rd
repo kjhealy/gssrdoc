@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 racchng
 }
 \details{
-Question 265. If you and your friends belonged to a social club that would not let (whites/(negroes/blacks)) join, would you try to change the rules so that (whites/(negroes/blacks)) could join?
+Question If you and your friends belonged to a social club that would not let (Whites/Negroes/Blacks) join, would you try to change the rules so that (Whites/(Negroes/Blacks/African-Americans) could join?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes
+\item \code{2} no
+\item \code{3} wdnt belong
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/726/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab don't know \tab no \tab no answer \tab wdnt belong \tab yes \tab not available in this year \tab Total \cr
@@ -57,25 +78,44 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes
-\item \code{2} no
-\item \code{3} wdnt belong
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1977 \tab -/- \tab full \cr
+   1985 \tab -/- \tab full \cr
+   1986 \tab -/- \tab full \cr
+   1988 \tab A/B \tab partial \cr
+   1989 \tab A/B \tab partial \cr
+   1990 \tab A/B \tab partial \cr
+   1991 \tab A/B \tab partial \cr
+   1993 \tab A/B \tab partial \cr
+   1994 \tab A/B \tab partial \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{racavoid}},
+\code{\link{racdif1}},
+\code{\link{racdif2}},
+\code{\link{racdif3}},
+\code{\link{racmarel}},
+\code{\link{racmarpr}},
+\code{\link{racquit}},
+\code{\link{racsups}},
+\code{\link{racteach}}
+
+Other Race: 
+\code{\link{racavoid}},
+\code{\link{racdif1}},
+\code{\link{racdif2}},
+\code{\link{racdif3}},
+\code{\link{racmarel}},
+\code{\link{racmarpr}},
+\code{\link{racquit}},
+\code{\link{racsups}},
+\code{\link{racteach}}
+}
+\concept{Core}
+\concept{Race}
 \keyword{variable}

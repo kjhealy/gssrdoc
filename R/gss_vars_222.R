@@ -1,11 +1,239 @@
+#'  Relation to person 4 (1st mentioned)
+#' 
+#'  mhp4r1
+#' 
+#' Question First relationship with fourth person.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` spouse/partner (current/ex)
+#'   * `2` parent
+#'   * `3` sibling
+#'   * `4` child
+#'   * `5` grandparent
+#'   * `6` grandchild
+#'   * `7` other family
+#'   * `8` coworker
+#'   * `9` neighbor
+#'   * `10` friend
+#'   * `11` member of religious community
+#'   * `12` acquaintance
+#'   * `13` student/classmate
+#'   * `14` relative of a friend
+#'   * `15` friend of a relative
+#'   * `16` other
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7106/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |acquaintance |child |coworker |don't know |friend |grandparent |member of religious community |neighbor |no answer |other |other family |parent |sibling |spouse/partner (current/ex) |not available in this year |Total |
+#'  |:-----|:-----|:------------|:-----|:--------|:----------|:------|:-----------|:-----------------------------|:--------|:---------|:-----|:------------|:------|:-------|:---------------------------|:--------------------------|:-----|
+#'  |1972  |1613  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |1613  |
+#'  |1973  |1504  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |1504  |
+#'  |1974  |1484  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |1484  |
+#'  |1975  |1490  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |1490  |
+#'  |1976  |1499  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |1499  |
+#'  |1977  |1530  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |1530  |
+#'  |1978  |1532  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |1532  |
+#'  |1980  |1468  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |1468  |
+#'  |1982  |1860  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |1860  |
+#'  |1983  |1599  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |1599  |
+#'  |1984  |1473  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |1473  |
+#'  |1985  |1534  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |1534  |
+#'  |1986  |1470  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |1470  |
+#'  |1987  |1819  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |1819  |
+#'  |1988  |1481  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |1481  |
+#'  |1989  |1537  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |1537  |
+#'  |1990  |1372  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |1372  |
+#'  |1991  |1517  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |1517  |
+#'  |1993  |1606  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |1606  |
+#'  |1994  |2992  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |2992  |
+#'  |1996  |2904  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |2904  |
+#'  |1998  |2832  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |2832  |
+#'  |2000  |2817  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |2817  |
+#'  |2002  |2765  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |2765  |
+#'  |2004  |2812  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |2812  |
+#'  |2006  |4510  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |4510  |
+#'  |2008  |2023  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |2023  |
+#'  |2010  |2044  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |2044  |
+#'  |2012  |1974  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |1974  |
+#'  |2014  |2538  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |2538  |
+#'  |2016  |2867  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |2867  |
+#'  |2018  |2190  |2            |7     |8        |4          |53     |5           |1                             |4        |11        |3     |44           |4      |8       |4                           |-                          |2348  |
+#'  |2021  |4032  |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                          |4032  |
+#'  |2022  |-     |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |3544                       |3544  |
+#'  |2024  |-     |-            |-     |-        |-          |-      |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |3309                       |3309  |
+#'  |Total |68688 |2            |7     |8        |4          |53     |5           |1                             |4        |11        |3     |44           |4      |8       |4                           |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name mhp4r1
+NULL
+
+
+#'  Relation to person 4 (2nd mentioned)
+#' 
+#'  mhp4r2
+#' 
+#' Question (If present) Second relationship with fourth person.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` spouse/partner (current/ex)
+#'   * `2` parent
+#'   * `3` sibling
+#'   * `4` child
+#'   * `5` grandparent
+#'   * `6` grandchild
+#'   * `7` other family
+#'   * `8` coworker
+#'   * `9` neighbor
+#'   * `10` friend
+#'   * `11` member of religious community
+#'   * `12` acquaintance
+#'   * `13` student/classmate
+#'   * `14` relative of a friend
+#'   * `15` friend of a relative
+#'   * `16` other
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7107/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |friend |member of religious community |no answer |not available in this year |Total |
+#'  |:-----|:-----|:------|:-----------------------------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-      |-                             |-         |-                          |1613  |
+#'  |1973  |1504  |-      |-                             |-         |-                          |1504  |
+#'  |1974  |1484  |-      |-                             |-         |-                          |1484  |
+#'  |1975  |1490  |-      |-                             |-         |-                          |1490  |
+#'  |1976  |1499  |-      |-                             |-         |-                          |1499  |
+#'  |1977  |1530  |-      |-                             |-         |-                          |1530  |
+#'  |1978  |1532  |-      |-                             |-         |-                          |1532  |
+#'  |1980  |1468  |-      |-                             |-         |-                          |1468  |
+#'  |1982  |1860  |-      |-                             |-         |-                          |1860  |
+#'  |1983  |1599  |-      |-                             |-         |-                          |1599  |
+#'  |1984  |1473  |-      |-                             |-         |-                          |1473  |
+#'  |1985  |1534  |-      |-                             |-         |-                          |1534  |
+#'  |1986  |1470  |-      |-                             |-         |-                          |1470  |
+#'  |1987  |1819  |-      |-                             |-         |-                          |1819  |
+#'  |1988  |1481  |-      |-                             |-         |-                          |1481  |
+#'  |1989  |1537  |-      |-                             |-         |-                          |1537  |
+#'  |1990  |1372  |-      |-                             |-         |-                          |1372  |
+#'  |1991  |1517  |-      |-                             |-         |-                          |1517  |
+#'  |1993  |1606  |-      |-                             |-         |-                          |1606  |
+#'  |1994  |2992  |-      |-                             |-         |-                          |2992  |
+#'  |1996  |2904  |-      |-                             |-         |-                          |2904  |
+#'  |1998  |2832  |-      |-                             |-         |-                          |2832  |
+#'  |2000  |2817  |-      |-                             |-         |-                          |2817  |
+#'  |2002  |2765  |-      |-                             |-         |-                          |2765  |
+#'  |2004  |2812  |-      |-                             |-         |-                          |2812  |
+#'  |2006  |4510  |-      |-                             |-         |-                          |4510  |
+#'  |2008  |2023  |-      |-                             |-         |-                          |2023  |
+#'  |2010  |2044  |-      |-                             |-         |-                          |2044  |
+#'  |2012  |1974  |-      |-                             |-         |-                          |1974  |
+#'  |2014  |2538  |-      |-                             |-         |-                          |2538  |
+#'  |2016  |2867  |-      |-                             |-         |-                          |2867  |
+#'  |2018  |2190  |1      |1                             |156       |-                          |2348  |
+#'  |2021  |4032  |-      |-                             |-         |-                          |4032  |
+#'  |2022  |-     |-      |-                             |-         |3544                       |3544  |
+#'  |2024  |-     |-      |-                             |-         |3309                       |3309  |
+#'  |Total |68688 |1      |1                             |156       |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name mhp4r2
+NULL
+
+
 #'  Relation to person 5 (1st mentioned)
 #' 
 #'  mhp5r1
 #' 
-#' Question R's relationship with the fifth named person A. First relationship
+#' Question First relationship with fifth person.
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` spouse/partner (current/ex)
+#'   * `2` parent
+#'   * `3` sibling
+#'   * `4` child
+#'   * `5` grandparent
+#'   * `6` grandchild
+#'   * `7` other family
+#'   * `8` coworker
+#'   * `9` neighbor
+#'   * `10` friend
+#'   * `11` member of religious community
+#'   * `12` acquaintance
+#'   * `13` student/classmate
+#'   * `14` relative of a friend
+#'   * `15` friend of a relative
+#'   * `16` other
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7108/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +276,29 @@
 #'  |2024  |-     |-            |-     |-        |-          |-      |-                    |-          |-           |-                             |-        |-         |-     |-            |-      |-       |-                           |-                 |3309                       |3309  |
 #'  |Total |68743 |1            |1     |4        |2          |36     |1                    |2          |1           |2                             |2        |6         |2     |30           |1      |10      |1                           |1                 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name mhp5r1
+NULL
+
+
+#'  Relation to person 5 (2nd mentioned)
+#' 
+#'  mhp5r2
+#' 
+#' Question (If present) Second relationship with fifth person.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` spouse/partner (current/ex)
@@ -79,22 +330,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name mhp5r1
-NULL
-
-#'  Relation to person 5 (2nd mentioned)
-#' 
-#'  mhp5r2
-#' 
-#' Question B. (If present) Second relationship
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7109/vshow).
 #'
 #' Counts by year: 
 #'
@@ -137,24 +374,33 @@ NULL
 #'  |2024  |-     |-                             |-         |-     |3309                       |3309  |
 #'  |Total |68743 |1                             |101       |1     |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name mhp5r2
+NULL
+
+
+#'  How close r is to person 1
+#' 
+#'  closeto1
+#' 
+#' Question On a scale from 1 to 10, with 1 being not at all close and 10 being very close, how close are you to (NAME 1), the first person?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` spouse/partner (current/ex)
-#'   * `2` parent
-#'   * `3` sibling
-#'   * `4` child
-#'   * `5` grandparent
-#'   * `6` grandchild
-#'   * `7` other family
-#'   * `8` coworker
-#'   * `9` neighbor
-#'   * `10` friend
-#'   * `11` member of religious community
-#'   * `12` acquaintance
-#'   * `13` student/classmate
-#'   * `14` relative of a friend
-#'   * `15` friend of a relative
-#'   * `16` other
+#'   * `1` 1 - not at all close
+#'   * `10` 10 - very close
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -168,22 +414,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name mhp5r2
-NULL
-
-#'  How close r is to person 1
-#' 
-#'  closeto1
-#' 
-#' Question On a scale from 1 to 10, with 1 being not at all close and 10 being very close, how close are you to NAME 1?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7110/vshow).
 #'
 #' Counts by year: 
 #'
@@ -226,6 +458,29 @@ NULL
 #'  |2024  |-     |-                    |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68249 |80                   |143             |43 |46 |37 |68 |37 |46 |59 |33 |2          |3         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name closeto1
+NULL
+
+
+#'  How close r is to person 2
+#' 
+#'  closeto2
+#' 
+#' Question On a scale from 1 to 10, with 1 being not at all close and 10 being very close, how close are you to (NAME 2), the second person?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` 1 - not at all close
@@ -243,22 +498,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name closeto1
-NULL
-
-#'  How close r is to person 2
-#' 
-#'  closeto2
-#' 
-#' Question On a scale from 1 to 10, with 1 being not at all close and 10 being very close, how close are you to NAME 2
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7111/vshow).
 #'
 #' Counts by year: 
 #'
@@ -301,6 +542,29 @@ NULL
 #'  |2024  |-     |-                    |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68480 |52                   |79              |24 |26 |25 |39 |22 |37 |30 |26 |3          |3         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name closeto2
+NULL
+
+
+#'  How close r is to person 3
+#' 
+#'  closeto3
+#' 
+#' Question On a scale from 1 to 10, with 1 being not at all close and 10 being very close, how close are you to (NAME 3), the third person?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` 1 - not at all close
@@ -318,22 +582,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name closeto2
-NULL
-
-#'  How close r is to person 3
-#' 
-#'  closeto3
-#' 
-#' Question On a scale from 1 to 10, with 1 being not at all close and 10 being very close, how close are you to NAME 3?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7112/vshow).
 #'
 #' Counts by year: 
 #'
@@ -376,6 +626,29 @@ NULL
 #'  |2024  |-     |-                    |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |3309                       |3309  |
 #'  |Total |68593 |43                   |37              |12 |24 |15 |34 |23 |22 |24 |12 |7         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name closeto3
+NULL
+
+
+#'  How close r is to person 4
+#' 
+#'  closeto4
+#' 
+#' Question On a scale from 1 to 10, with 1 being not at all close and 10 being very close, how close are you to (NAME 4), the fourth person?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` 1 - not at all close
@@ -393,22 +666,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name closeto3
-NULL
-
-#'  How close r is to person 4
-#' 
-#'  closeto4
-#' 
-#' Question On a scale from 1 to 10, with 1 being not at all close and 10 being very close, how close are you to NAME 4?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7113/vshow).
 #'
 #' Counts by year: 
 #'
@@ -451,6 +710,29 @@ NULL
 #'  |2024  |-     |-                    |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68688 |26                   |25              |7  |9  |11 |13 |13 |18 |19 |7  |4          |6         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name closeto4
+NULL
+
+
+#'  How close r is to person 5
+#' 
+#'  closeto5
+#' 
+#' Question On a scale from 1 to 10, with 1 being not at all close and 10 being very close, how close are you to (NAME 5), the fifth person?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` 1 - not at all close
@@ -468,22 +750,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name closeto4
-NULL
-
-#'  How close r is to person 5
-#' 
-#'  closeto5
-#' 
-#' Question On a scale from 1 to 10, with 1 being not at all close and 10 being very close, how close are you to NAME 5?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7114/vshow).
 #'
 #' Counts by year: 
 #'
@@ -526,10 +794,33 @@ NULL
 #'  |2024  |-     |-                    |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68743 |19                   |8               |10 |5  |12 |9  |8  |13 |6  |5  |2          |6         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name closeto5
+NULL
+
+
+#'  How frequently r sees or talks to person 1
+#' 
+#'  seetalk1
+#' 
+#' Question On a scale from 1 to 10, with 1 being not at all and 10 being very often, how frequently do you see or talk to (NAME 1) these days?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` 1 - not at all close
-#'   * `10` 10 - very close
+#'   * `1` 1 - not at all
+#'   * `10` 10 - very often
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -543,22 +834,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name closeto5
-NULL
-
-#'  How frequently r sees or talks to person 1
-#' 
-#'  seetalk1
-#' 
-#' Question On a scale from 1 to 10, with 1 being not at all and 10 being very often, how frequently do you see or talk to NAME 1 these days?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7115/vshow).
 #'
 #' Counts by year: 
 #'
@@ -601,178 +878,19 @@ NULL
 #'  |2024  |-     |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68249 |172            |100             |74 |42 |33 |52 |26 |40 |35 |19 |1          |3         |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` 1 - not at all
-#'   * `10` 10 - very often
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |B/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
+#' 
 #' 
 #' @keywords variable
 #' @md
 #' @name seetalk1
 NULL
 
-#'  How frequently r sees or talks to person 2
-#' 
-#'  seetalk2
-#' 
-#' Question On a scale from 1 to 10, with 1 being not at all and 10 being very often, how frequently do you see or talk to NAME 2 these days?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |1 - not at all |10 - very often |2  |3  |4  |5  |6  |7  |8  |9  |don't know |no answer |not available in this year |Total |
-#'  |:-----|:-----|:--------------|:---------------|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1613  |
-#'  |1973  |1504  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1504  |
-#'  |1974  |1484  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1484  |
-#'  |1975  |1490  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1490  |
-#'  |1976  |1499  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1499  |
-#'  |1977  |1530  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1530  |
-#'  |1978  |1532  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1532  |
-#'  |1980  |1468  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1468  |
-#'  |1982  |1860  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1860  |
-#'  |1983  |1599  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1599  |
-#'  |1984  |1473  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1473  |
-#'  |1985  |1534  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1534  |
-#'  |1986  |1470  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1470  |
-#'  |1987  |1819  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1819  |
-#'  |1988  |1481  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1481  |
-#'  |1989  |1537  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1537  |
-#'  |1990  |1372  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1372  |
-#'  |1991  |1517  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1517  |
-#'  |1993  |1606  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1606  |
-#'  |1994  |2992  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2992  |
-#'  |1996  |2904  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2904  |
-#'  |1998  |2832  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2832  |
-#'  |2000  |2817  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2817  |
-#'  |2002  |2765  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2765  |
-#'  |2004  |2812  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2812  |
-#'  |2006  |4510  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |4510  |
-#'  |2008  |2023  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2023  |
-#'  |2010  |2044  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2044  |
-#'  |2012  |1974  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1974  |
-#'  |2014  |2538  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2538  |
-#'  |2016  |2867  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2867  |
-#'  |2018  |1982  |99             |59              |31 |34 |24 |29 |28 |13 |29 |12 |4          |4         |-                          |2348  |
-#'  |2021  |4032  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |4032  |
-#'  |2022  |-     |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3544                       |3544  |
-#'  |2024  |-     |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
-#'  |Total |68480 |99             |59              |31 |34 |24 |29 |28 |13 |29 |12 |4          |4         |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` 1 - not at all
-#'   * `10` 10 - very often
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name seetalk2
-NULL
-
-#'  How frequently r sees or talks to person 3
-#' 
-#'  seetalk3
-#' 
-#' Question On a scale from 1 to 10, with 1 being not at all and 10 being very often, how frequently do you see or talk to NAME 3 these days?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |1 - not at all |10 - very often |2  |3  |4  |5  |6  |7  |8  |9  |no answer |not available in this year |Total |
-#'  |:-----|:-----|:--------------|:---------------|:--|:--|:--|:--|:--|:--|:--|:--|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1613  |
-#'  |1973  |1504  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1504  |
-#'  |1974  |1484  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1484  |
-#'  |1975  |1490  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1490  |
-#'  |1976  |1499  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1499  |
-#'  |1977  |1530  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1530  |
-#'  |1978  |1532  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1532  |
-#'  |1980  |1468  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1468  |
-#'  |1982  |1860  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1860  |
-#'  |1983  |1599  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1599  |
-#'  |1984  |1473  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1473  |
-#'  |1985  |1534  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1534  |
-#'  |1986  |1470  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1470  |
-#'  |1987  |1819  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1819  |
-#'  |1988  |1481  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1481  |
-#'  |1989  |1537  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1537  |
-#'  |1990  |1372  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1372  |
-#'  |1991  |1517  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1517  |
-#'  |1993  |1606  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1606  |
-#'  |1994  |2992  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2992  |
-#'  |1996  |2904  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2904  |
-#'  |1998  |2832  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2832  |
-#'  |2000  |2817  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2817  |
-#'  |2002  |2765  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2765  |
-#'  |2004  |2812  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2812  |
-#'  |2006  |4510  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |4510  |
-#'  |2008  |2023  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2023  |
-#'  |2010  |2044  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2044  |
-#'  |2012  |1974  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1974  |
-#'  |2014  |2538  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2538  |
-#'  |2016  |2867  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2867  |
-#'  |2018  |2095  |60             |29              |28 |24 |18 |16 |23 |19 |17 |12 |7         |-                          |2348  |
-#'  |2021  |4032  |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |4032  |
-#'  |2022  |-     |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |3544                       |3544  |
-#'  |2024  |-     |-              |-               |-  |-  |-  |-  |-  |-  |-  |-  |-         |3309                       |3309  |
-#'  |Total |68593 |60             |29              |28 |24 |18 |16 |23 |19 |17 |12 |7         |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` 1 - not at all
-#'   * `10` 10 - very often
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name seetalk3
-NULL
 

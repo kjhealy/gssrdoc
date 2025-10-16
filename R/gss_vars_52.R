@@ -1,11 +1,152 @@
+#'  Confidence in medicine
+#' 
+#'  conmedic
+#' 
+#' Question I am going to name some institutions in this country. As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them?  
+#' READ EACH ITEM; CODE ONE FOR EACH.
+#' H. Medicine
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` a great deal
+#'   * `2` only some
+#'   * `3` hardly any
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/455/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |a great deal |don't know |hardly any |no answer |only some |skipped on web |Total |
+#'  |:-----|:-----|:------------|:----------|:----------|:---------|:---------|:--------------|:-----|
+#'  |1972  |1613  |-            |-          |-          |-         |-         |-              |1613  |
+#'  |1973  |-     |809          |14         |86         |8         |587       |-              |1504  |
+#'  |1974  |-     |895          |22         |66         |2         |499       |-              |1484  |
+#'  |1975  |-     |751          |22         |117        |3         |597       |-              |1490  |
+#'  |1976  |-     |807          |20         |138        |7         |527       |-              |1499  |
+#'  |1977  |-     |786          |17         |94         |4         |629       |-              |1530  |
+#'  |1978  |-     |703          |12         |140        |5         |672       |-              |1532  |
+#'  |1980  |-     |768          |22         |109        |1         |568       |-              |1468  |
+#'  |1982  |-     |828          |21         |133        |8         |870       |-              |1860  |
+#'  |1983  |-     |823          |22         |96         |3         |655       |-              |1599  |
+#'  |1984  |484   |499          |9          |62         |12        |407       |-              |1473  |
+#'  |1985  |1534  |-            |-          |-          |-         |-         |-              |1534  |
+#'  |1986  |-     |673          |19         |110        |4         |664       |-              |1470  |
+#'  |1987  |-     |929          |22         |101        |5         |762       |-              |1819  |
+#'  |1988  |484   |509          |9          |59         |4         |416       |-              |1481  |
+#'  |1989  |502   |477          |15         |70         |5         |468       |-              |1537  |
+#'  |1990  |473   |410          |9          |61         |1         |418       |-              |1372  |
+#'  |1991  |500   |481          |13         |77         |4         |442       |-              |1517  |
+#'  |1993  |549   |411          |13         |89         |5         |539       |-              |1606  |
+#'  |1994  |981   |831          |14         |196        |8         |962       |-              |2992  |
+#'  |1996  |979   |856          |25         |171        |1         |872       |-              |2904  |
+#'  |1998  |921   |844          |30         |167        |6         |864       |-              |2832  |
+#'  |2000  |921   |825          |27         |179        |9         |856       |-              |2817  |
+#'  |2002  |1853  |337          |5          |102        |-         |468       |-              |2765  |
+#'  |2004  |1936  |319          |3          |119        |-         |435       |-              |2812  |
+#'  |2006  |2521  |778          |15         |216        |1         |979       |-              |4510  |
+#'  |2008  |658   |508          |6          |160        |-         |691       |-              |2023  |
+#'  |2010  |667   |558          |13         |158        |1         |647       |-              |2044  |
+#'  |2012  |636   |516          |11         |146        |-         |665       |-              |1974  |
+#'  |2014  |851   |637          |9          |191        |2         |848       |-              |2538  |
+#'  |2016  |911   |694          |12         |279        |2         |969       |-              |2867  |
+#'  |2018  |785   |553          |8          |211        |1         |790       |-              |2348  |
+#'  |2021  |1360  |1070         |1          |246        |-         |1346      |9              |4032  |
+#'  |2022  |1173  |786          |7          |373        |4         |1196      |5              |3544  |
+#'  |2024  |1116  |569          |19         |428        |1         |1162      |14             |3309  |
+#'  |Total |24408 |22240        |486        |4950       |117       |23470     |28             |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'  |1996 |B/C     |partial      |
+#'  |1998 |B/C     |partial      |
+#'  |2000 |B/C     |partial      |
+#'  |2002 |B/C     |partial      |
+#'  |2004 |B/C     |partial      |
+#'  |2006 |B/C     |partial      |
+#'  |2008 |B/C     |partial      |
+#'  |2010 |B/C     |partial      |
+#'  |2012 |B/C     |partial      |
+#'  |2014 |B/C     |partial      |
+#'  |2016 |B/C     |partial      |
+#'  |2018 |B/C     |partial      |
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'  |2024 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Confidence
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name conmedic
+NULL
+
+
 #'  Confidence in television
 #' 
 #'  contv
 #' 
-#' Question 165. I am going to name some institutions in this country. As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them? i. Television.
+#' Question I am going to name some institutions in this country. As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them?  
+#' READ EACH ITEM; CODE ONE FOR EACH.
+#' I. TV
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` a great deal
+#'   * `2` only some
+#'   * `3` hardly any
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/456/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +189,64 @@
 #'  |2024  |1116  |181          |31         |987        |-         |986       |8              |3309  |
 #'  |Total |24408 |6251         |683        |17815      |140       |26380     |22             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'  |1996 |B/C     |partial      |
+#'  |1998 |B/C     |partial      |
+#'  |2000 |B/C     |partial      |
+#'  |2002 |B/C     |partial      |
+#'  |2004 |B/C     |partial      |
+#'  |2006 |B/C     |partial      |
+#'  |2008 |B/C     |partial      |
+#'  |2010 |B/C     |partial      |
+#'  |2012 |B/C     |partial      |
+#'  |2014 |B/C     |partial      |
+#'  |2016 |B/C     |partial      |
+#'  |2018 |B/C     |partial      |
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'  |2024 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Confidence
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name contv
+NULL
+
+
+#'  Confid. in united states supreme court
+#' 
+#'  conjudge
+#' 
+#' Question I am going to name some institutions in this country. As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them?  
+#' READ EACH ITEM; CODE ONE FOR EACH.
+#' J. U.S. Supreme Court
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` a great deal
@@ -66,22 +265,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name contv
-NULL
-
-#'  Confid. in united states supreme court
-#' 
-#'  conjudge
-#' 
-#' Question 165. I am going to name some institutions in this country. As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them? j. U.S. Supreme Court.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/457/vshow).
 #'
 #' Counts by year: 
 #'
@@ -124,6 +309,65 @@ NULL
 #'  |2024  |1116  |360          |38         |850        |2         |935       |8              |3309  |
 #'  |Total |24409 |14858        |1810       |8783       |149       |25670     |20             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'  |1996 |B/C     |partial      |
+#'  |1998 |B/C     |partial      |
+#'  |2000 |B/C     |partial      |
+#'  |2002 |B/C     |partial      |
+#'  |2004 |B/C     |partial      |
+#'  |2006 |B/C     |partial      |
+#'  |2008 |B/C     |partial      |
+#'  |2010 |B/C     |partial      |
+#'  |2012 |B/C     |partial      |
+#'  |2014 |B/C     |partial      |
+#'  |2016 |B/C     |partial      |
+#'  |2018 |B/C     |partial      |
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'  |2024 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Corenfidence
+#' @family Courts
+#' @family Federal Government
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name conjudge
+NULL
+
+
+#'  Confidence in scientific community
+#' 
+#'  consci
+#' 
+#' Question I am going to name some institutions in this country. As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them?  
+#' READ EACH ITEM; CODE ONE FOR EACH.
+#' K. Scientific Community
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` a great deal
@@ -142,22 +386,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name conjudge
-NULL
-
-#'  Confidence in scientific community
-#' 
-#'  consci
-#' 
-#' Question 165. I am going to name some institutions in this country. As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them? k. Scientific community.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/458/vshow).
 #'
 #' Counts by year: 
 #'
@@ -200,6 +430,64 @@ NULL
 #'  |2024  |1116  |756          |61         |276        |-         |1089      |11             |3309  |
 #'  |Total |24408 |20537        |3220       |3710       |170       |23626     |28             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'  |1996 |B/C     |partial      |
+#'  |1998 |B/C     |partial      |
+#'  |2000 |B/C     |partial      |
+#'  |2002 |B/C     |partial      |
+#'  |2004 |B/C     |partial      |
+#'  |2006 |B/C     |partial      |
+#'  |2008 |B/C     |partial      |
+#'  |2010 |B/C     |partial      |
+#'  |2012 |B/C     |partial      |
+#'  |2014 |B/C     |partial      |
+#'  |2016 |B/C     |partial      |
+#'  |2018 |B/C     |partial      |
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'  |2024 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Confidence
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name consci
+NULL
+
+
+#'  Confidence in congress
+#' 
+#'  conlegis
+#' 
+#' Question I am going to name some institutions in this country. As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them?  
+#' READ EACH ITEM; CODE ONE FOR EACH.
+#' L. Congress
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` a great deal
@@ -218,22 +506,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name consci
-NULL
-
-#'  Confidence in congress
-#' 
-#'  conlegis
-#' 
-#' Question 165. I am going to name some institutions in this country. As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them? l. Congress
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/459/vshow).
 #'
 #' Counts by year: 
 #'
@@ -276,6 +550,65 @@ NULL
 #'  |2024  |1116  |113          |31         |1183       |2         |852       |12             |3309  |
 #'  |Total |24408 |5551         |1271       |17569      |147       |26726     |27             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'  |1996 |B/C     |partial      |
+#'  |1998 |B/C     |partial      |
+#'  |2000 |B/C     |partial      |
+#'  |2002 |B/C     |partial      |
+#'  |2004 |B/C     |partial      |
+#'  |2006 |B/C     |partial      |
+#'  |2008 |B/C     |partial      |
+#'  |2010 |B/C     |partial      |
+#'  |2012 |B/C     |partial      |
+#'  |2014 |B/C     |partial      |
+#'  |2016 |B/C     |partial      |
+#'  |2018 |B/C     |partial      |
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'  |2024 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Confidence
+#' @family Federal Government
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name conlegis
+NULL
+
+
+#'  Confidence in military
+#' 
+#'  conarmy
+#' 
+#' Question I am going to name some institutions in this country. As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them?  
+#' READ EACH ITEM; CODE ONE FOR EACH.
+#' M. Military
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` a great deal
@@ -294,22 +627,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name conlegis
-NULL
-
-#'  Confidence in military
-#' 
-#'  conarmy
-#' 
-#' Question 165. I am going to name some institutions in this country. As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them? m. Military
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/460/vshow).
 #'
 #' Counts by year: 
 #'
@@ -352,11 +671,69 @@ NULL
 #'  |2024  |1116  |914          |25         |271        |1         |970       |12             |3309  |
 #'  |Total |24408 |20952        |1187       |5936       |120       |23069     |27             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'  |1996 |B/C     |partial      |
+#'  |1998 |B/C     |partial      |
+#'  |2000 |B/C     |partial      |
+#'  |2002 |B/C     |partial      |
+#'  |2004 |B/C     |partial      |
+#'  |2006 |B/C     |partial      |
+#'  |2008 |B/C     |partial      |
+#'  |2010 |B/C     |partial      |
+#'  |2012 |B/C     |partial      |
+#'  |2014 |B/C     |partial      |
+#'  |2016 |B/C     |partial      |
+#'  |2018 |B/C     |partial      |
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'  |2024 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Confidence
+#' @family Federal Government
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name conarmy
+NULL
+
+
+#'  Banks & financial institutions:ver z
+#' 
+#'  confinay
+#' 
+#' Question I am going to name some institutions in this country. Some people have complete confidence in the people running these institutions. Suppose these people are at one end of the scale at point number 1. Other people have no confidence at all in the people running these institutions. Suppose these people are at the other end, at point 7. And, of course, other people have opinions somewhere in between at point 2, 3, 4, 5 or 6. Where would you place yourself on this scale for . . .
+#' READ EACH ITEM, CODE ONE FOR EACH. REPEAT THE QUESTION AS NECESSARY.
+#' A. Banks and financial institutions
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` a great deal
-#'   * `2` only some
-#'   * `3` hardly any
+#'   * `1` complete confidence
+#'   * `7` no confidence
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -370,22 +747,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name conarmy
-NULL
-
-#'  Banks & financial institutions:ver z
-#' 
-#'  confinay
-#' 
-#' Question 166. I am going to name some institutions in this country. Some people have complete confidence in the people running these institutions. Suppose these people are at one end of the scale at point number 1. Other people have no confidence at all in teh people running these institutions. Suppose these people are at the other end, at point 7. Where would you place yourself on this scale for: a. Banks and financial institutions?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/461/vshow).
 #'
 #' Counts by year: 
 #'
@@ -428,6 +791,34 @@ NULL
 #'  |2024  |-     |-  |-  |-   |-  |-  |-                   |-          |-         |-             |3309                       |3309  |
 #'  |Total |68362 |92 |98 |112 |39 |32 |63                  |9          |8         |31            |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Business
+#' @family Confidence
+#' @family Financial Institutions And Banks
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name confinay
+NULL
+
+
+#'  Major companies:version z
+#' 
+#'  conbusy
+#' 
+#' Question I am going to name some institutions in this country. Some people have complete confidence in the people running these institutions. Suppose these people are at one end of the scale at point number 1. Other people have no confidence at all in the people running these institutions. Suppose these people are at the other end, at point 7. And, of course, other people have opinions somewhere in between at point 2, 3, 4, 5 or 6. Where would you place yourself on this scale for . . .
+#' READ EACH ITEM, CODE ONE FOR EACH. REPEAT THE QUESTION AS NECESSARY.
+#' B. Major companies
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` complete confidence
@@ -445,22 +836,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name confinay
-NULL
-
-#'  Major companies:version z
-#' 
-#'  conbusy
-#' 
-#' Question 166. I am going to name some institutions in this country. Some people have complete confidence in the people running these institutions. Suppose these people are at one end of the scale at point number 1. Other people have no confidence at all in teh people running these institutions. Suppose these people are at the other end, at point 7. Where would you place yourself on this scale for: b. Major companies?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/462/vshow).
 #'
 #' Counts by year: 
 #'
@@ -503,6 +880,33 @@ NULL
 #'  |2024  |-     |-  |-   |-   |-  |-  |-                   |-          |-         |-             |3309                       |3309  |
 #'  |Total |68362 |76 |102 |142 |55 |16 |52                  |20         |6         |15            |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Business
+#' @family Confidence
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name conbusy
+NULL
+
+
+#'  Organized religion:version z
+#' 
+#'  conclery
+#' 
+#' Question I am going to name some institutions in this country. Some people have complete confidence in the people running these institutions. Suppose these people are at one end of the scale at point number 1. Other people have no confidence at all in the people running these institutions. Suppose these people are at the other end, at point 7. And, of course, other people have opinions somewhere in between at point 2, 3, 4, 5 or 6. Where would you place yourself on this scale for . . .
+#' READ EACH ITEM, CODE ONE FOR EACH. REPEAT THE QUESTION AS NECESSARY.
+#' C. Organized religion
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` complete confidence
@@ -520,22 +924,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name conbusy
-NULL
-
-#'  Organized religion:version z
-#' 
-#'  conclery
-#' 
-#' Question 166. I am going to name some institutions in this country. Some people have complete confidence in the people running these institutions. Suppose these people are at one end of the scale at point number 1. Other people have no confidence at all in teh people running these institutions. Suppose these people are at the other end, at point 7. Where would you place yourself on this scale for: c. Organized religion?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/463/vshow).
 #'
 #' Counts by year: 
 #'
@@ -578,6 +968,33 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-                   |-          |-         |-             |3309                       |3309  |
 #'  |Total |68362 |80 |82 |93 |49 |41 |83                  |13         |7         |36            |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Confidence
+#' @family Religion
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name conclery
+NULL
+
+
+#'  Education:version z
+#' 
+#'  coneducy
+#' 
+#' Question I am going to name some institutions in this country. Some people have complete confidence in the people running these institutions. Suppose these people are at one end of the scale at point number 1. Other people have no confidence at all in the people running these institutions. Suppose these people are at the other end, at point 7. And, of course, other people have opinions somewhere in between at point 2, 3, 4, 5 or 6. Where would you place yourself on this scale for . . .
+#' READ EACH ITEM, CODE ONE FOR EACH. REPEAT THE QUESTION AS NECESSARY.
+#' D. Education
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` complete confidence
@@ -595,22 +1012,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name conclery
-NULL
-
-#'  Education:version z
-#' 
-#'  coneducy
-#' 
-#' Question 166. I am going to name some institutions in this country. Some people have complete confidence in the people running these institutions. Suppose these people are at one end of the scale at point number 1. Other people have no confidence at all in teh people running these institutions. Suppose these people are at the other end, at point 7. Where would you place yourself on this scale for: d. Education?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/464/vshow).
 #'
 #' Counts by year: 
 #'
@@ -653,103 +1056,21 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-                   |-          |-         |-             |3309                       |3309  |
 #'  |Total |68362 |81 |92 |98 |81 |55 |42                  |6          |6         |23            |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` complete confidence
-#'   * `7` no confidence
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Confidence
+#' @family Education
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
 #' @name coneducy
 NULL
 
-#'  Exec branch fed govt:version z
-#' 
-#'  confedy
-#' 
-#' Question 166. I am going to name some institutions in this country. Some people have complete confidence in the people running these institutions. Suppose these people are at one end of the scale at point number 1. Other people have no confidence at all in teh people running these institutions. Suppose these people are at the other end, at point 7. Where would you place yourself on this scale for: e. Executive branch of the federal government?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |2  |3  |4   |5  |6  |complete confidence |don't know |no answer |no confidence |not available in this year |Total |
-#'  |:-----|:-----|:--|:--|:---|:--|:--|:-------------------|:----------|:---------|:-------------|:--------------------------|:-----|
-#'  |1972  |1613  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |1613  |
-#'  |1973  |1504  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |1504  |
-#'  |1974  |1484  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |1484  |
-#'  |1975  |1490  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |1490  |
-#'  |1976  |1499  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |1499  |
-#'  |1977  |1530  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |1530  |
-#'  |1978  |1532  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |1532  |
-#'  |1980  |1468  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |1468  |
-#'  |1982  |1860  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |1860  |
-#'  |1983  |1599  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |1599  |
-#'  |1984  |989   |68 |68 |107 |70 |62 |35                  |9          |6         |59            |-                          |1473  |
-#'  |1985  |1534  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |1534  |
-#'  |1986  |1470  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |1470  |
-#'  |1987  |1819  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |1819  |
-#'  |1988  |1481  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |1481  |
-#'  |1989  |1537  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |1537  |
-#'  |1990  |1372  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |1372  |
-#'  |1991  |1517  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |1517  |
-#'  |1993  |1606  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |1606  |
-#'  |1994  |2992  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |2992  |
-#'  |1996  |2904  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |2904  |
-#'  |1998  |2832  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |2832  |
-#'  |2000  |2817  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |2817  |
-#'  |2002  |2765  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |2765  |
-#'  |2004  |2812  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |2812  |
-#'  |2006  |4510  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |4510  |
-#'  |2008  |2023  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |2023  |
-#'  |2010  |2044  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |2044  |
-#'  |2012  |1974  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |1974  |
-#'  |2014  |2538  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |2538  |
-#'  |2016  |2867  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |2867  |
-#'  |2018  |2348  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |2348  |
-#'  |2021  |4032  |-  |-  |-   |-  |-  |-                   |-          |-         |-             |-                          |4032  |
-#'  |2022  |-     |-  |-  |-   |-  |-  |-                   |-          |-         |-             |3544                       |3544  |
-#'  |2024  |-     |-  |-  |-   |-  |-  |-                   |-          |-         |-             |3309                       |3309  |
-#'  |Total |68362 |68 |68 |107 |70 |62 |35                  |9          |6         |59            |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` complete confidence
-#'   * `7` no confidence
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name confedy
-NULL
 

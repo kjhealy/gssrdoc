@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 postlife
 }
 \details{
-Question 108. Do you believe there is a life after death?
+Question Do you believe there is a life after death?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes
+\item \code{2} no
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/300/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab don't know \tab no \tab yes \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
@@ -57,24 +77,62 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes
-\item \code{2} no
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1973 \tab -/-/- \tab full \cr
+   1975 \tab -/-/- \tab full \cr
+   1976 \tab -/-/- \tab full \cr
+   1978 \tab -/-/- \tab full \cr
+   1980 \tab -/-/- \tab full \cr
+   1983 \tab -/-/- \tab full \cr
+   1984 \tab -/-/- \tab full \cr
+   1986 \tab -/-/- \tab full \cr
+   1987 \tab -/-/- \tab full \cr
+   1988 \tab A/B/C \tab full \cr
+   1989 \tab A/B/- \tab partial \cr
+   1990 \tab A/B/- \tab partial \cr
+   1991 \tab A/B/- \tab partial \cr
+   1993 \tab A/B/- \tab partial \cr
+   1994 \tab A/B/- \tab partial \cr
+   1996 \tab A/B/- \tab partial \cr
+   1998 \tab A/B/C \tab full \cr
+   2000 \tab A/B/C \tab full \cr
+   2002 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
+   2024 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{attend}},
+\code{\link{fund}},
+\code{\link{jew}},
+\code{\link{jewaj}},
+\code{\link{maattend}},
+\code{\link{paattend}},
+\code{\link{reliten}},
+\code{\link{relitena}},
+\code{\link{spattend}}
+
+Other Religion: 
+\code{\link{attend}},
+\code{\link{fund}},
+\code{\link{jew}},
+\code{\link{maattend}},
+\code{\link{paattend}},
+\code{\link{reliten}},
+\code{\link{spattend}}
+}
+\concept{Core}
+\concept{Religion}
 \keyword{variable}

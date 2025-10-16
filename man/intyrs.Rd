@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 intyrs
 }
 \details{
-Question None
+Question D. Years of service as an interviewer at NORC
 }
 \section{Values}{
 
@@ -30,4 +30,39 @@ Question None
 }
 }
 
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C/- \tab full \cr
+   2006 \tab A/B/C/D \tab full \cr
+   2008 \tab A/B/C/- \tab full \cr
+   2010 \tab A/B/C/- \tab full \cr
+   2012 \tab A/B/C/- \tab full \cr
+   2014 \tab A/B/C/- \tab full \cr
+   2016 \tab A/B/C/- \tab full \cr
+   2018 \tab A/B/C/- \tab full \cr
+}
+}
+
+\seealso{
+Other Paradata: 
+\code{\link{consent}},
+\code{\link{easyget}},
+\code{\link{intage}},
+\code{\link{intethn}},
+\code{\link{intsex}},
+\code{\link{lngthinv}},
+\code{\link{mode}()}
+
+Other Interview: 
+\code{\link{consent}},
+\code{\link{easyget}},
+\code{\link{intage}},
+\code{\link{intethn}},
+\code{\link{intsex}},
+\code{\link{lngthinv}},
+\code{\link{mode}()}
+}
+\concept{Interview}
+\concept{Paradata}
 \keyword{variable}

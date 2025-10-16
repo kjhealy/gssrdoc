@@ -1,11 +1,131 @@
+#'  Whites have right to seg. neighborhood
+#' 
+#'  racseg
+#' 
+#' Question Here are some opinions other people have expressed in connection with (Negro/Black)-white relations. Which statement on the card comes closest to how you, yourself, feel? The first one is . . . 
+#' B. White people have a right to keep (Negroes/Blacks/African-Americans) out of their neighborhoods if they want to, and (Negroes/Blacks/African-Americans) should respect that right.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` agree strongly
+#'   * `2` agree slightly
+#'   * `3` disagree slightly
+#'   * `4` disagree strongly
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/386/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |agree slightly |agree strongly |disagree slightly |disagree strongly |don't know |iap   |no answer |not available in this year |Total |
+#'  |:-----|:--------------|:--------------|:-----------------|:-----------------|:----------|:-----|:---------|:--------------------------|:-----|
+#'  |1972  |224            |279            |307               |443               |96         |261   |3         |-                          |1613  |
+#'  |1973  |-              |-              |-                 |-                 |-          |1504  |-         |-                          |1504  |
+#'  |1974  |-              |-              |-                 |-                 |-          |1484  |-         |-                          |1484  |
+#'  |1975  |-              |-              |-                 |-                 |-          |1490  |-         |-                          |1490  |
+#'  |1976  |237            |288            |346               |466               |26         |129   |7         |-                          |1499  |
+#'  |1977  |266            |289            |381               |373               |40         |176   |5         |-                          |1530  |
+#'  |1978  |-              |-              |-                 |-                 |-          |1532  |-         |-                          |1532  |
+#'  |1980  |220            |221            |397               |576               |50         |-     |4         |-                          |1468  |
+#'  |1982  |222            |220            |452               |923               |39         |-     |4         |-                          |1860  |
+#'  |1983  |-              |-              |-                 |-                 |-          |1599  |-         |-                          |1599  |
+#'  |1984  |211            |151            |368               |705               |31         |-     |7         |-                          |1473  |
+#'  |1985  |224            |151            |432               |680               |38         |-     |9         |-                          |1534  |
+#'  |1986  |-              |-              |-                 |-                 |-          |1470  |-         |-                          |1470  |
+#'  |1987  |217            |149            |401               |1009              |38         |-     |5         |-                          |1819  |
+#'  |1988  |138            |72             |230               |510               |26         |504   |1         |-                          |1481  |
+#'  |1989  |136            |78             |234               |553               |28         |504   |4         |-                          |1537  |
+#'  |1990  |124            |74             |218               |471               |27         |455   |3         |-                          |1372  |
+#'  |1991  |105            |66             |221               |574               |21         |524   |6         |-                          |1517  |
+#'  |1993  |109            |42             |218               |681               |23         |531   |2         |-                          |1606  |
+#'  |1994  |197            |102            |472               |1176              |44         |996   |5         |-                          |2992  |
+#'  |1996  |59             |50             |177               |636               |27         |1953  |2         |-                          |2904  |
+#'  |1998  |-              |-              |-                 |-                 |-          |2832  |-         |-                          |2832  |
+#'  |2000  |-              |-              |-                 |-                 |-          |2817  |-         |-                          |2817  |
+#'  |2002  |-              |-              |-                 |-                 |-          |2765  |-         |-                          |2765  |
+#'  |2004  |-              |-              |-                 |-                 |-          |2812  |-         |-                          |2812  |
+#'  |2006  |-              |-              |-                 |-                 |-          |4510  |-         |-                          |4510  |
+#'  |2008  |-              |-              |-                 |-                 |-          |2023  |-         |-                          |2023  |
+#'  |2010  |-              |-              |-                 |-                 |-          |2044  |-         |-                          |2044  |
+#'  |2012  |-              |-              |-                 |-                 |-          |1974  |-         |-                          |1974  |
+#'  |2014  |-              |-              |-                 |-                 |-          |2538  |-         |-                          |2538  |
+#'  |2016  |-              |-              |-                 |-                 |-          |2867  |-         |-                          |2867  |
+#'  |2018  |-              |-              |-                 |-                 |-          |2348  |-         |-                          |2348  |
+#'  |2021  |-              |-              |-                 |-                 |-          |4032  |-         |-                          |4032  |
+#'  |2022  |-              |-              |-                 |-                 |-          |-     |-         |3544                       |3544  |
+#'  |2024  |-              |-              |-                 |-                 |-          |-     |-         |3309                       |3309  |
+#'  |Total |2689           |2232           |4854              |9776              |554        |48674 |67        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |A/C     |partial      |
+#'  |1989 |A/C     |partial      |
+#'  |1990 |A/C     |partial      |
+#'  |1991 |A/C     |partial      |
+#'  |1993 |A/C     |partial      |
+#'  |1994 |A/C     |partial      |
+#'  |1996 |A/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name racseg
+NULL
+
+
 #'  Vote on open housing law
 #' 
 #'  racopen
 #' 
-#' Question 128. Suppose there is a community-wide vote on the general housing issue. There are two possible laws to vote on: a. One law says that a homeowner can decide for himself whom to sell his house to, even if he prefers not to sell to (negroes/blacks/African-Americans). b. The second law says that a homeowner cannot refuse to sell to someone because of their race or color. Which law would you vote for?
+#' Question Suppose there is a community-wide vote on the general housing issue. There are two possible laws to vote on (READ CATEGORIES A & B). Which law would you vote for? 
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` first law
+#'   * `2` second law
+#'   * `3` neither
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/387/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,11 +168,58 @@
 #'  |2024  |2823  |17         |93        |-       |7         |369        |-                          |3309  |
 #'  |Total |36715 |476        |13023     |785     |161       |20507      |4032                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |B/C/-   |partial      |
+#'  |1989 |B/C/-   |partial      |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |B/C/-   |partial      |
+#'  |1993 |B/C/-   |partial      |
+#'  |1994 |B/C/-   |partial      |
+#'  |1996 |B/C/-   |partial      |
+#'  |2004 |A/C/-   |partial      |
+#'  |2006 |A/C/-   |partial      |
+#'  |2008 |A/C/-   |partial      |
+#'  |2010 |A/C/-   |partial      |
+#'  |2012 |A/C/-   |partial      |
+#'  |2014 |A/C/-   |partial      |
+#'  |2016 |A/C/-   |partial      |
+#'  |2018 |A/C/-   |partial      |
+#'  |2021 |A/C/-   |partial      |
+#'  |2022 |A/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name racopen
+NULL
+
+
+#'  Any opp. race in neighborhood
+#' 
+#'  raclive
+#' 
+#' Question Are there any (â€œwhitesâ€ for black respondents, â€œblacksâ€ for non-black respondents) living in this neighborhood now?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` first law
-#'   * `2` second law
-#'   * `3` neither
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -66,22 +233,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name racopen
-NULL
-
-#'  Any opp. race in neighborhood
-#' 
-#'  raclive
-#' 
-#' Question 129. Are there any (negroes/blacks/African-Americans) living in this neighborhood now?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/388/vshow).
 #'
 #' Counts by year: 
 #'
@@ -124,6 +277,63 @@ NULL
 #'  |2024  |305        |-    |662   |-         |2336  |6              |3309  |
 #'  |Total |3511       |5470 |24526 |268       |41911 |13             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name raclive
+NULL
+
+
+#'  Any opp. race living close to r
+#' 
+#'  racclos
+#' 
+#' Question Are there any (â€œwhitesâ€ for black respondents, â€œblacksâ€ for non-black respondents) living in this neighborhood now?
+#'  A. Are there any (Negro/Black/African-American) families living close to you?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -141,22 +351,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name raclive
-NULL
-
-#'  Any opp. race living close to r
-#' 
-#'  racclos
-#' 
-#' Question 129a. Are there any (negro/black/African-American) families living close to you?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/389/vshow).
 #'
 #' Counts by year: 
 #'
@@ -199,10 +395,55 @@ NULL
 #'  |2024  |-     |-    |-         |-     |-          |3309                       |3309  |
 #'  |Total |54130 |4076 |266       |10351 |23         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name racclos
+NULL
+
+
+#'  How far are closest opp. race
+#' 
+#'  racdis
+#' 
+#' Question Are there any (â€œwhitesâ€ for black respondents, â€œblacksâ€ for non-black respondents) living in this neighborhood now?
+#'  B. How many blocks (or miles) away do they (the (Negro/Black/African-American) families who live closest to you) live?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` same block
+#'   * `2` 1-3 blks away
+#'   * `3` 4-8 blks away
+#'   * `4` over 8 blks
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -216,22 +457,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name racclos
-NULL
-
-#'  How far are closest opp. race
-#' 
-#'  racdis
-#' 
-#' Question 129b. How many blocks (or miles) away do they live (the Negro/black/African American) families who live closest to you) live?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/390/vshow).
 #'
 #' Counts by year: 
 #'
@@ -274,12 +501,54 @@ NULL
 #'  |2024  |-             |-             |-     |-         |-           |-          |-          |3309                       |3309  |
 #'  |Total |4445          |1799          |54130 |341       |1330        |6742       |59         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name racdis
+NULL
+
+
+#'  Will neighborhood become all black
+#' 
+#'  racinteg
+#' 
+#' Question Are there any (â€œwhitesâ€ for black respondents, â€œblacksâ€ for non-black respondents) living in this neighborhood now?
+#'  C. Do you think this neighborhood will become all (Negro/Black/African-American) in the next few years, or  will it remain integrated?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` same block
-#'   * `2` 1-3 blks away
-#'   * `3` 4-8 blks away
-#'   * `4` over 8 blks
+#'   * `1` all black
+#'   * `2` stay integrated
+#'   * `3` mixed,not wh-bl
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -293,22 +562,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name racdis
-NULL
-
-#'  Will neighborhood become all black
-#' 
-#'  racinteg
-#' 
-#' Question 129c. Do you think this neighborhood will become all (negro/black/African-American) in the next few years, or will it remain integrated?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/391/vshow).
 #'
 #' Counts by year: 
 #'
@@ -351,11 +606,53 @@ NULL
 #'  |2024  |-         |-          |-     |-         |-               |-               |3309                       |3309  |
 #'  |Total |852       |497        |54962 |278       |12255           |2               |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name racinteg
+NULL
+
+
+#'  Neighborhood integrated by same ses
+#' 
+#'  racobjct
+#' 
+#' Question If a Negro with the same income and education as you have, moved into your block, would it make any difference to you?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` all black
-#'   * `2` stay integrated
-#'   * `3` mixed,not wh-bl
+#'   * `1` yes,would like it
+#'   * `2` yes,would not like
+#'   * `3` no difference
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -369,22 +666,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name racinteg
-NULL
-
-#'  Neighborhood integrated by same ses
-#' 
-#'  racobjct
-#' 
-#' Question 130. If a negro with the same income and education as you have moved into your block, would it make any difference to you?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/392/vshow).
 #'
 #' Counts by year: 
 #'
@@ -427,11 +710,33 @@ NULL
 #'  |2024  |-          |-     |-         |-             |-                 |-                  |3309                       |3309  |
 #'  |Total |29         |67494 |3         |1117          |17                |186                |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name racobjct
+NULL
+
+
+#'  Opp. race home for dinner recently
+#' 
+#'  rachome
+#' 
+#' Question During the last few years, has anyone in your family brought a friend who was a (Negro/Black/African-American) home for dinner?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes,would like it
-#'   * `2` yes,would not like
-#'   * `3` no difference
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -445,22 +750,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name racobjct
-NULL
-
-#'  Opp. race home for dinner recently
-#' 
-#'  rachome
-#' 
-#' Question 131. During the last few years, has anyone in your family brought a friend who was a (negro/black/African-American) home for dinner?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/393/vshow).
 #'
 #' Counts by year: 
 #'
@@ -503,10 +794,49 @@ NULL
 #'  |2024  |3309  |-     |-         |-    |-          |-                          |3309  |
 #'  |Total |49185 |15761 |114       |7013 |82         |3544                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |A/C     |partial      |
+#'  |1989 |A/C     |partial      |
+#'  |1990 |A/C     |partial      |
+#'  |1991 |A/C     |partial      |
+#'  |1993 |A/C     |partial      |
+#'  |1994 |A/C     |partial      |
+#'  |1996 |A/C     |partial      |
+#'  |2006 |D/-     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name rachome
+NULL
+
+
+#'  Should whites & blacks go to same school
+#' 
+#'  racschol
+#' 
+#' Question Was the high school you attended all black, integrated - but mostly black, or integrated - but mostly white?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` same schools
+#'   * `2` separate schools
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -520,22 +850,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name rachome
-NULL
-
-#'  Should whites & blacks go to same school
-#' 
-#'  racschol
-#' 
-#' Question 132. Do you think white students and (negro/black) students should go to teh same schools or to separate schools?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/394/vshow).
 #'
 #' Counts by year: 
 #'
@@ -578,10 +894,39 @@ NULL
 #'  |2024  |-          |-         |-            |-                |-     |3309                       |3309  |
 #'  |Total |202        |47        |8885         |1060             |58652 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-       |full         |
+#'  |1976 |-       |full         |
+#'  |1977 |-       |full         |
+#'  |1980 |-       |full         |
+#'  |1982 |-       |full         |
+#'  |1984 |-       |full         |
+#'  |1985 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name racschol
+NULL
+
+
+#'  Children to school with opposite race
+#' 
+#'  racfew
+#' 
+#' Question A. Would you yourself have any objection to sending your children to a school where a few of the children are
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` same schools
-#'   * `2` separate schools
+#'   * `1` yes, object
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -595,22 +940,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name racschol
-NULL
-
-#'  Children to school with opposite race
-#' 
-#'  racfew
-#' 
-#' Question 133a. Would you yourself have any objection to sending your children to a school wehre a few of the children are (whites/(negroes/blacks/African-Americans))?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/395/vshow).
 #'
 #' Counts by year: 
 #'
@@ -653,103 +984,34 @@ NULL
 #'  |2024  |-          |-     |-     |-         |-           |3309                       |3309  |
 #'  |Total |193        |47069 |20456 |86        |1042        |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` yes, object
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1988 |A/B/-   |partial      |
+#'  |1989 |A/B/-   |partial      |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/-   |partial      |
+#'  |1993 |A/B/-   |partial      |
+#'  |1994 |A/B/-   |partial      |
+#'  |1996 |A/B/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
 #' @name racfew
 NULL
 
-#'  Children to school half opposite race
-#' 
-#'  rachaf
-#' 
-#' Question 133b. Where half of the children are (whites/(negroes/blacks/African-Americans))?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |don't know |iap   |no    |no answer |yes, object |not available in this year |Total |
-#'  |:-----|:----------|:-----|:-----|:---------|:-----------|:--------------------------|:-----|
-#'  |1972  |38         |357   |997   |5         |216         |-                          |1613  |
-#'  |1973  |-          |1504  |-     |-         |-           |-                          |1504  |
-#'  |1974  |38         |240   |889   |19        |298         |-                          |1484  |
-#'  |1975  |48         |253   |912   |6         |271         |-                          |1490  |
-#'  |1976  |-          |1499  |-     |-         |-           |-                          |1499  |
-#'  |1977  |23         |274   |990   |11        |232         |-                          |1530  |
-#'  |1978  |42         |70    |1156  |7         |257         |-                          |1532  |
-#'  |1980  |-          |1468  |-     |-         |-           |-                          |1468  |
-#'  |1982  |44         |104   |1447  |9         |256         |-                          |1860  |
-#'  |1983  |37         |78    |1209  |8         |267         |-                          |1599  |
-#'  |1984  |-          |1473  |-     |-         |-           |-                          |1473  |
-#'  |1985  |29         |64    |1195  |9         |237         |-                          |1534  |
-#'  |1986  |33         |70    |1113  |8         |246         |-                          |1470  |
-#'  |1987  |-          |1819  |-     |-         |-           |-                          |1819  |
-#'  |1988  |22         |534   |773   |4         |148         |-                          |1481  |
-#'  |1989  |36         |573   |757   |8         |163         |-                          |1537  |
-#'  |1990  |37         |42    |1074  |6         |213         |-                          |1372  |
-#'  |1991  |22         |526   |813   |10        |146         |-                          |1517  |
-#'  |1993  |31         |573   |850   |4         |148         |-                          |1606  |
-#'  |1994  |45         |1086  |1616  |15        |230         |-                          |2992  |
-#'  |1996  |15         |1942  |793   |14        |140         |-                          |2904  |
-#'  |1998  |-          |2832  |-     |-         |-           |-                          |2832  |
-#'  |2000  |-          |2817  |-     |-         |-           |-                          |2817  |
-#'  |2002  |-          |2765  |-     |-         |-           |-                          |2765  |
-#'  |2004  |-          |2812  |-     |-         |-           |-                          |2812  |
-#'  |2006  |-          |4510  |-     |-         |-           |-                          |4510  |
-#'  |2008  |-          |2023  |-     |-         |-           |-                          |2023  |
-#'  |2010  |-          |2044  |-     |-         |-           |-                          |2044  |
-#'  |2012  |-          |1974  |-     |-         |-           |-                          |1974  |
-#'  |2014  |-          |2538  |-     |-         |-           |-                          |2538  |
-#'  |2016  |-          |2867  |-     |-         |-           |-                          |2867  |
-#'  |2018  |-          |2348  |-     |-         |-           |-                          |2348  |
-#'  |2021  |-          |4032  |-     |-         |-           |-                          |4032  |
-#'  |2022  |-          |-     |-     |-         |-           |3544                       |3544  |
-#'  |2024  |-          |-     |-     |-         |-           |3309                       |3309  |
-#'  |Total |540        |48111 |16584 |143       |3468        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes, object
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name rachaf
-NULL
 

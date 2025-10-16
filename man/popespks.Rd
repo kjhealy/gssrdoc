@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 popespks
 }
 \details{
-Question 114g. We are interested in what American Catholics think about religious matters. Please select the answer from this card that comes closest to your own personal opinion about the following statement: under certain conditions, the pope is infallible when he speaks on matters of faith and morals.
+Question We are interested in what American Catholics think about religious matters. please select the answer from this card that comes closest to your own personal opinion about the following statement: Under certain conditions, the pope is infallible when he speaks on matters of faith and morals.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} certainly true
+\item \code{2} probably true
+\item \code{3} i am uncertain whether this is true or false
+\item \code{4} probably false
+\item \code{5} certainly false
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/340/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab certainly false \tab certainly true \tab don't know \tab i am uncertain whether this is true or false \tab probably false \tab probably true \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
@@ -57,27 +80,45 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} certainly true
-\item \code{2} probably true
-\item \code{3} i am uncertain whether this is true or false
-\item \code{4} probably false
-\item \code{5} certainly false
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2021 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{crtrheal}},
+\code{\link{frndking}},
+\code{\link{healer}},
+\code{\link{judgeluv}},
+\code{\link{king}},
+\code{\link{liberatr}},
+\code{\link{mapa}},
+\code{\link{mastersp}},
+\code{\link{rdeemlib}}
+
+Other Religion: 
+\code{\link{crtrheal}},
+\code{\link{frndking}},
+\code{\link{healer}},
+\code{\link{judgeluv}},
+\code{\link{king}},
+\code{\link{liberatr}},
+\code{\link{mapa}},
+\code{\link{mastersp}},
+\code{\link{rdeemlib}}
+}
+\concept{Core}
+\concept{Religion}
 \keyword{variable}

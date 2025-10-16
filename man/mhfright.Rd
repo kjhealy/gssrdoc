@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 mhfright
 }
 \details{
-Question 1148a. How frightening are most people that you see in public places who appear to have a serious mental health problem?
+Question Do you frequently, occasionally, rarely, or never see someone who seems to have a serious mental health problem in a public place?
+A. How frightening are most people that you see in public places who appear to have a serious mental health problem?  Are theyâ€¦
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very frightening
+\item \code{2} somewhat frightening
+\item \code{3} not very frightening
+\item \code{4} not at all frightening
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3812/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab don't know \tab no answer \tab not at all frightening \tab not very frightening \tab somewhat frightening \tab very frightening \tab not available in this year \tab Total \cr
@@ -57,26 +80,28 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very frightening
-\item \code{2} somewhat frightening
-\item \code{3} not very frightening
-\item \code{4} not at all frightening
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab D \tab partial \cr
 }
 }
 
+\seealso{
+Other Mental Health IV: 
+\code{\link{mhexpoth}},
+\code{\link{mhreloth}},
+\code{\link{mhseepub}},
+\code{\link{mhsymp}},
+\code{\link{mhtrtslf}}
+
+Other Mental Health: 
+\code{\link{mhexpoth}},
+\code{\link{mhreloth}},
+\code{\link{mhseepub}},
+\code{\link{mhsymp}},
+\code{\link{mhtrtslf}}
+}
+\concept{Mental Health}
+\concept{Mental Health IV}
 \keyword{variable}

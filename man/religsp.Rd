@@ -10,11 +10,36 @@ General Social Survey https://gss.norc.org
 religsp
 }
 \details{
-Question 1389. What is your husband's/wife's religious preference? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
+Question What is your husband's/wife's religious preference? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} protestant
+\item \code{2} catholic
+\item \code{3} jewish
+\item \code{4} orthodox greek, russian, etc
+\item \code{5} moslem
+\item \code{6} other -specify
+\item \code{7} no religion
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4671/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab catholic \tab don't know \tab jewish \tab moslem \tab no answer \tab no religion \tab orthodox greek, russian, etc \tab other -specify \tab protestant \tab not available in this year \tab Total \cr
@@ -57,29 +82,38 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} protestant
-\item \code{2} catholic
-\item \code{3} jewish
-\item \code{4} orthodox greek, russian, etc
-\item \code{5} moslem
-\item \code{6} other -specify
-\item \code{7} no religion
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1991 \tab A/B/C \tab full \cr
+   1998 \tab A/B/C \tab full \cr
+   2008 \tab B/C/- \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Religion: 
+\code{\link{denkid}},
+\code{\link{egomeans}},
+\code{\link{madenkid}},
+\code{\link{marelkid}},
+\code{\link{ownfate}},
+\code{\link{padenkid}},
+\code{\link{parelkid}},
+\code{\link{relexper}},
+\code{\link{religkid}}
+
+Other Religion: 
+\code{\link{denkid}},
+\code{\link{egomeans}},
+\code{\link{madenkid}},
+\code{\link{marelkid}},
+\code{\link{ownfate}},
+\code{\link{padenkid}},
+\code{\link{parelkid}},
+\code{\link{relexper}},
+\code{\link{religkid}}
+}
+\concept{ISSP Religion}
+\concept{Religion}
 \keyword{variable}

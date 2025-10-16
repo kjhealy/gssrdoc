@@ -10,7 +10,15 @@ General Social Survey https://gss.norc.org
 occ
 }
 \details{
-Question 2a. What kind of work do you (did you normally) do? That is, what (is/was)your job called?
+Question A. What kind of work do you (did you normally) do?  That is, what (is/was) your job called?
+OCCUPATION:  (See REMARKS)
+B. What (do/did) you actually do in that job?  Tell me, what (are/were) some of your main duties?
+C. What kind of place (do/did) you work for?
+INDUSTRY:  (See REMARKS)
+D. What (do/did) they (make/do)?
+E. (Are/Were) you self employed or (do/did) you work for someone else?
+F. (Are/Were) you employed by the federal, state or local government or by a private employer (including non-profit organizations)?
+G. About how much time (does/did) it usually take you to travel to work - about how many minutes?
 }
 \section{Values}{
 
@@ -30,4 +38,45 @@ Question 2a. What kind of work do you (did you normally) do? That is, what (is/w
 }
 }
 
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1972 \tab -/-/- \tab full \cr
+   1973 \tab -/-/- \tab full \cr
+   1974 \tab -/-/- \tab full \cr
+   1975 \tab -/-/- \tab full \cr
+   1976 \tab -/-/- \tab full \cr
+   1977 \tab -/-/- \tab full \cr
+   1978 \tab -/-/- \tab full \cr
+   1980 \tab -/-/- \tab full \cr
+   1982 \tab -/-/- \tab full \cr
+   1983 \tab -/-/- \tab full \cr
+   1984 \tab -/-/- \tab full \cr
+   1985 \tab -/-/- \tab full \cr
+   1986 \tab -/-/- \tab full \cr
+   1987 \tab -/-/- \tab full \cr
+   1988 \tab A/B/C \tab full \cr
+   1989 \tab A/B/C \tab full \cr
+   1990 \tab A/B/C \tab full \cr
+}
+}
+
+\seealso{
+Other Core: 
+\code{\link{evwork}},
+\code{\link{hrs1}},
+\code{\link{hrs2}},
+\code{\link{id}},
+\code{\link{prestige}},
+\code{\link{wrkgovt}},
+\code{\link{wrkslf}},
+\code{\link{wrkstat}},
+\code{\link{year}}
+
+Other Occupation: 
+\code{\link{wrkgovt}},
+\code{\link{wrkslf}}
+}
+\concept{Core}
+\concept{Occupation}
 \keyword{variable}

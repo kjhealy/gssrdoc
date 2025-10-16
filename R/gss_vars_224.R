@@ -1,11 +1,197 @@
+#'  How much person 2's mental health condition causes r problems
+#' 
+#'  myprobs2
+#' 
+#' Question On a scale from 1 to 10, with 1 being not at all and 10 being very much, how much does (NAME 2)'s mental health condition cause you problems, create stress, or make your life difficult?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` 1 - not at all
+#'   * `10` 10 - very much
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7126/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |1 - not at all |10 - very much |2  |3  |4  |5  |6  |7  |8  |9  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:-----|:--------------|:--------------|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1613  |
+#'  |1973  |1504  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1504  |
+#'  |1974  |1484  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1484  |
+#'  |1975  |1490  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1490  |
+#'  |1976  |1499  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1499  |
+#'  |1977  |1530  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1530  |
+#'  |1978  |1532  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1532  |
+#'  |1980  |1468  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1468  |
+#'  |1982  |1860  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1860  |
+#'  |1983  |1599  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1599  |
+#'  |1984  |1473  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1473  |
+#'  |1985  |1534  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1534  |
+#'  |1986  |1470  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1470  |
+#'  |1987  |1819  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1819  |
+#'  |1988  |1481  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1481  |
+#'  |1989  |1537  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1537  |
+#'  |1990  |1372  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1372  |
+#'  |1991  |1517  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1517  |
+#'  |1993  |1606  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1606  |
+#'  |1994  |2992  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2992  |
+#'  |1996  |2904  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2904  |
+#'  |1998  |2832  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2832  |
+#'  |2000  |2817  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2817  |
+#'  |2002  |2765  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2765  |
+#'  |2004  |2812  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2812  |
+#'  |2006  |4510  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |4510  |
+#'  |2008  |2023  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2023  |
+#'  |2010  |2044  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2044  |
+#'  |2012  |1974  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1974  |
+#'  |2014  |2538  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2538  |
+#'  |2016  |2867  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2867  |
+#'  |2018  |1982  |166            |14             |35 |37 |32 |22 |19 |9  |10 |14 |3          |5         |-                          |2348  |
+#'  |2021  |4032  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |4032  |
+#'  |2022  |-     |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3544                       |3544  |
+#'  |2024  |-     |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
+#'  |Total |68480 |166            |14             |35 |37 |32 |22 |19 |9  |10 |14 |3          |5         |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name myprobs2
+NULL
+
+
+#'  How much person 3's mental health condition causes r problems
+#' 
+#'  myprobs3
+#' 
+#' Question On a scale from 1 to 10, with 1 being not at all and 10 being very much, how much does (NAME 3)'s mental health condition cause you problems, create stress, or make your life difficult?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` 1 - not at all
+#'   * `10` 10 - very much
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7127/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |1 - not at all |10 - very much |2  |3  |4  |5  |6  |7  |8  |no answer |not available in this year |Total |
+#'  |:-----|:-----|:--------------|:--------------|:--|:--|:--|:--|:--|:--|:--|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1613  |
+#'  |1973  |1504  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1504  |
+#'  |1974  |1484  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1484  |
+#'  |1975  |1490  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1490  |
+#'  |1976  |1499  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1499  |
+#'  |1977  |1530  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1530  |
+#'  |1978  |1532  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1532  |
+#'  |1980  |1468  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1468  |
+#'  |1982  |1860  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1860  |
+#'  |1983  |1599  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1599  |
+#'  |1984  |1473  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1473  |
+#'  |1985  |1534  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1534  |
+#'  |1986  |1470  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1470  |
+#'  |1987  |1819  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1819  |
+#'  |1988  |1481  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1481  |
+#'  |1989  |1537  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1537  |
+#'  |1990  |1372  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1372  |
+#'  |1991  |1517  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1517  |
+#'  |1993  |1606  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1606  |
+#'  |1994  |2992  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2992  |
+#'  |1996  |2904  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2904  |
+#'  |1998  |2832  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2832  |
+#'  |2000  |2817  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2817  |
+#'  |2002  |2765  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2765  |
+#'  |2004  |2812  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2812  |
+#'  |2006  |4510  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |4510  |
+#'  |2008  |2023  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2023  |
+#'  |2010  |2044  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2044  |
+#'  |2012  |1974  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1974  |
+#'  |2014  |2538  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2538  |
+#'  |2016  |2867  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2867  |
+#'  |2018  |2095  |118            |5              |35 |23 |17 |24 |6  |10 |9  |6         |-                          |2348  |
+#'  |2021  |4032  |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |-                          |4032  |
+#'  |2022  |-     |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |3544                       |3544  |
+#'  |2024  |-     |-              |-              |-  |-  |-  |-  |-  |-  |-  |-         |3309                       |3309  |
+#'  |Total |68593 |118            |5              |35 |23 |17 |24 |6  |10 |9  |6         |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name myprobs3
+NULL
+
+
 #'  How much person 4's mental health condition causes r problems
 #' 
 #'  myprobs4
 #' 
-#' Question On a scale from 1 to 10, with 1 being not at all and 10 being very much, how much does NAME 4's mental health condition cause you problems, create stress, or make your life difficult?
+#' Question On a scale from 1 to 10, with 1 being not at all and 10 being very much, how much does (NAME 4)'s mental health condition cause you problems, create stress, or make your life difficult?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` 1 - not at all
+#'   * `10` 10 - very much
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7128/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +234,29 @@
 #'  |2024  |-     |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68688 |74             |2              |20 |10 |16 |9  |4  |4  |5  |4  |4          |6         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name myprobs4
+NULL
+
+
+#'  How much person 5's mental health condition causes r problems
+#' 
+#'  myprobs5
+#' 
+#' Question On a scale from 1 to 10, with 1 being not at all and 10 being very much, how much does (NAME 5)'s mental health condition cause you problems, create stress, or make your life difficult?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` 1 - not at all
@@ -65,22 +274,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name myprobs4
-NULL
-
-#'  How much person 5's mental health condition causes r problems
-#' 
-#'  myprobs5
-#' 
-#' Question On a scale from 1 to 10, with 1 being not at all and 10 being very much, how much does NAME 5's mental health condition cause you problems, create stress, or make your life difficult?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7129/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,10 +318,33 @@ NULL
 #'  |2024  |-     |-              |-              |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68743 |45             |3              |12 |14 |4  |6  |3  |3  |4  |1  |2          |6         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name myprobs5
+NULL
+
+
+#'  How severe person 1's mental health problem is
+#' 
+#'  severe1
+#' 
+#' Question On a scale from 1 to 10, with 1 being not at all and 10 being very, how severe is (NAME 1)ï¿½s mental health problem?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` 1 - not at all
-#'   * `10` 10 - very much
+#'   * `1` 1 - not at all severe
+#'   * `10` 10 - very severe
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -140,22 +358,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name myprobs5
-NULL
-
-#'  How severe person 1's mental health problem is
-#' 
-#'  severe1
-#' 
-#' Question On a scale from 1 to 10, with 1 being not at all and 10 being very, how severe is NAME 1 ?s mental health problem?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7130/vshow).
 #'
 #' Counts by year: 
 #'
@@ -198,6 +402,29 @@ NULL
 #'  |2024  |-     |-                     |-                |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68249 |21                    |96               |28 |42 |59 |86 |48 |84 |81 |41 |8          |3         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name severe1
+NULL
+
+
+#'  How severe person 2's mental health problem is
+#' 
+#'  severe2
+#' 
+#' Question On a scale from 1 to 10, with 1 being not at all and 10 being very, how severe is (NAME 2)ï¿½s mental health problem?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` 1 - not at all severe
@@ -215,22 +442,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name severe1
-NULL
-
-#'  How severe person 2's mental health problem is
-#' 
-#'  severe2
-#' 
-#' Question On a scale from 1 to 10, with 1 being not at all and 10 being very, how severe is NAME 2 ?s mental health problem?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7131/vshow).
 #'
 #' Counts by year: 
 #'
@@ -273,6 +486,29 @@ NULL
 #'  |2024  |-     |-                     |-                |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68480 |29                    |40               |28 |30 |39 |50 |41 |37 |43 |20 |4          |5         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name severe2
+NULL
+
+
+#'  How severe person 3's mental health problem is
+#' 
+#'  severe3
+#' 
+#' Question On a scale from 1 to 10, with 1 being not at all and 10 being very, how severe is (NAME 3)ï¿½s mental health problem?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` 1 - not at all severe
@@ -290,22 +526,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name severe2
-NULL
-
-#'  How severe person 3's mental health problem is
-#' 
-#'  severe3
-#' 
-#' Question On a scale from 1 to 10, with 1 being not at all and 10 being very, how severe is NAME 3 ?s mental health problem?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7132/vshow).
 #'
 #' Counts by year: 
 #'
@@ -348,6 +570,29 @@ NULL
 #'  |2024  |-     |-                     |-                |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68593 |31                    |29               |25 |25 |27 |28 |21 |25 |20 |15 |1          |6         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name severe3
+NULL
+
+
+#'  How severe person 4's mental health problem is
+#' 
+#'  severe4
+#' 
+#' Question On a scale from 1 to 10, with 1 being not at all and 10 being very, how severe is (NAME 4)ï¿½s mental health problem?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` 1 - not at all severe
@@ -365,22 +610,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name severe3
-NULL
-
-#'  How severe person 4's mental health problem is
-#' 
-#'  severe4
-#' 
-#' Question On a scale from 1 to 10, with 1 being not at all and 10 being very, how severe is NAME 4 ?s mental health problem?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7133/vshow).
 #'
 #' Counts by year: 
 #'
@@ -423,6 +654,29 @@ NULL
 #'  |2024  |-     |-                     |-                |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68688 |19                    |12               |16 |11 |17 |29 |8  |9  |15 |10 |6          |6         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name severe4
+NULL
+
+
+#'  How severe person 5's mental health problem is
+#' 
+#'  severe5
+#' 
+#' Question On a scale from 1 to 10, with 1 being not at all and 10 being very, how severe is (NAME 5)ï¿½s mental health problem?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` 1 - not at all severe
@@ -440,22 +694,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name severe4
-NULL
-
-#'  How severe person 5's mental health problem is
-#' 
-#'  severe5
-#' 
-#' Question On a scale from 1 to 10, with 1 being not at all and 10 being very, how severe is NAME 5 ?s mental health problem?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7134/vshow).
 #'
 #' Counts by year: 
 #'
@@ -498,10 +738,33 @@ NULL
 #'  |2024  |-     |-                     |-                |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68743 |9                     |12               |6  |10 |14 |9  |12 |9  |10 |4  |2          |6         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name severe5
+NULL
+
+
+#'  How dangerous r thinks person 1 is to others
+#' 
+#'  dangoth1
+#' 
+#' Question On a scale from 1 to 10, with 1 being not at all and 10 being very, in your opinion, how dangerous is (NAME 1) to others?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` 1 - not at all severe
-#'   * `10` 10 - very severe
+#'   * `1` 1 - not at all dangerous
+#'   * `10` 10 - very dangerous
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -515,22 +778,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name severe5
-NULL
-
-#'  How dangerous r thinks person 1 is to others
-#' 
-#'  dangoth1
-#' 
-#' Question On a scale from 1 to 10, with 1 being not at all and 10 being very, in your opinion, how dangerous is NAME 1
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7135/vshow).
 #'
 #' Counts by year: 
 #'
@@ -573,178 +822,19 @@ NULL
 #'  |2024  |-     |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68249 |307                      |23                  |72 |55 |29 |30 |26 |19 |15 |7  |11         |3         |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` 1 - not at all dangerous
-#'   * `10` 10 - very dangerous
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |B/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
+#' 
 #' 
 #' @keywords variable
 #' @md
 #' @name dangoth1
 NULL
 
-#'  How dangerous r thinks person 2 is to others
-#' 
-#'  dangoth2
-#' 
-#' Question On a scale from 1 to 10, with 1 being not at all and 10 being very, in your opinion, how dangerous is NAME 2?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |1 - not at all dangerous |10 - very dangerous |2  |3  |4  |5  |6  |7  |8  |9  |don't know |no answer |not available in this year |Total |
-#'  |:-----|:-----|:------------------------|:-------------------|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1613  |
-#'  |1973  |1504  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1504  |
-#'  |1974  |1484  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1484  |
-#'  |1975  |1490  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1490  |
-#'  |1976  |1499  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1499  |
-#'  |1977  |1530  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1530  |
-#'  |1978  |1532  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1532  |
-#'  |1980  |1468  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1468  |
-#'  |1982  |1860  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1860  |
-#'  |1983  |1599  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1599  |
-#'  |1984  |1473  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1473  |
-#'  |1985  |1534  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1534  |
-#'  |1986  |1470  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1470  |
-#'  |1987  |1819  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1819  |
-#'  |1988  |1481  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1481  |
-#'  |1989  |1537  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1537  |
-#'  |1990  |1372  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1372  |
-#'  |1991  |1517  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1517  |
-#'  |1993  |1606  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1606  |
-#'  |1994  |2992  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2992  |
-#'  |1996  |2904  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2904  |
-#'  |1998  |2832  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2832  |
-#'  |2000  |2817  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2817  |
-#'  |2002  |2765  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2765  |
-#'  |2004  |2812  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2812  |
-#'  |2006  |4510  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |4510  |
-#'  |2008  |2023  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2023  |
-#'  |2010  |2044  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2044  |
-#'  |2012  |1974  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1974  |
-#'  |2014  |2538  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2538  |
-#'  |2016  |2867  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2867  |
-#'  |2018  |1982  |212                      |9                   |40 |20 |14 |21 |12 |13 |9  |3  |8          |5         |-                          |2348  |
-#'  |2021  |4032  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |4032  |
-#'  |2022  |-     |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3544                       |3544  |
-#'  |2024  |-     |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
-#'  |Total |68480 |212                      |9                   |40 |20 |14 |21 |12 |13 |9  |3  |8          |5         |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` 1 - not at all dangerous
-#'   * `10` 10 - very dangerous
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name dangoth2
-NULL
-
-#'  How dangerous r thinks person 3 is to others
-#' 
-#'  dangoth3
-#' 
-#' Question On a scale from 1 to 10, with 1 being not at all and 10 being very, in your opinion, how dangerous is NAME 3?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |1 - not at all dangerous |10 - very dangerous |2  |3  |4  |5  |6  |7  |8  |9  |don't know |no answer |not available in this year |Total |
-#'  |:-----|:-----|:------------------------|:-------------------|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1613  |
-#'  |1973  |1504  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1504  |
-#'  |1974  |1484  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1484  |
-#'  |1975  |1490  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1490  |
-#'  |1976  |1499  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1499  |
-#'  |1977  |1530  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1530  |
-#'  |1978  |1532  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1532  |
-#'  |1980  |1468  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1468  |
-#'  |1982  |1860  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1860  |
-#'  |1983  |1599  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1599  |
-#'  |1984  |1473  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1473  |
-#'  |1985  |1534  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1534  |
-#'  |1986  |1470  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1470  |
-#'  |1987  |1819  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1819  |
-#'  |1988  |1481  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1481  |
-#'  |1989  |1537  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1537  |
-#'  |1990  |1372  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1372  |
-#'  |1991  |1517  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1517  |
-#'  |1993  |1606  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1606  |
-#'  |1994  |2992  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2992  |
-#'  |1996  |2904  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2904  |
-#'  |1998  |2832  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2832  |
-#'  |2000  |2817  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2817  |
-#'  |2002  |2765  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2765  |
-#'  |2004  |2812  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2812  |
-#'  |2006  |4510  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |4510  |
-#'  |2008  |2023  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2023  |
-#'  |2010  |2044  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2044  |
-#'  |2012  |1974  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1974  |
-#'  |2014  |2538  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2538  |
-#'  |2016  |2867  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2867  |
-#'  |2018  |2095  |147                      |5                   |29 |19 |8  |8  |7  |11 |8  |2  |2          |7         |-                          |2348  |
-#'  |2021  |4032  |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |4032  |
-#'  |2022  |-     |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3544                       |3544  |
-#'  |2024  |-     |-                        |-                   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
-#'  |Total |68593 |147                      |5                   |29 |19 |8  |8  |7  |11 |8  |2  |2          |7         |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` 1 - not at all dangerous
-#'   * `10` 10 - very dangerous
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name dangoth3
-NULL
 

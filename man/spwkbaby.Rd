@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 spwkbaby
 }
 \details{
-Question 1307. What about your spouse/partner at that time -- did he or she work outside the home full-time, part-time, or not at all: b. And what about when a child was under school age?
+Question What about your spouse/partner at that time -- did he or she work outside the home full-time, part-time, or not at allâ€¦
+B. And what about when a child was under school age?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} worked full-time
+\item \code{2} worked part-time
+\item \code{3} stayed home
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4424/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab don't know \tab no answer \tab stayed home \tab worked full-time \tab worked part-time \tab not available in this year \tab Total \cr
@@ -57,25 +79,31 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} worked full-time
-\item \code{2} worked part-time
-\item \code{3} stayed home
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
+   2002 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Family & Gender Roles: 
+\code{\link{dinner}},
+\code{\link{laundry1}},
+\code{\link{mehhwork}},
+\code{\link{mekdcare}},
+\code{\link{repairs1}},
+\code{\link{shopfood}},
+\code{\link{spwkgrwn}},
+\code{\link{spwknokd}},
+\code{\link{spwrksch}}
+
+Other Work: 
+\code{\link{spwkgrwn}},
+\code{\link{spwknokd}},
+\code{\link{spwrksch}}
+}
+\concept{ISSP Family & Gender Roles}
+\concept{Work}
 \keyword{variable}

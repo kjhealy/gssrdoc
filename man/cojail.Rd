@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 cojail
 }
 \details{
-Question 299a. If yes: If a young man refuses to register for the draft, would you aprove or disapprove of sending him to jail?
+Question Even though they are no longer drafted for military service, young men are still required by law to register for the draft when they become 18 years old. If a young man refuses to register for the draft, do you think he should be punished in any way?
+A. If a young man refuses to register for the draft, would you approve or disapprove of sending him to jail?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} approve
+\item \code{2} disapprove
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/817/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab approve \tab disapprove \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,24 +78,35 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} approve
-\item \code{2} disapprove
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1984 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{copunish}},
+\code{\link{draftco}},
+\code{\link{draftdef}},
+\code{\link{femilop}},
+\code{\link{milokfe}},
+\code{\link{milokme}},
+\code{\link{minmilop}},
+\code{\link{vetfam}},
+\code{\link{vetfamnw}}
+
+Other Military: 
+\code{\link{copunish}},
+\code{\link{draftco}},
+\code{\link{draftdef}},
+\code{\link{femilop}},
+\code{\link{milokfe}},
+\code{\link{milokme}},
+\code{\link{minmilop}},
+\code{\link{vetfamnw}}
+}
+\concept{Core}
+\concept{Military}
 \keyword{variable}

@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 cutspdr
 }
 \details{
-Question 281. Some people think the government should provide fewer services, even in areas such as health and education, in order to reduce spending. (1 on the scale) Other people feel it is important for the government to continue the services it now provides even if it means no reduction in spending. (7 on the scale) a. Where would you place yourself on this scale, or havne't you thought much about this?
+Question Some people think the government should provide fewer services, even in areas such as health and education, in order to reduce spending. Other people feel it is important for the government to continue the services it now provides even if it means no reduction in spending. ENTER CODE IN BOXES.
+A. Where would you place yourself on this scale, or haven't you thought much about this?
 }
+\section{Values}{
+
+\itemize{
+\item \code{0} havent thought much
+\item \code{1} cut spending
+\item \code{7} maintain services
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/763/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllll}{
    year \tab iap \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab cut spending \tab don't know \tab havent thought much \tab maintain services \tab no answer \tab not available in this year \tab Total \cr
@@ -57,25 +79,32 @@ Counts by year:\tabular{llllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{0} havent thought much
-\item \code{1} cut spending
-\item \code{7} maintain services
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1980 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{cutspdfg}},
+\code{\link{hlpminfg}},
+\code{\link{hlpminr}},
+\code{\link{impchurh}},
+\code{\link{impfam}},
+\code{\link{impfrend}},
+\code{\link{impkin}},
+\code{\link{imprelax}},
+\code{\link{impwork}}
+
+Other Federal Government: 
+\code{\link{cutspdfg}}
+
+Other Spending: 
+\code{\link{cutspdfg}}
+}
+\concept{Core}
+\concept{Federal Government}
+\concept{Spending}
 \keyword{variable}

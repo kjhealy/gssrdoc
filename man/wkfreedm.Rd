@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 wkfreedm
 }
 \details{
-Question 889. Now I'm going to read you another list of statements about your main job. For each, please tell me if the statement is very true, somewhat true, not too true, or not at all true with respect to the work you do. e. I am given a lot of freedom to decide how to do my own work
+Question Now I''m going to read you another list of statements about your main job. For each, please tell me if the statement is very true, somewhat true, not too true, or not at all true with respect to the work you do.
+E. I am given a lot of freedom to decide how to do my own work
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very true
+\item \code{2} somewhat true
+\item \code{3} not too true
+\item \code{4} not at all true
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2800/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab don't know \tab no answer \tab not at all true \tab not too true \tab somewhat true \tab very true \tab skipped on web \tab not available in this year \tab Total \cr
@@ -57,26 +80,41 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very true
-\item \code{2} somewhat true
-\item \code{3} not too true
-\item \code{4} not at all true
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Quality of Working Life: 
+\code{\link{condemnd}},
+\code{\link{cowrkint}},
+\code{\link{fringeok}},
+\code{\link{haveinfo}},
+\code{\link{hlpequip}},
+\code{\link{jobsecok}},
+\code{\link{opdevel}},
+\code{\link{promtefr}},
+\code{\link{supcares}}
+
+Other Job: 
+\code{\link{condemnd}},
+\code{\link{cowrkint}},
+\code{\link{fringeok}},
+\code{\link{haveinfo}},
+\code{\link{hlpequip}},
+\code{\link{jobsecok}},
+\code{\link{opdevel}},
+\code{\link{promtefr}},
+\code{\link{supcares}}
+}
+\concept{Job}
+\concept{Quality of Working Life}
 \keyword{variable}

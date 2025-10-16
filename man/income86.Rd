@@ -10,11 +10,49 @@ General Social Survey https://gss.norc.org
 income86
 }
 \details{
-Question Family income on 1986-90 surveys.
+Question Family income on 1986-90 surveys. For question wording, see INCOME.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} lt $1000
+\item \code{2} $1000-2999
+\item \code{3} $3000-3999
+\item \code{4} $4000-4999
+\item \code{5} $5000-5999
+\item \code{6} $6000-6999
+\item \code{7} $7000-7999
+\item \code{8} $8000-9999
+\item \code{9} $10000-12499
+\item \code{10} $12500-14999
+\item \code{11} $15000-17499
+\item \code{12} $17500-19999
+\item \code{13} $20000-22499
+\item \code{14} $22500-24999
+\item \code{15} $25000-29999
+\item \code{16} $30000-34999
+\item \code{17} $35000-39999
+\item \code{18} $40000-49999
+\item \code{19} $50000-59999
+\item \code{20} $60000+
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/111/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllll}{
    year \tab iap \tab $1000-2999 \tab $10000-12499 \tab $12500-14999 \tab $15000-17499 \tab $17500-19999 \tab $20000-22499 \tab $22500-24999 \tab $25000-29999 \tab $3000-3999 \tab $30000-34999 \tab $35000-39999 \tab $4000-4999 \tab $40000-49999 \tab $5000-5999 \tab $50000-59999 \tab $6000-6999 \tab $60000+ \tab $7000-7999 \tab $8000-9999 \tab don't know \tab lt $1000 \tab no answer \tab refused \tab not available in this year \tab Total \cr
@@ -57,42 +95,40 @@ Counts by year:\tabular{lllllllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} lt $1000
-\item \code{2} $1000-2999
-\item \code{3} $3000-3999
-\item \code{4} $4000-4999
-\item \code{5} $5000-5999
-\item \code{6} $6000-6999
-\item \code{7} $7000-7999
-\item \code{8} $8000-9999
-\item \code{9} $10000-12499
-\item \code{10} $12500-14999
-\item \code{11} $15000-17499
-\item \code{12} $17500-19999
-\item \code{13} $20000-22499
-\item \code{14} $22500-24999
-\item \code{15} $25000-29999
-\item \code{16} $30000-34999
-\item \code{17} $35000-39999
-\item \code{18} $40000-49999
-\item \code{19} $50000-59999
-\item \code{20} $60000+
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1986 \tab -/-/- \tab full \cr
+   1987 \tab -/-/- \tab full \cr
+   1988 \tab A/B/C \tab full \cr
+   1989 \tab A/B/C \tab full \cr
+   1990 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{income72}},
+\code{\link{income77}},
+\code{\link{income82}},
+\code{\link{income91}},
+\code{\link{income98}},
+\code{\link{rincom77}},
+\code{\link{rincom82}},
+\code{\link{rincom86}},
+\code{\link{rincom91}}
+
+Other Income: 
+\code{\link{income72}},
+\code{\link{income77}},
+\code{\link{income82}},
+\code{\link{income91}},
+\code{\link{income98}},
+\code{\link{rincom77}},
+\code{\link{rincom82}},
+\code{\link{rincom86}},
+\code{\link{rincom91}}
+}
+\concept{Core}
+\concept{Income}
 \keyword{variable}

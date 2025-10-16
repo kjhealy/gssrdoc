@@ -10,11 +10,45 @@ General Social Survey https://gss.norc.org
 bthgrp4e
 }
 \details{
-Question None
+Question What are the groups you both belong to? Circle all that apply.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} fraternal groups
+\item \code{2} service clubs
+\item \code{3} veterans groups
+\item \code{4} political clubs
+\item \code{5} labor unions
+\item \code{6} sports groups
+\item \code{7} youth groups
+\item \code{8} school service groups
+\item \code{9} hobby or garden clubs
+\item \code{10} school fraternities or sororities
+\item \code{11} nationality groups
+\item \code{12} farm organizations
+\item \code{13} literary art discussion or study grps
+\item \code{14} professional or academic societies
+\item \code{15} church-affiliated groups
+\item \code{16} other groups
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5537/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllll}{
    year \tab iap \tab no answer \tab not available in this year \tab Total \cr
@@ -57,38 +91,34 @@ Counts by year:\tabular{lllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} fraternal groups
-\item \code{2} service clubs
-\item \code{3} veterans groups
-\item \code{4} political clubs
-\item \code{5} labor unions
-\item \code{6} sports groups
-\item \code{7} youth groups
-\item \code{8} school service groups
-\item \code{9} hobby or garden clubs
-\item \code{10} school fraternities or sororities
-\item \code{11} nationality groups
-\item \code{12} farm organizations
-\item \code{13} literary art discussion or study grps
-\item \code{14} professional or academic societies
-\item \code{15} church-affiliated groups
-\item \code{16} other groups
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Interviewer Characteristics: 
+\code{\link{bthgrp3f}},
+\code{\link{bthgrp4a}},
+\code{\link{bthgrp4b}},
+\code{\link{bthgrp4c}},
+\code{\link{bthgrp4d}},
+\code{\link{bthgrp4f}},
+\code{\link{bthgrp5a}},
+\code{\link{bthgrp5b}},
+\code{\link{bthgrp5c}}
+
+Other Voluntary Associations: 
+\code{\link{bthgrp4a}},
+\code{\link{bthgrp4b}},
+\code{\link{bthgrp4c}},
+\code{\link{bthgrp4d}},
+\code{\link{bthgrp5a}},
+\code{\link{bthgrp5b}},
+\code{\link{bthgrp5c}}
+}
+\concept{Interviewer Characteristics}
+\concept{Voluntary Associations}
 \keyword{variable}

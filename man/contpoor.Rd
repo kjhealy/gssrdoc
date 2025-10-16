@@ -12,9 +12,34 @@ contpoor
 \details{
 Question How often do you have any contact with people who are a lot poorer than you when you are out and about? This might be in the street, on public transport, in shops, in your neighborhood, or at your workplace.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} never
+\item \code{2} less than once a month
+\item \code{3} once a month
+\item \code{4} several times a month
+\item \code{5} once a week
+\item \code{6} several times a week
+\item \code{7} every day
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7516/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllll}{
    year \tab iap \tab can't choose \tab every day \tab less than once a month \tab never \tab no answer \tab once a month \tab once a week \tab several times a month \tab several times a week \tab skipped on web \tab not available in this year \tab Total \cr
@@ -57,28 +82,10 @@ Counts by year:\tabular{llllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} never
-\item \code{2} less than once a month
-\item \code{3} once a month
-\item \code{4} several times a month
-\item \code{5} once a week
-\item \code{6} several times a week
-\item \code{7} every day
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2021 \tab B/C \tab partial \cr
 }
 }
 

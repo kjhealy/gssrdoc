@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 mhhlpmhp
 }
 \details{
-Question 1141. Now I'm going to read you a list of things that (NAME) might do to get help with (her/his) situation. For each statement please tell me using a scale from 1 to 10, where 1 is not at all important and 10 is very important, how important you think each would be for (NAME) to use in order to get help with (his/her) situation. f. Go to a mental health professional for help
+Question Now I'm going to read you a list of things that (NAME) might Do to get help with (her/his) situation. For each statement  please tell me using a scale from 1 to 10, where 1 is not at all important and 10 is very important, how important you think each would be for (NAME) to use in order to get help with (his/her) situation.
+E. Go to a mental health professional for help.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} not at all important
+\item \code{10} very important
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3787/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllll}{
    year \tab iap \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab not at all important \tab very important \tab not available in this year \tab Total \cr
@@ -57,24 +78,36 @@ Counts by year:\tabular{llllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} not at all important
-\item \code{10} very important
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab D \tab partial \cr
 }
 }
 
+\seealso{
+Other Mental Health IV: 
+\code{\link{mhgvtjob}},
+\code{\link{mhhlpfam}},
+\code{\link{mhhlpfrd}},
+\code{\link{mhhlpgp}},
+\code{\link{mhhlppsy}},
+\code{\link{mhhlprel}},
+\code{\link{mhnotch}},
+\code{\link{mhsecret}},
+\code{\link{mhsupwrk}}
+
+Other Mental Health: 
+\code{\link{mhgvtjob}},
+\code{\link{mhhlpfam}},
+\code{\link{mhhlpfrd}},
+\code{\link{mhhlpgp}},
+\code{\link{mhhlppsy}},
+\code{\link{mhhlprel}},
+\code{\link{mhnotch}},
+\code{\link{mhsecret}},
+\code{\link{mhsupwrk}}
+}
+\concept{Mental Health}
+\concept{Mental Health IV}
 \keyword{variable}

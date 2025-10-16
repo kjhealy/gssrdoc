@@ -10,11 +10,37 @@ General Social Survey https://gss.norc.org
 mawrkslf
 }
 \details{
-Question 10e. Was she self-employed, or did she work for someone else?
+Question A. What kind of work did your (mother/MOTHER SUBSTITUTE) usually do while you were growing up?  That is, what was her job called?
+OCCUPATION: (See REMARKS)
+B. IF NOT ALREADY ANSWERED, ASK:  What did she actually do in that job? Tell me, what were some of her main duties?
+C. What kind of place did she work for?
+INDUSTRY: (See REMARKS)
+D. IF NOT ALREADY ANSWERED, ASK:  What did they (make/do)?
+E. IF ALREADY ANSWERED, CODE WITHOUT ASKING:  Was she self-employed, or did she work for someone else?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} self-employed
+\item \code{2} someone else
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/47/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab no answer \tab self-employed \tab someone else \tab not available in this release \tab Total \cr
@@ -57,24 +83,48 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} self-employed
-\item \code{2} someone else
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
+   1996 \tab A/B/C \tab full \cr
+   1998 \tab A/B/C \tab full \cr
+   2000 \tab A/B/C \tab full \cr
+   2002 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2021 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
+   2024 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{maind80}},
+\code{\link{maocc10}},
+\code{\link{maocc80}},
+\code{\link{mapres80}},
+\code{\link{paind10}},
+\code{\link{paindstatus}},
+\code{\link{paindtag}},
+\code{\link{papres10}},
+\code{\link{papres105plus}}
+
+Other Occupation: 
+\code{\link{maind80}},
+\code{\link{maocc10}},
+\code{\link{maocc80}},
+\code{\link{paind10}}
+}
+\concept{Core}
+\concept{Job}
+\concept{Occupation}
+\concept{Work}
 \keyword{variable}

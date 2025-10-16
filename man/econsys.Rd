@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 econsys
 }
 \details{
-Question 636. On the whole, do you think our economic system is: 1. The best system we could possibly have? 2. Basically okay but in need of some tinkering? 3. In need of some fundamental changes? 4. Needing to be replaced by some other system?
+Question On the whole, do you think our economic system is...
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} the best possible
+\item \code{2} ok but need some tinkering
+\item \code{3} need fundamental changes
+\item \code{4} need to be replaced
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1879/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab don't know \tab need fundamental changes \tab need to be replaced \tab no answer \tab ok but need some tinkering \tab the best possible \tab not available in this year \tab Total \cr
@@ -57,26 +79,28 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} the best possible
-\item \code{2} ok but need some tinkering
-\item \code{3} need fundamental changes
-\item \code{4} need to be replaced
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Markets: 
+\code{\link{decauto}},
+\code{\link{fambiz}},
+\code{\link{famfinan}},
+\code{\link{haggle}},
+\code{\link{hrfambiz}},
+\code{\link{natrecon}},
+\code{\link{reqinfo}},
+\code{\link{tagsales}},
+\code{\link{wkfambiz}}
+
+Other Economy: 
+\code{\link{reqinfo}}
+}
+\concept{Economy}
+\concept{Markets}
 \keyword{variable}

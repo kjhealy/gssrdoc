@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 consent
 }
 \details{
-Question Your participation is voluntary. Your responses to this survey are considered a continuation of participation to the GSS survey you had completed earlier so the answers can be analyzed together, and all information that you provide will be kept in strict
+Question PARTICIPATION/RECORDING CONSENT
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} r consents to recording interview
+\item \code{2} r consents to participate in the survey, but does not want to be recorded
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5569/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllll}{
    year \tab iap \tab no answer \tab r consents to participate in the survey, but does not want to be recorded \tab r consents to recording interview \tab not available in this release \tab Total \cr
@@ -57,24 +77,39 @@ Counts by year:\tabular{lllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} r consents to recording interview
-\item \code{2} r consents to participate in the survey, but does not want to be recorded
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2021 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Paradata: 
+\code{\link{easyget}},
+\code{\link{intage}},
+\code{\link{intethn}},
+\code{\link{intsex}},
+\code{\link{intyrs}},
+\code{\link{lngthinv}},
+\code{\link{mode}()}
+
+Other Interview: 
+\code{\link{easyget}},
+\code{\link{intage}},
+\code{\link{intethn}},
+\code{\link{intsex}},
+\code{\link{intyrs}},
+\code{\link{lngthinv}},
+\code{\link{mode}()}
+}
+\concept{Interview}
+\concept{Paradata}
 \keyword{variable}

@@ -12,9 +12,32 @@ govineq2
 \details{
 Question How successful do you think the government in America is nowadays in reducing the differences in income between people with high incomes and people with low incomes?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very successful
+\item \code{2} quite successful
+\item \code{3} neither successful nor unsuccessful
+\item \code{4} quite unsuccessful
+\item \code{5} very unsuccessful
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7508/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab can't choose \tab neither successful nor unsuccessful \tab no answer \tab quite successful \tab quite unsuccessful \tab skipped on web \tab very successful \tab very unsuccessful \tab not available in this year \tab Total \cr
@@ -57,26 +80,10 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very successful
-\item \code{2} quite successful
-\item \code{3} neither successful nor unsuccessful
-\item \code{4} quite unsuccessful
-\item \code{5} very unsuccessful
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2021 \tab B/C \tab partial \cr
 }
 }
 

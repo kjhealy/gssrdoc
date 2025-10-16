@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 mode
 }
 \details{
-Question WAS THIS CASE COMPLETED IN-PERSON OR OVER THE PHONE?
+Question Interview done in-person or over the phone
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} in-person
+\item \code{2} by phone
+\item \code{3} multimode
+\item \code{4} web
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5566/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab by phone \tab in-person \tab don't know \tab no answer \tab web \tab multimode \tab Total \cr
@@ -57,26 +79,42 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} in-person
-\item \code{2} by phone
-\item \code{3} multimode
-\item \code{4} web
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C/- \tab full \cr
+   2006 \tab A/B/C/D \tab full \cr
+   2008 \tab A/B/C/- \tab full \cr
+   2010 \tab A/B/C/- \tab full \cr
+   2012 \tab A/B/C/- \tab full \cr
+   2014 \tab A/B/C/- \tab full \cr
+   2016 \tab A/B/C/- \tab full \cr
+   2018 \tab A/B/C/- \tab full \cr
+   2021 \tab A/B/C/- \tab full \cr
+   2022 \tab A/B/C/- \tab full \cr
+   2024 \tab A/B/C/- \tab full \cr
 }
 }
 
+\seealso{
+Other Paradata: 
+\code{\link{consent}},
+\code{\link{easyget}},
+\code{\link{intage}},
+\code{\link{intethn}},
+\code{\link{intsex}},
+\code{\link{intyrs}},
+\code{\link{lngthinv}}
+
+Other Interview: 
+\code{\link{consent}},
+\code{\link{easyget}},
+\code{\link{intage}},
+\code{\link{intethn}},
+\code{\link{intsex}},
+\code{\link{intyrs}},
+\code{\link{lngthinv}}
+}
+\concept{Interview}
+\concept{Paradata}
 \keyword{variable}

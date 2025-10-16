@@ -10,11 +10,46 @@ General Social Survey https://gss.norc.org
 intrace3
 }
 \details{
-Question What is your race? Indicate one or more races that you consider yourself to be.
+Question What is your race?  Indicate one or more races that you consider yourself to be.
+C. Third mention.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} white
+\item \code{2} black or african-american
+\item \code{3} american indian or alaska native
+\item \code{4} asian indian
+\item \code{5} chinese
+\item \code{6} filipino
+\item \code{7} japanese
+\item \code{8} korean
+\item \code{9} vietnamese
+\item \code{10} other asian
+\item \code{11} native hawaiian
+\item \code{12} guamanian or chamorro
+\item \code{13} samoan
+\item \code{14} other pacific islander
+\item \code{15} some other race
+\item \code{16} hispanic
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5514/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab american indian or alaska native \tab black or african-american \tab hispanic \tab no answer \tab white \tab some other race \tab don't know \tab asian indian \tab not available in this release \tab Total \cr
@@ -57,38 +92,37 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} white
-\item \code{2} black or african-american
-\item \code{3} american indian or alaska native
-\item \code{4} asian indian
-\item \code{5} chinese
-\item \code{6} filipino
-\item \code{7} japanese
-\item \code{8} korean
-\item \code{9} vietnamese
-\item \code{10} other asian
-\item \code{11} native hawaiian
-\item \code{12} guamanian or chamorro
-\item \code{13} samoan
-\item \code{14} other pacific islander
-\item \code{15} some other race
-\item \code{16} hispanic
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C/- \tab full \cr
+   2006 \tab A/B/C/D \tab full \cr
+   2008 \tab A/B/C/- \tab full \cr
+   2010 \tab A/B/C/- \tab full \cr
+   2012 \tab A/B/C/- \tab full \cr
+   2014 \tab A/B/C/- \tab full \cr
+   2016 \tab A/B/C/- \tab full \cr
+   2018 \tab A/B/C/- \tab full \cr
+   2021 \tab A/B/C/- \tab full \cr
 }
 }
 
+\seealso{
+Other Interviewer Characteristics: 
+\code{\link{bthgrp1a}},
+\code{\link{bthgrp1b}},
+\code{\link{bthgrp1c}},
+\code{\link{bthgrp1d}},
+\code{\link{bthgrp1e}},
+\code{\link{bthgrp1f}},
+\code{\link{bthgrp2a}},
+\code{\link{intrace1}},
+\code{\link{intrace2}}
+
+Other Interview: 
+\code{\link{intrace1}},
+\code{\link{intrace2}}
+}
+\concept{Interview}
+\concept{Interviewer Characteristics}
 \keyword{variable}

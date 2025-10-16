@@ -10,11 +10,37 @@ General Social Survey https://gss.norc.org
 satfam7
 }
 \details{
-Question 1318b. All things considered, how satisfied are you with your family life?
+Question B. All things considered, how satisfied are you with your family life?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} completely satisfied
+\item \code{2} very satisfied
+\item \code{3} fairly satisfied
+\item \code{4} neither satisfied nor dissatisfied
+\item \code{5} fairly dissatisfied
+\item \code{6} very dissatisfied
+\item \code{7} completely dissatisfied
+\item \code{8} does not apply
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4453/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab can't choose \tab completely dissatisfied \tab completely satisfied \tab fairly dissatisfied \tab fairly satisfied \tab neither satisfied nor dissatisfied \tab no answer \tab very dissatisfied \tab very satisfied \tab not available in this year \tab Total \cr
@@ -57,30 +83,30 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} completely satisfied
-\item \code{2} very satisfied
-\item \code{3} fairly satisfied
-\item \code{4} neither satisfied nor dissatisfied
-\item \code{5} fairly dissatisfied
-\item \code{6} very dissatisfied
-\item \code{7} completely dissatisfied
-\item \code{8} does not apply
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
+   2012 \tab A/B/- \tab partial \cr
+   2018 \tab A/B/- \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Family & Gender Roles: 
+\code{\link{earnshh}},
+\code{\link{fewknokd}},
+\code{\link{happy7}},
+\code{\link{kidfinbu}},
+\code{\link{kidjob}},
+\code{\link{satjob7}},
+\code{\link{ssfchild}},
+\code{\link{ssmchild}},
+\code{\link{twoincs1}}
+
+Other Satisfaction: 
+\code{\link{satjob7}}
+}
+\concept{ISSP Family & Gender Roles}
+\concept{Satisfaction}
 \keyword{variable}

@@ -10,11 +10,39 @@ General Social Survey https://gss.norc.org
 mavisit1
 }
 \details{
-Question 1228. And what about your mother? How often do you see or visit her?
+Question And what about your mother? How often do you see or visit her?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} she lives in the same household as i do
+\item \code{2} daily
+\item \code{3} at least several times a week
+\item \code{4} at least once a week
+\item \code{5} at least once a month
+\item \code{6} several times a year
+\item \code{7} less often
+\item \code{8} never
+\item \code{9} my mother is no longer alive
+\item \code{10} i dont know where mother lives
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4194/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllll}{
    year \tab iap \tab at least once a month \tab at least once a week \tab at least several times a week \tab daily \tab i dont know where mother lives \tab less often \tab my mother is no longer alive \tab never \tab no answer \tab several times a year \tab she lives in the same household as i do \tab not available in this year \tab Total \cr
@@ -57,32 +85,36 @@ Counts by year:\tabular{lllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} she lives in the same household as i do
-\item \code{2} daily
-\item \code{3} at least several times a week
-\item \code{4} at least once a week
-\item \code{5} at least once a month
-\item \code{6} several times a year
-\item \code{7} less often
-\item \code{8} never
-\item \code{9} my mother is no longer alive
-\item \code{10} i dont know where mother lives
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Social Networks & Support Systems: 
+\code{\link{cousins}},
+\code{\link{kidcall}},
+\code{\link{macall1}},
+\code{\link{niecenep}},
+\code{\link{pacall1}},
+\code{\link{parslaw}},
+\code{\link{pavisit1}},
+\code{\link{sibinlaw}},
+\code{\link{uncaunts}}
+
+Other Family: 
+\code{\link{cousins}},
+\code{\link{kidcall}},
+\code{\link{macall1}},
+\code{\link{niecenep}},
+\code{\link{pacall1}},
+\code{\link{parslaw}},
+\code{\link{pavisit1}},
+\code{\link{sibinlaw}},
+\code{\link{uncaunts}}
+}
+\concept{Family}
+\concept{ISSP Social Networks & Support Systems}
 \keyword{variable}

@@ -10,11 +10,29 @@ General Social Survey https://gss.norc.org
 agewedcr
 }
 \details{
-Question 496. How old were you when your (current) marriage began?
+Question How old were you when your (current) marriage began?
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1481/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 18 \tab 19 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 27 \tab 28 \tab 29 \tab 30 \tab 31 \tab 32 \tab 33 \tab 34 \tab 35 \tab 36 \tab 37 \tab 38 \tab 39 \tab 40 \tab 41 \tab 42 \tab 43 \tab 44 \tab 45 \tab 47 \tab 48 \tab 50 \tab 51 \tab 52 \tab 53 \tab 54 \tab 55 \tab 56 \tab 59 \tab 60 \tab 61 \tab 64 \tab 68 \tab 69 \tab 70 \tab 74 \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +75,32 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Family Mobility: 
+\code{\link{fstspmed}},
+\code{\link{fstspped}},
+\code{\link{spfam16}},
+\code{\link{sphedocc}},
+\code{\link{sphedpre}},
+\code{\link{spmaeduc}},
+\code{\link{spmarnum}},
+\code{\link{sppaeduc}},
+\code{\link{spyrborn}}
+
+Other Family: 
+\code{\link{spfam16}}
+
+Other Marital Status: 
+\code{\link{spmarnum}}
+}
+\concept{Family}
+\concept{Family Mobility}
+\concept{Marital Status}
 \keyword{variable}

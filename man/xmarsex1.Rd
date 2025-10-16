@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 xmarsex1
 }
 \details{
-Question 1374b. What about a married person having sexual relations with someone other than his or her husband or wife, is it...
+Question B. What about a married person having sexual relations with someone other than his or her husband or wife, is it. . .
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} always wrong
+\item \code{2} almost always wrong
+\item \code{3} wrong only sometimes
+\item \code{4} not wrong at all
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4631/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab almost always wrong \tab always wrong \tab don't know \tab no answer \tab not wrong at all \tab wrong only sometimes \tab not available in this year \tab Total \cr
@@ -57,26 +79,26 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} always wrong
-\item \code{2} almost always wrong
-\item \code{3} wrong only sometimes
-\item \code{4} not wrong at all
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1991 \tab A/B/C \tab full \cr
+   1994 \tab A/B/C \tab full \cr
+   1998 \tab A/B/C \tab full \cr
+   2008 \tab B/C/- \tab partial \cr
+   2018 \tab A/B/- \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Religion: 
+\code{\link{deathpen}},
+\code{\link{hapunhap}},
+\code{\link{premars1}}
+
+Other Sex: 
+\code{\link{premars1}}
+}
+\concept{ISSP Religion}
+\concept{Sex}
 \keyword{variable}

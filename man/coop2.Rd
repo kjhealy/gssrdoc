@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 coop2
 }
 \details{
-Question 245. In general, what was the respondent's attitude toward the interview?
+Question In general, what was the respondent's attitude toward the interview?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} friendly and eager
+\item \code{2} cooperative
+\item \code{3} indifferent
+\item \code{4} hostile
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/694/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab cooperative \tab friendly and eager \tab hostile \tab indifferent \tab no answer \tab iap \tab not available in this year \tab Total \cr
@@ -57,26 +79,28 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} friendly and eager
-\item \code{2} cooperative
-\item \code{3} indifferent
-\item \code{4} hostile
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1972 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{abhave1}},
+\code{\link{abhave2}},
+\code{\link{abspno}},
+\code{\link{comprend}},
+\code{\link{coop}},
+\code{\link{form}},
+\code{\link{phone}},
+\code{\link{radiohrs}}
+
+Other Interview: 
+\code{\link{comprend}},
+\code{\link{coop}}
+}
+\concept{Core}
+\concept{Interview}
 \keyword{variable}

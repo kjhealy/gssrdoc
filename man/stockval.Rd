@@ -10,11 +10,30 @@ General Social Survey https://gss.norc.org
 stockval
 }
 \details{
-Question 916. Please give a general estimate of how much cash you would get if all this stock were sold today?
+Question Please give a general estimate of how much cash you would get if all this stock were sold today?
 }
+\section{Values}{
+
+\itemize{
+\item \code{9999995} other
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2853/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 1 \tab 100 \tab 1000 \tab 10000 \tab 10500 \tab 1100 \tab 11000 \tab 1200 \tab 120000 \tab 13000 \tab 130000 \tab 132000 \tab 13500 \tab 1400 \tab 1500 \tab 15000 \tab 15500 \tab 16000 \tab 1700 \tab 17500 \tab 175000 \tab 180 \tab 19000 \tab 190000 \tab 1e+05 \tab 1e+06 \tab 200 \tab 2000 \tab 20000 \tab 208000 \tab 21000 \tab 22000 \tab 22153 \tab 22500 \tab 250 \tab 2500 \tab 25000 \tab 250000 \tab 2500000 \tab 27500 \tab 2e+05 \tab 300 \tab 3000 \tab 30000 \tab 3500 \tab 35000 \tab 36000 \tab 3e+05 \tab 3e+06 \tab 400 \tab 4000 \tab 40000 \tab 43500 \tab 45000 \tab 450000 \tab 4500000 \tab 4e+05 \tab 500 \tab 5000 \tab 50000 \tab 5e+05 \tab 600 \tab 6000 \tab 60000 \tab 65500 \tab 7000 \tab 70000 \tab 750 \tab 7500 \tab 75000 \tab 750000 \tab 7777 \tab 7e+06 \tab 80 \tab 8000 \tab 80000 \tab 82000 \tab 85000 \tab 9000 \tab 950000 \tab 9999 \tab don't know \tab no answer \tab other \tab 0 \tab 150000 \tab 1800 \tab 220 \tab 3750 \tab 4250 \tab 4500 \tab 50 \tab 50500 \tab 6500 \tab 700 \tab 8497 \tab 950 \tab 9e+05 \tab 12000 \tab 137.5 \tab 15 \tab 1500000 \tab 275000 \tab 2e+06 \tab 4 \tab 450 \tab 5000.5 \tab 5500000 \tab 6e+05 \tab 72000 \tab 8e+05 \tab 10 \tab 115000 \tab 125 \tab 125000 \tab 137500 \tab 1400000 \tab 160000 \tab 17000 \tab 225000 \tab 23000 \tab 2875000 \tab 30500 \tab 31000 \tab 3200 \tab 46 \tab 460 \tab 46000 \tab 5.5 \tab 550000 \tab 58000 \tab 5e+06 \tab 65000 \tab 74000 \tab 76000 \tab 800 \tab 87500 \tab 900 \tab 90000 \tab 9500 \tab not available in this year \tab Total \cr
@@ -57,23 +76,27 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{9999995} other
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Employee Compensation: 
+\code{\link{ownstock}},
+\code{\link{stockops}},
+\code{\link{workfor}},
+\code{\link{workfor1}}
+
+Other Job: 
+\code{\link{ownstock}},
+\code{\link{stockops}}
+}
+\concept{Employee Compensation}
+\concept{Job}
 \keyword{variable}

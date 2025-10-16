@@ -1,11 +1,194 @@
+#'  1st mention, what nervous breakdown is, imputed
+#' 
+#'  brkdimp1
+#' 
+#' Question As far as you know, what is a nervous breakdown? (PROBES: How would you describe it?  What is it like?  What happens to a person who has one? How does he act?) 
+#' 1. R's imputed references for what a nervous breakdown is -- First mention.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2051/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |101 |102 |103 |104 |105 |106 |107 |108 |109 |110 |111 |113 |no answer |not available in this year |Total |
+#'  |:-----|:-----|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1613  |
+#'  |1973  |1504  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1504  |
+#'  |1974  |1484  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1484  |
+#'  |1975  |1490  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1490  |
+#'  |1976  |1499  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1499  |
+#'  |1977  |1530  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1530  |
+#'  |1978  |1532  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1532  |
+#'  |1980  |1468  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1468  |
+#'  |1982  |1860  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1860  |
+#'  |1983  |1599  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1599  |
+#'  |1984  |1473  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1473  |
+#'  |1985  |1534  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1534  |
+#'  |1986  |1470  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1470  |
+#'  |1987  |1819  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1819  |
+#'  |1988  |1481  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1481  |
+#'  |1989  |1537  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1537  |
+#'  |1990  |1372  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1372  |
+#'  |1991  |1517  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1517  |
+#'  |1993  |1606  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1606  |
+#'  |1994  |2992  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2992  |
+#'  |1996  |2168  |31  |9   |23  |86  |374 |22  |7   |4   |44  |44  |3   |2   |87        |-                          |2904  |
+#'  |1998  |2832  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2832  |
+#'  |2000  |2817  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2817  |
+#'  |2002  |2765  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2765  |
+#'  |2004  |2812  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2812  |
+#'  |2006  |4510  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |4510  |
+#'  |2008  |2023  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2023  |
+#'  |2010  |2044  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2044  |
+#'  |2012  |1974  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1974  |
+#'  |2014  |2538  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2538  |
+#'  |2016  |2867  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2867  |
+#'  |2018  |2348  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2348  |
+#'  |2021  |4032  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |4032  |
+#'  |2022  |-     |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |3544                       |3544  |
+#'  |2024  |-     |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |3309                       |3309  |
+#'  |Total |68110 |31  |9   |23  |86  |374 |22  |7   |4   |44  |44  |3   |2   |87        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name brkdimp1
+NULL
+
+
+#'  2nd mention, what nervous breakdown is, imputed
+#' 
+#'  brkdimp2
+#' 
+#' Question As far as you know, what is a nervous breakdown? (PROBES: How would you describe it?  What is it like?  What happens to a person who has one? How does he act?) 
+#' 2. R's imputed references for what a nervous breakdown is -- Second mention.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2052/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |101 |102 |103 |104 |105 |106 |107 |108 |109 |110 |111 |112 |113 |114 |no answer |not available in this year |Total |
+#'  |:-----|:-----|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1613  |
+#'  |1973  |1504  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1504  |
+#'  |1974  |1484  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1484  |
+#'  |1975  |1490  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1490  |
+#'  |1976  |1499  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1499  |
+#'  |1977  |1530  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1530  |
+#'  |1978  |1532  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1532  |
+#'  |1980  |1468  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1468  |
+#'  |1982  |1860  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1860  |
+#'  |1983  |1599  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1599  |
+#'  |1984  |1473  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1473  |
+#'  |1985  |1534  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1534  |
+#'  |1986  |1470  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1470  |
+#'  |1987  |1819  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1819  |
+#'  |1988  |1481  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1481  |
+#'  |1989  |1537  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1537  |
+#'  |1990  |1372  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1372  |
+#'  |1991  |1517  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1517  |
+#'  |1993  |1606  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1606  |
+#'  |1994  |2992  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2992  |
+#'  |1996  |2645  |7   |9   |11  |37  |46  |8   |7   |2   |21  |9   |5   |1   |8   |1   |87        |-                          |2904  |
+#'  |1998  |2832  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2832  |
+#'  |2000  |2817  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2817  |
+#'  |2002  |2765  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2765  |
+#'  |2004  |2812  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2812  |
+#'  |2006  |4510  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |4510  |
+#'  |2008  |2023  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2023  |
+#'  |2010  |2044  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2044  |
+#'  |2012  |1974  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1974  |
+#'  |2014  |2538  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2538  |
+#'  |2016  |2867  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2867  |
+#'  |2018  |2348  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2348  |
+#'  |2021  |4032  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |4032  |
+#'  |2022  |-     |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |3544                       |3544  |
+#'  |2024  |-     |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |3309                       |3309  |
+#'  |Total |68587 |7   |9   |11  |37  |46  |8   |7   |2   |21  |9   |5   |1   |8   |1   |87        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name brkdimp2
+NULL
+
+
 #'  3rd mention, what nervous breakdown is, imputed
 #' 
 #'  brkdimp3
 #' 
-#' Question 666. As far as you know, what is a nervous breakdown? (PROBES: How would you describe it? What is it like? What happens to a person who has one? How does he act?)
+#' Question As far as you know, what is a nervous breakdown? (PROBES: How would you describe it?  What is it like?  What happens to a person who has one? How does he act?) 
+#' 3. R's imputed references for what a nervous breakdown is -- Third mention.
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2053/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +231,30 @@
 #'  |2024  |-     |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |3309                       |3309  |
 #'  |Total |68726 |4   |1   |6   |7   |1   |3   |1   |3   |2   |2   |2   |1   |87        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name brkdimp3
+NULL
+
+
+#'  1st mention, what nervous breakdown is, symptoms
+#' 
+#'  brkdsym1
+#' 
+#' Question As far as you know, what is a nervous breakdown? (PROBES: How would you describe it?  What is it like?  What happens to a person who has one? How does he act?) 
+#' 1. Symptoms or manifestations of nervous breakdown -- First mention.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -63,22 +270,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name brkdimp3
-NULL
-
-#'  1st mention, what nervous breakdown is, symptoms
-#' 
-#'  brkdsym1
-#' 
-#' Question 666. As far as you know, what is a nervous breakdown? (PROBES: How would you describe it? What is it like? What happens to a person who has one? How does he act?)
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2054/vshow).
 #'
 #' Counts by year: 
 #'
@@ -121,6 +314,30 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |3309                       |3309  |
 #'  |Total |68110 |4   |25  |1   |2   |87  |28  |1   |3   |5   |18  |3   |1   |1   |1   |9   |1   |1   |5   |1   |1   |1   |2   |2   |5   |1   |1   |3   |9   |5   |1   |1   |10  |11  |156 |6   |2   |1   |3   |3   |1   |25  |43  |50  |8   |46  |13  |8   |7   |5   |1   |7   |5   |96        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name brkdsym1
+NULL
+
+
+#'  2nd mention, what nervous breakdown is, symptoms
+#' 
+#'  brkdsym2
+#' 
+#' Question As far as you know, what is a nervous breakdown? (PROBES: How would you describe it?  What is it like?  What happens to a person who has one? How does he act?) 
+#' 2. Symptoms or manifestations of nervous breakdown -- Second mention.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -136,22 +353,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name brkdsym1
-NULL
-
-#'  2nd mention, what nervous breakdown is, symptoms
-#' 
-#'  brkdsym2
-#' 
-#' Question 666. As far as you know, what is a nervous breakdown? (PROBES: How would you describe it? What is it like? What happens to a person who has one? How does he act?)
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2055/vshow).
 #'
 #' Counts by year: 
 #'
@@ -194,6 +397,30 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |3309                       |3309  |
 #'  |Total |68274 |20  |3   |27  |30  |8   |1   |1   |5   |6   |1   |17  |2   |2   |11  |1   |2   |1   |1   |1   |1   |1   |1   |1   |4   |3   |1   |1   |2   |2   |1   |8   |5   |1   |1   |8   |3   |5   |5   |2   |1   |4   |1   |9   |7   |48  |18  |4   |1   |1   |2   |1   |4   |11  |1   |18  |29  |30  |8   |3   |23  |10  |20  |8   |1   |5   |1   |7   |4   |96        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name brkdsym2
+NULL
+
+
+#'  3rd mention, what nervous breakdown is, symptoms
+#' 
+#'  brkdsym3
+#' 
+#' Question As far as you know, what is a nervous breakdown? (PROBES: How would you describe it?  What is it like?  What happens to a person who has one? How does he act?) 
+#' 3. Symptoms or manifestations of nervous breakdown -- Third mention.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -209,22 +436,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name brkdsym2
-NULL
-
-#'  3rd mention, what nervous breakdown is, symptoms
-#' 
-#'  brkdsym3
-#' 
-#' Question 666. As far as you know, what is a nervous breakdown? (PROBES: How would you describe it? What is it like? What happens to a person who has one? How does he act?)
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2056/vshow).
 #'
 #' Counts by year: 
 #'
@@ -267,6 +480,30 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |3309                       |3309  |
 #'  |Total |68473 |1   |10  |2   |1   |12  |14  |1   |2   |5   |1   |7   |6   |1   |3   |1   |1   |11  |2   |2   |2   |1   |2   |3   |1   |1   |1   |1   |1   |5   |4   |3   |1   |1   |6   |1   |1   |7   |1   |4   |15  |5   |1   |3   |4   |11  |21  |6   |12  |1   |27  |8   |14  |9   |3   |6   |1   |96        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name brkdsym3
+NULL
+
+
+#'  What nervous breakdown is, other codes
+#' 
+#'  brkdoth
+#' 
+#' Question As far as you know, what is a nervous breakdown? (PROBES: How would you describe it?  What is it like?  What happens to a person who has one? How does he act?) 
+#' 1. Other mentions about the nature of a nervous breakdown.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -282,22 +519,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name brkdsym3
-NULL
-
-#'  What nervous breakdown is, other codes
-#' 
-#'  brkdoth
-#' 
-#' Question 666. As far as you know, what is a nervous breakdown? (PROBES: How would you describe it? What is it like? What happens to a person who has one? How does he act?)
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2057/vshow).
 #'
 #' Counts by year: 
 #'
@@ -340,8 +563,33 @@ NULL
 #'  |2024  |-     |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-         |3309                       |3309  |
 #'  |Total |68683 |1    |2    |2    |3    |7    |20   |65   |1    |2    |11   |1    |26   |9    |13        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name brkdoth
+NULL
+
+
+#'  Know anyone who was in a hospital
+#' 
+#'  knwmhosp
+#' 
+#' Question Did you ever know anyone who was in a hospital because of a mental illness?
+#' 
+#' 
 #' @section Values: 
 #' 
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -355,22 +603,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name brkdoth
-NULL
-
-#'  Know anyone who was in a hospital
-#' 
-#'  knwmhosp
-#' 
-#' Question 667. Did you ever know anyone who was in a hospital because of a mental illness?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2058/vshow).
 #'
 #' Counts by year: 
 #'
@@ -413,10 +647,36 @@ NULL
 #'  |2024  |1664  |9          |673  |4         |942  |-                          |17             |3309  |
 #'  |Total |68868 |19         |1371 |11        |1869 |3544                       |17             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2024 |A/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name knwmhosp
+NULL
+
+
+#'  Patient was self
+#' 
+#'  relmhsp1
+#' 
+#' Question Was this a relative, a close friend, or just someone you didn't know very well? (CIRCLE ALL THAT APPLY) PROBE UNTIL "NO": ANYONE ELSE? 
+#' A. Respondent.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` self
+#'   * `2` not self
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -430,22 +690,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name knwmhosp
-NULL
-
-#'  Patient was self
-#' 
-#'  relmhsp1
-#' 
-#' Question 668. Was this a relative, a close friend, or just someone you didn't know very well? a. Respondent
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2059/vshow).
 #'
 #' Counts by year: 
 #'
@@ -488,10 +734,34 @@ NULL
 #'  |2024  |-     |-         |-        |-    |3309                       |3309  |
 #'  |Total |68473 |9         |355      |9    |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name relmhsp1
+NULL
+
+
+#'  Patient was immediate family
+#' 
+#'  relmhsp2
+#' 
+#' Question Was this a relative, a close friend, or just someone you didn't know very well? (CIRCLE ALL THAT APPLY) PROBE UNTIL "NO": ANYONE ELSE? 
+#' B. Immediate Family.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` self
-#'   * `2` not self
+#'   * `1` imm. fam
+#'   * `2` not imm. fam
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -505,22 +775,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name relmhsp1
-NULL
-
-#'  Patient was immediate family
-#' 
-#'  relmhsp2
-#' 
-#' Question 668. Was this a relative, a close friend, or just someone you didn't know very well? b. Immediate family
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2060/vshow).
 #'
 #' Counts by year: 
 #'
@@ -563,178 +819,19 @@ NULL
 #'  |2024  |-     |-        |-         |-            |3309                       |3309  |
 #'  |Total |68473 |92       |9         |272          |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` imm. fam
-#'   * `2` not imm. fam
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
 #' @name relmhsp2
 NULL
 
-#'  Patient was other relatives
-#' 
-#'  relmhsp3
-#' 
-#' Question 668. Was this a relative, a close friend, or just someone you didn't know very well? c. Other relatives
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |no answer |not oth relative |oth relative |not available in this year |Total |
-#'  |:-----|:-----|:---------|:----------------|:------------|:--------------------------|:-----|
-#'  |1972  |1613  |-         |-                |-            |-                          |1613  |
-#'  |1973  |1504  |-         |-                |-            |-                          |1504  |
-#'  |1974  |1484  |-         |-                |-            |-                          |1484  |
-#'  |1975  |1490  |-         |-                |-            |-                          |1490  |
-#'  |1976  |1499  |-         |-                |-            |-                          |1499  |
-#'  |1977  |1530  |-         |-                |-            |-                          |1530  |
-#'  |1978  |1532  |-         |-                |-            |-                          |1532  |
-#'  |1980  |1468  |-         |-                |-            |-                          |1468  |
-#'  |1982  |1860  |-         |-                |-            |-                          |1860  |
-#'  |1983  |1599  |-         |-                |-            |-                          |1599  |
-#'  |1984  |1473  |-         |-                |-            |-                          |1473  |
-#'  |1985  |1534  |-         |-                |-            |-                          |1534  |
-#'  |1986  |1470  |-         |-                |-            |-                          |1470  |
-#'  |1987  |1819  |-         |-                |-            |-                          |1819  |
-#'  |1988  |1481  |-         |-                |-            |-                          |1481  |
-#'  |1989  |1537  |-         |-                |-            |-                          |1537  |
-#'  |1990  |1372  |-         |-                |-            |-                          |1372  |
-#'  |1991  |1517  |-         |-                |-            |-                          |1517  |
-#'  |1993  |1606  |-         |-                |-            |-                          |1606  |
-#'  |1994  |2992  |-         |-                |-            |-                          |2992  |
-#'  |1996  |2531  |9         |265              |99           |-                          |2904  |
-#'  |1998  |2832  |-         |-                |-            |-                          |2832  |
-#'  |2000  |2817  |-         |-                |-            |-                          |2817  |
-#'  |2002  |2765  |-         |-                |-            |-                          |2765  |
-#'  |2004  |2812  |-         |-                |-            |-                          |2812  |
-#'  |2006  |4510  |-         |-                |-            |-                          |4510  |
-#'  |2008  |2023  |-         |-                |-            |-                          |2023  |
-#'  |2010  |2044  |-         |-                |-            |-                          |2044  |
-#'  |2012  |1974  |-         |-                |-            |-                          |1974  |
-#'  |2014  |2538  |-         |-                |-            |-                          |2538  |
-#'  |2016  |2867  |-         |-                |-            |-                          |2867  |
-#'  |2018  |2348  |-         |-                |-            |-                          |2348  |
-#'  |2021  |4032  |-         |-                |-            |-                          |4032  |
-#'  |2022  |-     |-         |-                |-            |3544                       |3544  |
-#'  |2024  |-     |-         |-                |-            |3309                       |3309  |
-#'  |Total |68473 |9         |265              |99           |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` oth relative
-#'   * `2` not oth relative
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name relmhsp3
-NULL
-
-#'  Patient was close friend
-#' 
-#'  relmhsp4
-#' 
-#' Question 668. Was this a relative, a close friend, or just someone you didn't know very well? d. Close friends
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |close friend |no answer |not close friend |not available in this year |Total |
-#'  |:-----|:-----|:------------|:---------|:----------------|:--------------------------|:-----|
-#'  |1972  |1613  |-            |-         |-                |-                          |1613  |
-#'  |1973  |1504  |-            |-         |-                |-                          |1504  |
-#'  |1974  |1484  |-            |-         |-                |-                          |1484  |
-#'  |1975  |1490  |-            |-         |-                |-                          |1490  |
-#'  |1976  |1499  |-            |-         |-                |-                          |1499  |
-#'  |1977  |1530  |-            |-         |-                |-                          |1530  |
-#'  |1978  |1532  |-            |-         |-                |-                          |1532  |
-#'  |1980  |1468  |-            |-         |-                |-                          |1468  |
-#'  |1982  |1860  |-            |-         |-                |-                          |1860  |
-#'  |1983  |1599  |-            |-         |-                |-                          |1599  |
-#'  |1984  |1473  |-            |-         |-                |-                          |1473  |
-#'  |1985  |1534  |-            |-         |-                |-                          |1534  |
-#'  |1986  |1470  |-            |-         |-                |-                          |1470  |
-#'  |1987  |1819  |-            |-         |-                |-                          |1819  |
-#'  |1988  |1481  |-            |-         |-                |-                          |1481  |
-#'  |1989  |1537  |-            |-         |-                |-                          |1537  |
-#'  |1990  |1372  |-            |-         |-                |-                          |1372  |
-#'  |1991  |1517  |-            |-         |-                |-                          |1517  |
-#'  |1993  |1606  |-            |-         |-                |-                          |1606  |
-#'  |1994  |2992  |-            |-         |-                |-                          |2992  |
-#'  |1996  |2531  |98           |9         |266              |-                          |2904  |
-#'  |1998  |2832  |-            |-         |-                |-                          |2832  |
-#'  |2000  |2817  |-            |-         |-                |-                          |2817  |
-#'  |2002  |2765  |-            |-         |-                |-                          |2765  |
-#'  |2004  |2812  |-            |-         |-                |-                          |2812  |
-#'  |2006  |4510  |-            |-         |-                |-                          |4510  |
-#'  |2008  |2023  |-            |-         |-                |-                          |2023  |
-#'  |2010  |2044  |-            |-         |-                |-                          |2044  |
-#'  |2012  |1974  |-            |-         |-                |-                          |1974  |
-#'  |2014  |2538  |-            |-         |-                |-                          |2538  |
-#'  |2016  |2867  |-            |-         |-                |-                          |2867  |
-#'  |2018  |2348  |-            |-         |-                |-                          |2348  |
-#'  |2021  |4032  |-            |-         |-                |-                          |4032  |
-#'  |2022  |-     |-            |-         |-                |3544                       |3544  |
-#'  |2024  |-     |-            |-         |-                |3309                       |3309  |
-#'  |Total |68473 |98           |9         |266              |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` close friend
-#'   * `2` not close friend
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name relmhsp4
-NULL
 

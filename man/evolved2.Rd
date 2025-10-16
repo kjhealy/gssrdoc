@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 evolved2
 }
 \details{
-Question I3. Elephants, as we know them today, descended from earlier species of animals. (Is that true or false?)
+Question For each statement that I read, please tell me if it is true or false. If you don't know or aren't sure, just tell me so, and we will skip to the next question. Remember true, false, or don't know.
+I3. Elephants, as we know them today, descended from earlier species of animals. (Is that true or false?)
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} true
+\item \code{2} false
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6303/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab false \tab no answer \tab true \tab not available in this year \tab Total \cr
@@ -57,24 +78,25 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} true
-\item \code{2} false
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2016 \tab A/B \tab partial \cr
+   2018 \tab A/B \tab partial \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{coldeg1}},
+\code{\link{condrift}},
+\code{\link{earthsun}},
+\code{\link{evolved}},
+\code{\link{evolved1}},
+\code{\link{intrhome}},
+\code{\link{majorcol}},
+\code{\link{solarrev}},
+\code{\link{tomatoes}}
+}
+\concept{Science Knowledge & Attitudes}
 \keyword{variable}

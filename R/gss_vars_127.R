@@ -1,11 +1,218 @@
 #'  Rich - poor
 #' 
+#'  wlthblks
+#' 
+#' Question Now I have some questions about different groups in our society. I'm going to show you a seven-point scale on which the characteristics of people in a group can be rated. In the first statement a score of 1 means that you think almost all of the people in that group are "rich."  A score of 7 means that you think almost everyone in the group are "poor."  A score of 4 means you think that the group is not towards one end or another, and of course you may choose any number In between that comes closest to where you think people in the group stand.
+#' 3. Blacks?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` 1 - rich
+#'   * `7` 7 - poor
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1180/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |1 - rich |2   |3    |4    |5    |6    |7 - poor |don't know |no answer |skipped on web |not available in this release |Total |
+#'  |:-----|:-----|:--------|:---|:----|:----|:----|:----|:--------|:----------|:---------|:--------------|:-----------------------------|:-----|
+#'  |1972  |1613  |-        |-   |-    |-    |-    |-    |-        |-          |-         |-              |-                             |1613  |
+#'  |1973  |1504  |-        |-   |-    |-    |-    |-    |-        |-          |-         |-              |-                             |1504  |
+#'  |1974  |1484  |-        |-   |-    |-    |-    |-    |-        |-          |-         |-              |-                             |1484  |
+#'  |1975  |1490  |-        |-   |-    |-    |-    |-    |-        |-          |-         |-              |-                             |1490  |
+#'  |1976  |1499  |-        |-   |-    |-    |-    |-    |-        |-          |-         |-              |-                             |1499  |
+#'  |1977  |1530  |-        |-   |-    |-    |-    |-    |-        |-          |-         |-              |-                             |1530  |
+#'  |1978  |1532  |-        |-   |-    |-    |-    |-    |-        |-          |-         |-              |-                             |1532  |
+#'  |1980  |1468  |-        |-   |-    |-    |-    |-    |-        |-          |-         |-              |-                             |1468  |
+#'  |1982  |1860  |-        |-   |-    |-    |-    |-    |-        |-          |-         |-              |-                             |1860  |
+#'  |1983  |1599  |-        |-   |-    |-    |-    |-    |-        |-          |-         |-              |-                             |1599  |
+#'  |1984  |1473  |-        |-   |-    |-    |-    |-    |-        |-          |-         |-              |-                             |1473  |
+#'  |1985  |1534  |-        |-   |-    |-    |-    |-    |-        |-          |-         |-              |-                             |1534  |
+#'  |1986  |1470  |-        |-   |-    |-    |-    |-    |-        |-          |-         |-              |-                             |1470  |
+#'  |1987  |1819  |-        |-   |-    |-    |-    |-    |-        |-          |-         |-              |-                             |1819  |
+#'  |1988  |1481  |-        |-   |-    |-    |-    |-    |-        |-          |-         |-              |-                             |1481  |
+#'  |1989  |1537  |-        |-   |-    |-    |-    |-    |-        |-          |-         |-              |-                             |1537  |
+#'  |1990  |-     |3        |19  |40   |275  |491  |365  |108      |54         |17        |-              |-                             |1372  |
+#'  |1991  |1517  |-        |-   |-    |-    |-    |-    |-        |-          |-         |-              |-                             |1517  |
+#'  |1993  |1606  |-        |-   |-    |-    |-    |-    |-        |-          |-         |-              |-                             |1606  |
+#'  |1994  |1518  |5        |18  |46   |298  |603  |360  |92       |39         |13        |-              |-                             |2992  |
+#'  |1996  |1935  |3        |24  |60   |220  |363  |216  |40       |38         |5         |-              |-                             |2904  |
+#'  |1998  |961   |12       |37  |123  |436  |721  |402  |54       |77         |9         |-              |-                             |2832  |
+#'  |2000  |486   |7        |32  |145  |593  |862  |480  |112      |76         |24        |-              |-                             |2817  |
+#'  |2002  |1857  |7        |8   |59   |250  |344  |183  |38       |16         |3         |-              |-                             |2765  |
+#'  |2004  |1906  |1        |9   |59   |235  |383  |171  |27       |18         |3         |-              |-                             |2812  |
+#'  |2006  |2518  |6        |21  |111  |498  |799  |407  |93       |48         |9         |-              |-                             |4510  |
+#'  |2008  |694   |2        |27  |83   |362  |543  |223  |54       |28         |7         |-              |-                             |2023  |
+#'  |2010  |614   |9        |16  |88   |423  |549  |240  |59       |35         |11        |-              |-                             |2044  |
+#'  |2012  |672   |2        |22  |76   |385  |523  |222  |40       |23         |9         |-              |-                             |1974  |
+#'  |2014  |863   |6        |27  |99   |515  |657  |283  |54       |27         |7         |-              |-                             |2538  |
+#'  |2016  |979   |9        |20  |95   |627  |712  |332  |61       |22         |10        |-              |-                             |2867  |
+#'  |2018  |1170  |3        |12  |64   |385  |456  |193  |41       |16         |8         |-              |-                             |2348  |
+#'  |2021  |2689  |6        |9   |59   |404  |559  |233  |64       |2          |1         |6              |-                             |4032  |
+#'  |2022  |2339  |6        |21  |46   |427  |446  |187  |45       |17         |9         |1              |-                             |3544  |
+#'  |2024  |-     |-        |-   |-    |-    |-    |-    |-        |-          |-         |-              |3309                          |3309  |
+#'  |Total |49217 |87       |322 |1253 |6333 |9011 |4497 |982      |536        |145       |7              |3309                          |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/-   |partial      |
+#'  |1998 |A/B/-   |partial      |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/-   |partial      |
+#'  |2004 |A/B/-   |partial      |
+#'  |2006 |A/B/-   |partial      |
+#'  |2008 |A/B/-   |partial      |
+#'  |2010 |A/B/-   |partial      |
+#'  |2012 |A/B/-   |partial      |
+#'  |2014 |A/B/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'  |2021 |A/B/-   |partial      |
+#'  |2022 |A/B/-   |partial      |
+#'  |2024 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Intergroup Relations
+#' @family Blacks
+#' 
+#' @keywords variable
+#' @md
+#' @name wlthblks
+NULL
+
+
+#'  Rich - poor
+#' 
+#'  wlthasns
+#' 
+#' Question Now I have some questions about different groups in our society. I'm going to show you a seven-point scale on which the characteristics of people in a group can be rated. In the first statement a score of 1 means that you think almost all of the people in that group are "rich."  A score of 7 means that you think almost everyone in the group are "poor."  A score of 4 means you think that the group is not towards one end or another, and of course you may choose any number In between that comes closest to where you think people in the group stand.
+#' 4. Asian Americans?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` 1 - rich
+#'   * `7` 7 - poor
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1181/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |1 - rich |2   |3   |4    |5   |6   |7 - poor |don't know |no answer |not available in this year |Total |
+#'  |:-----|:-----|:--------|:---|:---|:----|:---|:---|:--------|:----------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |1613  |
+#'  |1973  |1504  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |1504  |
+#'  |1974  |1484  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |1484  |
+#'  |1975  |1490  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |1490  |
+#'  |1976  |1499  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |1499  |
+#'  |1977  |1530  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |1530  |
+#'  |1978  |1532  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |1532  |
+#'  |1980  |1468  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |1468  |
+#'  |1982  |1860  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |1860  |
+#'  |1983  |1599  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |1599  |
+#'  |1984  |1473  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |1473  |
+#'  |1985  |1534  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |1534  |
+#'  |1986  |1470  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |1470  |
+#'  |1987  |1819  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |1819  |
+#'  |1988  |1481  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |1481  |
+#'  |1989  |1537  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |1537  |
+#'  |1990  |-     |17       |73  |214 |437  |286 |143 |57       |128        |17        |-                          |1372  |
+#'  |1991  |1517  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |1517  |
+#'  |1993  |1606  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |1606  |
+#'  |1994  |1518  |40       |95  |244 |484  |277 |147 |42       |132        |13        |-                          |2992  |
+#'  |1996  |2904  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |2904  |
+#'  |1998  |2832  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |2832  |
+#'  |2000  |1419  |41       |143 |270 |476  |198 |86  |24       |146        |14        |-                          |2817  |
+#'  |2002  |2765  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |2765  |
+#'  |2004  |2812  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |2812  |
+#'  |2006  |4510  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |4510  |
+#'  |2008  |2023  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |2023  |
+#'  |2010  |2044  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |2044  |
+#'  |2012  |1974  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |1974  |
+#'  |2014  |2538  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |2538  |
+#'  |2016  |2867  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |2867  |
+#'  |2018  |2348  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |2348  |
+#'  |2021  |4032  |-        |-   |-   |-    |-   |-   |-        |-          |-         |-                          |4032  |
+#'  |2022  |-     |-        |-   |-   |-    |-   |-   |-        |-          |-         |3544                       |3544  |
+#'  |2024  |-     |-        |-   |-   |-    |-   |-   |-        |-          |-         |3309                       |3309  |
+#'  |Total |64602 |98       |311 |728 |1397 |761 |376 |123      |406        |44        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Intergroup Relations
+#' @family Asian Americans
+#' 
+#' @keywords variable
+#' @md
+#' @name wlthasns
+NULL
+
+
+#'  Rich - poor
+#' 
 #'  wlthhsps
 #' 
-#' Question 403. Now I have some questions about different groups in our society. I'm going to show you a seven-point scale on which the characteristics of people in a group can be rated. A score of 1 means that you think almost all of the people in that group are "rich." A score of 7 means that you think almost everyone in the group are "poor." A score of 4 means you think that the group is not towards one end or another, and of course you may choose any number in between that comes closest to where you think people in that group stand. 5. Hispanic Americans
+#' Question Now I have some questions about different groups in our society. I'm going to show you a seven-point scale on which the characteristics of people in a group can be rated. In the first statement a score of 1 means that you think almost all of the people in that group are "rich."  A score of 7 means that you think almost everyone in the group are "poor."  A score of 4 means you think that the group is not towards one end or another, and of course you may choose any number In between that comes closest to where you think people in the group stand.
+#' 5. Hispanic Americans?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` 1 - rich
+#'   * `7` 7 - poor
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1182/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +255,36 @@
 #'  |2024  |-     |-        |-   |-   |-    |-    |-    |-        |-          |-         |-              |3309                          |3309  |
 #'  |Total |64804 |32       |123 |375 |1941 |2688 |1565 |425      |368        |59        |10             |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2018 |A/B/-   |partial      |
+#'  |2021 |A/B/-   |partial      |
+#'  |2022 |A/B/-   |partial      |
+#'  |2024 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Intergroup Relations
+#' @family Hispanics
+#' 
+#' @keywords variable
+#' @md
+#' @name wlthhsps
+NULL
+
+
+#'  Rich - poor
+#' 
+#'  wlthso
+#' 
+#' Question Now I have some questions about different groups in our society. I'm going to show you a seven-point scale on which the characteristics of people in a group can be rated. In the first statement a score of 1 means that you think almost all of the people in that group are "rich."  A score of 7 means that you think almost everyone in the group are "poor."  A score of 4 means you think that the group is not towards one end or another, and of course you may choose any number In between that comes closest to where you think people in the group stand.
+#' 6. Southern Whites?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` 1 - rich
@@ -65,22 +302,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wlthhsps
-NULL
-
-#'  Rich - poor
-#' 
-#'  wlthso
-#' 
-#' Question 403. Now I have some questions about different groups in our society. I'm going to show you a seven-point scale on which the characteristics of people in a group can be rated. A score of 1 means that you think almost all of the people in that group are "rich." A score of 7 means that you think almost everyone in the group are "poor." A score of 4 means you think that the group is not towards one end or another, and of course you may choose any number in between that comes closest to where you think people in that group stand. 6. Southern whites
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1183/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,10 +346,35 @@ NULL
 #'  |2024  |-     |-        |-  |-   |-   |-   |-  |-        |-          |-         |3309                       |3309  |
 #'  |Total |67474 |31       |71 |177 |581 |263 |89 |24       |115        |21        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Intergroup Relations
+#' @family Southern Whites
+#' 
+#' @keywords variable
+#' @md
+#' @name wlthso
+NULL
+
+
+#'  Hard working - lazy
+#' 
+#'  workwhts
+#' 
+#' Question Now I have some questions about different groups in our society. I'm going to show you a seven-point scale on which the characteristics of people in a group can be rated. In the first statement a score of 1 means that you think almost all of the people in that group are "rich."  A score of 7 means that you think almost everyone in the group are "poor."  A score of 4 means you think that the group is not towards one end or another, and of course you may choose any number In between that comes closest to where you think people in the group stand.
+#' B. The second set of characteristics asks if people in the group tend to be hard-working or if they tend to be lazy.
+#' 1. Where would you rate whites in general on this scale?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` 1 - rich
-#'   * `7` 7 - poor
+#'   * `1` 1 - hard-working
+#'   * `7` 7 - lazy
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -140,22 +388,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wlthso
-NULL
-
-#'  Hard working - lazy
-#' 
-#'  workwhts
-#' 
-#' Question 403b. The second set of characteristics asks if people in the group tend to be hard-working or if they tend to be lazy. 1. Whites
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1184/vshow).
 #'
 #' Counts by year: 
 #'
@@ -198,6 +432,47 @@ NULL
 #'  |2024  |-     |-                |-    |-    |-     |-    |-   |-        |-          |-         |-              |3309                          |3309  |
 #'  |Total |46291 |1612             |2792 |5856 |12075 |2163 |544 |298      |508        |217       |34             |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/-   |partial      |
+#'  |1998 |A/B/-   |partial      |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/-   |partial      |
+#'  |2004 |A/B/-   |partial      |
+#'  |2006 |A/B/-   |partial      |
+#'  |2008 |A/B/-   |partial      |
+#'  |2010 |A/B/-   |partial      |
+#'  |2012 |A/B/-   |partial      |
+#'  |2014 |A/B/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'  |2021 |A/B/-   |partial      |
+#'  |2022 |A/B/-   |partial      |
+#'  |2024 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Intergroup Relations
+#' @family Whites
+#' 
+#' @keywords variable
+#' @md
+#' @name workwhts
+NULL
+
+
+#'  Hard working - lazy
+#' 
+#'  workjews
+#' 
+#' Question Now I have some questions about different groups in our society. I'm going to show you a seven-point scale on which the characteristics of people in a group can be rated. In the first statement a score of 1 means that you think almost all of the people in that group are "rich."  A score of 7 means that you think almost everyone in the group are "poor."  A score of 4 means you think that the group is not towards one end or another, and of course you may choose any number In between that comes closest to where you think people in the group stand.
+#' B. The second set of characteristics asks if people in the group tend to be hard-working or if they tend to be lazy.
+#' 2. Jews?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` 1 - hard-working
@@ -215,22 +490,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name workwhts
-NULL
-
-#'  Hard working - lazy
-#' 
-#'  workjews
-#' 
-#' Question 403b. The second set of characteristics asks if people in the group tend to be hard-working or if they tend to be lazy. 2. Jews
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1185/vshow).
 #'
 #' Counts by year: 
 #'
@@ -273,6 +534,32 @@ NULL
 #'  |2024  |-     |-                |-   |-   |-   |-   |-  |-        |-          |-         |3309                       |3309  |
 #'  |Total |66076 |348              |575 |638 |724 |106 |52 |14       |271        |42        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Intergroup Relations
+#' @family Jews
+#' 
+#' @keywords variable
+#' @md
+#' @name workjews
+NULL
+
+
+#'  Hard working - lazy
+#' 
+#'  workblks
+#' 
+#' Question Now I have some questions about different groups in our society. I'm going to show you a seven-point scale on which the characteristics of people in a group can be rated. In the first statement a score of 1 means that you think almost all of the people in that group are "rich."  A score of 7 means that you think almost everyone in the group are "poor."  A score of 4 means you think that the group is not towards one end or another, and of course you may choose any number In between that comes closest to where you think people in the group stand.
+#' B. The second set of characteristics asks if people in the group tend to be hard-working or if they tend to be lazy.
+#' 3. Blacks?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` 1 - hard-working
@@ -290,22 +577,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name workjews
-NULL
-
-#'  Hard working - lazy
-#' 
-#'  workblks
-#' 
-#' Question 403b. The second set of characteristics asks if people in the group tend to be hard-working or if they tend to be lazy. 3. Blacks
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1186/vshow).
 #'
 #' Counts by year: 
 #'
@@ -348,6 +621,47 @@ NULL
 #'  |2024  |-     |-                |-    |-    |-     |-    |-    |-        |-          |-         |-              |3309                          |3309  |
 #'  |Total |46291 |982              |1331 |3482 |11893 |4679 |2025 |828      |608        |232       |39             |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/-   |partial      |
+#'  |1998 |A/B/-   |partial      |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/-   |partial      |
+#'  |2004 |A/B/-   |partial      |
+#'  |2006 |A/B/-   |partial      |
+#'  |2008 |A/B/-   |partial      |
+#'  |2010 |A/B/-   |partial      |
+#'  |2012 |A/B/-   |partial      |
+#'  |2014 |A/B/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'  |2021 |A/B/-   |partial      |
+#'  |2022 |A/B/-   |partial      |
+#'  |2024 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Intergroup Relations
+#' @family Blacks
+#' 
+#' @keywords variable
+#' @md
+#' @name workblks
+NULL
+
+
+#'  Hard working - lazy
+#' 
+#'  workasns
+#' 
+#' Question Now I have some questions about different groups in our society. I'm going to show you a seven-point scale on which the characteristics of people in a group can be rated. In the first statement a score of 1 means that you think almost all of the people in that group are "rich."  A score of 7 means that you think almost everyone in the group are "poor."  A score of 4 means you think that the group is not towards one end or another, and of course you may choose any number In between that comes closest to where you think people in the group stand.
+#' B. The second set of characteristics asks if people in the group tend to be hard-working or if they tend to be lazy.
+#' 4. Asian Americans?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` 1 - hard-working
@@ -365,22 +679,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name workblks
-NULL
-
-#'  Hard working - lazy
-#' 
-#'  workasns
-#' 
-#' Question 403b. The second set of characteristics asks if people in the group tend to be hard-working or if they tend to be lazy. 4. Asian Americans
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1187/vshow).
 #'
 #' Counts by year: 
 #'
@@ -423,6 +723,33 @@ NULL
 #'  |2024  |-     |-                |-   |-   |-    |-   |-   |-        |-          |-         |3309                       |3309  |
 #'  |Total |64602 |471              |723 |946 |1120 |335 |135 |48       |407        |59        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Intergroup Relations
+#' @family Asian Americans
+#' 
+#' @keywords variable
+#' @md
+#' @name workasns
+NULL
+
+
+#'  Hard working -lazy
+#' 
+#'  workhsps
+#' 
+#' Question Now I have some questions about different groups in our society. I'm going to show you a seven-point scale on which the characteristics of people in a group can be rated. In the first statement a score of 1 means that you think almost all of the people in that group are "rich."  A score of 7 means that you think almost everyone in the group are "poor."  A score of 4 means you think that the group is not towards one end or another, and of course you may choose any number In between that comes closest to where you think people in the group stand.
+#' B. The second set of characteristics asks if people in the group tend to be hard-working or if they tend to be lazy.
+#' 5. Hispanic Americans?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` 1 - hard-working
@@ -440,22 +767,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name workasns
-NULL
-
-#'  Hard working -lazy
-#' 
-#'  workhsps
-#' 
-#' Question 403b. The second set of characteristics asks if people in the group tend to be hard-working or if they tend to be lazy. 5. Hispanic Americans
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1188/vshow).
 #'
 #' Counts by year: 
 #'
@@ -498,6 +811,37 @@ NULL
 #'  |2024  |-     |-                |-    |-    |-    |-    |-   |-        |-          |-         |-              |3309                          |3309  |
 #'  |Total |61494 |1332             |1428 |2139 |3735 |1089 |441 |172      |418        |100       |42             |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2018 |A/B/-   |partial      |
+#'  |2021 |A/B/-   |partial      |
+#'  |2022 |A/B/-   |partial      |
+#'  |2024 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Intergroup Relations
+#' @family Hispanics
+#' 
+#' @keywords variable
+#' @md
+#' @name workhsps
+NULL
+
+
+#'  Hard working - lazy
+#' 
+#'  workso
+#' 
+#' Question Now I have some questions about different groups in our society. I'm going to show you a seven-point scale on which the characteristics of people in a group can be rated. In the first statement a score of 1 means that you think almost all of the people in that group are "rich."  A score of 7 means that you think almost everyone in the group are "poor."  A score of 4 means you think that the group is not towards one end or another, and of course you may choose any number In between that comes closest to where you think people in the group stand.
+#' B. The second set of characteristics asks if people in the group tend to be hard-working or if they tend to be lazy.
+#' 6. Southern Whites?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` 1 - hard-working
@@ -515,22 +859,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name workhsps
-NULL
-
-#'  Hard working - lazy
-#' 
-#'  workso
-#' 
-#' Question 403b. The second set of characteristics asks if people in the group tend to be hard-working or if they tend to be lazy. 6. Southern whites
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1189/vshow).
 #'
 #' Counts by year: 
 #'
@@ -573,178 +903,19 @@ NULL
 #'  |2024  |-     |-                |-   |-   |-   |-   |-  |-        |-          |-         |3309                       |3309  |
 #'  |Total |67474 |78               |125 |258 |531 |179 |42 |23       |107        |29        |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` 1 - hard-working
-#'   * `7` 7 - lazy
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Intergroup Relations
+#' @family Southern Whites
 #' 
 #' @keywords variable
 #' @md
 #' @name workso
 NULL
 
-#'  Violent - not violent
-#' 
-#'  violwhts
-#' 
-#' Question 403c. The next set asks if people in each group tend to be violence prone or if they tend not to be prone to violence? 1. Whites
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |2   |3   |4    |5   |6   |don't know |no answer |not violence-prone |violence-prone |not available in this year |Total |
-#'  |:-----|:-----|:---|:---|:----|:---|:---|:----------|:---------|:------------------|:--------------|:--------------------------|:-----|
-#'  |1972  |1613  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |1613  |
-#'  |1973  |1504  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |1504  |
-#'  |1974  |1484  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |1484  |
-#'  |1975  |1490  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |1490  |
-#'  |1976  |1499  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |1499  |
-#'  |1977  |1530  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |1530  |
-#'  |1978  |1532  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |1532  |
-#'  |1980  |1468  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |1468  |
-#'  |1982  |1860  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |1860  |
-#'  |1983  |1599  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |1599  |
-#'  |1984  |1473  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |1473  |
-#'  |1985  |1534  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |1534  |
-#'  |1986  |1470  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |1470  |
-#'  |1987  |1819  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |1819  |
-#'  |1988  |1481  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |1481  |
-#'  |1989  |1537  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |1537  |
-#'  |1990  |-     |53  |170 |559  |215 |203 |62         |26        |65                 |19             |-                          |1372  |
-#'  |1991  |1517  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |1517  |
-#'  |1993  |1606  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |1606  |
-#'  |1994  |2992  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |2992  |
-#'  |1996  |2904  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |2904  |
-#'  |1998  |2832  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |2832  |
-#'  |2000  |1419  |61  |174 |636  |230 |136 |55         |16        |41                 |49             |-                          |2817  |
-#'  |2002  |2765  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |2765  |
-#'  |2004  |2812  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |2812  |
-#'  |2006  |4510  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |4510  |
-#'  |2008  |2023  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |2023  |
-#'  |2010  |2044  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |2044  |
-#'  |2012  |1974  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |1974  |
-#'  |2014  |2538  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |2538  |
-#'  |2016  |2867  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |2867  |
-#'  |2018  |2348  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |2348  |
-#'  |2021  |4032  |-   |-   |-    |-   |-   |-          |-         |-                  |-              |-                          |4032  |
-#'  |2022  |-     |-   |-   |-    |-   |-   |-          |-         |-                  |-              |3544                       |3544  |
-#'  |2024  |-     |-   |-   |-    |-   |-   |-          |-         |-                  |-              |3309                       |3309  |
-#'  |Total |66076 |114 |344 |1195 |445 |339 |117        |42        |106                |68             |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` violence-prone
-#'   * `7` not violence-prone
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name violwhts
-NULL
-
-#'  Violent - not violent
-#' 
-#'  violjews
-#' 
-#' Question 403c. The next set asks if people in each group tend to be violence prone or if they tend not to be prone to violence? 2. Jews
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |2  |3   |4   |5   |6   |don't know |no answer |not violence-prone |violence-prone |not available in this year |Total |
-#'  |:-----|:-----|:--|:---|:---|:---|:---|:----------|:---------|:------------------|:--------------|:--------------------------|:-----|
-#'  |1972  |1613  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |1613  |
-#'  |1973  |1504  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |1504  |
-#'  |1974  |1484  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |1484  |
-#'  |1975  |1490  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |1490  |
-#'  |1976  |1499  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |1499  |
-#'  |1977  |1530  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |1530  |
-#'  |1978  |1532  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |1532  |
-#'  |1980  |1468  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |1468  |
-#'  |1982  |1860  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |1860  |
-#'  |1983  |1599  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |1599  |
-#'  |1984  |1473  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |1473  |
-#'  |1985  |1534  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |1534  |
-#'  |1986  |1470  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |1470  |
-#'  |1987  |1819  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |1819  |
-#'  |1988  |1481  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |1481  |
-#'  |1989  |1537  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |1537  |
-#'  |1990  |-     |48 |79  |450 |224 |263 |123        |27        |136                |22             |-                          |1372  |
-#'  |1991  |1517  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |1517  |
-#'  |1993  |1606  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |1606  |
-#'  |1994  |2992  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |2992  |
-#'  |1996  |2904  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |2904  |
-#'  |1998  |2832  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |2832  |
-#'  |2000  |1419  |27 |95  |501 |236 |230 |184        |15        |88                 |22             |-                          |2817  |
-#'  |2002  |2765  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |2765  |
-#'  |2004  |2812  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |2812  |
-#'  |2006  |4510  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |4510  |
-#'  |2008  |2023  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |2023  |
-#'  |2010  |2044  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |2044  |
-#'  |2012  |1974  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |1974  |
-#'  |2014  |2538  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |2538  |
-#'  |2016  |2867  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |2867  |
-#'  |2018  |2348  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |2348  |
-#'  |2021  |4032  |-  |-   |-   |-   |-   |-          |-         |-                  |-              |-                          |4032  |
-#'  |2022  |-     |-  |-   |-   |-   |-   |-          |-         |-                  |-              |3544                       |3544  |
-#'  |2024  |-     |-  |-   |-   |-   |-   |-          |-         |-                  |-              |3309                       |3309  |
-#'  |Total |66076 |75 |174 |951 |460 |493 |307        |42        |224                |44             |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` violence-prone
-#'   * `7` not violence-prone
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name violjews
-NULL
 

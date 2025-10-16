@@ -12,9 +12,37 @@ dwellpre
 \details{
 Question SELECT ONE FROM THE LIST BELOW WHICH BEST DESCRIBES THE TYPE OF STRUCTURE IN WHICH THE RESPONDENT LIVES
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} trailer
+\item \code{2} detached single family house
+\item \code{3} 2-family house, 2 units side-by-side
+\item \code{4} 2-family house, 2 units one above the other
+\item \code{5} detached 3-4 family house
+\item \code{6} row house (3 or more units in an attached row)
+\item \code{7} apartment house (5 or more units, 3 stories or less)
+\item \code{8} apartment house (5 or more units, 4 stories or more)
+\item \code{9} apartment in a partly commercial structure
+\item \code{10} other
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6654/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllll}{
    year \tab iap \tab 2-family house, 2 units one above the other \tab 2-family house, 2 units side-by-side \tab apartment house (5 or more units, 3 stories or less) \tab apartment house (5 or more units, 4 stories or more) \tab apartment in a partly commercial structure \tab detached 3-4 family house \tab detached single family house \tab don't know \tab no answer \tab other \tab row house (3 or more units in an attached row) \tab trailer \tab not available in this year \tab not available in this release \tab Total \cr
@@ -57,31 +85,12 @@ Counts by year:\tabular{lllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} trailer
-\item \code{2} detached single family house
-\item \code{3} 2-family house, 2 units side-by-side
-\item \code{4} 2-family house, 2 units one above the other
-\item \code{5} detached 3-4 family house
-\item \code{6} row house (3 or more units in an attached row)
-\item \code{7} apartment house (5 or more units, 3 stories or less)
-\item \code{8} apartment house (5 or more units, 4 stories or more)
-\item \code{9} apartment in a partly commercial structure
-\item \code{10} other
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 

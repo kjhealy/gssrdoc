@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 protest5
 }
 \details{
-Question 1159. There are many ways people or organizations can protest against a government action they strongly oppose. Please show which you think should be allowed and which should not be allowed by circling a number after each question. e. Seriously damaging government buildings.
+Question There are many ways people or organizations can protest against a government action they strongly oppose. Please show which you think should be allowed and which should not be allowed by circling a number after each question.
+E. Seriously damaging government buildings.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} definitely allowed
+\item \code{2} probably allowed
+\item \code{3} probably not allowed
+\item \code{4} definitely not allowed
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3986/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab can't choose \tab definitely allowed \tab definitely not allowed \tab no answer \tab probably allowed \tab probably not allowed \tab not available in this year \tab Total \cr
@@ -57,26 +80,33 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} definitely allowed
-\item \code{2} probably allowed
-\item \code{3} probably not allowed
-\item \code{4} definitely not allowed
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1985 \tab -/-/- \tab full \cr
+   1990 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Role of Gov't: 
+\code{\link{obeylaw}},
+\code{\link{protest1}},
+\code{\link{protest2}},
+\code{\link{protest3}},
+\code{\link{protest4}},
+\code{\link{protest6}},
+\code{\link{pubdef}},
+\code{\link{pubecon}},
+\code{\link{ratetone}}
+
+Other Protest: 
+\code{\link{protest1}},
+\code{\link{protest2}},
+\code{\link{protest3}},
+\code{\link{protest4}},
+\code{\link{protest6}}
+}
+\concept{ISSP Role of Gov't}
+\concept{Protest}
 \keyword{variable}

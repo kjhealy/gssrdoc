@@ -10,11 +10,30 @@ General Social Survey https://gss.norc.org
 spisco88
 }
 \details{
-Question 1645. Respondent's Spouse's Occupation, 1988 Census
+Question Respondent's Spouse's Occupation, 1988 Census
 }
+\section{Values}{
+
+\itemize{
+\item \code{9997} uncodeable
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5478/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab 110 \tab 1210 \tab 1220 \tab 1221 \tab 1223 \tab 1225 \tab 1226 \tab 1227 \tab 1231 \tab 1232 \tab 1233 \tab 1235 \tab 1239 \tab 1311 \tab 1313 \tab 1319 \tab 2113 \tab 2121 \tab 2131 \tab 2132 \tab 2141 \tab 2142 \tab 2143 \tab 2145 \tab 2149 \tab 2211 \tab 2221 \tab 2223 \tab 2230 \tab 2310 \tab 2320 \tab 2331 \tab 2340 \tab 2359 \tab 2411 \tab 2422 \tab 2432 \tab 2441 \tab 2446 \tab 2451 \tab 2452 \tab 3111 \tab 3112 \tab 3118 \tab 3122 \tab 3132 \tab 3133 \tab 3142 \tab 3143 \tab 3152 \tab 3211 \tab 3212 \tab 3221 \tab 3223 \tab 3224 \tab 3225 \tab 3229 \tab 3231 \tab 3300 \tab 3411 \tab 3412 \tab 3413 \tab 3415 \tab 3416 \tab 3417 \tab 3429 \tab 3471 \tab 3472 \tab 4110 \tab 4111 \tab 4113 \tab 4114 \tab 4115 \tab 4121 \tab 4122 \tab 4131 \tab 4132 \tab 4133 \tab 4141 \tab 4142 \tab 4190 \tab 4211 \tab 4212 \tab 4213 \tab 4221 \tab 4222 \tab 4223 \tab 5120 \tab 5122 \tab 5123 \tab 5131 \tab 5141 \tab 5161 \tab 5162 \tab 5163 \tab 5169 \tab 5200 \tab 5220 \tab 6113 \tab 6141 \tab 7122 \tab 7123 \tab 7124 \tab 7129 \tab 7131 \tab 7132 \tab 7133 \tab 7135 \tab 7136 \tab 7137 \tab 7141 \tab 7200 \tab 7212 \tab 7213 \tab 7214 \tab 7215 \tab 7222 \tab 7223 \tab 7224 \tab 7230 \tab 7231 \tab 7232 \tab 7233 \tab 7240 \tab 7241 \tab 7243 \tab 7245 \tab 7313 \tab 7341 \tab 7343 \tab 7411 \tab 7433 \tab 7435 \tab 7510 \tab 8111 \tab 8122 \tab 8141 \tab 8151 \tab 8155 \tab 8162 \tab 8200 \tab 8221 \tab 8224 \tab 8231 \tab 8232 \tab 8251 \tab 8253 \tab 8261 \tab 8263 \tab 8264 \tab 8266 \tab 8269 \tab 8270 \tab 8282 \tab 8290 \tab 8310 \tab 8311 \tab 8312 \tab 8322 \tab 8323 \tab 8332 \tab 8333 \tab 8334 \tab 8340 \tab 9110 \tab 9131 \tab 9132 \tab 9140 \tab 9141 \tab 9153 \tab 9161 \tab 9211 \tab 9312 \tab 9313 \tab 9321 \tab 9322 \tab 9333 \tab iap \tab uncodeable \tab 1110 \tab 1229 \tab 1315 \tab 2110 \tab 2144 \tab 2213 \tab 2224 \tab 2332 \tab 2412 \tab 2421 \tab 2445 \tab 2455 \tab 2460 \tab 3141 \tab 3151 \tab 3340 \tab 3400 \tab 3410 \tab 3432 \tab 3450 \tab 3460 \tab 3475 \tab 5111 \tab 7134 \tab 7143 \tab 7311 \tab 7324 \tab 7442 \tab 8100 \tab 8113 \tab 8161 \tab 8230 \tab 8262 \tab 9113 \tab 9142 \tab 9151 \tab 9212 \tab 9311 \tab 9320 \tab 1236 \tab 2146 \tab 2147 \tab 2222 \tab 2453 \tab 3110 \tab 3131 \tab 3144 \tab 3226 \tab 3442 \tab 4100 \tab 5112 \tab 5143 \tab 7415 \tab 8152 \tab 2419 \tab 3434 \tab 3443 \tab 5132 \tab 5139 \tab 7412 \tab 7422 \tab 7437 \tab 2442 \tab 3422 \tab 4215 \tab 6129 \tab 7111 \tab 7300 \tab 9213 \tab 4143 \tab 7112 \tab 8212 \tab 9152 \tab 1234 \tab 5113 \tab 7420 \tab 8123 \tab 8163 \tab 8275 \tab 2112 \tab 2431 \tab 3227 \tab 5133 \tab 2111 \tab 2148 \tab 2454 \tab 3470 \tab 5100 \tab 2122 \tab 3480 \tab 2229 \tab 3121 \tab 2440 \tab 2444 \tab 3115 \tab 2212 \tab 9160 \tab 8223 \tab 1237 \tab 3114 \tab 6154 \tab 6124 \tab 7216 \tab not available in this year \tab Total \cr
@@ -57,23 +76,66 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{9997} uncodeable
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1972 \tab -/-/-/- \tab full \cr
+   1973 \tab -/-/-/- \tab full \cr
+   1974 \tab -/-/-/- \tab full \cr
+   1975 \tab -/-/-/- \tab full \cr
+   1976 \tab -/-/-/- \tab full \cr
+   1977 \tab -/-/-/- \tab full \cr
+   1978 \tab -/-/-/- \tab full \cr
+   1980 \tab -/-/-/- \tab full \cr
+   1982 \tab -/-/-/- \tab full \cr
+   1983 \tab -/-/-/- \tab full \cr
+   1984 \tab -/-/-/- \tab full \cr
+   1985 \tab -/-/-/- \tab full \cr
+   1986 \tab -/-/-/- \tab full \cr
+   1987 \tab -/-/-/- \tab full \cr
+   1988 \tab A/B/C/- \tab full \cr
+   1989 \tab A/B/C/- \tab full \cr
+   1990 \tab A/B/C/- \tab full \cr
+   1991 \tab A/B/C/- \tab full \cr
+   1993 \tab A/B/C/- \tab full \cr
+   1994 \tab A/B/C/- \tab full \cr
+   1996 \tab A/B/C/- \tab full \cr
+   1998 \tab A/B/C/- \tab full \cr
+   2000 \tab A/B/C/- \tab full \cr
+   2002 \tab A/B/C/- \tab full \cr
+   2004 \tab A/B/C/- \tab full \cr
+   2006 \tab A/B/C/D \tab full \cr
+   2008 \tab A/B/C/- \tab full \cr
+   2010 \tab A/B/C/- \tab full \cr
+   2012 \tab A/B/C/- \tab full \cr
+   2014 \tab A/B/C/- \tab full \cr
+   2016 \tab A/B/C/- \tab full \cr
+   2018 \tab A/B/C/- \tab full \cr
 }
 }
 
+\seealso{
+Other Occupation: 
+\code{\link{isco08}},
+\code{\link{isco88}},
+\code{\link{maisc681}},
+\code{\link{maisco08}},
+\code{\link{maisco88}},
+\code{\link{paisco08}},
+\code{\link{paisco88}},
+\code{\link{spisc681}},
+\code{\link{spisco08}}
+
+Other Occupation: 
+\code{\link{isco08}},
+\code{\link{isco88}},
+\code{\link{maisc681}},
+\code{\link{maisco08}},
+\code{\link{maisco88}},
+\code{\link{paisco08}},
+\code{\link{paisco88}},
+\code{\link{spisc681}},
+\code{\link{spisco08}}
+}
+\concept{Occupation}
 \keyword{variable}

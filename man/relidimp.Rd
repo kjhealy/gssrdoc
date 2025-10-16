@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 relidimp
 }
 \details{
-Question How important is religion in your life? very important, somewhat important, not too important, or not at all important?
+Question How important is religion in your life â€“ very important, somewhat important, not too important, or not at all important?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} extremely important
+\item \code{2} very important
+\item \code{3} somewhat important
+\item \code{4} not very important
+\item \code{5} not important at all
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7526/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab don't know \tab extremely important \tab no answer \tab not important at all \tab not very important \tab see codebook \tab skipped on web \tab somewhat important \tab very important \tab not available in this year \tab Total \cr
@@ -57,26 +80,10 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} extremely important
-\item \code{2} very important
-\item \code{3} somewhat important
-\item \code{4} not very important
-\item \code{5} not important at all
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2021 \tab A/B/C \tab full \cr
 }
 }
 

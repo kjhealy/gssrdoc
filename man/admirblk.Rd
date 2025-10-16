@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 admirblk
 }
 \details{
-Question 522. Now, I would like to ask whether you have ever felt the following ways about blacks and their families. For each of the feelings that I ask you about, please tell em whether you have felt that way very often, fairly often, not too often, or never? b. How often have you felt admiration for blacks?
+Question Now, I would like to ask whether you have ever felt the following ways about blacks and their families. For each of the feelings that I ask you about, please tell me whether you have felt that way very often, fairly often, not too often, or never?
+B. How often have you felt admiration for blacks?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very often
+\item \code{2} fairly often
+\item \code{3} not too often
+\item \code{4} never
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1606/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab don't know \tab fairly often \tab never \tab no answer \tab not too often \tab very often \tab not available in this year \tab Total \cr
@@ -57,26 +80,33 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very often
-\item \code{2} fairly often
-\item \code{3} not too often
-\item \code{4} never
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Multiculturalism: 
+\code{\link{bilinged}},
+\code{\link{engballt}},
+\code{\link{engoffcl}},
+\code{\link{engteach}},
+\code{\link{ethorgs}},
+\code{\link{ethspkno}},
+\code{\link{ethspkok}},
+\code{\link{letin}},
+\code{\link{symptblk}}
+
+Other Blacks: 
+\code{\link{symptblk}}
+
+Other Race: 
+\code{\link{ethorgs}},
+\code{\link{symptblk}}
+}
+\concept{Blacks}
+\concept{Multiculturalism}
+\concept{Race}
 \keyword{variable}

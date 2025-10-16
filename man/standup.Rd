@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 standup
 }
 \details{
-Question 467. Some people think that it's important to stand up for your own opinion even if it makes others around you uncomfortable. Others think that it's better to keep your views to yourself if they would make others around you uncomfortable. Which position comes closer to your view?
+Question Some people think that it's important to stand up for your own opinion even if it makes others around you  uncomfortable. Others think that it's better to keep your views to yourself if they would make others around you uncomfortable. Which position comes closer to your view?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} should stand up regardless
+\item \code{2} keep it yourself if offend others
+\item \code{3} neither
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1376/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab don't know \tab keep it yourself if offend others \tab neither \tab no answer \tab should stand up regardless \tab not available in this year \tab Total \cr
@@ -57,25 +78,18 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} should stand up regardless
-\item \code{2} keep it yourself if offend others
-\item \code{3} neither
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1993 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Culture: 
+\code{\link{richpoor}},
+\code{\link{selfirst}}
+}
+\concept{Culture}
+\concept{Sociability}
 \keyword{variable}

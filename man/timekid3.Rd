@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 timekid3
 }
 \details{
-Question 816. Would you say that the amount of time you spend with (NAME OF CHILD) is too much, about the right amount, or too little?
+Question Would you say that the amount of time you spend with (NAME OF CHILD) is too much, about the right amount, or too little?
+C. Third listed child?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} too much
+\item \code{2} about the right amount
+\item \code{3} too little
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2641/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab about the right amount \tab no answer \tab too little \tab too much \tab not available in this year \tab Total \cr
@@ -57,25 +79,30 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} too much
-\item \code{2} about the right amount
-\item \code{3} too little
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Information Society: 
+\code{\link{advsrch}},
+\code{\link{browser3}},
+\code{\link{ezines}},
+\code{\link{mp3}},
+\code{\link{newsgrps}},
+\code{\link{prefsets}},
+\code{\link{timekid1}},
+\code{\link{timekid2}},
+\code{\link{timekid4}}
+
+Other Children: 
+\code{\link{timekid1}},
+\code{\link{timekid2}},
+\code{\link{timekid4}}
+}
+\concept{Children}
+\concept{Information Society}
 \keyword{variable}

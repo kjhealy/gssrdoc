@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 spocc
 }
 \details{
-Question 6a. What kind of work (does/did) your (SPOUSE) normally do? That is, what (is/was) (his/her) job called? b. What (does/did) (SPOUSE) actually do in that job? Tell me, what (are/were) some of (his/her) main duties?
+Question A. What kind of work (does/did) your (SPOUSE) normally do? That is, what (is/was) (his/her) job called?
+OCCUPATION: (See REMARKS)
+B. What (does/did) (SPOUSE) actually do in that job? Tell me, what (are/were) some of (his/her) main duties?
+C. What kind of place (does/did) (SPOUSE) work for?
+INDUSTRY: (See REMARKS)
+D. What (do/did) they (make/do)?
+E. (Is/Was) (he/she) self-employed or (does/did) (he/she) work for someone else?
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/27/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab 1 \tab 100 \tab 102 \tab 11 \tab 111 \tab 12 \tab 121 \tab 123 \tab 126 \tab 13 \tab 130 \tab 140 \tab 142 \tab 144 \tab 145 \tab 152 \tab 153 \tab 162 \tab 170 \tab 174 \tab 183 \tab 184 \tab 190 \tab 193 \tab 195 \tab 2 \tab 202 \tab 203 \tab 205 \tab 210 \tab 213 \tab 215 \tab 216 \tab 22 \tab 220 \tab 221 \tab 222 \tab 224 \tab 225 \tab 23 \tab 230 \tab 231 \tab 233 \tab 24 \tab 240 \tab 245 \tab 264 \tab 265 \tab 270 \tab 271 \tab 280 \tab 281 \tab 282 \tab 283 \tab 284 \tab 3 \tab 301 \tab 303 \tab 305 \tab 31 \tab 310 \tab 312 \tab 314 \tab 315 \tab 32 \tab 320 \tab 321 \tab 323 \tab 325 \tab 326 \tab 330 \tab 331 \tab 334 \tab 341 \tab 342 \tab 343 \tab 345 \tab 350 \tab 360 \tab 361 \tab 364 \tab 370 \tab 371 \tab 372 \tab 374 \tab 376 \tab 381 \tab 382 \tab 383 \tab 385 \tab 390 \tab 391 \tab 394 \tab 395 \tab 4 \tab 410 \tab 412 \tab 415 \tab 420 \tab 421 \tab 422 \tab 424 \tab 425 \tab 426 \tab 430 \tab 433 \tab 435 \tab 436 \tab 44 \tab 441 \tab 445 \tab 45 \tab 452 \tab 453 \tab 454 \tab 455 \tab 461 \tab 470 \tab 471 \tab 472 \tab 473 \tab 481 \tab 484 \tab 485 \tab 486 \tab 492 \tab 495 \tab 502 \tab 506 \tab 510 \tab 515 \tab 520 \tab 522 \tab 530 \tab 533 \tab 534 \tab 535 \tab 545 \tab 550 \tab 552 \tab 554 \tab 56 \tab 561 \tab 575 \tab 580 \tab 590 \tab 602 \tab 610 \tab 611 \tab 612 \tab 613 \tab 621 \tab 622 \tab 623 \tab 625 \tab 63 \tab 630 \tab 633 \tab 635 \tab 636 \tab 640 \tab 641 \tab 643 \tab 65 \tab 651 \tab 652 \tab 656 \tab 660 \tab 662 \tab 663 \tab 664 \tab 666 \tab 672 \tab 680 \tab 681 \tab 690 \tab 692 \tab 694 \tab 695 \tab 703 \tab 705 \tab 706 \tab 713 \tab 714 \tab 715 \tab 72 \tab 74 \tab 740 \tab 75 \tab 750 \tab 751 \tab 753 \tab 754 \tab 755 \tab 761 \tab 762 \tab 770 \tab 780 \tab 785 \tab 80 \tab 801 \tab 821 \tab 822 \tab 83 \tab 85 \tab 86 \tab 901 \tab 902 \tab 903 \tab 91 \tab 910 \tab 912 \tab 914 \tab 915 \tab 916 \tab 921 \tab 922 \tab 925 \tab 926 \tab 93 \tab 932 \tab 933 \tab 935 \tab 942 \tab 944 \tab 950 \tab 954 \tab 960 \tab 961 \tab 962 \tab 964 \tab 965 \tab 980 \tab 982 \tab 984 \tab dk, na, iap \tab no answer \tab 104 \tab 115 \tab 116 \tab 124 \tab 125 \tab 14 \tab 143 \tab 151 \tab 161 \tab 163 \tab 175 \tab 180 \tab 192 \tab 212 \tab 223 \tab 25 \tab 260 \tab 285 \tab 332 \tab 333 \tab 35 \tab 363 \tab 375 \tab 384 \tab 392 \tab 405 \tab 413 \tab 42 \tab 423 \tab 443 \tab 462 \tab 475 \tab 480 \tab 482 \tab 5 \tab 51 \tab 525 \tab 53 \tab 551 \tab 6 \tab 601 \tab 614 \tab 615 \tab 631 \tab 64 \tab 644 \tab 645 \tab 653 \tab 665 \tab 671 \tab 674 \tab 704 \tab 763 \tab 764 \tab 81 \tab 824 \tab 84 \tab 913 \tab 931 \tab 940 \tab 981 \tab 10 \tab 113 \tab 141 \tab 150 \tab 164 \tab 171 \tab 173 \tab 185 \tab 191 \tab 194 \tab 211 \tab 226 \tab 262 \tab 355 \tab 403 \tab 416 \tab 450 \tab 501 \tab 514 \tab 536 \tab 604 \tab 62 \tab 620 \tab 634 \tab 650 \tab 673 \tab 76 \tab 802 \tab 90 \tab 105 \tab 112 \tab 114 \tab 120 \tab 344 \tab 402 \tab 404 \tab 442 \tab 523 \tab 542 \tab 563 \tab 624 \tab 626 \tab 661 \tab 710 \tab 760 \tab 823 \tab 934 \tab 133 \tab 154 \tab 155 \tab 261 \tab 313 \tab 440 \tab 503 \tab 505 \tab 512 \tab 516 \tab 54 \tab 55 \tab 61 \tab 712 \tab 752 \tab 94 \tab 134 \tab 20 \tab 235 \tab 34 \tab 362 \tab 483 \tab 560 \tab 711 \tab 82 \tab 911 \tab 952 \tab 963 \tab 266 \tab 543 \tab 546 \tab 642 \tab 201 \tab 701 \tab 101 \tab 122 \tab 182 \tab 446 \tab 924 \tab 943 \tab 21 \tab 30 \tab 311 \tab 36 \tab 491 \tab 511 \tab 96 \tab 95 \tab 135 \tab 172 \tab 181 \tab 33 \tab 401 \tab 411 \tab 531 \tab 953 \tab not available in this year \tab Total \cr
@@ -57,22 +81,48 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1972 \tab -/-/- \tab full \cr
+   1973 \tab -/-/- \tab full \cr
+   1974 \tab -/-/- \tab full \cr
+   1975 \tab -/-/- \tab full \cr
+   1976 \tab -/-/- \tab full \cr
+   1977 \tab -/-/- \tab full \cr
+   1978 \tab -/-/- \tab full \cr
+   1980 \tab -/-/- \tab full \cr
+   1982 \tab -/-/- \tab full \cr
+   1983 \tab -/-/- \tab full \cr
+   1984 \tab -/-/- \tab full \cr
+   1985 \tab -/-/- \tab full \cr
+   1986 \tab -/-/- \tab full \cr
+   1987 \tab -/-/- \tab full \cr
+   1988 \tab A/B/C \tab full \cr
+   1989 \tab A/B/C \tab full \cr
+   1990 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{cohrs2}},
+\code{\link{spind}},
+\code{\link{spind80}},
+\code{\link{spocc10}},
+\code{\link{spocc80}},
+\code{\link{spoccindv}},
+\code{\link{sppres}},
+\code{\link{sppres80}},
+\code{\link{spwrkslf}}
+
+Other Occupation: 
+\code{\link{spind}},
+\code{\link{spind80}},
+\code{\link{spocc10}},
+\code{\link{spocc80}},
+\code{\link{spwrkslf}}
+}
+\concept{Core}
+\concept{Occupation}
 \keyword{variable}

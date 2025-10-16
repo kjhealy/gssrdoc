@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 conurban
 }
 \details{
-Question 1259. In all countries, there are differences or conflicts between different social groups. In your opinion, in America, how much conflict is there between . . . e. Farmers and city people?
+Question In all countries, there are differences or conflicts between different social groups. In your opinion, in America, how much conflict is there between . . .
+E. Farmers and city people?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very strong conflict
+\item \code{2} strong conflict
+\item \code{3} not strong conflict
+\item \code{4} no conflict
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4310/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab can't choose \tab no answer \tab no conflict \tab not strong conflict \tab strong conflict \tab very strong conflict \tab not available in this year \tab Total \cr
@@ -57,26 +80,32 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very strong conflict
-\item \code{2} strong conflict
-\item \code{3} not strong conflict
-\item \code{4} no conflict
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1987 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Social Inequality: 
+\code{\link{conclass}},
+\code{\link{conjobs}},
+\code{\link{consoc}},
+\code{\link{conunion}},
+\code{\link{conwlth}},
+\code{\link{taxmid}},
+\code{\link{taxpoor}},
+\code{\link{taxrich}},
+\code{\link{taxshare}}
+
+Other Social Class: 
+\code{\link{conclass}},
+\code{\link{conjobs}},
+\code{\link{consoc}},
+\code{\link{conunion}},
+\code{\link{conwlth}}
+}
+\concept{ISSP Social Inequality}
+\concept{Social Class}
 \keyword{variable}

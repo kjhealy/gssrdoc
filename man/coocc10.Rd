@@ -10,7 +10,9 @@ General Social Survey https://gss.norc.org
 coocc10
 }
 \details{
-Question None
+Question Partners Occupation, Prestige, and Industry
+
+NOTE: COOCC10 and COIND10 are coded using the U.S. Bureau of the Census occupation (2010) and industry codes (NAICS 2007). The numbers are collapsed for convenience of display.
 }
 \section{Values}{
 
@@ -570,4 +572,30 @@ Question None
 }
 }
 
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2021 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
+   2024 \tab A/B/C \tab full \cr
+}
+}
+
+\seealso{
+Other Core: 
+\code{\link{coind10}},
+\code{\link{paocc16}},
+\code{\link{spind10}},
+\code{\link{spindstatus}},
+\code{\link{spindtag}},
+\code{\link{spoccstatus}},
+\code{\link{spocctag}},
+\code{\link{sppres10}},
+\code{\link{sppres105plus}}
+}
+\concept{Core}
 \keyword{variable}

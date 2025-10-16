@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 penguins
 }
 \details{
-Question None
+Question Please look at Card B24. Scientists predict that global warming may soon have big effects on the polar regions. I will describe some of these possible effects and, for each one, please say whether it would bother you a great deal, some, a little, or not at all if it actually happened.
+D. Arctic penguins may be threatened.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} a great deal
+\item \code{2} some
+\item \code{3} a little
+\item \code{4} not at all
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3441/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab a great deal \tab a little \tab don't know \tab no answer \tab not at all \tab some \tab not available in this year \tab Total \cr
@@ -57,26 +80,32 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} a great deal
-\item \code{2} some
-\item \code{3} a little
-\item \code{4} not at all
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2010 \tab A/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{artseals}},
+\code{\link{caremost}},
+\code{\link{inuitway}},
+\code{\link{nanoknw1}},
+\code{\link{nanoknw2}},
+\code{\link{nanotech}},
+\code{\link{nanowill}},
+\code{\link{noicecap}},
+\code{\link{sealevel}}
+
+Other Environment: 
+\code{\link{artseals}},
+\code{\link{caremost}},
+\code{\link{inuitway}},
+\code{\link{noicecap}},
+\code{\link{sealevel}}
+}
+\concept{Environment}
+\concept{Science Knowledge & Attitudes}
 \keyword{variable}

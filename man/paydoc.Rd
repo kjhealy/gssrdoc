@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 paydoc
 }
 \details{
-Question 1254. We would like to know what you think people in these jobs actually earn. Please write in how much you think they usually earn, each year, before taxes. Many people are not exactly sure about this but your best guess will be close enough. This may be difficult, but it is very important. So please try. Please write in how much they actually earn each year: b. Doctor in general practice
+Question We would like to know what you think people in these jobs actually earn. Please write in how much you think they
+usually earn, each year, before taxes. Many people are not exactly sure about this but your best guess will be close
+enough. This may be difficult, but it is very important. So please try.
+Please write in how much they actually earn  each year.
+B. A doctor in general practice?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1e+06} $1 million (or more, for 1987 & 2000)
+\item \code{99999997} never worked
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4264/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab $1 million (or more, for 1987 & 2000) \tab 10000 \tab 105000 \tab 109000 \tab 110000 \tab 12000 \tab 120000 \tab 12500 \tab 125000 \tab 130000 \tab 135000 \tab 140000 \tab 15000 \tab 150000 \tab 16000 \tab 165000 \tab 175000 \tab 18000 \tab 180000 \tab 1e+05 \tab 2000 \tab 20000 \tab 208000 \tab 22000 \tab 225000 \tab 23040 \tab 24000 \tab 25000 \tab 250000 \tab 27000 \tab 28000 \tab 29000 \tab 2e+05 \tab 3000 \tab 30000 \tab 312000 \tab 32000 \tab 3400 \tab 34000 \tab 35000 \tab 350000 \tab 36000 \tab 38000 \tab 3e+05 \tab 40000 \tab 42000 \tab 44000 \tab 45000 \tab 46000 \tab 47000 \tab 48000 \tab 49000 \tab 4e+05 \tab 5000 \tab 50000 \tab 52000 \tab 5500 \tab 55000 \tab 56000 \tab 57600 \tab 58000 \tab 5e+05 \tab 6000 \tab 60000 \tab 6200 \tab 65000 \tab 67000 \tab 67600 \tab 68000 \tab 6e+05 \tab 70000 \tab 72800 \tab 75000 \tab 75500 \tab 7e+05 \tab 8000 \tab 80000 \tab 82000 \tab 85000 \tab 86950 \tab 87500 \tab 89000 \tab 8e+05 \tab 9000 \tab 90000 \tab 95000 \tab 98000 \tab can't choose \tab no answer \tab 1000 \tab 11000 \tab 115000 \tab 1250 \tab 13000 \tab 15 \tab 155000 \tab 160000 \tab 170000 \tab 185000 \tab 2400 \tab 240000 \tab 260000 \tab 275000 \tab 3100 \tab 360000 \tab 425000 \tab 440000 \tab 62050 \tab 63000 \tab 750000 \tab 84000 \tab 86000 \tab 96000 \tab 0 \tab 1 \tab 1.5e+07 \tab 118000 \tab 1200 \tab 123000 \tab 1250000 \tab 130 \tab 1300000 \tab 13325 \tab 1334 \tab 136000 \tab 138000 \tab 145000 \tab 146000 \tab 149000 \tab 150 \tab 1500000 \tab 1555000 \tab 156000 \tab 169000 \tab 180 \tab 1800000 \tab 189000 \tab 19000 \tab 190000 \tab 195000 \tab 1e+07 \tab 2.5e+07 \tab 200 \tab 21 \tab 210000 \tab 215000 \tab 220000 \tab 22500 \tab 230000 \tab 235000 \tab 2400000 \tab 250 \tab 2500000 \tab 270000 \tab 27500000 \tab 29 \tab 299000 \tab 2e+06 \tab 2e+07 \tab 300009 \tab 313000 \tab 320000 \tab 329000 \tab 358990 \tab 3e+06 \tab 3e+07 \tab 40 \tab 4500 \tab 450000 \tab 47274 \tab 475000 \tab 499000 \tab 4e+07 \tab 500 \tab 599000 \tab 5e+06 \tab 5e+07 \tab 6 \tab 650000 \tab 7000 \tab 72000 \tab 75 \tab 775000 \tab 7e+06 \tab 88000 \tab 9600 \tab 99000 \tab 999000 \tab 9e+05 \tab skipped on web \tab not available in this year \tab Total \cr
@@ -57,24 +81,49 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1e+06} $1 million (or more, for 1987 & 2000)
-\item \code{99999997} never worked
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1987 \tab -/-/- \tab full \cr
+   2000 \tab A/B/C \tab full \cr
+   2021 \tab B/C/- \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Social Inequality: 
+\code{\link{inequal7}},
+\code{\link{paybus}},
+\code{\link{payclerk}},
+\code{\link{payexec}},
+\code{\link{payfarm}},
+\code{\link{paymason}},
+\code{\link{payowner}},
+\code{\link{paysec}},
+\code{\link{payskill}}
+
+Other Inequality, Income: 
+\code{\link{inequal7}},
+\code{\link{paybus}},
+\code{\link{payclerk}},
+\code{\link{payexec}},
+\code{\link{payfarm}},
+\code{\link{paymason}},
+\code{\link{payowner}},
+\code{\link{paysec}},
+\code{\link{payskill}}
+
+Other Occupation: 
+\code{\link{paybus}},
+\code{\link{payclerk}},
+\code{\link{payexec}},
+\code{\link{payfarm}},
+\code{\link{paymason}},
+\code{\link{payowner}},
+\code{\link{paysec}},
+\code{\link{payskill}}
+}
+\concept{ISSP Social Inequality}
+\concept{Inequality, Income}
+\concept{Occupation}
 \keyword{variable}

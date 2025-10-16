@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 milokme
 }
 \details{
-Question 300a. For most young men, do you think military service is definitely a good experience, probably a good experience, probably not a good experience, or definitely not a good experience for them?
+Question A. For most young men, do you think military service is definitely a good experience, probably a good experience, probably not a good experience, or definitely not a good experience for them?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} definitely good
+\item \code{2} probably good
+\item \code{3} prob not good
+\item \code{4} def not good
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/818/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab def not good \tab definitely good \tab don't know \tab no answer \tab prob not good \tab probably good \tab not available in this year \tab Total \cr
@@ -57,26 +79,35 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} definitely good
-\item \code{2} probably good
-\item \code{3} prob not good
-\item \code{4} def not good
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1984 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{cojail}},
+\code{\link{copunish}},
+\code{\link{draftco}},
+\code{\link{draftdef}},
+\code{\link{femilop}},
+\code{\link{milokfe}},
+\code{\link{minmilop}},
+\code{\link{vetfam}},
+\code{\link{vetfamnw}}
+
+Other Military: 
+\code{\link{cojail}},
+\code{\link{copunish}},
+\code{\link{draftco}},
+\code{\link{draftdef}},
+\code{\link{femilop}},
+\code{\link{milokfe}},
+\code{\link{minmilop}},
+\code{\link{vetfamnw}}
+}
+\concept{Core}
+\concept{Military}
 \keyword{variable}

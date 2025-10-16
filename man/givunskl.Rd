@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 givunskl
 }
 \details{
-Question 1255. Next, what do you think people in these jobs ought to be paid how much do you think they should earn each year before taxes, regardless of what they actually get? Please write in how much they should earn each year. j. Unskilled worker in a factory
+Question Next, what do you think people in these jobs ought to be paid -- how much do you think they should earn each year  before taxes, regardless of what they actually get? Please write in how much they should earn each year.
+J. An unskilled worker in a factory?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1e+06} $1 million (or more, for 1987 & 2000)
+\item \code{99999992} more than now paid
+\item \code{99999993} same as now paid
+\item \code{99999994} less than now paid
+\item \code{99999997} never worked
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4288/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 0 \tab 1000 \tab 10000 \tab 10400 \tab 10500 \tab 11000 \tab 11520 \tab 12000 \tab 12480 \tab 12500 \tab 13000 \tab 13500 \tab 14000 \tab 14400 \tab 14500 \tab 1500 \tab 15000 \tab 15600 \tab 16000 \tab 16500 \tab 17000 \tab 17500 \tab 18000 \tab 18500 \tab 19000 \tab 1e+05 \tab 2000 \tab 20000 \tab 20800 \tab 21000 \tab 22000 \tab 23000 \tab 24000 \tab 25000 \tab 26000 \tab 27000 \tab 2800 \tab 28000 \tab 29000 \tab 29999 \tab 2e+05 \tab 3000 \tab 30000 \tab 33000 \tab 3500 \tab 35000 \tab 39000 \tab 4000 \tab 40000 \tab 45000 \tab 450000 \tab 5000 \tab 50000 \tab 5200 \tab 52000 \tab 5500 \tab 6000 \tab 6968 \tab 7000 \tab 7500 \tab 7680 \tab 7800 \tab 8000 \tab 8320 \tab 8500 \tab 8989 \tab 9000 \tab 9600 \tab can't choose \tab less than now paid \tab more than now paid \tab no answer \tab same as now paid \tab $1 million (or more, for 1987 & 2000) \tab 11440 \tab 125000 \tab 14560 \tab 18720 \tab 19200 \tab 2250 \tab 2500 \tab 250000 \tab 31000 \tab 32000 \tab 33600 \tab 354000 \tab 38000 \tab 416 \tab 55000 \tab 58000 \tab 60000 \tab 75000 \tab 80000 \tab 10 \tab 1010 \tab 1100 \tab 1200 \tab 13347 \tab 15 \tab 150000 \tab 18 \tab 1e+07 \tab 20 \tab 200 \tab 21 \tab 23 \tab 25333 \tab 25900 \tab 25999 \tab 2800000 \tab 3 \tab 300 \tab 31200 \tab 320000 \tab 34000 \tab 35 \tab 350000 \tab 3500000 \tab 35360 \tab 35843 \tab 36000 \tab 36058 \tab 361847 \tab 37000 \tab 3e+05 \tab 3e+06 \tab 400 \tab 42000 \tab 4333 \tab 44000 \tab 440000 \tab 45 \tab 47000 \tab 48000 \tab 49000 \tab 49950 \tab 4e+05 \tab 5 \tab 52321 \tab 550 \tab 56000 \tab 560000 \tab 57000 \tab 58900 \tab 5e+05 \tab 5e+06 \tab 62000 \tab 65000 \tab 666666 \tab 68000 \tab 6e+06 \tab 70000 \tab 737362 \tab 75 \tab 7e+05 \tab 800 \tab 8179 \tab 85000 \tab 8e+06 \tab 900 \tab 90000 \tab 98876 \tab skipped on web \tab not available in this year \tab Total \cr
@@ -57,27 +81,50 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1e+06} $1 million (or more, for 1987 & 2000)
-\item \code{99999992} more than now paid
-\item \code{99999993} same as now paid
-\item \code{99999994} less than now paid
-\item \code{99999997} never worked
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1987 \tab -/-/- \tab full \cr
+   2000 \tab A/B/C \tab full \cr
+   2021 \tab B/C/- \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Social Inequality: 
+\code{\link{givbus}},
+\code{\link{givcabnt}},
+\code{\link{givexec}},
+\code{\link{givfarm}},
+\code{\link{givlaw}},
+\code{\link{givowner}},
+\code{\link{givsales}},
+\code{\link{givsec}},
+\code{\link{givskill}}
+
+Other Inequality, Income: 
+\code{\link{givbus}},
+\code{\link{givcabnt}},
+\code{\link{givexec}},
+\code{\link{givfarm}},
+\code{\link{givlaw}},
+\code{\link{givowner}},
+\code{\link{givsales}},
+\code{\link{givsec}},
+\code{\link{givskill}}
+
+Other Occupation: 
+\code{\link{givbus}},
+\code{\link{givcabnt}},
+\code{\link{givexec}},
+\code{\link{givfarm}},
+\code{\link{givlaw}},
+\code{\link{givowner}},
+\code{\link{givsales}},
+\code{\link{givsec}},
+\code{\link{givskill}}
+}
+\concept{ISSP Social Inequality}
+\concept{Inequality, Income}
+\concept{Occupation}
 \keyword{variable}

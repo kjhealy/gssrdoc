@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 occ10
 }
 \details{
-Question Occupation and industry questions asked and not directly coded but used to code OCC and IND variables.
+Question Respondent's Occupation, Prestige, and Industry
 }
 \section{Values}{
 
@@ -570,4 +570,65 @@ Question Occupation and industry questions asked and not directly coded but used
 }
 }
 
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1972 \tab -/-/-/- \tab full \cr
+   1973 \tab -/-/-/- \tab full \cr
+   1974 \tab -/-/-/- \tab full \cr
+   1975 \tab -/-/-/- \tab full \cr
+   1976 \tab -/-/-/- \tab full \cr
+   1977 \tab -/-/-/- \tab full \cr
+   1978 \tab -/-/-/- \tab full \cr
+   1980 \tab -/-/-/- \tab full \cr
+   1982 \tab -/-/-/- \tab full \cr
+   1983 \tab -/-/-/- \tab full \cr
+   1984 \tab -/-/-/- \tab full \cr
+   1985 \tab -/-/-/- \tab full \cr
+   1986 \tab -/-/-/- \tab full \cr
+   1987 \tab -/-/-/- \tab full \cr
+   1988 \tab A/B/C/- \tab full \cr
+   1989 \tab A/B/C/- \tab full \cr
+   1990 \tab A/B/C/- \tab full \cr
+   1991 \tab A/B/C/- \tab full \cr
+   1993 \tab A/B/C/- \tab full \cr
+   1994 \tab A/B/C/- \tab full \cr
+   1996 \tab A/B/C/- \tab full \cr
+   1998 \tab A/B/C/- \tab full \cr
+   2000 \tab A/B/C/- \tab full \cr
+   2002 \tab A/B/C/- \tab full \cr
+   2004 \tab A/B/C/- \tab full \cr
+   2006 \tab A/B/C/D \tab full \cr
+   2008 \tab A/B/C/- \tab full \cr
+   2010 \tab A/B/C/- \tab full \cr
+   2012 \tab A/B/C/- \tab full \cr
+   2014 \tab A/B/C/- \tab full \cr
+   2016 \tab A/B/C/- \tab full \cr
+   2018 \tab A/B/C/- \tab full \cr
+   2021 \tab A/B/C/- \tab full \cr
+   2022 \tab A/B/C/- \tab full \cr
+   2024 \tab A/B/C/- \tab full \cr
+}
+}
+
+\seealso{
+Other Core: 
+\code{\link{commute}},
+\code{\link{found}},
+\code{\link{indus07}},
+\code{\link{indus80}},
+\code{\link{industry}},
+\code{\link{occ80}},
+\code{\link{occindv}},
+\code{\link{occonet}},
+\code{\link{prestg80}}
+
+Other Occupation: 
+\code{\link{commute}},
+\code{\link{indus80}},
+\code{\link{industry}},
+\code{\link{occ80}}
+}
+\concept{Core}
+\concept{Occupation}
 \keyword{variable}

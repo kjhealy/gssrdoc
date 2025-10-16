@@ -12,9 +12,33 @@ respineq
 \details{
 Question From the following list, who do you think should have the greatest responsibility for reducing differences in income between people with high incomes and people with low incomes?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} private companies
+\item \code{2} government
+\item \code{3} trade unions
+\item \code{4} high-income individuals themselves
+\item \code{5} low-income individuals themselves
+\item \code{6} income differences do not need to be reduced
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7506/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab can't choose \tab government \tab high-income individuals themselves \tab income differences do not need to be reduced \tab low-income individuals themselves \tab no answer \tab private companies \tab skipped on web \tab trade unions \tab not available in this year \tab Total \cr
@@ -57,27 +81,10 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} private companies
-\item \code{2} government
-\item \code{3} trade unions
-\item \code{4} high-income individuals themselves
-\item \code{5} low-income individuals themselves
-\item \code{6} income differences do not need to be reduced
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2021 \tab B/C \tab partial \cr
 }
 }
 

@@ -1,7 +1,7 @@
 Package: gssrdoc
 Type: Package
 Title: Document General Social Survey Variable
-Version: 0.7.0
+Version: 0.8.0
 Authors@R: 
     person(given = "Kieran",
            family = "Healy",

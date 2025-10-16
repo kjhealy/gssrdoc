@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 influblk
 }
 \details{
-Question 409. Some people think that certain groups have too much influence in American life and politics, while other people feel that certain groups don't have as much influence as they deserve. On this card are three statements about how much influence a group might have. For each group I read to you, just tell me the number of the statement that best says how you feel. c. Blacks
+Question Some people think that certain groups have too much influence in American life and politics, while other people feel that certain groups don't have as much influence as they deserve. On this card are three statements about how much influence a group might have. (1. Too much influence, 2. Just about the right amount of influence, 3. Too little influence) For each group I read to you, just tell  me the number of the statement that best says how you feel.
+C. Blacks
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} too much influence
+\item \code{2} right amount
+\item \code{3} too little influence
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1239/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab don't know \tab no answer \tab right amount \tab too little influence \tab too much influence \tab not available in this year \tab Total \cr
@@ -57,25 +79,25 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} too much influence
-\item \code{2} right amount
-\item \code{3} too little influence
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1990 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Intergroup Relations: 
+\code{\link{blkcol}},
+\code{\link{blkschs}},
+\code{\link{blkzone}},
+\code{\link{influjew}},
+\code{\link{influwht}},
+\code{\link{povcol}},
+\code{\link{povschs}},
+\code{\link{povzone}},
+\code{\link{racquota}}
+}
+\concept{Blacks}
+\concept{Intergroup Relations}
 \keyword{variable}

@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 fearhome
 }
 \details{
-Question 234. How about at home at night - do you feel safe and secure, or not?
+Question How about at home at night--do you feel safe and secure, or not?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes
+\item \code{2} no
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/676/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab not available in this year \tab Total \cr
@@ -57,24 +77,32 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes
-\item \code{2} no
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1982 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{burglr}},
+\code{\link{fear}},
+\code{\link{owngun}},
+\code{\link{pistol}},
+\code{\link{polattak}},
+\code{\link{polescap}},
+\code{\link{rifle}},
+\code{\link{robbry}},
+\code{\link{shotgun}}
+
+Other Crime: 
+\code{\link{fear}}
+
+Other Residence: 
+\code{\link{fear}}
+}
+\concept{Core}
+\concept{Crime}
+\concept{Residence}
 \keyword{variable}

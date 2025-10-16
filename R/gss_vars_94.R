@@ -1,11 +1,211 @@
+#'  R feels especially close to person #1
+#' 
+#'  rclose1
+#' 
+#' Question Do you feel equally close to all these people? 
+#' A. Which of these people do you feel especially close to?  REFER TO MATRIX ON PAGE 338 FOR NAME NUMBERS. CODE ALL RESPONDENT FEELS ESPECIALLY CLOSE TO, IF ONLY ONE MENTIONED, 
+#' PROBE:  Anyone else? 
+#' 1. First name
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` especially close
+#'   * `2` not esp. close
+#'   * `7` refused
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/850/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |especially close |no answer |not esp. close |not available in this year |Total |
+#'  |:-----|:-----|:----------------|:---------|:--------------|:--------------------------|:-----|
+#'  |1972  |1613  |-                |-         |-              |-                          |1613  |
+#'  |1973  |1504  |-                |-         |-              |-                          |1504  |
+#'  |1974  |1484  |-                |-         |-              |-                          |1484  |
+#'  |1975  |1490  |-                |-         |-              |-                          |1490  |
+#'  |1976  |1499  |-                |-         |-              |-                          |1499  |
+#'  |1977  |1530  |-                |-         |-              |-                          |1530  |
+#'  |1978  |1532  |-                |-         |-              |-                          |1532  |
+#'  |1980  |1468  |-                |-         |-              |-                          |1468  |
+#'  |1982  |1860  |-                |-         |-              |-                          |1860  |
+#'  |1983  |1599  |-                |-         |-              |-                          |1599  |
+#'  |1984  |1473  |-                |-         |-              |-                          |1473  |
+#'  |1985  |1003  |380              |6         |145            |-                          |1534  |
+#'  |1986  |1470  |-                |-         |-              |-                          |1470  |
+#'  |1987  |1209  |404              |70        |136            |-                          |1819  |
+#'  |1988  |1481  |-                |-         |-              |-                          |1481  |
+#'  |1989  |1537  |-                |-         |-              |-                          |1537  |
+#'  |1990  |1372  |-                |-         |-              |-                          |1372  |
+#'  |1991  |1517  |-                |-         |-              |-                          |1517  |
+#'  |1993  |1606  |-                |-         |-              |-                          |1606  |
+#'  |1994  |2992  |-                |-         |-              |-                          |2992  |
+#'  |1996  |2904  |-                |-         |-              |-                          |2904  |
+#'  |1998  |2832  |-                |-         |-              |-                          |2832  |
+#'  |2000  |2817  |-                |-         |-              |-                          |2817  |
+#'  |2002  |2765  |-                |-         |-              |-                          |2765  |
+#'  |2004  |2812  |-                |-         |-              |-                          |2812  |
+#'  |2006  |4510  |-                |-         |-              |-                          |4510  |
+#'  |2008  |2023  |-                |-         |-              |-                          |2023  |
+#'  |2010  |2044  |-                |-         |-              |-                          |2044  |
+#'  |2012  |1974  |-                |-         |-              |-                          |1974  |
+#'  |2014  |2538  |-                |-         |-              |-                          |2538  |
+#'  |2016  |2867  |-                |-         |-              |-                          |2867  |
+#'  |2018  |2348  |-                |-         |-              |-                          |2348  |
+#'  |2021  |4032  |-                |-         |-              |-                          |4032  |
+#'  |2022  |-     |-                |-         |-              |3544                       |3544  |
+#'  |2024  |-     |-                |-         |-              |3309                       |3309  |
+#'  |Total |67705 |784              |76        |281            |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-       |full         |
+#'  |1987 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
+#' @family Social Networks
+#' 
+#' @keywords variable
+#' @md
+#' @name rclose1
+NULL
+
+
+#'  R feels especially close to person #2
+#' 
+#'  rclose2
+#' 
+#' Question Do you feel equally close to all these people? 
+#' A. Which of these people do you feel especially close to?  REFER TO MATRIX ON PAGE 338 FOR NAME NUMBERS. CODE ALL RESPONDENT FEELS ESPECIALLY CLOSE TO, IF ONLY ONE MENTIONED, 
+#' PROBE:  Anyone else? 
+#' 2. Second name
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` especially close
+#'   * `2` not esp. close
+#'   * `7` refused
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/851/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |especially close |no answer |not esp. close |not available in this year |Total |
+#'  |:-----|:-----|:----------------|:---------|:--------------|:--------------------------|:-----|
+#'  |1972  |1613  |-                |-         |-              |-                          |1613  |
+#'  |1973  |1504  |-                |-         |-              |-                          |1504  |
+#'  |1974  |1484  |-                |-         |-              |-                          |1484  |
+#'  |1975  |1490  |-                |-         |-              |-                          |1490  |
+#'  |1976  |1499  |-                |-         |-              |-                          |1499  |
+#'  |1977  |1530  |-                |-         |-              |-                          |1530  |
+#'  |1978  |1532  |-                |-         |-              |-                          |1532  |
+#'  |1980  |1468  |-                |-         |-              |-                          |1468  |
+#'  |1982  |1860  |-                |-         |-              |-                          |1860  |
+#'  |1983  |1599  |-                |-         |-              |-                          |1599  |
+#'  |1984  |1473  |-                |-         |-              |-                          |1473  |
+#'  |1985  |1003  |219              |6         |306            |-                          |1534  |
+#'  |1986  |1470  |-                |-         |-              |-                          |1470  |
+#'  |1987  |1209  |146              |70        |394            |-                          |1819  |
+#'  |1988  |1481  |-                |-         |-              |-                          |1481  |
+#'  |1989  |1537  |-                |-         |-              |-                          |1537  |
+#'  |1990  |1372  |-                |-         |-              |-                          |1372  |
+#'  |1991  |1517  |-                |-         |-              |-                          |1517  |
+#'  |1993  |1606  |-                |-         |-              |-                          |1606  |
+#'  |1994  |2992  |-                |-         |-              |-                          |2992  |
+#'  |1996  |2904  |-                |-         |-              |-                          |2904  |
+#'  |1998  |2832  |-                |-         |-              |-                          |2832  |
+#'  |2000  |2817  |-                |-         |-              |-                          |2817  |
+#'  |2002  |2765  |-                |-         |-              |-                          |2765  |
+#'  |2004  |2812  |-                |-         |-              |-                          |2812  |
+#'  |2006  |4510  |-                |-         |-              |-                          |4510  |
+#'  |2008  |2023  |-                |-         |-              |-                          |2023  |
+#'  |2010  |2044  |-                |-         |-              |-                          |2044  |
+#'  |2012  |1974  |-                |-         |-              |-                          |1974  |
+#'  |2014  |2538  |-                |-         |-              |-                          |2538  |
+#'  |2016  |2867  |-                |-         |-              |-                          |2867  |
+#'  |2018  |2348  |-                |-         |-              |-                          |2348  |
+#'  |2021  |4032  |-                |-         |-              |-                          |4032  |
+#'  |2022  |-     |-                |-         |-              |3544                       |3544  |
+#'  |2024  |-     |-                |-         |-              |3309                       |3309  |
+#'  |Total |67705 |365              |76        |700            |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-       |full         |
+#'  |1987 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
+#' @family Social Networks
+#' 
+#' @keywords variable
+#' @md
+#' @name rclose2
+NULL
+
+
 #'  R feels especially close to person #3
 #' 
 #'  rclose3
 #' 
-#' Question 314a. Which of these people do you feel especially close to?
+#' Question Do you feel equally close to all these people? 
+#' A. Which of these people do you feel especially close to?  REFER TO MATRIX ON PAGE 338 FOR NAME NUMBERS. CODE ALL RESPONDENT FEELS ESPECIALLY CLOSE TO, IF ONLY ONE MENTIONED, 
+#' PROBE:  Anyone else? 
+#' 3. Third name
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` especially close
+#'   * `2` not esp. close
+#'   * `7` refused
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/852/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +248,33 @@
 #'  |2024  |-     |-                |-         |-              |3309                       |3309  |
 #'  |Total |67908 |192              |45        |701            |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-       |full         |
+#'  |1987 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
+#' @family Social Networks
+#' 
+#' @keywords variable
+#' @md
+#' @name rclose3
+NULL
+
+
+#'  R feels especially close to person #4
+#' 
+#'  rclose4
+#' 
+#' Question Do you feel equally close to all these people? 
+#' A. Which of these people do you feel especially close to?  REFER TO MATRIX ON PAGE 338 FOR NAME NUMBERS. CODE ALL RESPONDENT FEELS ESPECIALLY CLOSE TO, IF ONLY ONE MENTIONED, 
+#' PROBE:  Anyone else? 
+#' 4. Fourth name
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` especially close
@@ -66,22 +293,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name rclose3
-NULL
-
-#'  R feels especially close to person #4
-#' 
-#'  rclose4
-#' 
-#' Question 314a. Which of these people do you feel especially close to?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/853/vshow).
 #'
 #' Counts by year: 
 #'
@@ -124,6 +337,32 @@ NULL
 #'  |2024  |-     |-                |-         |-              |3309                       |3309  |
 #'  |Total |68519 |97               |5         |225            |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
+#' @family Social Networks
+#' 
+#' @keywords variable
+#' @md
+#' @name rclose4
+NULL
+
+
+#'  R feels especially close to person #5
+#' 
+#'  rclose5
+#' 
+#' Question Do you feel equally close to all these people? 
+#' A. Which of these people do you feel especially close to?  REFER TO MATRIX ON PAGE 338 FOR NAME NUMBERS. CODE ALL RESPONDENT FEELS ESPECIALLY CLOSE TO, IF ONLY ONE MENTIONED, 
+#' PROBE:  Anyone else? 
+#' 5. Fifth name
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` especially close
@@ -142,22 +381,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name rclose4
-NULL
-
-#'  R feels especially close to person #5
-#' 
-#'  rclose5
-#' 
-#' Question 314a. Which of these people do you feel especially close to?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/854/vshow).
 #'
 #' Counts by year: 
 #'
@@ -200,10 +425,44 @@ NULL
 #'  |2024  |-     |-                |-         |-              |3309                       |3309  |
 #'  |Total |68640 |54               |4         |148            |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
+#' @family Social Networks
+#' 
+#' @keywords variable
+#' @md
+#' @name rclose5
+NULL
+
+
+#'  How close are persons number 1 and 2?
+#' 
+#'  close12
+#' 
+#' Question IF LESS THAN 5 NAMES MENTIONED CROSS OUT UNUSED BOXES. 
+#' Please think about the relations between the people you just mentioned. Some of them may be total strangers in the sense that they wouldn't recognize each other if they bumped into each other on the street. Others may be especially close, as close or closer to each other as they are to you. 
+#' First, think about NAME 1 and NAME 2. 
+#' ASK  CLOSE1 FOR FIRST PAIR. 
+#' A. Are ____ and ____ total strangers? 
+#' IF YES.......(ASK NAME1, NAME2, NAME3, NAME4, NAME5 FOR NEXT PAIR DoWN) 
+#' IF NO........(ASK CLOSE12, CLOSE13, CLOSE14, CLOSE15, CLOSE 23, CLOSE24, CLOSE25, CLOSE34, CLOSE35, CLOSE45) 
+#' B. Are they especially close?  PROBE:  As close or closer to each other as they are to you? 
+#' IF YES.......(ASK NAME1, NAME2, NAME3, NAME4, NAME5 FOR NEXT PAIR DOWN) 
+#' IF NO........(ASK NAME1, NAME2, NAME3, NAME4, NAME5 FOR NEXT PAIR DOWN) 
+#' 1. Closeness of First and Second Persons
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` especially close
-#'   * `2` not esp. close
+#'   * `2` know each other
+#'   * `3` total strangers
 #'   * `7` refused
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
@@ -218,22 +477,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name rclose5
-NULL
-
-#'  How close are persons number 1 and 2?
-#' 
-#'  close12
-#' 
-#' Question 315. Please think about the relations between the people you just mentioned. Some of them may be total strangers in teh sense that they wouldn't recognize each other if they bumped into each other on the street. Others may be especially close, as close or closer to each other as they are to you. a. Are (PERSON 1) and (PERSON 2) total strangers? b. Are they especially close? As close or closer to each other as they are to you?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/855/vshow).
 #'
 #' Counts by year: 
 #'
@@ -276,6 +521,40 @@ NULL
 #'  |2024  |-     |-                |-               |-         |-               |3309                       |3309  |
 #'  |Total |66841 |945              |754             |59        |247             |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-/-/-   |full         |
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
+#' @family Social Networks
+#' 
+#' @keywords variable
+#' @md
+#' @name close12
+NULL
+
+
+#'  How close are persons number 1 and 3?
+#' 
+#'  close13
+#' 
+#' Question IF LESS THAN 5 NAMES MENTIONED CROSS OUT UNUSED BOXES. 
+#' Please think about the relations between the people you just mentioned. Some of them may be total strangers in the sense that they wouldn't recognize each other if they bumped into each other on the street. Others may be especially close, as close or closer to each other as they are to you. 
+#' First, think about NAME 1 and NAME 2. 
+#' ASK  CLOSE1 FOR FIRST PAIR. 
+#' A. Are ____ and ____ total strangers? 
+#' IF YES.......(ASK NAME1, NAME2, NAME3, NAME4, NAME5 FOR NEXT PAIR DoWN) 
+#' IF NO........(ASK CLOSE12, CLOSE13, CLOSE14, CLOSE15, CLOSE 23, CLOSE24, CLOSE25, CLOSE34, CLOSE35, CLOSE45) 
+#' B. Are they especially close?  PROBE:  As close or closer to each other as they are to you? 
+#' IF YES.......(ASK NAME1, NAME2, NAME3, NAME4, NAME5 FOR NEXT PAIR DOWN) 
+#' IF NO........(ASK NAME1, NAME2, NAME3, NAME4, NAME5 FOR NEXT PAIR DOWN) 
+#' 2. Closeness of First and Third Persons
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` especially close
@@ -295,22 +574,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name close12
-NULL
-
-#'  How close are persons number 1 and 3?
-#' 
-#'  close13
-#' 
-#' Question 315. Please think about the relations between the people you just mentioned. Some of them may be total strangers in teh sense that they wouldn't recognize each other if they bumped into each other on the street. Others may be especially close, as close or closer to each other as they are to you. a. Are (PERSON 1) and (PERSON 3) total strangers? b. Are they especially close? As close or closer to each other as they are to you?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/856/vshow).
 #'
 #' Counts by year: 
 #'
@@ -353,6 +618,40 @@ NULL
 #'  |2024  |-     |-                |-               |-         |-               |3309                       |3309  |
 #'  |Total |67339 |587              |629             |76        |215             |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-/-/-   |full         |
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
+#' @family Social Networks
+#' 
+#' @keywords variable
+#' @md
+#' @name close13
+NULL
+
+
+#'  How close are persons number 1 and 4?
+#' 
+#'  close14
+#' 
+#' Question IF LESS THAN 5 NAMES MENTIONED CROSS OUT UNUSED BOXES. 
+#' Please think about the relations between the people you just mentioned. Some of them may be total strangers in the sense that they wouldn't recognize each other if they bumped into each other on the street. Others may be especially close, as close or closer to each other as they are to you. 
+#' First, think about NAME 1 and NAME 2. 
+#' ASK  CLOSE1 FOR FIRST PAIR. 
+#' A. Are ____ and ____ total strangers? 
+#' IF YES.......(ASK NAME1, NAME2, NAME3, NAME4, NAME5 FOR NEXT PAIR DoWN) 
+#' IF NO........(ASK CLOSE12, CLOSE13, CLOSE14, CLOSE15, CLOSE 23, CLOSE24, CLOSE25, CLOSE34, CLOSE35, CLOSE45) 
+#' B. Are they especially close?  PROBE:  As close or closer to each other as they are to you? 
+#' IF YES.......(ASK NAME1, NAME2, NAME3, NAME4, NAME5 FOR NEXT PAIR DOWN) 
+#' IF NO........(ASK NAME1, NAME2, NAME3, NAME4, NAME5 FOR NEXT PAIR DOWN) 
+#' 3. Closeness of First and Fourth Persons
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` especially close
@@ -372,22 +671,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name close13
-NULL
-
-#'  How close are persons number 1 and 4?
-#' 
-#'  close14
-#' 
-#' Question 315. Please think about the relations between the people you just mentioned. Some of them may be total strangers in teh sense that they wouldn't recognize each other if they bumped into each other on the street. Others may be especially close, as close or closer to each other as they are to you. a. Are (PERSON 1) and (PERSON 4) total strangers? b. Are they especially close? As close or closer to each other as they are to you?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/857/vshow).
 #'
 #' Counts by year: 
 #'
@@ -430,6 +715,40 @@ NULL
 #'  |2024  |-     |-                |-               |-         |-               |3309                       |3309  |
 #'  |Total |67892 |308              |394             |67        |185             |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-/-/-   |full         |
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
+#' @family Social Networks
+#' 
+#' @keywords variable
+#' @md
+#' @name close14
+NULL
+
+
+#'  How close are persons number 1 and 5?
+#' 
+#'  close15
+#' 
+#' Question IF LESS THAN 5 NAMES MENTIONED CROSS OUT UNUSED BOXES. 
+#' Please think about the relations between the people you just mentioned. Some of them may be total strangers in the sense that they wouldn't recognize each other if they bumped into each other on the street. Others may be especially close, as close or closer to each other as they are to you. 
+#' First, think about NAME 1 and NAME 2. 
+#' ASK  CLOSE1 FOR FIRST PAIR. 
+#' A. Are ____ and ____ total strangers? 
+#' IF YES.......(ASK NAME1, NAME2, NAME3, NAME4, NAME5 FOR NEXT PAIR DoWN) 
+#' IF NO........(ASK CLOSE12, CLOSE13, CLOSE14, CLOSE15, CLOSE 23, CLOSE24, CLOSE25, CLOSE34, CLOSE35, CLOSE45) 
+#' B. Are they especially close?  PROBE:  As close or closer to each other as they are to you? 
+#' IF YES.......(ASK NAME1, NAME2, NAME3, NAME4, NAME5 FOR NEXT PAIR DOWN) 
+#' IF NO........(ASK NAME1, NAME2, NAME3, NAME4, NAME5 FOR NEXT PAIR DOWN) 
+#' 4. Closeness of First and Fifth Persons
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` especially close
@@ -449,22 +768,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name close14
-NULL
-
-#'  How close are persons number 1 and 5?
-#' 
-#'  close15
-#' 
-#' Question 315. Please think about the relations between the people you just mentioned. Some of them may be total strangers in teh sense that they wouldn't recognize each other if they bumped into each other on the street. Others may be especially close, as close or closer to each other as they are to you. a. Are (PERSON 1) and (PERSON 5) total strangers? b. Are they especially close? As close or closer to each other as they are to you?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/858/vshow).
 #'
 #' Counts by year: 
 #'
@@ -507,6 +812,40 @@ NULL
 #'  |2024  |-     |-                |-               |-         |-               |3309                       |3309  |
 #'  |Total |68253 |189              |208             |65        |131             |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-/-/-   |full         |
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
+#' @family Social Networks
+#' 
+#' @keywords variable
+#' @md
+#' @name close15
+NULL
+
+
+#'  How close are persons number 2 and 3?
+#' 
+#'  close23
+#' 
+#' Question IF LESS THAN 5 NAMES MENTIONED CROSS OUT UNUSED BOXES. 
+#' Please think about the relations between the people you just mentioned. Some of them may be total strangers in the sense that they wouldn't recognize each other if they bumped into each other on the street. Others may be especially close, as close or closer to each other as they are to you. 
+#' First, think about NAME 1 and NAME 2. 
+#' ASK  CLOSE1 FOR FIRST PAIR. 
+#' A. Are ____ and ____ total strangers? 
+#' IF YES.......(ASK NAME1, NAME2, NAME3, NAME4, NAME5 FOR NEXT PAIR DoWN) 
+#' IF NO........(ASK CLOSE12, CLOSE13, CLOSE14, CLOSE15, CLOSE 23, CLOSE24, CLOSE25, CLOSE34, CLOSE35, CLOSE45) 
+#' B. Are they especially close?  PROBE:  As close or closer to each other as they are to you? 
+#' IF YES.......(ASK NAME1, NAME2, NAME3, NAME4, NAME5 FOR NEXT PAIR DOWN) 
+#' IF NO........(ASK NAME1, NAME2, NAME3, NAME4, NAME5 FOR NEXT PAIR DOWN) 
+#' 5. Closeness of Second and Third Persons
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` especially close
@@ -526,22 +865,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name close15
-NULL
-
-#'  How close are persons number 2 and 3?
-#' 
-#'  close23
-#' 
-#' Question 315. Please think about the relations between the people you just mentioned. Some of them may be total strangers in teh sense that they wouldn't recognize each other if they bumped into each other on the street. Others may be especially close, as close or closer to each other as they are to you. a. Are (PERSON 2) and (PERSON 3) total strangers? b. Are they especially close? As close or closer to each other as they are to you?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/859/vshow).
 #'
 #' Counts by year: 
 #'
@@ -584,184 +909,20 @@ NULL
 #'  |2024  |-     |-                |-               |-         |-               |3309                       |3309  |
 #'  |Total |67339 |599              |530             |69        |309             |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` especially close
-#'   * `2` know each other
-#'   * `3` total strangers
-#'   * `7` refused
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-/-/-   |full         |
+#'  |2004 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
+#' @family Social Networks
 #' 
 #' @keywords variable
 #' @md
 #' @name close23
 NULL
 
-#'  How close are persons number 2 and 4?
-#' 
-#'  close24
-#' 
-#' Question 315. Please think about the relations between the people you just mentioned. Some of them may be total strangers in teh sense that they wouldn't recognize each other if they bumped into each other on the street. Others may be especially close, as close or closer to each other as they are to you. a. Are (PERSON 2) and (PERSON 4) total strangers? b. Are they especially close? As close or closer to each other as they are to you?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |especially close |know each other |no answer |total strangers |not available in this year |Total |
-#'  |:-----|:-----|:----------------|:---------------|:---------|:---------------|:--------------------------|:-----|
-#'  |1972  |1613  |-                |-               |-         |-               |-                          |1613  |
-#'  |1973  |1504  |-                |-               |-         |-               |-                          |1504  |
-#'  |1974  |1484  |-                |-               |-         |-               |-                          |1484  |
-#'  |1975  |1490  |-                |-               |-         |-               |-                          |1490  |
-#'  |1976  |1499  |-                |-               |-         |-               |-                          |1499  |
-#'  |1977  |1530  |-                |-               |-         |-               |-                          |1530  |
-#'  |1978  |1532  |-                |-               |-         |-               |-                          |1532  |
-#'  |1980  |1468  |-                |-               |-         |-               |-                          |1468  |
-#'  |1982  |1860  |-                |-               |-         |-               |-                          |1860  |
-#'  |1983  |1599  |-                |-               |-         |-               |-                          |1599  |
-#'  |1984  |1473  |-                |-               |-         |-               |-                          |1473  |
-#'  |1985  |920   |187              |237             |28        |162             |-                          |1534  |
-#'  |1986  |1470  |-                |-               |-         |-               |-                          |1470  |
-#'  |1987  |1819  |-                |-               |-         |-               |-                          |1819  |
-#'  |1988  |1481  |-                |-               |-         |-               |-                          |1481  |
-#'  |1989  |1537  |-                |-               |-         |-               |-                          |1537  |
-#'  |1990  |1372  |-                |-               |-         |-               |-                          |1372  |
-#'  |1991  |1517  |-                |-               |-         |-               |-                          |1517  |
-#'  |1993  |1606  |-                |-               |-         |-               |-                          |1606  |
-#'  |1994  |2992  |-                |-               |-         |-               |-                          |2992  |
-#'  |1996  |2904  |-                |-               |-         |-               |-                          |2904  |
-#'  |1998  |2832  |-                |-               |-         |-               |-                          |2832  |
-#'  |2000  |2817  |-                |-               |-         |-               |-                          |2817  |
-#'  |2002  |2765  |-                |-               |-         |-               |-                          |2765  |
-#'  |2004  |2472  |103              |122             |46        |69              |-                          |2812  |
-#'  |2006  |4510  |-                |-               |-         |-               |-                          |4510  |
-#'  |2008  |2023  |-                |-               |-         |-               |-                          |2023  |
-#'  |2010  |2044  |-                |-               |-         |-               |-                          |2044  |
-#'  |2012  |1974  |-                |-               |-         |-               |-                          |1974  |
-#'  |2014  |2538  |-                |-               |-         |-               |-                          |2538  |
-#'  |2016  |2867  |-                |-               |-         |-               |-                          |2867  |
-#'  |2018  |2348  |-                |-               |-         |-               |-                          |2348  |
-#'  |2021  |4032  |-                |-               |-         |-               |-                          |4032  |
-#'  |2022  |-     |-                |-               |-         |-               |3544                       |3544  |
-#'  |2024  |-     |-                |-               |-         |-               |3309                       |3309  |
-#'  |Total |67892 |290              |359             |74        |231             |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` especially close
-#'   * `2` know each other
-#'   * `3` total strangers
-#'   * `7` refused
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name close24
-NULL
-
-#'  How close are persons number 2 and 5?
-#' 
-#'  close25
-#' 
-#' Question 315. Please think about the relations between the people you just mentioned. Some of them may be total strangers in teh sense that they wouldn't recognize each other if they bumped into each other on the street. Others may be especially close, as close or closer to each other as they are to you. a. Are (PERSON 2) and (PERSON 5) total strangers? b. Are they especially close? As close or closer to each other as they are to you?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |especially close |know each other |no answer |total strangers |not available in this year |Total |
-#'  |:-----|:-----|:----------------|:---------------|:---------|:---------------|:--------------------------|:-----|
-#'  |1972  |1613  |-                |-               |-         |-               |-                          |1613  |
-#'  |1973  |1504  |-                |-               |-         |-               |-                          |1504  |
-#'  |1974  |1484  |-                |-               |-         |-               |-                          |1484  |
-#'  |1975  |1490  |-                |-               |-         |-               |-                          |1490  |
-#'  |1976  |1499  |-                |-               |-         |-               |-                          |1499  |
-#'  |1977  |1530  |-                |-               |-         |-               |-                          |1530  |
-#'  |1978  |1532  |-                |-               |-         |-               |-                          |1532  |
-#'  |1980  |1468  |-                |-               |-         |-               |-                          |1468  |
-#'  |1982  |1860  |-                |-               |-         |-               |-                          |1860  |
-#'  |1983  |1599  |-                |-               |-         |-               |-                          |1599  |
-#'  |1984  |1473  |-                |-               |-         |-               |-                          |1473  |
-#'  |1985  |1153  |124              |128             |20        |109             |-                          |1534  |
-#'  |1986  |1470  |-                |-               |-         |-               |-                          |1470  |
-#'  |1987  |1819  |-                |-               |-         |-               |-                          |1819  |
-#'  |1988  |1481  |-                |-               |-         |-               |-                          |1481  |
-#'  |1989  |1537  |-                |-               |-         |-               |-                          |1537  |
-#'  |1990  |1372  |-                |-               |-         |-               |-                          |1372  |
-#'  |1991  |1517  |-                |-               |-         |-               |-                          |1517  |
-#'  |1993  |1606  |-                |-               |-         |-               |-                          |1606  |
-#'  |1994  |2992  |-                |-               |-         |-               |-                          |2992  |
-#'  |1996  |2904  |-                |-               |-         |-               |-                          |2904  |
-#'  |1998  |2832  |-                |-               |-         |-               |-                          |2832  |
-#'  |2000  |2817  |-                |-               |-         |-               |-                          |2817  |
-#'  |2002  |2765  |-                |-               |-         |-               |-                          |2765  |
-#'  |2004  |2600  |50               |76              |47        |39              |-                          |2812  |
-#'  |2006  |4510  |-                |-               |-         |-               |-                          |4510  |
-#'  |2008  |2023  |-                |-               |-         |-               |-                          |2023  |
-#'  |2010  |2044  |-                |-               |-         |-               |-                          |2044  |
-#'  |2012  |1974  |-                |-               |-         |-               |-                          |1974  |
-#'  |2014  |2538  |-                |-               |-         |-               |-                          |2538  |
-#'  |2016  |2867  |-                |-               |-         |-               |-                          |2867  |
-#'  |2018  |2348  |-                |-               |-         |-               |-                          |2348  |
-#'  |2021  |4032  |-                |-               |-         |-               |-                          |4032  |
-#'  |2022  |-     |-                |-               |-         |-               |3544                       |3544  |
-#'  |2024  |-     |-                |-               |-         |-               |3309                       |3309  |
-#'  |Total |68253 |174              |204             |67        |148             |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` especially close
-#'   * `2` know each other
-#'   * `3` total strangers
-#'   * `7` refused
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name close25
-NULL
 

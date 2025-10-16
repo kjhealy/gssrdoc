@@ -10,11 +10,30 @@ General Social Survey https://gss.norc.org
 friwork
 }
 \details{
-Question 1208a. How many of these close friends are people you work with now?
+Question Thinking now of close friends - not your husband or wife or partner or family members - but people you feel fairly close toâ€¦
+A. How many of these close friends are people you work with now?
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4163/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllll}{
    year \tab iap \tab 0 \tab 1 \tab 10 \tab 12 \tab 14 \tab 15 \tab 16 \tab 2 \tab 20 \tab 22 \tab 25 \tab 3 \tab 30 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +76,44 @@ Counts by year:\tabular{llllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1986 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Social Networks & Support Systems: 
+\code{\link{chores1}},
+\code{\link{chores2}},
+\code{\link{fricall}},
+\code{\link{frineigh}},
+\code{\link{frinum}},
+\code{\link{frisex}},
+\code{\link{fritime}},
+\code{\link{frivisit}},
+\code{\link{relcall}}
+
+Other Friends: 
+\code{\link{fricall}},
+\code{\link{frineigh}},
+\code{\link{frinum}},
+\code{\link{frisex}},
+\code{\link{fritime}},
+\code{\link{frivisit}}
+
+Other Social Networks: 
+\code{\link{chores1}},
+\code{\link{chores2}},
+\code{\link{fricall}},
+\code{\link{frineigh}},
+\code{\link{frinum}},
+\code{\link{frisex}},
+\code{\link{fritime}},
+\code{\link{frivisit}}
+}
+\concept{Friends}
+\concept{ISSP Social Networks & Support Systems}
+\concept{Social Networks}
 \keyword{variable}

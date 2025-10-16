@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 sphrs2
 }
 \details{
-Question 5b. If with a job, but not at work: How many hours a week does (he/she) usually work, at all jobs?
+Question Last week was your (wife/husband) working full time, part time, going to school, keeping house, or what?
+B. IF WITH A JOB, BUT NOT AT WORK: How many hours a week does (he/she) usually work, at all jobs?
 }
+\section{Values}{
+
+\itemize{
+\item \code{89} 89+ hours
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/25/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 14 \tab 16 \tab 20 \tab 35 \tab 40 \tab 48 \tab 50 \tab 73 \tab don't know \tab no answer \tab 13 \tab 32 \tab 44 \tab 56 \tab 84 \tab 24 \tab 37 \tab 72 \tab 8 \tab 12 \tab 22 \tab 43 \tab 54 \tab 60 \tab 25 \tab 30 \tab 38 \tab 45 \tab 49 \tab 36 \tab 57 \tab 65 \tab 89+ hours \tab 55 \tab 52 \tab 70 \tab 51 \tab 21 \tab 26 \tab 10 \tab 46 \tab 5 \tab 80 \tab 47 \tab 1 \tab 42 \tab 39 \tab 33 \tab 18 \tab 27 \tab 15 \tab 34 \tab 9 \tab skipped on web \tab 3 \tab Total \cr
@@ -57,23 +77,71 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{89} 89+ hours
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1973 \tab -/-/-/- \tab full \cr
+   1974 \tab -/-/-/- \tab full \cr
+   1975 \tab -/-/-/- \tab full \cr
+   1976 \tab -/-/-/- \tab full \cr
+   1977 \tab -/-/-/- \tab full \cr
+   1978 \tab -/-/-/- \tab full \cr
+   1980 \tab -/-/-/- \tab full \cr
+   1982 \tab -/-/-/- \tab full \cr
+   1983 \tab -/-/-/- \tab full \cr
+   1984 \tab -/-/-/- \tab full \cr
+   1985 \tab -/-/-/- \tab full \cr
+   1986 \tab -/-/-/- \tab full \cr
+   1987 \tab -/-/-/- \tab full \cr
+   1988 \tab A/B/C/- \tab full \cr
+   1989 \tab A/B/C/- \tab full \cr
+   1990 \tab A/B/C/- \tab full \cr
+   1991 \tab A/B/C/- \tab full \cr
+   1993 \tab A/B/C/- \tab full \cr
+   1994 \tab A/B/C/- \tab full \cr
+   1996 \tab A/B/C/- \tab full \cr
+   1998 \tab A/B/C/- \tab full \cr
+   2000 \tab A/B/C/- \tab full \cr
+   2002 \tab A/B/C/- \tab full \cr
+   2004 \tab A/B/C/- \tab full \cr
+   2006 \tab A/B/C/D \tab full \cr
+   2008 \tab A/B/C/- \tab full \cr
+   2010 \tab A/B/C/- \tab full \cr
+   2012 \tab A/B/C/- \tab full \cr
+   2014 \tab A/B/C/- \tab full \cr
+   2016 \tab A/B/C/- \tab full \cr
+   2018 \tab A/B/C/- \tab full \cr
+   2021 \tab A/B/C/- \tab full \cr
+   2022 \tab A/B/C/- \tab full \cr
+   2024 \tab A/B/C/- \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{coevwork}},
+\code{\link{cohrs1}},
+\code{\link{cowrkslf}},
+\code{\link{cowrksta}},
+\code{\link{divorce}},
+\code{\link{spevwork}},
+\code{\link{sphrs1}},
+\code{\link{spwrksta}},
+\code{\link{widowed}}
+
+Other Hours Worked: 
+\code{\link{sphrs1}}
+
+Other Job: 
+\code{\link{sphrs1}}
+
+Other Labor Force Status: 
+\code{\link{spevwork}},
+\code{\link{sphrs1}},
+\code{\link{spwrksta}}
+}
+\concept{Core}
+\concept{Hours Worked}
+\concept{Job}
+\concept{Labor Force Status}
 \keyword{variable}

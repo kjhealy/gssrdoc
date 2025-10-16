@@ -12,9 +12,34 @@ hlthtype
 \details{
 Question What is the source of your health insurance?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} my employer
+\item \code{2} employer of my spouse/partner
+\item \code{3} employer of someone else in my family
+\item \code{4} medicaid
+\item \code{5} medicare
+\item \code{6} individual plan from private insurer not related to current or past employment
+\item \code{7} other
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3931/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab employer of my spouse/partner \tab employer of someone else in my family \tab individual plan from private insurer not related to current or past employment \tab medicaid \tab medicare \tab my employer \tab no answer \tab other \tab not available in this year \tab Total \cr
@@ -57,29 +82,37 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} my employer
-\item \code{2} employer of my spouse/partner
-\item \code{3} employer of someone else in my family
-\item \code{4} medicaid
-\item \code{5} medicare
-\item \code{6} individual plan from private insurer not related to current or past employment
-\item \code{7} other
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2008 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Sexual Orientation: 
+\code{\link{emphlth1}},
+\code{\link{emphlth2}},
+\code{\link{hlthcovr}},
+\code{\link{mykids}},
+\code{\link{othkids}},
+\code{\link{sppart}}
+
+Other Health: 
+\code{\link{emphlth1}},
+\code{\link{emphlth2}},
+\code{\link{hlthcovr}},
+\code{\link{mykids}},
+\code{\link{othkids}},
+\code{\link{sppart}}
+
+Other Job: 
+\code{\link{emphlth1}},
+\code{\link{emphlth2}},
+\code{\link{harsexjb}},
+\code{\link{mykids}}
+}
+\concept{Health}
+\concept{Job}
+\concept{Sexual Orientation}
 \keyword{variable}

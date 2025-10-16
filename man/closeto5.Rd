@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 closeto5
 }
 \details{
-Question On a scale from 1 to 10, with 1 being not at all close and 10 being very close, how close are you to NAME 5?
+Question On a scale from 1 to 10, with 1 being not at all close and 10 being very close, how close are you to (NAME 5), the fifth person?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} 1 - not at all close
+\item \code{10} 10 - very close
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7114/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllll}{
    year \tab iap \tab 1 - not at all close \tab 10 - very close \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,23 +77,10 @@ Counts by year:\tabular{llllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} 1 - not at all close
-\item \code{10} 10 - very close
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2018 \tab B/C \tab partial \cr
 }
 }
 

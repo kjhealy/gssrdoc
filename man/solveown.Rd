@@ -10,11 +10,36 @@ General Social Survey https://gss.norc.org
 solveown
 }
 \details{
-Question 962. When you have a problem, do you prefer to solve it on your own or do you like to talk to other people to get advice, help or information?
+Question When you have a problem, do you prefer to solve it on your own or do you like to talk to other people to get advice, help or information?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} on own
+\item \code{2} get advice
+\item \code{3} both(on own and get advice) depending on problem
+\item \code{4} religious
+\item \code{5} research the problem
+\item \code{6} talk to a doctor other professional
+\item \code{7} talk with older people
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2978/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab both(on own and get advice) depending on problem \tab don't know \tab get advice \tab no answer \tab on own \tab religious \tab research the problem \tab talk to a doctor other professional \tab talk with older people \tab not available in this year \tab Total \cr
@@ -57,29 +82,25 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} on own
-\item \code{2} get advice
-\item \code{3} both(on own and get advice) depending on problem
-\item \code{4} religious
-\item \code{5} research the problem
-\item \code{6} talk to a doctor other professional
-\item \code{7} talk with older people
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Mental Health II: 
+\code{\link{doc15a}},
+\code{\link{doc16a}},
+\code{\link{doc18a}},
+\code{\link{doc19a}},
+\code{\link{doc20a}},
+\code{\link{medaddct}},
+\code{\link{medsymps}},
+\code{\link{medunacc}},
+\code{\link{medweak}}
+}
+\concept{Life Events}
+\concept{Mental Health II}
 \keyword{variable}

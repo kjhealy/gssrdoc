@@ -11,10 +11,33 @@ suinum1
 }
 \details{
 Question Have you known personally two or more people, one person, or no people that that died by suicide over your lifetime?
+PROBE:
+IF R REPORTS NUMBER OF KNOWN SUICIDE VICTIMS=0, ASK: Just to be sure, thinking about anyone you may have known in your lifetime, is there anyone you have known personally that died by suicide?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} one person
+\item \code{2} two or more people
+\item \code{3} no people
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6182/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllll}{
    year \tab iap \tab don't know \tab no people \tab one person \tab not available in this year \tab Total \cr
@@ -57,25 +80,22 @@ Counts by year:\tabular{lllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} one person
-\item \code{2} two or more people
-\item \code{3} no people
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2016 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Suicide: 
+\code{\link{suicide1}},
+\code{\link{suicide2}},
+\code{\link{suicide3}},
+\code{\link{suicide4}},
+\code{\link{suineg1}},
+\code{\link{suinum}},
+\code{\link{suirel1}}
+}
+\concept{Suicide}
 \keyword{variable}

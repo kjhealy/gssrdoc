@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 satdemoc
 }
 \details{
-Question 827. On the whole, are you very satisfied, fairly satisfied, not very satisfied, or not at all satisfied with the way democracy works in the United States?
+Question On the whole, are you very satisfied, fairly satisfied, not very satisfied, or not at all satisfied with the way democracy works in the United States?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very satisfied
+\item \code{2} fairly satisfied
+\item \code{3} not very satisfied
+\item \code{4} not at all satisfied
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2667/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab don't know \tab fairly satisfied \tab no answer \tab not at all satisfied \tab not very satisfied \tab very satisfied \tab not available in this year \tab skipped on web \tab Total \cr
@@ -57,26 +79,27 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very satisfied
-\item \code{2} fairly satisfied
-\item \code{3} not very satisfied
-\item \code{4} not at all satisfied
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
+   2024 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Freedom: 
+\code{\link{choice}},
+\code{\link{freenow}},
+\code{\link{howfree}},
+\code{\link{inpeace}},
+\code{\link{leftlone}},
+\code{\link{nogovt}},
+\code{\link{partpol}},
+\code{\link{rfreenow}},
+\code{\link{rhowfree}}
+}
+\concept{ANES}
+\concept{Freedom}
+\concept{United States}
 \keyword{variable}

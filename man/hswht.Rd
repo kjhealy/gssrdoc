@@ -10,11 +10,37 @@ General Social Survey https://gss.norc.org
 hswht
 }
 \details{
-Question 766a. Was the high school/last school you attended all white, mostly white, about half white and half other races, mostly other races, or all other races?
+Question IF ATTENDED HIGH SCHOOL (EDUC), ASK IN TERMS OF â€œHIGH SCHOOL.â€
+IF LEFT SCHOOL beFORE HIGH SCHOOL, ASK IN TERMS OF â€œTHE LAST SCHOOL YOU ATTENDED.â€
+A. Was the high school/last school you attended all white, mostly white, about half white and half other races, mostly other races, or all other races?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} all white
+\item \code{2} mostly white
+\item \code{3} about half white and half other races
+\item \code{4} mostly other races
+\item \code{5} all other races
+\item \code{6} not all white
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2376/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab about half white and half other races \tab all other races \tab all white \tab mostly other races \tab mostly white \tab no answer \tab not all white \tab not available in this year \tab Total \cr
@@ -57,28 +83,30 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} all white
-\item \code{2} mostly white
-\item \code{3} about half white and half other races
-\item \code{4} mostly other races
-\item \code{5} all other races
-\item \code{6} not all white
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Multi-Ethnic United States: 
+\code{\link{hseth}},
+\code{\link{neieth10}},
+\code{\link{neieth11}},
+\code{\link{neieth12}},
+\code{\link{neieth13}},
+\code{\link{neieth14}}
+
+Other Race: 
+\code{\link{hseth}},
+\code{\link{neieth10}},
+\code{\link{neieth11}},
+\code{\link{neieth12}},
+\code{\link{neieth13}},
+\code{\link{neieth14}}
+}
+\concept{Multi-Ethnic United States}
+\concept{Race}
 \keyword{variable}

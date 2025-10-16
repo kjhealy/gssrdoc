@@ -10,11 +10,39 @@ General Social Survey https://gss.norc.org
 spattend
 }
 \details{
-Question 106c. How often does your (husband/wife) attend religious services?
+Question C. How often does your (husband/wife) attend religious services?
+(USE CATEGORIES AS PROBES, IF NECESSARY.)
 }
+\section{Values}{
+
+\itemize{
+\item \code{0} never
+\item \code{1} lt once a year
+\item \code{2} once a year
+\item \code{3} sevrl times a yr
+\item \code{4} once a month
+\item \code{5} 2-3x a month
+\item \code{6} nrly every week
+\item \code{7} every week
+\item \code{8} more thn once wk
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/297/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllll}{
    year \tab iap \tab 2-3x a month \tab don't know \tab every week \tab lt once a year \tab more thn once wk \tab never \tab nrly every week \tab once a month \tab once a year \tab sevrl times a yr \tab not available in this year \tab Total \cr
@@ -57,31 +85,37 @@ Counts by year:\tabular{llllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{0} never
-\item \code{1} lt once a year
-\item \code{2} once a year
-\item \code{3} sevrl times a yr
-\item \code{4} once a month
-\item \code{5} 2-3x a month
-\item \code{6} nrly every week
-\item \code{7} every week
-\item \code{8} more thn once wk
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1986 \tab -/-/- \tab full \cr
+   1987 \tab -/-/- \tab full \cr
+   1988 \tab A/B/C \tab full \cr
+   1989 \tab A/B/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{attend}},
+\code{\link{fund}},
+\code{\link{jew}},
+\code{\link{jewaj}},
+\code{\link{maattend}},
+\code{\link{paattend}},
+\code{\link{postlife}},
+\code{\link{reliten}},
+\code{\link{relitena}}
+
+Other Religion: 
+\code{\link{attend}},
+\code{\link{fund}},
+\code{\link{jew}},
+\code{\link{maattend}},
+\code{\link{paattend}},
+\code{\link{postlife}},
+\code{\link{reliten}}
+}
+\concept{Core}
+\concept{Religion}
 \keyword{variable}

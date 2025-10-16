@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 religid
 }
 \details{
-Question 1619a. When it comes to your religious identity, would you say you are a fundamentalist, evangelical, mainline, or liberal Protestant or do none of these describe you?
+Question A. When it comes to your religious identity, would you say you are a fundamentalist, evangelical, mainline, or liberal Protestant or do none of these describe you?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} fundamentalist
+\item \code{2} evangelical
+\item \code{3} mainline
+\item \code{4} liberal
+\item \code{5} none
+\item \code{6} other
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5325/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab don't know \tab evangelical \tab fundamentalist \tab liberal \tab mainline \tab no answer \tab none \tab other \tab not available in this year \tab Total \cr
@@ -57,28 +81,35 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} fundamentalist
-\item \code{2} evangelical
-\item \code{3} mainline
-\item \code{4} liberal
-\item \code{5} none
-\item \code{6} other
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
+   1998 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Religious Attendance and Identity: 
+\code{\link{attweek}},
+\code{\link{cathid}},
+\code{\link{charisma}},
+\code{\link{othrel3}},
+\code{\link{relid1}},
+\code{\link{relid2}},
+\code{\link{relid3}},
+\code{\link{relidbst}}
+
+Other Religion: 
+\code{\link{attweek}},
+\code{\link{cathid}},
+\code{\link{charisma}},
+\code{\link{othrel3}},
+\code{\link{relid1}},
+\code{\link{relid2}},
+\code{\link{relid3}},
+\code{\link{relidbst}}
+}
+\concept{Religion}
+\concept{Religious Attendance and Identity}
 \keyword{variable}

@@ -10,11 +10,36 @@ General Social Survey https://gss.norc.org
 comdata
 }
 \details{
-Question 1592. Now I'm going to ask you about several offenses involving the use of a government computer system. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee. b. Intentionally damaging national security data in a computer system.
+Question Now Iâ€™m going to ask you about several offenses involving the use of a government computer system. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee.
+B. Intentionally damaging national security data in a computer system.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} reprimand
+\item \code{2} dismissal from the military/fired by the government
+\item \code{3} one year in prison
+\item \code{4} 5-9 years in prison
+\item \code{5} 10-20 years in prison
+\item \code{6} life in prison
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5238/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab 10-20 years in prison \tab 5-9 years in prison \tab dismissal from the military/fired by the government \tab don't know \tab life in prison \tab no answer \tab one year in prison \tab reprimand \tab not available in this year \tab Total \cr
@@ -57,28 +82,36 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} reprimand
-\item \code{2} dismissal from the military/fired by the government
-\item \code{3} one year in prison
-\item \code{4} 5-9 years in prison
-\item \code{5} 10-20 years in prison
-\item \code{6} life in prison
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other National Security: 
+\code{\link{comemail}},
+\code{\link{comporn}},
+\code{\link{comsnoop}},
+\code{\link{comsteal}},
+\code{\link{comsys}},
+\code{\link{punenmy}},
+\code{\link{punfrnd}},
+\code{\link{punleak}},
+\code{\link{puntrck}}
+
+Other United States: 
+\code{\link{comemail}},
+\code{\link{comporn}},
+\code{\link{comsnoop}},
+\code{\link{comsteal}},
+\code{\link{comsys}},
+\code{\link{punenmy}},
+\code{\link{punfrnd}},
+\code{\link{punleak}},
+\code{\link{puntrck}}
+}
+\concept{National Security}
+\concept{United States}
 \keyword{variable}

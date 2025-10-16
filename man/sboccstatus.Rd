@@ -10,11 +10,37 @@ General Social Survey https://gss.norc.org
 sboccstatus
 }
 \details{
-Question None
+Question SBOCC10 Coding Status
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} found, iap
+\item \code{2} found, no answer
+\item \code{3} found, coded
+\item \code{4} not found, iap
+\item \code{5} not found, no answer
+\item \code{6} not found, coded
+\item \code{7} not found, no code assigned
+\item \code{8} case not collected in 1994
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6021/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab found, coded \tab found, iap \tab found, no answer \tab not found, coded \tab not found, iap \tab not found, no answer \tab not found, no code assigned \tab not available in this year \tab Total \cr
@@ -57,30 +83,23 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} found, iap
-\item \code{2} found, no answer
-\item \code{3} found, coded
-\item \code{4} not found, iap
-\item \code{5} not found, no answer
-\item \code{6} not found, coded
-\item \code{7} not found, no code assigned
-\item \code{8} case not collected in 1994
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Family Mobility: 
+\code{\link{sbind10}},
+\code{\link{sbindstatus}},
+\code{\link{sbindtag}},
+\code{\link{sbocc10}},
+\code{\link{sboccindv}},
+\code{\link{sbocctag}},
+\code{\link{sbpres10}},
+\code{\link{sbpres105plus}}
+}
+\concept{Family Mobility}
 \keyword{variable}

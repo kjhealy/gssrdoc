@@ -10,11 +10,29 @@ General Social Survey https://gss.norc.org
 vislib
 }
 \details{
-Question None
+Question A public library. How many times did you visit a public library during the last year?
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3467/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 0 \tab 1 \tab 10 \tab 100 \tab 104 \tab 106 \tab 11 \tab 12 \tab 120 \tab 13 \tab 14 \tab 15 \tab 150 \tab 156 \tab 16 \tab 18 \tab 2 \tab 20 \tab 200 \tab 208 \tab 24 \tab 25 \tab 250 \tab 26 \tab 27 \tab 3 \tab 30 \tab 300 \tab 35 \tab 36 \tab 4 \tab 40 \tab 42 \tab 44 \tab 48 \tab 5 \tab 50 \tab 52 \tab 6 \tab 62 \tab 7 \tab 70 \tab 75 \tab 8 \tab 9 \tab don't know \tab no answer \tab 23 \tab 45 \tab 46 \tab 58 \tab 60 \tab 65 \tab 72 \tab not available in this year \tab Total \cr
@@ -57,22 +75,32 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2008 \tab A/B/C \tab full \cr
+   2012 \tab B/C/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{intenvir}},
+\code{\link{intmil}},
+\code{\link{intspace}},
+\code{\link{sciintro}},
+\code{\link{scimath}},
+\code{\link{visart}},
+\code{\link{visnhist}},
+\code{\link{vissci}},
+\code{\link{viszoo}}
+
+Other Leisure: 
+\code{\link{visart}},
+\code{\link{visnhist}},
+\code{\link{vissci}},
+\code{\link{viszoo}}
+}
+\concept{Leisure}
+\concept{Science Knowledge & Attitudes}
 \keyword{variable}

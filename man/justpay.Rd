@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 justpay
 }
 \details{
-Question 1269. Given your skills and effort, is your pay:
+Question Given your skills and effort, is your pay:
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} much less than is just
+\item \code{2} a little less than is just
+\item \code{3} about just for me
+\item \code{4} a little more than is just
+\item \code{5} much more than is just
+\item \code{6} never had a job
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4335/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab a little less than is just \tab a little more than is just \tab about just for me \tab can't choose \tab much less than is just \tab much more than is just \tab never had a job \tab no answer \tab not available in this year \tab Total \cr
@@ -57,28 +81,30 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} much less than is just
-\item \code{2} a little less than is just
-\item \code{3} about just for me
-\item \code{4} a little more than is just
-\item \code{5} much more than is just
-\item \code{6} never had a job
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Social Inequality: 
+\code{\link{execrnk}},
+\code{\link{famrnk}},
+\code{\link{pasup}},
+\code{\link{paychild}},
+\code{\link{paydowel}},
+\code{\link{payhard}},
+\code{\link{soctype1}},
+\code{\link{soctype2}},
+\code{\link{unsklrnk}}
+
+Other Income: 
+\code{\link{paychild}},
+\code{\link{paydowel}},
+\code{\link{payhard}}
+}
+\concept{ISSP Social Inequality}
+\concept{Income}
 \keyword{variable}

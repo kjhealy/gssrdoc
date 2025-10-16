@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 relhome
 }
 \details{
-Question 601. Which of the following best describes your relationship to the previous owner of the home you purchased?
+Question Which of the following best describes your relationship to the previous owner of the home you  purchased?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} a relative including in-laws
+\item \code{2} a friend or acquaintance
+\item \code{3} a friend of a friend-relative
+\item \code{4} had previous business dealings
+\item \code{5} no prior relationship
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1816/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab a friend of a friend-relative \tab a friend or acquaintance \tab a relative including in-laws \tab had previous business dealings \tab no answer \tab no prior relationship \tab not available in this year \tab Total \cr
@@ -57,27 +80,36 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} a relative including in-laws
-\item \code{2} a friend or acquaintance
-\item \code{3} a friend of a friend-relative
-\item \code{4} had previous business dealings
-\item \code{5} no prior relationship
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Markets: 
+\code{\link{evbuyhme}},
+\code{\link{homeyear}},
+\code{\link{learnhme}},
+\code{\link{newowned}},
+\code{\link{realtora}},
+\code{\link{realtorb}},
+\code{\link{realtorc}},
+\code{\link{realtord}},
+\code{\link{whosold}}
+
+Other Purchases/Transactions: 
+\code{\link{evbuyhme}},
+\code{\link{homeyear}},
+\code{\link{learnhme}},
+\code{\link{newowned}},
+\code{\link{realtora}},
+\code{\link{realtorb}},
+\code{\link{realtorc}},
+\code{\link{realtord}},
+\code{\link{whosold}}
+}
+\concept{Markets}
+\concept{Purchases/Transactions}
 \keyword{variable}

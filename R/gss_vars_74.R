@@ -1,11 +1,115 @@
+#'  Picketing for labor strike
+#' 
+#'  strike
+#' 
+#' Question Have you ever taken part in: 
+#' A. Picketing for a labor strike?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/653/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |no   |yes |not available in this year |Total |
+#'  |:-----|:-----|:----|:---|:--------------------------|:-----|
+#'  |1972  |1613  |-    |-   |-                          |1613  |
+#'  |1973  |-     |1361 |143 |-                          |1504  |
+#'  |1974  |1484  |-    |-   |-                          |1484  |
+#'  |1975  |1490  |-    |-   |-                          |1490  |
+#'  |1976  |1499  |-    |-   |-                          |1499  |
+#'  |1977  |1530  |-    |-   |-                          |1530  |
+#'  |1978  |1532  |-    |-   |-                          |1532  |
+#'  |1980  |1468  |-    |-   |-                          |1468  |
+#'  |1982  |1860  |-    |-   |-                          |1860  |
+#'  |1983  |1599  |-    |-   |-                          |1599  |
+#'  |1984  |1473  |-    |-   |-                          |1473  |
+#'  |1985  |1534  |-    |-   |-                          |1534  |
+#'  |1986  |1470  |-    |-   |-                          |1470  |
+#'  |1987  |1819  |-    |-   |-                          |1819  |
+#'  |1988  |1481  |-    |-   |-                          |1481  |
+#'  |1989  |1537  |-    |-   |-                          |1537  |
+#'  |1990  |1372  |-    |-   |-                          |1372  |
+#'  |1991  |1517  |-    |-   |-                          |1517  |
+#'  |1993  |1606  |-    |-   |-                          |1606  |
+#'  |1994  |2992  |-    |-   |-                          |2992  |
+#'  |1996  |2904  |-    |-   |-                          |2904  |
+#'  |1998  |2832  |-    |-   |-                          |2832  |
+#'  |2000  |2817  |-    |-   |-                          |2817  |
+#'  |2002  |2765  |-    |-   |-                          |2765  |
+#'  |2004  |2812  |-    |-   |-                          |2812  |
+#'  |2006  |4510  |-    |-   |-                          |4510  |
+#'  |2008  |2023  |-    |-   |-                          |2023  |
+#'  |2010  |2044  |-    |-   |-                          |2044  |
+#'  |2012  |1974  |-    |-   |-                          |1974  |
+#'  |2014  |2538  |-    |-   |-                          |2538  |
+#'  |2016  |2867  |-    |-   |-                          |2867  |
+#'  |2018  |2348  |-    |-   |-                          |2348  |
+#'  |2021  |4032  |-    |-   |-                          |4032  |
+#'  |2022  |-     |-    |-   |3544                       |3544  |
+#'  |2024  |-     |-    |-   |3309                       |3309  |
+#'  |Total |67342 |1361 |143 |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Demonstrations
+#' 
+#' @keywords variable
+#' @md
+#' @name strike
+NULL
+
+
 #'  Civil rights demonstration
 #' 
 #'  civright
 #' 
-#' Question 228 Have you ever taken part in: b. A civil rights demonstration?
+#' Question Have you ever taken part in: 
+#' B. A civil rights demonstration?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/654/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +152,30 @@
 #'  |2024  |-     |-          |-    |-   |3309                       |3309  |
 #'  |Total |67342 |2          |1437 |65  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Demonstrations
+#' 
+#' @keywords variable
+#' @md
+#' @name civright
+NULL
+
+
+#'  Anti-war demonstration
+#' 
+#'  antiwar
+#' 
+#' Question Have you ever taken part in: 
+#' C. An anti-war demonstration?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -65,22 +193,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name civright
-NULL
-
-#'  Anti-war demonstration
-#' 
-#'  antiwar
-#' 
-#' Question 228 Have you ever taken part in: c. An anti-war demonstration?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/655/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,6 +237,30 @@ NULL
 #'  |2024  |-     |-          |-    |-   |3309                       |3309  |
 #'  |Total |67342 |1          |1430 |73  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Demonstrations
+#' 
+#' @keywords variable
+#' @md
+#' @name antiwar
+NULL
+
+
+#'  Pro-war demonstration
+#' 
+#'  prowar
+#' 
+#' Question Have you ever taken part in: 
+#' D. A pro-war demonstration?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -140,22 +278,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name antiwar
-NULL
-
-#'  Pro-war demonstration
-#' 
-#'  prowar
-#' 
-#' Question 228 Have you ever taken part in: d. A pro-war demonstration?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/656/vshow).
 #'
 #' Counts by year: 
 #'
@@ -198,6 +322,30 @@ NULL
 #'  |2024  |-     |-    |-   |3309                       |3309  |
 #'  |Total |67342 |1498 |6   |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Demonstrations
+#' 
+#' @keywords variable
+#' @md
+#' @name prowar
+NULL
+
+
+#'  School related demonstration
+#' 
+#'  school
+#' 
+#' Question Have you ever taken part in: 
+#' E. A school related demonstration?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -215,22 +363,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name prowar
-NULL
-
-#'  School related demonstration
-#' 
-#'  school
-#' 
-#' Question 228 Have you ever taken part in: e. A school related demonstration?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/657/vshow).
 #'
 #' Counts by year: 
 #'
@@ -273,6 +407,29 @@ NULL
 #'  |2024  |-     |-          |-    |-   |3309                       |3309  |
 #'  |Total |67342 |1          |1424 |79  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Demonstrations
+#' 
+#' @keywords variable
+#' @md
+#' @name school
+NULL
+
+
+#'  Ever punched or beaten by another person
+#' 
+#'  hit
+#' 
+#' Question Have you ever been punched or beaten by another person?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -290,22 +447,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name school
-NULL
-
-#'  Ever punched or beaten by another person
-#' 
-#'  hit
-#' 
-#' Question 229. Have you ever been punched or beaten by another person?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/658/vshow).
 #'
 #' Counts by year: 
 #'
@@ -348,10 +491,49 @@ NULL
 #'  |2024  |-     |-          |-     |-    |-         |3309                       |3309  |
 #'  |Total |49476 |8          |12526 |6818 |18        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Violence
+#' 
+#' @keywords variable
+#' @md
+#' @name hit
+NULL
+
+
+#'  Beaten as child or adult
+#' 
+#'  hitage
+#' 
+#' Question Have you ever been punched or beaten by another person? 
+#' A. Did this happen to you as a child or as an adult?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` child
+#'   * `2` adult
+#'   * `3` both
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -365,22 +547,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hit
-NULL
-
-#'  Beaten as child or adult
-#' 
-#'  hitage
-#' 
-#' Question 229a. If yes: Did this happen to you as a child or as an adult?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/659/vshow).
 #'
 #' Counts by year: 
 #'
@@ -423,11 +591,50 @@ NULL
 #'  |2024  |-     |-     |-    |-     |-         |-          |3309                       |3309  |
 #'  |Total |62010 |2402  |1538 |2849  |39        |8          |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Violence
+#' 
+#' @keywords variable
+#' @md
+#' @name hitage
+NULL
+
+
+#'  If beaten--how many times
+#' 
+#'  hitnum
+#' 
+#' Question Have you ever been punched or beaten by another person? 
+#' B. How many times would you guess this has happened to you?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` child
-#'   * `2` adult
-#'   * `3` both
+#'   * `1` once
+#'   * `2` 2-3 times
+#'   * `3` 4+ times
+#'   * `8` not sure
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -441,22 +648,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hitage
-NULL
-
-#'  If beaten--how many times
-#' 
-#'  hitnum
-#' 
-#' Question 229b. How many times would you guess this has happened to you?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/660/vshow).
 #'
 #' Counts by year: 
 #'
@@ -499,12 +692,39 @@ NULL
 #'  |2024  |-     |-         |-        |-          |-         |-    |3309                       |3309  |
 #'  |Total |65191 |1215      |1453     |189        |29        |769  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-       |full         |
+#'  |1975 |-       |full         |
+#'  |1976 |-       |full         |
+#'  |1978 |-       |full         |
+#'  |1980 |-       |full         |
+#'  |1983 |-       |full         |
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Violence
+#' 
+#' @keywords variable
+#' @md
+#' @name hitnum
+NULL
+
+
+#'  Ever threatened with gun or shot at
+#' 
+#'  gun
+#' 
+#' Question Have you ever been threatened with a gun, or shot at?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` once
-#'   * `2` 2-3 times
-#'   * `3` 4+ times
-#'   * `8` not sure
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -518,22 +738,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hitnum
-NULL
-
-#'  Ever threatened with gun or shot at
-#' 
-#'  gun
-#' 
-#' Question 230. Have you ever been threatened with a gun, or shot at?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/661/vshow).
 #'
 #' Counts by year: 
 #'
@@ -576,10 +782,49 @@ NULL
 #'  |2024  |-     |-     |-         |-    |-          |3309                       |3309  |
 #'  |Total |49476 |15553 |30        |3775 |12         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Guns
+#' 
+#' @keywords variable
+#' @md
+#' @name gun
+NULL
+
+
+#'  Threatened or shot at as child or adult
+#' 
+#'  gunage
+#' 
+#' Question Have you ever been threatened with a gun, or shot at? 
+#' A. Did this happen to you as a child or as an adult?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` child
+#'   * `2` adult
+#'   * `3` both
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -593,22 +838,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name gun
-NULL
-
-#'  Threatened or shot at as child or adult
-#' 
-#'  gunage
-#' 
-#' Question 230a. If yes: Did this happen to you as a child or as an adult?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/662/vshow).
 #'
 #' Counts by year: 
 #'
@@ -651,106 +882,33 @@ NULL
 #'  |2024  |-     |-     |-    |-     |-          |-         |3309                       |3309  |
 #'  |Total |65043 |3073  |172  |503   |4          |51        |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` child
-#'   * `2` adult
-#'   * `3` both
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Guns
 #' 
 #' @keywords variable
 #' @md
 #' @name gunage
 NULL
 
-#'  If threatened or shot at--how many times
-#' 
-#'  gunnum
-#' 
-#' Question 230b. How many times would you guess this has happened to you?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |2-3 times |4+ times |don't know |no answer |once |not available in this year |Total |
-#'  |:-----|:-----|:---------|:--------|:----------|:---------|:----|:--------------------------|:-----|
-#'  |1972  |1613  |-         |-        |-          |-         |-    |-                          |1613  |
-#'  |1973  |1258  |47        |38       |11         |6         |144  |-                          |1504  |
-#'  |1974  |1484  |-         |-        |-          |-         |-    |-                          |1484  |
-#'  |1975  |1230  |62        |35       |12         |9         |142  |-                          |1490  |
-#'  |1976  |1242  |65        |52       |4          |2         |134  |-                          |1499  |
-#'  |1977  |1530  |-         |-        |-          |-         |-    |-                          |1530  |
-#'  |1978  |1221  |71        |40       |11         |2         |187  |-                          |1532  |
-#'  |1980  |1157  |75        |50       |10         |3         |173  |-                          |1468  |
-#'  |1982  |1860  |-         |-        |-          |-         |-    |-                          |1860  |
-#'  |1983  |1272  |86        |52       |6          |3         |180  |-                          |1599  |
-#'  |1984  |1181  |62        |52       |6          |2         |170  |-                          |1473  |
-#'  |1985  |1534  |-         |-        |-          |-         |-    |-                          |1534  |
-#'  |1986  |1470  |-         |-        |-          |-         |-    |-                          |1470  |
-#'  |1987  |1819  |-         |-        |-          |-         |-    |-                          |1819  |
-#'  |1988  |1481  |-         |-        |-          |-         |-    |-                          |1481  |
-#'  |1989  |1537  |-         |-        |-          |-         |-    |-                          |1537  |
-#'  |1990  |1372  |-         |-        |-          |-         |-    |-                          |1372  |
-#'  |1991  |1517  |-         |-        |-          |-         |-    |-                          |1517  |
-#'  |1993  |1606  |-         |-        |-          |-         |-    |-                          |1606  |
-#'  |1994  |2992  |-         |-        |-          |-         |-    |-                          |2992  |
-#'  |1996  |2904  |-         |-        |-          |-         |-    |-                          |2904  |
-#'  |1998  |2832  |-         |-        |-          |-         |-    |-                          |2832  |
-#'  |2000  |2817  |-         |-        |-          |-         |-    |-                          |2817  |
-#'  |2002  |2765  |-         |-        |-          |-         |-    |-                          |2765  |
-#'  |2004  |2812  |-         |-        |-          |-         |-    |-                          |2812  |
-#'  |2006  |4510  |-         |-        |-          |-         |-    |-                          |4510  |
-#'  |2008  |2023  |-         |-        |-          |-         |-    |-                          |2023  |
-#'  |2010  |2044  |-         |-        |-          |-         |-    |-                          |2044  |
-#'  |2012  |1974  |-         |-        |-          |-         |-    |-                          |1974  |
-#'  |2014  |2538  |-         |-        |-          |-         |-    |-                          |2538  |
-#'  |2016  |2867  |-         |-        |-          |-         |-    |-                          |2867  |
-#'  |2018  |2348  |-         |-        |-          |-         |-    |-                          |2348  |
-#'  |2021  |4032  |-         |-        |-          |-         |-    |-                          |4032  |
-#'  |2022  |-     |-         |-        |-          |-         |-    |3544                       |3544  |
-#'  |2024  |-     |-         |-        |-          |-         |-    |3309                       |3309  |
-#'  |Total |66842 |468       |319      |60         |27        |1130 |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` once
-#'   * `2` 2-3 times
-#'   * `3` 4+ times
-#'   * `8` not sure
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name gunnum
-NULL
 

@@ -1,11 +1,226 @@
+#'  Does r own or rent home?
+#' 
+#'  dwelown
+#' 
+#' Question (Do you/Does your family) own your (home/apartment), pay rent, or what?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` own or is buying
+#'   * `2` pays rent
+#'   * `3` other
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5294/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |no answer |other |own or is buying |pays rent |don't know |skipped on web |Total |
+#'  |:-----|:-----|:---------|:-----|:----------------|:---------|:----------|:--------------|:-----|
+#'  |1972  |1613  |-         |-     |-                |-         |-          |-              |1613  |
+#'  |1973  |1504  |-         |-     |-                |-         |-          |-              |1504  |
+#'  |1974  |1484  |-         |-     |-                |-         |-          |-              |1484  |
+#'  |1975  |1490  |-         |-     |-                |-         |-          |-              |1490  |
+#'  |1976  |1499  |-         |-     |-                |-         |-          |-              |1499  |
+#'  |1977  |1530  |-         |-     |-                |-         |-          |-              |1530  |
+#'  |1978  |1532  |-         |-     |-                |-         |-          |-              |1532  |
+#'  |1980  |1468  |-         |-     |-                |-         |-          |-              |1468  |
+#'  |1982  |1860  |-         |-     |-                |-         |-          |-              |1860  |
+#'  |1983  |1599  |-         |-     |-                |-         |-          |-              |1599  |
+#'  |1984  |1473  |-         |-     |-                |-         |-          |-              |1473  |
+#'  |1985  |-     |11        |25    |947              |551       |-          |-              |1534  |
+#'  |1986  |-     |25        |26    |921              |497       |1          |-              |1470  |
+#'  |1987  |-     |11        |38    |1102             |667       |1          |-              |1819  |
+#'  |1988  |493   |32        |13    |612              |331       |-          |-              |1481  |
+#'  |1989  |531   |26        |28    |634              |318       |-          |-              |1537  |
+#'  |1990  |449   |39        |30    |557              |297       |-          |-              |1372  |
+#'  |1991  |493   |51        |16    |633              |324       |-          |-              |1517  |
+#'  |1993  |526   |4         |29    |710              |337       |-          |-              |1606  |
+#'  |1994  |1015  |33        |49    |1222             |673       |-          |-              |2992  |
+#'  |1996  |944   |66        |50    |1165             |679       |-          |-              |2904  |
+#'  |1998  |961   |5         |40    |1159             |666       |1          |-              |2832  |
+#'  |2000  |946   |63        |19    |1101             |686       |2          |-              |2817  |
+#'  |2002  |1857  |1         |23    |540              |341       |3          |-              |2765  |
+#'  |2004  |1906  |1         |28    |609              |268       |-          |-              |2812  |
+#'  |2006  |2518  |3         |35    |1318             |634       |2          |-              |4510  |
+#'  |2008  |694   |2         |22    |889              |416       |-          |-              |2023  |
+#'  |2010  |614   |5         |26    |874              |524       |1          |-              |2044  |
+#'  |2012  |672   |5         |16    |808              |473       |-          |-              |1974  |
+#'  |2014  |863   |4         |25    |1035             |610       |1          |-              |2538  |
+#'  |2016  |981   |5         |30    |1127             |724       |-          |-              |2867  |
+#'  |2018  |789   |6         |25    |939              |588       |1          |-              |2348  |
+#'  |2021  |1367  |-         |33    |1821             |791       |3          |17             |4032  |
+#'  |2022  |1174  |4         |64    |1420             |878       |1          |3              |3544  |
+#'  |2024  |1126  |13        |13    |1323             |816       |5          |13             |3309  |
+#'  |Total |37971 |415       |703   |23466            |13089     |22         |33             |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#'  |1996 |A/B     |partial      |
+#'  |1998 |A/B     |partial      |
+#'  |2000 |A/B     |partial      |
+#'  |2002 |A/B     |partial      |
+#'  |2004 |A/B     |partial      |
+#'  |2006 |A/B     |partial      |
+#'  |2008 |A/B     |partial      |
+#'  |2010 |A/B     |partial      |
+#'  |2012 |A/B     |partial      |
+#'  |2014 |A/B     |partial      |
+#'  |2016 |A/B     |partial      |
+#'  |2018 |A/B     |partial      |
+#'  |2021 |A/B     |partial      |
+#'  |2022 |A/B     |partial      |
+#'  |2024 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Residence
+#' @family Dwelling (R's)
+#' 
+#' @keywords variable
+#' @md
+#' @name dwelown
+NULL
+
+
+#'  Did rs family own or rent home when r was age 16
+#' 
+#'  dwelown16
+#' 
+#' Question When you were 16 years old, did your family own your own home, pay rent, or something else?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` owned or was buying
+#'   * `2` paid rent
+#'   * `3` other
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7299/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no answer |other |owned or was buying |paid rent |skipped on web |Total |
+#'  |:-----|:-----|:----------|:---------|:-----|:-------------------|:---------|:--------------|:-----|
+#'  |1972  |1613  |-          |-         |-     |-                   |-         |-              |1613  |
+#'  |1973  |1504  |-          |-         |-     |-                   |-         |-              |1504  |
+#'  |1974  |1484  |-          |-         |-     |-                   |-         |-              |1484  |
+#'  |1975  |1490  |-          |-         |-     |-                   |-         |-              |1490  |
+#'  |1976  |1499  |-          |-         |-     |-                   |-         |-              |1499  |
+#'  |1977  |1530  |-          |-         |-     |-                   |-         |-              |1530  |
+#'  |1978  |1532  |-          |-         |-     |-                   |-         |-              |1532  |
+#'  |1980  |1468  |-          |-         |-     |-                   |-         |-              |1468  |
+#'  |1982  |1860  |-          |-         |-     |-                   |-         |-              |1860  |
+#'  |1983  |1599  |-          |-         |-     |-                   |-         |-              |1599  |
+#'  |1984  |1473  |-          |-         |-     |-                   |-         |-              |1473  |
+#'  |1985  |1534  |-          |-         |-     |-                   |-         |-              |1534  |
+#'  |1986  |1470  |-          |-         |-     |-                   |-         |-              |1470  |
+#'  |1987  |1819  |-          |-         |-     |-                   |-         |-              |1819  |
+#'  |1988  |1481  |-          |-         |-     |-                   |-         |-              |1481  |
+#'  |1989  |1537  |-          |-         |-     |-                   |-         |-              |1537  |
+#'  |1990  |1372  |-          |-         |-     |-                   |-         |-              |1372  |
+#'  |1991  |1517  |-          |-         |-     |-                   |-         |-              |1517  |
+#'  |1993  |1606  |-          |-         |-     |-                   |-         |-              |1606  |
+#'  |1994  |2992  |-          |-         |-     |-                   |-         |-              |2992  |
+#'  |1996  |2904  |-          |-         |-     |-                   |-         |-              |2904  |
+#'  |1998  |2832  |-          |-         |-     |-                   |-         |-              |2832  |
+#'  |2000  |2817  |-          |-         |-     |-                   |-         |-              |2817  |
+#'  |2002  |2765  |-          |-         |-     |-                   |-         |-              |2765  |
+#'  |2004  |2812  |-          |-         |-     |-                   |-         |-              |2812  |
+#'  |2006  |4510  |-          |-         |-     |-                   |-         |-              |4510  |
+#'  |2008  |2023  |-          |-         |-     |-                   |-         |-              |2023  |
+#'  |2010  |2044  |-          |-         |-     |-                   |-         |-              |2044  |
+#'  |2012  |1974  |-          |-         |-     |-                   |-         |-              |1974  |
+#'  |2014  |2538  |-          |-         |-     |-                   |-         |-              |2538  |
+#'  |2016  |2867  |-          |-         |-     |-                   |-         |-              |2867  |
+#'  |2018  |789   |7          |2         |28    |1133                |389       |-              |2348  |
+#'  |2021  |1367  |7          |-         |34    |2007                |595       |22             |4032  |
+#'  |2022  |1174  |16         |3         |53    |1673                |624       |1              |3544  |
+#'  |2024  |1126  |26         |12        |22    |1563                |546       |14             |3309  |
+#'  |Total |66922 |56         |17        |137   |6376                |2154      |37             |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |A/B     |partial      |
+#'  |2021 |A/B     |partial      |
+#'  |2022 |A/B     |partial      |
+#'  |2024 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name dwelown16
+NULL
+
+
 #'  Word a
 #' 
 #'  worda
 #' 
-#' Question 1612. We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone just give me your best guess if you are not sure of the answer.
+#' Question We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters -- like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone -- just give me your best guess if you are not sure of the answer. CIRCLE ONE CODE NUMBER FOR EACH ITEM BELOW.
+#' A. Word A
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` incorrect answer
+#'   * `1` correct answer
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5295/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +263,55 @@
 #'  |2024  |2235  |788            |254              |32        |-                          |3309  |
 #'  |Total |36017 |27545          |5893             |2212      |4032                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/-   |partial      |
+#'  |1989 |A/B/-   |partial      |
+#'  |1990 |A/B/-   |partial      |
+#'  |1991 |A/B/-   |partial      |
+#'  |1993 |A/B/-   |partial      |
+#'  |1994 |A/B/-   |partial      |
+#'  |1996 |A/B/-   |partial      |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/-   |partial      |
+#'  |2010 |A/B/-   |partial      |
+#'  |2012 |A/B/-   |partial      |
+#'  |2014 |A/B/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'  |2022 |A/B/-   |partial      |
+#'  |2024 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Vocabulary
+#' @family Knowledge
+#' @family Vocabulary Test
+#' 
+#' @keywords variable
+#' @md
+#' @name worda
+NULL
+
+
+#'  Word b
+#' 
+#'  wordb
+#' 
+#' Question We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters -- like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone -- just give me your best guess if you are not sure of the answer. CIRCLE ONE CODE NUMBER FOR EACH ITEM BELOW.
+#' B. Word B
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` incorrect answer
@@ -65,22 +329,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name worda
-NULL
-
-#'  Word b
-#' 
-#'  wordb
-#' 
-#' Question 1612. We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone just give me your best guess if you are not sure of the answer.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5296/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,6 +373,55 @@ NULL
 #'  |2024  |1126  |1907           |194              |82        |-                          |3309  |
 #'  |Total |33709 |33008          |2420             |2530      |4032                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/-   |partial      |
+#'  |1989 |A/B/-   |partial      |
+#'  |1990 |A/B/-   |partial      |
+#'  |1991 |A/B/-   |partial      |
+#'  |1993 |A/B/-   |partial      |
+#'  |1994 |A/B/-   |partial      |
+#'  |1996 |A/B/-   |partial      |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/-   |partial      |
+#'  |2010 |A/B/-   |partial      |
+#'  |2012 |A/B/-   |partial      |
+#'  |2014 |A/B/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'  |2022 |A/B/-   |partial      |
+#'  |2024 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Vocabulary
+#' @family Knowledge
+#' @family Vocabulary Test
+#' 
+#' @keywords variable
+#' @md
+#' @name wordb
+NULL
+
+
+#'  Word c
+#' 
+#'  wordc
+#' 
+#' Question We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters -- like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone -- just give me your best guess if you are not sure of the answer. CIRCLE ONE CODE NUMBER FOR EACH ITEM BELOW.
+#' C. Word C
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` incorrect answer
@@ -140,22 +439,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wordb
-NULL
-
-#'  Word c
-#' 
-#'  wordc
-#' 
-#' Question 1612. We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone just give me your best guess if you are not sure of the answer.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5297/vshow).
 #'
 #' Counts by year: 
 #'
@@ -198,6 +483,55 @@ NULL
 #'  |2024  |1126  |450            |1472             |261       |-                          |3309  |
 #'  |Total |33709 |7649           |22119            |8190      |4032                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/-   |partial      |
+#'  |1989 |A/B/-   |partial      |
+#'  |1990 |A/B/-   |partial      |
+#'  |1991 |A/B/-   |partial      |
+#'  |1993 |A/B/-   |partial      |
+#'  |1994 |A/B/-   |partial      |
+#'  |1996 |A/B/-   |partial      |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/-   |partial      |
+#'  |2010 |A/B/-   |partial      |
+#'  |2012 |A/B/-   |partial      |
+#'  |2014 |A/B/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'  |2022 |A/B/-   |partial      |
+#'  |2024 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Vocabulary
+#' @family Knowledge
+#' @family Vocabulary Test
+#' 
+#' @keywords variable
+#' @md
+#' @name wordc
+NULL
+
+
+#'  Word d
+#' 
+#'  wordd
+#' 
+#' Question We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters -- like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone -- just give me your best guess if you are not sure of the answer. CIRCLE ONE CODE NUMBER FOR EACH ITEM BELOW.
+#' D. Word D
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` incorrect answer
@@ -215,22 +549,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wordc
-NULL
-
-#'  Word d
-#' 
-#'  wordd
-#' 
-#' Question 1612. We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone just give me your best guess if you are not sure of the answer.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5298/vshow).
 #'
 #' Counts by year: 
 #'
@@ -273,6 +593,55 @@ NULL
 #'  |2024  |1126  |2053           |81               |49        |-                          |3309  |
 #'  |Total |33709 |33924          |1817             |2217      |4032                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/-   |partial      |
+#'  |1989 |A/B/-   |partial      |
+#'  |1990 |A/B/-   |partial      |
+#'  |1991 |A/B/-   |partial      |
+#'  |1993 |A/B/-   |partial      |
+#'  |1994 |A/B/-   |partial      |
+#'  |1996 |A/B/-   |partial      |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/-   |partial      |
+#'  |2010 |A/B/-   |partial      |
+#'  |2012 |A/B/-   |partial      |
+#'  |2014 |A/B/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'  |2022 |A/B/-   |partial      |
+#'  |2024 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Vocabulary
+#' @family Knowledge
+#' @family Vocabulary Test
+#' 
+#' @keywords variable
+#' @md
+#' @name wordd
+NULL
+
+
+#'  Word e
+#' 
+#'  worde
+#' 
+#' Question We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters -- like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone -- just give me your best guess if you are not sure of the answer. CIRCLE ONE CODE NUMBER FOR EACH ITEM BELOW.
+#' E. Word E
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` incorrect answer
@@ -290,22 +659,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wordd
-NULL
-
-#'  Word e
-#' 
-#'  worde
-#' 
-#' Question 1612. We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone just give me your best guess if you are not sure of the answer.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5299/vshow).
 #'
 #' Counts by year: 
 #'
@@ -348,6 +703,55 @@ NULL
 #'  |2024  |1126  |1741           |366              |76        |-                          |3309  |
 #'  |Total |33709 |27390          |6922             |3646      |4032                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/-   |partial      |
+#'  |1989 |A/B/-   |partial      |
+#'  |1990 |A/B/-   |partial      |
+#'  |1991 |A/B/-   |partial      |
+#'  |1993 |A/B/-   |partial      |
+#'  |1994 |A/B/-   |partial      |
+#'  |1996 |A/B/-   |partial      |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/-   |partial      |
+#'  |2010 |A/B/-   |partial      |
+#'  |2012 |A/B/-   |partial      |
+#'  |2014 |A/B/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'  |2022 |A/B/-   |partial      |
+#'  |2024 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Vocabulary
+#' @family Knowledge
+#' @family Vocabulary Test
+#' 
+#' @keywords variable
+#' @md
+#' @name worde
+NULL
+
+
+#'  Word f
+#' 
+#'  wordf
+#' 
+#' Question We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters -- like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone -- just give me your best guess if you are not sure of the answer. CIRCLE ONE CODE NUMBER FOR EACH ITEM BELOW.
+#' F. Word F
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` incorrect answer
@@ -365,22 +769,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name worde
-NULL
-
-#'  Word f
-#' 
-#'  wordf
-#' 
-#' Question 1612. We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone just give me your best guess if you are not sure of the answer.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5300/vshow).
 #'
 #' Counts by year: 
 #'
@@ -423,6 +813,55 @@ NULL
 #'  |2024  |1126  |1812           |269              |102       |-                          |3309  |
 #'  |Total |33709 |28493          |6030             |3435      |4032                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/-   |partial      |
+#'  |1989 |A/B/-   |partial      |
+#'  |1990 |A/B/-   |partial      |
+#'  |1991 |A/B/-   |partial      |
+#'  |1993 |A/B/-   |partial      |
+#'  |1994 |A/B/-   |partial      |
+#'  |1996 |A/B/-   |partial      |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/-   |partial      |
+#'  |2010 |A/B/-   |partial      |
+#'  |2012 |A/B/-   |partial      |
+#'  |2014 |A/B/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'  |2022 |A/B/-   |partial      |
+#'  |2024 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Vocabulary
+#' @family Knowledge
+#' @family Vocabulary Test
+#' 
+#' @keywords variable
+#' @md
+#' @name wordf
+NULL
+
+
+#'  Word g
+#' 
+#'  wordg
+#' 
+#' Question We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters -- like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone -- just give me your best guess if you are not sure of the answer. CIRCLE ONE CODE NUMBER FOR EACH ITEM BELOW.
+#' G. Word G
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` incorrect answer
@@ -440,22 +879,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wordf
-NULL
-
-#'  Word g
-#' 
-#'  wordg
-#' 
-#' Question 1612. We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone just give me your best guess if you are not sure of the answer.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5301/vshow).
 #'
 #' Counts by year: 
 #'
@@ -498,6 +923,55 @@ NULL
 #'  |2024  |2235  |377            |628              |69        |-                          |3309  |
 #'  |Total |36017 |11240          |19693            |4717      |4032                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/-   |partial      |
+#'  |1989 |A/B/-   |partial      |
+#'  |1990 |A/B/-   |partial      |
+#'  |1991 |A/B/-   |partial      |
+#'  |1993 |A/B/-   |partial      |
+#'  |1994 |A/B/-   |partial      |
+#'  |1996 |A/B/-   |partial      |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/-   |partial      |
+#'  |2010 |A/B/-   |partial      |
+#'  |2012 |A/B/-   |partial      |
+#'  |2014 |A/B/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'  |2022 |A/B/-   |partial      |
+#'  |2024 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Vocabulary
+#' @family Knowledge
+#' @family Vocabulary Test
+#' 
+#' @keywords variable
+#' @md
+#' @name wordg
+NULL
+
+
+#'  Word h
+#' 
+#'  wordh
+#' 
+#' Question We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters -- like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone -- just give me your best guess if you are not sure of the answer. CIRCLE ONE CODE NUMBER FOR EACH ITEM BELOW.
+#' H. Word H
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` incorrect answer
@@ -515,22 +989,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wordg
-NULL
-
-#'  Word h
-#' 
-#'  wordh
-#' 
-#' Question 1612. We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone just give me your best guess if you are not sure of the answer.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5302/vshow).
 #'
 #' Counts by year: 
 #'
@@ -573,178 +1033,44 @@ NULL
 #'  |2024  |1126  |799            |1085             |299       |-                          |3309  |
 #'  |Total |33710 |11226          |18438            |8293      |4032                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `0` incorrect answer
-#'   * `1` correct answer
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/-   |partial      |
+#'  |1989 |A/B/-   |partial      |
+#'  |1990 |A/B/-   |partial      |
+#'  |1991 |A/B/-   |partial      |
+#'  |1993 |A/B/-   |partial      |
+#'  |1994 |A/B/-   |partial      |
+#'  |1996 |A/B/-   |partial      |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/-   |partial      |
+#'  |2010 |A/B/-   |partial      |
+#'  |2012 |A/B/-   |partial      |
+#'  |2014 |A/B/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'  |2022 |A/B/-   |partial      |
+#'  |2024 |A/B/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Vocabulary
+#' @family Knowledge
+#' @family Vocabulary Test
 #' 
 #' @keywords variable
 #' @md
 #' @name wordh
 NULL
 
-#'  Word i
-#' 
-#'  wordi
-#' 
-#' Question 1612. We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone just give me your best guess if you are not sure of the answer.
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |correct answer |incorrect answer |no answer |not available in this year |Total |
-#'  |:-----|:-----|:--------------|:----------------|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-              |-                |-         |-                          |1613  |
-#'  |1973  |1504  |-              |-                |-         |-                          |1504  |
-#'  |1974  |-     |1118           |296              |70        |-                          |1484  |
-#'  |1975  |1490  |-              |-                |-         |-                          |1490  |
-#'  |1976  |-     |1158           |248              |93        |-                          |1499  |
-#'  |1977  |1530  |-              |-                |-         |-                          |1530  |
-#'  |1978  |-     |1201           |252              |79        |-                          |1532  |
-#'  |1980  |1468  |-              |-                |-         |-                          |1468  |
-#'  |1982  |-     |1251           |433              |176       |-                          |1860  |
-#'  |1983  |1599  |-              |-                |-         |-                          |1599  |
-#'  |1984  |-     |1087           |287              |99        |-                          |1473  |
-#'  |1985  |1534  |-              |-                |-         |-                          |1534  |
-#'  |1986  |1470  |-              |-                |-         |-                          |1470  |
-#'  |1987  |-     |1228           |391              |200       |-                          |1819  |
-#'  |1988  |493   |672            |224              |92        |-                          |1481  |
-#'  |1989  |531   |730            |206              |70        |-                          |1537  |
-#'  |1990  |444   |642            |185              |101       |-                          |1372  |
-#'  |1991  |493   |747            |187              |90        |-                          |1517  |
-#'  |1993  |526   |786            |211              |83        |-                          |1606  |
-#'  |1994  |1015  |1414           |390              |173       |-                          |2992  |
-#'  |1996  |944   |1425           |401              |134       |-                          |2904  |
-#'  |1998  |1445  |1018           |244              |125       |-                          |2832  |
-#'  |2000  |1398  |969            |289              |161       |-                          |2817  |
-#'  |2002  |2765  |-              |-                |-         |-                          |2765  |
-#'  |2004  |1340  |1094           |327              |51        |-                          |2812  |
-#'  |2006  |3041  |1018           |337              |114       |-                          |4510  |
-#'  |2008  |845   |848            |289              |41        |-                          |2023  |
-#'  |2010  |614   |1033           |334              |63        |-                          |2044  |
-#'  |2012  |672   |953            |301              |48        |-                          |1974  |
-#'  |2014  |863   |1230           |404              |41        |-                          |2538  |
-#'  |2016  |979   |1381           |464              |43        |-                          |2867  |
-#'  |2018  |789   |1115           |417              |27        |-                          |2348  |
-#'  |2021  |-     |-              |-                |-         |4032                       |4032  |
-#'  |2022  |2378  |861            |261              |44        |-                          |3544  |
-#'  |2024  |2235  |805            |243              |26        |-                          |3309  |
-#'  |Total |36018 |25784          |7621             |2244      |4032                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `0` incorrect answer
-#'   * `1` correct answer
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wordi
-NULL
-
-#'  Word j
-#' 
-#'  wordj
-#' 
-#' Question 1612. We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone just give me your best guess if you are not sure of the answer.
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |correct answer |incorrect answer |no answer |not available in this year |Total |
-#'  |:-----|:-----|:--------------|:----------------|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-              |-                |-         |-                          |1613  |
-#'  |1973  |1504  |-              |-                |-         |-                          |1504  |
-#'  |1974  |-     |340            |1039             |105       |-                          |1484  |
-#'  |1975  |1490  |-              |-                |-         |-                          |1490  |
-#'  |1976  |-     |329            |1022             |148       |-                          |1499  |
-#'  |1977  |1530  |-              |-                |-         |-                          |1530  |
-#'  |1978  |-     |336            |1073             |123       |-                          |1532  |
-#'  |1980  |1468  |-              |-                |-         |-                          |1468  |
-#'  |1982  |-     |343            |1257             |260       |-                          |1860  |
-#'  |1983  |1599  |-              |-                |-         |-                          |1599  |
-#'  |1984  |-     |297            |1018             |158       |-                          |1473  |
-#'  |1985  |1534  |-              |-                |-         |-                          |1534  |
-#'  |1986  |1470  |-              |-                |-         |-                          |1470  |
-#'  |1987  |-     |343            |1188             |288       |-                          |1819  |
-#'  |1988  |493   |180            |669              |139       |-                          |1481  |
-#'  |1989  |531   |225            |659              |122       |-                          |1537  |
-#'  |1990  |444   |226            |534              |168       |-                          |1372  |
-#'  |1991  |493   |214            |667              |143       |-                          |1517  |
-#'  |1993  |526   |250            |692              |138       |-                          |1606  |
-#'  |1994  |1015  |431            |1276             |270       |-                          |2992  |
-#'  |1996  |944   |456            |1225             |279       |-                          |2904  |
-#'  |1998  |1445  |355            |793              |239       |-                          |2832  |
-#'  |2000  |1398  |297            |858              |264       |-                          |2817  |
-#'  |2002  |2765  |-              |-                |-         |-                          |2765  |
-#'  |2004  |1340  |397            |993              |82        |-                          |2812  |
-#'  |2006  |3041  |357            |937              |175       |-                          |4510  |
-#'  |2008  |845   |274            |812              |92        |-                          |2023  |
-#'  |2010  |614   |345            |979              |106       |-                          |2044  |
-#'  |2012  |672   |311            |895              |96        |-                          |1974  |
-#'  |2014  |863   |414            |1183             |78        |-                          |2538  |
-#'  |2016  |979   |496            |1320             |72        |-                          |2867  |
-#'  |2018  |789   |409            |1099             |51        |-                          |2348  |
-#'  |2021  |-     |-              |-                |-         |4032                       |4032  |
-#'  |2022  |1179  |838            |1384             |143       |-                          |3544  |
-#'  |2024  |1126  |837            |1245             |101       |-                          |3309  |
-#'  |Total |33710 |9300           |24817            |3840      |4032                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `0` incorrect answer
-#'   * `1` correct answer
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wordj
-NULL
 

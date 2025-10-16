@@ -1,11 +1,143 @@
+#'  Allow homosexual to speak
+#' 
+#'  spkhomo
+#' 
+#' Question And what about a man who admits that he is a homosexual? 
+#' A. Suppose this admitted homosexual wanted to make a speech in your community. Should he be allowed to speak, or not?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes, allowed to speak
+#'   * `2` not allowed
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/261/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no answer |not allowed |yes, allowed to speak |skipped on web |not available in this year |Total |
+#'  |:-----|:-----|:----------|:---------|:-----------|:---------------------|:--------------|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-         |-           |-                     |-              |-                          |1613  |
+#'  |1973  |-     |56         |3         |532         |913                   |-              |-                          |1504  |
+#'  |1974  |-     |67         |1         |491         |925                   |-              |-                          |1484  |
+#'  |1975  |1490  |-          |-         |-           |-                     |-              |-                          |1490  |
+#'  |1976  |-     |47         |3         |522         |927                   |-              |-                          |1499  |
+#'  |1977  |-     |56         |2         |528         |944                   |-              |-                          |1530  |
+#'  |1978  |1532  |-          |-         |-           |-                     |-              |-                          |1532  |
+#'  |1980  |-     |46         |-         |455         |967                   |-              |-                          |1468  |
+#'  |1982  |-     |84         |9         |585         |1182                  |-              |-                          |1860  |
+#'  |1983  |1599  |-          |-         |-           |-                     |-              |-                          |1599  |
+#'  |1984  |-     |52         |5         |416         |1000                  |-              |-                          |1473  |
+#'  |1985  |-     |52         |4         |456         |1022                  |-              |-                          |1534  |
+#'  |1986  |1470  |-          |-         |-           |-                     |-              |-                          |1470  |
+#'  |1987  |-     |49         |5         |544         |1221                  |-              |-                          |1819  |
+#'  |1988  |504   |37         |2         |257         |681                   |-              |-                          |1481  |
+#'  |1989  |504   |27         |3         |217         |786                   |-              |-                          |1537  |
+#'  |1990  |455   |34         |3         |206         |674                   |-              |-                          |1372  |
+#'  |1991  |524   |24         |3         |214         |752                   |-              |-                          |1517  |
+#'  |1993  |531   |35         |2         |199         |839                   |-              |-                          |1606  |
+#'  |1994  |996   |47         |8         |363         |1578                  |-              |-                          |2992  |
+#'  |1996  |981   |44         |1         |325         |1553                  |-              |-                          |2904  |
+#'  |1998  |950   |54         |3         |306         |1519                  |-              |-                          |2832  |
+#'  |2000  |956   |56         |6         |305         |1494                  |-              |-                          |2817  |
+#'  |2002  |1841  |11         |3         |138         |772                   |-              |-                          |2765  |
+#'  |2004  |1914  |6          |2         |140         |750                   |-              |-                          |2812  |
+#'  |2006  |2507  |33         |9         |326         |1635                  |-              |-                          |4510  |
+#'  |2008  |671   |26         |4         |225         |1097                  |-              |-                          |2023  |
+#'  |2010  |763   |16         |7         |168         |1090                  |-              |-                          |2044  |
+#'  |2012  |666   |23         |8         |155         |1122                  |-              |-                          |1974  |
+#'  |2014  |824   |13         |10        |180         |1511                  |-              |-                          |2538  |
+#'  |2016  |977   |15         |13        |195         |1667                  |-              |-                          |2867  |
+#'  |2018  |774   |14         |6         |173         |1381                  |-              |-                          |2348  |
+#'  |2021  |2714  |1          |1         |108         |1196                  |12             |-                          |4032  |
+#'  |2022  |-     |-          |-         |-           |-                     |-              |3544                       |3544  |
+#'  |2024  |-     |-          |-         |-           |-                     |-              |3309                       |3309  |
+#'  |Total |27756 |1025       |126       |8729        |31198                 |12             |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |A/C     |partial      |
+#'  |1989 |A/C     |partial      |
+#'  |1990 |A/C     |partial      |
+#'  |1991 |A/C     |partial      |
+#'  |1993 |A/C     |partial      |
+#'  |1994 |A/C     |partial      |
+#'  |1996 |A/C     |partial      |
+#'  |1998 |A/C     |partial      |
+#'  |2000 |A/C     |partial      |
+#'  |2002 |A/C     |partial      |
+#'  |2004 |A/C     |partial      |
+#'  |2006 |A/C     |partial      |
+#'  |2008 |A/C     |partial      |
+#'  |2010 |A/C     |partial      |
+#'  |2012 |A/C     |partial      |
+#'  |2014 |A/C     |partial      |
+#'  |2016 |A/C     |partial      |
+#'  |2018 |A/C     |partial      |
+#'  |2021 |A/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Civil Liberties
+#' @family Gays And Lesbians
+#' 
+#' @keywords variable
+#' @md
+#' @name spkhomo
+NULL
+
+
 #'  Allow homosexual to teach
 #' 
 #'  colhomo
 #' 
-#' Question 81. And what about a man who admits that he is a homosexual? b. Should such a person be allowed to teach in a college, or university, or not?
+#' Question And what about a man who admits that he is a homosexual? 
+#' B. Should such a person be allowed to teach in a college or university, or not?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `4` yes, allowed to teach
+#'   * `5` not allowed
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/262/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,10 +180,62 @@
 #'  |2024  |-     |-          |-         |-           |-                     |-              |3309                       |3309  |
 #'  |Total |26399 |1274       |133       |11541       |29483                 |16             |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |A/C     |partial      |
+#'  |1989 |A/C     |partial      |
+#'  |1990 |A/C     |partial      |
+#'  |1991 |A/C     |partial      |
+#'  |1993 |A/C     |partial      |
+#'  |1994 |A/C     |partial      |
+#'  |1996 |A/C     |partial      |
+#'  |1998 |A/C     |partial      |
+#'  |2000 |A/C     |partial      |
+#'  |2002 |A/C     |partial      |
+#'  |2004 |A/C     |partial      |
+#'  |2006 |A/C     |partial      |
+#'  |2008 |A/C     |partial      |
+#'  |2010 |A/C     |partial      |
+#'  |2012 |A/C     |partial      |
+#'  |2014 |A/C     |partial      |
+#'  |2016 |A/C     |partial      |
+#'  |2018 |A/C     |partial      |
+#'  |2021 |A/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Civil Liberties
+#' @family Gays And Lesbians
+#' 
+#' @keywords variable
+#' @md
+#' @name colhomo
+NULL
+
+
+#'  Allow homosexuals book in library
+#' 
+#'  libhomo
+#' 
+#' Question And what about a man who admits that he is a homosexual? 
+#' C. If some people in your community suggested that a book he wrote in favor of homosexuality should be taken out of your public library, would you favor removing this book, or not?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `4` yes, allowed to teach
-#'   * `5` not allowed
+#'   * `1` remove
+#'   * `2` not remove
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -65,22 +249,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name colhomo
-NULL
-
-#'  Allow homosexuals book in library
-#' 
-#'  libhomo
-#' 
-#' Question 81. And what about a man who admits that he is a homosexual? c. If some people in your community suggested that a book he wrote in favor of homosexuality should be taken out of your public library, would you favor removing this book, or not?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/263/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,10 +293,62 @@ NULL
 #'  |2024  |-     |-          |-         |-          |-      |-              |3309                       |3309  |
 #'  |Total |27756 |1066       |130       |27639      |12247  |8              |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |A/C     |partial      |
+#'  |1989 |A/C     |partial      |
+#'  |1990 |A/C     |partial      |
+#'  |1991 |A/C     |partial      |
+#'  |1993 |A/C     |partial      |
+#'  |1994 |A/C     |partial      |
+#'  |1996 |A/C     |partial      |
+#'  |1998 |A/C     |partial      |
+#'  |2000 |A/C     |partial      |
+#'  |2002 |A/C     |partial      |
+#'  |2004 |A/C     |partial      |
+#'  |2006 |A/C     |partial      |
+#'  |2008 |A/C     |partial      |
+#'  |2010 |A/C     |partial      |
+#'  |2012 |A/C     |partial      |
+#'  |2014 |A/C     |partial      |
+#'  |2016 |A/C     |partial      |
+#'  |2018 |A/C     |partial      |
+#'  |2021 |A/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Civil Liberties
+#' @family Gays And Lesbians
+#' 
+#' @keywords variable
+#' @md
+#' @name libhomo
+NULL
+
+
+#'  Allow muslim clergymen preaching hatred of the us
+#' 
+#'  spkmslm
+#' 
+#' Question Now consider a Muslim clergyman who preaches hatred of the United States. 
+#' A. If such a person wanted to make a speech in your community preaching hatred of the United States, should he be allowed  to speak, or not?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` remove
-#'   * `2` not remove
+#'   * `1` yes, allowed to speak
+#'   * `2` not allowed
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -140,22 +362,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name libhomo
-NULL
-
-#'  Allow muslim clergymen preaching hatred of the us
-#' 
-#'  spkmslm
-#' 
-#' Question Now consider a Muslim clergyman who preaches hatred of the United States. If such a person wanted to make a speech in your community preaching hatred of the United States, should he be allowed to speak, or not?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/264/vshow).
 #'
 #' Counts by year: 
 #'
@@ -198,10 +406,43 @@ NULL
 #'  |2024  |2163  |15         |7         |635         |483                   |6              |3309  |
 #'  |Total |62952 |129        |60        |6932        |5604                  |22             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2008 |A/C     |partial      |
+#'  |2010 |A/C     |partial      |
+#'  |2012 |A/C     |partial      |
+#'  |2014 |A/C     |partial      |
+#'  |2016 |A/C     |partial      |
+#'  |2018 |A/C     |partial      |
+#'  |2021 |A/C     |partial      |
+#'  |2022 |A/C     |partial      |
+#'  |2024 |A/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Civil Liberties
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name spkmslm
+NULL
+
+
+#'  Allow anti-american muslim clergymen teaching in college
+#' 
+#'  colmslm
+#' 
+#' Question Now consider a Muslim clergyman who preaches hatred of the United States. 
+#' B. Should such a person be allowed to teach in a college or university, or not?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes, allowed to speak
-#'   * `2` not allowed
+#'   * `4` yes, allowed to teach
+#'   * `5` not allowed
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -215,22 +456,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name spkmslm
-NULL
-
-#'  Allow anti-american muslim clergymen teaching in college
-#' 
-#'  colmslm
-#' 
-#' Question Should such a person be allowed to teach in a college or university, or not?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/265/vshow).
 #'
 #' Counts by year: 
 #'
@@ -273,10 +500,43 @@ NULL
 #'  |2024  |1067  |44         |6         |1562        |612                   |18             |3309  |
 #'  |Total |59322 |242        |63        |10857       |5156                  |59             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2008 |A/C     |partial      |
+#'  |2010 |A/C     |partial      |
+#'  |2012 |A/C     |partial      |
+#'  |2014 |A/C     |partial      |
+#'  |2016 |A/C     |partial      |
+#'  |2018 |A/C     |partial      |
+#'  |2021 |A/C     |partial      |
+#'  |2022 |A/C     |partial      |
+#'  |2024 |A/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Civil Liberties
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name colmslm
+NULL
+
+
+#'  Allow anti-american muslim clergymen's books in library
+#' 
+#'  libmslm
+#' 
+#' Question Now consider a Muslim clergyman who preaches hatred of the United States.
+#' C. If some people in your community suggested that a book he wrote which preaches hatred of the United States should be taken out of your public library, would you favor removing this book, or not?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `4` yes, allowed to teach
-#'   * `5` not allowed
+#'   * `1` remove
+#'   * `2` not remove
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -290,22 +550,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name colmslm
-NULL
-
-#'  Allow anti-american muslim clergymen's books in library
-#' 
-#'  libmslm
-#' 
-#' Question If some people in your community suggested that a book he wrote which preaches hatred of the United States should be taken out of your public library, would you favor removing this book, or not?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/266/vshow).
 #'
 #' Counts by year: 
 #'
@@ -348,10 +594,42 @@ NULL
 #'  |2024  |2163  |15         |1         |604        |522    |4              |3309  |
 #'  |Total |62952 |135        |45        |6421       |6125   |21             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2008 |A/C     |partial      |
+#'  |2010 |A/C     |partial      |
+#'  |2012 |A/C     |partial      |
+#'  |2014 |A/C     |partial      |
+#'  |2016 |A/C     |partial      |
+#'  |2018 |A/C     |partial      |
+#'  |2021 |A/C     |partial      |
+#'  |2022 |A/C     |partial      |
+#'  |2024 |A/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Civil Liberties
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name libmslm
+NULL
+
+
+#'  Does r favor capital punishment
+#' 
+#'  cappun2
+#' 
+#' Question Are you in favor of the death penalty for persons convicted of murder?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` remove
-#'   * `2` not remove
+#'   * `1` yes,favor
+#'   * `2` no,dont favor
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -365,22 +643,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name libmslm
-NULL
-
-#'  Does r favor capital punishment
-#' 
-#'  cappun2
-#' 
-#' Question 82a. Are you in favor of the death penalty for persons convicted of murder?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/267/vshow).
 #'
 #' Counts by year: 
 #'
@@ -423,10 +687,34 @@ NULL
 #'  |2024  |-          |-     |-         |-             |-         |3309                       |3309  |
 #'  |Total |199        |65730 |16        |1151          |1750      |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-       |full         |
+#'  |1973 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Capital Punishment
+#' 
+#' @keywords variable
+#' @md
+#' @name cappun2
+NULL
+
+
+#'  Favor or oppose death penalty for murder
+#' 
+#'  cappun
+#' 
+#' Question Do you favor or oppose the death penalty for persons convicted of murder?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes,favor
-#'   * `2` no,dont favor
+#'   * `1` favor
+#'   * `2` oppose
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -440,22 +728,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name cappun2
-NULL
-
-#'  Favor or oppose death penalty for murder
-#' 
-#'  cappun
-#' 
-#' Question 82b. Do you favor or oppose the death enalty for persons convicted of murder?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/268/vshow).
 #'
 #' Counts by year: 
 #'
@@ -498,10 +772,67 @@ NULL
 #'  |2024  |1116 |83         |1243  |14        |824    |29             |3309  |
 #'  |Total |8616 |3668       |43424 |402       |19490  |99             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Capital Punishment
+#' 
+#' @keywords variable
+#' @md
+#' @name cappun
+NULL
+
+
+#'  Importance of death penalty issue to r
+#' 
+#'  capimp
+#' 
+#' Question How important is the death penalty issue to you--would you say it is one of the most important, important, not very important, or not important at all?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` favor
-#'   * `2` oppose
+#'   * `1` one of most imp
+#'   * `2` important
+#'   * `3` not very imp
+#'   * `4` not important
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -515,22 +846,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name cappun
-NULL
-
-#'  Importance of death penalty issue to r
-#' 
-#'  capimp
-#' 
-#' Question 83. How important is the death penalty issue to you?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/269/vshow).
 #'
 #' Counts by year: 
 #'
@@ -573,12 +890,35 @@ NULL
 #'  |2024  |-     |-          |-         |-         |-             |-            |-               |3309                       |3309  |
 #'  |Total |68362 |6          |261       |4         |26            |120          |67              |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Capital Punishment
+#' 
+#' @keywords variable
+#' @md
+#' @name capimp
+NULL
+
+
+#'  How much info r has on death penalty
+#' 
+#'  capinfo
+#' 
+#' Question How much information do you have about the death penalty issue? Do you have all of the information you need, most of the information, some information, or very little information?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` one of most imp
-#'   * `2` important
-#'   * `3` not very imp
-#'   * `4` not important
+#'   * `1` all info r needs
+#'   * `2` most of the info
+#'   * `3` some info
+#'   * `4` very little info
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -592,22 +932,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name capimp
-NULL
-
-#'  How much info r has on death penalty
-#' 
-#'  capinfo
-#' 
-#' Question 84. How much information do you have about the death penalty issue? Do you have all of the information you need, most of the information, some information or very little information?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/270/vshow).
 #'
 #' Counts by year: 
 #'
@@ -650,107 +976,19 @@ NULL
 #'  |2024  |-     |-                |-          |-                |-         |-         |-                |3309                       |3309  |
 #'  |Total |68362 |52               |5          |114              |4         |183       |126              |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` all info r needs
-#'   * `2` most of the info
-#'   * `3` some info
-#'   * `4` very little info
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Capital Punishment
 #' 
 #' @keywords variable
 #' @md
 #' @name capinfo
 NULL
 
-#'  How firm is r's opinion of death penalty
-#' 
-#'  capfirm
-#' 
-#' Question 85. How firm are you about your opinion on the death penalty?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |change very likely |change very unlikely |don't know |no answer |somewhat likely |somewhat unlikely |not available in this year |Total |
-#'  |:-----|:-----|:------------------|:--------------------|:----------|:---------|:---------------|:-----------------|:--------------------------|:-----|
-#'  |1972  |1613  |-                  |-                    |-          |-         |-               |-                 |-                          |1613  |
-#'  |1973  |1504  |-                  |-                    |-          |-         |-               |-                 |-                          |1504  |
-#'  |1974  |1484  |-                  |-                    |-          |-         |-               |-                 |-                          |1484  |
-#'  |1975  |1490  |-                  |-                    |-          |-         |-               |-                 |-                          |1490  |
-#'  |1976  |1499  |-                  |-                    |-          |-         |-               |-                 |-                          |1499  |
-#'  |1977  |1530  |-                  |-                    |-          |-         |-               |-                 |-                          |1530  |
-#'  |1978  |1532  |-                  |-                    |-          |-         |-               |-                 |-                          |1532  |
-#'  |1980  |1468  |-                  |-                    |-          |-         |-               |-                 |-                          |1468  |
-#'  |1982  |1860  |-                  |-                    |-          |-         |-               |-                 |-                          |1860  |
-#'  |1983  |1599  |-                  |-                    |-          |-         |-               |-                 |-                          |1599  |
-#'  |1984  |989   |13                 |216                  |15         |4         |95              |141               |-                          |1473  |
-#'  |1985  |1534  |-                  |-                    |-          |-         |-               |-                 |-                          |1534  |
-#'  |1986  |1470  |-                  |-                    |-          |-         |-               |-                 |-                          |1470  |
-#'  |1987  |1819  |-                  |-                    |-          |-         |-               |-                 |-                          |1819  |
-#'  |1988  |1481  |-                  |-                    |-          |-         |-               |-                 |-                          |1481  |
-#'  |1989  |1537  |-                  |-                    |-          |-         |-               |-                 |-                          |1537  |
-#'  |1990  |1372  |-                  |-                    |-          |-         |-               |-                 |-                          |1372  |
-#'  |1991  |1517  |-                  |-                    |-          |-         |-               |-                 |-                          |1517  |
-#'  |1993  |1606  |-                  |-                    |-          |-         |-               |-                 |-                          |1606  |
-#'  |1994  |2992  |-                  |-                    |-          |-         |-               |-                 |-                          |2992  |
-#'  |1996  |2904  |-                  |-                    |-          |-         |-               |-                 |-                          |2904  |
-#'  |1998  |2832  |-                  |-                    |-          |-         |-               |-                 |-                          |2832  |
-#'  |2000  |2817  |-                  |-                    |-          |-         |-               |-                 |-                          |2817  |
-#'  |2002  |2765  |-                  |-                    |-          |-         |-               |-                 |-                          |2765  |
-#'  |2004  |2812  |-                  |-                    |-          |-         |-               |-                 |-                          |2812  |
-#'  |2006  |4510  |-                  |-                    |-          |-         |-               |-                 |-                          |4510  |
-#'  |2008  |2023  |-                  |-                    |-          |-         |-               |-                 |-                          |2023  |
-#'  |2010  |2044  |-                  |-                    |-          |-         |-               |-                 |-                          |2044  |
-#'  |2012  |1974  |-                  |-                    |-          |-         |-               |-                 |-                          |1974  |
-#'  |2014  |2538  |-                  |-                    |-          |-         |-               |-                 |-                          |2538  |
-#'  |2016  |2867  |-                  |-                    |-          |-         |-               |-                 |-                          |2867  |
-#'  |2018  |2348  |-                  |-                    |-          |-         |-               |-                 |-                          |2348  |
-#'  |2021  |4032  |-                  |-                    |-          |-         |-               |-                 |-                          |4032  |
-#'  |2022  |-     |-                  |-                    |-          |-         |-               |-                 |3544                       |3544  |
-#'  |2024  |-     |-                  |-                    |-          |-         |-               |-                 |3309                       |3309  |
-#'  |Total |68362 |13                 |216                  |15         |4         |95              |141               |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` change very likely
-#'   * `2` somewhat likely
-#'   * `3` somewhat unlikely
-#'   * `4` change very unlikely
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name capfirm
-NULL
 

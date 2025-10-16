@@ -10,11 +10,29 @@ General Social Survey https://gss.norc.org
 spsei
 }
 \details{
-Question 1650. Socioeconomic index of respondent's spouse.
+Question Socioeconomic index of respondent's spouse.
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} i don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5483/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 17.1 \tab 17.6 \tab 18.5 \tab 20.1 \tab 21.2 \tab 21.6 \tab 22.5 \tab 22.6 \tab 22.7 \tab 22.9 \tab 24.2 \tab 25.5 \tab 25.8 \tab 26.4 \tab 26.5 \tab 26.7 \tab 26.9 \tab 27.2 \tab 27.5 \tab 27.7 \tab 28 \tab 28.2 \tab 28.4 \tab 28.6 \tab 28.8 \tab 29 \tab 29.2 \tab 29.3 \tab 29.4 \tab 29.5 \tab 29.6 \tab 29.8 \tab 30.1 \tab 30.4 \tab 30.7 \tab 30.8 \tab 31.2 \tab 31.3 \tab 31.4 \tab 31.5 \tab 32 \tab 32.1 \tab 32.3 \tab 32.4 \tab 32.7 \tab 33.1 \tab 33.3 \tab 33.6 \tab 33.9 \tab 34.2 \tab 34.3 \tab 34.4 \tab 34.6 \tab 34.8 \tab 35.1 \tab 35.4 \tab 35.7 \tab 36.4 \tab 36.5 \tab 36.7 \tab 36.9 \tab 37 \tab 37.2 \tab 37.3 \tab 37.4 \tab 37.5 \tab 37.6 \tab 37.7 \tab 37.8 \tab 37.9 \tab 38 \tab 38.1 \tab 38.2 \tab 38.4 \tab 38.5 \tab 38.7 \tab 38.8 \tab 38.9 \tab 39 \tab 39.4 \tab 39.5 \tab 39.6 \tab 40 \tab 40.1 \tab 41.6 \tab 42.2 \tab 43.2 \tab 43.4 \tab 43.7 \tab 44.7 \tab 44.8 \tab 45.4 \tab 45.8 \tab 45.9 \tab 46.7 \tab 47 \tab 48.5 \tab 48.6 \tab 48.8 \tab 48.9 \tab 49.3 \tab 49.6 \tab 50.5 \tab 50.7 \tab 51 \tab 51.9 \tab 52.3 \tab 52.4 \tab 52.5 \tab 53.1 \tab 53.3 \tab 53.4 \tab 53.7 \tab 53.9 \tab 54.2 \tab 54.7 \tab 55.1 \tab 56.6 \tab 57.1 \tab 58.3 \tab 59 \tab 60.5 \tab 60.6 \tab 61.4 \tab 61.9 \tab 62 \tab 62.1 \tab 62.2 \tab 62.5 \tab 63.2 \tab 63.5 \tab 64.1 \tab 64.2 \tab 64.8 \tab 65.8 \tab 66.1 \tab 67 \tab 68.1 \tab 69.2 \tab 69.7 \tab 70 \tab 71.2 \tab 71.6 \tab 72 \tab 72.5 \tab 73.2 \tab 73.3 \tab 73.6 \tab 73.9 \tab 74 \tab 74.4 \tab 75.2 \tab 75.3 \tab 75.9 \tab 76.3 \tab 76.4 \tab 76.5 \tab 78 \tab 78.5 \tab 78.8 \tab 80.3 \tab 80.9 \tab 81 \tab 83.7 \tab 84 \tab 84.2 \tab 85.1 \tab 86 \tab 86.5 \tab 86.6 \tab 86.8 \tab 86.9 \tab 87.9 \tab 88.8 \tab 91.3 \tab 92.3 \tab 92.8 \tab 93.1 \tab 97.2 \tab 24.6 \tab 24.8 \tab 25.2 \tab 25.3 \tab 25.4 \tab 25.9 \tab 26.6 \tab 27.9 \tab 29.1 \tab 29.7 \tab 30 \tab 31.7 \tab 32.8 \tab 33.2 \tab 34 \tab 35.2 \tab 36.2 \tab 39.8 \tab 41.1 \tab 41.3 \tab 42.4 \tab 43.6 \tab 44.2 \tab 44.3 \tab 44.4 \tab 44.5 \tab 45.2 \tab 46.3 \tab 47.8 \tab 47.9 \tab 50.2 \tab 54.5 \tab 60.3 \tab 64.4 \tab 65.2 \tab 68.8 \tab 73.7 \tab 73.8 \tab 74.9 \tab 79.8 \tab 79.9 \tab 80 \tab 80.1 \tab 81.9 \tab 82.7 \tab 85.5 \tab 87 \tab 87.4 \tab 88.2 \tab 96 \tab 19.4 \tab 23.3 \tab 31.1 \tab 32.9 \tab 33 \tab 36.1 \tab 39.9 \tab 40.5 \tab 42.3 \tab 49.4 \tab 49.9 \tab 53.2 \tab 56.5 \tab 58.1 \tab 59.9 \tab 61.1 \tab 70.5 \tab 71.5 \tab 83.2 \tab 83.9 \tab 84.5 \tab 84.7 \tab 85.7 \tab 90.1 \tab 93.3 \tab 21.1 \tab 30.2 \tab 33.8 \tab 36 \tab 42.9 \tab 45 \tab 47.6 \tab 50.3 \tab 51.8 \tab 53.5 \tab 54.9 \tab 55.3 \tab 59.3 \tab 64 \tab 81.3 \tab 87.5 \tab 21.3 \tab 28.9 \tab 31.9 \tab 33.5 \tab 40.4 \tab 40.9 \tab 41.2 \tab 42.7 \tab 45.3 \tab 46.8 \tab 71.3 \tab 93.7 \tab 27.3 \tab 30.6 \tab 40.2 \tab 42.5 \tab 43.3 \tab 45.7 \tab 48.4 \tab 58.8 \tab 59.1 \tab 60.4 \tab 74.1 \tab 87.2 \tab 88.3 \tab 90.3 \tab 78.9 \tab 90.8 \tab 91.7 \tab 92.9 \tab 42 \tab 66.3 \tab 74.6 \tab 77.8 \tab 89.2 \tab 91.2 \tab 27.4 \tab 34.7 \tab 49.7 \tab 86.7 \tab 88.6 \tab 37.1 \tab 39.7 \tab 46 \tab 90 \tab 42.1 \tab 43.5 \tab 46.1 \tab 85 \tab 30.5 \tab 35.6 \tab 38.3 \tab 43.1 \tab 48.7 \tab 78.7 \tab 79.3 \tab 85.8 \tab 87.3 \tab 88.9 \tab not available in this year \tab Total \cr
@@ -57,22 +75,48 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} i don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1988 \tab A/B/C/- \tab full \cr
+   1989 \tab A/B/C/- \tab full \cr
+   1990 \tab A/B/C/- \tab full \cr
+   1991 \tab A/B/C/- \tab full \cr
+   1993 \tab A/B/C/- \tab full \cr
+   1994 \tab A/B/C/- \tab full \cr
+   1996 \tab A/B/C/- \tab full \cr
+   1998 \tab A/B/C/- \tab full \cr
+   2000 \tab A/B/C/- \tab full \cr
+   2002 \tab A/B/C/- \tab full \cr
+   2004 \tab A/B/C/- \tab full \cr
+   2006 \tab A/B/C/D \tab full \cr
+   2008 \tab A/B/C/- \tab full \cr
+   2010 \tab A/B/C/- \tab full \cr
 }
 }
 
+\seealso{
+Other Occupation: 
+\code{\link{coisco08}},
+\code{\link{firstsei}},
+\code{\link{masei}},
+\code{\link{pasei}},
+\code{\link{pasei10}},
+\code{\link{sei}},
+\code{\link{sei10}},
+\code{\link{sei10educ}},
+\code{\link{sei10inc}}
+
+Other Occupation: 
+\code{\link{coisco08}},
+\code{\link{firstsei}},
+\code{\link{masei}},
+\code{\link{pasei}},
+\code{\link{pasei10}},
+\code{\link{sei}},
+\code{\link{sei10}},
+\code{\link{sei10educ}},
+\code{\link{sei10inc}}
+}
+\concept{Occupation}
 \keyword{variable}

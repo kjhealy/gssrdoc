@@ -10,11 +10,29 @@ General Social Survey https://gss.norc.org
 indfirst
 }
 \details{
-Question 488. What kind of place (do/did) you fork for? What (do/did) they (make/do)
+Question Respondent's First Occupation, Prestige, and Industry
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1465/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 10 \tab 100 \tab 101 \tab 102 \tab 11 \tab 110 \tab 111 \tab 112 \tab 120 \tab 121 \tab 130 \tab 132 \tab 140 \tab 142 \tab 150 \tab 151 \tab 152 \tab 160 \tab 161 \tab 162 \tab 171 \tab 172 \tab 180 \tab 181 \tab 182 \tab 191 \tab 192 \tab 20 \tab 200 \tab 21 \tab 211 \tab 212 \tab 221 \tab 230 \tab 231 \tab 242 \tab 250 \tab 251 \tab 252 \tab 261 \tab 262 \tab 270 \tab 271 \tab 272 \tab 280 \tab 281 \tab 282 \tab 292 \tab 30 \tab 300 \tab 301 \tab 310 \tab 311 \tab 312 \tab 320 \tab 322 \tab 331 \tab 332 \tab 340 \tab 341 \tab 342 \tab 350 \tab 351 \tab 352 \tab 360 \tab 362 \tab 371 \tab 372 \tab 380 \tab 390 \tab 391 \tab 392 \tab 400 \tab 41 \tab 410 \tab 412 \tab 42 \tab 420 \tab 421 \tab 432 \tab 440 \tab 441 \tab 442 \tab 460 \tab 461 \tab 462 \tab 500 \tab 502 \tab 510 \tab 512 \tab 521 \tab 530 \tab 532 \tab 550 \tab 551 \tab 561 \tab 571 \tab 581 \tab 591 \tab 592 \tab 60 \tab 600 \tab 601 \tab 610 \tab 611 \tab 612 \tab 620 \tab 621 \tab 630 \tab 631 \tab 632 \tab 640 \tab 641 \tab 642 \tab 651 \tab 652 \tab 660 \tab 662 \tab 670 \tab 671 \tab 681 \tab 682 \tab 691 \tab 700 \tab 701 \tab 702 \tab 710 \tab 711 \tab 712 \tab 721 \tab 722 \tab 730 \tab 731 \tab 740 \tab 741 \tab 742 \tab 750 \tab 751 \tab 752 \tab 761 \tab 762 \tab 771 \tab 772 \tab 781 \tab 790 \tab 791 \tab 800 \tab 802 \tab 812 \tab 820 \tab 821 \tab 831 \tab 832 \tab 840 \tab 841 \tab 842 \tab 850 \tab 851 \tab 852 \tab 860 \tab 861 \tab 862 \tab 870 \tab 871 \tab 872 \tab 880 \tab 881 \tab 882 \tab 890 \tab 891 \tab 901 \tab 910 \tab 921 \tab 922 \tab 930 \tab 932 \tab 990 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +75,31 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Family Mobility: 
+\code{\link{alike1}},
+\code{\link{alike2}},
+\code{\link{datefrst}},
+\code{\link{datesch}},
+\code{\link{neverwk}},
+\code{\link{occfirst}},
+\code{\link{payrdied}},
+\code{\link{presfrst}},
+\code{\link{wrkslfst}}
+
+Other Occupation: 
+\code{\link{datefrst}},
+\code{\link{occfirst}},
+\code{\link{wrkslfst}}
+}
+\concept{Family Mobility}
+\concept{Industry}
+\concept{Occupation}
 \keyword{variable}

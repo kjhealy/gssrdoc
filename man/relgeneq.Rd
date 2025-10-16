@@ -12,9 +12,31 @@ relgeneq
 \details{
 Question In your opinion, does your religion treat men and women equally, treat men better than women, or treat women better than men?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} i don't belong to or follow any religion
+\item \code{2} treats men and women equally
+\item \code{3} treats men better than women
+\item \code{4} treats women better than men
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7280/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab can't choose \tab i don't belong to or follow any religion \tab no answer \tab treats men and women equally \tab treats men better than women \tab treats women better than men \tab not available in this year \tab Total \cr
@@ -57,25 +79,10 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} i don't belong to or follow any religion
-\item \code{2} treats men and women equally
-\item \code{3} treats men better than women
-\item \code{4} treats women better than men
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2018 \tab A/B \tab partial \cr
 }
 }
 

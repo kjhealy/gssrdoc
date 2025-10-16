@@ -10,11 +10,37 @@ General Social Survey https://gss.norc.org
 prestige
 }
 \details{
-Question 2a. What kind of work do you (did you normally) do? That is, what (is/was)your job called? b. What (do/did) you actually do in that job? Tell me, what (are/were) some of your main duties?
+Question A. What kind of work do you (did you normally) do?  That is, what (is/was) your job called?
+OCCUPATION:  (See REMARKS)
+B. What (do/did) you actually do in that job?  Tell me, what (are/were) some of your main duties?
+C. What kind of place (do/did) you work for?
+INDUSTRY:  (See REMARKS)
+D. What (do/did) they (make/do)?
+E. (Are/Were) you self employed or (do/did) you work for someone else?
+F. (Are/Were) you employed by the federal, state or local government or by a private employer (including non-profit organizations)?
+G. About how much time (does/did) it usually take you to travel to work - about how many minutes?
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab 12 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 20 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 27 \tab 28 \tab 29 \tab 30 \tab 31 \tab 32 \tab 33 \tab 34 \tab 35 \tab 36 \tab 37 \tab 38 \tab 39 \tab 40 \tab 41 \tab 42 \tab 43 \tab 44 \tab 45 \tab 46 \tab 47 \tab 48 \tab 49 \tab 50 \tab 51 \tab 52 \tab 54 \tab 55 \tab 56 \tab 57 \tab 58 \tab 60 \tab 61 \tab 62 \tab 63 \tab 67 \tab 68 \tab 69 \tab 71 \tab 72 \tab 74 \tab 76 \tab 78 \tab 82 \tab dk, na, iap \tab 21 \tab 53 \tab 65 \tab 66 \tab 70 \tab not available in this year \tab Total \cr
@@ -57,22 +83,41 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1972 \tab -/-/- \tab full \cr
+   1973 \tab -/-/- \tab full \cr
+   1974 \tab -/-/- \tab full \cr
+   1975 \tab -/-/- \tab full \cr
+   1976 \tab -/-/- \tab full \cr
+   1977 \tab -/-/- \tab full \cr
+   1978 \tab -/-/- \tab full \cr
+   1980 \tab -/-/- \tab full \cr
+   1982 \tab -/-/- \tab full \cr
+   1983 \tab -/-/- \tab full \cr
+   1984 \tab -/-/- \tab full \cr
+   1985 \tab -/-/- \tab full \cr
+   1986 \tab -/-/- \tab full \cr
+   1987 \tab -/-/- \tab full \cr
+   1988 \tab A/B/C \tab full \cr
+   1989 \tab A/B/C \tab full \cr
+   1990 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{evwork}},
+\code{\link{hrs1}},
+\code{\link{hrs2}},
+\code{\link{id}},
+\code{\link{occ}},
+\code{\link{wrkgovt}},
+\code{\link{wrkslf}},
+\code{\link{wrkstat}},
+\code{\link{year}}
+}
+\concept{Core}
+\concept{Occupational Prestige}
 \keyword{variable}

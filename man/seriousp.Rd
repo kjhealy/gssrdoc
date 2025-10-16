@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 seriousp
 }
 \details{
-Question 649. Please remember, there are no right or wrong answers to these questions. Please think about the person I just described when answering this group of questions. First, how serious would you consider NAME's problem to be -- very serious, somewhat serious, not very serious, or not at all serious?
+Question Please remember, there are no right or wrong answers to these questions. Please think about the person I just described when answering this group of questions. First, how serious would you consider NAME's problem to be -- very serious, somewhat serious, not very serious, or not at all serious?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very serious
+\item \code{2} somewhat serious
+\item \code{3} not very serious
+\item \code{4} not at all serious
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1987/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab don't know \tab no answer \tab not at all serious \tab not very serious \tab somewhat serious \tab very serious \tab not available in this year \tab skipped on web \tab Total \cr
@@ -57,26 +79,38 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very serious
-\item \code{2} somewhat serious
-\item \code{3} not very serious
-\item \code{4} not at all serious
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2018 \tab B/C/- \tab partial \cr
+   2024 \tab A/B/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Mental Health: 
+\code{\link{charactr}},
+\code{\link{imbalnce}},
+\code{\link{probfix3}},
+\code{\link{probhlp1}},
+\code{\link{probhlp2}},
+\code{\link{probhlp3}},
+\code{\link{stresses}},
+\code{\link{vigversn}},
+\code{\link{wayraise}}
+
+Other Mental Health: 
+\code{\link{charactr}},
+\code{\link{imbalnce}},
+\code{\link{probfix3}},
+\code{\link{probhlp1}},
+\code{\link{probhlp2}},
+\code{\link{probhlp3}},
+\code{\link{stresses}},
+\code{\link{vigversn}},
+\code{\link{wayraise}}
+}
+\concept{Mental Health}
 \keyword{variable}

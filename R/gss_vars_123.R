@@ -1,11 +1,200 @@
+#'  Given money other religious org
+#' 
+#'  giverel
+#' 
+#' Question During the last year, approximately how much money did you and the other family members in your household contribute to each of the following: 
+#' B. To other religious organizations, programs, or causes?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1140/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |0   |1  |10 |100 |1000 |10000 |104 |12 |1200 |125 |15 |150 |1500 |1650 |2  |20 |200 |2000 |240 |25 |250 |2500 |25000 |30 |300 |3000 |35 |350 |40 |400 |4000 |450 |4500 |5  |50 |500 |50000 |60 |600 |700 |72 |75 |8  |800 |don't know |no answer |not available in this year |Total |
+#'  |:-----|:-----|:---|:--|:--|:---|:----|:-----|:---|:--|:----|:---|:--|:---|:----|:----|:--|:--|:---|:----|:---|:--|:---|:----|:-----|:--|:---|:----|:--|:---|:--|:---|:----|:---|:----|:--|:--|:---|:-----|:--|:---|:---|:--|:--|:--|:---|:----------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1613  |
+#'  |1973  |1504  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1504  |
+#'  |1974  |1484  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1484  |
+#'  |1975  |1490  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1490  |
+#'  |1976  |1499  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1499  |
+#'  |1977  |1530  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1530  |
+#'  |1978  |1532  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1532  |
+#'  |1980  |1468  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1468  |
+#'  |1982  |1860  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1860  |
+#'  |1983  |1599  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1599  |
+#'  |1984  |1473  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1473  |
+#'  |1985  |1534  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1534  |
+#'  |1986  |1470  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1470  |
+#'  |1987  |1819  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1819  |
+#'  |1988  |1481  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1481  |
+#'  |1989  |1537  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1537  |
+#'  |1990  |1372  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1372  |
+#'  |1991  |1517  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1517  |
+#'  |1993  |1606  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1606  |
+#'  |1994  |2992  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |2992  |
+#'  |1996  |2904  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |2904  |
+#'  |1998  |1387  |947 |1  |14 |54  |10   |5     |1   |2  |1    |4   |2  |5   |2    |1    |2  |13 |39  |9    |2   |21 |5   |2    |1     |4  |23  |5    |1  |1   |2  |11  |1    |1   |1    |7  |41 |28  |1     |2  |1   |3   |1  |4  |1  |1   |68         |94        |-                          |2832  |
+#'  |2000  |2817  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |2817  |
+#'  |2002  |2765  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |2765  |
+#'  |2004  |2812  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |2812  |
+#'  |2006  |4510  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |4510  |
+#'  |2008  |2023  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |2023  |
+#'  |2010  |2044  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |2044  |
+#'  |2012  |1974  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1974  |
+#'  |2014  |2538  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |2538  |
+#'  |2016  |2867  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |2867  |
+#'  |2018  |2348  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |2348  |
+#'  |2021  |4032  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |4032  |
+#'  |2022  |-     |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |3544                       |3544  |
+#'  |2024  |-     |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |3309                       |3309  |
+#'  |Total |67401 |947 |1  |14 |54  |10   |5     |1   |2  |1    |4   |2  |5   |2    |1    |2  |13 |39  |9    |2   |21 |5   |2    |1     |4  |23  |5    |1  |1   |2  |11  |1    |1   |1    |7  |41 |28  |1     |2  |1   |3   |1  |4  |1  |1   |68         |94        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Contribute Money To
+#' @family Religion
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name giverel
+NULL
+
+
+#'  Given money non-religious charities
+#' 
+#'  giveoth
+#' 
+#' Question During the last year, approximately how much money did you and the other family members in your household contribute to each of the following: 
+#' C. To non-religious charities, organizations, or causes?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1141/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |0   |1  |10 |100 |1000 |10000 |110 |119 |12 |120 |1200 |125 |144 |15 |150 |1500 |15000 |175 |2  |20 |200 |2000 |225 |24 |25 |250 |2500 |260 |30 |300 |3000 |30000 |35 |3500 |40 |400 |45 |450 |47 |480 |5  |50 |500 |5000 |52 |5500 |56 |60 |600 |6000 |7  |700 |75 |750 |8  |80 |800 |8000 |8500 |don't know |not available in this year |Total |
+#'  |:-----|:-----|:---|:--|:--|:---|:----|:-----|:---|:---|:--|:---|:----|:---|:---|:--|:---|:----|:-----|:---|:--|:--|:---|:----|:---|:--|:--|:---|:----|:---|:--|:---|:----|:-----|:--|:----|:--|:---|:--|:---|:--|:---|:--|:--|:---|:----|:--|:----|:--|:--|:---|:----|:--|:---|:--|:---|:--|:--|:---|:----|:----|:----------|:--------------------------|:-----|
+#'  |1972  |1613  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1613  |
+#'  |1973  |1504  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1504  |
+#'  |1974  |1484  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1484  |
+#'  |1975  |1490  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1490  |
+#'  |1976  |1499  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1499  |
+#'  |1977  |1530  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1530  |
+#'  |1978  |1532  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1532  |
+#'  |1980  |1468  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1468  |
+#'  |1982  |1860  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1860  |
+#'  |1983  |1599  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1599  |
+#'  |1984  |1473  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1473  |
+#'  |1985  |1534  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1534  |
+#'  |1986  |1470  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1470  |
+#'  |1987  |1819  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1819  |
+#'  |1988  |1481  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1481  |
+#'  |1989  |1537  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1537  |
+#'  |1990  |1372  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1372  |
+#'  |1991  |1517  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1517  |
+#'  |1993  |1606  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1606  |
+#'  |1994  |2992  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |2992  |
+#'  |1996  |2904  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |2904  |
+#'  |1998  |1387  |567 |1  |30 |130 |32   |4     |2   |1   |1  |1   |1    |4   |1   |5  |16  |5    |1     |1   |1  |32 |88  |13   |1   |2  |20 |12  |1    |1   |14 |46  |7    |1     |7  |1    |8  |16  |1  |2   |1  |1   |10 |94 |59  |3    |2  |1    |1  |4  |6   |1    |1  |2   |9  |1   |1  |2  |6   |1    |1    |161        |-                          |2832  |
+#'  |2000  |2817  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |2817  |
+#'  |2002  |2765  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |2765  |
+#'  |2004  |2812  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |2812  |
+#'  |2006  |4510  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |4510  |
+#'  |2008  |2023  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |2023  |
+#'  |2010  |2044  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |2044  |
+#'  |2012  |1974  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1974  |
+#'  |2014  |2538  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |2538  |
+#'  |2016  |2867  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |2867  |
+#'  |2018  |2348  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |2348  |
+#'  |2021  |4032  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |4032  |
+#'  |2022  |-     |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |3544                       |3544  |
+#'  |2024  |-     |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |3309                       |3309  |
+#'  |Total |67401 |567 |1  |30 |130 |32   |4     |2   |1   |1  |1   |1    |4   |1   |5  |16  |5    |1     |1   |1  |32 |88  |13   |1   |2  |20 |12  |1    |1   |14 |46  |7    |1     |7  |1    |8  |16  |1  |2   |1  |1   |10 |94 |59  |3    |2  |1    |1  |4  |6   |1    |1  |2   |9  |1   |1  |2  |6   |1    |1    |161        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Contribute Money To
+#' @family Political
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name giveoth
+NULL
+
+
 #'  Contributions to arts culture humanities
 #' 
 #'  givearts
 #' 
-#' Question 390d. Were any of your contributions to organizations involved in the arts, culture, or the humanities?
+#' Question During the last year, approximately how much money did you and the other family members in your household contribute to each of the following: 
+#' D. Were any of your contributions to organizations involved in the arts, culture, or the humanities?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1142/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,10 +237,32 @@
 #'  |2024  |-     |-          |-   |-         |-   |3309                       |3309  |
 #'  |Total |68036 |3          |405 |95        |307 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Contribute Money To
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name givearts
+NULL
+
+
+#'  Hours religious act in home
+#' 
+#'  relhrs1
+#' 
+#' Question A. In the past month, about how many hours have you spent doing religious activities in your home (such as time spent praying, meditating, reading religious books, listening to religious broadcasts, etc.)?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -65,22 +276,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name givearts
-NULL
-
-#'  Hours religious act in home
-#' 
-#'  relhrs1
-#' 
-#' Question 391a. In the past month, about how many hours have you spent doing religious activities in your home (such as time spent praying, meditating, reading religious books, listening to religious broadcasts, etc.)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1143/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,6 +320,29 @@ NULL
 #'  |2024  |-     |-   |-   |-  |-   |-   |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |67401 |505 |159 |70 |5   |1   |2  |18 |5   |1  |4  |44 |4   |6  |1   |2  |1   |111 |37 |1   |1  |13 |12 |65 |70 |4  |5  |1  |78 |9  |2  |1  |1  |59 |8  |2  |23 |14 |1  |9  |1  |2  |31 |2  |5  |4  |18         |27        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name relhrs1
+NULL
+
+
+#'  Hours religious act outside of home
+#' 
+#'  relhrs2
+#' 
+#' Question B. In the past month, about how many hours have you spent doing religious services activities outside your home (such as attending religious services, prayer groups, Bible studies, fellowship meetings, church leadership meetings, etc.)?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -138,22 +358,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name relhrs1
-NULL
-
-#'  Hours religious act outside of home
-#' 
-#'  relhrs2
-#' 
-#' Question 391b. In the past month, about how many hours have you spent doing religious services activities outside your home (such as attending religious services, prayer groups, bible studies, fellowship meetings, church leadership meetings, etc.)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1144/vshow).
 #'
 #' Counts by year: 
 #'
@@ -196,8 +402,32 @@ NULL
 #'  |2024  |-     |-   |-  |-  |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |67401 |749 |53 |64 |1   |1  |26 |1   |1  |6  |1   |30 |13 |1  |6  |1  |61 |38 |3   |1  |1  |7  |6  |1   |1  |2  |1  |42 |19 |4  |1  |1  |98 |9  |1  |40 |7  |38 |7  |1  |2  |9  |2  |2  |46 |1  |5  |2  |1  |5          |26        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name relhrs2
+NULL
+
+
+#'  Number of members of the congregation
+#' 
+#'  numcong
+#' 
+#' Question About how many members does this congregation have?
+#' 
+#' 
 #' @section Values: 
 #' 
+#'   * `9996` 9996 or more
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -211,22 +441,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name relhrs2
-NULL
-
-#'  Number of members of the congregation
-#' 
-#'  numcong
-#' 
-#' Question 392. About how many members does this congregation have?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1145/vshow).
 #'
 #' Counts by year: 
 #'
@@ -269,9 +485,37 @@ NULL
 #'  |2024  |-     |-   |-    |-   |-   |-    |-   |-  |-   |-    |-   |-   |-    |-   |-    |-   |-  |-   |-    |-   |-    |-   |-   |-   |-   |-    |-   |-  |-   |-    |-   |-   |-   |-    |-  |-   |-    |-   |-   |-   |-    |-  |-   |-    |-   |-  |-   |-    |-   |-   |-  |-  |-   |-    |-  |-   |-    |-   |-   |-    |-  |-  |-  |-   |-    |-   |-   |-    |-  |-   |-    |-  |-   |-   |-  |-   |-  |-  |-  |-  |-   |-    |-    |-  |-   |-  |-   |-            |-          |-         |-  |-   |-   |-   |-   |-   |-    |-  |-   |-    |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-    |-   |-   |-   |-   |-    |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-  |-   |-    |-  |-   |-   |-   |-  |-   |-  |-   |-   |-    |-   |-  |-   |-   |-  |-    |-  |-   |-  |-   |-    |-    |-  |-   |-    |-    |-   |-   |-  |-  |-   |-  |-   |-    |-    |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-   |-   |-  |-  |-  |3309                       |3309  |
 #'  |Total |60917 |469 |371  |1   |11  |12   |4   |12 |57  |55   |44  |14  |7    |10  |9    |2   |17 |258 |94   |15  |10   |1   |1   |15  |11  |8    |2   |42 |560 |227  |1   |6   |6   |4    |41 |157 |58   |3   |3   |8   |2    |93 |502 |129  |4   |29 |88  |16   |2   |5   |2  |91 |254 |40   |16 |28  |8    |228 |437 |111  |2  |1  |15 |16  |1    |100 |123 |21   |21 |8   |1    |51 |76  |1   |78 |20  |1  |1  |3  |45 |84  |14   |1    |18 |35  |2  |4   |96           |1234       |955       |17 |2   |2   |1   |3   |1   |1    |5  |1   |1    |2    |4    |1   |1   |3   |1   |2   |3   |1    |1    |1    |1   |1   |2   |1   |1    |1   |2   |1  |1  |2   |1   |1   |1  |1   |1   |1  |9  |1   |3    |1  |1   |1   |1   |2  |1   |3  |1   |2   |2    |1   |7  |1   |1   |2  |2    |1  |3   |1  |2   |2    |1    |1  |1   |2    |1    |2   |1   |1  |1  |1   |4  |1   |1    |5    |1   |1   |1   |2  |3  |1    |1   |1  |1  |1   |1  |2   |1    |3  |1   |2  |3   |1  |10 |1   |1   |1   |1  |1  |1  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name numcong
+NULL
+
+
+#'  Have children older than 5
+#' 
+#'  kid5up
+#' 
+#' Question Do you have any children older than 5?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `9996` 9996 or more
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -285,22 +529,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name numcong
-NULL
-
-#'  Have children older than 5
-#' 
-#'  kid5up
-#' 
-#' Question 393. Do you have any children older than 5?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1146/vshow).
 #'
 #' Counts by year: 
 #'
@@ -343,6 +573,30 @@ NULL
 #'  |2024  |-     |-    |-         |-    |3309                       |3309  |
 #'  |Total |64584 |1646 |25        |2591 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name kid5up
+NULL
+
+
+#'  All children attend pub elem & hi school
+#' 
+#'  pubsch
+#' 
+#' Question Do/did all of your children attend public school for all of their elementary and high school education?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -360,22 +614,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name kid5up
-NULL
-
-#'  All children attend pub elem & hi school
-#' 
-#'  pubsch
-#' 
-#' Question 394. Do/did all of your children attend public school for all of their elementary and high school education?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1147/vshow).
 #'
 #' Counts by year: 
 #'
@@ -418,6 +658,33 @@ NULL
 #'  |2024  |-     |-   |-         |-    |-          |3309                       |3309  |
 #'  |Total |66230 |419 |56        |2139 |2          |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Children
+#' @family Education
+#' 
+#' @keywords variable
+#' @md
+#' @name pubsch
+NULL
+
+
+#'  Children attend home schooling
+#' 
+#'  homesch
+#' 
+#' Question Do/did all of your children attend public school for all of their elementary and high school education? 
+#' A. Which types of school do/did your children attend? 
+#' 1. Home schooling
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -435,22 +702,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name pubsch
-NULL
-
-#'  Children attend home schooling
-#' 
-#'  homesch
-#' 
-#' Question 394a. If no to Q.394: Which types of school do/did your children attend? 1. Home schooling
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1148/vshow).
 #'
 #' Counts by year: 
 #'
@@ -493,6 +746,33 @@ NULL
 #'  |2024  |-     |-   |-         |-   |3309                       |3309  |
 #'  |Total |68371 |343 |71        |61  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Children
+#' @family Education
+#' 
+#' @keywords variable
+#' @md
+#' @name homesch
+NULL
+
+
+#'  Children attend catholic school
+#' 
+#'  cathsch
+#' 
+#' Question Do/did all of your children attend public school for all of their elementary and high school education? 
+#' A. Which types of school do/did your children attend? 
+#' 2. Catholic school
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -510,22 +790,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name homesch
-NULL
-
-#'  Children attend catholic school
-#' 
-#'  cathsch
-#' 
-#' Question 394a. If no to Q.394: Which types of school do/did your children attend? 2. Catholic school
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1149/vshow).
 #'
 #' Counts by year: 
 #'
@@ -568,189 +834,21 @@ NULL
 #'  |2024  |-     |-   |-         |-   |3309                       |3309  |
 #'  |Total |68371 |220 |71        |184 |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Children
+#' @family Education
 #' 
 #' @keywords variable
 #' @md
 #' @name cathsch
 NULL
 
-#'  Children attend christian school
-#' 
-#'  chrissch
-#' 
-#' Question 394a. If no to Q.394: Which types of school do/did your children attend? 3. Christian school (not Catholic)
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |no  |no answer |yes |not available in this year |Total |
-#'  |:-----|:-----|:---|:---------|:---|:--------------------------|:-----|
-#'  |1972  |1613  |-   |-         |-   |-                          |1613  |
-#'  |1973  |1504  |-   |-         |-   |-                          |1504  |
-#'  |1974  |1484  |-   |-         |-   |-                          |1484  |
-#'  |1975  |1490  |-   |-         |-   |-                          |1490  |
-#'  |1976  |1499  |-   |-         |-   |-                          |1499  |
-#'  |1977  |1530  |-   |-         |-   |-                          |1530  |
-#'  |1978  |1532  |-   |-         |-   |-                          |1532  |
-#'  |1980  |1468  |-   |-         |-   |-                          |1468  |
-#'  |1982  |1860  |-   |-         |-   |-                          |1860  |
-#'  |1983  |1599  |-   |-         |-   |-                          |1599  |
-#'  |1984  |1473  |-   |-         |-   |-                          |1473  |
-#'  |1985  |1534  |-   |-         |-   |-                          |1534  |
-#'  |1986  |1470  |-   |-         |-   |-                          |1470  |
-#'  |1987  |1819  |-   |-         |-   |-                          |1819  |
-#'  |1988  |1481  |-   |-         |-   |-                          |1481  |
-#'  |1989  |1537  |-   |-         |-   |-                          |1537  |
-#'  |1990  |1372  |-   |-         |-   |-                          |1372  |
-#'  |1991  |1517  |-   |-         |-   |-                          |1517  |
-#'  |1993  |1606  |-   |-         |-   |-                          |1606  |
-#'  |1994  |2992  |-   |-         |-   |-                          |2992  |
-#'  |1996  |2904  |-   |-         |-   |-                          |2904  |
-#'  |1998  |2634  |119 |43        |36  |-                          |2832  |
-#'  |2000  |2540  |199 |28        |50  |-                          |2817  |
-#'  |2002  |2765  |-   |-         |-   |-                          |2765  |
-#'  |2004  |2812  |-   |-         |-   |-                          |2812  |
-#'  |2006  |4510  |-   |-         |-   |-                          |4510  |
-#'  |2008  |2023  |-   |-         |-   |-                          |2023  |
-#'  |2010  |2044  |-   |-         |-   |-                          |2044  |
-#'  |2012  |1974  |-   |-         |-   |-                          |1974  |
-#'  |2014  |2538  |-   |-         |-   |-                          |2538  |
-#'  |2016  |2867  |-   |-         |-   |-                          |2867  |
-#'  |2018  |2348  |-   |-         |-   |-                          |2348  |
-#'  |2021  |4032  |-   |-         |-   |-                          |4032  |
-#'  |2022  |-     |-   |-         |-   |3544                       |3544  |
-#'  |2024  |-     |-   |-         |-   |3309                       |3309  |
-#'  |Total |68371 |318 |71        |86  |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name chrissch
-NULL
-
-#'  Denomination of school children attended
-#' 
-#'  denomsch
-#' 
-#' Question 394a. If no to Q.394: Which types of school do/did your children attend? If yes to Q394a3: What denomination or church was/is theis school affiliated with?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |baptist |christian reform |christian science |don't know |episcopal |lutheran |missouri synod lutheran |no answer |non-denominational |seventh day adventist |southern baptist |valley christian |not available in this year |Total |
-#'  |:-----|:-----|:-------|:----------------|:-----------------|:----------|:---------|:--------|:-----------------------|:---------|:------------------|:---------------------|:----------------|:----------------|:--------------------------|:-----|
-#'  |1972  |1613  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |1613  |
-#'  |1973  |1504  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |1504  |
-#'  |1974  |1484  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |1484  |
-#'  |1975  |1490  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |1490  |
-#'  |1976  |1499  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |1499  |
-#'  |1977  |1530  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |1530  |
-#'  |1978  |1532  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |1532  |
-#'  |1980  |1468  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |1468  |
-#'  |1982  |1860  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |1860  |
-#'  |1983  |1599  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |1599  |
-#'  |1984  |1473  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |1473  |
-#'  |1985  |1534  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |1534  |
-#'  |1986  |1470  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |1470  |
-#'  |1987  |1819  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |1819  |
-#'  |1988  |1481  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |1481  |
-#'  |1989  |1537  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |1537  |
-#'  |1990  |1372  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |1372  |
-#'  |1991  |1517  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |1517  |
-#'  |1993  |1606  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |1606  |
-#'  |1994  |2992  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |2992  |
-#'  |1996  |2904  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |2904  |
-#'  |1998  |2832  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |2832  |
-#'  |2000  |2739  |13      |1                |1                 |4          |2         |6        |1                       |44        |3                  |1                     |1                |1                |-                          |2817  |
-#'  |2002  |2765  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |2765  |
-#'  |2004  |2812  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |2812  |
-#'  |2006  |4510  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |4510  |
-#'  |2008  |2023  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |2023  |
-#'  |2010  |2044  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |2044  |
-#'  |2012  |1974  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |1974  |
-#'  |2014  |2538  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |2538  |
-#'  |2016  |2867  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |2867  |
-#'  |2018  |2348  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |2348  |
-#'  |2021  |4032  |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |-                          |4032  |
-#'  |2022  |-     |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |3544                       |3544  |
-#'  |2024  |-     |-       |-                |-                 |-          |-         |-        |-                       |-         |-                  |-                     |-                |-                |3309                       |3309  |
-#'  |Total |68768 |13      |1                |1                 |4          |2         |6        |1                       |44        |3                  |1                     |1                |1                |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` baptist
-#'   * `2` christian reform
-#'   * `3` christian science
-#'   * `4` episcopal
-#'   * `5` inter denominational
-#'   * `6` lutheran
-#'   * `7` missouri synod lutheran
-#'   * `8` non-denominational
-#'   * `9` southern baptist
-#'   * `10` seventh day adventist
-#'   * `11` valley christian
-#'   * `12` congregational
-#'   * `13` mormon
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name denomsch
-NULL
 

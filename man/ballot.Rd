@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 ballot
 }
 \details{
-Question 1659. Ballot Administered.
+Question Ballot Administered.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} ballot a
+\item \code{2} ballot b
+\item \code{3} ballot c
+\item \code{4} ballot d
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5574/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllll}{
    year \tab iap \tab ballot a \tab ballot b \tab ballot c \tab ballot d \tab Total \cr
@@ -57,26 +79,46 @@ Counts by year:\tabular{lllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} ballot a
-\item \code{2} ballot b
-\item \code{3} ballot c
-\item \code{4} ballot d
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1988 \tab A/B/C/- \tab full \cr
+   1989 \tab A/B/C/- \tab full \cr
+   1990 \tab A/B/C/- \tab full \cr
+   1991 \tab A/B/C/- \tab full \cr
+   1993 \tab A/B/C/- \tab full \cr
+   1994 \tab A/B/C/- \tab full \cr
+   1996 \tab A/B/C/- \tab full \cr
+   1998 \tab A/B/C/- \tab full \cr
+   2000 \tab A/B/C/- \tab full \cr
+   2002 \tab A/B/C/- \tab full \cr
+   2004 \tab A/B/C/- \tab full \cr
+   2006 \tab A/B/C/D \tab full \cr
+   2008 \tab A/B/C/- \tab full \cr
+   2010 \tab A/B/C/- \tab full \cr
+   2012 \tab A/B/C/- \tab full \cr
+   2014 \tab A/B/C/- \tab full \cr
+   2016 \tab A/B/C/- \tab full \cr
+   2018 \tab A/B/C/- \tab full \cr
+   2021 \tab A/B/C/- \tab full \cr
+   2022 \tab A/B/C/- \tab full \cr
+   2024 \tab A/B/C/- \tab full \cr
 }
 }
 
+\seealso{
+Other Sampling and Weights: 
+\code{\link{issp}},
+\code{\link{sampcode}},
+\code{\link{sample}()},
+\code{\link{version}}
+
+Other Sample: 
+\code{\link{issp}},
+\code{\link{sampcode}},
+\code{\link{sample}()},
+\code{\link{version}}
+}
+\concept{Sample}
+\concept{Sampling and Weights}
 \keyword{variable}

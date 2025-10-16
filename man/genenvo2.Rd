@@ -10,11 +10,29 @@ General Social Survey https://gss.norc.org
 genenvo2
 }
 \details{
-Question Character, personality, and many types of behavior are influenced both by the genes people inherit from their parents and by what they learn and experience as they grow up. For each of the following descriptions, we would like you to indicate what percent of the person's behavior you believe is influenced by the genes they inherit, and what percent is influenced by their learning and experience and other aspects of their environment. The boxes on handcard D1 are arranged so that the first box on the LEFT (which is numbered 1) represents 100pct genetic influence (and 0pct environment). The next box (numbered 2) represents 95pct genes (and 5pct environment), and so on. The RIGHTMOST box (numbered 21) represents 100pct environmental influence (and no genetic influence). After each description, please type the number of the box that comes closest to your answer. Please use the numbered scale on handcard D1 to indicate, FOR EACH OF THE BEHAVIORS DESCRIBED, what percent of the person's behavior you think is influenced by the genes they inherit, and what percent is influenced by their learning and experience. After each question, type the number of the box that comes closest to your answer. Remember, the higher the number, the more you think the behavior is influenced by learning and experience; the lower the number, the more you think it is influenced by genes 979. David is an Asian man who drinks enough alcohol to become drunk several times a week. Often he can't remember what happened during these drinking episodes. (Please type in a number from 1 to 21):
+Question (The description of the second person presented to the respondent - please check GENEVIG1 & GENEVIG2)(Please type in a number from 1 to 21):
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3033/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllll}{
    year \tab iap \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +75,24 @@ Counts by year:\tabular{lllllllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Genes and the Environment: 
+\code{\link{genenvo1}},
+\code{\link{genevig1}},
+\code{\link{genevig2}}
+
+Other Genetic Testing: 
+\code{\link{genenvo1}},
+\code{\link{genevig1}},
+\code{\link{genevig2}}
+}
+\concept{Genes and the Environment}
+\concept{Genetic Testing}
 \keyword{variable}

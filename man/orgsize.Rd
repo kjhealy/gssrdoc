@@ -10,11 +10,38 @@ General Social Survey https://gss.norc.org
 orgsize
 }
 \details{
-Question 697d. About how many people are employed in the entire business, corporation, or organization for which you work? (Count part-time as well as full-time employees.)
+Question D. About how many people are employed in the entire business, corporation, or organization for which you work? (Count part-time as well as full-time employees.)
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} 1 - 9
+\item \code{2} 10 - 49
+\item \code{3} 50-99
+\item \code{4} 100-499
+\item \code{5} 500-999
+\item \code{6} 1 000-1 999
+\item \code{7} 2 000-9 999
+\item \code{8} 10 000 or more
+\item \code{98} not sure
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2144/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllll}{
    year \tab iap \tab 1 - 9 \tab 1 000-1 999 \tab 10 - 49 \tab 10 000 or more \tab 100-499 \tab 2 000-9 999 \tab 50-99 \tab 500-999 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,31 +84,36 @@ Counts by year:\tabular{llllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} 1 - 9
-\item \code{2} 10 - 49
-\item \code{3} 50-99
-\item \code{4} 100-499
-\item \code{5} 500-999
-\item \code{6} 1 000-1 999
-\item \code{7} 2 000-9 999
-\item \code{8} 10 000 or more
-\item \code{98} not sure
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1998 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Jobs: 
+\code{\link{formltrn}},
+\code{\link{genderwk}},
+\code{\link{locyrs}},
+\code{\link{othyrs}},
+\code{\link{otjtrain}},
+\code{\link{partorg}},
+\code{\link{samework}},
+\code{\link{siteyrs}},
+\code{\link{wrkoth}}
+
+Other Job: 
+\code{\link{formltrn}},
+\code{\link{genderwk}},
+\code{\link{locyrs}},
+\code{\link{othyrs}},
+\code{\link{otjtrain}},
+\code{\link{partorg}},
+\code{\link{samework}},
+\code{\link{siteyrs}},
+\code{\link{wrkoth}}
+}
+\concept{Job}
+\concept{Jobs}
 \keyword{variable}

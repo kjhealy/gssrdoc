@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 taxspend
 }
 \details{
-Question 1196. If the government had a choice between reducing taxes or spending more on social programs like health care, social security, and unemployment benefits, which do you think it should do? (We mean all taxes together, including social security, income tax, sales tax, and all the rest.) PLEASE CHECK ONE BOX ONLY.
+Question If the government had a choice between reducing taxes or spending more on social programs like health care, social security, and unemployment benefits, which do you think it should do? (We mean all taxes together, including social security, income tax, sales tax, and all the rest.) PLEASE CHECK ONE BOX ONLY.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} reduce taxes
+\item \code{2} spend more on social programs
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4103/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab can't choose \tab no answer \tab reduce taxes \tab spend more on social programs \tab not available in this year \tab Total \cr
@@ -57,24 +77,34 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} reduce taxes
-\item \code{2} spend more on social programs
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Role of Gov't: 
+\code{\link{brlawfl}},
+\code{\link{brnotax}},
+\code{\link{demworks}},
+\code{\link{poleff17}},
+\code{\link{runbanks}},
+\code{\link{runhosp}},
+\code{\link{runpower}},
+\code{\link{taxbylaw}},
+\code{\link{taxpaid}}
+
+Other Federal Government: 
+\code{\link{demworks}},
+\code{\link{poleff17}},
+\code{\link{runbanks}},
+\code{\link{runhosp}},
+\code{\link{runpower}}
+}
+\concept{Federal Government}
+\concept{ISSP Role of Gov't}
+\concept{Spending}
+\concept{Taxes}
 \keyword{variable}

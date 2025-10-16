@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 famfinan
 }
 \details{
-Question 637. Now I'd like to ask you about how you and your (husband/wife) organize your finances. Which of the following comes closest to describing the system that you and your (husband/wife) use: 1. Wife manages all the money, except for husband's personal spending money 2. Husband manages all the money except for wife's personal spending money 3. Wife has a housekeeping allowance and husband manages the rest of the money 4. All the money is pooed and each partner takes out what he or she needs 5. Some of the money is pooled, but each partner has some separate money as well. 6. Husband and wife keep finances completely separate
+Question Now I''d like to ask you about how you and your (husband/wife) organize your finances. Which of the following comes closest to describing the system that you and your (husband/wife) use:
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} wife manages all the money
+\item \code{2} husband manages all the money
+\item \code{3} wife has a housekeeping allowance
+\item \code{4} all the money is pooled
+\item \code{5} some of the money is pooled
+\item \code{6} keep finances completely separate
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1880/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab all the money is pooled \tab husband manages all the money \tab keep finances completely separate \tab no answer \tab some of the money is pooled \tab wife has a housekeeping allowance \tab wife manages all the money \tab not available in this year \tab Total \cr
@@ -57,28 +81,35 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} wife manages all the money
-\item \code{2} husband manages all the money
-\item \code{3} wife has a housekeeping allowance
-\item \code{4} all the money is pooled
-\item \code{5} some of the money is pooled
-\item \code{6} keep finances completely separate
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Markets: 
+\code{\link{decauto}},
+\code{\link{econsys}},
+\code{\link{fambiz}},
+\code{\link{haggle}},
+\code{\link{hrfambiz}},
+\code{\link{natrecon}},
+\code{\link{reqinfo}},
+\code{\link{tagsales}},
+\code{\link{wkfambiz}}
+
+Other Household: 
+\code{\link{decauto}}
+
+Other Purchases/Transactions: 
+\code{\link{decauto}},
+\code{\link{haggle}},
+\code{\link{tagsales}}
+}
+\concept{Household}
+\concept{Income}
+\concept{Markets}
+\concept{Purchases/Transactions}
 \keyword{variable}

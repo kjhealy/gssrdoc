@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 soctype1
 }
 \details{
-Question 1270. These five diagrams show different types of society. Please read the descriptions and look at the diagrams and decide which you think best describes America today: Type A: A small elite at the top, very few people in the middle and the great mass of people at the bottom. Type B: A society like a pyramid with a small elite at the top, more people in the middle, and most at the bottom Type C: A pyramid except that just a few people are at the very bottom Type D: A society with most people in the middle Type E: Many people near the top, and only a few near the bottom What type of society is America today?
+Question These five diagrams show different types of society. Please read the descriptions and look at the diagrams and decide which you think best describes America today. . .
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} type a
+\item \code{2} type b
+\item \code{3} type c
+\item \code{4} type d
+\item \code{5} type e
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4336/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab can't choose \tab no answer \tab type a \tab type b \tab type c \tab type d \tab type e \tab skipped on web \tab not available in this year \tab Total \cr
@@ -57,27 +80,32 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} type a
-\item \code{2} type b
-\item \code{3} type c
-\item \code{4} type d
-\item \code{5} type e
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
+   2021 \tab B/C/- \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Social Inequality: 
+\code{\link{execrnk}},
+\code{\link{famrnk}},
+\code{\link{justpay}},
+\code{\link{pasup}},
+\code{\link{paychild}},
+\code{\link{paydowel}},
+\code{\link{payhard}},
+\code{\link{soctype2}},
+\code{\link{unsklrnk}}
+
+Other Social Class: 
+\code{\link{execrnk}},
+\code{\link{famrnk}},
+\code{\link{soctype2}},
+\code{\link{unsklrnk}}
+}
+\concept{ISSP Social Inequality}
+\concept{Social Class}
 \keyword{variable}

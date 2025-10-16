@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 downqol
 }
 \details{
-Question 844. As you know, when people go to doctors, they may hold different expectations of what should result from their treatment. I'm going to describe a health problem. Please tell me how much you, yourself, would expect to get each of the following: Say you went to treatment because you feel downhearted and blue and this interferes with your social activities (like visiting friends, relatives, etc.) a. Would you definitely expect, probably expect, probably not expect, or definitely not expect your overall quality of life to improve?
+Question As you know, when people go to doctors, they may hold different expectations of what should result from their treatment. Iâ€™m going to describe a health problem. Please tell me how much you, yourself, would expect to get each of the following:
+A. Say you went to treatment because you feel downhearted and blue and this interferes with your social activities (like visiting friends, relatives, etc.) Would you definitely expect, probably expect, probably not expect, or definitely not expect your overall quality of life to improve?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} definitely expect
+\item \code{2} probably expect
+\item \code{3} probably not expect
+\item \code{4} definitely not expect
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2710/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab definitely expect \tab definitely not expect \tab don't know \tab no answer \tab probably expect \tab probably not expect \tab not available in this year \tab Total \cr
@@ -57,26 +80,36 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} definitely expect
-\item \code{2} probably expect
-\item \code{3} probably not expect
-\item \code{4} definitely not expect
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A \tab partial \cr
 }
 }
 
+\seealso{
+Other Health Status: 
+\code{\link{downcure}},
+\code{\link{downfam}},
+\code{\link{wait10}},
+\code{\link{wait11}},
+\code{\link{wait5}},
+\code{\link{wait6}},
+\code{\link{wait7}},
+\code{\link{wait8}},
+\code{\link{wait9}}
+
+Other Health: 
+\code{\link{downcure}},
+\code{\link{downfam}},
+\code{\link{wait10}},
+\code{\link{wait11}},
+\code{\link{wait5}},
+\code{\link{wait6}},
+\code{\link{wait7}},
+\code{\link{wait8}},
+\code{\link{wait9}}
+}
+\concept{Health}
+\concept{Health Status}
 \keyword{variable}

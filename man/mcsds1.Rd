@@ -2,7 +2,7 @@
 % Please edit documentation in R/gss_vars_226.R
 \name{mcsds1}
 \alias{mcsds1}
-\title{I’m always willing to admit it when i make a mistake}
+\title{Im always willing to admit it when i make a mistake}
 \source{
 General Social Survey https://gss.norc.org
 }
@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 mcsds1
 }
 \details{
-Question Next are a number of statements concerning personal attitudes and traits. Please tell me whether the statement is true or false as it pertains to you personally A. I?m always willing to admit it when I make a mistake.
+Question Next are a number of statements concerning personal attitudes and traits. Please tell me whether the statement is true or false as it pertains to you personally: I'm always willing to admit it when I make a mistake.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} true
+\item \code{2} false
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7149/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab false \tab no answer \tab true \tab not available in this year \tab Total \cr
@@ -57,23 +77,10 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} true
-\item \code{2} false
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2018 \tab B/C \tab partial \cr
 }
 }
 

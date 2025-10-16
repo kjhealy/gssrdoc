@@ -10,11 +10,40 @@ General Social Survey https://gss.norc.org
 freeexp2
 }
 \details{
-Question 822. What experiences in your life make you feel most free? Are there times in your life when you feel especially free? Can you give me an example of an experience that makes you feel really free?
+Question What experiences in your life make you feel most free?  Are there times in your life when you feel especially  free?  Can you give me an example of an experience that makes you feel really free?
+B. Second distinct experience mentioned
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} moving:driving travel
+\item \code{2} leisure:recreation enjoyable activity
+\item \code{3} social:engagement with family or institutions
+\item \code{4} negative:no obigation, divorced, being alone
+\item \code{5} inner:spiritual and religious freedom
+\item \code{6} choices:variant of making choices
+\item \code{7} citizen:political participation
+\item \code{8} security:economic security and independence
+\item \code{9} other
+\item \code{98} no answer dont know
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2661/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab choices:variant of making choices \tab citizen:political participation \tab inner:spiritual and religious freedom \tab leisure:recreation enjoyable activity \tab moving:driving travel \tab negative:no obigation, divorced, being alone \tab other \tab security:economic security and independence \tab social:engagement with family or institutions \tab not available in this year \tab Total \cr
@@ -57,32 +86,27 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} moving:driving travel
-\item \code{2} leisure:recreation enjoyable activity
-\item \code{3} social:engagement with family or institutions
-\item \code{4} negative:no obigation, divorced, being alone
-\item \code{5} inner:spiritual and religious freedom
-\item \code{6} choices:variant of making choices
-\item \code{7} citizen:political participation
-\item \code{8} security:economic security and independence
-\item \code{9} other
-\item \code{98} no answer dont know
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Freedom: 
+\code{\link{freeexp1}},
+\code{\link{freeexp3}},
+\code{\link{freemns1}},
+\code{\link{freemns2}},
+\code{\link{freemns3}}
+
+Other Freedom: 
+\code{\link{freeexp1}},
+\code{\link{freeexp3}},
+\code{\link{freemns1}},
+\code{\link{freemns2}},
+\code{\link{freemns3}}
+}
+\concept{Freedom}
 \keyword{variable}

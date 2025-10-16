@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 pasup
 }
 \details{
-Question 1273. In the job your father had when you were growing up, did your father supervise anyone who was directly responsible to him?
+Question In the job your father had when you were growing up, did your father supervise anyone who was directly responsible to him?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} no, did not supervise
+\item \code{2} yes, supervised 1 to 9 people
+\item \code{3} yes, supervised 10 or more
+\item \code{4} dk if he supervised anyone
+\item \code{5} i dk what my father did-father dead
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4341/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab dk if he supervised anyone \tab don't know \tab i dk what my father did-father dead \tab no answer \tab no, did not supervise \tab yes, supervised 1 to 9 people \tab yes, supervised 10 or more \tab not available in this year \tab Total \cr
@@ -57,27 +80,25 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} no, did not supervise
-\item \code{2} yes, supervised 1 to 9 people
-\item \code{3} yes, supervised 10 or more
-\item \code{4} dk if he supervised anyone
-\item \code{5} i dk what my father did-father dead
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Social Inequality: 
+\code{\link{execrnk}},
+\code{\link{famrnk}},
+\code{\link{justpay}},
+\code{\link{paychild}},
+\code{\link{paydowel}},
+\code{\link{payhard}},
+\code{\link{soctype1}},
+\code{\link{soctype2}},
+\code{\link{unsklrnk}}
+}
+\concept{ISSP Social Inequality}
+\concept{Occupation}
 \keyword{variable}

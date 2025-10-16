@@ -10,7 +10,10 @@ General Social Survey https://gss.norc.org
 racecen2_0022
 }
 \details{
-Question NA
+Question What is your race?  Indicate one or more races that you consider yourself to be.
+B. Second mention
+
+As of 2024, RACECEN2 has been recoded to coarsen certain sensitive categories. This has been retroactively applied to all previous years of RACECEN2. The original RACECEN2 containing data from 2000 to 2022 has been renamed RACECEN2_0022.
 }
 \section{Values}{
 
@@ -46,4 +49,78 @@ Question NA
 }
 }
 
+\section{Overview}{
+
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8161/vshow}{GSS Data Explorer page for this variable}.
+
+Counts by year:\tabular{llllllllllllllllllllll}{
+   year \tab not available in this year \tab american indian or alaska native \tab black or african american \tab chinese \tab filipino \tab hispanic \tab iap \tab japanese \tab other pacific islander \tab some other race \tab white \tab don't know \tab guamanian or chamorro \tab native hawaiian \tab no answer \tab other asian \tab vietnamese \tab korean \tab asian indian \tab samoan \tab Total \cr
+   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
+   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
+   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
+   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
+   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
+   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
+   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
+   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
+   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
+   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
+   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
+   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
+   1986 \tab 1470 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
+   1987 \tab 1819 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
+   1988 \tab 1481 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1481 \cr
+   1989 \tab 1537 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1537 \cr
+   1990 \tab 1372 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1372 \cr
+   1991 \tab 1517 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
+   1993 \tab 1606 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
+   1994 \tab 2992 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2992 \cr
+   1996 \tab 2904 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
+   1998 \tab 2832 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2832 \cr
+   2000 \tab - \tab 40 \tab 2 \tab 2 \tab 2 \tab 15 \tab 2745 \tab 1 \tab 1 \tab 1 \tab 8 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab - \tab 94 \tab 10 \tab 3 \tab 1 \tab 10 \tab 2601 \tab 1 \tab - \tab 3 \tab 28 \tab 2 \tab 1 \tab 1 \tab 2 \tab 6 \tab 2 \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab - \tab 95 \tab 7 \tab 2 \tab 2 \tab 11 \tab 2650 \tab 4 \tab - \tab 5 \tab 28 \tab - \tab - \tab 1 \tab 1 \tab 2 \tab 1 \tab 3 \tab - \tab - \tab 2812 \cr
+   2006 \tab - \tab 135 \tab 13 \tab 7 \tab 1 \tab 40 \tab 4244 \tab 1 \tab 3 \tab 8 \tab 41 \tab 3 \tab 1 \tab 2 \tab 2 \tab 5 \tab - \tab - \tab 2 \tab 2 \tab 4510 \cr
+   2008 \tab - \tab 71 \tab 10 \tab 4 \tab 1 \tab 13 \tab 1902 \tab 1 \tab - \tab 2 \tab 14 \tab - \tab 1 \tab 2 \tab - \tab - \tab - \tab - \tab 2 \tab - \tab 2023 \cr
+   2010 \tab - \tab 77 \tab 18 \tab 1 \tab 6 \tab 5 \tab 1890 \tab 2 \tab 2 \tab 2 \tab 21 \tab - \tab 1 \tab 3 \tab 9 \tab 1 \tab - \tab 3 \tab 3 \tab - \tab 2044 \cr
+   2012 \tab - \tab 70 \tab 17 \tab 2 \tab 5 \tab 12 \tab 1830 \tab 2 \tab 1 \tab 2 \tab 22 \tab 1 \tab 1 \tab - \tab 4 \tab 1 \tab - \tab - \tab 3 \tab 1 \tab 1974 \cr
+   2014 \tab - \tab 86 \tab 17 \tab 1 \tab 5 \tab 18 \tab 2346 \tab 3 \tab - \tab 4 \tab 34 \tab 1 \tab 1 \tab - \tab 13 \tab 3 \tab - \tab 2 \tab 3 \tab 1 \tab 2538 \cr
+   2016 \tab - \tab 140 \tab 24 \tab 2 \tab 3 \tab 8 \tab 2617 \tab 3 \tab 3 \tab 4 \tab 35 \tab 1 \tab - \tab - \tab 15 \tab 4 \tab 1 \tab 3 \tab 1 \tab 3 \tab 2867 \cr
+   2018 \tab - \tab 103 \tab 22 \tab 5 \tab 3 \tab 24 \tab 2122 \tab 3 \tab 2 \tab 15 \tab 25 \tab 2 \tab - \tab 2 \tab 13 \tab 4 \tab - \tab 2 \tab 1 \tab - \tab 2348 \cr
+   2021 \tab - \tab 62 \tab 10 \tab 7 \tab 3 \tab 8 \tab 3858 \tab 7 \tab - \tab 3 \tab 51 \tab 10 \tab 1 \tab 3 \tab - \tab 3 \tab 1 \tab 2 \tab 3 \tab - \tab 4032 \cr
+   2022 \tab - \tab 72 \tab 16 \tab 7 \tab 3 \tab 8 \tab 3362 \tab 3 \tab 1 \tab 7 \tab 52 \tab - \tab - \tab 3 \tab 1 \tab 3 \tab 2 \tab - \tab 3 \tab 1 \tab 3544 \cr
+   2024 \tab 3309 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \cr
+   Total \tab 41425 \tab 1045 \tab 166 \tab 43 \tab 35 \tab 172 \tab 32167 \tab 31 \tab 13 \tab 56 \tab 359 \tab 20 \tab 7 \tab 17 \tab 60 \tab 32 \tab 7 \tab 15 \tab 21 \tab 8 \tab 75699 \cr
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C/- \tab full \cr
+   2002 \tab A/B/C/- \tab full \cr
+   2004 \tab A/B/C/- \tab full \cr
+   2006 \tab A/B/C/D \tab full \cr
+   2008 \tab A/B/C/- \tab full \cr
+   2010 \tab A/B/C/- \tab full \cr
+   2012 \tab A/B/C/- \tab full \cr
+   2014 \tab A/B/C/- \tab full \cr
+   2016 \tab A/B/C/- \tab full \cr
+   2018 \tab A/B/C/- \tab full \cr
+   2021 \tab A/B/C/- \tab full \cr
+   2022 \tab A/B/C/- \tab full \cr
+}
+}
+
+\seealso{
+Other Ethnicity: 
+\code{\link{racecen1_0022}},
+\code{\link{racecen3_0022}}
+
+Other Race: 
+\code{\link{racecen1_0022}},
+\code{\link{racecen3_0022}}
+}
+\concept{Ethnicity}
+\concept{Race}
 \keyword{variable}

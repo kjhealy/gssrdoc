@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 doc18a
 }
 \details{
-Question 963. As you read each of the following statements, please think about the medical care you are now receiving. If you have not received any medical care recently, circle the answer based on what you would expect if you had to seek care today. Even if you are not entirely certain about your answers, we want to remind you that your best guess is important for each statement. c. I trust my doctor to put my medical needs above all other considerations when treating my medical problems.
+Question As you read each of the following statements, please think about the medical care you are now receiving. If you have not received any medical care recently, circle the answer based on what you would expect if you had to seek care today. Even if you are not entirely certain about your answers, we want to remind you that your best guess is important for each statement.
+C. I trust my doctor to put my medical needs above all other considerations when treating my medical problems.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} strongly agree
+\item \code{2} agree somewhat
+\item \code{3} neither agree nor disagree
+\item \code{4} disgree somewhat
+\item \code{5} strongly disagree
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2981/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab agree somewhat \tab disgree somewhat \tab don't know \tab neither agree nor disagree \tab no answer \tab strongly agree \tab strongly disagree \tab not available in this year \tab Total \cr
@@ -57,27 +81,31 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} strongly agree
-\item \code{2} agree somewhat
-\item \code{3} neither agree nor disagree
-\item \code{4} disgree somewhat
-\item \code{5} strongly disagree
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Mental Health II: 
+\code{\link{doc15a}},
+\code{\link{doc16a}},
+\code{\link{doc19a}},
+\code{\link{doc20a}},
+\code{\link{medaddct}},
+\code{\link{medsymps}},
+\code{\link{medunacc}},
+\code{\link{medweak}},
+\code{\link{solveown}}
+
+Other Health: 
+\code{\link{doc15a}},
+\code{\link{doc16a}},
+\code{\link{doc19a}},
+\code{\link{doc20a}}
+}
+\concept{Health}
+\concept{Mental Health II}
 \keyword{variable}

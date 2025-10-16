@@ -1,11 +1,128 @@
+#'  Children to school half opposite race
+#' 
+#'  rachaf
+#' 
+#' Question B. IF NO OR DON''T KNOW TO A:  Where half of the children are (Whites/(Negroes/Blacks/African- Americans)?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes, object
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/396/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |don't know |iap   |no    |no answer |yes, object |not available in this year |Total |
+#'  |:-----|:----------|:-----|:-----|:---------|:-----------|:--------------------------|:-----|
+#'  |1972  |38         |357   |997   |5         |216         |-                          |1613  |
+#'  |1973  |-          |1504  |-     |-         |-           |-                          |1504  |
+#'  |1974  |38         |240   |889   |19        |298         |-                          |1484  |
+#'  |1975  |48         |253   |912   |6         |271         |-                          |1490  |
+#'  |1976  |-          |1499  |-     |-         |-           |-                          |1499  |
+#'  |1977  |23         |274   |990   |11        |232         |-                          |1530  |
+#'  |1978  |42         |70    |1156  |7         |257         |-                          |1532  |
+#'  |1980  |-          |1468  |-     |-         |-           |-                          |1468  |
+#'  |1982  |44         |104   |1447  |9         |256         |-                          |1860  |
+#'  |1983  |37         |78    |1209  |8         |267         |-                          |1599  |
+#'  |1984  |-          |1473  |-     |-         |-           |-                          |1473  |
+#'  |1985  |29         |64    |1195  |9         |237         |-                          |1534  |
+#'  |1986  |33         |70    |1113  |8         |246         |-                          |1470  |
+#'  |1987  |-          |1819  |-     |-         |-           |-                          |1819  |
+#'  |1988  |22         |534   |773   |4         |148         |-                          |1481  |
+#'  |1989  |36         |573   |757   |8         |163         |-                          |1537  |
+#'  |1990  |37         |42    |1074  |6         |213         |-                          |1372  |
+#'  |1991  |22         |526   |813   |10        |146         |-                          |1517  |
+#'  |1993  |31         |573   |850   |4         |148         |-                          |1606  |
+#'  |1994  |45         |1086  |1616  |15        |230         |-                          |2992  |
+#'  |1996  |15         |1942  |793   |14        |140         |-                          |2904  |
+#'  |1998  |-          |2832  |-     |-         |-           |-                          |2832  |
+#'  |2000  |-          |2817  |-     |-         |-           |-                          |2817  |
+#'  |2002  |-          |2765  |-     |-         |-           |-                          |2765  |
+#'  |2004  |-          |2812  |-     |-         |-           |-                          |2812  |
+#'  |2006  |-          |4510  |-     |-         |-           |-                          |4510  |
+#'  |2008  |-          |2023  |-     |-         |-           |-                          |2023  |
+#'  |2010  |-          |2044  |-     |-         |-           |-                          |2044  |
+#'  |2012  |-          |1974  |-     |-         |-           |-                          |1974  |
+#'  |2014  |-          |2538  |-     |-         |-           |-                          |2538  |
+#'  |2016  |-          |2867  |-     |-         |-           |-                          |2867  |
+#'  |2018  |-          |2348  |-     |-         |-           |-                          |2348  |
+#'  |2021  |-          |4032  |-     |-         |-           |-                          |4032  |
+#'  |2022  |-          |-     |-     |-         |-           |3544                       |3544  |
+#'  |2024  |-          |-     |-     |-         |-           |3309                       |3309  |
+#'  |Total |540        |48111 |16584 |143       |3468        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1988 |A/B/-   |partial      |
+#'  |1989 |A/B/-   |partial      |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/-   |partial      |
+#'  |1993 |A/B/-   |partial      |
+#'  |1994 |A/B/-   |partial      |
+#'  |1996 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name rachaf
+NULL
+
+
 #'  Children to school mostly opposite race
 #' 
 #'  racmost
 #' 
-#' Question 133c. Where more than half of the children are (whites/(negroes/blacks/African-Americans))?
+#' Question C. IF NO OR DON''T KNOW TO B:  Where more than half of the children are (Whites/(Negroes/Blacks/African-Americans)?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes, object
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/397/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,10 +165,48 @@
 #'  |2024  |-          |-     |-    |-         |-           |3309                       |3309  |
 #'  |Total |930        |51586 |9618 |223       |6489        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1988 |A/B/-   |partial      |
+#'  |1989 |A/B/-   |partial      |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/-   |partial      |
+#'  |1993 |A/B/-   |partial      |
+#'  |1994 |A/B/-   |partial      |
+#'  |1996 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name racmost
+NULL
+
+
+#'  Attitude toward racial busing
+#' 
+#'  busing
+#' 
+#' Question A. In general, do you favor or oppose the busing of (Negro/Black/African-American) and white school children from one school district to another?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes, object
-#'   * `2` no
+#'   * `1` favor
+#'   * `2` oppose
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -65,22 +220,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name racmost
-NULL
-
-#'  Attitude toward racial busing
-#' 
-#'  busing
-#' 
-#' Question 134a. In general, do you favor or oppose the busing of (negro/black/African-American) and white school children from one school district to another?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/398/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,6 +264,45 @@ NULL
 #'  |2024  |-          |-     |-         |-      |-     |3309                       |3309  |
 #'  |Total |1047       |5951  |116       |16935  |44797 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1988 |A/B/-   |partial      |
+#'  |1989 |A/B/-   |partial      |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/-   |partial      |
+#'  |1993 |A/B/-   |partial      |
+#'  |1994 |A/B/-   |partial      |
+#'  |1996 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name busing
+NULL
+
+
+#'  Favor busing 10 yrs ago
+#' 
+#'  busing10
+#' 
+#' Question B. Now, thinking about ten years ago, that is in 1972, did you then favor or oppose the busing of (Negro/Black) and white school children from one school district to another?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` favor
@@ -140,22 +320,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name busing
-NULL
-
-#'  Favor busing 10 yrs ago
-#' 
-#'  busing10
-#' 
-#' Question 134b. Now, thinking about ten years ago, that is in 1972, did you then favor or oppose the busing of (negro/black) and white school children from one school district to another?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/399/vshow).
 #'
 #' Counts by year: 
 #'
@@ -198,10 +364,33 @@ NULL
 #'  |2024  |-     |-          |-     |-         |-      |3309                       |3309  |
 #'  |Total |66986 |169        |482   |13        |1196   |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1982 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name busing10
+NULL
+
+
+#'  Would vote for black president
+#' 
+#'  racpres
+#' 
+#' Question If your party nominated a (Negro/Black/African-American) for President, would you vote for him if he were qualified for the job?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` favor
-#'   * `2` oppose
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -215,22 +404,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name busing10
-NULL
-
-#'  Would vote for black president
-#' 
-#'  racpres
-#' 
-#' Question 135. If your party nominated a (negro/black/African-American) for President, would you vote for him if he were qualified for the job?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/400/vshow).
 #'
 #' Counts by year: 
 #'
@@ -273,10 +448,50 @@ NULL
 #'  |2024  |-          |-     |-    |-         |-     |3309                       |3309  |
 #'  |Total |939        |44581 |3140 |114       |20072 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#'  |1996 |A/B     |partial      |
+#'  |2008 |A/B     |partial      |
+#'  |2010 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name racpres
+NULL
+
+
+#'  Equal opportunities on jobs
+#' 
+#'  racjob
+#' 
+#' Question Do you think Negroes should have as good a chance as white people to get any kind of job, or do you think white people should have the first chance at any kind of job?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` as good a chance
+#'   * `2` whites first
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -290,22 +505,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name racpres
-NULL
-
-#'  Equal opportunities on jobs
-#' 
-#'  racjob
-#' 
-#' Question 136. Do you think Negroes should have as good a chance as white people to get any kind of job, or do you think white people whould have the first chance aat any kind of job?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/401/vshow).
 #'
 #' Counts by year: 
 #'
@@ -348,10 +549,34 @@ NULL
 #'  |2024  |-                |-          |-     |-         |-            |3309                       |3309  |
 #'  |Total |1289             |16         |67494 |4         |43           |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name racjob
+NULL
+
+
+#'  Attend church with other race
+#' 
+#'  racchurh
+#' 
+#' Question Do (Blacks/Negroes/African-Americans)/Whites attend the church that you, yourself, attend most often, or not?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` as good a chance
-#'   * `2` whites first
+#'   * `1` yes
+#'   * `2` no
+#'   * `3` no church
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -365,22 +590,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name racjob
-NULL
-
-#'  Attend church with other race
-#' 
-#'  racchurh
-#' 
-#' Question 137. Do (blacks/Negroes/African-Americans)/whites attend the church that you, yourself, attend most often, or not?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/402/vshow).
 #'
 #' Counts by year: 
 #'
@@ -423,11 +634,47 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-         |-    |3309                       |3309  |
 #'  |Total |53969 |18         |7262 |97        |2268      |5232 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name racchurh
+NULL
+
+
+#'  R's skin color
+#' 
+#'  color
+#' 
+#' Question Respondent''s skin color is . . . 
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `3` no church
+#'   * `1` very dark brown
+#'   * `2` dark brown
+#'   * `3` medium brown
+#'   * `4` light brown
+#'   * `5` very light brown
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -441,22 +688,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name racchurh
-NULL
-
-#'  R's skin color
-#' 
-#'  color
-#' 
-#' Question 138. If black: Respondent's skin color is:
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/403/vshow).
 #'
 #' Counts by year: 
 #'
@@ -499,13 +732,36 @@ NULL
 #'  |2024  |-     |-          |-           |-            |-         |-               |-                |3309                       |3309  |
 #'  |Total |68336 |125        |73          |233          |15        |50              |14               |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1982 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name color
+NULL
+
+
+#'  Preferred racial name
+#' 
+#'  racname
+#' 
+#' Question Which would you most like to be called, "Black", "Negro", "Colored", or "Afro- American", or does it make any difference?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` very dark brown
-#'   * `2` dark brown
-#'   * `3` medium brown
-#'   * `4` light brown
-#'   * `5` very light brown
+#'   * `1` black
+#'   * `2` negro
+#'   * `3` colored
+#'   * `4` afro-american
+#'   * `8` makes no difference
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -519,22 +775,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name color
-NULL
-
-#'  Preferred racial name
-#' 
-#'  racname
-#' 
-#' Question 139. Which would you most like to be called: black, negro, colored, or Afro-American, or does it make any difference?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/404/vshow).
 #'
 #' Counts by year: 
 #'
@@ -577,13 +819,35 @@ NULL
 #'  |2024  |-     |-             |-     |-       |-                   |-     |-         |3309                       |3309  |
 #'  |Total |68336 |29            |264   |23      |158                 |29    |7         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1982 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name racname
+NULL
+
+
+#'  How integrated was r's high school
+#' 
+#'  rachisch
+#' 
+#' Question Was the high school you attended all black, integrated--but mostly black, or integrated--but mostly white?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` black
-#'   * `2` negro
-#'   * `3` colored
-#'   * `4` afro-american
-#'   * `8` makes no difference
+#'   * `0` didnt go to hs
+#'   * `1` all black
+#'   * `2` mostly black
+#'   * `3` mostly white
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -597,22 +861,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name racname
-NULL
-
-#'  How integrated was r's high school
-#' 
-#'  rachisch
-#' 
-#' Question 140. Was the high school you attended all black, integrated but mostly black, or integrated but mostly white?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/405/vshow).
 #'
 #' Counts by year: 
 #'
@@ -655,106 +905,19 @@ NULL
 #'  |2024  |-     |-         |-              |-            |-            |-         |3309                       |3309  |
 #'  |Total |68336 |235       |33             |120          |112          |10        |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `0` didnt go to hs
-#'   * `1` all black
-#'   * `2` mostly black
-#'   * `3` mostly white
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1982 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
 #' @name rachisch
 NULL
 
-#'  How many friends are white
-#' 
-#'  racmix
-#' 
-#' Question 141. How many of your close friends are white?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |no answer |none |one or two |three or more |not available in this year |Total |
-#'  |:-----|:-----|:---------|:----|:----------|:-------------|:--------------------------|:-----|
-#'  |1972  |1613  |-         |-    |-          |-             |-                          |1613  |
-#'  |1973  |1504  |-         |-    |-          |-             |-                          |1504  |
-#'  |1974  |1484  |-         |-    |-          |-             |-                          |1484  |
-#'  |1975  |1490  |-         |-    |-          |-             |-                          |1490  |
-#'  |1976  |1499  |-         |-    |-          |-             |-                          |1499  |
-#'  |1977  |1530  |-         |-    |-          |-             |-                          |1530  |
-#'  |1978  |1532  |-         |-    |-          |-             |-                          |1532  |
-#'  |1980  |1468  |-         |-    |-          |-             |-                          |1468  |
-#'  |1982  |1350  |2         |170  |124        |214           |-                          |1860  |
-#'  |1983  |1599  |-         |-    |-          |-             |-                          |1599  |
-#'  |1984  |1473  |-         |-    |-          |-             |-                          |1473  |
-#'  |1985  |1534  |-         |-    |-          |-             |-                          |1534  |
-#'  |1986  |1470  |-         |-    |-          |-             |-                          |1470  |
-#'  |1987  |1819  |-         |-    |-          |-             |-                          |1819  |
-#'  |1988  |1481  |-         |-    |-          |-             |-                          |1481  |
-#'  |1989  |1537  |-         |-    |-          |-             |-                          |1537  |
-#'  |1990  |1372  |-         |-    |-          |-             |-                          |1372  |
-#'  |1991  |1517  |-         |-    |-          |-             |-                          |1517  |
-#'  |1993  |1606  |-         |-    |-          |-             |-                          |1606  |
-#'  |1994  |2992  |-         |-    |-          |-             |-                          |2992  |
-#'  |1996  |2904  |-         |-    |-          |-             |-                          |2904  |
-#'  |1998  |2832  |-         |-    |-          |-             |-                          |2832  |
-#'  |2000  |2817  |-         |-    |-          |-             |-                          |2817  |
-#'  |2002  |2765  |-         |-    |-          |-             |-                          |2765  |
-#'  |2004  |2812  |-         |-    |-          |-             |-                          |2812  |
-#'  |2006  |4510  |-         |-    |-          |-             |-                          |4510  |
-#'  |2008  |2023  |-         |-    |-          |-             |-                          |2023  |
-#'  |2010  |2044  |-         |-    |-          |-             |-                          |2044  |
-#'  |2012  |1974  |-         |-    |-          |-             |-                          |1974  |
-#'  |2014  |2538  |-         |-    |-          |-             |-                          |2538  |
-#'  |2016  |2867  |-         |-    |-          |-             |-                          |2867  |
-#'  |2018  |2348  |-         |-    |-          |-             |-                          |2348  |
-#'  |2021  |4032  |-         |-    |-          |-             |-                          |4032  |
-#'  |2022  |-     |-         |-    |-          |-             |3544                       |3544  |
-#'  |2024  |-     |-         |-    |-          |-             |3309                       |3309  |
-#'  |Total |68336 |2         |170  |124        |214           |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` none
-#'   * `2` one or two
-#'   * `3` three or more
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name racmix
-NULL
 

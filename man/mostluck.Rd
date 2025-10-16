@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 mostluck
 }
 \details{
-Question 573. The following are some statements that people have made. For each one, please tell me if you strongly agree, agree, disagree, or strongly disagree with the statement. c. The really good things that happen to me are mostly luck.
+Question The following are some statements that people have made. For each one, please tell me if you strongly agree, agree, disagree, or strongly disagree with the statement. (NOTE: INTERVIEWERS SHOULD CODE "neither agree or disagree/it depends" ONLY WHEN VOLUNTEERED.)
+C. The really good things that happen to me are mostly luck.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} strongly agree
+\item \code{2} agree
+\item \code{3} neither agree or disagree-it depends
+\item \code{4} disagree
+\item \code{5} strongly disagree
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1727/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab agree \tab disagree \tab don't know \tab neither agree or disagree-it depends \tab no answer \tab strongly agree \tab strongly disagree \tab not available in this year \tab Total \cr
@@ -57,27 +81,36 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} strongly agree
-\item \code{2} agree
-\item \code{3} neither agree or disagree-it depends
-\item \code{4} disagree
-\item \code{5} strongly disagree
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Emotions: 
+\code{\link{angry}},
+\code{\link{badbrks}},
+\code{\link{embarrss}},
+\code{\link{litcntrl}},
+\code{\link{noemote}},
+\code{\link{noplan}},
+\code{\link{proud}},
+\code{\link{showangr}},
+\code{\link{showfeel}}
+
+Other Feelings: 
+\code{\link{angry}},
+\code{\link{badbrks}},
+\code{\link{embarrss}},
+\code{\link{litcntrl}},
+\code{\link{noemote}},
+\code{\link{noplan}},
+\code{\link{proud}},
+\code{\link{showangr}},
+\code{\link{showfeel}}
+}
+\concept{Emotions}
+\concept{Feelings}
 \keyword{variable}

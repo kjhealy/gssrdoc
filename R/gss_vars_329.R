@@ -1,11 +1,205 @@
+#'  How willing r spend evening with child's family
+#' 
+#'  spendeve
+#' 
+#' Question B. How willing would you be to spend an evening socializing with (John/Mary)'s family?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` definitely willing
+#'   * `2` probably willing
+#'   * `3` probably unwilling
+#'   * `4` definitely unwilling
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2934/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |definitely unwilling |definitely willing |don't know |no answer |probably unwilling |probably willing |not available in this year |skipped on web |Total |
+#'  |:-----|:-----|:--------------------|:------------------|:----------|:---------|:------------------|:----------------|:--------------------------|:--------------|:-----|
+#'  |1972  |1613  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1613  |
+#'  |1973  |1504  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1504  |
+#'  |1974  |1484  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1484  |
+#'  |1975  |1490  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1490  |
+#'  |1976  |1499  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1499  |
+#'  |1977  |1530  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1530  |
+#'  |1978  |1532  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1532  |
+#'  |1980  |1468  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1468  |
+#'  |1982  |1860  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1860  |
+#'  |1983  |1599  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1599  |
+#'  |1984  |1473  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1473  |
+#'  |1985  |1534  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1534  |
+#'  |1986  |1470  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1470  |
+#'  |1987  |1819  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1819  |
+#'  |1988  |1481  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1481  |
+#'  |1989  |1537  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1537  |
+#'  |1990  |1372  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1372  |
+#'  |1991  |1517  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1517  |
+#'  |1993  |1606  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1606  |
+#'  |1994  |2992  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |2992  |
+#'  |1996  |2904  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |2904  |
+#'  |1998  |2832  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |2832  |
+#'  |2000  |2817  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |2817  |
+#'  |2002  |1372  |45                   |483                |35         |13        |128                |689              |-                          |-              |2765  |
+#'  |2004  |2812  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |2812  |
+#'  |2006  |4510  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |4510  |
+#'  |2008  |2023  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |2023  |
+#'  |2010  |2044  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |2044  |
+#'  |2012  |1974  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1974  |
+#'  |2014  |2538  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |2538  |
+#'  |2016  |2867  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |2867  |
+#'  |2018  |2348  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |2348  |
+#'  |2021  |4032  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |4032  |
+#'  |2022  |-     |-                    |-                  |-          |-         |-                  |-                |3544                       |-              |3544  |
+#'  |2024  |1660  |83                   |415                |41         |9         |235                |841              |-                          |25             |3309  |
+#'  |Total |69113 |128                  |898                |76         |22        |363                |1530             |3544                       |25             |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2024 |A/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health II
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name spendeve
+NULL
+
+
+#'  How willing r have children make friends with ch
+#' 
+#'  chldfrnd
+#' 
+#' Question C. How willing would you be to have your children make friends with (John/Mary)?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` definitely willing
+#'   * `2` probably willing
+#'   * `3` probably unwilling
+#'   * `4` definitely unwilling
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2935/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |definitely unwilling |definitely willing |don't know |no answer |probably unwilling |probably willing |not available in this year |skipped on web |Total |
+#'  |:-----|:-----|:--------------------|:------------------|:----------|:---------|:------------------|:----------------|:--------------------------|:--------------|:-----|
+#'  |1972  |1613  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1613  |
+#'  |1973  |1504  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1504  |
+#'  |1974  |1484  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1484  |
+#'  |1975  |1490  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1490  |
+#'  |1976  |1499  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1499  |
+#'  |1977  |1530  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1530  |
+#'  |1978  |1532  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1532  |
+#'  |1980  |1468  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1468  |
+#'  |1982  |1860  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1860  |
+#'  |1983  |1599  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1599  |
+#'  |1984  |1473  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1473  |
+#'  |1985  |1534  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1534  |
+#'  |1986  |1470  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1470  |
+#'  |1987  |1819  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1819  |
+#'  |1988  |1481  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1481  |
+#'  |1989  |1537  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1537  |
+#'  |1990  |1372  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1372  |
+#'  |1991  |1517  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1517  |
+#'  |1993  |1606  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1606  |
+#'  |1994  |2992  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |2992  |
+#'  |1996  |2904  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |2904  |
+#'  |1998  |2832  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |2832  |
+#'  |2000  |2817  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |2817  |
+#'  |2002  |1372  |54                   |496                |29         |14        |173                |627              |-                          |-              |2765  |
+#'  |2004  |2812  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |2812  |
+#'  |2006  |4510  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |4510  |
+#'  |2008  |2023  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |2023  |
+#'  |2010  |2044  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |2044  |
+#'  |2012  |1974  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |1974  |
+#'  |2014  |2538  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |2538  |
+#'  |2016  |2867  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |2867  |
+#'  |2018  |2348  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |2348  |
+#'  |2021  |4032  |-                    |-                  |-          |-         |-                  |-                |-                          |-              |4032  |
+#'  |2022  |-     |-                    |-                  |-          |-         |-                  |-                |3544                       |-              |3544  |
+#'  |2024  |1661  |96                   |428                |38         |10        |228                |822              |-                          |26             |3309  |
+#'  |Total |69114 |150                  |924                |67         |24        |401                |1449             |3544                       |26             |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2024 |A/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health II
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name chldfrnd
+NULL
+
+
 #'  How willing r have child in same class of r's ch
 #' 
 #'  chldsch
 #' 
-#' Question 943d. How willing would you be to have (John/Mary) in your child's class at school?
+#' Question D. How willing would you be to have (John/Mary) in your child's class at school?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` definitely willing
+#'   * `2` probably willing
+#'   * `3` probably unwilling
+#'   * `4` definitely unwilling
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2936/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,12 +242,35 @@
 #'  |2024  |1661  |63                   |562                |35         |8         |146                |808              |-                          |26             |3309  |
 #'  |Total |69114 |95                   |1164               |63         |21        |244                |1428             |3544                       |26             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2024 |A/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health II
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name chldsch
+NULL
+
+
+#'  Would r get advice from family if child was r's
+#' 
+#'  adfam
+#' 
+#' Question If (John/Mary) was your child, would you... 
+#' Get advice from family and friends about (John/Mary)?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` definitely willing
-#'   * `2` probably willing
-#'   * `3` probably unwilling
-#'   * `4` definitely unwilling
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -67,22 +284,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name chldsch
-NULL
-
-#'  Would r get advice from family if child was r's
-#' 
-#'  adfam
-#' 
-#' Question 944. If (John/Mary) was your child, would you... Get advice from family and friends about (John/Mary)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2937/vshow).
 #'
 #' Counts by year: 
 #'
@@ -125,10 +328,38 @@ NULL
 #'  |2024  |1661  |18         |361 |5         |1245 |-                          |19             |3309  |
 #'  |Total |69114 |38         |802 |16        |2166 |3544                       |19             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2024 |A/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health II
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name adfam
+NULL
+
+
+#'  Would r have child be on medication by fam advice
+#' 
+#'  adfammed
+#' 
+#' Question If (John/Mary) was your child, would you... 
+#' Get advice from family and friends about (John/Mary)? 
+#' A. If they said your child should be on medication, how likely would you be to do that?  Very likely, somewhat likely, not very likely, or not at all likely?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` very likely
+#'   * `2` somewhat likely
+#'   * `3` not very likely
+#'   * `4` not at all likely
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -142,22 +373,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name adfam
-NULL
-
-#'  Would r have child be on medication by fam advice
-#' 
-#'  adfammed
-#' 
-#' Question 944a. If they said your child should be on medication, how likely would you be to do that? Very likely, somewhat likely, not very likely, or not at all likely?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2938/vshow).
 #'
 #' Counts by year: 
 #'
@@ -200,12 +417,34 @@ NULL
 #'  |2024  |-     |-          |-                 |-               |-               |-           |3309                       |3309  |
 #'  |Total |67925 |8          |145               |216             |279             |273         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health II
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name adfammed
+NULL
+
+
+#'  Would r get advice from teachers child if was r's
+#' 
+#'  adtch
+#' 
+#' Question If (John/Mary) was your child, would you... 
+#' Get advice from your child''s teachers?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` not very likely
-#'   * `4` not at all likely
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -219,22 +458,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name adfammed
-NULL
-
-#'  Would r get advice from teachers child if was r's
-#' 
-#'  adtch
-#' 
-#' Question 945. If (John/Mary) was your child, would you... Get advice from your child's teachers?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2939/vshow).
 #'
 #' Counts by year: 
 #'
@@ -277,10 +502,38 @@ NULL
 #'  |2024  |1661  |14         |213 |5         |1394 |-                          |22             |3309  |
 #'  |Total |69114 |42         |469 |16        |2492 |3544                       |22             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2024 |A/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health II
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name adtch
+NULL
+
+
+#'  Would have child be on med by teachers advice
+#' 
+#'  adtchmed
+#' 
+#' Question If (John/Mary) was your child, would you...
+#' Get advice from your child's teachers?
+#' A. If the teachers said your child should be on medication, how likely would you be to do that?  Very likely, somewhat likely, not very likely, or not at all likely?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` very likely
+#'   * `2` somewhat likely
+#'   * `3` not very likely
+#'   * `4` not at all likely
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -294,22 +547,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name adtch
-NULL
-
-#'  Would have child be on med by teachers advice
-#' 
-#'  adtchmed
-#' 
-#' Question 945a. If the teachers said your child should be on medication, how likely would you be to do that? Very likely, somewhat likely, not very likely, or not at all likely?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2940/vshow).
 #'
 #' Counts by year: 
 #'
@@ -352,12 +591,34 @@ NULL
 #'  |2024  |-     |-          |-                 |-               |-               |-           |3309                       |3309  |
 #'  |Total |67748 |5          |231               |355             |340             |167         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health II
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name adtchmed
+NULL
+
+
+#'  Would go to a medical doctor if he was r's child
+#' 
+#'  addoc
+#' 
+#' Question If (John/Mary) was your child, would you... 
+#' Go to a general medical doctor for help?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` not very likely
-#'   * `4` not at all likely
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -371,22 +632,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name adtchmed
-NULL
-
-#'  Would go to a medical doctor if he was r's child
-#' 
-#'  addoc
-#' 
-#' Question 946. If (John/Mary) was your child, would you... Go to a general medical doctor for help?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2941/vshow).
 #'
 #' Counts by year: 
 #'
@@ -429,10 +676,38 @@ NULL
 #'  |2024  |1661  |15         |379 |5         |1224 |-                          |25             |3309  |
 #'  |Total |69114 |38         |647 |16        |2315 |3544                       |25             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2024 |A/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health II
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name addoc
+NULL
+
+
+#'  Would have child be on med by docs advice
+#' 
+#'  addocmed
+#' 
+#' Question If (John/Mary) was your child, would you... 
+#' Go to a general medical doctor for help? 
+#' A. If the doctor said that your child should be on medication, how likely would you be to do that? Very likely, somewhat likely, not very likely, or not at all likely?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` very likely
+#'   * `2` somewhat likely
+#'   * `3` not very likely
+#'   * `4` not at all likely
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -446,22 +721,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name addoc
-NULL
-
-#'  Would have child be on med by docs advice
-#' 
-#'  addocmed
-#' 
-#' Question 946a. If the doctor said that your child should be on medication, how likely would you be to do that? Very likely, somewhat likely, not very likely, or not at all likely?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2942/vshow).
 #'
 #' Counts by year: 
 #'
@@ -504,12 +765,34 @@ NULL
 #'  |2024  |-     |-          |-                 |-               |-               |-           |3309                       |3309  |
 #'  |Total |67755 |8          |31                |97              |382             |573         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health II
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name addocmed
+NULL
+
+
+#'  Would r go to counselor if child was r's
+#' 
+#'  adcou
+#' 
+#' Question If (John/Mary) was your child, would you... 
+#' Go to a therapist or counselor, like a psychologist, social worker, or other mental health professional for help?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` not very likely
-#'   * `4` not at all likely
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -523,22 +806,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name addocmed
-NULL
-
-#'  Would r go to counselor if child was r's
-#' 
-#'  adcou
-#' 
-#' Question 947. If (John/Mary) was your child, would you... Go to a therapist or counselor, like a psychologist, social worker, or other mental health professional for help?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2943/vshow).
 #'
 #' Counts by year: 
 #'
@@ -581,180 +850,19 @@ NULL
 #'  |2024  |-     |-          |-   |-         |-   |3309                       |3309  |
 #'  |Total |67453 |26         |415 |11        |941 |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Mental Health II
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
 #' @name adcou
 NULL
 
-#'  Would r have child on med by counselor's advice
-#' 
-#'  adcoumed
-#' 
-#' Question 947a. If the therapist or counselor said your child should be on medication, how likely would you be to do that? Very likely, somewhat likely, not very likely, or not at all likely?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |not at all likely |not very likely |somewhat likely |very likely |not available in this year |no answer |skipped on web |Total |
-#'  |:-----|:-----|:----------|:-----------------|:---------------|:---------------|:-----------|:--------------------------|:---------|:--------------|:-----|
-#'  |1972  |1613  |-          |-                 |-               |-               |-           |-                          |-         |-              |1613  |
-#'  |1973  |1504  |-          |-                 |-               |-               |-           |-                          |-         |-              |1504  |
-#'  |1974  |1484  |-          |-                 |-               |-               |-           |-                          |-         |-              |1484  |
-#'  |1975  |1490  |-          |-                 |-               |-               |-           |-                          |-         |-              |1490  |
-#'  |1976  |1499  |-          |-                 |-               |-               |-           |-                          |-         |-              |1499  |
-#'  |1977  |1530  |-          |-                 |-               |-               |-           |-                          |-         |-              |1530  |
-#'  |1978  |1532  |-          |-                 |-               |-               |-           |-                          |-         |-              |1532  |
-#'  |1980  |1468  |-          |-                 |-               |-               |-           |-                          |-         |-              |1468  |
-#'  |1982  |1860  |-          |-                 |-               |-               |-           |-                          |-         |-              |1860  |
-#'  |1983  |1599  |-          |-                 |-               |-               |-           |-                          |-         |-              |1599  |
-#'  |1984  |1473  |-          |-                 |-               |-               |-           |-                          |-         |-              |1473  |
-#'  |1985  |1534  |-          |-                 |-               |-               |-           |-                          |-         |-              |1534  |
-#'  |1986  |1470  |-          |-                 |-               |-               |-           |-                          |-         |-              |1470  |
-#'  |1987  |1819  |-          |-                 |-               |-               |-           |-                          |-         |-              |1819  |
-#'  |1988  |1481  |-          |-                 |-               |-               |-           |-                          |-         |-              |1481  |
-#'  |1989  |1537  |-          |-                 |-               |-               |-           |-                          |-         |-              |1537  |
-#'  |1990  |1372  |-          |-                 |-               |-               |-           |-                          |-         |-              |1372  |
-#'  |1991  |1517  |-          |-                 |-               |-               |-           |-                          |-         |-              |1517  |
-#'  |1993  |1606  |-          |-                 |-               |-               |-           |-                          |-         |-              |1606  |
-#'  |1994  |2992  |-          |-                 |-               |-               |-           |-                          |-         |-              |2992  |
-#'  |1996  |2904  |-          |-                 |-               |-               |-           |-                          |-         |-              |2904  |
-#'  |1998  |2832  |-          |-                 |-               |-               |-           |-                          |-         |-              |2832  |
-#'  |2000  |2817  |-          |-                 |-               |-               |-           |-                          |-         |-              |2817  |
-#'  |2002  |1824  |6          |34                |98              |370             |433         |-                          |-         |-              |2765  |
-#'  |2004  |2812  |-          |-                 |-               |-               |-           |-                          |-         |-              |2812  |
-#'  |2006  |4510  |-          |-                 |-               |-               |-           |-                          |-         |-              |4510  |
-#'  |2008  |2023  |-          |-                 |-               |-               |-           |-                          |-         |-              |2023  |
-#'  |2010  |2044  |-          |-                 |-               |-               |-           |-                          |-         |-              |2044  |
-#'  |2012  |1974  |-          |-                 |-               |-               |-           |-                          |-         |-              |1974  |
-#'  |2014  |2538  |-          |-                 |-               |-               |-           |-                          |-         |-              |2538  |
-#'  |2016  |2867  |-          |-                 |-               |-               |-           |-                          |-         |-              |2867  |
-#'  |2018  |2348  |-          |-                 |-               |-               |-           |-                          |-         |-              |2348  |
-#'  |2021  |4032  |-          |-                 |-               |-               |-           |-                          |-         |-              |4032  |
-#'  |2022  |-     |-          |-                 |-               |-               |-           |3544                       |-         |-              |3544  |
-#'  |2024  |1661  |21         |131               |316             |705             |447         |-                          |6         |22             |3309  |
-#'  |Total |69566 |27         |165               |414             |1075            |880         |3544                       |6         |22             |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` not very likely
-#'   * `4` not at all likely
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name adcoumed
-NULL
-
-#'  Would r go to a psychiatrist if child was r's
-#' 
-#'  adpsy
-#' 
-#' Question 948. If (John/Mary) was your child, would you... Go to a psychiatrist for help?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no   |no answer |yes  |not available in this year |skipped on web |Total |
-#'  |:-----|:-----|:----------|:----|:---------|:----|:--------------------------|:--------------|:-----|
-#'  |1972  |1613  |-          |-    |-         |-    |-                          |-              |1613  |
-#'  |1973  |1504  |-          |-    |-         |-    |-                          |-              |1504  |
-#'  |1974  |1484  |-          |-    |-         |-    |-                          |-              |1484  |
-#'  |1975  |1490  |-          |-    |-         |-    |-                          |-              |1490  |
-#'  |1976  |1499  |-          |-    |-         |-    |-                          |-              |1499  |
-#'  |1977  |1530  |-          |-    |-         |-    |-                          |-              |1530  |
-#'  |1978  |1532  |-          |-    |-         |-    |-                          |-              |1532  |
-#'  |1980  |1468  |-          |-    |-         |-    |-                          |-              |1468  |
-#'  |1982  |1860  |-          |-    |-         |-    |-                          |-              |1860  |
-#'  |1983  |1599  |-          |-    |-         |-    |-                          |-              |1599  |
-#'  |1984  |1473  |-          |-    |-         |-    |-                          |-              |1473  |
-#'  |1985  |1534  |-          |-    |-         |-    |-                          |-              |1534  |
-#'  |1986  |1470  |-          |-    |-         |-    |-                          |-              |1470  |
-#'  |1987  |1819  |-          |-    |-         |-    |-                          |-              |1819  |
-#'  |1988  |1481  |-          |-    |-         |-    |-                          |-              |1481  |
-#'  |1989  |1537  |-          |-    |-         |-    |-                          |-              |1537  |
-#'  |1990  |1372  |-          |-    |-         |-    |-                          |-              |1372  |
-#'  |1991  |1517  |-          |-    |-         |-    |-                          |-              |1517  |
-#'  |1993  |1606  |-          |-    |-         |-    |-                          |-              |1606  |
-#'  |1994  |2992  |-          |-    |-         |-    |-                          |-              |2992  |
-#'  |1996  |2904  |-          |-    |-         |-    |-                          |-              |2904  |
-#'  |1998  |2832  |-          |-    |-         |-    |-                          |-              |2832  |
-#'  |2000  |2817  |-          |-    |-         |-    |-                          |-              |2817  |
-#'  |2002  |1372  |36         |605  |11        |741  |-                          |-              |2765  |
-#'  |2004  |2812  |-          |-    |-         |-    |-                          |-              |2812  |
-#'  |2006  |4510  |-          |-    |-         |-    |-                          |-              |4510  |
-#'  |2008  |2023  |-          |-    |-         |-    |-                          |-              |2023  |
-#'  |2010  |2044  |-          |-    |-         |-    |-                          |-              |2044  |
-#'  |2012  |1974  |-          |-    |-         |-    |-                          |-              |1974  |
-#'  |2014  |2538  |-          |-    |-         |-    |-                          |-              |2538  |
-#'  |2016  |2867  |-          |-    |-         |-    |-                          |-              |2867  |
-#'  |2018  |2348  |-          |-    |-         |-    |-                          |-              |2348  |
-#'  |2021  |4032  |-          |-    |-         |-    |-                          |-              |4032  |
-#'  |2022  |-     |-          |-    |-         |-    |3544                       |-              |3544  |
-#'  |2024  |1661  |27         |406  |5         |1189 |-                          |21             |3309  |
-#'  |Total |69114 |63         |1011 |16        |1930 |3544                       |21             |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name adpsy
-NULL
 

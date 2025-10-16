@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 if00who
 }
 \details{
-Question 65b. If did not vote or ineligible: Who would you have voted for, for President, if you had voted?
+Question I. In 2000, you remember that Gore ran for President on the Democratic ticket against Bush for the Republicans . Do you remember for sure whether or not you voted in that election?
+2. IF DID NOT VOTE OR INELIGIBLE:  Who would you have voted for, for President, if you had voted?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} gore
+\item \code{2} bush
+\item \code{3} nader
+\item \code{4} other
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/168/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab bush \tab don't know \tab gore \tab nader \tab no answer \tab other \tab not available in this year \tab Total \cr
@@ -57,26 +80,38 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} gore
-\item \code{2} bush
-\item \code{3} nader
-\item \code{4} other
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{if04who}},
+\code{\link{if96who}},
+\code{\link{pres00}},
+\code{\link{pres04}},
+\code{\link{pres08}},
+\code{\link{pres96}},
+\code{\link{vote00}},
+\code{\link{vote04}},
+\code{\link{vote08}}
+
+Other Political: 
+\code{\link{if04who}},
+\code{\link{if96who}},
+\code{\link{pres00}},
+\code{\link{pres04}},
+\code{\link{pres08}},
+\code{\link{pres96}},
+\code{\link{vote00}},
+\code{\link{vote04}},
+\code{\link{vote08}}
+}
+\concept{Core}
+\concept{Political}
 \keyword{variable}

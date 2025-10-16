@@ -12,9 +12,34 @@ sprtpurp
 \details{
 Question How often R felt a sense of larger meaning in life
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} at least once a day
+\item \code{2} almost every day
+\item \code{3} once or twice a week
+\item \code{4} once or twice a month
+\item \code{5} a few times per year
+\item \code{6} once a year or less
+\item \code{7} never
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7536/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllll}{
    year \tab iap \tab a few times per year \tab almost every day \tab at least once a day \tab don't know \tab never \tab no answer \tab once a year or less \tab once or twice a month \tab once or twice a week \tab skipped on web \tab not available in this year \tab Total \cr
@@ -57,28 +82,10 @@ Counts by year:\tabular{llllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} at least once a day
-\item \code{2} almost every day
-\item \code{3} once or twice a week
-\item \code{4} once or twice a month
-\item \code{5} a few times per year
-\item \code{6} once a year or less
-\item \code{7} never
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2021 \tab A/B/C \tab full \cr
 }
 }
 

@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 givsec
 }
 \details{
-Question 1255. Next, what do you think people in these jobs ought to be paid how much do you think they should earn each year before taxes, regardless of what they actually get? Please write in how much they should earn each year. h. Secretary
+Question Next, what do you think people in these jobs ought to be paid -- how much do you think they should earn each year  before taxes, regardless of what they actually get? Please write in how much they should earn each year.
+H. A secretary?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1e+06} $1 million (or more, for 1987 & 2000)
+\item \code{99999992} more than now paid
+\item \code{99999993} same as now paid
+\item \code{99999994} less than now paid
+\item \code{99999997} never worked
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4286/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 1000 \tab 10000 \tab 10400 \tab 11000 \tab 12000 \tab 12247 \tab 12480 \tab 12499 \tab 12500 \tab 13000 \tab 13440 \tab 14000 \tab 140000 \tab 15000 \tab 15500 \tab 15600 \tab 16000 \tab 16500 \tab 16640 \tab 17000 \tab 17500 \tab 18000 \tab 18500 \tab 18720 \tab 19000 \tab 1e+05 \tab 2000 \tab 20000 \tab 20800 \tab 21000 \tab 21120 \tab 22000 \tab 23000 \tab 24000 \tab 24960 \tab 2500 \tab 25000 \tab 26000 \tab 26500 \tab 27000 \tab 28000 \tab 29000 \tab 29200 \tab 3000 \tab 30000 \tab 32000 \tab 3250 \tab 35000 \tab 36000 \tab 4000 \tab 40000 \tab 4500 \tab 45000 \tab 450000 \tab 5000 \tab 50000 \tab 5200 \tab 52000 \tab 6000 \tab 69000 \tab 7000 \tab 70000 \tab 8000 \tab 80000 \tab 9000 \tab 9500 \tab 9600 \tab can't choose \tab less than now paid \tab more than now paid \tab no answer \tab same as now paid \tab not available in this year \tab Total \cr
@@ -57,27 +81,48 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1e+06} $1 million (or more, for 1987 & 2000)
-\item \code{99999992} more than now paid
-\item \code{99999993} same as now paid
-\item \code{99999994} less than now paid
-\item \code{99999997} never worked
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1987 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Social Inequality: 
+\code{\link{givbus}},
+\code{\link{givcabnt}},
+\code{\link{givexec}},
+\code{\link{givfarm}},
+\code{\link{givlaw}},
+\code{\link{givowner}},
+\code{\link{givsales}},
+\code{\link{givskill}},
+\code{\link{givunskl}}
+
+Other Inequality, Income: 
+\code{\link{givbus}},
+\code{\link{givcabnt}},
+\code{\link{givexec}},
+\code{\link{givfarm}},
+\code{\link{givlaw}},
+\code{\link{givowner}},
+\code{\link{givsales}},
+\code{\link{givskill}},
+\code{\link{givunskl}}
+
+Other Occupation: 
+\code{\link{givbus}},
+\code{\link{givcabnt}},
+\code{\link{givexec}},
+\code{\link{givfarm}},
+\code{\link{givlaw}},
+\code{\link{givowner}},
+\code{\link{givsales}},
+\code{\link{givskill}},
+\code{\link{givunskl}}
+}
+\concept{ISSP Social Inequality}
+\concept{Inequality, Income}
+\concept{Occupation}
 \keyword{variable}

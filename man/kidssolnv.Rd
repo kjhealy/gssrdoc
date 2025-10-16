@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 kidssolnv
 }
 \details{
-Question None
+Question When your children are at the age you are now, do you think their standard of living will be much better, somewhat better, about the same, somewhat worse, or much worse than yours is now?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} much better
+\item \code{2} somewhat better
+\item \code{3} about the same
+\item \code{4} somewhat worse
+\item \code{5} much worse
+\item \code{6} no children (phone mode only; volunteered)
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7619/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab about the same \tab don't know \tab much better \tab much worse \tab no answer \tab no children (phone mode only; volunteered) \tab skipped on web \tab somewhat better \tab somewhat worse \tab Total \cr
@@ -57,27 +81,12 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} much better
-\item \code{2} somewhat better
-\item \code{3} about the same
-\item \code{4} somewhat worse
-\item \code{5} much worse
-\item \code{6} no children (phone mode only; volunteered)
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2021 \tab B/C \tab partial \cr
+   2022 \tab B/C \tab partial \cr
+   2024 \tab B/C \tab partial \cr
 }
 }
 

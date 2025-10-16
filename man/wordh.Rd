@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 wordh
 }
 \details{
-Question 1612. We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone just give me your best guess if you are not sure of the answer.
+Question We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters -- like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone -- just give me your best guess if you are not sure of the answer. CIRCLE ONE CODE NUMBER FOR EACH ITEM BELOW.
+H. Word H
 }
+\section{Values}{
+
+\itemize{
+\item \code{0} incorrect answer
+\item \code{1} correct answer
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5302/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllll}{
    year \tab iap \tab correct answer \tab incorrect answer \tab no answer \tab not available in this year \tab Total \cr
@@ -57,24 +78,66 @@ Counts by year:\tabular{lllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{0} incorrect answer
-\item \code{1} correct answer
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1974 \tab -/-/- \tab full \cr
+   1976 \tab -/-/- \tab full \cr
+   1978 \tab -/-/- \tab full \cr
+   1982 \tab -/-/- \tab full \cr
+   1984 \tab -/-/- \tab full \cr
+   1987 \tab -/-/- \tab full \cr
+   1988 \tab A/B/- \tab partial \cr
+   1989 \tab A/B/- \tab partial \cr
+   1990 \tab A/B/- \tab partial \cr
+   1991 \tab A/B/- \tab partial \cr
+   1993 \tab A/B/- \tab partial \cr
+   1994 \tab A/B/- \tab partial \cr
+   1996 \tab A/B/- \tab partial \cr
+   1998 \tab A/B/C \tab full \cr
+   2000 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2008 \tab A/B/- \tab partial \cr
+   2010 \tab A/B/- \tab partial \cr
+   2012 \tab A/B/- \tab partial \cr
+   2014 \tab A/B/- \tab partial \cr
+   2016 \tab A/B/- \tab partial \cr
+   2018 \tab A/B/- \tab partial \cr
+   2022 \tab A/B/- \tab partial \cr
+   2024 \tab A/B/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Vocabulary: 
+\code{\link{worda}},
+\code{\link{wordb}},
+\code{\link{wordc}},
+\code{\link{wordd}},
+\code{\link{worde}},
+\code{\link{wordf}},
+\code{\link{wordg}}
+
+Other Knowledge: 
+\code{\link{worda}},
+\code{\link{wordb}},
+\code{\link{wordc}},
+\code{\link{wordd}},
+\code{\link{worde}},
+\code{\link{wordf}},
+\code{\link{wordg}}
+
+Other Vocabulary Test: 
+\code{\link{worda}},
+\code{\link{wordb}},
+\code{\link{wordc}},
+\code{\link{wordd}},
+\code{\link{worde}},
+\code{\link{wordf}},
+\code{\link{wordg}}
+}
+\concept{Knowledge}
+\concept{Vocabulary}
+\concept{Vocabulary Test}
 \keyword{variable}

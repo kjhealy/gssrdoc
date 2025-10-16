@@ -12,9 +12,40 @@ numorg1
 \details{
 Question About how many people work in your organization at all locations? Count part-time as well as full-time employees.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} 1-9 in range
+\item \code{2} 10-49 in range
+\item \code{3} 50-99 in range
+\item \code{4} 100-499 in range
+\item \code{5} 500-999 in range
+\item \code{6} 1,000-1,999 in range
+\item \code{7} 2,000-2,999 in range
+\item \code{8} 3,000-3,999 in range
+\item \code{9} 4,000-4,999 in range
+\item \code{10} 5,000-10,000 in range
+\item \code{11} 10,000-50,000 in range
+\item \code{12} 50,000-100,000 in range
+\item \code{13} above 100,000 in range
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7852/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllll}{
    year \tab not available in this year \tab 1,000-1,999 in range \tab 1-9 in range \tab 10,000-50,000 in range \tab 10-49 in range \tab 100-499 in range \tab 2,000-2,999 in range \tab 3,000-3,999 in range \tab 4,000-4,999 in range \tab 5,000-10,000 in range \tab 50,000-100,000 in range \tab 50-99 in range \tab 500-999 in range \tab above 100,000 in range \tab don't know \tab iap \tab no answer \tab skipped on web \tab Total \cr
@@ -57,34 +88,10 @@ Counts by year:\tabular{llllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} 1-9 in range
-\item \code{2} 10-49 in range
-\item \code{3} 50-99 in range
-\item \code{4} 100-499 in range
-\item \code{5} 500-999 in range
-\item \code{6} 1,000-1,999 in range
-\item \code{7} 2,000-2,999 in range
-\item \code{8} 3,000-3,999 in range
-\item \code{9} 4,000-4,999 in range
-\item \code{10} 5,000-10,000 in range
-\item \code{11} 10,000-50,000 in range
-\item \code{12} 50,000-100,000 in range
-\item \code{13} above 100,000 in range
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2022 \tab B/C \tab partial \cr
 }
 }
 

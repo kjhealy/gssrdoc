@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 busgrn
 }
 \details{
-Question Which of these approaches do you think would be the best way of getting business and industry in America to protect the environment?
+Question I. Which of these approaches do you think would be the best way of getting business and industry in America to protect the environment?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} heavy fines for businesses that damage the environment
+\item \code{2} use the tax system to reward businesses that protect the environment
+\item \code{3} more information and education for businesses about the advantages of protecting the environment
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4811/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab can't choose \tab heavy fines for businesses that damage the environment \tab more information and education for businesses about the advantages of protecting the environment \tab no answer \tab use the tax system to reward businesses that protect the environment \tab skipped on web \tab not available in this year \tab Total \cr
@@ -57,25 +78,33 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} heavy fines for businesses that damage the environment
-\item \code{2} use the tax system to reward businesses that protect the environment
-\item \code{3} more information and education for businesses about the advantages of protecting the environment
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2010 \tab A/B \tab partial \cr
+   2021 \tab A/B \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Environment: 
+\code{\link{grneffme}},
+\code{\link{h2oless}},
+\code{\link{helpharm}},
+\code{\link{nobuygrn}},
+\code{\link{peopgrn}},
+\code{\link{redcehme}},
+\code{\link{tempgen1}}
+
+Other Environment: 
+\code{\link{grneffme}},
+\code{\link{h2oless}},
+\code{\link{helpharm}},
+\code{\link{nobuygrn}},
+\code{\link{peopgrn}},
+\code{\link{redcehme}},
+\code{\link{tempgen1}}
+}
+\concept{Environment}
+\concept{ISSP Environment}
 \keyword{variable}

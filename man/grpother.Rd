@@ -10,11 +10,38 @@ General Social Survey https://gss.norc.org
 grpother
 }
 \details{
-Question 1469. People sometimes belong to different kinds of groups or associations. For each type of group, please indicate whether you: Belong and actively participate, Belong but don't actively participate, Used to belong but do not any more, Or have never belonged to it. e. Another voluntary association
+Question People sometimes belong to different kinds of groups or associations. For each type of group, please indicate whether you:
+-Belong and actively participate,
+-Belong but donâ€™t actively participate,
+-Used to belong but do not any more,
+-Have never belonged to it.
+E. Another voluntary association
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} belong and actively participate
+\item \code{2} belong but dont participate
+\item \code{3} used to belong
+\item \code{4} never belonged
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4932/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab belong and actively participate \tab belong but dont participate \tab never belonged \tab no answer \tab used to belong \tab can't choose \tab not available in this year \tab Total \cr
@@ -57,26 +84,29 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} belong and actively participate
-\item \code{2} belong but dont participate
-\item \code{3} used to belong
-\item \code{4} never belonged
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Citizenship: 
+\code{\link{citviews}},
+\code{\link{eqtreat}},
+\code{\link{grpparty}},
+\code{\link{grprelig}},
+\code{\link{grpsprts}},
+\code{\link{grpwork}},
+\code{\link{polopts}},
+\code{\link{rghtsmin}},
+\code{\link{solok}}
+
+Other Social Networks: 
+\code{\link{grpsprts}}
+}
+\concept{ISSP Citizenship}
+\concept{Social Networks}
 \keyword{variable}

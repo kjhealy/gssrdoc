@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 engdo
 }
 \details{
-Question Next, I'd like to ask how you rate your knowledge of what engineers do day-to-day in their jobs. Would you say your knowledge of what engineers do day-to-day on their jobs is: Excellent, Good, Fair, Poor, Very Poor?
+Question D. Next, Iâ€™d like to ask how you rate your knowledge of what engineers do day-to-day in their jobs. would you say your knowledge of what engineers do day-to-day on their jobs is Excellent, Good, Fair, Poor, Very Poor?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} excellent
+\item \code{2} good
+\item \code{3} fair
+\item \code{4} poor
+\item \code{5} very poor
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3525/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab don't know \tab excellent \tab fair \tab good \tab no answer \tab poor \tab very poor \tab not available in this year \tab Total \cr
@@ -57,27 +80,70 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} excellent
-\item \code{2} good
-\item \code{3} fair
-\item \code{4} poor
-\item \code{5} very poor
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2012 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{engda}},
+\code{\link{engdgr}},
+\code{\link{enggood}},
+\code{\link{englone}},
+\code{\link{engresp}},
+\code{\link{engson}},
+\code{\link{scientbr}},
+\code{\link{scientmo}},
+\code{\link{scientwk}}
+
+Other Employment: 
+\code{\link{engda}},
+\code{\link{engdgr}},
+\code{\link{enggood}},
+\code{\link{englone}},
+\code{\link{engresp}},
+\code{\link{engson}},
+\code{\link{scientbr}},
+\code{\link{scientmo}},
+\code{\link{scientwk}}
+
+Other Job: 
+\code{\link{engda}},
+\code{\link{engdgr}},
+\code{\link{enggood}},
+\code{\link{englone}},
+\code{\link{engresp}},
+\code{\link{engson}},
+\code{\link{scientbr}},
+\code{\link{scientmo}},
+\code{\link{scientwk}}
+
+Other Occupation: 
+\code{\link{engda}},
+\code{\link{engdgr}},
+\code{\link{englone}},
+\code{\link{engresp}},
+\code{\link{engson}},
+\code{\link{scientbr}},
+\code{\link{scientmo}},
+\code{\link{scientwk}}
+
+Other Work: 
+\code{\link{engda}},
+\code{\link{engdgr}},
+\code{\link{englone}},
+\code{\link{engresp}},
+\code{\link{engson}},
+\code{\link{scientbr}},
+\code{\link{scientmo}},
+\code{\link{scientwk}}
+}
+\concept{Employment}
+\concept{Job}
+\concept{Occupation}
+\concept{Science Knowledge & Attitudes}
+\concept{Work}
 \keyword{variable}

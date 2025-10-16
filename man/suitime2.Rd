@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 suitime2
 }
 \details{
-Question D. How many months and years has it been since that person's death?
+Question How many months and years has it been since that person's death?
+IF RESPONDENT PROVIDES AT LEAST A YEAR AMOUNT, PLEASE SELECT THE FIRST OPTION.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} respondent provides number of months or years
+\item \code{2} respondent provides verbatim response uncodeable in months/years
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6192/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab no answer \tab respondent provides number of months or years \tab respondent provides verbatim response uncodeable in months/years \tab not available in this year \tab Total \cr
@@ -57,24 +78,24 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} respondent provides number of months or years
-\item \code{2} respondent provides verbatim response uncodeable in months/years
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2016 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Suicide: 
+\code{\link{suiclse1}},
+\code{\link{suiclse2}},
+\code{\link{suimths1}},
+\code{\link{suimths2}},
+\code{\link{suineg2}},
+\code{\link{suirel2}},
+\code{\link{suitime1}},
+\code{\link{suiyrs1}},
+\code{\link{suiyrs2}}
+}
+\concept{Suicide}
 \keyword{variable}

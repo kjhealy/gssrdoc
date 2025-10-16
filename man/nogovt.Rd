@@ -10,11 +10,36 @@ General Social Survey https://gss.norc.org
 nogovt
 }
 \details{
-Question 828. I'm going to read you several statements about freedom. Each one may say something true and important about freedom, but I'd like to know how important each statement is to you. Is it one of the most important things about freedom, extremely important, very important, somewhat important, or not too important? b. Freedom is having a government that doesn't spy on me or interfere in my life .
+Question Iâ€™m going to read you several statements about freedom. Each one may say something true and important about freedom, but Iâ€™d like to know how important each statement is to you. Is it one of the most important things about freedom, extremely important, very important, somewhat important, or not too important?
+B. Freedom is having a government that doesnâ€™t spy on me or interfere in my life.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} one of the most important
+\item \code{2} extremely important
+\item \code{3} very important
+\item \code{4} moderately important
+\item \code{5} somewhat important
+\item \code{6} not too important
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2669/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab don't know \tab extremely important \tab moderately important \tab no answer \tab not too important \tab one of the most important \tab somewhat important \tab very important \tab not available in this year \tab Total \cr
@@ -57,28 +82,35 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} one of the most important
-\item \code{2} extremely important
-\item \code{3} very important
-\item \code{4} moderately important
-\item \code{5} somewhat important
-\item \code{6} not too important
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Freedom: 
+\code{\link{choice}},
+\code{\link{freenow}},
+\code{\link{howfree}},
+\code{\link{inpeace}},
+\code{\link{leftlone}},
+\code{\link{partpol}},
+\code{\link{rfreenow}},
+\code{\link{rhowfree}},
+\code{\link{satdemoc}}
+
+Other Freedom: 
+\code{\link{choice}},
+\code{\link{freenow}},
+\code{\link{howfree}},
+\code{\link{inpeace}},
+\code{\link{leftlone}},
+\code{\link{partpol}},
+\code{\link{rfreenow}},
+\code{\link{rhowfree}},
+\code{\link{satdemoc}}
+}
+\concept{Freedom}
 \keyword{variable}

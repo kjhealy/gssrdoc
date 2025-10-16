@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 sharesep
 }
 \details{
-Question 553. Next, we have some questions about the kind of relationship you would like with a spouse or partner. It doesn't matter whether you are now married or living with someone. For each pair of items on the card, which type of realtionship would you prefer? b1. A relationship where the man and woman do most things in their social life together. b2. A relationship where the man and woman do separate things that interest them.
+Question Next, we have some questions about the kind of relationship you would like with a spouse or partner. It doesn't matter whether you are now married or living with someone. For each pair of items on the card, which type of relationship would you prefer? In pair A, would you prefer the type of relationship described in statement 1 or statement 2? How about in pair B? Pair C?
+B.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} man woman do things together
+\item \code{2} man woman do things separate
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1658/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab man woman do things separate \tab man woman do things together \tab no answer \tab not available in this year \tab Total \cr
@@ -57,24 +78,36 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} man woman do things together
-\item \code{2} man woman do things separate
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Gender: 
+\code{\link{emoteoth}},
+\code{\link{fejobaff}},
+\code{\link{hapboys}},
+\code{\link{hapgirls}},
+\code{\link{rhmewrk}},
+\code{\link{sphmewrk}},
+\code{\link{tradmod}},
+\code{\link{willwed1}},
+\code{\link{willwed2}}
+
+Other Cohabitation: 
+\code{\link{emoteoth}},
+\code{\link{tradmod}}
+
+Other Marriage: 
+\code{\link{emoteoth}},
+\code{\link{tradmod}},
+\code{\link{willwed1}},
+\code{\link{willwed2}}
+}
+\concept{Cohabitation}
+\concept{Gender}
+\concept{Marriage}
 \keyword{variable}

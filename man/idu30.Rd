@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 idu30
 }
 \details{
-Question 1559. How long has it been since you last used a needle to inject drugs?
+Question How long has it been since you last used a needle to inject drugs?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} within the past 30 days
+\item \code{2} more than 30 days ago but within the past 12 months
+\item \code{3} more than 12 months ago but within the past 3 years
+\item \code{4} more than 3 years ago
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5071/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab don't know \tab more than 12 months ago but within the past 3 years \tab more than 3 years ago \tab more than 30 days ago but within the past 12 months \tab no answer \tab within the past 30 days \tab skipped on web \tab not available in this release \tab Total \cr
@@ -57,26 +79,41 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} within the past 30 days
-\item \code{2} more than 30 days ago but within the past 12 months
-\item \code{3} more than 12 months ago but within the past 3 years
-\item \code{4} more than 3 years ago
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
+   2002 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab B/C/- \tab partial \cr
+   2018 \tab B/C/- \tab partial \cr
+   2021 \tab B/C/- \tab partial \cr
+   2022 \tab B/C/- \tab partial \cr
 }
 }
 
+\seealso{
+Other High Risk Behaviors: 
+\code{\link{aidslook}},
+\code{\link{condom}},
+\code{\link{crack30}},
+\code{\link{evcrack}},
+\code{\link{evidu}},
+\code{\link{hivtest}},
+\code{\link{hivtest1}},
+\code{\link{hivtest2}},
+\code{\link{relatsex}}
+
+Other Drug Use And Addiction: 
+\code{\link{crack30}},
+\code{\link{evcrack}},
+\code{\link{evidu}}
+}
+\concept{Drug Use And Addiction}
+\concept{High Risk Behaviors}
 \keyword{variable}

@@ -12,9 +12,29 @@ hivkiss
 \details{
 Question D. People are likely to get HIV by deep kissing, putting their tongue in their partner's mouth, if their partner has HIV.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} true
+\item \code{2} false
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5080/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab false \tab no answer \tab true \tab not available in this year \tab Total \cr
@@ -57,24 +77,28 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} true
-\item \code{2} false
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2014 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other High Risk Behaviors: 
+\code{\link{aidscndm}},
+\code{\link{hivvac}},
+\code{\link{sexornt}}
+
+Other Aids: 
+\code{\link{aidscndm}},
+\code{\link{hivvac}}
+
+Other Health: 
+\code{\link{aidscndm}},
+\code{\link{hivvac}}
+}
+\concept{Aids}
+\concept{Health}
+\concept{High Risk Behaviors}
 \keyword{variable}

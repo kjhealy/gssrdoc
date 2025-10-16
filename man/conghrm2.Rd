@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 conghrm2
 }
 \details{
-Question 675. How often are the people in your congregation critical of you and the things you do ...
+Question How often are the people in your congregation critical of you and the things you do . . .
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very often
+\item \code{2} fairly often
+\item \code{3} once in a while
+\item \code{4} never
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2095/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab don't know \tab fairly often \tab never \tab no answer \tab once in a while \tab very often \tab not available in this year \tab Total \cr
@@ -57,26 +79,36 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very often
-\item \code{2} fairly often
-\item \code{3} once in a while
-\item \code{4} never
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1998 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Religion and Culture: 
+\code{\link{conghlp1}},
+\code{\link{conghlp2}},
+\code{\link{conghrm1}},
+\code{\link{cope1}},
+\code{\link{cope2}},
+\code{\link{cope3}},
+\code{\link{cope4}},
+\code{\link{meditate}},
+\code{\link{privpray}}
+
+Other Religion: 
+\code{\link{conghlp1}},
+\code{\link{conghlp2}},
+\code{\link{conghrm1}},
+\code{\link{cope1}},
+\code{\link{cope2}},
+\code{\link{cope3}},
+\code{\link{cope4}},
+\code{\link{meditate}},
+\code{\link{privpray}}
+}
+\concept{Religion}
+\concept{Religion and Culture}
 \keyword{variable}

@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 geomobil
 }
 \details{
-Question None
+Question We are interested in the extent to which you have moved from one kind of place to another. Which do you think is most like your experience of life? Which of the following best applies to you?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} i have lived in different countries
+\item \code{2} i have lived in different places in the same country
+\item \code{3} i have lived in different neighborhoods in the same place
+\item \code{4} i have always lived in the same neighborhood
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4698/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab don't know \tab i have always lived in the same neighborhood \tab i have lived in different countries \tab i have lived in different neighborhoods in the same place \tab i have lived in different places in the same country \tab not available in this year \tab Total \cr
@@ -57,26 +79,26 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} i have lived in different countries
-\item \code{2} i have lived in different places in the same country
-\item \code{3} i have lived in different neighborhoods in the same place
-\item \code{4} i have always lived in the same neighborhood
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2008 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Religion: 
+\code{\link{cardo}},
+\code{\link{carright}},
+\code{\link{relgrpeq}},
+\code{\link{reltruth}},
+\code{\link{rspctrel}},
+\code{\link{volwkchr}},
+\code{\link{volwkoth}},
+\code{\link{volwkpol}},
+\code{\link{volwkrel}}
+}
+\concept{Dwelling (R's)}
+\concept{ISSP Religion}
+\concept{Residence}
 \keyword{variable}

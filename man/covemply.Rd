@@ -11,10 +11,36 @@ covemply
 }
 \details{
 Question Considering your work activity before the COVID-19 pandemic and at present, which of the following statements best describes your employment situation?
+
+NOTE: This variable originates on the GSS Next follow-on, and should not be analyzed without the GSS Next-specific weights WTSSPS_NEXT or WTSSNRPS_NEXT
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} r did not have job before pandemic and does not have job now
+\item \code{2} r has the same job as before the pandemic
+\item \code{3} r lost job due to the pandemic and now has a new job
+\item \code{4} r lost job due to the pandemic and could not find a new job
+\item \code{5} r did not have job before the pandemic and does have job now
+\item \code{6} r changed or left job for reasons unrelated to the pandemic
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7953/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab not available in this year \tab can't choose \tab iap \tab r changed or left job for reasons unrelated to the pandemic \tab r did not have job before pandemic and does not have job now \tab r did not have job before the pandemic and does have job now \tab r has the same job as before the pandemic \tab r lost job due to the pandemic and could not find a new job \tab r lost job due to the pandemic and now has a new job \tab skipped on web \tab Total \cr
@@ -57,28 +83,24 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} r did not have job before pandemic and does not have job now
-\item \code{2} r has the same job as before the pandemic
-\item \code{3} r lost job due to the pandemic and now has a new job
-\item \code{4} r lost job due to the pandemic and could not find a new job
-\item \code{5} r did not have job before the pandemic and does have job now
-\item \code{6} r changed or left job for reasons unrelated to the pandemic
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other GSS Next: 
+\code{\link{biokids}},
+\code{\link{covid12}},
+\code{\link{fluvax}},
+\code{\link{malekids}},
+\code{\link{pandinc}},
+\code{\link{pandmet}},
+\code{\link{vaxhstncy}},
+\code{\link{vaxkids}},
+\code{\link{vaxsafe}}
+}
+\concept{GSS Next}
 \keyword{variable}

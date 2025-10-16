@@ -1,11 +1,198 @@
+#'  Employer test cancer or safeworkplace
+#' 
+#'  genecanx
+#' 
+#' Question A. Suppose workers will be exposed to some cancer-causing materials on the job. In that case, should employers have the right not to hire workers whose tests show they have an inherited tendency to develop certain forms of cancer, or should they be required to clean up the workplace so it is safe for everyone?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` should
+#'   * `2` should not
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1260/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no answer |should |should not |not available in this year |Total |
+#'  |:-----|:-----|:----------|:---------|:------|:----------|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-         |-      |-          |-                          |1613  |
+#'  |1973  |1504  |-          |-         |-      |-          |-                          |1504  |
+#'  |1974  |1484  |-          |-         |-      |-          |-                          |1484  |
+#'  |1975  |1490  |-          |-         |-      |-          |-                          |1490  |
+#'  |1976  |1499  |-          |-         |-      |-          |-                          |1499  |
+#'  |1977  |1530  |-          |-         |-      |-          |-                          |1530  |
+#'  |1978  |1532  |-          |-         |-      |-          |-                          |1532  |
+#'  |1980  |1468  |-          |-         |-      |-          |-                          |1468  |
+#'  |1982  |1860  |-          |-         |-      |-          |-                          |1860  |
+#'  |1983  |1599  |-          |-         |-      |-          |-                          |1599  |
+#'  |1984  |1473  |-          |-         |-      |-          |-                          |1473  |
+#'  |1985  |1534  |-          |-         |-      |-          |-                          |1534  |
+#'  |1986  |1470  |-          |-         |-      |-          |-                          |1470  |
+#'  |1987  |1819  |-          |-         |-      |-          |-                          |1819  |
+#'  |1988  |1481  |-          |-         |-      |-          |-                          |1481  |
+#'  |1989  |1537  |-          |-         |-      |-          |-                          |1537  |
+#'  |1990  |1372  |-          |-         |-      |-          |-                          |1372  |
+#'  |1991  |761   |34         |10        |45     |667        |-                          |1517  |
+#'  |1993  |1606  |-          |-         |-      |-          |-                          |1606  |
+#'  |1994  |2992  |-          |-         |-      |-          |-                          |2992  |
+#'  |1996  |2904  |-          |-         |-      |-          |-                          |2904  |
+#'  |1998  |2832  |-          |-         |-      |-          |-                          |2832  |
+#'  |2000  |2817  |-          |-         |-      |-          |-                          |2817  |
+#'  |2002  |2765  |-          |-         |-      |-          |-                          |2765  |
+#'  |2004  |2812  |-          |-         |-      |-          |-                          |2812  |
+#'  |2006  |4510  |-          |-         |-      |-          |-                          |4510  |
+#'  |2008  |2023  |-          |-         |-      |-          |-                          |2023  |
+#'  |2010  |2044  |-          |-         |-      |-          |-                          |2044  |
+#'  |2012  |1974  |-          |-         |-      |-          |-                          |1974  |
+#'  |2014  |2538  |-          |-         |-      |-          |-                          |2538  |
+#'  |2016  |2867  |-          |-         |-      |-          |-                          |2867  |
+#'  |2018  |2348  |-          |-         |-      |-          |-                          |2348  |
+#'  |2021  |4032  |-          |-         |-      |-          |-                          |4032  |
+#'  |2022  |-     |-          |-         |-      |-          |3544                       |3544  |
+#'  |2024  |-     |-          |-         |-      |-          |3309                       |3309  |
+#'  |Total |68090 |34         |10        |45     |667        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Organizations
+#' @family Genetic Testing
+#' 
+#' @keywords variable
+#' @md
+#' @name genecanx
+NULL
+
+
+#'  Employers' right to hire by cancertests
+#' 
+#'  genecany
+#' 
+#' Question B. Suppose workers will be exposed to some cancer-causing materials on the job. In that case, should employers have the right not to hire workers whose tests show they have an inherited tendency to develop certain forms of cancer, or should they not have that right?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` should
+#'   * `2` should not
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1261/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no answer |should |should not |not available in this year |Total |
+#'  |:-----|:-----|:----------|:---------|:------|:----------|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-         |-      |-          |-                          |1613  |
+#'  |1973  |1504  |-          |-         |-      |-          |-                          |1504  |
+#'  |1974  |1484  |-          |-         |-      |-          |-                          |1484  |
+#'  |1975  |1490  |-          |-         |-      |-          |-                          |1490  |
+#'  |1976  |1499  |-          |-         |-      |-          |-                          |1499  |
+#'  |1977  |1530  |-          |-         |-      |-          |-                          |1530  |
+#'  |1978  |1532  |-          |-         |-      |-          |-                          |1532  |
+#'  |1980  |1468  |-          |-         |-      |-          |-                          |1468  |
+#'  |1982  |1860  |-          |-         |-      |-          |-                          |1860  |
+#'  |1983  |1599  |-          |-         |-      |-          |-                          |1599  |
+#'  |1984  |1473  |-          |-         |-      |-          |-                          |1473  |
+#'  |1985  |1534  |-          |-         |-      |-          |-                          |1534  |
+#'  |1986  |1470  |-          |-         |-      |-          |-                          |1470  |
+#'  |1987  |1819  |-          |-         |-      |-          |-                          |1819  |
+#'  |1988  |1481  |-          |-         |-      |-          |-                          |1481  |
+#'  |1989  |1537  |-          |-         |-      |-          |-                          |1537  |
+#'  |1990  |1372  |-          |-         |-      |-          |-                          |1372  |
+#'  |1991  |756   |60         |8         |248    |445        |-                          |1517  |
+#'  |1993  |1606  |-          |-         |-      |-          |-                          |1606  |
+#'  |1994  |2992  |-          |-         |-      |-          |-                          |2992  |
+#'  |1996  |2904  |-          |-         |-      |-          |-                          |2904  |
+#'  |1998  |2832  |-          |-         |-      |-          |-                          |2832  |
+#'  |2000  |2817  |-          |-         |-      |-          |-                          |2817  |
+#'  |2002  |2765  |-          |-         |-      |-          |-                          |2765  |
+#'  |2004  |2812  |-          |-         |-      |-          |-                          |2812  |
+#'  |2006  |4510  |-          |-         |-      |-          |-                          |4510  |
+#'  |2008  |2023  |-          |-         |-      |-          |-                          |2023  |
+#'  |2010  |2044  |-          |-         |-      |-          |-                          |2044  |
+#'  |2012  |1974  |-          |-         |-      |-          |-                          |1974  |
+#'  |2014  |2538  |-          |-         |-      |-          |-                          |2538  |
+#'  |2016  |2867  |-          |-         |-      |-          |-                          |2867  |
+#'  |2018  |2348  |-          |-         |-      |-          |-                          |2348  |
+#'  |2021  |4032  |-          |-         |-      |-          |-                          |4032  |
+#'  |2022  |-     |-          |-         |-      |-          |3544                       |3544  |
+#'  |2024  |-     |-          |-         |-      |-          |3309                       |3309  |
+#'  |Total |68085 |60         |8         |248    |445        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Organizations
+#' @family Genetic Testing
+#' 
+#' @keywords variable
+#' @md
+#' @name genecany
+NULL
+
+
 #'  Employer vs. employee on access right to results
 #' 
 #'  genegets
 #' 
-#' Question 416c. Suppose a genetic screening test for certain forms of heart disease is made available by an employer to workers who want to take it. Who do you think should have control over access to the test results - the worker or the employer?
+#' Question C. Suppose a genetic screening test for certain forms of heart disease is made available by an employer to workers who want to take it. Who Do you think should have control over access to the test results -- the worker or the employer?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` employer should
+#'   * `2` worker should
+#'   * `3` both - voluntary
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1262/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,11 +235,37 @@
 #'  |2024  |-     |-                |-          |-               |-         |-             |3309                       |3309  |
 #'  |Total |67853 |157              |31         |83              |7         |715           |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Organizations
+#' @family Genetic Testing
+#' 
+#' @keywords variable
+#' @md
+#' @name genegets
+NULL
+
+
+#'  Whether management only care about profit
+#' 
+#'  profits1
+#' 
+#' Question To what extent do you agree or disagree with the following statements? 
+#' Please tell me whether you strongly agree, agree, disagree, or strongly disagree: 
+#' A. The way most companies work, the only thing management cares about is profits, regardless of what workers want or need. Do youâ€¦
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` employer should
-#'   * `2` worker should
-#'   * `3` both - voluntary
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` disagree
+#'   * `4` strongly disagree
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -66,22 +279,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name genegets
-NULL
-
-#'  Whether management only care about profit
-#' 
-#'  profits1
-#' 
-#' Question 417. To what extent do you agree or disagree with the following statements? a. The way most companies work, the only thing management cares about is profits, regardless of what workers want or need.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1263/vshow).
 #'
 #' Counts by year: 
 #'
@@ -124,6 +323,32 @@ NULL
 #'  |2024  |-     |-     |-        |-          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |67329 |687   |376      |46         |6         |356            |46                |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Organizations
+#' @family Corporations
+#' @family Social Class
+#' 
+#' @keywords variable
+#' @md
+#' @name profits1
+NULL
+
+
+#'  Should co. pay workers more than shareholders
+#' 
+#'  profits2
+#' 
+#' Question To what extent do you agree or disagree with the following statements? 
+#' Please tell me whether you strongly agree, agree, disagree, or strongly disagree: 
+#' B. Corporations should pay more of their profits to workers and less to shareholdersâ€¦
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -143,22 +368,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name profits1
-NULL
-
-#'  Should co. pay workers more than shareholders
-#' 
-#'  profits2
-#' 
-#' Question 417. To what extent do you agree or disagree with the following statements? b. Corporations should pay more of their profits to workers and less to shareholders.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1264/vshow).
 #'
 #' Counts by year: 
 #'
@@ -201,6 +412,32 @@ NULL
 #'  |2024  |-     |-     |-        |-          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |67329 |895   |255      |94         |7         |248            |18                |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Organizations
+#' @family Corporations
+#' @family Social Class
+#' 
+#' @keywords variable
+#' @md
+#' @name profits2
+NULL
+
+
+#'  Unions in this country have too little power
+#' 
+#'  unpower
+#' 
+#' Question To what extent do you agree or disagree with the following statements? 
+#' Please tell me whether you strongly agree, agree, disagree, or strongly disagree: 
+#' C. Unions in this country have too little powerâ€¦
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -220,22 +457,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name profits2
-NULL
-
-#'  Unions in this country have too little power
-#' 
-#'  unpower
-#' 
-#' Question 417. To what extent do you agree or disagree with the following statements? c. Unions in this country have too little power.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1265/vshow).
 #'
 #' Counts by year: 
 #'
@@ -278,6 +501,31 @@ NULL
 #'  |2024  |-     |-     |-        |-          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |67329 |336   |721      |165        |5         |87             |203               |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Organizations
+#' @family Labor Unions
+#' 
+#' @keywords variable
+#' @md
+#' @name unpower
+NULL
+
+
+#'  Unions just block economic progress
+#' 
+#'  unprog
+#' 
+#' Question To what extent do you agree or disagree with the following statements? 
+#' Please tell me whether you strongly agree, agree, disagree, or strongly disagree: 
+#' D. For the most part, unions just stand in the way of economic progress in this countryâ€¦
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -297,22 +545,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name unpower
-NULL
-
-#'  Unions just block economic progress
-#' 
-#'  unprog
-#' 
-#' Question 417. To what extent do you agree or disagree with the following statements? d. For the most part, unions just stand in the way of economic progress in this country.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1266/vshow).
 #'
 #' Counts by year: 
 #'
@@ -355,12 +589,34 @@ NULL
 #'  |2024  |-     |-     |-        |-          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |67329 |402   |747      |170        |7         |87             |104               |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Organizations
+#' @family Labor Unions
+#' 
+#' @keywords variable
+#' @md
+#' @name unprog
+NULL
+
+
+#'  The organization went out of business
+#' 
+#'  outofbiz
+#' 
+#' Question In the last five years, did any of the following things happen to an organization that you worked for? 
+#' A. The organization went out of business or closed down?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` disagree
-#'   * `4` strongly disagree
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -374,22 +630,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name unprog
-NULL
-
-#'  The organization went out of business
-#' 
-#'  outofbiz
-#' 
-#' Question 418. In the last five years, did any of the following things happen to an organization that you worked for? a. The organization went out of business or closed down
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1267/vshow).
 #'
 #' Counts by year: 
 #'
@@ -432,6 +674,31 @@ NULL
 #'  |2024  |-     |-    |-         |-   |3309                       |3309  |
 #'  |Total |67329 |1303 |65        |149 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Organizations
+#' @family Corporations
+#' @family Trauma
+#' 
+#' @keywords variable
+#' @md
+#' @name outofbiz
+NULL
+
+
+#'  The org. was merged, taken over
+#' 
+#'  merged
+#' 
+#' Question In the last five years, did any of the following things happen to an organization that you worked for? 
+#' B. The organization was merged, taken over, or changed ownership?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -449,22 +716,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name outofbiz
-NULL
-
-#'  The org. was merged, taken over
-#' 
-#'  merged
-#' 
-#' Question 418. In the last five years, did any of the following things happen to an organization that you worked for? b. The organization was merged, taken over, or changed ownership
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1268/vshow).
 #'
 #' Counts by year: 
 #'
@@ -507,6 +760,30 @@ NULL
 #'  |2024  |-     |-    |-         |-   |3309                       |3309  |
 #'  |Total |67329 |1217 |68        |232 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Organizations
+#' @family Corporations
+#' 
+#' @keywords variable
+#' @md
+#' @name merged
+NULL
+
+
+#'  There was a major reorganization
+#' 
+#'  reorg
+#' 
+#' Question In the last five years, did any of the following things happen to an organization that you worked for? 
+#' C. There was a major reorganization?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -524,22 +801,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name merged
-NULL
-
-#'  There was a major reorganization
-#' 
-#'  reorg
-#' 
-#' Question 418. In the last five years, did any of the following things happen to an organization that you worked for? c. There was a major reorganization
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1269/vshow).
 #'
 #' Counts by year: 
 #'
@@ -582,179 +845,19 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-   |3309                       |3309  |
 #'  |Total |67329 |1          |1149 |66        |301 |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Work Organizations
+#' @family Corporations
 #' 
 #' @keywords variable
 #' @md
 #' @name reorg
 NULL
 
-#'  R's financial situation after org. changes
-#' 
-#'  orgfin
-#' 
-#' Question 419. As a result of these organizational changes, would you say that your financial situation is now much better, better, worse, much worse, or have these things not affected your finances?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |better |don't know |much better |much worse |no answer |no effect |worse |not available in this year |Total |
-#'  |:-----|:-----|:------|:----------|:-----------|:----------|:---------|:---------|:-----|:--------------------------|:-----|
-#'  |1972  |1613  |-      |-          |-           |-          |-         |-         |-     |-                          |1613  |
-#'  |1973  |1504  |-      |-          |-           |-          |-         |-         |-     |-                          |1504  |
-#'  |1974  |1484  |-      |-          |-           |-          |-         |-         |-     |-                          |1484  |
-#'  |1975  |1490  |-      |-          |-           |-          |-         |-         |-     |-                          |1490  |
-#'  |1976  |1499  |-      |-          |-           |-          |-         |-         |-     |-                          |1499  |
-#'  |1977  |1530  |-      |-          |-           |-          |-         |-         |-     |-                          |1530  |
-#'  |1978  |1532  |-      |-          |-           |-          |-         |-         |-     |-                          |1532  |
-#'  |1980  |1468  |-      |-          |-           |-          |-         |-         |-     |-                          |1468  |
-#'  |1982  |1860  |-      |-          |-           |-          |-         |-         |-     |-                          |1860  |
-#'  |1983  |1599  |-      |-          |-           |-          |-         |-         |-     |-                          |1599  |
-#'  |1984  |1473  |-      |-          |-           |-          |-         |-         |-     |-                          |1473  |
-#'  |1985  |1534  |-      |-          |-           |-          |-         |-         |-     |-                          |1534  |
-#'  |1986  |1470  |-      |-          |-           |-          |-         |-         |-     |-                          |1470  |
-#'  |1987  |1819  |-      |-          |-           |-          |-         |-         |-     |-                          |1819  |
-#'  |1988  |1481  |-      |-          |-           |-          |-         |-         |-     |-                          |1481  |
-#'  |1989  |1537  |-      |-          |-           |-          |-         |-         |-     |-                          |1537  |
-#'  |1990  |1372  |-      |-          |-           |-          |-         |-         |-     |-                          |1372  |
-#'  |1991  |1045  |58     |1          |19          |37         |31        |247       |79    |-                          |1517  |
-#'  |1993  |1606  |-      |-          |-           |-          |-         |-         |-     |-                          |1606  |
-#'  |1994  |2992  |-      |-          |-           |-          |-         |-         |-     |-                          |2992  |
-#'  |1996  |2904  |-      |-          |-           |-          |-         |-         |-     |-                          |2904  |
-#'  |1998  |2832  |-      |-          |-           |-          |-         |-         |-     |-                          |2832  |
-#'  |2000  |2817  |-      |-          |-           |-          |-         |-         |-     |-                          |2817  |
-#'  |2002  |2765  |-      |-          |-           |-          |-         |-         |-     |-                          |2765  |
-#'  |2004  |2812  |-      |-          |-           |-          |-         |-         |-     |-                          |2812  |
-#'  |2006  |4510  |-      |-          |-           |-          |-         |-         |-     |-                          |4510  |
-#'  |2008  |2023  |-      |-          |-           |-          |-         |-         |-     |-                          |2023  |
-#'  |2010  |2044  |-      |-          |-           |-          |-         |-         |-     |-                          |2044  |
-#'  |2012  |1974  |-      |-          |-           |-          |-         |-         |-     |-                          |1974  |
-#'  |2014  |2538  |-      |-          |-           |-          |-         |-         |-     |-                          |2538  |
-#'  |2016  |2867  |-      |-          |-           |-          |-         |-         |-     |-                          |2867  |
-#'  |2018  |2348  |-      |-          |-           |-          |-         |-         |-     |-                          |2348  |
-#'  |2021  |4032  |-      |-          |-           |-          |-         |-         |-     |-                          |4032  |
-#'  |2022  |-     |-      |-          |-           |-          |-         |-         |-     |3544                       |3544  |
-#'  |2024  |-     |-      |-          |-           |-          |-         |-         |-     |3309                       |3309  |
-#'  |Total |68374 |58     |1          |19          |37         |31        |247       |79    |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` much better
-#'   * `2` better
-#'   * `3` worse
-#'   * `4` much worse
-#'   * `5` no effect
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name orgfin
-NULL
-
-#'  #Years you have worked for pay since were 16
-#' 
-#'  wrkyears
-#' 
-#' Question 420. Since you were 16 years old, about how many years have you worked for pay?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |0  |1  |10 |11 |12 |13 |14 |15 |16 |17 |18 |19 |2  |20 |21 |22 |23 |24 |25 |26 |27 |28 |29 |3  |30 |31 |32 |33 |34 |35 |36 |37 |38 |39 |4  |40 |41 |42 |43 |44 |45 |46 |47 |48 |49 |5  |50 |51 |52 |54 |55 |56 |57 |59 |6  |60 |62 |63 |65 |7  |70 |8  |9  |don't know |no answer |not available in this year |Total |
-#'  |:-----|:-----|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1613  |
-#'  |1973  |1504  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1504  |
-#'  |1974  |1484  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1484  |
-#'  |1975  |1490  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1490  |
-#'  |1976  |1499  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1499  |
-#'  |1977  |1530  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1530  |
-#'  |1978  |1532  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1532  |
-#'  |1980  |1468  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1468  |
-#'  |1982  |1860  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1860  |
-#'  |1983  |1599  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1599  |
-#'  |1984  |1473  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1473  |
-#'  |1985  |1534  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1534  |
-#'  |1986  |1470  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1470  |
-#'  |1987  |1819  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1819  |
-#'  |1988  |1481  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1481  |
-#'  |1989  |1537  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1537  |
-#'  |1990  |1372  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1372  |
-#'  |1991  |-     |49 |25 |76 |27 |50 |30 |44 |69 |42 |22 |35 |21 |40 |90 |24 |27 |29 |26 |45 |19 |27 |17 |16 |34 |53 |9  |13 |10 |14 |31 |11 |7  |16 |8  |45 |24 |6  |15 |9  |7  |21 |13 |8  |8  |6  |63 |31 |6  |1  |3  |8  |2  |2  |1  |41 |1  |2  |1  |2  |36 |1  |47 |29 |8          |14        |-                          |1517  |
-#'  |1993  |1606  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1606  |
-#'  |1994  |2992  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2992  |
-#'  |1996  |2904  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2904  |
-#'  |1998  |2832  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2832  |
-#'  |2000  |2817  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2817  |
-#'  |2002  |2765  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2765  |
-#'  |2004  |2812  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2812  |
-#'  |2006  |4510  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |4510  |
-#'  |2008  |2023  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2023  |
-#'  |2010  |2044  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2044  |
-#'  |2012  |1974  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1974  |
-#'  |2014  |2538  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2538  |
-#'  |2016  |2867  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2867  |
-#'  |2018  |2348  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2348  |
-#'  |2021  |4032  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |4032  |
-#'  |2022  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3544                       |3544  |
-#'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
-#'  |Total |67329 |49 |25 |76 |27 |50 |30 |44 |69 |42 |22 |35 |21 |40 |90 |24 |27 |29 |26 |45 |19 |27 |17 |16 |34 |53 |9  |13 |10 |14 |31 |11 |7  |16 |8  |45 |24 |6  |15 |9  |7  |21 |13 |8  |8  |6  |63 |31 |6  |1  |3  |8  |2  |2  |1  |41 |1  |2  |1  |2  |36 |1  |47 |29 |8          |14        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wrkyears
-NULL
 

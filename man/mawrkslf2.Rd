@@ -2,7 +2,7 @@
 % Please edit documentation in R/gss_vars_612.R
 \name{mawrkslf2}
 \alias{mawrkslf2}
-\title{At this job, was mother (or youngest same-sex parent) an employee, self-employed}
+\title{At this job, was mother (or youngest same-sex parent) an employee, self-employed without employees, or self-employed with employees?}
 \source{
 General Social Survey https://gss.norc.org
 }
@@ -12,9 +12,30 @@ mawrkslf2
 \details{
 Question At this job, was your mother an employee, self-employed without employees, or self-employed with employees?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} employee
+\item \code{2} self-employed without employees
+\item \code{3} self-employed with employees
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7430/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab employee \tab no answer \tab self-employed with employees \tab self-employed without employees \tab not available in this release \tab Total \cr
@@ -57,24 +78,12 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} employee
-\item \code{2} self-employed without employees
-\item \code{3} self-employed with employees
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2021 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
+   2024 \tab A/B/C \tab full \cr
 }
 }
 

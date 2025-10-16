@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 memlit
 }
 \details{
-Question 328. Now we would like to know something about the groups or organizations to which individuals belong. Here is a list of various organizations. Could you tell me whether or not you are a member of each type? m. Literary, art, discussion or study groups
+Question Now we would like to know something about the groups or organizations to which individuals belong. Here is a list of various organizations. Could you tell me whether or not you are a member of each type?  READ EACH ITEM. CODE OnE FOR EACH.
+M. Literary, art, discussion or study groups
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes
+\item \code{2} no
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/975/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab not available in this year \tab Total \cr
@@ -57,24 +78,52 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes
-\item \code{2} no
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1974 \tab -/-/- \tab full \cr
+   1975 \tab -/-/- \tab full \cr
+   1977 \tab -/-/- \tab full \cr
+   1978 \tab -/-/- \tab full \cr
+   1980 \tab -/-/- \tab full \cr
+   1983 \tab -/-/- \tab full \cr
+   1984 \tab -/-/- \tab full \cr
+   1986 \tab -/-/- \tab full \cr
+   1987 \tab -/-/- \tab full \cr
+   1988 \tab B/C/- \tab partial \cr
+   1989 \tab B/C/- \tab partial \cr
+   1990 \tab B/C/- \tab partial \cr
+   1991 \tab B/C/- \tab partial \cr
+   1993 \tab B/C/- \tab partial \cr
+   1994 \tab B/C/- \tab partial \cr
+   2004 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Socio-political participation: 
+\code{\link{memchurh}},
+\code{\link{memfarm}},
+\code{\link{memgreek}},
+\code{\link{memhobby}},
+\code{\link{memnat}},
+\code{\link{memnum}},
+\code{\link{memother}},
+\code{\link{memprof}},
+\code{\link{memschl}}
+
+Other Voluntary Associations: 
+\code{\link{memchurh}},
+\code{\link{memfarm}},
+\code{\link{memgreek}},
+\code{\link{memhobby}},
+\code{\link{memnat}},
+\code{\link{memnum}},
+\code{\link{memother}},
+\code{\link{memprof}},
+\code{\link{memschl}}
+}
+\concept{Leisure}
+\concept{Socio-political participation}
+\concept{Voluntary Associations}
 \keyword{variable}

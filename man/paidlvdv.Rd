@@ -12,9 +12,32 @@ paidlvdv
 \details{
 Question Still thinking about the same couple, if both are in a similar work situation and are eligible for paid leave, how should this paid leave period be divided between the mother and the father?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} the mother should take the entire paid leave period and the father should not take any paid leave
+\item \code{2} the mother should take most of the paid leave period and the father should take some of it
+\item \code{3} the mother and the father should each take half of the paid leave period
+\item \code{4} the father should take most of the paid leave period and the mother should take some of it
+\item \code{5} the father should take the entire paid leave period and the mother should not take any paid leave
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4466/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab don't know \tab no answer \tab the father should take most of the paid leave period and the mother should take some of it \tab the father should take the entire paid leave period and the mother should not take any paid leave \tab the mother and the father should each take half of the paid leave period \tab the mother should take most of the paid leave period and the father should take some of it \tab the mother should take the entire paid leave period and the father should not take any paid leave \tab skipped on web \tab not available in this year \tab Total \cr
@@ -57,27 +80,32 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} the mother should take the entire paid leave period and the father should not take any paid leave
-\item \code{2} the mother should take most of the paid leave period and the father should take some of it
-\item \code{3} the mother and the father should each take half of the paid leave period
-\item \code{4} the father should take most of the paid leave period and the mother should take some of it
-\item \code{5} the father should take the entire paid leave period and the mother should not take any paid leave
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2012 \tab A/B \tab partial \cr
+   2022 \tab A/- \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Family & Gender Roles: 
+\code{\link{carecost}},
+\code{\link{careprov}},
+\code{\link{eldersup}},
+\code{\link{eldhelp}},
+\code{\link{famwkbst}},
+\code{\link{famwklst}},
+\code{\link{kidsocst}},
+\code{\link{paidlv}},
+\code{\link{paidlvpy}}
+
+Other Children: 
+\code{\link{eldersup}},
+\code{\link{kidsocst}},
+\code{\link{paidlv}},
+\code{\link{paidlvpy}}
+}
+\concept{Children}
+\concept{ISSP Family & Gender Roles}
 \keyword{variable}

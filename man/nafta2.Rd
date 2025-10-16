@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 nafta2
 }
 \details{
-Question 1456. Generally speaking, would you say that America benefits or does not benefit from being a member of NAFTA?
+Question Generally speaking, would you say that America benefits or does not benefit from being a member of NAFTA?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} benefits
+\item \code{2} does not benefit
+\item \code{3} dont know
+\item \code{4} have never heard of nafta
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4877/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab benefits \tab does not benefit \tab dont know \tab have never heard of nafta \tab no answer \tab not available in this year \tab Total \cr
@@ -57,26 +79,30 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} benefits
-\item \code{2} does not benefit
-\item \code{3} dont know
-\item \code{4} have never heard of nafta
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP National Identity: 
+\code{\link{citizen}},
+\code{\link{ethclose}},
+\code{\link{nafta1}},
+\code{\link{parcit}},
+\code{\link{spkhome1}},
+\code{\link{spkhome2}},
+\code{\link{spklang1}},
+\code{\link{spklang2}},
+\code{\link{spklang3}}
+
+Other United States: 
+\code{\link{citizen}},
+\code{\link{nafta1}},
+\code{\link{parcit}}
+}
+\concept{ISSP National Identity}
+\concept{United States}
 \keyword{variable}

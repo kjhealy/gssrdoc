@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 findwork
 }
 \details{
-Question 1339. If you lost your job for any reason, and were looking actively for another one, how easy or difficult do you think it would be for you to find an acceptable job?
+Question If you lost your job for any reason, and were looking actively for another one, how easy or difficult do you think it would be for you to find an acceptable job?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very easy
+\item \code{2} fairly easy
+\item \code{3} neither easy nor difficult
+\item \code{4} fairly difficult
+\item \code{5} very difficult
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4558/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab can't choose \tab fairly difficult \tab fairly easy \tab neither easy nor difficult \tab no answer \tab very difficult \tab very easy \tab not available in this year \tab Total \cr
@@ -57,27 +80,25 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very easy
-\item \code{2} fairly easy
-\item \code{3} neither easy nor difficult
-\item \code{4} fairly difficult
-\item \code{5} very difficult
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1989 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Work Orientation: 
+\code{\link{boredom}},
+\code{\link{bossemps}},
+\code{\link{cowrkers}},
+\code{\link{danger}},
+\code{\link{jobsat}},
+\code{\link{planwrk}},
+\code{\link{stress}},
+\code{\link{unhlthy}},
+\code{\link{unpleznt}}
+}
+\concept{Unemployment}
+\concept{Work Orientation}
 \keyword{variable}

@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 partteam
 }
 \details{
-Question 887. 887. In your job, do you normally work as part of a team, or do you mostly work on your own?
+Question In your job, do you normally work as part of a team, or do you mostly work on your own?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes, i work as part of a team
+\item \code{2} no, i work mostly on my own
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2792/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab don't know \tab no answer \tab no, i work mostly on my own \tab yes, i work as part of a team \tab skipped on web \tab not available in this year \tab Total \cr
@@ -57,24 +77,40 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes, i work as part of a team
-\item \code{2} no, i work mostly on my own
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Quality of Working Life: 
+\code{\link{prodctiv}},
+\code{\link{promteok}},
+\code{\link{proudemp}},
+\code{\link{safehlth}},
+\code{\link{setthngs}},
+\code{\link{toofewwk}},
+\code{\link{trdunion}},
+\code{\link{wkdecide}},
+\code{\link{wksmooth}}
+
+Other Job: 
+\code{\link{prodctiv}},
+\code{\link{promteok}},
+\code{\link{proudemp}},
+\code{\link{safehlth}},
+\code{\link{setthngs}},
+\code{\link{toofewwk}},
+\code{\link{wkdecide}},
+\code{\link{wksmooth}}
+}
+\concept{Job}
+\concept{Quality of Working Life}
 \keyword{variable}

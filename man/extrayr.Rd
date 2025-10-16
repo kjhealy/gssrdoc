@@ -10,11 +10,29 @@ General Social Survey https://gss.norc.org
 extrayr
 }
 \details{
-Question 922. What was the most recent year in which you received these performance-based payments?
+Question What was the most recent year in which you received these performance-based payments?
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2861/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 1979 \tab 1987 \tab 1990 \tab 1997 \tab 1998 \tab 1999 \tab 2000 \tab 2001 \tab don't know \tab no answer \tab 1980 \tab 1989 \tab 1994 \tab 1996 \tab 2002 \tab 2003 \tab 2004 \tab 2005 \tab 2008 \tab 2010 \tab 2011 \tab 2012 \tab 2013 \tab 2014 \tab 2006 \tab 2009 \tab 2015 \tab 2016 \tab 2017 \tab 2018 \tab 2019 \tab 2020 \tab 2021 \tab 2022 \tab skipped on web \tab not available in this year \tab Total \cr
@@ -57,22 +75,38 @@ Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Employee Compensation: 
+\code{\link{compperf}},
+\code{\link{deptperf}},
+\code{\link{extr2001}},
+\code{\link{extrapay}},
+\code{\link{extraval}},
+\code{\link{indperf}},
+\code{\link{seecowrk}},
+\code{\link{yearval}}
+
+Other Job: 
+\code{\link{compperf}},
+\code{\link{deptperf}},
+\code{\link{extr2001}},
+\code{\link{extrapay}},
+\code{\link{extraval}},
+\code{\link{indperf}},
+\code{\link{seecowrk}},
+\code{\link{yearval}}
+}
+\concept{Employee Compensation}
+\concept{Job}
 \keyword{variable}

@@ -10,11 +10,51 @@ General Social Survey https://gss.norc.org
 spmaeduc
 }
 \details{
-Question 500b. What is the highest grade or year of regular school that your (husband/wife)'s mother ever completed?
+Question B. What is the highest grade or year of regular school that your (husband's/wife's) mother ever completed?
+CODE EXACT GRADE.
 }
+\section{Values}{
+
+\itemize{
+\item \code{0} no formal schooling
+\item \code{1} 1st grade
+\item \code{2} 2nd grade
+\item \code{3} 3rd grade
+\item \code{4} 4th grade
+\item \code{5} 5th grade
+\item \code{6} 6th grade
+\item \code{7} 7th grade
+\item \code{8} 8th grade
+\item \code{9} 9th grade
+\item \code{10} 10th grade
+\item \code{11} 11th grade
+\item \code{12} 12th grade
+\item \code{13} 1 year of college
+\item \code{14} 2 years of college
+\item \code{15} 3 years of college
+\item \code{16} 4 years of college
+\item \code{17} 5 years of college
+\item \code{18} 6 years of college
+\item \code{19} 7 years of college
+\item \code{20} 8 or more years of college
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1486/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllll}{
    year \tab iap \tab 1 year of college \tab 10th grade \tab 11th grade \tab 12th grade \tab 2 years of college \tab 2nd grade \tab 3 years of college \tab 3rd grade \tab 4 years of college \tab 4th grade \tab 5 years of college \tab 5th grade \tab 6 years of college \tab 6th grade \tab 7th grade \tab 8 or more years of college \tab 8th grade \tab 9th grade \tab don't know \tab no answer \tab no formal schooling \tab not available in this year \tab Total \cr
@@ -57,43 +97,30 @@ Counts by year:\tabular{lllllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{0} no formal schooling
-\item \code{1} 1st grade
-\item \code{2} 2nd grade
-\item \code{3} 3rd grade
-\item \code{4} 4th grade
-\item \code{5} 5th grade
-\item \code{6} 6th grade
-\item \code{7} 7th grade
-\item \code{8} 8th grade
-\item \code{9} 9th grade
-\item \code{10} 10th grade
-\item \code{11} 11th grade
-\item \code{12} 12th grade
-\item \code{13} 1 year of college
-\item \code{14} 2 years of college
-\item \code{15} 3 years of college
-\item \code{16} 4 years of college
-\item \code{17} 5 years of college
-\item \code{18} 6 years of college
-\item \code{19} 7 years of college
-\item \code{20} 8 or more years of college
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Family Mobility: 
+\code{\link{agewedcr}},
+\code{\link{fstspmed}},
+\code{\link{fstspped}},
+\code{\link{spfam16}},
+\code{\link{sphedocc}},
+\code{\link{sphedpre}},
+\code{\link{spmarnum}},
+\code{\link{sppaeduc}},
+\code{\link{spyrborn}}
+
+Other Education: 
+\code{\link{fstspmed}},
+\code{\link{fstspped}},
+\code{\link{sppaeduc}}
+}
+\concept{Education}
+\concept{Family Mobility}
 \keyword{variable}

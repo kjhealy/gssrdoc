@@ -1,11 +1,145 @@
+#'  How many grandparents born outside u.s.
+#' 
+#'  granborn
+#' 
+#' Question Were all of your four grandparents born in this country?
+#'  A. How many were born outside the United States?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` none
+#'   * `1` one
+#'   * `2` two
+#'   * `3` three
+#'   * `4` four
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/96/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |four  |no answer |none  |one  |three |two  |skipped on web |Total |
+#'  |:-----|:-----|:----------|:-----|:---------|:-----|:----|:-----|:----|:--------------|:-----|
+#'  |1972  |1613  |-          |-     |-         |-     |-    |-     |-    |-              |1613  |
+#'  |1973  |1504  |-          |-     |-         |-     |-    |-     |-    |-              |1504  |
+#'  |1974  |1484  |-          |-     |-         |-     |-    |-     |-    |-              |1484  |
+#'  |1975  |1490  |-          |-     |-         |-     |-    |-     |-    |-              |1490  |
+#'  |1976  |1499  |-          |-     |-         |-     |-    |-     |-    |-              |1499  |
+#'  |1977  |35    |20         |337   |5         |840   |81   |30    |182  |-              |1530  |
+#'  |1978  |50    |38         |299   |4         |845   |101  |40    |155  |-              |1532  |
+#'  |1980  |44    |28         |302   |8         |793   |91   |39    |163  |-              |1468  |
+#'  |1982  |83    |12         |344   |8         |1079  |89   |50    |195  |-              |1860  |
+#'  |1983  |82    |16         |361   |6         |786   |104  |52    |192  |-              |1599  |
+#'  |1984  |77    |7          |283   |12        |802   |94   |30    |168  |-              |1473  |
+#'  |1985  |53    |18         |291   |8         |832   |117  |35    |180  |-              |1534  |
+#'  |1986  |73    |9          |306   |12        |777   |98   |42    |153  |-              |1470  |
+#'  |1987  |91    |24         |261   |11        |1143  |90   |27    |172  |-              |1819  |
+#'  |1988  |103   |13         |262   |3         |810   |92   |41    |157  |-              |1481  |
+#'  |1989  |76    |21         |279   |11        |859   |92   |37    |162  |-              |1537  |
+#'  |1990  |68    |13         |244   |8         |763   |87   |37    |152  |-              |1372  |
+#'  |1991  |74    |17         |272   |14        |843   |93   |44    |160  |-              |1517  |
+#'  |1993  |83    |14         |272   |11        |925   |96   |39    |166  |-              |1606  |
+#'  |1994  |159   |19         |503   |15        |1747  |187  |57    |305  |-              |2992  |
+#'  |1996  |157   |21         |466   |16        |1672  |176  |68    |328  |-              |2904  |
+#'  |1998  |153   |21         |486   |28        |1606  |165  |63    |310  |-              |2832  |
+#'  |2000  |174   |25         |476   |17        |1605  |152  |61    |307  |-              |2817  |
+#'  |2002  |134   |14         |492   |8         |1626  |153  |57    |281  |-              |2765  |
+#'  |2004  |116   |19         |525   |2         |1652  |169  |55    |274  |-              |2812  |
+#'  |2006  |1639  |18         |649   |-         |1676  |181  |72    |275  |-              |4510  |
+#'  |2008  |96    |7          |409   |-         |1149  |128  |40    |194  |-              |2023  |
+#'  |2010  |111   |19         |412   |3         |1152  |115  |38    |194  |-              |2044  |
+#'  |2012  |104   |11         |409   |6         |1087  |121  |34    |202  |-              |1974  |
+#'  |2014  |126   |13         |557   |1         |1356  |160  |53    |272  |-              |2538  |
+#'  |2016  |136   |20         |564   |8         |1609  |197  |49    |284  |-              |2867  |
+#'  |2018  |121   |11         |461   |2         |1333  |124  |60    |236  |-              |2348  |
+#'  |2021  |216   |108        |585   |62        |2379  |220  |99    |350  |13             |4032  |
+#'  |2022  |216   |62         |646   |15        |2012  |206  |89    |296  |2              |3544  |
+#'  |2024  |178   |61         |588   |16        |1955  |148  |77    |283  |3              |3309  |
+#'  |Total |12418 |699        |12341 |320       |37713 |3927 |1515  |6748 |18             |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Nativity
+#' 
+#' @keywords variable
+#' @md
+#' @name granborn
+NULL
+
+
 #'  Number of persons in household
 #' 
 #'  hompop
 #' 
-#' Question 34. Household size and composition.
+#' Question Household Size and Composition (see Appendix D:  Recodes, for information about these variables) 
+#'  As of 2024, HOMPOP has been calculated to only account for 0 to 14+ people in the household. This has been retroactively applied to all previous years of HOMPOP. The original HOMPOP containing data from 1972 to 2022 has been renamed HOMPOP_7222.
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/97/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,8 +182,68 @@
 #'  |2024  |-     |-  |-  |-  |-  |-  |-     |-     |-    |-    |-    |-   |-   |-   |-  |-         |-  |-   |-    |3309                          |3309  |
 #'  |Total |16960 |79 |20 |9  |3  |1  |23830 |11765 |9984 |4737 |1884 |712 |285 |141 |6  |6         |1  |203 |1764 |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name hompop
+NULL
+
+
+#'  Household members less than 6 yrs old
+#' 
+#'  babies
+#' 
+#' Question Household Size and Composition (see Appendix D:  Recodes, for information about these variables).  A. NUMBER OF MEMBERS UNDER 6 YEARS OLD: 
+#'  As of 2024, BABIES has been recoded to only account for 0 to 2+ children younger than 6 in the household. This has been retroactively applied to all previous years of BABIES. The original BABIES containing data from 1972 to 2022 has been renamed BABIES_7222.
+#' 
+#' 
 #' @section Values: 
 #' 
+#'   * `0` 0 household members under 6
+#'   * `8` 8 or more
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -63,22 +257,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hompop
-NULL
-
-#'  Household members less than 6 yrs old
-#' 
-#'  babies
-#' 
-#' Question 34a. Number of members under 6 years of age.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/98/vshow).
 #'
 #' Counts by year: 
 #'
@@ -121,9 +301,67 @@ NULL
 #'  |2024  |-                           |-    |-    |-   |-  |-  |-         |-  |-              |-    |3309                          |3309  |
 #'  |Total |59066                       |7643 |2951 |505 |64 |9  |380       |1  |7              |1764 |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name babies
+NULL
+
+
+#'  Household members 6 thru 12 yrs old
+#' 
+#'  preteen
+#' 
+#' Question Household Size and Composition (see Appendix D:  Recodes, for information about these variables). B. NUMBER OF MEMBERS 6 TO 12 YEARS OLD: 
+#'  As of 2024, PRETEEN has been recoded to only account for 0 to 2+ children ages 6 to 12 in the household. This has been retroactively applied to all previous years of PRETEEN. The original PRETEEN containing data from 1972 to 2022 has been renamed PRETEEN_7222.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` 0 household members under 6
+#'   * `0` 0 household members between 6 to 12
 #'   * `8` 8 or more
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
@@ -138,22 +376,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name babies
-NULL
-
-#'  Household members 6 thru 12 yrs old
-#' 
-#'  preteen
-#' 
-#' Question 34b. Number of members 6 to 12 years.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/99/vshow).
 #'
 #' Counts by year: 
 #'
@@ -196,9 +420,67 @@ NULL
 #'  |2024  |-                                   |-    |-    |-   |-   |-  |-  |-         |-         |-              |-    |3309                          |3309  |
 #'  |Total |57395                               |8043 |3711 |858 |161 |31 |9  |2         |409       |7              |1764 |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name preteen
+NULL
+
+
+#'  Household members 13 thru 17 yrs old
+#' 
+#'  teens
+#' 
+#' Question Household Size and Composition (see Appendix D:  Recodes, for information about these variables). C. NUMBER OF MEMBERS 13 TO 17 YEARS OLD: 
+#'  As of 2024, TEENS has been recoded to only account for 0 to 2+ teenagers in the household. This has been retroactively applied to all previous years of TEENS. The original TEENS containing data from 1972 to 2022 has been renamed TEENS_7222.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` 0 household members between 6 to 12
+#'   * `0` 0 household members between 13 to 17
 #'   * `8` 8 or more
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
@@ -213,22 +495,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name preteen
-NULL
-
-#'  Household members 13 thru 17 yrs old
-#' 
-#'  teens
-#' 
-#' Question 34c. Number of members 13 to 17 years old.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/100/vshow).
 #'
 #' Counts by year: 
 #'
@@ -271,9 +539,67 @@ NULL
 #'  |2024  |-                                    |-    |-    |-   |-  |-  |-         |-  |-         |-  |-              |-    |3309                          |3309  |
 #'  |Total |59639                                |7444 |2638 |489 |74 |2  |2         |9  |321       |1  |7              |1764 |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name teens
+NULL
+
+
+#'  Household members 18 yrs and older
+#' 
+#'  adults
+#' 
+#' Question Household Size and Composition (see Appendix D:  Recodes, for information about these variables)
+#'  D. NUMBER OF MEMBERS OVER 17 YEARS OLD: 
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` 0 household members between 13 to 17
+#'   * `1` 1 adult in household
 #'   * `8` 8 or more
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
@@ -288,22 +614,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name teens
-NULL
-
-#'  Household members 18 yrs and older (household roster)
-#' 
-#'  adults
-#' 
-#' Question 34d. Number of members over 17 years old.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/101/vshow).
 #'
 #' Counts by year: 
 #'
@@ -346,9 +658,65 @@ NULL
 #'  |2024  |1343                 |1444  |354  |125  |24  |3   |-         |16        |-  |-                          |3309  |
 #'  |Total |21868                |38577 |7916 |2494 |564 |124 |14        |85        |25 |4032                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name adults
+NULL
+
+
+#'  Number in household not related
+#' 
+#'  unrelat
+#' 
+#' Question Is everyone in the household related to you in some way?  A. IF NO:  How many persons in the household are not related to you in any way? 
+#'  As of 2024, UNRELAT has been recoded to only account for 0 to 2+ people. This has been retroactively applied to all previous years of UNRELAT. The original UNRELAT containing data from 1972 to 2022 has been renamed UNRELAT_7222.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` 1 adult in household
 #'   * `8` 8 or more
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
@@ -363,22 +731,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name adults
-NULL
-
-#'  Number in household not related
-#' 
-#'  unrelat
-#' 
-#' Question 35. Is everyone in the household related to you in some way? a. If no: How many persons in the household are not related to you in any way?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/102/vshow).
 #'
 #' Counts by year: 
 #'
@@ -421,9 +775,66 @@ NULL
 #'  |2024  |-     |-    |-   |-   |-   |-  |-  |-         |-     |-         |-  |-          |-              |3309                          |3309  |
 #'  |Total |46594 |4060 |872 |341 |109 |18 |8  |16        |19964 |338       |50 |1          |19             |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name unrelat
+NULL
+
+
+#'  How many in family earned money
+#' 
+#'  earnrs
+#' 
+#' Question Just thinking about your family now--those people in the household who are related to you . . . How many persons  in the family, including yourself, earned any money last year -(the previous year) - from any job or employment?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `8` 8 or more
+#'   * `3` 3 or more
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -437,22 +848,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name unrelat
-NULL
-
-#'  How many in family earned money?
-#' 
-#'  earnrs
-#' 
-#' Question 36. Just thinking about your family now -- those people in the househol who are related to you -- how many persons in the family, including yourself, earned any money last year from any job or employment?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/103/vshow).
 #'
 #' Counts by year: 
 #'
@@ -495,9 +892,76 @@ NULL
 #'  |2024  |718   |1314  |842   |370       |9         |-   |44             |12         |3309  |
 #'  |Total |12843 |29810 |24023 |8179      |608       |64  |160            |12         |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name earnrs
+NULL
+
+
+#'  Total family income
+#' 
+#'  income
+#' 
+#' Question In which of these groups did your total family income, from all sources, fall last year before taxes, that is? Just tell me the letter.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `3` 3 or more
+#'   * `1` under $1,000
+#'   * `2` $1,000 to $2,999
+#'   * `3` $3,000 to $3,999
+#'   * `4` $4,000 to $4,999
+#'   * `5` $5,000 to $5,999
+#'   * `6` $6,000 to $6,999
+#'   * `7` $7,000 to $7,999
+#'   * `8` $8,000 to $9,999
+#'   * `9` $10,000 to $14,999
+#'   * `10` $15,000 to $19,999
+#'   * `11` $20,000 to $24,999
+#'   * `12` $25,000 or more
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -511,22 +975,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name earnrs
-NULL
-
-#'  Total family income
-#' 
-#'  income
-#' 
-#' Question 37. In which of these groups did your total family income, from all sources, fall last year before taxes, that is?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/104/vshow).
 #'
 #' Counts by year: 
 #'
@@ -569,6 +1019,65 @@ NULL
 #'  |2024  |246  |48               |175                |103                |139                |2266            |26               |18               |25               |14               |16               |34               |-          |-         |77      |67           |55             |3309  |
 #'  |Total |2462 |1460             |7025               |5404               |5667               |37051           |1335             |1207             |1339             |1263             |1331             |2319             |2644       |241       |3785    |969          |197            |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Income
+#' 
+#' @keywords variable
+#' @md
+#' @name income
+NULL
+
+
+#'  Respondents income
+#' 
+#'  rincome
+#' 
+#' Question Did you earn any income from (OCCUPATION DESCRIBED IN OCC-INDUSTRY) in (the previous year)?
+#' Yes ............. (ASK RINCOME)
+#' No .............. (See REMARKS)
+#' A. IF YES:  In which of these groups did your earnings from (OCCUPATION IN OCC) for last year--(the previous year)--fall? That is, before taxes or other deductions. Just tell me the letter.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` under $1,000
@@ -596,22 +1105,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name income
-NULL
-
-#'  Respondents income
-#' 
-#'  rincome
-#' 
-#' Question 38. Did you earn any income from (OCCUPATION DESCRIBED IN Q2) last year? a. If yes: In which of these groups did your earnings from (OCCUPATION IN Q2) for last year fall? That is, before taxes or other deductions.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/105/vshow).
 #'
 #' Counts by year: 
 #'
@@ -654,123 +1149,51 @@ NULL
 #'  |2024  |1338  |40               |92                 |78                 |111                |1381            |25               |30               |31               |20               |20               |32               |-          |33      |30           |-         |48             |3309  |
 #'  |Total |27137 |1992             |5230               |4126               |4236               |19630           |1325             |1129             |1180             |1057             |1051             |1872             |829        |2273    |1395         |1122      |115            |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` under $1,000
-#'   * `2` $1,000 to $2,999
-#'   * `3` $3,000 to $3,999
-#'   * `4` $4,000 to $4,999
-#'   * `5` $5,000 to $5,999
-#'   * `6` $6,000 to $6,999
-#'   * `7` $7,000 to $7,999
-#'   * `8` $8,000 to $9,999
-#'   * `9` $10,000 to $14,999
-#'   * `10` $15,000 to $19,999
-#'   * `11` $20,000 to $24,999
-#'   * `12` $25,000 or more
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Income
 #' 
 #' @keywords variable
 #' @md
 #' @name rincome
 NULL
 
-#'  Total family income
-#' 
-#'  income72
-#' 
-#' Question In which of these groups did your total family income, from all sources, fall last year, before taxes, that is?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |$10000 to $12499 |$12500 to $14999 |$15000 to $17499 |$17500 to $19999 |$2000 to $3999 |$20000 to $24999 |$25000 to $29999 |$30000+ |$4000 to $5999 |$6000 to $7999 |$8000 to $9999 |don't know |lt $2000 |no answer |refused |iap   |not available in this year |Total |
-#'  |:-----|:----------------|:----------------|:----------------|:----------------|:--------------|:----------------|:----------------|:-------|:--------------|:--------------|:--------------|:----------|:--------|:---------|:-------|:-----|:--------------------------|:-----|
-#'  |1972  |217              |159              |103              |63               |165            |67               |33               |32      |160            |160            |192            |64         |123      |13        |62      |-     |-                          |1613  |
-#'  |1973  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1504  |-                          |1504  |
-#'  |1974  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1484  |-                          |1484  |
-#'  |1975  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1490  |-                          |1490  |
-#'  |1976  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1499  |-                          |1499  |
-#'  |1977  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1530  |-                          |1530  |
-#'  |1978  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1532  |-                          |1532  |
-#'  |1980  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1468  |-                          |1468  |
-#'  |1982  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1860  |-                          |1860  |
-#'  |1983  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1599  |-                          |1599  |
-#'  |1984  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1473  |-                          |1473  |
-#'  |1985  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1534  |-                          |1534  |
-#'  |1986  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1470  |-                          |1470  |
-#'  |1987  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1819  |-                          |1819  |
-#'  |1988  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1481  |-                          |1481  |
-#'  |1989  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1537  |-                          |1537  |
-#'  |1990  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1372  |-                          |1372  |
-#'  |1991  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1517  |-                          |1517  |
-#'  |1993  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1606  |-                          |1606  |
-#'  |1994  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |2992  |-                          |2992  |
-#'  |1996  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |2904  |-                          |2904  |
-#'  |1998  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |2832  |-                          |2832  |
-#'  |2000  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |2817  |-                          |2817  |
-#'  |2002  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |2765  |-                          |2765  |
-#'  |2004  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |2812  |-                          |2812  |
-#'  |2006  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |4510  |-                          |4510  |
-#'  |2008  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |2023  |-                          |2023  |
-#'  |2010  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |2044  |-                          |2044  |
-#'  |2012  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1974  |-                          |1974  |
-#'  |2014  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |2538  |-                          |2538  |
-#'  |2016  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |2867  |-                          |2867  |
-#'  |2018  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |2348  |-                          |2348  |
-#'  |2021  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |4032  |-                          |4032  |
-#'  |2022  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |-     |3544                       |3544  |
-#'  |2024  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |-     |3309                       |3309  |
-#'  |Total |217              |159              |103              |63               |165            |67               |33               |32      |160            |160            |192            |64         |123      |13        |62      |67233 |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` lt $2000
-#'   * `2` $2000 to $3999
-#'   * `3` $4000 to $5999
-#'   * `4` $6000 to $7999
-#'   * `5` $8000 to $9999
-#'   * `6` $10000 to $12499
-#'   * `7` $12500 to $14999
-#'   * `8` $15000 to $17499
-#'   * `9` $17500 to $19999
-#'   * `10` $20000 to $24999
-#'   * `11` $25000 to $29999
-#'   * `12` $30000+
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name income72
-NULL
 

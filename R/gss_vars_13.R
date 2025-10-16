@@ -1,11 +1,119 @@
+#'  Rate of ba degree earning in college spouse attended
+#' 
+#'  spbarate
+#' 
+#' Question In what year did you receive the (COLLEGE NAME) degree? 
+#' K. Graduation Rate
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` 0-39.9pct
+#'   * `2` 40-57.9pct
+#'   * `3` 58pct or over
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/79/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |0-39.9pct |40-57.9pct |58pct or over |no answer |not available in this year |Total |
+#'  |:-----|:-----|:-------|:--------|:-----------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-       |-        |-           |-         |-                          |1613  |
+#'  |1973  |1504  |-       |-        |-           |-         |-                          |1504  |
+#'  |1974  |1484  |-       |-        |-           |-         |-                          |1484  |
+#'  |1975  |1490  |-       |-        |-           |-         |-                          |1490  |
+#'  |1976  |1499  |-       |-        |-           |-         |-                          |1499  |
+#'  |1977  |1530  |-       |-        |-           |-         |-                          |1530  |
+#'  |1978  |1532  |-       |-        |-           |-         |-                          |1532  |
+#'  |1980  |1468  |-       |-        |-           |-         |-                          |1468  |
+#'  |1982  |1860  |-       |-        |-           |-         |-                          |1860  |
+#'  |1983  |1599  |-       |-        |-           |-         |-                          |1599  |
+#'  |1984  |1473  |-       |-        |-           |-         |-                          |1473  |
+#'  |1985  |1534  |-       |-        |-           |-         |-                          |1534  |
+#'  |1986  |1470  |-       |-        |-           |-         |-                          |1470  |
+#'  |1987  |1819  |-       |-        |-           |-         |-                          |1819  |
+#'  |1988  |1481  |-       |-        |-           |-         |-                          |1481  |
+#'  |1989  |1537  |-       |-        |-           |-         |-                          |1537  |
+#'  |1990  |1372  |-       |-        |-           |-         |-                          |1372  |
+#'  |1991  |1517  |-       |-        |-           |-         |-                          |1517  |
+#'  |1993  |1606  |-       |-        |-           |-         |-                          |1606  |
+#'  |1994  |2992  |-       |-        |-           |-         |-                          |2992  |
+#'  |1996  |2904  |-       |-        |-           |-         |-                          |2904  |
+#'  |1998  |2832  |-       |-        |-           |-         |-                          |2832  |
+#'  |2000  |2817  |-       |-        |-           |-         |-                          |2817  |
+#'  |2002  |2765  |-       |-        |-           |-         |-                          |2765  |
+#'  |2004  |2812  |-       |-        |-           |-         |-                          |2812  |
+#'  |2006  |4510  |-       |-        |-           |-         |-                          |4510  |
+#'  |2008  |2023  |-       |-        |-           |-         |-                          |2023  |
+#'  |2010  |2044  |-       |-        |-           |-         |-                          |2044  |
+#'  |2012  |1744  |30      |80       |119         |1         |-                          |1974  |
+#'  |2014  |2168  |63      |123      |183         |1         |-                          |2538  |
+#'  |2016  |2511  |45      |101      |210         |-         |-                          |2867  |
+#'  |2018  |2348  |-       |-        |-           |-         |-                          |2348  |
+#'  |2021  |4032  |-       |-        |-           |-         |-                          |4032  |
+#'  |2022  |-     |-       |-        |-           |-         |3544                       |3544  |
+#'  |2024  |-     |-       |-        |-           |-         |3309                       |3309  |
+#'  |Total |67890 |138     |304      |512         |2         |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name spbarate
+NULL
+
+
 #'  Ratio of graduate students to undergraduate students in college spouse attended
 #' 
 #'  spgradtounder
 #' 
-#' Question None
+#' Question In what year did you receive the (COLLEGE NAME) degree? 
+#' L. Ratio of Graduate to Undergraduate students.
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` 0-.210 graduate student per undergraduate student
+#'   * `2` .211 or over
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/80/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,10 +156,38 @@
 #'  |2024  |-     |-            |-                                                 |-         |3309                       |3309  |
 #'  |Total |67915 |617          |312                                               |2         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name spgradtounder
+NULL
+
+
+#'  Rate of ba degree earning at college partner attended
+#' 
+#'  cobarate
+#' 
+#' Question In what year did your partner receive the (COLLEGE NAME) degree? 
+#' K. Graduation Rate
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` 0-.210 graduate student per undergraduate student
-#'   * `2` .211 or over
+#'   * `1` 0-39.9pct
+#'   * `2` 40-57.9pct
+#'   * `3` 58pct or over
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -65,22 +201,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name spgradtounder
-NULL
-
-#'  Rate of ba degree earning at college partner attended
-#' 
-#'  cobarate
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6164/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,11 +245,36 @@ NULL
 #'  |2024  |-     |-       |-        |-           |-         |3309                       |3309  |
 #'  |Total |68738 |17      |25       |65          |1         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name cobarate
+NULL
+
+
+#'  Ratio of graduate to undergraduate students at college partner attended
+#' 
+#'  cogradtounder
+#' 
+#' Question In what year did your partner receive the (COLLEGE NAME) degree? 
+#' L. Ratio of Graduate to Undergraduate students.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` 0-39.9pct
-#'   * `2` 40-57.9pct
-#'   * `3` 58pct or over
+#'   * `1` 0-.210 graduate student per undergraduate student
+#'   * `2` .211 or over
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -141,22 +288,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name cobarate
-NULL
-
-#'  Ratio of graduate to undergraduate students at college partner attended
-#' 
-#'  cogradtounder
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6165/vshow).
 #'
 #' Counts by year: 
 #'
@@ -199,10 +332,36 @@ NULL
 #'  |2024  |-     |-            |-                                                 |-         |3309                       |3309  |
 #'  |Total |68745 |61           |39                                                |1         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name cogradtounder
+NULL
+
+
+#'  Total number of students enrolled at college partner attended
+#' 
+#'  coeftotlt
+#' 
+#' Question In what year did your partner receive the (COLLEGE NAME) degree? 
+#' J. Total Fall Enrollment
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` 0-.210 graduate student per undergraduate student
-#'   * `2` .211 or over
+#'   * `1` 0-467 students enrolled
+#'   * `2` 468 or more students
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -216,22 +375,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name cogradtounder
-NULL
-
-#'  Total number of students enrolled at college partner attended
-#' 
-#'  coeftotlt
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6166/vshow).
 #'
 #' Counts by year: 
 #'
@@ -274,10 +419,35 @@ NULL
 #'  |2024  |-     |-                    |-                       |-         |3309                       |3309  |
 #'  |Total |68719 |124                  |2                       |1         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name coeftotlt
+NULL
+
+
+#'  Respondents sex
+#' 
+#'  sex
+#' 
+#' Question CODE RESPONDENT'S SEX
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` 0-467 students enrolled
-#'   * `2` 468 or more students
+#'   * `1` male
+#'   * `2` female
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -291,22 +461,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name coeftotlt
-NULL
-
-#'  Respondents sex
-#' 
-#'  sex
-#' 
-#' Question 23. Code respondent's sex
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/81/vshow).
 #'
 #' Counts by year: 
 #'
@@ -349,10 +505,69 @@ NULL
 #'  |2024  |1823   |1467  |-   |1         |11             |7          |3309  |
 #'  |Total |42124  |33444 |19  |81        |16             |15         |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Sex
+#' 
+#' @keywords variable
+#' @md
+#' @name sex
+NULL
+
+
+#'  Race of respondent
+#' 
+#'  race
+#' 
+#' Question CODE WITHOUT ASKING ONLY IF THERE IS NO DOUBT IN YOUR MIND.
+#'  What race do you consider yourself? RECORD VERBATIM AND CODE.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` male
-#'   * `2` female
+#'   * `1` white
+#'   * `2` black
+#'   * `3` other
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -366,22 +581,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name sex
-NULL
-
-#'  Race of respondent
-#' 
-#'  race
-#' 
-#' Question 24. What race do you consider yourself?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/82/vshow).
 #'
 #' Counts by year: 
 #'
@@ -424,11 +625,71 @@ NULL
 #'  |2024  |572   |392   |2280  |65  |3309  |
 #'  |Total |10787 |4803  |59937 |172 |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name race
+NULL
+
+
+#'  Type of place lived in when 16 yrs old
+#' 
+#'  res16
+#' 
+#' Question Which of the categories on this card comes closest to the type of place you were living in when you were 16 years old?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` white
-#'   * `2` black
-#'   * `3` other
+#'   * `1` in open country but not on a farm
+#'   * `2` farm
+#'   * `3` in a small city or town (under 50,000)
+#'   * `4` in a medium-size city (50,000-250,000)
+#'   * `5` in a suburb near a large city
+#'   * `6` in a large city (over 250,000)
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -442,22 +703,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name race
-NULL
-
-#'  Type of place lived in when 16 yrs old
-#' 
-#'  res16
-#' 
-#' Question 25. Which of the categories on this card comes closest to the type of place you were living in when you were 16 years old?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/83/vshow).
 #'
 #' Counts by year: 
 #'
@@ -500,14 +747,76 @@ NULL
 #'  |2024  |2          |205   |548                            |626                                    |1117                                   |468                           |331                               |3         |-    |9              |3309  |
 #'  |Total |52         |10038 |11721                          |11856                                  |23536                                  |8892                          |8002                              |72        |1518 |12             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Residence
+#' 
+#' @keywords variable
+#' @md
+#' @name res16
+NULL
+
+
+#'  Region of residence, age 16
+#' 
+#'  reg16
+#' 
+#' Question In what state or foreign country were you living when you were 16 years old? 
+#'  As of 2024, REG16 has been recoded to only account for four categories. This has been retroactively applied to all previous years of REG16. The original REG16 containing data from 1972 to 2022 has been renamed REG16_7222.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` in open country but not on a farm
-#'   * `2` farm
-#'   * `3` in a small city or town (under 50,000)
-#'   * `4` in a medium-size city (50,000-250,000)
-#'   * `5` in a suburb near a large city
-#'   * `6` in a large city (over 250,000)
+#'   * `0` foreign
+#'   * `1` new england
+#'   * `2` middle atlantic
+#'   * `3` east north central
+#'   * `4` west north central
+#'   * `5` south atlantic
+#'   * `6` east south atlantic
+#'   * `7` west south central
+#'   * `8` mountain
+#'   * `9` pacific
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -521,22 +830,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name res16
-NULL
-
-#'  Region of residence, age 16
-#' 
-#'  reg16
-#' 
-#' Question 26. In what state or foreign country were you living when you were 16 years old?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/84/vshow).
 #'
 #' Counts by year: 
 #'
@@ -579,18 +874,70 @@ NULL
 #'  |2024  |633                |282                 |311     |466             |148      |111         |376     |440            |235                |290                |-   |3          |14             |3309  |
 #'  |Total |14538              |5439                |5116    |11247           |3524     |3497        |7685    |11824          |6012               |6776               |14  |4          |23             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Region
+#' 
+#' @keywords variable
+#' @md
+#' @name reg16
+NULL
+
+
+#'  Geographic mobility since age 16
+#' 
+#'  mobile16
+#' 
+#' Question In what state or foreign country were you living when you were 16 years old?
+#' REFER TO REGION CODES BELOW AND ENTER CODE NUMBERS IN BOX. 
+#' A. When you were 16 years old, were you living in this same (city/town/county)?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` foreign
-#'   * `1` new england
-#'   * `2` middle atlantic
-#'   * `3` east north central
-#'   * `4` west north central
-#'   * `5` south atlantic
-#'   * `6` east south atlantic
-#'   * `7` west south central
-#'   * `8` mountain
-#'   * `9` pacific
+#'   * `1` same state, same city
+#'   * `2` same state, different city
+#'   * `3` different state
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -604,22 +951,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name reg16
-NULL
-
-#'  Geographic mobility since age 16
-#' 
-#'  mobile16
-#' 
-#' Question 26a. When you were 16 years old, were you living int his same (city/town/county)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/85/vshow).
 #'
 #' Counts by year: 
 #'
@@ -662,111 +995,53 @@ NULL
 #'  |2024  |1192            |6         |1101                       |996                   |2          |-    |12             |3309  |
 #'  |Total |24986           |538       |19463                      |28574                 |9          |2116 |13             |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` same state, same city
-#'   * `2` same state, different city
-#'   * `3` different state
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Geographic Mobility
 #' 
 #' @keywords variable
 #' @md
 #' @name mobile16
 NULL
 
-#'  Living with parents when 16 yrs old
-#' 
-#'  family16
-#' 
-#' Question 27. Were you living with both your own mother and father areound the time you were 16? IF NO: With whom were you living around that time?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |both own parents |father and stepparent |father only |mother and stepparent |mother only |other arrangement with relatives (e.g., aunt and uncle, grandparents) |some other female relative (no male head) |some other male relative (no female head) |no answer |other |iap  |don't know |skipped on web |Total |
-#'  |:-----|:----------------|:---------------------|:-----------|:---------------------|:-----------|:---------------------------------------------------------------------|:-----------------------------------------|:-----------------------------------------|:---------|:-----|:----|:----------|:--------------|:-----|
-#'  |1972  |1198             |27                    |35          |52                    |173         |93                                                                    |25                                        |10                                        |-         |-     |-    |-          |-              |1613  |
-#'  |1973  |1174             |31                    |46          |43                    |123         |41                                                                    |14                                        |6                                         |2         |24    |-    |-          |-              |1504  |
-#'  |1974  |1126             |25                    |36          |47                    |152         |30                                                                    |20                                        |9                                         |-         |39    |-    |-          |-              |1484  |
-#'  |1975  |1140             |34                    |24          |82                    |124         |36                                                                    |21                                        |4                                         |-         |25    |-    |-          |-              |1490  |
-#'  |1976  |1139             |29                    |40          |45                    |162         |33                                                                    |17                                        |3                                         |3         |28    |-    |-          |-              |1499  |
-#'  |1977  |1133             |28                    |44          |76                    |172         |35                                                                    |14                                        |4                                         |2         |22    |-    |-          |-              |1530  |
-#'  |1978  |1157             |21                    |34          |57                    |172         |36                                                                    |21                                        |5                                         |1         |28    |-    |-          |-              |1532  |
-#'  |1980  |1070             |25                    |29          |69                    |179         |22                                                                    |23                                        |8                                         |-         |43    |-    |-          |-              |1468  |
-#'  |1982  |1334             |34                    |48          |70                    |246         |47                                                                    |35                                        |5                                         |4         |37    |-    |-          |-              |1860  |
-#'  |1983  |1225             |29                    |35          |59                    |170         |34                                                                    |24                                        |1                                         |-         |22    |-    |-          |-              |1599  |
-#'  |1984  |1100             |22                    |33          |73                    |151         |31                                                                    |24                                        |6                                         |1         |32    |-    |-          |-              |1473  |
-#'  |1985  |1160             |33                    |37          |50                    |153         |42                                                                    |19                                        |7                                         |-         |33    |-    |-          |-              |1534  |
-#'  |1986  |1082             |19                    |25          |72                    |180         |35                                                                    |19                                        |4                                         |-         |34    |-    |-          |-              |1470  |
-#'  |1987  |1316             |36                    |43          |65                    |233         |46                                                                    |45                                        |7                                         |3         |25    |-    |-          |-              |1819  |
-#'  |1988  |1072             |27                    |36          |92                    |171         |36                                                                    |18                                        |1                                         |-         |28    |-    |-          |-              |1481  |
-#'  |1989  |1153             |17                    |38          |60                    |172         |23                                                                    |25                                        |3                                         |1         |45    |-    |-          |-              |1537  |
-#'  |1990  |992              |20                    |25          |74                    |170         |29                                                                    |21                                        |7                                         |1         |33    |-    |-          |-              |1372  |
-#'  |1991  |1102             |36                    |37          |68                    |176         |23                                                                    |29                                        |8                                         |-         |38    |-    |-          |-              |1517  |
-#'  |1993  |1192             |33                    |34          |72                    |166         |38                                                                    |31                                        |7                                         |-         |33    |-    |-          |-              |1606  |
-#'  |1994  |2101             |76                    |71          |162                   |405         |62                                                                    |35                                        |12                                        |-         |68    |-    |-          |-              |2992  |
-#'  |1996  |2012             |79                    |70          |135                   |407         |71                                                                    |42                                        |3                                         |3         |82    |-    |-          |-              |2904  |
-#'  |1998  |1959             |90                    |55          |159                   |385         |50                                                                    |44                                        |5                                         |-         |85    |-    |-          |-              |2832  |
-#'  |2000  |1936             |61                    |63          |151                   |417         |58                                                                    |43                                        |9                                         |-         |79    |-    |-          |-              |2817  |
-#'  |2002  |1861             |49                    |76          |179                   |390         |58                                                                    |56                                        |13                                        |3         |80    |-    |-          |-              |2765  |
-#'  |2004  |1967             |48                    |68          |148                   |388         |61                                                                    |33                                        |5                                         |1         |93    |-    |-          |-              |2812  |
-#'  |2006  |2085             |54                    |75          |189                   |404         |49                                                                    |41                                        |6                                         |1         |88    |1518 |-          |-              |4510  |
-#'  |2008  |1375             |25                    |50          |119                   |300         |39                                                                    |36                                        |12                                        |-         |67    |-    |-          |-              |2023  |
-#'  |2010  |1358             |32                    |57          |125                   |319         |44                                                                    |35                                        |5                                         |-         |69    |-    |-          |-              |2044  |
-#'  |2012  |1303             |39                    |53          |129                   |294         |47                                                                    |39                                        |5                                         |-         |65    |-    |-          |-              |1974  |
-#'  |2014  |1672             |43                    |62          |160                   |410         |59                                                                    |44                                        |12                                        |-         |76    |-    |-          |-              |2538  |
-#'  |2016  |1845             |40                    |80          |170                   |489         |70                                                                    |41                                        |10                                        |2         |120   |-    |-          |-              |2867  |
-#'  |2018  |1499             |37                    |74          |150                   |411         |56                                                                    |46                                        |9                                         |1         |65    |-    |-          |-              |2348  |
-#'  |2021  |2910             |83                    |97          |230                   |522         |60                                                                    |40                                        |9                                         |3         |76    |-    |1          |1              |4032  |
-#'  |2022  |2360             |78                    |67          |228                   |539         |100                                                                   |58                                        |11                                        |2         |100   |-    |-          |1              |3544  |
-#'  |2024  |2265             |56                    |81          |163                   |506         |77                                                                    |52                                        |19                                        |5         |83    |-    |1          |1              |3309  |
-#'  |Total |52373            |1416                  |1778        |3823                  |9831        |1671                                                                  |1130                                      |250                                       |39        |1865  |1518 |2          |3              |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `0` other
-#'   * `1` both own parents
-#'   * `2` father and stepparent
-#'   * `3` mother and stepparent
-#'   * `4` father only
-#'   * `5` mother only
-#'   * `6` some other male relative (no female head)
-#'   * `7` some other female relative (no male head)
-#'   * `8` other arrangement with relatives (e.g., aunt and uncle, grandparents)
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name family16
-NULL
 

@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 postmat2
 }
 \details{
-Question 1048b. And which one do you think should be America's next highest priority, the second most important thing it should do? America should...
+Question B. And which one do you think should be America''s next highest priority, the second most important thing it should do?  America shouldâ€¦
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} maintain order in the nation
+\item \code{2} give people more say in government decisions
+\item \code{3} fight rising prices
+\item \code{4} protect freedom of speech
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4720/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab can't choose \tab fight rising prices \tab give people more say in government decisions \tab maintain order in the nation \tab no answer \tab protect freedom of speech \tab skipped on web \tab not available in this year \tab Total \cr
@@ -57,26 +79,32 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} maintain order in the nation
-\item \code{2} give people more say in government decisions
-\item \code{3} fight rising prices
-\item \code{4} protect freedom of speech
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1993 \tab A/B/C \tab full \cr
+   1994 \tab A/B/C \tab full \cr
+   2000 \tab A/B/C \tab full \cr
+   2010 \tab A/B/- \tab partial \cr
+   2021 \tab A/B/- \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Environment: 
+\code{\link{anrights}},
+\code{\link{grnecon}},
+\code{\link{harmgood}},
+\code{\link{harmsgrn}},
+\code{\link{postmat1}},
+\code{\link{privent}},
+\code{\link{scifaith}},
+\code{\link{scigrn}},
+\code{\link{sciworse}}
+
+Other United States: 
+\code{\link{postmat1}}
+}
+\concept{ISSP Environment}
+\concept{United States}
 \keyword{variable}

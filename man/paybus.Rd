@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 paybus
 }
 \details{
-Question 1254. We would like to know what you think people in these jobs actually earn. Please write in how much you think they usually earn, each year, before taxes. Many people are not exactly sure about this but your best guess will be close enough. This may be difficult, but it is very important. So please try. Please write in how much they actually earn each year: i. City bus driver
+Question We would like to know what you think people in these jobs actually earn. Please write in how much you think they usually earn, each year, before taxes. Many people are not exactly sure about this but your best guess will be close enough. This may be difficult, but it is very important. So please try. nPlease write in how much they actually earn  each year.
+I. A city bus driver?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1e+06} $1 million (or more, for 1987 & 2000)
+\item \code{99999997} never worked
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4271/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab $1 million (or more, for 1987 & 2000) \tab 10000 \tab 11000 \tab 12000 \tab 13000 \tab 13500 \tab 14000 \tab 14400 \tab 15000 \tab 16000 \tab 16500 \tab 16640 \tab 17000 \tab 17280 \tab 17500 \tab 1800 \tab 18000 \tab 18500 \tab 18720 \tab 19000 \tab 19200 \tab 19500 \tab 1e+05 \tab 2000 \tab 20000 \tab 20500 \tab 20800 \tab 21000 \tab 21500 \tab 22000 \tab 23000 \tab 23500 \tab 24000 \tab 24960 \tab 25000 \tab 25500 \tab 26000 \tab 27000 \tab 27500 \tab 28000 \tab 29000 \tab 29120 \tab 3000 \tab 30000 \tab 31000 \tab 3160 \tab 32000 \tab 33000 \tab 34000 \tab 3500 \tab 35000 \tab 36000 \tab 3900 \tab 4000 \tab 40000 \tab 41000 \tab 45000 \tab 48000 \tab 5000 \tab 50000 \tab 5200 \tab 6000 \tab 60000 \tab 62400 \tab 65000 \tab 6999 \tab 7000 \tab 7500 \tab 77000 \tab 8000 \tab 8500 \tab 9000 \tab 9500 \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
@@ -57,24 +78,47 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1e+06} $1 million (or more, for 1987 & 2000)
-\item \code{99999997} never worked
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1987 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Social Inequality: 
+\code{\link{inequal7}},
+\code{\link{payclerk}},
+\code{\link{paydoc}},
+\code{\link{payexec}},
+\code{\link{payfarm}},
+\code{\link{paymason}},
+\code{\link{payowner}},
+\code{\link{paysec}},
+\code{\link{payskill}}
+
+Other Inequality, Income: 
+\code{\link{inequal7}},
+\code{\link{payclerk}},
+\code{\link{paydoc}},
+\code{\link{payexec}},
+\code{\link{payfarm}},
+\code{\link{paymason}},
+\code{\link{payowner}},
+\code{\link{paysec}},
+\code{\link{payskill}}
+
+Other Occupation: 
+\code{\link{payclerk}},
+\code{\link{paydoc}},
+\code{\link{payexec}},
+\code{\link{payfarm}},
+\code{\link{paymason}},
+\code{\link{payowner}},
+\code{\link{paysec}},
+\code{\link{payskill}}
+}
+\concept{ISSP Social Inequality}
+\concept{Inequality, Income}
+\concept{Occupation}
 \keyword{variable}

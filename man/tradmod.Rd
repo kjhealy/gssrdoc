@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 tradmod
 }
 \details{
-Question 553. Next, we have some questions about the kind of relationship you would like with a spouse or partner. It doesn't matter whether you are now married or living with someone. For each pair of items on the card, which type of realtionship would you prefer? a1. A relationship where the man has the main responsibility for providing the household income and the woman has the main responsibility for taking care of the home and family. a2. A relationship where the man and woman equally share responsibility for providing the household income and taking care of the home and family.
+Question Next, we have some questions about the kind of relationship you would like with a spouse or partner. It doesn't matter whether you are now married or living with someone. For each pair of items on the card, which type of relationship would you prefer? In pair A, would you prefer the type of relationship described in statement 1 or statement 2? How about in pair B? Pair C?
+A.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} man alone responsible
+\item \code{2} both responsible
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1657/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab both responsible \tab don't know \tab man alone responsible \tab no answer \tab not available in this year \tab Total \cr
@@ -57,24 +78,36 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} man alone responsible
-\item \code{2} both responsible
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Gender: 
+\code{\link{emoteoth}},
+\code{\link{fejobaff}},
+\code{\link{hapboys}},
+\code{\link{hapgirls}},
+\code{\link{rhmewrk}},
+\code{\link{sharesep}},
+\code{\link{sphmewrk}},
+\code{\link{willwed1}},
+\code{\link{willwed2}}
+
+Other Cohabitation: 
+\code{\link{emoteoth}},
+\code{\link{sharesep}}
+
+Other Marriage: 
+\code{\link{emoteoth}},
+\code{\link{sharesep}},
+\code{\link{willwed1}},
+\code{\link{willwed2}}
+}
+\concept{Cohabitation}
+\concept{Gender}
+\concept{Marriage}
 \keyword{variable}

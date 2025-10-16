@@ -10,11 +10,30 @@ General Social Survey https://gss.norc.org
 incneed
 }
 \details{
-Question 189. Living where you do now and meeting the expenses you consider necessary, what would be the very smallest amount of income per month - after taxes - your household would need to make ends meet?
+Question Living where you do now and meeting the expenses you consider necessary, what would be the very smallest amount of income per month--after taxes--your household would need to make ends meet?
 }
+\section{Values}{
+
+\itemize{
+\item \code{99997} depends
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/575/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 100 \tab 1000 \tab 10000 \tab 1100 \tab 1184 \tab 1199 \tab 1200 \tab 12000 \tab 125 \tab 1250 \tab 1300 \tab 1400 \tab 1410 \tab 150 \tab 1500 \tab 160 \tab 1600 \tab 163 \tab 1700 \tab 175 \tab 1750 \tab 1800 \tab 18000 \tab 1900 \tab 200 \tab 2000 \tab 202 \tab 2100 \tab 220 \tab 2200 \tab 2300 \tab 240 \tab 250 \tab 2500 \tab 25000 \tab 260 \tab 266 \tab 275 \tab 280 \tab 2800 \tab 284 \tab 290 \tab 299 \tab 30 \tab 300 \tab 3000 \tab 30000 \tab 325 \tab 330 \tab 335 \tab 342 \tab 350 \tab 3500 \tab 360 \tab 375 \tab 380 \tab 387 \tab 400 \tab 4000 \tab 407 \tab 420 \tab 4200 \tab 425 \tab 433 \tab 440 \tab 444 \tab 450 \tab 460 \tab 470 \tab 475 \tab 480 \tab 492 \tab 500 \tab 5000 \tab 514 \tab 550 \tab 575 \tab 597 \tab 600 \tab 6000 \tab 60000 \tab 625 \tab 650 \tab 658 \tab 675 \tab 680 \tab 700 \tab 720 \tab 750 \tab 756 \tab 775 \tab 790 \tab 800 \tab 833 \tab 834 \tab 840 \tab 850 \tab 900 \tab 911 \tab 950 \tab 999 \tab depends \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,23 +76,31 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{99997} depends
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1982 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{finalter}},
+\code{\link{finrela}},
+\code{\link{mininc}},
+\code{\link{satfin}},
+\code{\link{wksub}},
+\code{\link{wksub1}},
+\code{\link{wksubs}},
+\code{\link{wksubs1}},
+\code{\link{wksup}}
+
+Other Income: 
+\code{\link{finalter}},
+\code{\link{finrela}},
+\code{\link{mininc}},
+\code{\link{satfin}}
+}
+\concept{Core}
+\concept{Income}
 \keyword{variable}

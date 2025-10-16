@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 hguncrim
 }
 \details{
-Question 989. Some people argue that more restrictions on handguns would decrease violent crime by making it harder for criminals to get handguns. Other people argue that more restrictions on handguns would increase violent crime by making it harder for law-abiding citizens to defend themselves with handguns. Which of the following statements is closer to your own opinion?
+Question Some people argue that more restrictions on handguns would decrease violent crime by making it harder for criminals to get handguns. Other people argue that more restrictions on handguns would increase violent crime by making it harder for law-abiding citizens to defend themselves with handguns. Which of the following statements is closer to your own opinion?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} more restriction would decrease crime
+\item \code{2} more restriction would increase crime
+\item \code{3} unsure
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3058/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab don't know \tab more restriction would decrease crime \tab more restriction would increase crime \tab no answer \tab unsure \tab not available in this year \tab Total \cr
@@ -57,25 +78,23 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} more restriction would decrease crime
-\item \code{2} more restriction would increase crime
-\item \code{3} unsure
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Guns: 
+\code{\link{crimdown}},
+\code{\link{crimup}},
+\code{\link{hgunlaw}}
+
+Other Guns: 
+\code{\link{crimdown}},
+\code{\link{crimup}},
+\code{\link{hgunlaw}}
+}
+\concept{Guns}
 \keyword{variable}

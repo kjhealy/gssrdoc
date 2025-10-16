@@ -10,11 +10,29 @@ General Social Survey https://gss.norc.org
 cosei10
 }
 \details{
-Question None
+Question COSEI10 is based on the 2010 Census occupation classification. It is estimated from 539 occupational categories, using COPRES105PLUS.
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} i don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6358/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 10.6 \tab 12.6 \tab 13.6 \tab 14 \tab 14.8 \tab 17.1 \tab 18.6 \tab 18.8 \tab 19.6 \tab 19.7 \tab 20 \tab 20.1 \tab 20.5 \tab 20.7 \tab 20.9 \tab 21.6 \tab 23 \tab 23.3 \tab 23.8 \tab 24 \tab 24.1 \tab 24.2 \tab 24.6 \tab 25.2 \tab 26.1 \tab 26.5 \tab 26.8 \tab 27 \tab 27.6 \tab 27.7 \tab 28.5 \tab 28.7 \tab 31 \tab 31.2 \tab 32 \tab 34.6 \tab 34.7 \tab 35.3 \tab 35.8 \tab 36.2 \tab 36.7 \tab 37.1 \tab 37.6 \tab 38.1 \tab 38.3 \tab 38.8 \tab 39.2 \tab 39.7 \tab 39.9 \tab 41 \tab 42.8 \tab 43 \tab 45 \tab 45.1 \tab 45.4 \tab 46 \tab 46.2 \tab 46.5 \tab 50.3 \tab 51.5 \tab 52 \tab 54.6 \tab 55.3 \tab 58.6 \tab 59.4 \tab 59.8 \tab 61.4 \tab 61.5 \tab 61.9 \tab 62 \tab 62.9 \tab 63.2 \tab 65.3 \tab 67.7 \tab 68.6 \tab 69.3 \tab 71.7 \tab 73.9 \tab 77.4 \tab 78.3 \tab 80.9 \tab 81 \tab 82.5 \tab 85.5 \tab 86.5 \tab 87.9 \tab 88.7 \tab 91.1 \tab 14.6 \tab 17.5 \tab 21.5 \tab 21.8 \tab 22.4 \tab 25 \tab 25.7 \tab 26.9 \tab 27.1 \tab 27.4 \tab 28.3 \tab 30.1 \tab 31.6 \tab 32.6 \tab 34.4 \tab 34.8 \tab 36.4 \tab 37.2 \tab 37.8 \tab 42.3 \tab 46.6 \tab 50 \tab 50.4 \tab 52.4 \tab 52.5 \tab 53.6 \tab 57.4 \tab 58.4 \tab 59.1 \tab 60.3 \tab 61.2 \tab 62.1 \tab 63.7 \tab 64.2 \tab 64.5 \tab 68 \tab 71.8 \tab 76.3 \tab 77 \tab 77.2 \tab 83.4 \tab 83.8 \tab 84.2 \tab 85.2 \tab 86.1 \tab 92.8 \tab 13.2 \tab 15.8 \tab 19.2 \tab 21.1 \tab 21.4 \tab 23.7 \tab 25.1 \tab 26.2 \tab 28.4 \tab 31.1 \tab 31.3 \tab 39.1 \tab 39.6 \tab 41.1 \tab 43.8 \tab 45.3 \tab 52.3 \tab 53.8 \tab 56.9 \tab 57.5 \tab 57.8 \tab 58.2 \tab 59.9 \tab 60.5 \tab 64.9 \tab 70.4 \tab 72.7 \tab 75.5 \tab 79.4 \tab 84.5 \tab 89.9 \tab 91.9 \tab 13.3 \tab 20.8 \tab 21.3 \tab 27.2 \tab 31.5 \tab 33.4 \tab 33.7 \tab 33.9 \tab 38.2 \tab 43.5 \tab 49.2 \tab 49.4 \tab 50.7 \tab 53.7 \tab 55 \tab 57.3 \tab 71.1 \tab 72.5 \tab 77.7 \tab 79.3 \tab 80.2 \tab 84 \tab 87.6 \tab 89.4 \tab 92.1 \tab 14.4 \tab 28.6 \tab 29.6 \tab 33.2 \tab 34.5 \tab 35.5 \tab 36.8 \tab 37.9 \tab 38.4 \tab 42.9 \tab 48.8 \tab 52.9 \tab 53 \tab 53.9 \tab 56.8 \tab 57 \tab 57.1 \tab 60.2 \tab 60.4 \tab 62.6 \tab 63.3 \tab 65.1 \tab 66.4 \tab 67.8 \tab 70.5 \tab 71 \tab 73.4 \tab 75.6 \tab 79.6 \tab 82.4 \tab 82.7 \tab 85 \tab 86.8 \tab 88 \tab 89.3 \tab 22.1 \tab 23.2 \tab 25.6 \tab 27.5 \tab 31.9 \tab 32.8 \tab 35.2 \tab 39.5 \tab 44.9 \tab 58.1 \tab 73.6 \tab 76.7 \tab 79.9 \tab 81.5 \tab 87.3 \tab not available in this release \tab Total \cr
@@ -57,22 +75,30 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} i don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2021 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
+   2024 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Occupation: 
+\code{\link{cosei10educ}},
+\code{\link{masei10}},
+\code{\link{masei10educ}},
+\code{\link{masei10inc}},
+\code{\link{pasei10educ}},
+\code{\link{pasei10inc}},
+\code{\link{spsei10}},
+\code{\link{spsei10educ}},
+\code{\link{spsei10inc}}
+}
+\concept{Occupation}
 \keyword{variable}

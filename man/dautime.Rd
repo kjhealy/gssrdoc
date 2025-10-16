@@ -10,11 +10,38 @@ General Social Survey https://gss.norc.org
 dautime
 }
 \details{
-Question 1203b. About how long would it take you to get to where your daughter lives? Think of the time it usually takes door to door.
+Question How many daughters age 18 or older do you have? (We mean daughters who are still alive; please include step-daughters, half-daughters and adopted daughters.)
+B. About how long would it take you to get to where your daughter lives? Think of the time it usually takes door to door.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} lt 15 min
+\item \code{2} 15-30 min
+\item \code{3} 30 min-1 hr
+\item \code{4} 1-2 hr
+\item \code{5} 2-3 hr
+\item \code{6} 3-5 hr
+\item \code{7} 5-12 hr
+\item \code{8} 12+ hr
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4145/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllll}{
    year \tab iap \tab 1-2 hr \tab 12+ hr \tab 15-30 min \tab 2-3 hr \tab 3-5 hr \tab 30 min-1 hr \tab 5-12 hr \tab don't know \tab lt 15 min \tab no answer \tab not available in this year \tab Total \cr
@@ -57,30 +84,36 @@ Counts by year:\tabular{llllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} lt 15 min
-\item \code{2} 15-30 min
-\item \code{3} 30 min-1 hr
-\item \code{4} 1-2 hr
-\item \code{5} 2-3 hr
-\item \code{6} 3-5 hr
-\item \code{7} 5-12 hr
-\item \code{8} 12+ hr
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1986 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Social Networks & Support Systems: 
+\code{\link{brocall}},
+\code{\link{daucall}},
+\code{\link{daunum}},
+\code{\link{dauvisit}},
+\code{\link{posslq}},
+\code{\link{soncall}},
+\code{\link{sonnum}},
+\code{\link{sontime}},
+\code{\link{sonvisit}}
+
+Other Family: 
+\code{\link{brocall}},
+\code{\link{daucall}},
+\code{\link{daunum}},
+\code{\link{dauvisit}},
+\code{\link{posslq}},
+\code{\link{soncall}},
+\code{\link{sonnum}},
+\code{\link{sontime}},
+\code{\link{sonvisit}}
+}
+\concept{Family}
+\concept{ISSP Social Networks & Support Systems}
 \keyword{variable}

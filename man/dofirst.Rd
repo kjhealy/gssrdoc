@@ -2,7 +2,7 @@
 % Please edit documentation in R/gss_vars_213.R
 \name{dofirst}
 \alias{dofirst}
-\title{Here are the things you said (#secl_name) should do...	 Interviewer: read list}
+\title{Here are the things you said (#secl_name) should do...	 interviewer: read list}
 \source{
 General Social Survey https://gss.norc.org
 }
@@ -10,11 +10,40 @@ General Social Survey https://gss.norc.org
 dofirst
 }
 \details{
-Question Here are the things you said (John/Juan/Mary/Maria) should do? What is the first thing s/he should do?
+Question Here are the things you said (John/Juan/Mary/Maria) should do...
+What is the first thing s/he should do?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} talk to family and friends about it
+\item \code{2} talk to a minister, priest, rabbi or other religious leader
+\item \code{3} go to a general medical doctor for help
+\item \code{4} go to a psychiatrist for help
+\item \code{5} go to a therapist, or counselor, like a psychologist, social worker, or other mental health professional for help
+\item \code{6} go to a spiritual or a natural healer for help
+\item \code{7} join a self-help group where people with similar problems help each other
+\item \code{8} take non-prescription medication, like over the counter sleeping pills
+\item \code{9} take prescription medication
+\item \code{10} check into a mental hospital
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7094/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllll}{
    year \tab iap \tab check into a mental hospital \tab don't know \tab go to a general medical doctor for help \tab go to a psychiatrist for help \tab go to a spiritual or a natural healer for help \tab go to a therapist, or counselor, like a psychologist, social worker, or other mental health professional for help \tab join a self-help group where people with similar problems help each other \tab take prescription medication \tab talk to a minister, priest, rabbi or other religious leader \tab talk to family and friends about it \tab not available in this year \tab skipped on web \tab take non-prescription medication, like over the counter sleeping pills \tab Total \cr
@@ -57,32 +86,25 @@ Counts by year:\tabular{llllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} talk to family and friends about it
-\item \code{2} talk to a minister, priest, rabbi or other religious leader
-\item \code{3} go to a general medical doctor for help
-\item \code{4} go to a psychiatrist for help
-\item \code{5} go to a therapist, or counselor, like a psychologist, social worker, or other mental health professional for help
-\item \code{6} go to a spiritual or a natural healer for help
-\item \code{7} join a self-help group where people with similar problems help each other
-\item \code{8} take non-prescription medication, like over the counter sleeping pills
-\item \code{9} take prescription medication
-\item \code{10} check into a mental hospital
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2018 \tab B/C \tab partial \cr
+   2024 \tab A/B \tab partial \cr
 }
 }
 
+\seealso{
+Other Mental Health: 
+\code{\link{meddoc}},
+\code{\link{mentldoc}},
+\code{\link{mentlhos}},
+\code{\link{mentloth}},
+\code{\link{otcmed}},
+\code{\link{rxmed}},
+\code{\link{selfhelp}},
+\code{\link{sphealer}},
+\code{\link{tlkclrgy}}
+}
+\concept{Mental Health}
 \keyword{variable}

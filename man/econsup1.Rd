@@ -10,11 +10,41 @@ General Social Survey https://gss.norc.org
 econsup1
 }
 \details{
-Question A. What is your main source of economic support?
+Question (HAND CARD D24)            
+What is your main source of economic support?            
+Please select one source.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} current spouse/partner
+\item \code{2} other family members
+\item \code{3} pension (private or government)
+\item \code{4} unemployment benefits
+\item \code{5} social assistance/welfare
+\item \code{6} occasional work
+\item \code{7} student loans/stipends
+\item \code{8} savings
+\item \code{9} investments or rental income
+\item \code{10} other
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6349/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllll}{
    year \tab iap \tab current spouse/partner \tab investments or rental income \tab no answer \tab occasional work \tab other \tab other family members \tab pension (private or government) \tab savings \tab social assistance/welfare \tab student loans/stipends \tab unemployment benefits \tab not available in this year \tab Total \cr
@@ -57,32 +87,24 @@ Counts by year:\tabular{lllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} current spouse/partner
-\item \code{2} other family members
-\item \code{3} pension (private or government)
-\item \code{4} unemployment benefits
-\item \code{5} social assistance/welfare
-\item \code{6} occasional work
-\item \code{7} student loans/stipends
-\item \code{8} savings
-\item \code{9} investments or rental income
-\item \code{10} other
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2016 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Work Orientation: 
+\code{\link{moveaway}},
+\code{\link{moveinus}},
+\code{\link{unfamten}},
+\code{\link{unjobexp}},
+\code{\link{unmoney}},
+\code{\link{unpeople}},
+\code{\link{unrespct}},
+\code{\link{unslfcon}},
+\code{\link{worecsup}}
+}
+\concept{Work Orientation}
 \keyword{variable}

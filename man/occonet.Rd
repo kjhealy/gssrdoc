@@ -10,7 +10,8 @@ General Social Survey https://gss.norc.org
 occonet
 }
 \details{
-Question None
+Question A. What kind of work do you (did you normally) do? That is, what (is/was) your job called?
+B. What (do/did) you actually do in that job? Tell me, what are/were, some of your main duties?
 }
 \section{Values}{
 
@@ -30,4 +31,24 @@ Question None
 }
 }
 
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2010 \tab A/B/C \tab full \cr
+}
+}
+
+\seealso{
+Other Core: 
+\code{\link{commute}},
+\code{\link{found}},
+\code{\link{indus07}},
+\code{\link{indus80}},
+\code{\link{industry}},
+\code{\link{occ10}},
+\code{\link{occ80}},
+\code{\link{occindv}},
+\code{\link{prestg80}}
+}
+\concept{Core}
 \keyword{variable}

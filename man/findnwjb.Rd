@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 findnwjb
 }
 \details{
-Question If you were laid off, how easy do you think it would be for you to find a job with another employer with approximately the same or better retirement and health benefits you now have? Would you say...
+Question If you were laid off, how easy do you think it would be for you to find a job with another employer with approximately the same or better retirement and health benefits you now have? Would you sayâ€¦
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very easy
+\item \code{2} somewhat easy
+\item \code{3} not at all easy
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3883/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab don't know \tab no answer \tab not at all easy \tab somewhat easy \tab very easy \tab not available in this year \tab Total \cr
@@ -57,25 +78,34 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very easy
-\item \code{2} somewhat easy
-\item \code{3} not at all easy
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2008 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Global Economics: 
+\code{\link{losejb12}},
+\code{\link{lostjobs}},
+\code{\link{newjobs}},
+\code{\link{whyjbct2}},
+\code{\link{whylose1}},
+\code{\link{whylose2}},
+\code{\link{whylose3}},
+\code{\link{wkcomptr}}
+
+Other Job: 
+\code{\link{losejb12}},
+\code{\link{lostjobs}},
+\code{\link{moretrde}},
+\code{\link{newjobs}},
+\code{\link{whyjbct2}},
+\code{\link{wkcomptr}}
+}
+\concept{Global Economics}
+\concept{Health}
+\concept{Job}
+\concept{Occupation}
 \keyword{variable}

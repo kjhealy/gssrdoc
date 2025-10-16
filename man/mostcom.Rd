@@ -10,11 +10,36 @@ General Social Survey https://gss.norc.org
 mostcom
 }
 \details{
-Question 763. Of these groups~whites, blacks, Jews, Hispanics and Latin Americans, Asian Americans, if you had to say, which one (other than your own) do you feel you have the most in common with?
+Question Of these groupsâ€“whites, blacks, Jews, Hispanics and Latin Americans, Asian Americans, if you had to say, which One (other than your own) do you feel you have the most in common with?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} whites
+\item \code{2} blacks/african-americans
+\item \code{3} jews
+\item \code{4} hispanics
+\item \code{5} asians
+\item \code{6} equal in common to all
+\item \code{7} nothing in common with any
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2360/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab asians \tab blacks/african-americans \tab don't know \tab equal in common to all \tab hispanics \tab jews \tab no answer \tab nothing in common with any \tab whites \tab not available in this year \tab Total \cr
@@ -57,29 +82,25 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} whites
-\item \code{2} blacks/african-americans
-\item \code{3} jews
-\item \code{4} hispanics
-\item \code{5} asians
-\item \code{6} equal in common to all
-\item \code{7} nothing in common with any
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Multi-Ethnic United States: 
+\code{\link{asncls}},
+\code{\link{asncom}},
+\code{\link{asnrel}},
+\code{\link{asnschl}},
+\code{\link{asnwrk}},
+\code{\link{hispcls}},
+\code{\link{hispcom}},
+\code{\link{hisprel}},
+\code{\link{hispwrk}}
+}
+\concept{Multi-Ethnic United States}
+\concept{Race}
 \keyword{variable}

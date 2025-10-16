@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 datefrst
 }
 \details{
-Question 488. In what month and year did you begin this job? Report the month and year in which you actually began this job, even if you started the job before you completed your highest grade in school.
+Question Respondent's First Occupation, Prestige, and Industry
 }
 \section{Values}{
 
@@ -30,4 +30,31 @@ Question 488. In what month and year did you begin this job? Report the month an
 }
 }
 
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
+}
+}
+
+\seealso{
+Other Family Mobility: 
+\code{\link{alike1}},
+\code{\link{alike2}},
+\code{\link{datesch}},
+\code{\link{indfirst}},
+\code{\link{neverwk}},
+\code{\link{occfirst}},
+\code{\link{payrdied}},
+\code{\link{presfrst}},
+\code{\link{wrkslfst}}
+
+Other Occupation: 
+\code{\link{indfirst}},
+\code{\link{occfirst}},
+\code{\link{wrkslfst}}
+}
+\concept{Family Mobility}
+\concept{Job}
+\concept{Occupation}
 \keyword{variable}

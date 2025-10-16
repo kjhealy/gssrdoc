@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 cntrlife
 }
 \details{
-Question 831. Some people feel they have completely free choice and control over the way their lives turn out, and other people feel that what they themselves do has no real effect on what happens to them. Please use this scale to indicate how much freedom of choice and control you feel you have over the way your life turns out.
+Question Some people feel they have completely free choice and control over the way their lives turn out, and other people feel that what they themselves do has no real effect on what happens to them. Please use this scale to indicate how much freedom of choice and control you feel you have over the way your life turns out.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} no choice and control
+\item \code{4} some choice and control
+\item \code{7} a great deal of choice and control
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2676/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab 2 \tab 3 \tab 5 \tab 6 \tab a great deal of choice and control \tab don't know \tab no answer \tab no choice and control \tab some choice and control \tab not available in this year \tab Total \cr
@@ -57,25 +78,23 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} no choice and control
-\item \code{4} some choice and control
-\item \code{7} a great deal of choice and control
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Freedom: 
+\code{\link{expunpop}},
+\code{\link{freeprss}},
+\code{\link{wlthpov}}
+
+Other Freedom: 
+\code{\link{expunpop}},
+\code{\link{freeprss}},
+\code{\link{wlthpov}}
+}
+\concept{Freedom}
 \keyword{variable}

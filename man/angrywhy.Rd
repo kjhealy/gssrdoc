@@ -10,11 +10,30 @@ General Social Survey https://gss.norc.org
 angrywhy
 }
 \details{
-Question 574. Within the past month, think about the last time you felt really angry, irritated, or annoyed. Could you describe in a couple of sentences what made you feel that way - what the situation was? Reasons
+Question Within the past month, think about the last time you felt really angry, irritated or annoyed. Could you describe in a couple of sentences what made you feel that way -- what the situation was? (INTERVIEWER: IF RESPONDENT CANNOT RECOVER AN EVENT, PROBE WITH "You haven't felt irritated or annoyed in the past month?")
+D. Reasons why people get angry:
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1738/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 1 \tab 10 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 2 \tab 20 \tab 23 \tab 29 \tab 3 \tab 32 \tab 4 \tab 43 \tab 44 \tab 45 \tab 47 \tab 48 \tab 49 \tab 5 \tab 50 \tab 56 \tab 57 \tab 58 \tab 59 \tab 6 \tab 7 \tab 8 \tab 9 \tab 90 \tab not available in this year \tab Total \cr
@@ -57,22 +76,36 @@ Counts by year:\tabular{lllllllllllllllllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Emotions: 
+\code{\link{angryev}},
+\code{\link{angryfam}},
+\code{\link{angrygvt}},
+\code{\link{angrywrk}},
+\code{\link{beplesnt}},
+\code{\link{madat1}},
+\code{\link{notupset}},
+\code{\link{notworry}},
+\code{\link{whnangry}}
+
+Other Feelings: 
+\code{\link{angryev}},
+\code{\link{angryfam}},
+\code{\link{angrygvt}},
+\code{\link{angrywrk}},
+\code{\link{beplesnt}},
+\code{\link{madat1}},
+\code{\link{notupset}},
+\code{\link{notworry}},
+\code{\link{whnangry}}
+}
+\concept{Emotions}
+\concept{Feelings}
 \keyword{variable}

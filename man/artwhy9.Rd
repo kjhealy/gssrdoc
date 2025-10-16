@@ -10,11 +10,43 @@ General Social Survey https://gss.norc.org
 artwhy9
 }
 \details{
-Question People attend exhibits for different reasons. I. Please specify:
+Question Please specify (Immediately after ARTWHY8)
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} gift, free
+\item \code{2} school related
+\item \code{3} wanted to see specific show/exhibit
+\item \code{4} variety/something different/new experience
+\item \code{5} win meal, drinks
+\item \code{6} entertainment, enjoyment, have fun
+\item \code{7} religious
+\item \code{8} for children, educational
+\item \code{10} support family/friend
+\item \code{11} celebrate birthday, anniversary
+\item \code{12} night out, date
+\item \code{13} meet, support artist
+\item \code{14} work related
+\item \code{20} miscellaneous other reasons
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6246/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllll}{
    year \tab iap \tab celebrate birthday, anniversary \tab entertainment, enjoyment, have fun \tab meet, support artist \tab miscellaneous other reasons \tab night out, date \tab no answer \tab school related \tab support family/friend \tab wanted to see specific show/exhibit \tab work related \tab not available in this year \tab Total \cr
@@ -57,36 +89,24 @@ Counts by year:\tabular{llllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} gift, free
-\item \code{2} school related
-\item \code{3} wanted to see specific show/exhibit
-\item \code{4} variety/something different/new experience
-\item \code{5} win meal, drinks
-\item \code{6} entertainment, enjoyment, have fun
-\item \code{7} religious
-\item \code{8} for children, educational
-\item \code{10} support family/friend
-\item \code{11} celebrate birthday, anniversary
-\item \code{12} night out, date
-\item \code{13} meet, support artist
-\item \code{14} work related
-\item \code{20} miscellaneous other reasons
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2016 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Arts and Culture: 
+\code{\link{artwhy3}},
+\code{\link{artwhy4}},
+\code{\link{artwhy5}},
+\code{\link{artwhy6}},
+\code{\link{artwhy7}},
+\code{\link{artwhy8}},
+\code{\link{nogo}},
+\code{\link{nogo1}},
+\code{\link{prfmcost}}
+}
+\concept{Arts and Culture}
 \keyword{variable}

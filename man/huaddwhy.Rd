@@ -12,9 +12,37 @@ huaddwhy
 \details{
 Question A. SELECT ONE FROM THE LIST BELOW WHICH BEST DESCRIBES WHY THERE IS NO HU AT THIS ADDRESS
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} condemned
+\item \code{2} demolished
+\item \code{3} place of business without residence
+\item \code{4} no such address, no such hu
+\item \code{5} group quarters
+\item \code{6} vacation cabin
+\item \code{7} not usable as a permanent residence
+\item \code{8} transient use (less than one month)
+\item \code{9} not an hu for other reason
+\item \code{10} under construction
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6653/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab no answer \tab no such address, no such hu \tab not an hu for other reason \tab not usable as a permanent residence \tab vacation cabin \tab not available in this year \tab not available in this release \tab Total \cr
@@ -57,31 +85,12 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} condemned
-\item \code{2} demolished
-\item \code{3} place of business without residence
-\item \code{4} no such address, no such hu
-\item \code{5} group quarters
-\item \code{6} vacation cabin
-\item \code{7} not usable as a permanent residence
-\item \code{8} transient use (less than one month)
-\item \code{9} not an hu for other reason
-\item \code{10} under construction
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2022 \tab B/-/- \tab partial \cr
 }
 }
 

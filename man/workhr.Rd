@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 workhr
 }
 \details{
-Question 1606. What hours do you usually workdays, evenings, or nights? CIRCLE ONE CODE.
+Question What hours do you usually work--days, evenings, or nights?  CIRCLE ONE CODE.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} reg day
+\item \code{2} eve
+\item \code{3} nights
+\item \code{4} varies
+\item \code{5} other
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5288/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab eve \tab iap \tab nights \tab no answer \tab other \tab reg day \tab varies \tab not available in this year \tab Total \cr
@@ -57,27 +80,26 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} reg day
-\item \code{2} eve
-\item \code{3} nights
-\item \code{4} varies
-\item \code{5} other
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1972 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Military Service & Work: 
+\code{\link{spdays}},
+\code{\link{sphour}},
+\code{\link{vetkind}},
+\code{\link{vetyears}},
+\code{\link{workdy}}
+
+Other Work: 
+\code{\link{spdays}},
+\code{\link{sphour}},
+\code{\link{workdy}}
+}
+\concept{Military Service & Work}
+\concept{Work}
 \keyword{variable}

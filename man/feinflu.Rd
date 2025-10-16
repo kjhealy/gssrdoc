@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 feinflu
 }
 \details{
-Question ASK ONLY IF R IS FEMALE: 355. People have different opinions about the amount of influence that various groups have in American life and politics. Do you think that women have far too much influence, too much influence, about the right amount of influence, too little influence, or do they have far too little influence?
+Question People have different opinions about the amount of influence that various groups have in American life and politics. Do you think that women have far too much influence, too much influence, about the right amount of influence, too little influence, or do they have far too little influence?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} far too much
+\item \code{2} too much
+\item \code{3} right amount
+\item \code{4} too little
+\item \code{5} far too little
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1043/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab don't know \tab far too little \tab far too much \tab no answer \tab right amount \tab too little \tab too much \tab not available in this year \tab Total \cr
@@ -57,27 +80,23 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} far too much
-\item \code{2} too much
-\item \code{3} right amount
-\item \code{4} too little
-\item \code{5} far too little
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1987 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Socio-political participation: 
+\code{\link{blkgains}},
+\code{\link{blkinflu}},
+\code{\link{fegains}},
+\code{\link{gavepol}}
+
+Other Women: 
+\code{\link{fegains}}
+}
+\concept{Socio-political participation}
+\concept{Women}
 \keyword{variable}

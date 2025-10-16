@@ -1,11 +1,121 @@
+#'  Hours per day listening to radio
+#' 
+#'  radiohrs
+#' 
+#' Question Do you ever listen to the radio? 
+#' Yesâ€¦..(ASK RADIOHRS) 
+#' No..... 
+#' A. IF YES: On the average, about how many hours a day do you usually listen to the radio?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/692/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |0  |1    |10  |11 |12 |13 |14 |15 |16 |18 |2   |20 |24 |3   |4   |5   |6   |7  |8   |9  |don't know |no answer |17 |21 |not available in this year |Total |
+#'  |:-----|:-----|:--|:----|:---|:--|:--|:--|:--|:--|:--|:--|:---|:--|:--|:---|:---|:---|:---|:--|:---|:--|:----------|:---------|:--|:--|:--------------------------|:-----|
+#'  |1972  |1613  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1613  |
+#'  |1973  |1504  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1504  |
+#'  |1974  |1484  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1484  |
+#'  |1975  |1490  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1490  |
+#'  |1976  |1499  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1499  |
+#'  |1977  |1530  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1530  |
+#'  |1978  |126   |11 |547  |36  |1  |26 |1  |2  |5  |1  |2  |293 |1  |7  |124 |112 |54  |62  |13 |84  |12 |3          |9         |-  |-  |-                          |1532  |
+#'  |1980  |1468  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1468  |
+#'  |1982  |175   |-  |591  |49  |3  |35 |-  |3  |5  |7  |2  |357 |5  |10 |175 |144 |85  |77  |37 |76  |9  |4          |8         |2  |1  |-                          |1860  |
+#'  |1983  |158   |10 |526  |47  |2  |34 |1  |2  |4  |3  |1  |294 |-  |1  |143 |104 |68  |66  |19 |103 |9  |2          |2         |-  |-  |-                          |1599  |
+#'  |1984  |1473  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1473  |
+#'  |1985  |1534  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1534  |
+#'  |1986  |1470  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1470  |
+#'  |1987  |1819  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1819  |
+#'  |1988  |1481  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1481  |
+#'  |1989  |1537  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1537  |
+#'  |1990  |1372  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1372  |
+#'  |1991  |1517  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1517  |
+#'  |1993  |1606  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1606  |
+#'  |1994  |2992  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |2992  |
+#'  |1996  |2904  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |2904  |
+#'  |1998  |2832  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |2832  |
+#'  |2000  |2817  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |2817  |
+#'  |2002  |2765  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |2765  |
+#'  |2004  |2812  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |2812  |
+#'  |2006  |4510  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |4510  |
+#'  |2008  |2023  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |2023  |
+#'  |2010  |2044  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |2044  |
+#'  |2012  |1974  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1974  |
+#'  |2014  |2538  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |2538  |
+#'  |2016  |2867  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |2867  |
+#'  |2018  |2348  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |2348  |
+#'  |2021  |4032  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |4032  |
+#'  |2022  |-     |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |3544                       |3544  |
+#'  |2024  |-     |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |3309                       |3309  |
+#'  |Total |64314 |21 |1664 |132 |6  |95 |2  |7  |14 |11 |5  |944 |6  |18 |442 |360 |207 |205 |69 |263 |30 |9          |19        |2  |1  |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1978 |-       |full         |
+#'  |1982 |-       |full         |
+#'  |1983 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Radio Listening
+#' 
+#' @keywords variable
+#' @md
+#' @name radiohrs
+NULL
+
+
 #'  Does r have telephone
 #' 
 #'  phone
 #' 
-#' Question 243. Thank you very much for your time and help. Do you have a telephone?
+#' Question Thank you very much for your time and help. Do you have a telephone? May I have your name and (one of your) telephone number(s) just in case I have left something out in this interview? 
+#' ENTER NAME AND PHONE NUMBER. IF NO PHONE OR REFUSED, CIRCLE APPROPRIATE CODE NUMBER.
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` no phone number
+#'   * `2` refused phone number
+#'   * `3` home phone
+#'   * `4` phone elsewhere
+#'   * `5` phone location not given
+#'   * `6` cell phone
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/693/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,14 +158,68 @@
 #'  |2024  |-    |-          |-         |-               |-               |-                    |-                        |-          |3309                       |3309  |
 #'  |Total |1613 |50065      |475       |3554            |1708            |3090                 |168                      |11717      |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Telephone In Household
+#' 
+#' @keywords variable
+#' @md
+#' @name phone
+NULL
+
+
+#'  R's attitude toward interview
+#' 
+#'  coop2
+#' 
+#' Question In general, what was the respondent's attitude toward the interview?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` no phone number
-#'   * `2` refused phone number
-#'   * `3` home phone
-#'   * `4` phone elsewhere
-#'   * `5` phone location not given
-#'   * `6` cell phone
+#'   * `1` friendly and eager
+#'   * `2` cooperative
+#'   * `3` indifferent
+#'   * `4` hostile
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -69,22 +233,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name phone
-NULL
-
-#'  R's attitude toward interview
-#' 
-#'  coop2
-#' 
-#' Question 245. In general, what was the respondent's attitude toward the interview?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/694/vshow).
 #'
 #' Counts by year: 
 #'
@@ -127,11 +277,34 @@ NULL
 #'  |2024  |-           |-                  |-       |-           |-         |-     |3309                       |3309  |
 #'  |Total |600         |953                |4       |43          |13        |67233 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Interview
+#' 
+#' @keywords variable
+#' @md
+#' @name coop2
+NULL
+
+
+#'  R's attitude toward interview
+#' 
+#'  coop
+#' 
+#' Question In general, what was the respondent's attitude toward the interview?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` friendly and eager
-#'   * `2` cooperative
-#'   * `3` indifferent
+#'   * `1` friendly and interested
+#'   * `2` cooperative but not particularly interested
+#'   * `3` impatient and restless
 #'   * `4` hostile
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
@@ -146,22 +319,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name coop2
-NULL
-
-#'  R's attitude toward interview
-#' 
-#'  coop
-#' 
-#' Question 246. In general, what was the respondent's attitude toward the interview?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/695/vshow).
 #'
 #' Counts by year: 
 #'
@@ -204,12 +363,66 @@ NULL
 #'  |2024  |-    |-                                           |-                       |-       |-                      |-         |-          |3309                       |3309  |
 #'  |Total |6962 |10998                                       |51279                   |235     |2428                   |442       |46         |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Interview
+#' 
+#' @keywords variable
+#' @md
+#' @name coop
+NULL
+
+
+#'  R's understanding of questions
+#' 
+#'  comprend
+#' 
+#' Question Was respondent's understanding of the questions . . . (CODE ONE.)
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` friendly and interested
-#'   * `2` cooperative but not particularly interested
-#'   * `3` impatient and restless
-#'   * `4` hostile
+#'   * `1` good
+#'   * `2` fair
+#'   * `3` poor
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -223,22 +436,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name coop
-NULL
-
-#'  R's understanding of questions
-#' 
-#'  comprend
-#' 
-#' Question 247. Was respondent's understanding of the questions:
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/696/vshow).
 #'
 #' Counts by year: 
 #'
@@ -281,11 +480,67 @@ NULL
 #'  |2024  |-     |-     |-         |-    |-          |-    |3309                       |3309  |
 #'  |Total |10244 |54307 |567       |1875 |48         |5349 |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Interview
+#' 
+#' @keywords variable
+#' @md
+#' @name comprend
+NULL
+
+
+#'  Form of split questionnaire asked
+#' 
+#'  form
+#' 
+#' Question A split ballot was used in the 1973, 1974, 1976, 1978, 1980, and 1982+. The variant or "Y" wordings appear on Form 2; the "Z" wordings appear on Form 3; and the standard GSS wordings appear on Form 1. See Appendix P for what variables were on what form. See   RELIGSP-FEELREL for use of weight variable. See Appendix T, GSS Methodological Report No. 36. See also  MARELKID and PARELKID.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` good
-#'   * `2` fair
-#'   * `3` poor
+#'   * `1` standard (x)
+#'   * `2` alternate (y)
+#'   * `3` alternate (z)
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -299,22 +554,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name comprend
-NULL
-
-#'  Form of split questionnaire asked
-#' 
-#'  form
-#' 
-#' Question 248. A split ballot was used in the 1973, 1974, 1976, 1978, 1980, and 1982-2006 surveys. The variant or "Y" wordings appear on Form 2, the "Z" wordings appear on Form 3; and the standard GSS wordings appear on Form 1.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/697/vshow).
 #'
 #' Counts by year: 
 #'
@@ -357,11 +598,136 @@ NULL
 #'  |2024  |-    |1626          |1683         |-             |3309  |
 #'  |Total |4633 |34841         |34637        |1588          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name form
+NULL
+
+
+#'  Randomization variable for form x
+#' 
+#'  random
+#' 
+#' Question Randomization for form
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` standard (x)
-#'   * `2` alternate (y)
-#'   * `3` alternate (z)
+#'   * -
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7092/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |NA(i) |1    |2    |NA(y) |Total |
+#'  |:-----|:-----|:----|:----|:-----|:-----|
+#'  |1972  |1613  |-    |-    |-     |1613  |
+#'  |1973  |1504  |-    |-    |-     |1504  |
+#'  |1974  |1484  |-    |-    |-     |1484  |
+#'  |1975  |1490  |-    |-    |-     |1490  |
+#'  |1976  |1499  |-    |-    |-     |1499  |
+#'  |1977  |1530  |-    |-    |-     |1530  |
+#'  |1978  |1532  |-    |-    |-     |1532  |
+#'  |1980  |1468  |-    |-    |-     |1468  |
+#'  |1982  |1860  |-    |-    |-     |1860  |
+#'  |1983  |1599  |-    |-    |-     |1599  |
+#'  |1984  |1473  |-    |-    |-     |1473  |
+#'  |1985  |1534  |-    |-    |-     |1534  |
+#'  |1986  |1470  |-    |-    |-     |1470  |
+#'  |1987  |1819  |-    |-    |-     |1819  |
+#'  |1988  |1481  |-    |-    |-     |1481  |
+#'  |1989  |1537  |-    |-    |-     |1537  |
+#'  |1990  |1372  |-    |-    |-     |1372  |
+#'  |1991  |1517  |-    |-    |-     |1517  |
+#'  |1993  |1606  |-    |-    |-     |1606  |
+#'  |1994  |2992  |-    |-    |-     |2992  |
+#'  |1996  |2904  |-    |-    |-     |2904  |
+#'  |1998  |2832  |-    |-    |-     |2832  |
+#'  |2000  |2817  |-    |-    |-     |2817  |
+#'  |2002  |2765  |-    |-    |-     |2765  |
+#'  |2004  |2812  |-    |-    |-     |2812  |
+#'  |2006  |4510  |-    |-    |-     |4510  |
+#'  |2008  |2023  |-    |-    |-     |2023  |
+#'  |2010  |2044  |-    |-    |-     |2044  |
+#'  |2012  |1974  |-    |-    |-     |1974  |
+#'  |2014  |2538  |-    |-    |-     |2538  |
+#'  |2016  |1432  |725  |710  |-     |2867  |
+#'  |2018  |1160  |583  |605  |-     |2348  |
+#'  |2021  |4032  |-    |-    |-     |4032  |
+#'  |2022  |-     |-    |-    |3544  |3544  |
+#'  |2024  |-     |-    |-    |3309  |3309  |
+#'  |Total |66223 |1308 |1315 |6853  |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name random
+NULL
+
+
+#'  Abortion if husband opposes
+#' 
+#'  abspno
+#' 
+#' Question If a woman has decided to have an abortion but her husband is against it, do you think she should go ahead and have  it, or not?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -375,22 +741,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name form
-NULL
-
-#'  Abortion if husband opposes
-#' 
-#'  abspno
-#' 
-#' Question 249. If a woman has decided to have an abortion but her husband is against it, do you think she should go ahead and have it, or not?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/698/vshow).
 #'
 #' Counts by year: 
 #'
@@ -433,6 +785,31 @@ NULL
 #'  |2024  |-     |-          |-   |-         |-   |3309                       |3309  |
 #'  |Total |67316 |148        |979 |8         |395 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1977 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Abortion
+#' 
+#' @keywords variable
+#' @md
+#' @name abspno
+NULL
+
+
+#'  Have abortion if probable defect
+#' 
+#'  abhave1
+#' 
+#' Question (WOMEN): Would you yourself have an abortion ifâ€¦ 
+#' (MEN):  Would you yourself advise the woman you were married to  have an abortion ifâ€¦ 
+#' A. There is a strong chance of serious defect in the baby?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -450,22 +827,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name abspno
-NULL
-
-#'  Have abortion if probable defect
-#' 
-#'  abhave1
-#' 
-#' Question 250. WOMEN: Would you yourself have an abortion if: MEN: Would you yourself advise the woman you were married to have an abortion if: a. There is a strong chance of serious defect in the baby?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/699/vshow).
 #'
 #' Counts by year: 
 #'
@@ -508,6 +871,31 @@ NULL
 #'  |2024  |-     |-          |-   |-         |-    |3309                       |3309  |
 #'  |Total |67316 |87         |351 |11        |1081 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1977 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Abortion
+#' 
+#' @keywords variable
+#' @md
+#' @name abhave1
+NULL
+
+
+#'  Have abortion if health endangered
+#' 
+#'  abhave2
+#' 
+#' Question (WOMEN): Would you yourself have an abortion ifâ€¦ 
+#' (MEN):  Would you yourself advise the woman you were married to  have an abortion ifâ€¦ 
+#' B. (Your/Her) health was seriously endangered by the pregnancy?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -525,22 +913,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name abhave1
-NULL
-
-#'  Have abortion if health endangered
-#' 
-#'  abhave2
-#' 
-#' Question 250. WOMEN: Would you yourself have an abortion if: MEN: Would you yourself advise the woman you were married to have an abortion if: b. (Your/her) health was seriously endangered by the pregnancy?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/700/vshow).
 #'
 #' Counts by year: 
 #'
@@ -583,179 +957,19 @@ NULL
 #'  |2024  |-     |-          |-   |-         |-    |3309                       |3309  |
 #'  |Total |67316 |65         |249 |12        |1204 |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1977 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Abortion
 #' 
 #' @keywords variable
 #' @md
 #' @name abhave2
 NULL
 
-#'  Have abortion if couldn't afford child
-#' 
-#'  abhave3
-#' 
-#' Question 250. WOMEN: Would you yourself have an abortion if: MEN: Would you yourself advise the woman you were married to have an abortion if: c. You did not think you could afford another child?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no   |no answer |yes |not available in this year |Total |
-#'  |:-----|:-----|:----------|:----|:---------|:---|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-    |-         |-   |-                          |1613  |
-#'  |1973  |1504  |-          |-    |-         |-   |-                          |1504  |
-#'  |1974  |1484  |-          |-    |-         |-   |-                          |1484  |
-#'  |1975  |1490  |-          |-    |-         |-   |-                          |1490  |
-#'  |1976  |1499  |-          |-    |-         |-   |-                          |1499  |
-#'  |1977  |-     |47         |1043 |13        |427 |-                          |1530  |
-#'  |1978  |1532  |-          |-    |-         |-   |-                          |1532  |
-#'  |1980  |1468  |-          |-    |-         |-   |-                          |1468  |
-#'  |1982  |1860  |-          |-    |-         |-   |-                          |1860  |
-#'  |1983  |1599  |-          |-    |-         |-   |-                          |1599  |
-#'  |1984  |1473  |-          |-    |-         |-   |-                          |1473  |
-#'  |1985  |1534  |-          |-    |-         |-   |-                          |1534  |
-#'  |1986  |1470  |-          |-    |-         |-   |-                          |1470  |
-#'  |1987  |1819  |-          |-    |-         |-   |-                          |1819  |
-#'  |1988  |1481  |-          |-    |-         |-   |-                          |1481  |
-#'  |1989  |1537  |-          |-    |-         |-   |-                          |1537  |
-#'  |1990  |1372  |-          |-    |-         |-   |-                          |1372  |
-#'  |1991  |1517  |-          |-    |-         |-   |-                          |1517  |
-#'  |1993  |1606  |-          |-    |-         |-   |-                          |1606  |
-#'  |1994  |2992  |-          |-    |-         |-   |-                          |2992  |
-#'  |1996  |2904  |-          |-    |-         |-   |-                          |2904  |
-#'  |1998  |2832  |-          |-    |-         |-   |-                          |2832  |
-#'  |2000  |2817  |-          |-    |-         |-   |-                          |2817  |
-#'  |2002  |2765  |-          |-    |-         |-   |-                          |2765  |
-#'  |2004  |2812  |-          |-    |-         |-   |-                          |2812  |
-#'  |2006  |4510  |-          |-    |-         |-   |-                          |4510  |
-#'  |2008  |2023  |-          |-    |-         |-   |-                          |2023  |
-#'  |2010  |2044  |-          |-    |-         |-   |-                          |2044  |
-#'  |2012  |1974  |-          |-    |-         |-   |-                          |1974  |
-#'  |2014  |2538  |-          |-    |-         |-   |-                          |2538  |
-#'  |2016  |2867  |-          |-    |-         |-   |-                          |2867  |
-#'  |2018  |2348  |-          |-    |-         |-   |-                          |2348  |
-#'  |2021  |4032  |-          |-    |-         |-   |-                          |4032  |
-#'  |2022  |-     |-          |-    |-         |-   |3544                       |3544  |
-#'  |2024  |-     |-          |-    |-         |-   |3309                       |3309  |
-#'  |Total |67316 |47         |1043 |13        |427 |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name abhave3
-NULL
-
-#'  Should abortion ever be legal
-#' 
-#'  ablegal
-#' 
-#' Question 251. Do you think abortions should be legal under any circumstances, legal only under certain circumstances, or never legal under any circumstances?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |always |don't know |never |no answer |sometimes |not available in this year |Total |
-#'  |:-----|:-----|:------|:----------|:-----|:---------|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-      |-          |-     |-         |-         |-                          |1613  |
-#'  |1973  |1504  |-      |-          |-     |-         |-         |-                          |1504  |
-#'  |1974  |1484  |-      |-          |-     |-         |-         |-                          |1484  |
-#'  |1975  |1490  |-      |-          |-     |-         |-         |-                          |1490  |
-#'  |1976  |1499  |-      |-          |-     |-         |-         |-                          |1499  |
-#'  |1977  |-     |331    |22         |135   |11        |1031      |-                          |1530  |
-#'  |1978  |1532  |-      |-          |-     |-         |-         |-                          |1532  |
-#'  |1980  |1468  |-      |-          |-     |-         |-         |-                          |1468  |
-#'  |1982  |1860  |-      |-          |-     |-         |-         |-                          |1860  |
-#'  |1983  |1599  |-      |-          |-     |-         |-         |-                          |1599  |
-#'  |1984  |1473  |-      |-          |-     |-         |-         |-                          |1473  |
-#'  |1985  |1534  |-      |-          |-     |-         |-         |-                          |1534  |
-#'  |1986  |1470  |-      |-          |-     |-         |-         |-                          |1470  |
-#'  |1987  |1819  |-      |-          |-     |-         |-         |-                          |1819  |
-#'  |1988  |1481  |-      |-          |-     |-         |-         |-                          |1481  |
-#'  |1989  |1537  |-      |-          |-     |-         |-         |-                          |1537  |
-#'  |1990  |1372  |-      |-          |-     |-         |-         |-                          |1372  |
-#'  |1991  |1517  |-      |-          |-     |-         |-         |-                          |1517  |
-#'  |1993  |1606  |-      |-          |-     |-         |-         |-                          |1606  |
-#'  |1994  |2992  |-      |-          |-     |-         |-         |-                          |2992  |
-#'  |1996  |2904  |-      |-          |-     |-         |-         |-                          |2904  |
-#'  |1998  |2832  |-      |-          |-     |-         |-         |-                          |2832  |
-#'  |2000  |2817  |-      |-          |-     |-         |-         |-                          |2817  |
-#'  |2002  |2765  |-      |-          |-     |-         |-         |-                          |2765  |
-#'  |2004  |2812  |-      |-          |-     |-         |-         |-                          |2812  |
-#'  |2006  |4510  |-      |-          |-     |-         |-         |-                          |4510  |
-#'  |2008  |2023  |-      |-          |-     |-         |-         |-                          |2023  |
-#'  |2010  |2044  |-      |-          |-     |-         |-         |-                          |2044  |
-#'  |2012  |1974  |-      |-          |-     |-         |-         |-                          |1974  |
-#'  |2014  |2538  |-      |-          |-     |-         |-         |-                          |2538  |
-#'  |2016  |2867  |-      |-          |-     |-         |-         |-                          |2867  |
-#'  |2018  |2348  |-      |-          |-     |-         |-         |-                          |2348  |
-#'  |2021  |4032  |-      |-          |-     |-         |-         |-                          |4032  |
-#'  |2022  |-     |-      |-          |-     |-         |-         |3544                       |3544  |
-#'  |2024  |-     |-      |-          |-     |-         |-         |3309                       |3309  |
-#'  |Total |67316 |331    |22         |135   |11        |1031      |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` always
-#'   * `2` sometimes
-#'   * `3` never
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name ablegal
-NULL
 

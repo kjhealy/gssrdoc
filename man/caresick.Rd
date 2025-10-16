@@ -10,11 +10,37 @@ General Social Survey https://gss.norc.org
 caresick
 }
 \details{
-Question 1306. In your household who does the following things: c. Care for sick family members
+Question In your household who does the following things . . .
+C. Cares for sick family members.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} always the woman
+\item \code{2} usually the woman
+\item \code{3} about equal or both together
+\item \code{4} usually the man
+\item \code{5} always the man
+\item \code{6} is done by a third person
+\item \code{7} not married
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4420/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab about equal or both together \tab always the man \tab always the woman \tab can't choose \tab is done by a third person \tab no answer \tab not married \tab usually the man \tab usually the woman \tab not available in this year \tab Total \cr
@@ -57,29 +83,30 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} always the woman
-\item \code{2} usually the woman
-\item \code{3} about equal or both together
-\item \code{4} usually the man
-\item \code{5} always the man
-\item \code{6} is done by a third person
-\item \code{7} not married
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Family & Gender Roles: 
+\code{\link{abchoose}},
+\code{\link{chldcare}},
+\code{\link{fambudgt}},
+\code{\link{laundry}},
+\code{\link{livnowed}},
+\code{\link{mapaid}},
+\code{\link{repairs}},
+\code{\link{sexhar}},
+\code{\link{teensex1}}
+
+Other Household: 
+\code{\link{fambudgt}},
+\code{\link{laundry}},
+\code{\link{repairs}}
+}
+\concept{Household}
+\concept{ISSP Family & Gender Roles}
 \keyword{variable}

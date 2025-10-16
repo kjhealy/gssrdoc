@@ -1,11 +1,203 @@
+#'  Did you work multiple jobs in past yr
+#' 
+#'  extrawrk
+#' 
+#' Question (HAND CARD D18)
+#' Over the past 12 months, in addition to your main job, have you done any other work for pay?  
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes, during all of that period
+#'   * `2` yes, during most of that period
+#'   * `3` yes, during some of that period
+#'   * `4` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6337/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |no  |no answer |yes, during all of that period |yes, during most of that period |yes, during some of that period |not available in this year |Total |
+#'  |:-----|:-----|:---|:---------|:------------------------------|:-------------------------------|:-------------------------------|:--------------------------|:-----|
+#'  |1972  |1613  |-   |-         |-                              |-                               |-                               |-                          |1613  |
+#'  |1973  |1504  |-   |-         |-                              |-                               |-                               |-                          |1504  |
+#'  |1974  |1484  |-   |-         |-                              |-                               |-                               |-                          |1484  |
+#'  |1975  |1490  |-   |-         |-                              |-                               |-                               |-                          |1490  |
+#'  |1976  |1499  |-   |-         |-                              |-                               |-                               |-                          |1499  |
+#'  |1977  |1530  |-   |-         |-                              |-                               |-                               |-                          |1530  |
+#'  |1978  |1532  |-   |-         |-                              |-                               |-                               |-                          |1532  |
+#'  |1980  |1468  |-   |-         |-                              |-                               |-                               |-                          |1468  |
+#'  |1982  |1860  |-   |-         |-                              |-                               |-                               |-                          |1860  |
+#'  |1983  |1599  |-   |-         |-                              |-                               |-                               |-                          |1599  |
+#'  |1984  |1473  |-   |-         |-                              |-                               |-                               |-                          |1473  |
+#'  |1985  |1534  |-   |-         |-                              |-                               |-                               |-                          |1534  |
+#'  |1986  |1470  |-   |-         |-                              |-                               |-                               |-                          |1470  |
+#'  |1987  |1819  |-   |-         |-                              |-                               |-                               |-                          |1819  |
+#'  |1988  |1481  |-   |-         |-                              |-                               |-                               |-                          |1481  |
+#'  |1989  |1537  |-   |-         |-                              |-                               |-                               |-                          |1537  |
+#'  |1990  |1372  |-   |-         |-                              |-                               |-                               |-                          |1372  |
+#'  |1991  |1517  |-   |-         |-                              |-                               |-                               |-                          |1517  |
+#'  |1993  |1606  |-   |-         |-                              |-                               |-                               |-                          |1606  |
+#'  |1994  |2992  |-   |-         |-                              |-                               |-                               |-                          |2992  |
+#'  |1996  |2904  |-   |-         |-                              |-                               |-                               |-                          |2904  |
+#'  |1998  |2832  |-   |-         |-                              |-                               |-                               |-                          |2832  |
+#'  |2000  |2817  |-   |-         |-                              |-                               |-                               |-                          |2817  |
+#'  |2002  |2765  |-   |-         |-                              |-                               |-                               |-                          |2765  |
+#'  |2004  |2812  |-   |-         |-                              |-                               |-                               |-                          |2812  |
+#'  |2006  |4510  |-   |-         |-                              |-                               |-                               |-                          |4510  |
+#'  |2008  |2023  |-   |-         |-                              |-                               |-                               |-                          |2023  |
+#'  |2010  |2044  |-   |-         |-                              |-                               |-                               |-                          |2044  |
+#'  |2012  |1974  |-   |-         |-                              |-                               |-                               |-                          |1974  |
+#'  |2014  |2538  |-   |-         |-                              |-                               |-                               |-                          |2538  |
+#'  |2016  |1927  |640 |6         |83                             |45                              |166                             |-                          |2867  |
+#'  |2018  |2348  |-   |-         |-                              |-                               |-                               |-                          |2348  |
+#'  |2021  |4032  |-   |-         |-                              |-                               |-                               |-                          |4032  |
+#'  |2022  |-     |-   |-         |-                              |-                               |-                               |3544                       |3544  |
+#'  |2024  |-     |-   |-         |-                              |-                               |-                               |3309                       |3309  |
+#'  |Total |67906 |640 |6         |83                             |45                              |166                             |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Orientation
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name extrawrk
+NULL
+
+
+#'  How much earned from additional jobs in past yr
+#' 
+#'  extraern
+#' 
+#' Question (HAND CARD D19)
+#' Over the entire 12 months, how much did you earn from your additional job(s) in total compared with your main job?
+#' From my additional job(s), I earned...  
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` much less than from main job
+#'   * `2` less than from main job
+#'   * `3` about the same as from main job
+#'   * `4` more than from main job
+#'   * `5` much more than from main job
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6338/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |about the same as from main job |don't know |less than from main job |more than from main job |much less than from main job |much more than from main job |no answer |not available in this year |Total |
+#'  |:-----|:-----|:-------------------------------|:----------|:-----------------------|:-----------------------|:----------------------------|:----------------------------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |1613  |
+#'  |1973  |1504  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |1504  |
+#'  |1974  |1484  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |1484  |
+#'  |1975  |1490  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |1490  |
+#'  |1976  |1499  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |1499  |
+#'  |1977  |1530  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |1530  |
+#'  |1978  |1532  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |1532  |
+#'  |1980  |1468  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |1468  |
+#'  |1982  |1860  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |1860  |
+#'  |1983  |1599  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |1599  |
+#'  |1984  |1473  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |1473  |
+#'  |1985  |1534  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |1534  |
+#'  |1986  |1470  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |1470  |
+#'  |1987  |1819  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |1819  |
+#'  |1988  |1481  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |1481  |
+#'  |1989  |1537  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |1537  |
+#'  |1990  |1372  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |1372  |
+#'  |1991  |1517  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |1517  |
+#'  |1993  |1606  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |1606  |
+#'  |1994  |2992  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |2992  |
+#'  |1996  |2904  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |2904  |
+#'  |1998  |2832  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |2832  |
+#'  |2000  |2817  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |2817  |
+#'  |2002  |2765  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |2765  |
+#'  |2004  |2812  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |2812  |
+#'  |2006  |4510  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |4510  |
+#'  |2008  |2023  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |2023  |
+#'  |2010  |2044  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |2044  |
+#'  |2012  |1974  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |1974  |
+#'  |2014  |2538  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |2538  |
+#'  |2016  |2567  |24                              |4          |88                      |13                      |152                          |11                           |8         |-                          |2867  |
+#'  |2018  |2348  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |2348  |
+#'  |2021  |4032  |-                               |-          |-                       |-                       |-                            |-                            |-         |-                          |4032  |
+#'  |2022  |-     |-                               |-          |-                       |-                       |-                            |-                            |-         |3544                       |3544  |
+#'  |2024  |-     |-                               |-          |-                       |-                       |-                            |-                            |-         |3309                       |3309  |
+#'  |Total |68546 |24                              |4          |88                      |13                      |152                          |11                           |8         |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Orientation
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name extraern
+NULL
+
+
 #'  Year last paid job ended
 #' 
 #'  jbendyr
 #' 
-#' Question A. When did your last paid job end?
+#' Question When did your last paid job end?        In (YEAR):  
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6339/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,8 +240,43 @@
 #'  |2024  |-     |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-          |-         |3309                       |3309  |
 #'  |Total |68361 |1    |1    |1    |2    |1    |1    |1    |1    |2    |2    |1    |2    |1    |2    |2    |2    |3    |1    |4    |1    |6    |10   |6    |13   |9    |7    |12   |16   |8    |12   |11   |20   |10   |18   |22   |19   |25   |13   |29   |23   |43   |41   |40   |15         |25        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Orientation
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name jbendyr
+NULL
+
+
+#'  Month last paid job ended
+#' 
+#'  jbendmo
+#' 
+#' Question Please also specify the month.        In (MONTHS):  
+#' 
+#' 
 #' @section Values: 
 #' 
+#'   * `1` january
+#'   * `2` february
+#'   * `3` march
+#'   * `4` april
+#'   * `5` may
+#'   * `6` june
+#'   * `7` july
+#'   * `8` august
+#'   * `9` september
+#'   * `10` october
+#'   * `11` november
+#'   * `12` december
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -63,22 +290,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name jbendyr
-NULL
-
-#'  Month last paid job ended
-#' 
-#'  jbendmo
-#' 
-#' Question B. Please also specify the month.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6340/vshow).
 #'
 #' Counts by year: 
 #'
@@ -121,20 +334,39 @@ NULL
 #'  |2024  |-     |-     |-      |-        |-          |-        |-       |-    |-    |-     |-   |-         |-        |-       |-         |3309                       |3309  |
 #'  |Total |68361 |31    |23     |30       |75         |23       |31      |36   |62   |24    |53  |26        |22       |26      |23        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Orientation
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name jbendmo
+NULL
+
+
+#'  Satisfaction with past job
+#' 
+#'  exjobsat
+#' 
+#' Question (HAND CARD D20)
+#' How satisfied were you in your last job?  
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` january
-#'   * `2` february
-#'   * `3` march
-#'   * `4` april
-#'   * `5` may
-#'   * `6` june
-#'   * `7` july
-#'   * `8` august
-#'   * `9` september
-#'   * `10` october
-#'   * `11` november
-#'   * `12` december
+#'   * `1` completely satisfied
+#'   * `2` very satisfied
+#'   * `3` fairly satisfied
+#'   * `4` neither satisfied nor dissatisfied
+#'   * `5` fairly dissatisfied
+#'   * `6` very dissatisfied
+#'   * `7` completely dissatisfied
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -148,22 +380,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name jbendmo
-NULL
-
-#'  Satisfaction with past job
-#' 
-#'  exjobsat
-#' 
-#' Question How satisfied were you in your last job?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6341/vshow).
 #'
 #' Counts by year: 
 #'
@@ -206,15 +424,36 @@ NULL
 #'  |2024  |-     |-  |-                       |-                    |-                   |-                |-                                  |-                 |-              |3309                       |3309  |
 #'  |Total |68361 |23 |13                      |134                  |15                  |109              |21                                 |23                |147            |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Orientation
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name exjobsat
+NULL
+
+
+#'  Do you worry about not finding job
+#' 
+#'  wornojob
+#' 
+#' Question To what extent, if at all, do you worry about the possibility of not finding a job?
+#' Would you say...  
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` completely satisfied
-#'   * `2` very satisfied
-#'   * `3` fairly satisfied
-#'   * `4` neither satisfied nor dissatisfied
-#'   * `5` fairly dissatisfied
-#'   * `6` very dissatisfied
-#'   * `7` completely dissatisfied
+#'   * `1` i worry a great deal
+#'   * `2` i worry to some extent
+#'   * `3` i worry a little
+#'   * `4` i don't worry at all
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -228,22 +467,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name exjobsat
-NULL
-
-#'  Do you worry about not finding job
-#' 
-#'  wornojob
-#' 
-#' Question A. To what extent, if at all, do you worry about the possibility of not finding a job?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6342/vshow).
 #'
 #' Counts by year: 
 #'
@@ -286,12 +511,39 @@ NULL
 #'  |2024  |-     |-          |-                    |-                    |-                |-                      |-         |3309                       |3309  |
 #'  |Total |68512 |1          |153                  |49                   |71               |36                     |24        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Orientation
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name wornojob
+NULL
+
+
+#'  I would accept job that requires new skills
+#' 
+#'  newskill
+#' 
+#' Question (HAND CARD D22)
+#' To what extent do you agree or disagree with the following statements? In order to get a job I would be willing...
+#' To accept a job that requires new skills.
+#' Would you say...  
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` i worry a great deal
-#'   * `2` i worry to some extent
-#'   * `3` i worry a little
-#'   * `4` i don't worry at all
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` neither agree nor disagree
+#'   * `4` disagree
+#'   * `5` strongly disagree
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -305,22 +557,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wornojob
-NULL
-
-#'  I would accept job that requires new skills
-#' 
-#'  newskill
-#' 
-#' Question To what extent do you agree or disagree with the following statements? In order to get a job I would be willing? A. To accept a job that requires new skills.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6343/vshow).
 #'
 #' Counts by year: 
 #'
@@ -363,6 +601,32 @@ NULL
 #'  |2024  |-     |-     |-        |-          |-                          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |68512 |137   |19       |1          |37                         |23        |106            |11                |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Orientation
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name newskill
+NULL
+
+
+#'  I would accept job for lower pay
+#' 
+#'  lowpay
+#' 
+#' Question (HAND CARD D22)
+#' (To what extent do you agree or disagree with the following statements? In order to avoid unemployment I would be willing...)
+#' To accept a position with lower pay.
+#' (Would you say...)  
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -383,22 +647,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name newskill
-NULL
-
-#'  I would accept job for lower pay
-#' 
-#'  lowpay
-#' 
-#' Question To what extent do you agree or disagree with the following statements? In order to get a job I would be willing? B. To accept a position with lower pay.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6344/vshow).
 #'
 #' Counts by year: 
 #'
@@ -441,6 +691,32 @@ NULL
 #'  |2024  |-     |-     |-        |-          |-                          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |68512 |116   |68       |4          |58                         |23        |32             |33                |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Orientation
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name lowpay
+NULL
+
+
+#'  I would accept temporary employment
+#' 
+#'  tempwork
+#' 
+#' Question (HAND CARD D22) 
+#' (To what extent do you agree or disagree with the following statements? In order to avoid unemployment I would be willing...)            
+#' To accept temporary employment.            
+#' (Would you say...)  
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -461,22 +737,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name lowpay
-NULL
-
-#'  I would accept temporary employment
-#' 
-#'  tempwork
-#' 
-#' Question To what extent do you agree or disagree with the following statements? In order to get a job I would be willing? C. To accept temporary employment.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6345/vshow).
 #'
 #' Counts by year: 
 #'
@@ -519,6 +781,32 @@ NULL
 #'  |2024  |-     |-     |-        |-          |-                          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |68512 |184   |35       |2          |34                         |23        |41             |15                |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Orientation
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name tempwork
+NULL
+
+
+#'  I would accept a longer commute
+#' 
+#'  mortravl
+#' 
+#' Question (HAND CARD D22)            
+#' (To what extent do you agree or disagree with the following statements? In order to avoid unemployment I would be willing...)            
+#' To travel longer to get to work.            
+#' (Would you say...)  
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -539,22 +827,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name tempwork
-NULL
-
-#'  I would accept a longer commute
-#' 
-#'  mortravl
-#' 
-#' Question To what extent do you agree or disagree with the following statements? In order to get a job I would be willing? D. To travel longer to get to work.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6346/vshow).
 #'
 #' Counts by year: 
 #'
@@ -597,187 +871,19 @@ NULL
 #'  |2024  |-     |-     |-        |-          |-                          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |68512 |99    |109      |2          |43                         |23        |16             |42                |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` neither agree nor disagree
-#'   * `4` disagree
-#'   * `5` strongly disagree
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |B/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Work Orientation
+#' 
 #' 
 #' @keywords variable
 #' @md
 #' @name mortravl
 NULL
 
-#'  I would move within the usa for work
-#' 
-#'  moveinus
-#' 
-#' Question To what extent do you agree or disagree with the following statements? In order to get a job I would be willing? E. To move within America.
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |agree |disagree |don't know |neither agree nor disagree |no answer |strongly agree |strongly disagree |not available in this year |Total |
-#'  |:-----|:-----|:-----|:--------|:----------|:--------------------------|:---------|:--------------|:-----------------|:--------------------------|:-----|
-#'  |1972  |1613  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1613  |
-#'  |1973  |1504  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1504  |
-#'  |1974  |1484  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1484  |
-#'  |1975  |1490  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1490  |
-#'  |1976  |1499  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1499  |
-#'  |1977  |1530  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1530  |
-#'  |1978  |1532  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1532  |
-#'  |1980  |1468  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1468  |
-#'  |1982  |1860  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1860  |
-#'  |1983  |1599  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1599  |
-#'  |1984  |1473  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1473  |
-#'  |1985  |1534  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1534  |
-#'  |1986  |1470  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1470  |
-#'  |1987  |1819  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1819  |
-#'  |1988  |1481  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1481  |
-#'  |1989  |1537  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1537  |
-#'  |1990  |1372  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1372  |
-#'  |1991  |1517  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1517  |
-#'  |1993  |1606  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1606  |
-#'  |1994  |2992  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2992  |
-#'  |1996  |2904  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2904  |
-#'  |1998  |2832  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2832  |
-#'  |2000  |2817  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2817  |
-#'  |2002  |2765  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2765  |
-#'  |2004  |2812  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2812  |
-#'  |2006  |4510  |-     |-        |-          |-                          |-         |-              |-                 |-                          |4510  |
-#'  |2008  |2023  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2023  |
-#'  |2010  |2044  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2044  |
-#'  |2012  |1974  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1974  |
-#'  |2014  |2538  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2538  |
-#'  |2016  |2533  |90    |86       |3          |35                         |23        |22             |75                |-                          |2867  |
-#'  |2018  |2348  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2348  |
-#'  |2021  |4032  |-     |-        |-          |-                          |-         |-              |-                 |-                          |4032  |
-#'  |2022  |-     |-     |-        |-          |-                          |-         |-              |-                 |3544                       |3544  |
-#'  |2024  |-     |-     |-        |-          |-                          |-         |-              |-                 |3309                       |3309  |
-#'  |Total |68512 |90    |86       |3          |35                         |23        |22             |75                |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` neither agree nor disagree
-#'   * `4` disagree
-#'   * `5` strongly disagree
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name moveinus
-NULL
-
-#'  I would move outside the usa for work
-#' 
-#'  moveaway
-#' 
-#' Question To what extent do you agree or disagree with the following statements? In order to get a job I would be willing? F. To move to a different country.
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |agree |disagree |don't know |neither agree nor disagree |no answer |strongly agree |strongly disagree |not available in this year |Total |
-#'  |:-----|:-----|:-----|:--------|:----------|:--------------------------|:---------|:--------------|:-----------------|:--------------------------|:-----|
-#'  |1972  |1613  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1613  |
-#'  |1973  |1504  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1504  |
-#'  |1974  |1484  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1484  |
-#'  |1975  |1490  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1490  |
-#'  |1976  |1499  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1499  |
-#'  |1977  |1530  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1530  |
-#'  |1978  |1532  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1532  |
-#'  |1980  |1468  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1468  |
-#'  |1982  |1860  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1860  |
-#'  |1983  |1599  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1599  |
-#'  |1984  |1473  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1473  |
-#'  |1985  |1534  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1534  |
-#'  |1986  |1470  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1470  |
-#'  |1987  |1819  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1819  |
-#'  |1988  |1481  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1481  |
-#'  |1989  |1537  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1537  |
-#'  |1990  |1372  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1372  |
-#'  |1991  |1517  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1517  |
-#'  |1993  |1606  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1606  |
-#'  |1994  |2992  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2992  |
-#'  |1996  |2904  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2904  |
-#'  |1998  |2832  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2832  |
-#'  |2000  |2817  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2817  |
-#'  |2002  |2765  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2765  |
-#'  |2004  |2812  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2812  |
-#'  |2006  |4510  |-     |-        |-          |-                          |-         |-              |-                 |-                          |4510  |
-#'  |2008  |2023  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2023  |
-#'  |2010  |2044  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2044  |
-#'  |2012  |1974  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1974  |
-#'  |2014  |2538  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2538  |
-#'  |2016  |2533  |40    |99       |2          |20                         |23        |12             |138               |-                          |2867  |
-#'  |2018  |2348  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2348  |
-#'  |2021  |4032  |-     |-        |-          |-                          |-         |-              |-                 |-                          |4032  |
-#'  |2022  |-     |-     |-        |-          |-                          |-         |-              |-                 |3544                       |3544  |
-#'  |2024  |-     |-     |-        |-          |-                          |-         |-              |-                 |3309                       |3309  |
-#'  |Total |68512 |40    |99       |2          |20                         |23        |12             |138               |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` neither agree nor disagree
-#'   * `4` disagree
-#'   * `5` strongly disagree
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name moveaway
-NULL
 

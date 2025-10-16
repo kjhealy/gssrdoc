@@ -10,11 +10,49 @@ General Social Survey https://gss.norc.org
 snsmot2c
 }
 \details{
-Question C. Third other social network mentioned.
+Question THIRD MENTION:
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} youtube
+\item \code{2} myspace
+\item \code{3} reddit
+\item \code{4} viber
+\item \code{5} line
+\item \code{6} plenty of fish
+\item \code{7} kik
+\item \code{8} ravelry
+\item \code{9} wechat
+\item \code{11} imo
+\item \code{12} online dating sites
+\item \code{13} spotify
+\item \code{14} groupme
+\item \code{15} tinder
+\item \code{16} hangouts
+\item \code{17} researchgate
+\item \code{18} online gaming
+\item \code{19} yahoo
+\item \code{30} other social networks
+\item \code{40} not a social network
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6284/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab don't know \tab hangouts \tab kik \tab no answer \tab not a social network \tab other social networks \tab viber \tab youtube \tab not available in this year \tab Total \cr
@@ -57,42 +95,23 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} youtube
-\item \code{2} myspace
-\item \code{3} reddit
-\item \code{4} viber
-\item \code{5} line
-\item \code{6} plenty of fish
-\item \code{7} kik
-\item \code{8} ravelry
-\item \code{9} wechat
-\item \code{11} imo
-\item \code{12} online dating sites
-\item \code{13} spotify
-\item \code{14} groupme
-\item \code{15} tinder
-\item \code{16} hangouts
-\item \code{17} researchgate
-\item \code{18} online gaming
-\item \code{19} yahoo
-\item \code{30} other social networks
-\item \code{40} not a social network
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2016 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Social Media Usage: 
+\code{\link{clssmtes}},
+\code{\link{flickr}},
+\code{\link{pinterst}},
+\code{\link{snsmnew}},
+\code{\link{snsmot2a}},
+\code{\link{snsmot2b}},
+\code{\link{snsmoth1}},
+\code{\link{vine}}
+}
+\concept{Social Media Usage}
 \keyword{variable}

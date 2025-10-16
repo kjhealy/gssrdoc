@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 infnettv
 }
 \details{
-Question 1572. Children are exposed to many influences in their daily lives. What kind of influence does each of the following have on children: Very positive, positive, neutral, negative, very negative? c. Programs on network television
+Question Children are exposed to many influences in their daily lives. What kind of influence does each of the following have on children: Very positive, positive, neutral, negative, very negative?:
+C. Programs on network television.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very positive
+\item \code{2} positive
+\item \code{3} neutral
+\item \code{4} negative
+\item \code{5} very negative
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5119/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab don't know \tab negative \tab neutral \tab no answer \tab positive \tab very negative \tab very positive \tab not available in this year \tab Total \cr
@@ -57,27 +81,35 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very positive
-\item \code{2} positive
-\item \code{3} neutral
-\item \code{4} negative
-\item \code{5} very negative
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1990 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Children: 
+\code{\link{chldhlth}},
+\code{\link{chldhome}},
+\code{\link{chldskls}},
+\code{\link{chldtime}},
+\code{\link{infadstv}},
+\code{\link{inffilms}},
+\code{\link{infmusic}},
+\code{\link{infpubtv}},
+\code{\link{sppregnt}}
+
+Other Children: 
+\code{\link{chldhlth}},
+\code{\link{chldhome}},
+\code{\link{chldskls}},
+\code{\link{chldtime}},
+\code{\link{infadstv}},
+\code{\link{inffilms}},
+\code{\link{infmusic}},
+\code{\link{infpubtv}},
+\code{\link{sppregnt}}
+}
+\concept{Children}
 \keyword{variable}

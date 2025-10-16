@@ -1,11 +1,209 @@
+#'  The world is getting better
+#' 
+#'  poleff10
+#' 
+#' Question Please indicate whether you agree or disagree with each of the following statements. 
+#' J. Taking everything into account, the world is getting better.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` agree
+#'   * `2` disagree
+#'   * `NA(d)` can't choose
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4048/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |agree |can't choose |disagree |no answer |not available in this year |Total |
+#'  |:-----|:-----|:-----|:------------|:--------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-     |-            |-        |-         |-                          |1613  |
+#'  |1973  |1504  |-     |-            |-        |-         |-                          |1504  |
+#'  |1974  |1484  |-     |-            |-        |-         |-                          |1484  |
+#'  |1975  |1490  |-     |-            |-        |-         |-                          |1490  |
+#'  |1976  |1499  |-     |-            |-        |-         |-                          |1499  |
+#'  |1977  |1530  |-     |-            |-        |-         |-                          |1530  |
+#'  |1978  |1532  |-     |-            |-        |-         |-                          |1532  |
+#'  |1980  |1468  |-     |-            |-        |-         |-                          |1468  |
+#'  |1982  |1860  |-     |-            |-        |-         |-                          |1860  |
+#'  |1983  |1599  |-     |-            |-        |-         |-                          |1599  |
+#'  |1984  |1473  |-     |-            |-        |-         |-                          |1473  |
+#'  |1985  |857   |225   |119          |323      |10        |-                          |1534  |
+#'  |1986  |1470  |-     |-            |-        |-         |-                          |1470  |
+#'  |1987  |1819  |-     |-            |-        |-         |-                          |1819  |
+#'  |1988  |1481  |-     |-            |-        |-         |-                          |1481  |
+#'  |1989  |1537  |-     |-            |-        |-         |-                          |1537  |
+#'  |1990  |1372  |-     |-            |-        |-         |-                          |1372  |
+#'  |1991  |1517  |-     |-            |-        |-         |-                          |1517  |
+#'  |1993  |1606  |-     |-            |-        |-         |-                          |1606  |
+#'  |1994  |2992  |-     |-            |-        |-         |-                          |2992  |
+#'  |1996  |2904  |-     |-            |-        |-         |-                          |2904  |
+#'  |1998  |2832  |-     |-            |-        |-         |-                          |2832  |
+#'  |2000  |2817  |-     |-            |-        |-         |-                          |2817  |
+#'  |2002  |2765  |-     |-            |-        |-         |-                          |2765  |
+#'  |2004  |2812  |-     |-            |-        |-         |-                          |2812  |
+#'  |2006  |4510  |-     |-            |-        |-         |-                          |4510  |
+#'  |2008  |2023  |-     |-            |-        |-         |-                          |2023  |
+#'  |2010  |2044  |-     |-            |-        |-         |-                          |2044  |
+#'  |2012  |1974  |-     |-            |-        |-         |-                          |1974  |
+#'  |2014  |2538  |-     |-            |-        |-         |-                          |2538  |
+#'  |2016  |2867  |-     |-            |-        |-         |-                          |2867  |
+#'  |2018  |2348  |-     |-            |-        |-         |-                          |2348  |
+#'  |2021  |4032  |-     |-            |-        |-         |-                          |4032  |
+#'  |2022  |-     |-     |-            |-        |-         |3544                       |3544  |
+#'  |2024  |-     |-     |-            |-        |-         |3309                       |3309  |
+#'  |Total |68169 |225   |119          |323      |10        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Role of Gov't
+#' @family Political
+#' 
+#' @keywords variable
+#' @md
+#' @name poleff10
+NULL
+
+
+#'  Govt control of wages
+#' 
+#'  setwage
+#' 
+#' Question Here are some things the government might do for the economy. Circle one number for each action to show whether you are in favor of it or against it. 
+#' A. Control of wages by legislation.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly in favor
+#'   * `2` in favor
+#'   * `3` neither
+#'   * `4` against
+#'   * `5` strongly against
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4049/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |against |in favor |neither |no answer |strongly against |strongly in favor |don't know |not available in this year |Total |
+#'  |:-----|:-----|:-------|:--------|:-------|:---------|:----------------|:-----------------|:----------|:--------------------------|:-----|
+#'  |1972  |1613  |-       |-        |-       |-         |-                |-                 |-          |-                          |1613  |
+#'  |1973  |1504  |-       |-        |-       |-         |-                |-                 |-          |-                          |1504  |
+#'  |1974  |1484  |-       |-        |-       |-         |-                |-                 |-          |-                          |1484  |
+#'  |1975  |1490  |-       |-        |-       |-         |-                |-                 |-          |-                          |1490  |
+#'  |1976  |1499  |-       |-        |-       |-         |-                |-                 |-          |-                          |1499  |
+#'  |1977  |1530  |-       |-        |-       |-         |-                |-                 |-          |-                          |1530  |
+#'  |1978  |1532  |-       |-        |-       |-         |-                |-                 |-          |-                          |1532  |
+#'  |1980  |1468  |-       |-        |-       |-         |-                |-                 |-          |-                          |1468  |
+#'  |1982  |1860  |-       |-        |-       |-         |-                |-                 |-          |-                          |1860  |
+#'  |1983  |1599  |-       |-        |-       |-         |-                |-                 |-          |-                          |1599  |
+#'  |1984  |1473  |-       |-        |-       |-         |-                |-                 |-          |-                          |1473  |
+#'  |1985  |857   |254     |90       |141     |13        |120              |59                |-          |-                          |1534  |
+#'  |1986  |1470  |-       |-        |-       |-         |-                |-                 |-          |-                          |1470  |
+#'  |1987  |1819  |-       |-        |-       |-         |-                |-                 |-          |-                          |1819  |
+#'  |1988  |1481  |-       |-        |-       |-         |-                |-                 |-          |-                          |1481  |
+#'  |1989  |1537  |-       |-        |-       |-         |-                |-                 |-          |-                          |1537  |
+#'  |1990  |155   |406     |209      |294     |36        |186              |84                |2          |-                          |1372  |
+#'  |1991  |1517  |-       |-        |-       |-         |-                |-                 |-          |-                          |1517  |
+#'  |1993  |1606  |-       |-        |-       |-         |-                |-                 |-          |-                          |1606  |
+#'  |1994  |2992  |-       |-        |-       |-         |-                |-                 |-          |-                          |2992  |
+#'  |1996  |1572  |427     |252      |275     |49        |216              |109               |4          |-                          |2904  |
+#'  |1998  |2832  |-       |-        |-       |-         |-                |-                 |-          |-                          |2832  |
+#'  |2000  |2817  |-       |-        |-       |-         |-                |-                 |-          |-                          |2817  |
+#'  |2002  |2765  |-       |-        |-       |-         |-                |-                 |-          |-                          |2765  |
+#'  |2004  |2812  |-       |-        |-       |-         |-                |-                 |-          |-                          |2812  |
+#'  |2006  |4510  |-       |-        |-       |-         |-                |-                 |-          |-                          |4510  |
+#'  |2008  |2023  |-       |-        |-       |-         |-                |-                 |-          |-                          |2023  |
+#'  |2010  |2044  |-       |-        |-       |-         |-                |-                 |-          |-                          |2044  |
+#'  |2012  |1974  |-       |-        |-       |-         |-                |-                 |-          |-                          |1974  |
+#'  |2014  |2538  |-       |-        |-       |-         |-                |-                 |-          |-                          |2538  |
+#'  |2016  |2867  |-       |-        |-       |-         |-                |-                 |-          |-                          |2867  |
+#'  |2018  |2348  |-       |-        |-       |-         |-                |-                 |-          |-                          |2348  |
+#'  |2021  |4032  |-       |-        |-       |-         |-                |-                 |-          |-                          |4032  |
+#'  |2022  |-     |-       |-        |-       |-         |-                |-                 |-          |3544                       |3544  |
+#'  |2024  |-     |-       |-        |-       |-         |-                |-                 |-          |3309                       |3309  |
+#'  |Total |65620 |1087    |551      |710     |98        |522              |252               |6          |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-/-/-   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Role of Gov't
+#' @family Economy
+#' @family Wage/Price Controls
+#' 
+#' @keywords variable
+#' @md
+#' @name setwage
+NULL
+
+
 #'  Govt control of prices
 #' 
 #'  setprice
 #' 
-#' Question 1179. Here are some things the government might do for the economy. Circle one number for each action to show whether you are in favor of it or against it. b. Control of prices by legislation
+#' Question Here are some things the government might do for the economy. Circle one number for each action to show whether you are in favor of it or against it. 
+#' B. Control of prices by legislation.
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly in favor
+#'   * `2` in favor
+#'   * `3` neither
+#'   * `4` against
+#'   * `5` strongly against
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4050/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,11 +246,38 @@
 #'  |2024  |-     |-       |-        |-       |-         |-                |-                 |-          |3309                       |3309  |
 #'  |Total |65620 |883     |836      |728     |108       |380              |285               |6          |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-/-/-   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Role of Gov't
+#' @family Economy
+#' @family Wage/Price Controls
+#' 
+#' @keywords variable
+#' @md
+#' @name setprice
+NULL
+
+
+#'  Cuts in govt spending
+#' 
+#'  cutgovt
+#' 
+#' Question Here are some things the government might do for the economy. Circle one number for each action to show whether you are in favor of it or against it. 
+#' C. Cuts in government spending.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` strongly in favor
+#'   * `1` strongly in favor of
 #'   * `2` in favor
-#'   * `3` neither
+#'   * `3` neither in favor nor against
 #'   * `4` against
 #'   * `5` strongly against
 #'   * `NA(d)` don't know
@@ -68,22 +293,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name setprice
-NULL
-
-#'  Cuts in govt spending
-#' 
-#'  cutgovt
-#' 
-#' Question 1179. Here are some things the government might do for the economy. Circle one number for each action to show whether you are in favor of it or against it. c. Cuts in government spending
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4051/vshow).
 #'
 #' Counts by year: 
 #'
@@ -126,6 +337,35 @@ NULL
 #'  |2024  |-     |-       |-        |-                            |-         |-                |-                    |-          |3309                       |3309  |
 #'  |Total |62712 |436     |2290     |1020                         |92        |172              |2081                 |43         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-/-/-   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |2006 |D/-/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Role of Gov't
+#' @family Economy
+#' @family Spending
+#' 
+#' @keywords variable
+#' @md
+#' @name cutgovt
+NULL
+
+
+#'  Govt create new jobs
+#' 
+#'  makejobs
+#' 
+#' Question Here are some things the government might do for the economy. Circle one number for each action to show whether you are in favor of it or against it. 
+#' D. Government financing of projects to create new jobs.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly in favor of
@@ -146,22 +386,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name cutgovt
-NULL
-
-#'  Govt create new jobs
-#' 
-#'  makejobs
-#' 
-#' Question 1179. Here are some things the government might do for the economy. Circle one number for each action to show whether you are in favor of it or against it. d. Government financing of projects to create new jobs
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4052/vshow).
 #'
 #' Counts by year: 
 #'
@@ -204,6 +430,34 @@ NULL
 #'  |2024  |-     |-       |-        |-                            |-         |-                |-                    |-          |3309                       |3309  |
 #'  |Total |62712 |405     |2753     |806                          |84        |127              |1940                 |19         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-/-/-   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |2006 |D/-/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Role of Gov't
+#' @family Economy
+#' 
+#' @keywords variable
+#' @md
+#' @name makejobs
+NULL
+
+
+#'  Less govt regulation of business
+#' 
+#'  lessreg
+#' 
+#' Question Here are some things the government might do for the economy. Circle one number for each action to show whether you are in favor of it or against it. 
+#' E. Less government regulation of business.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly in favor of
@@ -224,22 +478,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name makejobs
-NULL
-
-#'  Less govt regulation of business
-#' 
-#'  lessreg
-#' 
-#' Question 1179. Here are some things the government might do for the economy. Circle one number for each action to show whether you are in favor of it or against it. e. Less government regulation of business
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4053/vshow).
 #'
 #' Counts by year: 
 #'
@@ -282,6 +522,34 @@ NULL
 #'  |2024  |-     |-       |-        |-                            |-         |-                |-                    |-          |3309                       |3309  |
 #'  |Total |62712 |894     |2018     |1885                         |106       |231              |935                  |65         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-/-/-   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |2006 |D/-/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Role of Gov't
+#' @family Economy
+#' 
+#' @keywords variable
+#' @md
+#' @name lessreg
+NULL
+
+
+#'  Govt support for new products and tech
+#' 
+#'  hlphitec
+#' 
+#' Question Here are some things the government might do for the economy. Circle one number for each action to show whether you are in favor of it or against it. 
+#' F. Support for industry to develop new products and technology. 
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly in favor of
@@ -302,22 +570,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name lessreg
-NULL
-
-#'  Govt support for new products and tech
-#' 
-#'  hlphitec
-#' 
-#' Question 1179. Here are some things the government might do for the economy. Circle one number for each action to show whether you are in favor of it or against it. f. Support for industry to develop new products and technology
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4054/vshow).
 #'
 #' Counts by year: 
 #'
@@ -360,6 +614,34 @@ NULL
 #'  |2024  |-     |-       |-        |-                            |-         |-                |-                    |-          |3309                       |3309  |
 #'  |Total |62712 |283     |3076     |917                          |91        |80               |1656                 |31         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-/-/-   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |2006 |D/-/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Role of Gov't
+#' @family Economy
+#' 
+#' @keywords variable
+#' @md
+#' @name hlphitec
+NULL
+
+
+#'  Govt support for declining industries
+#' 
+#'  savejobs
+#' 
+#' Question Here are some things the government might do for the economy. Circle one number for each action to show whether you are in favor of it or against it. 
+#' G. Supporting declining industries to protect jobs. 
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly in favor of
@@ -380,22 +662,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hlphitec
-NULL
-
-#'  Govt support for declining industries
-#' 
-#'  savejobs
-#' 
-#' Question 1179. Here are some things the government might do for the economy. Circle one number for each action to show whether you are in favor of it or against it. g. Supporting declining industries to protect jobs
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4055/vshow).
 #'
 #' Counts by year: 
 #'
@@ -438,6 +706,34 @@ NULL
 #'  |2024  |-     |-       |-        |-                            |-         |-                |-                    |-          |3309                       |3309  |
 #'  |Total |62712 |987     |2364     |1338                         |88        |229              |1094                 |34         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-/-/-   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |2006 |D/-/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Role of Gov't
+#' @family Economy
+#' 
+#' @keywords variable
+#' @md
+#' @name savejobs
+NULL
+
+
+#'  Reduction in length of work week
+#' 
+#'  cuthours
+#' 
+#' Question Here are some things the government might do for the economy. Circle one number for each action to show whether you are in favor of it or against it. 
+#' H. Reducing the work week to create more jobs. 
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly in favor of
@@ -458,22 +754,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name savejobs
-NULL
-
-#'  Reduction in length of work week
-#' 
-#'  cuthours
-#' 
-#' Question 1179. Here are some things the government might do for the economy. Circle one number for each action to show whether you are in favor of it or against it. h. Reducing the work week to create more jobs
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4056/vshow).
 #'
 #' Counts by year: 
 #'
@@ -516,14 +798,42 @@ NULL
 #'  |2024  |-     |-       |-        |-                            |-         |-                |-                    |-          |3309                       |3309  |
 #'  |Total |62712 |1900    |1299     |1667                         |89        |656              |486                  |37         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-/-/-   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |2006 |D/-/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Role of Gov't
+#' @family Economy
+#' 
+#' @keywords variable
+#' @md
+#' @name cuthours
+NULL
+
+
+#'  Govt spending on environment
+#' 
+#'  spenviro
+#' 
+#' Question Listed below are various areas of government spending. Please indicate whether you would like to see more or less government spending in each area. Remember that if you say "much more," it might require a tax increase to pay for it. 
+#' A. The environment. 
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` strongly in favor of
-#'   * `2` in favor
-#'   * `3` neither in favor nor against
-#'   * `4` against
-#'   * `5` strongly against
-#'   * `NA(d)` don't know
+#'   * `1` spend much more
+#'   * `2` spend more
+#'   * `3` spend same
+#'   * `4` spend less
+#'   * `5` spend much less
+#'   * `NA(d)` can't choose
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
 #'   * `NA(m)` dk, na, iap
@@ -536,22 +846,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name cuthours
-NULL
-
-#'  Govt spending on environment
-#' 
-#'  spenviro
-#' 
-#' Question 1180. Listed below are various areas of government spending. Please indicate whether you would like to see more or less government spending in each area. Remember that if you say "much more," it might require a tax increase to pay for it. a. The environment
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4057/vshow).
 #'
 #' Counts by year: 
 #'
@@ -594,187 +890,26 @@ NULL
 #'  |2024  |-     |-            |-         |-          |-          |-               |-               |-          |3309                       |3309  |
 #'  |Total |62712 |138          |106       |620        |2246       |144             |802             |2078       |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` spend much more
-#'   * `2` spend more
-#'   * `3` spend same
-#'   * `4` spend less
-#'   * `5` spend much less
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-/-/-   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |2006 |D/-/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family ISSP Role of Gov't
+#' @family Environment
+#' @family Federal Government
+#' @family Spending
+#' @family Taxes
 #' 
 #' @keywords variable
 #' @md
 #' @name spenviro
 NULL
 
-#'  Govt spending on health
-#' 
-#'  sphlth
-#' 
-#' Question 1180. Listed below are various areas of government spending. Please indicate whether you would like to see more or less government spending in each area. Remember that if you say "much more," it might require a tax increase to pay for it. b. Health
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |can't choose |no answer |spend less |spend more |spend much less |spend much more |spend same |not available in this year |Total |
-#'  |:-----|:-----|:------------|:---------|:----------|:----------|:---------------|:---------------|:----------|:--------------------------|:-----|
-#'  |1972  |1613  |-            |-         |-          |-          |-               |-               |-          |-                          |1613  |
-#'  |1973  |1504  |-            |-         |-          |-          |-               |-               |-          |-                          |1504  |
-#'  |1974  |1484  |-            |-         |-          |-          |-               |-               |-          |-                          |1484  |
-#'  |1975  |1490  |-            |-         |-          |-          |-               |-               |-          |-                          |1490  |
-#'  |1976  |1499  |-            |-         |-          |-          |-               |-               |-          |-                          |1499  |
-#'  |1977  |1530  |-            |-         |-          |-          |-               |-               |-          |-                          |1530  |
-#'  |1978  |1532  |-            |-         |-          |-          |-               |-               |-          |-                          |1532  |
-#'  |1980  |1468  |-            |-         |-          |-          |-               |-               |-          |-                          |1468  |
-#'  |1982  |1860  |-            |-         |-          |-          |-               |-               |-          |-                          |1860  |
-#'  |1983  |1599  |-            |-         |-          |-          |-               |-               |-          |-                          |1599  |
-#'  |1984  |1473  |-            |-         |-          |-          |-               |-               |-          |-                          |1473  |
-#'  |1985  |857   |9            |13        |40         |295        |11              |85              |224        |-                          |1534  |
-#'  |1986  |1470  |-            |-         |-          |-          |-               |-               |-          |-                          |1470  |
-#'  |1987  |1819  |-            |-         |-          |-          |-               |-               |-          |-                          |1819  |
-#'  |1988  |1481  |-            |-         |-          |-          |-               |-               |-          |-                          |1481  |
-#'  |1989  |1537  |-            |-         |-          |-          |-               |-               |-          |-                          |1537  |
-#'  |1990  |155   |28           |42        |25         |595        |9               |233             |285        |-                          |1372  |
-#'  |1991  |1517  |-            |-         |-          |-          |-               |-               |-          |-                          |1517  |
-#'  |1993  |1606  |-            |-         |-          |-          |-               |-               |-          |-                          |1606  |
-#'  |1994  |2992  |-            |-         |-          |-          |-               |-               |-          |-                          |2992  |
-#'  |1996  |1572  |21           |34        |65         |634        |20              |229             |329        |-                          |2904  |
-#'  |1998  |2832  |-            |-         |-          |-          |-               |-               |-          |-                          |2832  |
-#'  |2000  |2817  |-            |-         |-          |-          |-               |-               |-          |-                          |2817  |
-#'  |2002  |2765  |-            |-         |-          |-          |-               |-               |-          |-                          |2765  |
-#'  |2004  |2812  |-            |-         |-          |-          |-               |-               |-          |-                          |2812  |
-#'  |2006  |2992  |13           |-         |74         |658        |16              |549             |208        |-                          |4510  |
-#'  |2008  |2023  |-            |-         |-          |-          |-               |-               |-          |-                          |2023  |
-#'  |2010  |2044  |-            |-         |-          |-          |-               |-               |-          |-                          |2044  |
-#'  |2012  |1974  |-            |-         |-          |-          |-               |-               |-          |-                          |1974  |
-#'  |2014  |2538  |-            |-         |-          |-          |-               |-               |-          |-                          |2538  |
-#'  |2016  |1477  |13           |9         |112        |681        |26              |240             |309        |-                          |2867  |
-#'  |2018  |2348  |-            |-         |-          |-          |-               |-               |-          |-                          |2348  |
-#'  |2021  |4032  |-            |-         |-          |-          |-               |-               |-          |-                          |4032  |
-#'  |2022  |-     |-            |-         |-          |-          |-               |-               |-          |3544                       |3544  |
-#'  |2024  |-     |-            |-         |-          |-          |-               |-               |-          |3309                       |3309  |
-#'  |Total |62712 |84           |98        |316        |2863       |82              |1336            |1355       |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` spend much more
-#'   * `2` spend more
-#'   * `3` spend same
-#'   * `4` spend less
-#'   * `5` spend much less
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name sphlth
-NULL
-
-#'  Govt spending on law enforcement
-#' 
-#'  sppolice
-#' 
-#' Question 1180. Listed below are various areas of government spending. Please indicate whether you would like to see more or less government spending in each area. Remember that if you say "much more," it might require a tax increase to pay for it. c. The police and law enforcement
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |can't choose |no answer |spend less |spend more |spend much less |spend much more |spend same |not available in this year |Total |
-#'  |:-----|:-----|:------------|:---------|:----------|:----------|:---------------|:---------------|:----------|:--------------------------|:-----|
-#'  |1972  |1613  |-            |-         |-          |-          |-               |-               |-          |-                          |1613  |
-#'  |1973  |1504  |-            |-         |-          |-          |-               |-               |-          |-                          |1504  |
-#'  |1974  |1484  |-            |-         |-          |-          |-               |-               |-          |-                          |1484  |
-#'  |1975  |1490  |-            |-         |-          |-          |-               |-               |-          |-                          |1490  |
-#'  |1976  |1499  |-            |-         |-          |-          |-               |-               |-          |-                          |1499  |
-#'  |1977  |1530  |-            |-         |-          |-          |-               |-               |-          |-                          |1530  |
-#'  |1978  |1532  |-            |-         |-          |-          |-               |-               |-          |-                          |1532  |
-#'  |1980  |1468  |-            |-         |-          |-          |-               |-               |-          |-                          |1468  |
-#'  |1982  |1860  |-            |-         |-          |-          |-               |-               |-          |-                          |1860  |
-#'  |1983  |1599  |-            |-         |-          |-          |-               |-               |-          |-                          |1599  |
-#'  |1984  |1473  |-            |-         |-          |-          |-               |-               |-          |-                          |1473  |
-#'  |1985  |857   |12           |15        |31         |274        |6               |64              |275        |-                          |1534  |
-#'  |1986  |1470  |-            |-         |-          |-          |-               |-               |-          |-                          |1470  |
-#'  |1987  |1819  |-            |-         |-          |-          |-               |-               |-          |-                          |1819  |
-#'  |1988  |1481  |-            |-         |-          |-          |-               |-               |-          |-                          |1481  |
-#'  |1989  |1537  |-            |-         |-          |-          |-               |-               |-          |-                          |1537  |
-#'  |1990  |155   |32           |38        |50         |509        |15              |131             |442        |-                          |1372  |
-#'  |1991  |1517  |-            |-         |-          |-          |-               |-               |-          |-                          |1517  |
-#'  |1993  |1606  |-            |-         |-          |-          |-               |-               |-          |-                          |1606  |
-#'  |1994  |2992  |-            |-         |-          |-          |-               |-               |-          |-                          |2992  |
-#'  |1996  |1572  |19           |36        |74         |586        |15              |155             |447        |-                          |2904  |
-#'  |1998  |2832  |-            |-         |-          |-          |-               |-               |-          |-                          |2832  |
-#'  |2000  |2817  |-            |-         |-          |-          |-               |-               |-          |-                          |2817  |
-#'  |2002  |2765  |-            |-         |-          |-          |-               |-               |-          |-                          |2765  |
-#'  |2004  |2812  |-            |-         |-          |-          |-               |-               |-          |-                          |2812  |
-#'  |2006  |2992  |15           |1         |100        |593        |20              |245             |544        |-                          |4510  |
-#'  |2008  |2023  |-            |-         |-          |-          |-               |-               |-          |-                          |2023  |
-#'  |2010  |2044  |-            |-         |-          |-          |-               |-               |-          |-                          |2044  |
-#'  |2012  |1974  |-            |-         |-          |-          |-               |-               |-          |-                          |1974  |
-#'  |2014  |2538  |-            |-         |-          |-          |-               |-               |-          |-                          |2538  |
-#'  |2016  |1477  |9            |11        |117        |545        |21              |150             |537        |-                          |2867  |
-#'  |2018  |2348  |-            |-         |-          |-          |-               |-               |-          |-                          |2348  |
-#'  |2021  |4032  |-            |-         |-          |-          |-               |-               |-          |-                          |4032  |
-#'  |2022  |-     |-            |-         |-          |-          |-               |-               |-          |3544                       |3544  |
-#'  |2024  |-     |-            |-         |-          |-          |-               |-               |-          |3309                       |3309  |
-#'  |Total |62712 |87           |101       |372        |2507       |77              |745             |2245       |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` spend much more
-#'   * `2` spend more
-#'   * `3` spend same
-#'   * `4` spend less
-#'   * `5` spend much less
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name sppolice
-NULL
 

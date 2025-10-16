@@ -1,11 +1,125 @@
+#'  Type of college respondent attended
+#' 
+#'  sector
+#' 
+#' Question In what year did you receive the (COLLEGE NAME) degree? 
+#' A. Sector of Institution?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` administrative unit
+#'   * `1` public, 4-year or above
+#'   * `2` private not-for-profit, 4-year or above
+#'   * `3` private for-profit, 4-year or above
+#'   * `4` public, 2-year
+#'   * `5` private not-for-profit, 2-year or less
+#'   * `6` private for-profit, 2-year
+#'   * `7` public, less than 2-year
+#'   * `9` private for-profit, less than 2-year
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/69/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |administrative unit |private for-profit, 2-year |private for-profit, 4-year or above |private for-profit, less than 2-year |private not-for-profit, 2-year or less |private not-for-profit, 4-year or above |public, 2-year |public, 4-year or above |skipped on web |not available in this year |Total |
+#'  |:-----|:-----|:-------------------|:--------------------------|:-----------------------------------|:------------------------------------|:--------------------------------------|:---------------------------------------|:--------------|:-----------------------|:--------------|:--------------------------|:-----|
+#'  |1972  |1613  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |1613  |
+#'  |1973  |1504  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |1504  |
+#'  |1974  |1484  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |1484  |
+#'  |1975  |1490  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |1490  |
+#'  |1976  |1499  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |1499  |
+#'  |1977  |1530  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |1530  |
+#'  |1978  |1532  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |1532  |
+#'  |1980  |1468  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |1468  |
+#'  |1982  |1860  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |1860  |
+#'  |1983  |1599  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |1599  |
+#'  |1984  |1473  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |1473  |
+#'  |1985  |1534  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |1534  |
+#'  |1986  |1470  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |1470  |
+#'  |1987  |1819  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |1819  |
+#'  |1988  |1481  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |1481  |
+#'  |1989  |1537  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |1537  |
+#'  |1990  |1372  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |1372  |
+#'  |1991  |1517  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |1517  |
+#'  |1993  |1606  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |1606  |
+#'  |1994  |2992  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |2992  |
+#'  |1996  |2904  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |2904  |
+#'  |1998  |2832  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |2832  |
+#'  |2000  |2817  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |2817  |
+#'  |2002  |2765  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |2765  |
+#'  |2004  |2812  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |2812  |
+#'  |2006  |4510  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |4510  |
+#'  |2008  |2023  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |2023  |
+#'  |2010  |2044  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |2044  |
+#'  |2012  |1346  |1                   |4                          |8                                   |6                                    |4                                      |183                                     |97             |325                     |-              |-                          |1974  |
+#'  |2014  |1748  |-                   |1                          |23                                  |-                                    |2                                      |242                                     |90             |432                     |-              |-                          |2538  |
+#'  |2016  |1936  |-                   |2                          |15                                  |-                                    |-                                      |269                                     |100            |538                     |7              |-                          |2867  |
+#'  |2018  |2348  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |2348  |
+#'  |2021  |4032  |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |-                          |4032  |
+#'  |2022  |-     |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |3544                       |3544  |
+#'  |2024  |-     |-                   |-                          |-                                   |-                                    |-                                      |-                                       |-              |-                       |-              |3309                       |3309  |
+#'  |Total |66497 |1                   |7                          |46                                  |6                                    |6                                      |694                                     |287            |1295                    |7              |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name sector
+NULL
+
+
 #'  Total number of students enrolled in college respondent attended
 #' 
 #'  eftotlt
 #' 
-#' Question None
+#' Question In what year did you receive the (COLLEGE NAME) degree? 
+#' B. Total Fall Enrollment
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` 0-467 students enrolled
+#'   * `2` 468 or more students
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/70/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,10 +162,38 @@
 #'  |2024  |-     |-                       |-                    |-         |3309                       |3309  |
 #'  |Total |66501 |33                      |2298                 |14        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name eftotlt
+NULL
+
+
+#'  Rate of ba degree earning in college respondent attended
+#' 
+#'  barate
+#' 
+#' Question In what year did you receive the (COLLEGE NAME) degree? 
+#' C. Graduation Rate
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` 0-467 students enrolled
-#'   * `2` 468 or more students
+#'   * `1` 0-39.9pct
+#'   * `2` 40-57.9pct
+#'   * `3` 58pct or over
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -65,22 +207,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name eftotlt
-NULL
-
-#'  Rate of ba degree earning in college respondent attended
-#' 
-#'  barate
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/71/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,11 +251,37 @@ NULL
 #'  |2024  |-     |-       |-        |-           |-         |3309                       |3309  |
 #'  |Total |66902 |241     |624      |1065        |14        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name barate
+NULL
+
+
+#'  Ratio of graduate students to undergraduate students in college respondent atten
+#' 
+#'  gradtounder
+#' 
+#' Question In what year did you receive the (COLLEGE NAME) degree? 
+#' D. Ratio of Graduate to Undergraduate Students
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` 0-39.9pct
-#'   * `2` 40-57.9pct
-#'   * `3` 58pct or over
+#'   * `1` 0-.210 graduate student per undergraduate student
+#'   * `2` .211 or over
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -141,22 +295,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name barate
-NULL
-
-#'  Ratio of graduate students to undergraduate students in college respondent atten
-#' 
-#'  gradtounder
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/72/vshow).
 #'
 #' Counts by year: 
 #'
@@ -199,10 +339,37 @@ NULL
 #'  |2024  |-     |-            |-                                                 |-         |3309                       |3309  |
 #'  |Total |66968 |1225         |639                                               |14        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name gradtounder
+NULL
+
+
+#'  Non-college postsecondary education (voednme1)
+#' 
+#'  voedcol
+#' 
+#' Question In what year did you receive the (COLLEGE NAME) degree? 
+#' E. Besides attending college for credit, did you complete any courses for credit at an institution such as a business college, technical or vocational school?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` 0-.210 graduate student per undergraduate student
-#'   * `2` .211 or over
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -216,22 +383,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name gradtounder
-NULL
-
-#'  Non-college postsecondary education (voednme1)
-#' 
-#'  voedcol
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/73/vshow).
 #'
 #' Counts by year: 
 #'
@@ -274,10 +427,57 @@ NULL
 #'  |2024  |-     |-          |-    |-    |3309                       |3309  |
 #'  |Total |64766 |6          |2813 |1261 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Education
+#' 
+#' @keywords variable
+#' @md
+#' @name voedcol
+NULL
+
+
+#'  Postsecondary institution attended for credit
+#' 
+#'  voednme1
+#' 
+#' Question In what year did you receive the (COLLEGE NAME) degree? 
+#' F. IF YES: What institution was that?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` jail/prison
+#'   * `2` high school
+#'   * `3` company/business
+#'   * `4` vocational school/trades/technical (not high school, not college)
+#'   * `5` secretarial school
+#'   * `6` adult education/school
+#'   * `7` medical/nursing/health/dental/hospital
+#'   * `8` union
+#'   * `9` armed forces
+#'   * `10` college/university
+#'   * `11` art/design
+#'   * `12` business college (not business school at a university)
+#'   * `13` home study/correspondence
+#'   * `14` job corp
+#'   * `15` beauty school/cosmetology
+#'   * `16` insurance, real estate, finance, executive management
+#'   * `17` police/fire academy; training
+#'   * `18` development center
+#'   * `19` career center
+#'   * `20` foreign college/university
+#'   * `30` other
+#'   * `40` unable to code response, unclear, not identifiable
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -291,22 +491,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name voedcol
-NULL
-
-#'  Postsecondary institution attended for credit
-#' 
-#'  voednme1
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/74/vshow).
 #'
 #' Counts by year: 
 #'
@@ -349,30 +535,37 @@ NULL
 #'  |2024  |-     |-                      |-            |-          |-                         |-                                                      |-             |-                  |-                |-                  |-                          |-           |-                         |-                                                     |-           |-        |-                                      |-         |-     |-                             |-                  |-          |-     |-                                                                 |-                                                  |3309                       |3309  |
 #'  |Total |67579 |5                      |35           |8          |39                        |33                                                     |8             |597                |25               |4                  |29                         |13          |5                         |52                                                    |2           |11       |77                                     |5         |69    |12                            |6                  |37         |7     |158                                                               |30                                                 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Education
+#' 
+#' @keywords variable
+#' @md
+#' @name voednme1
+NULL
+
+
+#'  Non-college postsecondary education (voednme2)
+#' 
+#'  voedncol
+#' 
+#' Question In what year did you receive the (COLLEGE NAME) degree? 
+#' G. Did you complete any courses for credit at an institution such as a business college, technical or vocational school?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` jail/prison
-#'   * `2` high school
-#'   * `3` company/business
-#'   * `4` vocational school/trades/technical (not high school, not college)
-#'   * `5` secretarial school
-#'   * `6` adult education/school
-#'   * `7` medical/nursing/health/dental/hospital
-#'   * `8` union
-#'   * `9` armed forces
-#'   * `10` college/university
-#'   * `11` art/design
-#'   * `12` business college (not business school at a university)
-#'   * `13` home study/correspondence
-#'   * `14` job corp
-#'   * `15` beauty school/cosmetology
-#'   * `16` insurance, real estate, finance, executive management
-#'   * `17` police/fire academy; training
-#'   * `18` development center
-#'   * `19` career center
-#'   * `20` foreign college/university
-#'   * `30` other
-#'   * `40` unable to code response, unclear, not identifiable
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -386,22 +579,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name voednme1
-NULL
-
-#'  Non-college postsecondary education (voednme2)
-#' 
-#'  voedncol
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/75/vshow).
 #'
 #' Counts by year: 
 #'
@@ -444,10 +623,57 @@ NULL
 #'  |2024  |-     |-    |-   |3309                       |3309  |
 #'  |Total |66046 |1918 |882 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Education
+#' 
+#' @keywords variable
+#' @md
+#' @name voedncol
+NULL
+
+
+#'  Postsecondary institution attended for credit
+#' 
+#'  voednme2
+#' 
+#' Question In what year did you receive the (COLLEGE NAME) degree? 
+#' H. IF YES: What institution was that?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` jail/prison
+#'   * `2` high school
+#'   * `3` company/business
+#'   * `4` vocational school/trades/technical (not high school, not college)
+#'   * `5` secretarial school
+#'   * `6` adult education/school
+#'   * `7` medical/nursing/health/dental/hospital
+#'   * `8` union
+#'   * `9` armed forces
+#'   * `10` college/university
+#'   * `11` art/design
+#'   * `12` business college (not business school at a university)
+#'   * `13` home study/correspondence
+#'   * `14` job corp
+#'   * `15` beauty school/cosmetology
+#'   * `16` insurance, real estate, finance, executive management
+#'   * `17` police/fire academy; training
+#'   * `18` development center
+#'   * `19` career center
+#'   * `20` foreign college/university
+#'   * `30` other
+#'   * `40` unable to code response, unclear, not identifiable
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -461,22 +687,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name voedncol
-NULL
-
-#'  Postsecondary institution attended for credit
-#' 
-#'  voednme2
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/76/vshow).
 #'
 #' Counts by year: 
 #'
@@ -519,30 +731,44 @@ NULL
 #'  |2024  |-     |-                      |-            |-                         |-                                                      |-             |-                  |-                |-                  |-                          |-           |-                         |-                                                     |-        |-                                      |-     |-                             |-          |-                                                                 |-                  |-     |-          |-           |-                                                  |3309                       |3309  |
 #'  |Total |67964 |7                      |23           |48                        |33                                                     |5             |399                |16               |3                  |14                         |29          |6                         |12                                                    |10       |34                                     |29    |5                             |25         |150                                                               |4                  |9     |1          |1           |19                                                 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Education
+#' 
+#' @keywords variable
+#' @md
+#' @name voednme2
+NULL
+
+
+#'  Type of college spouse attended
+#' 
+#'  spsector
+#' 
+#' Question In what year did your spouse receive their (COLLEGE NAME) degree? 
+#' I. Sector of Institution?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` jail/prison
-#'   * `2` high school
-#'   * `3` company/business
-#'   * `4` vocational school/trades/technical (not high school, not college)
-#'   * `5` secretarial school
-#'   * `6` adult education/school
-#'   * `7` medical/nursing/health/dental/hospital
-#'   * `8` union
-#'   * `9` armed forces
-#'   * `10` college/university
-#'   * `11` art/design
-#'   * `12` business college (not business school at a university)
-#'   * `13` home study/correspondence
-#'   * `14` job corp
-#'   * `15` beauty school/cosmetology
-#'   * `16` insurance, real estate, finance, executive management
-#'   * `17` police/fire academy; training
-#'   * `18` development center
-#'   * `19` career center
-#'   * `20` foreign college/university
-#'   * `30` other
-#'   * `40` unable to code response, unclear, not identifiable
+#'   * `0` administrative unit
+#'   * `1` public, 4-year or above
+#'   * `2` private not-for-profit, 4-year or above
+#'   * `3` private for-profit, 4-year or above
+#'   * `4` public, 2-year
+#'   * `5` private not-for-profit, 2-year or less
+#'   * `6` private for-profit, 2-year
+#'   * `7` public, less than 2-year
+#'   * `9` private for-profit, less than 2-year
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -556,22 +782,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name voednme2
-NULL
-
-#'  Type of college spouse attended
-#' 
-#'  spsector
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/77/vshow).
 #'
 #' Counts by year: 
 #'
@@ -614,17 +826,37 @@ NULL
 #'  |2024  |-     |-                                   |-                                       |-              |-                       |-                   |-                          |3309                       |3309  |
 #'  |Total |67751 |20                                  |332                                     |99             |640                     |2                   |2                          |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name spsector
+NULL
+
+
+#'  Total number of students enrolled in college spouse attended
+#' 
+#'  speftotlt
+#' 
+#' Question In what year did you receive the (COLLEGE NAME) degree? 
+#' J. Total Fall Enrollment
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` administrative unit
-#'   * `1` public, 4-year or above
-#'   * `2` private not-for-profit, 4-year or above
-#'   * `3` private for-profit, 4-year or above
-#'   * `4` public, 2-year
-#'   * `5` private not-for-profit, 2-year or less
-#'   * `6` private for-profit, 2-year
-#'   * `7` public, less than 2-year
-#'   * `9` private for-profit, less than 2-year
+#'   * `1` 0-467 students enrolled
+#'   * `2` 468 or more students
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -638,22 +870,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name spsector
-NULL
-
-#'  Total number of students enrolled in college spouse attended
-#' 
-#'  speftotlt
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/78/vshow).
 #'
 #' Counts by year: 
 #'
@@ -696,104 +914,22 @@ NULL
 #'  |2024  |-     |-                       |-                    |-         |3309                       |3309  |
 #'  |Total |67756 |12                      |1077                 |1         |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` 0-467 students enrolled
-#'   * `2` 468 or more students
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
 #' 
 #' @keywords variable
 #' @md
 #' @name speftotlt
 NULL
 
-#'  Rate of ba degree earning in college spouse attended
-#' 
-#'  spbarate
-#' 
-#' Question None
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |0-39.9pct |40-57.9pct |58pct or over |no answer |not available in this year |Total |
-#'  |:-----|:-----|:-------|:--------|:-----------|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-       |-        |-           |-         |-                          |1613  |
-#'  |1973  |1504  |-       |-        |-           |-         |-                          |1504  |
-#'  |1974  |1484  |-       |-        |-           |-         |-                          |1484  |
-#'  |1975  |1490  |-       |-        |-           |-         |-                          |1490  |
-#'  |1976  |1499  |-       |-        |-           |-         |-                          |1499  |
-#'  |1977  |1530  |-       |-        |-           |-         |-                          |1530  |
-#'  |1978  |1532  |-       |-        |-           |-         |-                          |1532  |
-#'  |1980  |1468  |-       |-        |-           |-         |-                          |1468  |
-#'  |1982  |1860  |-       |-        |-           |-         |-                          |1860  |
-#'  |1983  |1599  |-       |-        |-           |-         |-                          |1599  |
-#'  |1984  |1473  |-       |-        |-           |-         |-                          |1473  |
-#'  |1985  |1534  |-       |-        |-           |-         |-                          |1534  |
-#'  |1986  |1470  |-       |-        |-           |-         |-                          |1470  |
-#'  |1987  |1819  |-       |-        |-           |-         |-                          |1819  |
-#'  |1988  |1481  |-       |-        |-           |-         |-                          |1481  |
-#'  |1989  |1537  |-       |-        |-           |-         |-                          |1537  |
-#'  |1990  |1372  |-       |-        |-           |-         |-                          |1372  |
-#'  |1991  |1517  |-       |-        |-           |-         |-                          |1517  |
-#'  |1993  |1606  |-       |-        |-           |-         |-                          |1606  |
-#'  |1994  |2992  |-       |-        |-           |-         |-                          |2992  |
-#'  |1996  |2904  |-       |-        |-           |-         |-                          |2904  |
-#'  |1998  |2832  |-       |-        |-           |-         |-                          |2832  |
-#'  |2000  |2817  |-       |-        |-           |-         |-                          |2817  |
-#'  |2002  |2765  |-       |-        |-           |-         |-                          |2765  |
-#'  |2004  |2812  |-       |-        |-           |-         |-                          |2812  |
-#'  |2006  |4510  |-       |-        |-           |-         |-                          |4510  |
-#'  |2008  |2023  |-       |-        |-           |-         |-                          |2023  |
-#'  |2010  |2044  |-       |-        |-           |-         |-                          |2044  |
-#'  |2012  |1744  |30      |80       |119         |1         |-                          |1974  |
-#'  |2014  |2168  |63      |123      |183         |1         |-                          |2538  |
-#'  |2016  |2511  |45      |101      |210         |-         |-                          |2867  |
-#'  |2018  |2348  |-       |-        |-           |-         |-                          |2348  |
-#'  |2021  |4032  |-       |-        |-           |-         |-                          |4032  |
-#'  |2022  |-     |-       |-        |-           |-         |3544                       |3544  |
-#'  |2024  |-     |-       |-        |-           |-         |3309                       |3309  |
-#'  |Total |67890 |138     |304      |512         |2         |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` 0-39.9pct
-#'   * `2` 40-57.9pct
-#'   * `3` 58pct or over
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name spbarate
-NULL
 

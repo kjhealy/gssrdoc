@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 edcskill
 }
 \details{
-Question 1359. Now think about the skills that you actually use in your job. How important would you say each of the following was in developing these skills? a. School, college, or university
+Question Now think about the skills that you actually use in your job. How important would you say each of the following  was in developing these skills?
+A. School, college, or university
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very important
+\item \code{2} important
+\item \code{3} not un/important
+\item \code{4} not important
+\item \code{5} not important at all
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4583/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab can't choose \tab important \tab no answer \tab not important \tab not important at all \tab not un/important \tab very important \tab not available in this year \tab Total \cr
@@ -57,27 +81,43 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very important
-\item \code{2} important
-\item \code{3} not un/important
-\item \code{4} not important
-\item \code{5} not important at all
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1998 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Work Orientation: 
+\code{\link{absent}},
+\code{\link{chngwork}},
+\code{\link{helporg1}},
+\code{\link{jobskill}},
+\code{\link{prideorg}},
+\code{\link{proudwrk}},
+\code{\link{stayorg3}},
+\code{\link{useskill}},
+\code{\link{wktenure}}
+
+Other Job: 
+\code{\link{absent}},
+\code{\link{jobskill}},
+\code{\link{useskill}},
+\code{\link{wktenure}}
+
+Other Work: 
+\code{\link{absent}},
+\code{\link{chngwork}},
+\code{\link{helporg1}},
+\code{\link{jobskill}},
+\code{\link{prideorg}},
+\code{\link{proudwrk}},
+\code{\link{stayorg3}},
+\code{\link{useskill}},
+\code{\link{wktenure}}
+}
+\concept{Job}
+\concept{Work}
+\concept{Work Orientation}
 \keyword{variable}

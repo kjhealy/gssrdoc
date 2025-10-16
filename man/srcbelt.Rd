@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 srcbelt
 }
 \details{
-Question None
+Question C. SRC (SURVEY RESEARCH CENTER, UNIVERSITY OF MICHIGAN) NEW BELT CODE
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} central city of 12 largest smsas
+\item \code{2} central city of the remainder of the 100 largest smsas
+\item \code{3} suburbs of 12 largest smsas
+\item \code{4} suburbs of the remaining 100 largest smsas
+\item \code{5} other urban (counties having towns of 10,000 or more)
+\item \code{6} other rural (counties having no towns of 10,000 or more)
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/121/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab central city of 12 largest smsas \tab central city of the remainder of the 100 largest smsas \tab other rural (counties having no towns of 10,000 or more) \tab other urban (counties having towns of 10,000 or more) \tab suburbs of 12 largest smsas \tab suburbs of the remaining 100 largest smsas \tab iap \tab not available in this release \tab Total \cr
@@ -57,28 +81,67 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} central city of 12 largest smsas
-\item \code{2} central city of the remainder of the 100 largest smsas
-\item \code{3} suburbs of 12 largest smsas
-\item \code{4} suburbs of the remaining 100 largest smsas
-\item \code{5} other urban (counties having towns of 10,000 or more)
-\item \code{6} other rural (counties having no towns of 10,000 or more)
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1972 \tab -/-/-/- \tab full \cr
+   1973 \tab -/-/-/- \tab full \cr
+   1974 \tab -/-/-/- \tab full \cr
+   1975 \tab -/-/-/- \tab full \cr
+   1976 \tab -/-/-/- \tab full \cr
+   1977 \tab -/-/-/- \tab full \cr
+   1978 \tab -/-/-/- \tab full \cr
+   1980 \tab -/-/-/- \tab full \cr
+   1982 \tab -/-/-/- \tab full \cr
+   1983 \tab -/-/-/- \tab full \cr
+   1984 \tab -/-/-/- \tab full \cr
+   1985 \tab -/-/-/- \tab full \cr
+   1986 \tab -/-/-/- \tab full \cr
+   1987 \tab -/-/-/- \tab full \cr
+   1988 \tab A/B/C/- \tab full \cr
+   1989 \tab A/B/C/- \tab full \cr
+   1990 \tab A/B/C/- \tab full \cr
+   1991 \tab A/B/C/- \tab full \cr
+   1993 \tab A/B/C/- \tab full \cr
+   1994 \tab A/B/C/- \tab full \cr
+   1996 \tab A/B/C/- \tab full \cr
+   1998 \tab A/B/C/- \tab full \cr
+   2000 \tab A/B/C/- \tab full \cr
+   2002 \tab A/B/C/- \tab full \cr
+   2004 \tab A/B/C/- \tab full \cr
+   2006 \tab A/B/C/D \tab full \cr
+   2008 \tab A/B/C/- \tab full \cr
+   2010 \tab A/B/C/- \tab full \cr
+   2012 \tab A/B/C/- \tab full \cr
+   2014 \tab A/B/C/- \tab full \cr
+   2016 \tab A/B/C/- \tab full \cr
+   2018 \tab A/B/C/- \tab full \cr
+   2021 \tab A/B/C/- \tab full \cr
+   2022 \tab A/B/C/- \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{dotdata}},
+\code{\link{income06}},
+\code{\link{income16}},
+\code{\link{rincom06}},
+\code{\link{rincom16}},
+\code{\link{rincom98}},
+\code{\link{size}},
+\code{\link{xnorcsiz}}
+
+Other Residence: 
+\code{\link{region}},
+\code{\link{size}},
+\code{\link{xnorcsiz}}
+
+Other Size Of Place Of Interview: 
+\code{\link{size}},
+\code{\link{xnorcsiz}}
+}
+\concept{Core}
+\concept{Residence}
+\concept{Size Of Place Of Interview}
 \keyword{variable}

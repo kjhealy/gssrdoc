@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 trust
 }
 \details{
-Question 163a. Generally speaking, would you say that most people can be trusted or that you can't be too careful in life?
+Question A. Generally speaking, would you say that most people can be trusted or that you can't be too careful in dealing with people?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} most people can be trusted
+\item \code{2} can't be too careful
+\item \code{3} depends
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/441/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab can't be too careful \tab depends \tab don't know \tab most people can be trusted \tab no answer \tab iap \tab not available in this year \tab Total \cr
@@ -57,25 +78,62 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} most people can be trusted
-\item \code{2} can't be too careful
-\item \code{3} depends
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1972 \tab -/-/- \tab full \cr
+   1973 \tab -/-/- \tab full \cr
+   1975 \tab -/-/- \tab full \cr
+   1976 \tab -/-/- \tab full \cr
+   1978 \tab -/-/- \tab full \cr
+   1980 \tab -/-/- \tab full \cr
+   1983 \tab -/-/- \tab full \cr
+   1984 \tab -/-/- \tab full \cr
+   1986 \tab -/-/- \tab full \cr
+   1987 \tab -/-/- \tab full \cr
+   1988 \tab B/C/- \tab partial \cr
+   1989 \tab B/C/- \tab partial \cr
+   1990 \tab B/C/- \tab partial \cr
+   1991 \tab B/C/- \tab partial \cr
+   1993 \tab B/C/- \tab partial \cr
+   1994 \tab B/C/- \tab partial \cr
+   1996 \tab B/C/- \tab partial \cr
+   1998 \tab A/B/C \tab full \cr
+   2000 \tab B/C/- \tab partial \cr
+   2002 \tab B/C/- \tab partial \cr
+   2004 \tab B/C/- \tab partial \cr
+   2006 \tab A/B/C \tab full \cr
+   2008 \tab B/C/- \tab partial \cr
+   2010 \tab B/C/- \tab partial \cr
+   2012 \tab B/C/- \tab partial \cr
+   2014 \tab B/C/- \tab partial \cr
+   2016 \tab B/C/- \tab partial \cr
+   2018 \tab B/C/- \tab partial \cr
+   2021 \tab B/C/- \tab partial \cr
+   2022 \tab B/C/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{fair}},
+\code{\link{hapcohab}},
+\code{\link{health}},
+\code{\link{helpful}},
+\code{\link{life}},
+\code{\link{trusty}}
+
+Other People: 
+\code{\link{fair}},
+\code{\link{helpful}},
+\code{\link{trusty}}
+
+Other Split Ballots: 
+\code{\link{satcity}},
+\code{\link{sathobby}},
+\code{\link{trusty}}
+}
+\concept{Core}
+\concept{People}
+\concept{Split Ballots}
 \keyword{variable}

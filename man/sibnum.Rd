@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 sibnum
 }
 \details{
-Question 1218. In the first part of this questionnaire, we would like to ask you about your family and friends. For example, about how often you see or visit them, and when you turn to them for help or advice. We would like to begin with your brothers and sisters. How many adult brothers and/or sisters - we mean brothers or sisters who are age 18 and older - do you have? (We mean brothers and sisters who are still alive. Please include step-brothers and -sisters, half-brothers and sisters and adopted brothers and sisters)
+Question In the first part of this questionnaire, we would like to ask you about your family and friends. For example, about how often you see or visit them, and when you turn to them for help or advice.
+We would like to begin with your brothers and sisters. How many adult brothers and/or sisters - we mean brothers or sisters who are age 18 and older - do you have? (We mean brothers and sisters who are still alive. Please include step-brothers and -sisters, half-brothers and sisters and adopted brothers and sisters)
+If you have no ADULT brothers or sisters, enter ''0''.
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4184/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllll}{
    year \tab iap \tab 0 \tab 1 \tab 12 \tab 13 \tab 15 \tab 16 \tab 17 \tab 19 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 9 \tab not available in this year \tab Total \cr
@@ -57,22 +77,25 @@ Counts by year:\tabular{lllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Social Networks & Support Systems: 
+\code{\link{kidmost}},
+\code{\link{kidnum}},
+\code{\link{kidvisit}},
+\code{\link{livecom}},
+\code{\link{livehome}},
+\code{\link{matime1}},
+\code{\link{sibcall}},
+\code{\link{sibmost}},
+\code{\link{sibvisit}}
+}
+\concept{ISSP Social Networks & Support Systems}
+\concept{Siblings}
 \keyword{variable}

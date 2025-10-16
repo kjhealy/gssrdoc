@@ -10,11 +10,30 @@ General Social Survey https://gss.norc.org
 numcong
 }
 \details{
-Question 392. About how many members does this congregation have?
+Question About how many members does this congregation have?
 }
+\section{Values}{
+
+\itemize{
+\item \code{9996} 9996 or more
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1145/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 100 \tab 1000 \tab 109 \tab 110 \tab 1100 \tab 115 \tab 12 \tab 120 \tab 1200 \tab 125 \tab 130 \tab 1300 \tab 140 \tab 1400 \tab 145 \tab 15 \tab 150 \tab 1500 \tab 160 \tab 1600 \tab 165 \tab 168 \tab 175 \tab 180 \tab 1800 \tab 190 \tab 20 \tab 200 \tab 2000 \tab 210 \tab 220 \tab 225 \tab 2400 \tab 25 \tab 250 \tab 2500 \tab 260 \tab 270 \tab 275 \tab 2800 \tab 30 \tab 300 \tab 3000 \tab 325 \tab 35 \tab 350 \tab 3500 \tab 370 \tab 375 \tab 4 \tab 40 \tab 400 \tab 4000 \tab 45 \tab 450 \tab 4500 \tab 50 \tab 500 \tab 5000 \tab 52 \tab 53 \tab 55 \tab 550 \tab 5500 \tab 60 \tab 600 \tab 6000 \tab 65 \tab 650 \tab 6800 \tab 70 \tab 700 \tab 724 \tab 75 \tab 750 \tab 76 \tab 78 \tab 8 \tab 80 \tab 800 \tab 8000 \tab 8500 \tab 90 \tab 900 \tab 92 \tab 950 \tab 9996 or more \tab don't know \tab no answer \tab 10 \tab 102 \tab 103 \tab 104 \tab 105 \tab 135 \tab 1695 \tab 18 \tab 185 \tab 1850 \tab 1900 \tab 2100 \tab 253 \tab 265 \tab 280 \tab 285 \tab 310 \tab 330 \tab 3300 \tab 3600 \tab 3800 \tab 385 \tab 405 \tab 425 \tab 430 \tab 4400 \tab 475 \tab 480 \tab 49 \tab 51 \tab 525 \tab 540 \tab 596 \tab 63 \tab 692 \tab 712 \tab 79 \tab 85 \tab 875 \tab 9000 \tab 95 \tab 122 \tab 127 \tab 128 \tab 13 \tab 136 \tab 14 \tab 141 \tab 170 \tab 1700 \tab 186 \tab 2 \tab 205 \tab 214 \tab 22 \tab 2200 \tab 23 \tab 230 \tab 24 \tab 240 \tab 2600 \tab 2700 \tab 32 \tab 320 \tab 3200 \tab 3400 \tab 380 \tab 382 \tab 39 \tab 42 \tab 453 \tab 5 \tab 580 \tab 6500 \tab 7000 \tab 715 \tab 767 \tab 870 \tab 89 \tab 99 \tab 2185 \tab 233 \tab 27 \tab 28 \tab 324 \tab 37 \tab 420 \tab 4700 \tab 6 \tab 799 \tab 83 \tab 850 \tab 9 \tab 1 \tab 154 \tab 340 \tab 520 \tab 62 \tab 64 \tab 86 \tab not available in this year \tab Total \cr
@@ -57,23 +76,39 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{9996} 9996 or more
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1998 \tab A/B/C \tab full \cr
+   2000 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2012 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Religion: 
+\code{\link{cathsch}},
+\code{\link{givearts}},
+\code{\link{giveoth}},
+\code{\link{giverel}},
+\code{\link{homesch}},
+\code{\link{kid5up}},
+\code{\link{pubsch}},
+\code{\link{relhrs1}},
+\code{\link{relhrs2}}
+
+Other Religion: 
+\code{\link{cathsch}},
+\code{\link{givearts}},
+\code{\link{giveoth}},
+\code{\link{giverel}},
+\code{\link{homesch}},
+\code{\link{kid5up}},
+\code{\link{pubsch}},
+\code{\link{relhrs1}},
+\code{\link{relhrs2}}
+}
+\concept{Religion}
 \keyword{variable}

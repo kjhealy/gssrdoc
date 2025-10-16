@@ -1,11 +1,217 @@
+#'  R favors living in half white neighborhood
+#' 
+#'  livewhts
+#' 
+#' Question Now I'm going to ask you about different types of contact with various groups of people. In each situation would you please tell me whether you would be very much in favor of it happening, somewhat in favor, neither in favor nor opposed to it happening, somewhat opposed, or very much opposed to it happening?
+#' G. Living in a neighborhood where half of your neighbors were whites?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly favor
+#'   * `2` favor
+#'   * `3` neither favor nor oppose
+#'   * `4` oppose
+#'   * `5` strongly oppose
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1220/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |favor |neither favor nor oppose |no answer |oppose |strongly favor |strongly oppose |not available in this year |not available in this release |Total |
+#'  |:-----|:-----|:----------|:-----|:------------------------|:---------|:------|:--------------|:---------------|:--------------------------|:-----------------------------|:-----|
+#'  |1972  |1613  |-          |-     |-                        |-         |-      |-              |-               |-                          |-                             |1613  |
+#'  |1973  |1504  |-          |-     |-                        |-         |-      |-              |-               |-                          |-                             |1504  |
+#'  |1974  |1484  |-          |-     |-                        |-         |-      |-              |-               |-                          |-                             |1484  |
+#'  |1975  |1490  |-          |-     |-                        |-         |-      |-              |-               |-                          |-                             |1490  |
+#'  |1976  |1499  |-          |-     |-                        |-         |-      |-              |-               |-                          |-                             |1499  |
+#'  |1977  |1530  |-          |-     |-                        |-         |-      |-              |-               |-                          |-                             |1530  |
+#'  |1978  |1532  |-          |-     |-                        |-         |-      |-              |-               |-                          |-                             |1532  |
+#'  |1980  |1468  |-          |-     |-                        |-         |-      |-              |-               |-                          |-                             |1468  |
+#'  |1982  |1860  |-          |-     |-                        |-         |-      |-              |-               |-                          |-                             |1860  |
+#'  |1983  |1599  |-          |-     |-                        |-         |-      |-              |-               |-                          |-                             |1599  |
+#'  |1984  |1473  |-          |-     |-                        |-         |-      |-              |-               |-                          |-                             |1473  |
+#'  |1985  |1534  |-          |-     |-                        |-         |-      |-              |-               |-                          |-                             |1534  |
+#'  |1986  |1470  |-          |-     |-                        |-         |-      |-              |-               |-                          |-                             |1470  |
+#'  |1987  |1819  |-          |-     |-                        |-         |-      |-              |-               |-                          |-                             |1819  |
+#'  |1988  |1481  |-          |-     |-                        |-         |-      |-              |-               |-                          |-                             |1481  |
+#'  |1989  |1537  |-          |-     |-                        |-         |-      |-              |-               |-                          |-                             |1537  |
+#'  |1990  |1372  |-          |-     |-                        |-         |-      |-              |-               |-                          |-                             |1372  |
+#'  |1991  |1517  |-          |-     |-                        |-         |-      |-              |-               |-                          |-                             |1517  |
+#'  |1993  |1606  |-          |-     |-                        |-         |-      |-              |-               |-                          |-                             |1606  |
+#'  |1994  |2992  |-          |-     |-                        |-         |-      |-              |-               |-                          |-                             |2992  |
+#'  |1996  |2904  |-          |-     |-                        |-         |-      |-              |-               |-                          |-                             |2904  |
+#'  |1998  |2832  |-          |-     |-                        |-         |-      |-              |-               |-                          |-                             |2832  |
+#'  |2000  |1419  |13         |294   |537                      |48        |71     |412            |23              |-                          |-                             |2817  |
+#'  |2002  |1857  |7          |212   |365                      |-         |48     |257            |19              |-                          |-                             |2765  |
+#'  |2004  |1906  |7          |201   |460                      |2         |52     |167            |17              |-                          |-                             |2812  |
+#'  |2006  |2518  |13         |446   |972                      |4         |104    |429            |24              |-                          |-                             |4510  |
+#'  |2008  |694   |13         |310   |661                      |3         |61     |258            |23              |-                          |-                             |2023  |
+#'  |2010  |614   |13         |354   |686                      |6         |47     |308            |16              |-                          |-                             |2044  |
+#'  |2012  |672   |14         |315   |642                      |2         |40     |267            |22              |-                          |-                             |1974  |
+#'  |2014  |863   |12         |371   |878                      |4         |65     |322            |23              |-                          |-                             |2538  |
+#'  |2016  |979   |11         |453   |945                      |5         |78     |368            |28              |-                          |-                             |2867  |
+#'  |2018  |2348  |-          |-     |-                        |-         |-      |-              |-               |-                          |-                             |2348  |
+#'  |2021  |4032  |-          |-     |-                        |-         |-      |-              |-               |-                          |-                             |4032  |
+#'  |2022  |-     |-          |-     |-                        |-         |-      |-              |-               |3544                       |-                             |3544  |
+#'  |2024  |-     |-          |-     |-                        |-         |-      |-              |-               |-                          |3309                          |3309  |
+#'  |Total |56018 |103        |2956  |6146                     |74        |566    |2788           |195             |3544                       |3309                          |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/-   |partial      |
+#'  |2004 |A/B/-   |partial      |
+#'  |2006 |A/B/-   |partial      |
+#'  |2008 |A/B/-   |partial      |
+#'  |2010 |A/B/-   |partial      |
+#'  |2012 |A/B/-   |partial      |
+#'  |2014 |A/B/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Intergroup Relations
+#' @family Whites
+#' 
+#' @keywords variable
+#' @md
+#' @name livewhts
+NULL
+
+
+#'  Close relative marry jew
+#' 
+#'  marjew
+#' 
+#' Question What about having a close relative marry a Jewish person?  Would you be very in favor of it happening, somewhat In favor, neither in favor nor opposed to it happening, somewhat opposed, or very opposed to it happening? 
+#' A. A Jewish person?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly favor
+#'   * `2` favor
+#'   * `3` neither favor nor oppose
+#'   * `4` oppose
+#'   * `5` strongly oppose
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1221/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |favor |neither favor nor oppose |no answer |oppose |strongly favor |strongly oppose |not available in this year |Total |
+#'  |:-----|:-----|:----------|:-----|:------------------------|:---------|:------|:--------------|:---------------|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-     |-                        |-         |-      |-              |-               |-                          |1613  |
+#'  |1973  |1504  |-          |-     |-                        |-         |-      |-              |-               |-                          |1504  |
+#'  |1974  |1484  |-          |-     |-                        |-         |-      |-              |-               |-                          |1484  |
+#'  |1975  |1490  |-          |-     |-                        |-         |-      |-              |-               |-                          |1490  |
+#'  |1976  |1499  |-          |-     |-                        |-         |-      |-              |-               |-                          |1499  |
+#'  |1977  |1530  |-          |-     |-                        |-         |-      |-              |-               |-                          |1530  |
+#'  |1978  |1532  |-          |-     |-                        |-         |-      |-              |-               |-                          |1532  |
+#'  |1980  |1468  |-          |-     |-                        |-         |-      |-              |-               |-                          |1468  |
+#'  |1982  |1860  |-          |-     |-                        |-         |-      |-              |-               |-                          |1860  |
+#'  |1983  |1599  |-          |-     |-                        |-         |-      |-              |-               |-                          |1599  |
+#'  |1984  |1473  |-          |-     |-                        |-         |-      |-              |-               |-                          |1473  |
+#'  |1985  |1534  |-          |-     |-                        |-         |-      |-              |-               |-                          |1534  |
+#'  |1986  |1470  |-          |-     |-                        |-         |-      |-              |-               |-                          |1470  |
+#'  |1987  |1819  |-          |-     |-                        |-         |-      |-              |-               |-                          |1819  |
+#'  |1988  |1481  |-          |-     |-                        |-         |-      |-              |-               |-                          |1481  |
+#'  |1989  |1537  |-          |-     |-                        |-         |-      |-              |-               |-                          |1537  |
+#'  |1990  |-     |16         |167   |859                      |10        |154    |98             |68              |-                          |1372  |
+#'  |1991  |1517  |-          |-     |-                        |-         |-      |-              |-               |-                          |1517  |
+#'  |1993  |1606  |-          |-     |-                        |-         |-      |-              |-               |-                          |1606  |
+#'  |1994  |2992  |-          |-     |-                        |-         |-      |-              |-               |-                          |2992  |
+#'  |1996  |2904  |-          |-     |-                        |-         |-      |-              |-               |-                          |2904  |
+#'  |1998  |2832  |-          |-     |-                        |-         |-      |-              |-               |-                          |2832  |
+#'  |2000  |1419  |70         |245   |649                      |13        |110    |245            |66              |-                          |2817  |
+#'  |2002  |2765  |-          |-     |-                        |-         |-      |-              |-               |-                          |2765  |
+#'  |2004  |2812  |-          |-     |-                        |-         |-      |-              |-               |-                          |2812  |
+#'  |2006  |4510  |-          |-     |-                        |-         |-      |-              |-               |-                          |4510  |
+#'  |2008  |2023  |-          |-     |-                        |-         |-      |-              |-               |-                          |2023  |
+#'  |2010  |2044  |-          |-     |-                        |-         |-      |-              |-               |-                          |2044  |
+#'  |2012  |1974  |-          |-     |-                        |-         |-      |-              |-               |-                          |1974  |
+#'  |2014  |2538  |-          |-     |-                        |-         |-      |-              |-               |-                          |2538  |
+#'  |2016  |2867  |-          |-     |-                        |-         |-      |-              |-               |-                          |2867  |
+#'  |2018  |2348  |-          |-     |-                        |-         |-      |-              |-               |-                          |2348  |
+#'  |2021  |4032  |-          |-     |-                        |-         |-      |-              |-               |-                          |4032  |
+#'  |2022  |-     |-          |-     |-                        |-         |-      |-              |-               |3544                       |3544  |
+#'  |2024  |-     |-          |-     |-                        |-         |-      |-              |-               |3309                       |3309  |
+#'  |Total |66076 |86         |412   |1508                     |23        |264    |343            |134             |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Intergroup Relations
+#' @family Jews
+#' 
+#' @keywords variable
+#' @md
+#' @name marjew
+NULL
+
+
 #'  Close relative marry black person
 #' 
 #'  marblk
 #' 
-#' Question 405. What about having a close relative marry a black person? Would you be in very favor of it happening, somewhat in favor, neither in favor nor opposed to it happening, somewhat opposed, or very opposed to it happening?
+#' Question What about having a close relative marry a Black person? Would you be very in favor of it happening, somewhat in favor, neither in favor nor opposed to it happening, somewhat opposed, or very opposed to it happening?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly favor
+#'   * `2` favor
+#'   * `3` neither favor nor oppose
+#'   * `4` oppose
+#'   * `5` strongly oppose
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1222/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +254,45 @@
 #'  |2024  |-     |-          |-     |-                        |-         |-      |-              |-               |-              |3309                          |3309  |
 #'  |Total |47768 |130        |2812  |11695                    |98        |2602   |4624           |2644            |17             |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
+#'  |1996 |A/B/-   |partial      |
+#'  |1998 |A/B/-   |partial      |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/-   |partial      |
+#'  |2004 |A/B/-   |partial      |
+#'  |2006 |A/B/-   |partial      |
+#'  |2008 |A/B/-   |partial      |
+#'  |2010 |A/B/-   |partial      |
+#'  |2012 |A/B/-   |partial      |
+#'  |2014 |A/B/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'  |2021 |A/B/-   |partial      |
+#'  |2022 |A/B/-   |partial      |
+#'  |2024 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Intergroup Relations
+#' @family Blacks
+#' 
+#' @keywords variable
+#' @md
+#' @name marblk
+NULL
+
+
+#'  Close relative marry asian
+#' 
+#'  marasian
+#' 
+#' Question What about having a close relative marry a Jewish person?  Would you be very in favor of it happening, somewhat In favor, neither in favor nor opposed to it happening, somewhat opposed, or very opposed to it happening? 
+#' C. An Asian American person?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly favor
@@ -68,22 +313,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name marblk
-NULL
-
-#'  Close relative marry asian
-#' 
-#'  marasian
-#' 
-#' Question 405. What about having a close relative marry an Asian American person? Would you be in very favor of it happening, somewhat in favor, neither in favor nor opposed to it happening, somewhat opposed, or very opposed to it happening?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1223/vshow).
 #'
 #' Counts by year: 
 #'
@@ -126,6 +357,40 @@ NULL
 #'  |2024  |-     |-          |-     |-                        |-         |-      |-              |-               |-              |3309                          |3309  |
 #'  |Total |52449 |166        |2796  |10719                    |62        |1663   |3596           |915             |24             |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2004 |A/B/-   |partial      |
+#'  |2006 |A/B/-   |partial      |
+#'  |2008 |A/B/-   |partial      |
+#'  |2010 |A/B/-   |partial      |
+#'  |2012 |A/B/-   |partial      |
+#'  |2014 |A/B/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'  |2021 |A/B/-   |partial      |
+#'  |2022 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Intergroup Relations
+#' @family Asian Americans
+#' 
+#' @keywords variable
+#' @md
+#' @name marasian
+NULL
+
+
+#'  Close relative marry hispanic
+#' 
+#'  marhisp
+#' 
+#' Question What about having a close relative marry a Hispanic American person? Would you be very in favor of it happening, somewhat in favor, neither in favor nor opposed to it happening, somewhat opposed, or very opposed to it happening?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly favor
@@ -146,22 +411,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name marasian
-NULL
-
-#'  Close relative marry hispanic
-#' 
-#'  marhisp
-#' 
-#' Question 405. What about having a close relative marry a Hispanic American person? Would you be in very favor of it happening, somewhat in favor, neither in favor nor opposed to it happening, somewhat opposed, or very opposed to it happening?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1224/vshow).
 #'
 #' Counts by year: 
 #'
@@ -204,6 +455,43 @@ NULL
 #'  |2024  |-     |-          |-     |-                        |-         |-      |-              |-               |-              |3309                          |3309  |
 #'  |Total |52449 |137        |2749  |10571                    |68        |1613   |3859           |917             |27             |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2004 |A/B/-   |partial      |
+#'  |2006 |A/B/-   |partial      |
+#'  |2008 |A/B/-   |partial      |
+#'  |2010 |A/B/-   |partial      |
+#'  |2012 |A/B/-   |partial      |
+#'  |2014 |A/B/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'  |2021 |A/B/-   |partial      |
+#'  |2022 |A/B/-   |partial      |
+#'  |2024 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Intergroup Relations
+#' @family Hispanics
+#' 
+#' @keywords variable
+#' @md
+#' @name marhisp
+NULL
+
+
+#'  Close relative marry no. white
+#' 
+#'  marno
+#' 
+#' Question What about having a close relative marry a Jewish person?  Would you be very in favor of it happening, somewhat In favor, neither in favor nor opposed to it happening, somewhat opposed, or very opposed to it happening? 
+#' E. A white raised in the North? 
+#' (INTERVIEWER: READ OPPOSITE REGION - SOUTH = CENSUS REGIONS - SOUTH ATLANTIC, SOUTH EAST, CENTRAL, SOUTH WEST CENTRAL; NORTH = EVERYWHERE ELSE)
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly favor
@@ -224,22 +512,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name marhisp
-NULL
-
-#'  Close relative marry no. white
-#' 
-#'  marno
-#' 
-#' Question 405. What about having a close relative marry a white person rasied in the (OPPOSITE OF R'S REGION)? Would you be in very favor of it happening, somewhat in favor, neither in favor nor opposed to it happening, somewhat opposed, or very opposed to it happening?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1225/vshow).
 #'
 #' Counts by year: 
 #'
@@ -282,6 +556,31 @@ NULL
 #'  |2024  |-     |-          |-     |-                        |-         |-      |-              |-               |3309                       |3309  |
 #'  |Total |68388 |6          |77    |268                      |5         |35     |51             |16              |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Intergroup Relations
+#' @family Whites
+#' 
+#' @keywords variable
+#' @md
+#' @name marno
+NULL
+
+
+#'  Close relative marry so. white
+#' 
+#'  marso
+#' 
+#' Question What about having a close relative marry a Jewish person?  Would you be very in favor of it happening, somewhat In favor, neither in favor nor opposed to it happening, somewhat opposed, or very opposed to it happening? 
+#' F. A white raised in the South? 
+#' (INTERVIEWER: READ OPPOSITE REGION - SOUTH = CENSUS REGIONS - SOUTH ATLANTIC, SOUTH EAST, CENTRAL, SOUTH WEST CENTRAL; NORTH = EVERYWHERE ELSE)
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly favor
@@ -302,22 +601,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name marno
-NULL
-
-#'  Close relative marry so. white
-#' 
-#'  marso
-#' 
-#' Question 405. What about having a close relative marry a white person raised in the south? Would you be in very favor of it happening, somewhat in favor, neither in favor nor opposed to it happening, somewhat opposed, or very opposed to it happening?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1226/vshow).
 #'
 #' Counts by year: 
 #'
@@ -360,6 +645,30 @@ NULL
 #'  |2024  |-     |-          |-     |-                        |-         |-      |-              |-               |3309                       |3309  |
 #'  |Total |67932 |13         |125   |598                      |4         |78     |62             |34              |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Intergroup Relations
+#' @family Southern Whites
+#' 
+#' @keywords variable
+#' @md
+#' @name marso
+NULL
+
+
+#'  R favor close relative marrying white person
+#' 
+#'  marwht
+#' 
+#' Question What about having a close relative marry a Jewish person?  Would you be very in favor of it happening, somewhat In favor, neither in favor nor opposed to it happening, somewhat opposed, or very opposed to it happening? 
+#' G. What about having a close relative marry a white person?  Would you be very in favor of it happening, somewhat in favor, neither in favor nor opposed to it happening, somewhat opposed, or very opposed to it happening?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly favor
@@ -380,22 +689,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name marso
-NULL
-
-#'  R favor close relative marrying white person
-#' 
-#'  marwht
-#' 
-#' Question 405. What about having a close relative marry a white person? Would you be in very favor of it happening, somewhat in favor, neither in favor nor opposed to it happening, somewhat opposed, or very opposed to it happening?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1227/vshow).
 #'
 #' Counts by year: 
 #'
@@ -438,6 +733,41 @@ NULL
 #'  |2024  |-     |-          |-     |-                        |-         |-      |-              |-               |-              |3309                          |3309  |
 #'  |Total |52913 |64         |2453  |8921                     |118       |419    |7274           |209             |19             |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/-   |partial      |
+#'  |2004 |A/B/-   |partial      |
+#'  |2006 |A/B/-   |partial      |
+#'  |2008 |A/B/-   |partial      |
+#'  |2010 |A/B/-   |partial      |
+#'  |2012 |A/B/-   |partial      |
+#'  |2014 |A/B/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'  |2021 |A/B/-   |partial      |
+#'  |2022 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Intergroup Relations
+#' @family Whites
+#' 
+#' @keywords variable
+#' @md
+#' @name marwht
+NULL
+
+
+#'  Work to get welfare
+#' 
+#'  workfare
+#' 
+#' Question Here are some proposals about welfare. I would like to know if you favor or oppose them. (READ "A") - Would you say that you strongly favor it, favor it, neither favor nor oppose it, oppose it, or strongly oppose it? 
+#' A. First, requiring that people must work in order to receive welfare.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly favor
@@ -458,22 +788,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name marwht
-NULL
-
-#'  Work to get welfare
-#' 
-#'  workfare
-#' 
-#' Question 406. Here are some proposals about welfare. I would like to know if you favor or oppose them: a. First, requiring that people must work in order to receive welfare.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1228/vshow).
 #'
 #' Counts by year: 
 #'
@@ -516,6 +832,30 @@ NULL
 #'  |2024  |-     |-          |-     |-                        |-         |-      |-              |-               |3309                       |3309  |
 #'  |Total |67474 |12         |488   |115                      |9         |97     |623            |28              |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Intergroup Relations
+#' @family Welfare
+#' 
+#' @keywords variable
+#' @md
+#' @name workfare
+NULL
+
+
+#'  If less welfare more will work
+#' 
+#'  lessfare
+#' 
+#' Question Here are some proposals about welfare. I would like to know if you favor or oppose them. (READ "A") - Would you say that you strongly favor it, favor it, neither favor nor oppose it, oppose it, or strongly oppose it? 
+#' B. Second, reducing welfare benefits to make working for a living more attractive.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly favor
@@ -536,22 +876,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name workfare
-NULL
-
-#'  If less welfare more will work
-#' 
-#'  lessfare
-#' 
-#' Question 406. Here are some proposals about welfare. I would like to know if you favor or oppose them: b. Second, reducing welfare benefits to make working for a living more attractive.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1229/vshow).
 #'
 #' Counts by year: 
 #'
@@ -594,187 +920,19 @@ NULL
 #'  |2024  |-     |-          |-     |-                        |-         |-      |-              |-               |3309                       |3309  |
 #'  |Total |67474 |38         |494   |149                      |9         |184    |445            |53              |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` strongly favor
-#'   * `2` favor
-#'   * `3` neither favor nor oppose
-#'   * `4` oppose
-#'   * `5` strongly oppose
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Intergroup Relations
+#' @family Welfare
 #' 
 #' @keywords variable
 #' @md
 #' @name lessfare
 NULL
 
-#'  Tax breaks for poor areas
-#' 
-#'  povzone
-#' 
-#' Question 407. Here are several things that the government in Washington might do to deal with the problems of poverty and unemployment. I would like you to tell me if you favor or oppose them. a. Giving businesses and industry special tax breaks for locating in poor and high unemployment areas.
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |favor |neither favor nor oppose |no answer |oppose |strongly favor |strongly oppose |not available in this year |Total |
-#'  |:-----|:-----|:----------|:-----|:------------------------|:---------|:------|:--------------|:---------------|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-     |-                        |-         |-      |-              |-               |-                          |1613  |
-#'  |1973  |1504  |-          |-     |-                        |-         |-      |-              |-               |-                          |1504  |
-#'  |1974  |1484  |-          |-     |-                        |-         |-      |-              |-               |-                          |1484  |
-#'  |1975  |1490  |-          |-     |-                        |-         |-      |-              |-               |-                          |1490  |
-#'  |1976  |1499  |-          |-     |-                        |-         |-      |-              |-               |-                          |1499  |
-#'  |1977  |1530  |-          |-     |-                        |-         |-      |-              |-               |-                          |1530  |
-#'  |1978  |1532  |-          |-     |-                        |-         |-      |-              |-               |-                          |1532  |
-#'  |1980  |1468  |-          |-     |-                        |-         |-      |-              |-               |-                          |1468  |
-#'  |1982  |1860  |-          |-     |-                        |-         |-      |-              |-               |-                          |1860  |
-#'  |1983  |1599  |-          |-     |-                        |-         |-      |-              |-               |-                          |1599  |
-#'  |1984  |1473  |-          |-     |-                        |-         |-      |-              |-               |-                          |1473  |
-#'  |1985  |1534  |-          |-     |-                        |-         |-      |-              |-               |-                          |1534  |
-#'  |1986  |1470  |-          |-     |-                        |-         |-      |-              |-               |-                          |1470  |
-#'  |1987  |1819  |-          |-     |-                        |-         |-      |-              |-               |-                          |1819  |
-#'  |1988  |1481  |-          |-     |-                        |-         |-      |-              |-               |-                          |1481  |
-#'  |1989  |1537  |-          |-     |-                        |-         |-      |-              |-               |-                          |1537  |
-#'  |1990  |698   |26         |331   |104                      |6         |63     |123            |21              |-                          |1372  |
-#'  |1991  |1517  |-          |-     |-                        |-         |-      |-              |-               |-                          |1517  |
-#'  |1993  |1606  |-          |-     |-                        |-         |-      |-              |-               |-                          |1606  |
-#'  |1994  |2992  |-          |-     |-                        |-         |-      |-              |-               |-                          |2992  |
-#'  |1996  |2904  |-          |-     |-                        |-         |-      |-              |-               |-                          |2904  |
-#'  |1998  |2832  |-          |-     |-                        |-         |-      |-              |-               |-                          |2832  |
-#'  |2000  |2817  |-          |-     |-                        |-         |-      |-              |-               |-                          |2817  |
-#'  |2002  |2765  |-          |-     |-                        |-         |-      |-              |-               |-                          |2765  |
-#'  |2004  |2812  |-          |-     |-                        |-         |-      |-              |-               |-                          |2812  |
-#'  |2006  |4510  |-          |-     |-                        |-         |-      |-              |-               |-                          |4510  |
-#'  |2008  |2023  |-          |-     |-                        |-         |-      |-              |-               |-                          |2023  |
-#'  |2010  |2044  |-          |-     |-                        |-         |-      |-              |-               |-                          |2044  |
-#'  |2012  |1974  |-          |-     |-                        |-         |-      |-              |-               |-                          |1974  |
-#'  |2014  |2538  |-          |-     |-                        |-         |-      |-              |-               |-                          |2538  |
-#'  |2016  |2867  |-          |-     |-                        |-         |-      |-              |-               |-                          |2867  |
-#'  |2018  |2348  |-          |-     |-                        |-         |-      |-              |-               |-                          |2348  |
-#'  |2021  |4032  |-          |-     |-                        |-         |-      |-              |-               |-                          |4032  |
-#'  |2022  |-     |-          |-     |-                        |-         |-      |-              |-               |3544                       |3544  |
-#'  |2024  |-     |-          |-     |-                        |-         |-      |-              |-               |3309                       |3309  |
-#'  |Total |68172 |26         |331   |104                      |6         |63     |123            |21              |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` strongly favor
-#'   * `2` favor
-#'   * `3` neither favor nor oppose
-#'   * `4` oppose
-#'   * `5` strongly oppose
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name povzone
-NULL
-
-#'  Spend more on poor schools
-#' 
-#'  povschs
-#' 
-#' Question 407. Here are several things that the government in Washington might do to deal with the problems of poverty and unemployment. I would like you to tell me if you favor or oppose them. b. Spending more money on the schools in poor neighborhods especially for pre-school and early education programs.
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |favor |neither favor nor oppose |no answer |oppose |strongly favor |strongly oppose |not available in this year |Total |
-#'  |:-----|:-----|:----------|:-----|:------------------------|:---------|:------|:--------------|:---------------|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-     |-                        |-         |-      |-              |-               |-                          |1613  |
-#'  |1973  |1504  |-          |-     |-                        |-         |-      |-              |-               |-                          |1504  |
-#'  |1974  |1484  |-          |-     |-                        |-         |-      |-              |-               |-                          |1484  |
-#'  |1975  |1490  |-          |-     |-                        |-         |-      |-              |-               |-                          |1490  |
-#'  |1976  |1499  |-          |-     |-                        |-         |-      |-              |-               |-                          |1499  |
-#'  |1977  |1530  |-          |-     |-                        |-         |-      |-              |-               |-                          |1530  |
-#'  |1978  |1532  |-          |-     |-                        |-         |-      |-              |-               |-                          |1532  |
-#'  |1980  |1468  |-          |-     |-                        |-         |-      |-              |-               |-                          |1468  |
-#'  |1982  |1860  |-          |-     |-                        |-         |-      |-              |-               |-                          |1860  |
-#'  |1983  |1599  |-          |-     |-                        |-         |-      |-              |-               |-                          |1599  |
-#'  |1984  |1473  |-          |-     |-                        |-         |-      |-              |-               |-                          |1473  |
-#'  |1985  |1534  |-          |-     |-                        |-         |-      |-              |-               |-                          |1534  |
-#'  |1986  |1470  |-          |-     |-                        |-         |-      |-              |-               |-                          |1470  |
-#'  |1987  |1819  |-          |-     |-                        |-         |-      |-              |-               |-                          |1819  |
-#'  |1988  |1481  |-          |-     |-                        |-         |-      |-              |-               |-                          |1481  |
-#'  |1989  |1537  |-          |-     |-                        |-         |-      |-              |-               |-                          |1537  |
-#'  |1990  |698   |11         |360   |49                       |6         |28     |211            |9               |-                          |1372  |
-#'  |1991  |1517  |-          |-     |-                        |-         |-      |-              |-               |-                          |1517  |
-#'  |1993  |1606  |-          |-     |-                        |-         |-      |-              |-               |-                          |1606  |
-#'  |1994  |2992  |-          |-     |-                        |-         |-      |-              |-               |-                          |2992  |
-#'  |1996  |2904  |-          |-     |-                        |-         |-      |-              |-               |-                          |2904  |
-#'  |1998  |2832  |-          |-     |-                        |-         |-      |-              |-               |-                          |2832  |
-#'  |2000  |2817  |-          |-     |-                        |-         |-      |-              |-               |-                          |2817  |
-#'  |2002  |2765  |-          |-     |-                        |-         |-      |-              |-               |-                          |2765  |
-#'  |2004  |2812  |-          |-     |-                        |-         |-      |-              |-               |-                          |2812  |
-#'  |2006  |4510  |-          |-     |-                        |-         |-      |-              |-               |-                          |4510  |
-#'  |2008  |2023  |-          |-     |-                        |-         |-      |-              |-               |-                          |2023  |
-#'  |2010  |2044  |-          |-     |-                        |-         |-      |-              |-               |-                          |2044  |
-#'  |2012  |1974  |-          |-     |-                        |-         |-      |-              |-               |-                          |1974  |
-#'  |2014  |2538  |-          |-     |-                        |-         |-      |-              |-               |-                          |2538  |
-#'  |2016  |2867  |-          |-     |-                        |-         |-      |-              |-               |-                          |2867  |
-#'  |2018  |2348  |-          |-     |-                        |-         |-      |-              |-               |-                          |2348  |
-#'  |2021  |4032  |-          |-     |-                        |-         |-      |-              |-               |-                          |4032  |
-#'  |2022  |-     |-          |-     |-                        |-         |-      |-              |-               |3544                       |3544  |
-#'  |2024  |-     |-          |-     |-                        |-         |-      |-              |-               |3309                       |3309  |
-#'  |Total |68172 |11         |360   |49                       |6         |28     |211            |9               |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` strongly favor
-#'   * `2` favor
-#'   * `3` neither favor nor oppose
-#'   * `4` oppose
-#'   * `5` strongly oppose
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name povschs
-NULL
 

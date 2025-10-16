@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 engnrsci
 }
 \details{
-Question 1073. Please look at Card B20. How scientific are each of the following fields? If you have not heard of a particular field, just say you haven't heard of it h. Engineering
+Question Please look at Card B20. How scientific are each of the following fields? If you have not heard of a particular field, just say you havenâ€™t heard of it
+H. Engineering. Is engineering very scientific, pretty scientific, not too scientific, or not scientific at all?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very scientific
+\item \code{2} pretty scientific
+\item \code{3} not too scientific
+\item \code{4} not scientific at all
+\item \code{5} haven't heard of it (volunteered)
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3413/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab don't know \tab haven't heard of it (volunteered) \tab no answer \tab not scientific at all \tab not too scientific \tab pretty scientific \tab very scientific \tab not available in this year \tab Total \cr
@@ -57,27 +81,35 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very scientific
-\item \code{2} pretty scientific
-\item \code{3} not too scientific
-\item \code{4} not scientific at all
-\item \code{5} haven't heard of it (volunteered)
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab B/C \tab partial \cr
+   2012 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{accntsci}},
+\code{\link{biosci}},
+\code{\link{econsci}},
+\code{\link{knwecon}},
+\code{\link{knwforgn}},
+\code{\link{knwgw}},
+\code{\link{knwpolar}},
+\code{\link{knwsci}},
+\code{\link{medsci}}
+
+Other Science: 
+\code{\link{accntsci}},
+\code{\link{biosci}},
+\code{\link{econsci}},
+\code{\link{knwgw}},
+\code{\link{knwpolar}},
+\code{\link{knwsci}},
+\code{\link{medsci}}
+}
+\concept{Science}
+\concept{Science Knowledge & Attitudes}
 \keyword{variable}

@@ -12,9 +12,39 @@ extraval1
 \details{
 Question What was the approximate total dollar value of these various payments in 2021?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} less than $100
+\item \code{2} $100 to $299
+\item \code{3} $300 to $499
+\item \code{4} $500 to $999
+\item \code{5} $1,000 to $1,499
+\item \code{6} $1,500 to $2,499
+\item \code{7} $2,500 to $3,999
+\item \code{8} $4,000 to $6,999
+\item \code{9} $7,000 to $14,999
+\item \code{10} $15,000 to $49,999
+\item \code{11} $50,000 to $99,999
+\item \code{12} over $100,000
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7851/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllll}{
    year \tab not available in this year \tab $1,000 to $1,499 \tab $1,500 to $2,499 \tab $100 to $299 \tab $15,000 to $49,999 \tab $2,500 to $3,999 \tab $300 to $499 \tab $4,000 to $6,999 \tab $50,000 to $99,999 \tab $500 to $999 \tab $7,000 to $14,999 \tab don't know \tab iap \tab less than $100 \tab no answer \tab over $100,000 \tab skipped on web \tab Total \cr
@@ -57,33 +87,10 @@ Counts by year:\tabular{lllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} less than $100
-\item \code{2} $100 to $299
-\item \code{3} $300 to $499
-\item \code{4} $500 to $999
-\item \code{5} $1,000 to $1,499
-\item \code{6} $1,500 to $2,499
-\item \code{7} $2,500 to $3,999
-\item \code{8} $4,000 to $6,999
-\item \code{9} $7,000 to $14,999
-\item \code{10} $15,000 to $49,999
-\item \code{11} $50,000 to $99,999
-\item \code{12} over $100,000
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2022 \tab B/C \tab partial \cr
 }
 }
 

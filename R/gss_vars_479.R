@@ -1,11 +1,207 @@
+#'  Way of life recommendation for woman
+#' 
+#'  femarry
+#' 
+#' Question If you were advising a young woman, which of the following ways of life would you recommend?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` live alone
+#'   * `2` live with posslq
+#'   * `3` cohabitate, then marry
+#'   * `4` marry
+#'   * `NA(d)` can't choose
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4362/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |can't choose |cohabitate, then marry |live alone |live with posslq |marry |no answer |not available in this year |Total |
+#'  |:-----|:-----|:------------|:----------------------|:----------|:----------------|:-----|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-            |-                      |-          |-                |-     |-         |-                          |1613  |
+#'  |1973  |1504  |-            |-                      |-          |-                |-     |-         |-                          |1504  |
+#'  |1974  |1484  |-            |-                      |-          |-                |-     |-         |-                          |1484  |
+#'  |1975  |1490  |-            |-                      |-          |-                |-     |-         |-                          |1490  |
+#'  |1976  |1499  |-            |-                      |-          |-                |-     |-         |-                          |1499  |
+#'  |1977  |1530  |-            |-                      |-          |-                |-     |-         |-                          |1530  |
+#'  |1978  |1532  |-            |-                      |-          |-                |-     |-         |-                          |1532  |
+#'  |1980  |1468  |-            |-                      |-          |-                |-     |-         |-                          |1468  |
+#'  |1982  |1860  |-            |-                      |-          |-                |-     |-         |-                          |1860  |
+#'  |1983  |1599  |-            |-                      |-          |-                |-     |-         |-                          |1599  |
+#'  |1984  |1473  |-            |-                      |-          |-                |-     |-         |-                          |1473  |
+#'  |1985  |1534  |-            |-                      |-          |-                |-     |-         |-                          |1534  |
+#'  |1986  |1470  |-            |-                      |-          |-                |-     |-         |-                          |1470  |
+#'  |1987  |1819  |-            |-                      |-          |-                |-     |-         |-                          |1819  |
+#'  |1988  |67    |197          |372                    |131        |37               |652   |25        |-                          |1481  |
+#'  |1989  |1537  |-            |-                      |-          |-                |-     |-         |-                          |1537  |
+#'  |1990  |1372  |-            |-                      |-          |-                |-     |-         |-                          |1372  |
+#'  |1991  |1517  |-            |-                      |-          |-                |-     |-         |-                          |1517  |
+#'  |1993  |1606  |-            |-                      |-          |-                |-     |-         |-                          |1606  |
+#'  |1994  |2992  |-            |-                      |-          |-                |-     |-         |-                          |2992  |
+#'  |1996  |2904  |-            |-                      |-          |-                |-     |-         |-                          |2904  |
+#'  |1998  |2832  |-            |-                      |-          |-                |-     |-         |-                          |2832  |
+#'  |2000  |2817  |-            |-                      |-          |-                |-     |-         |-                          |2817  |
+#'  |2002  |2765  |-            |-                      |-          |-                |-     |-         |-                          |2765  |
+#'  |2004  |2812  |-            |-                      |-          |-                |-     |-         |-                          |2812  |
+#'  |2006  |4510  |-            |-                      |-          |-                |-     |-         |-                          |4510  |
+#'  |2008  |2023  |-            |-                      |-          |-                |-     |-         |-                          |2023  |
+#'  |2010  |2044  |-            |-                      |-          |-                |-     |-         |-                          |2044  |
+#'  |2012  |1974  |-            |-                      |-          |-                |-     |-         |-                          |1974  |
+#'  |2014  |2538  |-            |-                      |-          |-                |-     |-         |-                          |2538  |
+#'  |2016  |2867  |-            |-                      |-          |-                |-     |-         |-                          |2867  |
+#'  |2018  |2348  |-            |-                      |-          |-                |-     |-         |-                          |2348  |
+#'  |2021  |4032  |-            |-                      |-          |-                |-     |-         |-                          |4032  |
+#'  |2022  |-     |-            |-                      |-          |-                |-     |-         |3544                       |3544  |
+#'  |2024  |-     |-            |-                      |-          |-                |-     |-         |3309                       |3309  |
+#'  |Total |67432 |197          |372                    |131        |37               |652   |25        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Cohabitation
+#' @family Marriage
+#' 
+#' @keywords variable
+#' @md
+#' @name femarry
+NULL
+
+
+#'  Way of life recommendation for man
+#' 
+#'  memarry
+#' 
+#' Question If you were advising a young man, which of the following ways of life would  you recommend?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` live alone
+#'   * `2` live with posslq
+#'   * `3` cohabitate, then marry
+#'   * `4` marry
+#'   * `NA(d)` can't choose
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4363/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |can't choose |cohabitate, then marry |live alone |live with posslq |marry |no answer |not available in this year |Total |
+#'  |:-----|:-----|:------------|:----------------------|:----------|:----------------|:-----|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-            |-                      |-          |-                |-     |-         |-                          |1613  |
+#'  |1973  |1504  |-            |-                      |-          |-                |-     |-         |-                          |1504  |
+#'  |1974  |1484  |-            |-                      |-          |-                |-     |-         |-                          |1484  |
+#'  |1975  |1490  |-            |-                      |-          |-                |-     |-         |-                          |1490  |
+#'  |1976  |1499  |-            |-                      |-          |-                |-     |-         |-                          |1499  |
+#'  |1977  |1530  |-            |-                      |-          |-                |-     |-         |-                          |1530  |
+#'  |1978  |1532  |-            |-                      |-          |-                |-     |-         |-                          |1532  |
+#'  |1980  |1468  |-            |-                      |-          |-                |-     |-         |-                          |1468  |
+#'  |1982  |1860  |-            |-                      |-          |-                |-     |-         |-                          |1860  |
+#'  |1983  |1599  |-            |-                      |-          |-                |-     |-         |-                          |1599  |
+#'  |1984  |1473  |-            |-                      |-          |-                |-     |-         |-                          |1473  |
+#'  |1985  |1534  |-            |-                      |-          |-                |-     |-         |-                          |1534  |
+#'  |1986  |1470  |-            |-                      |-          |-                |-     |-         |-                          |1470  |
+#'  |1987  |1819  |-            |-                      |-          |-                |-     |-         |-                          |1819  |
+#'  |1988  |67    |199          |369                    |143        |40               |636   |27        |-                          |1481  |
+#'  |1989  |1537  |-            |-                      |-          |-                |-     |-         |-                          |1537  |
+#'  |1990  |1372  |-            |-                      |-          |-                |-     |-         |-                          |1372  |
+#'  |1991  |1517  |-            |-                      |-          |-                |-     |-         |-                          |1517  |
+#'  |1993  |1606  |-            |-                      |-          |-                |-     |-         |-                          |1606  |
+#'  |1994  |2992  |-            |-                      |-          |-                |-     |-         |-                          |2992  |
+#'  |1996  |2904  |-            |-                      |-          |-                |-     |-         |-                          |2904  |
+#'  |1998  |2832  |-            |-                      |-          |-                |-     |-         |-                          |2832  |
+#'  |2000  |2817  |-            |-                      |-          |-                |-     |-         |-                          |2817  |
+#'  |2002  |2765  |-            |-                      |-          |-                |-     |-         |-                          |2765  |
+#'  |2004  |2812  |-            |-                      |-          |-                |-     |-         |-                          |2812  |
+#'  |2006  |4510  |-            |-                      |-          |-                |-     |-         |-                          |4510  |
+#'  |2008  |2023  |-            |-                      |-          |-                |-     |-         |-                          |2023  |
+#'  |2010  |2044  |-            |-                      |-          |-                |-     |-         |-                          |2044  |
+#'  |2012  |1974  |-            |-                      |-          |-                |-     |-         |-                          |1974  |
+#'  |2014  |2538  |-            |-                      |-          |-                |-     |-         |-                          |2538  |
+#'  |2016  |2867  |-            |-                      |-          |-                |-     |-         |-                          |2867  |
+#'  |2018  |2348  |-            |-                      |-          |-                |-     |-         |-                          |2348  |
+#'  |2021  |4032  |-            |-                      |-          |-                |-     |-         |-                          |4032  |
+#'  |2022  |-     |-            |-                      |-          |-                |-     |-         |3544                       |3544  |
+#'  |2024  |-     |-            |-                      |-          |-                |-     |-         |3309                       |3309  |
+#'  |Total |67432 |199          |369                    |143        |40               |636   |27        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Cohabitation
+#' @family Marriage
+#' 
+#' @keywords variable
+#' @md
+#' @name memarry
+NULL
+
+
 #'  Married people happier than unmarried
 #' 
 #'  marhappy
 #' 
-#' Question 1280. Do you agree or disagree? a. Married people are generally happier than unmarried people
+#' Question Do you agree or disagree? 
+#' A. Married people are generally happier than unmarried people.
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` neither agree nor disagree
+#'   * `4` disagree
+#'   * `5` strongly disagree
+#'   * `NA(d)` can't choose
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4364/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +244,33 @@
 #'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |63512 |1601  |209          |953      |1600                       |49        |673            |249               |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2012 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Marriage
+#' 
+#' @keywords variable
+#' @md
+#' @name marhappy
+NULL
+
+
+#'  Personal freedom more impt than marriage
+#' 
+#'  marfree
+#' 
+#' Question Do you agree or disagree? 
+#' B. Personal freedom is more important than the companionship of marriage.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -68,22 +291,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name marhappy
-NULL
-
-#'  Personal freedom more impt than marriage
-#' 
-#'  marfree
-#' 
-#' Question 1280. Do you agree or disagree? b. Personal freedom is more important than the companionship of marriage
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4365/vshow).
 #'
 #' Counts by year: 
 #'
@@ -126,6 +335,32 @@ NULL
 #'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |65972 |312   |73           |1329     |563                        |30        |115            |452               |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Gender
+#' @family ISSP Family & Gender Roles
+#' @family Marriage
+#' 
+#' @keywords variable
+#' @md
+#' @name marfree
+NULL
+
+
+#'  Financial security main advtg of marriage
+#' 
+#'  marfin
+#' 
+#' Question Do you agree or disagree? 
+#' C. The main advantage of marriage is that it gives financial security.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -146,22 +381,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name marfree
-NULL
-
-#'  Financial security main advtg of marriage
-#' 
-#'  marfin
-#' 
-#' Question 1280. Do you agree or disagree? c. The main advantage of marriage is that it gives financial security
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4366/vshow).
 #'
 #' Counts by year: 
 #'
@@ -204,6 +425,31 @@ NULL
 #'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |65985 |365   |46           |1359     |555                        |45        |100            |391               |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Marriage
+#' 
+#' @keywords variable
+#' @md
+#' @name marfin
+NULL
+
+
+#'  Main purpose of marriage = kids
+#' 
+#'  markids
+#' 
+#' Question Do you agree or disagree? 
+#' D. The main purpose of marriage these days is to have children.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -224,22 +470,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name marfin
-NULL
-
-#'  Main purpose of marriage = kids
-#' 
-#'  markids
-#' 
-#' Question 1280. Do you agree or disagree? d. The main purpose of marriage these days is to have children.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4367/vshow).
 #'
 #' Counts by year: 
 #'
@@ -282,6 +514,31 @@ NULL
 #'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |65985 |287   |54           |1493     |476                        |46        |58             |447               |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Marriage
+#' 
+#' @keywords variable
+#' @md
+#' @name markids
+NULL
+
+
+#'  Bad marriage better than none at all
+#' 
+#'  marnomar
+#' 
+#' Question Do you agree or disagree? 
+#' E. It is better to have a bad marriage than no marriage at all.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -302,22 +559,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name markids
-NULL
-
-#'  Bad marriage better than none at all
-#' 
-#'  marnomar
-#' 
-#' Question 1280. Do you agree or disagree? e. It is better to have a bad marriage than no marriage at all.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4368/vshow).
 #'
 #' Counts by year: 
 #'
@@ -360,6 +603,32 @@ NULL
 #'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |64814 |115   |51           |1518     |217                        |50        |59             |2022              |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Marriage
+#' 
+#' @keywords variable
+#' @md
+#' @name marnomar
+NULL
+
+
+#'  Those wanting kids should get married
+#' 
+#'  marlegit
+#' 
+#' Question Do you agree or disagree? 
+#' F. People who want children ought to get married.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -380,22 +649,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name marnomar
-NULL
-
-#'  Those wanting kids should get married
-#' 
-#'  marlegit
-#' 
-#' Question 1280. Do you agree or disagree? f. People who want children ought to get married.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4369/vshow).
 #'
 #' Counts by year: 
 #'
@@ -438,6 +693,34 @@ NULL
 #'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |-              |3309                       |3309  |
 #'  |Total |65893 |2289  |105          |926      |1044                       |63        |1759           |304               |7              |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2012 |A/B/-   |partial      |
+#'  |2022 |A/-/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Marriage
+#' 
+#' @keywords variable
+#' @md
+#' @name marlegit
+NULL
+
+
+#'  Single ma can raise kids well as couple
+#' 
+#'  marmakid
+#' 
+#' Question Do you agree or disagree? 
+#' G. A single mother can bring up her child as well as a married couple.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -458,22 +741,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name marlegit
-NULL
-
-#'  Single ma can raise kids well as couple
-#' 
-#'  marmakid
-#' 
-#' Question 1280. Do you agree or disagree? g. A single mother can bring up her child as well as a married couple.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4370/vshow).
 #'
 #' Counts by year: 
 #'
@@ -516,6 +785,32 @@ NULL
 #'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |-              |3309                       |3309  |
 #'  |Total |69813 |874   |45           |672      |381                        |27        |371            |202               |5              |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
+#'  |2022 |A/-/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Marriage
+#' @family Parents
+#' 
+#' @keywords variable
+#' @md
+#' @name marmakid
+NULL
+
+
+#'  Single pa can raise kids well as couple
+#' 
+#'  marpakid
+#' 
+#' Question Do you agree or disagree? 
+#' H. A single father can bring up his child as well as a married couple.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -536,22 +831,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name marmakid
-NULL
-
-#'  Single pa can raise kids well as couple
-#' 
-#'  marpakid
-#' 
-#' Question 1280. Do you agree or disagree? h. A single father can bring up his child as well as a married couple.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4371/vshow).
 #'
 #' Counts by year: 
 #'
@@ -594,145 +875,21 @@ NULL
 #'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |-              |3309                       |3309  |
 #'  |Total |69813 |796   |48           |730      |418                        |30        |327            |223               |5              |3309                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` neither agree nor disagree
-#'   * `4` disagree
-#'   * `5` strongly disagree
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
+#'  |2022 |A/-/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Marriage
+#' @family Parents
 #' 
 #' @keywords variable
 #' @md
 #' @name marpakid
 NULL
 
-#'  Marriage not taken seriously when div is easy
-#' 
-#'  mardiv
-#' 
-#' Question 1280. Do you agree or disagree? i. Couples don't take marriage seriously enough when divorce is easily available.
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |agree |can't choose |disagree |neither agree nor disagree |no answer |strongly agree |strongly disagree |not available in this year |Total |
-#'  |:-----|:-----|:-----|:------------|:--------|:--------------------------|:---------|:--------------|:-----------------|:--------------------------|:-----|
-#'  |1972  |1613  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1613  |
-#'  |1973  |1504  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1504  |
-#'  |1974  |1484  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1484  |
-#'  |1975  |1490  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1490  |
-#'  |1976  |1499  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1499  |
-#'  |1977  |1530  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1530  |
-#'  |1978  |1532  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1532  |
-#'  |1980  |1468  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1468  |
-#'  |1982  |1860  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1860  |
-#'  |1983  |1599  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1599  |
-#'  |1984  |1473  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1473  |
-#'  |1985  |1534  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1534  |
-#'  |1986  |1470  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1470  |
-#'  |1987  |1819  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1819  |
-#'  |1988  |67    |603   |26           |195      |227                        |23        |293            |47                |-                          |1481  |
-#'  |1989  |1537  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1537  |
-#'  |1990  |1372  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1372  |
-#'  |1991  |1517  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1517  |
-#'  |1993  |1606  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1606  |
-#'  |1994  |2992  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2992  |
-#'  |1996  |2904  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2904  |
-#'  |1998  |2832  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2832  |
-#'  |2000  |2817  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2817  |
-#'  |2002  |2765  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2765  |
-#'  |2004  |2812  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2812  |
-#'  |2006  |4510  |-     |-            |-        |-                          |-         |-              |-                 |-                          |4510  |
-#'  |2008  |2023  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2023  |
-#'  |2010  |2044  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2044  |
-#'  |2012  |1974  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1974  |
-#'  |2014  |2538  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2538  |
-#'  |2016  |2867  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2867  |
-#'  |2018  |2348  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2348  |
-#'  |2021  |4032  |-     |-            |-        |-                          |-         |-              |-                 |-                          |4032  |
-#'  |2022  |-     |-     |-            |-        |-                          |-         |-              |-                 |3544                       |3544  |
-#'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |3309                       |3309  |
-#'  |Total |67432 |603   |26           |195      |227                        |23        |293            |47                |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` neither agree nor disagree
-#'   * `4` disagree
-#'   * `5` strongly disagree
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name mardiv
-NULL
-
-#'  Homosexual couples should have the right to marry one another
-#' 
-#'  marsame
-#' 
-#' Question NA
-#' 
-#'
-#' 
-#' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` neither agree nor disagree
-#'   * `4` disagree
-#'   * `5` strongly disagree
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name marsame
-NULL
 

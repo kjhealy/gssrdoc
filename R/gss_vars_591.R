@@ -1,11 +1,282 @@
+#'  Relation of 8th person to household head
+#' 
+#'  relhhd8
+#' 
+#' Question What is (PERSON)'s relationship to (HEAD OF HOUSEHOLD)?  SEE CODES BELOW ROSTER
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` head of household
+#'   * `2` spouse
+#'   * `3` partner, fiance(e), boyfriend, girlfriend, etc.
+#'   * `4` child, natural or adopted, stepchild
+#'   * `5` grandchild, great-grandchild
+#'   * `6` son-in-law, daughter-in-law
+#'   * `7` parent
+#'   * `8` parent-in-law
+#'   * `9` grandparent, great-grandparent
+#'   * `10` uncle or aunt
+#'   * `11` niece or nephew
+#'   * `12` cousin
+#'   * `13` brother, sister (full, half, or step sibling)
+#'   * `14` sibling-in-law
+#'   * `15` other relative (great-aunt, grandniece, etc.)
+#'   * `16` roommate, housemate
+#'   * `17` friend
+#'   * `18` child of non-relative
+#'   * `19` other non-relative (employee, boarder)
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5423/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |child, natural or adopted, stepchild |grandchild, great-grandchild |niece or nephew |no answer |sibling-in-law |brother, sister (full, half, or step sibling) |spouse |cousin |son-in-law, daughter-in-law |friend |roommate, housemate |parent |child of non-relative |other non-relative (employee, boarder) |skipped on web |not available in this release |Total |
+#'  |:-----|:-----|:------------------------------------|:----------------------------|:---------------|:---------|:--------------|:---------------------------------------------|:------|:------|:---------------------------|:------|:-------------------|:------|:---------------------|:--------------------------------------|:--------------|:-----------------------------|:-----|
+#'  |1972  |1613  |-                                    |-                            |-               |-         |-              |-                                             |-      |-      |-                           |-      |-                   |-      |-                     |-                                      |-              |-                             |1613  |
+#'  |1973  |1504  |-                                    |-                            |-               |-         |-              |-                                             |-      |-      |-                           |-      |-                   |-      |-                     |-                                      |-              |-                             |1504  |
+#'  |1974  |1484  |-                                    |-                            |-               |-         |-              |-                                             |-      |-      |-                           |-      |-                   |-      |-                     |-                                      |-              |-                             |1484  |
+#'  |1975  |1490  |-                                    |-                            |-               |-         |-              |-                                             |-      |-      |-                           |-      |-                   |-      |-                     |-                                      |-              |-                             |1490  |
+#'  |1976  |1499  |-                                    |-                            |-               |-         |-              |-                                             |-      |-      |-                           |-      |-                   |-      |-                     |-                                      |-              |-                             |1499  |
+#'  |1977  |1530  |-                                    |-                            |-               |-         |-              |-                                             |-      |-      |-                           |-      |-                   |-      |-                     |-                                      |-              |-                             |1530  |
+#'  |1978  |1532  |-                                    |-                            |-               |-         |-              |-                                             |-      |-      |-                           |-      |-                   |-      |-                     |-                                      |-              |-                             |1532  |
+#'  |1980  |1468  |-                                    |-                            |-               |-         |-              |-                                             |-      |-      |-                           |-      |-                   |-      |-                     |-                                      |-              |-                             |1468  |
+#'  |1982  |1860  |-                                    |-                            |-               |-         |-              |-                                             |-      |-      |-                           |-      |-                   |-      |-                     |-                                      |-              |-                             |1860  |
+#'  |1983  |1599  |-                                    |-                            |-               |-         |-              |-                                             |-      |-      |-                           |-      |-                   |-      |-                     |-                                      |-              |-                             |1599  |
+#'  |1984  |1473  |-                                    |-                            |-               |-         |-              |-                                             |-      |-      |-                           |-      |-                   |-      |-                     |-                                      |-              |-                             |1473  |
+#'  |1985  |1534  |-                                    |-                            |-               |-         |-              |-                                             |-      |-      |-                           |-      |-                   |-      |-                     |-                                      |-              |-                             |1534  |
+#'  |1986  |1470  |-                                    |-                            |-               |-         |-              |-                                             |-      |-      |-                           |-      |-                   |-      |-                     |-                                      |-              |-                             |1470  |
+#'  |1987  |1819  |-                                    |-                            |-               |-         |-              |-                                             |-      |-      |-                           |-      |-                   |-      |-                     |-                                      |-              |-                             |1819  |
+#'  |1988  |1481  |-                                    |-                            |-               |-         |-              |-                                             |-      |-      |-                           |-      |-                   |-      |-                     |-                                      |-              |-                             |1481  |
+#'  |1989  |1537  |-                                    |-                            |-               |-         |-              |-                                             |-      |-      |-                           |-      |-                   |-      |-                     |-                                      |-              |-                             |1537  |
+#'  |1990  |1372  |-                                    |-                            |-               |-         |-              |-                                             |-      |-      |-                           |-      |-                   |-      |-                     |-                                      |-              |-                             |1372  |
+#'  |1991  |1517  |-                                    |-                            |-               |-         |-              |-                                             |-      |-      |-                           |-      |-                   |-      |-                     |-                                      |-              |-                             |1517  |
+#'  |1993  |1602  |2                                    |1                            |1               |-         |-              |-                                             |-      |-      |-                           |-      |-                   |-      |-                     |-                                      |-              |-                             |1606  |
+#'  |1994  |2985  |3                                    |4                            |-               |-         |-              |-                                             |-      |-      |-                           |-      |-                   |-      |-                     |-                                      |-              |-                             |2992  |
+#'  |1996  |2891  |7                                    |3                            |1               |1         |1              |-                                             |-      |-      |-                           |-      |-                   |-      |-                     |-                                      |-              |-                             |2904  |
+#'  |1998  |2817  |6                                    |2                            |4               |1         |-              |1                                             |1      |-      |-                           |-      |-                   |-      |-                     |-                                      |-              |-                             |2832  |
+#'  |2000  |2802  |8                                    |2                            |3               |-         |-              |-                                             |-      |1      |1                           |-      |-                   |-      |-                     |-                                      |-              |-                             |2817  |
+#'  |2002  |2757  |5                                    |1                            |1               |-         |-              |-                                             |-      |-      |-                           |1      |-                   |-      |-                     |-                                      |-              |-                             |2765  |
+#'  |2004  |2803  |6                                    |1                            |1               |-         |-              |-                                             |-      |-      |-                           |-      |1                   |-      |-                     |-                                      |-              |-                             |2812  |
+#'  |2006  |4495  |12                                   |1                            |-               |-         |-              |-                                             |-      |1      |-                           |-      |-                   |1      |-                     |-                                      |-              |-                             |4510  |
+#'  |2008  |2015  |4                                    |3                            |1               |-         |-              |-                                             |-      |-      |-                           |-      |-                   |-      |-                     |-                                      |-              |-                             |2023  |
+#'  |2010  |2026  |11                                   |3                            |1               |2         |-              |-                                             |-      |-      |-                           |-      |-                   |-      |1                     |-                                      |-              |-                             |2044  |
+#'  |2012  |1967  |5                                    |1                            |1               |-         |-              |-                                             |-      |-      |-                           |-      |-                   |-      |-                     |-                                      |-              |-                             |1974  |
+#'  |2014  |2531  |4                                    |3                            |-               |-         |-              |-                                             |-      |-      |-                           |-      |-                   |-      |-                     |-                                      |-              |-                             |2538  |
+#'  |2016  |2850  |13                                   |3                            |-               |-         |-              |1                                             |-      |-      |-                           |-      |-                   |-      |-                     |-                                      |-              |-                             |2867  |
+#'  |2018  |2338  |4                                    |3                            |-               |1         |-              |-                                             |-      |-      |-                           |-      |-                   |1      |-                     |1                                      |-              |-                             |2348  |
+#'  |2021  |4010  |14                                   |3                            |-               |-         |-              |-                                             |-      |-      |-                           |-      |1                   |-      |1                     |2                                      |1              |-                             |4032  |
+#'  |2022  |3535  |6                                    |1                            |-               |-         |-              |-                                             |-      |-      |-                           |1      |-                   |1      |-                     |-                                      |-              |-                             |3544  |
+#'  |2024  |-     |-                                    |-                            |-               |-         |-              |-                                             |-      |-      |-                           |-      |-                   |-      |-                     |-                                      |-              |3309                          |3309  |
+#'  |Total |72206 |110                                  |35                           |14              |5         |1              |2                                             |1      |2      |1                           |2      |2                   |3      |2                     |3                                      |1              |3309                          |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Household Members and Structure
+#' @family Cohabitation
+#' @family Family
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name relhhd8
+NULL
+
+
+#'  Relation of 9th person to household head
+#' 
+#'  relhhd9
+#' 
+#' Question What is (PERSON)'s relationship to (HEAD OF HOUSEHOLD)?  SEE CODES BELOW ROSTER
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` head of household
+#'   * `2` spouse
+#'   * `3` partner, fiance(e), boyfriend, girlfriend, etc.
+#'   * `4` child, natural or adopted, stepchild
+#'   * `5` grandchild, great-grandchild
+#'   * `6` son-in-law, daughter-in-law
+#'   * `7` parent
+#'   * `8` parent-in-law
+#'   * `9` grandparent, great-grandparent
+#'   * `10` uncle or aunt
+#'   * `11` niece or nephew
+#'   * `12` cousin
+#'   * `13` brother, sister (full, half, or step sibling)
+#'   * `14` sibling-in-law
+#'   * `15` other relative (great-aunt, grandniece, etc.)
+#'   * `16` roommate, housemate
+#'   * `17` friend
+#'   * `18` child of non-relative
+#'   * `19` other non-relative (employee, boarder)
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5424/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |grandchild, great-grandchild |niece or nephew |child, natural or adopted, stepchild |no answer |cousin |son-in-law, daughter-in-law |friend |child of non-relative |roommate, housemate |brother, sister (full, half, or step sibling) |other non-relative (employee, boarder) |not available in this release |Total |
+#'  |:-----|:-----|:----------------------------|:---------------|:------------------------------------|:---------|:------|:---------------------------|:------|:---------------------|:-------------------|:---------------------------------------------|:--------------------------------------|:-----------------------------|:-----|
+#'  |1972  |1613  |-                            |-               |-                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |1613  |
+#'  |1973  |1504  |-                            |-               |-                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |1504  |
+#'  |1974  |1484  |-                            |-               |-                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |1484  |
+#'  |1975  |1490  |-                            |-               |-                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |1490  |
+#'  |1976  |1499  |-                            |-               |-                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |1499  |
+#'  |1977  |1530  |-                            |-               |-                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |1530  |
+#'  |1978  |1532  |-                            |-               |-                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |1532  |
+#'  |1980  |1468  |-                            |-               |-                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |1468  |
+#'  |1982  |1860  |-                            |-               |-                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |1860  |
+#'  |1983  |1599  |-                            |-               |-                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |1599  |
+#'  |1984  |1473  |-                            |-               |-                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |1473  |
+#'  |1985  |1534  |-                            |-               |-                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |1534  |
+#'  |1986  |1470  |-                            |-               |-                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |1470  |
+#'  |1987  |1819  |-                            |-               |-                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |1819  |
+#'  |1988  |1481  |-                            |-               |-                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |1481  |
+#'  |1989  |1537  |-                            |-               |-                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |1537  |
+#'  |1990  |1372  |-                            |-               |-                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |1372  |
+#'  |1991  |1517  |-                            |-               |-                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |1517  |
+#'  |1993  |1604  |1                            |1               |-                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |1606  |
+#'  |1994  |2991  |-                            |-               |1                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |2992  |
+#'  |1996  |2899  |2                            |-               |3                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |2904  |
+#'  |1998  |2826  |1                            |1               |3                                    |1         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |2832  |
+#'  |2000  |2804  |2                            |2               |6                                    |1         |1      |1                           |-      |-                     |-                   |-                                             |-                                      |-                             |2817  |
+#'  |2002  |2761  |-                            |-               |2                                    |-         |1      |-                           |1      |-                     |-                   |-                                             |-                                      |-                             |2765  |
+#'  |2004  |2808  |1                            |-               |3                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |2812  |
+#'  |2006  |4505  |3                            |-               |2                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |4510  |
+#'  |2008  |2021  |1                            |-               |1                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |2023  |
+#'  |2010  |2033  |-                            |2               |4                                    |2         |-      |2                           |-      |1                     |-                   |-                                             |-                                      |-                             |2044  |
+#'  |2012  |1973  |-                            |1               |-                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |1974  |
+#'  |2014  |2531  |1                            |1               |4                                    |-         |-      |-                           |-      |-                     |1                   |-                                             |-                                      |-                             |2538  |
+#'  |2016  |2858  |-                            |-               |9                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |2867  |
+#'  |2018  |2342  |1                            |-               |2                                    |1         |-      |-                           |-      |-                     |-                   |1                                             |1                                      |-                             |2348  |
+#'  |2021  |4025  |2                            |-               |3                                    |-         |-      |-                           |-      |-                     |2                   |-                                             |-                                      |-                             |4032  |
+#'  |2022  |3538  |1                            |-               |5                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |-                             |3544  |
+#'  |2024  |-     |-                            |-               |-                                    |-         |-      |-                           |-      |-                     |-                   |-                                             |-                                      |3309                          |3309  |
+#'  |Total |72301 |16                           |8               |48                                   |5         |2      |3                           |1      |1                     |3                   |1                                             |1                                      |3309                          |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Household Members and Structure
+#' @family Cohabitation
+#' @family Family
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name relhhd9
+NULL
+
+
 #'  Relation of 1oth person to household head
 #' 
 #'  relhhd10
 #' 
-#' Question 1622. What is (PERSON)'s relationship to (HEAD OF HOUSEHOLD)?
+#' Question What is (PERSON)'s relationship to (HEAD OF HOUSEHOLD)?  SEE CODES BELOW ROSTER
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` head of household
+#'   * `2` spouse
+#'   * `3` partner, fiance(e), boyfriend, girlfriend, etc.
+#'   * `4` child, natural or adopted, stepchild
+#'   * `5` grandchild, great-grandchild
+#'   * `6` son-in-law, daughter-in-law
+#'   * `7` parent
+#'   * `8` parent-in-law
+#'   * `9` grandparent, great-grandparent
+#'   * `10` uncle or aunt
+#'   * `11` niece or nephew
+#'   * `12` cousin
+#'   * `13` brother, sister (full, half, or step sibling)
+#'   * `14` sibling-in-law
+#'   * `15` other relative (great-aunt, grandniece, etc.)
+#'   * `16` roommate, housemate
+#'   * `17` friend
+#'   * `18` child of non-relative
+#'   * `19` other non-relative (employee, boarder)
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5425/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +319,46 @@
 #'  |2024  |-     |-                                    |-                            |-               |-              |-                     |-         |-                   |-                                             |3309                          |3309  |
 #'  |Total |72347 |22                                   |12                           |2               |1              |1                     |3         |1                   |1                                             |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Household Members and Structure
+#' @family Cohabitation
+#' @family Family
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name relhhd10
+NULL
+
+
+#'  Relation of 11th person (visitor) to head
+#' 
+#'  relhhd11
+#' 
+#' Question What is (PERSON)'s relationship to (HEAD OF HOUSEHOLD)?  SEE CODES BELOW ROSTER
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` head of household
@@ -82,22 +393,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name relhhd10
-NULL
-
-#'  Relation of 11th person (visitor) to head
-#' 
-#'  relhhd11
-#' 
-#' Question 1622. What is (PERSON)'s relationship to (HEAD OF HOUSEHOLD)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5426/vshow).
 #'
 #' Counts by year: 
 #'
@@ -140,6 +437,46 @@ NULL
 #'  |2024  |-     |-                                    |-      |-                                      |-      |-             |-              |-                                             |-               |-         |-                     |-                            |-                   |-      |-                                               |-                           |-             |-      |-                                             |-                              |-              |3309                          |3309  |
 #'  |Total |71922 |123                                  |72     |29                                     |37     |29            |13             |29                                            |18              |10        |6                     |17                           |19                  |10     |27                                              |3                           |4             |10     |5                                             |4                              |3              |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Household Members and Structure
+#' @family Cohabitation
+#' @family Family
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name relhhd11
+NULL
+
+
+#'  Relation of 12th person (visitor) to head
+#' 
+#'  relhhd12
+#' 
+#' Question What is (PERSON)'s relationship to (HEAD OF HOUSEHOLD)?  SEE CODES BELOW ROSTER
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` head of household
@@ -174,22 +511,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name relhhd11
-NULL
-
-#'  Relation of 12th person (visitor) to head
-#' 
-#'  relhhd12
-#' 
-#' Question 1622. What is (PERSON)'s relationship to (HEAD OF HOUSEHOLD)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5427/vshow).
 #'
 #' Counts by year: 
 #'
@@ -232,6 +555,46 @@ NULL
 #'  |2024  |-     |-                            |-               |-                                      |-             |-                           |-                                    |-         |-      |-                   |-      |-                                             |-              |-                     |-      |-                                             |-                              |3309                          |3309  |
 #'  |Total |72290 |10                           |4               |7                                      |9             |9                           |26                                   |4         |5      |7                   |7      |3                                             |2              |3                     |1      |2                                             |1                              |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Household Members and Structure
+#' @family Cohabitation
+#' @family Family
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name relhhd12
+NULL
+
+
+#'  Relation of 13th person (visitor) to head
+#' 
+#'  relhhd13
+#' 
+#' Question What is (PERSON)'s relationship to (HEAD OF HOUSEHOLD)?  SEE CODES BELOW ROSTER
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` head of household
@@ -266,22 +629,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name relhhd12
-NULL
-
-#'  Relation of 13th person (visitor) to head
-#' 
-#'  relhhd13
-#' 
-#' Question 1622. What is (PERSON)'s relationship to (HEAD OF HOUSEHOLD)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5428/vshow).
 #'
 #' Counts by year: 
 #'
@@ -324,6 +673,46 @@ NULL
 #'  |2024  |-     |-                            |-                                    |-                     |-         |-               |-          |-                                      |3309                          |3309  |
 #'  |Total |72365 |9                            |5                                    |3                     |3         |3               |1          |1                                      |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Household Members and Structure
+#' @family Cohabitation
+#' @family Family
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name relhhd13
+NULL
+
+
+#'  Relation of 14th person (visitor) to head
+#' 
+#'  relhhd14
+#' 
+#' Question What is (PERSON)'s relationship to (HEAD OF HOUSEHOLD)?  SEE CODES BELOW ROSTER
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` head of household
@@ -358,22 +747,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name relhhd13
-NULL
-
-#'  Relation of 14th person (visitor) to head
-#' 
-#'  relhhd14
-#' 
-#' Question 1622. What is (PERSON)'s relationship to (HEAD OF HOUSEHOLD)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5429/vshow).
 #'
 #' Counts by year: 
 #'
@@ -416,27 +791,63 @@ NULL
 #'  |2024  |-     |-                            |-                                    |-               |-         |-                     |3309                          |3309  |
 #'  |Total |72379 |6                            |1                                    |1               |2         |1                     |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Household Members and Structure
+#' @family Cohabitation
+#' @family Family
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name relhhd14
+NULL
+
+
+#'  Number of hef informant
+#' 
+#'  hefinfo
+#' 
+#' Question Number in family of person who was household informant (i.e. who provided information on household members).
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` head of household
-#'   * `2` spouse
-#'   * `3` partner, fiance(e), boyfriend, girlfriend, etc.
-#'   * `4` child, natural or adopted, stepchild
-#'   * `5` grandchild, great-grandchild
-#'   * `6` son-in-law, daughter-in-law
-#'   * `7` parent
-#'   * `8` parent-in-law
-#'   * `9` grandparent, great-grandparent
-#'   * `10` uncle or aunt
-#'   * `11` niece or nephew
-#'   * `12` cousin
-#'   * `13` brother, sister (full, half, or step sibling)
-#'   * `14` sibling-in-law
-#'   * `15` other relative (great-aunt, grandniece, etc.)
-#'   * `16` roommate, housemate
-#'   * `17` friend
-#'   * `18` child of non-relative
-#'   * `19` other non-relative (employee, boarder)
+#'   * `1` 1st person
+#'   * `2` 2nd person
+#'   * `3` 3rd person
+#'   * `4` 4th person
+#'   * `5` 5th person
+#'   * `6` 6th person
+#'   * `7` 7th person
+#'   * `8` 8th person
+#'   * `9` 9th person
+#'   * `10` 10th person
+#'   * `11` 11th person
+#'   * `12` 12th person
+#'   * `13` 13th person
+#'   * `14` 14th person
+#'   * `22` non-household person
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -450,22 +861,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name relhhd14
-NULL
-
-#'  Number of hef informant
-#' 
-#'  hefinfo
-#' 
-#' Question 1623. Number in family of person who was household informant (i.e. who provided information on household members).
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5430/vshow).
 #'
 #' Counts by year: 
 #'
@@ -508,23 +905,61 @@ NULL
 #'  |2024  |3309                       |-           |-          |-          |-          |-          |-          |-          |-         |-          |-          |-          |-           |-           |-           |-                    |-           |-          |3309  |
 #'  |Total |21537                      |98          |36945      |14091      |1633       |384        |120        |33         |434       |9          |6          |4          |1           |9           |1           |374                  |3           |17         |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Household Members and Structure
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name hefinfo
+NULL
+
+
+#'  Race of household
+#' 
+#'  hhrace
+#' 
+#' Question Race of household.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` 1st person
-#'   * `2` 2nd person
-#'   * `3` 3rd person
-#'   * `4` 4th person
-#'   * `5` 5th person
-#'   * `6` 6th person
-#'   * `7` 7th person
-#'   * `8` 8th person
-#'   * `9` 9th person
-#'   * `10` 10th person
-#'   * `11` 11th person
-#'   * `12` 12th person
-#'   * `13` 13th person
-#'   * `14` 14th person
-#'   * `22` non-household person
+#'   * `1` white
+#'   * `2` black
+#'   * `3` american indian
+#'   * `4` asiatic, oriental
+#'   * `5` other, mixed, not able to observe
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -538,22 +973,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hefinfo
-NULL
-
-#'  Race of household
-#' 
-#'  hhrace
-#' 
-#' Question 1624. Race of household.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5431/vshow).
 #'
 #' Counts by year: 
 #'
@@ -596,13 +1017,74 @@ NULL
 #'  |2024  |-    |-                 |-     |-     |-               |-                                 |-         |-          |-                          |3309                          |3309  |
 #'  |Total |7700 |913               |8371  |47414 |304             |2760                              |763       |133        |4032                       |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Household Members and Structure
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name hhrace
+NULL
+
+
+#'  Number in family of r
+#' 
+#'  respnum
+#' 
+#' Question Respondent's number in family.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` white
-#'   * `2` black
-#'   * `3` american indian
-#'   * `4` asiatic, oriental
-#'   * `5` other, mixed, not able to observe
+#'   * `1` 1st person
+#'   * `2` 2nd person
+#'   * `3` 3rd person
+#'   * `4` 4th person
+#'   * `5` 5th person
+#'   * `6` 6th person
+#'   * `7` 7th person
+#'   * `8` 8th person
+#'   * `9` 9th person
+#'   * `10` 10th person
+#'   * `11` 11th person
+#'   * `12` 12th person
+#'   * `13` 13th person
+#'   * `14` 14th person
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -616,22 +1098,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hhrace
-NULL
-
-#'  Number in family of r
-#' 
-#'  respnum
-#' 
-#' Question 1625. Number in family of respondent.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5432/vshow).
 #'
 #' Counts by year: 
 #'
@@ -674,254 +1142,49 @@ NULL
 #'  |2024  |-    |-           |-          |-          |-          |-          |-          |-          |-           |-          |-          |-          |-         |-           |-           |3309                          |3309  |
 #'  |Total |8091 |140         |42308      |18386      |2570       |636        |168        |5          |10          |42         |5          |13         |10        |4           |2           |3309                          |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` 1st person
-#'   * `2` 2nd person
-#'   * `3` 3rd person
-#'   * `4` 4th person
-#'   * `5` 5th person
-#'   * `6` 6th person
-#'   * `7` 7th person
-#'   * `8` 8th person
-#'   * `9` 9th person
-#'   * `10` 10th person
-#'   * `11` 11th person
-#'   * `12` 12th person
-#'   * `13` 13th person
-#'   * `14` 14th person
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Household Members and Structure
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
 #' @name respnum
 NULL
 
-#'  Household type
-#' 
-#'  hhtype
-#' 
-#' Question 1626. Household Type.
-#' 
-#'
-#' 
-#' @section Values: 
-#' 
-#'   * `1` 1adlt,0kids
-#'   * `2` 1adlt,1+kids
-#'   * `3` 2adlts,mar,0kids
-#'   * `4` 2adlts,mar,1+kids
-#'   * `5` 2adlts,dkmar,0kids
-#'   * `6` 2adlts,dkmar,1+kids
-#'   * `7` 2as,ntmar,ntrel,opsex,0ks
-#'   * `8` 2as,ntmar,ntrel,opsex,1+ks
-#'   * `9` 2as,ntmar,ntrel,smsex,0ks
-#'   * `10` 2as,ntmar,ntrel,smsex,1+ks
-#'   * `11` 2adlts,ntmar,rel,0kids
-#'   * `12` 2adlts,ntmar,rel,1+kids
-#'   * `13` 2adlts,ntmar,dkrel,0kids
-#'   * `14` 2adlts,ntmar,dkrel,1+kids
-#'   * `15` 2as,ntmar,ntrel,dksex,0ks
-#'   * `16` 2as,ntmar,ntrel,dksex,1+ks
-#'   * `20` 3adlt,0mar,sp,0kids
-#'   * `21` 3adlts,0mar,sp,rel,0kids
-#'   * `22` 3adlts,0mar,rel,sp,0kids
-#'   * `23` 3adlts,0mar,rel,0kids
-#'   * `24` 3adlts,0mar,sp,ntrel,0kids
-#'   * `25` 3adlts,0mar,ntrel,sp,0kids
-#'   * `26` 3adlts,0mar,rel,0kids
-#'   * `27` 3adlts,0mar,ntrel,rel,0kids
-#'   * `28` 3adlts,0mar,ntrel,0kids
-#'   * `30` 3adlts,1mar,sp,0kids
-#'   * `31` 3adlts,1mar,sp,rel,0kids
-#'   * `32` 3adlts,1mar,rel,sp,0kids
-#'   * `33` 3adlts,1mar,rel,rel,0kids
-#'   * `34` 3adlts,1mar,sp,ntrel,0kids
-#'   * `35` 3adlts,1mar,ntrel,sp,0kids
-#'   * `36` 3adlts,1mar,rel,ntrel,0kids
-#'   * `37` 3adlts,1mar,ntrel,rel,0kids
-#'   * `38` 3adlts,1mar,ntrel,0kids
-#'   * `40` 3adlts,2mar,sp,0kids
-#'   * `41` 3adlts,2mar,sp,rel,0kids
-#'   * `42` 3adlts,2mar,rel,sp,0kids
-#'   * `43` 3adlts,2mar,rel,0kids
-#'   * `44` 3adlts,2mar,sp,ntrel,0kids
-#'   * `45` 3adlts,2mar,rel,ntrel,0kids
-#'   * `46` 3adlts,2mar,rel,ntrel,0kids
-#'   * `47` 3adlts,2mar,ntrel,rel,0kids
-#'   * `48` 3adlts,2mar,ntrel,0kids
-#'   * `50` 3adlts,3mar,sp,0kids
-#'   * `51` 3adlts,3mar,sp,rel,0kids
-#'   * `52` 3adlts,3mar,sp,rel,0kids
-#'   * `53` 3adlts,3mar,rel,0kids
-#'   * `54` 3adlts,3mar,sp,ntrel,0kids
-#'   * `55` 3adlts,3mar,ntrel,sp,0kids
-#'   * `56` 3adlts,3mar,rel,ntrel,0kids
-#'   * `57` 3adlts,3mar,ntrel,rel,0kids
-#'   * `58` 3adlts,3mar,ntrel,0kids
-#'   * `100` 4+adlts,0mar,0kids
-#'   * `101` 4+adlts,1mar,0kids
-#'   * `102` 4+adlts,2mar,0kids
-#'   * `103` 4+adlts,3mar,0kids
-#'   * `104` 4+adlts,4+mar,0kids
-#'   * `120` 3adlt,0mar,sp,1+kids
-#'   * `121` 3adlts,0mar,sp,rel,1+kids
-#'   * `122` 3adlts,0mar,rel,sp,1+kids
-#'   * `123` 3adlts,0mar,rel,1+kids
-#'   * `124` 3adlts,0mar,sp,ntrel,1+kids
-#'   * `125` 3adlts,0mar,ntrel,sp,1+kids
-#'   * `126` 3adlts,0mar,rel,1+kids
-#'   * `127` 3adlts,0mar,ntrel,rel,1+kids
-#'   * `128` 3adlts,0mar,ntrel,1+kids
-#'   * `130` 3adlts,1mar,sp,1+kids
-#'   * `131` 3adlts,1mar,sp,rel,1+kids
-#'   * `132` 3adlts,1mar,rel,sp,1+kids
-#'   * `133` 3adlts,1mar,rel,rel,1+kids
-#'   * `134` 3adlts,1mar,sp,ntrel,1+kids
-#'   * `135` 3adlts,1mar,ntrel,sp,1+kids
-#'   * `136` 3adlts,1mar,rel,ntrel,1+kids
-#'   * `137` 3adlts,1mar,ntrel,rel,1+kids
-#'   * `138` 3adlts,1mar,ntrel,1+kids
-#'   * `140` 3adlts,2mar,sp,1+kids
-#'   * `141` 3adlts,2mar,sp,rel,1+kids
-#'   * `142` 3adlts,2mar,rel,sp,1+kids
-#'   * `143` 3adlts,2mar,rel,1+kids
-#'   * `144` 3adlts,2mar,sp,ntrel,1+kids
-#'   * `145` 3adlts,2mar,rel,ntrel,1+kids
-#'   * `146` 3adlts,2mar,rel,ntrel,1+kids
-#'   * `147` 3adlts,2mar,ntrel,rel,1+kids
-#'   * `148` 3adlts,2mar,ntrel,1+kids
-#'   * `150` 3adlts,3mar,sp,1+kids
-#'   * `151` 3adlts,3mar,sp,rel,1+kids
-#'   * `152` 3adlts,3mar,sp,rel,1+kids
-#'   * `153` 3adlts,3mar,rel,1+kids
-#'   * `154` 3adlts,3mar,sp,ntrel,1+kids
-#'   * `155` 3adlts,3mar,ntrel,sp,1+kids
-#'   * `156` 3adlts,3mar,rel,ntrel,1+kids
-#'   * `157` 3adlts,3mar,ntrel,rel,1+kids
-#'   * `158` 3adlts,3mar,ntrel,1+kids
-#'   * `200` 4+adlts,0mar,1+kids
-#'   * `201` 4+adlts,1mar,1+kids
-#'   * `202` 4+adlts,2mar,1+kids
-#'   * `203` 4+adlts,3mar,1+kids
-#'   * `204` 4+adlts,4+mar,1+kids
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hhtype
-NULL
-
-#'  Household type (condensed)
-#' 
-#'  hhtype1
-#' 
-#' Question 1627. Household type (condensed).
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap  |cohabitating couple with children |cohabitating couple, no children |married couple with children |married couple, no children |no answer |non-family with children |non-family, no children |other family with children |other family, no children |single adult |single parent |unsure with children |unsure, no children |not available in this release |Total |
-#'  |:-----|:----|:---------------------------------|:--------------------------------|:----------------------------|:---------------------------|:---------|:------------------------|:-----------------------|:--------------------------|:-------------------------|:------------|:-------------|:--------------------|:-------------------|:-----------------------------|:-----|
-#'  |1972  |1613 |-                                 |-                                |-                            |-                           |-         |-                        |-                       |-                          |-                         |-            |-             |-                    |-                   |-                             |1613  |
-#'  |1973  |1504 |-                                 |-                                |-                            |-                           |-         |-                        |-                       |-                          |-                         |-            |-             |-                    |-                   |-                             |1504  |
-#'  |1974  |1484 |-                                 |-                                |-                            |-                           |-         |-                        |-                       |-                          |-                         |-            |-             |-                    |-                   |-                             |1484  |
-#'  |1975  |-    |10                                |14                               |610                          |471                         |10        |3                        |16                      |28                         |56                        |200          |60            |4                    |8                   |-                             |1490  |
-#'  |1976  |755  |-                                 |7                                |274                          |227                         |-         |1                        |10                      |12                         |23                        |138          |45            |2                    |5                   |-                             |1499  |
-#'  |1977  |-    |2                                 |12                               |564                          |480                         |3         |1                        |23                      |33                         |46                        |263          |85            |6                    |12                  |-                             |1530  |
-#'  |1978  |-    |5                                 |13                               |573                          |437                         |5         |1                        |26                      |38                         |49                        |297          |79            |5                    |4                   |-                             |1532  |
-#'  |1980  |-    |-                                 |18                               |481                          |448                         |7         |4                        |26                      |33                         |53                        |287          |85            |13                   |13                  |-                             |1468  |
-#'  |1982  |-    |9                                 |30                               |540                          |528                         |5         |2                        |29                      |62                         |74                        |410          |134           |18                   |19                  |-                             |1860  |
-#'  |1983  |-    |5                                 |20                               |540                          |482                         |3         |4                        |21                      |38                         |56                        |309          |95            |16                   |10                  |-                             |1599  |
-#'  |1984  |-    |13                                |18                               |446                          |433                         |1         |2                        |39                      |29                         |46                        |330          |91            |8                    |17                  |-                             |1473  |
-#'  |1985  |-    |8                                 |20                               |459                          |462                         |5         |2                        |49                      |22                         |55                        |342          |91            |8                    |11                  |-                             |1534  |
-#'  |1986  |-    |10                                |18                               |459                          |421                         |5         |2                        |36                      |33                         |61                        |313          |71            |13                   |28                  |-                             |1470  |
-#'  |1987  |-    |12                                |30                               |502                          |465                         |15        |4                        |52                      |56                         |92                        |420          |109           |30                   |32                  |-                             |1819  |
-#'  |1988  |-    |11                                |31                               |407                          |425                         |5         |1                        |49                      |38                         |52                        |326          |115           |8                    |13                  |-                             |1481  |
-#'  |1989  |-    |14                                |32                               |457                          |440                         |12        |1                        |45                      |29                         |55                        |327          |93            |6                    |26                  |-                             |1537  |
-#'  |1990  |-    |11                                |36                               |360                          |407                         |5         |2                        |28                      |30                         |67                        |329          |79            |1                    |17                  |-                             |1372  |
-#'  |1991  |-    |12                                |35                               |404                          |434                         |6         |3                        |35                      |31                         |53                        |375          |103           |8                    |18                  |-                             |1517  |
-#'  |1993  |-    |23                                |43                               |439                          |469                         |2         |5                        |33                      |27                         |70                        |376          |97            |8                    |14                  |-                             |1606  |
-#'  |1994  |-    |43                                |74                               |777                          |845                         |6         |8                        |58                      |54                         |119                       |759          |211           |13                   |25                  |-                             |2992  |
-#'  |1996  |-    |50                                |74                               |687                          |748                         |26        |9                        |75                      |64                         |101                       |725          |238           |26                   |81                  |-                             |2904  |
-#'  |1998  |-    |46                                |64                               |630                          |754                         |16        |7                        |74                      |61                         |107                       |771          |181           |40                   |81                  |-                             |2832  |
-#'  |2000  |-    |57                                |100                              |677                          |652                         |16        |12                       |80                      |71                         |139                       |740          |219           |21                   |33                  |-                             |2817  |
-#'  |2002  |-    |61                                |85                               |471                          |784                         |8         |9                        |65                      |60                         |139                       |870          |175           |7                    |31                  |-                             |2765  |
-#'  |2004  |-    |46                                |89                               |590                          |939                         |9         |4                        |49                      |38                         |121                       |706          |169           |20                   |32                  |-                             |2812  |
-#'  |2006  |-    |88                                |139                              |970                          |1309                        |20        |9                        |101                     |98                         |198                       |1220         |270           |43                   |45                  |-                             |4510  |
-#'  |2008  |-    |43                                |58                               |424                          |577                         |9         |6                        |44                      |60                         |93                        |520          |148           |16                   |25                  |-                             |2023  |
-#'  |2010  |-    |40                                |79                               |342                          |582                         |14        |8                        |21                      |58                         |115                       |601          |127           |18                   |39                  |-                             |2044  |
-#'  |2012  |-    |49                                |80                               |369                          |594                         |8         |1                        |10                      |45                         |142                       |529          |105           |18                   |24                  |-                             |1974  |
-#'  |2014  |-    |47                                |98                               |379                          |839                         |13        |2                        |17                      |46                         |199                       |695          |133           |21                   |49                  |-                             |2538  |
-#'  |2016  |-    |66                                |130                              |440                          |826                         |13        |1                        |17                      |61                         |249                       |850          |144           |24                   |46                  |-                             |2867  |
-#'  |2018  |-    |42                                |120                              |343                          |705                         |17        |7                        |55                      |65                         |135                       |669          |106           |23                   |61                  |-                             |2348  |
-#'  |2021  |-    |70                                |163                              |610                          |1175                        |728       |3                        |29                      |10                         |12                        |1021         |151           |18                   |42                  |-                             |4032  |
-#'  |2022  |1764 |43                                |82                               |300                          |451                         |13        |12                       |28                      |47                         |80                        |594          |91            |28                   |11                  |-                             |3544  |
-#'  |2024  |-    |-                                 |-                                |-                            |-                           |-         |-                        |-                       |-                          |-                         |-            |-             |-                    |-                   |3309                          |3309  |
-#'  |Total |7120 |936                               |1812                             |15524                        |18809                       |1005      |136                      |1240                    |1377                       |2857                      |16312        |3900          |490                  |872                 |3309                          |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` married couple, no children
-#'   * `2` single parent
-#'   * `3` other family, no children
-#'   * `4` single adult
-#'   * `5` cohabitating couple, no children
-#'   * `6` non-family, no children
-#'   * `8` unsure, no children
-#'   * `11` married couple with children
-#'   * `13` other family with children
-#'   * `15` cohabitating couple with children
-#'   * `16` non-family with children
-#'   * `18` unsure with children
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hhtype1
-NULL
 

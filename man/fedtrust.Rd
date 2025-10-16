@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 fedtrust
 }
 \details{
-Question 350. How much of the time do you think you can trust the government in Washington to do what is right?
+Question How much of the time do you think you can trust the government in Washington to do what is right -- just about always, most of the time only some of the time, or almost never?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} almost always
+\item \code{2} most of time
+\item \code{3} some of time
+\item \code{4} almost never
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1038/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab almost always \tab almost never \tab don't know \tab most of time \tab no answer \tab some of time \tab not available in this year \tab Total \cr
@@ -57,26 +79,25 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} almost always
-\item \code{2} most of time
-\item \code{3} some of time
-\item \code{4} almost never
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1987 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Socio-political participation: 
+\code{\link{governor}},
+\code{\link{loclobby}},
+\code{\link{locself}},
+\code{\link{locvote}},
+\code{\link{othlobby}},
+\code{\link{othself}},
+\code{\link{polrally}},
+\code{\link{schlhead}},
+\code{\link{usrep}}
+}
+\concept{Federal Government}
+\concept{Socio-political participation}
 \keyword{variable}

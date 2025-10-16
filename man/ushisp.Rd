@@ -10,11 +10,30 @@ General Social Survey https://gss.norc.org
 ushisp
 }
 \details{
-Question 751. Just your best guess~what percentage of the United States population is each group? d. Hispanics
+Question Just your best guessâ€“what percentage of the United States population is each group? (INSTRUCTION: PERCENTAGES DO NOT HAVE TO ADD TO 100pct AND THE LISTED GROUPS MAY OVERLAP. ENCOURAGE ESTIMATES FOR ALL GROUPS, BUT DISCOURAGE RESPONDENTS REVISING THEIR ESTIMATES.)
+D. Hispanics?
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2313/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 0 \tab 1 \tab 10 \tab 100 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 22 \tab 23 \tab 25 \tab 27 \tab 28 \tab 29 \tab 3 \tab 30 \tab 33 \tab 35 \tab 38 \tab 39 \tab 4 \tab 40 \tab 43 \tab 45 \tab 46 \tab 49 \tab 5 \tab 50 \tab 55 \tab 59 \tab 6 \tab 60 \tab 65 \tab 7 \tab 70 \tab 75 \tab 8 \tab 80 \tab 85 \tab 89 \tab 9 \tab 90 \tab 95 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +76,40 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Multi-Ethnic United States: 
+\code{\link{blkchng}},
+\code{\link{hispchng}},
+\code{\link{jewschng}},
+\code{\link{usamind}},
+\code{\link{usasn}},
+\code{\link{usblk}},
+\code{\link{usjews}},
+\code{\link{usmixed}},
+\code{\link{whtchng}}
+
+Other Hispanics: 
+\code{\link{hispchng}}
+
+Other United States: 
+\code{\link{blkchng}},
+\code{\link{hispchng}},
+\code{\link{jewschng}},
+\code{\link{usamind}},
+\code{\link{usasn}},
+\code{\link{usblk}},
+\code{\link{usjews}},
+\code{\link{usmixed}},
+\code{\link{whtchng}}
+}
+\concept{Hispanics}
+\concept{Multi-Ethnic United States}
+\concept{United States}
 \keyword{variable}

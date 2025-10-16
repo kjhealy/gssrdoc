@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 dwelcity
 }
 \details{
-Question 1610b. Compared to houses/apartments in the city/town/county, would you say the house was . . .
+Question B. Compared to houses/apartments in the city/town/county, would you say the house was . . .
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} far above average
+\item \code{2} above average
+\item \code{3} average
+\item \code{4} below average
+\item \code{5} far below average
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5293/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab above average \tab average \tab below average \tab far above average \tab far below average \tab no answer \tab not available in this year \tab Total \cr
@@ -57,27 +80,24 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} far above average
-\item \code{2} above average
-\item \code{3} average
-\item \code{4} below average
-\item \code{5} far below average
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1982 \tab - \tab full \cr
+   1983 \tab - \tab full \cr
+   1984 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Residence: 
+\code{\link{dwelling}},
+\code{\link{dwelngh}}
+
+Other Dwelling (R's): 
+\code{\link{dwelling}},
+\code{\link{dwelngh}}
+}
+\concept{Dwelling (R's)}
+\concept{Residence}
 \keyword{variable}

@@ -10,11 +10,37 @@ General Social Survey https://gss.norc.org
 sathealt
 }
 \details{
-Question 164. For each area of life I am going to name, tell me the number that shows how much satisfaction you get from that area. e. Your health and physical condition.
+Question For each area of life I am going to name, tell me the number that shows how much satisfaction you get from that area. READ ITEMS A-E. CIRCLE ONE CODE FOR EACH.
+E. Your health and physical condition.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very great deal
+\item \code{2} great deal
+\item \code{3} quite a bit
+\item \code{4} a fair amount
+\item \code{5} some
+\item \code{6} a little
+\item \code{7} none
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/447/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab a fair amount \tab a little \tab don't know \tab great deal \tab no answer \tab none \tab quite a bit \tab some \tab very great deal \tab not available in this year \tab Total \cr
@@ -57,29 +83,52 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very great deal
-\item \code{2} great deal
-\item \code{3} quite a bit
-\item \code{4} a fair amount
-\item \code{5} some
-\item \code{6} a little
-\item \code{7} none
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1973 \tab -/- \tab full \cr
+   1974 \tab -/- \tab full \cr
+   1975 \tab -/- \tab full \cr
+   1976 \tab -/- \tab full \cr
+   1977 \tab -/- \tab full \cr
+   1978 \tab -/- \tab full \cr
+   1980 \tab -/- \tab full \cr
+   1982 \tab -/- \tab full \cr
+   1983 \tab -/- \tab full \cr
+   1984 \tab -/- \tab full \cr
+   1986 \tab -/- \tab full \cr
+   1987 \tab -/- \tab full \cr
+   1988 \tab B/C \tab partial \cr
+   1989 \tab B/C \tab partial \cr
+   1990 \tab B/C \tab partial \cr
+   1991 \tab B/C \tab partial \cr
+   1993 \tab B/C \tab partial \cr
+   1994 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{conbus}},
+\code{\link{conclerg}},
+\code{\link{coneduc}},
+\code{\link{confed}},
+\code{\link{confinan}},
+\code{\link{conlabor}},
+\code{\link{conpress}}
+
+Other Split Ballots: 
+\code{\link{conbus}},
+\code{\link{conclerg}},
+\code{\link{coneduc}},
+\code{\link{confed}},
+\code{\link{confinan}},
+\code{\link{conlabor}},
+\code{\link{conpress}},
+\code{\link{satfam}},
+\code{\link{satfrnd}}
+}
+\concept{Core}
+\concept{Healthatisfaction}
+\concept{Split Ballots}
 \keyword{variable}

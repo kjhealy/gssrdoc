@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 intintl
 }
 \details{
-Question There are a lot of issues in the news, and it is hard to keep up with every area. I'm going to read you a short list of issues, and for each one -- as I read it -- I would like you to tell me if you are very interested, moderately interested, or not International and foreign policy issues. Are you very interested, moderately interested, or not at all interested?
+Question International and foreign policy issues. Are you very interested, moderately interested, or not at all interested?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very interested
+\item \code{2} moderately interested
+\item \code{3} not at all interested
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3452/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab don't know \tab moderately interested \tab no answer \tab not at all interested \tab very interested \tab not available in this year \tab Total \cr
@@ -57,25 +78,34 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very interested
-\item \code{2} moderately interested
-\item \code{3} not at all interested
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/C/- \tab partial \cr
+   2012 \tab B/C/- \tab partial \cr
+   2014 \tab B/C/- \tab partial \cr
+   2016 \tab A/B/- \tab partial \cr
+   2018 \tab A/B/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{intecon}},
+\code{\link{inteduc}},
+\code{\link{intfarm}},
+\code{\link{intmed}},
+\code{\link{intsci}},
+\code{\link{inttech}},
+\code{\link{nanoben}},
+\code{\link{nanoharm}},
+\code{\link{scimode}}
+
+Other United States: 
+\code{\link{intfarm}}
+}
+\concept{Foreign Affairs}
+\concept{Science Knowledge & Attitudes}
+\concept{United States}
 \keyword{variable}

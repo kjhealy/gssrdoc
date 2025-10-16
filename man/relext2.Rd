@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 relext2
 }
 \details{
-Question None
+Question There are some people whose views are considered extreme by the majority. Consider religious extremists, that is people who believe that their religion is the only true faith and all other religions should be considered as enemies.
+B. Do you think such people should be allowed to publish books expressing their views? Would you sayâ€¦
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} definitely
+\item \code{2} probably
+\item \code{3} probably not
+\item \code{4} definitely not
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4704/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab definitely \tab definitely not \tab don't know \tab no answer \tab probably \tab probably not \tab not available in this year \tab Total \cr
@@ -57,26 +80,36 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} definitely
-\item \code{2} probably
-\item \code{3} probably not
-\item \code{4} definitely not
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2008 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Religion: 
+\code{\link{ancestrs}},
+\code{\link{mywaygod}},
+\code{\link{nirvana}},
+\code{\link{reincar}},
+\code{\link{relcand}},
+\code{\link{relext1}},
+\code{\link{relmarry}}
+
+Other Civil Liberties: 
+\code{\link{relext1}}
+
+Other Religion: 
+\code{\link{ancestrs}},
+\code{\link{mywaygod}},
+\code{\link{nirvana}},
+\code{\link{reincar}},
+\code{\link{relcand}},
+\code{\link{relext1}},
+\code{\link{relmarry}}
+}
+\concept{Civil Liberties}
+\concept{ISSP Religion}
+\concept{Religion}
 \keyword{variable}

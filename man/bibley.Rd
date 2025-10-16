@@ -10,11 +10,38 @@ General Social Survey https://gss.norc.org
 bibley
 }
 \details{
-Question 120b. Here are four statements about the Bible, and I'd like you to tell me which is the closest to your own view: 1. The Bible is God's word and all it says is true. 2. The Bible was written by men inspired by God, but it contains some human errors. 3. The Bible is a good book because it was written by wise men, but God had nothing to do with it. 4. The Bible was written by men who lived so long ago that it is worth very little today.
+Question B. Here are four statements about the Bible, and I'd like you to tell me which is closest to your own view. READ FIRST FOUR STATEMENTS ((a)-(d)) ONLY. CIRCLE ONLY ONE CODE.
+a. The Bible is God's Word and all it says is true......1
+b.The Bible was written by men inspired by God, but it contains some human errors ......2
+c. The Bible is a good book because it was written by wise men, but God had nothing to do with it ......3
+d. The Bible was written by men who lived so long ago that it is worth very little today......4
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} god's word
+\item \code{2} inspired by god
+\item \code{3} written by man
+\item \code{4} not worth much
+\item \code{5} other
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/365/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab don't know \tab god's word \tab inspired by god \tab no answer \tab not worth much \tab other \tab written by man \tab not available in this year \tab Total \cr
@@ -57,27 +84,41 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} god's word
-\item \code{2} inspired by god
-\item \code{3} written by man
-\item \code{4} not worth much
-\item \code{5} other
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1984 \tab - \tab full \cr
+   1985 \tab - \tab full \cr
+   1987 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{bible}},
+\code{\link{coden}},
+\code{\link{cofund}},
+\code{\link{cojew}},
+\code{\link{coother}},
+\code{\link{prayer}},
+\code{\link{prayerx}},
+\code{\link{prayery}},
+\code{\link{tithing}}
+
+Other Religion: 
+\code{\link{bible}},
+\code{\link{prayer}},
+\code{\link{prayerx}},
+\code{\link{prayery}},
+\code{\link{tithing}}
+
+Other Split Ballots: 
+\code{\link{bible}},
+\code{\link{prayer}},
+\code{\link{prayerx}},
+\code{\link{prayery}}
+}
+\concept{Core}
+\concept{Religion}
+\concept{Split Ballots}
 \keyword{variable}

@@ -1,11 +1,127 @@
+#'  World image:much evil vs. much good
+#' 
+#'  world1
+#' 
+#' Question People have different images of the world and human nature. We'd like to know the kinds of images you have. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of the world  and human nature between the two contrasting images? (HAND CARD AH)
+#' Look at the first set of contrasting images. If you think that "The world is basically filled with evil and sin," you would place yourself at 1. If you think "There is much goodness in the world which hints at God's goodness" you would place yourself at 7. If you think things are somewhere between these two you would place yourself at 2, 3,4, 5 or 6. (REPEAT EXAMPLE AS NECESSARY FOR EACH ITEM A-F) Where would you place your image of the world on the scale for . . .?
+#' (READ EACH SET AND CIRCLE ONE CODE FOR EACH)
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` world is evil
+#'   * `7` world is good
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/366/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |2   |3    |4    |5    |6    |don't know |no answer |world is evil |world is good |not available in this year |Total |
+#'  |:-----|:-----|:---|:----|:----|:----|:----|:----------|:---------|:-------------|:-------------|:--------------------------|:-----|
+#'  |1972  |1613  |-   |-    |-    |-    |-    |-          |-         |-             |-             |-                          |1613  |
+#'  |1973  |1504  |-   |-    |-    |-    |-    |-          |-         |-             |-             |-                          |1504  |
+#'  |1974  |1484  |-   |-    |-    |-    |-    |-          |-         |-             |-             |-                          |1484  |
+#'  |1975  |1490  |-   |-    |-    |-    |-    |-          |-         |-             |-             |-                          |1490  |
+#'  |1976  |1499  |-   |-    |-    |-    |-    |-          |-         |-             |-             |-                          |1499  |
+#'  |1977  |1530  |-   |-    |-    |-    |-    |-          |-         |-             |-             |-                          |1530  |
+#'  |1978  |1532  |-   |-    |-    |-    |-    |-          |-         |-             |-             |-                          |1532  |
+#'  |1980  |1468  |-   |-    |-    |-    |-    |-          |-         |-             |-             |-                          |1468  |
+#'  |1982  |1860  |-   |-    |-    |-    |-    |-          |-         |-             |-             |-                          |1860  |
+#'  |1983  |1599  |-   |-    |-    |-    |-    |-          |-         |-             |-             |-                          |1599  |
+#'  |1984  |1473  |-   |-    |-    |-    |-    |-          |-         |-             |-             |-                          |1473  |
+#'  |1985  |-     |41  |105  |447  |377  |194  |7          |21        |100           |242           |-                          |1534  |
+#'  |1986  |1470  |-   |-    |-    |-    |-    |-          |-         |-             |-             |-                          |1470  |
+#'  |1987  |-     |68  |154  |461  |372  |225  |-          |31        |143           |365           |-                          |1819  |
+#'  |1988  |-     |54  |112  |428  |340  |180  |7          |20        |103           |237           |-                          |1481  |
+#'  |1989  |531   |38  |77   |290  |229  |134  |-          |21        |66            |151           |-                          |1537  |
+#'  |1990  |444   |28  |76   |279  |243  |126  |2          |11        |47            |116           |-                          |1372  |
+#'  |1991  |158   |52  |73   |339  |326  |237  |3          |86        |74            |169           |-                          |1517  |
+#'  |1993  |1606  |-   |-    |-    |-    |-    |-          |-         |-             |-             |-                          |1606  |
+#'  |1994  |1522  |61  |155  |418  |345  |196  |1          |20        |78            |196           |-                          |2992  |
+#'  |1996  |944   |65  |179  |553  |467  |298  |5          |18        |107           |268           |-                          |2904  |
+#'  |1998  |463   |92  |196  |687  |542  |384  |7          |29        |125           |307           |-                          |2832  |
+#'  |2000  |940   |74  |135  |503  |465  |327  |4          |20        |71            |278           |-                          |2817  |
+#'  |2002  |1857  |26  |75   |253  |212  |139  |14         |3         |38            |148           |-                          |2765  |
+#'  |2004  |2812  |-   |-    |-    |-    |-    |-          |-         |-             |-             |-                          |2812  |
+#'  |2006  |4510  |-   |-    |-    |-    |-    |-          |-         |-             |-             |-                          |4510  |
+#'  |2008  |2023  |-   |-    |-    |-    |-    |-          |-         |-             |-             |-                          |2023  |
+#'  |2010  |2044  |-   |-    |-    |-    |-    |-          |-         |-             |-             |-                          |2044  |
+#'  |2012  |1974  |-   |-    |-    |-    |-    |-          |-         |-             |-             |-                          |1974  |
+#'  |2014  |2538  |-   |-    |-    |-    |-    |-          |-         |-             |-             |-                          |2538  |
+#'  |2016  |2867  |-   |-    |-    |-    |-    |-          |-         |-             |-             |-                          |2867  |
+#'  |2018  |2348  |-   |-    |-    |-    |-    |-          |-         |-             |-             |-                          |2348  |
+#'  |2021  |4032  |-   |-    |-    |-    |-    |-          |-         |-             |-             |-                          |4032  |
+#'  |2022  |-     |-   |-    |-    |-    |-    |-          |-         |-             |-             |3544                       |3544  |
+#'  |2024  |-     |-   |-    |-    |-    |-    |-          |-         |-             |-             |3309                       |3309  |
+#'  |Total |52135 |599 |1337 |4658 |3918 |2440 |50         |280       |952           |2477          |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/-   |partial      |
+#'  |1990 |A/B/-   |partial      |
+#'  |1991 |A/B/C   |full         |
+#'  |1994 |A/B/-   |partial      |
+#'  |1996 |A/B/-   |partial      |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/-   |partial      |
+#'  |2002 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family World View
+#' 
+#' @keywords variable
+#' @md
+#' @name world1
+NULL
+
+
 #'  World image:the good must act vs. not
 #' 
 #'  world2
 #' 
-#' Question 121. People have different images of the world and human nature. We'd like to know the kinds of images you have. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of the world and human nature between the two contrasting images? b. 1. The good person must be deeply involved in the problems and activities in the world. 7. The good person must avoid contamination by the corruption of the world.
+#' Question People have different images of the world and human nature. We'd like to know the kinds of images you have. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of the world  and human nature between the two contrasting images? (HAND CARD AH)
+#' Look at the first set of contrasting images. If you think that "The world is basically filled with evil and sin," you would place yourself at 1. If you think "There is much goodness in the world which hints at God's goodness" you would place yourself at 7. If you think things are somewhere between these two you would place yourself at 2, 3,4, 5 or 6. (REPEAT EXAMPLE AS NECESSARY FOR EACH ITEM A-F) Where would you place your image of the world on the scale for . . .?
+#' (READ EACH SET AND CIRCLE ONE CODE FOR EACH)
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` the good must act
+#'   * `7` good must beware
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/367/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,10 +164,35 @@
 #'  |2024  |-     |-   |-   |-   |-   |-  |-          |-                |-         |-                 |3309                       |3309  |
 #'  |Total |67312 |197 |243 |415 |121 |61 |9          |127              |20        |341               |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family World View
+#' 
+#' @keywords variable
+#' @md
+#' @name world2
+NULL
+
+
+#'  World image:god not here vs. here
+#' 
+#'  world3
+#' 
+#' Question People have different images of the world and human nature. We'd like to know the kinds of images you have. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of the world  and human nature between the two contrasting images? (HAND CARD AH)
+#' Look at the first set of contrasting images. If you think that "The world is basically filled with evil and sin," you would place yourself at 1. If you think "There is much goodness in the world which hints at God's goodness" you would place yourself at 7. If you think things are somewhere between these two you would place yourself at 2, 3,4, 5 or 6. (REPEAT EXAMPLE AS NECESSARY FOR EACH ITEM A-F) Where would you place your image of the world on the scale for . . .?
+#' (READ EACH SET AND CIRCLE ONE CODE FOR EACH)
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` the good must act
-#'   * `7` good must beware
+#'   * `1` god not here
+#'   * `7` god is here
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -65,22 +206,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name world2
-NULL
-
-#'  World image:god not here vs. here
-#' 
-#'  world3
-#' 
-#' Question 121. People have different images of the world and human nature. We'd like to know the kinds of images you have. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of the world and human nature between the two contrasting images? c. 1. God is almost totally removed from the sinfulness of the world. 7. God reveals himself in and through the world.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/368/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,10 +250,36 @@ NULL
 #'  |2024  |-     |-  |-  |-   |-   |-   |-          |-           |-            |-         |3309                       |3309  |
 #'  |Total |67312 |33 |39 |297 |279 |237 |23         |530         |61           |35        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' @family World View
+#' 
+#' @keywords variable
+#' @md
+#' @name world3
+NULL
+
+
+#'  World image:man is good vs. corrupt
+#' 
+#'  world4
+#' 
+#' Question People have different images of the world and human nature. We'd like to know the kinds of images you have. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of the world  and human nature between the two contrasting images? (HAND CARD AH)
+#' Look at the first set of contrasting images. If you think that "The world is basically filled with evil and sin," you would place yourself at 1. If you think "There is much goodness in the world which hints at God's goodness" you would place yourself at 7. If you think things are somewhere between these two you would place yourself at 2, 3,4, 5 or 6. (REPEAT EXAMPLE AS NECESSARY FOR EACH ITEM A-F) Where would you place your image of the world on the scale for . . .?
+#' (READ EACH SET AND CIRCLE ONE CODE FOR EACH)
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` god not here
-#'   * `7` god is here
+#'   * `1` people are good
+#'   * `7` people are evil
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -140,22 +293,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name world3
-NULL
-
-#'  World image:man is good vs. corrupt
-#' 
-#'  world4
-#' 
-#' Question 121. People have different images of the world and human nature. We'd like to know the kinds of images you have. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of the world and human nature between the two contrasting images? d. 1. Human nature is basically good. 7. Human nature is fundamentally perverse and corrupt.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/369/vshow).
 #'
 #' Counts by year: 
 #'
@@ -198,10 +337,43 @@ NULL
 #'  |2024  |-     |-    |-    |-    |-   |-   |-          |-         |-               |-               |3309                       |3309  |
 #'  |Total |56813 |2414 |2191 |2857 |893 |399 |27         |223       |720             |2309            |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/-   |partial      |
+#'  |1990 |A/B/-   |partial      |
+#'  |1991 |A/B/C   |full         |
+#'  |1994 |A/B/-   |partial      |
+#'  |1996 |A/B/-   |partial      |
+#'  |1998 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family World View
+#' 
+#' @keywords variable
+#' @md
+#' @name world4
+NULL
+
+
+#'  World image:arts are good vs. not
+#' 
+#'  world5
+#' 
+#' Question People have different images of the world and human nature. We'd like to know the kinds of images you have. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of the world  and human nature between the two contrasting images? (HAND CARD AH)
+#' Look at the first set of contrasting images. If you think that "The world is basically filled with evil and sin," you would place yourself at 1. If you think "There is much goodness in the world which hints at God's goodness" you would place yourself at 7. If you think things are somewhere between these two you would place yourself at 2, 3,4, 5 or 6. (REPEAT EXAMPLE AS NECESSARY FOR EACH ITEM A-F) Where would you place your image of the world on the scale for . . .?
+#' (READ EACH SET AND CIRCLE ONE CODE FOR EACH)
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` people are good
-#'   * `7` people are evil
+#'   * `1` arts can be holy
+#'   * `7` arts can be evil
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -215,22 +387,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name world4
-NULL
-
-#'  World image:arts are good vs. not
-#' 
-#'  world5
-#' 
-#' Question 121. People have different images of the world and human nature. We'd like to know the kinds of images you have. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of the world and human nature between the two contrasting images? e. 1. Through such things as art and music we learn more about God. 7. It is dangerous for a human to be too concerned about worldly things like art and music.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/370/vshow).
 #'
 #' Counts by year: 
 #'
@@ -273,10 +431,35 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-  |-  |-                |-                |-          |-         |3309                       |3309  |
 #'  |Total |67312 |303 |258 |334 |53 |25 |48               |465              |18         |30        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family World View
+#' 
+#' @keywords variable
+#' @md
+#' @name world5
+NULL
+
+
+#'  World image:chaos vs. harmony
+#' 
+#'  world6
+#' 
+#' Question People have different images of the world and human nature. We'd like to know the kinds of images you have. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of the world  and human nature between the two contrasting images? (HAND CARD AH)
+#' Look at the first set of contrasting images. If you think that "The world is basically filled with evil and sin," you would place yourself at 1. If you think "There is much goodness in the world which hints at God's goodness" you would place yourself at 7. If you think things are somewhere between these two you would place yourself at 2, 3,4, 5 or 6. (REPEAT EXAMPLE AS NECESSARY FOR EACH ITEM A-F) Where would you place your image of the world on the scale for . . .?
+#' (READ EACH SET AND CIRCLE ONE CODE FOR EACH)
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` arts can be holy
-#'   * `7` arts can be evil
+#'   * `1` world is chaotic
+#'   * `7` world is harmonious
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -290,22 +473,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name world5
-NULL
-
-#'  World image:chaos vs. harmony
-#' 
-#'  world6
-#' 
-#' Question 121. People have different images of the world and human nature. We'd like to know the kinds of images you have. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of the world and human nature between the two contrasting images? f. 1. The world is a place of strife and disorder. 7. Harmony and cooperation prevail in the world.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/371/vshow).
 #'
 #' Counts by year: 
 #'
@@ -348,10 +517,35 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-   |-  |-          |-         |-                |-                   |3309                       |3309  |
 #'  |Total |67312 |128 |215 |565 |242 |83 |13         |23        |163              |102                 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family World View
+#' 
+#' @keywords variable
+#' @md
+#' @name world6
+NULL
+
+
+#'  World image:ach. reveals god vs. not
+#' 
+#'  world7
+#' 
+#' Question People have different images of the world and human nature. We'd like to know the kinds of images you have. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of the world  and human nature between the two contrasting images? (HAND CARD AH)
+#' Look at the first set of contrasting images. If you think that "The world is basically filled with evil and sin," you would place yourself at 1. If you think "There is much goodness in the world which hints at God's goodness" you would place yourself at 7. If you think things are somewhere between these two you would place yourself at 2, 3,4, 5 or 6. (REPEAT EXAMPLE AS NECESSARY FOR EACH ITEM A-F) Where would you place your image of the world on the scale for . . .?
+#' (READ EACH SET AND CIRCLE ONE CODE FOR EACH)
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` world is chaotic
-#'   * `7` world is harmonious
+#'   * `1` action reveals god
+#'   * `7` most acts are vain
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -365,22 +559,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name world6
-NULL
-
-#'  World image:ach. reveals god vs. not
-#' 
-#'  world7
-#' 
-#' Question 121. People have different images of the world and human nature. We'd like to know the kinds of images you have. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of the world and human nature between the two contrasting images? g. 1. Human achievement helps to reveal God in the world. 7. Most human activity is vain and foolish.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/372/vshow).
 #'
 #' Counts by year: 
 #'
@@ -423,10 +603,32 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-  |-  |-                  |-          |-                  |-         |3309                       |3309  |
 #'  |Total |67312 |292 |297 |300 |86 |42 |401                |20         |60                 |36        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family World View
+#' 
+#' @keywords variable
+#' @md
+#' @name world7
+NULL
+
+
+#'  Feeling thermometer:liberals
+#' 
+#'  libtemp
+#' 
+#' Question I'd like to get your feelings toward groups that are in the news these days. I will use something we call the feeling thermometer, and here is how it works: I'll read the names of a group and I'd like you to rate that group using the feeling thermometer. Ratings between 50 degrees and 100 degrees mean that you feel favorable and warm toward the group. Ratings between 0 degrees and 50 degrees mean that you don't feel favorable toward the group and that you don't care too much for that group. If we come to a group whose name you Don't recognize, you don't need to rate that group. Just tell me and we'll move on to the next one. IF you do recognize the name, but you don't feel particularly warm or cold toward the group, you would rate  at the 50 degree mark. Our first group is liberals. How would you rate this group using the thermometer? 
+#' A. Liberals
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` action reveals god
-#'   * `7` most acts are vain
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -440,22 +642,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name world7
-NULL
-
-#'  Feeling thermometer:liberals
-#' 
-#'  libtemp
-#' 
-#' Question 122. I'd like to get your feelings toward groups that are in teh news these days. I will use something we call the feeling thermometer, and here is how it works: I'll read the names of a group and I'd like you to rate that group using the feeling thermometer. Ratings between 50 degrees and 100 degrees mean that you feel favorable and warm toward the group. Ratings between 0 degrees and 50 degrees mean that you don't feel favorable toward the group and that you don't care too much for that group. a. Liberals
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/373/vshow).
 #'
 #' Counts by year: 
 #'
@@ -498,6 +686,32 @@ NULL
 #'  |2024  |-     |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-   |-  |-  |-    |-  |-  |-  |-  |-   |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |3309                       |3309  |
 #'  |Total |64889 |131 |3  |16 |126 |94 |1  |17 |23 |240 |1  |373 |11 |2  |1011 |12 |1  |1  |7  |636 |13 |518 |50 |32 |1  |1  |222 |20 |3  |1  |322        |56        |5  |2  |1  |1  |1  |1  |1  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Political
+#' 
+#' @keywords variable
+#' @md
+#' @name libtemp
+NULL
+
+
+#'  Feeling thermometer:conservatives
+#' 
+#'  contemp
+#' 
+#' Question I'd like to get your feelings toward groups that are in the news these days. I will use something we call the feeling thermometer, and here is how it works: I'll read the names of a group and I'd like you to rate that group using the feeling thermometer. Ratings between 50 degrees and 100 degrees mean that you feel favorable and warm toward the group. Ratings between 0 degrees and 50 degrees mean that you don't feel favorable toward the group and that you don't care too much for that group. If we come to a group whose name you Don't recognize, you don't need to rate that group. Just tell me and we'll move on to the next one. IF you do recognize the name, but you don't feel particularly warm or cold toward the group, you would rate the group at the 50 degree mark. How would you rate this group using the thermometer? 
+#' B. Conservatives
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -513,22 +727,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name libtemp
-NULL
-
-#'  Feeling thermometer:conservatives
-#' 
-#'  contemp
-#' 
-#' Question 122. I'd like to get your feelings toward groups that are in teh news these days. I will use something we call the feeling thermometer, and here is how it works: I'll read the names of a group and I'd like you to rate that group using the feeling thermometer. Ratings between 50 degrees and 100 degrees mean that you feel favorable and warm toward the group. Ratings between 0 degrees and 50 degrees mean that you don't feel favorable toward the group and that you don't care too much for that group. b. Conservatives
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/374/vshow).
 #'
 #' Counts by year: 
 #'
@@ -571,6 +771,32 @@ NULL
 #'  |2024  |-     |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |3309                       |3309  |
 #'  |Total |64889 |66 |7  |120 |77 |13 |11 |174 |1  |4  |341 |9  |6  |871 |10 |2  |1  |9  |799 |9  |599 |46 |46 |349 |23 |2  |304        |53        |2  |1  |1  |1  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Political
+#' 
+#' @keywords variable
+#' @md
+#' @name contemp
+NULL
+
+
+#'  Feeling thermometer:protestants
+#' 
+#'  prottemp
+#' 
+#' Question I'd like to get your feelings toward groups that are in the news these days. I will use something we call the feeling thermometer, and here is how it works: I'll read the names of a group and I'd like you to rate that group using the feeling thermometer. Ratings between 50 degrees and 100 degrees mean that you feel favorable and warm toward the group. Ratings between 0 degrees and 50 degrees mean that you don't feel favorable toward the group and that you don't care too much for that group. If we come to a group whose name you Don't recognize, you don't need to rate that group. Just tell me and we'll move on to the next one. IF you do recognize the name, but you don't feel particularly warm or cold toward the group, you would rate the group at the 50 degree mark. How would you rate this group using the thermometer? 
+#' C. Protestants
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -586,22 +812,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name contemp
-NULL
-
-#'  Feeling thermometer:protestants
-#' 
-#'  prottemp
-#' 
-#' Question 122. I'd like to get your feelings toward groups that are in teh news these days. I will use something we call the feeling thermometer, and here is how it works: I'll read the names of a group and I'd like you to rate that group using the feeling thermometer. Ratings between 50 degrees and 100 degrees mean that you feel favorable and warm toward the group. Ratings between 0 degrees and 50 degrees mean that you don't feel favorable toward the group and that you don't care too much for that group. c. Protestants
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/375/vshow).
 #'
 #' Counts by year: 
 #'
@@ -644,99 +856,22 @@ NULL
 #'  |2024  |-     |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-    |-  |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |3309                       |3309  |
 #'  |Total |64016 |32 |10 |701 |27 |13 |10 |50 |114 |8  |7  |1178 |10 |8  |491 |11 |2  |793 |84 |112 |760 |75 |19 |234        |63        |5  |1  |2  |1  |3  |1  |1  |1  |1  |1  |1  |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/-   |partial      |
+#'  |2004 |B/C/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
 #' @name prottemp
 NULL
 
-#'  Feeling thermometer:catholics
-#' 
-#'  cathtemp
-#' 
-#' Question 122. I'd like to get your feelings toward groups that are in teh news these days. I will use something we call the feeling thermometer, and here is how it works: I'll read the names of a group and I'd like you to rate that group using the feeling thermometer. Ratings between 50 degrees and 100 degrees mean that you feel favorable and warm toward the group. Ratings between 0 degrees and 50 degrees mean that you don't feel favorable toward the group and that you don't care too much for that group. d. Catholics
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |0  |10 |100 |15 |25 |3  |30  |35 |40  |45 |49 |5  |50   |51 |52 |55 |60  |65 |70  |75 |80  |83 |85  |90 |95 |don't know |no answer |20 |99 |1  |33 |97 |2  |44 |7  |78 |not available in this year |Total |
-#'  |:-----|:-----|:--|:--|:---|:--|:--|:--|:---|:--|:---|:--|:--|:--|:----|:--|:--|:--|:---|:--|:---|:--|:---|:--|:---|:--|:--|:----------|:---------|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--------------------------|:-----|
-#'  |1972  |1613  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1613  |
-#'  |1973  |1504  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1504  |
-#'  |1974  |1484  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1484  |
-#'  |1975  |1490  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1490  |
-#'  |1976  |1499  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1499  |
-#'  |1977  |1530  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1530  |
-#'  |1978  |1532  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1532  |
-#'  |1980  |1468  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1468  |
-#'  |1982  |1860  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1860  |
-#'  |1983  |1599  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1599  |
-#'  |1984  |1473  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1473  |
-#'  |1985  |1534  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1534  |
-#'  |1986  |-     |19 |4  |188 |13 |4  |1  |31  |1  |84  |1  |2  |1  |200  |5  |1  |4  |257 |3  |272 |20 |34  |1  |242 |20 |2  |42         |18        |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1470  |
-#'  |1987  |1819  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1819  |
-#'  |1988  |-     |21 |3  |165 |16 |3  |-  |25  |-  |51  |2  |-  |-  |385  |-  |-  |1  |172 |5  |250 |25 |39  |1  |209 |20 |1  |66         |19        |1  |1  |-  |-  |-  |-  |-  |-  |-  |-                          |1481  |
-#'  |1989  |531   |18 |1  |127 |18 |-  |-  |23  |2  |42  |-  |-  |1  |217  |-  |-  |-  |107 |2  |163 |12 |15  |-  |166 |13 |6  |54         |11        |5  |-  |1  |1  |1  |-  |-  |-  |-  |-                          |1537  |
-#'  |1990  |1372  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1372  |
-#'  |1991  |1517  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1517  |
-#'  |1993  |1606  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1606  |
-#'  |1994  |2992  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2992  |
-#'  |1996  |2904  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2904  |
-#'  |1998  |2832  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2832  |
-#'  |2000  |2817  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2817  |
-#'  |2002  |2765  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2765  |
-#'  |2004  |1939  |13 |4  |113 |7  |9  |-  |21  |1  |44  |2  |-  |3  |258  |-  |-  |1  |79  |5  |104 |21 |16  |-  |93  |12 |4  |34         |15        |6  |1  |3  |-  |-  |1  |1  |1  |1  |-                          |2812  |
-#'  |2006  |4510  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |4510  |
-#'  |2008  |2023  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2023  |
-#'  |2010  |2044  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2044  |
-#'  |2012  |1974  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1974  |
-#'  |2014  |2538  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2538  |
-#'  |2016  |2867  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2867  |
-#'  |2018  |2348  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2348  |
-#'  |2021  |4032  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |4032  |
-#'  |2022  |-     |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |3544                       |3544  |
-#'  |2024  |-     |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |3309                       |3309  |
-#'  |Total |64016 |71 |12 |593 |54 |16 |1  |100 |4  |221 |5  |2  |5  |1060 |5  |1  |6  |615 |15 |789 |78 |104 |2  |710 |65 |13 |196        |63        |12 |2  |4  |1  |1  |1  |1  |1  |1  |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name cathtemp
-NULL
 

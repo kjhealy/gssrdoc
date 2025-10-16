@@ -10,11 +10,30 @@ General Social Survey https://gss.norc.org
 mininc
 }
 \details{
-Question 190. What is the smallest amount of money a family of four (husband, wife, and two children) needs each week to get along in this community?
+Question What is the smallest amount of money a family of four (husband, wife and two children) needs each week to get along in this community?
 }
+\section{Values}{
+
+\itemize{
+\item \code{997} $997+ per week
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/576/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab $997+ per week \tab 100 \tab 120 \tab 125 \tab 150 \tab 160 \tab 170 \tab 175 \tab 185 \tab 200 \tab 220 \tab 225 \tab 230 \tab 235 \tab 25 \tab 250 \tab 270 \tab 275 \tab 300 \tab 325 \tab 330 \tab 349 \tab 350 \tab 375 \tab 390 \tab 400 \tab 420 \tab 425 \tab 45 \tab 450 \tab 50 \tab 500 \tab 520 \tab 550 \tab 575 \tab 600 \tab 625 \tab 650 \tab 700 \tab 750 \tab 800 \tab 900 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,23 +76,31 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{997} $997+ per week
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1986 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{finalter}},
+\code{\link{finrela}},
+\code{\link{incneed}},
+\code{\link{satfin}},
+\code{\link{wksub}},
+\code{\link{wksub1}},
+\code{\link{wksubs}},
+\code{\link{wksubs1}},
+\code{\link{wksup}}
+
+Other Income: 
+\code{\link{finalter}},
+\code{\link{finrela}},
+\code{\link{incneed}},
+\code{\link{satfin}}
+}
+\concept{Core}
+\concept{Income}
 \keyword{variable}

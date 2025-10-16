@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 cope4
 }
 \details{
-Question 676. Think about how you try to understand and deal with major problems in your life. To what extent is each of the following involved in the way you cope: d. I feel that God is punishing me for my sins or lack of spirituality
+Question Think about how you try to understand and deal with major problems in your life. To what extent is each of the following involved in the way you cope:
+D. I feel that God is punishing me for my sins or lack of spirituality.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} a great deal
+\item \code{2} quite a bit
+\item \code{3} somewhat
+\item \code{4} not at all
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2099/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab a great deal \tab don't know \tab no answer \tab not at all \tab quite a bit \tab somewhat \tab not available in this year \tab Total \cr
@@ -57,26 +80,36 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} a great deal
-\item \code{2} quite a bit
-\item \code{3} somewhat
-\item \code{4} not at all
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1998 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Religion and Culture: 
+\code{\link{conghlp1}},
+\code{\link{conghlp2}},
+\code{\link{conghrm1}},
+\code{\link{conghrm2}},
+\code{\link{cope1}},
+\code{\link{cope2}},
+\code{\link{cope3}},
+\code{\link{meditate}},
+\code{\link{privpray}}
+
+Other Religion: 
+\code{\link{conghlp1}},
+\code{\link{conghlp2}},
+\code{\link{conghrm1}},
+\code{\link{conghrm2}},
+\code{\link{cope1}},
+\code{\link{cope2}},
+\code{\link{cope3}},
+\code{\link{meditate}},
+\code{\link{privpray}}
+}
+\concept{Religion}
+\concept{Religion and Culture}
 \keyword{variable}

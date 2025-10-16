@@ -10,11 +10,40 @@ General Social Survey https://gss.norc.org
 hivtest2
 }
 \details{
-Question 1562b. Where did you have your last HIV test ~ at a private doctor or HMO office, at a counselling and testing site, at a hospital, at a clinic, in a jail or prison, at home, or somewhere else?
+Question Have you ever been tested for HIV? Do not count tests you may have had as part of a blood donation. Include oral test (where they take a swab from your mouth). B. Where did you have your last HIV test – at a private doctor or HMO office, at a counselling and testing site, at a hospital, at a clinic, in a jail or prison, at home, or somewhere else?
+As of 2024, HIVTEST2 has been recoded to only account for seven categories by combining jail, home, and drug treatment facility into "Somewhere else." This has been retroactively applied to all previous years of HIVTEST2. The original HIVTEST2 containing data from 2006 to 2022 has been renamed HIVTEST2_0622.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} private doctor or hmo office
+\item \code{2} counseling and testing site
+\item \code{3} hospital
+\item \code{4} clinic
+\item \code{5} jail or prison
+\item \code{6} home
+\item \code{7} somewhere else
+\item \code{8} emergency room
+\item \code{9} drug treatment facility
+\item \code{10} hospital inpatient
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5076/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllll}{
    year \tab iap \tab clinic \tab counseling and testing site \tab don't know \tab home \tab hospital \tab jail or prison \tab no answer \tab private doctor or hmo office \tab somewhere else \tab drug treatment facility \tab emergency room \tab hospital inpatient \tab skipped on web \tab not available in this release \tab Total \cr
@@ -57,32 +86,39 @@ Counts by year:\tabular{lllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} private doctor or hmo office
-\item \code{2} counseling and testing site
-\item \code{3} hospital
-\item \code{4} clinic
-\item \code{5} jail or prison
-\item \code{6} home
-\item \code{7} somewhere else
-\item \code{8} emergency room
-\item \code{9} drug treatment facility
-\item \code{10} hospital inpatient
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab A/B/C \tab full \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab B/C/- \tab partial \cr
+   2018 \tab B/C/- \tab partial \cr
+   2021 \tab B/C/- \tab partial \cr
+   2022 \tab B/C/- \tab partial \cr
+   2024 \tab B/C/- \tab partial \cr
 }
 }
 
+\seealso{
+Other High Risk Behaviors: 
+\code{\link{aidslook}},
+\code{\link{condom}},
+\code{\link{crack30}},
+\code{\link{evcrack}},
+\code{\link{evidu}},
+\code{\link{hivtest}},
+\code{\link{hivtest1}},
+\code{\link{idu30}},
+\code{\link{relatsex}}
+
+Other Health: 
+\code{\link{aidslook}},
+\code{\link{hivtest}},
+\code{\link{hivtest1}}
+}
+\concept{Health}
+\concept{High Risk Behaviors}
 \keyword{variable}

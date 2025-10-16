@@ -10,11 +10,36 @@ General Social Survey https://gss.norc.org
 hlpsickr
 }
 \details{
-Question Who or where would you turn to first to? E. Look after you if you were seriously ill?
+Question Who or where would you turn to first toï¿½ Look after you if you were seriously ill?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} family members or close friends
+\item \code{2} other persons
+\item \code{3} private companies
+\item \code{4} public services
+\item \code{5} non-profit or religious organizations
+\item \code{6} other organizations
+\item \code{7} no person or organization
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7253/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab don't know \tab family members or close friends \tab no answer \tab no person or organization \tab non-profit or religious organizations \tab other organizations \tab other persons \tab private companies \tab public services \tab not available in this year \tab Total \cr
@@ -57,28 +82,10 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} family members or close friends
-\item \code{2} other persons
-\item \code{3} private companies
-\item \code{4} public services
-\item \code{5} non-profit or religious organizations
-\item \code{6} other organizations
-\item \code{7} no person or organization
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2018 \tab B/C \tab partial \cr
 }
 }
 

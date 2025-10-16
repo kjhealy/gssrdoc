@@ -10,11 +10,38 @@ General Social Survey https://gss.norc.org
 fambiz
 }
 \details{
-Question 635. What kind of business is this?
+Question What kind of business is this?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} manufacturing
+\item \code{2} retail sales
+\item \code{3} wholesale sales
+\item \code{4} services
+\item \code{5} transportation
+\item \code{6} construction
+\item \code{7} finance, insrnce or real est
+\item \code{8} farming
+\item \code{9} other specify
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1878/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllll}{
    year \tab iap \tab construction \tab don't know \tab farming \tab finance, insrnce or real est \tab manufacturing \tab no answer \tab other specify \tab retail sales \tab services \tab transportation \tab wholesale sales \tab not available in this year \tab Total \cr
@@ -57,31 +84,33 @@ Counts by year:\tabular{lllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} manufacturing
-\item \code{2} retail sales
-\item \code{3} wholesale sales
-\item \code{4} services
-\item \code{5} transportation
-\item \code{6} construction
-\item \code{7} finance, insrnce or real est
-\item \code{8} farming
-\item \code{9} other specify
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Markets: 
+\code{\link{decauto}},
+\code{\link{econsys}},
+\code{\link{famfinan}},
+\code{\link{haggle}},
+\code{\link{hrfambiz}},
+\code{\link{natrecon}},
+\code{\link{reqinfo}},
+\code{\link{tagsales}},
+\code{\link{wkfambiz}}
+
+Other Agriculture: 
+\code{\link{wkfambiz}}
+
+Other Occupation: 
+\code{\link{wkfambiz}}
+}
+\concept{Agriculture}
+\concept{Industry}
+\concept{Markets}
+\concept{Occupation}
 \keyword{variable}

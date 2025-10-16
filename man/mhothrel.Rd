@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 mhothrel
 }
 \details{
-Question 1098. As a result of the mental health problem, would you say that your relationship with this person...
+Question As a result of the mental health problem, would you say that your relationship with this personâ€¦
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} became stronger
+\item \code{2} became worse
+\item \code{3} was unchanged
+\item \code{4} ended as a result of the problem
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3567/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab became stronger \tab became worse \tab don't know \tab ended as a result of the problem \tab no answer \tab was unchanged \tab not available in this year \tab Total \cr
@@ -57,26 +79,26 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} became stronger
-\item \code{2} became worse
-\item \code{3} was unchanged
-\item \code{4} ended as a result of the problem
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Mental Health III: 
+\code{\link{mhothyou}},
+\code{\link{mhtrtoth}},
+\code{\link{seemhpub}},
+\code{\link{viglab06}}
+
+Other Mental Health: 
+\code{\link{mhothyou}},
+\code{\link{mhtrtoth}},
+\code{\link{seemhpub}},
+\code{\link{viglab06}}
+}
+\concept{Mental Health}
+\concept{Mental Health III}
 \keyword{variable}

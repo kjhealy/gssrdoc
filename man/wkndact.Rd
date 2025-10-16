@@ -12,9 +12,32 @@ wkndact
 \details{
 Question When you and your (spouse/partner) make decisions about choosing shared weekend activities, who has the final say?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} mostly me
+\item \code{2} mostly my spousepartfill
+\item \code{3} sometimes me/sometimes my spousepartfill
+\item \code{4} we decide together
+\item \code{5} someone else
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4474/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab don't know \tab mostly me \tab mostly my spousepartfill \tab no answer \tab someone else \tab sometimes me/sometimes my spousepartfill \tab we decide together \tab not available in this year \tab Total \cr
@@ -57,27 +80,25 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} mostly me
-\item \code{2} mostly my spousepartfill
-\item \code{3} sometimes me/sometimes my spousepartfill
-\item \code{4} we decide together
-\item \code{5} someone else
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2012 \tab A/B \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Family & Gender Roles: 
+\code{\link{eldcost}},
+\code{\link{famvswk1}},
+\code{\link{hhclean1}},
+\code{\link{jobvsfa1}},
+\code{\link{tiredhm1}},
+\code{\link{tiredwk1}},
+\code{\link{wkkidscl}},
+\code{\link{wkkidscs}},
+\code{\link{wkyngscl}}
+}
+\concept{ISSP Family & Gender Roles}
+\concept{Marriage}
 \keyword{variable}

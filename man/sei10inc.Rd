@@ -10,11 +10,29 @@ General Social Survey https://gss.norc.org
 sei10inc
 }
 \details{
-Question None
+Question Percentage of those who earned $45,000 or more among those who had the same occupation as in OCC10 in American Community Survey between 2010 and 2012 (25-64 years old only).This percentage is not from the GSS but it is used to calculate SEI10.
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} i don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5716/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab 1.5 \tab 10 \tab 10.3 \tab 10.9 \tab 11.3 \tab 11.5 \tab 11.6 \tab 11.7 \tab 11.8 \tab 12.7 \tab 13.2 \tab 13.5 \tab 13.7 \tab 13.8 \tab 14.5 \tab 14.7 \tab 14.9 \tab 15.1 \tab 15.6 \tab 15.9 \tab 16.4 \tab 16.8 \tab 17 \tab 17.1 \tab 17.3 \tab 17.4 \tab 17.6 \tab 17.7 \tab 17.9 \tab 18.5 \tab 18.8 \tab 18.9 \tab 19 \tab 19.9 \tab 20.5 \tab 20.6 \tab 20.7 \tab 21.1 \tab 21.4 \tab 21.5 \tab 21.6 \tab 22 \tab 22.1 \tab 22.4 \tab 22.8 \tab 23.1 \tab 23.4 \tab 23.6 \tab 23.9 \tab 24.3 \tab 24.7 \tab 24.9 \tab 25.4 \tab 25.7 \tab 25.9 \tab 26 \tab 26.1 \tab 26.4 \tab 26.5 \tab 26.6 \tab 26.7 \tab 27 \tab 27.8 \tab 27.9 \tab 28.2 \tab 28.8 \tab 29.5 \tab 29.8 \tab 3.2 \tab 3.3 \tab 3.5 \tab 3.6 \tab 3.8 \tab 30.3 \tab 30.4 \tab 30.8 \tab 30.9 \tab 31.4 \tab 31.5 \tab 31.7 \tab 32.4 \tab 33 \tab 33.8 \tab 34.1 \tab 34.5 \tab 34.9 \tab 35 \tab 35.3 \tab 35.7 \tab 35.8 \tab 38.5 \tab 39.1 \tab 39.4 \tab 39.7 \tab 4.1 \tab 4.3 \tab 4.5 \tab 4.6 \tab 40.3 \tab 40.8 \tab 41.5 \tab 41.6 \tab 41.9 \tab 42.1 \tab 42.5 \tab 42.7 \tab 42.8 \tab 43.4 \tab 43.6 \tab 43.7 \tab 44.2 \tab 44.5 \tab 44.7 \tab 44.8 \tab 45.2 \tab 45.3 \tab 45.7 \tab 45.8 \tab 46.5 \tab 46.9 \tab 47.5 \tab 47.6 \tab 47.7 \tab 48.2 \tab 49.6 \tab 5 \tab 5.2 \tab 5.5 \tab 50.4 \tab 50.5 \tab 51.8 \tab 52.6 \tab 53.2 \tab 54.2 \tab 54.7 \tab 54.9 \tab 55 \tab 55.3 \tab 56.5 \tab 58.3 \tab 59.3 \tab 59.9 \tab 6.4 \tab 6.9 \tab 60 \tab 60.1 \tab 60.2 \tab 60.7 \tab 60.8 \tab 60.9 \tab 61.3 \tab 61.4 \tab 62.4 \tab 62.9 \tab 63.1 \tab 63.6 \tab 64.3 \tab 64.7 \tab 64.8 \tab 64.9 \tab 65 \tab 65.3 \tab 65.6 \tab 66.2 \tab 67.1 \tab 67.5 \tab 67.7 \tab 68.1 \tab 68.4 \tab 69.5 \tab 7 \tab 7.1 \tab 7.2 \tab 7.5 \tab 7.7 \tab 7.8 \tab 70.7 \tab 71 \tab 71.2 \tab 71.9 \tab 72.2 \tab 72.3 \tab 73.9 \tab 74 \tab 74.2 \tab 75.4 \tab 75.6 \tab 76.8 \tab 77.8 \tab 78.4 \tab 78.9 \tab 79 \tab 79.6 \tab 79.7 \tab 8.8 \tab 80.3 \tab 80.4 \tab 81.1 \tab 81.8 \tab 82.6 \tab 82.7 \tab 83.1 \tab 83.9 \tab 84.7 \tab 86 \tab 86.4 \tab 87 \tab 89.6 \tab 9 \tab 9.4 \tab 9.5 \tab 9.9 \tab 90.2 \tab 90.5 \tab 91.1 \tab 91.5 \tab 92.7 \tab 92.9 \tab 93.3 \tab 93.4 \tab 94 \tab 94.4 \tab 95.8 \tab iap \tab 12.2 \tab 12.5 \tab 13.4 \tab 13.9 \tab 19.7 \tab 20.2 \tab 21.2 \tab 22.2 \tab 23.8 \tab 26.9 \tab 28.7 \tab 31 \tab 31.1 \tab 31.3 \tab 32.5 \tab 32.6 \tab 33.6 \tab 37.4 \tab 39 \tab 40.4 \tab 41.1 \tab 43 \tab 46.4 \tab 46.8 \tab 50.7 \tab 51.9 \tab 52 \tab 52.1 \tab 55.2 \tab 57.3 \tab 57.4 \tab 57.7 \tab 58.5 \tab 59.2 \tab 61.5 \tab 62.1 \tab 64.5 \tab 66.4 \tab 68 \tab 68.5 \tab 70.3 \tab 70.5 \tab 71.3 \tab 72 \tab 76.4 \tab 79.5 \tab 8.9 \tab 80.2 \tab 82 \tab 82.1 \tab 84.2 \tab 90.1 \tab 91.4 \tab 91.7 \tab 91.9 \tab 95.1 \tab 96 \tab 12 \tab 15.3 \tab 21.9 \tab 29.3 \tab 33.4 \tab 33.5 \tab 35.9 \tab 37 \tab 37.3 \tab 54.3 \tab 55.1 \tab 61.1 \tab 62.3 \tab 67.6 \tab 74.4 \tab 74.6 \tab 74.7 \tab 77.3 \tab 84.3 \tab 86.9 \tab 96.5 \tab 19.3 \tab 28.9 \tab 29.9 \tab 42.2 \tab 44.9 \tab 48.5 \tab 58.6 \tab 59.4 \tab 66 \tab 77.6 \tab 87.9 \tab 93.9 \tab 18.6 \tab 22.6 \tab 23.5 \tab 26.8 \tab 31.9 \tab 33.1 \tab 51.4 \tab 59.7 \tab 63 \tab 64.2 \tab 69.6 \tab 75 \tab 86.1 \tab 93.2 \tab 10.7 \tab 30.7 \tab 53.5 \tab 53.7 \tab 55.4 \tab 60.6 \tab 83.5 \tab 17.2 \tab 25.2 \tab 33.3 \tab 40 \tab 41.4 \tab 45.5 \tab 56.1 \tab 57.1 \tab 72.5 \tab 79.8 \tab 89.4 \tab 94.3 \tab 95.5 \tab 16.9 \tab 25.5 \tab 59.8 \tab 7.9 \tab 85.6 \tab 88.1 \tab 24.2 \tab 38.8 \tab 42.9 \tab 57.2 \tab 61 \tab 73.7 \tab 77 \tab 82.4 \tab 87.6 \tab 12.8 \tab 33.7 \tab 51.6 \tab 52.4 \tab 70.4 \tab 82.3 \tab 53.1 \tab 81.9 \tab 91.3 \tab 24 \tab 81.7 \tab 93.1 \tab 85 \tab 58.2 \tab 87.2 \tab 34 \tab 72.7 \tab 63.2 \tab 89.8 \tab 15.7 \tab 47 \tab 56.8 \tab 66.6 \tab 33.9 \tab 91.8 \tab not available in this release \tab Total \cr
@@ -57,22 +75,58 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} i don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1972 \tab -/-/-/- \tab full \cr
+   1973 \tab -/-/-/- \tab full \cr
+   1974 \tab -/-/-/- \tab full \cr
+   1975 \tab -/-/-/- \tab full \cr
+   1976 \tab -/-/-/- \tab full \cr
+   1977 \tab -/-/-/- \tab full \cr
+   1978 \tab -/-/-/- \tab full \cr
+   1980 \tab -/-/-/- \tab full \cr
+   1982 \tab -/-/-/- \tab full \cr
+   1983 \tab -/-/-/- \tab full \cr
+   1984 \tab -/-/-/- \tab full \cr
+   1985 \tab -/-/-/- \tab full \cr
+   1986 \tab -/-/-/- \tab full \cr
+   1987 \tab -/-/-/- \tab full \cr
+   1988 \tab A/B/C/- \tab full \cr
+   1989 \tab A/B/C/- \tab full \cr
+   1990 \tab A/B/C/- \tab full \cr
+   1991 \tab A/B/C/- \tab full \cr
+   1993 \tab A/B/C/- \tab full \cr
+   1994 \tab A/B/C/- \tab full \cr
+   1996 \tab A/B/C/- \tab full \cr
+   1998 \tab A/B/C/- \tab full \cr
+   2000 \tab A/B/C/- \tab full \cr
+   2002 \tab A/B/C/- \tab full \cr
+   2004 \tab A/B/C/- \tab full \cr
+   2006 \tab A/B/C/D \tab full \cr
+   2008 \tab A/B/C/- \tab full \cr
+   2010 \tab A/B/C/- \tab full \cr
+   2012 \tab A/B/C/- \tab full \cr
+   2014 \tab A/B/C/- \tab full \cr
+   2016 \tab A/B/C/- \tab full \cr
+   2018 \tab A/B/C/- \tab full \cr
+   2021 \tab A/B/C/- \tab full \cr
+   2022 \tab A/B/C/- \tab full \cr
+   2024 \tab A/B/C/- \tab full \cr
 }
 }
 
+\seealso{
+Other Occupation: 
+\code{\link{coisco08}},
+\code{\link{firstsei}},
+\code{\link{masei}},
+\code{\link{pasei}},
+\code{\link{pasei10}},
+\code{\link{sei}},
+\code{\link{sei10}},
+\code{\link{sei10educ}},
+\code{\link{spsei}}
+}
+\concept{Occupation}
 \keyword{variable}

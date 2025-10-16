@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 knomentl
 }
 \details{
-Question 1589. Please tell me which one of the statements on the card best describes what the government has the right to know. Before giving an individual a SECRET or TOP SECRET clearance, the government should have the right to know: 1. Nothing about an individual's emotional or mental health 2. Whether or not an individual is now consulting a mental health professional 3. Whether or not an individual has ever consulted a mental health professional 4. Whether or not an idnividual has ever consulted a mental health professional, and the general nature of the diagnosis and counseling by the mental health professiona. 5. Whether or not an individual has ever consulted a mental health professional, the general nature of the diagnosis and counseling by the mental health professional, and the specific information revealed in confidence to the mental health professional
+Question Please tell me which one of the statements on the card best describes what the government has the right to know. Before giving an individual a SECRET or TOP SECRET clearance, the government should have the right to know:
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} nothing about mental health
+\item \code{2} whether currently consulting
+\item \code{3} ever consulted a mental
+\item \code{4} ever consulted & diagnosis
+\item \code{5} diagnosis & confident. info
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5226/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab diagnosis & confident. info \tab don't know \tab ever consulted & diagnosis \tab ever consulted a mental \tab no answer \tab nothing about mental health \tab whether currently consulting \tab not available in this year \tab Total \cr
@@ -57,27 +80,32 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} nothing about mental health
-\item \code{2} whether currently consulting
-\item \code{3} ever consulted a mental
-\item \code{4} ever consulted & diagnosis
-\item \code{5} diagnosis & confident. info
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
+   1998 \tab A/B/C \tab full \cr
+   2000 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other National Security: 
+\code{\link{chkfinan}},
+\code{\link{chkspfin}},
+\code{\link{chktaxes}},
+\code{\link{leakinfo}},
+\code{\link{punarms}},
+\code{\link{spyenemy}},
+\code{\link{spyfrend}},
+\code{\link{takearms}},
+\code{\link{taketrck}}
+
+Other Federal Government: 
+\code{\link{chkfinan}},
+\code{\link{chkspfin}},
+\code{\link{chktaxes}}
+}
+\concept{Federal Government}
+\concept{National Security}
 \keyword{variable}

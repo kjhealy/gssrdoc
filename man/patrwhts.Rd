@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 patrwhts
 }
 \details{
-Question 403f. Do people in these groups tend to be patriotic or do they tend to be unpatriotic? 1. Whites
+Question Now I have some questions about different groups in our society. I'm going to show you a seven-point scale on which the characteristics of people in a group can be rated. In the first statement a score of 1 means that you think almost all of the people in that group are "rich."  A score of 7 means that you think almost everyone in the group are "poor."  A score of 4 means you think that the group is not towards one end or another, and of course you may choose any number In between that comes closest to where you think people in the group stand.
+F. Do people in these groups tend to be patriotic or do they tend to be unpatriotic?
+\enumerate{
+\item Where would you rate whites in general on this scale?
 }
+}
+\section{Values}{
+
+\itemize{
+\item \code{1} patriotic
+\item \code{7} unpatriotic
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1208/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab don't know \tab no answer \tab patriotic \tab unpatriotic \tab not available in this year \tab Total \cr
@@ -57,24 +81,28 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} patriotic
-\item \code{7} unpatriotic
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1990 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Intergroup Relations: 
+\code{\link{fareasns}},
+\code{\link{fareblks}},
+\code{\link{farehsps}},
+\code{\link{farejews}},
+\code{\link{fareso}},
+\code{\link{farewhts}},
+\code{\link{intlhsps}},
+\code{\link{intlso}},
+\code{\link{patrjews}}
+
+Other Whites: 
+\code{\link{farewhts}}
+}
+\concept{Intergroup Relations}
+\concept{Whites}
 \keyword{variable}

@@ -1,5 +1,7 @@
-## 2.
-## Run make_gss_doc.R and make_gss_all_labelled.R first
+## 4.
+## Run make_gss_doc.R
+## Run make_gss_all_labelled.R
+## Run make_gss_norctibble.R
 
 library(tidyverse)
 library(lubridate)
@@ -12,7 +14,7 @@ library(labelled)
 load(here::here("data-raw", "from_gssr", "gss_all.rda"))
 
 ## Labelled gss obj
-load(here("data-raw", "objects", "gss_all_labelled.rda"))
+gss_all_labelled <- readRDS(here("data-raw", "objects", "gss_all_labelled.rda"))
 
 
 # make a data dictionary
@@ -30,9 +32,11 @@ out <- out |>
   rowid_to_column()
 
 gss_years <- out |>
-  pivot_longer(wrkstat:last_col(),
-               names_to = "variable",
-               values_to = "present") |>
+  pivot_longer(
+    wrkstat:last_col(),
+    names_to = "variable",
+    values_to = "present"
+  ) |>
   select(-rowid) |>
   group_by(variable) |>
   nest(years = c(year, present))
@@ -50,7 +54,9 @@ gss_which_ballots <- function(variable) {
     tally() |>
     mutate(ballot = str_replace(ballot, "iap", "(None)")) |>
     pivot_wider(names_from = ballot, values_from = n) |>
-    mutate(across(matches("ballot|None"), \(x) replace_na(as.character(x), "-"))) |>
+    mutate(across(matches("ballot|None"), \(x) {
+      replace_na(as.character(x), "-")
+    })) |>
     mutate(across(!contains("year"), \(x) str_replace(x, "\\d{2,4}", "Y"))) |>
     ungroup()
 }
@@ -68,7 +74,7 @@ gss_ballot_tbl <- gss_ballot_tbl |>
 gss_ballot_tbl |>
   filter(variable == "commute") |>
   unnest(cols = c(var_ballots)) |>
-  print(n=Inf)
+  print(n = Inf)
 
 gss_dict <- gss_dict |>
   left_join(gss_ballot_tbl, by = "variable")
@@ -86,4 +92,3 @@ gss_dict <- left_join(gss_dict, gss_doc, by = "variable") |>
 
 ## Save out
 usethis::use_data(gss_dict, overwrite = TRUE, compress = "xz")
-

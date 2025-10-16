@@ -1,11 +1,200 @@
+#'  Patient was other relatives
+#' 
+#'  relmhsp3
+#' 
+#' Question Was this a relative, a close friend, or just someone you didn't know very well? (CIRCLE ALL THAT APPLY) PROBE UNTIL "NO": ANYONE ELSE? 
+#' C. Other relatives.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` oth relative
+#'   * `2` not oth relative
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2061/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |no answer |not oth relative |oth relative |not available in this year |Total |
+#'  |:-----|:-----|:---------|:----------------|:------------|:--------------------------|:-----|
+#'  |1972  |1613  |-         |-                |-            |-                          |1613  |
+#'  |1973  |1504  |-         |-                |-            |-                          |1504  |
+#'  |1974  |1484  |-         |-                |-            |-                          |1484  |
+#'  |1975  |1490  |-         |-                |-            |-                          |1490  |
+#'  |1976  |1499  |-         |-                |-            |-                          |1499  |
+#'  |1977  |1530  |-         |-                |-            |-                          |1530  |
+#'  |1978  |1532  |-         |-                |-            |-                          |1532  |
+#'  |1980  |1468  |-         |-                |-            |-                          |1468  |
+#'  |1982  |1860  |-         |-                |-            |-                          |1860  |
+#'  |1983  |1599  |-         |-                |-            |-                          |1599  |
+#'  |1984  |1473  |-         |-                |-            |-                          |1473  |
+#'  |1985  |1534  |-         |-                |-            |-                          |1534  |
+#'  |1986  |1470  |-         |-                |-            |-                          |1470  |
+#'  |1987  |1819  |-         |-                |-            |-                          |1819  |
+#'  |1988  |1481  |-         |-                |-            |-                          |1481  |
+#'  |1989  |1537  |-         |-                |-            |-                          |1537  |
+#'  |1990  |1372  |-         |-                |-            |-                          |1372  |
+#'  |1991  |1517  |-         |-                |-            |-                          |1517  |
+#'  |1993  |1606  |-         |-                |-            |-                          |1606  |
+#'  |1994  |2992  |-         |-                |-            |-                          |2992  |
+#'  |1996  |2531  |9         |265              |99           |-                          |2904  |
+#'  |1998  |2832  |-         |-                |-            |-                          |2832  |
+#'  |2000  |2817  |-         |-                |-            |-                          |2817  |
+#'  |2002  |2765  |-         |-                |-            |-                          |2765  |
+#'  |2004  |2812  |-         |-                |-            |-                          |2812  |
+#'  |2006  |4510  |-         |-                |-            |-                          |4510  |
+#'  |2008  |2023  |-         |-                |-            |-                          |2023  |
+#'  |2010  |2044  |-         |-                |-            |-                          |2044  |
+#'  |2012  |1974  |-         |-                |-            |-                          |1974  |
+#'  |2014  |2538  |-         |-                |-            |-                          |2538  |
+#'  |2016  |2867  |-         |-                |-            |-                          |2867  |
+#'  |2018  |2348  |-         |-                |-            |-                          |2348  |
+#'  |2021  |4032  |-         |-                |-            |-                          |4032  |
+#'  |2022  |-     |-         |-                |-            |3544                       |3544  |
+#'  |2024  |-     |-         |-                |-            |3309                       |3309  |
+#'  |Total |68473 |9         |265              |99           |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name relmhsp3
+NULL
+
+
+#'  Patient was close friend
+#' 
+#'  relmhsp4
+#' 
+#' Question Was this a relative, a close friend, or just someone you didn't know very well? (CIRCLE ALL THAT APPLY) PROBE UNTIL "NO": ANYONE ELSE? 
+#' D. Close friends.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` close friend
+#'   * `2` not close friend
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2062/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |close friend |no answer |not close friend |not available in this year |Total |
+#'  |:-----|:-----|:------------|:---------|:----------------|:--------------------------|:-----|
+#'  |1972  |1613  |-            |-         |-                |-                          |1613  |
+#'  |1973  |1504  |-            |-         |-                |-                          |1504  |
+#'  |1974  |1484  |-            |-         |-                |-                          |1484  |
+#'  |1975  |1490  |-            |-         |-                |-                          |1490  |
+#'  |1976  |1499  |-            |-         |-                |-                          |1499  |
+#'  |1977  |1530  |-            |-         |-                |-                          |1530  |
+#'  |1978  |1532  |-            |-         |-                |-                          |1532  |
+#'  |1980  |1468  |-            |-         |-                |-                          |1468  |
+#'  |1982  |1860  |-            |-         |-                |-                          |1860  |
+#'  |1983  |1599  |-            |-         |-                |-                          |1599  |
+#'  |1984  |1473  |-            |-         |-                |-                          |1473  |
+#'  |1985  |1534  |-            |-         |-                |-                          |1534  |
+#'  |1986  |1470  |-            |-         |-                |-                          |1470  |
+#'  |1987  |1819  |-            |-         |-                |-                          |1819  |
+#'  |1988  |1481  |-            |-         |-                |-                          |1481  |
+#'  |1989  |1537  |-            |-         |-                |-                          |1537  |
+#'  |1990  |1372  |-            |-         |-                |-                          |1372  |
+#'  |1991  |1517  |-            |-         |-                |-                          |1517  |
+#'  |1993  |1606  |-            |-         |-                |-                          |1606  |
+#'  |1994  |2992  |-            |-         |-                |-                          |2992  |
+#'  |1996  |2531  |98           |9         |266              |-                          |2904  |
+#'  |1998  |2832  |-            |-         |-                |-                          |2832  |
+#'  |2000  |2817  |-            |-         |-                |-                          |2817  |
+#'  |2002  |2765  |-            |-         |-                |-                          |2765  |
+#'  |2004  |2812  |-            |-         |-                |-                          |2812  |
+#'  |2006  |4510  |-            |-         |-                |-                          |4510  |
+#'  |2008  |2023  |-            |-         |-                |-                          |2023  |
+#'  |2010  |2044  |-            |-         |-                |-                          |2044  |
+#'  |2012  |1974  |-            |-         |-                |-                          |1974  |
+#'  |2014  |2538  |-            |-         |-                |-                          |2538  |
+#'  |2016  |2867  |-            |-         |-                |-                          |2867  |
+#'  |2018  |2348  |-            |-         |-                |-                          |2348  |
+#'  |2021  |4032  |-            |-         |-                |-                          |4032  |
+#'  |2022  |-     |-            |-         |-                |3544                       |3544  |
+#'  |2024  |-     |-            |-         |-                |3309                       |3309  |
+#'  |Total |68473 |98           |9         |266              |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name relmhsp4
+NULL
+
+
 #'  Patient was acquaintance
 #' 
 #'  relmhsp5
 #' 
-#' Question 668. Was this a relative, a close friend, or just someone you didn't know very well? e. Acquaintances
+#' Question Was this a relative, a close friend, or just someone you didn't know very well? (CIRCLE ALL THAT APPLY) PROBE UNTIL "NO": ANYONE ELSE? 
+#' E. Acquaintances.
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` acquaintance
+#'   * `2` not acquaintance
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2063/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,10 +237,34 @@
 #'  |2024  |-     |-            |-         |-                |3309                       |3309  |
 #'  |Total |68473 |88           |9         |276              |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name relmhsp5
+NULL
+
+
+#'  Patient was other
+#' 
+#'  relmhsp6
+#' 
+#' Question Was this a relative, a close friend, or just someone you didn't know very well? (CIRCLE ALL THAT APPLY) PROBE UNTIL "NO": ANYONE ELSE? 
+#' F. Other (specify).
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` acquaintance
-#'   * `2` not acquaintance
+#'   * `1` other
+#'   * `2` not other
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -65,22 +278,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name relmhsp5
-NULL
-
-#'  Patient was other
-#' 
-#'  relmhsp6
-#' 
-#' Question 668. Was this a relative, a close friend, or just someone you didn't know very well? f. Other (specify)
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2064/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,10 +322,33 @@ NULL
 #'  |2024  |-     |-         |-         |-     |3309                       |3309  |
 #'  |Total |68473 |9         |338       |26    |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name relmhsp6
+NULL
+
+
+#'  Known anyone seeing a psychologist etc?
+#' 
+#'  knwpatnt
+#' 
+#' Question Have you ever known anyone (other than persons mentioned in KNWMHOSP) who was seeing a psychologist, mental health professional, social worker or other counselor?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` other
-#'   * `2` not other
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -140,22 +362,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name relmhsp6
-NULL
-
-#'  Known anyone seeing a psychologist etc?
-#' 
-#'  knwpatnt
-#' 
-#' Question 669. Have you ever known anyone (other than persons mentioned in Q.667) who was seeing a psychologist, mental health professional, social worker or other counselor?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2065/vshow).
 #'
 #' Counts by year: 
 #'
@@ -198,6 +406,31 @@ NULL
 #'  |2024  |1664  |11         |417 |2         |1193 |-                          |22             |3309  |
 #'  |Total |68868 |24         |864 |68        |2309 |3544                       |22             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2024 |A/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name knwpatnt
+NULL
+
+
+#'  Ever felt going to have a nervous breakdown?
+#' 
+#'  evbrkdwn
+#' 
+#' Question Have you ever felt that you were going to have a nervous breakdown?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -215,22 +448,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name knwpatnt
-NULL
-
-#'  Ever felt going to have a nervous breakdown?
-#' 
-#'  evbrkdwn
-#' 
-#' Question 669a. Have you ever felt that you were going to have a nervous breakdown?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2066/vshow).
 #'
 #' Counts by year: 
 #'
@@ -273,10 +492,34 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-   |3309                       |3309  |
 #'  |Total |66280 |11         |1771 |23        |761 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2016 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name evbrkdwn
+NULL
+
+
+#'  1st mention cause of ner. break feelings
+#' 
+#'  brkdwhy1
+#' 
+#' Question Have you ever felt that you were going to have a nervous breakdown? 
+#' A1. (IF YES TO EVBRKDWN) Could you tell me about when you felt that way?  What was it about? (PROBE: GET EXACT DATE and complete details.) 
+#' The causes and sources of R''s nervous breakdown -- First mention.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -290,22 +533,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name evbrkdwn
-NULL
-
-#'  1st mention cause of ner. break feelings
-#' 
-#'  brkdwhy1
-#' 
-#' Question 669a1.(IF YES TO Q.669A) Could you tell me about when you felt that way? What was it about? (PROBE: GET EXACT DATE and complete details.)
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2067/vshow).
 #'
 #' Counts by year: 
 #'
@@ -348,6 +577,30 @@ NULL
 #'  |2024  |-     |-  |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-   |-   |-   |-   |-  |-   |-   |-   |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-          |-         |3309                       |3309  |
 #'  |Total |68459 |16 |6   |1  |7  |1   |7  |18 |5  |3  |18 |10 |1   |4   |1   |1   |27 |2   |7   |1   |8  |7  |2  |9  |7  |1   |3   |1   |1  |1  |1  |2  |5  |2   |3   |59 |1   |4   |4   |6   |4   |2   |2   |3   |1   |2   |6   |9   |4   |1   |3   |2   |2   |2   |1   |1   |1   |1   |10 |4   |1   |11  |7   |2   |1   |2   |4   |2   |1   |1   |1          |30        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name brkdwhy1
+NULL
+
+
+#'  2nd mention cause of ner. break feelings
+#' 
+#'  brkdwhy2
+#' 
+#' Question Have you ever felt that you were going to have a nervous breakdown? 
+#' A2. The causes and sources of R''s nervous breakdown -- Second mention.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -363,22 +616,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name brkdwhy1
-NULL
-
-#'  2nd mention cause of ner. break feelings
-#' 
-#'  brkdwhy2
-#' 
-#' Question 669a1.(IF YES TO Q.669A) Could you tell me about when you felt that way? What was it about? (PROBE: GET EXACT DATE and complete details.)
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2068/vshow).
 #'
 #' Counts by year: 
 #'
@@ -421,6 +660,30 @@ NULL
 #'  |2024  |-     |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-          |-         |3309                       |3309  |
 #'  |Total |68642 |10 |3   |3  |5  |1   |2   |4  |1  |8  |1  |1  |8  |10 |2   |1   |1   |2   |1   |5  |2   |3   |1   |5  |3  |2  |6  |4  |1   |1  |1  |2  |8  |27 |1   |2   |2   |1   |1   |4   |1   |3   |1   |1   |1   |1   |1   |3  |1   |7   |1   |1   |1   |2   |1   |1          |31        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name brkdwhy2
+NULL
+
+
+#'  3rd mention cause of ner. break feelings
+#' 
+#'  brkdwhy3
+#' 
+#' Question Have you ever felt that you were going to have a nervous breakdown? 
+#' A3. The causes and sources of R''s nervous breakdown -- Third mention.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -436,22 +699,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name brkdwhy2
-NULL
-
-#'  3rd mention cause of ner. break feelings
-#' 
-#'  brkdwhy3
-#' 
-#' Question 669a1.(IF YES TO Q.669A) Could you tell me about when you felt that way? What was it about? (PROBE: GET EXACT DATE and complete details.)
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2069/vshow).
 #'
 #' Counts by year: 
 #'
@@ -494,6 +743,33 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-   |-   |-  |-   |-   |-   |-   |-         |3309                       |3309  |
 #'  |Total |68740 |7  |2  |2  |1   |1   |1  |1  |3  |1  |3  |4  |1  |1   |1   |2  |2  |1  |2  |2  |2   |1  |1  |1   |19 |3   |1   |1   |1  |2   |2   |2   |1   |31        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name brkdwhy3
+NULL
+
+
+#'  1st mention what r did when felt ner. break
+#' 
+#'  brkddo1
+#' 
+#' Question Have you ever felt that you were going to have a nervous breakdown?
+#' B. (IF EVER ANTICIPATED A NERVOUS BREAKDOWN) What did you do about it? (PROBE: Anything 
+#' else? until R says no.)  Which of these things did you do first; second; third? 
+#' (INTERVIEWER: Sequence list; read back if needed.) 
+#' B1. What R did about the nervous breakdown - First mention.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -509,22 +785,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name brkdwhy3
-NULL
-
-#'  1st mention what r did when felt ner. break
-#' 
-#'  brkddo1
-#' 
-#' Question 669b. (IF EVER ANTICIPATED A NERVOUS BREAKDOWN What did you do about it? (PROBE: Anything else? until R says no.) Which of these things did you do first; second; third? (INTERVIEWER: Sequence list; read back if needed.)
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2070/vshow).
 #'
 #' Counts by year: 
 #'
@@ -567,172 +829,19 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68459 |2  |1  |11 |5  |3  |49 |4  |18 |8  |3  |13 |1  |11 |10 |25 |8  |18 |9  |66 |90 |5  |1          |26        |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
 #' @name brkddo1
 NULL
 
-#'  2nd mention what r did when felt ner. break
-#' 
-#'  brkddo2
-#' 
-#' Question 669b. (IF EVER ANTICIPATED A NERVOUS BREAKDOWN What did you do about it? (PROBE: Anything else? until R says no.) Which of these things did you do first; second; third? (INTERVIEWER: Sequence list; read back if needed.)
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |22 |23 |24 |31 |39 |41 |51 |61 |62 |63 |64 |68 |69 |71 |72 |73 |74 |75 |81 |82 |83 |no answer |not available in this year |Total |
-#'  |:-----|:-----|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1613  |
-#'  |1973  |1504  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1504  |
-#'  |1974  |1484  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1484  |
-#'  |1975  |1490  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1490  |
-#'  |1976  |1499  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1499  |
-#'  |1977  |1530  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1530  |
-#'  |1978  |1532  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1532  |
-#'  |1980  |1468  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1468  |
-#'  |1982  |1860  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1860  |
-#'  |1983  |1599  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1599  |
-#'  |1984  |1473  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1473  |
-#'  |1985  |1534  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1534  |
-#'  |1986  |1470  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1470  |
-#'  |1987  |1819  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1819  |
-#'  |1988  |1481  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1481  |
-#'  |1989  |1537  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1537  |
-#'  |1990  |1372  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1372  |
-#'  |1991  |1517  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1517  |
-#'  |1993  |1606  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1606  |
-#'  |1994  |2992  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2992  |
-#'  |1996  |2649  |9  |1  |1  |5  |1  |2  |17 |39 |3  |1  |12 |1  |15 |4  |22 |3  |6  |4  |44 |37 |2  |26        |-                          |2904  |
-#'  |1998  |2832  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2832  |
-#'  |2000  |2817  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2817  |
-#'  |2002  |2765  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2765  |
-#'  |2004  |2812  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2812  |
-#'  |2006  |4510  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |4510  |
-#'  |2008  |2023  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2023  |
-#'  |2010  |2044  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2044  |
-#'  |2012  |1974  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1974  |
-#'  |2014  |2538  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2538  |
-#'  |2016  |2867  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2867  |
-#'  |2018  |2348  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2348  |
-#'  |2021  |4032  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |4032  |
-#'  |2022  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |3544                       |3544  |
-#'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |3309                       |3309  |
-#'  |Total |68591 |9  |1  |1  |5  |1  |2  |17 |39 |3  |1  |12 |1  |15 |4  |22 |3  |6  |4  |44 |37 |2  |26        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name brkddo2
-NULL
-
-#'  3rd mention what r did when felt ner. break
-#' 
-#'  brkddo3
-#' 
-#' Question 669b. (IF EVER ANTICIPATED A NERVOUS BREAKDOWN What did you do about it? (PROBE: Anything else? until R says no.) Which of these things did you do first; second; third? (INTERVIEWER: Sequence list; read back if needed.)
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |11 |22 |23 |24 |51 |61 |62 |64 |65 |66 |69 |71 |72 |73 |74 |75 |81 |82 |83 |no answer |not available in this year |Total |
-#'  |:-----|:-----|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1613  |
-#'  |1973  |1504  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1504  |
-#'  |1974  |1484  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1484  |
-#'  |1975  |1490  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1490  |
-#'  |1976  |1499  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1499  |
-#'  |1977  |1530  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1530  |
-#'  |1978  |1532  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1532  |
-#'  |1980  |1468  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1468  |
-#'  |1982  |1860  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1860  |
-#'  |1983  |1599  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1599  |
-#'  |1984  |1473  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1473  |
-#'  |1985  |1534  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1534  |
-#'  |1986  |1470  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1470  |
-#'  |1987  |1819  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1819  |
-#'  |1988  |1481  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1481  |
-#'  |1989  |1537  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1537  |
-#'  |1990  |1372  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1372  |
-#'  |1991  |1517  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1517  |
-#'  |1993  |1606  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1606  |
-#'  |1994  |2992  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2992  |
-#'  |1996  |2767  |1  |8  |2  |1  |6  |10 |3  |5  |2  |1  |5  |9  |9  |2  |1  |4  |21 |18 |3  |26        |-                          |2904  |
-#'  |1998  |2832  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2832  |
-#'  |2000  |2817  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2817  |
-#'  |2002  |2765  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2765  |
-#'  |2004  |2812  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2812  |
-#'  |2006  |4510  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |4510  |
-#'  |2008  |2023  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2023  |
-#'  |2010  |2044  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2044  |
-#'  |2012  |1974  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1974  |
-#'  |2014  |2538  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2538  |
-#'  |2016  |2867  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2867  |
-#'  |2018  |2348  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2348  |
-#'  |2021  |4032  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |4032  |
-#'  |2022  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |3544                       |3544  |
-#'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |3309                       |3309  |
-#'  |Total |68709 |1  |8  |2  |1  |6  |10 |3  |5  |2  |1  |5  |9  |9  |2  |1  |4  |21 |18 |3  |26        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name brkddo3
-NULL
 

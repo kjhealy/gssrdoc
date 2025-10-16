@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 techwork
 }
 \details{
-Question 1352. Do you think that the introduction of new technologies in the United States over the next few years will make work...
+Question Do you think that the introduction of new technologies in the United States over the next few years will make workâ€¦
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} much more
+\item \code{2} little more
+\item \code{3} neither mre/less
+\item \code{4} a little less
+\item \code{5} much less
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4576/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab a little less \tab can't choose \tab little more \tab much less \tab much more \tab neither mre/less \tab no answer \tab not available in this year \tab Total \cr
@@ -57,27 +80,51 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} much more
-\item \code{2} little more
-\item \code{3} neither mre/less
-\item \code{4} a little less
-\item \code{5} much less
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1998 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Work Orientation: 
+\code{\link{paydojob}},
+\code{\link{payeduc}},
+\code{\link{payfam}},
+\code{\link{paytime}},
+\code{\link{placewrk}},
+\code{\link{sethours}},
+\code{\link{techjobs}},
+\code{\link{wantjob1}},
+\code{\link{worknow}}
+
+Other Job: 
+\code{\link{paydojob}},
+\code{\link{payeduc}},
+\code{\link{payfam}},
+\code{\link{paytime}},
+\code{\link{placewrk}},
+\code{\link{sethours}},
+\code{\link{techjobs}},
+\code{\link{wantjob1}}
+
+Other Technology: 
+\code{\link{techjobs}}
+
+Other Work: 
+\code{\link{paydojob}},
+\code{\link{payeduc}},
+\code{\link{payfam}},
+\code{\link{paytime}},
+\code{\link{placewrk}},
+\code{\link{sethours}},
+\code{\link{techjobs}},
+\code{\link{wantjob1}},
+\code{\link{worknow}}
+}
+\concept{Job}
+\concept{Technology}
+\concept{Work}
+\concept{Work Orientation}
 \keyword{variable}

@@ -10,11 +10,41 @@ General Social Survey https://gss.norc.org
 away2
 }
 \details{
-Question 1621. Please tell me the names of the people who usually live in this household. Let's start with the head of the household. e. Are any of the people we have listed staying somewhere else right now? If yes, who is staying somewhere else right now?
+Question Please tell me the names of the people who usually live in this household. Let's start with the head of the household. (LIST ON LINES 01-10 BELOW.)
+Have we forgotten anyone: such as babies or small children; roomers; people who usually live here, but are away temporarily--on business trips, vacations, at school, temporarily in a hospital, and so on? (LIST ADDITIONAL PERSONS ON LINES 01-10 BELOW.)
+Are there any people currently staying here--visitors, friends or relatives--do not usually live here? (LIST VISITORS ON LINES 11-14 BELOW.)
+A. What is that (PERSON'S) relationship to the HEAD OF HOUSEHOLD?
+B. Code sex. (ASK IF NOT OBVIOUS).
+C. How old was (HEAD/PERSON) on (his/her) last birthday?
+D. IF 13 YRS OR OLDER ASK: Is (PERSON) now married, widowed, divorced, separated, or has (he/she) never been married?
+E. Are any of the people we have listed staying somewhere else right now? If yes, who is staying somewhere else right now?
+F. Where is (PERSON) staying right now? Is (PERSON) staying at another household;
+Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at college or in a hospital or something; or what?
+5. Is the second person staying somewhere else right now?
 }
+\section{Values}{
+
+\itemize{
+\item \code{0} no
+\item \code{1} yes
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5342/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab yes \tab no answer \tab don't know \tab not available in this year \tab not available in this release \tab Total \cr
@@ -57,24 +87,78 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{0} no
-\item \code{1} yes
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1975 \tab -/-/-/- \tab full \cr
+   1976 \tab -/-/-/- \tab full \cr
+   1977 \tab -/-/-/- \tab full \cr
+   1978 \tab -/-/-/- \tab full \cr
+   1980 \tab -/-/-/- \tab full \cr
+   1982 \tab -/-/-/- \tab full \cr
+   1983 \tab -/-/-/- \tab full \cr
+   1984 \tab -/-/-/- \tab full \cr
+   1985 \tab -/-/-/- \tab full \cr
+   1986 \tab -/-/-/- \tab full \cr
+   1987 \tab -/-/-/- \tab full \cr
+   1988 \tab A/B/C/- \tab full \cr
+   1989 \tab A/B/C/- \tab full \cr
+   1990 \tab A/B/C/- \tab full \cr
+   1991 \tab A/B/C/- \tab full \cr
+   1993 \tab A/B/C/- \tab full \cr
+   1994 \tab A/B/C/- \tab full \cr
+   1996 \tab A/B/C/- \tab full \cr
+   1998 \tab A/B/C/- \tab full \cr
+   2000 \tab A/B/C/- \tab full \cr
+   2002 \tab A/B/C/- \tab full \cr
+   2004 \tab A/B/C/- \tab full \cr
+   2006 \tab A/B/C/D \tab full \cr
+   2008 \tab A/B/C/- \tab full \cr
+   2010 \tab A/B/C/- \tab full \cr
+   2012 \tab A/B/C/- \tab full \cr
+   2014 \tab A/B/C/- \tab full \cr
+   2016 \tab A/B/C/- \tab full \cr
+   2018 \tab A/B/C/- \tab full \cr
+   2021 \tab A/B/C/- \tab full \cr
+   2022 \tab A/B/C/- \tab full \cr
 }
 }
 
+\seealso{
+Other Household Members and Structure: 
+\code{\link{away1}},
+\code{\link{gender1}},
+\code{\link{gender2}},
+\code{\link{mar1}},
+\code{\link{mar2}},
+\code{\link{old1}},
+\code{\link{old2}},
+\code{\link{relate2}},
+\code{\link{where1}}
+
+Other Family: 
+\code{\link{away1}},
+\code{\link{gender1}},
+\code{\link{gender2}},
+\code{\link{mar1}},
+\code{\link{mar2}},
+\code{\link{old1}},
+\code{\link{old2}},
+\code{\link{relate2}},
+\code{\link{where1}}
+
+Other Household: 
+\code{\link{away1}},
+\code{\link{gender1}},
+\code{\link{gender2}},
+\code{\link{mar1}},
+\code{\link{mar2}},
+\code{\link{old1}},
+\code{\link{old2}},
+\code{\link{relate2}},
+\code{\link{where1}}
+}
+\concept{Family}
+\concept{Household}
+\concept{Household Members and Structure}
 \keyword{variable}

@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 actschl
 }
 \details{
-Question 330. Have you ever done any active work for the school service groups? I mean been a leader, helped organize meetings, been an officer, or given time or money?
+Question Have you ever done any active work for (EACH "YES" IN MEMFRAT-MEMOTHER)?  I mean been a leader, helped organize meetings, been an officer, or given time or money?
+H. School service groups
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes
+\item \code{2} no
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1003/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllll}{
    year \tab iap \tab no \tab no answer \tab yes \tab not available in this year \tab Total \cr
@@ -57,24 +78,40 @@ Counts by year:\tabular{lllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes
-\item \code{2} no
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1987 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Socio-political participation: 
+\code{\link{actfarm}},
+\code{\link{actgreek}},
+\code{\link{acthobby}},
+\code{\link{actlit}},
+\code{\link{actnat}},
+\code{\link{actprof}},
+\code{\link{actsport}},
+\code{\link{actunion}},
+\code{\link{actyouth}}
+
+Other Education: 
+\code{\link{actgreek}}
+
+Other Voluntary Associations: 
+\code{\link{actfarm}},
+\code{\link{actgreek}},
+\code{\link{acthobby}},
+\code{\link{actlit}},
+\code{\link{actnat}},
+\code{\link{actprof}},
+\code{\link{actsport}},
+\code{\link{actunion}},
+\code{\link{actyouth}}
+}
+\concept{Education}
+\concept{Socio-political participation}
+\concept{Voluntary Associations}
 \keyword{variable}

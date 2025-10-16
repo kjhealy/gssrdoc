@@ -10,11 +10,54 @@ General Social Survey https://gss.norc.org
 educ
 }
 \details{
-Question 15. What is the highest grade in elementary school or high school that you finished and got credit for?
+Question ASK ALL PARTS OF QUESTION ABOUT RESPONDENT BEFORE GOING ON TO ASK ABOUT R'S FATHER; AND THEN R'S MOTHER; THEN R'S SPOUSE, IF R IS CURRENTLY MARRIED.
+A. What is the highest grade in elementary school or high school that (you/your father/ your mother/your (husband/wife)) finished and got credit for? CODE EXACT GRADE.
+B. IF FINISHED 9th-12th GRADE OR DK*: Did (you/he/she) ever get a high school diploma or a GED certificate? (SEE D BELOW.) (See REMARKS)
+C. Did (you/he/she) complete one or more years of college for credit--not including schooling such as business college, technical or vocational school? IF YES: How many years did (you/he/she) complete?
+Do you (Does (he/she)) have any college degrees? (IF YES: What degree or degrees?) CODE HIGHEST DEGREE EARNED.
 }
+\section{Values}{
+
+\itemize{
+\item \code{0} no formal schooling
+\item \code{1} 1st grade
+\item \code{2} 2nd grade
+\item \code{3} 3rd grade
+\item \code{4} 4th grade
+\item \code{5} 5th grade
+\item \code{6} 6th grade
+\item \code{7} 7th grade
+\item \code{8} 8th grade
+\item \code{9} 9th grade
+\item \code{10} 10th grade
+\item \code{11} 11th grade
+\item \code{12} 12th grade
+\item \code{13} 1 year of college
+\item \code{14} 2 years of college
+\item \code{15} 3 years of college
+\item \code{16} 4 years of college
+\item \code{17} 5 years of college
+\item \code{18} 6 years of college
+\item \code{19} 7 years of college
+\item \code{20} 8 or more years of college
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/55/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllll}{
    year \tab 1 year of college \tab 10th grade \tab 11th grade \tab 12th grade \tab 1st grade \tab 2 years of college \tab 2nd grade \tab 3 years of college \tab 3rd grade \tab 4 years of college \tab 4th grade \tab 5 years of college \tab 5th grade \tab 6 years of college \tab 6th grade \tab 7 years of college \tab 7th grade \tab 8 or more years of college \tab 8th grade \tab 9th grade \tab no answer \tab no formal schooling \tab don't know \tab Total \cr
@@ -57,43 +100,66 @@ Counts by year:\tabular{lllllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{0} no formal schooling
-\item \code{1} 1st grade
-\item \code{2} 2nd grade
-\item \code{3} 3rd grade
-\item \code{4} 4th grade
-\item \code{5} 5th grade
-\item \code{6} 6th grade
-\item \code{7} 7th grade
-\item \code{8} 8th grade
-\item \code{9} 9th grade
-\item \code{10} 10th grade
-\item \code{11} 11th grade
-\item \code{12} 12th grade
-\item \code{13} 1 year of college
-\item \code{14} 2 years of college
-\item \code{15} 3 years of college
-\item \code{16} 4 years of college
-\item \code{17} 5 years of college
-\item \code{18} 6 years of college
-\item \code{19} 7 years of college
-\item \code{20} 8 or more years of college
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1972 \tab -/-/-/- \tab full \cr
+   1973 \tab -/-/-/- \tab full \cr
+   1974 \tab -/-/-/- \tab full \cr
+   1975 \tab -/-/-/- \tab full \cr
+   1976 \tab -/-/-/- \tab full \cr
+   1977 \tab -/-/-/- \tab full \cr
+   1978 \tab -/-/-/- \tab full \cr
+   1980 \tab -/-/-/- \tab full \cr
+   1982 \tab -/-/-/- \tab full \cr
+   1983 \tab -/-/-/- \tab full \cr
+   1984 \tab -/-/-/- \tab full \cr
+   1985 \tab -/-/-/- \tab full \cr
+   1986 \tab -/-/-/- \tab full \cr
+   1987 \tab -/-/-/- \tab full \cr
+   1988 \tab A/B/C/- \tab full \cr
+   1989 \tab A/B/C/- \tab full \cr
+   1990 \tab A/B/C/- \tab full \cr
+   1991 \tab A/B/C/- \tab full \cr
+   1993 \tab A/B/C/- \tab full \cr
+   1994 \tab A/B/C/- \tab full \cr
+   1996 \tab A/B/C/- \tab full \cr
+   1998 \tab A/B/C/- \tab full \cr
+   2000 \tab A/B/C/- \tab full \cr
+   2002 \tab A/B/C/- \tab full \cr
+   2004 \tab A/B/C/- \tab full \cr
+   2006 \tab A/B/C/D \tab full \cr
+   2008 \tab A/B/C/- \tab full \cr
+   2010 \tab A/B/C/- \tab full \cr
+   2012 \tab A/B/C/- \tab full \cr
+   2014 \tab A/B/C/- \tab full \cr
+   2016 \tab A/B/C/- \tab full \cr
+   2018 \tab A/B/C/- \tab full \cr
+   2021 \tab A/B/C/- \tab full \cr
+   2022 \tab A/B/C/- \tab full \cr
+   2024 \tab A/B/C/- \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{age}},
+\code{\link{agekdbrn}},
+\code{\link{codeg}},
+\code{\link{coeduc}},
+\code{\link{degree}},
+\code{\link{maeduc}},
+\code{\link{padeg}},
+\code{\link{paeduc}},
+\code{\link{speduc}}
+
+Other Education: 
+\code{\link{degree}},
+\code{\link{maeduc}},
+\code{\link{padeg}},
+\code{\link{paeduc}},
+\code{\link{speduc}}
+}
+\concept{Core}
+\concept{Education}
 \keyword{variable}

@@ -1,11 +1,124 @@
+#'  Did r vote in 1984 election
+#' 
+#'  vote84
+#' 
+#' Question E. In 1984, you remember that Mondale ran for President on the Democratic ticket against Reagan for the Republicans. Do you remember for sure whether or not you voted in that election?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` voted
+#'   * `2` did not vote
+#'   * `3` not eligible
+#'   * `4` refused
+#'   * `6` wldnt vt-relig
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/154/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |did not vote |don't know |no answer |not eligible |refused |voted |not available in this year |Total |
+#'  |:-----|:-----|:------------|:----------|:---------|:------------|:-------|:-----|:--------------------------|:-----|
+#'  |1972  |1613  |-            |-          |-         |-            |-       |-     |-                          |1613  |
+#'  |1973  |1504  |-            |-          |-         |-            |-       |-     |-                          |1504  |
+#'  |1974  |1484  |-            |-          |-         |-            |-       |-     |-                          |1484  |
+#'  |1975  |1490  |-            |-          |-         |-            |-       |-     |-                          |1490  |
+#'  |1976  |1499  |-            |-          |-         |-            |-       |-     |-                          |1499  |
+#'  |1977  |1530  |-            |-          |-         |-            |-       |-     |-                          |1530  |
+#'  |1978  |1532  |-            |-          |-         |-            |-       |-     |-                          |1532  |
+#'  |1980  |1468  |-            |-          |-         |-            |-       |-     |-                          |1468  |
+#'  |1982  |1860  |-            |-          |-         |-            |-       |-     |-                          |1860  |
+#'  |1983  |1599  |-            |-          |-         |-            |-       |-     |-                          |1599  |
+#'  |1984  |1473  |-            |-          |-         |-            |-       |-     |-                          |1473  |
+#'  |1985  |-     |429          |9          |2         |36           |1       |1057  |-                          |1534  |
+#'  |1986  |-     |411          |23         |-         |49           |4       |983   |-                          |1470  |
+#'  |1987  |-     |498          |42         |8         |99           |3       |1169  |-                          |1819  |
+#'  |1988  |-     |416          |36         |2         |117          |5       |905   |-                          |1481  |
+#'  |1989  |-     |366          |33         |3         |141          |15      |979   |-                          |1537  |
+#'  |1990  |1372  |-            |-          |-         |-            |-       |-     |-                          |1372  |
+#'  |1991  |1517  |-            |-          |-         |-            |-       |-     |-                          |1517  |
+#'  |1993  |1606  |-            |-          |-         |-            |-       |-     |-                          |1606  |
+#'  |1994  |2992  |-            |-          |-         |-            |-       |-     |-                          |2992  |
+#'  |1996  |2904  |-            |-          |-         |-            |-       |-     |-                          |2904  |
+#'  |1998  |2832  |-            |-          |-         |-            |-       |-     |-                          |2832  |
+#'  |2000  |2817  |-            |-          |-         |-            |-       |-     |-                          |2817  |
+#'  |2002  |2765  |-            |-          |-         |-            |-       |-     |-                          |2765  |
+#'  |2004  |2812  |-            |-          |-         |-            |-       |-     |-                          |2812  |
+#'  |2006  |4510  |-            |-          |-         |-            |-       |-     |-                          |4510  |
+#'  |2008  |2023  |-            |-          |-         |-            |-       |-     |-                          |2023  |
+#'  |2010  |2044  |-            |-          |-         |-            |-       |-     |-                          |2044  |
+#'  |2012  |1974  |-            |-          |-         |-            |-       |-     |-                          |1974  |
+#'  |2014  |2538  |-            |-          |-         |-            |-       |-     |-                          |2538  |
+#'  |2016  |2867  |-            |-          |-         |-            |-       |-     |-                          |2867  |
+#'  |2018  |2348  |-            |-          |-         |-            |-       |-     |-                          |2348  |
+#'  |2021  |4032  |-            |-          |-         |-            |-       |-     |-                          |4032  |
+#'  |2022  |-     |-            |-          |-         |-            |-       |-     |3544                       |3544  |
+#'  |2024  |-     |-            |-          |-         |-            |-       |-     |3309                       |3309  |
+#'  |Total |61005 |2120         |143        |15        |442          |28      |5093  |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Political
+#' 
+#' @keywords variable
+#' @md
+#' @name vote84
+NULL
+
+
 #'  Vote for reagan or mondale
 #' 
 #'  pres84
 #' 
-#' Question 61a. If voted: Did you vote for Mondale or Reagan?
+#' Question E. In 1984, you remember that Mondale ran for President on the Democratic ticket against Reagan for the Republicans. Do you remember for sure whether or not you voted in that election?
+#' 1. IF VOTED:  Did you vote for Mondale or Reagan?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` mondale
+#'   * `2` reagan
+#'   * `3` other
+#'   * `4` refused
+#'   * `5` no pres. vote
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/155/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,13 +161,42 @@
 #'  |2024  |-     |-          |-       |-         |-             |-     |-      |-       |3309                       |3309  |
 #'  |Total |63736 |81         |1961    |61        |21            |37    |2911   |38      |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Political
+#' 
+#' @keywords variable
+#' @md
+#' @name pres84
+NULL
+
+
+#'  Who would r have voted for-1984 election
+#' 
+#'  if84who
+#' 
+#' Question E. In 1984, you remember that Mondale ran for President on the Democratic ticket against Reagan for the Republicans. Do you remember for sure whether or not you voted in that election?
+#' 2. IF DID NOT VOTE OR INELIGIBLE: 
+#' Who would you have voted for, for President, if you had voted?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` mondale
 #'   * `2` reagan
 #'   * `3` other
-#'   * `4` refused
-#'   * `5` no pres. vote
+#'   * `4` wouldnt vote
+#'   * `5` refused
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -68,22 +210,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name pres84
-NULL
-
-#'  Who would r have voted for-1984 election
-#' 
-#'  if84who
-#' 
-#' Question 61b. If did not vote or ineligible: Who would you have voted for, for President, if you have voted?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/156/vshow).
 #'
 #' Counts by year: 
 #'
@@ -126,13 +254,40 @@ NULL
 #'  |2024  |-     |-          |-       |-         |-     |-      |-            |3309                       |3309  |
 #'  |Total |66247 |336        |782     |119       |153   |1202   |7            |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Political
+#' 
+#' @keywords variable
+#' @md
+#' @name if84who
+NULL
+
+
+#'  Did r vote in 1988 election
+#' 
+#'  vote88
+#' 
+#' Question F. In 1988, you remember that Dukakis ran for President on the Democratic ticket against Bush for the Republicans. Do you remember for sure whether or not you voted in that election?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` mondale
-#'   * `2` reagan
-#'   * `3` other
-#'   * `4` wouldnt vote
-#'   * `5` refused
+#'   * `1` voted
+#'   * `2` did not vote
+#'   * `3` not eligible
+#'   * `4` refused
+#'   * `6` wldnt vt-relig
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -146,22 +301,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name if84who
-NULL
-
-#'  Did r vote in 1988 election
-#' 
-#'  vote88
-#' 
-#' Question 62. In 1988, you remember that Dukakis ran for President on the Democratic ticket against Bush for the Republicans. Do you remember for sure whether or not you voted in that election?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/157/vshow).
 #'
 #' Counts by year: 
 #'
@@ -204,13 +345,40 @@ NULL
 #'  |2024  |-     |-            |-          |-            |-       |-     |-         |3309                       |3309  |
 #'  |Total |62814 |1765         |80         |269          |45      |3863  |10        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Political
+#' 
+#' @keywords variable
+#' @md
+#' @name vote88
+NULL
+
+
+#'  Vote for dukakis or bush
+#' 
+#'  pres88
+#' 
+#' Question F. In 1988, you remember that Dukakis ran for President on the Democratic ticket against Bush for the Republicans. Do you remember for sure whether or not you voted in that election?
+#' 1. IF VOTED:  Did you vote for Dukakis or Bush?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` voted
-#'   * `2` did not vote
-#'   * `3` not eligible
+#'   * `1` dukakis
+#'   * `2` bush
+#'   * `3` other
 #'   * `4` refused
-#'   * `6` wldnt vt-relig
+#'   * `5` no pres. vote
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -224,22 +392,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name vote88
-NULL
-
-#'  Vote for dukakis or bush
-#' 
-#'  pres88
-#' 
-#' Question 62a. If voted: Did you vote for Dukakis or Bush?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/158/vshow).
 #'
 #' Counts by year: 
 #'
@@ -282,13 +436,41 @@ NULL
 #'  |2024  |-     |-    |-          |-       |-         |-             |-     |-       |3309                       |3309  |
 #'  |Total |64973 |2277 |66         |1406    |70        |14            |38    |2       |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Political
+#' 
+#' @keywords variable
+#' @md
+#' @name pres88
+NULL
+
+
+#'  Who would r have voted for-1988 election
+#' 
+#'  if88who
+#' 
+#' Question F. In 1988, you remember that Dukakis ran for President on the Democratic ticket against Bush for the Republicans. Do you remember for sure whether or not you voted in that election?
+#' 2. IF DID NOT VOTE OR INELIGIBLE: 
+#' Who would you have voted for, for President, if you had voted?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` dukakis
 #'   * `2` bush
 #'   * `3` other
-#'   * `4` refused
-#'   * `5` no pres. vote
+#'   * `4` wouldnt vote
+#'   * `5` refused
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -302,22 +484,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name pres88
-NULL
-
-#'  Who would r have voted for-1988 election
-#' 
-#'  if88who
-#' 
-#' Question 62b. If did not vote or ineligible: Who would you have voted for, for President, if you had voted?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/159/vshow).
 #'
 #' Counts by year: 
 #'
@@ -360,13 +528,39 @@ NULL
 #'  |2024  |-     |-    |-          |-       |-         |-     |3309                       |3309  |
 #'  |Total |66798 |1090 |327        |424     |91        |116   |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Political
+#' 
+#' @keywords variable
+#' @md
+#' @name if88who
+NULL
+
+
+#'  Did r vote in 1992 election
+#' 
+#'  vote92
+#' 
+#' Question G. In 1992, you remember that Clinton ran for President on the Democratic ticket against Bush for the Republicans and Perot as an Independent. 
+#' Do you remember for sure whether or not you voted in that election?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` dukakis
-#'   * `2` bush
-#'   * `3` other
-#'   * `4` wouldnt vote
-#'   * `5` refused
+#'   * `1` voted
+#'   * `2` did not vote
+#'   * `3` not eligible
+#'   * `4` refused
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -380,22 +574,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name if88who
-NULL
-
-#'  Did r vote in 1992 election
-#' 
-#'  vote92
-#' 
-#' Question 63. In 1992, you remember that Clinton ran for President on the Democratic ticket against Bush for the Republicans and Perot as an independent. Do you remember for sure whether or not you voted in that election?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/160/vshow).
 #'
 #' Counts by year: 
 #'
@@ -438,12 +618,42 @@ NULL
 #'  |2024  |-     |-            |-          |-         |-            |-       |-     |3309                       |3309  |
 #'  |Total |58512 |2682         |148        |40        |585          |43      |6836  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Political
+#' 
+#' @keywords variable
+#' @md
+#' @name vote92
+NULL
+
+
+#'  Vote for clinton, bush, perot
+#' 
+#'  pres92
+#' 
+#' Question G. In 1992, you remember that Clinton ran for President on the Democratic ticket against Bush for the Republicans and Perot as an Independent. 
+#' Do you remember for sure whether or not you voted in that election?
+#' 1. IF VOTED: 
+#' Did you vote for Clinton, Bush, or Perot?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` voted
-#'   * `2` did not vote
-#'   * `3` not eligible
-#'   * `4` refused
+#'   * `1` clinton
+#'   * `2` bush
+#'   * `3` perot
+#'   * `4` other
+#'   * `6` no pres. vote
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -457,22 +667,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name vote92
-NULL
-
-#'  Vote for clinton, bush, perot
-#' 
-#'  pres92
-#' 
-#' Question 63a. If voted: Did you vote for Clinton, Bush,or Perot?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/161/vshow).
 #'
 #' Counts by year: 
 #'
@@ -515,13 +711,41 @@ NULL
 #'  |2024  |-     |-    |-       |-          |-         |-             |-     |-     |3309                       |3309  |
 #'  |Total |61972 |2449 |3134    |102        |114       |15            |21    |1039  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Political
+#' 
+#' @keywords variable
+#' @md
+#' @name pres92
+NULL
+
+
+#'  Who would r have voted for-1992 election
+#' 
+#'  if92who
+#' 
+#' Question G. In 1992, you remember that Clinton ran for President on the Democratic ticket against Bush for the Republicans and Perot as an Independent. 
+#' Do you remember for sure whether or not you voted in that election?
+#' 2. IF DID NOT VOTE OR INELIGIBLE:  Who would you have voted for, for President, if you had voted?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` clinton
 #'   * `2` bush
 #'   * `3` perot
 #'   * `4` other
-#'   * `6` no pres. vote
+#'   * `5` wouldnt vote
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -535,22 +759,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name pres92
-NULL
-
-#'  Who would r have voted for-1992 election
-#' 
-#'  if92who
-#' 
-#' Question 63b. If did not vote or ineligible: Who would you have voted for, for President, if you had voted?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/162/vshow).
 #'
 #' Counts by year: 
 #'
@@ -593,13 +803,38 @@ NULL
 #'  |2024  |-     |-    |-       |-          |-         |-     |-     |3309                       |3309  |
 #'  |Total |65528 |822  |1185    |399        |260       |139   |513   |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Political
+#' 
+#' @keywords variable
+#' @md
+#' @name if92who
+NULL
+
+
+#'  Did r vote in 1996 election
+#' 
+#'  vote96
+#' 
+#' Question H. In 1996, you remember that Clinton ran for President on the Democratic ticket against Dole for the Republicans and Perot for the Reform Party. Do you remember for sure whether or not you voted in that election?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` clinton
-#'   * `2` bush
-#'   * `3` perot
-#'   * `4` other
-#'   * `5` wouldnt vote
+#'   * `1` voted
+#'   * `2` did not vote
+#'   * `3` ineligible
+#'   * `4` refused to answer
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -613,22 +848,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name if92who
-NULL
-
-#'  Did r vote in 1996 election
-#' 
-#'  vote96
-#' 
-#' Question 64. In 1996, you remember that Clinton ran for president on the Democratic ticket against Dole for the Republicans and Perot for the Reform Party. Do you remember for sure whether or not you voted in that election?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/163/vshow).
 #'
 #' Counts by year: 
 #'
@@ -671,108 +892,21 @@ NULL
 #'  |2024  |-     |-            |-          |-          |-         |-                 |-     |3309                       |3309  |
 #'  |Total |60432 |2286         |136        |664        |37        |37                |5254  |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` voted
-#'   * `2` did not vote
-#'   * `3` ineligible
-#'   * `4` refused to answer
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Political
 #' 
 #' @keywords variable
 #' @md
 #' @name vote96
 NULL
 
-#'  Vote for clinton, dole, perot
-#' 
-#'  pres96
-#' 
-#' Question 64a. If voted: Did you vote for Clinton, Bush, or Perot?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |clinton |didnt vote |dole |don't know |no answer |other (specify) |perot |not available in this year |Total |
-#'  |:-----|:-----|:-------|:----------|:----|:----------|:---------|:---------------|:-----|:--------------------------|:-----|
-#'  |1972  |1613  |-       |-          |-    |-          |-         |-               |-     |-                          |1613  |
-#'  |1973  |1504  |-       |-          |-    |-          |-         |-               |-     |-                          |1504  |
-#'  |1974  |1484  |-       |-          |-    |-          |-         |-               |-     |-                          |1484  |
-#'  |1975  |1490  |-       |-          |-    |-          |-         |-               |-     |-                          |1490  |
-#'  |1976  |1499  |-       |-          |-    |-          |-         |-               |-     |-                          |1499  |
-#'  |1977  |1530  |-       |-          |-    |-          |-         |-               |-     |-                          |1530  |
-#'  |1978  |1532  |-       |-          |-    |-          |-         |-               |-     |-                          |1532  |
-#'  |1980  |1468  |-       |-          |-    |-          |-         |-               |-     |-                          |1468  |
-#'  |1982  |1860  |-       |-          |-    |-          |-         |-               |-     |-                          |1860  |
-#'  |1983  |1599  |-       |-          |-    |-          |-         |-               |-     |-                          |1599  |
-#'  |1984  |1473  |-       |-          |-    |-          |-         |-               |-     |-                          |1473  |
-#'  |1985  |1534  |-       |-          |-    |-          |-         |-               |-     |-                          |1534  |
-#'  |1986  |1470  |-       |-          |-    |-          |-         |-               |-     |-                          |1470  |
-#'  |1987  |1819  |-       |-          |-    |-          |-         |-               |-     |-                          |1819  |
-#'  |1988  |1481  |-       |-          |-    |-          |-         |-               |-     |-                          |1481  |
-#'  |1989  |1537  |-       |-          |-    |-          |-         |-               |-     |-                          |1537  |
-#'  |1990  |1372  |-       |-          |-    |-          |-         |-               |-     |-                          |1372  |
-#'  |1991  |1517  |-       |-          |-    |-          |-         |-               |-     |-                          |1517  |
-#'  |1993  |1606  |-       |-          |-    |-          |-         |-               |-     |-                          |1606  |
-#'  |1994  |2992  |-       |-          |-    |-          |-         |-               |-     |-                          |2992  |
-#'  |1996  |2904  |-       |-          |-    |-          |-         |-               |-     |-                          |2904  |
-#'  |1998  |1019  |923     |6          |589  |40         |40        |16              |199   |-                          |2832  |
-#'  |2000  |1074  |918     |4          |498  |57         |30        |20              |216   |-                          |2817  |
-#'  |2002  |1031  |1008    |10         |475  |7          |19        |18              |197   |-                          |2765  |
-#'  |2004  |2812  |-       |-          |-    |-          |-         |-               |-     |-                          |2812  |
-#'  |2006  |4510  |-       |-          |-    |-          |-         |-               |-     |-                          |4510  |
-#'  |2008  |2023  |-       |-          |-    |-          |-         |-               |-     |-                          |2023  |
-#'  |2010  |2044  |-       |-          |-    |-          |-         |-               |-     |-                          |2044  |
-#'  |2012  |1974  |-       |-          |-    |-          |-         |-               |-     |-                          |1974  |
-#'  |2014  |2538  |-       |-          |-    |-          |-         |-               |-     |-                          |2538  |
-#'  |2016  |2867  |-       |-          |-    |-          |-         |-               |-     |-                          |2867  |
-#'  |2018  |2348  |-       |-          |-    |-          |-         |-               |-     |-                          |2348  |
-#'  |2021  |4032  |-       |-          |-    |-          |-         |-               |-     |-                          |4032  |
-#'  |2022  |-     |-       |-          |-    |-          |-         |-               |-     |3544                       |3544  |
-#'  |2024  |-     |-       |-          |-    |-          |-         |-               |-     |3309                       |3309  |
-#'  |Total |63556 |2849    |20         |1562 |104        |89        |54              |612   |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` clinton
-#'   * `2` dole
-#'   * `3` perot
-#'   * `4` other (specify)
-#'   * `6` didnt vote
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name pres96
-NULL
 

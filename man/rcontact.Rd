@@ -10,11 +10,37 @@ General Social Survey https://gss.norc.org
 rcontact
 }
 \details{
-Question For each statement about your main job below, please circle one code to show how much you agree or disagree that it applies to your job. I. In my job, I have personal contact with other people.
+Question (HAND CARD D7)
+(For each of these statements about your (main) job, please tell me how much you agree or disagree with it as it applies to your job.)
+In my job, I have personal contact with other people.
+(Would you say...)
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} strongly agree
+\item \code{2} agree
+\item \code{3} neither agree nor disagree
+\item \code{4} disagree
+\item \code{5} strongly disagree
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6329/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab agree \tab can't choose \tab disagree \tab neither agree nor disagree \tab no answer \tab strongly agree \tab strongly disagree \tab not available in this year \tab Total \cr
@@ -57,27 +83,24 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} strongly agree
-\item \code{2} agree
-\item \code{3} neither agree nor disagree
-\item \code{4} disagree
-\item \code{5} strongly disagree
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2016 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Work Orientation: 
+\code{\link{chngewrk}},
+\code{\link{decidwrk}},
+\code{\link{harass5}},
+\code{\link{nounemp5}},
+\code{\link{nounemp6}},
+\code{\link{unionsbd}},
+\code{\link{wkathome}},
+\code{\link{wkwkends}},
+\code{\link{wrkshift}}
+}
+\concept{Work Orientation}
 \keyword{variable}

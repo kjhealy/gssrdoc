@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 rundrstd
 }
 \details{
-Question 974. INTERVIEWER: BY THE TIME YOU HANDED HAND CARD C4 TO THE RESPONDENT, DID HE OR SHE APPEAR TO UNDERSTAND THE 3-BOX ANSWER FORMAT?
+Question INTERVIEWER: BY THE TIME YOU HANDED HAND CARD C4 (IMMSTATS) TO THE RESPONDENT, DID HE OR SHE APPEAR TO UNDERSTAND THE 3-BOX ANSWER FORMAT?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes
+\item \code{2} no
+\item \code{3} other
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3028/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab don't know \tab no \tab no answer \tab other \tab yes \tab not available in this year \tab Total \cr
@@ -57,25 +78,24 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes
-\item \code{2} no
-\item \code{3} other
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Immigration: 
+\code{\link{bornhome}},
+\code{\link{immstats}},
+\code{\link{natborn}},
+\code{\link{robject}},
+\code{\link{travelus}}
+
+Other Interview: 
+\code{\link{robject}}
+}
+\concept{Immigration}
+\concept{Interview}
 \keyword{variable}

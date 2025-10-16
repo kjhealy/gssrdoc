@@ -10,11 +10,42 @@ General Social Survey https://gss.norc.org
 relmost
 }
 \details{
-Question 1207. Thinking of all the adult relatives, which one do you have the most contact with?
+Question Thinking of all the adult relatives, which one do you have the most contact with?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} grmother
+\item \code{2} grfather
+\item \code{3} grdaughter
+\item \code{4} grandson
+\item \code{5} aunt
+\item \code{6} uncle
+\item \code{7} mother-in-law
+\item \code{8} father-in-law
+\item \code{9} sister-in-law
+\item \code{10} brother-in-law
+\item \code{11} female relative
+\item \code{12} male relative
+\item \code{13} none
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4158/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllll}{
    year \tab iap \tab aunt \tab brother-in-law \tab father-in-law \tab female relative \tab grandson \tab grdaughter \tab grfather \tab grmother \tab male relative \tab mother-in-law \tab no answer \tab none \tab sister-in-law \tab uncle \tab not available in this year \tab Total \cr
@@ -57,35 +88,34 @@ Counts by year:\tabular{llllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} grmother
-\item \code{2} grfather
-\item \code{3} grdaughter
-\item \code{4} grandson
-\item \code{5} aunt
-\item \code{6} uncle
-\item \code{7} mother-in-law
-\item \code{8} father-in-law
-\item \code{9} sister-in-law
-\item \code{10} brother-in-law
-\item \code{11} female relative
-\item \code{12} male relative
-\item \code{13} none
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1986 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Social Networks & Support Systems: 
+\code{\link{grkidnum}},
+\code{\link{grparnum}},
+\code{\link{inlawnum}},
+\code{\link{marcohab}},
+\code{\link{posslqy}},
+\code{\link{relnum}},
+\code{\link{reltime}},
+\code{\link{relvisit}},
+\code{\link{unaunum}}
+
+Other Family: 
+\code{\link{grkidnum}},
+\code{\link{grparnum}},
+\code{\link{inlawnum}},
+\code{\link{relnum}},
+\code{\link{reltime}},
+\code{\link{relvisit}},
+\code{\link{unaunum}}
+}
+\concept{Family}
+\concept{ISSP Social Networks & Support Systems}
 \keyword{variable}

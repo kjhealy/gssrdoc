@@ -10,7 +10,14 @@ General Social Survey https://gss.norc.org
 sbocc80
 }
 \details{
-Question 514a. What kind of work (is/was) (NAME) doing? That is, what was (his/her) job called? b. What (does/did) (s/he) actually do in that job? Tell me some of what (are/were) some of (his/her) main duties?
+Question Respondent's Sibling's Occupation, Prestige, and Industry
+A. What kind of work (is/was) (BROTHER'S NAME/SISTER'S NAME) doing? That is, what was (his/her) job called?
+OCCUPATION (See REMARKS)
+B. IF NOT ALREADY ANSWERED, ASK:  What (does/did) (s/he) actually do in that job? Tell me some of what (are/were) some of (his/her) main duties?
+C. What kind of place did (s/he) work for?
+INDUSTRY (See REMARKS)
+D. IF NOT ALREADY ANSWERED, ASK:  What (do/did) they (make/do)?
+E. IF ALREADY ANSWERED, CODE WITHOUT ASKING:  (Is/Was) (he/she) self-employed or (does/did) (he/she) work for someone else?
 }
 \section{Values}{
 
@@ -536,4 +543,41 @@ Question 514a. What kind of work (is/was) (NAME) doing? That is, what was (his/h
 }
 }
 
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
+}
+}
+
+\seealso{
+Other Family Mobility: 
+\code{\link{sbdeg}},
+\code{\link{sbeduc}},
+\code{\link{sbevwork}},
+\code{\link{sbind80}},
+\code{\link{sbpicked}},
+\code{\link{sbpres80}},
+\code{\link{sbwork1}},
+\code{\link{sbwork2}},
+\code{\link{sbwrkslf}}
+
+Other Occupation: 
+\code{\link{sbind80}},
+\code{\link{sbwrkslf}}
+
+Other Siblings: 
+\code{\link{sbdeg}},
+\code{\link{sbeduc}},
+\code{\link{sbevwork}},
+\code{\link{sbind80}},
+\code{\link{sbpicked}},
+\code{\link{sbpres80}},
+\code{\link{sbwork1}},
+\code{\link{sbwork2}},
+\code{\link{sbwrkslf}}
+}
+\concept{Family Mobility}
+\concept{Occupation}
+\concept{Siblings}
 \keyword{variable}

@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 mhothyou
 }
 \details{
-Question 1097. How much distress did this person's mental health problem cause you...
+Question How much distress did this personâ€™s mental health problem cause youâ€¦
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} a great deal
+\item \code{2} quite a bit
+\item \code{3} a little
+\item \code{4} not at all
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3566/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab a great deal \tab a little \tab don't know \tab no answer \tab not at all \tab quite a bit \tab not available in this year \tab Total \cr
@@ -57,26 +79,26 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} a great deal
-\item \code{2} quite a bit
-\item \code{3} a little
-\item \code{4} not at all
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Mental Health III: 
+\code{\link{mhothrel}},
+\code{\link{mhtrtoth}},
+\code{\link{seemhpub}},
+\code{\link{viglab06}}
+
+Other Mental Health: 
+\code{\link{mhothrel}},
+\code{\link{mhtrtoth}},
+\code{\link{seemhpub}},
+\code{\link{viglab06}}
+}
+\concept{Mental Health}
+\concept{Mental Health III}
 \keyword{variable}

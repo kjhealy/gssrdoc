@@ -12,9 +12,31 @@ marunion
 \details{
 Question What is your current legal marital status?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} legally married
+\item \code{2} in a civil union or registered domestic partnership
+\item \code{3} separated
+\item \code{4} not currently married or in a civil union or registered domestic partnership
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3911/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab don't know \tab in a civil union or registered domestic partnership \tab legally married \tab no answer \tab not currently married or in a civil union or registered domestic partnership \tab separated \tab not available in this year \tab Total \cr
@@ -57,26 +79,43 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} legally married
-\item \code{2} in a civil union or registered domestic partnership
-\item \code{3} separated
-\item \code{4} not currently married or in a civil union or registered domestic partnership
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2008 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Sexual Orientation: 
+\code{\link{adoptkid}},
+\code{\link{attractd}},
+\code{\link{evkid}},
+\code{\link{kidlived}},
+\code{\link{kidnow1}},
+\code{\link{kidresp}},
+\code{\link{relgendr}},
+\code{\link{sexunion}},
+\code{\link{toldsxor}}
+
+Other Family: 
+\code{\link{adoptkid}},
+\code{\link{evkid}},
+\code{\link{kidlived}},
+\code{\link{kidnow1}},
+\code{\link{kidresp}}
+
+Other Gays And Lesbians: 
+\code{\link{attractd}},
+\code{\link{sexunion}},
+\code{\link{toldsxor}}
+
+Other Marital Status: 
+\code{\link{relgendr}},
+\code{\link{sexunion}}
+}
+\concept{Family}
+\concept{Gays And Lesbians}
+\concept{Marital Status}
+\concept{Sexual Orientation}
 \keyword{variable}

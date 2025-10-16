@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 anheat
 }
 \details{
-Question Please look at Card I-1. The two objects shown there have the same mass, but object B loses heat more quickly than object A. Which combination of bodily features would be best suited to a small animal that lives in a cold climate and needs to minimize heat loss? (response to acceptDK) (response to probeDK)
+Question Please look at Card I-1. The two objects shown there have the same mass, but object B loses heat more quickly
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} long ears and a long body
+\item \code{2} small ears and a short tail
+\item \code{3} a long nose and a long tail
+\item \code{4} a short nose and large ears
+\item \code{5} a long tail and a short nose
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3472/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab a long nose and a long tail \tab a long tail and a short nose \tab a short nose and large ears \tab don't know \tab long ears and a long body \tab no answer \tab small ears and a short tail \tab not available in this year \tab Total \cr
@@ -57,27 +80,42 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} long ears and a long body
-\item \code{2} small ears and a short tail
-\item \code{3} a long nose and a long tail
-\item \code{4} a short nose and large ears
-\item \code{5} a long tail and a short nose
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2008 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{anscitst}},
+\code{\link{erosion}},
+\code{\link{goldfish}},
+\code{\link{h2olife}},
+\code{\link{lftplane}},
+\code{\link{litmstxt}},
+\code{\link{maboygrl}},
+\code{\link{salth2o}},
+\code{\link{stormtxt}}
+
+Other Knowledge: 
+\code{\link{h2olife}},
+\code{\link{lftplane}},
+\code{\link{maboygrl}},
+\code{\link{stormtxt}}
+
+Other Science: 
+\code{\link{anscitst}},
+\code{\link{erosion}},
+\code{\link{goldfish}},
+\code{\link{h2olife}},
+\code{\link{lftplane}},
+\code{\link{maboygrl}},
+\code{\link{salth2o}},
+\code{\link{stormtxt}}
+}
+\concept{Knowledge}
+\concept{Science}
+\concept{Science Knowledge & Attitudes}
 \keyword{variable}

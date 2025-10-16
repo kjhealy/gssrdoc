@@ -10,11 +10,29 @@ General Social Survey https://gss.norc.org
 mayrborn
 }
 \details{
-Question 481. Now, we'd like to ask about your parents. In what year was your mother born?
+Question Now, we'd like to ask about your parents. In what year was your mother born?
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1455/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 1858 \tab 1870 \tab 1871 \tab 1872 \tab 1875 \tab 1876 \tab 1877 \tab 1878 \tab 1879 \tab 1880 \tab 1881 \tab 1882 \tab 1883 \tab 1884 \tab 1885 \tab 1886 \tab 1887 \tab 1888 \tab 1889 \tab 1890 \tab 1891 \tab 1892 \tab 1893 \tab 1894 \tab 1895 \tab 1896 \tab 1897 \tab 1898 \tab 1899 \tab 1900 \tab 1901 \tab 1902 \tab 1903 \tab 1904 \tab 1905 \tab 1906 \tab 1907 \tab 1908 \tab 1909 \tab 1910 \tab 1911 \tab 1912 \tab 1913 \tab 1914 \tab 1915 \tab 1916 \tab 1917 \tab 1918 \tab 1919 \tab 1920 \tab 1921 \tab 1922 \tab 1923 \tab 1924 \tab 1925 \tab 1926 \tab 1927 \tab 1928 \tab 1929 \tab 1930 \tab 1931 \tab 1932 \tab 1933 \tab 1934 \tab 1935 \tab 1936 \tab 1937 \tab 1938 \tab 1939 \tab 1940 \tab 1941 \tab 1942 \tab 1943 \tab 1944 \tab 1945 \tab 1946 \tab 1947 \tab 1948 \tab 1949 \tab 1950 \tab 1951 \tab 1952 \tab 1953 \tab 1954 \tab 1955 \tab 1956 \tab 1957 \tab 1958 \tab 1959 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +75,37 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Family Mobility: 
+\code{\link{malive1}},
+\code{\link{mayrdied}},
+\code{\link{palive1}},
+\code{\link{payrborn}}
+
+Other Date Of Birth: 
+\code{\link{payrborn}}
+
+Other Family: 
+\code{\link{malive1}},
+\code{\link{mayrdied}},
+\code{\link{palive1}},
+\code{\link{payrborn}}
+
+Other Parents: 
+\code{\link{malive1}},
+\code{\link{mayrdied}},
+\code{\link{palive1}},
+\code{\link{payrborn}}
+}
+\concept{Date Of Birth}
+\concept{Family}
+\concept{Family Mobility}
+\concept{Parents}
 \keyword{variable}

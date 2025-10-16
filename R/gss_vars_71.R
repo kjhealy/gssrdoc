@@ -1,11 +1,133 @@
+#'  Materials lead to breakdown in morals
+#' 
+#'  pornmorl
+#' 
+#' Question The next questions are about pornography--books, movies, magazines, and photographs that show or describe sex activities. 
+#' I''m going to read some opinions about the effects of looking at or reading such sexual materials. As I read each one, please tell me if you think sexual materials do or do not have that effect. 
+#' READ EACH ITEM. CODE ONE FOR EACH 
+#' B. Sexual materials lead to breakdown of morals
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/637/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no   |no answer |yes   |not available in this year |Total |
+#'  |:-----|:-----|:----------|:----|:---------|:-----|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-    |-         |-     |-                          |1613  |
+#'  |1973  |-     |84         |622  |4         |794   |-                          |1504  |
+#'  |1974  |1484  |-          |-    |-         |-     |-                          |1484  |
+#'  |1975  |-     |134        |588  |3         |765   |-                          |1490  |
+#'  |1976  |-     |111        |560  |9         |819   |-                          |1499  |
+#'  |1977  |1530  |-          |-    |-         |-     |-                          |1530  |
+#'  |1978  |-     |78         |581  |3         |870   |-                          |1532  |
+#'  |1980  |-     |103        |477  |7         |881   |-                          |1468  |
+#'  |1982  |1860  |-          |-    |-         |-     |-                          |1860  |
+#'  |1983  |-     |83         |573  |10        |933   |-                          |1599  |
+#'  |1984  |-     |75         |484  |11        |903   |-                          |1473  |
+#'  |1985  |1534  |-          |-    |-         |-     |-                          |1534  |
+#'  |1986  |-     |78         |475  |7         |910   |-                          |1470  |
+#'  |1987  |-     |124        |613  |9         |1073  |-                          |1819  |
+#'  |1988  |484   |51         |325  |5         |616   |-                          |1481  |
+#'  |1989  |502   |62         |323  |7         |643   |-                          |1537  |
+#'  |1990  |473   |64         |287  |1         |547   |-                          |1372  |
+#'  |1991  |500   |69         |340  |2         |606   |-                          |1517  |
+#'  |1993  |549   |58         |318  |10        |671   |-                          |1606  |
+#'  |1994  |1965  |71         |370  |4         |582   |-                          |2992  |
+#'  |1996  |2904  |-          |-    |-         |-     |-                          |2904  |
+#'  |1998  |2832  |-          |-    |-         |-     |-                          |2832  |
+#'  |2000  |2817  |-          |-    |-         |-     |-                          |2817  |
+#'  |2002  |2765  |-          |-    |-         |-     |-                          |2765  |
+#'  |2004  |2812  |-          |-    |-         |-     |-                          |2812  |
+#'  |2006  |4510  |-          |-    |-         |-     |-                          |4510  |
+#'  |2008  |2023  |-          |-    |-         |-     |-                          |2023  |
+#'  |2010  |2044  |-          |-    |-         |-     |-                          |2044  |
+#'  |2012  |1974  |-          |-    |-         |-     |-                          |1974  |
+#'  |2014  |2538  |-          |-    |-         |-     |-                          |2538  |
+#'  |2016  |2867  |-          |-    |-         |-     |-                          |2867  |
+#'  |2018  |2348  |-          |-    |-         |-     |-                          |2348  |
+#'  |2021  |4032  |-          |-    |-         |-     |-                          |4032  |
+#'  |2022  |-     |-          |-    |-         |-     |3544                       |3544  |
+#'  |2024  |-     |-          |-    |-         |-     |3309                       |3309  |
+#'  |Total |48960 |1245       |6936 |92        |11613 |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Sex
+#' 
+#' @keywords variable
+#' @md
+#' @name pornmorl
+NULL
+
+
 #'  Materials lead to rape
 #' 
 #'  pornrape
 #' 
-#' Question 221. The next questions are about pornography - books, movies, magazines, and photographs that show or describe sex activities. I'm going to read some opinions about the effects of looking at or reading such sexual materials. As I read each one, please tell me if you think sexual materials do or do not have that effect: c. Sexual materials lead people to commit rape.
+#' Question The next questions are about pornography--books, movies, magazines, and photographs that show or describe sex activities. 
+#' I''m going to read some opinions about the effects of looking at or reading such sexual materials. As I read each one, please tell me if you think sexual materials do or do not have that effect. 
+#' READ EACH ITEM. CODE ONE FOR EACH 
+#' C. Sexual materials lead people to commit rape
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/638/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +170,47 @@
 #'  |2024  |-     |-          |-    |-         |-     |3309                       |3309  |
 #'  |Total |48960 |1695       |7342 |106       |10743 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Rape
+#' @family Sex
+#' 
+#' @keywords variable
+#' @md
+#' @name pornrape
+NULL
+
+
+#'  Materials provide outlet
+#' 
+#'  pornout
+#' 
+#' Question The next questions are about pornography--books, movies, magazines, and photographs that show or describe sex activities. 
+#' I''m going to read some opinions about the effects of looking at or reading such sexual materials. As I read each one, please tell me if you think sexual materials do or do not have that effect. 
+#' READ EACH ITEM. CODE ONE FOR EACH 
+#' D. Sexual materials provide an outlet for bottled-up impulses
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -65,22 +228,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name pornrape
-NULL
-
-#'  Materials provide outlet
-#' 
-#'  pornout
-#' 
-#' Question 221. The next questions are about pornography - books, movies, magazines, and photographs that show or describe sex activities. I'm going to read some opinions about the effects of looking at or reading such sexual materials. As I read each one, please tell me if you think sexual materials do or do not have that effect: d. Sexual materials provide an outlet for bottled-up impulses
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/639/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,10 +272,49 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-     |3309                       |3309  |
 #'  |Total |48960 |2571       |5730 |103       |11482 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Sex
+#' 
+#' @keywords variable
+#' @md
+#' @name pornout
+NULL
+
+
+#'  Feelings about pornography laws
+#' 
+#'  pornlaw
+#' 
+#' Question Which of these statements comes closest to your feelings about pornography laws? 
+#' READ FIRST THREE CATEGORIES ONLY. CIRCLE ONLY ONE CODE.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` there should be laws against the distribution of pornography whatever the age
+#'   * `2` there should be laws against the distribution of pornography to persons under 18
+#'   * `3` there should be no laws forbidding the distribution of pornography
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -140,22 +328,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name pornout
-NULL
-
-#'  Feelings about pornography laws
-#' 
-#'  pornlaw
-#' 
-#' Question 222. Which of these statements comes closest to your feelings about pornography laws: 1. There should be laws against the distribution of pornography whatever the age. 2. There should be laws against the distribution of pornography to persons under 18. 3. There should be no laws forbidding the distribution of pornography.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/640/vshow).
 #'
 #' Counts by year: 
 #'
@@ -198,11 +372,62 @@ NULL
 #'  |2024  |1116  |20         |9         |1434                                                                             |615                                                                           |101                                                                |14             |3309  |
 #'  |Total |28799 |487        |125       |27012                                                                            |16979                                                                         |2254                                                               |43             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'  |1996 |B/C     |partial      |
+#'  |1998 |B/C     |partial      |
+#'  |2000 |B/C     |partial      |
+#'  |2002 |B/C     |partial      |
+#'  |2004 |B/C     |partial      |
+#'  |2006 |B/C     |partial      |
+#'  |2008 |B/C     |partial      |
+#'  |2010 |B/C     |partial      |
+#'  |2012 |B/C     |partial      |
+#'  |2014 |B/C     |partial      |
+#'  |2016 |B/C     |partial      |
+#'  |2018 |B/C     |partial      |
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'  |2024 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Sex
+#' 
+#' @keywords variable
+#' @md
+#' @name pornlaw
+NULL
+
+
+#'  Seen x-rated movie in last year
+#' 
+#'  xmovie
+#' 
+#' Question A. Have you seen an X-rated movie in the last year?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` there should be laws against the distribution of pornography whatever the age
-#'   * `2` there should be laws against the distribution of pornography to persons under 18
-#'   * `3` there should be no laws forbidding the distribution of pornography
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -216,22 +441,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name pornlaw
-NULL
-
-#'  Seen x-rated movie in last year
-#' 
-#'  xmovie
-#' 
-#' Question 223a. Have you seen an x-rated movie in the last year?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/641/vshow).
 #'
 #' Counts by year: 
 #'
@@ -274,6 +485,59 @@ NULL
 #'  |2024  |2198  |1          |760   |6         |339   |5              |3309  |
 #'  |Total |31566 |142        |33218 |110       |10641 |22             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'  |1996 |B/C     |partial      |
+#'  |1998 |B/C     |partial      |
+#'  |2000 |B/C     |partial      |
+#'  |2002 |B/C     |partial      |
+#'  |2004 |B/C     |partial      |
+#'  |2006 |B/C     |partial      |
+#'  |2008 |B/C     |partial      |
+#'  |2010 |B/C     |partial      |
+#'  |2012 |B/C     |partial      |
+#'  |2014 |B/C     |partial      |
+#'  |2016 |B/C     |partial      |
+#'  |2018 |B/C     |partial      |
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'  |2024 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Movies
+#' @family Sex
+#' 
+#' @keywords variable
+#' @md
+#' @name xmovie
+NULL
+
+
+#'  Seen porn film (theater or vcr) last yr
+#' 
+#'  xmovie1
+#' 
+#' Question B. Have you seen an X-rated movie either in a movie theater or on a VCR (Video Cassette Recorder) in the last year?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -291,22 +555,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name xmovie
-NULL
-
-#'  Seen porn film (theater or vcr) last yr
-#' 
-#'  xmovie1
-#' 
-#' Question 223b. Have you seen an x-rated movie either in a movie theater or on a VCR (Video Cassette Recorder) in the last year?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/642/vshow).
 #'
 #' Counts by year: 
 #'
@@ -349,10 +599,36 @@ NULL
 #'  |2024  |-     |-          |-   |-         |-   |3309                       |3309  |
 #'  |Total |68340 |1          |390 |2         |113 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Moviesex
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name xmovie1
+NULL
+
+
+#'  Importance of pornography issue to r
+#' 
+#'  pornimp
+#' 
+#' Question A. How important is the pornography issue to you--would you say it is one of the most important, important, not very important, or not important at all?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` one of most imp
+#'   * `2` important
+#'   * `3` not very imp
+#'   * `4` not imp at all
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -366,22 +642,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name xmovie1
-NULL
-
-#'  Importance of pornography issue to r
-#' 
-#'  pornimp
-#' 
-#' Question 224a. How important is the pornography issue to you?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/643/vshow).
 #'
 #' Counts by year: 
 #'
@@ -424,12 +686,35 @@ NULL
 #'  |2024  |-     |-          |-         |-         |-              |-            |-               |3309                       |3309  |
 #'  |Total |67373 |17         |481       |14        |223            |577          |161             |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Coreex
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name pornimp
+NULL
+
+
+#'  How much info does r have on porn issue
+#' 
+#'  porninfo
+#' 
+#' Question B. How much information do you have about the pornography issue--do you have all of the information you need, most of the information, some of the information, or very little information?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` one of most imp
-#'   * `2` important
-#'   * `3` not very imp
-#'   * `4` not imp at all
+#'   * `1` all info r needs
+#'   * `2` most info
+#'   * `3` some info
+#'   * `4` very little info
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -443,22 +728,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name pornimp
-NULL
-
-#'  How much info does r have on porn issue
-#' 
-#'  porninfo
-#' 
-#' Question 224b. How much information do you have about the pornography issue?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/644/vshow).
 #'
 #' Counts by year: 
 #'
@@ -501,12 +772,35 @@ NULL
 #'  |2024  |-     |-                |-          |-         |-         |-         |-                |3309                       |3309  |
 #'  |Total |67373 |209              |18         |303       |20        |542       |381              |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Coreex
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name porninfo
+NULL
+
+
+#'  How firm is r's opinion on porn issue
+#' 
+#'  pornfirm
+#' 
+#' Question C. How firm are you about (your opinion on/the way you feel about) pornography--would you way you are very likely to change (your opinion), somewhat likely to change, somewhat unlikely to change or very unlikely to change your opinion?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` all info r needs
-#'   * `2` most info
-#'   * `3` some info
-#'   * `4` very little info
+#'   * `1` change very likely
+#'   * `2` somewhat likely
+#'   * `3` somewhat unlikely
+#'   * `4` change very unlikely
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -520,22 +814,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name porninfo
-NULL
-
-#'  How firm is r's opinion on porn issue
-#' 
-#'  pornfirm
-#' 
-#' Question 224c. How firm are you about (your opinion on/the way you feel about) pornography?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/645/vshow).
 #'
 #' Counts by year: 
 #'
@@ -578,12 +858,35 @@ NULL
 #'  |2024  |-     |-                  |-                    |-          |-         |-               |-                 |3309                       |3309  |
 #'  |Total |67373 |37                 |765                  |26         |23        |205             |417               |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Coreex
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name pornfirm
+NULL
+
+
+#'  Favor spanking to discipline child
+#' 
+#'  spanking
+#' 
+#' Question Do you strongly agree, agree, disagree, or strongly disagree that it is sometimes necessary to discipline a child with a good, hard spanking?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` change very likely
-#'   * `2` somewhat likely
-#'   * `3` somewhat unlikely
-#'   * `4` change very unlikely
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` disagree
+#'   * `4` strongly disagree
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -597,22 +900,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name pornfirm
-NULL
-
-#'  Favor spanking to discipline child
-#' 
-#'  spanking
-#' 
-#' Question 225. Do you strongly agree, agree, disagree, or strongly disagree that it is sometimes necessary to discipline a child with a good, hard, spanking?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/646/vshow).
 #'
 #' Counts by year: 
 #'
@@ -655,105 +944,41 @@ NULL
 #'  |2024  |1126  |804   |587      |29         |9         |381            |349               |24             |3309  |
 #'  |Total |41255 |15223 |7307     |373        |78        |8316           |3090              |57             |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` disagree
-#'   * `4` strongly disagree
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#'  |1996 |A/B     |partial      |
+#'  |1998 |A/B     |partial      |
+#'  |2000 |A/B     |partial      |
+#'  |2002 |A/B     |partial      |
+#'  |2004 |A/B     |partial      |
+#'  |2006 |A/B     |partial      |
+#'  |2008 |A/B     |partial      |
+#'  |2010 |A/B     |partial      |
+#'  |2012 |A/B     |partial      |
+#'  |2014 |A/B     |partial      |
+#'  |2016 |A/B     |partial      |
+#'  |2018 |A/B     |partial      |
+#'  |2021 |A/B     |partial      |
+#'  |2022 |A/B     |partial      |
+#'  |2024 |A/B     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' @family Violence
 #' 
 #' @keywords variable
 #' @md
 #' @name spanking
 NULL
 
-#'  Allow incurable patients to die
-#' 
-#'  letdie1
-#' 
-#' Question 226. When a person has a disease that cannot be cured, do you think doctors should be allowed by law to end the patient's life by some painless means if the patient and his family request it?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no    |no answer |yes   |skipped on web |Total |
-#'  |:-----|:-----|:----------|:-----|:---------|:-----|:--------------|:-----|
-#'  |1972  |1613  |-          |-     |-         |-     |-              |1613  |
-#'  |1973  |1504  |-          |-     |-         |-     |-              |1504  |
-#'  |1974  |1484  |-          |-     |-         |-     |-              |1484  |
-#'  |1975  |1490  |-          |-     |-         |-     |-              |1490  |
-#'  |1976  |1499  |-          |-     |-         |-     |-              |1499  |
-#'  |1977  |-     |66         |546   |11        |907   |-              |1530  |
-#'  |1978  |-     |60         |587   |1         |884   |-              |1532  |
-#'  |1980  |1468  |-          |-     |-         |-     |-              |1468  |
-#'  |1982  |-     |91         |737   |6         |1026  |-              |1860  |
-#'  |1983  |-     |70         |519   |5         |1005  |-              |1599  |
-#'  |1984  |1473  |-          |-     |-         |-     |-              |1473  |
-#'  |1985  |-     |43         |513   |2         |976   |-              |1534  |
-#'  |1986  |-     |53         |448   |4         |965   |-              |1470  |
-#'  |1987  |1819  |-          |-     |-         |-     |-              |1819  |
-#'  |1988  |493   |48         |287   |5         |648   |-              |1481  |
-#'  |1989  |531   |45         |300   |4         |657   |-              |1537  |
-#'  |1990  |444   |47         |243   |3         |635   |-              |1372  |
-#'  |1991  |493   |48         |255   |2         |719   |-              |1517  |
-#'  |1993  |526   |57         |323   |4         |696   |-              |1606  |
-#'  |1994  |1015  |96         |537   |10        |1334  |-              |2992  |
-#'  |1996  |944   |78         |548   |5         |1329  |-              |2904  |
-#'  |1998  |961   |106        |499   |7         |1259  |-              |2832  |
-#'  |2000  |940   |100        |565   |7         |1205  |-              |2817  |
-#'  |2002  |1857  |19         |288   |2         |599   |-              |2765  |
-#'  |2004  |1906  |30         |275   |5         |596   |-              |2812  |
-#'  |2006  |2518  |59         |616   |8         |1309  |-              |4510  |
-#'  |2008  |1375  |29         |202   |1         |416   |-              |2023  |
-#'  |2010  |614   |30         |446   |11        |943   |-              |2044  |
-#'  |2012  |672   |44         |402   |8         |848   |-              |1974  |
-#'  |2014  |863   |47         |496   |11        |1121  |-              |2538  |
-#'  |2016  |979   |46         |482   |10        |1350  |-              |2867  |
-#'  |2018  |789   |38         |411   |14        |1096  |-              |2348  |
-#'  |2021  |2689  |3          |382   |2         |934   |22             |4032  |
-#'  |2022  |2339  |23         |291   |6         |882   |3              |3544  |
-#'  |2024  |2200  |34         |310   |8         |748   |9              |3309  |
-#'  |Total |37498 |1410       |11508 |162       |25087 |34             |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name letdie1
-NULL
 

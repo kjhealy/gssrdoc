@@ -10,11 +10,30 @@ General Social Survey https://gss.norc.org
 yrpolit3
 }
 \details{
-Question 1026d. How many years have you been a member of (POLITICAL CLUB)?
+Question D. How many years have you been a member ofâ€¦?
+3. Third political club
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3163/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab 1 \tab 20 \tab 4 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +76,36 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B \tab partial \cr
 }
 }
 
+\seealso{
+Other Voluntary Assocations/Social Networks: 
+\code{\link{yrpolit1}},
+\code{\link{yrpolit2}},
+\code{\link{yrserv7}},
+\code{\link{yrserv8}},
+\code{\link{yrvet1}},
+\code{\link{yrvet2}},
+\code{\link{yrvet3}},
+\code{\link{yrvet4}},
+\code{\link{yrvet5}}
+
+Other Voluntary Associations: 
+\code{\link{yrpolit1}},
+\code{\link{yrpolit2}},
+\code{\link{yrserv7}},
+\code{\link{yrserv8}},
+\code{\link{yrvet1}},
+\code{\link{yrvet2}},
+\code{\link{yrvet3}},
+\code{\link{yrvet4}},
+\code{\link{yrvet5}}
+}
+\concept{Voluntary Assocations/Social Networks}
+\concept{Voluntary Associations}
 \keyword{variable}

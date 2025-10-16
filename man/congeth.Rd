@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 congeth
 }
 \details{
-Question 536. Some people say that it is only fair in a society liek ours, people holding public office should have roughly the same racial or ethnic background as the population as a whole. So, for example, if 30pct of the people were Hispanic, then 30pct of the public officials should be Hispanic as well. Others say that in choosing people for public office they should be considered purely on the basis of ability without regard to their ethnic or racial background. Let me ask you abou these ideas in several different areas: a. What about the people in Congress? Should they have the same racial or ethnic background as their constituents, or should they be considered purely ont he basis of their ability without regard to their racial or ethnic background?
+Question Some people say that it is only fair that in a society like ours, people holding public office should have roughly the same racial or ethnic background as the population as a whole. So, for example, if 30pct of the people were Hispanic, then 30pct of the public officials should be Hispanic as well. Others say that in choosing people for public office they should be considered purely on the basis of ability without regard to their ethnic or racial background. Let me ask you about these ideas in several different areas.
+A. What about people in Congress?  Should they have the same racial or ethnic background as their constituents, or should they be considered purely on the basis of their ability without regard to their racial or ethnic background?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} consider ethnic background
+\item \code{2} ability, not background
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1627/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab ability, not background \tab consider ethnic background \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,24 +78,45 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} consider ethnic background
-\item \code{2} ability, not background
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Multiculturalism: 
+\code{\link{colaff}},
+\code{\link{colaffy}},
+\code{\link{discaffy}},
+\code{\link{jobaff}},
+\code{\link{owneth}}
+
+Other Ethnicity: 
+\code{\link{ethhist}},
+\code{\link{owneth}},
+\code{\link{schleth}},
+\code{\link{teacheth}},
+\code{\link{whoteach}}
+
+Other Federal Government: 
+\code{\link{jobaff}},
+\code{\link{owneth}}
+
+Other Political: 
+\code{\link{owneth}}
+
+Other Race: 
+\code{\link{ethhist}},
+\code{\link{owneth}},
+\code{\link{schleth}},
+\code{\link{teacheth}},
+\code{\link{whoteach}}
+}
+\concept{Ethnicity}
+\concept{Federal Government}
+\concept{Multiculturalism}
+\concept{Political}
+\concept{Race}
 \keyword{variable}

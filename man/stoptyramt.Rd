@@ -12,9 +12,44 @@ stoptyramt
 \details{
 Question Please give a general estimate of the total number of the stock options that your company granted to you in 2021.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} less than 100 stock options
+\item \code{2} 100 to 499 stock options
+\item \code{3} 500 to 999 stock options
+\item \code{4} 1,000 to 2,999 stock options
+\item \code{5} 3,000 to 4,999 stock options
+\item \code{6} 5,000 to 9,999 stock options
+\item \code{7} 10,000 to 19,999 stock options
+\item \code{8} 20,000 to 39,999 stock options
+\item \code{9} 40,000 to 79,999 stock options
+\item \code{10} 80,000 to 99,999 stock options
+\item \code{11} 100,000 to 199,999 stock options
+\item \code{12} 200,000 to 299,000 stock options
+\item \code{13} 300,000 to 399,999 stock options
+\item \code{14} 400,000 to 499,999 stock options
+\item \code{15} 500,000 to 699,999 stock options
+\item \code{16} 700,000 to 999,999 stock options
+\item \code{17} over one million stock options
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7849/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab not available in this year \tab 1,000 to 2,999 stock options \tab 100 to 499 stock options \tab 40,000 to 79,999 stock options \tab 5,000 to 9,999 stock options \tab 500 to 999 stock options \tab don't know \tab iap \tab less than 100 stock options \tab Total \cr
@@ -57,38 +92,10 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} less than 100 stock options
-\item \code{2} 100 to 499 stock options
-\item \code{3} 500 to 999 stock options
-\item \code{4} 1,000 to 2,999 stock options
-\item \code{5} 3,000 to 4,999 stock options
-\item \code{6} 5,000 to 9,999 stock options
-\item \code{7} 10,000 to 19,999 stock options
-\item \code{8} 20,000 to 39,999 stock options
-\item \code{9} 40,000 to 79,999 stock options
-\item \code{10} 80,000 to 99,999 stock options
-\item \code{11} 100,000 to 199,999 stock options
-\item \code{12} 200,000 to 299,000 stock options
-\item \code{13} 300,000 to 399,999 stock options
-\item \code{14} 400,000 to 499,999 stock options
-\item \code{15} 500,000 to 699,999 stock options
-\item \code{16} 700,000 to 999,999 stock options
-\item \code{17} over one million stock options
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2022 \tab B/C \tab partial \cr
 }
 }
 

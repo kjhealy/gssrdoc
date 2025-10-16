@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 tvhours
 }
 \details{
-Question 242. On the average day, about how many hours do you personally watch television?
+Question On the average day, about how many hours do you personally watch television?
 }
+\section{Values}{
+
+\itemize{
+\item \code{0} 0 hours
+\item \code{24} 24 hours
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/691/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllll}{
    year \tab iap \tab 0 hours \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab no answer \tab 20 \tab 18 \tab 24 hours \tab don't know \tab 21 \tab 22 \tab 23 \tab skipped on web \tab 19 \tab Total \cr
@@ -57,24 +77,53 @@ Counts by year:\tabular{lllllllllllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{0} 0 hours
-\item \code{24} 24 hours
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1975 \tab -/-/- \tab full \cr
+   1977 \tab -/-/- \tab full \cr
+   1978 \tab -/-/- \tab full \cr
+   1980 \tab -/-/- \tab full \cr
+   1982 \tab -/-/- \tab full \cr
+   1983 \tab -/-/- \tab full \cr
+   1985 \tab -/-/- \tab full \cr
+   1986 \tab -/-/- \tab full \cr
+   1988 \tab A/B/- \tab partial \cr
+   1989 \tab A/B/- \tab partial \cr
+   1990 \tab A/B/- \tab partial \cr
+   1991 \tab A/B/- \tab partial \cr
+   1993 \tab A/B/C \tab full \cr
+   1994 \tab A/B/- \tab partial \cr
+   1996 \tab A/B/- \tab partial \cr
+   1998 \tab A/B/C \tab full \cr
+   2000 \tab A/B/- \tab partial \cr
+   2002 \tab A/B/- \tab partial \cr
+   2004 \tab A/B/- \tab partial \cr
+   2006 \tab A/B/- \tab partial \cr
+   2008 \tab A/B/- \tab partial \cr
+   2010 \tab A/B/- \tab partial \cr
+   2012 \tab A/B/- \tab partial \cr
+   2014 \tab A/B/- \tab partial \cr
+   2016 \tab A/B/- \tab partial \cr
+   2018 \tab A/B/- \tab partial \cr
+   2021 \tab A/B/- \tab partial \cr
+   2022 \tab A/B/- \tab partial \cr
+   2024 \tab A/B/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{arrest}},
+\code{\link{convictd}},
+\code{\link{hunt}},
+\code{\link{hunt1}},
+\code{\link{huntothr}},
+\code{\link{lockedup}},
+\code{\link{news}()},
+\code{\link{rowngun}},
+\code{\link{ticket}}
+}
+\concept{Core}
+\concept{Television Viewing}
 \keyword{variable}

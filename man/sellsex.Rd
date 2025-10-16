@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 sellsex
 }
 \details{
-Question 630. How much do you agree or disagree with the following statements? a. There is nothing inherently wrong with prostitution, so long as the health risks can be minimized. If consenting adults agree to exchange money for sex, that is their business.
+Question How much do you agree or disagree with the following statements:
+A. There is nothing inherently wrong with prostitution, so long as the health risks can be minimized. If consenting adults agree to exchange money for sex, that is their business.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} agree strongly
+\item \code{2} agree somewhat
+\item \code{3} disagree somewhat
+\item \code{4} disagree strongly
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1871/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab agree somewhat \tab agree strongly \tab disagree somewhat \tab disagree strongly \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,26 +80,37 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} agree strongly
-\item \code{2} agree somewhat
-\item \code{3} disagree somewhat
-\item \code{4} disagree strongly
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Markets: 
+\code{\link{adoption}},
+\code{\link{frndawk}},
+\code{\link{frnddeal}},
+\code{\link{organsb}},
+\code{\link{organsw}},
+\code{\link{sellbaby}},
+\code{\link{sellorgn}},
+\code{\link{tablprce}},
+\code{\link{transrel}}
+
+Other Purchases/Transactions: 
+\code{\link{adoption}},
+\code{\link{frndawk}},
+\code{\link{frnddeal}},
+\code{\link{organsb}},
+\code{\link{organsw}},
+\code{\link{sellbaby}},
+\code{\link{sellorgn}},
+\code{\link{tablprce}},
+\code{\link{transrel}}
+}
+\concept{Markets}
+\concept{Purchases/Transactions}
+\concept{Sex}
 \keyword{variable}

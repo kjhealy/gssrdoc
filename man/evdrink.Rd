@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 evdrink
 }
 \details{
-Question 1016. Was there ever a time when you drank any alcoholic beverages?
+Question Was there ever a time when you drank any alcoholic beverages?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes
+\item \code{2} no
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3097/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllll}{
    year \tab iap \tab no \tab no answer \tab yes \tab not available in this year \tab Total \cr
@@ -57,24 +77,30 @@ Counts by year:\tabular{lllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes
-\item \code{2} no
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Women & Alcohol: 
+\code{\link{drink12}},
+\code{\link{drink6up}},
+\code{\link{drink8}},
+\code{\link{drinkday}},
+\code{\link{drinkmax}},
+\code{\link{drinkyr}}
+
+Other Drinking: 
+\code{\link{drink12}},
+\code{\link{drink6up}},
+\code{\link{drink8}},
+\code{\link{drinkday}},
+\code{\link{drinkmax}},
+\code{\link{drinkyr}}
+}
+\concept{Drinking}
+\concept{Women & Alcohol}
 \keyword{variable}

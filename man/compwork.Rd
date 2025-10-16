@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 compwork
 }
 \details{
-Question 802. Do you use a computer at work~that is, at a workplace away from your home?
+Question Do you use a computer at workâ€“that is, at a workplace away from your home?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes
+\item \code{2} no
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2566/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab no \tab no answer \tab yes \tab don't know \tab not available in this year \tab Total \cr
@@ -57,24 +77,37 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes
-\item \code{2} no
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/- \tab partial \cr
+   2002 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Information Society: 
+\code{\link{emhrh}},
+\code{\link{emminh}},
+\code{\link{jobhrw}},
+\code{\link{jobminw}},
+\code{\link{perhrh}},
+\code{\link{wrkhrh}},
+\code{\link{wrkminh}},
+\code{\link{wwwhrh}},
+\code{\link{wwwminh}}
+
+Other Computers And Internet: 
+\code{\link{emhrh}},
+\code{\link{emminh}},
+\code{\link{jobhrw}},
+\code{\link{jobminw}},
+\code{\link{perhrh}},
+\code{\link{wrkhrh}},
+\code{\link{wrkminh}},
+\code{\link{wwwhrh}},
+\code{\link{wwwminh}}
+}
+\concept{Computers And Internet}
+\concept{Information Society}
 \keyword{variable}

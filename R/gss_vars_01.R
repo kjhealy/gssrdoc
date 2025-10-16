@@ -2,9 +2,8 @@
 #' 
 #'  year
 #' 
-#' Question None
+#' Question GSS year
 #' 
-#'
 #' 
 #' @section Values: 
 #' 
@@ -22,21 +21,152 @@
 #'   * `NA(z)` see codebook
 #'
 #'
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Date Of Interview
+#' @family Interview
 #' 
 #' @keywords variable
 #' @md
 #' @name year
 NULL
 
+
+#'  Respondent id number
+#' 
+#'  id
+#' 
+#' Question Respondent id number
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * -
+#'
+#'
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Interview
+#' 
+#' @keywords variable
+#' @md
+#' @name id
+NULL
+
+
 #'  Labor force status
 #' 
 #'  wrkstat
 #' 
-#' Question 1. Last week were you working full time, part time, going to school, keeping house, or what?
+#' Question Last week were you working full time, part time, going to school, keeping house, or what?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` working full time
+#'   * `2` working part time
+#'   * `3` with a job, but not at work because of temporary illness, vacation, strike
+#'   * `4` unemployed, laid off, looking for work
+#'   * `5` retired
+#'   * `6` in school
+#'   * `7` keeping house
+#'   * `8` other
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3/vshow).
 #'
 #' Counts by year: 
 #'
@@ -79,16 +209,68 @@ NULL
 #'  |2024  |90        |292           |113   |796     |168                                    |61                                                                         |1460              |319               |6         |2              |2          |3309  |
 #'  |Total |2277      |11061         |1740  |11683   |2796                                   |1618                                                                       |36727             |7750              |33        |11             |3          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Employment
+#' @family Labor Force Status
+#' 
+#' @keywords variable
+#' @md
+#' @name wrkstat
+NULL
+
+
+#'  Number of hours worked last week
+#' 
+#'  hrs1
+#' 
+#' Question Last week were you working full time, part time, going to school, keeping house, or what?
+#'  A. IF WORKING, FULL OR PART TIME:  How many hours did you work last week, at all jobs?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` working full time
-#'   * `2` working part time
-#'   * `3` with a job, but not at work because of temporary illness, vacation, strike
-#'   * `4` unemployed, laid off, looking for work
-#'   * `5` retired
-#'   * `6` in school
-#'   * `7` keeping house
-#'   * `8` other
+#'   * `89` 89+ hours
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -102,22 +284,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wrkstat
-NULL
-
-#'  Number of hours worked last week
-#' 
-#'  hrs1
-#' 
-#' Question 1a. If working, full or part time: how many hours did you work last week, at all jobs?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4/vshow).
 #'
 #' Counts by year: 
 #'
@@ -160,6 +328,66 @@ NULL
 #'  |2024  |1526  |10 |-  |19  |12  |3  |3  |18  |10  |1  |4   |2  |58   |3   |5   |4  |21  |44  |5   |4   |10  |1  |4  |68   |3  |32  |3   |8   |46   |29  |18  |17  |5   |7   |697   |12  |23  |14  |15  |92   |15  |2   |21   |3   |9   |143  |3  |7   |2   |5   |31  |5   |-  |4   |11  |70   |1  |13  |1  |2  |22  |-  |5   |3   |15  |16  |1  |6         |4  |-          |5         |-  |3  |2  |2  |1  |2  |2  |1  |1  |-  |2  |-  |1  |-  |-  |-  |-  |-  |-  |1  |-  |-  |10             |3309  |
 #'  |Total |32056 |46 |45 |365 |267 |57 |83 |486 |413 |62 |147 |45 |1372 |107 |123 |89 |517 |725 |101 |115 |254 |56 |59 |1456 |65 |827 |107 |136 |1290 |516 |485 |737 |148 |126 |15216 |196 |665 |359 |472 |2219 |381 |207 |1101 |124 |107 |3270 |83 |343 |118 |148 |973 |307 |63 |113 |132 |2214 |17 |461 |35 |57 |599 |3  |127 |146 |265 |380 |65 |300       |62 |55         |237       |32 |40 |88 |61 |38 |28 |79 |11 |19 |41 |27 |15 |9  |16 |9  |5  |9  |3  |17 |9  |3  |14 |23             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Employment
+#' @family Hours Worked
+#' @family Labor Force Status
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name hrs1
+NULL
+
+
+#'  Number of hours usually work a week
+#' 
+#'  hrs2
+#' 
+#' Question Last week were you working full time, part time, going to school, keeping house, or what?
+#'  B. IF WITH A JOB, BUT NOT AT WORK:  How many hours a week do you usually work, at all jobs?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `89` 89+ hours
@@ -176,22 +404,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hrs1
-NULL
-
-#'  Number of hours usually work a week
-#' 
-#'  hrs2
-#' 
-#' Question 1b. If with a job, but not at work: How many hours a week do you usually work, at all jobs?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5/vshow).
 #'
 #' Counts by year: 
 #'
@@ -234,9 +448,70 @@ NULL
 #'  |2024  |3241  |2  |1  |1  |2  |4  |3  |-  |24  |2  |3   |-  |-  |1  |6         |3  |-  |-  |5  |-  |2  |-  |-  |-          |-  |-  |-         |1  |-  |-  |1  |-  |-  |-  |-  |-  |3  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |1  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |1  |-  |2              |3309  |
 #'  |Total |74092 |20 |27 |6  |47 |63 |54 |7  |614 |26 |118 |24 |6  |22 |130       |29 |24 |8  |66 |21 |73 |5  |3  |5          |8  |10 |4         |12 |1  |3  |10 |1  |5  |9  |4  |3  |19 |21 |5  |2  |12 |8  |4  |1  |2  |4  |2  |5  |12 |2  |1  |2  |3  |6  |1  |2  |3  |1  |2  |1  |3  |1  |2  |1  |11             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Employment
+#' @family Hours Worked
+#' @family Labor Force Status
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name hrs2
+NULL
+
+
+#'  Ever work as long as one year
+#' 
+#'  evwork
+#' 
+#' Question Last week were you working full time, part time, going to school, keeping house, or what?
+#'  C. IF RETIRED, IN SCHOOL, KEEPING HOUSE, OR OTHER: Did you ever work for as long as one year?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `89` 89+ hours
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -250,22 +525,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hrs2
-NULL
-
-#'  Ever work as long as one year
-#' 
-#'  evwork
-#' 
-#' Question 1c. If retired, in school, keeping house, or other: Did you ever work for as long as one year?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6/vshow).
 #'
 #' Counts by year: 
 #'
@@ -308,38 +569,70 @@ NULL
 #'  |2024  |1991  |105  |1204  |6         |-          |3              |3309  |
 #'  |Total |48851 |3763 |22992 |77        |2          |14             |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Labor Force Status
 #' 
 #' @keywords variable
 #' @md
 #' @name evwork
 NULL
 
+
 #'  R's census occupation code (1970)
 #' 
 #'  occ
 #' 
-#' Question 2a. What kind of work do you (did you normally) do? That is, what (is/was)your job called?
+#' Question A. What kind of work do you (did you normally) do?  That is, what (is/was) your job called?
+#' OCCUPATION:  (See REMARKS) 
+#' B. What (do/did) you actually do in that job?  Tell me, what (are/were) some of your main duties?
+#' C. What kind of place (do/did) you work for?
+#' INDUSTRY:  (See REMARKS) 
+#' D. What (do/did) they (make/do)?
+#' E. (Are/Were) you self employed or (do/did) you work for someone else?
+#' F. (Are/Were) you employed by the federal, state or local government or by a private employer (including non-profit organizations)?
+#' G. About how much time (does/did) it usually take you to travel to work - about how many minutes?
 #' 
-#'
 #' 
 #' @section Values: 
 #' 
@@ -357,21 +650,71 @@ NULL
 #'   * `NA(z)` see codebook
 #'
 #'
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
 #' @name occ
 NULL
 
+
 #'  R's occupational prestige score(1970)
 #' 
 #'  prestige
 #' 
-#' Question 2a. What kind of work do you (did you normally) do? That is, what (is/was)your job called? b. What (do/did) you actually do in that job? Tell me, what (are/were) some of your main duties?
+#' Question A. What kind of work do you (did you normally) do?  That is, what (is/was) your job called?
+#' OCCUPATION:  (See REMARKS) 
+#' B. What (do/did) you actually do in that job?  Tell me, what (are/were) some of your main duties?
+#' C. What kind of place (do/did) you work for?
+#' INDUSTRY:  (See REMARKS) 
+#' D. What (do/did) they (make/do)?
+#' E. (Are/Were) you self employed or (do/did) you work for someone else?
+#' F. (Are/Were) you employed by the federal, state or local government or by a private employer (including non-profit organizations)?
+#' G. About how much time (does/did) it usually take you to travel to work - about how many minutes?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/8/vshow).
 #'
 #' Counts by year: 
 #'
@@ -414,8 +757,57 @@ NULL
 #'  |2024  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-    |-   |-   |-  |-  |-   |-   |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-  |-   |-   |-  |-           |-  |-  |-  |-  |-  |3309                       |3309  |
 #'  |Total |216 |147 |130 |256 |699 |634 |253 |536 |447 |336 |35 |640 |544 |361 |194 |584 |201 |519 |1169 |531 |979 |209 |1875 |389 |108 |493 |657 |874 |294 |265 |195 |621 |1245 |632 |954 |208 |1913 |401 |149 |70 |75 |208 |307 |51 |683 |346 |422 |322 |71 |67 |152 |58 |137 |29 |101 |176 |53 |1998        |7  |13 |1  |14 |11 |49434                      |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Occupational Prestige
+#' 
+#' @keywords variable
+#' @md
+#' @name prestige
+NULL
+
+
+#'  R self-emp or works for somebody
+#' 
+#'  wrkslf
+#' 
+#' Question A. What kind of work do you (did you normally) do?  That is, what (is/was) your job called?
+#' OCCUPATION:  (See REMARKS) 
+#' B. What (do/did) you actually do in that job?  Tell me, what (are/were) some of your main duties?
+#' C. What kind of place (do/did) you work for?
+#' INDUSTRY:  (See REMARKS) 
+#' D. What (do/did) they (make/do)?
+#' E. (Are/Were) you self employed or (do/did) you work for someone else?
+#' F. (Are/Were) you employed by the federal, state or local government or by a private employer (including non-profit organizations)?
+#' G. About how much time (does/did) it usually take you to travel to work - about how many minutes?
+#' 
+#' 
 #' @section Values: 
 #' 
+#'   * `1` self-employed
+#'   * `2` someone else
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -429,22 +821,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name prestige
-NULL
-
-#'  R self-emp or works for somebody
-#' 
-#'  wrkslf
-#' 
-#' Question 2e. (Are/were) you self employed or (do/did) you work for someone else?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/9/vshow).
 #'
 #' Counts by year: 
 #'
@@ -487,10 +865,77 @@ NULL
 #'  |2024  |-    |-         |-             |-            |-          |-              |3309                          |3309  |
 #'  |Total |3663 |317       |7845          |60504        |25         |36             |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Job
+#' @family Occupation
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name wrkslf
+NULL
+
+
+#'  Govt or private employee
+#' 
+#'  wrkgovt
+#' 
+#' Question A. What kind of work do you (did you normally) do?  That is, what (is/was) your job called?
+#' OCCUPATION:  (See REMARKS) 
+#' B. What (do/did) you actually do in that job?  Tell me, what (are/were) some of your main duties?
+#' C. What kind of place (do/did) you work for?
+#' INDUSTRY:  (See REMARKS) 
+#' D. What (do/did) they (make/do)?
+#' E. (Are/Were) you self employed or (do/did) you work for someone else?
+#' F. (Are/Were) you employed by the federal, state or local government or by a private employer (including non-profit organizations)?
+#' G. About how much time (does/did) it usually take you to travel to work - about how many minutes?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` self-employed
-#'   * `2` someone else
+#'   * `1` government
+#'   * `2` private
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -504,22 +949,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wrkslf
-NULL
-
-#'  Govt or private employee
-#' 
-#'  wrkgovt
-#' 
-#' Question 2f. (Are/were) you employed by the federal, state, or local government or by a private employer (including non-profit organizations)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/10/vshow).
 #'
 #' Counts by year: 
 #'
@@ -562,102 +993,31 @@ NULL
 #'  |2024  |-     |-          |-       |-         |-          |3309                       |3309  |
 #'  |Total |40335 |5269       |22810   |148       |284        |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` government
-#'   * `2` private
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Industry
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
 #' @name wrkgovt
 NULL
 
-#'  Travel time to work
-#' 
-#'  commute
-#' 
-#' Question 2g. About how much time (does/did) it usually take you to travel to work - about how many minutes?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |0  |1  |10  |11 |12 |13 |14 |15  |16 |17 |2  |20  |22 |24 |25 |28 |3  |30  |32 |35 |4  |40 |43 |45 |46 |5   |50 |55 |6  |60 |7  |70 |75 |8  |9  |90 |97+ minutes |don't know |no answer |not available in this year |Total |
-#'  |:-----|:-----|:--|:--|:---|:--|:--|:--|:--|:---|:--|:--|:--|:---|:--|:--|:--|:--|:--|:---|:--|:--|:--|:--|:--|:--|:--|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:-----------|:----------|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |1613  |
-#'  |1973  |1504  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |1504  |
-#'  |1974  |1484  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |1484  |
-#'  |1975  |1490  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |1490  |
-#'  |1976  |1499  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |1499  |
-#'  |1977  |1530  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |1530  |
-#'  |1978  |1532  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |1532  |
-#'  |1980  |1468  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |1468  |
-#'  |1982  |1860  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |1860  |
-#'  |1983  |1599  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |1599  |
-#'  |1984  |1473  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |1473  |
-#'  |1985  |1534  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |1534  |
-#'  |1986  |100   |54 |14 |190 |1  |16 |1  |2  |203 |1  |3  |34 |180 |2  |1  |60 |1  |23 |155 |2  |30 |6  |22 |1  |63 |1  |153 |5  |3  |2  |55 |13 |4  |4  |8  |1  |8  |8           |8          |32        |-                          |1470  |
-#'  |1987  |1819  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |1819  |
-#'  |1988  |1481  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |1481  |
-#'  |1989  |1537  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |1537  |
-#'  |1990  |1372  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |1372  |
-#'  |1991  |1517  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |1517  |
-#'  |1993  |1606  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |1606  |
-#'  |1994  |2992  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |2992  |
-#'  |1996  |2904  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |2904  |
-#'  |1998  |2832  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |2832  |
-#'  |2000  |2817  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |2817  |
-#'  |2002  |2765  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |2765  |
-#'  |2004  |2812  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |2812  |
-#'  |2006  |4510  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |4510  |
-#'  |2008  |2023  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |2023  |
-#'  |2010  |2044  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |2044  |
-#'  |2012  |1974  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |1974  |
-#'  |2014  |2538  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |2538  |
-#'  |2016  |2867  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |2867  |
-#'  |2018  |2348  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |2348  |
-#'  |2021  |4032  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |-                          |4032  |
-#'  |2022  |-     |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |3544                       |3544  |
-#'  |2024  |-     |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-          |-         |3309                       |3309  |
-#'  |Total |67476 |54 |14 |190 |1  |16 |1  |2  |203 |1  |3  |34 |180 |2  |1  |60 |1  |23 |155 |2  |30 |6  |22 |1  |63 |1  |153 |5  |3  |2  |55 |13 |4  |4  |8  |1  |8  |8           |8          |32        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `97` 97+ minutes
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name commute
-NULL
 

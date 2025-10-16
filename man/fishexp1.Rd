@@ -12,9 +12,31 @@ fishexp1
 \details{
 Question Please look at Card I-5. What is the scientist trying to find out from this experiment?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} if the number of fish in the fish bowl affects the behavior of the fish
+\item \code{2} if the temperature of the fish bowl affects the behavior of the fish
+\item \code{3} if the temperature and the amount of light affect the behavior of the fish
+\item \code{4} if the number of fish, the temperature, and the amount of light affect the behavior of the fish
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3485/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab don't know \tab if the number of fish in the fish bowl affects the behavior of the fish \tab if the number of fish, the temperature, and the amount of light affect the behavior of the fish \tab if the temperature and the amount of light affect the behavior of the fish \tab if the temperature of the fish bowl affects the behavior of the fish \tab no answer \tab not available in this year \tab Total \cr
@@ -57,26 +79,44 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} if the number of fish in the fish bowl affects the behavior of the fish
-\item \code{2} if the temperature of the fish bowl affects the behavior of the fish
-\item \code{3} if the temperature and the amount of light affect the behavior of the fish
-\item \code{4} if the number of fish, the temperature, and the amount of light affect the behavior of the fish
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2008 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{daynight}},
+\code{\link{fishexp2}},
+\code{\link{genes}},
+\code{\link{gills}},
+\code{\link{morempg}},
+\code{\link{polnuke}},
+\code{\link{seesand}},
+\code{\link{upbreath}},
+\code{\link{weighing}}
+
+Other Knowledge: 
+\code{\link{daynight}},
+\code{\link{fishexp2}},
+\code{\link{genes}},
+\code{\link{gills}},
+\code{\link{seesand}},
+\code{\link{upbreath}},
+\code{\link{weighing}}
+
+Other Science: 
+\code{\link{daynight}},
+\code{\link{fishexp2}},
+\code{\link{genes}},
+\code{\link{gills}},
+\code{\link{seesand}},
+\code{\link{upbreath}},
+\code{\link{weighing}}
+}
+\concept{Knowledge}
+\concept{Science}
+\concept{Science Knowledge & Attitudes}
 \keyword{variable}

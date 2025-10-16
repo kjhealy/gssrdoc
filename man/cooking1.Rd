@@ -10,11 +10,36 @@ General Social Survey https://gss.norc.org
 cooking1
 }
 \details{
-Question 1309. In your household who does the following things: f. Preparing the meals?
+Question In your household who does the following things...?
+F. Prepares the meals?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} always me
+\item \code{2} usually me
+\item \code{3} about equal or both together
+\item \code{4} usually my spouse/partner
+\item \code{5} always my spouse/partner
+\item \code{6} is done by a third person
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4434/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab about equal or both together \tab always me \tab always my spouse/partner \tab don't know \tab is done by a third person \tab no answer \tab usually me \tab usually my spouse/partner \tab skipped on web \tab not available in this year \tab Total \cr
@@ -57,28 +82,36 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} always me
-\item \code{2} usually me
-\item \code{3} about equal or both together
-\item \code{4} usually my spouse/partner
-\item \code{5} always my spouse/partner
-\item \code{6} is done by a third person
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
+   2012 \tab A/B/- \tab partial \cr
+   2022 \tab A/-/- \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Family & Gender Roles: 
+\code{\link{caresik1}},
+\code{\link{clean1}},
+\code{\link{deckids}},
+\code{\link{hhwkdis}},
+\code{\link{hhwkfair}},
+\code{\link{rhhwork}},
+\code{\link{shop1}},
+\code{\link{spborn}},
+\code{\link{sphhwork}}
+
+Other Household: 
+\code{\link{caresik1}},
+\code{\link{clean1}},
+\code{\link{hhwkdis}},
+\code{\link{hhwkfair}},
+\code{\link{rhhwork}},
+\code{\link{shop1}},
+\code{\link{sphhwork}}
+}
+\concept{Household}
+\concept{ISSP Family & Gender Roles}
 \keyword{variable}

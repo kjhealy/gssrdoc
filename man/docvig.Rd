@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 docvig
 }
 \details{
-Question 851. Vignette number given to respondent.
+Question Vignette number given to respondent.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} our physcian s group...(c4)
+\item \code{2} it use to be that physicans...(c5)
+\item \code{3} i can understand...(c6)
+\item \code{4} i understand that...(c7)
+\item \code{5} i have had a lot...(c8)
+\item \code{6} i usually don t order...(c9)
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2737/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab i can understand...(c6) \tab i have had a lot...(c8) \tab i understand that...(c7) \tab i usually don t order...(c9) \tab it use to be that physicans...(c5) \tab our physcian s group...(c4) \tab not available in this year \tab Total \cr
@@ -57,28 +81,28 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} our physcian s group...(c4)
-\item \code{2} it use to be that physicans...(c5)
-\item \code{3} i can understand...(c6)
-\item \code{4} i understand that...(c7)
-\item \code{5} i have had a lot...(c8)
-\item \code{6} i usually don t order...(c9)
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Doctors & Patients: 
+\code{\link{docaskme}},
+\code{\link{docdecid}},
+\code{\link{docrely}},
+\code{\link{regdoc}},
+\code{\link{regdocyr}}
+
+Other Health: 
+\code{\link{docaskme}},
+\code{\link{docdecid}},
+\code{\link{docrely}},
+\code{\link{regdoc}},
+\code{\link{regdocyr}}
+}
+\concept{Doctors & Patients}
+\concept{Health}
 \keyword{variable}

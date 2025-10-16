@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 advfront
 }
 \details{
-Question 1035. I'm going to read to you some statements like those you might find in a newspaper or magazine article. For each statement, please tell me if you strongly agree, agree, disagree, or strongly disagree. c. Even if it brings no immediate benefits, scientific research that advances the frontiers of knowledge is necessary and should be supported by the federal government.
+Question Iâ€™m going to read to you some statements like those you might find in a newspaper or magazine article. For each statement, please tell me if you strongly agree, agree, disagree, or strongly disagree.
+D. Even if it brings no immediate benefits, scientific research that advances the frontiers of knowledge is necessary and should be supported by the federal government.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} strongly agree
+\item \code{2} agree
+\item \code{3} disagree
+\item \code{4} strongly disagree
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3319/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab strongly agree \tab strongly disagree \tab skipped on web \tab not available in this year \tab Total \cr
@@ -57,26 +80,52 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} strongly agree
-\item \code{2} agree
-\item \code{3} disagree
-\item \code{4} strongly disagree
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab B/C/- \tab partial \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/C/- \tab partial \cr
+   2012 \tab B/C/- \tab partial \cr
+   2014 \tab B/C/- \tab partial \cr
+   2016 \tab A/B/- \tab partial \cr
+   2018 \tab A/B/- \tab partial \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{bettrlfe}},
+\code{\link{leadsci}},
+\code{\link{newsfrom}},
+\code{\link{nextgen}},
+\code{\link{scifrom}},
+\code{\link{scispec}},
+\code{\link{seeksci}},
+\code{\link{toofast}},
+\code{\link{whichsci}}
+
+Other GSS Next: 
+\code{\link{nextgen}},
+\code{\link{toofast}}
+
+Other Federal Government: 
+\code{\link{leadsci}}
+
+Other Science: 
+\code{\link{bettrlfe}},
+\code{\link{leadsci}},
+\code{\link{newsfrom}},
+\code{\link{nextgen}},
+\code{\link{scifrom}},
+\code{\link{scispec}},
+\code{\link{seeksci}},
+\code{\link{toofast}},
+\code{\link{whichsci}}
+}
+\concept{Federal Government}
+\concept{GSS Next}
+\concept{Science}
+\concept{Science Knowledge & Attitudes}
 \keyword{variable}

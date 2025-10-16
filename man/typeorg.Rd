@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 typeorg
 }
 \details{
-Question 696. I would like to ask you a few questions about the place you worked full or part time last week. Is the place part of a larger organization or is it completely independent in finance and personnel?
+Question I would like to ask you a few questions about the place you worked full or part time last week. Is the place part of a larger organization or is it completely independent in finance and personnel?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} larger organiztn
+\item \code{2} cmplte indpndent
+\item \code{8} not sure
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2140/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab cmplte indpndent \tab don't know \tab larger organiztn \tab no answer \tab not available in this year \tab Total \cr
@@ -57,25 +78,24 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} larger organiztn
-\item \code{2} cmplte indpndent
-\item \code{8} not sure
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1998 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Jobs: 
+\code{\link{occtrain}},
+\code{\link{occyrs}},
+\code{\link{trainsch}}
+
+Other Job: 
+\code{\link{occtrain}},
+\code{\link{occyrs}},
+\code{\link{trainsch}}
+}
+\concept{Job}
+\concept{Jobs}
 \keyword{variable}

@@ -10,11 +10,30 @@ General Social Survey https://gss.norc.org
 numunemp
 }
 \details{
-Question 422. About how many different times have you been unemployed and looking for work for as long as two weeks?
+Question About how many different times have you been unemployed and looking for work for as long as two weeks?
 }
+\section{Values}{
+
+\itemize{
+\item \code{96} 96 or more
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1273/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllll}{
    year \tab iap \tab 1 \tab 10 \tab 12 \tab 15 \tab 2 \tab 20 \tab 21 \tab 25 \tab 3 \tab 30 \tab 32 \tab 4 \tab 5 \tab 50 \tab 6 \tab 7 \tab 70 \tab 8 \tab 96 or more \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,23 +76,35 @@ Counts by year:\tabular{lllllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{96} 96 or more
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1991 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Work Organizations: 
+\code{\link{empyears}},
+\code{\link{evunemp}},
+\code{\link{fndjob1}},
+\code{\link{fndjob2}},
+\code{\link{fndjob3}},
+\code{\link{fndjob4}},
+\code{\link{orgfin}},
+\code{\link{totunemp}},
+\code{\link{wrkyears}}
+
+Other Employment: 
+\code{\link{empyears}},
+\code{\link{evunemp}},
+\code{\link{fndjob1}},
+\code{\link{fndjob2}},
+\code{\link{fndjob3}},
+\code{\link{fndjob4}},
+\code{\link{totunemp}},
+\code{\link{wrkyears}}
+}
+\concept{Employment}
+\concept{Work Organizations}
 \keyword{variable}

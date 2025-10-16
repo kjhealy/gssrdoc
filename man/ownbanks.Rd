@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 ownbanks
 }
 \details{
-Question 1187. What do you think the government's role in each of these industries should be? d. Banking and insurance
+Question What do you think the government''s role in each of these industries should be?
+D. Banking and insurance.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} own it
+\item \code{2} control prices
+\item \code{3} leave alone
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4074/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab can't choose \tab control prices \tab leave alone \tab no answer \tab own it \tab not available in this year \tab Total \cr
@@ -57,25 +79,35 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} own it
-\item \code{2} control prices
-\item \code{3} leave alone
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1985 \tab -/-/- \tab full \cr
+   1990 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Role of Gov't: 
+\code{\link{buspow}},
+\code{\link{govtpow}},
+\code{\link{jobsall}},
+\code{\link{laborpow}},
+\code{\link{ownautos}},
+\code{\link{ownmass}},
+\code{\link{ownpower}},
+\code{\link{ownsteel}},
+\code{\link{pricecon}}
+
+Other Business: 
+\code{\link{buspow}},
+\code{\link{ownautos}},
+\code{\link{ownmass}},
+\code{\link{ownpower}},
+\code{\link{ownsteel}}
+}
+\concept{Business}
+\concept{Economyederal Government}
+\concept{Financial Institutions And Banks}
+\concept{ISSP Role of Gov't}
 \keyword{variable}

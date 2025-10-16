@@ -1,11 +1,216 @@
+#'  Who in household cares for sick in family
+#' 
+#'  caresik1
+#' 
+#' Question In your household who does the following things...? 
+#' C. Cares for sick family members?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` always me
+#'   * `2` usually me
+#'   * `3` about equal or both together
+#'   * `4` usually my spouse/partner
+#'   * `5` always my spouse/partner
+#'   * `6` is done by a third person
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4431/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |about equal or both together |always me |always my spouse/partner |don't know |is done by a third person |no answer |usually me |usually my spouse/partner |skipped on web |not available in this year |Total |
+#'  |:-----|:-----|:----------------------------|:---------|:------------------------|:----------|:-------------------------|:---------|:----------|:-------------------------|:--------------|:--------------------------|:-----|
+#'  |1972  |1613  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1613  |
+#'  |1973  |1504  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1504  |
+#'  |1974  |1484  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1484  |
+#'  |1975  |1490  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1490  |
+#'  |1976  |1499  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1499  |
+#'  |1977  |1530  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1530  |
+#'  |1978  |1532  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1532  |
+#'  |1980  |1468  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1468  |
+#'  |1982  |1860  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1860  |
+#'  |1983  |1599  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1599  |
+#'  |1984  |1473  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1473  |
+#'  |1985  |1534  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1534  |
+#'  |1986  |1470  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1470  |
+#'  |1987  |1819  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1819  |
+#'  |1988  |1481  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1481  |
+#'  |1989  |1537  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1537  |
+#'  |1990  |1372  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1372  |
+#'  |1991  |1517  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1517  |
+#'  |1993  |1606  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1606  |
+#'  |1994  |2992  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |2992  |
+#'  |1996  |2904  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |2904  |
+#'  |1998  |2832  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |2832  |
+#'  |2000  |2817  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |2817  |
+#'  |2002  |2058  |292                          |129       |5                        |32         |6                         |23        |127        |93                        |-              |-                          |2765  |
+#'  |2004  |2812  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |2812  |
+#'  |2006  |4510  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |4510  |
+#'  |2008  |2023  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |2023  |
+#'  |2010  |2044  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |2044  |
+#'  |2012  |1274  |261                          |117       |44                       |80         |13                        |6         |90         |89                        |-              |-                          |1974  |
+#'  |2014  |2538  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |2538  |
+#'  |2016  |2867  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |2867  |
+#'  |2018  |2348  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |2348  |
+#'  |2021  |4032  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |4032  |
+#'  |2022  |3024  |237                          |60        |32                       |39         |14                        |1         |77         |57                        |3              |-                          |3544  |
+#'  |2024  |-     |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |3309                       |3309  |
+#'  |Total |70463 |790                          |306       |81                       |151        |33                        |30        |294        |239                       |3              |3309                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2012 |A/B/-   |partial      |
+#'  |2022 |A/-/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name caresik1
+NULL
+
+
+#'  Who in household shops for groceries
+#' 
+#'  shop1
+#' 
+#' Question In your household who does the following things...? 
+#' D. Shops for groceries?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` always me
+#'   * `2` usually me
+#'   * `3` about equal or both together
+#'   * `4` usually my spouse/partner
+#'   * `5` always my spouse/partner
+#'   * `6` is done by a third person
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4432/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |about equal or both together |always me |always my spouse/partner |don't know |is done by a third person |no answer |usually me |usually my spouse/partner |skipped on web |not available in this year |Total |
+#'  |:-----|:-----|:----------------------------|:---------|:------------------------|:----------|:-------------------------|:---------|:----------|:-------------------------|:--------------|:--------------------------|:-----|
+#'  |1972  |1613  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1613  |
+#'  |1973  |1504  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1504  |
+#'  |1974  |1484  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1484  |
+#'  |1975  |1490  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1490  |
+#'  |1976  |1499  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1499  |
+#'  |1977  |1530  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1530  |
+#'  |1978  |1532  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1532  |
+#'  |1980  |1468  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1468  |
+#'  |1982  |1860  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1860  |
+#'  |1983  |1599  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1599  |
+#'  |1984  |1473  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1473  |
+#'  |1985  |1534  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1534  |
+#'  |1986  |1470  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1470  |
+#'  |1987  |1819  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1819  |
+#'  |1988  |1481  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1481  |
+#'  |1989  |1537  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1537  |
+#'  |1990  |1372  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1372  |
+#'  |1991  |1517  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1517  |
+#'  |1993  |1606  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |1606  |
+#'  |1994  |2992  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |2992  |
+#'  |1996  |2904  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |2904  |
+#'  |1998  |2832  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |2832  |
+#'  |2000  |2817  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |2817  |
+#'  |2002  |2058  |290                          |138       |5                        |1          |1                         |22        |119        |131                       |-              |-                          |2765  |
+#'  |2004  |2812  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |2812  |
+#'  |2006  |4510  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |4510  |
+#'  |2008  |2023  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |2023  |
+#'  |2010  |2044  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |2044  |
+#'  |2012  |1274  |288                          |134       |66                       |-          |12                        |3         |105        |92                        |-              |-                          |1974  |
+#'  |2014  |2538  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |2538  |
+#'  |2016  |2867  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |2867  |
+#'  |2018  |2348  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |2348  |
+#'  |2021  |4032  |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |-                          |4032  |
+#'  |2022  |3024  |193                          |89        |45                       |4          |3                         |1         |95         |87                        |3              |-                          |3544  |
+#'  |2024  |-     |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |3309                       |3309  |
+#'  |Total |70463 |771                          |361       |116                      |5          |16                        |26        |319        |310                       |3              |3309                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2012 |A/B/-   |partial      |
+#'  |2022 |A/-/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name shop1
+NULL
+
+
 #'  Who in household does cleaning
 #' 
 #'  clean1
 #' 
-#' Question 1309. In your household who does the following things: e. Household cleaning?
+#' Question In your household who does the following things...? 
+#' E. Does the household cleaning?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` always me
+#'   * `2` usually me
+#'   * `3` about equal or both together
+#'   * `4` usually my spouse/partner
+#'   * `5` always my spouse/partner
+#'   * `6` is done by a third person
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4433/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +253,30 @@
 #'  |2024  |-     |-                            |-         |-                        |-          |-                         |-         |-          |-                         |3309                       |3309  |
 #'  |Total |68139 |243                          |128       |7                        |5          |30                        |22        |151        |121                       |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name clean1
+NULL
+
+
+#'  Who in household prepares the meals
+#' 
+#'  cooking1
+#' 
+#' Question In your household who does the following things...? 
+#' F. Prepares the meals?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` always me
@@ -69,22 +298,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name clean1
-NULL
-
-#'  Who in household prepares the meals
-#' 
-#'  cooking1
-#' 
-#' Question 1309. In your household who does the following things: f. Preparing the meals?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4434/vshow).
 #'
 #' Counts by year: 
 #'
@@ -127,14 +342,34 @@ NULL
 #'  |2024  |-     |-                            |-         |-                        |-          |-                         |-         |-          |-                         |-              |3309                       |3309  |
 #'  |Total |70463 |551                          |401       |130                      |8          |19                        |26        |395        |395                       |2              |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2012 |A/B/-   |partial      |
+#'  |2022 |A/-/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name cooking1
+NULL
+
+
+#'  How many hours a week does r spend on hh work
+#' 
+#'  rhhwork
+#' 
+#' Question A. On average, how many hours a week do you personally spend on household work, not including childcare  and leisure time activities?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` always me
-#'   * `2` usually me
-#'   * `3` about equal or both together
-#'   * `4` usually my spouse/partner
-#'   * `5` always my spouse/partner
-#'   * `6` is done by a third person
+#'   * `97` 97 or more
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -148,22 +383,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name cooking1
-NULL
-
-#'  How many hours a week does r spend on hh work
-#' 
-#'  rhhwork
-#' 
-#' Question 1310a. On average, how many hours a week do you personally spend on household work, not including childcare and leisure time activities?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4435/vshow).
 #'
 #' Counts by year: 
 #'
@@ -206,9 +427,33 @@ NULL
 #'  |2024  |-     |-  |-   |-   |-  |-  |-  |-   |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-          |-  |-  |-  |-              |3309                       |3309  |
 #'  |Total |69222 |83 |116 |393 |93 |5  |99 |127 |20 |7  |2  |269 |176 |32 |6  |1  |22 |40 |25 |263 |56 |1  |25 |1  |258 |48 |4  |5  |330 |15 |1  |1  |3  |165 |8  |148 |5  |190 |1  |14 |36         |31        |2  |2  |3  |3  |1  |4  |3  |1  |5          |2  |1  |1  |15             |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2012 |A/B/-   |partial      |
+#'  |2022 |A/-/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name rhhwork
+NULL
+
+
+#'  How many hours a week does spouse on hh wrk
+#' 
+#'  sphhwork
+#' 
+#' Question B. And what about your spouse/partner? On average, how many hours a week does he/she spend on household work, not including childcare or leisure time activities?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `97` 97 or more
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -222,22 +467,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name rhhwork
-NULL
-
-#'  How many hours a week does spouse on hh wrk
-#' 
-#'  sphhwork
-#' 
-#' Question 1310b. And what about your spouse/partner? On average, how many hours a week does he/she spend on household work, not including childcare or leisure time activities?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4436/vshow).
 #'
 #' Counts by year: 
 #'
@@ -280,8 +511,38 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-  |-   |-  |-  |-  |-              |3309                       |3309  |
 #'  |Total |70462 |187 |108 |228 |49 |38 |76 |16 |6  |157 |131 |15 |1  |12 |24 |8  |111 |51 |1  |13 |114 |60 |163 |6  |2  |75 |9  |1  |74 |3  |86 |4  |8  |1  |21         |32        |1  |4  |1  |3  |1  |3  |1  |6  |2   |1   |2  |2   |3  |1  |1  |5              |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2012 |A/B/-   |partial      |
+#'  |2022 |A/-/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name sphhwork
+NULL
+
+
+#'  Sharing of hh work between r and spouse
+#' 
+#'  hhwkfair
+#' 
+#' Question Which of the following best applies to the sharing of household work between you and your spouse/partner?
+#' 
+#' 
 #' @section Values: 
 #' 
+#'   * `1` i do much more than my fair share of hh work
+#'   * `2` i do a bit more than my fair share of hh work
+#'   * `3` i do roughly my fair share of hh work
+#'   * `4` i do a bit less than my fair share of hh work
+#'   * `5` i do much less than my fair share of hh work
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -295,22 +556,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name sphhwork
-NULL
-
-#'  Sharing of hh work between r and spouse
-#' 
-#'  hhwkfair
-#' 
-#' Question 1311. Which of the following best applies to the sharing of household work between you and your spouse/partner?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4437/vshow).
 #'
 #' Counts by year: 
 #'
@@ -353,14 +600,38 @@ NULL
 #'  |2024  |-     |-          |-                                             |-                                             |-                                            |-                                            |-                                     |-         |3309                       |3309  |
 #'  |Total |67439 |7          |192                                           |265                                           |91                                           |288                                          |536                                   |28        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2012 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name hhwkfair
+NULL
+
+
+#'  How often r and spouse disagree sharing of hh wrk
+#' 
+#'  hhwkdis
+#' 
+#' Question How often do you and your spouse/partner disagree about the sharing of household work?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` i do much more than my fair share of hh work
-#'   * `2` i do a bit more than my fair share of hh work
-#'   * `3` i do roughly my fair share of hh work
-#'   * `4` i do a bit less than my fair share of hh work
-#'   * `5` i do much less than my fair share of hh work
-#'   * `NA(d)` don't know
+#'   * `1` several times a week
+#'   * `2` several times a month
+#'   * `3` several times a year
+#'   * `4` less often or rarely
+#'   * `5` never
+#'   * `NA(d)` can't choose
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
 #'   * `NA(m)` dk, na, iap
@@ -373,22 +644,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hhwkfair
-NULL
-
-#'  How often r and spouse disagree sharing of hh wrk
-#' 
-#'  hhwkdis
-#' 
-#' Question 1312. How often do you and your spouse/partner disagree about the sharing of household work?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4438/vshow).
 #'
 #' Counts by year: 
 #'
@@ -431,14 +688,37 @@ NULL
 #'  |2024  |-     |-            |-                    |-     |-         |-                     |-                    |-                    |3309                       |3309  |
 #'  |Total |68139 |22           |268                  |211   |23        |75                    |47                   |61                   |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name hhwkdis
+NULL
+
+
+#'  Who makes decision about how to bring up children
+#' 
+#'  deckids
+#' 
+#' Question Who usually makes/made the decisions about how to bring up your children?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` several times a week
-#'   * `2` several times a month
-#'   * `3` several times a year
-#'   * `4` less often or rarely
-#'   * `5` never
-#'   * `NA(d)` can't choose
+#'   * `1` mostly me
+#'   * `2` mostly my spouse
+#'   * `3` sometimes me or sometimes my spouse
+#'   * `4` we decide together
+#'   * `5` someone else
+#'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
 #'   * `NA(m)` dk, na, iap
@@ -451,22 +731,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hhwkdis
-NULL
-
-#'  Who makes decision about how to bring up children
-#' 
-#'  deckids
-#' 
-#' Question 1313. Who usually makes/made the decisions about how to bring up your children?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4439/vshow).
 #'
 #' Counts by year: 
 #'
@@ -509,13 +775,32 @@ NULL
 #'  |2024  |-     |-          |-         |-                |-         |-            |-                                   |-                  |3309                       |3309  |
 #'  |Total |67209 |187        |314       |109              |34        |9            |198                                 |786                |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2012 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Parents
+#' 
+#' @keywords variable
+#' @md
+#' @name deckids
+NULL
+
+
+#'  When was your spouse born
+#' 
+#'  spborn
+#' 
+#' Question When was your spouse/steady partner born?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` mostly me
-#'   * `2` mostly my spouse
-#'   * `3` sometimes me or sometimes my spouse
-#'   * `4` we decide together
-#'   * `5` someone else
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -529,22 +814,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name deckids
-NULL
-
-#'  When was your spouse born
-#' 
-#'  spborn
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4440/vshow).
 #'
 #' Counts by year: 
 #'
@@ -587,182 +858,19 @@ NULL
 #'  |2024  |-     |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |3309                       |3309  |
 #'  |Total |68146 |1    |1    |1    |4    |1    |2    |2    |7    |5    |4    |4    |3    |3    |7    |5    |2    |1    |10   |13   |5    |8    |4    |6    |11   |13   |5    |10   |14   |10   |9    |10   |11   |19   |12   |13   |15   |18   |9    |19   |16   |15   |13   |13   |9    |17   |13   |10   |12   |14   |19   |17   |14   |14   |25   |11   |17   |15   |16   |19   |12   |3    |18   |9    |8    |8    |6    |7    |5    |1    |9    |18   |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' 
 #' 
 #' @keywords variable
 #' @md
 #' @name spborn
 NULL
 
-#'  Who has final say about choosing weekend activity
-#' 
-#'  weekend
-#' 
-#' Question 1314. When you and your spouse/partner make decisions about the following, who has the final say? a. Choosing shared weekend activities
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |mostly me |mostly my spouse |no answer |someone else |sometimes me or sometimes my spouse |we decide together |not available in this year |Total |
-#'  |:-----|:-----|:----------|:---------|:----------------|:---------|:------------|:-----------------------------------|:------------------|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1613  |
-#'  |1973  |1504  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1504  |
-#'  |1974  |1484  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1484  |
-#'  |1975  |1490  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1490  |
-#'  |1976  |1499  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1499  |
-#'  |1977  |1530  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1530  |
-#'  |1978  |1532  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1532  |
-#'  |1980  |1468  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1468  |
-#'  |1982  |1860  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1860  |
-#'  |1983  |1599  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1599  |
-#'  |1984  |1473  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1473  |
-#'  |1985  |1534  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1534  |
-#'  |1986  |1470  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1470  |
-#'  |1987  |1819  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1819  |
-#'  |1988  |1481  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1481  |
-#'  |1989  |1537  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1537  |
-#'  |1990  |1372  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1372  |
-#'  |1991  |1517  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1517  |
-#'  |1993  |1606  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1606  |
-#'  |1994  |2992  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |2992  |
-#'  |1996  |2904  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |2904  |
-#'  |1998  |2832  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |2832  |
-#'  |2000  |2817  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |2817  |
-#'  |2002  |2058  |1          |99        |69               |25        |4            |207                                 |302                |-                          |2765  |
-#'  |2004  |2812  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |2812  |
-#'  |2006  |4510  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |4510  |
-#'  |2008  |2023  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |2023  |
-#'  |2010  |2044  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |2044  |
-#'  |2012  |1974  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1974  |
-#'  |2014  |2538  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |2538  |
-#'  |2016  |2867  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |2867  |
-#'  |2018  |2348  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |2348  |
-#'  |2021  |4032  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |4032  |
-#'  |2022  |-     |-          |-         |-                |-         |-            |-                                   |-                  |3544                       |3544  |
-#'  |2024  |-     |-          |-         |-                |-         |-            |-                                   |-                  |3309                       |3309  |
-#'  |Total |68139 |1          |99        |69               |25        |4            |207                                 |302                |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` mostly me
-#'   * `2` mostly my spouse
-#'   * `3` sometimes me or sometimes my spouse
-#'   * `4` we decide together
-#'   * `5` someone else
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name weekend
-NULL
-
-#'  Who has final say about buying things for home
-#' 
-#'  buythngs
-#' 
-#' Question 1314. When you and your spouse/partner make decisions about the following, who has the final say? b. Buying major things for the home
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |mostly me |mostly my spouse |no answer |someone else |sometimes me or sometimes my spouse |we decide together |not available in this year |Total |
-#'  |:-----|:-----|:----------|:---------|:----------------|:---------|:------------|:-----------------------------------|:------------------|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1613  |
-#'  |1973  |1504  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1504  |
-#'  |1974  |1484  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1484  |
-#'  |1975  |1490  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1490  |
-#'  |1976  |1499  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1499  |
-#'  |1977  |1530  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1530  |
-#'  |1978  |1532  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1532  |
-#'  |1980  |1468  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1468  |
-#'  |1982  |1860  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1860  |
-#'  |1983  |1599  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1599  |
-#'  |1984  |1473  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1473  |
-#'  |1985  |1534  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1534  |
-#'  |1986  |1470  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1470  |
-#'  |1987  |1819  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1819  |
-#'  |1988  |1481  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1481  |
-#'  |1989  |1537  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1537  |
-#'  |1990  |1372  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1372  |
-#'  |1991  |1517  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1517  |
-#'  |1993  |1606  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1606  |
-#'  |1994  |2992  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |2992  |
-#'  |1996  |2904  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |2904  |
-#'  |1998  |2832  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |2832  |
-#'  |2000  |2817  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |2817  |
-#'  |2002  |2058  |2          |116       |92               |23        |4            |120                                 |350                |-                          |2765  |
-#'  |2004  |2812  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |2812  |
-#'  |2006  |4510  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |4510  |
-#'  |2008  |2023  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |2023  |
-#'  |2010  |2044  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |2044  |
-#'  |2012  |1974  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |1974  |
-#'  |2014  |2538  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |2538  |
-#'  |2016  |2867  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |2867  |
-#'  |2018  |2348  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |2348  |
-#'  |2021  |4032  |-          |-         |-                |-         |-            |-                                   |-                  |-                          |4032  |
-#'  |2022  |-     |-          |-         |-                |-         |-            |-                                   |-                  |3544                       |3544  |
-#'  |2024  |-     |-          |-         |-                |-         |-            |-                                   |-                  |3309                       |3309  |
-#'  |Total |68139 |2          |116       |92               |23        |4            |120                                 |350                |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` mostly me
-#'   * `2` mostly my spouse
-#'   * `3` sometimes me or sometimes my spouse
-#'   * `4` we decide together
-#'   * `5` someone else
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name buythngs
-NULL
 

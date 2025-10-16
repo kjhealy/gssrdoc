@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 cvdpod
 }
 \details{
-Question (Compared to the first year of the COVID-19 pandemic (March 2020 to March 2021), are you now...) listening to podcasts about music, theater, or dance, about visual arts or film, or about books or literature more often, at the same rate, less oft
+Question (Compared to the first year of the COVID-19 pandemic (March 2020 to March 2021), are you now...) listening to podcasts about music, theater, or dance, about visual arts or film, or about books or literature more often, at the same rate, less often, or are you not taking online arts classes at all? This may have included music, theater, or dance; creative writing; crafts or visual arts; digital art; or filmmaking or photography done for artistic purposes.
+
+NOTE: This variable originates on the NEA follow-on, and should not be analyzed without the NEA-specific weights WTSSPS_NEA or WTSSNRPS_NEA
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} more often
+\item \code{2} at the same rate
+\item \code{3} less often
+\item \code{4} r not attending these activities
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7890/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab not available in this year \tab at the same rate \tab iap \tab less often \tab more often \tab r not attending these activities \tab skipped on web \tab Total \cr
@@ -57,26 +81,21 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} more often
-\item \code{2} at the same rate
-\item \code{3} less often
-\item \code{4} r not attending these activities
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other NEA: 
+\code{\link{cvdarmus}},
+\code{\link{cvdarpo}},
+\code{\link{cvdclass}},
+\code{\link{cvdstmus}},
+\code{\link{cvdstpo}},
+\code{\link{cvdtour}}
+}
+\concept{NEA}
 \keyword{variable}

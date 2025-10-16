@@ -2,7 +2,7 @@
 % Please edit documentation in R/gss_vars_575.R
 \name{racecen3}
 \alias{racecen3}
-\title{What is r's race, third mention}
+\title{What is r's race 3rd mention}
 \source{
 General Social Survey https://gss.norc.org
 }
@@ -10,11 +10,36 @@ General Social Survey https://gss.norc.org
 racecen3
 }
 \details{
-Question 1602. What is your race? Indicate one or more races that you consider yourself to be.
+Question What is your race?  Indicate one or more races that you consider yourself to be. A. Third mention
+As of 2024, RACECEN3 has been recoded to combine Native Hawaiian, Guamanian or Chamorro, and Samoan into the "Other Pacific Islander" category. This has been retroactively applied to all previous years of RACECEN3. The original RACECEN3 containing data from 2000 to 2022 has been renamed RACECEN3_0022.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} white
+\item \code{2} black or african american
+\item \code{3} american indian or alaska native
+\item \code{4} asian
+\item \code{5} native hawaiian or other pacific islander
+\item \code{6} some other race
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5279/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab not available in this year \tab asian \tab black or african american \tab iap \tab american indian or alaska native \tab native hawaiian or other pacific islander \tab no answer \tab some other race \tab white \tab don't know \tab skipped on web \tab Total \cr
@@ -57,28 +82,48 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} white
-\item \code{2} black or african american
-\item \code{3} american indian or alaska native
-\item \code{4} asian
-\item \code{5} native hawaiian or other pacific islander
-\item \code{6} some other race
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab B/-/-/- \tab partial \cr
+   2002 \tab A/B/C/- \tab full \cr
+   2004 \tab A/B/C/- \tab full \cr
+   2006 \tab A/B/C/D \tab full \cr
+   2008 \tab A/B/C/- \tab full \cr
+   2010 \tab A/B/C/- \tab full \cr
+   2012 \tab A/B/C/- \tab full \cr
+   2014 \tab A/B/C/- \tab full \cr
+   2016 \tab A/B/C/- \tab full \cr
+   2018 \tab A/B/C/- \tab full \cr
+   2021 \tab A/B/C/- \tab full \cr
+   2022 \tab A/B/C/- \tab full \cr
+   2024 \tab A/B/C/- \tab full \cr
 }
 }
 
+\seealso{
+Other Ethnicity: 
+\code{\link{difrace1}},
+\code{\link{difrace2}},
+\code{\link{difrace3}},
+\code{\link{hispanic}},
+\code{\link{racecen1}},
+\code{\link{racecen2}},
+\code{\link{racedbtf}},
+\code{\link{racesee}},
+\code{\link{raceself}}
+
+Other Race: 
+\code{\link{difrace1}},
+\code{\link{difrace2}},
+\code{\link{difrace3}},
+\code{\link{hispanic}},
+\code{\link{racecen1}},
+\code{\link{racecen2}},
+\code{\link{racedbtf}},
+\code{\link{racesee}},
+\code{\link{raceself}}
+}
+\concept{Ethnicity}
+\concept{Race}
 \keyword{variable}

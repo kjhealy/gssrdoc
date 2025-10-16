@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 rprtst15
 }
 \details{
-Question 1192. And in the past five years how many times have you done each of the following to protest against a government action you strongly oppose? PLEASE CHECK ONE BOX ON EACH LINE a. Attended a public meeting organized to protest against the government
+Question And in the past five years how many times have you done each of the following to protest against a government action you strongly oppose? PLEASE CHECK ONE BOX ON EACH LINE
+A. Attended a public meeting organized to protest against the government.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} never
+\item \code{2} once
+\item \code{3} more than once
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4092/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab more than once \tab never \tab no answer \tab once \tab not available in this year \tab Total \cr
@@ -57,25 +79,30 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} never
-\item \code{2} once
-\item \code{3} more than once
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Role of Gov't: 
+\code{\link{gendereq}},
+\code{\link{grnlaws}},
+\code{\link{polint}},
+\code{\link{prvdhlth}},
+\code{\link{prvdold}},
+\code{\link{rprtst1}},
+\code{\link{rprtst3}},
+\code{\link{rprtst35}},
+\code{\link{unionsok}}
+
+Other Protest: 
+\code{\link{rprtst1}},
+\code{\link{rprtst3}},
+\code{\link{rprtst35}}
+}
+\concept{ISSP Role of Gov't}
+\concept{Protest}
 \keyword{variable}

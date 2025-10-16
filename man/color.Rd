@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 color
 }
 \details{
-Question 138. If black: Respondent's skin color is:
+Question Respondent''s skin color is . . .
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very dark brown
+\item \code{2} dark brown
+\item \code{3} medium brown
+\item \code{4} light brown
+\item \code{5} very light brown
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/403/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab dark brown \tab light brown \tab medium brown \tab no answer \tab very dark brown \tab very light brown \tab not available in this year \tab Total \cr
@@ -57,27 +80,36 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very dark brown
-\item \code{2} dark brown
-\item \code{3} medium brown
-\item \code{4} light brown
-\item \code{5} very light brown
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1982 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{busing}},
+\code{\link{busing10}},
+\code{\link{racchurh}},
+\code{\link{rachaf}},
+\code{\link{rachisch}},
+\code{\link{racjob}},
+\code{\link{racmost}},
+\code{\link{racname}},
+\code{\link{racpres}}
+
+Other Race: 
+\code{\link{busing}},
+\code{\link{busing10}},
+\code{\link{racchurh}},
+\code{\link{rachaf}},
+\code{\link{rachisch}},
+\code{\link{racjob}},
+\code{\link{racmost}},
+\code{\link{racname}},
+\code{\link{racpres}}
+}
+\concept{Core}
+\concept{Race}
 \keyword{variable}

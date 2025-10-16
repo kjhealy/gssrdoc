@@ -10,11 +10,29 @@ General Social Survey https://gss.norc.org
 firstsei
 }
 \details{
-Question 1647. Socioeconomic index of respondent's first occupation.
+Question Socioeconomic index of respondentâ€™s first occupation.
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} i don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5480/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 17.1 \tab 17.6 \tab 18.5 \tab 19.4 \tab 19.5 \tab 20.1 \tab 21.2 \tab 22.5 \tab 22.6 \tab 22.7 \tab 22.9 \tab 24.2 \tab 24.8 \tab 25.2 \tab 25.3 \tab 25.4 \tab 25.5 \tab 25.8 \tab 26.4 \tab 26.5 \tab 26.7 \tab 27.2 \tab 27.3 \tab 27.4 \tab 27.5 \tab 27.7 \tab 28.2 \tab 28.4 \tab 28.6 \tab 28.8 \tab 29 \tab 29.1 \tab 29.2 \tab 29.3 \tab 29.4 \tab 29.5 \tab 29.6 \tab 29.7 \tab 30 \tab 30.1 \tab 30.2 \tab 30.7 \tab 30.8 \tab 31.4 \tab 31.5 \tab 32 \tab 32.1 \tab 32.3 \tab 32.4 \tab 33.1 \tab 33.3 \tab 33.6 \tab 33.8 \tab 33.9 \tab 34.2 \tab 34.3 \tab 34.6 \tab 34.8 \tab 35.2 \tab 35.4 \tab 35.7 \tab 36.1 \tab 36.2 \tab 36.4 \tab 36.5 \tab 36.7 \tab 36.9 \tab 37 \tab 37.2 \tab 37.3 \tab 37.4 \tab 37.5 \tab 37.6 \tab 37.7 \tab 37.8 \tab 37.9 \tab 38 \tab 38.1 \tab 38.2 \tab 38.4 \tab 38.5 \tab 38.7 \tab 38.9 \tab 39 \tab 39.4 \tab 39.5 \tab 39.6 \tab 40 \tab 40.1 \tab 40.2 \tab 40.5 \tab 40.9 \tab 41.3 \tab 41.6 \tab 42.2 \tab 42.3 \tab 42.7 \tab 43.4 \tab 43.6 \tab 43.7 \tab 44.2 \tab 44.3 \tab 44.4 \tab 44.7 \tab 45.2 \tab 45.3 \tab 45.4 \tab 45.7 \tab 45.9 \tab 46.1 \tab 46.2 \tab 46.7 \tab 46.8 \tab 47 \tab 48.4 \tab 48.5 \tab 48.6 \tab 48.9 \tab 49.7 \tab 49.9 \tab 50.2 \tab 50.3 \tab 50.5 \tab 50.7 \tab 51 \tab 51.9 \tab 52.3 \tab 52.4 \tab 52.5 \tab 53.1 \tab 53.3 \tab 53.7 \tab 53.9 \tab 54.2 \tab 54.5 \tab 54.7 \tab 56.5 \tab 57.1 \tab 58.8 \tab 59.1 \tab 59.3 \tab 59.9 \tab 60.3 \tab 60.5 \tab 60.6 \tab 61.4 \tab 61.9 \tab 62 \tab 62.1 \tab 62.2 \tab 62.5 \tab 63.2 \tab 63.5 \tab 64.1 \tab 64.2 \tab 64.4 \tab 64.8 \tab 65.8 \tab 66.1 \tab 67 \tab 68.8 \tab 69.2 \tab 69.7 \tab 71.2 \tab 71.6 \tab 72 \tab 72.5 \tab 73.2 \tab 73.3 \tab 73.6 \tab 73.8 \tab 73.9 \tab 74 \tab 74.4 \tab 74.9 \tab 75.3 \tab 76.3 \tab 76.4 \tab 76.5 \tab 78 \tab 78.5 \tab 80 \tab 80.3 \tab 80.9 \tab 81.9 \tab 82.7 \tab 83.7 \tab 83.9 \tab 84 \tab 84.2 \tab 84.5 \tab 85 \tab 85.1 \tab 86 \tab 86.5 \tab 86.6 \tab 87 \tab 87.2 \tab 87.9 \tab 88.3 \tab 88.8 \tab 90.3 \tab 92.3 \tab 92.8 \tab 93.3 \tab 96 \tab 97.2 \tab not available in this year \tab Total \cr
@@ -57,22 +75,24 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} i don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Occupation: 
+\code{\link{coisco08}},
+\code{\link{masei}},
+\code{\link{pasei}},
+\code{\link{pasei10}},
+\code{\link{sei}},
+\code{\link{sei10}},
+\code{\link{sei10educ}},
+\code{\link{sei10inc}},
+\code{\link{spsei}}
+}
+\concept{Occupation}
 \keyword{variable}

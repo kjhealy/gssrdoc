@@ -10,11 +10,30 @@ General Social Survey https://gss.norc.org
 mslmtemp
 }
 \details{
-Question 122. I'd like to get your feelings toward groups that are in teh news these days. I will use something we call the feeling thermometer, and here is how it works: I'll read the names of a group and I'd like you to rate that group using the feeling thermometer. Ratings between 50 degrees and 100 degrees mean that you feel favorable and warm toward the group. Ratings between 0 degrees and 50 degrees mean that you don't feel favorable toward the group and that you don't care too much for that group. f. Muslims
+Question I'd like to get your feelings toward groups that are in the news these days. I will use something we call the feeling thermometer, and here is how it works: I'll read the names of a group and I'd like you to rate that group using the feeling thermometer. Ratings between 50 degrees and 100 degrees mean that you feel favorable and warm toward the group. Ratings between 0 degrees and 50 degrees mean that you don't feel favorable toward the group and that you don't care too much for that group. If we come to a group whose name you Don't recognize, you don't need to rate that group. Just tell me and we'll move on to the next one. IF you do recognize the name, but you don't feel particularly warm or cold toward the group, you would rate the group at the 50 degree mark. How would you rate this group using the thermometer?
+F. Muslims
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/378/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 0 \tab 1 \tab 10 \tab 100 \tab 11 \tab 15 \tab 20 \tab 25 \tab 3 \tab 30 \tab 35 \tab 40 \tab 45 \tab 49 \tab 5 \tab 50 \tab 55 \tab 60 \tab 65 \tab 7 \tab 70 \tab 75 \tab 80 \tab 85 \tab 90 \tab 95 \tab 99 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +76,32 @@ Counts by year:\tabular{lllllllllllllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{cathtemp}},
+\code{\link{feclergy}},
+\code{\link{fepriest}},
+\code{\link{jewtemp}},
+\code{\link{racdin}},
+\code{\link{racmar}},
+\code{\link{racmar10}},
+\code{\link{racpush}},
+\code{\link{relgrade}}
+
+Other Religion: 
+\code{\link{cathtemp}},
+\code{\link{feclergy}},
+\code{\link{fepriest}},
+\code{\link{jewtemp}},
+\code{\link{relgrade}}
+}
+\concept{Core}
+\concept{Religion}
 \keyword{variable}

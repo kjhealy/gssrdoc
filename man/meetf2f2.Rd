@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 meetf2f2
 }
 \details{
-Question How often do you meet face-to-face with co-workers to work on projects, for example solving special problems or improving products or services? Is it... FI INFO: CO-WORKERS INCLUDE OUTSIDE CONTRACTORS AND SUPPLIERS, BUT NOT CUSTOMERS
+Question How often do you meet face-to-face with co-workers to work on projects, for example solving special problems or improving products or services? is itâ€¦.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} never
+\item \code{2} once per year or less, or
+\item \code{3} several times per year
+\item \code{4} several times per month
+\item \code{5} several times per week
+\item \code{6} daily
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3891/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab daily \tab don't know \tab never \tab no answer \tab once per year or less, or \tab several times per month \tab several times per week \tab several times per year \tab not available in this year \tab Total \cr
@@ -57,28 +81,46 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} never
-\item \code{2} once per year or less, or
-\item \code{3} several times per year
-\item \code{4} several times per month
-\item \code{5} several times per week
-\item \code{6} daily
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2008 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Global Economics: 
+\code{\link{autonojb}},
+\code{\link{inclstjb}},
+\code{\link{intlcowk}},
+\code{\link{lastyrwk}},
+\code{\link{leavejb}},
+\code{\link{meetf2f1}},
+\code{\link{whynojb1}},
+\code{\link{whynojb2}},
+\code{\link{wocomptr}}
+
+Other Job: 
+\code{\link{autonojb}},
+\code{\link{inclstjb}},
+\code{\link{intlcowk}},
+\code{\link{lastyrwk}},
+\code{\link{leavejb}},
+\code{\link{meetf2f1}},
+\code{\link{whynojb1}},
+\code{\link{whynojb2}},
+\code{\link{wocomptr}}
+
+Other Technology: 
+\code{\link{autonojb}},
+\code{\link{meetf2f1}}
+
+Other Work: 
+\code{\link{autonojb}},
+\code{\link{meetf2f1}}
+}
+\concept{Global Economics}
+\concept{Job}
+\concept{Technology}
+\concept{Work}
 \keyword{variable}

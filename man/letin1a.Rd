@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 letin1a
 }
 \details{
-Question Do you think the number of immigrants to America nowadays should be...
+Question Do you think the number of immigrants to America nowadays should beâ€¦
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} increased a lot
+\item \code{2} increased a little
+\item \code{3} remain the same as it is
+\item \code{4} reduced a little
+\item \code{5} reduced a lot
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4901/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab don't know \tab increased a little \tab increased a lot \tab reduced a little \tab reduced a lot \tab remain the same as it is \tab no answer \tab skipped on web \tab Total \cr
@@ -57,27 +80,39 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} increased a lot
-\item \code{2} increased a little
-\item \code{3} remain the same as it is
-\item \code{4} reduced a little
-\item \code{5} reduced a lot
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/- \tab partial \cr
+   2006 \tab A/B/- \tab partial \cr
+   2008 \tab A/B/- \tab partial \cr
+   2010 \tab A/B/- \tab partial \cr
+   2012 \tab A/B/- \tab partial \cr
+   2014 \tab A/B/- \tab partial \cr
+   2016 \tab A/B/- \tab partial \cr
+   2018 \tab A/B/- \tab partial \cr
+   2021 \tab A/B/- \tab partial \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP National Identity: 
+\code{\link{immassim}},
+\code{\link{immcult}},
+\code{\link{immeduc}},
+\code{\link{patriot1}},
+\code{\link{patriot2}},
+\code{\link{patriot3}},
+\code{\link{patriot4}},
+\code{\link{shortcom}}
+
+Other Immigration: 
+\code{\link{immassim}},
+\code{\link{immcult}},
+\code{\link{immeduc}},
+\code{\link{patriot4}}
+}
+\concept{ISSP National Identity}
+\concept{Immigration}
 \keyword{variable}

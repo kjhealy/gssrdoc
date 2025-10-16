@@ -10,11 +10,52 @@ General Social Survey https://gss.norc.org
 relsp6
 }
 \details{
-Question 1633. What is (NAME)'s relationship to spouse?
+Question What is (NAME)â€™s relationship to spouse?
+F. Relationship of sixth person to spouse?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} hh spouse, partner
+\item \code{2} spouse
+\item \code{3} partner, fiance(e), boyfriend, girlfriend, etc.
+\item \code{4} child, not specified
+\item \code{5} grandchild, great-grandchild
+\item \code{6} son-in-law, daughter-in-law
+\item \code{7} parent
+\item \code{8} parent-in-law
+\item \code{9} grandparent, great-grandparent
+\item \code{10} uncle or aunt
+\item \code{11} niece or nephew
+\item \code{12} cousin
+\item \code{13} brother, sister (full, half, or step sibling)
+\item \code{14} sibling-in-law
+\item \code{15} other relative (great-aunt, grandniece, etc.)
+\item \code{16} roommate, housemate
+\item \code{17} friend
+\item \code{18} child of non-relative
+\item \code{19} other non-relative (employee, boarder)
+\item \code{41} natural/biological child
+\item \code{42} adopted child
+\item \code{43} stepchild
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5458/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllll}{
    year \tab iap \tab adopted child \tab child of non-relative \tab child, not specified \tab grandchild, great-grandchild \tab natural/biological child \tab niece or nephew \tab no answer \tab parent \tab stepchild \tab friend \tab grandparent, great-grandparent \tab brother, sister (full, half, or step sibling) \tab other non-relative (employee, boarder) \tab other relative (great-aunt, grandniece, etc.) \tab son-in-law, daughter-in-law \tab cousin \tab don't know \tab parent-in-law \tab roommate, housemate \tab uncle or aunt \tab sibling-in-law \tab skipped on web \tab not available in this release \tab Total \cr
@@ -57,44 +98,46 @@ Counts by year:\tabular{llllllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} hh spouse, partner
-\item \code{2} spouse
-\item \code{3} partner, fiance(e), boyfriend, girlfriend, etc.
-\item \code{4} child, not specified
-\item \code{5} grandchild, great-grandchild
-\item \code{6} son-in-law, daughter-in-law
-\item \code{7} parent
-\item \code{8} parent-in-law
-\item \code{9} grandparent, great-grandparent
-\item \code{10} uncle or aunt
-\item \code{11} niece or nephew
-\item \code{12} cousin
-\item \code{13} brother, sister (full, half, or step sibling)
-\item \code{14} sibling-in-law
-\item \code{15} other relative (great-aunt, grandniece, etc.)
-\item \code{16} roommate, housemate
-\item \code{17} friend
-\item \code{18} child of non-relative
-\item \code{19} other non-relative (employee, boarder)
-\item \code{41} natural/biological child
-\item \code{42} adopted child
-\item \code{43} stepchild
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C/- \tab full \cr
+   2002 \tab A/B/C/- \tab full \cr
+   2004 \tab A/B/C/- \tab full \cr
+   2006 \tab A/B/C/D \tab full \cr
+   2008 \tab A/B/C/- \tab full \cr
+   2010 \tab A/B/C/- \tab full \cr
+   2012 \tab A/B/C/- \tab full \cr
+   2014 \tab A/B/C/- \tab full \cr
+   2016 \tab A/B/C/- \tab full \cr
+   2018 \tab A/B/C/- \tab full \cr
+   2021 \tab A/B/C/- \tab full \cr
 }
 }
 
+\seealso{
+Other Household Members and Structure: 
+\code{\link{relsp1}},
+\code{\link{relsp10}},
+\code{\link{relsp2}},
+\code{\link{relsp3}},
+\code{\link{relsp4}},
+\code{\link{relsp5}},
+\code{\link{relsp7}},
+\code{\link{relsp8}},
+\code{\link{relsp9}}
+
+Other Household: 
+\code{\link{relsp1}},
+\code{\link{relsp10}},
+\code{\link{relsp2}},
+\code{\link{relsp3}},
+\code{\link{relsp4}},
+\code{\link{relsp5}},
+\code{\link{relsp7}},
+\code{\link{relsp8}},
+\code{\link{relsp9}}
+}
+\concept{Household}
+\concept{Household Members and Structure}
 \keyword{variable}

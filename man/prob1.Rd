@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 prob1
 }
 \details{
-Question 1574. What are the most important problems that you and members of your household have had during the last 12 months?
+Question What are the most important problems that you and members of your household have had during the last 12 months?
+RECORD VERBATIM.
+PROBE FOR ADDITIONAL MENTIONS AND FOR SPECIFIC DETAILS. TRY NOT TO ACCEPT GENERAL RESPONSES LIKE "WORK" OR "CRIME."  PROBE TO FIND WHAT ABOUT "WORK" IS THE PROBLEM. FOR EXAMPLE, IS IT JOB INSECURITY, LOW PAY, ARGUMENTS WITH THE BOSS, OR WHAT? OR ABOUT "CRIME", WAS THERE A VICTIMIZATION?  WHO WAS VICTIMIZED AND IN WHAT WAY?
+PROBE FOR ADDITIONAL PROBLEMS.
+A. First problem mentioned.
 }
+\section{Values}{
+
+\itemize{
+\item \code{995} cant understand answer
+\item \code{996} no problems
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5132/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 1 \tab 10 \tab 103 \tab 104 \tab 11 \tab 110 \tab 120 \tab 130 \tab 131 \tab 150 \tab 151 \tab 170 \tab 172 \tab 175 \tab 180 \tab 190 \tab 192 \tab 2 \tab 20 \tab 200 \tab 21 \tab 210 \tab 211 \tab 220 \tab 23 \tab 235 \tab 237 \tab 24 \tab 240 \tab 25 \tab 26 \tab 27 \tab 28 \tab 30 \tab 4 \tab 40 \tab 44 \tab 61 \tab 65 \tab 66 \tab 7 \tab 70 \tab 72 \tab 73 \tab 74 \tab 76 \tab 77 \tab 80 \tab 81 \tab 83 \tab 84 \tab 85 \tab 90 \tab 92 \tab cant understand answer \tab no answer \tab no problems \tab 100 \tab 101 \tab 115 \tab 132 \tab 133 \tab 140 \tab 191 \tab 201 \tab 29 \tab 3 \tab 31 \tab 43 \tab 47 \tab 6 \tab 86 \tab 94 \tab 96 \tab don't know \tab not available in this year \tab Total \cr
@@ -57,24 +81,15 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{995} cant understand answer
-\item \code{996} no problems
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1991 \tab C \tab partial \cr
+   2004 \tab C \tab partial \cr
 }
 }
 
+\concept{Life Events}
+\concept{Negative Life Events}
+\concept{Trauma}
 \keyword{variable}

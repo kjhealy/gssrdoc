@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 parsol
 }
 \details{
-Question 198a. Compared to your parents when they were the age you are now, do you think your own standard of living now is much better, somewhat better, about the same, somewhat worse, or much worse than theirs was?
+Question A. Compared to your parents when they were the age you are now, Do you think your own standard of living now is much better, somewhat better, about the same, somewhat worse, or much worse than theirs was?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} much better
+\item \code{2} somewhat better
+\item \code{3} about the same
+\item \code{4} somewhat worse
+\item \code{5} much worse
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/586/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab about the same \tab don't know \tab much better \tab much worse \tab no answer \tab somewhat better \tab somewhat worse \tab skipped on web \tab Total \cr
@@ -57,27 +80,41 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} much better
-\item \code{2} somewhat better
-\item \code{3} about the same
-\item \code{4} somewhat worse
-\item \code{5} much worse
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab B/C \tab partial \cr
+   1996 \tab B/C \tab partial \cr
+   1998 \tab B/C \tab partial \cr
+   2000 \tab B/C \tab partial \cr
+   2002 \tab B/C \tab partial \cr
+   2004 \tab B/C \tab partial \cr
+   2006 \tab B/C \tab partial \cr
+   2008 \tab B/C \tab partial \cr
+   2010 \tab B/C \tab partial \cr
+   2012 \tab B/C \tab partial \cr
+   2014 \tab B/C \tab partial \cr
+   2016 \tab B/C \tab partial \cr
+   2018 \tab B/C \tab partial \cr
+   2021 \tab B/C \tab partial \cr
+   2022 \tab B/C \tab partial \cr
+   2024 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{getahead}},
+\code{\link{getaid}},
+\code{\link{govaid}},
+\code{\link{unemp}},
+\code{\link{union}()},
+\code{\link{union1}},
+\code{\link{wksup1}},
+\code{\link{wksups}},
+\code{\link{wksups1}}
+}
+\concept{Core}
+\concept{Parents}
+\concept{Social Mobility}
 \keyword{variable}

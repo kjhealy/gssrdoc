@@ -1,11 +1,194 @@
+#'  2nd mention, what mental illness is, asserted
+#' 
+#'  mntlas2
+#' 
+#' Question Of course, everybody hears a good deal about physical illness and disease, but now, what about the ones we call mental or nervous illness?...When you hear someone say that a person is "mentally-ill," what does that mean to you? (PROBES: How would you describe a person who is mentally-ill?  What do you think a mentally-ill person is like?  What does a person like this do that tells you he is mentally-ill?  How does a person like this act?) 
+#' 2. R's asserted references for what a mental illness is -- Second mention.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2041/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |1  |10 |11 |13 |14 |16 |18 |2  |20 |3  |4  |5  |6  |7  |8  |9  |no answer |not available in this year |Total |
+#'  |:-----|:-----|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1613  |
+#'  |1973  |1504  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1504  |
+#'  |1974  |1484  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1484  |
+#'  |1975  |1490  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1490  |
+#'  |1976  |1499  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1499  |
+#'  |1977  |1530  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1530  |
+#'  |1978  |1532  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1532  |
+#'  |1980  |1468  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1468  |
+#'  |1982  |1860  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1860  |
+#'  |1983  |1599  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1599  |
+#'  |1984  |1473  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1473  |
+#'  |1985  |1534  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1534  |
+#'  |1986  |1470  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1470  |
+#'  |1987  |1819  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1819  |
+#'  |1988  |1481  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1481  |
+#'  |1989  |1537  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1537  |
+#'  |1990  |1372  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1372  |
+#'  |1991  |1517  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1517  |
+#'  |1993  |1606  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1606  |
+#'  |1994  |2992  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2992  |
+#'  |1996  |2586  |27 |1  |24 |3  |5  |10 |1  |35 |2  |20 |15 |46 |2  |7  |35 |41 |44        |-                          |2904  |
+#'  |1998  |2832  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2832  |
+#'  |2000  |2817  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2817  |
+#'  |2002  |2765  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2765  |
+#'  |2004  |2812  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2812  |
+#'  |2006  |4510  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |4510  |
+#'  |2008  |2023  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2023  |
+#'  |2010  |2044  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2044  |
+#'  |2012  |1974  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1974  |
+#'  |2014  |2538  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2538  |
+#'  |2016  |2867  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2867  |
+#'  |2018  |2348  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2348  |
+#'  |2021  |4032  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |4032  |
+#'  |2022  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |3544                       |3544  |
+#'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |3309                       |3309  |
+#'  |Total |68528 |27 |1  |24 |3  |5  |10 |1  |35 |2  |20 |15 |46 |2  |7  |35 |41 |44        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name mntlas2
+NULL
+
+
+#'  1st mention, what mental illness is, imputed
+#' 
+#'  mntlimp1
+#' 
+#' Question Of course, everybody hears a good deal about physical illness and disease, but now, what about the ones we call mental or nervous illness?...When you hear someone say that a person is "mentally-ill," what does that mean to you? (PROBES: How would you describe a person who is mentally-ill?  What do you think a mentally-ill person is like?  What does a person like this do that tells you he is mentally-ill?  How does a person like this act?) 
+#' 1. R's imputed references for what mental illness is -- First mention.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2042/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |101 |102 |103 |104 |105 |106 |107 |108 |109 |110 |111 |112 |113 |no answer |not available in this year |Total |
+#'  |:-----|:-----|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1613  |
+#'  |1973  |1504  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1504  |
+#'  |1974  |1484  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1484  |
+#'  |1975  |1490  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1490  |
+#'  |1976  |1499  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1499  |
+#'  |1977  |1530  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1530  |
+#'  |1978  |1532  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1532  |
+#'  |1980  |1468  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1468  |
+#'  |1982  |1860  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1860  |
+#'  |1983  |1599  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1599  |
+#'  |1984  |1473  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1473  |
+#'  |1985  |1534  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1534  |
+#'  |1986  |1470  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1470  |
+#'  |1987  |1819  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1819  |
+#'  |1988  |1481  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1481  |
+#'  |1989  |1537  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1537  |
+#'  |1990  |1372  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1372  |
+#'  |1991  |1517  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1517  |
+#'  |1993  |1606  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1606  |
+#'  |1994  |2992  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2992  |
+#'  |1996  |2196  |88  |38  |43  |52  |106 |4   |56  |61  |90  |89  |14  |1   |11  |55        |-                          |2904  |
+#'  |1998  |2832  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2832  |
+#'  |2000  |2817  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2817  |
+#'  |2002  |2765  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2765  |
+#'  |2004  |2812  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2812  |
+#'  |2006  |4510  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |4510  |
+#'  |2008  |2023  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2023  |
+#'  |2010  |2044  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2044  |
+#'  |2012  |1974  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1974  |
+#'  |2014  |2538  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2538  |
+#'  |2016  |2867  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2867  |
+#'  |2018  |2348  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2348  |
+#'  |2021  |4032  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |4032  |
+#'  |2022  |-     |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |3544                       |3544  |
+#'  |2024  |-     |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |3309                       |3309  |
+#'  |Total |68138 |88  |38  |43  |52  |106 |4   |56  |61  |90  |89  |14  |1   |11  |55        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name mntlimp1
+NULL
+
+
 #'  2nd mention, what mental illness is, imputed
 #' 
 #'  mntlimp2
 #' 
-#' Question 665. Of course, everybody hears a good deal about physical illness and disease, but now, what about the ones we call mental or nervous illness?...When you hear someone say that a person is "mentally-ill," what does that mean to you? (PROBES: How would you describe a person who is mentally-ill? What do you think a mentally-ill person is like? What does a person like this do that tells you he is mentally-ill? How does a person like this act?)
+#' Question Of course, everybody hears a good deal about physical illness and disease, but now, what about the ones we call mental or nervous illness?...When you hear someone say that a person is "mentally-ill," what does that mean to you? (PROBES: How would you describe a person who is mentally-ill?  What do you think a mentally-ill person is like?  What does a person like this do that tells you he is mentally-ill?  How does a person like this act?) 
+#' 2. R's imputed references for what mental illness is -- Second mention.
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2043/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +231,30 @@
 #'  |2024  |-     |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |3309                       |3309  |
 #'  |Total |68540 |17  |38  |18  |15  |45  |7   |37  |24  |24  |9   |4   |1   |12  |55        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name mntlimp2
+NULL
+
+
+#'  3rd mention, what mental illness is, imputed
+#' 
+#'  mntlimp3
+#' 
+#' Question Of course, everybody hears a good deal about physical illness and disease, but now, what about the ones we call mental or nervous illness?...When you hear someone say that a person is "mentally-ill," what does that mean to you? (PROBES: How would you describe a person who is mentally-ill?  What do you think a mentally-ill person is like?  What does a person like this do that tells you he is mentally-ill?  How does a person like this act?) 
+#' 3. R's imputed references for what mental illness is -- Third mention.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -63,22 +270,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name mntlimp2
-NULL
-
-#'  3rd mention, what mental illness is, imputed
-#' 
-#'  mntlimp3
-#' 
-#' Question 665. Of course, everybody hears a good deal about physical illness and disease, but now, what about the ones we call mental or nervous illness?...When you hear someone say that a person is "mentally-ill," what does that mean to you? (PROBES: How would you describe a person who is mentally-ill? What do you think a mentally-ill person is like? What does a person like this do that tells you he is mentally-ill? How does a person like this act?)
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2044/vshow).
 #'
 #' Counts by year: 
 #'
@@ -121,6 +314,30 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |3309                       |3309  |
 #'  |Total |68734 |2   |7   |3   |5   |9   |2   |9   |5   |9   |4   |2   |55        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name mntlimp3
+NULL
+
+
+#'  1st mention, what mental illness is, symptoms
+#' 
+#'  mntlsym1
+#' 
+#' Question Of course, everybody hears a good deal about physical illness and disease, but now, what about the ones we call mental or nervous illness?...When you hear someone say that a person is "mentally-ill," what does that mean to you? (PROBES: How would you describe a person who is mentally-ill?  What do you think a mentally-ill person is like?  What does a person like this do that tells you he is mentally-ill?  How does a person like this act?) 
+#' 1. Symptoms or manifestations of mental illness -- First mention.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -136,22 +353,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name mntlimp3
-NULL
-
-#'  1st mention, what mental illness is, symptoms
-#' 
-#'  mntlsym1
-#' 
-#' Question 665. Of course, everybody hears a good deal about physical illness and disease, but now, what about the ones we call mental or nervous illness?...When you hear someone say that a person is "mentally-ill," what does that mean to you? (PROBES: How would you describe a person who is mentally-ill? What do you think a mentally-ill person is like? What does a person like this do that tells you he is mentally-ill? How does a person like this act?)
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2045/vshow).
 #'
 #' Counts by year: 
 #'
@@ -194,6 +397,30 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |3309                       |3309  |
 #'  |Total |68138 |32  |5   |2   |25  |1   |40  |35  |34  |2   |113 |1   |5   |9   |9   |1   |1   |1   |5   |2   |1   |5   |1   |2   |3   |3   |1   |1   |4   |3   |2   |1   |13  |12  |57  |15  |3   |1   |1   |5   |1   |57  |19  |4   |15  |1   |10  |3   |12  |35  |4   |2   |2   |86        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name mntlsym1
+NULL
+
+
+#'  2nd mention, what mental illness is, symptoms
+#' 
+#'  mntlsym2
+#' 
+#' Question Of course, everybody hears a good deal about physical illness and disease, but now, what about the ones we call mental or nervous illness?...When you hear someone say that a person is "mentally-ill," what does that mean to you? (PROBES: How would you describe a person who is mentally-ill?  What do you think a mentally-ill person is like?  What does a person like this do that tells you he is mentally-ill?  How does a person like this act?) 
+#' 2. Symptoms or manifestations of mental illness -- Second mention.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -209,22 +436,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name mntlsym1
-NULL
-
-#'  2nd mention, what mental illness is, symptoms
-#' 
-#'  mntlsym2
-#' 
-#' Question 665. Of course, everybody hears a good deal about physical illness and disease, but now, what about the ones we call mental or nervous illness?...When you hear someone say that a person is "mentally-ill," what does that mean to you? (PROBES: How would you describe a person who is mentally-ill? What do you think a mentally-ill person is like? What does a person like this do that tells you he is mentally-ill? How does a person like this act?)
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2046/vshow).
 #'
 #' Counts by year: 
 #'
@@ -267,6 +480,30 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |3309                       |3309  |
 #'  |Total |68333 |3   |11  |4   |2   |10  |31  |29  |27  |4   |28  |1   |14  |16  |8   |3   |1   |1   |1   |2   |1   |2   |1   |2   |5   |2   |3   |1   |1   |3   |1   |2   |1   |2   |1   |3   |2   |4   |1   |3   |2   |6   |8   |4   |13  |16  |2   |3   |1   |1   |1   |1   |2   |8   |2   |33  |12  |10  |3   |6   |12  |11  |1   |1   |5   |20  |5   |1   |86        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name mntlsym2
+NULL
+
+
+#'  3rd mention, what mental illness is, symptoms
+#' 
+#'  mntlsym3
+#' 
+#' Question Of course, everybody hears a good deal about physical illness and disease, but now, what about the ones we call mental or nervous illness?...When you hear someone say that a person is "mentally-ill," what does that mean to you? (PROBES: How would you describe a person who is mentally-ill?  What do you think a mentally-ill person is like?  What does a person like this do that tells you he is mentally-ill?  How does a person like this act?) 
+#' 3. Symptoms or manifestations of mental illness -- Third mention.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -282,22 +519,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name mntlsym2
-NULL
-
-#'  3rd mention, what mental illness is, symptoms
-#' 
-#'  mntlsym3
-#' 
-#' Question 665. Of course, everybody hears a good deal about physical illness and disease, but now, what about the ones we call mental or nervous illness?...When you hear someone say that a person is "mentally-ill," what does that mean to you? (PROBES: How would you describe a person who is mentally-ill? What do you think a mentally-ill person is like? What does a person like this do that tells you he is mentally-ill? How does a person like this act?)
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2047/vshow).
 #'
 #' Counts by year: 
 #'
@@ -340,6 +563,30 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |3309                       |3309  |
 #'  |Total |68514 |6   |3   |2   |8   |1   |14  |8   |8   |3   |11  |13  |16  |11  |2   |2   |1   |5   |1   |3   |3   |1   |1   |3   |3   |2   |2   |1   |2   |3   |1   |3   |2   |1   |2   |2   |4   |3   |9   |2   |1   |2   |6   |10  |5   |1   |6   |5   |4   |11  |1   |7   |1   |1   |3   |7   |4   |3   |86        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name mntlsym3
+NULL
+
+
+#'  What mental illness is, other codes
+#' 
+#'  mntloth
+#' 
+#' Question Of course, everybody hears a good deal about physical illness and disease, but now, what about the ones we call mental or nervous illness?...When you hear someone say that a person is "mentally-ill," what does that mean to you? (PROBES: How would you describe a person who is mentally-ill?  What do you think a mentally-ill person is like?  What does a person like this do that tells you he is mentally-ill?  How does a person like this act?) 
+#' 1. Other mentions about the nature of mental illness.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -355,22 +602,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name mntlsym3
-NULL
-
-#'  What mental illness is, other codes
-#' 
-#'  mntloth
-#' 
-#' Question 665. Of course, everybody hears a good deal about physical illness and disease, but now, what about the ones we call mental or nervous illness?...When you hear someone say that a person is "mentally-ill," what does that mean to you? (PROBES: How would you describe a person who is mentally-ill? What do you think a mentally-ill person is like? What does a person like this do that tells you he is mentally-ill? How does a person like this act?)
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2048/vshow).
 #'
 #' Counts by year: 
 #'
@@ -413,6 +646,30 @@ NULL
 #'  |2024  |-     |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-         |3309                       |3309  |
 #'  |Total |68628 |2    |1    |4    |1    |17   |1    |1    |3    |3    |1    |2    |14   |51   |4    |53   |42   |18        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name mntloth
+NULL
+
+
+#'  1st mention, what nervous breakdown is, asserted
+#' 
+#'  brkdas1
+#' 
+#' Question As far as you know, what is a nervous breakdown? (PROBES: How would you describe it?  What is it like?  What happens to a person who has one? How does he act?) 
+#' 1. R's asserted references for what a nervous breakdown is -- First mention.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -428,22 +685,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name mntloth
-NULL
-
-#'  1st mention, what nervous breakdown is, asserted
-#' 
-#'  brkdas1
-#' 
-#' Question 666. As far as you know, what is a nervous breakdown? (PROBES: How would you describe it? What is it like? What happens to a person who has one? How does he act?)
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2049/vshow).
 #'
 #' Counts by year: 
 #'
@@ -486,6 +729,30 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-         |3309                       |3309  |
 #'  |Total |68110 |22 |27 |3  |17 |35 |49 |1  |1  |3  |1  |9  |9  |3  |23 |81 |348 |5  |20 |40 |7  |32        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
+#' 
+#' @keywords variable
+#' @md
+#' @name brkdas1
+NULL
+
+
+#'  2nd mention, what nervous breakdown is, asserted
+#' 
+#'  brkdas2
+#' 
+#' Question As far as you know, what is a nervous breakdown? (PROBES: How would you describe it?  What is it like?  What happens to a person who has one? How does he act?) 
+#' 2. R's asserted references for what a nervous breakdown is -- Second mention.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -501,22 +768,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name brkdas1
-NULL
-
-#'  2nd mention, what nervous breakdown is, asserted
-#' 
-#'  brkdas2
-#' 
-#' Question 666. As far as you know, what is a nervous breakdown? (PROBES: How would you describe it? What is it like? What happens to a person who has one? How does he act?)
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2050/vshow).
 #'
 #' Counts by year: 
 #'
@@ -559,172 +812,19 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |3309                       |3309  |
 #'  |Total |68575 |9  |1  |16 |3  |3  |16 |2  |1  |10 |1  |2  |1  |12 |46 |65 |4  |9  |28 |10 |32        |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Mental Health
+#' @family Mental Health
 #' 
 #' @keywords variable
 #' @md
 #' @name brkdas2
 NULL
 
-#'  1st mention, what nervous breakdown is, imputed
-#' 
-#'  brkdimp1
-#' 
-#' Question 666. As far as you know, what is a nervous breakdown? (PROBES: How would you describe it? What is it like? What happens to a person who has one? How does he act?)
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |101 |102 |103 |104 |105 |106 |107 |108 |109 |110 |111 |113 |no answer |not available in this year |Total |
-#'  |:-----|:-----|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1613  |
-#'  |1973  |1504  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1504  |
-#'  |1974  |1484  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1484  |
-#'  |1975  |1490  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1490  |
-#'  |1976  |1499  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1499  |
-#'  |1977  |1530  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1530  |
-#'  |1978  |1532  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1532  |
-#'  |1980  |1468  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1468  |
-#'  |1982  |1860  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1860  |
-#'  |1983  |1599  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1599  |
-#'  |1984  |1473  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1473  |
-#'  |1985  |1534  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1534  |
-#'  |1986  |1470  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1470  |
-#'  |1987  |1819  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1819  |
-#'  |1988  |1481  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1481  |
-#'  |1989  |1537  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1537  |
-#'  |1990  |1372  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1372  |
-#'  |1991  |1517  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1517  |
-#'  |1993  |1606  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1606  |
-#'  |1994  |2992  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2992  |
-#'  |1996  |2168  |31  |9   |23  |86  |374 |22  |7   |4   |44  |44  |3   |2   |87        |-                          |2904  |
-#'  |1998  |2832  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2832  |
-#'  |2000  |2817  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2817  |
-#'  |2002  |2765  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2765  |
-#'  |2004  |2812  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2812  |
-#'  |2006  |4510  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |4510  |
-#'  |2008  |2023  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2023  |
-#'  |2010  |2044  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2044  |
-#'  |2012  |1974  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1974  |
-#'  |2014  |2538  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2538  |
-#'  |2016  |2867  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2867  |
-#'  |2018  |2348  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2348  |
-#'  |2021  |4032  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |4032  |
-#'  |2022  |-     |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |3544                       |3544  |
-#'  |2024  |-     |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |3309                       |3309  |
-#'  |Total |68110 |31  |9   |23  |86  |374 |22  |7   |4   |44  |44  |3   |2   |87        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name brkdimp1
-NULL
-
-#'  2nd mention, what nervous breakdown is, imputed
-#' 
-#'  brkdimp2
-#' 
-#' Question 666. As far as you know, what is a nervous breakdown? (PROBES: How would you describe it? What is it like? What happens to a person who has one? How does he act?)
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |101 |102 |103 |104 |105 |106 |107 |108 |109 |110 |111 |112 |113 |114 |no answer |not available in this year |Total |
-#'  |:-----|:-----|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1613  |
-#'  |1973  |1504  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1504  |
-#'  |1974  |1484  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1484  |
-#'  |1975  |1490  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1490  |
-#'  |1976  |1499  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1499  |
-#'  |1977  |1530  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1530  |
-#'  |1978  |1532  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1532  |
-#'  |1980  |1468  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1468  |
-#'  |1982  |1860  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1860  |
-#'  |1983  |1599  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1599  |
-#'  |1984  |1473  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1473  |
-#'  |1985  |1534  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1534  |
-#'  |1986  |1470  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1470  |
-#'  |1987  |1819  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1819  |
-#'  |1988  |1481  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1481  |
-#'  |1989  |1537  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1537  |
-#'  |1990  |1372  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1372  |
-#'  |1991  |1517  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1517  |
-#'  |1993  |1606  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1606  |
-#'  |1994  |2992  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2992  |
-#'  |1996  |2645  |7   |9   |11  |37  |46  |8   |7   |2   |21  |9   |5   |1   |8   |1   |87        |-                          |2904  |
-#'  |1998  |2832  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2832  |
-#'  |2000  |2817  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2817  |
-#'  |2002  |2765  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2765  |
-#'  |2004  |2812  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2812  |
-#'  |2006  |4510  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |4510  |
-#'  |2008  |2023  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2023  |
-#'  |2010  |2044  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2044  |
-#'  |2012  |1974  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |1974  |
-#'  |2014  |2538  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2538  |
-#'  |2016  |2867  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2867  |
-#'  |2018  |2348  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |2348  |
-#'  |2021  |4032  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-                          |4032  |
-#'  |2022  |-     |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |3544                       |3544  |
-#'  |2024  |-     |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |3309                       |3309  |
-#'  |Total |68587 |7   |9   |11  |37  |46  |8   |7   |2   |21  |9   |5   |1   |8   |1   |87        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name brkdimp2
-NULL
 

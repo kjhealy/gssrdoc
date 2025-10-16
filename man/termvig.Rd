@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 termvig
 }
 \details{
-Question 734. Now I'm going to describe a patient to you and then ask you some questions about that patient. READ ONE OF THE FOLLOWING VIGNETTES ON FOLLOWING PAGE ACCORDING TO THE FOLLOWING SCHEDULE: IF VERSION 4, FORM X, READ A IF VERSION 4, FORM Y, READ B IF VERSION 5, FORM X, READ C IF VERSION 5, FORM Y, READ D IF VERSION 6, FORM X, READ E IF VERSION 6, FORM X, READ F
+Question Now I'm going to describe a patient to you and then ask you some questions about that patient.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} vignette a
+\item \code{2} vignette b
+\item \code{3} vignette c
+\item \code{4} vignette d
+\item \code{5} vignette e
+\item \code{6} vignette f
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2254/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab vignette a \tab vignette b \tab vignette c \tab vignette d \tab vignette e \tab vignette f \tab not available in this year \tab Total \cr
@@ -57,28 +81,36 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} vignette a
-\item \code{2} vignette b
-\item \code{3} vignette c
-\item \code{4} vignette d
-\item \code{5} vignette e
-\item \code{6} vignette f
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1998 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Mental Health: 
+\code{\link{docsui}},
+\code{\link{hospice}},
+\code{\link{instrctn}},
+\code{\link{notreat}},
+\code{\link{painmed}},
+\code{\link{rightref}},
+\code{\link{trustcrt}},
+\code{\link{trustdoc}},
+\code{\link{trustfam}}
+
+Other Terminal Illness: 
+\code{\link{docsui}},
+\code{\link{hospice}},
+\code{\link{instrctn}},
+\code{\link{notreat}},
+\code{\link{painmed}},
+\code{\link{rightref}},
+\code{\link{trustcrt}},
+\code{\link{trustdoc}},
+\code{\link{trustfam}}
+}
+\concept{Mental Health}
+\concept{Terminal Illness}
 \keyword{variable}

@@ -1,11 +1,234 @@
+#'  Lived in u.s., if less than one year 		months:
+#' 
+#'  mnthsusa
+#' 
+#' Question How long have you lived in the United States? If you have lived in the United States for more than one period during your life, what is the total number of years you have lived in the United States? - Months
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` 1 month
+#'   * `11` 11 months
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7298/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |1 month |10 |8  |9  |6  |don't know |no answer |skipped on web |11 months |2  |3  |5  |7  |not available in this release |Total |
+#'  |:-----|:-----|:-------|:--|:--|:--|:--|:----------|:---------|:--------------|:---------|:--|:--|:--|:--|:-----------------------------|:-----|
+#'  |1972  |1613  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1613  |
+#'  |1973  |1504  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1504  |
+#'  |1974  |1484  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1484  |
+#'  |1975  |1490  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1490  |
+#'  |1976  |1499  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1499  |
+#'  |1977  |1530  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1530  |
+#'  |1978  |1532  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1532  |
+#'  |1980  |1468  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1468  |
+#'  |1982  |1860  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1860  |
+#'  |1983  |1599  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1599  |
+#'  |1984  |1473  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1473  |
+#'  |1985  |1534  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1534  |
+#'  |1986  |1470  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1470  |
+#'  |1987  |1819  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1819  |
+#'  |1988  |1481  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1481  |
+#'  |1989  |1537  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1537  |
+#'  |1990  |1372  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1372  |
+#'  |1991  |1517  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1517  |
+#'  |1993  |1606  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1606  |
+#'  |1994  |2992  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |2992  |
+#'  |1996  |2904  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |2904  |
+#'  |1998  |2832  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |2832  |
+#'  |2000  |2817  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |2817  |
+#'  |2002  |2765  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |2765  |
+#'  |2004  |2812  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |2812  |
+#'  |2006  |4510  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |4510  |
+#'  |2008  |2023  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |2023  |
+#'  |2010  |2044  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |2044  |
+#'  |2012  |1974  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1974  |
+#'  |2014  |2538  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |2538  |
+#'  |2016  |2867  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |2867  |
+#'  |2018  |2344  |1       |1  |1  |1  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |2348  |
+#'  |2021  |3746  |1       |-  |1  |1  |1  |9          |2         |271            |-         |-  |-  |-  |-  |-                             |4032  |
+#'  |2022  |3520  |1       |1  |1  |2  |1  |2          |6         |4              |2         |1  |1  |1  |1  |-                             |3544  |
+#'  |2024  |-     |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |3309                          |3309  |
+#'  |Total |72076 |3       |2  |3  |4  |2  |11         |8         |275            |2         |1  |1  |1  |1  |3309                          |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name mnthsusa
+NULL
+
+
+#'  Years in armed forces
+#' 
+#'  vetyears
+#' 
+#' Question Have you ever been on active duty for military training or service for two consecutive months or more?
+#'  IF YES: What was your total time on active duty?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` no active duty
+#'   * `1` yes, less than 2 years
+#'   * `2` yes, 2-4 years
+#'   * `3` yes, more than 4 years
+#'   * `4` some, don't know how long
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5285/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |no active duty |no answer |some, don't know how long |yes, 2-4 years |yes, less than 2 years |yes, more than 4 years |skipped on web |Total |
+#'  |:-----|:-----|:--------------|:---------|:-------------------------|:--------------|:----------------------|:----------------------|:--------------|:-----|
+#'  |1972  |1613  |-              |-         |-                         |-              |-                      |-                      |-              |1613  |
+#'  |1973  |1504  |-              |-         |-                         |-              |-                      |-                      |-              |1504  |
+#'  |1974  |-     |1142           |3         |5                         |184            |65                     |85                     |-              |1484  |
+#'  |1975  |-     |1162           |2         |-                         |189            |84                     |53                     |-              |1490  |
+#'  |1976  |1499  |-              |-         |-                         |-              |-                      |-                      |-              |1499  |
+#'  |1977  |-     |1188           |8         |-                         |198            |72                     |64                     |-              |1530  |
+#'  |1978  |-     |1205           |5         |-                         |184            |65                     |73                     |-              |1532  |
+#'  |1980  |1468  |-              |-         |-                         |-              |-                      |-                      |-              |1468  |
+#'  |1982  |-     |1543           |11        |-                         |190            |58                     |58                     |-              |1860  |
+#'  |1983  |-     |1301           |3         |-                         |181            |58                     |56                     |-              |1599  |
+#'  |1984  |-     |1205           |28        |-                         |136            |50                     |54                     |-              |1473  |
+#'  |1985  |-     |1236           |3         |-                         |175            |68                     |52                     |-              |1534  |
+#'  |1986  |1470  |-              |-         |-                         |-              |-                      |-                      |-              |1470  |
+#'  |1987  |1819  |-              |-         |-                         |-              |-                      |-                      |-              |1819  |
+#'  |1988  |493   |816            |6         |-                         |90             |35                     |41                     |-              |1481  |
+#'  |1989  |531   |820            |20        |-                         |87             |36                     |43                     |-              |1537  |
+#'  |1990  |444   |759            |11        |-                         |89             |36                     |33                     |-              |1372  |
+#'  |1991  |493   |865            |4         |-                         |86             |35                     |34                     |-              |1517  |
+#'  |1993  |526   |856            |58        |-                         |84             |40                     |42                     |-              |1606  |
+#'  |1994  |2485  |425            |2         |-                         |37             |17                     |26                     |-              |2992  |
+#'  |1996  |2904  |-              |-         |-                         |-              |-                      |-                      |-              |2904  |
+#'  |1998  |2832  |-              |-         |-                         |-              |-                      |-                      |-              |2832  |
+#'  |2000  |2817  |-              |-         |-                         |-              |-                      |-                      |-              |2817  |
+#'  |2002  |2765  |-              |-         |-                         |-              |-                      |-                      |-              |2765  |
+#'  |2004  |2812  |-              |-         |-                         |-              |-                      |-                      |-              |2812  |
+#'  |2006  |4510  |-              |-         |-                         |-              |-                      |-                      |-              |4510  |
+#'  |2008  |2023  |-              |-         |-                         |-              |-                      |-                      |-              |2023  |
+#'  |2010  |-     |1825           |1         |1                         |106            |48                     |63                     |-              |2044  |
+#'  |2012  |-     |1745           |3         |-                         |107            |49                     |70                     |-              |1974  |
+#'  |2014  |-     |2242           |1         |2                         |131            |66                     |96                     |-              |2538  |
+#'  |2016  |-     |2557           |7         |-                         |132            |60                     |111                    |-              |2867  |
+#'  |2018  |-     |2098           |3         |-                         |101            |55                     |91                     |-              |2348  |
+#'  |2021  |-     |3491           |78        |-                         |212            |87                     |144                    |20             |4032  |
+#'  |2022  |-     |3175           |10        |-                         |145            |73                     |131                    |10             |3544  |
+#'  |2024  |-     |2980           |2         |3                         |123            |63                     |123                    |15             |3309  |
+#'  |Total |35008 |34636          |269       |11                        |2967           |1220                   |1543                   |45             |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1988 |A/B/-   |partial      |
+#'  |1989 |A/B/-   |partial      |
+#'  |1990 |A/B/-   |partial      |
+#'  |1991 |A/B/-   |partial      |
+#'  |1993 |A/B/-   |partial      |
+#'  |1994 |A/B/-   |partial      |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Military Service & Work
+#' @family Military
+#' @family Veteran Status
+#' 
+#' @keywords variable
+#' @md
+#' @name vetyears
+NULL
+
+
 #'  Branch of service
 #' 
 #'  vetkind
 #' 
-#' Question 1604a. In what branch of the service was that?
+#' Question Have you ever been on active duty for military training or service for two consecutive months or more?
+#'  IF YES: What was your total time on active duty?
+#'  A. In what branch of the service was that?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` several
+#'   * `1` air force guard
+#'   * `2` air force
+#'   * `3` navy
+#'   * `4` army
+#'   * `5` national guard
+#'   * `6` marines
+#'   * `7` coast guard
+#'   * `8` public health
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5286/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,17 +271,42 @@
 #'  |2024  |-     |-         |-               |-    |-           |-       |-              |-    |-         |-       |-             |3309                       |3309  |
 #'  |Total |66624 |331       |6               |1155 |24          |134     |53             |432  |61        |25      |1             |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-       |full         |
+#'  |1975 |-       |full         |
+#'  |1977 |-       |full         |
+#'  |1978 |-       |full         |
+#'  |1982 |-       |full         |
+#'  |1983 |-       |full         |
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Military Service & Work
+#' @family Veteran Status
+#' 
+#' @keywords variable
+#' @md
+#' @name vetkind
+NULL
+
+
+#'  Days r normally works
+#' 
+#'  workdy
+#' 
+#' Question What days of the week do you normally work?  CODE ALL THAT APPLY.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` several
-#'   * `1` air force guard
-#'   * `2` air force
-#'   * `3` navy
-#'   * `4` army
-#'   * `5` national guard
-#'   * `6` marines
-#'   * `7` coast guard
-#'   * `8` public health
+#'   * `1` mon to fri
+#'   * `2` mon to fri,sat
+#'   * `3` mon to fri,sun
+#'   * `4` wkend plus
+#'   * `5` no schedule
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -72,22 +320,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name vetkind
-NULL
-
-#'  Days r normally works
-#' 
-#'  workdy
-#' 
-#' Question 1605. What days of the week do you normally work? CODE ALL THAT APPLY.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5287/vshow).
 #'
 #' Counts by year: 
 #'
@@ -130,13 +364,37 @@ NULL
 #'  |2024  |-     |-          |-              |-              |-         |-           |-          |3309                       |3309  |
 #'  |Total |68096 |506        |106            |12             |13        |64          |49         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Military Service & Work
+#' @family Job
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name workdy
+NULL
+
+
+#'  Hours r usually works
+#' 
+#'  workhr
+#' 
+#' Question What hours do you usually work--days, evenings, or nights?  CIRCLE ONE CODE.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` mon to fri
-#'   * `2` mon to fri,sat
-#'   * `3` mon to fri,sun
-#'   * `4` wkend plus
-#'   * `5` no schedule
+#'   * `1` reg day
+#'   * `2` eve
+#'   * `3` nights
+#'   * `4` varies
+#'   * `5` other
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -150,22 +408,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name workdy
-NULL
-
-#'  Hours r usually works
-#' 
-#'  workhr
-#' 
-#' Question 1606. What hours do you usually workdays, evenings, or nights? CIRCLE ONE CODE.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5288/vshow).
 #'
 #' Counts by year: 
 #'
@@ -208,13 +452,36 @@ NULL
 #'  |2024  |-   |-     |-      |-         |-     |-       |-      |3309                       |3309  |
 #'  |Total |24  |68096 |23     |5         |54    |557     |87     |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Military Service & Work
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name workhr
+NULL
+
+
+#'  Days spouse normally works
+#' 
+#'  spdays
+#' 
+#' Question What days of the week does (SPOUSE) normally work?  CODE ALL THAT APPLY.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` reg day
-#'   * `2` eve
-#'   * `3` nights
-#'   * `4` varies
-#'   * `5` other
+#'   * `1` mon to fri
+#'   * `2` mon to fri,sat
+#'   * `3` mon to fri,sun
+#'   * `4` wkend plus
+#'   * `5` no schedule
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -228,22 +495,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name workhr
-NULL
-
-#'  Days spouse normally works
-#' 
-#'  spdays
-#' 
-#' Question 1607. What days of the week does (SPOUSE) normally work? CODE ALL THAT APPLY.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5289/vshow).
 #'
 #' Counts by year: 
 #'
@@ -286,13 +539,37 @@ NULL
 #'  |2024  |-     |-          |-              |-              |-         |-           |-          |3309                       |3309  |
 #'  |Total |68277 |345        |116            |7              |4         |52          |45         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Military Service & Work
+#' @family Job
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name spdays
+NULL
+
+
+#'  Hours spouse usually works
+#' 
+#'  sphour
+#' 
+#' Question What hours does (he/she) usually work--days, evenings, or nights?  CIRCLE ONE CODE.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` mon to fri
-#'   * `2` mon to fri,sat
-#'   * `3` mon to fri,sun
-#'   * `4` wkend plus
-#'   * `5` no schedule
+#'   * `1` reg day
+#'   * `2` eve
+#'   * `3` nights
+#'   * `4` varies
+#'   * `5` other
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -306,22 +583,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name spdays
-NULL
-
-#'  Hours spouse usually works
-#' 
-#'  sphour
-#' 
-#' Question 1608. What hours does (he/she) usually work days, evenings, or nights?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5290/vshow).
 #'
 #' Counts by year: 
 #'
@@ -364,13 +627,42 @@ NULL
 #'  |2024  |-   |-     |-      |-         |-     |-       |-      |3309                       |3309  |
 #'  |Total |20  |68277 |11     |5         |38    |420     |75     |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Military Service & Work
+#' @family Job
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name sphour
+NULL
+
+
+#'  Type of structure
+#' 
+#'  dwelling
+#' 
+#' Question DWELLING TYPE.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` reg day
-#'   * `2` eve
-#'   * `3` nights
-#'   * `4` varies
-#'   * `5` other
+#'   * `1` trailer
+#'   * `2` detached single family house
+#'   * `3` 2-family house, 2 units side-by-side
+#'   * `4` 2-family house, 2 units one above the other
+#'   * `5` detached 3-4 family house
+#'   * `6` row house (3 or more units in an attached row)
+#'   * `7` apartment house (5 or more units, 3 stories or less)
+#'   * `8` apartment house (5 or more units, 4 stories or more)
+#'   * `9` apartment in a partly commercial structure
+#'   * `10` other
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -384,22 +676,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name sphour
-NULL
-
-#'  Type of structure
-#' 
-#'  dwelling
-#' 
-#' Question 1609. DWELLING TYPE.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5291/vshow).
 #'
 #' Counts by year: 
 #'
@@ -442,18 +720,60 @@ NULL
 #'  |2024  |-     |-                                           |-                                    |-                                                    |-                                                    |-                                          |-                         |-                            |-         |-     |-                                              |-       |-          |3309                       |3309  |
 #'  |Total |13762 |1272                                        |1936                                 |6849                                                 |2261                                                 |284                                        |998                       |33556                        |344       |550   |2572                                           |3417    |557        |7341                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Residence
+#' @family Dwelling (R's)
+#' 
+#' @keywords variable
+#' @md
+#' @name dwelling
+NULL
+
+
+#'  Dwelling compared to others in nbrhd
+#' 
+#'  dwelngh
+#' 
+#' Question A. Compared to houses/apartments in the neighborhood, would you say the house/ apartment was . . .
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` trailer
-#'   * `2` detached single family house
-#'   * `3` 2-family house, 2 units side-by-side
-#'   * `4` 2-family house, 2 units one above the other
-#'   * `5` detached 3-4 family house
-#'   * `6` row house (3 or more units in an attached row)
-#'   * `7` apartment house (5 or more units, 3 stories or less)
-#'   * `8` apartment house (5 or more units, 4 stories or more)
-#'   * `9` apartment in a partly commercial structure
-#'   * `10` other
+#'   * `1` far above average
+#'   * `2` above average
+#'   * `3` average
+#'   * `4` below average
+#'   * `5` far below average
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -467,22 +787,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name dwelling
-NULL
-
-#'  Dwelling compared to others in nbrhd
-#' 
-#'  dwelngh
-#' 
-#' Question 1610a. Compared to houses/apartments in the neighborhood, would you say the house/ apartment was . . .
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5292/vshow).
 #'
 #' Counts by year: 
 #'
@@ -525,6 +831,31 @@ NULL
 #'  |2024  |-     |-             |-       |-             |-                 |-                 |-         |3309                       |3309  |
 #'  |Total |63914 |718           |3414    |524           |89                |73                |114       |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1982 |-       |full         |
+#'  |1983 |-       |full         |
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Residence
+#' @family Dwelling (R's)
+#' 
+#' @keywords variable
+#' @md
+#' @name dwelngh
+NULL
+
+
+#'  Dwelling compared to others in city
+#' 
+#'  dwelcity
+#' 
+#' Question B. Compared to houses/apartments in the city/town/county, would you say the house was . . .
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` far above average
@@ -545,22 +876,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name dwelngh
-NULL
-
-#'  Dwelling compared to others in city
-#' 
-#'  dwelcity
-#' 
-#' Question 1610b. Compared to houses/apartments in the city/town/county, would you say the house was . . .
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5293/vshow).
 #'
 #' Counts by year: 
 #'
@@ -603,183 +920,21 @@ NULL
 #'  |2024  |-     |-             |-       |-             |-                 |-                 |-         |3309                       |3309  |
 #'  |Total |63914 |902           |2664    |955           |114               |154               |143       |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` far above average
-#'   * `2` above average
-#'   * `3` average
-#'   * `4` below average
-#'   * `5` far below average
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1982 |-       |full         |
+#'  |1983 |-       |full         |
+#'  |1984 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Residence
+#' @family Dwelling (R's)
 #' 
 #' @keywords variable
 #' @md
 #' @name dwelcity
 NULL
 
-#'  Does r own or rent home?
-#' 
-#'  dwelown
-#' 
-#' Question 1611. (Do you/Does your family) own your (home/apartment), pay rent, or what?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |no answer |other |own or is buying |pays rent |don't know |skipped on web |Total |
-#'  |:-----|:-----|:---------|:-----|:----------------|:---------|:----------|:--------------|:-----|
-#'  |1972  |1613  |-         |-     |-                |-         |-          |-              |1613  |
-#'  |1973  |1504  |-         |-     |-                |-         |-          |-              |1504  |
-#'  |1974  |1484  |-         |-     |-                |-         |-          |-              |1484  |
-#'  |1975  |1490  |-         |-     |-                |-         |-          |-              |1490  |
-#'  |1976  |1499  |-         |-     |-                |-         |-          |-              |1499  |
-#'  |1977  |1530  |-         |-     |-                |-         |-          |-              |1530  |
-#'  |1978  |1532  |-         |-     |-                |-         |-          |-              |1532  |
-#'  |1980  |1468  |-         |-     |-                |-         |-          |-              |1468  |
-#'  |1982  |1860  |-         |-     |-                |-         |-          |-              |1860  |
-#'  |1983  |1599  |-         |-     |-                |-         |-          |-              |1599  |
-#'  |1984  |1473  |-         |-     |-                |-         |-          |-              |1473  |
-#'  |1985  |-     |11        |25    |947              |551       |-          |-              |1534  |
-#'  |1986  |-     |25        |26    |921              |497       |1          |-              |1470  |
-#'  |1987  |-     |11        |38    |1102             |667       |1          |-              |1819  |
-#'  |1988  |493   |32        |13    |612              |331       |-          |-              |1481  |
-#'  |1989  |531   |26        |28    |634              |318       |-          |-              |1537  |
-#'  |1990  |449   |39        |30    |557              |297       |-          |-              |1372  |
-#'  |1991  |493   |51        |16    |633              |324       |-          |-              |1517  |
-#'  |1993  |526   |4         |29    |710              |337       |-          |-              |1606  |
-#'  |1994  |1015  |33        |49    |1222             |673       |-          |-              |2992  |
-#'  |1996  |944   |66        |50    |1165             |679       |-          |-              |2904  |
-#'  |1998  |961   |5         |40    |1159             |666       |1          |-              |2832  |
-#'  |2000  |946   |63        |19    |1101             |686       |2          |-              |2817  |
-#'  |2002  |1857  |1         |23    |540              |341       |3          |-              |2765  |
-#'  |2004  |1906  |1         |28    |609              |268       |-          |-              |2812  |
-#'  |2006  |2518  |3         |35    |1318             |634       |2          |-              |4510  |
-#'  |2008  |694   |2         |22    |889              |416       |-          |-              |2023  |
-#'  |2010  |614   |5         |26    |874              |524       |1          |-              |2044  |
-#'  |2012  |672   |5         |16    |808              |473       |-          |-              |1974  |
-#'  |2014  |863   |4         |25    |1035             |610       |1          |-              |2538  |
-#'  |2016  |981   |5         |30    |1127             |724       |-          |-              |2867  |
-#'  |2018  |789   |6         |25    |939              |588       |1          |-              |2348  |
-#'  |2021  |1367  |-         |33    |1821             |791       |3          |17             |4032  |
-#'  |2022  |1174  |4         |64    |1420             |878       |1          |3              |3544  |
-#'  |2024  |1126  |13        |13    |1323             |816       |5          |13             |3309  |
-#'  |Total |37971 |415       |703   |23466            |13089     |22         |33             |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` own or is buying
-#'   * `2` pays rent
-#'   * `3` other
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name dwelown
-NULL
-
-#'  Did rs family own or rent home when r was age 16
-#' 
-#'  dwelown16
-#' 
-#' Question B. When you were 16 years old, did your family own your own home, pay rent, or something else?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no answer |other |owned or was buying |paid rent |skipped on web |Total |
-#'  |:-----|:-----|:----------|:---------|:-----|:-------------------|:---------|:--------------|:-----|
-#'  |1972  |1613  |-          |-         |-     |-                   |-         |-              |1613  |
-#'  |1973  |1504  |-          |-         |-     |-                   |-         |-              |1504  |
-#'  |1974  |1484  |-          |-         |-     |-                   |-         |-              |1484  |
-#'  |1975  |1490  |-          |-         |-     |-                   |-         |-              |1490  |
-#'  |1976  |1499  |-          |-         |-     |-                   |-         |-              |1499  |
-#'  |1977  |1530  |-          |-         |-     |-                   |-         |-              |1530  |
-#'  |1978  |1532  |-          |-         |-     |-                   |-         |-              |1532  |
-#'  |1980  |1468  |-          |-         |-     |-                   |-         |-              |1468  |
-#'  |1982  |1860  |-          |-         |-     |-                   |-         |-              |1860  |
-#'  |1983  |1599  |-          |-         |-     |-                   |-         |-              |1599  |
-#'  |1984  |1473  |-          |-         |-     |-                   |-         |-              |1473  |
-#'  |1985  |1534  |-          |-         |-     |-                   |-         |-              |1534  |
-#'  |1986  |1470  |-          |-         |-     |-                   |-         |-              |1470  |
-#'  |1987  |1819  |-          |-         |-     |-                   |-         |-              |1819  |
-#'  |1988  |1481  |-          |-         |-     |-                   |-         |-              |1481  |
-#'  |1989  |1537  |-          |-         |-     |-                   |-         |-              |1537  |
-#'  |1990  |1372  |-          |-         |-     |-                   |-         |-              |1372  |
-#'  |1991  |1517  |-          |-         |-     |-                   |-         |-              |1517  |
-#'  |1993  |1606  |-          |-         |-     |-                   |-         |-              |1606  |
-#'  |1994  |2992  |-          |-         |-     |-                   |-         |-              |2992  |
-#'  |1996  |2904  |-          |-         |-     |-                   |-         |-              |2904  |
-#'  |1998  |2832  |-          |-         |-     |-                   |-         |-              |2832  |
-#'  |2000  |2817  |-          |-         |-     |-                   |-         |-              |2817  |
-#'  |2002  |2765  |-          |-         |-     |-                   |-         |-              |2765  |
-#'  |2004  |2812  |-          |-         |-     |-                   |-         |-              |2812  |
-#'  |2006  |4510  |-          |-         |-     |-                   |-         |-              |4510  |
-#'  |2008  |2023  |-          |-         |-     |-                   |-         |-              |2023  |
-#'  |2010  |2044  |-          |-         |-     |-                   |-         |-              |2044  |
-#'  |2012  |1974  |-          |-         |-     |-                   |-         |-              |1974  |
-#'  |2014  |2538  |-          |-         |-     |-                   |-         |-              |2538  |
-#'  |2016  |2867  |-          |-         |-     |-                   |-         |-              |2867  |
-#'  |2018  |789   |7          |2         |28    |1133                |389       |-              |2348  |
-#'  |2021  |1367  |7          |-         |34    |2007                |595       |22             |4032  |
-#'  |2022  |1174  |16         |3         |53    |1673                |624       |1              |3544  |
-#'  |2024  |1126  |26         |12        |22    |1563                |546       |14             |3309  |
-#'  |Total |66922 |56         |17        |137   |6376                |2154      |37             |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` owned or was buying
-#'   * `2` paid rent
-#'   * `3` other
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name dwelown16
-NULL
 

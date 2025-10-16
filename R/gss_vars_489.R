@@ -1,11 +1,206 @@
+#'  Having children increases social standing in society
+#' 
+#'  kidsocst
+#' 
+#' Question To what extent do you agree or disagree with the following statements? 
+#' E. Having children increases peopleâ€™s social standing in society.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` neither agree nor disagree
+#'   * `4` disagree
+#'   * `5` strongly disagree
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4461/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |agree |disagree |don't know |neither agree nor disagree |no answer |strongly agree |strongly disagree |skipped on web |not available in this year |Total |
+#'  |:-----|:-----|:-----|:--------|:----------|:--------------------------|:---------|:--------------|:-----------------|:--------------|:--------------------------|:-----|
+#'  |1972  |1613  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |1613  |
+#'  |1973  |1504  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |1504  |
+#'  |1974  |1484  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |1484  |
+#'  |1975  |1490  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |1490  |
+#'  |1976  |1499  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |1499  |
+#'  |1977  |1530  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |1530  |
+#'  |1978  |1532  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |1532  |
+#'  |1980  |1468  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |1468  |
+#'  |1982  |1860  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |1860  |
+#'  |1983  |1599  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |1599  |
+#'  |1984  |1473  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |1473  |
+#'  |1985  |1534  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |1534  |
+#'  |1986  |1470  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |1470  |
+#'  |1987  |1819  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |1819  |
+#'  |1988  |1481  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |1481  |
+#'  |1989  |1537  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |1537  |
+#'  |1990  |1372  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |1372  |
+#'  |1991  |1517  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |1517  |
+#'  |1993  |1606  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |1606  |
+#'  |1994  |2992  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |2992  |
+#'  |1996  |2904  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |2904  |
+#'  |1998  |2832  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |2832  |
+#'  |2000  |2817  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |2817  |
+#'  |2002  |2765  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |2765  |
+#'  |2004  |2812  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |2812  |
+#'  |2006  |4510  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |4510  |
+#'  |2008  |2023  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |2023  |
+#'  |2010  |2044  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |2044  |
+#'  |2012  |672   |367   |391      |49         |381                        |5         |46             |63                |-              |-                          |1974  |
+#'  |2014  |2538  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |2538  |
+#'  |2016  |2867  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |2867  |
+#'  |2018  |2348  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |2348  |
+#'  |2021  |4032  |-     |-        |-          |-                          |-         |-              |-                 |-              |-                          |4032  |
+#'  |2022  |2380  |259   |276      |70         |446                        |5         |36             |63                |9              |-                          |3544  |
+#'  |2024  |-     |-     |-        |-          |-                          |-         |-              |-                 |-              |3309                       |3309  |
+#'  |Total |69924 |626   |667      |119        |827                        |10        |82             |126               |9              |3309                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B     |partial      |
+#'  |2022 |A/-     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name kidsocst
+NULL
+
+
+#'  Adult children are imp to help elderly parents
+#' 
+#'  eldersup
+#' 
+#' Question To what extent do you agree or disagree with the following statements? 
+#' F. Adult children are an important source of help for elderly parents. 
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` neither agree nor disagree
+#'   * `4` disagree
+#'   * `5` strongly disagree
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4462/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |agree |disagree |don't know |neither agree nor disagree |no answer |strongly agree |strongly disagree |not available in this year |Total |
+#'  |:-----|:-----|:-----|:--------|:----------|:--------------------------|:---------|:--------------|:-----------------|:--------------------------|:-----|
+#'  |1972  |1613  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1613  |
+#'  |1973  |1504  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1504  |
+#'  |1974  |1484  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1484  |
+#'  |1975  |1490  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1490  |
+#'  |1976  |1499  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1499  |
+#'  |1977  |1530  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1530  |
+#'  |1978  |1532  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1532  |
+#'  |1980  |1468  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1468  |
+#'  |1982  |1860  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1860  |
+#'  |1983  |1599  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1599  |
+#'  |1984  |1473  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1473  |
+#'  |1985  |1534  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1534  |
+#'  |1986  |1470  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1470  |
+#'  |1987  |1819  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1819  |
+#'  |1988  |1481  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1481  |
+#'  |1989  |1537  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1537  |
+#'  |1990  |1372  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1372  |
+#'  |1991  |1517  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1517  |
+#'  |1993  |1606  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1606  |
+#'  |1994  |2992  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2992  |
+#'  |1996  |2904  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2904  |
+#'  |1998  |2832  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2832  |
+#'  |2000  |2817  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2817  |
+#'  |2002  |2765  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2765  |
+#'  |2004  |2812  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2812  |
+#'  |2006  |4510  |-     |-        |-          |-                          |-         |-              |-                 |-                          |4510  |
+#'  |2008  |2023  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2023  |
+#'  |2010  |2044  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2044  |
+#'  |2012  |672   |832   |70       |20         |98                         |6         |267            |9                 |-                          |1974  |
+#'  |2014  |2538  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2538  |
+#'  |2016  |2867  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2867  |
+#'  |2018  |2348  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2348  |
+#'  |2021  |4032  |-     |-        |-          |-                          |-         |-              |-                 |-                          |4032  |
+#'  |2022  |-     |-     |-        |-          |-                          |-         |-              |-                 |3544                       |3544  |
+#'  |2024  |-     |-     |-        |-          |-                          |-         |-              |-                 |3309                       |3309  |
+#'  |Total |67544 |832   |70       |20         |98                         |6         |267            |9                 |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name eldersup
+NULL
+
+
 #'  Paid leave for childcare
 #' 
 #'  paidlv
 #' 
-#' Question Do you think there should be paid leave available and, if so, for how long?
+#' Question Consider a couple who both work full-time and now have a new born child. One of them stops working for some time to care for their child. Do you think there should be paid leave available and, if so, for how long?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` no, there should be no paid leave
+#'   * `1` yes, enter months
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4463/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,10 +243,37 @@
 #'  |2024  |-     |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                                 |-                 |-  |-  |-  |-              |3309                       |3309  |
 #'  |Total |69927 |6  |1  |322 |5  |17 |292 |38 |470 |13 |99 |5  |29 |557 |10 |8  |1  |20 |30 |59         |34        |306                               |131               |1  |1  |1  |7              |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B     |partial      |
+#'  |2022 |A/-     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name paidlv
+NULL
+
+
+#'  Who pays for leave
+#' 
+#'  paidlvpy
+#' 
+#' Question Consider a couple who both work full-time and now have a new born child. One of them stops working for some time to care for their child. Do you think there should be paid leave available and, if so, for how long? 
+#' B. And who should pay for this leave? The government, the employer, both the government and the employer, or other sources? 
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` no, there should be no paid leave
-#'   * `1` yes, enter months
+#'   * `1` the government
+#'   * `2` the employer
+#'   * `3` both government and the employer
+#'   * `4` other sources
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -65,22 +287,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name paidlv
-NULL
-
-#'  Who pays for leave
-#' 
-#'  paidlvpy
-#' 
-#' Question And who should pay for this leave? The government, the employer, both the government and the employer, or other sources?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4465/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,12 +331,36 @@ NULL
 #'  |2024  |-     |-                                |-          |-         |-             |-            |-              |3309                       |3309  |
 #'  |Total |67822 |489                              |41         |13        |53            |359          |69             |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name paidlvpy
+NULL
+
+
+#'  Mother or father paid leave
+#' 
+#'  paidlvdv
+#' 
+#' Question Still thinking about the same couple, if both are in a similar work situation and are eligible for paid leave, how should this paid leave period be divided between the mother and the father?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` the government
-#'   * `2` the employer
-#'   * `3` both government and the employer
-#'   * `4` other sources
+#'   * `1` the mother should take the entire paid leave period and the father should not take any paid leave
+#'   * `2` the mother should take most of the paid leave period and the father should take some of it
+#'   * `3` the mother and the father should each take half of the paid leave period
+#'   * `4` the father should take most of the paid leave period and the mother should take some of it
+#'   * `5` the father should take the entire paid leave period and the mother should not take any paid leave
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -142,22 +374,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name paidlvpy
-NULL
-
-#'  Mother or father paid leave
-#' 
-#'  paidlvdv
-#' 
-#' Question Still thinking about the same couple, if both are in a similar work situation and are eligible for paid leave, how should this paid leave period be divided between the mother and the father?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4466/vshow).
 #'
 #' Counts by year: 
 #'
@@ -200,13 +418,38 @@ NULL
 #'  |2024  |-     |-          |-         |-                                                                                          |-                                                                                                 |-                                                                        |-                                                                                          |-                                                                                                 |-              |3309                       |3309  |
 #'  |Total |70320 |232        |14        |4                                                                                          |6                                                                                                 |777                                                                      |633                                                                                        |400                                                                                               |4              |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B     |partial      |
+#'  |2022 |A/-     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name paidlvdv
+NULL
+
+
+#'  Best way to org family work life with under school age child
+#' 
+#'  famwkbst
+#' 
+#' Question Consider a family with a child under school age. What, in your opinion, is the best way for them to organize their family and work life? Shouldâ€¦
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` the mother should take the entire paid leave period and the father should not take any paid leave
-#'   * `2` the mother should take most of the paid leave period and the father should take some of it
-#'   * `3` the mother and the father should each take half of the paid leave period
-#'   * `4` the father should take most of the paid leave period and the mother should take some of it
-#'   * `5` the father should take the entire paid leave period and the mother should not take any paid leave
+#'   * `1` the mother stays at home and the father works full-time
+#'   * `2` the mother works part-time and the father works full-time
+#'   * `3` both the mother and father work full-time
+#'   * `4` both the mother and father work part-time
+#'   * `5` the father works part-time and the mother works full-time
+#'   * `6` the father stays at home and the mother works full-time
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -220,22 +463,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name paidlvdv
-NULL
-
-#'  Best way to org family work life with under school age child
-#' 
-#'  famwkbst
-#' 
-#' Question Consider a family with a child under school age. What, in your opinion, is the best way for them to organize their family and work life?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4467/vshow).
 #'
 #' Counts by year: 
 #'
@@ -278,6 +507,30 @@ NULL
 #'  |2024  |-     |-                                         |-                                         |-          |-         |-                                                       |-                                                         |-                                                       |-                                                         |-              |3309                       |3309  |
 #'  |Total |69927 |344                                       |154                                       |657        |16        |11                                                      |4                                                         |598                                                     |668                                                       |11             |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B     |partial      |
+#'  |2022 |A/-     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Family
+#' 
+#' @keywords variable
+#' @md
+#' @name famwkbst
+NULL
+
+
+#'  Wor'st way to org family work life with under school age child
+#' 
+#'  famwklst
+#' 
+#' Question And, in your opinion, which of these options would be the least desirable?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` the mother stays at home and the father works full-time
@@ -299,22 +552,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name famwkbst
-NULL
-
-#'  Wor'st way to org family work life with under school age child
-#' 
-#'  famwklst
-#' 
-#' Question And, in your opinion, which of these options would be the least desirable?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4468/vshow).
 #'
 #' Counts by year: 
 #'
@@ -357,14 +596,37 @@ NULL
 #'  |2024  |-     |-                                         |-                                         |-          |-         |-                                                       |-                                                         |-                                                       |-                                                         |-              |3309                       |3309  |
 #'  |Total |69928 |682                                       |234                                       |618        |20        |641                                                     |85                                                        |127                                                     |44                                                        |11             |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B     |partial      |
+#'  |2022 |A/-     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Family
+#' 
+#' @keywords variable
+#' @md
+#' @name famwklst
+NULL
+
+
+#'  Who should provide childcare for under school age child
+#' 
+#'  careprov
+#' 
+#' Question People have different views on childcare for children under school age. Who do you think should primarily provide childcare?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` the mother stays at home and the father works full-time
-#'   * `2` the mother works part-time and the father works full-time
-#'   * `3` both the mother and father work full-time
-#'   * `4` both the mother and father work part-time
-#'   * `5` the father works part-time and the mother works full-time
-#'   * `6` the father stays at home and the mother works full-time
+#'   * `1` family members
+#'   * `2` government agencies
+#'   * `3` non-profit organizations (e.g., charitable organizations, churches/religious organizations)
+#'   * `4` private childcare providers (e.g., private day care center, nanny, babysitter)
+#'   * `5` employers
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -378,22 +640,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name famwklst
-NULL
-
-#'  Who should provide childcare for under school age child
-#' 
-#'  careprov
-#' 
-#' Question People have different views on childcare for children under school age. Who do you think should primarily provide childcare?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4469/vshow).
 #'
 #' Counts by year: 
 #'
@@ -436,13 +684,35 @@ NULL
 #'  |2024  |-     |-          |-         |-              |-                   |-         |-                                                                                           |-                                                                              |-              |3309                       |3309  |
 #'  |Total |69928 |425        |184       |1073           |195                 |14        |68                                                                                          |493                                                                            |10             |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B     |partial      |
+#'  |2022 |A/-     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Spending
+#' 
+#' @keywords variable
+#' @md
+#' @name careprov
+NULL
+
+
+#'  Who should pay for costs of care for under school age child
+#' 
+#'  carecost
+#' 
+#' Question Who do you think should primarily cover the costs of childcare for children under school age?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` family members
-#'   * `2` government agencies
-#'   * `3` non-profit organizations (e.g., charitable organizations, churches/religious organizations)
-#'   * `4` private childcare providers (e.g., private day care center, nanny, babysitter)
-#'   * `5` employers
+#'   * `1` the family
+#'   * `2` the government/public funds
+#'   * `3` the employers
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -456,22 +726,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name careprov
-NULL
-
-#'  Who should pay for costs of care for under school age child
-#' 
-#'  carecost
-#' 
-#' Question Who do you think should primarily cover the costs of childcare for children under school age?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4470/vshow).
 #'
 #' Counts by year: 
 #'
@@ -514,11 +770,38 @@ NULL
 #'  |2024  |-     |-          |-         |-             |-          |-                           |-              |3309                       |3309  |
 #'  |Total |69928 |408        |13        |218           |1366       |448                         |9              |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B     |partial      |
+#'  |2022 |A/-     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Spending
+#' 
+#' @keywords variable
+#' @md
+#' @name carecost
+NULL
+
+
+#'  Who should provide help for elderly
+#' 
+#'  eldhelp
+#' 
+#' Question Thinking about elderly people who need some help in their everyday lives, such as help with grocery shopping, cleaning the house, doing the laundry etc. 
+#' Who do you think should primarily provide this help?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` the family
-#'   * `2` the government/public funds
-#'   * `3` the employers
+#'   * `1` family members
+#'   * `2` government agencies
+#'   * `3` non-profit organizations (e.g., charitable organizations, churches/religious organizations)
+#'   * `4` private providers of this kind of help
+#'   * `5` employers
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -532,22 +815,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name carecost
-NULL
-
-#'  Who should provide help for elderly
-#' 
-#'  eldhelp
-#' 
-#' Question Thinking about elderly people who need some help in their everyday lives, such as help with grocery shopping, cleaning the house, doing the laundry, etc. Who do you think should primarily provide this help?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4471/vshow).
 #'
 #' Counts by year: 
 #'
@@ -590,185 +859,20 @@ NULL
 #'  |2024  |-     |-          |-              |-                   |-         |-                                                                                           |-                                      |-         |-              |3309                       |3309  |
 #'  |Total |69928 |333        |1286           |481                 |12        |174                                                                                         |164                                    |7         |5              |3309                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` family members
-#'   * `2` government agencies
-#'   * `3` non-profit organizations (e.g., charitable organizations, churches/religious organizations)
-#'   * `4` private providers of this kind of help
-#'   * `5` employers
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B     |partial      |
+#'  |2022 |A/-     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Aged
 #' 
 #' @keywords variable
 #' @md
 #' @name eldhelp
 NULL
 
-#'  Who should pay for help for elderly
-#' 
-#'  eldcost
-#' 
-#' Question And who do you think should primarily cover the costs of this help to these elderly people?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no answer |the elderly people themselves or their family |the government/public funds |skipped on web |not available in this year |Total |
-#'  |:-----|:-----|:----------|:---------|:---------------------------------------------|:---------------------------|:--------------|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-         |-                                             |-                           |-              |-                          |1613  |
-#'  |1973  |1504  |-          |-         |-                                             |-                           |-              |-                          |1504  |
-#'  |1974  |1484  |-          |-         |-                                             |-                           |-              |-                          |1484  |
-#'  |1975  |1490  |-          |-         |-                                             |-                           |-              |-                          |1490  |
-#'  |1976  |1499  |-          |-         |-                                             |-                           |-              |-                          |1499  |
-#'  |1977  |1530  |-          |-         |-                                             |-                           |-              |-                          |1530  |
-#'  |1978  |1532  |-          |-         |-                                             |-                           |-              |-                          |1532  |
-#'  |1980  |1468  |-          |-         |-                                             |-                           |-              |-                          |1468  |
-#'  |1982  |1860  |-          |-         |-                                             |-                           |-              |-                          |1860  |
-#'  |1983  |1599  |-          |-         |-                                             |-                           |-              |-                          |1599  |
-#'  |1984  |1473  |-          |-         |-                                             |-                           |-              |-                          |1473  |
-#'  |1985  |1534  |-          |-         |-                                             |-                           |-              |-                          |1534  |
-#'  |1986  |1470  |-          |-         |-                                             |-                           |-              |-                          |1470  |
-#'  |1987  |1819  |-          |-         |-                                             |-                           |-              |-                          |1819  |
-#'  |1988  |1481  |-          |-         |-                                             |-                           |-              |-                          |1481  |
-#'  |1989  |1537  |-          |-         |-                                             |-                           |-              |-                          |1537  |
-#'  |1990  |1372  |-          |-         |-                                             |-                           |-              |-                          |1372  |
-#'  |1991  |1517  |-          |-         |-                                             |-                           |-              |-                          |1517  |
-#'  |1993  |1606  |-          |-         |-                                             |-                           |-              |-                          |1606  |
-#'  |1994  |2992  |-          |-         |-                                             |-                           |-              |-                          |2992  |
-#'  |1996  |2904  |-          |-         |-                                             |-                           |-              |-                          |2904  |
-#'  |1998  |2832  |-          |-         |-                                             |-                           |-              |-                          |2832  |
-#'  |2000  |2817  |-          |-         |-                                             |-                           |-              |-                          |2817  |
-#'  |2002  |2765  |-          |-         |-                                             |-                           |-              |-                          |2765  |
-#'  |2004  |2812  |-          |-         |-                                             |-                           |-              |-                          |2812  |
-#'  |2006  |4510  |-          |-         |-                                             |-                           |-              |-                          |4510  |
-#'  |2008  |2023  |-          |-         |-                                             |-                           |-              |-                          |2023  |
-#'  |2010  |2044  |-          |-         |-                                             |-                           |-              |-                          |2044  |
-#'  |2012  |672   |247        |6         |567                                           |482                         |-              |-                          |1974  |
-#'  |2014  |2538  |-          |-         |-                                             |-                           |-              |-                          |2538  |
-#'  |2016  |2867  |-          |-         |-                                             |-                           |-              |-                          |2867  |
-#'  |2018  |2348  |-          |-         |-                                             |-                           |-              |-                          |2348  |
-#'  |2021  |4032  |-          |-         |-                                             |-                           |-              |-                          |4032  |
-#'  |2022  |2385  |242        |5         |320                                           |586                         |6              |-                          |3544  |
-#'  |2024  |-     |-          |-         |-                                             |-                           |-              |3309                       |3309  |
-#'  |Total |69929 |489        |11        |887                                           |1068                        |6              |3309                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` the elderly people themselves or their family
-#'   * `2` the government/public funds
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name eldcost
-NULL
-
-#'  Who does household cleaning
-#' 
-#'  hhclean1
-#' 
-#' Question (In your household who does the following things...? Is it always you, usually you, about equal or both together, usually your (spouse/partner), always your (spouse/partner), or by a third person?)
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |about equal or both together |always me |always my spouse/partner |is done by a third person |no answer |usually me |usually my spouse/partner |don't know |skipped on web |not available in this year |Total |
-#'  |:-----|:-----|:----------------------------|:---------|:------------------------|:-------------------------|:---------|:----------|:-------------------------|:----------|:--------------|:--------------------------|:-----|
-#'  |1972  |1613  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |1613  |
-#'  |1973  |1504  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |1504  |
-#'  |1974  |1484  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |1484  |
-#'  |1975  |1490  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |1490  |
-#'  |1976  |1499  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |1499  |
-#'  |1977  |1530  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |1530  |
-#'  |1978  |1532  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |1532  |
-#'  |1980  |1468  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |1468  |
-#'  |1982  |1860  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |1860  |
-#'  |1983  |1599  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |1599  |
-#'  |1984  |1473  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |1473  |
-#'  |1985  |1534  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |1534  |
-#'  |1986  |1470  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |1470  |
-#'  |1987  |1819  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |1819  |
-#'  |1988  |1481  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |1481  |
-#'  |1989  |1537  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |1537  |
-#'  |1990  |1372  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |1372  |
-#'  |1991  |1517  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |1517  |
-#'  |1993  |1606  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |1606  |
-#'  |1994  |2992  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |2992  |
-#'  |1996  |2904  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |2904  |
-#'  |1998  |2832  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |2832  |
-#'  |2000  |2817  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |2817  |
-#'  |2002  |2765  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |2765  |
-#'  |2004  |2812  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |2812  |
-#'  |2006  |4510  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |4510  |
-#'  |2008  |2023  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |2023  |
-#'  |2010  |2044  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |2044  |
-#'  |2012  |1274  |194                          |165       |55                       |43                        |3         |124        |116                       |-          |-              |-                          |1974  |
-#'  |2014  |2538  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |2538  |
-#'  |2016  |2867  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |2867  |
-#'  |2018  |2348  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |2348  |
-#'  |2021  |4032  |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |-                          |4032  |
-#'  |2022  |3024  |189                          |62        |31                       |33                        |1         |94         |101                       |7          |2              |-                          |3544  |
-#'  |2024  |-     |-                            |-         |-                        |-                         |-         |-          |-                         |-          |-              |3309                       |3309  |
-#'  |Total |71170 |383                          |227       |86                       |76                        |4         |218        |217                       |7          |2              |3309                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` always me
-#'   * `2` usually me
-#'   * `3` about equal or both together
-#'   * `4` usually my spouse/partner
-#'   * `5` always my spouse/partner
-#'   * `6` is done by a third person
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hhclean1
-NULL
 

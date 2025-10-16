@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 getmar1
 }
 \details{
-Question 936. People differ in their ideas about what it takes for a young person to become an adult these days. How important is it for them to... ...get married a. By what age should this normally occur?
+Question People differ in their ideas about what it takes for a young person to become an adult these days. How important is it for them to...
+get married
+A. By what age should this normally occur?
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2909/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllll}{
    year \tab iap \tab 18 \tab 19 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 27 \tab 28 \tab 29 \tab 30 \tab 31 \tab 32 \tab 33 \tab 34 \tab 35 \tab 40 \tab 42 \tab 50 \tab 60 \tab 65 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +77,35 @@ Counts by year:\tabular{lllllllllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Adult Transitions: 
+\code{\link{boycott}},
+\code{\link{conoffcl}},
+\code{\link{getmar}},
+\code{\link{havchld}},
+\code{\link{havchld1}},
+\code{\link{protest}},
+\code{\link{signpet}},
+\code{\link{supfam}},
+\code{\link{supfam1}}
+
+Other Adult Transitions: 
+\code{\link{boycott}},
+\code{\link{conoffcl}},
+\code{\link{getmar}},
+\code{\link{havchld}},
+\code{\link{havchld1}},
+\code{\link{protest}},
+\code{\link{signpet}},
+\code{\link{supfam}},
+\code{\link{supfam1}}
+}
+\concept{Adult Transitions}
 \keyword{variable}

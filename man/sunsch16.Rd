@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 sunsch16
 }
 \details{
-Question 362. When you were growing up, did you attend Sunday school or religious instruction classes regularly, most of the time, some of the time, or never?
+Question When you were growing up, did you attend Sunday school or religious instruction classes regularly, most of the time, some of the time, or never?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} regularly
+\item \code{2} most of the time
+\item \code{3} some of the time
+\item \code{4} never
+\item \code{5} att parochial sch
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1069/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab att parochial sch \tab most of the time \tab never \tab no answer \tab regularly \tab some of the time \tab not available in this year \tab Total \cr
@@ -57,27 +80,36 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} regularly
-\item \code{2} most of the time
-\item \code{3} some of the time
-\item \code{4} never
-\item \code{5} att parochial sch
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1988 \tab A/B/C \tab full \cr
+   1998 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Religion: 
+\code{\link{churhsch}},
+\code{\link{mafund}},
+\code{\link{majew}},
+\code{\link{maoth}},
+\code{\link{paden}},
+\code{\link{pafund}},
+\code{\link{pajew}},
+\code{\link{paoth}},
+\code{\link{parelig}}
+
+Other Religion: 
+\code{\link{churhsch}},
+\code{\link{mafund}},
+\code{\link{majew}},
+\code{\link{maoth}},
+\code{\link{paden}},
+\code{\link{pafund}},
+\code{\link{pajew}},
+\code{\link{paoth}},
+\code{\link{parelig}}
+}
+\concept{Religion}
 \keyword{variable}

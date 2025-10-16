@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 mntlas1
 }
 \details{
-Question 665. Of course, everybody hears a good deal about physical illness and disease, but now, what about the ones we call mental or nervous illness?...When you hear someone say that a person is "mentally-ill," what does that mean to you? (PROBES: How would you describe a person who is mentally-ill? What do you think a mentally-ill person is like? What does a person like this do that tells you he is mentally-ill? How does a person like this act?)
+Question Of course, everybody hears a good deal about physical illness and disease, but now, what about the ones we call mental or nervous illness?...When you hear someone say that a person is "mentally-ill," what does that mean to you? (PROBES: How would you describe a person who is mentally-ill?  What do you think a mentally-ill person is like?  What does a person like this do that tells you he is mentally-ill?  How does a person like this act?)
+\enumerate{
+\item R's asserted references for what mental illness is -- First mention.
 }
+}
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2040/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllll}{
    year \tab iap \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 2 \tab 22 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +78,35 @@ Counts by year:\tabular{llllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Mental Health: 
+\code{\link{dangroth}},
+\code{\link{dangrslf}},
+\code{\link{govmentl}},
+\code{\link{medcare1}},
+\code{\link{medcare2}},
+\code{\link{mustdoc}},
+\code{\link{musthosp}},
+\code{\link{mustmed}},
+\code{\link{spmentl}}
+
+Other Mental Health: 
+\code{\link{dangroth}},
+\code{\link{dangrslf}},
+\code{\link{govmentl}},
+\code{\link{medcare1}},
+\code{\link{medcare2}},
+\code{\link{mustdoc}},
+\code{\link{musthosp}},
+\code{\link{mustmed}},
+\code{\link{spmentl}}
+}
+\concept{Mental Health}
 \keyword{variable}

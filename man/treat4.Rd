@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 treat4
 }
 \details{
-Question 842. Next, I'm going to read you some descriptions of health problems people sometimes experience. Some people might go to a doctor, others might not. d. Being limited in the kind of work or other regular daily activities you do as a result of your physical health?
+Question Next, Iâ€™m going to read you some descriptions of health problems people sometimes experience. Some people might go to a doctor, others might not.
+D. Being limited in the kind of work or other regular daily activities you Do as a result of your physical health?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} definitely go
+\item \code{2} probably go
+\item \code{3} probably not go
+\item \code{4} definitely not go
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2691/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab definitely go \tab definitely not go \tab don't know \tab no answer \tab probably go \tab probably not go \tab not available in this year \tab Total \cr
@@ -57,26 +80,36 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} definitely go
-\item \code{2} probably go
-\item \code{3} probably not go
-\item \code{4} definitely not go
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Health Status: 
+\code{\link{downblue}},
+\code{\link{energy}},
+\code{\link{pain}},
+\code{\link{peaceful}},
+\code{\link{socacts}},
+\code{\link{treat1}},
+\code{\link{treat2}},
+\code{\link{treat3}},
+\code{\link{treat5}}
+
+Other Health: 
+\code{\link{downblue}},
+\code{\link{energy}},
+\code{\link{pain}},
+\code{\link{peaceful}},
+\code{\link{socacts}},
+\code{\link{treat1}},
+\code{\link{treat2}},
+\code{\link{treat3}},
+\code{\link{treat5}}
+}
+\concept{Health}
+\concept{Health Status}
 \keyword{variable}

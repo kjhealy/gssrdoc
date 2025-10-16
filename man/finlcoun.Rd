@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 finlcoun
 }
 \details{
-Question Financial counseling. (Is financial counseling...?)
+Question K. Financial counseling. (Is financial counseling...?)
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very scientific
+\item \code{2} pretty scientific
+\item \code{3} not too scientific
+\item \code{4} not scientific at all
+\item \code{5} haven't heard of it (volunteered)
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3547/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab don't know \tab haven't heard of it (volunteered) \tab no answer \tab not scientific at all \tab not too scientific \tab pretty scientific \tab very scientific \tab not available in this year \tab Total \cr
@@ -57,27 +80,68 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very scientific
-\item \code{2} pretty scientific
-\item \code{3} not too scientific
-\item \code{4} not scientific at all
-\item \code{5} haven't heard of it (volunteered)
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2012 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{architct}},
+\code{\link{cmprgmng}},
+\code{\link{engnring}},
+\code{\link{fireftng}},
+\code{\link{lawenfrc}},
+\code{\link{marrcoun}},
+\code{\link{medtreat}},
+\code{\link{slsmnshp}}
+
+Other Employment: 
+\code{\link{architct}},
+\code{\link{cmprgmng}},
+\code{\link{engnring}},
+\code{\link{fireftng}},
+\code{\link{lawenfrc}},
+\code{\link{marrcoun}},
+\code{\link{medtreat}},
+\code{\link{slsmnshp}}
+
+Other Job: 
+\code{\link{architct}},
+\code{\link{cmprgmng}},
+\code{\link{engnring}},
+\code{\link{fireftng}},
+\code{\link{lawenfrc}},
+\code{\link{marrcoun}},
+\code{\link{medtreat}},
+\code{\link{slsmnshp}}
+
+Other Occupation: 
+\code{\link{architct}},
+\code{\link{cmprgmng}},
+\code{\link{engnring}},
+\code{\link{fireftng}},
+\code{\link{lawenfrc}},
+\code{\link{marrcoun}},
+\code{\link{medtreat}},
+\code{\link{slsmnshp}}
+
+Other Work: 
+\code{\link{architct}},
+\code{\link{buyvalue}},
+\code{\link{cmprgmng}},
+\code{\link{engnring}},
+\code{\link{fireftng}},
+\code{\link{lawenfrc}},
+\code{\link{marrcoun}},
+\code{\link{medtreat}},
+\code{\link{slsmnshp}}
+}
+\concept{Employment}
+\concept{Job}
+\concept{Occupation}
+\concept{Science Knowledge & Attitudes}
+\concept{Work}
 \keyword{variable}

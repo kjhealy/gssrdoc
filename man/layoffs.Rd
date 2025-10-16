@@ -10,11 +10,46 @@ General Social Survey https://gss.norc.org
 layoffs
 }
 \details{
-Question 639. From time to time companies must lay-off some of their employees. If some have to be laid-off, who, in your opinion, has the greatest right to keep their jobs? 1. Those who have worked for the company the longest time (have the most seniority) 2. Those who have the greatest needs/the greatest burden to support a family. 3. Those who are the best workers, the most able and productive 4. Those who would have the greatest difficulty in finding a new job 5. Union members 6. Older employees 7. Younger employees 8. Men 9. Women 10. Whites 11. Minorities/non-whites 12. Other (specify) 13. Owners, bosses, executives 14. Essential, necessary, critical 15. Newest employees 16. Most loyal 17. Production, blue-collar, hands-on people
+Question From time to time companies must lay-off some of their employees. If some have to be laid-off, who, in your opinion, has the greatest right to keep their jobs?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} those who have worked longest
+\item \code{2} those who have the greatest needs
+\item \code{3} those who are the best workers
+\item \code{4} difficulty in finding a new job
+\item \code{5} union members
+\item \code{6} older employees
+\item \code{7} younger employees
+\item \code{8} men
+\item \code{9} women
+\item \code{10} whites
+\item \code{11} minorities-non-whites
+\item \code{12} other -please specify
+\item \code{13} owners,bosses
+\item \code{14} essential employees
+\item \code{15} newest employees
+\item \code{16} most loyal employees
+\item \code{17} production. hands-on employees
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1884/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllll}{
    year \tab iap \tab difficulty in finding a new job \tab don't know \tab essential employees \tab men \tab minorities-non-whites \tab most loyal employees \tab newest employees \tab no answer \tab older employees \tab other -please specify \tab owners,bosses \tab production. hands-on employees \tab those who are the best workers \tab those who have the greatest needs \tab those who have worked longest \tab union members \tab younger employees \tab not available in this year \tab Total \cr
@@ -57,39 +92,21 @@ Counts by year:\tabular{lllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} those who have worked longest
-\item \code{2} those who have the greatest needs
-\item \code{3} those who are the best workers
-\item \code{4} difficulty in finding a new job
-\item \code{5} union members
-\item \code{6} older employees
-\item \code{7} younger employees
-\item \code{8} men
-\item \code{9} women
-\item \code{10} whites
-\item \code{11} minorities-non-whites
-\item \code{12} other -please specify
-\item \code{13} owners,bosses
-\item \code{14} essential employees
-\item \code{15} newest employees
-\item \code{16} most loyal employees
-\item \code{17} production. hands-on employees
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Markets: 
+\code{\link{decbed}},
+\code{\link{decgift}}
+}
+\concept{Employment}
+\concept{Job}
+\concept{Markets}
+\concept{Occupation}
+\concept{Work}
 \keyword{variable}

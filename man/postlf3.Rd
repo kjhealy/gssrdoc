@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 postlf3
 }
 \details{
-Question 108a. Of course, no one knows exactly what life after death would be like, but her are some ideas people have had. How likely do you feel each possibility is? 3. A life liek the one here on earth only better.
+Question Do you believe there is a life after death?
+A. Of course, no one knows exactly what life after death would be like, but here are some ideas people have had. (HAND CARD AA) How likely do you feel each possibility is? Would you say very likely, somewhat likely, not too likely, or not likely at all? (CIRCLE ONE NUMBER BESIDE EACH IDEA)
+3. A life like the one here on earth only better.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very likely
+\item \code{2} somewhat likely
+\item \code{3} not too likely
+\item \code{4} not likely at all
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/303/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab don't know \tab no answer \tab not likely at all \tab not too likely \tab somewhat likely \tab very likely \tab not available in this year \tab Total \cr
@@ -57,26 +81,37 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very likely
-\item \code{2} somewhat likely
-\item \code{3} not too likely
-\item \code{4} not likely at all
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1983 \tab - \tab full \cr
+   1984 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{postlf1}},
+\code{\link{postlf10}},
+\code{\link{postlf2}},
+\code{\link{postlf4}},
+\code{\link{postlf5}},
+\code{\link{postlf6}},
+\code{\link{postlf7}},
+\code{\link{postlf8}},
+\code{\link{postlf9}}
+
+Other Religion: 
+\code{\link{postlf1}},
+\code{\link{postlf10}},
+\code{\link{postlf2}},
+\code{\link{postlf4}},
+\code{\link{postlf5}},
+\code{\link{postlf6}},
+\code{\link{postlf7}},
+\code{\link{postlf8}},
+\code{\link{postlf9}}
+}
+\concept{Core}
+\concept{Religion}
 \keyword{variable}

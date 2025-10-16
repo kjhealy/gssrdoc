@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 racsubgv
 }
 \details{
-Question 261. What about the city government in white suburbs? Do you think they should encourage (negro/black) people to buy homes in the suburbs, should they discourage them, or should they leave it to private efforts?
+Question What about the city government in white suburbs? Do you think they should encourage (Negro/Black) people to buy homes in the suburbs, should they discourage them, or should they leave it to private efforts?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} encourage
+\item \code{2} discourage
+\item \code{3} leave alone
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/720/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab discourage \tab don't know \tab encourage \tab leave alone \tab no answer \tab not available in this year \tab Total \cr
@@ -57,25 +78,28 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} encourage
-\item \code{2} discourage
-\item \code{3} leave alone
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1977 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{erafirm}},
+\code{\link{eraimp}},
+\code{\link{erainfo}},
+\code{\link{erawhy1}},
+\code{\link{erawhy2}},
+\code{\link{erawhy3}},
+\code{\link{febear}},
+\code{\link{feworkif}},
+\code{\link{racsubs}}
+
+Other Race: 
+\code{\link{racsubs}}
+}
+\concept{Core}
+\concept{Race}
 \keyword{variable}

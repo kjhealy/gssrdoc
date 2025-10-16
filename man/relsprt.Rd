@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 relsprt
 }
 \details{
-Question None
+Question What best describes you:
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} i follow a religion and consider myself to be a spiritual person interested in the sacred and the supernatural
+\item \code{2} i follow a religion, but don't consider myself to be a spiritual person interested in the sacred and the supernat
+\item \code{3} i don't follow a religion, but consider myself to be a spiritual person interested in the sacred and the supernat
+\item \code{4} i don't follow a religion and don't consider myself to be a spiritual person interested in the sacred and the sup
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4711/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab don't know \tab i don't follow a religion and don't consider myself to be a spiritual person interested in the sacred and the sup \tab i don't follow a religion, but consider myself to be a spiritual person interested in the sacred and the supernat \tab i follow a religion and consider myself to be a spiritual person interested in the sacred and the supernatural \tab i follow a religion, but don't consider myself to be a spiritual person interested in the sacred and the supernat \tab no answer \tab not available in this year \tab Total \cr
@@ -57,26 +79,31 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} i follow a religion and consider myself to be a spiritual person interested in the sacred and the supernatural
-\item \code{2} i follow a religion, but don't consider myself to be a spiritual person interested in the sacred and the supernat
-\item \code{3} i don't follow a religion, but consider myself to be a spiritual person interested in the sacred and the supernat
-\item \code{4} i don't follow a religion and don't consider myself to be a spiritual person interested in the sacred and the sup
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2008 \tab B/C \tab partial \cr
+   2018 \tab A/B \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Religion: 
+\code{\link{comfort}},
+\code{\link{makefrnd}},
+\code{\link{paxhappy}},
+\code{\link{relobjct}},
+\code{\link{rightpeo}},
+\code{\link{vistholy}}
+
+Other Religion: 
+\code{\link{comfort}},
+\code{\link{makefrnd}},
+\code{\link{paxhappy}},
+\code{\link{relobjct}},
+\code{\link{rightpeo}},
+\code{\link{vistholy}}
+}
+\concept{ISSP Religion}
+\concept{Religion}
 \keyword{variable}

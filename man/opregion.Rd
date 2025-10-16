@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 opregion
 }
 \details{
-Question 1250. Please show for each of these how important you think it is for getting ahead in life . . . k. The part of the country a person comes from?
+Question Please show for each of these how important you think it is for getting ahead in life . . .
+K. The part of the country a person comes from?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} essential
+\item \code{2} very important
+\item \code{3} fairly important
+\item \code{4} not very important
+\item \code{5} not important at all
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4251/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab can't choose \tab essential \tab fairly important \tab no answer \tab not important at all \tab not very important \tab very important \tab not available in this year \tab Total \cr
@@ -57,27 +81,36 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} essential
-\item \code{2} very important
-\item \code{3} fairly important
-\item \code{4} not very important
-\item \code{5} not important at all
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1987 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Social Inequality: 
+\code{\link{opable}},
+\code{\link{opambit}},
+\code{\link{opclout}},
+\code{\link{opeduc}},
+\code{\link{ophrdwrk}},
+\code{\link{opknow}},
+\code{\link{oppared}},
+\code{\link{oprace}},
+\code{\link{oprelig}}
+
+Other Social Mobility: 
+\code{\link{opable}},
+\code{\link{opambit}},
+\code{\link{opclout}},
+\code{\link{opeduc}},
+\code{\link{ophrdwrk}},
+\code{\link{opknow}},
+\code{\link{oppared}},
+\code{\link{oprace}},
+\code{\link{oprelig}}
+}
+\concept{ISSP Social Inequality}
+\concept{Social Mobility}
 \keyword{variable}

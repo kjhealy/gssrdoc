@@ -1,11 +1,124 @@
+#'  Self-control-version z
+#' 
+#'  controlz
+#' 
+#' Question Please look at the qualities listed on this card. (SHOW CARD: 
+#' LET R. INSPECT) All of the qualities may be desirable for a child to have, but could you tell me whether the quality is extremely important, very important, fairly important, not too important, or not at all important. READ AND RECORD RESPONSES FOR EACH.
+#' F. That he has self-control
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` extremely impt
+#'   * `2` very impt
+#'   * `3` fairly impt
+#'   * `4` not too impt
+#'   * `5` not at all impt
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/505/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |extremely impt |fairly impt |no answer |not at all impt |not too impt |very impt |not available in this year |Total |
+#'  |:-----|:-----|:----------|:--------------|:-----------|:---------|:---------------|:------------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-              |-           |-         |-               |-            |-         |-                          |1613  |
+#'  |1973  |1504  |-          |-              |-           |-         |-               |-            |-         |-                          |1504  |
+#'  |1974  |1484  |-          |-              |-           |-         |-               |-            |-         |-                          |1484  |
+#'  |1975  |1490  |-          |-              |-           |-         |-               |-            |-         |-                          |1490  |
+#'  |1976  |1499  |-          |-              |-           |-         |-               |-            |-         |-                          |1499  |
+#'  |1977  |1530  |-          |-              |-           |-         |-               |-            |-         |-                          |1530  |
+#'  |1978  |1532  |-          |-              |-           |-         |-               |-            |-         |-                          |1532  |
+#'  |1980  |985   |1          |168            |50          |4         |1               |11           |248       |-                          |1468  |
+#'  |1982  |1860  |-          |-              |-           |-         |-               |-            |-         |-                          |1860  |
+#'  |1983  |1599  |-          |-              |-           |-         |-               |-            |-         |-                          |1599  |
+#'  |1984  |1473  |-          |-              |-           |-         |-               |-            |-         |-                          |1473  |
+#'  |1985  |1534  |-          |-              |-           |-         |-               |-            |-         |-                          |1534  |
+#'  |1986  |1470  |-          |-              |-           |-         |-               |-            |-         |-                          |1470  |
+#'  |1987  |1819  |-          |-              |-           |-         |-               |-            |-         |-                          |1819  |
+#'  |1988  |1481  |-          |-              |-           |-         |-               |-            |-         |-                          |1481  |
+#'  |1989  |1537  |-          |-              |-           |-         |-               |-            |-         |-                          |1537  |
+#'  |1990  |1372  |-          |-              |-           |-         |-               |-            |-         |-                          |1372  |
+#'  |1991  |1517  |-          |-              |-           |-         |-               |-            |-         |-                          |1517  |
+#'  |1993  |1606  |-          |-              |-           |-         |-               |-            |-         |-                          |1606  |
+#'  |1994  |2992  |-          |-              |-           |-         |-               |-            |-         |-                          |2992  |
+#'  |1996  |2904  |-          |-              |-           |-         |-               |-            |-         |-                          |2904  |
+#'  |1998  |2832  |-          |-              |-           |-         |-               |-            |-         |-                          |2832  |
+#'  |2000  |2817  |-          |-              |-           |-         |-               |-            |-         |-                          |2817  |
+#'  |2002  |2765  |-          |-              |-           |-         |-               |-            |-         |-                          |2765  |
+#'  |2004  |2812  |-          |-              |-           |-         |-               |-            |-         |-                          |2812  |
+#'  |2006  |4510  |-          |-              |-           |-         |-               |-            |-         |-                          |4510  |
+#'  |2008  |2023  |-          |-              |-           |-         |-               |-            |-         |-                          |2023  |
+#'  |2010  |2044  |-          |-              |-           |-         |-               |-            |-         |-                          |2044  |
+#'  |2012  |1974  |-          |-              |-           |-         |-               |-            |-         |-                          |1974  |
+#'  |2014  |2538  |-          |-              |-           |-         |-               |-            |-         |-                          |2538  |
+#'  |2016  |2867  |-          |-              |-           |-         |-               |-            |-         |-                          |2867  |
+#'  |2018  |2348  |-          |-              |-           |-         |-               |-            |-         |-                          |2348  |
+#'  |2021  |4032  |-          |-              |-           |-         |-               |-            |-         |-                          |4032  |
+#'  |2022  |-     |-          |-              |-           |-         |-               |-            |-         |3544                       |3544  |
+#'  |2024  |-     |-          |-              |-           |-         |-               |-            |-         |3309                       |3309  |
+#'  |Total |68363 |1          |168            |50          |4         |1               |11           |248       |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1980 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name controlz
+NULL
+
+
 #'  Acts like boy-acts like girl-version z
 #' 
 #'  rolez
 #' 
-#' Question 169. Please look at the qualities listed on this card. All of the qualities may be desirable for a child to have, but could you tell me whether the quality is extremely important, very important, fairly important, not too important, or not at all important. g. That he acts like a boy (she acts like a girl)
+#' Question Please look at the qualities listed on this card. (SHOW CARD: 
+#' LET R. INSPECT) All of the qualities may be desirable for a child to have, but could you tell me whether the quality is extremely important, very important, fairly important, not too important, or not at all important. READ AND RECORD RESPONSES FOR EACH.
+#' G. That he acts like a boy (she acts likes a girl)
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` extremely impt
+#'   * `2` very impt
+#'   * `3` fairly impt
+#'   * `4` not too impt
+#'   * `5` not at all impt
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/506/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +161,32 @@
 #'  |2024  |-     |-          |-              |-           |-         |-               |-            |-         |3309                       |3309  |
 #'  |Total |68363 |1          |105            |110         |3         |12              |63           |189       |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1980 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name rolez
+NULL
+
+
+#'  Gets along with other children-version z
+#' 
+#'  amicablz
+#' 
+#' Question Please look at the qualities listed on this card. (SHOW CARD: 
+#' LET R. INSPECT) All of the qualities may be desirable for a child to have, but could you tell me whether the quality is extremely important, very important, fairly important, not too important, or not at all important. READ AND RECORD RESPONSES FOR EACH.
+#' H. That he gets along well with other children
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` extremely impt
@@ -68,22 +207,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name rolez
-NULL
-
-#'  Gets along with other children-version z
-#' 
-#'  amicablz
-#' 
-#' Question 169. Please look at the qualities listed on this card. All of the qualities may be desirable for a child to have, but could you tell me whether the quality is extremely important, very important, fairly important, not too important, or not at all important. h. That he gets along well with other children
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/507/vshow).
 #'
 #' Counts by year: 
 #'
@@ -126,6 +251,32 @@ NULL
 #'  |2024  |-     |-          |-              |-           |-         |-            |-         |3309                       |3309  |
 #'  |Total |68363 |1          |101            |125         |4         |6            |246       |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1980 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name amicablz
+NULL
+
+
+#'  Obeys parents well-version z
+#' 
+#'  obeysz
+#' 
+#' Question Please look at the qualities listed on this card. (SHOW CARD: 
+#' LET R. INSPECT) All of the qualities may be desirable for a child to have, but could you tell me whether the quality is extremely important, very important, fairly important, not too important, or not at all important. READ AND RECORD RESPONSES FOR EACH.
+#' I. That he obeys his parents well
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` extremely impt
@@ -146,22 +297,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name amicablz
-NULL
-
-#'  Obeys parents well-version z
-#' 
-#'  obeysz
-#' 
-#' Question 169. Please look at the qualities listed on this card. All of the qualities may be desirable for a child to have, but could you tell me whether the quality is extremely important, very important, fairly important, not too important, or not at all important. i. That he obeys his parents well.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/508/vshow).
 #'
 #' Counts by year: 
 #'
@@ -204,6 +341,32 @@ NULL
 #'  |2024  |-     |-              |-           |-         |-               |-            |-         |3309                       |3309  |
 #'  |Total |68363 |201            |58          |7         |1               |3            |213       |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1980 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name obeysz
+NULL
+
+
+#'  Responsible-version z
+#' 
+#'  responsz
+#' 
+#' Question Please look at the qualities listed on this card. (SHOW CARD: 
+#' LET R. INSPECT) All of the qualities may be desirable for a child to have, but could you tell me whether the quality is extremely important, very important, fairly important, not too important, or not at all important. READ AND RECORD RESPONSES FOR EACH.
+#' J. That he is responsible
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` extremely impt
@@ -224,22 +387,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name obeysz
-NULL
-
-#'  Responsible-version z
-#' 
-#'  responsz
-#' 
-#' Question 169. Please look at the qualities listed on this card. All of the qualities may be desirable for a child to have, but could you tell me whether the quality is extremely important, very important, fairly important, not too important, or not at all important. j. That he is responsible.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/509/vshow).
 #'
 #' Counts by year: 
 #'
@@ -282,6 +431,32 @@ NULL
 #'  |2024  |-     |-          |-              |-           |-         |-            |-         |3309                       |3309  |
 #'  |Total |68363 |1          |182            |33          |4         |6            |257       |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1980 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name responsz
+NULL
+
+
+#'  Considerate of others-version z
+#' 
+#'  considez
+#' 
+#' Question Please look at the qualities listed on this card. (SHOW CARD: 
+#' LET R. INSPECT) All of the qualities may be desirable for a child to have, but could you tell me whether the quality is extremely important, very important, fairly important, not too important, or not at all important. READ AND RECORD RESPONSES FOR EACH.
+#' K. That he is considerate of others
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` extremely impt
@@ -302,22 +477,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name responsz
-NULL
-
-#'  Considerate of others-version z
-#' 
-#'  considez
-#' 
-#' Question 169. Please look at the qualities listed on this card. All of the qualities may be desirable for a child to have, but could you tell me whether the quality is extremely important, very important, fairly important, not too important, or not at all important. k. That he is considerate of others.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/510/vshow).
 #'
 #' Counts by year: 
 #'
@@ -360,6 +521,32 @@ NULL
 #'  |2024  |-     |-              |-           |-         |-            |-         |3309                       |3309  |
 #'  |Total |68363 |177            |37          |4         |2            |263       |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1980 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name considez
+NULL
+
+
+#'  Interested how things happen-version z
+#' 
+#'  interesz
+#' 
+#' Question Please look at the qualities listed on this card. (SHOW CARD: 
+#' LET R. INSPECT) All of the qualities may be desirable for a child to have, but could you tell me whether the quality is extremely important, very important, fairly important, not too important, or not at all important. READ AND RECORD RESPONSES FOR EACH.
+#' L. That he is interested in how and why things happen
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` extremely impt
@@ -380,22 +567,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name considez
-NULL
-
-#'  Interested how things happen-version z
-#' 
-#'  interesz
-#' 
-#' Question 169. Please look at the qualities listed on this card. All of the qualities may be desirable for a child to have, but could you tell me whether the quality is extremely important, very important, fairly important, not too important, or not at all important. l. That he is interested in how and why things happen.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/511/vshow).
 #'
 #' Counts by year: 
 #'
@@ -438,6 +611,32 @@ NULL
 #'  |2024  |-     |-              |-           |-         |-               |-            |-         |3309                       |3309  |
 #'  |Total |68363 |121            |101         |3         |3               |16           |239       |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1980 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name interesz
+NULL
+
+
+#'  Good student-version z
+#' 
+#'  studiouz
+#' 
+#' Question Please look at the qualities listed on this card. (SHOW CARD: 
+#' LET R. INSPECT) All of the qualities may be desirable for a child to have, but could you tell me whether the quality is extremely important, very important, fairly important, not too important, or not at all important. READ AND RECORD RESPONSES FOR EACH.
+#' M. That he is a good student
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` extremely impt
@@ -458,22 +657,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name interesz
-NULL
-
-#'  Good student-version z
-#' 
-#'  studiouz
-#' 
-#' Question 169. Please look at the qualities listed on this card. All of the qualities may be desirable for a child to have, but could you tell me whether the quality is extremely important, very important, fairly important, not too important, or not at all important. m. That he is a good student.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/512/vshow).
 #'
 #' Counts by year: 
 #'
@@ -516,13 +701,41 @@ NULL
 #'  |2024  |-     |-          |-              |-           |-         |-               |-            |-         |3309                       |3309  |
 #'  |Total |68363 |2          |101            |141         |4         |1               |23           |211       |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1980 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name studiouz
+NULL
+
+
+#'  To obey
+#' 
+#'  obey
+#' 
+#' Question If you had to choose, which thing on this list would you pick as the most important for a child to learn to prepare him or her for life?  (INTERVIEWER: READ CHOICES) 
+#' A. Which comes next in importance?
+#' B. Which comes third?
+#' C. Which comes fourth?
+#' 1. To obey
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` extremely impt
-#'   * `2` very impt
-#'   * `3` fairly impt
-#'   * `4` not too impt
-#'   * `5` not at all impt
+#'   * `1` first
+#'   * `2` second
+#'   * `3` third
+#'   * `4` fourth
+#'   * `5` fifth
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -536,22 +749,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name studiouz
-NULL
-
-#'  To obey
-#' 
-#'  obey
-#' 
-#' Question 170. If you had to choose, which thing on this list would you pick as the most important for a child to learn to prepare him or her for life? a. Which comes next in importantc? b. Which comes third? c. Which comes fourth? TO OBEY
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/513/vshow).
 #'
 #' Counts by year: 
 #'
@@ -594,6 +793,55 @@ NULL
 #'  |2024  |-     |-     |-     |-      |-         |-      |-     |3309                          |3309  |
 #'  |Total |39964 |5520  |4934  |12578  |619       |3734   |5041  |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'  |1996 |B/C     |partial      |
+#'  |1998 |B/C     |partial      |
+#'  |2000 |B/C     |partial      |
+#'  |2002 |B/C     |partial      |
+#'  |2004 |B/C     |partial      |
+#'  |2006 |B/C     |partial      |
+#'  |2008 |B/C     |partial      |
+#'  |2010 |B/C     |partial      |
+#'  |2012 |B/C     |partial      |
+#'  |2014 |B/C     |partial      |
+#'  |2016 |B/C     |partial      |
+#'  |2018 |B/C     |partial      |
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'  |2024 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name obey
+NULL
+
+
+#'  To be well liked or popular
+#' 
+#'  popular
+#' 
+#' Question If you had to choose, which thing on this list would you pick as the most important for a child to learn to prepare him or her for life?  (INTERVIEWER: READ CHOICES) 
+#' A. Which comes next in importance?
+#' B. Which comes third?
+#' C. Which comes fourth?
+#' 2. To be well-liked or popular
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` first
@@ -614,22 +862,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name obey
-NULL
-
-#'  To be well liked or popular
-#' 
-#'  popular
-#' 
-#' Question 170. If you had to choose, which thing on this list would you pick as the most important for a child to learn to prepare him or her for life? a. Which comes next in importantc? b. Which comes third? c. Which comes fourth? TO BE WELL-LIKED OR POPULAR
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/514/vshow).
 #'
 #' Counts by year: 
 #'
@@ -672,109 +906,41 @@ NULL
 #'  |2024  |-     |-     |-     |-      |-         |-      |-     |3309                          |3309  |
 #'  |Total |39964 |23545 |211   |6313   |619       |598    |1140  |3309                          |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` first
-#'   * `2` second
-#'   * `3` third
-#'   * `4` fourth
-#'   * `5` fifth
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'  |1996 |B/C     |partial      |
+#'  |1998 |B/C     |partial      |
+#'  |2000 |B/C     |partial      |
+#'  |2002 |B/C     |partial      |
+#'  |2004 |B/C     |partial      |
+#'  |2006 |B/C     |partial      |
+#'  |2008 |B/C     |partial      |
+#'  |2010 |B/C     |partial      |
+#'  |2012 |B/C     |partial      |
+#'  |2014 |B/C     |partial      |
+#'  |2016 |B/C     |partial      |
+#'  |2018 |B/C     |partial      |
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'  |2024 |B/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
 #' @name popular
 NULL
 
-#'  To think for ones self
-#' 
-#'  thnkself
-#' 
-#' Question 170. If you had to choose, which thing on this list would you pick as the most important for a child to learn to prepare him or her for life? a. Which comes next in importantc? b. Which comes third? c. Which comes fourth? TO THINK FOR HIMSELF OR HERSELF
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |fifth |first |fourth |no answer |second |third |not available in this release |Total |
-#'  |:-----|:-----|:-----|:-----|:------|:---------|:------|:-----|:-----------------------------|:-----|
-#'  |1972  |1613  |-     |-     |-      |-         |-      |-     |-                             |1613  |
-#'  |1973  |1504  |-     |-     |-      |-         |-      |-     |-                             |1504  |
-#'  |1974  |1484  |-     |-     |-      |-         |-      |-     |-                             |1484  |
-#'  |1975  |1490  |-     |-     |-      |-         |-      |-     |-                             |1490  |
-#'  |1976  |1499  |-     |-     |-      |-         |-      |-     |-                             |1499  |
-#'  |1977  |1530  |-     |-     |-      |-         |-      |-     |-                             |1530  |
-#'  |1978  |1532  |-     |-     |-      |-         |-      |-     |-                             |1532  |
-#'  |1980  |1468  |-     |-     |-      |-         |-      |-     |-                             |1468  |
-#'  |1982  |1860  |-     |-     |-      |-         |-      |-     |-                             |1860  |
-#'  |1983  |1599  |-     |-     |-      |-         |-      |-     |-                             |1599  |
-#'  |1984  |1473  |-     |-     |-      |-         |-      |-     |-                             |1473  |
-#'  |1985  |1534  |-     |-     |-      |-         |-      |-     |-                             |1534  |
-#'  |1986  |730   |41    |379   |83     |8         |128    |101   |-                             |1470  |
-#'  |1987  |-     |118   |929   |208    |19        |336    |209   |-                             |1819  |
-#'  |1988  |484   |64    |482   |127    |20        |178    |126   |-                             |1481  |
-#'  |1989  |502   |58    |529   |129    |35        |183    |101   |-                             |1537  |
-#'  |1990  |473   |60    |440   |110    |28        |171    |90    |-                             |1372  |
-#'  |1991  |500   |46    |510   |135    |35        |161    |130   |-                             |1517  |
-#'  |1993  |549   |61    |551   |140    |26        |154    |125   |-                             |1606  |
-#'  |1994  |981   |96    |1058  |253    |33        |339    |232   |-                             |2992  |
-#'  |1996  |979   |96    |973   |260    |30        |324    |242   |-                             |2904  |
-#'  |1998  |921   |91    |928   |257    |31        |344    |260   |-                             |2832  |
-#'  |2000  |921   |72    |903   |266    |33        |355    |267   |-                             |2817  |
-#'  |2002  |1853  |41    |447   |110    |13        |183    |118   |-                             |2765  |
-#'  |2004  |1936  |45    |423   |129    |8         |163    |108   |-                             |2812  |
-#'  |2006  |3508  |32    |459   |157    |7         |193    |154   |-                             |4510  |
-#'  |2008  |658   |63    |615   |197    |14        |285    |191   |-                             |2023  |
-#'  |2010  |667   |70    |576   |237    |28        |250    |216   |-                             |2044  |
-#'  |2012  |636   |66    |594   |197    |15        |243    |223   |-                             |1974  |
-#'  |2014  |851   |72    |726   |279    |17        |310    |283   |-                             |2538  |
-#'  |2016  |911   |89    |817   |335    |22        |348    |345   |-                             |2867  |
-#'  |2018  |785   |79    |643   |243    |21        |308    |269   |-                             |2348  |
-#'  |2021  |1360  |51    |1268  |262    |99        |581    |411   |-                             |4032  |
-#'  |2022  |1173  |54    |1083  |269    |77        |499    |389   |-                             |3544  |
-#'  |2024  |-     |-     |-     |-      |-         |-      |-     |3309                          |3309  |
-#'  |Total |39964 |1465  |15333 |4383   |619       |6036   |4590  |3309                          |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` first
-#'   * `2` second
-#'   * `3` third
-#'   * `4` fourth
-#'   * `5` fifth
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name thnkself
-NULL
 

@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 natlart
 }
 \details{
-Question 693. If arts organizations -- such as art museums, dance, operas, theater groups and symphony orchestras -- need financial assistance to operate, do you feel that the federal government should provide assistance or not?
+Question If arts organizations -- such as art museums, dance, operas, theater groups and symphony orchestras -- need financial assistance to operate, Do you feel that the federal government should provide assistance or not?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes
+\item \code{2} no
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2134/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab not available in this year \tab Total \cr
@@ -57,24 +77,29 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes
-\item \code{2} no
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1998 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Religion and Culture: 
+\code{\link{aimofart}},
+\code{\link{drama}},
+\code{\link{localart}},
+\code{\link{popmusic}},
+\code{\link{readfict}},
+\code{\link{relart}},
+\code{\link{stateart}},
+\code{\link{volarts}}
+
+Other Art/The Arts (And Literature): 
+\code{\link{aimofart}},
+\code{\link{localart}},
+\code{\link{stateart}}
+}
+\concept{Art/The Arts (And Literature)}
+\concept{Religion and Culture}
 \keyword{variable}

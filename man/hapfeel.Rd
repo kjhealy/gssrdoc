@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 hapfeel
 }
 \details{
-Question 572. Now I'm going to read a list of different feelings that people sometimes have. After each one, I would like you to tell me on how many days you have felt this way during the past 7 days. d. Felt happy?
+Question Now I'm going to read a list of different feelings that people sometimes have. After each one, I would like you to tell me on how many days you have felt this way during the past 7 days. On how many days in the past 7 days have you... (SPECIFY NUMBER OF DAYS)
+(IF RESPONDENT ASKS, SAY THAT FEELING THIS WAY AT ANY TIME DURING A DAY MAKES THAT DAY "COUNT.")
+D. Felt happy?
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1709/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllll}{
    year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +77,28 @@ Counts by year:\tabular{llllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Emotions: 
+\code{\link{ashamed}},
+\code{\link{calm}},
+\code{\link{outraged}},
+\code{\link{sad}},
+\code{\link{shakeblu}}
+
+Other Feelings: 
+\code{\link{ashamed}},
+\code{\link{calm}},
+\code{\link{outraged}},
+\code{\link{sad}},
+\code{\link{shakeblu}}
+}
+\concept{Emotions}
+\concept{Feelings}
 \keyword{variable}

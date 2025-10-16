@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 congovt
 }
 \details{
-Question 1378. How much confidence do you have in. . . c. Government departments
+Question How much confidence do you have in. . .
+C. Government departments
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} complete confidence
+\item \code{2} a great deal of confidence
+\item \code{3} some confidence
+\item \code{4} very little confidence
+\item \code{5} no confidence at all
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4641/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab a great deal of confidence \tab complete confidence \tab don't know \tab no answer \tab no confidence at all \tab some confidence \tab very little confidence \tab not available in this year \tab Total \cr
@@ -57,27 +81,35 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} complete confidence
-\item \code{2} a great deal of confidence
-\item \code{3} some confidence
-\item \code{4} very little confidence
-\item \code{5} no confidence at all
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1991 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Religion: 
+\code{\link{abdefct1}},
+\code{\link{abdefctw}},
+\code{\link{abpoor1}},
+\code{\link{abpoorw}},
+\code{\link{conbiz}},
+\code{\link{concong}},
+\code{\link{govcheat}},
+\code{\link{homosex1}},
+\code{\link{taxcheat}}
+
+Other Confidence: 
+\code{\link{conbiz}},
+\code{\link{concong}}
+
+Other Federal Government: 
+\code{\link{concong}},
+\code{\link{govcheat}},
+\code{\link{taxcheat}}
+}
+\concept{Confidence}
+\concept{Federal Government}
+\concept{ISSP Religion}
 \keyword{variable}

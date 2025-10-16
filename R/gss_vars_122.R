@@ -1,11 +1,211 @@
+#'  What is friend 3s race
+#' 
+#'  frndrac3
+#' 
+#' Question Is (NAME) Asian, Black, Hispanic, White or something else? 
+#' 3. Race of Third Friend
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` asian
+#'   * `2` black
+#'   * `3` hispanic
+#'   * `4` white
+#'   * `5` something else
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1130/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |asian |black |don't know |hispanic |no answer |something else |white |not available in this year |Total |
+#'  |:-----|:-----|:-----|:-----|:----------|:--------|:---------|:--------------|:-----|:--------------------------|:-----|
+#'  |1972  |1613  |-     |-     |-          |-        |-         |-              |-     |-                          |1613  |
+#'  |1973  |1504  |-     |-     |-          |-        |-         |-              |-     |-                          |1504  |
+#'  |1974  |1484  |-     |-     |-          |-        |-         |-              |-     |-                          |1484  |
+#'  |1975  |1490  |-     |-     |-          |-        |-         |-              |-     |-                          |1490  |
+#'  |1976  |1499  |-     |-     |-          |-        |-         |-              |-     |-                          |1499  |
+#'  |1977  |1530  |-     |-     |-          |-        |-         |-              |-     |-                          |1530  |
+#'  |1978  |1532  |-     |-     |-          |-        |-         |-              |-     |-                          |1532  |
+#'  |1980  |1468  |-     |-     |-          |-        |-         |-              |-     |-                          |1468  |
+#'  |1982  |1860  |-     |-     |-          |-        |-         |-              |-     |-                          |1860  |
+#'  |1983  |1599  |-     |-     |-          |-        |-         |-              |-     |-                          |1599  |
+#'  |1984  |1473  |-     |-     |-          |-        |-         |-              |-     |-                          |1473  |
+#'  |1985  |1534  |-     |-     |-          |-        |-         |-              |-     |-                          |1534  |
+#'  |1986  |1470  |-     |-     |-          |-        |-         |-              |-     |-                          |1470  |
+#'  |1987  |1819  |-     |-     |-          |-        |-         |-              |-     |-                          |1819  |
+#'  |1988  |1481  |-     |-     |-          |-        |-         |-              |-     |-                          |1481  |
+#'  |1989  |1537  |-     |-     |-          |-        |-         |-              |-     |-                          |1537  |
+#'  |1990  |1372  |-     |-     |-          |-        |-         |-              |-     |-                          |1372  |
+#'  |1991  |1517  |-     |-     |-          |-        |-         |-              |-     |-                          |1517  |
+#'  |1993  |1606  |-     |-     |-          |-        |-         |-              |-     |-                          |1606  |
+#'  |1994  |2992  |-     |-     |-          |-        |-         |-              |-     |-                          |2992  |
+#'  |1996  |2904  |-     |-     |-          |-        |-         |-              |-     |-                          |2904  |
+#'  |1998  |1853  |21    |104   |1          |46       |68        |16             |723   |-                          |2832  |
+#'  |2000  |2817  |-     |-     |-          |-        |-         |-              |-     |-                          |2817  |
+#'  |2002  |2765  |-     |-     |-          |-        |-         |-              |-     |-                          |2765  |
+#'  |2004  |2812  |-     |-     |-          |-        |-         |-              |-     |-                          |2812  |
+#'  |2006  |4510  |-     |-     |-          |-        |-         |-              |-     |-                          |4510  |
+#'  |2008  |2023  |-     |-     |-          |-        |-         |-              |-     |-                          |2023  |
+#'  |2010  |2044  |-     |-     |-          |-        |-         |-              |-     |-                          |2044  |
+#'  |2012  |1974  |-     |-     |-          |-        |-         |-              |-     |-                          |1974  |
+#'  |2014  |2538  |-     |-     |-          |-        |-         |-              |-     |-                          |2538  |
+#'  |2016  |2867  |-     |-     |-          |-        |-         |-              |-     |-                          |2867  |
+#'  |2018  |2348  |-     |-     |-          |-        |-         |-              |-     |-                          |2348  |
+#'  |2021  |4032  |-     |-     |-          |-        |-         |-              |-     |-                          |4032  |
+#'  |2022  |-     |-     |-     |-          |-        |-         |-              |-     |3544                       |3544  |
+#'  |2024  |-     |-     |-     |-          |-        |-         |-              |-     |3309                       |3309  |
+#'  |Total |67867 |21    |104   |1          |46       |68        |16             |723   |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Friends
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name frndrac3
+NULL
+
+
+#'  What is friend 4s race
+#' 
+#'  frndrac4
+#' 
+#' Question Is (NAME) Asian, Black, Hispanic, White or something else? 
+#' 4. Race of Fourth Friend
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` asian
+#'   * `2` black
+#'   * `3` hispanic
+#'   * `4` white
+#'   * `5` something else
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1131/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |asian |black |hispanic |no answer |something else |white |not available in this year |Total |
+#'  |:-----|:-----|:-----|:-----|:--------|:---------|:--------------|:-----|:--------------------------|:-----|
+#'  |1972  |1613  |-     |-     |-        |-         |-              |-     |-                          |1613  |
+#'  |1973  |1504  |-     |-     |-        |-         |-              |-     |-                          |1504  |
+#'  |1974  |1484  |-     |-     |-        |-         |-              |-     |-                          |1484  |
+#'  |1975  |1490  |-     |-     |-        |-         |-              |-     |-                          |1490  |
+#'  |1976  |1499  |-     |-     |-        |-         |-              |-     |-                          |1499  |
+#'  |1977  |1530  |-     |-     |-        |-         |-              |-     |-                          |1530  |
+#'  |1978  |1532  |-     |-     |-        |-         |-              |-     |-                          |1532  |
+#'  |1980  |1468  |-     |-     |-        |-         |-              |-     |-                          |1468  |
+#'  |1982  |1860  |-     |-     |-        |-         |-              |-     |-                          |1860  |
+#'  |1983  |1599  |-     |-     |-        |-         |-              |-     |-                          |1599  |
+#'  |1984  |1473  |-     |-     |-        |-         |-              |-     |-                          |1473  |
+#'  |1985  |1534  |-     |-     |-        |-         |-              |-     |-                          |1534  |
+#'  |1986  |1470  |-     |-     |-        |-         |-              |-     |-                          |1470  |
+#'  |1987  |1819  |-     |-     |-        |-         |-              |-     |-                          |1819  |
+#'  |1988  |1481  |-     |-     |-        |-         |-              |-     |-                          |1481  |
+#'  |1989  |1537  |-     |-     |-        |-         |-              |-     |-                          |1537  |
+#'  |1990  |1372  |-     |-     |-        |-         |-              |-     |-                          |1372  |
+#'  |1991  |1517  |-     |-     |-        |-         |-              |-     |-                          |1517  |
+#'  |1993  |1606  |-     |-     |-        |-         |-              |-     |-                          |1606  |
+#'  |1994  |2992  |-     |-     |-        |-         |-              |-     |-                          |2992  |
+#'  |1996  |2904  |-     |-     |-        |-         |-              |-     |-                          |2904  |
+#'  |1998  |2046  |23    |82    |36       |66        |10             |569   |-                          |2832  |
+#'  |2000  |2817  |-     |-     |-        |-         |-              |-     |-                          |2817  |
+#'  |2002  |2765  |-     |-     |-        |-         |-              |-     |-                          |2765  |
+#'  |2004  |2812  |-     |-     |-        |-         |-              |-     |-                          |2812  |
+#'  |2006  |4510  |-     |-     |-        |-         |-              |-     |-                          |4510  |
+#'  |2008  |2023  |-     |-     |-        |-         |-              |-     |-                          |2023  |
+#'  |2010  |2044  |-     |-     |-        |-         |-              |-     |-                          |2044  |
+#'  |2012  |1974  |-     |-     |-        |-         |-              |-     |-                          |1974  |
+#'  |2014  |2538  |-     |-     |-        |-         |-              |-     |-                          |2538  |
+#'  |2016  |2867  |-     |-     |-        |-         |-              |-     |-                          |2867  |
+#'  |2018  |2348  |-     |-     |-        |-         |-              |-     |-                          |2348  |
+#'  |2021  |4032  |-     |-     |-        |-         |-              |-     |-                          |4032  |
+#'  |2022  |-     |-     |-     |-        |-         |-              |-     |3544                       |3544  |
+#'  |2024  |-     |-     |-     |-        |-         |-              |-     |3309                       |3309  |
+#'  |Total |68060 |23    |82    |36       |66        |10             |569   |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Friends
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name frndrac4
+NULL
+
+
 #'  What is friend 5s race
 #' 
 #'  frndrac5
 #' 
-#' Question 385. Is (NAME) Asian, Black, Hispanic, White, or something else?
+#' Question Is (NAME) Asian, Black, Hispanic, White or something else? 
+#' 5. Race of Fifth Friend
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` asian
+#'   * `2` black
+#'   * `3` hispanic
+#'   * `4` white
+#'   * `5` something else
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1132/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,13 +248,34 @@
 #'  |2024  |-     |-     |-     |-        |-         |-              |-     |3309                       |3309  |
 #'  |Total |68226 |14    |49    |34       |64        |6              |453   |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Friends
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name frndrac5
+NULL
+
+
+#'  Have any good friends feeling close
+#' 
+#'  friends
+#' 
+#' Question A. Do you have any good friends that you feel close to?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` asian
-#'   * `2` black
-#'   * `3` hispanic
-#'   * `4` white
-#'   * `5` something else
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -68,22 +289,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name frndrac5
-NULL
-
-#'  Have any good friends feeling close
-#' 
-#'  friends
-#' 
-#' Question 386a. Do you have any good freinds that you feel close to?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1133/vshow).
 #'
 #' Counts by year: 
 #'
@@ -126,10 +333,34 @@ NULL
 #'  |2024  |-     |-          |-  |-         |-   |3309                       |3309  |
 #'  |Total |67906 |1          |83 |5         |851 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Friends
+#' 
+#' @keywords variable
+#' @md
+#' @name friends
+NULL
+
+
+#'  About how many good friends do you have
+#' 
+#'  numfrend
+#' 
+#' Question B. About how many good friends do you have?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `94` no number given
+#'   * `95` many
+#'   * `96` 96+
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -143,22 +374,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name friends
-NULL
-
-#'  About how many good friends do you have
-#' 
-#'  numfrend
-#' 
-#' Question 368b. About how many good friends do you have?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1134/vshow).
 #'
 #' Counts by year: 
 #'
@@ -201,9 +418,32 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-          |-    |-         |-               |3309                       |3309  |
 #'  |Total |67990 |51 |79 |35 |13 |136 |27 |1  |1  |4  |132 |4  |119 |3  |1  |1  |95 |5  |74 |1  |10 |1  |20 |6  |7   |9          |8    |7         |6               |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Friends
+#' 
+#' @keywords variable
+#' @md
+#' @name numfrend
+NULL
+
+
+#'  Good friends who are white-black
+#' 
+#'  numbwfrd
+#' 
+#' Question How many of your good friends are White/Black?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `94` no number given
+#'   * `94` no numuber given
 #'   * `95` many
 #'   * `96` 96+
 #'   * `NA(d)` don't know
@@ -219,22 +459,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name numfrend
-NULL
-
-#'  Good friends who are white-black
-#' 
-#'  numbwfrd
-#' 
-#' Question 387. How many of your good friends are white/black?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1135/vshow).
 #'
 #' Counts by year: 
 #'
@@ -277,11 +503,34 @@ NULL
 #'  |2024  |-     |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |67990 |580 |117 |8  |1  |1  |1  |1  |62 |3  |1  |1  |26 |1  |1  |12 |10 |4  |4  |1  |1          |20        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Friends
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name numbwfrd
+NULL
+
+
+#'  Friends black or white
+#' 
+#'  bwfriend
+#' 
+#' Question Are any of your good friends that you feel close to Black/White?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `94` no numuber given
-#'   * `95` many
-#'   * `96` 96+
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -295,22 +544,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name numbwfrd
-NULL
-
-#'  Friends black or white
-#' 
-#'  bwfriend
-#' 
-#' Question 388. Are any of your good friends that you feel close to black/white?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1136/vshow).
 #'
 #' Counts by year: 
 #'
@@ -353,10 +588,38 @@ NULL
 #'  |2024  |-     |-   |-         |-   |3309                       |3309  |
 #'  |Total |68399 |241 |2         |204 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A       |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Friends
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name bwfriend
+NULL
+
+
+#'  Religious image to sell products
+#' 
+#'  godsells
+#' 
+#' Question Do you strongly approve of, somewhat approve of, neither approve of nor oppose, somewhat oppose, or strongly oppose the following public expressions of religion: 
+#' A. The use of religious "images" in public advertising to sell non-religious commercial products?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` strongly approve
+#'   * `2` somewhat approve
+#'   * `3` not apprve/oppse
+#'   * `4` somewhat oppose
+#'   * `5` strongly oppose
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -370,22 +633,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name bwfriend
-NULL
-
-#'  Religious image to sell products
-#' 
-#'  godsells
-#' 
-#' Question 389. Do you strongly approve of, somewhat approve of, neither approve of nor oppose, somewhat oppose, or strongly oppose the following public expressions of religion: a. The use of religious "images" in public advertising to sell non-religious commercial products?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1137/vshow).
 #'
 #' Counts by year: 
 #'
@@ -428,6 +677,30 @@ NULL
 #'  |2024  |-     |-          |-         |-                |-                |-               |-                |-               |3309                       |3309  |
 #'  |Total |67401 |68         |10        |320              |79               |314             |35               |619             |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name godsells
+NULL
+
+
+#'  Pro-athletes giving thanks to god
+#' 
+#'  godsport
+#' 
+#' Question Do you strongly approve of, somewhat approve of, neither approve of nor oppose, somewhat oppose, or strongly oppose the following public expressions of religion: 
+#' B. Pro-athletes giving thanks to God during sports events?  
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly approve
@@ -448,22 +721,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name godsells
-NULL
-
-#'  Pro-athletes giving thanks to god
-#' 
-#'  godsport
-#' 
-#' Question 389. Do you strongly approve of, somewhat approve of, neither approve of nor oppose, somewhat oppose, or strongly oppose the following public expressions of religion: b. Pro-athletes giving thanks to God during sports events?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1138/vshow).
 #'
 #' Counts by year: 
 #'
@@ -506,13 +765,33 @@ NULL
 #'  |2024  |-     |-          |-         |-                |-                |-               |-                |-               |3309                       |3309  |
 #'  |Total |67401 |43         |13        |358              |355              |90              |509              |77              |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Religion
+#' @family Sports
+#' 
+#' @keywords variable
+#' @md
+#' @name godsport
+NULL
+
+
+#'  Given money to local congregation
+#' 
+#'  givecong
+#' 
+#' Question During the last year, approximately how much money did you and the other family members in your household contribute to each of the following: 
+#' A. To your local congregation?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` strongly approve
-#'   * `2` somewhat approve
-#'   * `3` not apprve/oppse
-#'   * `4` somewhat oppose
-#'   * `5` strongly oppose
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -526,22 +805,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name godsport
-NULL
-
-#'  Given money to local congregation
-#' 
-#'  givecong
-#' 
-#' Question 390. During the last year, approximately how much money did you and the other family members in your household contribute to each of the following: a. To your local congregation
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1139/vshow).
 #'
 #' Counts by year: 
 #'
@@ -584,172 +849,21 @@ NULL
 #'  |2024  |-     |-   |-  |-  |-   |-    |-     |-   |-    |-   |-    |-     |-   |-    |-    |-    |-     |-    |-   |-  |-   |-    |-    |-   |-    |-     |-  |-  |-   |-    |-     |-    |-  |-    |-    |-  |-   |-    |-     |-   |-    |-  |-   |-    |-    |-    |-    |-   |-    |-   |-    |-     |-   |-    |-  |-   |-    |-   |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-    |-  |-   |-    |-     |-    |-  |-   |-    |-  |-  |-   |-   |-    |-  |-   |-  |-  |-   |-          |-         |3309                       |3309  |
 #'  |Total |67401 |570 |2  |17 |87  |51   |1     |1   |1    |5   |18   |1     |1   |1    |3    |1    |1     |4    |1   |2  |14  |10   |3    |1   |2    |1     |2  |23 |58  |26   |1     |2    |1  |1    |4    |8  |17  |13   |1     |2   |1    |3  |38  |19   |1    |1    |1    |6   |2    |1   |1    |1     |1   |1    |4  |14  |9    |1   |2   |2    |8  |46 |55  |10   |1  |4   |1  |3   |3    |3  |13  |8    |1     |1    |1  |14  |2    |1  |4  |2   |3   |1    |1  |1   |1  |1  |3   |98         |88        |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Religion
+#' @family Contribute Money To
+#' @family Religion
+#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
 #' @name givecong
 NULL
 
-#'  Given money other religious org
-#' 
-#'  giverel
-#' 
-#' Question 390. During the last year, approximately how much money did you and the other family members in your household contribute to each of the following: b. To other religious organizations, programs, or causes
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |0   |1  |10 |100 |1000 |10000 |104 |12 |1200 |125 |15 |150 |1500 |1650 |2  |20 |200 |2000 |240 |25 |250 |2500 |25000 |30 |300 |3000 |35 |350 |40 |400 |4000 |450 |4500 |5  |50 |500 |50000 |60 |600 |700 |72 |75 |8  |800 |don't know |no answer |not available in this year |Total |
-#'  |:-----|:-----|:---|:--|:--|:---|:----|:-----|:---|:--|:----|:---|:--|:---|:----|:----|:--|:--|:---|:----|:---|:--|:---|:----|:-----|:--|:---|:----|:--|:---|:--|:---|:----|:---|:----|:--|:--|:---|:-----|:--|:---|:---|:--|:--|:--|:---|:----------|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1613  |
-#'  |1973  |1504  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1504  |
-#'  |1974  |1484  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1484  |
-#'  |1975  |1490  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1490  |
-#'  |1976  |1499  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1499  |
-#'  |1977  |1530  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1530  |
-#'  |1978  |1532  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1532  |
-#'  |1980  |1468  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1468  |
-#'  |1982  |1860  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1860  |
-#'  |1983  |1599  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1599  |
-#'  |1984  |1473  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1473  |
-#'  |1985  |1534  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1534  |
-#'  |1986  |1470  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1470  |
-#'  |1987  |1819  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1819  |
-#'  |1988  |1481  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1481  |
-#'  |1989  |1537  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1537  |
-#'  |1990  |1372  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1372  |
-#'  |1991  |1517  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1517  |
-#'  |1993  |1606  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1606  |
-#'  |1994  |2992  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |2992  |
-#'  |1996  |2904  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |2904  |
-#'  |1998  |1387  |947 |1  |14 |54  |10   |5     |1   |2  |1    |4   |2  |5   |2    |1    |2  |13 |39  |9    |2   |21 |5   |2    |1     |4  |23  |5    |1  |1   |2  |11  |1    |1   |1    |7  |41 |28  |1     |2  |1   |3   |1  |4  |1  |1   |68         |94        |-                          |2832  |
-#'  |2000  |2817  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |2817  |
-#'  |2002  |2765  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |2765  |
-#'  |2004  |2812  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |2812  |
-#'  |2006  |4510  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |4510  |
-#'  |2008  |2023  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |2023  |
-#'  |2010  |2044  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |2044  |
-#'  |2012  |1974  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |1974  |
-#'  |2014  |2538  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |2538  |
-#'  |2016  |2867  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |2867  |
-#'  |2018  |2348  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |2348  |
-#'  |2021  |4032  |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |-                          |4032  |
-#'  |2022  |-     |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |3544                       |3544  |
-#'  |2024  |-     |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |3309                       |3309  |
-#'  |Total |67401 |947 |1  |14 |54  |10   |5     |1   |2  |1    |4   |2  |5   |2    |1    |2  |13 |39  |9    |2   |21 |5   |2    |1     |4  |23  |5    |1  |1   |2  |11  |1    |1   |1    |7  |41 |28  |1     |2  |1   |3   |1  |4  |1  |1   |68         |94        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name giverel
-NULL
-
-#'  Given money non-religious charities
-#' 
-#'  giveoth
-#' 
-#' Question 390. During the last year, approximately how much money did you and the other family members in your household contribute to each of the following: c. To non-religious charities, organizations, or causes
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |0   |1  |10 |100 |1000 |10000 |110 |119 |12 |120 |1200 |125 |144 |15 |150 |1500 |15000 |175 |2  |20 |200 |2000 |225 |24 |25 |250 |2500 |260 |30 |300 |3000 |30000 |35 |3500 |40 |400 |45 |450 |47 |480 |5  |50 |500 |5000 |52 |5500 |56 |60 |600 |6000 |7  |700 |75 |750 |8  |80 |800 |8000 |8500 |don't know |not available in this year |Total |
-#'  |:-----|:-----|:---|:--|:--|:---|:----|:-----|:---|:---|:--|:---|:----|:---|:---|:--|:---|:----|:-----|:---|:--|:--|:---|:----|:---|:--|:--|:---|:----|:---|:--|:---|:----|:-----|:--|:----|:--|:---|:--|:---|:--|:---|:--|:--|:---|:----|:--|:----|:--|:--|:---|:----|:--|:---|:--|:---|:--|:--|:---|:----|:----|:----------|:--------------------------|:-----|
-#'  |1972  |1613  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1613  |
-#'  |1973  |1504  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1504  |
-#'  |1974  |1484  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1484  |
-#'  |1975  |1490  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1490  |
-#'  |1976  |1499  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1499  |
-#'  |1977  |1530  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1530  |
-#'  |1978  |1532  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1532  |
-#'  |1980  |1468  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1468  |
-#'  |1982  |1860  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1860  |
-#'  |1983  |1599  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1599  |
-#'  |1984  |1473  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1473  |
-#'  |1985  |1534  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1534  |
-#'  |1986  |1470  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1470  |
-#'  |1987  |1819  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1819  |
-#'  |1988  |1481  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1481  |
-#'  |1989  |1537  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1537  |
-#'  |1990  |1372  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1372  |
-#'  |1991  |1517  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1517  |
-#'  |1993  |1606  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1606  |
-#'  |1994  |2992  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |2992  |
-#'  |1996  |2904  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |2904  |
-#'  |1998  |1387  |567 |1  |30 |130 |32   |4     |2   |1   |1  |1   |1    |4   |1   |5  |16  |5    |1     |1   |1  |32 |88  |13   |1   |2  |20 |12  |1    |1   |14 |46  |7    |1     |7  |1    |8  |16  |1  |2   |1  |1   |10 |94 |59  |3    |2  |1    |1  |4  |6   |1    |1  |2   |9  |1   |1  |2  |6   |1    |1    |161        |-                          |2832  |
-#'  |2000  |2817  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |2817  |
-#'  |2002  |2765  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |2765  |
-#'  |2004  |2812  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |2812  |
-#'  |2006  |4510  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |4510  |
-#'  |2008  |2023  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |2023  |
-#'  |2010  |2044  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |2044  |
-#'  |2012  |1974  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |1974  |
-#'  |2014  |2538  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |2538  |
-#'  |2016  |2867  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |2867  |
-#'  |2018  |2348  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |2348  |
-#'  |2021  |4032  |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |-                          |4032  |
-#'  |2022  |-     |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |3544                       |3544  |
-#'  |2024  |-     |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |3309                       |3309  |
-#'  |Total |67401 |567 |1  |30 |130 |32   |4     |2   |1   |1  |1   |1    |4   |1   |5  |16  |5    |1     |1   |1  |32 |88  |13   |1   |2  |20 |12  |1    |1   |14 |46  |7    |1     |7  |1    |8  |16  |1  |2   |1  |1   |10 |94 |59  |3    |2  |1    |1  |4  |6   |1    |1  |2   |9  |1   |1  |2  |6   |1    |1    |161        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name giveoth
-NULL
 

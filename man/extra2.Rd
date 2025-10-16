@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 extra2
 }
 \details{
-Question I. Aside from the things we've already covered, what other important problems did you or members of your household have during the last 12 months?
+Question Now, I'm going to ask you about various events and conditions that happen to people. I'm interested in those that happened to you during the last 12 months, that is since (CURRENT MONTH), (1990/2003). As I ask you about the specific events, please think carefully, so I can record things accurately.
+I. Aside from the things we've already covered, what other important problems did you or members of your household have during the last 12 months?
+PROBE FOR TWO MENTIONS. RECORD FIRST TWO MENTIONS BELOW.
+2. Second mention.
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5195/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 1 \tab 100 \tab 101 \tab 103 \tab 104 \tab 11 \tab 120 \tab 140 \tab 15 \tab 150 \tab 160 \tab 161 \tab 166 \tab 175 \tab 190 \tab 191 \tab 2 \tab 20 \tab 200 \tab 202 \tab 210 \tab 220 \tab 235 \tab 237 \tab 240 \tab 26 \tab 27 \tab 3 \tab 30 \tab 40 \tab 41 \tab 42 \tab 43 \tab 44 \tab 48 \tab 52 \tab 55 \tab 62 \tab 64 \tab 70 \tab 71 \tab 73 \tab 74 \tab 75 \tab 83 \tab 84 \tab 86 \tab 90 \tab 96 \tab 995 \tab 996 \tab 10 \tab 110 \tab 132 \tab 170 \tab 201 \tab 21 \tab 23 \tab 24 \tab 28 \tab 31 \tab 46 \tab 47 \tab 50 \tab 6 \tab 72 \tab 76 \tab 80 \tab 81 \tab 85 \tab 92 \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +78,22 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1991 \tab B/C/- \tab partial \cr
+   2004 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Negative Life Events: 
+\code{\link{extra1}},
+\code{\link{oth5}}
+
+Other Life Events: 
+\code{\link{extra1}}
+}
+\concept{Life Events}
+\concept{Negative Life Events}
 \keyword{variable}

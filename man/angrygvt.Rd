@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 angrygvt
 }
 \details{
-Question 574. Within the past month, think about the last time you felt really angry, irritated, or annoyed. Could you describe in a couple of sentences what made you feel that way - what the situation was? c. Involved government, government officials
+Question Within the past month, think about the last time you felt really angry, irritated or annoyed. Could you describe in a couple of sentences what made you feel that way -- what the situation was? (INTERVIEWER: IF RESPONDENT CANNOT RECOVER AN EVENT, PROBE WITH "You haven't felt irritated or annoyed in the past month?")
+C. Involved Government, Government officials
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes
+\item \code{2} no
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1737/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllll}{
    year \tab iap \tab don't know \tab no \tab yes \tab not available in this year \tab Total \cr
@@ -57,24 +78,36 @@ Counts by year:\tabular{lllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes
-\item \code{2} no
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Emotions: 
+\code{\link{angryev}},
+\code{\link{angryfam}},
+\code{\link{angrywhy}},
+\code{\link{angrywrk}},
+\code{\link{beplesnt}},
+\code{\link{madat1}},
+\code{\link{notupset}},
+\code{\link{notworry}},
+\code{\link{whnangry}}
+
+Other Feelings: 
+\code{\link{angryev}},
+\code{\link{angryfam}},
+\code{\link{angrywhy}},
+\code{\link{angrywrk}},
+\code{\link{beplesnt}},
+\code{\link{madat1}},
+\code{\link{notupset}},
+\code{\link{notworry}},
+\code{\link{whnangry}}
+}
+\concept{Emotions}
+\concept{Feelings}
 \keyword{variable}

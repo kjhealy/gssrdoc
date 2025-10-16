@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 wwwmin
 }
 \details{
-Question 769. Not counting e-mail, about how many minutes or hours per week do you use the Web? (Include time you spend visiting regular web sites and time spent using interactive Internet services like chat rooms, Usenet groups, discussion forums, bulletin boards, and the like.) b. Minutes per week
+Question Not counting e-mail, about how many minutes or hours per week Do you use the Web? (Include time you spend visiting regular web sites and time spent using interactive Internet services like chat rooms, Usenet groups, discussion forums, bulletin boards, and the like.)
+B. Minutes per week?
 }
+\section{Values}{
+
+\itemize{
+\item \code{0} 0 minutes
+\item \code{59} 59 minutes
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2385/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 0 minutes \tab 1 \tab 10 \tab 12 \tab 15 \tab 2 \tab 20 \tab 25 \tab 3 \tab 30 \tab 4 \tab 40 \tab 42 \tab 45 \tab 5 \tab 50 \tab 55 \tab 7 \tab don't know \tab no answer \tab 6 \tab 9 \tab 14 \tab 8 \tab 38 \tab 39 \tab 21 \tab 59 minutes \tab 35 \tab 17 \tab 23 \tab 24 \tab 26 \tab 27 \tab 32 \tab 34 \tab 43 \tab 47 \tab 52 \tab 58 \tab skipped on web \tab 11 \tab 16 \tab 22 \tab 28 \tab 54 \tab not available in this year \tab Total \cr
@@ -57,24 +78,46 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{0} 0 minutes
-\item \code{59} 59 minutes
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
+   2002 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2010 \tab A/B/- \tab partial \cr
+   2012 \tab A/B/- \tab partial \cr
+   2014 \tab A/B/- \tab partial \cr
+   2016 \tab A/B/- \tab partial \cr
+   2018 \tab A/B/- \tab partial \cr
+   2021 \tab A/B/- \tab partial \cr
+   2022 \tab A/B/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Information Society: 
+\code{\link{chathr}},
+\code{\link{chatmin}},
+\code{\link{drctlink}},
+\code{\link{emailhr}},
+\code{\link{emailmin}},
+\code{\link{srcheng}},
+\code{\link{typeurl}},
+\code{\link{usewww}},
+\code{\link{wwwhr}}
+
+Other Computers And Internet: 
+\code{\link{chathr}},
+\code{\link{chatmin}},
+\code{\link{drctlink}},
+\code{\link{emailhr}},
+\code{\link{emailmin}},
+\code{\link{srcheng}},
+\code{\link{typeurl}},
+\code{\link{usewww}},
+\code{\link{wwwhr}}
+}
+\concept{Computers And Internet}
+\concept{Information Society}
 \keyword{variable}

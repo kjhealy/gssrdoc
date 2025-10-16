@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 bizbstgw
 }
 \details{
-Question 1057. Please look at Card B5. When making policy recommendations about global warming, on a scale of 1 to 5, to what extent do you think the following groups would support what is best for the country as a whole versus what serves their own narrow interests? INSTRUCTION: IF ASKED WHAT NARROW INTEREST MEANS: Well, someone might gain financially if a certain policy were adopted or it might advance his or her career. c. Business leaders.
+Question Please look at Card B5. When making policy recommendations about global warming, on a scale of 1 to 5, to what extent do you think the following groups would support what is best for the country as a whole versus what serves their own narrow interests?
+INSTRUCTION: IF ASKED WHAT NARROW INTEREST MEANS: Well, someone might gain financially if a certain policy were adopted or it might advance his or her career.
+C. Business Leaders
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} what is best for the country
+\item \code{5} own narrow interests
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3364/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab 2 \tab 3 \tab 4 \tab don't know \tab no answer \tab own narrow interests \tab what is best for the country \tab not available in this year \tab Total \cr
@@ -57,24 +79,45 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} what is best for the country
-\item \code{5} own narrow interests
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab B/C \tab partial \cr
+   2010 \tab A/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{bizinfgw}},
+\code{\link{gasregs}},
+\code{\link{polbstgw}},
+\code{\link{polinfgw}},
+\code{\link{scibstgw}},
+\code{\link{sciinfgw}},
+\code{\link{scmed}},
+\code{\link{scpol}},
+\code{\link{screlig}}
+
+Other Environment: 
+\code{\link{bizinfgw}},
+\code{\link{gasregs}},
+\code{\link{polbstgw}},
+\code{\link{polinfgw}},
+\code{\link{scibstgw}},
+\code{\link{sciinfgw}}
+
+Other Science: 
+\code{\link{bizinfgw}},
+\code{\link{polbstgw}},
+\code{\link{polinfgw}},
+\code{\link{scibstgw}},
+\code{\link{sciinfgw}},
+\code{\link{scmed}},
+\code{\link{scpol}},
+\code{\link{screlig}}
+}
+\concept{Environment}
+\concept{Science}
+\concept{Science Knowledge & Attitudes}
 \keyword{variable}

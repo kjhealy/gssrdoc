@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 seecowrk
 }
 \details{
-Question 924a. In your job how easy is it for you to see whether your co-workers are working well or poorly? On a scale of 0 to 10 please describe with 0 meaning not at all easy to see and 10 meaning very easy to see.
+Question In your job how easy is it for you to see whether your co-workers are working well or poorly? On a scale of 0 to 10 please describe with 0 meaning not at all easy to see and 10 meaning very easy to see.
 }
+\section{Values}{
+
+\itemize{
+\item \code{0} not at all easy to see
+\item \code{10} very easy to see
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2863/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllll}{
    year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab not at all easy to see \tab very easy to see \tab not available in this year \tab Total \cr
@@ -57,24 +77,35 @@ Counts by year:\tabular{lllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{0} not at all easy to see
-\item \code{10} very easy to see
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Employee Compensation: 
+\code{\link{compperf}},
+\code{\link{deptperf}},
+\code{\link{extr2001}},
+\code{\link{extrapay}},
+\code{\link{extraval}},
+\code{\link{extrayr}},
+\code{\link{indperf}},
+\code{\link{yearval}}
+
+Other Job: 
+\code{\link{compperf}},
+\code{\link{deptperf}},
+\code{\link{extr2001}},
+\code{\link{extrapay}},
+\code{\link{extraval}},
+\code{\link{extrayr}},
+\code{\link{indperf}},
+\code{\link{yearval}}
+}
+\concept{Employee Compensation}
+\concept{Job}
 \keyword{variable}

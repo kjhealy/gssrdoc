@@ -12,9 +12,27 @@ usetech
 \details{
 Question During a typical week, about what percentage of your total time at work would you normally spend using different types of electronic technologies (such as computers, tablets, smart phones, cash registers, scanners, GPS devices, robotic devices, and so on)?
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2840/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 0 \tab 1 \tab 1.5 \tab 10 \tab 10.5 \tab 100 \tab 12 \tab 15 \tab 17.5 \tab 2 \tab 2.5 \tab 20 \tab 22.5 \tab 25 \tab 3 \tab 30 \tab 33 \tab 35 \tab 36 \tab 4 \tab 40 \tab 45 \tab 5 \tab 5.5 \tab 50 \tab 55 \tab 6 \tab 6.5 \tab 60 \tab 62.5 \tab 65 \tab 7 \tab 7.5 \tab 70 \tab 75 \tab 77.5 \tab 8 \tab 80 \tab 85 \tab 88 \tab 9 \tab 90 \tab 92.5 \tab 95 \tab 96 \tab 97.5 \tab 98 \tab 99 \tab no answer \tab 0.5 \tab 12.5 \tab 14 \tab 18 \tab 3.5 \tab 37.5 \tab 4.5 \tab 44 \tab 47.5 \tab 82.5 \tab 87.5 \tab 9.5 \tab 92 \tab 97 \tab don't know \tab 13 \tab 17 \tab 24 \tab 37 \tab 38 \tab 46 \tab 47 \tab 49 \tab 64 \tab 74 \tab 76 \tab 78 \tab 86 \tab 93 \tab 94 \tab skipped on web \tab not available in this year \tab Total \cr
@@ -57,22 +75,32 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2014 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Quality of Working Life: 
+\code{\link{arthrtis}},
+\code{\link{depress}},
+\code{\link{diabetes}},
+\code{\link{hyperten}},
+\code{\link{knowschd}},
+\code{\link{satjob1}},
+\code{\link{slpprblm}},
+\code{\link{stress12}},
+\code{\link{weight}}
+
+Other Job: 
+\code{\link{knowschd}},
+\code{\link{satjob1}},
+\code{\link{stress12}}
+}
+\concept{Job}
+\concept{Quality of Working Life}
 \keyword{variable}

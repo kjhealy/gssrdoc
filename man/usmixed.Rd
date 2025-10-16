@@ -10,11 +10,29 @@ General Social Survey https://gss.norc.org
 usmixed
 }
 \details{
-Question 752. People may come from one racial group such as being White, Black/African-American, Hispanic, Asian, or American Indian, or people may come from two or more of these groups. What percent of people in the United States today do you think have parents or their ancestors from two or more racial groups?
+Question People may come from one racial group such as being White, Black/African-American, Hispanic, Asian, or American Indian, or people may come from two or more of these groups. What percent of people in the United States today do you think have parents or their ancestors from two or more racial groups?
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2316/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 0 \tab 1 \tab 10 \tab 100 \tab 12 \tab 13 \tab 15 \tab 16 \tab 17 \tab 18 \tab 2 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 27 \tab 28 \tab 3 \tab 30 \tab 32 \tab 33 \tab 35 \tab 38 \tab 4 \tab 40 \tab 42 \tab 45 \tab 47 \tab 5 \tab 50 \tab 51 \tab 55 \tab 6 \tab 60 \tab 62 \tab 63 \tab 65 \tab 68 \tab 7 \tab 70 \tab 72 \tab 74 \tab 75 \tab 8 \tab 80 \tab 85 \tab 88 \tab 90 \tab 92 \tab 95 \tab 96 \tab 97 \tab 98 \tab 99 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +75,36 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Multi-Ethnic United States: 
+\code{\link{blkchng}},
+\code{\link{hispchng}},
+\code{\link{jewschng}},
+\code{\link{usamind}},
+\code{\link{usasn}},
+\code{\link{usblk}},
+\code{\link{ushisp}},
+\code{\link{usjews}},
+\code{\link{whtchng}}
+
+Other United States: 
+\code{\link{blkchng}},
+\code{\link{hispchng}},
+\code{\link{jewschng}},
+\code{\link{usamind}},
+\code{\link{usasn}},
+\code{\link{usblk}},
+\code{\link{ushisp}},
+\code{\link{usjews}},
+\code{\link{whtchng}}
+}
+\concept{Multi-Ethnic United States}
+\concept{United States}
 \keyword{variable}

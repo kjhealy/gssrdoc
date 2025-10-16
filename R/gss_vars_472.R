@@ -1,11 +1,211 @@
+#'  How much ought owner of a large factory makes
+#' 
+#'  givfctry
+#' 
+#' Question Next, what do you think people in these jobs ought to be paid -- how much do you think they should earn each year  before taxes, regardless of what they actually get? Please write in how much they should earn each year. 
+#' N. The owner-manager of a large factory?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1e+06` $1 million (or more, for 1987 & 2000)
+#'   * `99999992` more than now paid
+#'   * `99999993` same as now paid
+#'   * `99999994` less than now paid
+#'   * `99999997` never worked
+#'   * `NA(d)` can't choose
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4292/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |55000 |not available in this year |Total |
+#'  |:-----|:-----|:-----|:--------------------------|:-----|
+#'  |1972  |1613  |-     |-                          |1613  |
+#'  |1973  |1504  |-     |-                          |1504  |
+#'  |1974  |1484  |-     |-                          |1484  |
+#'  |1975  |1490  |-     |-                          |1490  |
+#'  |1976  |1499  |-     |-                          |1499  |
+#'  |1977  |1530  |-     |-                          |1530  |
+#'  |1978  |1532  |-     |-                          |1532  |
+#'  |1980  |1468  |-     |-                          |1468  |
+#'  |1982  |1860  |-     |-                          |1860  |
+#'  |1983  |1599  |-     |-                          |1599  |
+#'  |1984  |1473  |-     |-                          |1473  |
+#'  |1985  |1534  |-     |-                          |1534  |
+#'  |1986  |1470  |-     |-                          |1470  |
+#'  |1987  |1819  |-     |-                          |1819  |
+#'  |1988  |1481  |-     |-                          |1481  |
+#'  |1989  |1537  |-     |-                          |1537  |
+#'  |1990  |1372  |-     |-                          |1372  |
+#'  |1991  |1517  |-     |-                          |1517  |
+#'  |1993  |1606  |-     |-                          |1606  |
+#'  |1994  |2992  |-     |-                          |2992  |
+#'  |1996  |2904  |-     |-                          |2904  |
+#'  |1998  |2832  |-     |-                          |2832  |
+#'  |2000  |2816  |1     |-                          |2817  |
+#'  |2002  |2765  |-     |-                          |2765  |
+#'  |2004  |2812  |-     |-                          |2812  |
+#'  |2006  |4510  |-     |-                          |4510  |
+#'  |2008  |2023  |-     |-                          |2023  |
+#'  |2010  |2044  |-     |-                          |2044  |
+#'  |2012  |1974  |-     |-                          |1974  |
+#'  |2014  |2538  |-     |-                          |2538  |
+#'  |2016  |2867  |-     |-                          |2867  |
+#'  |2018  |2348  |-     |-                          |2348  |
+#'  |2021  |4032  |-     |-                          |4032  |
+#'  |2022  |-     |-     |3544                       |3544  |
+#'  |2024  |-     |-     |3309                       |3309  |
+#'  |Total |68845 |1     |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |C       |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Social Inequality
+#' @family Inequality, Income
+#' @family Occupation
+#' 
+#' @keywords variable
+#' @md
+#' @name givfctry
+NULL
+
+
+#'  How much ought justice make
+#' 
+#'  givjudge
+#' 
+#' Question Next, what do you think people in these jobs ought to be paid -- how much do you think they should earn each year  before taxes, regardless of what they actually get? Please write in how much they should earn each year. 
+#' O. A Supreme Court Justice?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1e+06` $1 million (or more, for 1987 & 2000)
+#'   * `99999992` more than now paid
+#'   * `99999993` same as now paid
+#'   * `99999994` less than now paid
+#'   * `99999997` never worked
+#'   * `NA(d)` can't choose
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4293/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |$1 million (or more, for 1987 & 2000) |1  |10000 |110000 |12000 |120000 |125000 |130000 |140000 |145000 |15000 |150000 |160000 |165000 |170000 |175000 |177000 |180000 |1e+05 |20000 |2250 |225000 |230000 |24000 |25000 |250000 |265000 |27000 |2e+05 |3000 |30000 |35000 |350000 |39000 |3e+05 |4000 |40000 |404000 |41600 |45000 |48000 |4e+05 |5000 |50000 |520 |55000 |57000 |5e+05 |60000 |65000 |6e+05 |70000 |75000 |78000 |7e+05 |80000 |85000 |8e+05 |90000 |95000 |98000 |9e+05 |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:-----|:-------------------------------------|:--|:-----|:------|:-----|:------|:------|:------|:------|:------|:-----|:------|:------|:------|:------|:------|:------|:------|:-----|:-----|:----|:------|:------|:-----|:-----|:------|:------|:-----|:-----|:----|:-----|:-----|:------|:-----|:-----|:----|:-----|:------|:-----|:-----|:-----|:-----|:----|:-----|:---|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:------------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |1613  |
+#'  |1973  |1504  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |1504  |
+#'  |1974  |1484  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |1484  |
+#'  |1975  |1490  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |1490  |
+#'  |1976  |1499  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |1499  |
+#'  |1977  |1530  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |1530  |
+#'  |1978  |1532  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |1532  |
+#'  |1980  |1468  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |1468  |
+#'  |1982  |1860  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |1860  |
+#'  |1983  |1599  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |1599  |
+#'  |1984  |1473  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |1473  |
+#'  |1985  |1534  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |1534  |
+#'  |1986  |1470  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |1470  |
+#'  |1987  |1819  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |1819  |
+#'  |1988  |1481  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |1481  |
+#'  |1989  |1537  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |1537  |
+#'  |1990  |1372  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |1372  |
+#'  |1991  |1517  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |1517  |
+#'  |1993  |1606  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |1606  |
+#'  |1994  |2992  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |2992  |
+#'  |1996  |2904  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |2904  |
+#'  |1998  |2832  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |2832  |
+#'  |2000  |1545  |10                                    |1  |2     |3      |1     |17     |30     |4      |3      |1      |2     |108    |2      |1      |1      |9      |1      |6      |215   |7     |1    |2      |1      |2     |8     |28     |1      |1     |93    |1    |7     |1     |3      |1     |18    |1    |24    |1      |1     |10    |2     |5     |1    |73    |1   |2     |1     |13    |48    |12    |1     |34    |55    |1     |1     |77    |5     |1     |22    |5     |1     |1     |79           |202       |-                          |2817  |
+#'  |2002  |2765  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |2765  |
+#'  |2004  |2812  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |2812  |
+#'  |2006  |4510  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |4510  |
+#'  |2008  |2023  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |2023  |
+#'  |2010  |2044  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |2044  |
+#'  |2012  |1974  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |1974  |
+#'  |2014  |2538  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |2538  |
+#'  |2016  |2867  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |2867  |
+#'  |2018  |2348  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |2348  |
+#'  |2021  |4032  |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |-                          |4032  |
+#'  |2022  |-     |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |3544                       |3544  |
+#'  |2024  |-     |-                                     |-  |-     |-      |-     |-      |-      |-      |-      |-      |-     |-      |-      |-      |-      |-      |-      |-      |-     |-     |-    |-      |-      |-     |-     |-      |-      |-     |-     |-    |-     |-     |-      |-     |-     |-    |-     |-      |-     |-     |-     |-     |-    |-     |-   |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-            |-         |3309                       |3309  |
+#'  |Total |67574 |10                                    |1  |2     |3      |1     |17     |30     |4      |3      |1      |2     |108    |2      |1      |1      |9      |1      |6      |215   |7     |1    |2      |1      |2     |8     |28     |1      |1     |93    |1    |7     |1     |3      |1     |18    |1    |24    |1      |1     |10    |2     |5     |1    |73    |1   |2     |1     |13    |48    |12    |1     |34    |55    |1     |1     |77    |5     |1     |22    |5     |1     |1     |79           |202       |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Social Inequality
+#' @family Inequality, Income
+#' @family Occupation
+#' 
+#' @keywords variable
+#' @md
+#' @name givjudge
+NULL
+
+
 #'  How much ought worker in own occupation make
 #' 
 #'  givrocc
 #' 
-#' Question 1255. Next, what do you think people in these jobs ought to be paid how much do you think they should earn each year before taxes, regardless of what they actually get? Please write in how much they should earn each year. p. People in your occupation
+#' Question Next, what do you think people in these jobs ought to be paid -- how much do you think they should earn each year  before taxes, regardless of what they actually get? Please write in how much they should earn each year. 
+#' P. People in your occupation - about how much ought they earn?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1e+06` $1 million (or more, for 1987 & 2000)
+#'   * `99999992` more than now paid
+#'   * `99999993` same as now paid
+#'   * `99999994` less than now paid
+#'   * `99999997` never worked
+#'   * `NA(d)` can't choose
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4294/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,13 +248,38 @@
 #'  |2024  |-     |-                                     |-    |-     |-     |-      |-     |-     |-     |-     |-      |-     |-     |-     |-     |-     |-     |-    |-     |-     |-     |-     |-    |-     |-     |-     |-     |-      |-     |-     |-     |-     |-     |-     |-     |-     |-     |-     |-      |-     |-     |-     |-     |-     |-     |-    |-     |-     |-     |-    |-     |-     |-    |-     |-   |-     |-    |-     |-     |-    |-     |-     |-    |-     |-     |-     |-    |-     |-     |-    |-     |-     |-            |-            |-         |3309                       |3309  |
 #'  |Total |67574 |4                                     |1    |14    |8     |3      |2     |1     |1     |30    |11     |2     |5     |12    |2     |1     |47    |2    |63    |2     |2     |6     |1    |4     |5     |2     |57    |2      |1     |4     |4     |3     |129   |1     |2     |1     |1     |69    |2      |3     |1     |2     |1     |1     |1     |1    |96    |3     |2     |1    |50    |1     |3    |110   |1   |13    |1    |1     |3     |2    |75    |12    |2    |17    |36    |1     |2    |27    |5     |2    |5     |3     |49           |18           |214       |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Social Inequality
+#' @family Inequality, Income
+#' @family Occupation
+#' 
+#' @keywords variable
+#' @md
+#' @name givrocc
+NULL
+
+
+#'  Income differentials in usa too big
+#' 
+#'  incgap
+#' 
+#' Question Do you agree or disagree? 
+#' A. Differences in income in America are too large.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1e+06` $1 million (or more, for 1987 & 2000)
-#'   * `99999992` more than now paid
-#'   * `99999993` same as now paid
-#'   * `99999994` less than now paid
-#'   * `99999997` never worked
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` neither agree nor disagree
+#'   * `4` disagree
+#'   * `5` strongly disagree
 #'   * `NA(d)` can't choose
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -68,22 +293,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name givrocc
-NULL
-
-#'  Income differentials in usa too big
-#' 
-#'  incgap
-#' 
-#' Question 1256. Do you agree or disagree: a. Differences in income in America are too large.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4295/vshow).
 #'
 #' Counts by year: 
 #'
@@ -126,6 +337,36 @@ NULL
 #'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |-              |3309                       |3309  |
 #'  |Total |60349 |2911  |208          |901      |1528                       |219       |2406           |318               |6              |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1987 |-/-/-   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2008 |B/C/-   |partial      |
+#'  |2018 |B/C/-   |partial      |
+#'  |2021 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets
+#' @family ISSP Social Inequality
+#' @family Inequality, Income
+#' 
+#' @keywords variable
+#' @md
+#' @name incgap
+NULL
+
+
+#'  Govmnt should reduce inc differentials
+#' 
+#'  goveqinc
+#' 
+#' Question Do you agree or disagree?
+#' B. It is the responsibility of the government to reduce the differences in income between people with high incomes and those with low incomes.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -146,22 +387,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name incgap
-NULL
-
-#'  Govmnt should reduce inc differentials
-#' 
-#'  goveqinc
-#' 
-#' Question 1256. Do you agree or disagree: b. t is the responsibility of the government to reduce the differences in income between people with high incomes and those with low incomes.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4296/vshow).
 #'
 #' Counts by year: 
 #'
@@ -204,6 +431,39 @@ NULL
 #'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |-              |3309                       |3309  |
 #'  |Total |54786 |3148  |406          |3739     |2995                       |450       |1180           |2131              |11             |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1987 |-/-/-   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2008 |B/C/-   |partial      |
+#'  |2010 |A/B/-   |partial      |
+#'  |2018 |B/C/-   |partial      |
+#'  |2021 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Social Inequality
+#' @family Inequality, Income
+#' @family Social Class
+#' 
+#' @keywords variable
+#' @md
+#' @name goveqinc
+NULL
+
+
+#'  Govmnt should help poor attend college
+#' 
+#'  govedop
+#' 
+#' Question Do you agree or disagree? 
+#' C. The government should provide more chances for children from poor families to go to college.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -224,22 +484,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name goveqinc
-NULL
-
-#'  Govmnt should help poor attend college
-#' 
-#'  govedop
-#' 
-#' Question 1256. Do you agree or disagree: c. The government should provide more chances for children from poor families to go to college.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4297/vshow).
 #'
 #' Counts by year: 
 #'
@@ -282,6 +528,31 @@ NULL
 #'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |67282 |783   |12           |136      |170                        |29        |410            |24                |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1987 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Social Inequality
+#' @family Education
+#' @family Opportunity
+#' 
+#' @keywords variable
+#' @md
+#' @name govedop
+NULL
+
+
+#'  Govmnt should provide jobs
+#' 
+#'  govjobs
+#' 
+#' Question Do you agree or disagree? 
+#' D. The government should provide a job for everyone who wants one.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -302,22 +573,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name govedop
-NULL
-
-#'  Govmnt should provide jobs
-#' 
-#'  govjobs
-#' 
-#' Question 1256. Do you agree or disagree: d. The government should provide a job for everyone who wants one.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4298/vshow).
 #'
 #' Counts by year: 
 #'
@@ -360,6 +617,32 @@ NULL
 #'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |67282 |491   |23           |345      |292                        |32        |256            |125               |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1987 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Social Inequality
+#' @family Inequality, Income
+#' @family Poverty
+#' @family Welfare
+#' 
+#' @keywords variable
+#' @md
+#' @name govjobs
+NULL
+
+
+#'  Govmnt should spend less on poor
+#' 
+#'  govless
+#' 
+#' Question Do you agree or disagree? 
+#' E. The government should spend less on benefits for the poor.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -380,22 +663,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name govjobs
-NULL
-
-#'  Govmnt should spend less on poor
-#' 
-#'  govless
-#' 
-#' Question 1256. Do you agree or disagree: e. The government should spend less on benefits for the poor.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4299/vshow).
 #'
 #' Counts by year: 
 #'
@@ -438,6 +707,32 @@ NULL
 #'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |67282 |201   |33           |663      |306                        |35        |52             |274               |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1987 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Social Inequality
+#' @family Inequality, Income
+#' @family Poverty
+#' @family Welfare
+#' 
+#' @keywords variable
+#' @md
+#' @name govless
+NULL
+
+
+#'  Govmnt should provide unemp benefits
+#' 
+#'  govunemp
+#' 
+#' Question Do you agree or disagree? 
+#' F. The government should provide a decent standard of living for the unemployed.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -458,22 +753,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name govless
-NULL
-
-#'  Govmnt should provide unemp benefits
-#' 
-#'  govunemp
-#' 
-#' Question 1256. Do you agree or disagree: f. The government should provide a decent standard of living for the unemployed.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4300/vshow).
 #'
 #' Counts by year: 
 #'
@@ -516,6 +797,33 @@ NULL
 #'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |-              |3309                       |3309  |
 #'  |Total |65279 |1008  |106          |763      |838                        |164       |424            |246               |18             |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1987 |-/-     |full         |
+#'  |2021 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Social Inequality
+#' @family Inequality, Income
+#' @family Poverty
+#' @family Welfare
+#' 
+#' @keywords variable
+#' @md
+#' @name govunemp
+NULL
+
+
+#'  Govmnt should provide minimum income
+#' 
+#'  govminc
+#' 
+#' Question Do you agree or disagree? 
+#' G. The government should provide everyone with a guaranteed basic income.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -536,22 +844,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name govunemp
-NULL
-
-#'  Govmnt should provide minimum income
-#' 
-#'  govminc
-#' 
-#' Question 1256. Do you agree or disagree: g. The government should provide everyone with a guaranteed basic income.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4301/vshow).
 #'
 #' Counts by year: 
 #'
@@ -594,187 +888,19 @@ NULL
 #'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |67282 |268   |54           |562      |316                        |27        |107            |230               |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` neither agree nor disagree
-#'   * `4` disagree
-#'   * `5` strongly disagree
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1987 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family ISSP Social Inequality
+#' @family Inequality, Income
 #' 
 #' @keywords variable
 #' @md
 #' @name govminc
 NULL
 
-#'  Taxes on high income people too high
-#' 
-#'  taxrich
-#' 
-#' Question 1257. Generally, how would you describe taxes in America today... We mean all taxes together, including social security, income tax, sales tax, and all the rest. a. For those with high incomes, are taxes...
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |about right |can't choose |much too high |much too low |no answer |too high |too low |skipped on web |not available in this year |Total |
-#'  |:-----|:-----|:-----------|:------------|:-------------|:------------|:---------|:--------|:-------|:--------------|:--------------------------|:-----|
-#'  |1972  |1613  |-           |-            |-             |-            |-         |-        |-       |-              |-                          |1613  |
-#'  |1973  |1504  |-           |-            |-             |-            |-         |-        |-       |-              |-                          |1504  |
-#'  |1974  |1484  |-           |-            |-             |-            |-         |-        |-       |-              |-                          |1484  |
-#'  |1975  |1490  |-           |-            |-             |-            |-         |-        |-       |-              |-                          |1490  |
-#'  |1976  |1499  |-           |-            |-             |-            |-         |-        |-       |-              |-                          |1499  |
-#'  |1977  |1530  |-           |-            |-             |-            |-         |-        |-       |-              |-                          |1530  |
-#'  |1978  |1532  |-           |-            |-             |-            |-         |-        |-       |-              |-                          |1532  |
-#'  |1980  |1468  |-           |-            |-             |-            |-         |-        |-       |-              |-                          |1468  |
-#'  |1982  |1860  |-           |-            |-             |-            |-         |-        |-       |-              |-                          |1860  |
-#'  |1983  |1599  |-           |-            |-             |-            |-         |-        |-       |-              |-                          |1599  |
-#'  |1984  |1473  |-           |-            |-             |-            |-         |-        |-       |-              |-                          |1473  |
-#'  |1985  |1534  |-           |-            |-             |-            |-         |-        |-       |-              |-                          |1534  |
-#'  |1986  |1470  |-           |-            |-             |-            |-         |-        |-       |-              |-                          |1470  |
-#'  |1987  |255   |319         |99           |114           |275          |26        |173      |558     |-              |-                          |1819  |
-#'  |1988  |1481  |-           |-            |-             |-            |-         |-        |-       |-              |-                          |1481  |
-#'  |1989  |1537  |-           |-            |-             |-            |-         |-        |-       |-              |-                          |1537  |
-#'  |1990  |1372  |-           |-            |-             |-            |-         |-        |-       |-              |-                          |1372  |
-#'  |1991  |1517  |-           |-            |-             |-            |-         |-        |-       |-              |-                          |1517  |
-#'  |1993  |1606  |-           |-            |-             |-            |-         |-        |-       |-              |-                          |1606  |
-#'  |1994  |2992  |-           |-            |-             |-            |-         |-        |-       |-              |-                          |2992  |
-#'  |1996  |1572  |296         |87           |140           |112          |27        |310      |360     |-              |-                          |2904  |
-#'  |1998  |2832  |-           |-            |-             |-            |-         |-        |-       |-              |-                          |2832  |
-#'  |2000  |2817  |-           |-            |-             |-            |-         |-        |-       |-              |-                          |2817  |
-#'  |2002  |2765  |-           |-            |-             |-            |-         |-        |-       |-              |-                          |2765  |
-#'  |2004  |2812  |-           |-            |-             |-            |-         |-        |-       |-              |-                          |2812  |
-#'  |2006  |2992  |383         |100          |70            |284          |2         |160      |519     |-              |-                          |4510  |
-#'  |2008  |982   |245         |39           |170           |104          |4         |214      |265     |-              |-                          |2023  |
-#'  |2010  |2044  |-           |-            |-             |-            |-         |-        |-       |-              |-                          |2044  |
-#'  |2012  |1974  |-           |-            |-             |-            |-         |-        |-       |-              |-                          |1974  |
-#'  |2014  |2538  |-           |-            |-             |-            |-         |-        |-       |-              |-                          |2538  |
-#'  |2016  |1477  |326         |40           |104           |212          |16        |210      |482     |-              |-                          |2867  |
-#'  |2018  |2348  |-           |-            |-             |-            |-         |-        |-       |-              |-                          |2348  |
-#'  |2021  |2029  |329         |143          |98            |423          |144       |240      |614     |12             |-                          |4032  |
-#'  |2022  |-     |-           |-            |-             |-            |-         |-        |-       |-              |3544                       |3544  |
-#'  |2024  |-     |-           |-            |-             |-            |-         |-        |-       |-              |3309                       |3309  |
-#'  |Total |59998 |1898        |508          |696           |1410         |219       |1307     |2798    |12             |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` much too high
-#'   * `2` too high
-#'   * `3` about right
-#'   * `4` too low
-#'   * `5` much too low
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name taxrich
-NULL
-
-#'  Taxes on middle income people too high
-#' 
-#'  taxmid
-#' 
-#' Question 1257. Generally, how would you describe taxes in America today... We mean all taxes together, including social security, income tax, sales tax, and all the rest. b. For those with middle incomes, are taxes...
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |about right |can't choose |much too high |much too low |no answer |too high |too low |not available in this year |Total |
-#'  |:-----|:-----|:-----------|:------------|:-------------|:------------|:---------|:--------|:-------|:--------------------------|:-----|
-#'  |1972  |1613  |-           |-            |-             |-            |-         |-        |-       |-                          |1613  |
-#'  |1973  |1504  |-           |-            |-             |-            |-         |-        |-       |-                          |1504  |
-#'  |1974  |1484  |-           |-            |-             |-            |-         |-        |-       |-                          |1484  |
-#'  |1975  |1490  |-           |-            |-             |-            |-         |-        |-       |-                          |1490  |
-#'  |1976  |1499  |-           |-            |-             |-            |-         |-        |-       |-                          |1499  |
-#'  |1977  |1530  |-           |-            |-             |-            |-         |-        |-       |-                          |1530  |
-#'  |1978  |1532  |-           |-            |-             |-            |-         |-        |-       |-                          |1532  |
-#'  |1980  |1468  |-           |-            |-             |-            |-         |-        |-       |-                          |1468  |
-#'  |1982  |1860  |-           |-            |-             |-            |-         |-        |-       |-                          |1860  |
-#'  |1983  |1599  |-           |-            |-             |-            |-         |-        |-       |-                          |1599  |
-#'  |1984  |1473  |-           |-            |-             |-            |-         |-        |-       |-                          |1473  |
-#'  |1985  |1534  |-           |-            |-             |-            |-         |-        |-       |-                          |1534  |
-#'  |1986  |1470  |-           |-            |-             |-            |-         |-        |-       |-                          |1470  |
-#'  |1987  |255   |408         |66           |251           |4            |23        |777      |35      |-                          |1819  |
-#'  |1988  |1481  |-           |-            |-             |-            |-         |-        |-       |-                          |1481  |
-#'  |1989  |1537  |-           |-            |-             |-            |-         |-        |-       |-                          |1537  |
-#'  |1990  |1372  |-           |-            |-             |-            |-         |-        |-       |-                          |1372  |
-#'  |1991  |1517  |-           |-            |-             |-            |-         |-        |-       |-                          |1517  |
-#'  |1993  |1606  |-           |-            |-             |-            |-         |-        |-       |-                          |1606  |
-#'  |1994  |2992  |-           |-            |-             |-            |-         |-        |-       |-                          |2992  |
-#'  |1996  |1572  |394         |54           |208           |2            |32        |615      |27      |-                          |2904  |
-#'  |1998  |2832  |-           |-            |-             |-            |-         |-        |-       |-                          |2832  |
-#'  |2000  |2817  |-           |-            |-             |-            |-         |-        |-       |-                          |2817  |
-#'  |2002  |2765  |-           |-            |-             |-            |-         |-        |-       |-                          |2765  |
-#'  |2004  |2812  |-           |-            |-             |-            |-         |-        |-       |-                          |2812  |
-#'  |2006  |2992  |574         |46           |206           |11           |-         |635      |46      |-                          |4510  |
-#'  |2008  |2023  |-           |-            |-             |-            |-         |-        |-       |-                          |2023  |
-#'  |2010  |2044  |-           |-            |-             |-            |-         |-        |-       |-                          |2044  |
-#'  |2012  |1974  |-           |-            |-             |-            |-         |-        |-       |-                          |1974  |
-#'  |2014  |2538  |-           |-            |-             |-            |-         |-        |-       |-                          |2538  |
-#'  |2016  |1477  |557         |22           |150           |6            |15        |580      |60      |-                          |2867  |
-#'  |2018  |2348  |-           |-            |-             |-            |-         |-        |-       |-                          |2348  |
-#'  |2021  |4032  |-           |-            |-             |-            |-         |-        |-       |-                          |4032  |
-#'  |2022  |-     |-           |-            |-             |-            |-         |-        |-       |3544                       |3544  |
-#'  |2024  |-     |-           |-            |-             |-            |-         |-        |-       |3309                       |3309  |
-#'  |Total |63042 |1933        |188          |815           |23           |70        |2607     |168     |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` much too high
-#'   * `2` too high
-#'   * `3` about right
-#'   * `4` too low
-#'   * `5` much too low
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name taxmid
-NULL
 

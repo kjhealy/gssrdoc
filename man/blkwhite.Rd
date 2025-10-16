@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 blkwhite
 }
 \details{
-Question 374. Please consider the following statements and tell me whether you agree strongly, agree somewhat, disagree somewhat, or disagree strongly with each statement. b. Right and wrong are not usually a simple matter of black and white; there are many shades of gray.
+Question Please consider the following statements and tell me whether you agree strongly, agree somewhat, disagree somewhat or disagree strongly with each statement.
+B. Right and wrong are not usually a simple matter of black and white; there are many shades of gray.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} agree strongly
+\item \code{2} agree somewhat
+\item \code{3} disagree somewhat
+\item \code{4} disagree strongly
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1082/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab agree somewhat \tab agree strongly \tab disagree somewhat \tab disagree strongly \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,26 +80,38 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} agree strongly
-\item \code{2} agree somewhat
-\item \code{3} disagree somewhat
-\item \code{4} disagree strongly
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1988 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Religion: 
+\code{\link{decbible}},
+\code{\link{decchurh}},
+\code{\link{decoths}},
+\code{\link{decself}},
+\code{\link{gochurch}},
+\code{\link{permoral}},
+\code{\link{punsin}},
+\code{\link{readword}},
+\code{\link{rotapple}}
+
+Other Religion: 
+\code{\link{decbible}},
+\code{\link{decchurh}},
+\code{\link{decoths}},
+\code{\link{decself}},
+\code{\link{gochurch}},
+\code{\link{permoral}},
+\code{\link{punsin}},
+\code{\link{readword}},
+\code{\link{rotapple}}
+}
+\concept{Religion}
 \keyword{variable}

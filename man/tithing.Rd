@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 tithing
 }
 \details{
-Question 118. About how much do you contribute to your religion every year (not including school tuition)?
+Question About how much do you contribute to your religion every year (not including school tuition)?
 }
+\section{Values}{
+
+\itemize{
+\item \code{99995} tithes, amt. not given
+\item \code{99996} 99996 or more
+\item \code{99997} refused
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/360/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 0 \tab 1 \tab 10 \tab 100 \tab 1000 \tab 10000 \tab 104 \tab 1040 \tab 110 \tab 114 \tab 1150 \tab 12 \tab 120 \tab 1200 \tab 12000 \tab 125 \tab 1250 \tab 130 \tab 1300 \tab 1350 \tab 1440 \tab 15 \tab 150 \tab 1500 \tab 160 \tab 170 \tab 1700 \tab 175 \tab 1800 \tab 189 \tab 1900 \tab 2 \tab 20 \tab 200 \tab 2000 \tab 20000 \tab 22 \tab 24 \tab 240 \tab 2400 \tab 25 \tab 250 \tab 2500 \tab 260 \tab 270 \tab 2700 \tab 2800 \tab 288 \tab 3 \tab 30 \tab 300 \tab 3000 \tab 301 \tab 3120 \tab 325 \tab 336 \tab 3482 \tab 35 \tab 350 \tab 3500 \tab 360 \tab 364 \tab 4 \tab 40 \tab 400 \tab 4000 \tab 425 \tab 450 \tab 4500 \tab 48 \tab 480 \tab 481 \tab 5 \tab 50 \tab 500 \tab 5000 \tab 504 \tab 52 \tab 520 \tab 540 \tab 550 \tab 570 \tab 596 \tab 60 \tab 600 \tab 650 \tab 6500 \tab 67 \tab 70 \tab 700 \tab 7000 \tab 720 \tab 75 \tab 750 \tab 780 \tab 80 \tab 800 \tab 8000 \tab 850 \tab 90 \tab 900 \tab 96 \tab 960 \tab 98 \tab 99996 or more \tab don't know \tab no answer \tab refused \tab 1004 \tab 1100 \tab 115 \tab 1400 \tab 1490 \tab 156 \tab 1680 \tab 1750 \tab 18 \tab 180 \tab 2080 \tab 2200 \tab 2210 \tab 225 \tab 2600 \tab 3060 \tab 312 \tab 32 \tab 3400 \tab 4400 \tab 5200 \tab 5500 \tab 6000 \tab 630 \tab 6450 \tab 65 \tab 680 \tab 72 \tab 786 \tab 85 \tab 8500 \tab 864 \tab 102 \tab 15000 \tab 1600 \tab 178 \tab 2100 \tab 2250 \tab 265 \tab 275 \tab 330 \tab 3300 \tab 5046 \tab 516 \tab 5300 \tab 624 \tab 627 \tab 9 \tab 9000 \tab 99 \tab 998 \tab 9999 \tab tithes, amt. not given \tab not available in this year \tab Total \cr
@@ -57,25 +78,34 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{99995} tithes, amt. not given
-\item \code{99996} 99996 or more
-\item \code{99997} refused
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1987 \tab -/-/- \tab full \cr
+   1988 \tab A/B/C \tab full \cr
+   1989 \tab A/B/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{bible}},
+\code{\link{bibley}},
+\code{\link{coden}},
+\code{\link{cofund}},
+\code{\link{cojew}},
+\code{\link{coother}},
+\code{\link{prayer}},
+\code{\link{prayerx}},
+\code{\link{prayery}}
+
+Other Religion: 
+\code{\link{bible}},
+\code{\link{bibley}},
+\code{\link{prayer}},
+\code{\link{prayerx}},
+\code{\link{prayery}}
+}
+\concept{Core}
+\concept{Religion}
 \keyword{variable}

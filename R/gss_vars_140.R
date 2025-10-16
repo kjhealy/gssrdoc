@@ -1,11 +1,214 @@
+#'  My job allows me make part decisions
+#' 
+#'  idecide
+#' 
+#' Question How true would you say each of the following statements is about your job?  Would you say very true, true, somewhat true, or not true at all: 
+#' C. My job allows me to take part in making decisions that affect my work.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` very true
+#'   * `2` true
+#'   * `3` somewhat true
+#'   * `4` not true at all
+#'   * `NA(d)` can't choose
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1310/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |can't choose |no answer |not true at all |somewhat true |true |very true |not available in this year |Total |
+#'  |:-----|:-----|:------------|:---------|:---------------|:-------------|:----|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-            |-         |-               |-             |-    |-         |-                          |1613  |
+#'  |1973  |1504  |-            |-         |-               |-             |-    |-         |-                          |1504  |
+#'  |1974  |1484  |-            |-         |-               |-             |-    |-         |-                          |1484  |
+#'  |1975  |1490  |-            |-         |-               |-             |-    |-         |-                          |1490  |
+#'  |1976  |1499  |-            |-         |-               |-             |-    |-         |-                          |1499  |
+#'  |1977  |1530  |-            |-         |-               |-             |-    |-         |-                          |1530  |
+#'  |1978  |1532  |-            |-         |-               |-             |-    |-         |-                          |1532  |
+#'  |1980  |1468  |-            |-         |-               |-             |-    |-         |-                          |1468  |
+#'  |1982  |1860  |-            |-         |-               |-             |-    |-         |-                          |1860  |
+#'  |1983  |1599  |-            |-         |-               |-             |-    |-         |-                          |1599  |
+#'  |1984  |1473  |-            |-         |-               |-             |-    |-         |-                          |1473  |
+#'  |1985  |1534  |-            |-         |-               |-             |-    |-         |-                          |1534  |
+#'  |1986  |1470  |-            |-         |-               |-             |-    |-         |-                          |1470  |
+#'  |1987  |1819  |-            |-         |-               |-             |-    |-         |-                          |1819  |
+#'  |1988  |1481  |-            |-         |-               |-             |-    |-         |-                          |1481  |
+#'  |1989  |1537  |-            |-         |-               |-             |-    |-         |-                          |1537  |
+#'  |1990  |1372  |-            |-         |-               |-             |-    |-         |-                          |1372  |
+#'  |1991  |605   |2            |10        |112             |132           |335  |321       |-                          |1517  |
+#'  |1993  |1606  |-            |-         |-               |-             |-    |-         |-                          |1606  |
+#'  |1994  |2992  |-            |-         |-               |-             |-    |-         |-                          |2992  |
+#'  |1996  |2904  |-            |-         |-               |-             |-    |-         |-                          |2904  |
+#'  |1998  |2832  |-            |-         |-               |-             |-    |-         |-                          |2832  |
+#'  |2000  |2817  |-            |-         |-               |-             |-    |-         |-                          |2817  |
+#'  |2002  |2765  |-            |-         |-               |-             |-    |-         |-                          |2765  |
+#'  |2004  |2812  |-            |-         |-               |-             |-    |-         |-                          |2812  |
+#'  |2006  |4510  |-            |-         |-               |-             |-    |-         |-                          |4510  |
+#'  |2008  |2023  |-            |-         |-               |-             |-    |-         |-                          |2023  |
+#'  |2010  |2044  |-            |-         |-               |-             |-    |-         |-                          |2044  |
+#'  |2012  |1974  |-            |-         |-               |-             |-    |-         |-                          |1974  |
+#'  |2014  |2538  |-            |-         |-               |-             |-    |-         |-                          |2538  |
+#'  |2016  |2867  |-            |-         |-               |-             |-    |-         |-                          |2867  |
+#'  |2018  |2348  |-            |-         |-               |-             |-    |-         |-                          |2348  |
+#'  |2021  |4032  |-            |-         |-               |-             |-    |-         |-                          |4032  |
+#'  |2022  |-     |-            |-         |-               |-             |-    |-         |3544                       |3544  |
+#'  |2024  |-     |-            |-         |-               |-             |-    |-         |3309                       |3309  |
+#'  |Total |67934 |2            |10        |112             |132           |335  |321       |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Organizations
+#' @family Job
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name idecide
+NULL
+
+
+#'  My job is controlled by my machine
+#' 
+#'  automatn
+#' 
+#' Question How true would you say each of the following statements is about your job?  Would you say very true, true, somewhat true, or not true at all: 
+#' D. How I do my job is controlled by the machines I work with.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` very true
+#'   * `2` true
+#'   * `3` somewhat true
+#'   * `4` not true at all
+#'   * `NA(d)` can't choose
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1311/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |can't choose |no answer |not true at all |somewhat true |true |very true |not available in this year |Total |
+#'  |:-----|:-----|:------------|:---------|:---------------|:-------------|:----|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-            |-         |-               |-             |-    |-         |-                          |1613  |
+#'  |1973  |1504  |-            |-         |-               |-             |-    |-         |-                          |1504  |
+#'  |1974  |1484  |-            |-         |-               |-             |-    |-         |-                          |1484  |
+#'  |1975  |1490  |-            |-         |-               |-             |-    |-         |-                          |1490  |
+#'  |1976  |1499  |-            |-         |-               |-             |-    |-         |-                          |1499  |
+#'  |1977  |1530  |-            |-         |-               |-             |-    |-         |-                          |1530  |
+#'  |1978  |1532  |-            |-         |-               |-             |-    |-         |-                          |1532  |
+#'  |1980  |1468  |-            |-         |-               |-             |-    |-         |-                          |1468  |
+#'  |1982  |1860  |-            |-         |-               |-             |-    |-         |-                          |1860  |
+#'  |1983  |1599  |-            |-         |-               |-             |-    |-         |-                          |1599  |
+#'  |1984  |1473  |-            |-         |-               |-             |-    |-         |-                          |1473  |
+#'  |1985  |1534  |-            |-         |-               |-             |-    |-         |-                          |1534  |
+#'  |1986  |1470  |-            |-         |-               |-             |-    |-         |-                          |1470  |
+#'  |1987  |1819  |-            |-         |-               |-             |-    |-         |-                          |1819  |
+#'  |1988  |1481  |-            |-         |-               |-             |-    |-         |-                          |1481  |
+#'  |1989  |1537  |-            |-         |-               |-             |-    |-         |-                          |1537  |
+#'  |1990  |1372  |-            |-         |-               |-             |-    |-         |-                          |1372  |
+#'  |1991  |605   |9            |13        |576             |125           |116  |73        |-                          |1517  |
+#'  |1993  |1606  |-            |-         |-               |-             |-    |-         |-                          |1606  |
+#'  |1994  |2992  |-            |-         |-               |-             |-    |-         |-                          |2992  |
+#'  |1996  |2904  |-            |-         |-               |-             |-    |-         |-                          |2904  |
+#'  |1998  |2832  |-            |-         |-               |-             |-    |-         |-                          |2832  |
+#'  |2000  |2817  |-            |-         |-               |-             |-    |-         |-                          |2817  |
+#'  |2002  |2765  |-            |-         |-               |-             |-    |-         |-                          |2765  |
+#'  |2004  |2812  |-            |-         |-               |-             |-    |-         |-                          |2812  |
+#'  |2006  |4510  |-            |-         |-               |-             |-    |-         |-                          |4510  |
+#'  |2008  |2023  |-            |-         |-               |-             |-    |-         |-                          |2023  |
+#'  |2010  |2044  |-            |-         |-               |-             |-    |-         |-                          |2044  |
+#'  |2012  |1974  |-            |-         |-               |-             |-    |-         |-                          |1974  |
+#'  |2014  |2538  |-            |-         |-               |-             |-    |-         |-                          |2538  |
+#'  |2016  |2867  |-            |-         |-               |-             |-    |-         |-                          |2867  |
+#'  |2018  |2348  |-            |-         |-               |-             |-    |-         |-                          |2348  |
+#'  |2021  |4032  |-            |-         |-               |-             |-    |-         |-                          |4032  |
+#'  |2022  |-     |-            |-         |-               |-             |-    |-         |3544                       |3544  |
+#'  |2024  |-     |-            |-         |-               |-             |-    |-         |3309                       |3309  |
+#'  |Total |67934 |9            |13        |576             |125           |116  |73        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Organizations
+#' @family Business
+#' @family Corporations
+#' @family Employment
+#' @family Job
+#' @family Occupation
+#' @family Technology
+#' @family Unemployment
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name automatn
+NULL
+
+
 #'  Computers monitor my job performance
 #' 
 #'  monitred
 #' 
-#' Question 438. How true would you say each of the following statements is about your job? e. Computers monitor my job performance.
+#' Question How true would you say each of the following statements is about your job?  Would you say very true, true, somewhat true, or not true at all: 
+#' E. Computers monitor my job performance.
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` very true
+#'   * `2` true
+#'   * `3` somewhat true
+#'   * `4` not true at all
+#'   * `NA(d)` can't choose
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1312/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,13 +251,35 @@
 #'  |2024  |-     |-            |-         |-               |-             |-    |-         |3309                       |3309  |
 #'  |Total |67934 |4            |12        |736             |66            |59   |35        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Organizations
+#' @family Job
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name monitred
+NULL
+
+
+#'  Do you supervise the work of other employees
+#' 
+#'  offsup
+#' 
+#' Question As an official part of your main job, do you supervise the work of other employees or tell other employees what work to do?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` very true
-#'   * `2` true
-#'   * `3` somewhat true
-#'   * `4` not true at all
-#'   * `NA(d)` can't choose
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
 #'   * `NA(m)` dk, na, iap
@@ -67,22 +292,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name monitred
-NULL
-
-#'  Do you supervise the work of other employees
-#' 
-#'  offsup
-#' 
-#' Question 439. As an official part of your main job, do you supervise the work of other employees or tell other employees what work to do?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1313/vshow).
 #'
 #' Counts by year: 
 #'
@@ -125,10 +336,34 @@ NULL
 #'  |2024  |-     |-   |-         |-   |3309                       |3309  |
 #'  |Total |67934 |571 |7         |334 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Organizations
+#' @family Job
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name offsup
+NULL
+
+
+#'  How many people do you supervise directly
+#' 
+#'  yousup
+#' 
+#' Question As an official part of your main job, do you supervise the work of other employees or tell other employees what work to do? 
+#' A. How many people Do you supervise directly?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `0` 0 people
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -142,22 +377,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name offsup
-NULL
-
-#'  How many people do you supervise directly
-#' 
-#'  yousup
-#' 
-#' Question 439a. How many people do you supervise directly?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1314/vshow).
 #'
 #' Counts by year: 
 #'
@@ -200,9 +421,38 @@ NULL
 #'  |2024  |2779  |71  |28  |5   |12 |2  |5  |16 |-  |6  |-  |75  |17 |-  |1  |-  |12 |1  |-  |-  |49  |6  |-  |3  |54  |52  |4  |-  |25  |-  |19 |-  |18  |11 |-         |2  |1  |-  |1  |-  |5  |3  |-  |1  |-  |-  |-  |-  |-  |-  |7        |-   |2   |1   |-   |-   |-   |-   |-   |1  |-   |-  |-  |-  |-  |-  |1  |-  |-  |6              |-   |-   |-   |1  |-  |-  |-   |-  |-  |1          |1   |1   |1  |1  |1  |3309  |
 #'  |Total |72962 |346 |142 |12  |83 |15 |20 |66 |12 |16 |3  |410 |76 |3  |6  |5  |39 |5  |4  |4  |285 |40 |1  |10 |272 |215 |22 |1  |160 |6  |92 |4  |122 |54 |15        |11 |7  |3  |2  |3  |20 |10 |2  |3  |2  |1  |1  |1  |2  |2  |30       |1   |5   |2   |1   |2   |2   |1   |4   |5  |1   |1  |1  |1  |1  |1  |6  |1  |1  |14             |1   |1   |1   |2  |1  |1  |2   |1  |1  |4          |1   |1   |1  |1  |1  |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Organizations
+#' @family Job
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name yousup
+NULL
+
+
+#'  Does spouse supervise anyone
+#' 
+#'  spwksup
+#' 
+#' Question In your (husband/wife/partner)'s job, does (he/she) supervise anyone who is directly responsible to (him/her)?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` 0 people
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -216,22 +466,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name yousup
-NULL
-
-#'  Does spouse supervise anyone
-#' 
-#'  spwksup
-#' 
-#' Question In your (husband/wife/partner)'s job, does (he/she) supervise anyone who is directly responsible to (him/her)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7093/vshow).
 #'
 #' Counts by year: 
 #'
@@ -274,6 +510,32 @@ NULL
 #'  |2024  |2728  |12         |346  |-         |223 |-              |3309  |
 #'  |Total |73156 |50         |1533 |14        |942 |4              |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name spwksup
+NULL
+
+
+#'  Any people supervised by you supervise others
+#' 
+#'  supothrs
+#' 
+#' Question Do any of these people supervise anyone else?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -291,22 +553,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name spwksup
-NULL
-
-#'  Any people supervised by you supervise others
-#' 
-#'  supothrs
-#' 
-#' Question 440. Do any of these people supervise anyone else?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1315/vshow).
 #'
 #' Counts by year: 
 #'
@@ -349,10 +597,32 @@ NULL
 #'  |2024  |-     |-   |-         |-   |3309                       |3309  |
 #'  |Total |68505 |235 |7         |99  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Organizations
+#' @family Job
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name supothrs
+NULL
+
+
+#'  How many levels of supervision beneath you
+#' 
+#'  levels
+#' 
+#' Question In total, how many levels of supervision are there beneath yours (including the one immediately under you?)
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -366,22 +636,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name supothrs
-NULL
-
-#'  How many levels of supervision beneath you
-#' 
-#'  levels
-#' 
-#' Question 441. In total, how many levels of supervision are ther ebeneath yours (including the one immediately under you)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1316/vshow).
 #'
 #' Counts by year: 
 #'
@@ -424,6 +680,30 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68740 |36 |34 |15 |5  |2  |1  |4          |9         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Organizations
+#' @family Job
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name levels
+NULL
+
+
+#'  How many people responsible to you
+#' 
+#'  totsup
+#' 
+#' Question Counting all of these levels, how may people are responsible to you both directly and indirectly?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -439,22 +719,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name levels
-NULL
-
-#'  How many people responsible to you
-#' 
-#'  totsup
-#' 
-#' Question 442. Counting all of these levels, how many people are responsible to you both directly and indirectly?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1317/vshow).
 #'
 #' Counts by year: 
 #'
@@ -497,8 +763,35 @@ NULL
 #'  |2024  |-     |-  |-  |-   |-  |-  |-    |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-    |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68505 |51 |15 |3   |1  |12 |1    |1   |1  |1   |4  |10 |2  |2  |1  |36 |13 |2   |1  |1  |1    |1  |2  |1  |1  |1  |34 |3  |1  |1  |1  |1  |4  |1  |34 |2  |1   |1  |1  |23 |3  |1  |1  |11 |3  |2  |5  |2  |13 |3  |1  |1  |5          |17        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Organizations
+#' @family Job
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name totsup
+NULL
+
+
+#'  You train employees safe use equipment
+#' 
+#'  supduty1
+#' 
+#' Question Here is a card listing 7 different kinds of oversight activities. Which ones do you do as part of your supervisory responsibilities?  Please mention all that apply: 
+#' A. Train employees in the safe use of equipment or tools.
+#' 
+#' 
 #' @section Values: 
 #' 
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -512,22 +805,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name totsup
-NULL
-
-#'  You train employees safe use equipment
-#' 
-#'  supduty1
-#' 
-#' Question 443. Here is a card listing 7 different kinds of oversight activities. Which ones do you do as part of your supervisory responsibilities? Please mention all that apply: a. Train employees in the safe use of equipment or tools.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1318/vshow).
 #'
 #' Counts by year: 
 #'
@@ -570,178 +849,20 @@ NULL
 #'  |2024  |-     |-   |-         |-   |3309                       |3309  |
 #'  |Total |68505 |130 |11        |200 |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Work Organizations
+#' @family Job
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
 #' @name supduty1
 NULL
 
-#'  You train employees in other ways
-#' 
-#'  supduty2
-#' 
-#' Question 443. Here is a card listing 7 different kinds of oversight activities. Which ones do you do as part of your supervisory responsibilities? Please mention all that apply: b. Train employees in other ways.
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |no |no answer |yes |not available in this year |Total |
-#'  |:-----|:-----|:--|:---------|:---|:--------------------------|:-----|
-#'  |1972  |1613  |-  |-         |-   |-                          |1613  |
-#'  |1973  |1504  |-  |-         |-   |-                          |1504  |
-#'  |1974  |1484  |-  |-         |-   |-                          |1484  |
-#'  |1975  |1490  |-  |-         |-   |-                          |1490  |
-#'  |1976  |1499  |-  |-         |-   |-                          |1499  |
-#'  |1977  |1530  |-  |-         |-   |-                          |1530  |
-#'  |1978  |1532  |-  |-         |-   |-                          |1532  |
-#'  |1980  |1468  |-  |-         |-   |-                          |1468  |
-#'  |1982  |1860  |-  |-         |-   |-                          |1860  |
-#'  |1983  |1599  |-  |-         |-   |-                          |1599  |
-#'  |1984  |1473  |-  |-         |-   |-                          |1473  |
-#'  |1985  |1534  |-  |-         |-   |-                          |1534  |
-#'  |1986  |1470  |-  |-         |-   |-                          |1470  |
-#'  |1987  |1819  |-  |-         |-   |-                          |1819  |
-#'  |1988  |1481  |-  |-         |-   |-                          |1481  |
-#'  |1989  |1537  |-  |-         |-   |-                          |1537  |
-#'  |1990  |1372  |-  |-         |-   |-                          |1372  |
-#'  |1991  |1176  |66 |11        |264 |-                          |1517  |
-#'  |1993  |1606  |-  |-         |-   |-                          |1606  |
-#'  |1994  |2992  |-  |-         |-   |-                          |2992  |
-#'  |1996  |2904  |-  |-         |-   |-                          |2904  |
-#'  |1998  |2832  |-  |-         |-   |-                          |2832  |
-#'  |2000  |2817  |-  |-         |-   |-                          |2817  |
-#'  |2002  |2765  |-  |-         |-   |-                          |2765  |
-#'  |2004  |2812  |-  |-         |-   |-                          |2812  |
-#'  |2006  |4510  |-  |-         |-   |-                          |4510  |
-#'  |2008  |2023  |-  |-         |-   |-                          |2023  |
-#'  |2010  |2044  |-  |-         |-   |-                          |2044  |
-#'  |2012  |1974  |-  |-         |-   |-                          |1974  |
-#'  |2014  |2538  |-  |-         |-   |-                          |2538  |
-#'  |2016  |2867  |-  |-         |-   |-                          |2867  |
-#'  |2018  |2348  |-  |-         |-   |-                          |2348  |
-#'  |2021  |4032  |-  |-         |-   |-                          |4032  |
-#'  |2022  |-     |-  |-         |-   |3544                       |3544  |
-#'  |2024  |-     |-  |-         |-   |3309                       |3309  |
-#'  |Total |68505 |66 |11        |264 |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name supduty2
-NULL
-
-#'  You organize schedules or tasks
-#' 
-#'  supduty3
-#' 
-#' Question 443. Here is a card listing 7 different kinds of oversight activities. Which ones do you do as part of your supervisory responsibilities? Please mention all that apply: c. Organize schedules or tasks
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no |no answer |yes |not available in this year |Total |
-#'  |:-----|:-----|:----------|:--|:---------|:---|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-  |-         |-   |-                          |1613  |
-#'  |1973  |1504  |-          |-  |-         |-   |-                          |1504  |
-#'  |1974  |1484  |-          |-  |-         |-   |-                          |1484  |
-#'  |1975  |1490  |-          |-  |-         |-   |-                          |1490  |
-#'  |1976  |1499  |-          |-  |-         |-   |-                          |1499  |
-#'  |1977  |1530  |-          |-  |-         |-   |-                          |1530  |
-#'  |1978  |1532  |-          |-  |-         |-   |-                          |1532  |
-#'  |1980  |1468  |-          |-  |-         |-   |-                          |1468  |
-#'  |1982  |1860  |-          |-  |-         |-   |-                          |1860  |
-#'  |1983  |1599  |-          |-  |-         |-   |-                          |1599  |
-#'  |1984  |1473  |-          |-  |-         |-   |-                          |1473  |
-#'  |1985  |1534  |-          |-  |-         |-   |-                          |1534  |
-#'  |1986  |1470  |-          |-  |-         |-   |-                          |1470  |
-#'  |1987  |1819  |-          |-  |-         |-   |-                          |1819  |
-#'  |1988  |1481  |-          |-  |-         |-   |-                          |1481  |
-#'  |1989  |1537  |-          |-  |-         |-   |-                          |1537  |
-#'  |1990  |1372  |-          |-  |-         |-   |-                          |1372  |
-#'  |1991  |1176  |1          |72 |12        |256 |-                          |1517  |
-#'  |1993  |1606  |-          |-  |-         |-   |-                          |1606  |
-#'  |1994  |2992  |-          |-  |-         |-   |-                          |2992  |
-#'  |1996  |2904  |-          |-  |-         |-   |-                          |2904  |
-#'  |1998  |2832  |-          |-  |-         |-   |-                          |2832  |
-#'  |2000  |2817  |-          |-  |-         |-   |-                          |2817  |
-#'  |2002  |2765  |-          |-  |-         |-   |-                          |2765  |
-#'  |2004  |2812  |-          |-  |-         |-   |-                          |2812  |
-#'  |2006  |4510  |-          |-  |-         |-   |-                          |4510  |
-#'  |2008  |2023  |-          |-  |-         |-   |-                          |2023  |
-#'  |2010  |2044  |-          |-  |-         |-   |-                          |2044  |
-#'  |2012  |1974  |-          |-  |-         |-   |-                          |1974  |
-#'  |2014  |2538  |-          |-  |-         |-   |-                          |2538  |
-#'  |2016  |2867  |-          |-  |-         |-   |-                          |2867  |
-#'  |2018  |2348  |-          |-  |-         |-   |-                          |2348  |
-#'  |2021  |4032  |-          |-  |-         |-   |-                          |4032  |
-#'  |2022  |-     |-          |-  |-         |-   |3544                       |3544  |
-#'  |2024  |-     |-          |-  |-         |-   |3309                       |3309  |
-#'  |Total |68505 |1          |72 |12        |256 |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name supduty3
-NULL
 

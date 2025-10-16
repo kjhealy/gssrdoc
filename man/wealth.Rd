@@ -10,11 +10,44 @@ General Social Survey https://gss.norc.org
 wealth
 }
 \details{
-Question 1092. Please estimate your total wealth. IF ASKED: Wealth means the value of your house plus the value of your vehicles, stocks and mutual funds, cash, checking accounts, retirement accounts including 401(k) and pension assets, and any other assets minus what you owe for your mortgage and your debts.
+Question Please estimate your total wealth.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} less than $5,000
+\item \code{2} $5,000 to $20,000
+\item \code{3} $20,000 to $40,000
+\item \code{4} $40,000 to $75,000
+\item \code{5} $75,000 to $100,000
+\item \code{6} $100,000 to $150,000
+\item \code{7} $150,000 to $250,000
+\item \code{8} $250,000 to $500,000
+\item \code{9} $500,000 to $1 million
+\item \code{10} $1 million to $2 million
+\item \code{11} $2 million to $3 million
+\item \code{12} $3 million to $4 million
+\item \code{13} $4 million to $5 million
+\item \code{14} $5 million to $10 million
+\item \code{15} above $10 million
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3560/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllll}{
    year \tab iap \tab $1 million to $2 million \tab $100,000 to $150,000 \tab $150,000 to $250,000 \tab $2 million to $3 million \tab $20,000 to $40,000 \tab $250,000 to $500,000 \tab $3 million to $4 million \tab $40,000 to $75,000 \tab $5 million to $10 million \tab $5,000 to $20,000 \tab $500,000 to $1 million \tab $75,000 to $100,000 \tab above $10 million \tab don't know \tab less than $5,000 \tab no answer \tab $4 million to $5 million \tab skipped on web \tab not available in this year \tab Total \cr
@@ -57,37 +90,43 @@ Counts by year:\tabular{llllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} less than $5,000
-\item \code{2} $5,000 to $20,000
-\item \code{3} $20,000 to $40,000
-\item \code{4} $40,000 to $75,000
-\item \code{5} $75,000 to $100,000
-\item \code{6} $100,000 to $150,000
-\item \code{7} $150,000 to $250,000
-\item \code{8} $250,000 to $500,000
-\item \code{9} $500,000 to $1 million
-\item \code{10} $1 million to $2 million
-\item \code{11} $2 million to $3 million
-\item \code{12} $3 million to $4 million
-\item \code{13} $4 million to $5 million
-\item \code{14} $5 million to $10 million
-\item \code{15} above $10 million
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2022 \tab B/C/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Shared Capitalism: 
+\code{\link{compwage}},
+\code{\link{empinput}},
+\code{\link{emptrain}},
+\code{\link{esop}},
+\code{\link{extr2005}},
+\code{\link{numorg}},
+\code{\link{ops2005}},
+\code{\link{slfmangd}},
+\code{\link{talkteam}}
+
+Other Employment: 
+\code{\link{compwage}}
+
+Other Work: 
+\code{\link{compwage}},
+\code{\link{empinput}},
+\code{\link{emptrain}},
+\code{\link{esop}},
+\code{\link{extr2005}},
+\code{\link{numorg}},
+\code{\link{ops2005}},
+\code{\link{slfmangd}},
+\code{\link{talkteam}}
+}
+\concept{Employment}
+\concept{Shared Capitalism}
+\concept{Work}
 \keyword{variable}

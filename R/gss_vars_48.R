@@ -1,11 +1,118 @@
+#'  How much info does r have on race issues
+#' 
+#'  racinfo
+#' 
+#' Question B. How much information do you have about the race relations issue. Do you have all the information you need, most of the information, some information, or very little information?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` all info r needs
+#'   * `2` most info
+#'   * `3` some info
+#'   * `4` very little info
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/416/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |all info r needs |don't know |most info |no answer |some info |very little info |not available in this year |Total |
+#'  |:-----|:-----|:----------------|:----------|:---------|:---------|:---------|:----------------|:--------------------------|:-----|
+#'  |1972  |1613  |-                |-          |-         |-         |-         |-                |-                          |1613  |
+#'  |1973  |1504  |-                |-          |-         |-         |-         |-                |-                          |1504  |
+#'  |1974  |1484  |-                |-          |-         |-         |-         |-                |-                          |1484  |
+#'  |1975  |1490  |-                |-          |-         |-         |-         |-                |-                          |1490  |
+#'  |1976  |1499  |-                |-          |-         |-         |-         |-                |-                          |1499  |
+#'  |1977  |1530  |-                |-          |-         |-         |-         |-                |-                          |1530  |
+#'  |1978  |1532  |-                |-          |-         |-         |-         |-                |-                          |1532  |
+#'  |1980  |1468  |-                |-          |-         |-         |-         |-                |-                          |1468  |
+#'  |1982  |1860  |-                |-          |-         |-         |-         |-                |-                          |1860  |
+#'  |1983  |795   |98               |10         |203       |3         |332       |158              |-                          |1599  |
+#'  |1984  |1473  |-                |-          |-         |-         |-         |-                |-                          |1473  |
+#'  |1985  |1534  |-                |-          |-         |-         |-         |-                |-                          |1534  |
+#'  |1986  |1470  |-                |-          |-         |-         |-         |-                |-                          |1470  |
+#'  |1987  |1819  |-                |-          |-         |-         |-         |-                |-                          |1819  |
+#'  |1988  |1481  |-                |-          |-         |-         |-         |-                |-                          |1481  |
+#'  |1989  |1537  |-                |-          |-         |-         |-         |-                |-                          |1537  |
+#'  |1990  |1372  |-                |-          |-         |-         |-         |-                |-                          |1372  |
+#'  |1991  |1517  |-                |-          |-         |-         |-         |-                |-                          |1517  |
+#'  |1993  |1606  |-                |-          |-         |-         |-         |-                |-                          |1606  |
+#'  |1994  |2992  |-                |-          |-         |-         |-         |-                |-                          |2992  |
+#'  |1996  |2904  |-                |-          |-         |-         |-         |-                |-                          |2904  |
+#'  |1998  |2832  |-                |-          |-         |-         |-         |-                |-                          |2832  |
+#'  |2000  |2817  |-                |-          |-         |-         |-         |-                |-                          |2817  |
+#'  |2002  |2765  |-                |-          |-         |-         |-         |-                |-                          |2765  |
+#'  |2004  |2812  |-                |-          |-         |-         |-         |-                |-                          |2812  |
+#'  |2006  |4510  |-                |-          |-         |-         |-         |-                |-                          |4510  |
+#'  |2008  |2023  |-                |-          |-         |-         |-         |-                |-                          |2023  |
+#'  |2010  |2044  |-                |-          |-         |-         |-         |-                |-                          |2044  |
+#'  |2012  |1974  |-                |-          |-         |-         |-         |-                |-                          |1974  |
+#'  |2014  |2538  |-                |-          |-         |-         |-         |-                |-                          |2538  |
+#'  |2016  |2867  |-                |-          |-         |-         |-         |-                |-                          |2867  |
+#'  |2018  |2348  |-                |-          |-         |-         |-         |-                |-                          |2348  |
+#'  |2021  |4032  |-                |-          |-         |-         |-         |-                |-                          |4032  |
+#'  |2022  |-     |-                |-          |-         |-         |-         |-                |3544                       |3544  |
+#'  |2024  |-     |-                |-          |-         |-         |-         |-                |3309                       |3309  |
+#'  |Total |68042 |98               |10         |203       |3         |332       |158              |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name racinfo
+NULL
+
+
 #'  How firm is r's opinion on racial issues
 #' 
 #'  racfirm
 #' 
-#' Question 149c. How firm are you about your opinion on race relations?
+#' Question C. How firm are you about your opinion on race relations--would you say you are very likely to change your opinion, somewhat likely to change, somewhat unlikely to change, or very unlikely to change?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` very likely to chang
+#'   * `2` somewhat likely
+#'   * `3` somewhat unlikely
+#'   * `4` very unlikely to cha
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/417/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,12 +155,36 @@
 #'  |2024  |-     |-          |-         |-               |-                 |-                    |-                    |3309                       |3309  |
 #'  |Total |68042 |27         |3         |227             |270               |31                   |246                  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name racfirm
+NULL
+
+
+#'  R's concern about racial issues
+#' 
+#'  raccare
+#' 
+#' Question How concerned are you personally about race relations?  Are you very concerned, somewhat concerned, not very concerned, or not concerned at all?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` very likely to chang
-#'   * `2` somewhat likely
-#'   * `3` somewhat unlikely
-#'   * `4` very unlikely to cha
+#'   * `1` very concerned
+#'   * `2` somewhat concerned
+#'   * `3` not very concerned
+#'   * `4` not concerned at all
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -67,22 +198,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name racfirm
-NULL
-
-#'  R's concern about racial issues
-#' 
-#'  raccare
-#' 
-#' Question 150. How concerned are you personally about race relations?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/418/vshow).
 #'
 #' Counts by year: 
 #'
@@ -125,12 +242,35 @@ NULL
 #'  |2024  |-     |-          |-         |-                    |-                  |-                  |-              |3309                       |3309  |
 #'  |Total |68051 |6          |4         |71                   |173                |388                |153            |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name raccare
+NULL
+
+
+#'  How often r & friends think about race issues
+#' 
+#'  racthink
+#' 
+#' Question How often would you say that you and your friends think about race relations?  Would you say that you and your friends think about race relations very often, fairly often, occasionally, or almost never?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` very concerned
-#'   * `2` somewhat concerned
-#'   * `3` not very concerned
-#'   * `4` not concerned at all
+#'   * `1` very often
+#'   * `2` fairly often
+#'   * `3` occasionally
+#'   * `4` almost never
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -144,22 +284,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name raccare
-NULL
-
-#'  How often r & friends think about race issues
-#' 
-#'  racthink
-#' 
-#' Question 151. How often would you say that you and your friends think about race relations?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/419/vshow).
 #'
 #' Counts by year: 
 #'
@@ -202,12 +328,34 @@ NULL
 #'  |2024  |-     |-            |-          |-            |-         |-            |-          |3309                       |3309  |
 #'  |Total |68051 |274          |4          |109          |6         |346          |56         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name racthink
+NULL
+
+
+#'  R ever written official abt race issues
+#' 
+#'  racwrite
+#' 
+#' Question Have you ever . . . 
+#' A. Written a letter to a public official expressing your views on race relations?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` very often
-#'   * `2` fairly often
-#'   * `3` occasionally
-#'   * `4` almost never
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -221,22 +369,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name racthink
-NULL
-
-#'  R ever written official abt race issues
-#' 
-#'  racwrite
-#' 
-#' Question 152. Have you ever: a. Written a letter to a public official expressing your views on race relations?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/420/vshow).
 #'
 #' Counts by year: 
 #'
@@ -279,6 +413,30 @@ NULL
 #'  |2024  |-     |-   |-         |-   |3309                       |3309  |
 #'  |Total |68051 |767 |7         |21  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name racwrite
+NULL
+
+
+#'  Has r given money to racial orgs
+#' 
+#'  racgive
+#' 
+#' Question Have you ever . . . 
+#' B. Given money to an organization concerned with this issue?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -296,22 +454,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name racwrite
-NULL
-
-#'  Has r given money to racial orgs
-#' 
-#'  racgive
-#' 
-#' Question 152. Have you ever: b. Given money to an organization concerned with this issue?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/421/vshow).
 #'
 #' Counts by year: 
 #'
@@ -354,6 +498,30 @@ NULL
 #'  |2024  |-     |-   |-         |-   |3309                       |3309  |
 #'  |Total |68051 |718 |7         |70  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name racgive
+NULL
+
+
+#'  Ever joined org working on racial issues
+#' 
+#'  racjoin
+#' 
+#' Question Have you ever . . . 
+#' C. Joined an organization concerned with race relations?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -371,22 +539,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name racgive
-NULL
-
-#'  Ever joined org working on racial issues
-#' 
-#'  racjoin
-#' 
-#' Question 152. Have you ever: c. Joined an organization concerned with race relations?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/422/vshow).
 #'
 #' Counts by year: 
 #'
@@ -429,10 +583,35 @@ NULL
 #'  |2024  |-     |-   |-         |-   |3309                       |3309  |
 #'  |Total |68051 |759 |8         |28  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name racjoin
+NULL
+
+
+#'  Favor preference in hiring black people
+#' 
+#'  affrmact
+#' 
+#' Question A. Some people say that because of past discrimination, Black people should be given preference in hiring and promotion. Others say that such preference in hiring and promotion of Black people is wrong because it discriminates against whites. What about your opinion -- are you for or against preferential hiring and promotion of Black people? IF FAVORS: A. Do you favor preference in hiring and promotion strongly or not strongly? IF OPPOSES: B. Do you oppose preference in hiring and promotion strongly or not strongly?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` strongly favors
+#'   * `2` not strongly favors
+#'   * `3` not strongly opposes
+#'   * `4` strongly opposes
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -446,22 +625,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name racjoin
-NULL
-
-#'  Favor preference in hiring black people
-#' 
-#'  affrmact
-#' 
-#' Question 153. Some people say that because of past discrimination, blacks should be given preference in hiring and promotion. Others say that such preference in hiring and promotion of blacks is wrong because it discriminates against whites. What about your opinion - are you for or against preferential hiring and promotion of blacks? If favors: Do you favor preference in hiring and promotion strongly or not strongly? If opposes: Do you oppose preference in hiring and promotion strongly or not strongly?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/423/vshow).
 #'
 #' Counts by year: 
 #'
@@ -504,12 +669,52 @@ NULL
 #'  |2024  |1126  |115        |17        |220                 |573                  |333             |884              |41             |3309  |
 #'  |Total |48319 |1287       |228       |2208                |7363                 |3199            |13041            |54             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B     |partial      |
+#'  |1996 |A/B     |partial      |
+#'  |1998 |A/B     |partial      |
+#'  |2000 |A/B     |partial      |
+#'  |2002 |A/B     |partial      |
+#'  |2004 |A/B     |partial      |
+#'  |2006 |A/B     |partial      |
+#'  |2008 |A/B     |partial      |
+#'  |2010 |A/B     |partial      |
+#'  |2012 |A/B     |partial      |
+#'  |2014 |A/B     |partial      |
+#'  |2016 |A/B     |partial      |
+#'  |2018 |A/B     |partial      |
+#'  |2021 |A/B     |partial      |
+#'  |2022 |A/B     |partial      |
+#'  |2024 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Affirmative Action
+#' @family Federal Government
+#' 
+#' @keywords variable
+#' @md
+#' @name affrmact
+NULL
+
+
+#'  Black people overcome prejudice without favors
+#' 
+#'  wrkwayup
+#' 
+#' Question B. Do you agree strongly, agree somewhat, neither agree nor disagree, disagree somewhat, or disagree strongly with the following statement (HAND CARD TO RESPONDENT): Irish, Italians, Jewish and many other minorities overcame prejudice and worked their way up. Black people should do the same without special favors.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` strongly favors
-#'   * `2` not strongly favors
-#'   * `3` not strongly opposes
-#'   * `4` strongly opposes
+#'   * `1` agree strongly
+#'   * `2` agree somewhat
+#'   * `3` neither agree nor disagree
+#'   * `4` disagree somewhat
+#'   * `5` disagree strongly
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -523,22 +728,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name affrmact
-NULL
-
-#'  Black people overcome prejudice without favors
-#' 
-#'  wrkwayup
-#' 
-#' Question 153b. Do you agree strongly, agree somewhat, neither agree nor disagree, disagree somewhat, or disagree strongly with the following statement: Irish, Italian, Jewish and many other should do the same without special favors.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/424/vshow).
 #'
 #' Counts by year: 
 #'
@@ -581,13 +772,52 @@ NULL
 #'  |2024  |-     |-              |-              |-                 |-                 |-          |-                          |-         |-              |3309                          |3309  |
 #'  |Total |47130 |6683           |9428           |2610              |2357              |305        |3764                       |92        |21             |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B     |partial      |
+#'  |1996 |A/B     |partial      |
+#'  |1998 |A/B     |partial      |
+#'  |2000 |A/B     |partial      |
+#'  |2002 |A/B     |partial      |
+#'  |2004 |A/B     |partial      |
+#'  |2006 |A/B     |partial      |
+#'  |2008 |A/B     |partial      |
+#'  |2010 |A/B     |partial      |
+#'  |2012 |A/B     |partial      |
+#'  |2014 |A/B     |partial      |
+#'  |2016 |A/B     |partial      |
+#'  |2018 |A/B     |partial      |
+#'  |2021 |A/B     |partial      |
+#'  |2022 |A/B     |partial      |
+#'  |2024 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Blacks
+#' @family Opportunity
+#' @family Race
+#' @family Social Mobility
+#' 
+#' @keywords variable
+#' @md
+#' @name wrkwayup
+NULL
+
+
+#'  Have conditions for blacks improved
+#' 
+#'  blksimp
+#' 
+#' Question In the past few years, do you think conditions for black people have improved, gotten worse, or stayed about the same?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` agree strongly
-#'   * `2` agree somewhat
-#'   * `3` neither agree nor disagree
-#'   * `4` disagree somewhat
-#'   * `5` disagree strongly
+#'   * `1` improved
+#'   * `2` gotten worse
+#'   * `3` about the same
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -601,22 +831,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wrkwayup
-NULL
-
-#'  Have conditions for blacks improved
-#' 
-#'  blksimp
-#' 
-#' Question 154. In the past few years, do you think conditions for black people have improved, gotten worse, or stayed about the same?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/425/vshow).
 #'
 #' Counts by year: 
 #'
@@ -659,105 +875,24 @@ NULL
 #'  |2024  |-     |-              |-          |-            |-        |-         |3309                       |3309  |
 #'  |Total |60760 |2368           |270        |594          |4831     |23        |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` improved
-#'   * `2` gotten worse
-#'   * `3` about the same
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B     |partial      |
+#'  |1996 |A/B     |partial      |
+#'  |1998 |A/B     |partial      |
+#'  |2000 |A/B     |partial      |
+#'  |2002 |A/B     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Blacks
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
 #' @name blksimp
 NULL
 
-#'  How close r feels to black people
-#' 
-#'  closeblk
-#' 
-#' Question 154a. In general, how close do you feel to blacks?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |2   |3   |4   |6    |7    |8   |don't know |neither one or the other |no answer |not at all close |very close |not available in this year |not available in this release |Total |
-#'  |:-----|:-----|:---|:---|:---|:----|:----|:---|:----------|:------------------------|:---------|:----------------|:----------|:--------------------------|:-----------------------------|:-----|
-#'  |1972  |1613  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1613  |
-#'  |1973  |1504  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1504  |
-#'  |1974  |1484  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1484  |
-#'  |1975  |1490  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1490  |
-#'  |1976  |1499  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1499  |
-#'  |1977  |1530  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1530  |
-#'  |1978  |1532  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1532  |
-#'  |1980  |1468  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1468  |
-#'  |1982  |1860  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1860  |
-#'  |1983  |1599  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1599  |
-#'  |1984  |1473  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1473  |
-#'  |1985  |1534  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1534  |
-#'  |1986  |1470  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1470  |
-#'  |1987  |1819  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1819  |
-#'  |1988  |1481  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1481  |
-#'  |1989  |1537  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1537  |
-#'  |1990  |1372  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1372  |
-#'  |1991  |1517  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1517  |
-#'  |1993  |1606  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |1606  |
-#'  |1994  |2992  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |2992  |
-#'  |1996  |1932  |24  |45  |48  |76   |100  |33  |12         |427                      |6         |64               |137        |-                          |-                             |2904  |
-#'  |1998  |950   |86  |97  |77  |138  |197  |97  |28         |797                      |15        |119              |231        |-                          |-                             |2832  |
-#'  |2000  |956   |54  |83  |73  |152  |208  |115 |18         |751                      |31        |130              |246        |-                          |-                             |2817  |
-#'  |2002  |1841  |15  |36  |43  |82   |90   |56  |3          |406                      |3         |50               |140        |-                          |-                             |2765  |
-#'  |2004  |1914  |18  |24  |45  |73   |119  |56  |5          |402                      |2         |33               |121        |-                          |-                             |2812  |
-#'  |2006  |2507  |42  |54  |69  |164  |260  |93  |9          |891                      |2         |107              |312        |-                          |-                             |4510  |
-#'  |2008  |671   |31  |48  |50  |106  |176  |88  |14         |561                      |5         |73               |200        |-                          |-                             |2023  |
-#'  |2010  |763   |34  |56  |43  |115  |171  |70  |11         |495                      |6         |60               |220        |-                          |-                             |2044  |
-#'  |2012  |666   |29  |47  |54  |114  |158  |90  |10         |505                      |4         |50               |247        |-                          |-                             |1974  |
-#'  |2014  |824   |26  |62  |75  |141  |226  |113 |7          |640                      |6         |60               |358        |-                          |-                             |2538  |
-#'  |2016  |978   |39  |61  |65  |136  |259  |140 |2          |686                      |9         |75               |417        |-                          |-                             |2867  |
-#'  |2018  |2348  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |2348  |
-#'  |2021  |4032  |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |-                             |4032  |
-#'  |2022  |-     |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |3544                       |-                             |3544  |
-#'  |2024  |-     |-   |-   |-   |-    |-    |-   |-          |-                        |-         |-                |-          |-                          |3309                          |3309  |
-#'  |Total |52762 |398 |613 |642 |1297 |1964 |951 |119        |6561                     |89        |821              |2629       |3544                       |3309                          |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` not at all close
-#'   * `5` neither one or the other
-#'   * `9` very close
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name closeblk
-NULL
 

@@ -10,11 +10,29 @@ General Social Survey https://gss.norc.org
 death16
 }
 \details{
-Question 274b. Number of relatives dying since respondent 16 years old and prior to the last five years.
+Question B. Number of relatives dying since respondent 16 years old and prior to the last five years.
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/747/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllll}{
    year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab not available in this year \tab Total \cr
@@ -57,22 +75,59 @@ Counts by year:\tabular{llllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1978 \tab -/- \tab full \cr
+   1980 \tab -/- \tab full \cr
+   1983 \tab -/- \tab full \cr
+   1984 \tab -/- \tab full \cr
+   1986 \tab -/- \tab full \cr
+   1987 \tab -/- \tab full \cr
+   1988 \tab B/C \tab partial \cr
+   1989 \tab B/C \tab partial \cr
+   1990 \tab B/C \tab partial \cr
+   1991 \tab B/C \tab partial \cr
+   1993 \tab B/C \tab partial \cr
+   1994 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{chlddth}},
+\code{\link{death5}},
+\code{\link{hosdis5}},
+\code{\link{hosrel1}},
+\code{\link{hosrel4}},
+\code{\link{madeath}},
+\code{\link{padeath}},
+\code{\link{unrel1}},
+\code{\link{unrel4}}
+
+Other Family: 
+\code{\link{chlddth}},
+\code{\link{death5}},
+\code{\link{madeath}},
+\code{\link{padeath}}
+
+Other Relatives: 
+\code{\link{death5}},
+\code{\link{hosrel1}},
+\code{\link{hosrel4}},
+\code{\link{unrel1}},
+\code{\link{unrel4}}
+
+Other Trauma: 
+\code{\link{death5}},
+\code{\link{hosdis5}},
+\code{\link{hosrel1}},
+\code{\link{hosrel4}},
+\code{\link{unrel1}},
+\code{\link{unrel4}}
+}
+\concept{Core}
+\concept{Family}
+\concept{Relatives}
+\concept{Trauma}
 \keyword{variable}

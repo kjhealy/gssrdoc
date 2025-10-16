@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 emfamloc
 }
 \details{
-Question Do any of the personal one-to-one messages you receive or send come from: g. Family members who live with you?
+Question Thinking now about all your home, work or other computers,
+G. Family members who live with you?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes
+\item \code{2} no
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2601/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllll}{
    year \tab iap \tab no \tab no answer \tab yes \tab not available in this year \tab Total \cr
@@ -57,24 +78,31 @@ Counts by year:\tabular{lllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes
-\item \code{2} no
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/- \tab partial \cr
+   2002 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Information Society: 
+\code{\link{emchurch}},
+\code{\link{emfamoth}},
+\code{\link{emfri}},
+\code{\link{emgroups}},
+\code{\link{emwrkawy}},
+\code{\link{emwrkloc}}
+
+Other Computers And Internet: 
+\code{\link{emchurch}},
+\code{\link{emfamoth}},
+\code{\link{emfri}},
+\code{\link{emgroups}},
+\code{\link{emwrkawy}},
+\code{\link{emwrkloc}}
+}
+\concept{Computers And Internet}
+\concept{Information Society}
 \keyword{variable}

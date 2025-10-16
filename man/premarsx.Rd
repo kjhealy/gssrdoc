@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 premarsx
 }
 \details{
-Question 217. There's been a lot of discussion about the way morals and attitudes about sex are changing in this country. If a man and woman have sex relations before marriage, do you think it is always wrong, almost always wrong, wrong only sometimes, or not wrong at all?
+Question There's been a lot of discussion about the way morals and attitudes about sex are changing in this country. If a man and woman have sex relations before marriage, do you think it is always wrong, almost always wrong, wrong only
+sometimes, or not wrong at all?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} always wrong
+\item \code{2} almost always wrong
+\item \code{3} wrong only sometimes
+\item \code{4} not wrong at all
+\item \code{5} other
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/631/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab almost always wrong \tab always wrong \tab don't know \tab no answer \tab not wrong at all \tab wrong only sometimes \tab iap \tab skipped on web \tab Total \cr
@@ -57,27 +81,61 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} always wrong
-\item \code{2} almost always wrong
-\item \code{3} wrong only sometimes
-\item \code{4} not wrong at all
-\item \code{5} other
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1972 \tab -/- \tab full \cr
+   1974 \tab -/- \tab full \cr
+   1975 \tab -/- \tab full \cr
+   1977 \tab -/- \tab full \cr
+   1978 \tab -/- \tab full \cr
+   1982 \tab -/- \tab full \cr
+   1983 \tab -/- \tab full \cr
+   1985 \tab -/- \tab full \cr
+   1986 \tab -/- \tab full \cr
+   1988 \tab A/B \tab partial \cr
+   1989 \tab A/B \tab partial \cr
+   1990 \tab A/B \tab partial \cr
+   1991 \tab A/B \tab partial \cr
+   1993 \tab A/B \tab partial \cr
+   1994 \tab A/B \tab partial \cr
+   1996 \tab A/B \tab partial \cr
+   1998 \tab A/B \tab partial \cr
+   2000 \tab A/B \tab partial \cr
+   2002 \tab A/B \tab partial \cr
+   2004 \tab A/B \tab partial \cr
+   2006 \tab A/B \tab partial \cr
+   2008 \tab A/B \tab partial \cr
+   2010 \tab A/B \tab partial \cr
+   2012 \tab A/B \tab partial \cr
+   2014 \tab A/B \tab partial \cr
+   2016 \tab A/B \tab partial \cr
+   2018 \tab A/B \tab partial \cr
+   2021 \tab A/B \tab partial \cr
+   2022 \tab A/B \tab partial \cr
+   2024 \tab A/B \tab partial \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{divlaw}},
+\code{\link{divlawy}},
+\code{\link{homochng}},
+\code{\link{homosex}},
+\code{\link{porninf}},
+\code{\link{spdue}},
+\code{\link{sppaid}},
+\code{\link{teensex}},
+\code{\link{xmarsex}}
+
+Other Sex: 
+\code{\link{homochng}},
+\code{\link{homosex}},
+\code{\link{porninf}},
+\code{\link{teensex}},
+\code{\link{xmarsex}}
+}
+\concept{Core}
+\concept{Sex}
 \keyword{variable}

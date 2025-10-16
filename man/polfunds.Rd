@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 polfunds
 }
 \details{
-Question 1468. Here are some different forms of political and social action that people can take. Please indicate, for each one, Whether you have done any of these things in the past year, Whether you have done it in the more distant past, Whether you have not done it but might do it, Or have not done it and would never, under any circumstances, do it. f. Donated money or raised funds for a social or political activity
+Question Here are some different forms of political and social action that people can take. Please indicate, for each one, whether you have done any of these things in the past year, whether you have done it in the more distant past, whether you have not done it but might do it, or have not done it and would never, under any circumstances, do it.
+F. Donated money or raised funds for a social or political activity
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} have done it in the past yr
+\item \code{2} have done it in the more distant past
+\item \code{3} have not done it but might do it
+\item \code{4} have not done it and would never do it
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4925/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab can't choose \tab have done it in the more distant past \tab have done it in the past yr \tab have not done it and would never do it \tab have not done it but might do it \tab no answer \tab not available in this year \tab Total \cr
@@ -57,26 +80,35 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} have done it in the past yr
-\item \code{2} have done it in the more distant past
-\item \code{3} have not done it but might do it
-\item \code{4} have not done it and would never do it
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Citizenship: 
+\code{\link{attrally}},
+\code{\link{avoidbuy}},
+\code{\link{cntctgov}},
+\code{\link{interpol}},
+\code{\link{joindem}},
+\code{\link{racmeet}},
+\code{\link{revmeet}},
+\code{\link{signdpet}},
+\code{\link{usemedia}}
+
+Other Political: 
+\code{\link{attrally}},
+\code{\link{avoidbuy}},
+\code{\link{cntctgov}},
+\code{\link{interpol}},
+\code{\link{joindem}},
+\code{\link{signdpet}},
+\code{\link{usemedia}}
+}
+\concept{ISSP Citizenship}
+\concept{Political}
 \keyword{variable}

@@ -1,11 +1,149 @@
+#'  To think for ones self
+#' 
+#'  thnkself
+#' 
+#' Question If you had to choose, which thing on this list would you pick as the most important for a child to learn to prepare him or her for life?  (INTERVIEWER: READ CHOICES) 
+#' A. Which comes next in importance?
+#' B. Which comes third?
+#' C. Which comes fourth?
+#' 3. To think for himself or herself
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` first
+#'   * `2` second
+#'   * `3` third
+#'   * `4` fourth
+#'   * `5` fifth
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/515/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |fifth |first |fourth |no answer |second |third |not available in this release |Total |
+#'  |:-----|:-----|:-----|:-----|:------|:---------|:------|:-----|:-----------------------------|:-----|
+#'  |1972  |1613  |-     |-     |-      |-         |-      |-     |-                             |1613  |
+#'  |1973  |1504  |-     |-     |-      |-         |-      |-     |-                             |1504  |
+#'  |1974  |1484  |-     |-     |-      |-         |-      |-     |-                             |1484  |
+#'  |1975  |1490  |-     |-     |-      |-         |-      |-     |-                             |1490  |
+#'  |1976  |1499  |-     |-     |-      |-         |-      |-     |-                             |1499  |
+#'  |1977  |1530  |-     |-     |-      |-         |-      |-     |-                             |1530  |
+#'  |1978  |1532  |-     |-     |-      |-         |-      |-     |-                             |1532  |
+#'  |1980  |1468  |-     |-     |-      |-         |-      |-     |-                             |1468  |
+#'  |1982  |1860  |-     |-     |-      |-         |-      |-     |-                             |1860  |
+#'  |1983  |1599  |-     |-     |-      |-         |-      |-     |-                             |1599  |
+#'  |1984  |1473  |-     |-     |-      |-         |-      |-     |-                             |1473  |
+#'  |1985  |1534  |-     |-     |-      |-         |-      |-     |-                             |1534  |
+#'  |1986  |730   |41    |379   |83     |8         |128    |101   |-                             |1470  |
+#'  |1987  |-     |118   |929   |208    |19        |336    |209   |-                             |1819  |
+#'  |1988  |484   |64    |482   |127    |20        |178    |126   |-                             |1481  |
+#'  |1989  |502   |58    |529   |129    |35        |183    |101   |-                             |1537  |
+#'  |1990  |473   |60    |440   |110    |28        |171    |90    |-                             |1372  |
+#'  |1991  |500   |46    |510   |135    |35        |161    |130   |-                             |1517  |
+#'  |1993  |549   |61    |551   |140    |26        |154    |125   |-                             |1606  |
+#'  |1994  |981   |96    |1058  |253    |33        |339    |232   |-                             |2992  |
+#'  |1996  |979   |96    |973   |260    |30        |324    |242   |-                             |2904  |
+#'  |1998  |921   |91    |928   |257    |31        |344    |260   |-                             |2832  |
+#'  |2000  |921   |72    |903   |266    |33        |355    |267   |-                             |2817  |
+#'  |2002  |1853  |41    |447   |110    |13        |183    |118   |-                             |2765  |
+#'  |2004  |1936  |45    |423   |129    |8         |163    |108   |-                             |2812  |
+#'  |2006  |3508  |32    |459   |157    |7         |193    |154   |-                             |4510  |
+#'  |2008  |658   |63    |615   |197    |14        |285    |191   |-                             |2023  |
+#'  |2010  |667   |70    |576   |237    |28        |250    |216   |-                             |2044  |
+#'  |2012  |636   |66    |594   |197    |15        |243    |223   |-                             |1974  |
+#'  |2014  |851   |72    |726   |279    |17        |310    |283   |-                             |2538  |
+#'  |2016  |911   |89    |817   |335    |22        |348    |345   |-                             |2867  |
+#'  |2018  |785   |79    |643   |243    |21        |308    |269   |-                             |2348  |
+#'  |2021  |1360  |51    |1268  |262    |99        |581    |411   |-                             |4032  |
+#'  |2022  |1173  |54    |1083  |269    |77        |499    |389   |-                             |3544  |
+#'  |2024  |-     |-     |-     |-      |-         |-      |-     |3309                          |3309  |
+#'  |Total |39964 |1465  |15333 |4383   |619       |6036   |4590  |3309                          |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'  |1996 |B/C     |partial      |
+#'  |1998 |B/C     |partial      |
+#'  |2000 |B/C     |partial      |
+#'  |2002 |B/C     |partial      |
+#'  |2004 |B/C     |partial      |
+#'  |2006 |B/C     |partial      |
+#'  |2008 |B/C     |partial      |
+#'  |2010 |B/C     |partial      |
+#'  |2012 |B/C     |partial      |
+#'  |2014 |B/C     |partial      |
+#'  |2016 |B/C     |partial      |
+#'  |2018 |B/C     |partial      |
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'  |2024 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name thnkself
+NULL
+
+
 #'  To work hard
 #' 
 #'  workhard
 #' 
-#' Question 170. If you had to choose, which thing on this list would you pick as the most important for a child to learn to prepare him or her for life? a. Which comes next in importantc? b. Which comes third? c. Which comes fourth? TO WORK HARD
+#' Question If you had to choose, which thing on this list would you pick as the most important for a child to learn to prepare him or her for life?  (INTERVIEWER: READ CHOICES) 
+#' A. Which comes next in importance?
+#' B. Which comes third?
+#' C. Which comes fourth?
+#' 4. To work hard
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` first
+#'   * `2` second
+#'   * `3` third
+#'   * `4` fourth
+#'   * `5` fifth
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/516/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +186,55 @@
 #'  |2024  |-     |-     |-     |-      |-         |-      |-     |3309                          |3309  |
 #'  |Total |39964 |533   |6314  |3525   |619       |11265  |10170 |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'  |1996 |B/C     |partial      |
+#'  |1998 |B/C     |partial      |
+#'  |2000 |B/C     |partial      |
+#'  |2002 |B/C     |partial      |
+#'  |2004 |B/C     |partial      |
+#'  |2006 |B/C     |partial      |
+#'  |2008 |B/C     |partial      |
+#'  |2010 |B/C     |partial      |
+#'  |2012 |B/C     |partial      |
+#'  |2014 |B/C     |partial      |
+#'  |2016 |B/C     |partial      |
+#'  |2018 |B/C     |partial      |
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'  |2024 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name workhard
+NULL
+
+
+#'  To help others
+#' 
+#'  helpoth
+#' 
+#' Question If you had to choose, which thing on this list would you pick as the most important for a child to learn to prepare him or her for life?  (INTERVIEWER: READ CHOICES) 
+#' A. Which comes next in importance?
+#' B. Which comes third?
+#' C. Which comes fourth?
+#' 5. To help others when they need help
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` first
@@ -68,22 +255,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name workhard
-NULL
-
-#'  To help others
-#' 
-#'  helpoth
-#' 
-#' Question 170. If you had to choose, which thing on this list would you pick as the most important for a child to learn to prepare him or her for life? a. Which comes next in importantc? b. Which comes third? c. Which comes fourth? TO HELP OTHERS WHEN THEY NEED HELP
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/517/vshow).
 #'
 #' Counts by year: 
 #'
@@ -126,13 +299,56 @@ NULL
 #'  |2024  |-     |-     |-     |-      |-         |-      |-     |3309                          |3309  |
 #'  |Total |39964 |746   |5020  |5012   |602       |10177  |10869 |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'  |1996 |B/C     |partial      |
+#'  |1998 |B/C     |partial      |
+#'  |2000 |B/C     |partial      |
+#'  |2002 |B/C     |partial      |
+#'  |2004 |B/C     |partial      |
+#'  |2006 |B/C     |partial      |
+#'  |2008 |B/C     |partial      |
+#'  |2010 |B/C     |partial      |
+#'  |2012 |B/C     |partial      |
+#'  |2014 |B/C     |partial      |
+#'  |2016 |B/C     |partial      |
+#'  |2018 |B/C     |partial      |
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'  |2024 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name helpoth
+NULL
+
+
+#'  Qualities for boys or girls
+#' 
+#'  chldsex
+#' 
+#' Question A. When you rated the importance of various qualities for children, were you thinking mostly about boys, mostly about girls, or about both boys and girls equally?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` first
-#'   * `2` second
-#'   * `3` third
-#'   * `4` fourth
-#'   * `5` fifth
+#'   * `1` mostly boys
+#'   * `2` mostly girls
+#'   * `3` both equally
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -146,22 +362,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name helpoth
-NULL
-
-#'  Qualities for boys or girls
-#' 
-#'  chldsex
-#' 
-#' Question 171a. When you rated the importance of various qualities for children, were you thinking mostly about boys, mostly about girls, or about both boys and girls equally?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/518/vshow).
 #'
 #' Counts by year: 
 #'
@@ -204,6 +406,29 @@ NULL
 #'  |2024  |-     |-            |-          |-           |-            |-         |3309                       |3309  |
 #'  |Total |67378 |1138         |12         |263         |49           |6         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1980 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name chldsex
+NULL
+
+
+#'  Qualities for boys or girls:variant
+#' 
+#'  chldsex1
+#' 
+#' Question B. When you rated the importance of various qualities for children, were you thinking mostly about boys or mostly about girls?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` mostly boys
@@ -222,22 +447,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name chldsex
-NULL
-
-#'  Qualities for boys or girls:variant
-#' 
-#'  chldsex1
-#' 
-#' Question 171b. When you rated the importance of various qualities for children, were you thinking mostly about boys or mostly about girls?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/519/vshow).
 #'
 #' Counts by year: 
 #'
@@ -280,11 +491,35 @@ NULL
 #'  |2024  |-     |-            |-          |-           |-            |-         |3309                       |3309  |
 #'  |Total |67373 |895          |16         |359         |154          |49        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name chldsex1
+NULL
+
+
+#'  What should younger generation be taught
+#' 
+#'  youngen
+#' 
+#' Question Here are two statements. Will you tell me which one you agree with more?
+#' A. First, the younger generation should be taught by their elders to do what is right.
+#' B. Second, the younger generation should be taught to think for themselves even though they may do something their elders disapprove of.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` mostly boys
-#'   * `2` mostly girls
-#'   * `3` both equally
+#'   * `1` what elders think
+#'   * `2` think for selves
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -298,22 +533,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name chldsex1
-NULL
-
-#'  What should younger generation be taught
-#' 
-#'  youngen
-#' 
-#' Question 172. Here are two statements. Will you tell me which one you agree with more? a. First, the younger generation should be taught by their elders to do what is right. b. Second, the younger generation should be taught to think for themselves.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/520/vshow).
 #'
 #' Counts by year: 
 #'
@@ -356,10 +577,39 @@ NULL
 #'  |2024  |-     |-          |-         |-                |-                 |3309                       |3309  |
 #'  |Total |67378 |6          |7         |797              |658               |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1980 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Authority
+#' 
+#' @keywords variable
+#' @md
+#' @name youngen
+NULL
+
+
+#'  Spend evening with relatives
+#' 
+#'  socrel
+#' 
+#' Question Would you use this card and tell me which answer comes closest to how often you do the following thingsâ€¦ 
+#' A. Spend a social evening with relatives?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` what elders think
-#'   * `2` think for selves
+#'   * `1` almost daily
+#'   * `2` once or twice a week
+#'   * `3` several times a month
+#'   * `4` about once a month
+#'   * `5` several times a year
+#'   * `6` about once a year
+#'   * `7` never
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -373,22 +623,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name youngen
-NULL
-
-#'  Spend evening with relatives
-#' 
-#'  socrel
-#' 
-#' Question 173. Would you use this card and tell me which answer comes closest to how often you do the following things: a. Spend a social evening with relatives?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/521/vshow).
 #'
 #' Counts by year: 
 #'
@@ -431,6 +667,58 @@ NULL
 #'  |2024  |1126  |311                |195               |245          |122   |1         |436                  |412                   |448                  |3          |10             |3309  |
 #'  |Total |30227 |7373               |3282              |4429         |2102  |79        |11452                |8301                  |8381                 |53         |20             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#'  |1996 |A/B     |partial      |
+#'  |1998 |A/B     |partial      |
+#'  |2000 |A/B     |partial      |
+#'  |2002 |A/B     |partial      |
+#'  |2004 |A/B     |partial      |
+#'  |2006 |A/B     |partial      |
+#'  |2008 |A/B     |partial      |
+#'  |2010 |A/B     |partial      |
+#'  |2012 |A/B     |partial      |
+#'  |2014 |A/B     |partial      |
+#'  |2016 |A/B     |partial      |
+#'  |2018 |A/B     |partial      |
+#'  |2021 |A/B     |partial      |
+#'  |2022 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Family
+#' @family Sociability
+#' 
+#' @keywords variable
+#' @md
+#' @name socrel
+NULL
+
+
+#'  Spend evening with neighbor
+#' 
+#'  socommun
+#' 
+#' Question Would you use this card and tell me which answer comes closest to how often you do the following thingsâ€¦ 
+#' B. Spend a social evening with someone who lives in your neighborhood?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` almost daily
@@ -453,22 +741,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name socrel
-NULL
-
-#'  Spend evening with neighbor
-#' 
-#'  socommun
-#' 
-#' Question 173. Would you use this card and tell me which answer comes closest to how often you do the following things: b. Spend a social evening with someone who lives in your neighborhood.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/522/vshow).
 #'
 #' Counts by year: 
 #'
@@ -511,6 +785,57 @@ NULL
 #'  |2024  |1126  |266                |259               |99           |6          |758   |-         |270                  |230                   |287                  |8              |3309  |
 #'  |Total |30227 |6507               |4364              |2389         |86         |13447 |71        |7633                 |5155                  |5802                 |18             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#'  |1996 |A/B     |partial      |
+#'  |1998 |A/B     |partial      |
+#'  |2000 |A/B     |partial      |
+#'  |2002 |A/B     |partial      |
+#'  |2004 |A/B     |partial      |
+#'  |2006 |A/B     |partial      |
+#'  |2008 |A/B     |partial      |
+#'  |2010 |A/B     |partial      |
+#'  |2012 |A/B     |partial      |
+#'  |2014 |A/B     |partial      |
+#'  |2016 |A/B     |partial      |
+#'  |2018 |A/B     |partial      |
+#'  |2021 |A/B     |partial      |
+#'  |2022 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Sociability
+#' 
+#' @keywords variable
+#' @md
+#' @name socommun
+NULL
+
+
+#'  Spend evening with friends
+#' 
+#'  socfrend
+#' 
+#' Question Would you use this card and tell me which answer comes closest to how often you do the following thingsâ€¦ 
+#' C. Spend a social evening with friends who live outside the neighborhood?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` almost daily
@@ -533,22 +858,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name socommun
-NULL
-
-#'  Spend evening with friends
-#' 
-#'  socfrend
-#' 
-#' Question 173. Would you use this card and tell me which answer comes closest to how often you do the following things: c. Spend a social evening with friends who live outside the neighborhood
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/523/vshow).
 #'
 #' Counts by year: 
 #'
@@ -591,6 +902,57 @@ NULL
 #'  |2024  |1126  |439                |201               |52           |5          |270   |-         |304                  |429                   |471                  |12             |3309  |
 #'  |Total |30227 |9877               |3514              |1347         |72         |4734  |74        |8036                 |9065                  |8721                 |32             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#'  |1996 |A/B     |partial      |
+#'  |1998 |A/B     |partial      |
+#'  |2000 |A/B     |partial      |
+#'  |2002 |A/B     |partial      |
+#'  |2004 |A/B     |partial      |
+#'  |2006 |A/B     |partial      |
+#'  |2008 |A/B     |partial      |
+#'  |2010 |A/B     |partial      |
+#'  |2012 |A/B     |partial      |
+#'  |2014 |A/B     |partial      |
+#'  |2016 |A/B     |partial      |
+#'  |2018 |A/B     |partial      |
+#'  |2021 |A/B     |partial      |
+#'  |2022 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Sociability
+#' 
+#' @keywords variable
+#' @md
+#' @name socfrend
+NULL
+
+
+#'  Spend evening at bar
+#' 
+#'  socbar
+#' 
+#' Question Would you use this card and tell me which answer comes closest to how often you do the following thingsâ€¦ 
+#' D. Go to a bar or tavern?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` almost daily
@@ -613,22 +975,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name socfrend
-NULL
-
-#'  Spend evening at bar
-#' 
-#'  socbar
-#' 
-#' Question 173. Would you use this card and tell me which answer comes closest to how often you do the following things: d. Go to a bar or tavern
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/524/vshow).
 #'
 #' Counts by year: 
 #'
@@ -671,114 +1019,47 @@ NULL
 #'  |2024  |1126  |264                |263               |11           |2          |983   |1         |110                  |169                   |372                  |8              |3309  |
 #'  |Total |30229 |4678               |5576              |497          |92         |22094 |85        |3164                 |3351                  |5912                 |21             |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` almost daily
-#'   * `2` once or twice a week
-#'   * `3` several times a month
-#'   * `4` about once a month
-#'   * `5` several times a year
-#'   * `6` about once a year
-#'   * `7` never
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#'  |1996 |A/B     |partial      |
+#'  |1998 |A/B     |partial      |
+#'  |2000 |A/B     |partial      |
+#'  |2002 |A/B     |partial      |
+#'  |2004 |A/B     |partial      |
+#'  |2006 |A/B     |partial      |
+#'  |2008 |A/B     |partial      |
+#'  |2010 |A/B     |partial      |
+#'  |2012 |A/B     |partial      |
+#'  |2014 |A/B     |partial      |
+#'  |2016 |A/B     |partial      |
+#'  |2018 |A/B     |partial      |
+#'  |2021 |A/B     |partial      |
+#'  |2022 |A/B     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Drinking
+#' @family Sociability
 #' 
 #' @keywords variable
 #' @md
 #' @name socbar
 NULL
 
-#'  Spend evening with parents
-#' 
-#'  socpars
-#' 
-#' Question 173. Would you use this card and tell me which answer comes closest to how often you do the following things: e. Spend a social evening with your parents
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |almost daily |don't know |never |no answer |no such people |once a month |once a year |sev times a mnth |sev times a week |sev times a year |not available in this year |Total |
-#'  |:-----|:-----|:------------|:----------|:-----|:---------|:--------------|:------------|:-----------|:----------------|:----------------|:----------------|:--------------------------|:-----|
-#'  |1972  |1613  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |1613  |
-#'  |1973  |1504  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |1504  |
-#'  |1974  |1484  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |1484  |
-#'  |1975  |1490  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |1490  |
-#'  |1976  |1499  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |1499  |
-#'  |1977  |1530  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |1530  |
-#'  |1978  |-     |49           |2          |109   |4         |551            |113          |118         |166              |216              |204              |-                          |1532  |
-#'  |1980  |1468  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |1468  |
-#'  |1982  |-     |155          |11         |181   |14        |545            |189          |134         |161              |267              |203              |-                          |1860  |
-#'  |1983  |-     |89           |1          |113   |4         |494            |161          |129         |157              |248              |203              |-                          |1599  |
-#'  |1984  |1473  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |1473  |
-#'  |1985  |-     |92           |2          |111   |5         |470            |160          |132         |199              |173              |190              |-                          |1534  |
-#'  |1986  |-     |100          |2          |106   |7         |443            |150          |128         |113              |220              |201              |-                          |1470  |
-#'  |1987  |1819  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |1819  |
-#'  |1988  |493   |69           |7          |124   |7         |244            |100          |78          |92               |133              |134              |-                          |1481  |
-#'  |1989  |531   |66           |2          |124   |2         |236            |99           |80          |92               |160              |145              |-                          |1537  |
-#'  |1990  |444   |53           |2          |68    |5         |262            |88           |78          |103              |134              |135              |-                          |1372  |
-#'  |1991  |493   |66           |4          |122   |3         |259            |102          |68          |113              |154              |133              |-                          |1517  |
-#'  |1993  |526   |73           |2          |95    |5         |283            |121          |92          |107              |154              |148              |-                          |1606  |
-#'  |1994  |2485  |27           |2          |75    |1         |127            |47           |51          |46               |66               |65               |-                          |2992  |
-#'  |1996  |2904  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |2904  |
-#'  |1998  |2832  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |2832  |
-#'  |2000  |2817  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |2817  |
-#'  |2002  |2765  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |2765  |
-#'  |2004  |2812  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |2812  |
-#'  |2006  |4510  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |4510  |
-#'  |2008  |2023  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |2023  |
-#'  |2010  |2044  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |2044  |
-#'  |2012  |1974  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |1974  |
-#'  |2014  |2538  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |2538  |
-#'  |2016  |2867  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |2867  |
-#'  |2018  |2348  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |2348  |
-#'  |2021  |4032  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |4032  |
-#'  |2022  |-     |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |3544                       |3544  |
-#'  |2024  |-     |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |3309                       |3309  |
-#'  |Total |55318 |839          |37         |1228  |57        |3914           |1330         |1088        |1349             |1925             |1761             |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `0` no such people
-#'   * `1` almost daily
-#'   * `2` sev times a week
-#'   * `3` sev times a mnth
-#'   * `4` once a month
-#'   * `5` sev times a year
-#'   * `6` once a year
-#'   * `7` never
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name socpars
-NULL
 

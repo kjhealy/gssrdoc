@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 socsecfx
 }
 \details{
-Question 729. Please tell me which of the following statements comes closest to your opinion about the Social Security program: 1. The Social Security program has no serious problems, certainly none that require changing the current system. 2. Social Security has minor problems that can be fixed with minor changes to the current system. 3. Social Security's problems are serious and can be fixed only with the major changes to the current system. 4. Social Security's problems are so bad that the current system should be replaced.
+Question Please tell me which of the following statements comes closest to your opinion about the Social Security program â€¦
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} no problems
+\item \code{2} minor probs
+\item \code{3} serious prob
+\item \code{4} be replaced
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2243/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab be replaced \tab don't know \tab minor probs \tab no answer \tab no problems \tab serious prob \tab not available in this year \tab Total \cr
@@ -57,26 +79,39 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} no problems
-\item \code{2} minor probs
-\item \code{3} serious prob
-\item \code{4} be replaced
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1998 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Mental Health: 
+\code{\link{prozkid3}},
+\code{\link{socsecnu}},
+\code{\link{socsecrt}},
+\code{\link{termecon}},
+\code{\link{termemot}},
+\code{\link{terminal}},
+\code{\link{termpain}},
+\code{\link{termpay}},
+\code{\link{termrel}}
+
+Other Federal Government: 
+\code{\link{socsecnu}},
+\code{\link{socsecrt}}
+
+Other Social Security: 
+\code{\link{socsecnu}},
+\code{\link{socsecrt}}
+
+Other United States: 
+\code{\link{socsecnu}},
+\code{\link{socsecrt}}
+}
+\concept{Federal Government}
+\concept{Mental Health}
+\concept{Social Security}
+\concept{United States}
 \keyword{variable}

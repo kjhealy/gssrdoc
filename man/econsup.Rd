@@ -10,11 +10,36 @@ General Social Survey https://gss.norc.org
 econsup
 }
 \details{
-Question 1371. What is your main source of economic support?
+Question What is your main source of economic support?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} pnsion pri/st/ss
+\item \code{2} unemploy benfits
+\item \code{3} spouse/partner
+\item \code{4} othr famly mmbrs
+\item \code{5} soc assis/welfre
+\item \code{6} occasional work
+\item \code{7} other
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4605/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab don't know \tab no answer \tab occasional work \tab other \tab othr famly mmbrs \tab pnsion pri/st/ss \tab soc assis/welfre \tab spouse/partner \tab unemploy benfits \tab not available in this year \tab Total \cr
@@ -57,29 +82,32 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} pnsion pri/st/ss
-\item \code{2} unemploy benfits
-\item \code{3} spouse/partner
-\item \code{4} othr famly mmbrs
-\item \code{5} soc assis/welfre
-\item \code{6} occasional work
-\item \code{7} other
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1998 \tab A/B/C \tab full \cr
+   2006 \tab D/-/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Work Orientation: 
+\code{\link{adforjob}},
+\code{\link{appemps}},
+\code{\link{askhelp}},
+\code{\link{rimpskls}},
+\code{\link{selfemp1}},
+\code{\link{selfemp2}},
+\code{\link{unbetter}},
+\code{\link{unjobsec}},
+\code{\link{wantads}}
+
+Other Unemployment: 
+\code{\link{adforjob}},
+\code{\link{appemps}},
+\code{\link{askhelp}},
+\code{\link{wantads}}
+}
+\concept{Unemployment}
+\concept{Work Orientation}
 \keyword{variable}

@@ -12,9 +12,32 @@ hlthacc4
 \details{
 Question In the United States, do you think it is easier or harder to get access to health care... for citizens of the United States than for people who do not hold U.S.citizenship
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} much easier
+\item \code{2} somewhat easier
+\item \code{3} about the same
+\item \code{4} somewhat harder
+\item \code{5} much harder
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7800/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab not available in this year \tab about the same \tab can't choose \tab iap \tab much easier \tab much harder \tab no answer \tab skipped on web \tab somewhat easier \tab somewhat harder \tab Total \cr
@@ -57,26 +80,10 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} much easier
-\item \code{2} somewhat easier
-\item \code{3} about the same
-\item \code{4} somewhat harder
-\item \code{5} much harder
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2022 \tab C \tab partial \cr
 }
 }
 

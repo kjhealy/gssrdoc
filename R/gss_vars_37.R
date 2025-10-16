@@ -1,11 +1,116 @@
+#'  Afterlife contrast: better or lacking
+#' 
+#'  likediff
+#' 
+#' Question A. People picture life after death in many different ways. We'd like to know how you think of life after death. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of life after death. Look at the first set of contrasting images. If you think that life after death is "A life like the one here on earth only better," you would place yourself at 1. If you think it is "A life without many things which make our present life enjoyable" you would place yourself at 7. If you think it is somewhere between these two you would place yourself at 2, 3, 4, 5, or 6. Where would you place your images of life after death for . . .?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` better than earth
+#'   * `7` life lacking
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/311/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |2   |3   |4   |5   |6   |better than earth |don't know |life lacking |no answer |not available in this year |Total |
+#'  |:-----|:-----|:---|:---|:---|:---|:---|:-----------------|:----------|:------------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1613  |
+#'  |1973  |1504  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1504  |
+#'  |1974  |1484  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1484  |
+#'  |1975  |1490  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1490  |
+#'  |1976  |1499  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1499  |
+#'  |1977  |1530  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1530  |
+#'  |1978  |1532  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1532  |
+#'  |1980  |1468  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1468  |
+#'  |1982  |1860  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1860  |
+#'  |1983  |1599  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1599  |
+#'  |1984  |1473  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1473  |
+#'  |1985  |1534  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1534  |
+#'  |1986  |246   |125 |111 |224 |68  |32  |503               |21         |114          |26        |-                          |1470  |
+#'  |1987  |369   |148 |132 |226 |77  |64  |584               |26         |132          |61        |-                          |1819  |
+#'  |1988  |282   |116 |100 |224 |69  |35  |492               |16         |100          |47        |-                          |1481  |
+#'  |1989  |749   |86  |77  |137 |45  |27  |310               |10         |60           |36        |-                          |1537  |
+#'  |1990  |1372  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1372  |
+#'  |1991  |1517  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1517  |
+#'  |1993  |1606  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1606  |
+#'  |1994  |2992  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |2992  |
+#'  |1996  |2904  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |2904  |
+#'  |1998  |2832  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |2832  |
+#'  |2000  |2817  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |2817  |
+#'  |2002  |2765  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |2765  |
+#'  |2004  |2812  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |2812  |
+#'  |2006  |4510  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |4510  |
+#'  |2008  |2023  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |2023  |
+#'  |2010  |2044  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |2044  |
+#'  |2012  |1974  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1974  |
+#'  |2014  |2538  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |2538  |
+#'  |2016  |2867  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |2867  |
+#'  |2018  |2348  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |2348  |
+#'  |2021  |4032  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |4032  |
+#'  |2022  |-     |-   |-   |-   |-   |-   |-                 |-          |-            |-         |3544                       |3544  |
+#'  |2024  |-     |-   |-   |-   |-   |-   |-                 |-          |-            |-         |3309                       |3309  |
+#'  |Total |64185 |475 |420 |811 |259 |158 |1889              |73         |406          |170       |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name likediff
+NULL
+
+
 #'  Afterlife contrast: spiritual or sensual
 #' 
 #'  mindbody
 #' 
-#' Question 109. People picture life after death in many different ways. We'd like to know how you think of life after death. Here is a card with sets of contrasting images. On a scale of 1-7, where would you place your image of life after death. b. 1. A spiritual life, involving our mind but not our body. 2. A paradise of pleasure and delights.
+#' Question A. People picture life after death in many different ways. We'd like to know how you think of life after death. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of life after death. Look at the first set of contrasting images. If you think that life after death is "A life like the one here on earth only better," you would place yourself at 1. If you think it is "A life without many things which make our present life enjoyable" you would place yourself at 7. If you think it is somewhere between these two you would place yourself at 2, 3, 4, 5, or 6. Where would you place your images of life after death for . . .?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` spiritual
+#'   * `7` sensual life
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/312/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,10 +153,36 @@
 #'  |2024  |-     |-   |-   |-   |-   |-   |-          |-         |-            |-         |3309                       |3309  |
 #'  |Total |64185 |485 |450 |818 |233 |190 |71         |151       |552          |1711      |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name mindbody
+NULL
+
+
+#'  Afterlife contrast: peaceful or action
+#' 
+#'  restact
+#' 
+#' Question A. People picture life after death in many different ways. We'd like to know how you think of life after death. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of life after death. Look at the first set of contrasting images. If you think that life after death is "A life like the one here on earth only better," you would place yourself at 1. If you think it is "A life without many things which make our present life enjoyable" you would place yourself at 7. If you think it is somewhere between these two you would place yourself at 2, 3, 4, 5, or 6. Where would you place your images of life after death for . . .?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` spiritual
-#'   * `7` sensual life
+#'   * `1` peaceful
+#'   * `7` intense action
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -65,22 +196,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name mindbody
-NULL
-
-#'  Afterlife contrast: peaceful or action
-#' 
-#'  restact
-#' 
-#' Question 109. People picture life after death in many different ways. We'd like to know how you think of life after death. Here is a card with sets of contrasting images. On a scale of 1-7, where would you place your image of life after death. c. 1. A life of peaceful and tranquil contemplation. 2. A life of intense action.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/313/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,10 +240,33 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-  |-  |-          |-              |-         |-        |3309                       |3309  |
 #'  |Total |67622 |167 |109 |182 |19 |15 |17         |48             |24        |643      |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name restact
+NULL
+
+
+#'  Afterlife contrast: shadows or full
+#' 
+#'  palefull
+#' 
+#' Question A. People picture life after death in many different ways. We'd like to know how you think of life after death. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of life after death. Look at the first set of contrasting images. If you think that life after death is "A life like the one here on earth only better," you would place yourself at 1. If you think it is "A life without many things which make our present life enjoyable" you would place yourself at 7. If you think it is somewhere between these two you would place yourself at 2, 3, 4, 5, or 6. Where would you place your images of life after death for . . .?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` peaceful
-#'   * `7` intense action
+#'   * `1` pale, shadowy
+#'   * `7` complete fulfillment
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -140,22 +280,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name restact
-NULL
-
-#'  Afterlife contrast: shadows or full
-#' 
-#'  palefull
-#' 
-#' Question 109. People picture life after death in many different ways. We'd like to know how you think of life after death. Here is a card with sets of contrasting images. On a scale of 1-7, where would you place your image of life after death. d. 1. A pale, shadowy form of life, hardly life at all. 2. A life of compelte fulfillment, spiritual and physical.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/314/vshow).
 #'
 #' Counts by year: 
 #'
@@ -198,10 +324,40 @@ NULL
 #'  |2024  |-     |-  |-   |-   |-   |-   |-                    |-          |-         |-             |3309                       |3309  |
 #'  |Total |64185 |63 |116 |706 |529 |634 |2258                 |67         |147       |141           |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name palefull
+NULL
+
+
+#'  How often does r pray
+#' 
+#'  pray
+#' 
+#' Question About how often do you pray?  USE CATEGORIES AS PROBES.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` pale, shadowy
-#'   * `7` complete fulfillment
+#'   * `1` several times a day
+#'   * `2` once a day
+#'   * `3` several times a week
+#'   * `4` once a week
+#'   * `5` less than once a week
+#'   * `6` never
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -215,22 +371,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name palefull
-NULL
-
-#'  How often does r pray
-#' 
-#'  pray
-#' 
-#' Question 110. About how often do you pray?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/315/vshow).
 #'
 #' Counts by year: 
 #'
@@ -273,15 +415,61 @@ NULL
 #'  |2024  |-     |15         |385                   |655   |7         |555        |200         |1080                |394                  |18             |3309  |
 #'  |Total |28586 |130        |7153                  |4867  |379       |12638      |3038        |13135               |5707                 |66             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/-   |partial      |
+#'  |1990 |A/B/-   |partial      |
+#'  |1993 |A/B/-   |partial      |
+#'  |1994 |A/B/-   |partial      |
+#'  |1996 |A/B/-   |partial      |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name pray
+NULL
+
+
+#'  Thought one was someplace before
+#' 
+#'  dejavu
+#' 
+#' Question How often have you had any of the following experiences?  READ EACH ITEM AND CIRCLE ONE CODE FOR EACH. 
+#' A. Thought you were somewhere you had been before, but knew that it was impossible.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` several times a day
-#'   * `2` once a day
-#'   * `3` several times a week
-#'   * `4` once a week
-#'   * `5` less than once a week
-#'   * `6` never
-#'   * `NA(d)` don't know
+#'   * `1` never in my life
+#'   * `2` once or twice
+#'   * `3` several times
+#'   * `4` often
+#'   * `8` cannot answer
+#'   * `NA(d)` can't choose
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
 #'   * `NA(m)` dk, na, iap
@@ -294,22 +482,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name pray
-NULL
-
-#'  Thought one was someplace before
-#' 
-#'  dejavu
-#' 
-#' Question 111. How often have you had any of the following experiences? a. Thought you were somewhere you had been before, but knew that it was impossible.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/316/vshow).
 #'
 #' Counts by year: 
 #'
@@ -352,6 +526,32 @@ NULL
 #'  |2024  |-     |-            |-                |-         |-     |-             |-             |3309                       |3309  |
 #'  |Total |64886 |49           |1317             |26        |302   |1133          |1133          |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Parapsychological Experiences
+#' 
+#' @keywords variable
+#' @md
+#' @name dejavu
+NULL
+
+
+#'  Felt in touch with someone far away
+#' 
+#'  esp
+#' 
+#' Question How often have you had any of the following experiences?  READ EACH ITEM AND CIRCLE ONE CODE FOR EACH. 
+#' B. Felt as though you were in touch with someone when they were far away  from you.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` never in my life
@@ -359,7 +559,7 @@ NULL
 #'   * `3` several times
 #'   * `4` often
 #'   * `8` cannot answer
-#'   * `NA(d)` can't choose
+#'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
 #'   * `NA(m)` dk, na, iap
@@ -372,22 +572,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name dejavu
-NULL
-
-#'  Felt in touch with someone far away
-#' 
-#'  esp
-#' 
-#' Question 111. How often have you had any of the following experiences? b. Felt as though you were in touch with someone when they were far away from you.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/317/vshow).
 #'
 #' Counts by year: 
 #'
@@ -430,6 +616,32 @@ NULL
 #'  |2024  |-     |-          |-                |-         |-     |-             |-             |3309                       |3309  |
 #'  |Total |64886 |46         |1407             |27        |318   |1225          |937           |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Parapsychological Experiences
+#' 
+#' @keywords variable
+#' @md
+#' @name esp
+NULL
+
+
+#'  Perceived events at great distance
+#' 
+#'  visions
+#' 
+#' Question How often have you had any of the following experiences?  READ EACH ITEM AND CIRCLE ONE CODE FOR EACH. 
+#' C. Seen events that happened at a great distance as they were happening.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` never in my life
@@ -450,22 +662,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name esp
-NULL
-
-#'  Perceived events at great distance
-#' 
-#'  visions
-#' 
-#' Question 111. How often have you had any of the following experiences? c. Seen events that happened at a great distance as they were happening.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/318/vshow).
 #'
 #' Counts by year: 
 #'
@@ -508,6 +706,32 @@ NULL
 #'  |2024  |-     |-          |-                |-         |-     |-             |-             |3309                       |3309  |
 #'  |Total |64886 |66         |2796             |37        |109   |643           |309           |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Parapsychological Experiences
+#' 
+#' @keywords variable
+#' @md
+#' @name visions
+NULL
+
+
+#'  Felt in touch with deceased person
+#' 
+#'  spirits
+#' 
+#' Question How often have you had any of the following experiences?  READ EACH ITEM AND CIRCLE ONE CODE FOR EACH. 
+#' D. Felt as though you were really in touch with someone who had died.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` never in my life
@@ -528,22 +752,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name visions
-NULL
-
-#'  Felt in touch with deceased person
-#' 
-#'  spirits
-#' 
-#' Question 111. How often have you had any of the following experiences? d. Felt as though you were really in touch with someone who had died.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/319/vshow).
 #'
 #' Counts by year: 
 #'
@@ -586,6 +796,33 @@ NULL
 #'  |2024  |-     |-          |-                |-         |-     |-             |-             |3309                       |3309  |
 #'  |Total |63527 |202        |3057             |49        |245   |1201          |565           |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/-   |partial      |
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Parapsychological Experiences
+#' 
+#' @keywords variable
+#' @md
+#' @name spirits
+NULL
+
+
+#'  Had powerful religious experience
+#' 
+#'  grace
+#' 
+#' Question How often have you had any of the following experiences?  READ EACH ITEM AND CIRCLE ONE CODE FOR EACH. 
+#' E. Felt as though you were very close to a powerful, spiritual force that seemed to lift you out of yourself.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` never in my life
@@ -593,7 +830,7 @@ NULL
 #'   * `3` several times
 #'   * `4` often
 #'   * `8` cannot answer
-#'   * `NA(d)` don't know
+#'   * `NA(d)` can't choose
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
 #'   * `NA(m)` dk, na, iap
@@ -606,22 +843,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name spirits
-NULL
-
-#'  Had powerful religious experience
-#' 
-#'  grace
-#' 
-#' Question 111. How often have you had any of the following experiences? e. Felt as though you were very close to a powerful, spiritual force that seemed to lift you out of yourself.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/320/vshow).
 #'
 #' Counts by year: 
 #'
@@ -664,109 +887,23 @@ NULL
 #'  |2024  |-     |-            |-                |-         |-     |-             |-             |3309                       |3309  |
 #'  |Total |61928 |293          |4003             |66        |424   |1367          |765           |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` never in my life
-#'   * `2` once or twice
-#'   * `3` several times
-#'   * `4` often
-#'   * `8` cannot answer
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/-   |partial      |
+#'  |1991 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Parapsychological Experiences
 #' 
 #' @keywords variable
 #' @md
 #' @name grace
 NULL
 
-#'  How close does r feel to god
-#' 
-#'  neargod
-#' 
-#' Question 112. How close do you feel to God most of the time?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |does not believe |don't know |extremely close |no answer |not close at all |not very close |somewhat close |not available in this year |Total |
-#'  |:-----|:-----|:----------------|:----------|:---------------|:---------|:----------------|:--------------|:--------------|:--------------------------|:-----|
-#'  |1972  |1613  |-                |-          |-               |-         |-                |-              |-              |-                          |1613  |
-#'  |1973  |1504  |-                |-          |-               |-         |-                |-              |-              |-                          |1504  |
-#'  |1974  |1484  |-                |-          |-               |-         |-                |-              |-              |-                          |1484  |
-#'  |1975  |1490  |-                |-          |-               |-         |-                |-              |-              |-                          |1490  |
-#'  |1976  |1499  |-                |-          |-               |-         |-                |-              |-              |-                          |1499  |
-#'  |1977  |1530  |-                |-          |-               |-         |-                |-              |-              |-                          |1530  |
-#'  |1978  |1532  |-                |-          |-               |-         |-                |-              |-              |-                          |1532  |
-#'  |1980  |1468  |-                |-          |-               |-         |-                |-              |-              |-                          |1468  |
-#'  |1982  |1860  |-                |-          |-               |-         |-                |-              |-              |-                          |1860  |
-#'  |1983  |-     |20               |17         |471             |11        |91               |151            |838            |-                          |1599  |
-#'  |1984  |-     |16               |8          |443             |23        |59               |142            |782            |-                          |1473  |
-#'  |1985  |-     |14               |17         |495             |13        |81               |156            |758            |-                          |1534  |
-#'  |1986  |1470  |-                |-          |-               |-         |-                |-              |-              |-                          |1470  |
-#'  |1987  |-     |20               |20         |606             |18        |65               |147            |943            |-                          |1819  |
-#'  |1988  |-     |24               |22         |428             |6         |84               |142            |775            |-                          |1481  |
-#'  |1989  |531   |21               |10         |291             |5         |64               |89             |526            |-                          |1537  |
-#'  |1990  |1372  |-                |-          |-               |-         |-                |-              |-              |-                          |1372  |
-#'  |1991  |158   |25               |66         |449             |26        |56               |121            |616            |-                          |1517  |
-#'  |1993  |1606  |-                |-          |-               |-         |-                |-              |-              |-                          |1606  |
-#'  |1994  |2992  |-                |-          |-               |-         |-                |-              |-              |-                          |2992  |
-#'  |1996  |2904  |-                |-          |-               |-         |-                |-              |-              |-                          |2904  |
-#'  |1998  |2832  |-                |-          |-               |-         |-                |-              |-              |-                          |2832  |
-#'  |2000  |2817  |-                |-          |-               |-         |-                |-              |-              |-                          |2817  |
-#'  |2002  |2765  |-                |-          |-               |-         |-                |-              |-              |-                          |2765  |
-#'  |2004  |2812  |-                |-          |-               |-         |-                |-              |-              |-                          |2812  |
-#'  |2006  |4510  |-                |-          |-               |-         |-                |-              |-              |-                          |4510  |
-#'  |2008  |2023  |-                |-          |-               |-         |-                |-              |-              |-                          |2023  |
-#'  |2010  |2044  |-                |-          |-               |-         |-                |-              |-              |-                          |2044  |
-#'  |2012  |1974  |-                |-          |-               |-         |-                |-              |-              |-                          |1974  |
-#'  |2014  |2538  |-                |-          |-               |-         |-                |-              |-              |-                          |2538  |
-#'  |2016  |2867  |-                |-          |-               |-         |-                |-              |-              |-                          |2867  |
-#'  |2018  |2348  |-                |-          |-               |-         |-                |-              |-              |-                          |2348  |
-#'  |2021  |4032  |-                |-          |-               |-         |-                |-              |-              |-                          |4032  |
-#'  |2022  |-     |-                |-          |-               |-         |-                |-              |-              |3544                       |3544  |
-#'  |2024  |-     |-                |-          |-               |-         |-                |-              |-              |3309                       |3309  |
-#'  |Total |58575 |140              |160        |3183            |102       |500              |948            |5238           |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` extremely close
-#'   * `2` somewhat close
-#'   * `3` not very close
-#'   * `4` not close at all
-#'   * `5` does not believe
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name neargod
-NULL
 

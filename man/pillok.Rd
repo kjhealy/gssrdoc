@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 pillok
 }
 \details{
-Question 213c. Do you strongly agree, agree, or strongly disagree that methods of birth control should be available to teenagers between the ages of 14 and 16 if their parents do not approve?
+Question C. Do you strongly agree, agree, disagree, or strongly disagree that methods of birth control should be available to teenagers between the ages of 14 and 16 if their parents do not approve?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} strongly agree
+\item \code{2} agree
+\item \code{3} disagree
+\item \code{4} strongly disagree
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/625/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab strongly agree \tab strongly disagree \tab skipped on web \tab Total \cr
@@ -57,26 +79,50 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} strongly agree
-\item \code{2} agree
-\item \code{3} disagree
-\item \code{4} strongly disagree
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1986 \tab -/- \tab full \cr
+   1988 \tab A/B \tab partial \cr
+   1989 \tab A/B \tab partial \cr
+   1990 \tab A/B \tab partial \cr
+   1991 \tab A/B \tab partial \cr
+   1993 \tab A/B \tab partial \cr
+   1994 \tab A/B \tab partial \cr
+   1996 \tab A/B \tab partial \cr
+   1998 \tab A/B \tab partial \cr
+   2000 \tab A/B \tab partial \cr
+   2002 \tab A/B \tab partial \cr
+   2004 \tab A/B \tab partial \cr
+   2006 \tab A/B \tab partial \cr
+   2008 \tab A/B \tab partial \cr
+   2010 \tab A/B \tab partial \cr
+   2012 \tab A/B \tab partial \cr
+   2014 \tab A/B \tab partial \cr
+   2016 \tab A/B \tab partial \cr
+   2018 \tab A/B \tab partial \cr
+   2021 \tab A/B \tab partial \cr
+   2022 \tab A/B \tab partial \cr
+   2024 \tab A/B \tab partial \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{abcare}},
+\code{\link{abfirm}},
+\code{\link{chldidel}},
+\code{\link{chldmore}},
+\code{\link{chldnum}},
+\code{\link{chldsoon}},
+\code{\link{pill}},
+\code{\link{sexeduc}},
+\code{\link{teenpill}}
+
+Other Birth Control: 
+\code{\link{pill}},
+\code{\link{teenpill}}
+}
+\concept{Birth Control}
+\concept{Core}
 \keyword{variable}

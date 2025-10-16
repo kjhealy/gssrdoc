@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 jobcntrl
 }
 \details{
-Question 437. I'm going to read four statements. Please tell me which one best describes your job: 1. Someone else decides both what I do and how I do it. 2. Someone else decides what I do, but I decide how I do it. 3. I have some freedom in deciding what I do and how I do it. 4. I am basically my own boss.
+Question I'm going to read four statements. (HAND CARD BV TO RESPONDENT) Please tell me which one best describes your job:
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} other decide what and how i do
+\item \code{2} other decide what but not how
+\item \code{3} i decide some what and how i do
+\item \code{4} i am my own boss
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1307/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab i am my own boss \tab i decide some what and how i do \tab no answer \tab other decide what and how i do \tab other decide what but not how \tab not available in this year \tab Total \cr
@@ -57,26 +79,33 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} other decide what and how i do
-\item \code{2} other decide what but not how
-\item \code{3} i decide some what and how i do
-\item \code{4} i am my own boss
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1991 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Work Organizations: 
+\code{\link{advances}},
+\code{\link{futpromo}},
+\code{\link{imppromo}},
+\code{\link{lottosay}},
+\code{\link{numpromo}},
+\code{\link{promoted}},
+\code{\link{racpromo}},
+\code{\link{sexpromo}},
+\code{\link{wrkindep}}
+
+Other Job: 
+\code{\link{lottosay}}
+
+Other Work: 
+\code{\link{lottosay}},
+\code{\link{wrkindep}}
+}
+\concept{Job}
+\concept{Work}
+\concept{Work Organizations}
 \keyword{variable}

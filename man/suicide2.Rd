@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 suicide2
 }
 \details{
-Question 227. Do you think a person has the right to end his or her own life if this person: b. Has gone bankrupt?
+Question Do you think a person has the right to end his or her own life if this person . . .
+READ EACH STATEMENT AND CIRCLE ONE CODE FOR EACH.
+B. Has gone bankrupt?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes
+\item \code{2} no
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/650/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab skipped on web \tab Total \cr
@@ -57,24 +79,55 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes
-\item \code{2} no
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1977 \tab -/- \tab full \cr
+   1978 \tab -/- \tab full \cr
+   1982 \tab -/- \tab full \cr
+   1983 \tab -/- \tab full \cr
+   1985 \tab -/- \tab full \cr
+   1986 \tab -/- \tab full \cr
+   1988 \tab A/B \tab partial \cr
+   1989 \tab A/B \tab partial \cr
+   1990 \tab A/B \tab partial \cr
+   1991 \tab A/B \tab partial \cr
+   1993 \tab A/B \tab partial \cr
+   1994 \tab A/B \tab partial \cr
+   1996 \tab A/B \tab partial \cr
+   1998 \tab A/B \tab partial \cr
+   2000 \tab A/B \tab partial \cr
+   2002 \tab A/B \tab partial \cr
+   2004 \tab A/B \tab partial \cr
+   2006 \tab A/B \tab partial \cr
+   2008 \tab A/B \tab partial \cr
+   2010 \tab A/B \tab partial \cr
+   2012 \tab A/B \tab partial \cr
+   2014 \tab A/B \tab partial \cr
+   2016 \tab A/B \tab partial \cr
+   2018 \tab A/B \tab partial \cr
+   2021 \tab A/B \tab partial \cr
+   2022 \tab A/B \tab partial \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{letdie1}},
+\code{\link{letdie2}},
+\code{\link{suicide1}},
+\code{\link{suicide3}},
+\code{\link{suicide4}}
+
+Other Suicide: 
+\code{\link{suicide1}},
+\code{\link{suicide3}},
+\code{\link{suicide4}},
+\code{\link{suineg1}},
+\code{\link{suinum}},
+\code{\link{suinum1}},
+\code{\link{suirel1}}
+}
+\concept{Core}
+\concept{Suicide}
 \keyword{variable}

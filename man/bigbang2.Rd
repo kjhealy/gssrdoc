@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 bigbang2
 }
 \details{
-Question G3. The universe has been expanding ever since it began. (Is that true or false?)
+Question For each statement that I read, please tell me if it is true or false. If you don't know or aren't sure, just tell me so, and we will skip to the next question. Remember true, false, or don't know.
+G3. The universe has been expanding ever since it began. (Is that true or false?)
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} true
+\item \code{2} false
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6302/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab false \tab no answer \tab true \tab not available in this year \tab Total \cr
@@ -57,24 +78,25 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} true
-\item \code{2} false
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2016 \tab A \tab partial \cr
+   2018 \tab A \tab partial \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{bigbang}},
+\code{\link{bigbang1}},
+\code{\link{boyorgrl}},
+\code{\link{electron}},
+\code{\link{hotcore}},
+\code{\link{lasers}},
+\code{\link{odds2}},
+\code{\link{radioact}},
+\code{\link{viruses}}
+}
+\concept{Science Knowledge & Attitudes}
 \keyword{variable}

@@ -1,11 +1,211 @@
+#'  Ever read a horoscope or personal astrology report
+#' 
+#'  astrolgy
+#' 
+#' Question Now, for a new subject. Do you ever read a horoscope or your personal astrology report?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3323/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no   |yes  |no answer |not available in this year |Total |
+#'  |:-----|:-----|:----------|:----|:----|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-    |-    |-         |-                          |1613  |
+#'  |1973  |1504  |-          |-    |-    |-         |-                          |1504  |
+#'  |1974  |1484  |-          |-    |-    |-         |-                          |1484  |
+#'  |1975  |1490  |-          |-    |-    |-         |-                          |1490  |
+#'  |1976  |1499  |-          |-    |-    |-         |-                          |1499  |
+#'  |1977  |1530  |-          |-    |-    |-         |-                          |1530  |
+#'  |1978  |1532  |-          |-    |-    |-         |-                          |1532  |
+#'  |1980  |1468  |-          |-    |-    |-         |-                          |1468  |
+#'  |1982  |1860  |-          |-    |-    |-         |-                          |1860  |
+#'  |1983  |1599  |-          |-    |-    |-         |-                          |1599  |
+#'  |1984  |1473  |-          |-    |-    |-         |-                          |1473  |
+#'  |1985  |1534  |-          |-    |-    |-         |-                          |1534  |
+#'  |1986  |1470  |-          |-    |-    |-         |-                          |1470  |
+#'  |1987  |1819  |-          |-    |-    |-         |-                          |1819  |
+#'  |1988  |1481  |-          |-    |-    |-         |-                          |1481  |
+#'  |1989  |1537  |-          |-    |-    |-         |-                          |1537  |
+#'  |1990  |1372  |-          |-    |-    |-         |-                          |1372  |
+#'  |1991  |1517  |-          |-    |-    |-         |-                          |1517  |
+#'  |1993  |1606  |-          |-    |-    |-         |-                          |1606  |
+#'  |1994  |2992  |-          |-    |-    |-         |-                          |2992  |
+#'  |1996  |2904  |-          |-    |-    |-         |-                          |2904  |
+#'  |1998  |2832  |-          |-    |-    |-         |-                          |2832  |
+#'  |2000  |2817  |-          |-    |-    |-         |-                          |2817  |
+#'  |2002  |2765  |-          |-    |-    |-         |-                          |2765  |
+#'  |2004  |2812  |-          |-    |-    |-         |-                          |2812  |
+#'  |2006  |2646  |2          |789  |1073 |-         |-                          |4510  |
+#'  |2008  |518   |1          |691  |811  |2         |-                          |2023  |
+#'  |2010  |1353  |-          |322  |367  |2         |-                          |2044  |
+#'  |2012  |972   |2          |504  |492  |4         |-                          |1974  |
+#'  |2014  |1299  |-          |687  |551  |1         |-                          |2538  |
+#'  |2016  |1477  |1          |770  |616  |3         |-                          |2867  |
+#'  |2018  |1173  |2          |666  |506  |1         |-                          |2348  |
+#'  |2021  |4032  |-          |-    |-    |-         |-                          |4032  |
+#'  |2022  |-     |-          |-    |-    |-         |3544                       |3544  |
+#'  |2024  |-     |-          |-    |-    |-         |3309                       |3309  |
+#'  |Total |59980 |8          |4429 |4416 |13        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |B/C/-   |partial      |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/C/-   |partial      |
+#'  |2012 |B/C/-   |partial      |
+#'  |2014 |B/C/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Science Knowledge & Attitudes
+#' @family Science
+#' 
+#' @keywords variable
+#' @md
+#' @name astrolgy
+NULL
+
+
+#'  Astrology is scientific
+#' 
+#'  astrosci
+#' 
+#' Question Would you say that astrology is very scientific, sort of scientific, or not at all scientific?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` very scientific
+#'   * `2` sort of scientific
+#'   * `3` not at all scientific
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3324/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |not at all scientific |sort of scientific |very scientific |no answer |not available in this year |Total |
+#'  |:-----|:-----|:----------|:---------------------|:------------------|:---------------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-                     |-                  |-               |-         |-                          |1613  |
+#'  |1973  |1504  |-          |-                     |-                  |-               |-         |-                          |1504  |
+#'  |1974  |1484  |-          |-                     |-                  |-               |-         |-                          |1484  |
+#'  |1975  |1490  |-          |-                     |-                  |-               |-         |-                          |1490  |
+#'  |1976  |1499  |-          |-                     |-                  |-               |-         |-                          |1499  |
+#'  |1977  |1530  |-          |-                     |-                  |-               |-         |-                          |1530  |
+#'  |1978  |1532  |-          |-                     |-                  |-               |-         |-                          |1532  |
+#'  |1980  |1468  |-          |-                     |-                  |-               |-         |-                          |1468  |
+#'  |1982  |1860  |-          |-                     |-                  |-               |-         |-                          |1860  |
+#'  |1983  |1599  |-          |-                     |-                  |-               |-         |-                          |1599  |
+#'  |1984  |1473  |-          |-                     |-                  |-               |-         |-                          |1473  |
+#'  |1985  |1534  |-          |-                     |-                  |-               |-         |-                          |1534  |
+#'  |1986  |1470  |-          |-                     |-                  |-               |-         |-                          |1470  |
+#'  |1987  |1819  |-          |-                     |-                  |-               |-         |-                          |1819  |
+#'  |1988  |1481  |-          |-                     |-                  |-               |-         |-                          |1481  |
+#'  |1989  |1537  |-          |-                     |-                  |-               |-         |-                          |1537  |
+#'  |1990  |1372  |-          |-                     |-                  |-               |-         |-                          |1372  |
+#'  |1991  |1517  |-          |-                     |-                  |-               |-         |-                          |1517  |
+#'  |1993  |1606  |-          |-                     |-                  |-               |-         |-                          |1606  |
+#'  |1994  |2992  |-          |-                     |-                  |-               |-         |-                          |2992  |
+#'  |1996  |2904  |-          |-                     |-                  |-               |-         |-                          |2904  |
+#'  |1998  |2832  |-          |-                     |-                  |-               |-         |-                          |2832  |
+#'  |2000  |2817  |-          |-                     |-                  |-               |-         |-                          |2817  |
+#'  |2002  |2765  |-          |-                     |-                  |-               |-         |-                          |2765  |
+#'  |2004  |2812  |-          |-                     |-                  |-               |-         |-                          |2812  |
+#'  |2006  |2646  |71         |1210                  |494                |89              |-         |-                          |4510  |
+#'  |2008  |518   |59         |935                   |434                |74              |3         |-                          |2023  |
+#'  |2010  |1353  |25         |432                   |192                |39              |3         |-                          |2044  |
+#'  |2012  |972   |42         |522                   |330                |101             |7         |-                          |1974  |
+#'  |2014  |1299  |23         |818                   |313                |82              |3         |-                          |2538  |
+#'  |2016  |1477  |38         |835                   |404                |109             |4         |-                          |2867  |
+#'  |2018  |1173  |32         |680                   |383                |77              |3         |-                          |2348  |
+#'  |2021  |4032  |-          |-                     |-                  |-               |-         |-                          |4032  |
+#'  |2022  |-     |-          |-                     |-                  |-               |-         |3544                       |3544  |
+#'  |2024  |-     |-          |-                     |-                  |-               |-         |3309                       |3309  |
+#'  |Total |59980 |290        |5432                  |2550               |571             |23        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |B/C/-   |partial      |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/C/-   |partial      |
+#'  |2012 |B/C/-   |partial      |
+#'  |2014 |B/C/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Science Knowledge & Attitudes
+#' @family Science
+#' 
+#' @keywords variable
+#' @md
+#' @name astrosci
+NULL
+
+
 #'  Benefits of sci research outweigh harmful results
 #' 
 #'  scibnfts
 #' 
-#' Question 1038. Now for another type of question. People have frequently noted that scientific research has produced benefits and harmful results. Would you say that, on balance, the benefits of scientific research have outweighed the harmful results, or have the harmful results of scientific research been greater than its benefits?
+#' Question Now for another type of question. People have frequently noted that scientific research has produced benefits and harmful results. Would you say that, on balance, the benefits of scientific research have outweighed the harmful results, or have the harmful results of scientific research been greater than its benefits?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` benefits greater
+#'   * `2` about equal (if volunteered)
+#'   * `3` harmful results greater
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3325/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,11 +248,40 @@
 #'  |2024  |-     |-                            |-                |-          |-                       |-         |3309                       |3309  |
 #'  |Total |55948 |1260                         |6172             |619        |771                     |44        |10885                      |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |B/C/-   |partial      |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/C/-   |partial      |
+#'  |2012 |B/C/-   |partial      |
+#'  |2014 |B/C/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Science Knowledge & Attitudes
+#' @family Science
+#' 
+#' @keywords variable
+#' @md
+#' @name scibnfts
+NULL
+
+
+#'  Sci research is strongly in favor of benefits
+#' 
+#'  balpos
+#' 
+#' Question Now for another type of question. People have frequently noted that scientific research has produced benefits and harmful results. Would you say that, on balance, the benefits of scientific research have outweighed the harmful results, or have the harmful results of scientific research been greater than its benefits? 
+#' A. Would you say that the balance has been strongly in favor of the benefits, or only slightly?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` benefits greater
-#'   * `2` about equal (if volunteered)
-#'   * `3` harmful results greater
+#'   * `1` strongly in favor
+#'   * `2` slightly in favor
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -66,22 +295,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name scibnfts
-NULL
-
-#'  Sci research is strongly in favor of benefits
-#' 
-#'  balpos
-#' 
-#' Question 1038a. Would you say that the balance has been strongly in favor of the benefits, or only slightly?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3326/vshow).
 #'
 #' Counts by year: 
 #'
@@ -124,6 +339,37 @@ NULL
 #'  |2024  |-     |-          |-         |-                 |-                 |-              |3309                       |3309  |
 #'  |Total |61533 |111        |64        |2344              |4792              |2              |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |B/C/-   |partial      |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/C/-   |partial      |
+#'  |2012 |B/C/-   |partial      |
+#'  |2014 |B/C/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'  |2021 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Science Knowledge & Attitudes
+#' @family Science
+#' 
+#' @keywords variable
+#' @md
+#' @name balpos
+NULL
+
+
+#'  Sci research is strongly in favor of harmful results
+#' 
+#'  balneg
+#' 
+#' Question Now for another type of question. People have frequently noted that scientific research has produced benefits and harmful results. Would you say that, on balance, the benefits of scientific research have outweighed the harmful results, or have the harmful results of scientific research been greater than its benefits? 
+#' B. Would you say that the balance has been strongly in favor of the harmful results, or only slightly?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly in favor
@@ -141,22 +387,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name balpos
-NULL
-
-#'  Sci research is strongly in favor of harmful results
-#' 
-#'  balneg
-#' 
-#' Question 1038b. Would you say that the balance has been strongly in favor of the harmful results, or only slightly?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3327/vshow).
 #'
 #' Counts by year: 
 #'
@@ -199,10 +431,41 @@ NULL
 #'  |2024  |-     |-          |-         |-                 |-                 |3309                       |3309  |
 #'  |Total |67949 |13         |64        |598               |222               |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |B/C/-   |partial      |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/C/-   |partial      |
+#'  |2012 |B/C/-   |partial      |
+#'  |2014 |B/C/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'  |2021 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Science Knowledge & Attitudes
+#' @family Science
+#' 
+#' @keywords variable
+#' @md
+#' @name balneg
+NULL
+
+
+#'  R has clear understanding of scientific study
+#' 
+#'  scistudy
+#' 
+#' Question Now, for a slightly different type of question. When you read news stories, you see certain sets of words and terms. We are interested in how many people recognize certain kinds of terms. First, some articles refer to the results of a scientific study. When you read or hear the term scientific study, do you have a clear understanding of what it means, a general sense of what it means, or little understanding of what it means?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` strongly in favor
-#'   * `2` slightly in favor
+#'   * `1` clear understanding
+#'   * `2` general sense
+#'   * `3` little understanding
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -216,22 +479,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name balneg
-NULL
-
-#'  R has clear understanding of scientific study
-#' 
-#'  scistudy
-#' 
-#' Question 1039. Now, for a slightly different type of question. When you read news stories, you see certain sets of words and terms. We are interested in how many people recognize certain kinds of terms. First, some articles refer to the results of a scientific study. When you read or hear the term scientific study, do you have a clear understanding of what it means, a general sense of what it means, or little understanding of what it means?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3328/vshow).
 #'
 #' Counts by year: 
 #'
@@ -274,11 +523,44 @@ NULL
 #'  |2024  |-     |-                   |-          |-             |-                    |-         |3309                       |3309  |
 #'  |Total |59955 |2508                |117        |4434          |1798                 |34        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |B/C/-   |partial      |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/C/-   |partial      |
+#'  |2012 |B/C/-   |partial      |
+#'  |2014 |B/C/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Science Knowledge & Attitudes
+#' @family Knowledge
+#' @family Science
+#' 
+#' @keywords variable
+#' @md
+#' @name scistudy
+NULL
+
+
+#'  What it means to r to study scientifically
+#' 
+#'  scitext
+#' 
+#' Question In your own words, could you tell me what it means to study something scientifically?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` clear understanding
-#'   * `2` general sense
-#'   * `3` little understanding
+#'   * `1` formulation of theories, test hypotheses
+#'   * `2` do experiments, control group
+#'   * `3` rigorous, systematic comparison
+#'   * `4` measurement
+#'   * `5` classification
+#'   * `6` redundancies/incorrect
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -292,22 +574,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name scistudy
-NULL
-
-#'  What it means to r to study scientifically
-#' 
-#'  scitext
-#' 
-#' Question 1040. In your own words, could you tell me what it means to study something scientifically?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3329/vshow).
 #'
 #' Counts by year: 
 #'
@@ -350,14 +618,40 @@ NULL
 #'  |2024  |-     |-              |-                             |-          |-                                        |-           |-         |-                      |-                               |3309                       |3309  |
 #'  |Total |61844 |2122           |688                           |536        |800                                      |957         |130       |1242                   |527                             |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |B/C/-   |partial      |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/C/-   |partial      |
+#'  |2012 |B/C/-   |partial      |
+#'  |2014 |B/C/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Science Knowledge & Attitudes
+#' @family Knowledge
+#' @family Science
+#' 
+#' @keywords variable
+#' @md
+#' @name scitext
+NULL
+
+
+#'  Better way to test drug btw control and non-control
+#' 
+#'  expdesgn
+#' 
+#' Question Now, please think about this situation. Two scientists want to know if a certain drug is effective against high blood pressure. The first scientist wants to give the drug to one thousand people with high blood pressure and see how many of them experience lower blood pressure levels. The second scientist wants to give the drug to five hundred people with high blood pressure, and not give the drug to another five hundred people with high blood pressure, and see how many in both groups experience lower blood pressure levels. Which is the better way to test this drug?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` formulation of theories, test hypotheses
-#'   * `2` do experiments, control group
-#'   * `3` rigorous, systematic comparison
-#'   * `4` measurement
-#'   * `5` classification
-#'   * `6` redundancies/incorrect
+#'   * `1` all 1000 get the drug
+#'   * `2` 500 get the drug; 500 don't
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -371,22 +665,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name scitext
-NULL
-
-#'  Better way to test drug btw control and non-control
-#' 
-#'  expdesgn
-#' 
-#' Question 1041. Now, please think about this situation. Two scientists want to know if a certain drug is effective against high blood pressure. The first scientist wants to give the drug to one thousand people with high blood pressure and see how many of them experience lower blood pressure levels. The second scientist wants to give the drug to five hundred people with high blood pressure, and not give the drug to another five hundred people with high blood pressure, and see how many in both groups experience lower blood pressure levels. Which is the better way to test this drug?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3330/vshow).
 #'
 #' Counts by year: 
 #'
@@ -429,10 +709,47 @@ NULL
 #'  |2024  |-     |-                           |-                     |-          |-         |3309                       |3309  |
 #'  |Total |59955 |6906                        |1496                  |420        |69        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |B/C/-   |partial      |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/C/-   |partial      |
+#'  |2012 |B/C/-   |partial      |
+#'  |2014 |B/C/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Science Knowledge & Attitudes
+#' @family Knowledge
+#' @family Science
+#' 
+#' @keywords variable
+#' @md
+#' @name expdesgn
+NULL
+
+
+#'  Why is it better to test drug this way
+#' 
+#'  exptext
+#' 
+#' Question Why is it better to test the drug this way?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` all 1000 get the drug
-#'   * `2` 500 get the drug; 500 don't
+#'   * `1` correct - control group
+#'   * `2` correct - vague reason
+#'   * `3` correct - wrong reason
+#'   * `4` correct - don't know
+#'   * `5` wrong - reservations about control group
+#'   * `6` wrong - reservations about sample
+#'   * `7` wrong - other reason
+#'   * `8` wrong - don't know
+#'   * `9` no answer to closed ended question
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -446,22 +763,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name expdesgn
-NULL
-
-#'  Why is it better to test drug this way
-#' 
-#'  exptext
-#' 
-#' Question 1042. Why is it better to test the drug this way?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3331/vshow).
 #'
 #' Counts by year: 
 #'
@@ -504,17 +807,41 @@ NULL
 #'  |2024  |-     |-                       |-                    |-                      |-                      |-                                  |-          |-                  |-                    |-                                        |-                                 |3309                       |3309  |
 #'  |Total |60323 |1639                    |173                  |2173                   |2862                   |171                                |35         |70                 |511                  |197                                      |692                               |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |B/C/-   |partial      |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/C/-   |partial      |
+#'  |2012 |B/C/-   |partial      |
+#'  |2014 |B/C/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Science Knowledge & Attitudes
+#' @family Knowledge
+#' @family Science
+#' 
+#' @keywords variable
+#' @md
+#' @name exptext
+NULL
+
+
+#'  Test of knowledge about probablity1
+#' 
+#'  odds1
+#' 
+#' Question Now, think about this situation. A doctor tells a couple that their genetic makeup means that theyâ€™ve got one in four chances of having a child with an inherited illness. 
+#' A. Does this mean that if their first child has the illness, the next three will not have the illness?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` correct - control group
-#'   * `2` correct - vague reason
-#'   * `3` correct - wrong reason
-#'   * `4` correct - don't know
-#'   * `5` wrong - reservations about control group
-#'   * `6` wrong - reservations about sample
-#'   * `7` wrong - other reason
-#'   * `8` wrong - don't know
-#'   * `9` no answer to closed ended question
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -528,22 +855,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name exptext
-NULL
-
-#'  Test of knowledge about probablity1
-#' 
-#'  odds1
-#' 
-#' Question 1043. Now, think about this situation. A doctor tells a couple that their genetic makeup means that they've got one in four chances of having a child with an inherited illness. a. Does this mean that if their first child has the illness, the next three will not have the illness?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3332/vshow).
 #'
 #' Counts by year: 
 #'
@@ -586,178 +899,26 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-   |3309                       |3309  |
 #'  |Total |59955 |550        |7379 |53        |909 |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |B/C/-   |partial      |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/C/-   |partial      |
+#'  |2012 |B/C/-   |partial      |
+#'  |2014 |B/C/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Science Knowledge & Attitudes
+#' @family Knowledge
+#' @family Science
 #' 
 #' @keywords variable
 #' @md
 #' @name odds1
 NULL
 
-#'  Test of knowledge about probablity2
-#' 
-#'  odds2
-#' 
-#' Question 1043. Now, think about this situation. A doctor tells a couple that their genetic makeup means that they've got one in four chances of having a child with an inherited illness. b. Does this mean that each of the couple's children will have the same risk of suffering from the illness?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no   |no answer |yes  |not available in this year |Total |
-#'  |:-----|:-----|:----------|:----|:---------|:----|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-    |-         |-    |-                          |1613  |
-#'  |1973  |1504  |-          |-    |-         |-    |-                          |1504  |
-#'  |1974  |1484  |-          |-    |-         |-    |-                          |1484  |
-#'  |1975  |1490  |-          |-    |-         |-    |-                          |1490  |
-#'  |1976  |1499  |-          |-    |-         |-    |-                          |1499  |
-#'  |1977  |1530  |-          |-    |-         |-    |-                          |1530  |
-#'  |1978  |1532  |-          |-    |-         |-    |-                          |1532  |
-#'  |1980  |1468  |-          |-    |-         |-    |-                          |1468  |
-#'  |1982  |1860  |-          |-    |-         |-    |-                          |1860  |
-#'  |1983  |1599  |-          |-    |-         |-    |-                          |1599  |
-#'  |1984  |1473  |-          |-    |-         |-    |-                          |1473  |
-#'  |1985  |1534  |-          |-    |-         |-    |-                          |1534  |
-#'  |1986  |1470  |-          |-    |-         |-    |-                          |1470  |
-#'  |1987  |1819  |-          |-    |-         |-    |-                          |1819  |
-#'  |1988  |1481  |-          |-    |-         |-    |-                          |1481  |
-#'  |1989  |1537  |-          |-    |-         |-    |-                          |1537  |
-#'  |1990  |1372  |-          |-    |-         |-    |-                          |1372  |
-#'  |1991  |1517  |-          |-    |-         |-    |-                          |1517  |
-#'  |1993  |1606  |-          |-    |-         |-    |-                          |1606  |
-#'  |1994  |2992  |-          |-    |-         |-    |-                          |2992  |
-#'  |1996  |2904  |-          |-    |-         |-    |-                          |2904  |
-#'  |1998  |2832  |-          |-    |-         |-    |-                          |2832  |
-#'  |2000  |2817  |-          |-    |-         |-    |-                          |2817  |
-#'  |2002  |2765  |-          |-    |-         |-    |-                          |2765  |
-#'  |2004  |2812  |-          |-    |-         |-    |-                          |2812  |
-#'  |2006  |2646  |96         |356  |4         |1408 |-                          |4510  |
-#'  |2008  |518   |101        |311  |14        |1079 |-                          |2023  |
-#'  |2010  |1328  |39         |130  |9         |538  |-                          |2044  |
-#'  |2012  |972   |81         |213  |8         |700  |-                          |1974  |
-#'  |2014  |1299  |78         |274  |2         |885  |-                          |2538  |
-#'  |2016  |1477  |50         |317  |13        |1010 |-                          |2867  |
-#'  |2018  |1173  |54         |261  |6         |854  |-                          |2348  |
-#'  |2021  |4032  |-          |-    |-         |-    |-                          |4032  |
-#'  |2022  |-     |-          |-    |-         |-    |3544                       |3544  |
-#'  |2024  |-     |-          |-    |-         |-    |3309                       |3309  |
-#'  |Total |59955 |499        |1862 |56        |6474 |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name odds2
-NULL
-
-#'  Sci knowledge: the center of earth is very hot
-#' 
-#'  hotcore
-#' 
-#' Question 1044. Now, I would like to ask you a few short questions like those you might see on a television game show. For each statement that I read, please tell me if it is true or false. If you don't know or aren't sure, just tell me so, and we will skip to the next question. Remember true, false, or don't know. a. First, the center of the Earth is very hot. Is that true or false?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |false |no answer |true |not available in this year |Total |
-#'  |:-----|:-----|:----------|:-----|:---------|:----|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-     |-         |-    |-                          |1613  |
-#'  |1973  |1504  |-          |-     |-         |-    |-                          |1504  |
-#'  |1974  |1484  |-          |-     |-         |-    |-                          |1484  |
-#'  |1975  |1490  |-          |-     |-         |-    |-                          |1490  |
-#'  |1976  |1499  |-          |-     |-         |-    |-                          |1499  |
-#'  |1977  |1530  |-          |-     |-         |-    |-                          |1530  |
-#'  |1978  |1532  |-          |-     |-         |-    |-                          |1532  |
-#'  |1980  |1468  |-          |-     |-         |-    |-                          |1468  |
-#'  |1982  |1860  |-          |-     |-         |-    |-                          |1860  |
-#'  |1983  |1599  |-          |-     |-         |-    |-                          |1599  |
-#'  |1984  |1473  |-          |-     |-         |-    |-                          |1473  |
-#'  |1985  |1534  |-          |-     |-         |-    |-                          |1534  |
-#'  |1986  |1470  |-          |-     |-         |-    |-                          |1470  |
-#'  |1987  |1819  |-          |-     |-         |-    |-                          |1819  |
-#'  |1988  |1481  |-          |-     |-         |-    |-                          |1481  |
-#'  |1989  |1537  |-          |-     |-         |-    |-                          |1537  |
-#'  |1990  |1372  |-          |-     |-         |-    |-                          |1372  |
-#'  |1991  |1517  |-          |-     |-         |-    |-                          |1517  |
-#'  |1993  |1606  |-          |-     |-         |-    |-                          |1606  |
-#'  |1994  |2992  |-          |-     |-         |-    |-                          |2992  |
-#'  |1996  |2904  |-          |-     |-         |-    |-                          |2904  |
-#'  |1998  |2832  |-          |-     |-         |-    |-                          |2832  |
-#'  |2000  |2817  |-          |-     |-         |-    |-                          |2817  |
-#'  |2002  |2765  |-          |-     |-         |-    |-                          |2765  |
-#'  |2004  |2812  |-          |-     |-         |-    |-                          |2812  |
-#'  |2006  |2646  |306        |94    |2         |1462 |-                          |4510  |
-#'  |2008  |518   |178        |83    |9         |1235 |-                          |2023  |
-#'  |2010  |1103  |109        |56    |4         |772  |-                          |2044  |
-#'  |2012  |972   |134        |58    |5         |805  |-                          |1974  |
-#'  |2014  |1299  |141        |69    |2         |1027 |-                          |2538  |
-#'  |2016  |1477  |149        |63    |7         |1171 |-                          |2867  |
-#'  |2018  |1173  |117        |53    |3         |1002 |-                          |2348  |
-#'  |2021  |4032  |-          |-     |-         |-    |-                          |4032  |
-#'  |2022  |-     |-          |-     |-         |-    |3544                       |3544  |
-#'  |2024  |-     |-          |-     |-         |-    |3309                       |3309  |
-#'  |Total |59730 |1134       |476   |32        |7474 |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` true
-#'   * `2` false
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hotcore
-NULL
 

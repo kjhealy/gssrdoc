@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 planwrk
 }
 \details{
-Question 1338. And which of the following statements about your work is most true? 1. My job allows me to design or plan most of my daily work 2. My job allows me to design or plan parts of my daily work 3. My job does not really allow me to design or plan my daily work.
+Question And which of the following statements about your work is most true?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} plans most
+\item \code{2} plans part
+\item \code{3} cant plan
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4557/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllll}{
    year \tab not available in this year \tab cant plan \tab no answer \tab plans most \tab plans part \tab Total \cr
@@ -57,25 +78,35 @@ Counts by year:\tabular{lllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} plans most
-\item \code{2} plans part
-\item \code{3} cant plan
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1989 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Work Orientation: 
+\code{\link{boredom}},
+\code{\link{bossemps}},
+\code{\link{cowrkers}},
+\code{\link{danger}},
+\code{\link{findwork}},
+\code{\link{jobsat}},
+\code{\link{stress}},
+\code{\link{unhlthy}},
+\code{\link{unpleznt}}
+
+Other Job: 
+\code{\link{boredom}},
+\code{\link{bossemps}},
+\code{\link{cowrkers}},
+\code{\link{danger}},
+\code{\link{jobsat}},
+\code{\link{stress}},
+\code{\link{unhlthy}},
+\code{\link{unpleznt}}
+}
+\concept{Job}
+\concept{Work Orientation}
 \keyword{variable}

@@ -10,7 +10,8 @@ General Social Survey https://gss.norc.org
 hivtest1
 }
 \details{
-Question 1562a. Not including blood donations, in what month and year was your last HIV test?
+Question Have you ever been tested for HIV? Do not count tests you may have had as part of a blood donation. Include oral test (where they take a swab from your mouth). A. Not including blood donations, in what month and year was your last HIV test?
+As of 2024, HIVTEST1 accounts for only the year in which the respondent tested for HIV and the variable has been slightly adjusted to help protect confidentiality. Please see the 2024 codebook for more information. The original HIVTEST1 containing data from 2006 to 2022 has been renamed HIVTEST1_0622.
 }
 \section{Values}{
 
@@ -688,4 +689,39 @@ Question 1562a. Not including blood donations, in what month and year was your l
 }
 }
 
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab A/B/C \tab full \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab B/C/- \tab partial \cr
+   2018 \tab B/C/- \tab partial \cr
+   2021 \tab B/C/- \tab partial \cr
+   2022 \tab B/C/- \tab partial \cr
+   2024 \tab B/C/- \tab partial \cr
+}
+}
+
+\seealso{
+Other High Risk Behaviors: 
+\code{\link{aidslook}},
+\code{\link{condom}},
+\code{\link{crack30}},
+\code{\link{evcrack}},
+\code{\link{evidu}},
+\code{\link{hivtest}},
+\code{\link{hivtest2}},
+\code{\link{idu30}},
+\code{\link{relatsex}}
+
+Other Health: 
+\code{\link{aidslook}},
+\code{\link{hivtest}},
+\code{\link{hivtest2}}
+}
+\concept{Health}
+\concept{High Risk Behaviors}
 \keyword{variable}

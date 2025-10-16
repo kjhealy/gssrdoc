@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 threkids
 }
 \details{
-Question 1282. In general, what do you feel about each of these family sizes? d. A family with three kids
+Question In general, what do you feel about each of these family sizes?
+D. A family with three kids
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very desirable
+\item \code{2} desirable
+\item \code{3} neither
+\item \code{4} undesirable
+\item \code{5} very undesirable
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4378/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab can't choose \tab desirable \tab neither \tab no answer \tab undesirable \tab very desirable \tab very undesirable \tab not available in this year \tab Total \cr
@@ -57,27 +81,31 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very desirable
-\item \code{2} desirable
-\item \code{3} neither
-\item \code{4} undesirable
-\item \code{5} very undesirable
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1988 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Family & Gender Roles: 
+\code{\link{fourkids}},
+\code{\link{kidtrble}},
+\code{\link{mardiv}},
+\code{\link{nokids}},
+\code{\link{numkids}},
+\code{\link{onekid}},
+\code{\link{twokids}}
+
+Other Children: 
+\code{\link{fourkids}},
+\code{\link{kidtrble}},
+\code{\link{nokids}},
+\code{\link{numkids}},
+\code{\link{onekid}},
+\code{\link{twokids}}
+}
+\concept{Children}
+\concept{ISSP Family & Gender Roles}
 \keyword{variable}

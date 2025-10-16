@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 whychng3
 }
 \details{
-Question 1000. Open-ended questions for how people who had undergone spiritual or religious change described their experiences.
+Question Open-ended questions for how people who had undergone spiritual or religious change described their experiences.
+C. Third Mention
 }
+\section{Values}{
+
+\itemize{
+\item \code{96} no mention
+\item \code{97} nothing special happened
+\item \code{99} no asnwer
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3073/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllll}{
    year \tab iap \tab 25 \tab 28 \tab 29 \tab 30 \tab 31 \tab 35 \tab 38 \tab 39 \tab 43 \tab 44 \tab 45 \tab 5 \tab 68 \tab 70 \tab 74 \tab 95 \tab no answer \tab no mention \tab nothing special happened \tab not available in this year \tab Total \cr
@@ -57,25 +79,36 @@ Counts by year:\tabular{lllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{96} no mention
-\item \code{97} nothing special happened
-\item \code{99} no asnwer
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Spirituality and Religion: 
+\code{\link{agerborn}},
+\code{\link{chngrbrn}},
+\code{\link{entity}},
+\code{\link{expchng1}},
+\code{\link{expchng2}},
+\code{\link{expchng3}},
+\code{\link{numrborn}},
+\code{\link{whychng1}},
+\code{\link{whychng2}}
+
+Other Religion: 
+\code{\link{agerborn}},
+\code{\link{chngrbrn}},
+\code{\link{entity}},
+\code{\link{expchng1}},
+\code{\link{expchng2}},
+\code{\link{expchng3}},
+\code{\link{numrborn}},
+\code{\link{whychng1}},
+\code{\link{whychng2}}
+}
+\concept{Religion}
+\concept{Spirituality and Religion}
 \keyword{variable}

@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 rprtst3
 }
 \details{
-Question Would you or would you not do any of the following to protest against a government action you strongly opposed? b. Go on a protest march or demonstration
+Question Would you or would you not do any of the following to protest against a government action you strongly opposed? please CHECK ONE BOX ON EACH LINE.
+B. Go on a protest march or demonstration
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} definietly would
+\item \code{2} probably would
+\item \code{3} probably would not
+\item \code{4} definitely would not
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4091/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab definietly would \tab definitely would not \tab don't know \tab no answer \tab probably would \tab probably would not \tab not available in this year \tab Total \cr
@@ -57,26 +80,34 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} definietly would
-\item \code{2} probably would
-\item \code{3} probably would not
-\item \code{4} definitely would not
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Role of Gov't: 
+\code{\link{gendereq}},
+\code{\link{grnlaws}},
+\code{\link{polint}},
+\code{\link{prvdhlth}},
+\code{\link{prvdold}},
+\code{\link{rprtst1}},
+\code{\link{rprtst15}},
+\code{\link{rprtst35}},
+\code{\link{unionsok}}
+
+Other Demonstrations: 
+\code{\link{rprtst35}}
+
+Other Protest: 
+\code{\link{rprtst1}},
+\code{\link{rprtst15}},
+\code{\link{rprtst35}}
+}
+\concept{Demonstrations}
+\concept{ISSP Role of Gov't}
+\concept{Protest}
 \keyword{variable}

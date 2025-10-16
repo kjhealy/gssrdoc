@@ -1,11 +1,119 @@
+#'  Who you would have voted for
+#' 
+#'  if08who
+#' 
+#' Question K. In 2008, you remember that Obama ran for President on the Democratic ticket against McCain for the Republicans. Do you remember for sure whether or not you voted in that election?
+#' 2. IF DID NOT VOTE OR INELIGIBLE: 
+#' Who would you have voted for, for President, if you had voted?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` obama
+#'   * `2` mccain
+#'   * `3` other
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/174/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |mccain |no answer |obama |other |not available in this year |Total |
+#'  |:-----|:-----|:----------|:------|:---------|:-----|:-----|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-      |-         |-     |-     |-                          |1613  |
+#'  |1973  |1504  |-          |-      |-         |-     |-     |-                          |1504  |
+#'  |1974  |1484  |-          |-      |-         |-     |-     |-                          |1484  |
+#'  |1975  |1490  |-          |-      |-         |-     |-     |-                          |1490  |
+#'  |1976  |1499  |-          |-      |-         |-     |-     |-                          |1499  |
+#'  |1977  |1530  |-          |-      |-         |-     |-     |-                          |1530  |
+#'  |1978  |1532  |-          |-      |-         |-     |-     |-                          |1532  |
+#'  |1980  |1468  |-          |-      |-         |-     |-     |-                          |1468  |
+#'  |1982  |1860  |-          |-      |-         |-     |-     |-                          |1860  |
+#'  |1983  |1599  |-          |-      |-         |-     |-     |-                          |1599  |
+#'  |1984  |1473  |-          |-      |-         |-     |-     |-                          |1473  |
+#'  |1985  |1534  |-          |-      |-         |-     |-     |-                          |1534  |
+#'  |1986  |1470  |-          |-      |-         |-     |-     |-                          |1470  |
+#'  |1987  |1819  |-          |-      |-         |-     |-     |-                          |1819  |
+#'  |1988  |1481  |-          |-      |-         |-     |-     |-                          |1481  |
+#'  |1989  |1537  |-          |-      |-         |-     |-     |-                          |1537  |
+#'  |1990  |1372  |-          |-      |-         |-     |-     |-                          |1372  |
+#'  |1991  |1517  |-          |-      |-         |-     |-     |-                          |1517  |
+#'  |1993  |1606  |-          |-      |-         |-     |-     |-                          |1606  |
+#'  |1994  |2992  |-          |-      |-         |-     |-     |-                          |2992  |
+#'  |1996  |2904  |-          |-      |-         |-     |-     |-                          |2904  |
+#'  |1998  |2832  |-          |-      |-         |-     |-     |-                          |2832  |
+#'  |2000  |2817  |-          |-      |-         |-     |-     |-                          |2817  |
+#'  |2002  |2765  |-          |-      |-         |-     |-     |-                          |2765  |
+#'  |2004  |2812  |-          |-      |-         |-     |-     |-                          |2812  |
+#'  |2006  |4510  |-          |-      |-         |-     |-     |-                          |4510  |
+#'  |2008  |2023  |-          |-      |-         |-     |-     |-                          |2023  |
+#'  |2010  |1393  |45         |113    |22        |353   |118   |-                          |2044  |
+#'  |2012  |1316  |51         |146    |23        |354   |84    |-                          |1974  |
+#'  |2014  |1675  |62         |200    |40        |402   |159   |-                          |2538  |
+#'  |2016  |2867  |-          |-      |-         |-     |-     |-                          |2867  |
+#'  |2018  |2348  |-          |-      |-         |-     |-     |-                          |2348  |
+#'  |2021  |4032  |-          |-      |-         |-     |-     |-                          |4032  |
+#'  |2022  |-     |-          |-      |-         |-     |-     |3544                       |3544  |
+#'  |2024  |-     |-          |-      |-         |-     |-     |3309                       |3309  |
+#'  |Total |66674 |158        |459    |85        |1109  |361   |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Political
+#' 
+#' @keywords variable
+#' @md
+#' @name if08who
+NULL
+
+
 #'  Did r vote in 2012 election
 #' 
 #'  vote12
 #' 
-#' Question Do you remember for sure whether or not you voted in that election?
+#' Question L. In 2012, you remember that Obama ran for President on the Democratic ticket against Romney for the Republicans. Do you remember for sure whether or not you voted in that election?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` voted
+#'   * `2` did not vote
+#'   * `3` ineligible
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/175/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,11 +156,38 @@
 #'  |2024  |-     |-            |-          |-          |-         |-     |3309                       |3309  |
 #'  |Total |61093 |2087         |104        |588        |25        |4949  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Political
+#' 
+#' @keywords variable
+#' @md
+#' @name vote12
+NULL
+
+
+#'  Vote obama or romney
+#' 
+#'  pres12
+#' 
+#' Question L. In 2012, you remember that Obama ran for President on the Democratic ticket against Romney for the Republicans. Do you remember for sure whether or not you voted in that election?
+#' 1. Did you vote for Obama or Romney?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` voted
-#'   * `2` did not vote
-#'   * `3` ineligible
+#'   * `1` obama
+#'   * `2` romney
+#'   * `3` other candidate (specify)
+#'   * `4` didn't vote for president
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -66,22 +201,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name vote12
-NULL
-
-#'  Vote obama or romney
-#' 
-#'  pres12
-#' 
-#' Question Did you vote for Obama or Romney?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/176/vshow).
 #'
 #' Counts by year: 
 #'
@@ -124,12 +245,37 @@ NULL
 #'  |2024  |-     |-                         |-          |-         |-     |-                         |-      |3309                       |3309  |
 #'  |Total |63871 |37                        |54         |166       |2934  |107                       |1677   |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Political
+#' 
+#' @keywords variable
+#' @md
+#' @name pres12
+NULL
+
+
+#'  Who would r have voted for in 2012 election
+#' 
+#'  if12who
+#' 
+#' Question L. In 2012, you remember that Obama ran for President on the Democratic ticket against Romney for the Republicans. Do you remember for sure whether or not you voted in that election?
+#' 2. Who would you have voted for, for president, if you had voted?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` obama
 #'   * `2` romney
-#'   * `3` other candidate (specify)
-#'   * `4` didn't vote for president
+#'   * `3` other
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -143,22 +289,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name pres12
-NULL
-
-#'  Who would r have voted for in 2012 election
-#' 
-#'  if12who
-#' 
-#' Question Who would you have voted for, for president, if you had voted?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/177/vshow).
 #'
 #' Counts by year: 
 #'
@@ -201,11 +333,37 @@ NULL
 #'  |2024  |-     |-          |-         |-     |-     |-      |3309                       |3309  |
 #'  |Total |66031 |235        |155       |1404  |466   |555    |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Political
+#' 
+#' @keywords variable
+#' @md
+#' @name if12who
+NULL
+
+
+#'  Remember if voted in 2016 election
+#' 
+#'  vote16
+#' 
+#' Question In 2016, you remember that Clinton ran for President on the Democratic ticket against Trump for the Republicans.
+#' Do you remember for sure whether or not you voted in that election?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` obama
-#'   * `2` romney
-#'   * `3` other
+#'   * `1` voted
+#'   * `2` did not vote
+#'   * `3` ineligible
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -219,22 +377,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name if12who
-NULL
-
-#'  Remember if voted in 2016 election
-#' 
-#'  vote16
-#' 
-#' Question In 2016, you remember that Clinton ran for President on the Democratic ticket against Trump for the Republicans. Do you remember for sure whether or not you voted in that election?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7089/vshow).
 #'
 #' Counts by year: 
 #'
@@ -277,11 +421,38 @@ NULL
 #'  |2024  |-     |621          |185        |373        |24        |2001  |105            |3309  |
 #'  |Total |62466 |2581         |432        |1082       |394       |8629  |115            |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name vote16
+NULL
+
+
+#'  Vote clinton or trump
+#' 
+#'  pres16
+#' 
+#' Question Did you vote for Clinton or Trump?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` voted
-#'   * `2` did not vote
-#'   * `3` ineligible
+#'   * `1` clinton
+#'   * `2` trump
+#'   * `3` other candidate
+#'   * `4` didn't vote for president
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -295,22 +466,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name vote16
-NULL
-
-#'  Vote clinton or trump
-#' 
-#'  pres16
-#' 
-#' Question AL. Did you vote for Clinton or Trump
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7090/vshow).
 #'
 #' Counts by year: 
 #'
@@ -353,12 +510,38 @@ NULL
 #'  |2024  |-                          |972     |12                        |72         |1191 |43        |99              |815   |105            |3309  |
 #'  |Total |62466                      |4362    |102                       |247        |4115 |490       |499             |3259  |159            |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name pres16
+NULL
+
+
+#'  Who you would have voted for
+#' 
+#'  if16who
+#' 
+#' Question Who would you have voted for, for president, if you had voted?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` clinton
 #'   * `2` trump
-#'   * `3` other candidate
-#'   * `4` didn't vote for president
+#'   * `3` other
+#'   * `4` don't know/can't remember
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -372,22 +555,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name pres16
-NULL
-
-#'  Who you would have voted for
-#' 
-#'  if16who
-#' 
-#' Question AM. Who would you have voted for, for president, if you had voted?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7091/vshow).
 #'
 #' Counts by year: 
 #'
@@ -430,12 +599,42 @@ NULL
 #'  |2024  |2001  |273     |21         |119       |147   |333   |241            |174                       |3309  |
 #'  |Total |71015 |1296    |185        |812       |749   |1070  |255            |317                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name if16who
+NULL
+
+
+#'  Think of self as liberal or conservative
+#' 
+#'  polviews
+#' 
+#' Question A. We hear a lot of talk these days about liberals and conservatives. 
+#' I'm going to show you a seven-point scale on which the political views that people might hold are arranged from extremely liberal--point 1--to extremely conservative--point 7. Where would you place yourself on this scale?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` clinton
-#'   * `2` trump
-#'   * `3` other
-#'   * `4` don't know/can't remember
+#'   * `1` extremely liberal
+#'   * `2` liberal
+#'   * `3` slightly liberal
+#'   * `4` moderate, middle of the road
+#'   * `5` slightly conservative
+#'   * `6` conservative
+#'   * `7` extremely conservative
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -449,22 +648,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name if16who
-NULL
-
-#'  Think of self as liberal or conservative
-#' 
-#'  polviews
-#' 
-#' Question 67a. We hear a lot of talk these days about liberals and conservatives. I'm going to show you a seven-point scale on which the political views that people might hold are arranged from extremely liberal - point 1 - to extremely conservative - point 7. Where would you place yourself on this scale?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/178/vshow).
 #'
 #' Counts by year: 
 #'
@@ -507,15 +692,73 @@ NULL
 #'  |2024  |-    |516          |99         |186                    |140               |421     |1148                         |20        |381                   |368              |30             |3309  |
 #'  |Total |6793 |9877         |2508       |2351                   |2221              |8044    |25140                        |433       |9977                  |8268             |87             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Political
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name polviews
+NULL
+
+
+#'  Liberal or conservative-version y
+#' 
+#'  polviewy
+#' 
+#' Question B. We hear a lot of talk these days about liberals and conservatives. 
+#' I'm going to show you a seven-point scale on which the political views that people might hold are arranged from extremely liberal--point 1--to extremely conservative--point 7. Where would you place yourself on this scale, or haven't you thought much about this?
+#' 
+#' 
 #' @section Values: 
 #' 
+#'   * `0` havent thght abt it
 #'   * `1` extremely liberal
 #'   * `2` liberal
 #'   * `3` slightly liberal
-#'   * `4` moderate, middle of the road
-#'   * `5` slightly conservative
+#'   * `4` moderate
+#'   * `5` slghtly conservative
 #'   * `6` conservative
-#'   * `7` extremely conservative
+#'   * `7` extrmly conservative
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -529,22 +772,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name polviews
-NULL
-
-#'  Liberal or conservative-version y
-#' 
-#'  polviewy
-#' 
-#' Question 67b. We hear a lot of talk these days about liberals and conservatives. I'm going to show you a seven-point scale on which the political views that people might hold are arranged from extremely liberal - point 1 - to extremely conservative - point 7. Where would you place yourself on this scale, or haven't you thought much about this?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/179/vshow).
 #'
 #' Counts by year: 
 #'
@@ -587,16 +816,35 @@ NULL
 #'  |2024  |-     |-            |-          |-                 |-                    |-                   |-       |-        |-         |-                    |-                |3309                       |3309  |
 #'  |Total |68075 |74           |17         |12                |11                   |124                 |66      |239      |3         |116                  |109              |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1978 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Political
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name polviewy
+NULL
+
+
+#'  Liberal or conservative-version x
+#' 
+#'  polviewx
+#' 
+#' Question C. In political matters, people talk of "the left" and "the right."  How would you place your views on this scale?  
+#' (SHOW CARD S. Do NOT PROMPT. IF RESPONDENT HESITATES, ASK R TO TRY AGAIN. MARK ANSWER BELOW.)
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` havent thght abt it
-#'   * `1` extremely liberal
-#'   * `2` liberal
-#'   * `3` slightly liberal
-#'   * `4` moderate
-#'   * `5` slghtly conservative
-#'   * `6` conservative
-#'   * `7` extrmly conservative
+#'   * `1` left
+#'   * `10` right
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -610,22 +858,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name polviewy
-NULL
-
-#'  Liberal or conservative-version x
-#' 
-#'  polviewx
-#' 
-#' Question 67c. In political matters, people talk of "the left" and "the right." How would you place your views on this scale?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/180/vshow).
 #'
 #' Counts by year: 
 #'
@@ -668,104 +902,20 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-   |-   |-  |-  |-  |-          |-    |-         |-     |3309                       |3309  |
 #'  |Total |68051 |17 |46 |77 |311 |102 |82 |46 |14 |55         |16   |10        |19    |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` left
-#'   * `10` right
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Political
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
 #' @name polviewx
 NULL
 
-#'  Space exploration program
-#' 
-#'  natspac
-#' 
-#' Question 68. We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. a. Space exploration program.
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |about right |don't know |no answer |too little |too much |skipped on web |Total |
-#'  |:-----|:-----|:-----------|:----------|:---------|:----------|:--------|:--------------|:-----|
-#'  |1972  |1613  |-           |-          |-         |-          |-        |-              |1613  |
-#'  |1973  |-     |441         |71         |1         |112        |879      |-              |1504  |
-#'  |1974  |-     |408         |53         |4         |114        |905      |-              |1484  |
-#'  |1975  |-     |449         |65         |-         |110        |866      |-              |1490  |
-#'  |1976  |-     |419         |37         |3         |137        |903      |-              |1499  |
-#'  |1977  |-     |527         |90         |-         |154        |759      |-              |1530  |
-#'  |1978  |-     |536         |96         |-         |177        |723      |-              |1532  |
-#'  |1980  |-     |506         |122        |2         |264        |574      |-              |1468  |
-#'  |1982  |-     |682         |121        |2         |201        |854      |-              |1860  |
-#'  |1983  |-     |647         |96         |1         |221        |634      |-              |1599  |
-#'  |1984  |983   |210         |27         |3         |58         |192      |-              |1473  |
-#'  |1985  |783   |331         |27         |3         |86         |304      |-              |1534  |
-#'  |1986  |740   |316         |30         |3         |82         |299      |-              |1470  |
-#'  |1987  |1216  |204         |38         |1         |87         |273      |-              |1819  |
-#'  |1988  |763   |300         |41         |4         |127        |246      |-              |1481  |
-#'  |1989  |769   |338         |49         |2         |113        |266      |-              |1537  |
-#'  |1990  |698   |294         |39         |3         |75         |263      |-              |1372  |
-#'  |1991  |761   |321         |56         |6         |88         |285      |-              |1517  |
-#'  |1993  |807   |295         |54         |3         |67         |380      |-              |1606  |
-#'  |1994  |1484  |562         |82         |1         |136        |727      |-              |2992  |
-#'  |1996  |1463  |577         |103        |2         |158        |601      |-              |2904  |
-#'  |1998  |1451  |605         |92         |2         |139        |543      |-              |2832  |
-#'  |2000  |1408  |529         |105        |2         |195        |578      |-              |2817  |
-#'  |2002  |1407  |640         |87         |2         |150        |479      |-              |2765  |
-#'  |2004  |1411  |598         |75         |1         |186        |541      |-              |2812  |
-#'  |2006  |3026  |651         |74         |3         |211        |545      |-              |4510  |
-#'  |2008  |1019  |459         |67         |3         |121        |354      |-              |2023  |
-#'  |2010  |1030  |411         |72         |1         |169        |361      |-              |2044  |
-#'  |2012  |976   |399         |94         |5         |203        |297      |-              |1974  |
-#'  |2014  |1264  |518         |121        |3         |298        |334      |-              |2538  |
-#'  |2016  |1430  |661         |144        |3         |281        |348      |-              |2867  |
-#'  |2018  |1160  |528         |158        |1         |230        |271      |-              |2348  |
-#'  |2021  |2045  |1043        |11         |-         |488        |438      |7              |4032  |
-#'  |2022  |1764  |831         |90         |2         |358        |496      |3              |3544  |
-#'  |2024  |1626  |803         |94         |1         |309        |468      |8              |3309  |
-#'  |Total |33097 |17039       |2581       |73        |5905       |16986    |18             |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` too little
-#'   * `2` about right
-#'   * `3` too much
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name natspac
-NULL
 

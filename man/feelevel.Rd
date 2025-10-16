@@ -10,11 +10,30 @@ General Social Survey https://gss.norc.org
 feelevel
 }
 \details{
-Question None
+Question Amount of Fees Paid
 }
+\section{Values}{
+
+\itemize{
+\item \code{75} $75+
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5561/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllllll}{
    year \tab iap \tab $75+ \tab 10 \tab 12 \tab 15 \tab 20 \tab 25 \tab 30 \tab 40 \tab 50 \tab don't know \tab no answer \tab 29 \tab 35 \tab 60 \tab 1 \tab 70 \tab 59 \tab 45 \tab 2 \tab 3 \tab 5 \tab 55 \tab not available in this year \tab 62 \tab not available in this release \tab Total \cr
@@ -57,23 +76,41 @@ Counts by year:\tabular{llllllllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{75} $75+
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C/- \tab full \cr
+   2006 \tab A/B/C/D \tab full \cr
+   2008 \tab A/B/C/- \tab full \cr
+   2010 \tab A/B/C/- \tab full \cr
+   2012 \tab A/B/C/- \tab full \cr
+   2014 \tab A/B/C/- \tab full \cr
+   2016 \tab A/B/C/- \tab full \cr
+   2018 \tab A/B/C/- \tab full \cr
+   2021 \tab A/B/C/- \tab full \cr
+   2022 \tab A/B/C/- \tab full \cr
 }
 }
 
+\seealso{
+Other Paradata: 
+\code{\link{feeused}},
+\code{\link{intid}},
+\code{\link{saqgene}},
+\code{\link{saqissp}},
+\code{\link{saqsex}},
+\code{\link{whoelse3}},
+\code{\link{whoelse4}},
+\code{\link{whoelse5}},
+\code{\link{whoelse6}}
+
+Other Interview: 
+\code{\link{feeused}},
+\code{\link{intid}},
+\code{\link{saqgene}},
+\code{\link{saqissp}},
+\code{\link{saqsex}}
+}
+\concept{Interview}
+\concept{Paradata}
 \keyword{variable}

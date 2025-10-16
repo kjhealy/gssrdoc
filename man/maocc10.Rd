@@ -10,7 +10,13 @@ General Social Survey https://gss.norc.org
 maocc10
 }
 \details{
-Question None
+Question A. What kind of work did your (mother/MOTHER SUBSTITUTE) usually do while you were growing up?  That is, what was her job called?
+OCCUPATION: (See REMARKS)
+B. IF NOT ALREADY ANSWERED, ASK:  What did she actually do in that job? Tell me, what were some of her main duties?
+C. What kind of place did she work for?
+INDUSTRY: (See REMARKS)
+D. IF NOT ALREADY ANSWERED, ASK:  What did they (make/do)?
+E. IF ALREADY ANSWERED, CODE WITHOUT ASKING:  Was she self-employed, or did she work for someone else?
 }
 \section{Values}{
 
@@ -570,4 +576,46 @@ Question None
 }
 }
 
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
+   1996 \tab A/B/C \tab full \cr
+   1998 \tab A/B/C \tab full \cr
+   2000 \tab A/B/C \tab full \cr
+   2002 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2021 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
+   2024 \tab A/B/C \tab full \cr
+}
+}
+
+\seealso{
+Other Core: 
+\code{\link{maind80}},
+\code{\link{maocc80}},
+\code{\link{mapres80}},
+\code{\link{mawrkslf}},
+\code{\link{paind10}},
+\code{\link{paindstatus}},
+\code{\link{paindtag}},
+\code{\link{papres10}},
+\code{\link{papres105plus}}
+
+Other Occupation: 
+\code{\link{maind80}},
+\code{\link{maocc80}},
+\code{\link{mawrkslf}},
+\code{\link{paind10}}
+}
+\concept{Core}
+\concept{Occupation}
 \keyword{variable}

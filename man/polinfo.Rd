@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 polinfo
 }
 \details{
-Question 794. In the past two years, that is, between (INSERT CURRENT MONTH) 1998 and (INSERT CURRENT MONTH) 2000~ have you looked for information about the views or background of a candidate for political office?
+Question In the past two years, that is, between (INSERT CURRENT MONTH) 1998 and (INSERT CURRENT MONTH) 2000â€“have you looked for information about the views or background of a candidate for political office?
 }
+\section{Values}{
+
+\itemize{
+\item \code{0} not at all
+\item \code{1} 1 or 2 times
+\item \code{2} 3 or more times
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2524/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab 1 or 2 times \tab 3 or more times \tab no answer \tab not at all \tab not available in this year \tab Total \cr
@@ -57,25 +78,31 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{0} not at all
-\item \code{1} 1 or 2 times
-\item \code{2} 3 or more times
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B \tab partial \cr
 }
 }
 
+\seealso{
+Other Information Society: 
+\code{\link{hlthdoc}},
+\code{\link{hlthfrel}},
+\code{\link{hlthmag2}},
+\code{\link{hlthtv}},
+\code{\link{hlthwww}},
+\code{\link{polmag1}},
+\code{\link{polmag2}},
+\code{\link{polpapr}},
+\code{\link{poltv}}
+
+Other Political: 
+\code{\link{polmag1}},
+\code{\link{polmag2}},
+\code{\link{polpapr}},
+\code{\link{poltv}}
+}
+\concept{Information Society}
+\concept{Political}
 \keyword{variable}

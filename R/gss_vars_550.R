@@ -1,11 +1,214 @@
+#'  Age of suicide victim closest to r
+#' 
+#'  suiage
+#' 
+#' Question We would like to know a few other things about that person. 
+#' B. How old was that person?  Was (he/she)â€¦
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` 10 years or under
+#'   * `2` 11-20
+#'   * `3` 21-40
+#'   * `4` 41 year or older
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5028/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |11-20 |21-40 |41 year or older |no answer |not available in this year |Total |
+#'  |:-----|:-----|:-----|:-----|:----------------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-     |-     |-                |-         |-                          |1613  |
+#'  |1973  |1504  |-     |-     |-                |-         |-                          |1504  |
+#'  |1974  |1484  |-     |-     |-                |-         |-                          |1484  |
+#'  |1975  |1490  |-     |-     |-                |-         |-                          |1490  |
+#'  |1976  |1499  |-     |-     |-                |-         |-                          |1499  |
+#'  |1977  |1530  |-     |-     |-                |-         |-                          |1530  |
+#'  |1978  |1532  |-     |-     |-                |-         |-                          |1532  |
+#'  |1980  |1468  |-     |-     |-                |-         |-                          |1468  |
+#'  |1982  |1860  |-     |-     |-                |-         |-                          |1860  |
+#'  |1983  |1599  |-     |-     |-                |-         |-                          |1599  |
+#'  |1984  |1473  |-     |-     |-                |-         |-                          |1473  |
+#'  |1985  |1534  |-     |-     |-                |-         |-                          |1534  |
+#'  |1986  |1470  |-     |-     |-                |-         |-                          |1470  |
+#'  |1987  |1819  |-     |-     |-                |-         |-                          |1819  |
+#'  |1988  |1481  |-     |-     |-                |-         |-                          |1481  |
+#'  |1989  |1537  |-     |-     |-                |-         |-                          |1537  |
+#'  |1990  |1238  |24    |63    |45               |2         |-                          |1372  |
+#'  |1991  |1344  |28    |81    |61               |3         |-                          |1517  |
+#'  |1993  |1606  |-     |-     |-                |-         |-                          |1606  |
+#'  |1994  |2992  |-     |-     |-                |-         |-                          |2992  |
+#'  |1996  |2904  |-     |-     |-                |-         |-                          |2904  |
+#'  |1998  |2832  |-     |-     |-                |-         |-                          |2832  |
+#'  |2000  |2817  |-     |-     |-                |-         |-                          |2817  |
+#'  |2002  |2765  |-     |-     |-                |-         |-                          |2765  |
+#'  |2004  |2812  |-     |-     |-                |-         |-                          |2812  |
+#'  |2006  |4510  |-     |-     |-                |-         |-                          |4510  |
+#'  |2008  |2023  |-     |-     |-                |-         |-                          |2023  |
+#'  |2010  |2044  |-     |-     |-                |-         |-                          |2044  |
+#'  |2012  |1974  |-     |-     |-                |-         |-                          |1974  |
+#'  |2014  |2538  |-     |-     |-                |-         |-                          |2538  |
+#'  |2016  |2867  |-     |-     |-                |-         |-                          |2867  |
+#'  |2018  |2348  |-     |-     |-                |-         |-                          |2348  |
+#'  |2021  |4032  |-     |-     |-                |-         |-                          |4032  |
+#'  |2022  |-     |-     |-     |-                |-         |3544                       |3544  |
+#'  |2024  |-     |-     |-     |-                |-         |3309                       |3309  |
+#'  |Total |68539 |52    |144   |106              |5         |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Victims & AIDS
+#' @family Suicide
+#' 
+#' @keywords variable
+#' @md
+#' @name suiage
+NULL
+
+
+#'  Race of suicide victim closest to r
+#' 
+#'  suirace
+#' 
+#' Question We would like to know a few other things about that person. 
+#' C. What was that person''s race?  Was it black, white, hispanic, or other?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` black
+#'   * `2` white
+#'   * `3` hispanic
+#'   * `4` other
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5029/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |black |hispanic |no answer |other |white |not available in this year |Total |
+#'  |:-----|:-----|:-----|:--------|:---------|:-----|:-----|:--------------------------|:-----|
+#'  |1972  |1613  |-     |-        |-         |-     |-     |-                          |1613  |
+#'  |1973  |1504  |-     |-        |-         |-     |-     |-                          |1504  |
+#'  |1974  |1484  |-     |-        |-         |-     |-     |-                          |1484  |
+#'  |1975  |1490  |-     |-        |-         |-     |-     |-                          |1490  |
+#'  |1976  |1499  |-     |-        |-         |-     |-     |-                          |1499  |
+#'  |1977  |1530  |-     |-        |-         |-     |-     |-                          |1530  |
+#'  |1978  |1532  |-     |-        |-         |-     |-     |-                          |1532  |
+#'  |1980  |1468  |-     |-        |-         |-     |-     |-                          |1468  |
+#'  |1982  |1860  |-     |-        |-         |-     |-     |-                          |1860  |
+#'  |1983  |1599  |-     |-        |-         |-     |-     |-                          |1599  |
+#'  |1984  |1473  |-     |-        |-         |-     |-     |-                          |1473  |
+#'  |1985  |1534  |-     |-        |-         |-     |-     |-                          |1534  |
+#'  |1986  |1470  |-     |-        |-         |-     |-     |-                          |1470  |
+#'  |1987  |1819  |-     |-        |-         |-     |-     |-                          |1819  |
+#'  |1988  |1481  |-     |-        |-         |-     |-     |-                          |1481  |
+#'  |1989  |1537  |-     |-        |-         |-     |-     |-                          |1537  |
+#'  |1990  |1238  |17    |8        |2         |2     |105   |-                          |1372  |
+#'  |1991  |1344  |14    |8        |3         |3     |145   |-                          |1517  |
+#'  |1993  |1606  |-     |-        |-         |-     |-     |-                          |1606  |
+#'  |1994  |2992  |-     |-        |-         |-     |-     |-                          |2992  |
+#'  |1996  |2904  |-     |-        |-         |-     |-     |-                          |2904  |
+#'  |1998  |2832  |-     |-        |-         |-     |-     |-                          |2832  |
+#'  |2000  |2817  |-     |-        |-         |-     |-     |-                          |2817  |
+#'  |2002  |2765  |-     |-        |-         |-     |-     |-                          |2765  |
+#'  |2004  |2812  |-     |-        |-         |-     |-     |-                          |2812  |
+#'  |2006  |4510  |-     |-        |-         |-     |-     |-                          |4510  |
+#'  |2008  |2023  |-     |-        |-         |-     |-     |-                          |2023  |
+#'  |2010  |2044  |-     |-        |-         |-     |-     |-                          |2044  |
+#'  |2012  |1974  |-     |-        |-         |-     |-     |-                          |1974  |
+#'  |2014  |2538  |-     |-        |-         |-     |-     |-                          |2538  |
+#'  |2016  |2867  |-     |-        |-         |-     |-     |-                          |2867  |
+#'  |2018  |2348  |-     |-        |-         |-     |-     |-                          |2348  |
+#'  |2021  |4032  |-     |-        |-         |-     |-     |-                          |4032  |
+#'  |2022  |-     |-     |-        |-         |-     |-     |3544                       |3544  |
+#'  |2024  |-     |-     |-        |-         |-     |-     |3309                       |3309  |
+#'  |Total |68539 |31    |16       |5         |5     |250   |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Victims & AIDS
+#' @family Suicide
+#' 
+#' @keywords variable
+#' @md
+#' @name suirace
+NULL
+
+
 #'  Region of suicide victim closest to r
 #' 
 #'  suireg
 #' 
-#' Question 1534. We would like to know a few other things about that person. d. What state did this person live in?
+#' Question We would like to know a few other things about that person. 
+#' D. What state did this person live in?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` foreign
+#'   * `1` new england
+#'   * `2` middle atlantic
+#'   * `3` e. nor. central
+#'   * `4` w. nor. central
+#'   * `5` south atlantic
+#'   * `6` e. sou. central
+#'   * `7` w. sou. central
+#'   * `8` mountain
+#'   * `9` pacific
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5030/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,18 +251,42 @@
 #'  |2024  |-     |-               |-               |-       |-               |-        |-           |-         |-       |-              |-               |-               |3309                       |3309  |
 #'  |Total |68539 |54              |29              |5       |37              |22       |15          |6         |47      |42             |25              |25              |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Victims & AIDS
+#' @family Suicide
+#' 
+#' @keywords variable
+#' @md
+#' @name suireg
+NULL
+
+
+#'  R's relationship to 2nd closest suicide
+#' 
+#'  suiwho2
+#' 
+#' Question Think about the person you have known next best, who has committed suicide. Please tell me the letter of the category on the card which best describes your relationship to that person.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` foreign
-#'   * `1` new england
-#'   * `2` middle atlantic
-#'   * `3` e. nor. central
-#'   * `4` w. nor. central
-#'   * `5` south atlantic
-#'   * `6` e. sou. central
-#'   * `7` w. sou. central
-#'   * `8` mountain
-#'   * `9` pacific
+#'   * `1` husband or wife
+#'   * `2` partner or lover
+#'   * `3` son or daughter
+#'   * `4` other relative
+#'   * `5` friend
+#'   * `6` neighbor
+#'   * `7` co-worker
+#'   * `8` acquaintance
+#'   * `9` patient
+#'   * `10` other
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -73,22 +300,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name suireg
-NULL
-
-#'  R's relationship to 2nd closest suicide
-#' 
-#'  suiwho2
-#' 
-#' Question 1535. Think about the person you have known next best, who has committed suicide. Please tell me the letter of the category on the card which best describes your relationship to that person.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5031/vshow).
 #'
 #' Counts by year: 
 #'
@@ -131,18 +344,35 @@ NULL
 #'  |2024  |-     |-            |-         |-      |-        |-         |-              |-       |3309                       |3309  |
 #'  |Total |68781 |23           |6         |22     |5        |5         |2              |2       |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Victims & AIDS
+#' @family Suicide
+#' 
+#' @keywords variable
+#' @md
+#' @name suiwho2
+NULL
+
+
+#'  Sex of suicide victim 2nd closest to r
+#' 
+#'  suisex2
+#' 
+#' Question We would like to know a few other things about that person. 
+#' A. Was that person male or female?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` husband or wife
-#'   * `2` partner or lover
-#'   * `3` son or daughter
-#'   * `4` other relative
-#'   * `5` friend
-#'   * `6` neighbor
-#'   * `7` co-worker
-#'   * `8` acquaintance
-#'   * `9` patient
-#'   * `10` other
+#'   * `1` male
+#'   * `2` female
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -156,22 +386,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name suiwho2
-NULL
-
-#'  Sex of suicide victim 2nd closest to r
-#' 
-#'  suisex2
-#' 
-#' Question 1536. We would like to know a few other things about that person. a. Was that person male or female?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5032/vshow).
 #'
 #' Counts by year: 
 #'
@@ -214,10 +430,37 @@ NULL
 #'  |2024  |-     |-          |-      |-    |-         |3309                       |3309  |
 #'  |Total |68781 |1          |17     |42   |5         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Victims & AIDS
+#' @family Suicide
+#' 
+#' @keywords variable
+#' @md
+#' @name suisex2
+NULL
+
+
+#'  Age of suicide victim 2nd closest to r
+#' 
+#'  suiage2
+#' 
+#' Question We would like to know a few other things about that person. 
+#' B. How old was that person?  Was (he/she)â€¦
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` male
-#'   * `2` female
+#'   * `1` 10 years or under
+#'   * `2` 11-20
+#'   * `3` 21-40
+#'   * `4` 41 year or older
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -231,22 +474,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name suisex2
-NULL
-
-#'  Age of suicide victim 2nd closest to r
-#' 
-#'  suiage2
-#' 
-#' Question 1536. We would like to know a few other things about that person. b. How old was that person?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5033/vshow).
 #'
 #' Counts by year: 
 #'
@@ -289,12 +518,37 @@ NULL
 #'  |2024  |-     |-     |-     |-                |-          |-         |3309                       |3309  |
 #'  |Total |68781 |13    |27    |19               |1          |5         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Victims & AIDS
+#' @family Suicide
+#' 
+#' @keywords variable
+#' @md
+#' @name suiage2
+NULL
+
+
+#'  Race of suicide victim 2nd closest to r
+#' 
+#'  suirac2
+#' 
+#' Question We would like to know a few other things about that person. 
+#' C. What was that person''s race?  Was it black, white, hispanic, or other?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` 10 years or under
-#'   * `2` 11-20
-#'   * `3` 21-40
-#'   * `4` 41 year or older
+#'   * `1` black
+#'   * `2` white
+#'   * `3` hispanic
+#'   * `4` other
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -308,22 +562,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name suiage2
-NULL
-
-#'  Race of suicide victim 2nd closest to r
-#' 
-#'  suirac2
-#' 
-#' Question 1536. We would like to know a few other things about that person. c. What was that person's race?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5034/vshow).
 #'
 #' Counts by year: 
 #'
@@ -366,12 +606,43 @@ NULL
 #'  |2024  |-     |-     |-          |-         |-     |-        |-     |3309                       |3309  |
 #'  |Total |68781 |6     |1          |5         |50    |2        |1     |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Victims & AIDS
+#' @family Suicide
+#' 
+#' @keywords variable
+#' @md
+#' @name suirac2
+NULL
+
+
+#'  Region of suicide victim 2nd closest to r
+#' 
+#'  suireg2
+#' 
+#' Question We would like to know a few other things about that person. 
+#' D. What state did this person live in?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` black
-#'   * `2` white
-#'   * `3` hispanic
-#'   * `4` other
+#'   * `0` foreign
+#'   * `1` new england
+#'   * `2` middle atlantic
+#'   * `3` e. nor. central
+#'   * `4` w. nor. central
+#'   * `5` south atlantic
+#'   * `6` e. sou. central
+#'   * `7` w. sou. central
+#'   * `8` mountain
+#'   * `9` pacific
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -385,22 +656,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name suirac2
-NULL
-
-#'  Region of suicide victim 2nd closest to r
-#' 
-#'  suireg2
-#' 
-#' Question 1536. We would like to know a few other things about that person. d. What state did this person live in?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5035/vshow).
 #'
 #' Counts by year: 
 #'
@@ -443,18 +700,42 @@ NULL
 #'  |2024  |-     |-               |-               |-        |-           |-         |-       |-              |-               |-               |-               |3309                       |3309  |
 #'  |Total |68781 |11              |6               |4        |4           |5         |10      |10             |7               |4               |4               |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Victims & AIDS
+#' @family Suicide
+#' 
+#' @keywords variable
+#' @md
+#' @name suireg2
+NULL
+
+
+#'  R's relationship to 3rd closest suicide
+#' 
+#'  suiwho3
+#' 
+#' Question Think about the person who you have known next best, who committed suicide. Please tell me the letter of the category on the card which best describes your relationship to that person.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` foreign
-#'   * `1` new england
-#'   * `2` middle atlantic
-#'   * `3` e. nor. central
-#'   * `4` w. nor. central
-#'   * `5` south atlantic
-#'   * `6` e. sou. central
-#'   * `7` w. sou. central
-#'   * `8` mountain
-#'   * `9` pacific
+#'   * `1` husband or wife
+#'   * `2` partner or lover
+#'   * `3` son or daughter
+#'   * `4` other relative
+#'   * `5` friend
+#'   * `6` neighbor
+#'   * `7` co-worker
+#'   * `8` acquaintance
+#'   * `9` patient
+#'   * `10` other
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -468,22 +749,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name suireg2
-NULL
-
-#'  R's relationship to 3rd closest suicide
-#' 
-#'  suiwho3
-#' 
-#' Question 1537. Think about the person who you have known next best, who committed suicide. Please tell me the letter of the category on the card which best describes your relationship to that person.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5036/vshow).
 #'
 #' Counts by year: 
 #'
@@ -526,18 +793,35 @@ NULL
 #'  |2024  |-     |-            |-      |-         |-              |-        |-       |3309                       |3309  |
 #'  |Total |68823 |5            |8      |5         |3              |1        |1       |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Victims & AIDS
+#' @family Suicide
+#' 
+#' @keywords variable
+#' @md
+#' @name suiwho3
+NULL
+
+
+#'  Sex of suicidevictim 3rd closest to r
+#' 
+#'  suisex3
+#' 
+#' Question We would like to know a few other things about that person. 
+#' A. Was that person male or female?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` husband or wife
-#'   * `2` partner or lover
-#'   * `3` son or daughter
-#'   * `4` other relative
-#'   * `5` friend
-#'   * `6` neighbor
-#'   * `7` co-worker
-#'   * `8` acquaintance
-#'   * `9` patient
-#'   * `10` other
+#'   * `1` male
+#'   * `2` female
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -551,22 +835,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name suiwho3
-NULL
-
-#'  Sex of suicidevictim 3rd closest to r
-#' 
-#'  suisex3
-#' 
-#' Question 1538. We would like to know a few other things about that person. a. Was that person male or female?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5037/vshow).
 #'
 #' Counts by year: 
 #'
@@ -609,182 +879,20 @@ NULL
 #'  |2024  |-     |-      |-    |-         |3309                       |3309  |
 #'  |Total |68823 |5      |13   |5         |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` male
-#'   * `2` female
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Victims & AIDS
+#' @family Suicide
 #' 
 #' @keywords variable
 #' @md
 #' @name suisex3
 NULL
 
-#'  Age of suicide victim 3rd closest to r
-#' 
-#'  suiage3
-#' 
-#' Question 1538. We would like to know a few other things about that person. b. How old was that person?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |11-20 |21-40 |41 year or older |no answer |not available in this year |Total |
-#'  |:-----|:-----|:-----|:-----|:----------------|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-     |-     |-                |-         |-                          |1613  |
-#'  |1973  |1504  |-     |-     |-                |-         |-                          |1504  |
-#'  |1974  |1484  |-     |-     |-                |-         |-                          |1484  |
-#'  |1975  |1490  |-     |-     |-                |-         |-                          |1490  |
-#'  |1976  |1499  |-     |-     |-                |-         |-                          |1499  |
-#'  |1977  |1530  |-     |-     |-                |-         |-                          |1530  |
-#'  |1978  |1532  |-     |-     |-                |-         |-                          |1532  |
-#'  |1980  |1468  |-     |-     |-                |-         |-                          |1468  |
-#'  |1982  |1860  |-     |-     |-                |-         |-                          |1860  |
-#'  |1983  |1599  |-     |-     |-                |-         |-                          |1599  |
-#'  |1984  |1473  |-     |-     |-                |-         |-                          |1473  |
-#'  |1985  |1534  |-     |-     |-                |-         |-                          |1534  |
-#'  |1986  |1470  |-     |-     |-                |-         |-                          |1470  |
-#'  |1987  |1819  |-     |-     |-                |-         |-                          |1819  |
-#'  |1988  |1481  |-     |-     |-                |-         |-                          |1481  |
-#'  |1989  |1537  |-     |-     |-                |-         |-                          |1537  |
-#'  |1990  |1364  |1     |4     |1                |2         |-                          |1372  |
-#'  |1991  |1502  |2     |3     |7                |3         |-                          |1517  |
-#'  |1993  |1606  |-     |-     |-                |-         |-                          |1606  |
-#'  |1994  |2992  |-     |-     |-                |-         |-                          |2992  |
-#'  |1996  |2904  |-     |-     |-                |-         |-                          |2904  |
-#'  |1998  |2832  |-     |-     |-                |-         |-                          |2832  |
-#'  |2000  |2817  |-     |-     |-                |-         |-                          |2817  |
-#'  |2002  |2765  |-     |-     |-                |-         |-                          |2765  |
-#'  |2004  |2812  |-     |-     |-                |-         |-                          |2812  |
-#'  |2006  |4510  |-     |-     |-                |-         |-                          |4510  |
-#'  |2008  |2023  |-     |-     |-                |-         |-                          |2023  |
-#'  |2010  |2044  |-     |-     |-                |-         |-                          |2044  |
-#'  |2012  |1974  |-     |-     |-                |-         |-                          |1974  |
-#'  |2014  |2538  |-     |-     |-                |-         |-                          |2538  |
-#'  |2016  |2867  |-     |-     |-                |-         |-                          |2867  |
-#'  |2018  |2348  |-     |-     |-                |-         |-                          |2348  |
-#'  |2021  |4032  |-     |-     |-                |-         |-                          |4032  |
-#'  |2022  |-     |-     |-     |-                |-         |3544                       |3544  |
-#'  |2024  |-     |-     |-     |-                |-         |3309                       |3309  |
-#'  |Total |68823 |3     |7     |8                |5         |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` 10 years or under
-#'   * `2` 11-20
-#'   * `3` 21-40
-#'   * `4` 41 year or older
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name suiage3
-NULL
-
-#'  Race of suicide victim 3rd closest to r
-#' 
-#'  suirac3
-#' 
-#' Question 1538. We would like to know a few other things about that person. c. What was that person's race?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |no answer |white |hispanic |not available in this year |Total |
-#'  |:-----|:-----|:---------|:-----|:--------|:--------------------------|:-----|
-#'  |1972  |1613  |-         |-     |-        |-                          |1613  |
-#'  |1973  |1504  |-         |-     |-        |-                          |1504  |
-#'  |1974  |1484  |-         |-     |-        |-                          |1484  |
-#'  |1975  |1490  |-         |-     |-        |-                          |1490  |
-#'  |1976  |1499  |-         |-     |-        |-                          |1499  |
-#'  |1977  |1530  |-         |-     |-        |-                          |1530  |
-#'  |1978  |1532  |-         |-     |-        |-                          |1532  |
-#'  |1980  |1468  |-         |-     |-        |-                          |1468  |
-#'  |1982  |1860  |-         |-     |-        |-                          |1860  |
-#'  |1983  |1599  |-         |-     |-        |-                          |1599  |
-#'  |1984  |1473  |-         |-     |-        |-                          |1473  |
-#'  |1985  |1534  |-         |-     |-        |-                          |1534  |
-#'  |1986  |1470  |-         |-     |-        |-                          |1470  |
-#'  |1987  |1819  |-         |-     |-        |-                          |1819  |
-#'  |1988  |1481  |-         |-     |-        |-                          |1481  |
-#'  |1989  |1537  |-         |-     |-        |-                          |1537  |
-#'  |1990  |1364  |2         |6     |-        |-                          |1372  |
-#'  |1991  |1502  |3         |10    |2        |-                          |1517  |
-#'  |1993  |1606  |-         |-     |-        |-                          |1606  |
-#'  |1994  |2992  |-         |-     |-        |-                          |2992  |
-#'  |1996  |2904  |-         |-     |-        |-                          |2904  |
-#'  |1998  |2832  |-         |-     |-        |-                          |2832  |
-#'  |2000  |2817  |-         |-     |-        |-                          |2817  |
-#'  |2002  |2765  |-         |-     |-        |-                          |2765  |
-#'  |2004  |2812  |-         |-     |-        |-                          |2812  |
-#'  |2006  |4510  |-         |-     |-        |-                          |4510  |
-#'  |2008  |2023  |-         |-     |-        |-                          |2023  |
-#'  |2010  |2044  |-         |-     |-        |-                          |2044  |
-#'  |2012  |1974  |-         |-     |-        |-                          |1974  |
-#'  |2014  |2538  |-         |-     |-        |-                          |2538  |
-#'  |2016  |2867  |-         |-     |-        |-                          |2867  |
-#'  |2018  |2348  |-         |-     |-        |-                          |2348  |
-#'  |2021  |4032  |-         |-     |-        |-                          |4032  |
-#'  |2022  |-     |-         |-     |-        |3544                       |3544  |
-#'  |2024  |-     |-         |-     |-        |3309                       |3309  |
-#'  |Total |68823 |5         |16    |2        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` black
-#'   * `2` white
-#'   * `3` hispanic
-#'   * `4` other
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name suirac3
-NULL
 

@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 amrank
 }
 \details{
-Question 517. Do you feel that the quality of life is better in American than in most other advanced industrial counties, about the same, or do you feel that poeple are better off in most other advanced industrial countries than they are in the United States?
+Question Do you feel that the quality of life is better in America than in most other advanced industrial countries, about the same, or do you feel that people are better off in most other advanced industrial countries than they are in the United States?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} better in america
+\item \code{2} about the same
+\item \code{3} better in oth adv cntry
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1597/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab about the same \tab better in america \tab better in oth adv cntry \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,25 +78,28 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} better in america
-\item \code{2} about the same
-\item \code{3} better in oth adv cntry
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Multiculturalism: 
+\code{\link{amissue}},
+\code{\link{amissue1}},
+\code{\link{amproud}},
+\code{\link{ethid1}},
+\code{\link{ethissu1}},
+\code{\link{ethissue}},
+\code{\link{gvtapart}},
+\code{\link{gvtmelt}},
+\code{\link{meltpot}}
+
+Other United States: 
+\code{\link{amproud}}
+}
+\concept{Multiculturalism}
+\concept{United States}
 \keyword{variable}

@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 decidwrk
 }
 \details{
-Question Which of the following statements best describes how your working hours are decided? (By working hours we mean here the times you start and finish work, and not the total hours you work per week or month.)
+Question (HAND CARD D9)
+Which of the following statements best describes how your working hours are decided?
+(By working hours we mean here the times you start and finish work, and not the total hours you work per week or month.)
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} starting and finishing times are decided by my employer and i cannot change them on my own
+\item \code{2} i have a schedule or shift which regularly changes (for example, from days to evenings or to nights)
+\item \code{3} i have a schedule where daily working times are decided at short notice by my employer
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6332/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab don't know \tab i have a schedule or shift which regularly changes (for example, from days to evenings or to nights) \tab i have a schedule where daily working times are decided at short notice by my employer \tab no answer \tab starting and finishing times are decided by my employer and i cannot change them on my own \tab not available in this year \tab Total \cr
@@ -57,25 +80,24 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} starting and finishing times are decided by my employer and i cannot change them on my own
-\item \code{2} i have a schedule or shift which regularly changes (for example, from days to evenings or to nights)
-\item \code{3} i have a schedule where daily working times are decided at short notice by my employer
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2016 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Work Orientation: 
+\code{\link{chngewrk}},
+\code{\link{harass5}},
+\code{\link{nounemp5}},
+\code{\link{nounemp6}},
+\code{\link{rcontact}},
+\code{\link{unionsbd}},
+\code{\link{wkathome}},
+\code{\link{wkwkends}},
+\code{\link{wrkshift}}
+}
+\concept{Work Orientation}
 \keyword{variable}

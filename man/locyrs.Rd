@@ -10,11 +10,29 @@ General Social Survey https://gss.norc.org
 locyrs
 }
 \details{
-Question 699. How long have you worked at this location? Include all full-time positions you have had at this location.
+Question How long have you worked at this location?  Include all full-time positions you have had at this location.
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2146/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 0 \tab 0.08 \tab 0.17 \tab 0.25 \tab 0.33 \tab 0.42 \tab 0.5 \tab 0.58 \tab 0.67 \tab 0.75 \tab 0.83 \tab 0.92 \tab 1 \tab 1.08 \tab 1.17 \tab 1.25 \tab 1.33 \tab 1.42 \tab 1.5 \tab 1.58 \tab 1.67 \tab 1.75 \tab 1.83 \tab 10 \tab 10.2 \tab 10.3 \tab 10.5 \tab 10.7 \tab 10.8 \tab 11 \tab 11.1 \tab 11.6 \tab 11.9 \tab 12 \tab 12.5 \tab 12.8 \tab 12.9 \tab 13 \tab 13.1 \tab 14 \tab 14.2 \tab 14.3 \tab 15 \tab 15.1 \tab 15.4 \tab 15.6 \tab 16 \tab 17 \tab 17.2 \tab 17.5 \tab 18 \tab 18.1 \tab 18.8 \tab 19 \tab 19.4 \tab 2 \tab 2.17 \tab 2.25 \tab 2.33 \tab 2.42 \tab 2.5 \tab 2.58 \tab 2.67 \tab 2.75 \tab 2.83 \tab 2.92 \tab 20 \tab 20.2 \tab 21 \tab 21.4 \tab 21.5 \tab 21.8 \tab 22 \tab 22.1 \tab 23 \tab 24 \tab 24.4 \tab 25 \tab 26 \tab 27 \tab 28 \tab 28.3 \tab 28.9 \tab 29 \tab 29.3 \tab 3 \tab 3.08 \tab 3.17 \tab 3.25 \tab 3.33 \tab 3.5 \tab 3.58 \tab 3.67 \tab 3.83 \tab 30 \tab 30.4 \tab 31.1 \tab 32 \tab 33 \tab 34 \tab 36 \tab 4 \tab 4.17 \tab 4.25 \tab 4.33 \tab 4.42 \tab 4.5 \tab 4.58 \tab 4.67 \tab 4.75 \tab 4.83 \tab 40 \tab 45 \tab 5 \tab 5.08 \tab 5.17 \tab 5.25 \tab 5.42 \tab 5.5 \tab 5.67 \tab 6 \tab 6.17 \tab 6.25 \tab 6.33 \tab 6.5 \tab 6.75 \tab 6.92 \tab 7 \tab 7.17 \tab 7.25 \tab 7.33 \tab 7.5 \tab 7.58 \tab 7.92 \tab 8 \tab 8.5 \tab 8.67 \tab 9 \tab 9.08 \tab 9.25 \tab 9.5 \tab 9.67 \tab 9.75 \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +75,36 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1998 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Jobs: 
+\code{\link{formltrn}},
+\code{\link{genderwk}},
+\code{\link{orgsize}},
+\code{\link{othyrs}},
+\code{\link{otjtrain}},
+\code{\link{partorg}},
+\code{\link{samework}},
+\code{\link{siteyrs}},
+\code{\link{wrkoth}}
+
+Other Job: 
+\code{\link{formltrn}},
+\code{\link{genderwk}},
+\code{\link{orgsize}},
+\code{\link{othyrs}},
+\code{\link{otjtrain}},
+\code{\link{partorg}},
+\code{\link{samework}},
+\code{\link{siteyrs}},
+\code{\link{wrkoth}}
+}
+\concept{Job}
+\concept{Jobs}
 \keyword{variable}

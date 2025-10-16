@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 frndknow
 }
 \details{
-Question 327. Some people have friends who mostly know one another. Other people have friends who don't know one another. Would you say that all of your friends know one another, most of your friends know one another, only a few of your friends know one another, or none of your friends know one another?
+Question Some people have friends who mostly know one another. Other people have friends who don't know one another. would you say that all of your friends know one another, most of your friends know one another, only a few of your friends know one another, or none of your friends know one another?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} all know each other
+\item \code{2} most know each other
+\item \code{3} few know each other
+\item \code{4} none know each other
+\item \code{5} no friends(vol.)
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/962/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab all know each other \tab don't know \tab few know each other \tab most know each other \tab no answer \tab no friends(vol.) \tab none know each other \tab not available in this year \tab Total \cr
@@ -57,27 +80,18 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} all know each other
-\item \code{2} most know each other
-\item \code{3} few know each other
-\item \code{4} none know each other
-\item \code{5} no friends(vol.)
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1985 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Social Networks: 
+\code{\link{talkpol}},
+\code{\link{talkpol3}}
+}
+\concept{Friends}
+\concept{Social Networks}
 \keyword{variable}

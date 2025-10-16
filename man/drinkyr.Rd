@@ -10,11 +10,37 @@ General Social Survey https://gss.norc.org
 drinkyr
 }
 \details{
-Question 1017. Thinking back over the last 12 months, about how regularly did you drink alcoholic beverages?
+Question Thinking back over the last 12 months, about how regularly did you drink alcoholic beverages?  Would you say that it was . . . READ OPTIONS DRINKYR
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} never in those 12 months
+\item \code{2} 1 to 3 times in 12 months
+\item \code{3} 4 to 7 times in 12 months
+\item \code{4} 8 to 11 times in 12 months
+\item \code{5} 1 to 3 times a month
+\item \code{6} once or twice a week
+\item \code{7} 3 to 4 times a week
+\item \code{8} 5 times a week or more
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3098/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab 1 to 3 times a month \tab 1 to 3 times in 12 months \tab 3 to 4 times a week \tab 4 to 7 times in 12 months \tab 5 times a week or more \tab 8 to 11 times in 12 months \tab never in those 12 months \tab no answer \tab once or twice a week \tab not available in this year \tab Total \cr
@@ -57,30 +83,30 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} never in those 12 months
-\item \code{2} 1 to 3 times in 12 months
-\item \code{3} 4 to 7 times in 12 months
-\item \code{4} 8 to 11 times in 12 months
-\item \code{5} 1 to 3 times a month
-\item \code{6} once or twice a week
-\item \code{7} 3 to 4 times a week
-\item \code{8} 5 times a week or more
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Women & Alcohol: 
+\code{\link{drink12}},
+\code{\link{drink6up}},
+\code{\link{drink8}},
+\code{\link{drinkday}},
+\code{\link{drinkmax}},
+\code{\link{evdrink}}
+
+Other Drinking: 
+\code{\link{drink12}},
+\code{\link{drink6up}},
+\code{\link{drink8}},
+\code{\link{drinkday}},
+\code{\link{drinkmax}},
+\code{\link{evdrink}}
+}
+\concept{Drinking}
+\concept{Women & Alcohol}
 \keyword{variable}

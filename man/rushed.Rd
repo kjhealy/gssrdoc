@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 rushed
 }
 \details{
-Question 285. In general, how do you feel about your time - would you say you always feel rushed even to do things you have to do, only sometimes feel rushed, or almost never feel rushed?
+Question In general, how do you feel about your time--would you say you always feel rushed even to do things you have to do, Only sometimes feel rushed, or almost never feel rushed.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} always
+\item \code{2} sometimes
+\item \code{3} never
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/774/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab always \tab never \tab no answer \tab sometimes \tab don't know \tab not available in this year \tab Total \cr
@@ -57,25 +78,32 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} always
-\item \code{2} sometimes
-\item \code{3} never
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1982 \tab -/-/- \tab full \cr
+   1996 \tab A/B/C \tab full \cr
+   2004 \tab B/C/- \tab partial \cr
+   2016 \tab C/-/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{bored}},
+\code{\link{civic}},
+\code{\link{feserve}},
+\code{\link{imppol}},
+\code{\link{meserve}},
+\code{\link{pollgood}},
+\code{\link{polltrue}},
+\code{\link{privacy}},
+\code{\link{stresswk}}
+
+Other Time: 
+\code{\link{bored}}
+}
+\concept{Core}
+\concept{Gender}
+\concept{Time}
 \keyword{variable}

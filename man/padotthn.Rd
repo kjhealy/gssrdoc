@@ -10,11 +10,29 @@ General Social Survey https://gss.norc.org
 padotthn
 }
 \details{
-Question None
+Question C. Father's Occupational Relationship with Things.
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/137/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab 0 \tab 0.21 \tab 0.26 \tab 0.31 \tab 0.55 \tab 0.85 \tab 0.95 \tab 1 \tab 1.1 \tab 1.15 \tab 1.16 \tab 1.24 \tab 1.25 \tab 1.26 \tab 1.28 \tab 1.32 \tab 1.33 \tab 1.36 \tab 1.4 \tab 1.41 \tab 1.42 \tab 1.43 \tab 1.46 \tab 1.51 \tab 1.55 \tab 1.61 \tab 1.62 \tab 1.64 \tab 1.71 \tab 1.74 \tab 1.76 \tab 1.81 \tab 1.88 \tab 1.9 \tab 1.91 \tab 1.96 \tab 1.97 \tab 1.98 \tab 2 \tab 2.09 \tab 2.15 \tab 2.21 \tab 2.32 \tab 2.39 \tab 2.52 \tab 2.55 \tab 2.6 \tab 2.76 \tab 2.82 \tab 2.84 \tab 2.85 \tab 2.87 \tab 2.88 \tab 2.91 \tab 2.93 \tab 2.97 \tab 3.02 \tab 3.03 \tab 3.05 \tab 3.07 \tab 3.13 \tab 3.2 \tab 3.22 \tab 3.35 \tab 3.37 \tab 3.41 \tab 3.45 \tab 3.48 \tab 3.51 \tab 3.52 \tab 3.54 \tab 3.59 \tab 3.67 \tab 3.69 \tab 3.71 \tab 3.72 \tab 3.74 \tab 3.79 \tab 3.8 \tab 3.81 \tab 3.83 \tab 3.91 \tab 3.93 \tab 4 \tab 4.01 \tab 4.06 \tab 4.07 \tab 4.12 \tab 4.18 \tab 4.22 \tab 4.25 \tab 4.28 \tab 4.3 \tab 4.32 \tab 4.33 \tab 4.34 \tab 4.36 \tab 4.39 \tab 4.42 \tab 4.5 \tab 4.53 \tab 4.55 \tab 4.59 \tab 4.61 \tab 4.64 \tab 4.7 \tab 4.72 \tab 4.74 \tab 4.78 \tab 4.81 \tab 4.96 \tab 5.1 \tab 5.13 \tab 5.14 \tab 5.2 \tab 5.21 \tab 5.22 \tab 5.3 \tab 5.37 \tab 5.42 \tab 5.5 \tab 5.53 \tab 5.58 \tab 5.63 \tab 5.67 \tab 5.82 \tab 5.84 \tab 5.87 \tab 5.88 \tab 5.93 \tab 6.09 \tab 6.1 \tab 6.17 \tab 6.18 \tab 6.2 \tab 6.22 \tab 6.23 \tab 6.34 \tab 6.38 \tab 6.42 \tab 6.43 \tab 6.48 \tab 6.63 \tab 6.65 \tab 6.72 \tab 6.75 \tab 6.82 \tab 6.83 \tab 6.85 \tab 6.9 \tab 6.93 \tab 7 \tab 7.02 \tab 7.06 \tab 7.07 \tab 7.13 \tab 7.16 \tab 7.18 \tab 7.21 \tab 7.22 \tab 7.28 \tab 7.4 \tab 7.41 \tab 7.47 \tab 7.49 \tab 7.5 \tab 7.51 \tab 7.61 \tab 7.62 \tab 7.65 \tab 7.67 \tab 7.72 \tab 7.74 \tab 7.76 \tab 7.77 \tab 7.78 \tab 7.79 \tab 7.8 \tab 7.81 \tab 7.83 \tab 7.85 \tab 7.86 \tab 7.87 \tab 7.88 \tab 7.89 \tab 7.91 \tab 7.93 \tab 7.94 \tab 7.95 \tab 7.96 \tab 7.97 \tab 7.98 \tab 7.99 \tab 8 \tab iap \tab 0.79 \tab 1.05 \tab 1.11 \tab 1.38 \tab 1.45 \tab 2.19 \tab 2.22 \tab 2.33 \tab 2.43 \tab 2.48 \tab 2.53 \tab 2.65 \tab 2.67 \tab 2.71 \tab 2.8 \tab 3.01 \tab 3.16 \tab 3.21 \tab 3.26 \tab 3.47 \tab 3.65 \tab 3.78 \tab 3.99 \tab 4.05 \tab 4.08 \tab 4.2 \tab 4.37 \tab 4.62 \tab 5.09 \tab 5.11 \tab 5.15 \tab 5.39 \tab 5.59 \tab 5.76 \tab 5.95 \tab 6.13 \tab 6.15 \tab 6.3 \tab 6.46 \tab 6.49 \tab 6.5 \tab 6.51 \tab 6.55 \tab 6.68 \tab 7.12 \tab 7.43 \tab 7.44 \tab 7.45 \tab 7.52 \tab 7.53 \tab 7.64 \tab 7.69 \tab 7.82 \tab 7.84 \tab 1.49 \tab 1.5 \tab 1.68 \tab 1.87 \tab 2.01 \tab 2.16 \tab 2.27 \tab 2.57 \tab 2.61 \tab 2.74 \tab 4.38 \tab 4.79 \tab 5.35 \tab 6.08 \tab 6.14 \tab 6.96 \tab 7.19 \tab 7.23 \tab 7.7 \tab 3 \tab 3.29 \tab 4.03 \tab 4.04 \tab 4.35 \tab 4.67 \tab 4.71 \tab 7.66 \tab 1.65 \tab 3.4 \tab 3.68 \tab 4.14 \tab 4.15 \tab 4.93 \tab 5 \tab 5.32 \tab 6.58 \tab 7.55 \tab 7.71 \tab 1.39 \tab 4.87 \tab 5.6 \tab 5.89 \tab 7.63 \tab 7.92 \tab 5.86 \tab 6.66 \tab 7.57 \tab 1.57 \tab 1.59 \tab 1.84 \tab 5.45 \tab 6 \tab 7.58 \tab 4.75 \tab 7.68 \tab 4.43 \tab 0.56 \tab 1.79 \tab 3.95 \tab 2.37 \tab 5.07 \tab 5.47 \tab 6.62 \tab 2.68 \tab 6.69 \tab 7.25 \tab 5.68 \tab 5.91 \tab 2.72 \tab 5.79 \tab not available in this year \tab Total \cr
@@ -57,22 +75,48 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1972 \tab -/-/- \tab full \cr
+   1973 \tab -/-/- \tab full \cr
+   1974 \tab -/-/- \tab full \cr
+   1975 \tab -/-/- \tab full \cr
+   1976 \tab -/-/- \tab full \cr
+   1977 \tab -/-/- \tab full \cr
+   1978 \tab -/-/- \tab full \cr
+   1980 \tab -/-/- \tab full \cr
+   1982 \tab -/-/- \tab full \cr
+   1983 \tab -/-/- \tab full \cr
+   1984 \tab -/-/- \tab full \cr
+   1985 \tab -/-/- \tab full \cr
+   1986 \tab -/-/- \tab full \cr
+   1987 \tab -/-/- \tab full \cr
+   1988 \tab A/B/C \tab full \cr
+   1989 \tab A/B/C \tab full \cr
+   1990 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{padotdat}},
+\code{\link{padotged}},
+\code{\link{padotpeo}},
+\code{\link{padotpre}},
+\code{\link{padotsvp}},
+\code{\link{partyid}},
+\code{\link{pres68}},
+\code{\link{spdotpre}},
+\code{\link{vote68}}
+
+Other D.O.T. Codes: 
+\code{\link{padotdat}},
+\code{\link{padotged}},
+\code{\link{padotpeo}},
+\code{\link{padotsvp}},
+\code{\link{spdotpre}}
+}
+\concept{Core}
+\concept{D.O.T. Codes}
 \keyword{variable}

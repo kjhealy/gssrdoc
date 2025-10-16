@@ -1,11 +1,122 @@
+#'  Happiness of relt with partner
+#' 
+#'  hapcohab
+#' 
+#' Question B. Taking things all together, would you say that your relationship with your partner is very happy, pretty happy, or not too happy?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` very happy
+#'   * `2` pretty happy
+#'   * `3` not too happy
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/436/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |not too happy |pretty happy |very happy |don't know |no answer |skipped on web |Total |
+#'  |:-----|:-----|:-------------|:------------|:----------|:----------|:---------|:--------------|:-----|
+#'  |1972  |1613  |-             |-            |-          |-          |-         |-              |1613  |
+#'  |1973  |1504  |-             |-            |-          |-          |-         |-              |1504  |
+#'  |1974  |1484  |-             |-            |-          |-          |-         |-              |1484  |
+#'  |1975  |1490  |-             |-            |-          |-          |-         |-              |1490  |
+#'  |1976  |1499  |-             |-            |-          |-          |-         |-              |1499  |
+#'  |1977  |1530  |-             |-            |-          |-          |-         |-              |1530  |
+#'  |1978  |1532  |-             |-            |-          |-          |-         |-              |1532  |
+#'  |1980  |1468  |-             |-            |-          |-          |-         |-              |1468  |
+#'  |1982  |1860  |-             |-            |-          |-          |-         |-              |1860  |
+#'  |1983  |1599  |-             |-            |-          |-          |-         |-              |1599  |
+#'  |1984  |1473  |-             |-            |-          |-          |-         |-              |1473  |
+#'  |1985  |1534  |-             |-            |-          |-          |-         |-              |1534  |
+#'  |1986  |1470  |-             |-            |-          |-          |-         |-              |1470  |
+#'  |1987  |1819  |-             |-            |-          |-          |-         |-              |1819  |
+#'  |1988  |1481  |-             |-            |-          |-          |-         |-              |1481  |
+#'  |1989  |1537  |-             |-            |-          |-          |-         |-              |1537  |
+#'  |1990  |1372  |-             |-            |-          |-          |-         |-              |1372  |
+#'  |1991  |1517  |-             |-            |-          |-          |-         |-              |1517  |
+#'  |1993  |1606  |-             |-            |-          |-          |-         |-              |1606  |
+#'  |1994  |2992  |-             |-            |-          |-          |-         |-              |2992  |
+#'  |1996  |2904  |-             |-            |-          |-          |-         |-              |2904  |
+#'  |1998  |2832  |-             |-            |-          |-          |-         |-              |2832  |
+#'  |2000  |2817  |-             |-            |-          |-          |-         |-              |2817  |
+#'  |2002  |2765  |-             |-            |-          |-          |-         |-              |2765  |
+#'  |2004  |2812  |-             |-            |-          |-          |-         |-              |2812  |
+#'  |2006  |4510  |-             |-            |-          |-          |-         |-              |4510  |
+#'  |2008  |2023  |-             |-            |-          |-          |-         |-              |2023  |
+#'  |2010  |2044  |-             |-            |-          |-          |-         |-              |2044  |
+#'  |2012  |1806  |3             |62           |103        |-          |-         |-              |1974  |
+#'  |2014  |2328  |9             |70           |129        |2          |-         |-              |2538  |
+#'  |2016  |2603  |11            |102          |149        |1          |1         |-              |2867  |
+#'  |2018  |2116  |9             |75           |148        |-          |-         |-              |2348  |
+#'  |2021  |3665  |24            |155          |185        |1          |1         |1              |4032  |
+#'  |2022  |3226  |10            |113          |190        |1          |3         |1              |3544  |
+#'  |2024  |3048  |12            |95           |153        |-          |-         |1              |3309  |
+#'  |Total |73879 |78            |672          |1057       |5          |5         |3              |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Romantic Relationships
+#' 
+#' @keywords variable
+#' @md
+#' @name hapcohab
+NULL
+
+
 #'  Condition of health
 #' 
 #'  health
 #' 
-#' Question 159. Would you say your own health, in general, is excellent, good, fair, or poor?
+#' Question Would you say your own health, in general, is excellent, good, fair, or  poor?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` excellent
+#'   * `2` good
+#'   * `3` fair
+#'   * `4` poor
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/437/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,12 +159,65 @@
 #'  |2024  |581       |808   |1755  |2         |150  |3          |-     |10             |3309  |
 #'  |Total |16293     |11545 |27406 |92        |3204 |39         |17104 |16             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/C/-   |partial      |
+#'  |1989 |A/C/-   |partial      |
+#'  |1990 |A/C/-   |partial      |
+#'  |1991 |A/C/-   |partial      |
+#'  |1993 |A/C/-   |partial      |
+#'  |1994 |A/C/-   |partial      |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/C/-   |partial      |
+#'  |2004 |A/C/-   |partial      |
+#'  |2006 |A/C/D   |partial      |
+#'  |2008 |A/C/-   |partial      |
+#'  |2010 |A/C/-   |partial      |
+#'  |2012 |A/C/-   |partial      |
+#'  |2014 |A/C/-   |partial      |
+#'  |2016 |A/C/-   |partial      |
+#'  |2018 |A/C/-   |partial      |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Health
+#' 
+#' @keywords variable
+#' @md
+#' @name health
+NULL
+
+
+#'  Is life exciting or dull
+#' 
+#'  life
+#' 
+#' Question In general, do you find life exciting, pretty routine, or dull?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` excellent
-#'   * `2` good
-#'   * `3` fair
-#'   * `4` poor
+#'   * `1` exciting
+#'   * `2` routine
+#'   * `3` dull
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -67,22 +231,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name health
-NULL
-
-#'  Is life exciting or dull
-#' 
-#'  life
-#' 
-#' Question 160. In general, do you find life exciting, pretty routine, or dull?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/438/vshow).
 #'
 #' Counts by year: 
 #'
@@ -125,11 +275,63 @@ NULL
 #'  |2024  |1067  |13         |144  |845      |2         |1231    |7              |3309  |
 #'  |Total |28672 |315        |2371 |21308    |233       |22784   |16             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |A/C     |partial      |
+#'  |1989 |A/C     |partial      |
+#'  |1990 |A/C     |partial      |
+#'  |1991 |A/C     |partial      |
+#'  |1993 |A/C     |partial      |
+#'  |1994 |A/C     |partial      |
+#'  |1996 |A/C     |partial      |
+#'  |1998 |A/C     |partial      |
+#'  |2000 |A/C     |partial      |
+#'  |2002 |A/C     |partial      |
+#'  |2004 |A/C     |partial      |
+#'  |2006 |A/C     |partial      |
+#'  |2008 |A/C     |partial      |
+#'  |2010 |A/C     |partial      |
+#'  |2012 |A/C     |partial      |
+#'  |2014 |A/C     |partial      |
+#'  |2016 |A/C     |partial      |
+#'  |2018 |A/C     |partial      |
+#'  |2021 |A/C     |partial      |
+#'  |2022 |A/C     |partial      |
+#'  |2024 |A/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Life Outlook
+#' 
+#' @keywords variable
+#' @md
+#' @name life
+NULL
+
+
+#'  People helpful or looking out for selves
+#' 
+#'  helpful
+#' 
+#' Question Would you say that most of the time people try to be helpful, or that they are mostly just looking out for themselves?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` exciting
-#'   * `2` routine
-#'   * `3` dull
+#'   * `1` try to be helpful
+#'   * `2` looking out for themselves
+#'   * `3` depends
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -143,22 +345,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name life
-NULL
-
-#'  People helpful or looking out for selves
-#' 
-#'  helpful
-#' 
-#' Question 161. Would you say that most of the time people try to be helpful, or that they are mostly just looking out for themselves?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/439/vshow).
 #'
 #' Counts by year: 
 #'
@@ -201,10 +389,62 @@ NULL
 #'  |2024  |137     |11         |2353  |440                        |2         |365               |-                          |1              |3309  |
 #'  |Total |3081    |225        |28215 |19249                      |65        |20831             |4032                       |1              |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-     |full         |
+#'  |1973 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'  |1996 |B/C     |partial      |
+#'  |1998 |B/C     |partial      |
+#'  |2000 |B/C     |partial      |
+#'  |2002 |B/C     |partial      |
+#'  |2004 |B/C     |partial      |
+#'  |2006 |B/C     |partial      |
+#'  |2008 |B/C     |partial      |
+#'  |2010 |B/C     |partial      |
+#'  |2012 |B/C     |partial      |
+#'  |2014 |B/C     |partial      |
+#'  |2016 |B/C     |partial      |
+#'  |2018 |B/C     |partial      |
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family People
+#' 
+#' @keywords variable
+#' @md
+#' @name helpful
+NULL
+
+
+#'  People fair or try to take advantage
+#' 
+#'  fair
+#' 
+#' Question Do you think most people would try to take advantage of you if they got a chance, or would they try to be fair?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` try to be helpful
-#'   * `2` looking out for themselves
+#'   * `1` would take advantage of you
+#'   * `2` would try to be fair
 #'   * `3` depends
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
@@ -219,22 +459,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name helpful
-NULL
-
-#'  People fair or try to take advantage
-#' 
-#'  fair
-#' 
-#' Question 162. Do you think most people would try to take advantage of you if they got a chance, or would they try to be fair?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/440/vshow).
 #'
 #' Counts by year: 
 #'
@@ -277,10 +503,62 @@ NULL
 #'  |2024  |115     |16         |-         |431                         |394                  |2353  |-                          |3309  |
 #'  |Total |2944    |339        |85        |16439                       |23646                |28214 |4032                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-     |full         |
+#'  |1973 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'  |1996 |B/C     |partial      |
+#'  |1998 |B/C     |partial      |
+#'  |2000 |B/C     |partial      |
+#'  |2002 |B/C     |partial      |
+#'  |2004 |B/C     |partial      |
+#'  |2006 |B/C     |partial      |
+#'  |2008 |B/C     |partial      |
+#'  |2010 |B/C     |partial      |
+#'  |2012 |B/C     |partial      |
+#'  |2014 |B/C     |partial      |
+#'  |2016 |B/C     |partial      |
+#'  |2018 |B/C     |partial      |
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family People
+#' 
+#' @keywords variable
+#' @md
+#' @name fair
+NULL
+
+
+#'  Can people be trusted
+#' 
+#'  trust
+#' 
+#' Question A. Generally speaking, would you say that most people can be trusted or that you can't be too careful in dealing with people?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` would take advantage of you
-#'   * `2` would try to be fair
+#'   * `1` most people can be trusted
+#'   * `2` can't be too careful
 #'   * `3` depends
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
@@ -295,22 +573,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name fair
-NULL
-
-#'  Can people be trusted
-#' 
-#'  trust
-#' 
-#' Question 163a. Generally speaking, would you say that most people can be trusted or that you can't be too careful in life?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/441/vshow).
 #'
 #' Counts by year: 
 #'
@@ -353,11 +617,63 @@ NULL
 #'  |2024  |604                  |108     |7          |236                        |1         |2353  |-                          |3309  |
 #'  |Total |25383                |2114    |127        |15926                      |76        |28041 |4032                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |B/C/-   |partial      |
+#'  |1989 |B/C/-   |partial      |
+#'  |1990 |B/C/-   |partial      |
+#'  |1991 |B/C/-   |partial      |
+#'  |1993 |B/C/-   |partial      |
+#'  |1994 |B/C/-   |partial      |
+#'  |1996 |B/C/-   |partial      |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |B/C/-   |partial      |
+#'  |2002 |B/C/-   |partial      |
+#'  |2004 |B/C/-   |partial      |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |B/C/-   |partial      |
+#'  |2010 |B/C/-   |partial      |
+#'  |2012 |B/C/-   |partial      |
+#'  |2014 |B/C/-   |partial      |
+#'  |2016 |B/C/-   |partial      |
+#'  |2018 |B/C/-   |partial      |
+#'  |2021 |B/C/-   |partial      |
+#'  |2022 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family People
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name trust
+NULL
+
+
+#'  Can people be trusted-version y
+#' 
+#'  trusty
+#' 
+#' Question B. Do you think most people can be trusted?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` most people can be trusted
-#'   * `2` can't be too careful
-#'   * `3` depends
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -371,22 +687,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name trust
-NULL
-
-#'  Can people be trusted-version y
-#' 
-#'  trusty
-#' 
-#' Question 163b. Do you think most people can be trusted?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/442/vshow).
 #'
 #' Counts by year: 
 #'
@@ -429,10 +731,34 @@ NULL
 #'  |2024  |-     |-          |-   |-         |-   |3309                       |3309  |
 #'  |Total |68051 |21         |326 |5         |443 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family People
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name trusty
+NULL
+
+
+#'  Can people be trusted (see codebook)
+#' 
+#'  trust1
+#' 
+#' Question C. Generally speaking, would you say that most people can be trusted or that you need to be very careful in dealing with people?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` can trust
+#'   * `2` need to be very careful
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -446,22 +772,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name trusty
-NULL
-
-#'  Can people be trusted (see codebook)
-#' 
-#'  trust1
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6644/vshow).
 #'
 #' Counts by year: 
 #'
@@ -504,10 +816,39 @@ NULL
 #'  |2024  |-     |-         |-          |-                       |-         |3309                       |3309  |
 #'  |Total |67421 |465       |18         |937                     |5         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |D       |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name trust1
+NULL
+
+
+#'  City or place r lives in
+#' 
+#'  satcity
+#' 
+#' Question For each area of life I am going to name, tell me the number that shows how much satisfaction you get from that area. READ ITEMS A-E. CIRCLE ONE CODE FOR EACH.
+#' A. The city or place you live in. 
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` can trust
-#'   * `2` need to be very careful
+#'   * `1` very great deal
+#'   * `2` great deal
+#'   * `3` quite a bit
+#'   * `4` a fair amount
+#'   * `5` some
+#'   * `6` a little
+#'   * `7` none
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -521,22 +862,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name trust1
-NULL
-
-#'  City or place r lives in
-#' 
-#'  satcity
-#' 
-#' Question 164. For each area of life I am going to name, tell me the number that shows how much satisfaction you get from that area. a. The city or place you live in.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/443/vshow).
 #'
 #' Counts by year: 
 #'
@@ -579,6 +906,47 @@ NULL
 #'  |2024  |-     |-             |-        |-          |-          |-    |-           |-    |-               |-         |3309                       |3309  |
 #'  |Total |44602 |5032          |1174     |43         |6982       |504  |4294        |1679 |4468            |68        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Coreatisfaction
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name satcity
+NULL
+
+
+#'  Non-working activities, hobbies
+#' 
+#'  sathobby
+#' 
+#' Question For each area of life I am going to name, tell me the number that shows how much satisfaction you get from that area. READ ITEMS A-E. CIRCLE ONE CODE FOR EACH.
+#' B. Your non-working activities--hobbies and so on.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` very great deal
@@ -601,22 +969,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name satcity
-NULL
-
-#'  Non-working activities, hobbies
-#' 
-#'  sathobby
-#' 
-#' Question 164. For each area of life I am going to name, tell me the number that shows how much satisfaction you get from that area. b. Your non-working activities -- hobbies and so on.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/444/vshow).
 #'
 #' Counts by year: 
 #'
@@ -659,113 +1013,36 @@ NULL
 #'  |2024  |-     |-             |-        |-          |-          |-         |-    |-           |-    |-               |3309                       |3309  |
 #'  |Total |44602 |3010          |1018     |127        |7965       |83        |849  |4287        |1312 |5593            |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` very great deal
-#'   * `2` great deal
-#'   * `3` quite a bit
-#'   * `4` a fair amount
-#'   * `5` some
-#'   * `6` a little
-#'   * `7` none
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Coreatisfaction
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
 #' @name sathobby
 NULL
 
-#'  Family life
-#' 
-#'  satfam
-#' 
-#' Question 164. For each area of life I am going to name, tell me the number that shows how much satisfaction you get from that area. c. Your family life.
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |a fair amount |a little |don't know |great deal |no answer |none |quite a bit |some |very great deal |not available in this year |Total |
-#'  |:-----|:-----|:-------------|:--------|:----------|:----------|:---------|:----|:-----------|:----|:---------------|:--------------------------|:-----|
-#'  |1972  |1613  |-             |-        |-          |-          |-         |-    |-           |-    |-               |-                          |1613  |
-#'  |1973  |-     |128           |33       |5          |468        |6         |25   |146         |51   |642             |-                          |1504  |
-#'  |1974  |-     |102           |30       |3          |496        |1         |19   |157         |35   |641             |-                          |1484  |
-#'  |1975  |-     |98            |23       |4          |488        |4         |28   |155         |37   |653             |-                          |1490  |
-#'  |1976  |-     |92            |33       |3          |564        |6         |31   |161         |39   |570             |-                          |1499  |
-#'  |1977  |-     |112           |21       |6          |501        |3         |26   |181         |43   |637             |-                          |1530  |
-#'  |1978  |-     |113           |33       |5          |543        |11        |24   |164         |48   |591             |-                          |1532  |
-#'  |1980  |-     |90            |27       |7          |496        |2         |23   |148         |27   |648             |-                          |1468  |
-#'  |1982  |-     |123           |48       |8          |502        |5         |38   |212         |60   |864             |-                          |1860  |
-#'  |1983  |-     |112           |27       |11         |559        |6         |39   |182         |51   |612             |-                          |1599  |
-#'  |1984  |-     |93            |35       |2          |460        |6         |21   |159         |34   |663             |-                          |1473  |
-#'  |1985  |1534  |-             |-        |-          |-          |-         |-    |-           |-    |-               |-                          |1534  |
-#'  |1986  |-     |124           |34       |5          |501        |17        |28   |180         |48   |533             |-                          |1470  |
-#'  |1987  |1     |141           |44       |4          |595        |13        |29   |209         |57   |726             |-                          |1819  |
-#'  |1988  |484   |60            |28       |1          |335        |3         |20   |86          |30   |434             |-                          |1481  |
-#'  |1989  |502   |67            |22       |-          |344        |7         |16   |102         |44   |433             |-                          |1537  |
-#'  |1990  |473   |63            |17       |1          |305        |1         |17   |94          |34   |367             |-                          |1372  |
-#'  |1991  |500   |90            |26       |4          |335        |1         |17   |100         |27   |417             |-                          |1517  |
-#'  |1993  |549   |78            |26       |4          |361        |6         |20   |99          |31   |432             |-                          |1606  |
-#'  |1994  |2481  |35            |13       |-          |179        |2         |10   |53          |17   |202             |-                          |2992  |
-#'  |1996  |2904  |-             |-        |-          |-          |-         |-    |-           |-    |-               |-                          |2904  |
-#'  |1998  |2832  |-             |-        |-          |-          |-         |-    |-           |-    |-               |-                          |2832  |
-#'  |2000  |2817  |-             |-        |-          |-          |-         |-    |-           |-    |-               |-                          |2817  |
-#'  |2002  |2765  |-             |-        |-          |-          |-         |-    |-           |-    |-               |-                          |2765  |
-#'  |2004  |2812  |-             |-        |-          |-          |-         |-    |-           |-    |-               |-                          |2812  |
-#'  |2006  |4510  |-             |-        |-          |-          |-         |-    |-           |-    |-               |-                          |4510  |
-#'  |2008  |2023  |-             |-        |-          |-          |-         |-    |-           |-    |-               |-                          |2023  |
-#'  |2010  |2044  |-             |-        |-          |-          |-         |-    |-           |-    |-               |-                          |2044  |
-#'  |2012  |1974  |-             |-        |-          |-          |-         |-    |-           |-    |-               |-                          |1974  |
-#'  |2014  |2538  |-             |-        |-          |-          |-         |-    |-           |-    |-               |-                          |2538  |
-#'  |2016  |2867  |-             |-        |-          |-          |-         |-    |-           |-    |-               |-                          |2867  |
-#'  |2018  |2348  |-             |-        |-          |-          |-         |-    |-           |-    |-               |-                          |2348  |
-#'  |2021  |4032  |-             |-        |-          |-          |-         |-    |-           |-    |-               |-                          |4032  |
-#'  |2022  |-     |-             |-        |-          |-          |-         |-    |-           |-    |-               |3544                       |3544  |
-#'  |2024  |-     |-             |-        |-          |-          |-         |-    |-           |-    |-               |3309                       |3309  |
-#'  |Total |44603 |1721          |520      |73         |8032       |100       |431  |2588        |713  |10065           |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` very great deal
-#'   * `2` great deal
-#'   * `3` quite a bit
-#'   * `4` a fair amount
-#'   * `5` some
-#'   * `6` a little
-#'   * `7` none
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name satfam
-NULL
 

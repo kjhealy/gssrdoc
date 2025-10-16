@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 otherwrk
 }
 \details{
-Question 1513. In addition to your main job, do you do any other work for additional income?
+Question In addition to your main job, do you do any other work for additional income?
+FI INSTRUCTION: PROBE â€˜YESâ€™ RESPONSES
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} no
+\item \code{2} yes, mostly as an employee
+\item \code{3} yes, mostly on a self-employed basis
+\item \code{4} yes, other
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4624/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab can't choose \tab no \tab no answer \tab yes, mostly as an employee \tab yes, mostly on a self-employed basis \tab yes, other \tab not available in this year \tab Total \cr
@@ -57,26 +80,20 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} no
-\item \code{2} yes, mostly as an employee
-\item \code{3} yes, mostly on a self-employed basis
-\item \code{4} yes, other
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab D \tab partial \cr
 }
 }
 
+\seealso{
+Other Work Orientation: 
+\code{\link{nounemp3}},
+\code{\link{nounemp4}},
+\code{\link{skltrain}},
+\code{\link{spwrkgvt}}
+}
+\concept{Job}
+\concept{Work Orientation}
 \keyword{variable}

@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 caninf13
 }
 \details{
-Question 964. Imagine you wanted to use the Web to find out information about a candidate for political office. What would you do? m. Did respondent mention any specific URL?
+Question Imagine you wanted to use the Web to find out information about a candidate for political office. What would you do?
+M. Did respondent mention any specific URL?
 }
+\section{Values}{
+
+\itemize{
+\item \code{0} no
+\item \code{1} yes
+\item \code{2} yes, at least one url is not a .com
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2996/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab yes, at least one url is not a .com \tab not available in this year \tab Total \cr
@@ -57,25 +79,24 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{0} no
-\item \code{1} yes
-\item \code{2} yes, at least one url is not a .com
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Information Seeking Online: 
+\code{\link{caninf11}},
+\code{\link{caninf12}},
+\code{\link{caninf14}}
+
+Other Political: 
+\code{\link{caninf11}},
+\code{\link{caninf12}},
+\code{\link{caninf14}}
+}
+\concept{Information Seeking Online}
+\concept{Political}
 \keyword{variable}

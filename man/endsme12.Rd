@@ -12,9 +12,32 @@ endsme12
 \details{
 Question During the next 12 months, how difficult or easy do you think it will be for your household to make ends meet?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very difficult
+\item \code{2} fairly difficult
+\item \code{3} neither easy nor difficult
+\item \code{4} fairly easy
+\item \code{5} very easy
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7518/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab can't choose \tab fairly difficult \tab fairly easy \tab neither easy nor difficult \tab no answer \tab skipped on web \tab very difficult \tab very easy \tab not available in this year \tab Total \cr
@@ -57,26 +80,10 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very difficult
-\item \code{2} fairly difficult
-\item \code{3} neither easy nor difficult
-\item \code{4} fairly easy
-\item \code{5} very easy
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2021 \tab B/C \tab partial \cr
 }
 }
 

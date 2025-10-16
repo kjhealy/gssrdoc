@@ -10,11 +10,36 @@ General Social Survey https://gss.norc.org
 successz
 }
 \details{
-Question 169. Please look at the qualities listed on this card. All of the qualities may be desirable for a child to have, but could you tell me whether the quality is extremely important, very important, fairly important, not too important, or not at all important. b. That he tries hard to succeed
+Question Please look at the qualities listed on this card. (SHOW CARD:
+LET R. INSPECT) All of the qualities may be desirable for a child to have, but could you tell me whether the quality is extremely important, very important, fairly important, not too important, or not at all important. READ AND RECORD RESPONSES FOR EACH.
+B. That he tries hard to succeed
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} extremely impt
+\item \code{2} very impt
+\item \code{3} fairly impt
+\item \code{4} not too impt
+\item \code{5} not at all impt
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/501/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab extremely impt \tab fairly impt \tab no answer \tab not at all impt \tab not too impt \tab very impt \tab not available in this year \tab Total \cr
@@ -57,27 +82,47 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} extremely impt
-\item \code{2} very impt
-\item \code{3} fairly impt
-\item \code{4} not too impt
-\item \code{5} not at all impt
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1980 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{cleanz}},
+\code{\link{considey}},
+\code{\link{honestz}},
+\code{\link{interesy}},
+\code{\link{judgmenz}},
+\code{\link{mannersz}},
+\code{\link{obeysy}},
+\code{\link{responsy}},
+\code{\link{studiouy}}
+
+Other Children: 
+\code{\link{cleanz}},
+\code{\link{considey}},
+\code{\link{honestz}},
+\code{\link{interesy}},
+\code{\link{judgmenz}},
+\code{\link{mannersz}},
+\code{\link{obeysy}},
+\code{\link{responsy}},
+\code{\link{studiouy}}
+
+Other Split Ballots: 
+\code{\link{cleanz}},
+\code{\link{considey}},
+\code{\link{honestz}},
+\code{\link{interesy}},
+\code{\link{judgmenz}},
+\code{\link{obeysy}},
+\code{\link{responsy}},
+\code{\link{studiouy}}
+}
+\concept{Children}
+\concept{Core}
+\concept{Split Ballots}
 \keyword{variable}

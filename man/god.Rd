@@ -10,11 +10,41 @@ General Social Survey https://gss.norc.org
 god
 }
 \details{
-Question 369. Please look at this card and tell me which statement comes closest to expresing what you believe about God: 1. I don't believe in God. 2. I don't know whether there is a God and I don't believe there is any way to find out. 3. I don't believe in a personal God, but I do believe in a Higher Power of some kind. 4. I find myself believing in God some of the time, but not at others. 5. While I have doubts, I feel that I do believe in God. 6. I know God really exists and I have no doubts about it.
+Question Please look at this card and tell me which statement comes closest to expressing what you believe about God.
+I don''t believe in God.....................1
+I don''t know whether there is a God and I don''t believe there is any way to find out..................................2
+I don''t believe in a personal God, but I do believe in a Higher Power of some kind........................3
+I find myself believing in God some of the time, but not at others........4
+While I have doubts, I feel that I do believe in Godâ€¦.............................5
+I know God really exists and I have no doubts about it...........................6
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} don't believe
+\item \code{2} don't know, no way to find out
+\item \code{3} higher power
+\item \code{4} believe sometimes
+\item \code{5} believe with doubts
+\item \code{6} no doubts
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1076/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab believe sometimes \tab believe with doubts \tab don't believe \tab don't know, no way to find out \tab higher power \tab no answer \tab no doubts \tab don't know \tab skipped on web \tab Total \cr
@@ -57,28 +87,49 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} don't believe
-\item \code{2} don't know, no way to find out
-\item \code{3} higher power
-\item \code{4} believe sometimes
-\item \code{5} believe with doubts
-\item \code{6} no doubts
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1988 \tab A/B/C \tab full \cr
+   1991 \tab A/B/C \tab full \cr
+   1993 \tab A/B/C \tab full \cr
+   1994 \tab A/B/C \tab full \cr
+   1998 \tab A/B/C \tab full \cr
+   2000 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2021 \tab B/C/- \tab partial \cr
+   2022 \tab B/C/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Religion: 
+\code{\link{churhact}},
+\code{\link{churhmem}},
+\code{\link{grace16}},
+\code{\link{join16}},
+\code{\link{lapsed}},
+\code{\link{reborn}},
+\code{\link{savesoul}},
+\code{\link{saygrace}},
+\code{\link{tvrelig}}
+
+Other Religion: 
+\code{\link{churhact}},
+\code{\link{churhmem}},
+\code{\link{grace16}},
+\code{\link{join16}},
+\code{\link{lapsed}},
+\code{\link{reborn}},
+\code{\link{savesoul}},
+\code{\link{saygrace}},
+\code{\link{tvrelig}}
+}
+\concept{Religion}
 \keyword{variable}

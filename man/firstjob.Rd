@@ -10,11 +10,39 @@ General Social Survey https://gss.norc.org
 firstjob
 }
 \details{
-Question 1262. And how about your first job the first job you had after you finished fulltime education?
+Question And how about your first job -- the first job you had after you finished full-time education?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} prof or tech
+\item \code{2} higher admin
+\item \code{3} clerical
+\item \code{4} sales
+\item \code{5} service
+\item \code{6} skilled worker
+\item \code{7} semi-skilled worker
+\item \code{8} unskilled worker
+\item \code{9} farm
+\item \code{10} never had job
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4316/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllll}{
    year \tab iap \tab clerical \tab farm \tab higher admin \tab never had job \tab no answer \tab prof or tech \tab sales \tab semi-skilled worker \tab service \tab skilled worker \tab unskilled worker \tab not available in this year \tab Total \cr
@@ -57,32 +85,36 @@ Counts by year:\tabular{lllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} prof or tech
-\item \code{2} higher admin
-\item \code{3} clerical
-\item \code{4} sales
-\item \code{5} service
-\item \code{6} skilled worker
-\item \code{7} semi-skilled worker
-\item \code{8} unskilled worker
-\item \code{9} farm
-\item \code{10} never had job
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1987 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Social Inequality: 
+\code{\link{conage}},
+\code{\link{firstslf}},
+\code{\link{lastjob}},
+\code{\link{lastslf}},
+\code{\link{pajob}},
+\code{\link{paslf}},
+\code{\link{rewrdeff}},
+\code{\link{rewrdint}}
+
+Other Job: 
+\code{\link{firstslf}},
+\code{\link{lastjob}}
+
+Other Occupation: 
+\code{\link{firstslf}},
+\code{\link{lastjob}},
+\code{\link{lastslf}},
+\code{\link{pajob}},
+\code{\link{paslf}}
+}
+\concept{ISSP Social Inequality}
+\concept{Job}
+\concept{Occupation}
 \keyword{variable}

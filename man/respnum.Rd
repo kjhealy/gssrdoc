@@ -10,11 +10,43 @@ General Social Survey https://gss.norc.org
 respnum
 }
 \details{
-Question 1625. Number in family of respondent.
+Question Respondent's number in family.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} 1st person
+\item \code{2} 2nd person
+\item \code{3} 3rd person
+\item \code{4} 4th person
+\item \code{5} 5th person
+\item \code{6} 6th person
+\item \code{7} 7th person
+\item \code{8} 8th person
+\item \code{9} 9th person
+\item \code{10} 10th person
+\item \code{11} 11th person
+\item \code{12} 12th person
+\item \code{13} 13th person
+\item \code{14} 14th person
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5432/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllll}{
    year \tab iap \tab 11th person \tab 1st person \tab 2nd person \tab 3rd person \tab 4th person \tab 5th person \tab 8th person \tab 12th person \tab 6th person \tab 9th person \tab 7th person \tab no answer \tab 10th person \tab 14th person \tab not available in this release \tab Total \cr
@@ -57,36 +89,66 @@ Counts by year:\tabular{llllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} 1st person
-\item \code{2} 2nd person
-\item \code{3} 3rd person
-\item \code{4} 4th person
-\item \code{5} 5th person
-\item \code{6} 6th person
-\item \code{7} 7th person
-\item \code{8} 8th person
-\item \code{9} 9th person
-\item \code{10} 10th person
-\item \code{11} 11th person
-\item \code{12} 12th person
-\item \code{13} 13th person
-\item \code{14} 14th person
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1975 \tab -/-/-/- \tab full \cr
+   1976 \tab -/-/-/- \tab full \cr
+   1977 \tab -/-/-/- \tab full \cr
+   1978 \tab -/-/-/- \tab full \cr
+   1980 \tab -/-/-/- \tab full \cr
+   1982 \tab -/-/-/- \tab full \cr
+   1983 \tab -/-/-/- \tab full \cr
+   1984 \tab -/-/-/- \tab full \cr
+   1985 \tab -/-/-/- \tab full \cr
+   1986 \tab -/-/-/- \tab full \cr
+   1987 \tab -/-/-/- \tab full \cr
+   1988 \tab A/B/C/- \tab full \cr
+   1989 \tab A/B/C/- \tab full \cr
+   1990 \tab A/B/C/- \tab full \cr
+   1991 \tab A/B/C/- \tab full \cr
+   1993 \tab A/B/C/- \tab full \cr
+   1994 \tab A/B/C/- \tab full \cr
+   1996 \tab A/B/C/- \tab full \cr
+   1998 \tab A/B/C/- \tab full \cr
+   2000 \tab A/B/C/- \tab full \cr
+   2002 \tab A/B/C/- \tab full \cr
+   2004 \tab A/B/C/- \tab full \cr
+   2006 \tab A/B/C/D \tab full \cr
+   2008 \tab A/B/C/- \tab full \cr
+   2010 \tab A/B/C/- \tab full \cr
+   2012 \tab A/B/C/- \tab full \cr
+   2014 \tab A/B/C/- \tab full \cr
+   2016 \tab A/B/C/- \tab full \cr
+   2018 \tab A/B/C/- \tab full \cr
+   2021 \tab A/B/C/- \tab full \cr
+   2022 \tab A/B/C/- \tab full \cr
 }
 }
 
+\seealso{
+Other Household Members and Structure: 
+\code{\link{hefinfo}},
+\code{\link{hhrace}},
+\code{\link{relhhd10}},
+\code{\link{relhhd11}},
+\code{\link{relhhd12}},
+\code{\link{relhhd13}},
+\code{\link{relhhd14}},
+\code{\link{relhhd8}},
+\code{\link{relhhd9}}
+
+Other Household: 
+\code{\link{hefinfo}},
+\code{\link{hhrace}},
+\code{\link{relhhd10}},
+\code{\link{relhhd11}},
+\code{\link{relhhd12}},
+\code{\link{relhhd13}},
+\code{\link{relhhd14}},
+\code{\link{relhhd8}},
+\code{\link{relhhd9}}
+}
+\concept{Household}
+\concept{Household Members and Structure}
 \keyword{variable}

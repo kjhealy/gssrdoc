@@ -12,9 +12,33 @@ sexsex18
 \details{
 Question Since the age of 18, have your sex partners been:
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} only men
+\item \code{2} some women, but mostly men
+\item \code{3} equally men and women
+\item \code{4} some men, but mostly women
+\item \code{5} only women
+\item \code{6} i have not had any sex partners
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3906/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab don't know \tab equally men and women \tab i have not had any sex partners \tab no answer \tab only men \tab only women \tab some men, but mostly women \tab some women, but mostly men \tab not available in this year \tab Total \cr
@@ -57,28 +81,25 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} only men
-\item \code{2} some women, but mostly men
-\item \code{3} equally men and women
-\item \code{4} some men, but mostly women
-\item \code{5} only women
-\item \code{6} i have not had any sex partners
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2008 \tab A/B/C \tab full \cr
+   2012 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Sexual Orientation: 
+\code{\link{toldsmsx}}
+
+Other Gays And Lesbians: 
+\code{\link{toldsmsx}}
+
+Other Sex: 
+\code{\link{toldsmsx}}
+}
+\concept{Gays And Lesbians}
+\concept{Sex}
+\concept{Sexual Orientation}
 \keyword{variable}

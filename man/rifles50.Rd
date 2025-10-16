@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 rifles50
 }
 \details{
-Question 1117. Currently under federal law, very high power, 50-caliber rifles that can penetrate armor from a mile away are available to people on the same basis as standard hunting rifles. Should such very high power rifles be 1) restricted only to the police and military, or 2) available to civilians like standard hunting rifles as they are at present?
+Question Currently under federal law, very high power, 50-caliber rifles that can penetrate armor from a mile away are available to people on the same basis as standard hunting rifles. Should such very high power rifles be 1) restricted Only to the police and military, or 2) available to civilians like standard hunting rifles as they are at present?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} restricted to the police and military
+\item \code{2} available to civilians like other hunting rifles
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3704/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab available to civilians like other hunting rifles \tab don't know \tab no answer \tab restricted to the police and military \tab not available in this year \tab Total \cr
@@ -57,24 +77,30 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} restricted to the police and military
-\item \code{2} available to civilians like other hunting rifles
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Gun Control: 
+\code{\link{guns911}},
+\code{\link{gunsales}},
+\code{\link{gunsdrnk}},
+\code{\link{gunsdrug}},
+\code{\link{othguns}},
+\code{\link{semiguns}}
+
+Other Guns: 
+\code{\link{guns911}},
+\code{\link{gunsales}},
+\code{\link{gunsdrnk}},
+\code{\link{gunsdrug}},
+\code{\link{othguns}},
+\code{\link{semiguns}}
+}
+\concept{Gun Control}
+\concept{Guns}
 \keyword{variable}

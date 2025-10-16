@@ -10,11 +10,36 @@ General Social Survey https://gss.norc.org
 paoth
 }
 \details{
-Question None
+Question A. What specific denomination is that, if any?
 }
+\section{Values}{
+
+\itemize{
+\item \code{149} polish catholic
+\item \code{196} empowerment temple
+\item \code{197} grace independent baptist church
+\item \code{198} new life
+\item \code{199} follower of christ
+\item \code{201} pathways christian church
+\item \code{204} renia de deus
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1065/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 111 \tab 116 \tab 12 \tab 120 \tab 132 \tab 18 \tab 20 \tab 23 \tab 3 \tab 31 \tab 32 \tab 33 \tab 35 \tab 36 \tab 37 \tab 40 \tab 43 \tab 44 \tab 45 \tab 46 \tab 51 \tab 54 \tab 56 \tab 57 \tab 58 \tab 59 \tab 60 \tab 61 \tab 64 \tab 65 \tab 68 \tab 69 \tab 7 \tab 70 \tab 71 \tab 74 \tab 8 \tab 80 \tab 81 \tab 83 \tab 96 \tab no answer \tab not available in this year \tab Total \cr
@@ -57,29 +82,35 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{149} polish catholic
-\item \code{196} empowerment temple
-\item \code{197} grace independent baptist church
-\item \code{198} new life
-\item \code{199} follower of christ
-\item \code{201} pathways christian church
-\item \code{204} renia de deus
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1988 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Religion: 
+\code{\link{churhsch}},
+\code{\link{mafund}},
+\code{\link{majew}},
+\code{\link{maoth}},
+\code{\link{paden}},
+\code{\link{pafund}},
+\code{\link{pajew}},
+\code{\link{parelig}},
+\code{\link{sunsch16}}
+
+Other Religion: 
+\code{\link{churhsch}},
+\code{\link{mafund}},
+\code{\link{majew}},
+\code{\link{maoth}},
+\code{\link{paden}},
+\code{\link{pafund}},
+\code{\link{pajew}},
+\code{\link{parelig}},
+\code{\link{sunsch16}}
+}
+\concept{Religion}
 \keyword{variable}

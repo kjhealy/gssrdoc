@@ -10,11 +10,37 @@ General Social Survey https://gss.norc.org
 relvisit
 }
 \details{
-Question 1207a. How often do you see or visit with this relative?
+Question Thinking of all the adult relatives, which one do you have the most contact with?
+A. How often do you see or visit with this relative?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} lives in hshld
+\item \code{2} daily
+\item \code{3} several x week
+\item \code{4} once a week
+\item \code{5} once a month
+\item \code{6} several x year
+\item \code{7} less often
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4159/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab daily \tab don't know \tab less often \tab lives in hshld \tab no answer \tab once a month \tab once a week \tab several x week \tab several x year \tab not available in this year \tab Total \cr
@@ -57,29 +83,34 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} lives in hshld
-\item \code{2} daily
-\item \code{3} several x week
-\item \code{4} once a week
-\item \code{5} once a month
-\item \code{6} several x year
-\item \code{7} less often
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1986 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Social Networks & Support Systems: 
+\code{\link{grkidnum}},
+\code{\link{grparnum}},
+\code{\link{inlawnum}},
+\code{\link{marcohab}},
+\code{\link{posslqy}},
+\code{\link{relmost}},
+\code{\link{relnum}},
+\code{\link{reltime}},
+\code{\link{unaunum}}
+
+Other Family: 
+\code{\link{grkidnum}},
+\code{\link{grparnum}},
+\code{\link{inlawnum}},
+\code{\link{relmost}},
+\code{\link{relnum}},
+\code{\link{reltime}},
+\code{\link{unaunum}}
+}
+\concept{Family}
+\concept{ISSP Social Networks & Support Systems}
 \keyword{variable}

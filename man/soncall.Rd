@@ -10,11 +10,36 @@ General Social Survey https://gss.norc.org
 soncall
 }
 \details{
-Question 1204c. And how often do you have any other contact with your son besides visiting, either by telephone or letter?
+Question How many sons age 18 or older do you have? (We mean sons who are still alive; please include step-sons, half-sons, and adopted sons.)
+C. And how often do you have any other contact with your son besides visiting, either by telephone or letter?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} daily
+\item \code{2} several x week
+\item \code{3} once a week
+\item \code{4} once a month
+\item \code{5} several x year
+\item \code{6} less often
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4150/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab daily \tab less often \tab no answer \tab once a month \tab once a week \tab several x week \tab several x year \tab not available in this year \tab Total \cr
@@ -57,28 +82,36 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} daily
-\item \code{2} several x week
-\item \code{3} once a week
-\item \code{4} once a month
-\item \code{5} several x year
-\item \code{6} less often
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1986 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Social Networks & Support Systems: 
+\code{\link{brocall}},
+\code{\link{daucall}},
+\code{\link{daunum}},
+\code{\link{dautime}},
+\code{\link{dauvisit}},
+\code{\link{posslq}},
+\code{\link{sonnum}},
+\code{\link{sontime}},
+\code{\link{sonvisit}}
+
+Other Family: 
+\code{\link{brocall}},
+\code{\link{daucall}},
+\code{\link{daunum}},
+\code{\link{dautime}},
+\code{\link{dauvisit}},
+\code{\link{posslq}},
+\code{\link{sonnum}},
+\code{\link{sontime}},
+\code{\link{sonvisit}}
+}
+\concept{Family}
+\concept{ISSP Social Networks & Support Systems}
 \keyword{variable}

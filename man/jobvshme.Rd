@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 jobvshme
 }
 \details{
-Question 458. In the last few years, how often would you say that your family or household responsibilities have interfered with your ability to devote full attention to your job?
+Question In the last few years, how often would you say that your family or household responsibilities have interfered with  your ability to devote full attention to your job? Does this happen frequently, sometimes, seldom or never?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} frequently
+\item \code{2} sometimes
+\item \code{3} seldom
+\item \code{4} never
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1364/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab frequently \tab never \tab no answer \tab seldom \tab sometimes \tab not available in this year \tab Total \cr
@@ -57,26 +79,35 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} frequently
-\item \code{2} sometimes
-\item \code{3} seldom
-\item \code{4} never
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1991 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Work Organizations: 
+\code{\link{cowrkrel}},
+\code{\link{fringe10}},
+\code{\link{fringe11}},
+\code{\link{fringe7}},
+\code{\link{fringe8}},
+\code{\link{fringe9}},
+\code{\link{schoolng}},
+\code{\link{unmanrel}},
+\code{\link{unvote}}
+
+Other Job: 
+\code{\link{cowrkrel}},
+\code{\link{fringe10}},
+\code{\link{fringe11}},
+\code{\link{fringe7}},
+\code{\link{fringe8}},
+\code{\link{fringe9}},
+\code{\link{schoolng}},
+\code{\link{unmanrel}}
+}
+\concept{Job}
+\concept{Work Organizations}
 \keyword{variable}

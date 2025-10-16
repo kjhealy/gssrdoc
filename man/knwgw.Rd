@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 knwgw
 }
 \details{
-Question 1074. We want to ask about how much information you have on various topics. Please look at Card B21. For each of the following areas, please indicate whether you are very informed, somewhat informed, neither informed nor uninformed, somewhat uniformed, or very uninformed about the issues. d. Global warming
+Question We want to ask about how much information you have on various topics. Please look at Card B21. For each of the following areas, please indicate whether you are very informed, somewhat informed, neither informed nor uninformed, somewhat uniformed, or very uninformed about the issues.
+D. Global warming
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very informed
+\item \code{2} somewhat informed
+\item \code{3} neither informed nor uninformed
+\item \code{4} somewhat uninformed
+\item \code{5} very uninformed
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3417/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab don't know \tab neither informed nor uninformed \tab no answer \tab somewhat informed \tab somewhat uninformed \tab very informed \tab very uninformed \tab not available in this year \tab Total \cr
@@ -57,27 +81,42 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very informed
-\item \code{2} somewhat informed
-\item \code{3} neither informed nor uninformed
-\item \code{4} somewhat uninformed
-\item \code{5} very uninformed
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{accntsci}},
+\code{\link{biosci}},
+\code{\link{econsci}},
+\code{\link{engnrsci}},
+\code{\link{knwecon}},
+\code{\link{knwforgn}},
+\code{\link{knwpolar}},
+\code{\link{knwsci}},
+\code{\link{medsci}}
+
+Other Knowledge: 
+\code{\link{knwecon}},
+\code{\link{knwforgn}},
+\code{\link{knwpolar}},
+\code{\link{knwsci}}
+
+Other Science: 
+\code{\link{accntsci}},
+\code{\link{biosci}},
+\code{\link{econsci}},
+\code{\link{engnrsci}},
+\code{\link{knwpolar}},
+\code{\link{knwsci}},
+\code{\link{medsci}}
+}
+\concept{Environment}
+\concept{Knowledge}
+\concept{Science}
+\concept{Science Knowledge & Attitudes}
 \keyword{variable}

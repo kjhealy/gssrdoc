@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 wwwline1
 }
 \details{
-Question At your home are you connected to the World Wide Web through a regular telephone line connected to your computer, or through some other means?
+Question C. At your home are you connected to the World Wide Web through a regular telephone line connected to your computer, or through some other means?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} regular telephone line
+\item \code{2} other means
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2554/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab no answer \tab other means \tab regular telephone line \tab not available in this year \tab Total \cr
@@ -57,24 +77,37 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} regular telephone line
-\item \code{2} other means
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/- \tab partial \cr
+   2002 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Information Society: 
+\code{\link{comphome}},
+\code{\link{ecomhrh}},
+\code{\link{ecomminh}},
+\code{\link{numhome}},
+\code{\link{paywww}},
+\code{\link{perminh}},
+\code{\link{usehome}},
+\code{\link{wwwhome}},
+\code{\link{wwwline2}}
+
+Other Computers And Internet: 
+\code{\link{comphome}},
+\code{\link{ecomhrh}},
+\code{\link{ecomminh}},
+\code{\link{numhome}},
+\code{\link{paywww}},
+\code{\link{perminh}},
+\code{\link{usehome}},
+\code{\link{wwwhome}},
+\code{\link{wwwline2}}
+}
+\concept{Computers And Internet}
+\concept{Information Society}
 \keyword{variable}

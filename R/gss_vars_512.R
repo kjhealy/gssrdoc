@@ -1,11 +1,211 @@
+#'  Life meaningful only if you provide meaning
+#' 
+#'  egomeans
+#' 
+#' Question Do you agree or disagree with the following. . . 
+#' F. Life is only meaningful if you provide the meaning yourself.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` neither agree nor disagree
+#'   * `4` disagree
+#'   * `5` strongly disagree
+#'   * `NA(d)` can't choose
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4662/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |agree |can't choose |disagree |neither agree nor disagree |no answer |strongly agree |strongly disagree |not available in this year |Total |
+#'  |:-----|:-----|:-----|:------------|:--------|:--------------------------|:---------|:--------------|:-----------------|:--------------------------|:-----|
+#'  |1972  |1613  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1613  |
+#'  |1973  |1504  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1504  |
+#'  |1974  |1484  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1484  |
+#'  |1975  |1490  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1490  |
+#'  |1976  |1499  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1499  |
+#'  |1977  |1530  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1530  |
+#'  |1978  |1532  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1532  |
+#'  |1980  |1468  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1468  |
+#'  |1982  |1860  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1860  |
+#'  |1983  |1599  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1599  |
+#'  |1984  |1473  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1473  |
+#'  |1985  |1534  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1534  |
+#'  |1986  |1470  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1470  |
+#'  |1987  |1819  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1819  |
+#'  |1988  |1481  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1481  |
+#'  |1989  |1537  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1537  |
+#'  |1990  |1372  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1372  |
+#'  |1991  |158   |476   |49           |192      |186                        |68        |280            |108               |-                          |1517  |
+#'  |1993  |1606  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1606  |
+#'  |1994  |2992  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2992  |
+#'  |1996  |2904  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2904  |
+#'  |1998  |1548  |417   |50           |251      |219                        |69        |126            |152               |-                          |2832  |
+#'  |2000  |2817  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2817  |
+#'  |2002  |2765  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2765  |
+#'  |2004  |2812  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2812  |
+#'  |2006  |4510  |-     |-            |-        |-                          |-         |-              |-                 |-                          |4510  |
+#'  |2008  |658   |464   |21           |336      |190                        |4         |192            |158               |-                          |2023  |
+#'  |2010  |2044  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2044  |
+#'  |2012  |1974  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1974  |
+#'  |2014  |2538  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2538  |
+#'  |2016  |2867  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2867  |
+#'  |2018  |1173  |381   |14           |297      |158                        |7         |177            |141               |-                          |2348  |
+#'  |2021  |4032  |-     |-            |-        |-                          |-         |-              |-                 |-                          |4032  |
+#'  |2022  |-     |-     |-            |-        |-                          |-         |-              |-                 |3544                       |3544  |
+#'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |3309                       |3309  |
+#'  |Total |63663 |1738  |134          |1076     |753                        |148       |775            |559               |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2008 |B/C/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Religion
+#' @family Religion
+#' @family World View
+#' 
+#' @keywords variable
+#' @md
+#' @name egomeans
+NULL
+
+
+#'  We each make our own fate
+#' 
+#'  ownfate
+#' 
+#' Question Do you agree or disagree with the following. . . 
+#' G. We each make our own fate.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` neither agree nor disagree
+#'   * `4` disagree
+#'   * `5` strongly disagree
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4663/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |agree |disagree |don't know |neither agree nor disagree |no answer |strongly agree |strongly disagree |not available in this year |Total |
+#'  |:-----|:-----|:-----|:--------|:----------|:--------------------------|:---------|:--------------|:-----------------|:--------------------------|:-----|
+#'  |1972  |1613  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1613  |
+#'  |1973  |1504  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1504  |
+#'  |1974  |1484  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1484  |
+#'  |1975  |1490  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1490  |
+#'  |1976  |1499  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1499  |
+#'  |1977  |1530  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1530  |
+#'  |1978  |1532  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1532  |
+#'  |1980  |1468  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1468  |
+#'  |1982  |1860  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1860  |
+#'  |1983  |1599  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1599  |
+#'  |1984  |1473  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1473  |
+#'  |1985  |1534  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1534  |
+#'  |1986  |1470  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1470  |
+#'  |1987  |1819  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1819  |
+#'  |1988  |1481  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1481  |
+#'  |1989  |1537  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1537  |
+#'  |1990  |1372  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1372  |
+#'  |1991  |158   |517   |145      |50         |254                        |68        |266            |59                |-                          |1517  |
+#'  |1993  |1606  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1606  |
+#'  |1994  |2992  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2992  |
+#'  |1996  |2904  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2904  |
+#'  |1998  |1548  |510   |149      |44         |237                        |65        |200            |79                |-                          |2832  |
+#'  |2000  |2817  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2817  |
+#'  |2002  |2765  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2765  |
+#'  |2004  |2812  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2812  |
+#'  |2006  |4510  |-     |-        |-          |-                          |-         |-              |-                 |-                          |4510  |
+#'  |2008  |2023  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2023  |
+#'  |2010  |2044  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2044  |
+#'  |2012  |1974  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1974  |
+#'  |2014  |2538  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2538  |
+#'  |2016  |2867  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2867  |
+#'  |2018  |2348  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2348  |
+#'  |2021  |4032  |-     |-        |-          |-                          |-         |-              |-                 |-                          |4032  |
+#'  |2022  |-     |-     |-        |-          |-                          |-         |-              |-                 |3544                       |3544  |
+#'  |2024  |-     |-     |-        |-          |-                          |-         |-              |-                 |3309                       |3309  |
+#'  |Total |66203 |1027  |294      |94         |491                        |133       |466            |138               |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Religion
+#' @family Religion
+#' @family World View
+#' 
+#' @keywords variable
+#' @md
+#' @name ownfate
+NULL
+
+
 #'  Turning point in life for religion
 #' 
 #'  relexper
 #' 
-#' Question 1385. Has there ever been a turning point in your life when you made a new and personal commitment to religion?
+#' Question Has there ever been a turning point in your life when you made a new and personal commitment to religion?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4664/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,10 +248,48 @@
 #'  |2024  |-     |-          |-    |-         |-    |3309                       |3309  |
 #'  |Total |57804 |42         |6183 |133       |4684 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Religion
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name relexper
+NULL
+
+
+#'  Mothers religion when r was child
+#' 
+#'  marelkid
+#' 
+#' Question What was your mother's religious preference when you were a child? Was it Protestant, Catholic, Jewish, some other religion, or no religion?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` protestant
+#'   * `2` catholic
+#'   * `3` jewish
+#'   * `4` none
+#'   * `5` other
+#'   * `6` buddhism
+#'   * `7` hinduism
+#'   * `8` other eastern religions
+#'   * `9` muslim/islam
+#'   * `10` orthodox-christian
+#'   * `11` native american
+#'   * `12` other christian
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -65,22 +303,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name relexper
-NULL
-
-#'  Mothers religion when r was child
-#' 
-#'  marelkid
-#' 
-#' Question 1386. What was your mother's religious preference when you were a child? Was it Protestant, Catholic, Jewish, some other religion, or no religion?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4665/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,20 +347,275 @@ NULL
 #'  |2024  |-     |-        |-        |-          |-        |-      |-         |-    |-     |-          |3309                       |3309  |
 #'  |Total |63663 |64       |1569     |169        |262      |99     |78        |37   |27    |2878       |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2008 |B/C/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Religion
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name marelkid
+NULL
+
+
+#'  If protestant, mothers denomination
+#' 
+#'  madenkid
+#' 
+#' Question What was your mother's religious preference when you were a child? Was it Protestant, Catholic, Jewish, some other religion, or no religion? 
+#' A.  If Protestant, what specific denomination was that?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` protestant
-#'   * `2` catholic
-#'   * `3` jewish
-#'   * `4` none
-#'   * `5` other
-#'   * `6` buddhism
-#'   * `7` hinduism
-#'   * `8` other eastern religions
-#'   * `9` muslim/islam
-#'   * `10` orthodox-christian
-#'   * `11` native american
-#'   * `12` other christian
+#'   * `10000` american baptist association
+#'   * `11000` american baptist churches in the u.s.a.
+#'   * `12000` national baptist convention of america
+#'   * `13000` national baptist convention u.s.a., inc.
+#'   * `14000` southern baptist convention
+#'   * `15000` other baptist churches
+#'   * `18000` baptist, don't know which
+#'   * `20000` african methodist episcopal church
+#'   * `21000` african methodist episcopal zion church
+#'   * `22000` united methodist church
+#'   * `23000` other methodist churches
+#'   * `28000` methodist, don't know which
+#'   * `30000` american lutheran church
+#'   * `31000` lutheran church in america
+#'   * `32000` lutheran church - missouri synod
+#'   * `33000` wisconsin evangelical lutheran synod
+#'   * `34000` other lutheran churches
+#'   * `35000` evangelical lutheran
+#'   * `38000` lutheran, don't know which
+#'   * `40000` presbyterian church in the u.s.
+#'   * `41000` united presbyterian church in the u.s.a.
+#'   * `42000` other presbyterian churches
+#'   * `43000` presbyterian church u.s.a.
+#'   * `48000` presbyterian, don't know which
+#'   * `50000` episcopal church
+#'   * `60001` hungarian reformed
+#'   * `60002` evangelical congregational
+#'   * `60003` ind bible, bible, bible fellowship
+#'   * `60005` church of prophecy
+#'   * `60006` new testament christian
+#'   * `60007` church of god, saint & christ
+#'   * `60008` moravian
+#'   * `60009` christian & missionary alliance
+#'   * `60010` advent christian
+#'   * `60011` spiritualist
+#'   * `60012` assembly of god
+#'   * `60013` free methodist
+#'   * `60014` apostolic faith
+#'   * `60015` african methodist
+#'   * `60016` free will baptist
+#'   * `60017` eden evangelist
+#'   * `60018` holiness (nazarene)
+#'   * `60019` baptist (northern)
+#'   * `60020` brethren church, brethren
+#'   * `60021` witness holiness
+#'   * `60022` brethren, plymouth
+#'   * `60023` united brethren, united brethren in christ
+#'   * `60024` independent
+#'   * `60025` christian disciples
+#'   * `60026` christ in christian union
+#'   * `60027` open bible
+#'   * `60028` christian catholic
+#'   * `60029` christ church unity
+#'   * `60030` christ adelphians
+#'   * `60031` christian; central christian
+#'   * `60032` christian reform
+#'   * `60033` christian scientist
+#'   * `60034` church of christ, evangelical
+#'   * `60035` church of christ
+#'   * `60036` churches of god (except with christ and holiness)
+#'   * `60037` church of god in christ
+#'   * `60038` church of god in christ holiness
+#'   * `60039` church of the living god
+#'   * `60040` congregationalist, 1st congreg
+#'   * `60041` community church
+#'   * `60042` covenant
+#'   * `60043` dutch reform
+#'   * `60044` disciples of christ
+#'   * `60045` evangelical, evangelist
+#'   * `60046` evangelical reformed
+#'   * `60047` evangelist free church
+#'   * `60048` first church
+#'   * `60049` first christian disciples of christ
+#'   * `60050` first reformed
+#'   * `60051` first christian
+#'   * `60052` full gospel
+#'   * `60053` four square gospel
+#'   * `60054` friends
+#'   * `60055` holy roller
+#'   * `60056` holiness; church of holiness
+#'   * `60057` pilgrim holiness
+#'   * `60058` jehovah''s witnesses
+#'   * `60059` lds
+#'   * `60060` lds--mormon
+#'   * `60061` lds--reorganized
+#'   * `60062` lds--jesus christ; church of jesus lds
+#'   * `60063` mennonite
+#'   * `60064` mormon
+#'   * `60065` nazarene
+#'   * `60066` pentecostal assembly of god
+#'   * `60067` pentecostal church of god
+#'   * `60068` pentecostal
+#'   * `60069` pentecostal holiness, holiness pentecostal
+#'   * `60070` quaker
+#'   * `60071` reformed
+#'   * `60072` reformed united church of christ
+#'   * `60073` reformed church of christ
+#'   * `60074` religious science
+#'   * `60075` mind science
+#'   * `60076` salvation army
+#'   * `60077` 7th day adventist
+#'   * `60078` sanctified, sanctification
+#'   * `60079` united holiness
+#'   * `60080` unitarian, universalist
+#'   * `60081` united church of christ
+#'   * `60082` united church, unity church
+#'   * `60083` wesleyan
+#'   * `60084` wesleyan methodist--pilgrim
+#'   * `60085` zion union
+#'   * `60086` zion union apostolic
+#'   * `60087` zion union apostolic--reformed
+#'   * `60088` disciples of god
+#'   * `60089` grace reformed
+#'   * `60090` holiness church of god
+#'   * `60091` evangelical covenant
+#'   * `60092` mission covenant
+#'   * `60093` missionary baptist
+#'   * `60094` swedish mission
+#'   * `60095` unity
+#'   * `60096` united church of christianity
+#'   * `60097` other fundamentalist
+#'   * `60098` federated church
+#'   * `60099` american reform
+#'   * `60100` grace brethren
+#'   * `60101` christ in god
+#'   * `60102` charismatic
+#'   * `60103` pentecostal apostolic
+#'   * `60104` house of prayer
+#'   * `60105` latvian lutheran
+#'   * `60106` triumph church of god
+#'   * `60107` apostolic christian
+#'   * `60108` christ cathedral of truth
+#'   * `60109` bible missionary
+#'   * `60110` calvary bible
+#'   * `60111` amish
+#'   * `60112` evangelical methodist
+#'   * `60113` worldwide church of god
+#'   * `60114` church universal and triumphant
+#'   * `60115` mennonite brethren
+#'   * `60116` church of the first born
+#'   * `60117` missionary church
+#'   * `60118` the way ministry
+#'   * `60119` united church of canada
+#'   * `60120` evangelical united brethren
+#'   * `60121` the church of god of prophecy
+#'   * `60122` chapel of faith
+#'   * `60123` polish national church
+#'   * `60124` faith gospel tabernacle
+#'   * `60125` christian calvary chapel
+#'   * `60126` carmelite
+#'   * `60127` church of daniel's band
+#'   * `60128` christian tabernacle
+#'   * `60129` living word
+#'   * `60130` true light church of christ
+#'   * `60131` macedonia
+#'   * `60132` brother of christ
+#'   * `60133` primitive baptist
+#'   * `60134` independent fundamental church of america
+#'   * `60135` chinese gospel church
+#'   * `60136` new age spirituality
+#'   * `60137` new song
+#'   * `60138` apostolic church
+#'   * `60139` faith christian
+#'   * `60140` people's church
+#'   * `60141` new birth christian
+#'   * `60142` unity school of christianity
+#'   * `60143` assyrian evangelist church
+#'   * `60144` spirit of christ
+#'   * `60145` church of jesus christ of the restoration
+#'   * `60146` laotian christian
+#'   * `60148` schwenkfelder
+#'   * `60149` polish catholic
+#'   * `60150` zwinglian
+#'   * `60151` world overcomer outreach ministry
+#'   * `60152` course in miracles
+#'   * `60153` unity of the brethren
+#'   * `60154` spirit filled
+#'   * `60155` christian union
+#'   * `60156` church of living christ
+#'   * `60157` community of christ
+#'   * `60158` new hope christian fellowship
+#'   * `60159` community christian fellowship
+#'   * `60160` friends in christ
+#'   * `60161` hawaiian ohana
+#'   * `60162` reformed church of jesus christ of latter day saints
+#'   * `60163` swedenurgian/churches of the new jerusalem
+#'   * `60164` divine science
+#'   * `60166` united christian
+#'   * `60167` sanctuary
+#'   * `60168` rain on us deliverance ministries
+#'   * `60169` the word church
+#'   * `60170` cornerstone church
+#'   * `60171` life sanctuary
+#'   * `60172` word of faith church
+#'   * `60173` harvest church
+#'   * `60174` shephard''s chapel
+#'   * `60175` greater new testament church
+#'   * `60176` vineyard church
+#'   * `60177` real life ministries
+#'   * `60178` cathedral of joy
+#'   * `60179` great faith ministries
+#'   * `60180` shield of faith ministries
+#'   * `60181` born again
+#'   * `60182` alliance
+#'   * `60183` jacobite apostolic
+#'   * `60184` church of god of israel
+#'   * `60185` journeys
+#'   * `60186` national progressive baptist
+#'   * `60187` new apostolic
+#'   * `60188` metropolitan community
+#'   * `60189` family life church
+#'   * `60190` faith fellowship
+#'   * `60191` faith covenant
+#'   * `60192` new thought
+#'   * `60193` free spirit ministry
+#'   * `60194` jacobite syrian christian church
+#'   * `60195` the ark church
+#'   * `60196` empowerment temple
+#'   * `60197` grace independent baptist church
+#'   * `60198` new life
+#'   * `60199` follower of christ
+#'   * `60200` north country chapel
+#'   * `60201` pathways christian church
+#'   * `60202` messianic christian
+#'   * `60203` warehouse ministries
+#'   * `60204` universal church of the kingdom of god
+#'   * `60205` assembly of christ
+#'   * `60206` the amana church
+#'   * `60207` the legacy church
+#'   * `60208` calvary
+#'   * `60209` church of the living god
+#'   * `60210` ethiopian evangelical church
+#'   * `60211` disciple of jesus
+#'   * `60212` scandinavian church
+#'   * `60213` hebrew roots
+#'   * `60214` hebrew isrealites
+#'   * `60215` armenian apostolic church
+#'   * `60216` word of jesus
+#'   * `60217` old testament
+#'   * `70000` no denomination given or non-denom. church
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -150,22 +629,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name marelkid
-NULL
-
-#'  If protestant, mothers denomination
-#' 
-#'  madenkid
-#' 
-#' Question 1386a. If Protestant, what specific denomination was that?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4666/vshow).
 #'
 #' Counts by year: 
 #'
@@ -208,248 +673,46 @@ NULL
 #'  |2024  |-     |-                 |-                                  |-                                       |-                            |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                           |-                       |-               |-                                   |-              |-                 |-           |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-         |-                           |-                |-                  |-        |-      |-        |-                   |-                       |-         |-                                          |-                      |-                    |-                       |-                        |-           |-                           |-                |-                          |-                              |-                 |-      |-        |-                          |-                           |-                       |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                                |-                    |-                    |-           |-                          |-              |-                                       |-               |-                         |-           |-                               |-                                  |-                 |-                                      |-                                        |-                               |-                                          |-                         |3309                       |3309  |
 #'  |Total |65961 |26                |36                                 |6                                       |20                           |17                       |18              |662                       |6                |11                  |116                          |51               |5                       |25                                                |25                             |3        |11                  |91         |2            |84               |6                           |11                      |5               |1                                   |1              |12                |5           |14                           |34                   |23  |3                                      |5           |1                |22                               |193                        |8         |280                         |1                |10                 |2        |37     |8        |1                   |2                       |219       |93                                         |11                     |1                    |5                       |5                        |65          |1                           |2                |3                          |146                            |2                 |8      |8        |1                          |194                         |5                       |2                       |11                      |120                     |9                                        |3        |2                           |9                                    |2                       |1                |3                                |5                    |1                    |2           |8                          |1              |5                                       |1               |6                         |1           |3                               |1                                  |3                 |6                                      |3                                        |6                               |1                                          |1                         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2008 |B/C/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Religion
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name madenkid
+NULL
+
+
+#'  Father's religion when r was child
+#' 
+#'  parelkid
+#' 
+#' Question What was your father''s religious preference when you were a child? Was it Protestant, Catholic, Jewish, some other religion, or no religion?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `10000` american baptist association
-#'   * `11000` american baptist churches in the u.s.a.
-#'   * `12000` national baptist convention of america
-#'   * `13000` national baptist convention u.s.a., inc.
-#'   * `14000` southern baptist convention
-#'   * `15000` other baptist churches
-#'   * `18000` baptist, don't know which
-#'   * `20000` african methodist episcopal church
-#'   * `21000` african methodist episcopal zion church
-#'   * `22000` united methodist church
-#'   * `23000` other methodist churches
-#'   * `28000` methodist, don't know which
-#'   * `30000` american lutheran church
-#'   * `31000` lutheran church in america
-#'   * `32000` lutheran church - missouri synod
-#'   * `33000` wisconsin evangelical lutheran synod
-#'   * `34000` other lutheran churches
-#'   * `35000` evangelical lutheran
-#'   * `38000` lutheran, don't know which
-#'   * `40000` presbyterian church in the u.s.
-#'   * `41000` united presbyterian church in the u.s.a.
-#'   * `42000` other presbyterian churches
-#'   * `43000` presbyterian church u.s.a.
-#'   * `48000` presbyterian, don't know which
-#'   * `50000` episcopal church
-#'   * `60001` hungarian reformed
-#'   * `60002` evangelical congregational
-#'   * `60003` ind bible, bible, bible fellowship
-#'   * `60005` church of prophecy
-#'   * `60006` new testament christian
-#'   * `60007` church of god, saint & christ
-#'   * `60008` moravian
-#'   * `60009` christian & missionary alliance
-#'   * `60010` advent christian
-#'   * `60011` spiritualist
-#'   * `60012` assembly of god
-#'   * `60013` free methodist
-#'   * `60014` apostolic faith
-#'   * `60015` african methodist
-#'   * `60016` free will baptist
-#'   * `60017` eden evangelist
-#'   * `60018` holiness (nazarene)
-#'   * `60019` baptist (northern)
-#'   * `60020` brethren church, brethren
-#'   * `60021` witness holiness
-#'   * `60022` brethren, plymouth
-#'   * `60023` united brethren, united brethren in christ
-#'   * `60024` independent
-#'   * `60025` christian disciples
-#'   * `60026` christ in christian union
-#'   * `60027` open bible
-#'   * `60028` christian catholic
-#'   * `60029` christ church unity
-#'   * `60030` christ adelphians
-#'   * `60031` christian; central christian
-#'   * `60032` christian reform
-#'   * `60033` christian scientist
-#'   * `60034` church of christ, evangelical
-#'   * `60035` church of christ
-#'   * `60036` churches of god (except with christ and holiness)
-#'   * `60037` church of god in christ
-#'   * `60038` church of god in christ holiness
-#'   * `60039` church of the living god
-#'   * `60040` congregationalist, 1st congreg
-#'   * `60041` community church
-#'   * `60042` covenant
-#'   * `60043` dutch reform
-#'   * `60044` disciples of christ
-#'   * `60045` evangelical, evangelist
-#'   * `60046` evangelical reformed
-#'   * `60047` evangelist free church
-#'   * `60048` first church
-#'   * `60049` first christian disciples of christ
-#'   * `60050` first reformed
-#'   * `60051` first christian
-#'   * `60052` full gospel
-#'   * `60053` four square gospel
-#'   * `60054` friends
-#'   * `60055` holy roller
-#'   * `60056` holiness; church of holiness
-#'   * `60057` pilgrim holiness
-#'   * `60058` jehovah''s witnesses
-#'   * `60059` lds
-#'   * `60060` lds--mormon
-#'   * `60061` lds--reorganized
-#'   * `60062` lds--jesus christ; church of jesus lds
-#'   * `60063` mennonite
-#'   * `60064` mormon
-#'   * `60065` nazarene
-#'   * `60066` pentecostal assembly of god
-#'   * `60067` pentecostal church of god
-#'   * `60068` pentecostal
-#'   * `60069` pentecostal holiness, holiness pentecostal
-#'   * `60070` quaker
-#'   * `60071` reformed
-#'   * `60072` reformed united church of christ
-#'   * `60073` reformed church of christ
-#'   * `60074` religious science
-#'   * `60075` mind science
-#'   * `60076` salvation army
-#'   * `60077` 7th day adventist
-#'   * `60078` sanctified, sanctification
-#'   * `60079` united holiness
-#'   * `60080` unitarian, universalist
-#'   * `60081` united church of christ
-#'   * `60082` united church, unity church
-#'   * `60083` wesleyan
-#'   * `60084` wesleyan methodist--pilgrim
-#'   * `60085` zion union
-#'   * `60086` zion union apostolic
-#'   * `60087` zion union apostolic--reformed
-#'   * `60088` disciples of god
-#'   * `60089` grace reformed
-#'   * `60090` holiness church of god
-#'   * `60091` evangelical covenant
-#'   * `60092` mission covenant
-#'   * `60093` missionary baptist
-#'   * `60094` swedish mission
-#'   * `60095` unity
-#'   * `60096` united church of christianity
-#'   * `60097` other fundamentalist
-#'   * `60098` federated church
-#'   * `60099` american reform
-#'   * `60100` grace brethren
-#'   * `60101` christ in god
-#'   * `60102` charismatic
-#'   * `60103` pentecostal apostolic
-#'   * `60104` house of prayer
-#'   * `60105` latvian lutheran
-#'   * `60106` triumph church of god
-#'   * `60107` apostolic christian
-#'   * `60108` christ cathedral of truth
-#'   * `60109` bible missionary
-#'   * `60110` calvary bible
-#'   * `60111` amish
-#'   * `60112` evangelical methodist
-#'   * `60113` worldwide church of god
-#'   * `60114` church universal and triumphant
-#'   * `60115` mennonite brethren
-#'   * `60116` church of the first born
-#'   * `60117` missionary church
-#'   * `60118` the way ministry
-#'   * `60119` united church of canada
-#'   * `60120` evangelical united brethren
-#'   * `60121` the church of god of prophecy
-#'   * `60122` chapel of faith
-#'   * `60123` polish national church
-#'   * `60124` faith gospel tabernacle
-#'   * `60125` christian calvary chapel
-#'   * `60126` carmelite
-#'   * `60127` church of daniel's band
-#'   * `60128` christian tabernacle
-#'   * `60129` living word
-#'   * `60130` true light church of christ
-#'   * `60131` macedonia
-#'   * `60132` brother of christ
-#'   * `60133` primitive baptist
-#'   * `60134` independent fundamental church of america
-#'   * `60135` chinese gospel church
-#'   * `60136` new age spirituality
-#'   * `60137` new song
-#'   * `60138` apostolic church
-#'   * `60139` faith christian
-#'   * `60140` people's church
-#'   * `60141` new birth christian
-#'   * `60142` unity school of christianity
-#'   * `60143` assyrian evangelist church
-#'   * `60144` spirit of christ
-#'   * `60145` church of jesus christ of the restoration
-#'   * `60146` laotian christian
-#'   * `60148` schwenkfelder
-#'   * `60149` polish catholic
-#'   * `60150` zwinglian
-#'   * `60151` world overcomer outreach ministry
-#'   * `60152` course in miracles
-#'   * `60153` unity of the brethren
-#'   * `60154` spirit filled
-#'   * `60155` christian union
-#'   * `60156` church of living christ
-#'   * `60157` community of christ
-#'   * `60158` new hope christian fellowship
-#'   * `60159` community christian fellowship
-#'   * `60160` friends in christ
-#'   * `60161` hawaiian ohana
-#'   * `60162` reformed church of jesus christ of latter day saints
-#'   * `60163` swedenurgian/churches of the new jerusalem
-#'   * `60164` divine science
-#'   * `60166` united christian
-#'   * `60167` sanctuary
-#'   * `60168` rain on us deliverance ministries
-#'   * `60169` the word church
-#'   * `60170` cornerstone church
-#'   * `60171` life sanctuary
-#'   * `60172` word of faith church
-#'   * `60173` harvest church
-#'   * `60174` shephard''s chapel
-#'   * `60175` greater new testament church
-#'   * `60176` vineyard church
-#'   * `60177` real life ministries
-#'   * `60178` cathedral of joy
-#'   * `60179` great faith ministries
-#'   * `60180` shield of faith ministries
-#'   * `60181` born again
-#'   * `60182` alliance
-#'   * `60183` jacobite apostolic
-#'   * `60184` church of god of israel
-#'   * `60185` journeys
-#'   * `60186` national progressive baptist
-#'   * `60187` new apostolic
-#'   * `60188` metropolitan community
-#'   * `60189` family life church
-#'   * `60190` faith fellowship
-#'   * `60191` faith covenant
-#'   * `60192` new thought
-#'   * `60193` free spirit ministry
-#'   * `60194` jacobite syrian christian church
-#'   * `60195` the ark church
-#'   * `60196` empowerment temple
-#'   * `60197` grace independent baptist church
-#'   * `60198` new life
-#'   * `60199` follower of christ
-#'   * `60200` north country chapel
-#'   * `60201` pathways christian church
-#'   * `60202` messianic christian
-#'   * `60203` warehouse ministries
-#'   * `60204` universal church of the kingdom of god
-#'   * `60205` assembly of christ
-#'   * `60206` the amana church
-#'   * `60207` the legacy church
-#'   * `60208` calvary
-#'   * `60209` church of the living god
-#'   * `60210` ethiopian evangelical church
-#'   * `60211` disciple of jesus
-#'   * `60212` scandinavian church
-#'   * `60213` hebrew roots
-#'   * `60214` hebrew isrealites
-#'   * `60215` armenian apostolic church
-#'   * `60216` word of jesus
-#'   * `60217` old testament
-#'   * `70000` no denomination given or non-denom. church
+#'   * `1` protestant
+#'   * `2` catholic
+#'   * `3` jewish
+#'   * `4` none
+#'   * `5` other
+#'   * `6` buddhism
+#'   * `7` hinduism
+#'   * `8` other eastern religions
+#'   * `9` muslim/islam
+#'   * `10` orthodox-christian
+#'   * `11` native american
+#'   * `12` other christian
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -463,22 +726,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name madenkid
-NULL
-
-#'  Father's religion when r was child
-#' 
-#'  parelkid
-#' 
-#' Question 1387. What was your father's religious preference when you were a child? Was it Protestant, Catholic, Jewish, some other" religion, or no religion?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4667/vshow).
 #'
 #' Counts by year: 
 #'
@@ -521,20 +770,275 @@ NULL
 #'  |2024  |-     |-        |-        |-          |-        |-      |-         |-    |-     |-          |3309                       |3309  |
 #'  |Total |63663 |60       |1473     |433        |566      |105    |93        |25   |37    |2391       |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2008 |B/C/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Religion
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name parelkid
+NULL
+
+
+#'  If protestant, father's denomination
+#' 
+#'  padenkid
+#' 
+#' Question What was your father''s religious preference when you were a child? Was it Protestant, Catholic, Jewish, some other religion, or no religion? 
+#' A. If Protestant, what specific denomination was that?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` protestant
-#'   * `2` catholic
-#'   * `3` jewish
-#'   * `4` none
-#'   * `5` other
-#'   * `6` buddhism
-#'   * `7` hinduism
-#'   * `8` other eastern religions
-#'   * `9` muslim/islam
-#'   * `10` orthodox-christian
-#'   * `11` native american
-#'   * `12` other christian
+#'   * `10000` american baptist association
+#'   * `11000` american baptist churches in the u.s.a.
+#'   * `12000` national baptist convention of america
+#'   * `13000` national baptist convention u.s.a., inc.
+#'   * `14000` southern baptist convention
+#'   * `15000` other baptist churches
+#'   * `18000` baptist, don't know which
+#'   * `20000` african methodist episcopal church
+#'   * `21000` african methodist episcopal zion church
+#'   * `22000` united methodist church
+#'   * `23000` other methodist churches
+#'   * `28000` methodist, don't know which
+#'   * `30000` american lutheran church
+#'   * `31000` lutheran church in america
+#'   * `32000` lutheran church - missouri synod
+#'   * `33000` wisconsin evangelical lutheran synod
+#'   * `34000` other lutheran churches
+#'   * `35000` evangelical lutheran
+#'   * `38000` lutheran, don't know which
+#'   * `40000` presbyterian church in the u.s.
+#'   * `41000` united presbyterian church in the u.s.a.
+#'   * `42000` other presbyterian churches
+#'   * `43000` presbyterian church u.s.a.
+#'   * `48000` presbyterian, don't know which
+#'   * `50000` episcopal church
+#'   * `60001` hungarian reformed
+#'   * `60002` evangelical congregational
+#'   * `60003` ind bible, bible, bible fellowship
+#'   * `60005` church of prophecy
+#'   * `60006` new testament christian
+#'   * `60007` church of god, saint & christ
+#'   * `60008` moravian
+#'   * `60009` christian & missionary alliance
+#'   * `60010` advent christian
+#'   * `60011` spiritualist
+#'   * `60012` assembly of god
+#'   * `60013` free methodist
+#'   * `60014` apostolic faith
+#'   * `60015` african methodist
+#'   * `60016` free will baptist
+#'   * `60017` eden evangelist
+#'   * `60018` holiness (nazarene)
+#'   * `60019` baptist (northern)
+#'   * `60020` brethren church, brethren
+#'   * `60021` witness holiness
+#'   * `60022` brethren, plymouth
+#'   * `60023` united brethren, united brethren in christ
+#'   * `60024` independent
+#'   * `60025` christian disciples
+#'   * `60026` christ in christian union
+#'   * `60027` open bible
+#'   * `60028` christian catholic
+#'   * `60029` christ church unity
+#'   * `60030` christ adelphians
+#'   * `60031` christian; central christian
+#'   * `60032` christian reform
+#'   * `60033` christian scientist
+#'   * `60034` church of christ, evangelical
+#'   * `60035` church of christ
+#'   * `60036` churches of god (except with christ and holiness)
+#'   * `60037` church of god in christ
+#'   * `60038` church of god in christ holiness
+#'   * `60039` church of the living god
+#'   * `60040` congregationalist, 1st congreg
+#'   * `60041` community church
+#'   * `60042` covenant
+#'   * `60043` dutch reform
+#'   * `60044` disciples of christ
+#'   * `60045` evangelical, evangelist
+#'   * `60046` evangelical reformed
+#'   * `60047` evangelist free church
+#'   * `60048` first church
+#'   * `60049` first christian disciples of christ
+#'   * `60050` first reformed
+#'   * `60051` first christian
+#'   * `60052` full gospel
+#'   * `60053` four square gospel
+#'   * `60054` friends
+#'   * `60055` holy roller
+#'   * `60056` holiness; church of holiness
+#'   * `60057` pilgrim holiness
+#'   * `60058` jehovah''s witnesses
+#'   * `60059` lds
+#'   * `60060` lds--mormon
+#'   * `60061` lds--reorganized
+#'   * `60062` lds--jesus christ; church of jesus lds
+#'   * `60063` mennonite
+#'   * `60064` mormon
+#'   * `60065` nazarene
+#'   * `60066` pentecostal assembly of god
+#'   * `60067` pentecostal church of god
+#'   * `60068` pentecostal
+#'   * `60069` pentecostal holiness, holiness pentecostal
+#'   * `60070` quaker
+#'   * `60071` reformed
+#'   * `60072` reformed united church of christ
+#'   * `60073` reformed church of christ
+#'   * `60074` religious science
+#'   * `60075` mind science
+#'   * `60076` salvation army
+#'   * `60077` 7th day adventist
+#'   * `60078` sanctified, sanctification
+#'   * `60079` united holiness
+#'   * `60080` unitarian, universalist
+#'   * `60081` united church of christ
+#'   * `60082` united church, unity church
+#'   * `60083` wesleyan
+#'   * `60084` wesleyan methodist--pilgrim
+#'   * `60085` zion union
+#'   * `60086` zion union apostolic
+#'   * `60087` zion union apostolic--reformed
+#'   * `60088` disciples of god
+#'   * `60089` grace reformed
+#'   * `60090` holiness church of god
+#'   * `60091` evangelical covenant
+#'   * `60092` mission covenant
+#'   * `60093` missionary baptist
+#'   * `60094` swedish mission
+#'   * `60095` unity
+#'   * `60096` united church of christianity
+#'   * `60097` other fundamentalist
+#'   * `60098` federated church
+#'   * `60099` american reform
+#'   * `60100` grace brethren
+#'   * `60101` christ in god
+#'   * `60102` charismatic
+#'   * `60103` pentecostal apostolic
+#'   * `60104` house of prayer
+#'   * `60105` latvian lutheran
+#'   * `60106` triumph church of god
+#'   * `60107` apostolic christian
+#'   * `60108` christ cathedral of truth
+#'   * `60109` bible missionary
+#'   * `60110` calvary bible
+#'   * `60111` amish
+#'   * `60112` evangelical methodist
+#'   * `60113` worldwide church of god
+#'   * `60114` church universal and triumphant
+#'   * `60115` mennonite brethren
+#'   * `60116` church of the first born
+#'   * `60117` missionary church
+#'   * `60118` the way ministry
+#'   * `60119` united church of canada
+#'   * `60120` evangelical united brethren
+#'   * `60121` the church of god of prophecy
+#'   * `60122` chapel of faith
+#'   * `60123` polish national church
+#'   * `60124` faith gospel tabernacle
+#'   * `60125` christian calvary chapel
+#'   * `60126` carmelite
+#'   * `60127` church of daniel's band
+#'   * `60128` christian tabernacle
+#'   * `60129` living word
+#'   * `60130` true light church of christ
+#'   * `60131` macedonia
+#'   * `60132` brother of christ
+#'   * `60133` primitive baptist
+#'   * `60134` independent fundamental church of america
+#'   * `60135` chinese gospel church
+#'   * `60136` new age spirituality
+#'   * `60137` new song
+#'   * `60138` apostolic church
+#'   * `60139` faith christian
+#'   * `60140` people's church
+#'   * `60141` new birth christian
+#'   * `60142` unity school of christianity
+#'   * `60143` assyrian evangelist church
+#'   * `60144` spirit of christ
+#'   * `60145` church of jesus christ of the restoration
+#'   * `60146` laotian christian
+#'   * `60148` schwenkfelder
+#'   * `60149` polish catholic
+#'   * `60150` zwinglian
+#'   * `60151` world overcomer outreach ministry
+#'   * `60152` course in miracles
+#'   * `60153` unity of the brethren
+#'   * `60154` spirit filled
+#'   * `60155` christian union
+#'   * `60156` church of living christ
+#'   * `60157` community of christ
+#'   * `60158` new hope christian fellowship
+#'   * `60159` community christian fellowship
+#'   * `60160` friends in christ
+#'   * `60161` hawaiian ohana
+#'   * `60162` reformed church of jesus christ of latter day saints
+#'   * `60163` swedenurgian/churches of the new jerusalem
+#'   * `60164` divine science
+#'   * `60166` united christian
+#'   * `60167` sanctuary
+#'   * `60168` rain on us deliverance ministries
+#'   * `60169` the word church
+#'   * `60170` cornerstone church
+#'   * `60171` life sanctuary
+#'   * `60172` word of faith church
+#'   * `60173` harvest church
+#'   * `60174` shephard''s chapel
+#'   * `60175` greater new testament church
+#'   * `60176` vineyard church
+#'   * `60177` real life ministries
+#'   * `60178` cathedral of joy
+#'   * `60179` great faith ministries
+#'   * `60180` shield of faith ministries
+#'   * `60181` born again
+#'   * `60182` alliance
+#'   * `60183` jacobite apostolic
+#'   * `60184` church of god of israel
+#'   * `60185` journeys
+#'   * `60186` national progressive baptist
+#'   * `60187` new apostolic
+#'   * `60188` metropolitan community
+#'   * `60189` family life church
+#'   * `60190` faith fellowship
+#'   * `60191` faith covenant
+#'   * `60192` new thought
+#'   * `60193` free spirit ministry
+#'   * `60194` jacobite syrian christian church
+#'   * `60195` the ark church
+#'   * `60196` empowerment temple
+#'   * `60197` grace independent baptist church
+#'   * `60198` new life
+#'   * `60199` follower of christ
+#'   * `60200` north country chapel
+#'   * `60201` pathways christian church
+#'   * `60202` messianic christian
+#'   * `60203` warehouse ministries
+#'   * `60204` universal church of the kingdom of god
+#'   * `60205` assembly of christ
+#'   * `60206` the amana church
+#'   * `60207` the legacy church
+#'   * `60208` calvary
+#'   * `60209` church of the living god
+#'   * `60210` ethiopian evangelical church
+#'   * `60211` disciple of jesus
+#'   * `60212` scandinavian church
+#'   * `60213` hebrew roots
+#'   * `60214` hebrew isrealites
+#'   * `60215` armenian apostolic church
+#'   * `60216` word of jesus
+#'   * `60217` old testament
+#'   * `70000` no denomination given or non-denom. church
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -548,22 +1052,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name parelkid
-NULL
-
-#'  If protestant, father's denomination
-#' 
-#'  padenkid
-#' 
-#' Question 1387a. If Protestant, what specific denomination was that?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4668/vshow).
 #'
 #' Counts by year: 
 #'
@@ -606,248 +1096,46 @@ NULL
 #'  |2024  |-     |-                 |-                                  |-                            |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-                |-                           |-               |-                                   |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-         |-                           |-                |-                  |-      |-        |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                          |-                              |-                 |-      |-        |-                           |-                       |-                                          |-                       |-                       |-                           |-                       |-                                        |-        |-                           |-                                    |-                       |-                                       |-                |-               |-                         |-                |-                    |-                       |-            |-           |-           |-        |-         |-                                       |-           |-                               |-            |-                                  |-                          |-                                      |-                                        |-                               |-                         |-                                |-            |-                       |-                |3309                       |3309  |
 #'  |Total |66455 |18                |33                                 |10                           |14                       |15              |572                       |6                |7                   |93                           |35               |3                       |20                                                |26                             |2        |9                   |72         |68               |4                           |6               |1                                   |1              |6                 |13                           |24                   |18  |3                                      |7           |3                |24                               |171                        |6         |229                         |1                |9                  |28     |8        |220       |72                                         |6                      |3                       |4                        |2                           |39          |1                           |2                          |108                            |1                 |7      |7        |147                         |6                       |3                                          |2                       |8                       |1                           |96                      |4                                        |2        |2                           |8                                    |1                       |2                                       |1                |3               |8                         |1                |6                    |4                       |1            |3           |3           |2        |1         |6                                       |1           |4                               |1            |1                                  |5                          |6                                      |4                                        |6                               |1                         |1                                |1            |1                       |1                |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2008 |B/C/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Religion
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name padenkid
+NULL
+
+
+#'  Religion r was raised in
+#' 
+#'  religkid
+#' 
+#' Question What religion, if any, were you raised in? Was it Protestant, Catholic, Jewish, some other religion, or no religion?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `10000` american baptist association
-#'   * `11000` american baptist churches in the u.s.a.
-#'   * `12000` national baptist convention of america
-#'   * `13000` national baptist convention u.s.a., inc.
-#'   * `14000` southern baptist convention
-#'   * `15000` other baptist churches
-#'   * `18000` baptist, don't know which
-#'   * `20000` african methodist episcopal church
-#'   * `21000` african methodist episcopal zion church
-#'   * `22000` united methodist church
-#'   * `23000` other methodist churches
-#'   * `28000` methodist, don't know which
-#'   * `30000` american lutheran church
-#'   * `31000` lutheran church in america
-#'   * `32000` lutheran church - missouri synod
-#'   * `33000` wisconsin evangelical lutheran synod
-#'   * `34000` other lutheran churches
-#'   * `35000` evangelical lutheran
-#'   * `38000` lutheran, don't know which
-#'   * `40000` presbyterian church in the u.s.
-#'   * `41000` united presbyterian church in the u.s.a.
-#'   * `42000` other presbyterian churches
-#'   * `43000` presbyterian church u.s.a.
-#'   * `48000` presbyterian, don't know which
-#'   * `50000` episcopal church
-#'   * `60001` hungarian reformed
-#'   * `60002` evangelical congregational
-#'   * `60003` ind bible, bible, bible fellowship
-#'   * `60005` church of prophecy
-#'   * `60006` new testament christian
-#'   * `60007` church of god, saint & christ
-#'   * `60008` moravian
-#'   * `60009` christian & missionary alliance
-#'   * `60010` advent christian
-#'   * `60011` spiritualist
-#'   * `60012` assembly of god
-#'   * `60013` free methodist
-#'   * `60014` apostolic faith
-#'   * `60015` african methodist
-#'   * `60016` free will baptist
-#'   * `60017` eden evangelist
-#'   * `60018` holiness (nazarene)
-#'   * `60019` baptist (northern)
-#'   * `60020` brethren church, brethren
-#'   * `60021` witness holiness
-#'   * `60022` brethren, plymouth
-#'   * `60023` united brethren, united brethren in christ
-#'   * `60024` independent
-#'   * `60025` christian disciples
-#'   * `60026` christ in christian union
-#'   * `60027` open bible
-#'   * `60028` christian catholic
-#'   * `60029` christ church unity
-#'   * `60030` christ adelphians
-#'   * `60031` christian; central christian
-#'   * `60032` christian reform
-#'   * `60033` christian scientist
-#'   * `60034` church of christ, evangelical
-#'   * `60035` church of christ
-#'   * `60036` churches of god (except with christ and holiness)
-#'   * `60037` church of god in christ
-#'   * `60038` church of god in christ holiness
-#'   * `60039` church of the living god
-#'   * `60040` congregationalist, 1st congreg
-#'   * `60041` community church
-#'   * `60042` covenant
-#'   * `60043` dutch reform
-#'   * `60044` disciples of christ
-#'   * `60045` evangelical, evangelist
-#'   * `60046` evangelical reformed
-#'   * `60047` evangelist free church
-#'   * `60048` first church
-#'   * `60049` first christian disciples of christ
-#'   * `60050` first reformed
-#'   * `60051` first christian
-#'   * `60052` full gospel
-#'   * `60053` four square gospel
-#'   * `60054` friends
-#'   * `60055` holy roller
-#'   * `60056` holiness; church of holiness
-#'   * `60057` pilgrim holiness
-#'   * `60058` jehovah''s witnesses
-#'   * `60059` lds
-#'   * `60060` lds--mormon
-#'   * `60061` lds--reorganized
-#'   * `60062` lds--jesus christ; church of jesus lds
-#'   * `60063` mennonite
-#'   * `60064` mormon
-#'   * `60065` nazarene
-#'   * `60066` pentecostal assembly of god
-#'   * `60067` pentecostal church of god
-#'   * `60068` pentecostal
-#'   * `60069` pentecostal holiness, holiness pentecostal
-#'   * `60070` quaker
-#'   * `60071` reformed
-#'   * `60072` reformed united church of christ
-#'   * `60073` reformed church of christ
-#'   * `60074` religious science
-#'   * `60075` mind science
-#'   * `60076` salvation army
-#'   * `60077` 7th day adventist
-#'   * `60078` sanctified, sanctification
-#'   * `60079` united holiness
-#'   * `60080` unitarian, universalist
-#'   * `60081` united church of christ
-#'   * `60082` united church, unity church
-#'   * `60083` wesleyan
-#'   * `60084` wesleyan methodist--pilgrim
-#'   * `60085` zion union
-#'   * `60086` zion union apostolic
-#'   * `60087` zion union apostolic--reformed
-#'   * `60088` disciples of god
-#'   * `60089` grace reformed
-#'   * `60090` holiness church of god
-#'   * `60091` evangelical covenant
-#'   * `60092` mission covenant
-#'   * `60093` missionary baptist
-#'   * `60094` swedish mission
-#'   * `60095` unity
-#'   * `60096` united church of christianity
-#'   * `60097` other fundamentalist
-#'   * `60098` federated church
-#'   * `60099` american reform
-#'   * `60100` grace brethren
-#'   * `60101` christ in god
-#'   * `60102` charismatic
-#'   * `60103` pentecostal apostolic
-#'   * `60104` house of prayer
-#'   * `60105` latvian lutheran
-#'   * `60106` triumph church of god
-#'   * `60107` apostolic christian
-#'   * `60108` christ cathedral of truth
-#'   * `60109` bible missionary
-#'   * `60110` calvary bible
-#'   * `60111` amish
-#'   * `60112` evangelical methodist
-#'   * `60113` worldwide church of god
-#'   * `60114` church universal and triumphant
-#'   * `60115` mennonite brethren
-#'   * `60116` church of the first born
-#'   * `60117` missionary church
-#'   * `60118` the way ministry
-#'   * `60119` united church of canada
-#'   * `60120` evangelical united brethren
-#'   * `60121` the church of god of prophecy
-#'   * `60122` chapel of faith
-#'   * `60123` polish national church
-#'   * `60124` faith gospel tabernacle
-#'   * `60125` christian calvary chapel
-#'   * `60126` carmelite
-#'   * `60127` church of daniel's band
-#'   * `60128` christian tabernacle
-#'   * `60129` living word
-#'   * `60130` true light church of christ
-#'   * `60131` macedonia
-#'   * `60132` brother of christ
-#'   * `60133` primitive baptist
-#'   * `60134` independent fundamental church of america
-#'   * `60135` chinese gospel church
-#'   * `60136` new age spirituality
-#'   * `60137` new song
-#'   * `60138` apostolic church
-#'   * `60139` faith christian
-#'   * `60140` people's church
-#'   * `60141` new birth christian
-#'   * `60142` unity school of christianity
-#'   * `60143` assyrian evangelist church
-#'   * `60144` spirit of christ
-#'   * `60145` church of jesus christ of the restoration
-#'   * `60146` laotian christian
-#'   * `60148` schwenkfelder
-#'   * `60149` polish catholic
-#'   * `60150` zwinglian
-#'   * `60151` world overcomer outreach ministry
-#'   * `60152` course in miracles
-#'   * `60153` unity of the brethren
-#'   * `60154` spirit filled
-#'   * `60155` christian union
-#'   * `60156` church of living christ
-#'   * `60157` community of christ
-#'   * `60158` new hope christian fellowship
-#'   * `60159` community christian fellowship
-#'   * `60160` friends in christ
-#'   * `60161` hawaiian ohana
-#'   * `60162` reformed church of jesus christ of latter day saints
-#'   * `60163` swedenurgian/churches of the new jerusalem
-#'   * `60164` divine science
-#'   * `60166` united christian
-#'   * `60167` sanctuary
-#'   * `60168` rain on us deliverance ministries
-#'   * `60169` the word church
-#'   * `60170` cornerstone church
-#'   * `60171` life sanctuary
-#'   * `60172` word of faith church
-#'   * `60173` harvest church
-#'   * `60174` shephard''s chapel
-#'   * `60175` greater new testament church
-#'   * `60176` vineyard church
-#'   * `60177` real life ministries
-#'   * `60178` cathedral of joy
-#'   * `60179` great faith ministries
-#'   * `60180` shield of faith ministries
-#'   * `60181` born again
-#'   * `60182` alliance
-#'   * `60183` jacobite apostolic
-#'   * `60184` church of god of israel
-#'   * `60185` journeys
-#'   * `60186` national progressive baptist
-#'   * `60187` new apostolic
-#'   * `60188` metropolitan community
-#'   * `60189` family life church
-#'   * `60190` faith fellowship
-#'   * `60191` faith covenant
-#'   * `60192` new thought
-#'   * `60193` free spirit ministry
-#'   * `60194` jacobite syrian christian church
-#'   * `60195` the ark church
-#'   * `60196` empowerment temple
-#'   * `60197` grace independent baptist church
-#'   * `60198` new life
-#'   * `60199` follower of christ
-#'   * `60200` north country chapel
-#'   * `60201` pathways christian church
-#'   * `60202` messianic christian
-#'   * `60203` warehouse ministries
-#'   * `60204` universal church of the kingdom of god
-#'   * `60205` assembly of christ
-#'   * `60206` the amana church
-#'   * `60207` the legacy church
-#'   * `60208` calvary
-#'   * `60209` church of the living god
-#'   * `60210` ethiopian evangelical church
-#'   * `60211` disciple of jesus
-#'   * `60212` scandinavian church
-#'   * `60213` hebrew roots
-#'   * `60214` hebrew isrealites
-#'   * `60215` armenian apostolic church
-#'   * `60216` word of jesus
-#'   * `60217` old testament
-#'   * `70000` no denomination given or non-denom. church
+#'   * `1` protestant
+#'   * `2` catholic
+#'   * `3` jewish
+#'   * `4` none
+#'   * `5` other
+#'   * `6` buddhism
+#'   * `7` hinduism
+#'   * `8` other eastern religions
+#'   * `9` muslim/islam
+#'   * `10` orthodox-christian
+#'   * `11` native american
+#'   * `12` other christian
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -861,22 +1149,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name padenkid
-NULL
-
-#'  Religion r was raised in
-#' 
-#'  religkid
-#' 
-#' Question 1388. What religion, if any, were you raised in? Was it Protestant, Catholic, Jewish, some other religion, or no religion?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4669/vshow).
 #'
 #' Counts by year: 
 #'
@@ -919,90 +1193,32 @@ NULL
 #'  |2024  |-     |-        |-        |-          |-        |-      |-         |-    |-     |-          |3309                       |3309  |
 #'  |Total |63663 |75       |1597     |63         |342      |96     |105       |33   |28    |2844       |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` protestant
-#'   * `2` catholic
-#'   * `3` jewish
-#'   * `4` none
-#'   * `5` other
-#'   * `6` buddhism
-#'   * `7` hinduism
-#'   * `8` other eastern religions
-#'   * `9` muslim/islam
-#'   * `10` orthodox-christian
-#'   * `11` native american
-#'   * `12` other christian
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2008 |B/C/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family ISSP Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
 #' @name religkid
 NULL
 
+
 #'  If protestant, denomination r raised in
 #' 
 #'  denkid
 #' 
-#' Question 1388a. If Protestant, what specific denomination was that?
+#' Question What religion, if any, were you raised in? Was it Protestant, Catholic, Jewish, some other religion, or no religion? 
+#' A. If Protestant, what specific denomination was that?
 #' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |7th day adventist |african methodist |african methodist episcopal church |african methodist episcopal zion church |american baptist association |american baptist churches in the u.s.a. |american lutheran church |assembly of god |baptist, don't know which |christian reform |christian scientist |christian; central christian |church of christ |church of god in christ |churches of god (except with christ and holiness) |congregationalist, 1st congreg |covenant |disciples of christ |don't know |dutch reform |episcopal church |evangelical lutheran |evangelical methodist |evangelical united brethren |evangelical, evangelist |evangelist free church |first christian |first christian disciples of christ |first reformed |free methodist |free will baptist |holiness; church of holiness |jehovah''s witnesses |lds |lds--jesus christ; church of jesus lds |lds--mormon |lds--reorganized |lutheran church - missouri synod |lutheran church in america |lutheran, don't know which |mennonite |methodist, don't know which |mission covenant |missionary baptist |moravian |mormon |national baptist convention of america |nazarene |new birth christian |no answer |no denomination given or non-denom. church |other baptist churches |other lutheran churches |other methodist churches |other presbyterian churches |pentecostal |pentecostal assembly of god |presbyterian church in the u.s. |presbyterian church u.s.a. |presbyterian, don't know which |quaker |reformed |sanctified, sanctification |southern baptist convention |unitarian, universalist |united brethren, united brethren in christ |united church of canada |united church of christ |united methodist church |united presbyterian church in the u.s.a. |wesleyan |wesleyan methodist--pilgrim |wisconsin evangelical lutheran synod |worldwide church of god |apostolic church |brethren church, brethren |church of god in christ holiness |full gospel |independent |polish catholic |apostolic faith |charismatic |christian & missionary alliance |community church |holiness (nazarene) |ind bible, bible, bible fellowship |missionary church |national baptist convention u.s.a., inc. |pilgrim holiness |armenian apostolic church |evangelical reformed |spiritualist |not available in this year |Total |
-#'  |:-----|:-----|:-----------------|:-----------------|:----------------------------------|:---------------------------------------|:----------------------------|:---------------------------------------|:------------------------|:---------------|:-------------------------|:----------------|:-------------------|:----------------------------|:----------------|:-----------------------|:-------------------------------------------------|:------------------------------|:--------|:-------------------|:----------|:------------|:----------------|:--------------------|:---------------------|:---------------------------|:-----------------------|:----------------------|:---------------|:-----------------------------------|:--------------|:--------------|:-----------------|:----------------------------|:--------------------|:---|:--------------------------------------|:-----------|:----------------|:--------------------------------|:--------------------------|:--------------------------|:---------|:---------------------------|:----------------|:------------------|:--------|:------|:--------------------------------------|:--------|:-------------------|:---------|:------------------------------------------|:----------------------|:-----------------------|:------------------------|:---------------------------|:-----------|:---------------------------|:-------------------------------|:--------------------------|:------------------------------|:------|:--------|:--------------------------|:---------------------------|:-----------------------|:------------------------------------------|:-----------------------|:-----------------------|:-----------------------|:----------------------------------------|:--------|:---------------------------|:------------------------------------|:-----------------------|:----------------|:-------------------------|:--------------------------------|:-----------|:-----------|:---------------|:---------------|:-----------|:-------------------------------|:----------------|:-------------------|:----------------------------------|:-----------------|:----------------------------------------|:----------------|:-------------------------|:--------------------|:------------|:--------------------------|:-----|
-#'  |1972  |1613  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1613  |
-#'  |1973  |1504  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1504  |
-#'  |1974  |1484  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1484  |
-#'  |1975  |1490  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1490  |
-#'  |1976  |1499  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1499  |
-#'  |1977  |1530  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1530  |
-#'  |1978  |1532  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1532  |
-#'  |1980  |1468  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1468  |
-#'  |1982  |1860  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1860  |
-#'  |1983  |1599  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1599  |
-#'  |1984  |1473  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1473  |
-#'  |1985  |1534  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1534  |
-#'  |1986  |1470  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1470  |
-#'  |1987  |1819  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1819  |
-#'  |1988  |1481  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1481  |
-#'  |1989  |1537  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1537  |
-#'  |1990  |1372  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1372  |
-#'  |1991  |704   |4                 |1                 |11                                 |3                                       |22                           |7                                       |18                       |10              |92                        |2                |4                   |17                           |14               |2                       |9                                                 |6                              |1        |5                   |6          |1            |24               |5                    |1                     |1                           |3                       |1                      |4               |1                                   |1              |2              |3                 |7                            |3                    |17  |2                                      |2           |1                |22                               |6                          |21                         |4         |27                          |1                |6                  |1        |3      |5                                      |4        |1                   |100       |13                                         |9                      |7                       |2                        |3                           |14          |1                           |10                              |5                          |16                             |1      |1        |1                          |94                          |2                       |1                                          |1                       |3                       |87                      |21                                       |2        |1                           |3                                    |1                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1517  |
-#'  |1993  |1606  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1606  |
-#'  |1994  |2992  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |2992  |
-#'  |1996  |2904  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |2904  |
-#'  |1998  |2083  |12                |-                 |28                                 |1                                       |1                            |-                                       |2                        |4               |165                       |1                |3                   |17                           |15               |1                       |3                                                 |9                              |1        |3                   |11         |-            |9                |4                    |-                     |2                           |-                       |-                      |3               |-                                   |-              |-              |-                 |3                            |7                    |-   |-                                      |-           |-                |5                                |1                          |47                         |-         |79                          |-                |1                  |1        |7      |-                                      |4        |-                   |147       |10                                         |4                      |1                       |2                        |-                           |9           |-                           |-                               |-                          |39                             |-      |1        |-                          |42                          |1                       |-                                          |-                       |4                       |25                      |1                                        |1        |1                           |2                                    |-                       |1                |1                         |2                                |3           |1           |1               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |2832  |
-#'  |2000  |2817  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |2817  |
-#'  |2002  |2765  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |2765  |
-#'  |2004  |2812  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |2812  |
-#'  |2006  |4510  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |4510  |
-#'  |2008  |1269  |4                 |-                 |7                                  |3                                       |16                           |7                                       |11                       |3               |138                       |3                |-                   |33                           |11               |1                       |6                                                 |6                              |-        |3                   |11         |1            |31               |2                    |-                     |-                           |2                       |-                      |-               |-                                   |-              |-              |6                 |5                            |10                   |10  |-                                      |4           |-                |13                               |4                          |23                         |1         |24                          |-                |3                  |1        |10     |7                                      |4        |-                   |13        |40                                         |1                      |-                       |1                        |-                           |20          |-                           |8                               |2                          |30                             |4      |3        |-                          |108                         |1                       |1                                          |-                       |1                       |66                      |6                                        |-        |-                           |5                                    |-                       |-                |3                         |-                                |1           |3           |-               |1               |1           |3                               |1                |1                   |1                                  |2                 |2                                        |1                |-                         |-                    |-            |-                          |2023  |
-#'  |2010  |2044  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |2044  |
-#'  |2012  |1974  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1974  |
-#'  |2014  |2538  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |2538  |
-#'  |2016  |2867  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |2867  |
-#'  |2018  |1752  |7                 |-                 |1                                  |1                                       |-                            |2                                       |1                        |3               |193                       |-                |-                   |51                           |11               |-                       |4                                                 |7                              |1        |2                   |17         |-            |18               |1                    |-                     |1                           |3                       |-                      |-               |-                                   |-              |-              |3                 |4                            |11                   |-   |-                                      |-           |-                |3                                |-                          |49                         |2         |53                          |-                |3                  |-        |14     |-                                      |4        |-                   |1         |25                                         |3                      |-                       |1                        |-                           |18          |-                           |-                               |1                          |25                             |3      |2        |-                          |17                          |2                       |-                                          |1                       |2                       |13                      |-                                        |1        |-                           |1                                    |-                       |1                |2                         |1                                |-           |-           |-               |-               |-           |1                               |1                |-                   |-                                  |-                 |-                                        |-                |1                         |2                    |1            |-                          |2348  |
-#'  |2021  |4032  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |4032  |
-#'  |2022  |-     |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |3544                       |3544  |
-#'  |2024  |-     |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |3309                       |3309  |
-#'  |Total |65934 |27                |1                 |47                                 |8                                       |39                           |16                                      |32                       |20              |588                       |6                |7                   |118                          |51               |4                       |22                                                |28                             |3        |13                  |45         |2            |82               |12                   |1                     |4                           |8                       |1                      |7               |1                                   |1              |2              |12                |19                           |31                   |27  |2                                      |6           |1                |43                               |11                         |140                        |7         |183                         |1                |13                 |3        |34     |12                                     |16       |1                   |261       |88                                         |17                     |8                       |6                        |3                           |61          |1                           |18                              |8                          |110                            |8      |7        |1                          |261                         |6                       |2                                          |2                       |10                      |191                     |28                                       |4        |2                           |11                                   |1                       |2                |6                         |3                                |4           |4           |1               |1               |1           |4                               |2                |1                   |1                                  |2                 |2                                        |1                |1                         |2                    |1            |6853                       |75699 |
 #' 
 #' @section Values: 
 #' 
@@ -1259,22 +1475,100 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4670/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |7th day adventist |african methodist |african methodist episcopal church |african methodist episcopal zion church |american baptist association |american baptist churches in the u.s.a. |american lutheran church |assembly of god |baptist, don't know which |christian reform |christian scientist |christian; central christian |church of christ |church of god in christ |churches of god (except with christ and holiness) |congregationalist, 1st congreg |covenant |disciples of christ |don't know |dutch reform |episcopal church |evangelical lutheran |evangelical methodist |evangelical united brethren |evangelical, evangelist |evangelist free church |first christian |first christian disciples of christ |first reformed |free methodist |free will baptist |holiness; church of holiness |jehovah''s witnesses |lds |lds--jesus christ; church of jesus lds |lds--mormon |lds--reorganized |lutheran church - missouri synod |lutheran church in america |lutheran, don't know which |mennonite |methodist, don't know which |mission covenant |missionary baptist |moravian |mormon |national baptist convention of america |nazarene |new birth christian |no answer |no denomination given or non-denom. church |other baptist churches |other lutheran churches |other methodist churches |other presbyterian churches |pentecostal |pentecostal assembly of god |presbyterian church in the u.s. |presbyterian church u.s.a. |presbyterian, don't know which |quaker |reformed |sanctified, sanctification |southern baptist convention |unitarian, universalist |united brethren, united brethren in christ |united church of canada |united church of christ |united methodist church |united presbyterian church in the u.s.a. |wesleyan |wesleyan methodist--pilgrim |wisconsin evangelical lutheran synod |worldwide church of god |apostolic church |brethren church, brethren |church of god in christ holiness |full gospel |independent |polish catholic |apostolic faith |charismatic |christian & missionary alliance |community church |holiness (nazarene) |ind bible, bible, bible fellowship |missionary church |national baptist convention u.s.a., inc. |pilgrim holiness |armenian apostolic church |evangelical reformed |spiritualist |not available in this year |Total |
+#'  |:-----|:-----|:-----------------|:-----------------|:----------------------------------|:---------------------------------------|:----------------------------|:---------------------------------------|:------------------------|:---------------|:-------------------------|:----------------|:-------------------|:----------------------------|:----------------|:-----------------------|:-------------------------------------------------|:------------------------------|:--------|:-------------------|:----------|:------------|:----------------|:--------------------|:---------------------|:---------------------------|:-----------------------|:----------------------|:---------------|:-----------------------------------|:--------------|:--------------|:-----------------|:----------------------------|:--------------------|:---|:--------------------------------------|:-----------|:----------------|:--------------------------------|:--------------------------|:--------------------------|:---------|:---------------------------|:----------------|:------------------|:--------|:------|:--------------------------------------|:--------|:-------------------|:---------|:------------------------------------------|:----------------------|:-----------------------|:------------------------|:---------------------------|:-----------|:---------------------------|:-------------------------------|:--------------------------|:------------------------------|:------|:--------|:--------------------------|:---------------------------|:-----------------------|:------------------------------------------|:-----------------------|:-----------------------|:-----------------------|:----------------------------------------|:--------|:---------------------------|:------------------------------------|:-----------------------|:----------------|:-------------------------|:--------------------------------|:-----------|:-----------|:---------------|:---------------|:-----------|:-------------------------------|:----------------|:-------------------|:----------------------------------|:-----------------|:----------------------------------------|:----------------|:-------------------------|:--------------------|:------------|:--------------------------|:-----|
+#'  |1972  |1613  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1613  |
+#'  |1973  |1504  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1504  |
+#'  |1974  |1484  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1484  |
+#'  |1975  |1490  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1490  |
+#'  |1976  |1499  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1499  |
+#'  |1977  |1530  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1530  |
+#'  |1978  |1532  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1532  |
+#'  |1980  |1468  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1468  |
+#'  |1982  |1860  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1860  |
+#'  |1983  |1599  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1599  |
+#'  |1984  |1473  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1473  |
+#'  |1985  |1534  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1534  |
+#'  |1986  |1470  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1470  |
+#'  |1987  |1819  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1819  |
+#'  |1988  |1481  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1481  |
+#'  |1989  |1537  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1537  |
+#'  |1990  |1372  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1372  |
+#'  |1991  |704   |4                 |1                 |11                                 |3                                       |22                           |7                                       |18                       |10              |92                        |2                |4                   |17                           |14               |2                       |9                                                 |6                              |1        |5                   |6          |1            |24               |5                    |1                     |1                           |3                       |1                      |4               |1                                   |1              |2              |3                 |7                            |3                    |17  |2                                      |2           |1                |22                               |6                          |21                         |4         |27                          |1                |6                  |1        |3      |5                                      |4        |1                   |100       |13                                         |9                      |7                       |2                        |3                           |14          |1                           |10                              |5                          |16                             |1      |1        |1                          |94                          |2                       |1                                          |1                       |3                       |87                      |21                                       |2        |1                           |3                                    |1                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1517  |
+#'  |1993  |1606  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1606  |
+#'  |1994  |2992  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |2992  |
+#'  |1996  |2904  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |2904  |
+#'  |1998  |2083  |12                |-                 |28                                 |1                                       |1                            |-                                       |2                        |4               |165                       |1                |3                   |17                           |15               |1                       |3                                                 |9                              |1        |3                   |11         |-            |9                |4                    |-                     |2                           |-                       |-                      |3               |-                                   |-              |-              |-                 |3                            |7                    |-   |-                                      |-           |-                |5                                |1                          |47                         |-         |79                          |-                |1                  |1        |7      |-                                      |4        |-                   |147       |10                                         |4                      |1                       |2                        |-                           |9           |-                           |-                               |-                          |39                             |-      |1        |-                          |42                          |1                       |-                                          |-                       |4                       |25                      |1                                        |1        |1                           |2                                    |-                       |1                |1                         |2                                |3           |1           |1               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |2832  |
+#'  |2000  |2817  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |2817  |
+#'  |2002  |2765  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |2765  |
+#'  |2004  |2812  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |2812  |
+#'  |2006  |4510  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |4510  |
+#'  |2008  |1269  |4                 |-                 |7                                  |3                                       |16                           |7                                       |11                       |3               |138                       |3                |-                   |33                           |11               |1                       |6                                                 |6                              |-        |3                   |11         |1            |31               |2                    |-                     |-                           |2                       |-                      |-               |-                                   |-              |-              |6                 |5                            |10                   |10  |-                                      |4           |-                |13                               |4                          |23                         |1         |24                          |-                |3                  |1        |10     |7                                      |4        |-                   |13        |40                                         |1                      |-                       |1                        |-                           |20          |-                           |8                               |2                          |30                             |4      |3        |-                          |108                         |1                       |1                                          |-                       |1                       |66                      |6                                        |-        |-                           |5                                    |-                       |-                |3                         |-                                |1           |3           |-               |1               |1           |3                               |1                |1                   |1                                  |2                 |2                                        |1                |-                         |-                    |-            |-                          |2023  |
+#'  |2010  |2044  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |2044  |
+#'  |2012  |1974  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |1974  |
+#'  |2014  |2538  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |2538  |
+#'  |2016  |2867  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |2867  |
+#'  |2018  |1752  |7                 |-                 |1                                  |1                                       |-                            |2                                       |1                        |3               |193                       |-                |-                   |51                           |11               |-                       |4                                                 |7                              |1        |2                   |17         |-            |18               |1                    |-                     |1                           |3                       |-                      |-               |-                                   |-              |-              |3                 |4                            |11                   |-   |-                                      |-           |-                |3                                |-                          |49                         |2         |53                          |-                |3                  |-        |14     |-                                      |4        |-                   |1         |25                                         |3                      |-                       |1                        |-                           |18          |-                           |-                               |1                          |25                             |3      |2        |-                          |17                          |2                       |-                                          |1                       |2                       |13                      |-                                        |1        |-                           |1                                    |-                       |1                |2                         |1                                |-           |-           |-               |-               |-           |1                               |1                |-                   |-                                  |-                 |-                                        |-                |1                         |2                    |1            |-                          |2348  |
+#'  |2021  |4032  |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |-                          |4032  |
+#'  |2022  |-     |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |3544                       |3544  |
+#'  |2024  |-     |-                 |-                 |-                                  |-                                       |-                            |-                                       |-                        |-               |-                         |-                |-                   |-                            |-                |-                       |-                                                 |-                              |-        |-                   |-          |-            |-                |-                    |-                     |-                           |-                       |-                      |-               |-                                   |-              |-              |-                 |-                            |-                    |-   |-                                      |-           |-                |-                                |-                          |-                          |-         |-                           |-                |-                  |-        |-      |-                                      |-        |-                   |-         |-                                          |-                      |-                       |-                        |-                           |-           |-                           |-                               |-                          |-                              |-      |-        |-                          |-                           |-                       |-                                          |-                       |-                       |-                       |-                                        |-        |-                           |-                                    |-                       |-                |-                         |-                                |-           |-           |-               |-               |-           |-                               |-                |-                   |-                                  |-                 |-                                        |-                |-                         |-                    |-            |3309                       |3309  |
+#'  |Total |65934 |27                |1                 |47                                 |8                                       |39                           |16                                      |32                       |20              |588                       |6                |7                   |118                          |51               |4                       |22                                                |28                             |3        |13                  |45         |2            |82               |12                   |1                     |4                           |8                       |1                      |7               |1                                   |1              |2              |12                |19                           |31                   |27  |2                                      |6           |1                |43                               |11                         |140                        |7         |183                         |1                |13                 |3        |34     |12                                     |16       |1                   |261       |88                                         |17                     |8                       |6                        |3                           |61          |1                           |18                              |8                          |110                            |8      |7        |1                          |261                         |6                       |2                                          |2                       |10                      |191                     |28                                       |4        |2                           |11                                   |1                       |2                |6                         |3                                |4           |4           |1               |1               |1           |4                               |2                |1                   |1                                  |2                 |2                                        |1                |1                         |2                    |1            |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2008 |B/C/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family ISSP Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
 #' @name denkid
 NULL
 
+
 #'  R's spouse's religion
 #' 
 #'  religsp
 #' 
-#' Question 1389. What is your husband's/wife's religious preference? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
+#' Question What is your husband's/wife's religious preference? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` protestant
+#'   * `2` catholic
+#'   * `3` jewish
+#'   * `4` orthodox greek, russian, etc
+#'   * `5` moslem
+#'   * `6` other -specify
+#'   * `7` no religion
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4671/vshow).
 #'
 #' Counts by year: 
 #'
@@ -1317,290 +1611,21 @@ NULL
 #'  |2024  |-     |-        |-          |-      |-      |-         |-           |-                            |-              |-          |3309                       |3309  |
 #'  |Total |66872 |497      |42         |47     |6      |42        |174         |13                           |27             |1126       |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` protestant
-#'   * `2` catholic
-#'   * `3` jewish
-#'   * `4` orthodox greek, russian, etc
-#'   * `5` moslem
-#'   * `6` other -specify
-#'   * `7` no religion
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2008 |B/C/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family ISSP Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
 #' @name religsp
 NULL
 
-#'  If protestant, r's spouse's denomination
-#' 
-#'  densp
-#' 
-#' Question 1389a. If Protestant, what specific denomination was that?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |1st christian |7th day adventist |african meth epis ch |amer baptist assoc |amer baptist ch in usa |amer lutheran ch |assembly of god |baptist, dk which |brethren church |christ. and mission. alliance |christian scientist |christian; central christian |church of christ |church of god in christ |churches of god -exc. christ & holiness |congregationalist, 1st cong |disciples of christ |don't know |dutch reform |episcopal church |evan lutheran |evangelical, evangelist |evangeligal congregational |evangelist free church |federated church |free will baptist |holiness; ch of holiness |ind. bible fellowship |independent |jehovah witnesses |lds |lds--jesus christ; ch of jesus lds |lds--mormon |lds--reorganized |luth ch in amer |luth ch--mo synod |lutheran, dk which |mennonite |methodist, dk which |missionary baptist |mormon |natl baptist conv. of america |nazarene |no answer |no denom. given or non-denom ch |other baptist chs |other fundamentalist |other presbyt chs |pentecostal |pilgrim holiness |presbyt ch in usa |presbyt ch usa |presbyterian, dk which |primitive baptist |quaker |reformed |southern baptist conv |unitarian, universalist |united brethren, breth. in christ |united church of canada |united church of christ |united meth church |united presbyt ch in usa |wesleyan |christian reform |evangelical reformed |evangelical united brethren |holiness, nazarene |natl baptist conv., usa, inc |other luth chs |other meth ch |wisc evan luth synod |adventist |apostolic |christian born again |church of god israelite |living church of god |missionary |moravian |not available in this year |Total |
-#'  |:-----|:-----|:-------------|:-----------------|:--------------------|:------------------|:----------------------|:----------------|:---------------|:-----------------|:---------------|:-----------------------------|:-------------------|:----------------------------|:----------------|:-----------------------|:---------------------------------------|:---------------------------|:-------------------|:----------|:------------|:----------------|:-------------|:-----------------------|:--------------------------|:----------------------|:----------------|:-----------------|:------------------------|:---------------------|:-----------|:-----------------|:---|:----------------------------------|:-----------|:----------------|:---------------|:-----------------|:------------------|:---------|:-------------------|:------------------|:------|:-----------------------------|:--------|:---------|:-------------------------------|:-----------------|:--------------------|:-----------------|:-----------|:----------------|:-----------------|:--------------|:----------------------|:-----------------|:------|:--------|:---------------------|:-----------------------|:---------------------------------|:-----------------------|:-----------------------|:------------------|:------------------------|:--------|:----------------|:--------------------|:---------------------------|:------------------|:----------------------------|:--------------|:-------------|:--------------------|:---------|:---------|:--------------------|:-----------------------|:--------------------|:----------|:--------|:--------------------------|:-----|
-#'  |1972  |1613  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |1613  |
-#'  |1973  |1504  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |1504  |
-#'  |1974  |1484  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |1484  |
-#'  |1975  |1490  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |1490  |
-#'  |1976  |1499  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |1499  |
-#'  |1977  |1530  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |1530  |
-#'  |1978  |1532  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |1532  |
-#'  |1980  |1468  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |1468  |
-#'  |1982  |1860  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |1860  |
-#'  |1983  |1599  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |1599  |
-#'  |1984  |1473  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |1473  |
-#'  |1985  |1534  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |1534  |
-#'  |1986  |1470  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |1470  |
-#'  |1987  |1819  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |1819  |
-#'  |1988  |1481  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |1481  |
-#'  |1989  |1537  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |1537  |
-#'  |1990  |1372  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |1372  |
-#'  |1991  |800   |4             |3                 |2                    |11                 |2                      |6                |2               |45                |1               |1                             |1                   |11                           |8                |1                       |4                                       |3                           |2                   |2          |1            |13               |6             |2                       |1                          |1                      |1                |2                 |3                        |1                     |1           |2                 |15  |1                                  |1           |1                |3               |4                 |11                 |1         |10                  |1                  |1      |1                             |3        |369       |10                              |8                 |2                    |2                 |10          |1                |6                 |2              |14                     |1                 |1      |1        |42                    |3                       |1                                 |1                       |4                       |32                 |9                        |2        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |1517  |
-#'  |1993  |1606  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |1606  |
-#'  |1994  |2992  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |2992  |
-#'  |1996  |2904  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |2904  |
-#'  |1998  |2473  |1             |4                 |12                   |-                  |-                      |2                |3               |70                |1               |1                             |-                   |8                            |7                |-                       |2                                       |5                           |-                   |4          |-            |2                |-             |-                       |-                          |-                      |-                |-                 |1                        |-                     |-           |4                 |-   |-                                  |-           |-                |-               |4                 |39                 |-         |28                  |1                  |4      |-                             |2        |75        |5                               |7                 |1                    |-                 |11          |-                |-                 |-              |12                     |-                 |1      |3        |21                    |2                       |-                                 |-                       |2                       |6                  |-                        |-        |1                |1                    |1                           |1                  |1                            |1              |1             |1                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |2832  |
-#'  |2000  |2817  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |2817  |
-#'  |2002  |2765  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |2765  |
-#'  |2004  |2812  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |2812  |
-#'  |2006  |4510  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |4510  |
-#'  |2008  |1639  |-             |2                 |1                    |5                  |4                      |7                |3               |45                |-               |3                             |1                   |16                           |5                |2                       |3                                       |4                           |-                   |8          |-            |16               |2             |2                       |-                          |-                      |-                |2                 |2                        |-                     |2           |5                 |6   |-                                  |2           |-                |1               |6                 |13                 |-         |7                   |-                  |8      |2                             |4        |4         |50                              |1                 |-                    |-                 |14          |1                |3                 |-              |15                     |-                 |2      |2        |45                    |2                       |-                                 |-                       |1                       |34                 |5                        |-        |1                |-                    |-                           |-                  |4                            |-              |-             |4                    |1         |1         |1                    |1                       |1                    |1          |1        |-                          |2023  |
-#'  |2010  |2044  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |2044  |
-#'  |2012  |1974  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |1974  |
-#'  |2014  |2538  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |2538  |
-#'  |2016  |2867  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |2867  |
-#'  |2018  |2348  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |2348  |
-#'  |2021  |4032  |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |-                          |4032  |
-#'  |2022  |-     |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |3544                       |3544  |
-#'  |2024  |-     |-             |-                 |-                    |-                  |-                      |-                |-               |-                 |-               |-                             |-                   |-                            |-                |-                       |-                                       |-                           |-                   |-          |-            |-                |-             |-                       |-                          |-                      |-                |-                 |-                        |-                     |-           |-                 |-   |-                                  |-           |-                |-               |-                 |-                  |-         |-                   |-                  |-      |-                             |-        |-         |-                               |-                 |-                    |-                 |-           |-                |-                 |-              |-                      |-                 |-      |-        |-                     |-                       |-                                 |-                       |-                       |-                  |-                        |-        |-                |-                    |-                           |-                  |-                            |-              |-             |-                    |-         |-         |-                    |-                       |-                    |-          |-        |3309                       |3309  |
-#'  |Total |67386 |5             |9                 |15                   |16                 |6                      |15               |8               |160               |2               |5                             |2                   |35                           |20               |3                       |9                                       |12                          |2                   |14         |1            |31               |8             |4                       |1                          |1                      |1                |4                 |6                        |1                     |3           |11                |21  |1                                  |3           |1                |4               |14                |63                 |1         |45                  |2                  |13     |3                             |9        |448       |65                              |16                |3                    |2                 |35          |2                |9                 |2              |41                     |1                 |4      |6        |108                   |7                       |1                                 |1                       |7                       |72                 |14                       |2        |2                |1                    |1                           |1                  |5                            |1              |1             |5                    |1         |1         |1                    |1                       |1                    |1          |1        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `10000` amer baptist assoc
-#'   * `11000` amer baptist ch in usa
-#'   * `12000` natl baptist conv. of america
-#'   * `13000` natl baptist conv., usa, inc
-#'   * `14000` southern baptist conv
-#'   * `15000` other baptist chs
-#'   * `18000` baptist, dk which
-#'   * `20000` african meth epis ch
-#'   * `21000` ame zion church
-#'   * `22000` united meth church
-#'   * `23000` other meth ch
-#'   * `28000` methodist, dk which
-#'   * `30000` amer lutheran ch
-#'   * `31000` luth ch in amer
-#'   * `32000` luth ch--mo synod
-#'   * `33000` wisc evan luth synod
-#'   * `34000` other luth chs
-#'   * `35000` evan lutheran
-#'   * `38000` lutheran, dk which
-#'   * `40000` presbyt ch in usa
-#'   * `41000` united presbyt ch in usa
-#'   * `42000` other presbyt chs
-#'   * `43000` presbyt ch usa
-#'   * `48000` presbyterian, dk which
-#'   * `50000` episcopal church
-#'   * `60002` evangeligal congregational
-#'   * `60003` ind. bible fellowship
-#'   * `60006` new testament christian
-#'   * `60008` moravian
-#'   * `60009` christ. and mission. alliance
-#'   * `60010` adventist
-#'   * `60012` assembly of god
-#'   * `60013` free methodist
-#'   * `60014` apostolic
-#'   * `60015` african methodist
-#'   * `60016` free will baptist
-#'   * `60018` holiness, nazarene
-#'   * `60020` brethren church
-#'   * `60023` united brethren, breth. in christ
-#'   * `60024` independent
-#'   * `60031` christian; central christian
-#'   * `60032` christian reform
-#'   * `60033` christian scientist
-#'   * `60035` church of christ
-#'   * `60036` churches of god -exc. christ & holiness
-#'   * `60037` church of god in christ
-#'   * `60038` holiness
-#'   * `60040` congregationalist, 1st cong
-#'   * `60041` community church
-#'   * `60042` covenant
-#'   * `60043` dutch reform
-#'   * `60044` disciples of christ
-#'   * `60045` evangelical, evangelist
-#'   * `60046` evangelical reformed
-#'   * `60047` evangelist free church
-#'   * `60048` first church
-#'   * `60049` 1st christian disc of christ
-#'   * `60050` 1st reformed
-#'   * `60051` 1st christian
-#'   * `60052` full gospel
-#'   * `60056` holiness; ch of holiness
-#'   * `60057` pilgrim holiness
-#'   * `60058` jehovah witnesses
-#'   * `60059` lds
-#'   * `60060` lds--mormon
-#'   * `60061` lds--reorganized
-#'   * `60062` lds--jesus christ; ch of jesus lds
-#'   * `60063` mennonite
-#'   * `60064` mormon
-#'   * `60065` nazarene
-#'   * `60066` pentecostal assembly of god
-#'   * `60068` pentecostal
-#'   * `60070` quaker
-#'   * `60071` reformed
-#'   * `60076` salvation army
-#'   * `60077` 7th day adventist
-#'   * `60078` sanctified, sanctification
-#'   * `60080` unitarian, universalist
-#'   * `60081` united church of christ
-#'   * `60082` united church, unity church
-#'   * `60083` wesleyan
-#'   * `60084` wesleyan methodist--pilgrim
-#'   * `60092` mission covenant
-#'   * `60093` missionary baptist
-#'   * `60097` other fundamentalist
-#'   * `60098` federated church
-#'   * `60102` charismatic christian
-#'   * `60112` evangeligal methodist
-#'   * `60113` worldwide church of god
-#'   * `60117` missionary
-#'   * `60119` united church of canada
-#'   * `60120` evangelical united brethren
-#'   * `60133` primitive baptist
-#'   * `60138` apostolic church
-#'   * `60141` new birth christian
-#'   * `60149` polish catholic
-#'   * `60150` zwinglian
-#'   * `60156` living church of god
-#'   * `60181` christian born again
-#'   * `60184` church of god israelite
-#'   * `70000` no denom. given or non-denom ch
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name densp
-NULL
-
-#'  Freq of r's mom's relig svc attendance
-#' 
-#'  attendma
-#' 
-#' Question 1390. When you were a child, how often did your mother attend religious services?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |2-3 times a month |about once a month |about once or twice a year |don't know |every week |less than once a year |nearly every week |never |no answer |no mother/mother not present |several times a week |several times a year |not available in this year |Total |
-#'  |:-----|:-----|:-----------------|:------------------|:--------------------------|:----------|:----------|:---------------------|:-----------------|:-----|:---------|:----------------------------|:--------------------|:--------------------|:--------------------------|:-----|
-#'  |1972  |1613  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |1613  |
-#'  |1973  |1504  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |1504  |
-#'  |1974  |1484  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |1484  |
-#'  |1975  |1490  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |1490  |
-#'  |1976  |1499  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |1499  |
-#'  |1977  |1530  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |1530  |
-#'  |1978  |1532  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |1532  |
-#'  |1980  |1468  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |1468  |
-#'  |1982  |1860  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |1860  |
-#'  |1983  |1599  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |1599  |
-#'  |1984  |1473  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |1473  |
-#'  |1985  |1534  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |1534  |
-#'  |1986  |1470  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |1470  |
-#'  |1987  |1819  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |1819  |
-#'  |1988  |1481  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |1481  |
-#'  |1989  |1537  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |1537  |
-#'  |1990  |1372  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |1372  |
-#'  |1991  |158   |126               |48                 |82                         |96         |368        |52                    |215               |51    |57        |10                           |114                  |140                  |-                          |1517  |
-#'  |1993  |1606  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |1606  |
-#'  |1994  |2992  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |2992  |
-#'  |1996  |2904  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |2904  |
-#'  |1998  |1548  |102               |44                 |82                         |91         |356        |44                    |176               |70    |66        |12                           |126                  |115                  |-                          |2832  |
-#'  |2000  |2817  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |2817  |
-#'  |2002  |2765  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |2765  |
-#'  |2004  |2812  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |2812  |
-#'  |2006  |4510  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |4510  |
-#'  |2008  |658   |102               |68                 |101                        |35         |462        |46                    |129               |154   |4         |19                           |143                  |102                  |-                          |2023  |
-#'  |2010  |2044  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |2044  |
-#'  |2012  |1974  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |1974  |
-#'  |2014  |2538  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |2538  |
-#'  |2016  |2867  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |2867  |
-#'  |2018  |1173  |73                |61                 |104                        |31         |441        |31                    |63                |159   |12        |11                           |112                  |77                   |-                          |2348  |
-#'  |2021  |4032  |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |-                          |4032  |
-#'  |2022  |-     |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |3544                       |3544  |
-#'  |2024  |-     |-                 |-                  |-                          |-          |-          |-                     |-                 |-     |-         |-                            |-                    |-                    |3309                       |3309  |
-#'  |Total |63663 |403               |221                |369                        |253        |1627       |173                   |583               |434   |139       |52                           |495                  |434                  |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` never
-#'   * `2` less than once a year
-#'   * `3` about once or twice a year
-#'   * `4` several times a year
-#'   * `5` about once a month
-#'   * `6` 2-3 times a month
-#'   * `7` nearly every week
-#'   * `8` every week
-#'   * `9` several times a week
-#'   * `10` no mother/mother not present
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name attendma
-NULL
 

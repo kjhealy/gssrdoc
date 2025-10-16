@@ -10,11 +10,37 @@ General Social Survey https://gss.norc.org
 cowrkslf
 }
 \details{
-Question None
+Question A. What kind of work (does/did) your (PARTNER) normally do? That is, what (is/was) (his/her) job called?
+OCCUPATION: (See REMARKS)
+B. What (does/did) (PARTNER) actually do in that job? Tell me, what (are/were) some of (his/her) main duties?
+C. What kind of place (does/did) (PARTNER) work for?
+INDUSTRY: (See REMARKS)
+D. What (do/did) they (make/do)?
+E. (Is/Was) (he/she) self-employed or (does/did) (he/she) work for someone else?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} self-employed
+\item \code{2} someone else
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6153/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab don't know \tab no answer \tab self-employed \tab someone else \tab skipped on web \tab not available in this release \tab Total \cr
@@ -57,24 +83,30 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} self-employed
-\item \code{2} someone else
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2021 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
+   2024 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{coevwork}},
+\code{\link{cohrs1}},
+\code{\link{cowrksta}},
+\code{\link{divorce}},
+\code{\link{spevwork}},
+\code{\link{sphrs1}},
+\code{\link{sphrs2}},
+\code{\link{spwrksta}},
+\code{\link{widowed}}
+}
+\concept{Core}
 \keyword{variable}

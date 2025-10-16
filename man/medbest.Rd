@@ -12,9 +12,32 @@ medbest
 \details{
 Question How likely is it that if you become seriously ill, you would get or not get the best treatment available in the United States?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} it's certain r would get
+\item \code{2} it's likely r would get
+\item \code{3} equal chance of getting or not getting
+\item \code{4} it's likely r would not get
+\item \code{5} it's certain r would not get
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7830/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab not available in this year \tab can't choose \tab equal chance of getting or not getting \tab iap \tab it's certain r would get \tab it's certain r would not get \tab it's likely r would get \tab it's likely r would not get \tab no answer \tab skipped on web \tab Total \cr
@@ -57,26 +80,10 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} it's certain r would get
-\item \code{2} it's likely r would get
-\item \code{3} equal chance of getting or not getting
-\item \code{4} it's likely r would not get
-\item \code{5} it's certain r would not get
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2022 \tab C \tab partial \cr
 }
 }
 

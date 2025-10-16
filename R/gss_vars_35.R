@@ -1,11 +1,138 @@
 #'  What sort of jew r is
 #' 
+#'  jew
+#' 
+#' Question B. Do you consider yourself Orthodox, Conservative, Reform or none of these? (PROBE FOR EXACT DENOMINATION)
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` orthodox
+#'   * `2` conservative
+#'   * `3` reform
+#'   * `4` none of these
+#'   * `5` other
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/291/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |conservative |no answer |none of these |orthodox |reform |don't know |other |skipped on web |not available in this release |Total |
+#'  |:-----|:-----|:------------|:---------|:-------------|:--------|:------|:----------|:-----|:--------------|:-----------------------------|:-----|
+#'  |1972  |1613  |-            |-         |-             |-        |-      |-          |-     |-              |-                             |1613  |
+#'  |1973  |1504  |-            |-         |-             |-        |-      |-          |-     |-              |-                             |1504  |
+#'  |1974  |1484  |-            |-         |-             |-        |-      |-          |-     |-              |-                             |1484  |
+#'  |1975  |1490  |-            |-         |-             |-        |-      |-          |-     |-              |-                             |1490  |
+#'  |1976  |1499  |-            |-         |-             |-        |-      |-          |-     |-              |-                             |1499  |
+#'  |1977  |1530  |-            |-         |-             |-        |-      |-          |-     |-              |-                             |1530  |
+#'  |1978  |1532  |-            |-         |-             |-        |-      |-          |-     |-              |-                             |1532  |
+#'  |1980  |1468  |-            |-         |-             |-        |-      |-          |-     |-              |-                             |1468  |
+#'  |1982  |1860  |-            |-         |-             |-        |-      |-          |-     |-              |-                             |1860  |
+#'  |1983  |1599  |-            |-         |-             |-        |-      |-          |-     |-              |-                             |1599  |
+#'  |1984  |1473  |-            |-         |-             |-        |-      |-          |-     |-              |-                             |1473  |
+#'  |1985  |1534  |-            |-         |-             |-        |-      |-          |-     |-              |-                             |1534  |
+#'  |1986  |1470  |-            |-         |-             |-        |-      |-          |-     |-              |-                             |1470  |
+#'  |1987  |1819  |-            |-         |-             |-        |-      |-          |-     |-              |-                             |1819  |
+#'  |1988  |1450  |16           |1         |3             |1        |10     |-          |-     |-              |-                             |1481  |
+#'  |1989  |1509  |7            |5         |5             |-        |11     |-          |-     |-              |-                             |1537  |
+#'  |1990  |1340  |12           |5         |4             |1        |9      |1          |-     |-              |-                             |1372  |
+#'  |1991  |1483  |13           |3         |6             |1        |11     |-          |-     |-              |-                             |1517  |
+#'  |1993  |1573  |10           |-         |10            |-        |13     |-          |-     |-              |-                             |1606  |
+#'  |1994  |2922  |14           |11        |12            |3        |30     |-          |-     |-              |-                             |2992  |
+#'  |1996  |2836  |17           |3         |15            |4        |29     |-          |-     |-              |-                             |2904  |
+#'  |1998  |2752  |12           |32        |11            |4        |21     |-          |-     |-              |-                             |2832  |
+#'  |2000  |2751  |11           |13        |11            |3        |28     |-          |-     |-              |-                             |2817  |
+#'  |2002  |2702  |7            |15        |13            |4        |23     |1          |-     |-              |-                             |2765  |
+#'  |2004  |2745  |11           |13        |10            |5        |28     |-          |-     |-              |-                             |2812  |
+#'  |2006  |4406  |19           |28        |14            |10       |33     |-          |-     |-              |-                             |4510  |
+#'  |2008  |1976  |14           |8         |6             |7        |12     |-          |-     |-              |-                             |2023  |
+#'  |2010  |1995  |8            |12        |9             |2        |18     |-          |-     |-              |-                             |2044  |
+#'  |2012  |1944  |3            |4         |6             |1        |16     |-          |-     |-              |-                             |1974  |
+#'  |2014  |2483  |7            |16        |11            |4        |15     |-          |2     |-              |-                             |2538  |
+#'  |2016  |2801  |9            |15        |16            |5        |20     |-          |1     |-              |-                             |2867  |
+#'  |2018  |2293  |8            |16        |9             |3        |16     |1          |2     |-              |-                             |2348  |
+#'  |2021  |3880  |9            |44        |21            |2        |43     |-          |1     |32             |-                             |4032  |
+#'  |2022  |3442  |9            |33        |16            |7        |22     |-          |6     |9              |-                             |3544  |
+#'  |2024  |-     |-            |-         |-             |-        |-      |-          |-     |-              |3309                          |3309  |
+#'  |Total |71158 |216          |277       |208           |67       |408    |3          |12    |41             |3309                          |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name jew
+NULL
+
+
+#'  What sort of jew r is
+#' 
 #'  jewaj
 #' 
-#' Question Do you consider yourself Orthodox, Conservative, Reform or none of these? (PROBE FOR EXACT DENOMINATION)
+#' Question B. Do you consider yourself Orthodox, Conservative, Reform or none of these? (PROBE FOR EXACT DENOMINATION)
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` orthodox
+#'   * `2` conservative
+#'   * `3` reform
+#'   * `4` none of these
+#'   * `5` other
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/292/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,13 +175,34 @@
 #'  |2024  |-     |-            |-         |-             |-      |3309                       |3309  |
 #'  |Total |68826 |2            |8         |8             |2      |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Jews
+#' 
+#' @keywords variable
+#' @md
+#' @name jewaj
+NULL
+
+
+#'  How fundamentalist is r currently
+#' 
+#'  fund
+#' 
+#' Question Fundamentalism/Liberalism of Respondent's Religion
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` orthodox
-#'   * `2` conservative
-#'   * `3` reform
-#'   * `4` none of these
-#'   * `5` other
+#'   * `1` fundamentalist
+#'   * `2` moderate
+#'   * `3` liberal
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -68,22 +216,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name jewaj
-NULL
-
-#'  How fundamentalist is r currently
-#' 
-#'  fund
-#' 
-#' Question 104c. Fundamentalism/liberalism of respondent's religion.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/293/vshow).
 #'
 #' Counts by year: 
 #'
@@ -126,11 +260,73 @@ NULL
 #'  |2024  |-              |-       |-        |-         |-   |-              |3309                          |3309  |
 #'  |Total |20269          |19743   |29283    |3029      |25  |41             |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name fund
+NULL
+
+
+#'  How often r attends religious services
+#' 
+#'  attend
+#' 
+#' Question How often do you attend religious services? (USE CATEGORIES AS PROBES, IF NECESSARY.)
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` fundamentalist
-#'   * `2` moderate
-#'   * `3` liberal
+#'   * `0` never
+#'   * `1` less than once a year
+#'   * `2` about once or twice a year
+#'   * `3` several times a year
+#'   * `4` about once a month
+#'   * `5` 2-3 times a month
+#'   * `6` nearly every week
+#'   * `7` every week
+#'   * `8` several times a week
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -144,22 +340,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name fund
-NULL
-
-#'  How often r attends religious services
-#' 
-#'  attend
-#' 
-#' Question 105. How often do you attend religious services?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/294/vshow).
 #'
 #' Counts by year: 
 #'
@@ -202,17 +384,74 @@ NULL
 #'  |2024  |208               |152                |371                        |-          |446        |356                   |194               |1028  |168                  |353                  |-   |19        |14             |3309  |
 #'  |Total |6322              |4983               |9786                       |595        |14105      |6181                  |4223              |14883 |5378                 |9105                 |42  |46        |50             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name attend
+NULL
+
+
+#'  How often ma attended religious services
+#' 
+#'  maattend
+#' 
+#' Question A. When you were growing up, how often did your mother (MOTHER SUBSTITUTE) attend religious services?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` never
-#'   * `1` less than once a year
-#'   * `2` about once or twice a year
-#'   * `3` several times a year
-#'   * `4` about once a month
-#'   * `5` 2-3 times a month
-#'   * `6` nearly every week
+#'   * `1` lt once a year
+#'   * `2` once a year
+#'   * `3` sevrl times a yr
+#'   * `4` once a month
+#'   * `5` 2-3x a month
+#'   * `6` nrly every week
 #'   * `7` every week
-#'   * `8` several times a week
+#'   * `8` more thn once wk
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -226,22 +465,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name attend
-NULL
-
-#'  How often ma attended religious services
-#' 
-#'  maattend
-#' 
-#' Question 106a. When you were growing up, how often did your (mother/MOTHER SUBSTITUTE) attend religious services?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/295/vshow).
 #'
 #' Counts by year: 
 #'
@@ -284,6 +509,34 @@ NULL
 #'  |2024  |-     |-            |-          |-          |-              |-                |-     |-               |-            |-           |-                |3309                       |3309  |
 #'  |Total |60590 |611          |97         |3393       |228            |847              |752   |671             |464          |545         |648              |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name maattend
+NULL
+
+
+#'  How often pa attended religious services
+#' 
+#'  paattend
+#' 
+#' Question B. When you were growing up, how often did your father (FATHER SUBSTITUTE) attend religious services?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` never
@@ -308,22 +561,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name maattend
-NULL
-
-#'  How often pa attended religious services
-#' 
-#'  paattend
-#' 
-#' Question 106b. When you were growing up, how often did your (father/FATHER SUBSTITUTE) attend religious services?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/296/vshow).
 #'
 #' Counts by year: 
 #'
@@ -366,6 +605,35 @@ NULL
 #'  |2024  |-     |-            |-          |-          |-              |-                |-     |-               |-            |-           |-                |3309                       |3309  |
 #'  |Total |61437 |409          |102        |2437       |352            |533              |1494  |404             |359          |756         |563              |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name paattend
+NULL
+
+
+#'  How often sp attends religious services
+#' 
+#'  spattend
+#' 
+#' Question C. How often does your (husband/wife) attend religious services? 
+#' (USE CATEGORIES AS PROBES, IF NECESSARY.)
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` never
@@ -390,22 +658,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name paattend
-NULL
-
-#'  How often sp attends religious services
-#' 
-#'  spattend
-#' 
-#' Question 106c. How often does your (husband/wife) attend religious services?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/297/vshow).
 #'
 #' Counts by year: 
 #'
@@ -448,17 +702,38 @@ NULL
 #'  |2024  |-     |-            |-          |-          |-              |-                |-     |-               |-            |-           |-                |3309                       |3309  |
 #'  |Total |65755 |244          |21         |744        |182            |256              |556   |186             |207          |329         |366              |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name spattend
+NULL
+
+
+#'  Strength of affiliation
+#' 
+#'  reliten
+#' 
+#' Question Would you call yourself a strong (PREFERENCE NAMED IN RELIG) or a not very strong (PREFERENCE NAMED IN RELIG)?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` never
-#'   * `1` lt once a year
-#'   * `2` once a year
-#'   * `3` sevrl times a yr
-#'   * `4` once a month
-#'   * `5` 2-3x a month
-#'   * `6` nrly every week
-#'   * `7` every week
-#'   * `8` more thn once wk
+#'   * `1` strong
+#'   * `2` not very strong
+#'   * `3` somewhat strong (vol.)
+#'   * `4` no religion
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -472,22 +747,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name spattend
-NULL
-
-#'  Strength of affiliation
-#' 
-#'  reliten
-#' 
-#' Question 107. Would you call yoruself a strong (RELIGIOUS PREFERENCE) or a not very strong (RELIGIOUS PREFERENCE)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/298/vshow).
 #'
 #' Counts by year: 
 #'
@@ -530,11 +791,65 @@ NULL
 #'  |2024  |1853 |22         |15        |289         |427             |173                    |530    |-                          |3309  |
 #'  |Total |6718 |380        |1637      |8345        |24725           |6080                   |23782  |4032                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name reliten
+NULL
+
+
+#'  Strength of affiliation
+#' 
+#'  relitena
+#' 
+#' Question C. Would you call yourself a strong Jew or not a very strong Jew?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strong
 #'   * `2` not very strong
-#'   * `3` somewhat strong (vol.)
+#'   * `3` somewhat strong
 #'   * `4` no religion
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
@@ -549,22 +864,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name reliten
-NULL
-
-#'  Strength of affiliation
-#' 
-#'  relitena
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/299/vshow).
 #'
 #' Counts by year: 
 #'
@@ -607,12 +908,33 @@ NULL
 #'  |2024  |-     |-         |-               |3309                       |3309  |
 #'  |Total |68826 |8         |12              |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name relitena
+NULL
+
+
+#'  Belief in life after death
+#' 
+#'  postlife
+#' 
+#' Question Do you believe there is a life after death?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` strong
-#'   * `2` not very strong
-#'   * `3` somewhat strong
-#'   * `4` no religion
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -626,22 +948,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name relitena
-NULL
-
-#'  Belief in life after death
-#' 
-#'  postlife
-#' 
-#' Question 108. Do you believe there is a life after death?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/300/vshow).
 #'
 #' Counts by year: 
 #'
@@ -684,105 +992,47 @@ NULL
 #'  |2024  |1823  |196        |220  |1063  |6         |-                          |1              |3309  |
 #'  |Total |20833 |5178       |9031 |36400 |224       |4032                       |1              |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/-   |partial      |
+#'  |1990 |A/B/-   |partial      |
+#'  |1991 |A/B/-   |partial      |
+#'  |1993 |A/B/-   |partial      |
+#'  |1994 |A/B/-   |partial      |
+#'  |1996 |A/B/-   |partial      |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
 #' @name postlife
 NULL
 
-#'  Life of peace and tranquility
-#' 
-#'  postlf1
-#' 
-#' Question 108a. Of course, no one knows exactly what life after death would be like, but her are some ideas people have had. How likely do you feel each possibility is? 1. A life of peace and tranquility.
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no answer |not likely at all |not too likely |somewhat likely |very likely |not available in this year |Total |
-#'  |:-----|:-----|:----------|:---------|:-----------------|:--------------|:---------------|:-----------|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-         |-                 |-              |-               |-           |-                          |1613  |
-#'  |1973  |1504  |-          |-         |-                 |-              |-               |-           |-                          |1504  |
-#'  |1974  |1484  |-          |-         |-                 |-              |-               |-           |-                          |1484  |
-#'  |1975  |1490  |-          |-         |-                 |-              |-               |-           |-                          |1490  |
-#'  |1976  |1499  |-          |-         |-                 |-              |-               |-           |-                          |1499  |
-#'  |1977  |1530  |-          |-         |-                 |-              |-               |-           |-                          |1530  |
-#'  |1978  |1532  |-          |-         |-                 |-              |-               |-           |-                          |1532  |
-#'  |1980  |1468  |-          |-         |-                 |-              |-               |-           |-                          |1468  |
-#'  |1982  |1860  |-          |-         |-                 |-              |-               |-           |-                          |1860  |
-#'  |1983  |389   |38         |8         |9                 |39             |346             |770         |-                          |1599  |
-#'  |1984  |278   |31         |15        |17                |50             |307             |775         |-                          |1473  |
-#'  |1985  |1534  |-          |-         |-                 |-              |-               |-           |-                          |1534  |
-#'  |1986  |1470  |-          |-         |-                 |-              |-               |-           |-                          |1470  |
-#'  |1987  |1819  |-          |-         |-                 |-              |-               |-           |-                          |1819  |
-#'  |1988  |1481  |-          |-         |-                 |-              |-               |-           |-                          |1481  |
-#'  |1989  |1537  |-          |-         |-                 |-              |-               |-           |-                          |1537  |
-#'  |1990  |1372  |-          |-         |-                 |-              |-               |-           |-                          |1372  |
-#'  |1991  |1517  |-          |-         |-                 |-              |-               |-           |-                          |1517  |
-#'  |1993  |1606  |-          |-         |-                 |-              |-               |-           |-                          |1606  |
-#'  |1994  |2992  |-          |-         |-                 |-              |-               |-           |-                          |2992  |
-#'  |1996  |2904  |-          |-         |-                 |-              |-               |-           |-                          |2904  |
-#'  |1998  |2832  |-          |-         |-                 |-              |-               |-           |-                          |2832  |
-#'  |2000  |2817  |-          |-         |-                 |-              |-               |-           |-                          |2817  |
-#'  |2002  |2765  |-          |-         |-                 |-              |-               |-           |-                          |2765  |
-#'  |2004  |2812  |-          |-         |-                 |-              |-               |-           |-                          |2812  |
-#'  |2006  |4510  |-          |-         |-                 |-              |-               |-           |-                          |4510  |
-#'  |2008  |2023  |-          |-         |-                 |-              |-               |-           |-                          |2023  |
-#'  |2010  |2044  |-          |-         |-                 |-              |-               |-           |-                          |2044  |
-#'  |2012  |1974  |-          |-         |-                 |-              |-               |-           |-                          |1974  |
-#'  |2014  |2538  |-          |-         |-                 |-              |-               |-           |-                          |2538  |
-#'  |2016  |2867  |-          |-         |-                 |-              |-               |-           |-                          |2867  |
-#'  |2018  |2348  |-          |-         |-                 |-              |-               |-           |-                          |2348  |
-#'  |2021  |4032  |-          |-         |-                 |-              |-               |-           |-                          |4032  |
-#'  |2022  |-     |-          |-         |-                 |-              |-               |-           |3544                       |3544  |
-#'  |2024  |-     |-          |-         |-                 |-              |-               |-           |3309                       |3309  |
-#'  |Total |66441 |69         |23        |26                |89             |653             |1545        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` not too likely
-#'   * `4` not likely at all
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name postlf1
-NULL
 

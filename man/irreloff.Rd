@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 irreloff
 }
 \details{
-Question 688a. Would you, personally, be offended by an exhibit of such artworks or would you not be offended?
+Question Consider an artist--like a painter, sculptor, or photographer--whose art works mock or demean religions or religious figures. If such a person wanted to exhibit these works in your community, should the exhibit be allowed, or not?
+A. Would you, personally, be offended by an exhibit of such artworks or would you not be offended?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} offended
+\item \code{2} not offended
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2127/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab no answer \tab not offended \tab offended \tab not available in this year \tab Total \cr
@@ -57,24 +78,30 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} offended
-\item \code{2} not offended
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1998 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Religion and Culture: 
+\code{\link{artgod}},
+\code{\link{artists}},
+\code{\link{irrelart}},
+\code{\link{natarts}},
+\code{\link{relexp}},
+\code{\link{relpersn}},
+\code{\link{sprtprsn}}
+
+Other Religion: 
+\code{\link{artgod}},
+\code{\link{irrelart}},
+\code{\link{relexp}},
+\code{\link{relpersn}},
+\code{\link{sprtprsn}}
+}
+\concept{Religion}
+\concept{Religion and Culture}
 \keyword{variable}

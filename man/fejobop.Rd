@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 fejobop
 }
 \details{
-Question 1170. How about job opportunities for women -- do you think they are, in general, better or worse than job opportunities for men with similar education and experience?
+Question How about job opportunities for women -- do you think they are, in general, better or worse than job opportunities for men with similar education and experience?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} much bettr for women
+\item \code{2} better for women
+\item \code{3} no difference
+\item \code{4} worse for women
+\item \code{5} much wrse for women
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4010/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab better for women \tab can't choose \tab much bettr for women \tab much wrse for women \tab no answer \tab no difference \tab worse for women \tab not available in this year \tab Total \cr
@@ -57,27 +80,40 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} much bettr for women
-\item \code{2} better for women
-\item \code{3} no difference
-\item \code{4} worse for women
-\item \code{5} much wrse for women
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1985 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Role of Gov't: 
+\code{\link{fecolop}},
+\code{\link{fehlpbus}},
+\code{\link{fehlpcol}},
+\code{\link{fehlpjob}},
+\code{\link{feinc}},
+\code{\link{hsbasics}},
+\code{\link{hsrespct}},
+\code{\link{hssexed}},
+\code{\link{opfamily}}
+
+Other Opportunity: 
+\code{\link{fecolop}},
+\code{\link{fehlpbus}},
+\code{\link{fehlpcol}},
+\code{\link{fehlpjob}},
+\code{\link{feinc}},
+\code{\link{opfamily}}
+
+Other Women: 
+\code{\link{fecolop}},
+\code{\link{fehlpbus}},
+\code{\link{fehlpcol}},
+\code{\link{fehlpjob}}
+}
+\concept{ISSP Role of Gov't}
+\concept{Opportunity}
+\concept{Women}
 \keyword{variable}

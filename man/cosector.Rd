@@ -10,11 +10,39 @@ General Social Survey https://gss.norc.org
 cosector
 }
 \details{
-Question None
+Question In what year did your partner receive their (COLLEGE NAME) degree?
+I. Sector of Institution?
 }
+\section{Values}{
+
+\itemize{
+\item \code{0} administrative unit
+\item \code{1} public, 4-year or above
+\item \code{2} private not-for-profit, 4-year or above
+\item \code{3} private for-profit, 4-year or above
+\item \code{4} public, 2-year
+\item \code{5} private not-for-profit, 2-year or less
+\item \code{6} private for-profit, 2-year
+\item \code{7} public, less than 2-year
+\item \code{9} private for-profit, less than 2-year
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6163/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab private not-for-profit, 4-year or above \tab public, 2-year \tab public, 4-year or above \tab private for-profit, 2-year \tab private for-profit, 4-year or above \tab skipped on web \tab not available in this year \tab Total \cr
@@ -57,31 +85,26 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{0} administrative unit
-\item \code{1} public, 4-year or above
-\item \code{2} private not-for-profit, 4-year or above
-\item \code{3} private for-profit, 4-year or above
-\item \code{4} public, 2-year
-\item \code{5} private not-for-profit, 2-year or less
-\item \code{6} private for-profit, 2-year
-\item \code{7} public, less than 2-year
-\item \code{9} private for-profit, less than 2-year
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{codipged}},
+\code{\link{dipged}},
+\code{\link{madeg}},
+\code{\link{major1}},
+\code{\link{major2}},
+\code{\link{spdeg}},
+\code{\link{spdipged}},
+\code{\link{whencol}},
+\code{\link{whenhs}}
+}
+\concept{Core}
 \keyword{variable}

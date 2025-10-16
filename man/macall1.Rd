@@ -10,11 +10,36 @@ General Social Survey https://gss.norc.org
 macall1
 }
 \details{
-Question 1229. How often do you have any other contact with your mother besides visiting, either by telephone, letter, fax or e-mail?
+Question How often do you have any other contact with your mother besides visiting, either by telephone, letter, fax or e-mail?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} daily
+\item \code{2} at least several times a week
+\item \code{3} at least once a week
+\item \code{4} at least once a month
+\item \code{5} several times a year
+\item \code{6} less often
+\item \code{7} never
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4195/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab at least once a month \tab at least once a week \tab at least several times a week \tab daily \tab less often \tab never \tab no answer \tab several times a year \tab not available in this year \tab Total \cr
@@ -57,29 +82,36 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} daily
-\item \code{2} at least several times a week
-\item \code{3} at least once a week
-\item \code{4} at least once a month
-\item \code{5} several times a year
-\item \code{6} less often
-\item \code{7} never
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Social Networks & Support Systems: 
+\code{\link{cousins}},
+\code{\link{kidcall}},
+\code{\link{mavisit1}},
+\code{\link{niecenep}},
+\code{\link{pacall1}},
+\code{\link{parslaw}},
+\code{\link{pavisit1}},
+\code{\link{sibinlaw}},
+\code{\link{uncaunts}}
+
+Other Family: 
+\code{\link{cousins}},
+\code{\link{kidcall}},
+\code{\link{mavisit1}},
+\code{\link{niecenep}},
+\code{\link{pacall1}},
+\code{\link{parslaw}},
+\code{\link{pavisit1}},
+\code{\link{sibinlaw}},
+\code{\link{uncaunts}}
+}
+\concept{Family}
+\concept{ISSP Social Networks & Support Systems}
 \keyword{variable}

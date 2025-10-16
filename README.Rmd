@@ -20,7 +20,7 @@ knitr::opts_chunk$set(
 [![gssrdoc status badge](https://kjhealy.r-universe.dev/badges/gssrdoc)](https://kjhealy.r-universe.dev/gssrdoc)
 <!-- badges: end -->
 
-Documentation for the General Social Survey Cumulative Data (1972-2024, release 1) packaged for easy use in R. This package is a companion to the [`gssr`](https://github.com/kjhealy.gssr) package. I recommend you install both of them.
+Documentation for the General Social Survey Cumulative Data (1972-2024) packaged for easy use in R. This package is a companion to the [`gssr`](https://github.com/kjhealy.gssr) package. I recommend you install both of them.
 
 ## Installation
 
@@ -54,7 +54,7 @@ remotes::install_github("kjhealy/gssrdoc")
 
 ## Integrated Help
 
-`{gssrdoc}` provides documentation for all GSS variables in the cumulative data file via R's help system. You can browse variables by name in the package's help file or type `?` followed by the name of the variable at the console to get a standard R help page containing information on the variable, the values it takes and (in most cases) a crosstabulation of the variable's values for each year of the GSS. This facility is particularly convenient in an IDE such as RStudio or Microsoft Visual Studio.
+`{gssrdoc}` provides documentation for all GSS variables in the cumulative data file via R's help system. You can browse variables by name in the package's help file or type `?` followed by the name of the variable at the console to get a standard R help page containing information on the variable, the values it takes, the years and ballots it is available for, and (in most cases) a crosstabulation of the variable's values for each year of the GSS. This facility is particularly convenient in an IDE such as RStudio or Microsoft Visual Studio. The help page for each variable links to the [GSS Data Explorer](https://gssdataexplorer.norc.org) page for that variable. The "See Also" section at the bottom of the help page incorporates the GSS's own cross-referencing by module and topic. 
 
 <img src="man/figures/fefam_help.png" />
 

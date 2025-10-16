@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 vote68
 }
 \details{
-Question 57. Now in 1968, you remember that Humphrey ran for President on the Democratic ticket against Nixon for the Republicans, and Wallace as an Independent. Do you remember for sure whether or not you voted in that election?
+Question A. Now in 1968, you remember that Humphrey ran for President on the Democratic ticket against Nixon for the Republicans, and Wallace as an Independent. Do you remember for sure whether or not you voted in that election?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} voted
+\item \code{2} did not vote
+\item \code{3} not eligible
+\item \code{4} refused
+\item \code{6} wldnt vt-relig
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/142/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab did not vote \tab don't know \tab not eligible \tab refused \tab voted \tab no answer \tab wldnt vt-relig \tab iap \tab not available in this year \tab Total \cr
@@ -57,27 +80,30 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} voted
-\item \code{2} did not vote
-\item \code{3} not eligible
-\item \code{4} refused
-\item \code{6} wldnt vt-relig
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1972 \tab - \tab full \cr
+   1973 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{padotdat}},
+\code{\link{padotged}},
+\code{\link{padotpeo}},
+\code{\link{padotpre}},
+\code{\link{padotsvp}},
+\code{\link{padotthn}},
+\code{\link{partyid}},
+\code{\link{pres68}},
+\code{\link{spdotpre}}
+
+Other Political: 
+\code{\link{partyid}},
+\code{\link{pres68}}
+}
+\concept{Core}
+\concept{Political}
 \keyword{variable}

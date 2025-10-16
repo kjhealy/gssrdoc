@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 mhdofam
 }
 \details{
-Question 1133. What do you think (NAME) should do about this situation? a. Talk to family
+Question What do you think (NAME) should do about this situation?
+FI INSTRUCTION: Do not read responses, code up to 3 responses.
+A. Talk to family?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes
+\item \code{2} no
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3721/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab not available in this year \tab Total \cr
@@ -57,24 +79,36 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes
-\item \code{2} no
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab D \tab partial \cr
 }
 }
 
+\seealso{
+Other Mental Health IV: 
+\code{\link{mhdodoc}},
+\code{\link{mhdofrnd}},
+\code{\link{mhdoheal}},
+\code{\link{mhdomhp}},
+\code{\link{mhdootc}},
+\code{\link{mhdopsyc}},
+\code{\link{mhdorel}},
+\code{\link{mhproblm}},
+\code{\link{vigvermy}}
+
+Other Mental Health: 
+\code{\link{mhdodoc}},
+\code{\link{mhdofrnd}},
+\code{\link{mhdoheal}},
+\code{\link{mhdomhp}},
+\code{\link{mhdootc}},
+\code{\link{mhdopsyc}},
+\code{\link{mhdorel}},
+\code{\link{mhproblm}},
+\code{\link{vigvermy}}
+}
+\concept{Mental Health}
+\concept{Mental Health IV}
 \keyword{variable}

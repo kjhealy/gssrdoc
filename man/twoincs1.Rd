@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 twoincs1
 }
 \details{
-Question 1320a. Do you agree or disagree ... both the husband and the wife should contribute to the household income.
+Question A. Do you agree or disagree ... both the husband and the wife should contribute to the household income.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} strongly agree
+\item \code{2} agree
+\item \code{3} neither agree nor disagree
+\item \code{4} disagree
+\item \code{5} strongly disagree
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4455/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab agree \tab disagree \tab don't know \tab neither agree nor disagree \tab no answer \tab strongly agree \tab strongly disagree \tab not available in this year \tab Total \cr
@@ -57,27 +80,30 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} strongly agree
-\item \code{2} agree
-\item \code{3} neither agree nor disagree
-\item \code{4} disagree
-\item \code{5} strongly disagree
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
+   2002 \tab A/B/C \tab full \cr
+   2012 \tab A/B/- \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Family & Gender Roles: 
+\code{\link{earnshh}},
+\code{\link{fewknokd}},
+\code{\link{happy7}},
+\code{\link{kidfinbu}},
+\code{\link{kidjob}},
+\code{\link{satfam7}},
+\code{\link{satjob7}},
+\code{\link{ssfchild}},
+\code{\link{ssmchild}}
+
+Other Women: 
+\code{\link{fewknokd}}
+}
+\concept{ISSP Family & Gender Roles}
+\concept{Women}
 \keyword{variable}

@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 tagsales
 }
 \details{
-Question 631. How frequently do you go to garage sales, tag sales, or yard sales -- that is, one-time sales in which homeowners sell items that they no longer need from out of their homes, yards, or garages?
+Question How frequently do you go to garage sales, tag sales, or yard sales -- that is, one-time sales in which homeowners sell items that they no longer need from out of their homes, yards, or garages?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} never
+\item \code{2} rarely
+\item \code{3} occasionally 1-3 times a yr
+\item \code{4} regularly
+\item \code{5} almost every weekend
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1874/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab almost every weekend \tab never \tab no answer \tab occasionally 1-3 times a yr \tab rarely \tab regularly \tab not available in this year \tab Total \cr
@@ -57,27 +80,30 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} never
-\item \code{2} rarely
-\item \code{3} occasionally 1-3 times a yr
-\item \code{4} regularly
-\item \code{5} almost every weekend
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Markets: 
+\code{\link{decauto}},
+\code{\link{econsys}},
+\code{\link{fambiz}},
+\code{\link{famfinan}},
+\code{\link{haggle}},
+\code{\link{hrfambiz}},
+\code{\link{natrecon}},
+\code{\link{reqinfo}},
+\code{\link{wkfambiz}}
+
+Other Purchases/Transactions: 
+\code{\link{decauto}},
+\code{\link{famfinan}},
+\code{\link{haggle}}
+}
+\concept{Markets}
+\concept{Purchases/Transactions}
 \keyword{variable}

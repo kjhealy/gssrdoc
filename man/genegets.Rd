@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 genegets
 }
 \details{
-Question 416c. Suppose a genetic screening test for certain forms of heart disease is made available by an employer to workers who want to take it. Who do you think should have control over access to the test results - the worker or the employer?
+Question C. Suppose a genetic screening test for certain forms of heart disease is made available by an employer to workers who want to take it. Who Do you think should have control over access to the test results -- the worker or the employer?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} employer should
+\item \code{2} worker should
+\item \code{3} both - voluntary
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1262/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab both - voluntary \tab don't know \tab employer should \tab no answer \tab worker should \tab not available in this year \tab Total \cr
@@ -57,25 +78,29 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} employer should
-\item \code{2} worker should
-\item \code{3} both - voluntary
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1991 \tab A/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Work Organizations: 
+\code{\link{genecanx}},
+\code{\link{genecany}},
+\code{\link{merged}},
+\code{\link{outofbiz}},
+\code{\link{profits1}},
+\code{\link{profits2}},
+\code{\link{reorg}},
+\code{\link{unpower}},
+\code{\link{unprog}}
+
+Other Genetic Testing: 
+\code{\link{genecanx}},
+\code{\link{genecany}}
+}
+\concept{Genetic Testing}
+\concept{Work Organizations}
 \keyword{variable}

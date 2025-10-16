@@ -12,9 +12,35 @@ wkrspns
 \details{
 Question What did you typically do in response to these behaviors?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} did nothing (ignored it)
+\item \code{2} talked to co-workers or other people at work
+\item \code{3} talked to family or friends
+\item \code{4} reported the incident to management or those higher up
+\item \code{5} reported the incident to the union
+\item \code{6} confronted the person (s) engaging in the behaviors
+\item \code{7} filed a formal complaint or grievance about the behavior or experiences
+\item \code{8} did not know what to do
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3023/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllll}{
    year \tab iap \tab confronted the person (s) engaging in the behaviors \tab did not know what to do \tab did nothing (ignored it) \tab don't know \tab filed a formal complaint or grievance about the behavior or experiences \tab no answer \tab reported the incident to management or those higher up \tab reported the incident to the union \tab talked to co-workers or other people at work \tab talked to family or friends \tab not available in this year \tab Total \cr
@@ -57,30 +83,34 @@ Counts by year:\tabular{llllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} did nothing (ignored it)
-\item \code{2} talked to co-workers or other people at work
-\item \code{3} talked to family or friends
-\item \code{4} reported the incident to management or those higher up
-\item \code{5} reported the incident to the union
-\item \code{6} confronted the person (s) engaging in the behaviors
-\item \code{7} filed a formal complaint or grievance about the behavior or experiences
-\item \code{8} did not know what to do
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2012 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Workplace Conflict: 
+\code{\link{denyrais}},
+\code{\link{eharaswk}},
+\code{\link{ignorwk}},
+\code{\link{jokeswk}},
+\code{\link{liedcwkr}},
+\code{\link{rudewk}},
+\code{\link{rumorwk}},
+\code{\link{wkbhvrs}}
+
+Other Work: 
+\code{\link{denyrais}},
+\code{\link{eharaswk}},
+\code{\link{ignorwk}},
+\code{\link{jokeswk}},
+\code{\link{liedcwkr}},
+\code{\link{rudewk}},
+\code{\link{rumorwk}},
+\code{\link{wkbhvrs}}
+}
+\concept{Work}
+\concept{Workplace Conflict}
 \keyword{variable}

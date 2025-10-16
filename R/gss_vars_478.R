@@ -1,11 +1,207 @@
+#'  R would enjoy job if money wasn't needed
+#' 
+#'  ilikejob
+#' 
+#' Question Do you agree or disagree ... 
+#' J. I would enjoy having a job even if I didn''t need the money.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` neither agree nor disagree
+#'   * `4` disagree
+#'   * `5` strongly disagree
+#'   * `NA(d)` can't choose
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4352/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |agree |can't choose |disagree |neither agree nor disagree |no answer |strongly agree |strongly disagree |not available in this year |Total |
+#'  |:-----|:-----|:-----|:------------|:--------|:--------------------------|:---------|:--------------|:-----------------|:--------------------------|:-----|
+#'  |1972  |1613  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1613  |
+#'  |1973  |1504  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1504  |
+#'  |1974  |1484  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1484  |
+#'  |1975  |1490  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1490  |
+#'  |1976  |1499  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1499  |
+#'  |1977  |1530  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1530  |
+#'  |1978  |1532  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1532  |
+#'  |1980  |1468  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1468  |
+#'  |1982  |1860  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1860  |
+#'  |1983  |1599  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1599  |
+#'  |1984  |1473  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1473  |
+#'  |1985  |1534  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1534  |
+#'  |1986  |1470  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1470  |
+#'  |1987  |1819  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1819  |
+#'  |1988  |67    |650   |34           |228      |173                        |21        |211            |97                |-                          |1481  |
+#'  |1989  |1537  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1537  |
+#'  |1990  |1372  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1372  |
+#'  |1991  |1517  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1517  |
+#'  |1993  |1606  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1606  |
+#'  |1994  |2992  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2992  |
+#'  |1996  |2904  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2904  |
+#'  |1998  |2832  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2832  |
+#'  |2000  |2817  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2817  |
+#'  |2002  |2765  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2765  |
+#'  |2004  |2812  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2812  |
+#'  |2006  |4510  |-     |-            |-        |-                          |-         |-              |-                 |-                          |4510  |
+#'  |2008  |2023  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2023  |
+#'  |2010  |2044  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2044  |
+#'  |2012  |1974  |-     |-            |-        |-                          |-         |-              |-                 |-                          |1974  |
+#'  |2014  |2538  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2538  |
+#'  |2016  |2867  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2867  |
+#'  |2018  |2348  |-     |-            |-        |-                          |-         |-              |-                 |-                          |2348  |
+#'  |2021  |4032  |-     |-            |-        |-                          |-         |-              |-                 |-                          |4032  |
+#'  |2022  |-     |-     |-            |-        |-                          |-         |-              |-                 |3544                       |3544  |
+#'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |3309                       |3309  |
+#'  |Total |67432 |650   |34           |228      |173                        |21        |211            |97                |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Women
+#' 
+#' @keywords variable
+#' @md
+#' @name ilikejob
+NULL
+
+
+#'  Shld mom work aftr marriage, before kids?
+#' 
+#'  wrknokid
+#' 
+#' Question Do you think that women should work outside the home full-time, part-time or not at all under these circumstances: 
+#' A. After marrying and before there are children.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` work full-time
+#'   * `2` work part-time
+#'   * `3` stay home
+#'   * `NA(d)` can't choose
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4353/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |can't choose |no answer |stay home |work full-time |work part-time |not available in this year |Total |
+#'  |:-----|:-----|:------------|:---------|:---------|:--------------|:--------------|:--------------------------|:-----|
+#'  |1972  |1613  |-            |-         |-         |-              |-              |-                          |1613  |
+#'  |1973  |1504  |-            |-         |-         |-              |-              |-                          |1504  |
+#'  |1974  |1484  |-            |-         |-         |-              |-              |-                          |1484  |
+#'  |1975  |1490  |-            |-         |-         |-              |-              |-                          |1490  |
+#'  |1976  |1499  |-            |-         |-         |-              |-              |-                          |1499  |
+#'  |1977  |1530  |-            |-         |-         |-              |-              |-                          |1530  |
+#'  |1978  |1532  |-            |-         |-         |-              |-              |-                          |1532  |
+#'  |1980  |1468  |-            |-         |-         |-              |-              |-                          |1468  |
+#'  |1982  |1860  |-            |-         |-         |-              |-              |-                          |1860  |
+#'  |1983  |1599  |-            |-         |-         |-              |-              |-                          |1599  |
+#'  |1984  |1473  |-            |-         |-         |-              |-              |-                          |1473  |
+#'  |1985  |1534  |-            |-         |-         |-              |-              |-                          |1534  |
+#'  |1986  |1470  |-            |-         |-         |-              |-              |-                          |1470  |
+#'  |1987  |1819  |-            |-         |-         |-              |-              |-                          |1819  |
+#'  |1988  |67    |171          |30        |67        |931            |215            |-                          |1481  |
+#'  |1989  |1537  |-            |-         |-         |-              |-              |-                          |1537  |
+#'  |1990  |1372  |-            |-         |-         |-              |-              |-                          |1372  |
+#'  |1991  |1517  |-            |-         |-         |-              |-              |-                          |1517  |
+#'  |1993  |1606  |-            |-         |-         |-              |-              |-                          |1606  |
+#'  |1994  |1545  |154          |24        |34        |1067           |168            |-                          |2992  |
+#'  |1996  |2904  |-            |-         |-         |-              |-              |-                          |2904  |
+#'  |1998  |2832  |-            |-         |-         |-              |-              |-                          |2832  |
+#'  |2000  |2817  |-            |-         |-         |-              |-              |-                          |2817  |
+#'  |2002  |1594  |185          |2         |20        |796            |168            |-                          |2765  |
+#'  |2004  |2812  |-            |-         |-         |-              |-              |-                          |2812  |
+#'  |2006  |4510  |-            |-         |-         |-              |-              |-                          |4510  |
+#'  |2008  |2023  |-            |-         |-         |-              |-              |-                          |2023  |
+#'  |2010  |2044  |-            |-         |-         |-              |-              |-                          |2044  |
+#'  |2012  |1974  |-            |-         |-         |-              |-              |-                          |1974  |
+#'  |2014  |2538  |-            |-         |-         |-              |-              |-                          |2538  |
+#'  |2016  |2867  |-            |-         |-         |-              |-              |-                          |2867  |
+#'  |2018  |2348  |-            |-         |-         |-              |-              |-                          |2348  |
+#'  |2021  |4032  |-            |-         |-         |-              |-              |-                          |4032  |
+#'  |2022  |-     |-            |-         |-         |-              |-              |3544                       |3544  |
+#'  |2024  |-     |-            |-         |-         |-              |-              |3309                       |3309  |
+#'  |Total |64814 |510          |56        |121       |2794           |551            |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Women
+#' 
+#' @keywords variable
+#' @md
+#' @name wrknokid
+NULL
+
+
 #'  Shld woman with preschooler work?
 #' 
 #'  wrkbaby
 #' 
-#' Question 1276. Do you think that women should work outside the home full-time, part-time or not at all under these circumstances: b. When there is a child under school age?
+#' Question Do you think that women should work outside the home full-time, part-time or not at all under these circumstances: 
+#' B. When there is a child under school age.
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` work full-time
+#'   * `2` work part-time
+#'   * `3` stay home
+#'   * `NA(d)` can't choose
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4354/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +244,34 @@
 #'  |2024  |-     |-            |-         |-         |-              |-              |-              |3309                       |3309  |
 #'  |Total |65892 |1155         |83        |2384      |790            |2078           |8              |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2012 |A/B/-   |partial      |
+#'  |2022 |A/-/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Women
+#' 
+#' @keywords variable
+#' @md
+#' @name wrkbaby
+NULL
+
+
+#'  Shld woman work after youngest in school?
+#' 
+#'  wrksch
+#' 
+#' Question Do you think that women should work outside the home full-time, part-time or not at all under these circumstances: 
+#' C. After the youngest child starts school.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` work full-time
@@ -66,22 +290,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wrkbaby
-NULL
-
-#'  Shld woman work after youngest in school?
-#' 
-#'  wrksch
-#' 
-#' Question 1276. Do you think that women should work outside the home full-time, part-time or not at all under these circumstances: c. After the youngest child starts school?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4355/vshow).
 #'
 #' Counts by year: 
 #'
@@ -124,6 +334,34 @@ NULL
 #'  |2024  |-     |-            |-         |-         |-              |-              |-              |3309                       |3309  |
 #'  |Total |65892 |1075         |86        |407       |2392           |2527           |11             |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2012 |A/B/-   |partial      |
+#'  |2022 |A/-/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Women
+#' 
+#' @keywords variable
+#' @md
+#' @name wrksch
+NULL
+
+
+#'  Shld woman work after kids leave home?
+#' 
+#'  wrkgrown
+#' 
+#' Question Do you think that women should work outside the home full-time, part-time or not at all under these circumstances: 
+#' D. After the children leave home.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` work full-time
@@ -142,22 +380,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wrksch
-NULL
-
-#'  Shld woman work after kids leave home?
-#' 
-#'  wrkgrown
-#' 
-#' Question 1276. Do you think that women should work outside the home full-time, part-time or not at all under these circumstances: d. After the children leave home?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4356/vshow).
 #'
 #' Counts by year: 
 #'
@@ -200,11 +424,38 @@ NULL
 #'  |2024  |-     |-            |-         |-         |-              |-              |3309                       |3309  |
 #'  |Total |64814 |600          |61        |120       |2609           |642            |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Women
+#' 
+#' @keywords variable
+#' @md
+#' @name wrkgrown
+NULL
+
+
+#'  Public daycare center ok for kid ( 3 yrs?
+#' 
+#'  daycare1
+#' 
+#' Question Think of a child under 3 years old whose parents both have full-time jobs. How suitable do you think each of these child care arrangements would be for the child? 
+#' A. A public day care center?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` work full-time
-#'   * `2` work part-time
-#'   * `3` stay home
+#'   * `1` very suitable
+#'   * `2` somewhat suitable
+#'   * `3` not very suitable
+#'   * `4` not at all suitable
 #'   * `NA(d)` can't choose
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -218,22 +469,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wrkgrown
-NULL
-
-#'  Public daycare center ok for kid ( 3 yrs?
-#' 
-#'  daycare1
-#' 
-#' Question 1277. Think of a child under 3 years old whose parents both have full-time jobs. How suitable do you think each of these child care arrangements would be for the child? a. A public day care center
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4357/vshow).
 #'
 #' Counts by year: 
 #'
@@ -276,6 +513,30 @@ NULL
 #'  |2024  |-     |-            |-         |-                   |-                 |-                 |-             |3309                       |3309  |
 #'  |Total |67432 |99           |57        |165                 |278               |548               |267           |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name daycare1
+NULL
+
+
+#'  Private daycare center ok for kid ( 3 yrs?
+#' 
+#'  daycare2
+#' 
+#' Question Think of a child under 3 years old whose parents both have full-time jobs. How suitable do you think each of these child care arrangements would be for the child? 
+#' B. A private day care center?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` very suitable
@@ -295,22 +556,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name daycare1
-NULL
-
-#'  Private daycare center ok for kid ( 3 yrs?
-#' 
-#'  daycare2
-#' 
-#' Question 1277. Think of a child under 3 years old whose parents both have full-time jobs. How suitable do you think each of these child care arrangements would be for the child? b. A private day care center
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4358/vshow).
 #'
 #' Counts by year: 
 #'
@@ -353,6 +600,30 @@ NULL
 #'  |2024  |-     |-            |-         |-                   |-                 |-                 |-             |3309                       |3309  |
 #'  |Total |67432 |92           |52        |82                  |145               |600               |443           |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name daycare2
+NULL
+
+
+#'  Babysitter ok for kid ( 3 yrs?
+#' 
+#'  daycare3
+#' 
+#' Question Think of a child under 3 years old whose parents both have full-time jobs. How suitable do you think each of these child care arrangements would be for the child? 
+#' C. A babysitter?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` very suitable
@@ -372,22 +643,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name daycare2
-NULL
-
-#'  Babysitter ok for kid ( 3 yrs?
-#' 
-#'  daycare3
-#' 
-#' Question 1277. Think of a child under 3 years old whose parents both have full-time jobs. How suitable do you think each of these child care arrangements would be for the child? c. A babysitter
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4359/vshow).
 #'
 #' Counts by year: 
 #'
@@ -430,6 +687,30 @@ NULL
 #'  |2024  |-     |-            |-         |-                   |-                 |-                 |-             |3309                       |3309  |
 #'  |Total |67432 |72           |62        |89                  |203               |616               |372           |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name daycare3
+NULL
+
+
+#'  Friend or neighbor ok for kid ( 3 yrs?
+#' 
+#'  daycare4
+#' 
+#' Question Think of a child under 3 years old whose parents both have full-time jobs. How suitable do you think each of these child care arrangements would be for the child? 
+#' D. A neighbor or friend?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` very suitable
@@ -449,22 +730,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name daycare3
-NULL
-
-#'  Friend or neighbor ok for kid ( 3 yrs?
-#' 
-#'  daycare4
-#' 
-#' Question 1277. Think of a child under 3 years old whose parents both have full-time jobs. How suitable do you think each of these child care arrangements would be for the child? d. A neighbor or friend
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4360/vshow).
 #'
 #' Counts by year: 
 #'
@@ -507,6 +774,30 @@ NULL
 #'  |2024  |-     |-            |-         |-                   |-                 |-                 |-             |3309                       |3309  |
 #'  |Total |67432 |81           |55        |84                  |220               |607               |367           |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name daycare4
+NULL
+
+
+#'  Relative ok for kid ( 3yrs?
+#' 
+#'  daycare5
+#' 
+#' Question Think of a child under 3 years old whose parents both have full-time jobs. How suitable do you think each of these child care arrangements would be for the child? 
+#' E. A relative?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` very suitable
@@ -526,22 +817,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name daycare4
-NULL
-
-#'  Relative ok for kid ( 3yrs?
-#' 
-#'  daycare5
-#' 
-#' Question 1277. Think of a child under 3 years old whose parents both have full-time jobs. How suitable do you think each of these child care arrangements would be for the child? e. A relative
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4361/vshow).
 #'
 #' Counts by year: 
 #'
@@ -584,184 +861,19 @@ NULL
 #'  |2024  |-     |-            |-         |-                   |-                 |-                 |-             |3309                       |3309  |
 #'  |Total |67432 |59           |40        |44                  |89                |479               |703           |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` very suitable
-#'   * `2` somewhat suitable
-#'   * `3` not very suitable
-#'   * `4` not at all suitable
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family ISSP Family & Gender Roles
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
 #' @name daycare5
 NULL
 
-#'  Way of life recommendation for woman
-#' 
-#'  femarry
-#' 
-#' Question 1278. If you were advising a young woman, which of the following ways of life would you recommend?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |can't choose |cohabitate, then marry |live alone |live with posslq |marry |no answer |not available in this year |Total |
-#'  |:-----|:-----|:------------|:----------------------|:----------|:----------------|:-----|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-            |-                      |-          |-                |-     |-         |-                          |1613  |
-#'  |1973  |1504  |-            |-                      |-          |-                |-     |-         |-                          |1504  |
-#'  |1974  |1484  |-            |-                      |-          |-                |-     |-         |-                          |1484  |
-#'  |1975  |1490  |-            |-                      |-          |-                |-     |-         |-                          |1490  |
-#'  |1976  |1499  |-            |-                      |-          |-                |-     |-         |-                          |1499  |
-#'  |1977  |1530  |-            |-                      |-          |-                |-     |-         |-                          |1530  |
-#'  |1978  |1532  |-            |-                      |-          |-                |-     |-         |-                          |1532  |
-#'  |1980  |1468  |-            |-                      |-          |-                |-     |-         |-                          |1468  |
-#'  |1982  |1860  |-            |-                      |-          |-                |-     |-         |-                          |1860  |
-#'  |1983  |1599  |-            |-                      |-          |-                |-     |-         |-                          |1599  |
-#'  |1984  |1473  |-            |-                      |-          |-                |-     |-         |-                          |1473  |
-#'  |1985  |1534  |-            |-                      |-          |-                |-     |-         |-                          |1534  |
-#'  |1986  |1470  |-            |-                      |-          |-                |-     |-         |-                          |1470  |
-#'  |1987  |1819  |-            |-                      |-          |-                |-     |-         |-                          |1819  |
-#'  |1988  |67    |197          |372                    |131        |37               |652   |25        |-                          |1481  |
-#'  |1989  |1537  |-            |-                      |-          |-                |-     |-         |-                          |1537  |
-#'  |1990  |1372  |-            |-                      |-          |-                |-     |-         |-                          |1372  |
-#'  |1991  |1517  |-            |-                      |-          |-                |-     |-         |-                          |1517  |
-#'  |1993  |1606  |-            |-                      |-          |-                |-     |-         |-                          |1606  |
-#'  |1994  |2992  |-            |-                      |-          |-                |-     |-         |-                          |2992  |
-#'  |1996  |2904  |-            |-                      |-          |-                |-     |-         |-                          |2904  |
-#'  |1998  |2832  |-            |-                      |-          |-                |-     |-         |-                          |2832  |
-#'  |2000  |2817  |-            |-                      |-          |-                |-     |-         |-                          |2817  |
-#'  |2002  |2765  |-            |-                      |-          |-                |-     |-         |-                          |2765  |
-#'  |2004  |2812  |-            |-                      |-          |-                |-     |-         |-                          |2812  |
-#'  |2006  |4510  |-            |-                      |-          |-                |-     |-         |-                          |4510  |
-#'  |2008  |2023  |-            |-                      |-          |-                |-     |-         |-                          |2023  |
-#'  |2010  |2044  |-            |-                      |-          |-                |-     |-         |-                          |2044  |
-#'  |2012  |1974  |-            |-                      |-          |-                |-     |-         |-                          |1974  |
-#'  |2014  |2538  |-            |-                      |-          |-                |-     |-         |-                          |2538  |
-#'  |2016  |2867  |-            |-                      |-          |-                |-     |-         |-                          |2867  |
-#'  |2018  |2348  |-            |-                      |-          |-                |-     |-         |-                          |2348  |
-#'  |2021  |4032  |-            |-                      |-          |-                |-     |-         |-                          |4032  |
-#'  |2022  |-     |-            |-                      |-          |-                |-     |-         |3544                       |3544  |
-#'  |2024  |-     |-            |-                      |-          |-                |-     |-         |3309                       |3309  |
-#'  |Total |67432 |197          |372                    |131        |37               |652   |25        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` live alone
-#'   * `2` live with posslq
-#'   * `3` cohabitate, then marry
-#'   * `4` marry
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name femarry
-NULL
-
-#'  Way of life recommendation for man
-#' 
-#'  memarry
-#' 
-#' Question 1279. If you were advising a young man, which of the following ways of life would you recommend?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |can't choose |cohabitate, then marry |live alone |live with posslq |marry |no answer |not available in this year |Total |
-#'  |:-----|:-----|:------------|:----------------------|:----------|:----------------|:-----|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-            |-                      |-          |-                |-     |-         |-                          |1613  |
-#'  |1973  |1504  |-            |-                      |-          |-                |-     |-         |-                          |1504  |
-#'  |1974  |1484  |-            |-                      |-          |-                |-     |-         |-                          |1484  |
-#'  |1975  |1490  |-            |-                      |-          |-                |-     |-         |-                          |1490  |
-#'  |1976  |1499  |-            |-                      |-          |-                |-     |-         |-                          |1499  |
-#'  |1977  |1530  |-            |-                      |-          |-                |-     |-         |-                          |1530  |
-#'  |1978  |1532  |-            |-                      |-          |-                |-     |-         |-                          |1532  |
-#'  |1980  |1468  |-            |-                      |-          |-                |-     |-         |-                          |1468  |
-#'  |1982  |1860  |-            |-                      |-          |-                |-     |-         |-                          |1860  |
-#'  |1983  |1599  |-            |-                      |-          |-                |-     |-         |-                          |1599  |
-#'  |1984  |1473  |-            |-                      |-          |-                |-     |-         |-                          |1473  |
-#'  |1985  |1534  |-            |-                      |-          |-                |-     |-         |-                          |1534  |
-#'  |1986  |1470  |-            |-                      |-          |-                |-     |-         |-                          |1470  |
-#'  |1987  |1819  |-            |-                      |-          |-                |-     |-         |-                          |1819  |
-#'  |1988  |67    |199          |369                    |143        |40               |636   |27        |-                          |1481  |
-#'  |1989  |1537  |-            |-                      |-          |-                |-     |-         |-                          |1537  |
-#'  |1990  |1372  |-            |-                      |-          |-                |-     |-         |-                          |1372  |
-#'  |1991  |1517  |-            |-                      |-          |-                |-     |-         |-                          |1517  |
-#'  |1993  |1606  |-            |-                      |-          |-                |-     |-         |-                          |1606  |
-#'  |1994  |2992  |-            |-                      |-          |-                |-     |-         |-                          |2992  |
-#'  |1996  |2904  |-            |-                      |-          |-                |-     |-         |-                          |2904  |
-#'  |1998  |2832  |-            |-                      |-          |-                |-     |-         |-                          |2832  |
-#'  |2000  |2817  |-            |-                      |-          |-                |-     |-         |-                          |2817  |
-#'  |2002  |2765  |-            |-                      |-          |-                |-     |-         |-                          |2765  |
-#'  |2004  |2812  |-            |-                      |-          |-                |-     |-         |-                          |2812  |
-#'  |2006  |4510  |-            |-                      |-          |-                |-     |-         |-                          |4510  |
-#'  |2008  |2023  |-            |-                      |-          |-                |-     |-         |-                          |2023  |
-#'  |2010  |2044  |-            |-                      |-          |-                |-     |-         |-                          |2044  |
-#'  |2012  |1974  |-            |-                      |-          |-                |-     |-         |-                          |1974  |
-#'  |2014  |2538  |-            |-                      |-          |-                |-     |-         |-                          |2538  |
-#'  |2016  |2867  |-            |-                      |-          |-                |-     |-         |-                          |2867  |
-#'  |2018  |2348  |-            |-                      |-          |-                |-     |-         |-                          |2348  |
-#'  |2021  |4032  |-            |-                      |-          |-                |-     |-         |-                          |4032  |
-#'  |2022  |-     |-            |-                      |-          |-                |-     |-         |3544                       |3544  |
-#'  |2024  |-     |-            |-                      |-          |-                |-     |-         |3309                       |3309  |
-#'  |Total |67432 |199          |369                    |143        |40               |636   |27        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` live alone
-#'   * `2` live with posslq
-#'   * `3` cohabitate, then marry
-#'   * `4` marry
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name memarry
-NULL
 

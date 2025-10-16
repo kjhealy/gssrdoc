@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 polinftx
 }
 \details{
-Question 1066. Please look at Card B12. How much influence should each of the following groups have in deciding whether to reduce federal income taxes? c. Elected officials.
+Question Please look at Card B12. How much influence should each of the following groups have in deciding whether to reduce federal income taxes?
+C. Elected officials. (Would you say a great deal of influence, a fair amount, a little influence, or none at all?)
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} a great deal of influence
+\item \code{2} a fair amount
+\item \code{3} a little influence
+\item \code{4} none at all
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3383/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab a fair amount \tab a great deal of influence \tab a little influence \tab don't know \tab none at all \tab no answer \tab not available in this year \tab Total \cr
@@ -57,26 +80,35 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} a great deal of influence
-\item \code{2} a fair amount
-\item \code{3} a little influence
-\item \code{4} none at all
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab B/C \tab partial \cr
+   2010 \tab A/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{bizbsttx}},
+\code{\link{bizinftx}},
+\code{\link{ecoagree}},
+\code{\link{ecobsttx}},
+\code{\link{ecoinftx}},
+\code{\link{gmmed}},
+\code{\link{gmpol}},
+\code{\link{polbsttx}},
+\code{\link{txpol}}
+
+Other Economy: 
+\code{\link{bizbsttx}},
+\code{\link{bizinftx}},
+\code{\link{ecoagree}},
+\code{\link{ecobsttx}},
+\code{\link{ecoinftx}},
+\code{\link{polbsttx}},
+\code{\link{txpol}}
+}
+\concept{Economy}
+\concept{Science Knowledge & Attitudes}
 \keyword{variable}

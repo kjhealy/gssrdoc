@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 paidlvpy
 }
 \details{
-Question And who should pay for this leave? The government, the employer, both the government and the employer, or other sources?
+Question Consider a couple who both work full-time and now have a new born child. One of them stops working for some time to care for their child. Do you think there should be paid leave available and, if so, for how long?
+B. And who should pay for this leave? The government, the employer, both the government and the employer, or other sources?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} the government
+\item \code{2} the employer
+\item \code{3} both government and the employer
+\item \code{4} other sources
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4465/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab both government and the employer \tab don't know \tab no answer \tab other sources \tab the employer \tab the government \tab not available in this year \tab Total \cr
@@ -57,26 +80,31 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} the government
-\item \code{2} the employer
-\item \code{3} both government and the employer
-\item \code{4} other sources
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2012 \tab A/B \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Family & Gender Roles: 
+\code{\link{carecost}},
+\code{\link{careprov}},
+\code{\link{eldersup}},
+\code{\link{eldhelp}},
+\code{\link{famwkbst}},
+\code{\link{famwklst}},
+\code{\link{kidsocst}},
+\code{\link{paidlv}},
+\code{\link{paidlvdv}}
+
+Other Children: 
+\code{\link{eldersup}},
+\code{\link{kidsocst}},
+\code{\link{paidlv}},
+\code{\link{paidlvdv}}
+}
+\concept{Children}
+\concept{ISSP Family & Gender Roles}
 \keyword{variable}

@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 goveqinc
 }
 \details{
-Question 1256. Do you agree or disagree: b. t is the responsibility of the government to reduce the differences in income between people with high incomes and those with low incomes.
+Question Do you agree or disagree?
+B. It is the responsibility of the government to reduce the differences in income between people with high incomes and those with low incomes.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} strongly agree
+\item \code{2} agree
+\item \code{3} neither agree nor disagree
+\item \code{4} disagree
+\item \code{5} strongly disagree
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4296/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab agree \tab can't choose \tab disagree \tab neither agree nor disagree \tab no answer \tab strongly agree \tab strongly disagree \tab skipped on web \tab not available in this year \tab Total \cr
@@ -57,27 +81,44 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} strongly agree
-\item \code{2} agree
-\item \code{3} neither agree nor disagree
-\item \code{4} disagree
-\item \code{5} strongly disagree
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1987 \tab -/-/- \tab full \cr
+   1993 \tab A/B/C \tab full \cr
+   1994 \tab A/B/C \tab full \cr
+   1996 \tab A/B/C \tab full \cr
+   2000 \tab A/B/C \tab full \cr
+   2008 \tab B/C/- \tab partial \cr
+   2010 \tab A/B/- \tab partial \cr
+   2018 \tab B/C/- \tab partial \cr
+   2021 \tab A/B/- \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Social Inequality: 
+\code{\link{givfctry}},
+\code{\link{givjudge}},
+\code{\link{givrocc}},
+\code{\link{govedop}},
+\code{\link{govjobs}},
+\code{\link{govless}},
+\code{\link{govminc}},
+\code{\link{govunemp}},
+\code{\link{incgap}}
+
+Other Inequality, Income: 
+\code{\link{givfctry}},
+\code{\link{givjudge}},
+\code{\link{givrocc}},
+\code{\link{govjobs}},
+\code{\link{govless}},
+\code{\link{govminc}},
+\code{\link{govunemp}},
+\code{\link{incgap}}
+}
+\concept{ISSP Social Inequality}
+\concept{Inequality, Income}
+\concept{Social Class}
 \keyword{variable}

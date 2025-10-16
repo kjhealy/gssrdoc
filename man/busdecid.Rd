@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 busdecid
 }
 \details{
-Question 1423b. nd which one of the following closest to your views? Government should let businesses decide for themselves how to protect the environment, even if it means they don't always do the right thing, or government should pass laws to make businesses protect the environment, even if it interferes with business' right to make their own decisions.
+Question B. And which one of the following closest to your views?  Government should let businesses decide for themselves how to protect the environment, even if it means they don't always do the right thing, or government should pass laws to make businesses protect the environment, even if it interferes with business' right to make their own decisions.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} gov. let busnesses decide
+\item \code{2} gov. make laws
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4767/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab gov. let busnesses decide \tab gov. make laws \tab no answer \tab not available in this year \tab Total \cr
@@ -57,24 +77,40 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} gov. let busnesses decide
-\item \code{2} gov. make laws
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1993 \tab A/B/C \tab full \cr
+   1994 \tab A/B/C \tab full \cr
+   2000 \tab A/B/C \tab full \cr
+   2010 \tab A/B/- \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Environment: 
+\code{\link{chemfam}},
+\code{\link{chemgen}},
+\code{\link{indusfam}},
+\code{\link{indusgen}},
+\code{\link{pubdecid}},
+\code{\link{tempfam}},
+\code{\link{tempgen}},
+\code{\link{waterfam}},
+\code{\link{watergen}}
+
+Other Environment: 
+\code{\link{chemfam}},
+\code{\link{chemgen}},
+\code{\link{indusfam}},
+\code{\link{indusgen}},
+\code{\link{pubdecid}},
+\code{\link{tempfam}},
+\code{\link{tempgen}},
+\code{\link{waterfam}},
+\code{\link{watergen}}
+}
+\concept{Business}
+\concept{Environment}
+\concept{ISSP Environment}
 \keyword{variable}

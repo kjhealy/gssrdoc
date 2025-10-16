@@ -10,11 +10,38 @@ General Social Survey https://gss.norc.org
 matime1
 }
 \details{
-Question 1217. About how long would it take to get to where your mother lives? Think about the time it usually takes door to door.
+Question About how long would it take to get to where your mother lives? Think about the time it usually takes door to door.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} less than 2 minutes
+\item \code{2} less than 15 minutes
+\item \code{3} between 15 and 30 minutes
+\item \code{4} between 30 minutes and 1 hour
+\item \code{5} between 1 and 2 hours
+\item \code{6} between 2 and 3 hours
+\item \code{7} between 3 and 5 hours
+\item \code{8} between 5 and 12 hours
+\item \code{9} over 12 hours
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4183/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllll}{
    year \tab iap \tab between 1 and 2 hours \tab between 15 and 30 minutes \tab between 2 and 3 hours \tab between 3 and 5 hours \tab between 30 minutes and 1 hour \tab between 5 and 12 hours \tab don't know \tab less than 15 minutes \tab less than 2 minutes \tab no answer \tab over 12 hours \tab not available in this year \tab Total \cr
@@ -57,31 +84,32 @@ Counts by year:\tabular{lllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} less than 2 minutes
-\item \code{2} less than 15 minutes
-\item \code{3} between 15 and 30 minutes
-\item \code{4} between 30 minutes and 1 hour
-\item \code{5} between 1 and 2 hours
-\item \code{6} between 2 and 3 hours
-\item \code{7} between 3 and 5 hours
-\item \code{8} between 5 and 12 hours
-\item \code{9} over 12 hours
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Social Networks & Support Systems: 
+\code{\link{kidmost}},
+\code{\link{kidnum}},
+\code{\link{kidvisit}},
+\code{\link{livecom}},
+\code{\link{livehome}},
+\code{\link{sibcall}},
+\code{\link{sibmost}},
+\code{\link{sibnum}},
+\code{\link{sibvisit}}
+
+Other Family: 
+\code{\link{kidmost}},
+\code{\link{kidvisit}},
+\code{\link{sibcall}},
+\code{\link{sibmost}},
+\code{\link{sibvisit}}
+}
+\concept{Family}
+\concept{ISSP Social Networks & Support Systems}
 \keyword{variable}

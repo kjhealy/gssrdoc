@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 howangry
 }
 \details{
-Question 577. How intense would you say your anger or irritation was, if 0 means the least intense emotion that you can imagine experiencing and 10 is the most intense emotion that you can imagine having.
+Question How intense would you say your anger or irritation was, if 0 means the least intense emotion that you can imagine experiencing and 10 is the most intense emotion that you can imagine having.
 }
+\section{Values}{
+
+\itemize{
+\item \code{0} weakest
+\item \code{10} most intense
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1764/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllll}{
    year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab most intense \tab no answer \tab weakest \tab not available in this year \tab Total \cr
@@ -57,24 +77,36 @@ Counts by year:\tabular{lllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{0} weakest
-\item \code{10} most intense
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Emotions: 
+\code{\link{angrlast}},
+\code{\link{chnang1}},
+\code{\link{chnang2}},
+\code{\link{chnang3}},
+\code{\link{chnang4}},
+\code{\link{chnang5}},
+\code{\link{madat22}},
+\code{\link{madat23}},
+\code{\link{thnkangr}}
+
+Other Feelings: 
+\code{\link{angrlast}},
+\code{\link{chnang1}},
+\code{\link{chnang2}},
+\code{\link{chnang3}},
+\code{\link{chnang4}},
+\code{\link{chnang5}},
+\code{\link{madat22}},
+\code{\link{madat23}},
+\code{\link{thnkangr}}
+}
+\concept{Emotions}
+\concept{Feelings}
 \keyword{variable}

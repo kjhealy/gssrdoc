@@ -12,9 +12,30 @@ leavejb
 \details{
 Question Why did you leave your last (full-time) job? Did you leave voluntarily, was the job abolished, or were you permanently laid off?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} left voluntarily
+\item \code{2} job was abolished
+\item \code{3} permanently laid off
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3894/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab don't know \tab job was abolished \tab left voluntarily \tab no answer \tab permanently laid off \tab not available in this year \tab Total \cr
@@ -57,25 +78,50 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} left voluntarily
-\item \code{2} job was abolished
-\item \code{3} permanently laid off
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2008 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Global Economics: 
+\code{\link{autonojb}},
+\code{\link{inclstjb}},
+\code{\link{intlcowk}},
+\code{\link{lastyrwk}},
+\code{\link{meetf2f1}},
+\code{\link{meetf2f2}},
+\code{\link{whynojb1}},
+\code{\link{whynojb2}},
+\code{\link{wocomptr}}
+
+Other Employment: 
+\code{\link{autonojb}},
+\code{\link{lastyrwk}},
+\code{\link{whynojb1}},
+\code{\link{whynojb2}}
+
+Other Job: 
+\code{\link{autonojb}},
+\code{\link{inclstjb}},
+\code{\link{intlcowk}},
+\code{\link{lastyrwk}},
+\code{\link{meetf2f1}},
+\code{\link{meetf2f2}},
+\code{\link{whynojb1}},
+\code{\link{whynojb2}},
+\code{\link{wocomptr}}
+
+Other Unemployment: 
+\code{\link{autonojb}},
+\code{\link{lastyrwk}},
+\code{\link{whynojb1}},
+\code{\link{whynojb2}}
+}
+\concept{Employment}
+\concept{Global Economics}
+\concept{Job}
+\concept{Unemployment}
 \keyword{variable}

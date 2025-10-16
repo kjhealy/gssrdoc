@@ -10,11 +10,36 @@ General Social Survey https://gss.norc.org
 futenrgy
 }
 \details{
-Question None
+Question G. To which of the following should America give priority in order to meet its future energy needs?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} coal, oil and natural gas
+\item \code{2} nuclear power
+\item \code{3} solar, wind or water power
+\item \code{4} fuels made from crops
+\item \code{5} fuels made from waste
+\item \code{6} none of them
+\item \code{7} can't choose
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4807/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab can't choose \tab coal, oil and natural gas \tab don't know \tab fuels made from crops \tab fuels made from waste \tab no answer \tab none of them \tab nuclear power \tab solar, wind or water power \tab not available in this year \tab Total \cr
@@ -57,29 +82,29 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} coal, oil and natural gas
-\item \code{2} nuclear power
-\item \code{3} solar, wind or water power
-\item \code{4} fuels made from crops
-\item \code{5} fuels made from waste
-\item \code{6} none of them
-\item \code{7} can't choose
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2010 \tab A/B \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Environment: 
+\code{\link{enprbfam}},
+\code{\link{enprbus}},
+\code{\link{fair5}},
+\code{\link{grncon}},
+\code{\link{knowsol}},
+\code{\link{knwcause}},
+\code{\link{topprob1}},
+\code{\link{topprob2}},
+\code{\link{trust5}}
+
+Other United States: 
+\code{\link{topprob1}},
+\code{\link{topprob2}}
+}
+\concept{ISSP Environment}
+\concept{United States}
 \keyword{variable}

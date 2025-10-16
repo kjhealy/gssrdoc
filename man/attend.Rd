@@ -10,11 +10,38 @@ General Social Survey https://gss.norc.org
 attend
 }
 \details{
-Question 105. How often do you attend religious services?
+Question How often do you attend religious services? (USE CATEGORIES AS PROBES, IF NECESSARY.)
 }
+\section{Values}{
+
+\itemize{
+\item \code{0} never
+\item \code{1} less than once a year
+\item \code{2} about once or twice a year
+\item \code{3} several times a year
+\item \code{4} about once a month
+\item \code{5} 2-3 times a month
+\item \code{6} nearly every week
+\item \code{7} every week
+\item \code{8} several times a week
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/294/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllll}{
    year \tab 2-3 times a month \tab about once a month \tab about once or twice a year \tab don't know \tab every week \tab less than once a year \tab nearly every week \tab never \tab several times a week \tab several times a year \tab iap \tab no answer \tab skipped on web \tab Total \cr
@@ -57,31 +84,68 @@ Counts by year:\tabular{lllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{0} never
-\item \code{1} less than once a year
-\item \code{2} about once or twice a year
-\item \code{3} several times a year
-\item \code{4} about once a month
-\item \code{5} 2-3 times a month
-\item \code{6} nearly every week
-\item \code{7} every week
-\item \code{8} several times a week
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1972 \tab -/-/-/- \tab full \cr
+   1973 \tab -/-/-/- \tab full \cr
+   1974 \tab -/-/-/- \tab full \cr
+   1975 \tab -/-/-/- \tab full \cr
+   1976 \tab -/-/-/- \tab full \cr
+   1977 \tab -/-/-/- \tab full \cr
+   1978 \tab -/-/-/- \tab full \cr
+   1980 \tab -/-/-/- \tab full \cr
+   1982 \tab -/-/-/- \tab full \cr
+   1983 \tab -/-/-/- \tab full \cr
+   1984 \tab -/-/-/- \tab full \cr
+   1985 \tab -/-/-/- \tab full \cr
+   1986 \tab -/-/-/- \tab full \cr
+   1987 \tab -/-/-/- \tab full \cr
+   1988 \tab A/B/C/- \tab full \cr
+   1989 \tab A/B/C/- \tab full \cr
+   1990 \tab A/B/C/- \tab full \cr
+   1991 \tab A/B/C/- \tab full \cr
+   1993 \tab A/B/C/- \tab full \cr
+   1994 \tab A/B/C/- \tab full \cr
+   1996 \tab A/B/C/- \tab full \cr
+   1998 \tab A/B/C/- \tab full \cr
+   2000 \tab A/B/C/- \tab full \cr
+   2002 \tab A/B/C/- \tab full \cr
+   2004 \tab A/B/C/- \tab full \cr
+   2006 \tab A/B/C/D \tab full \cr
+   2008 \tab A/B/C/- \tab full \cr
+   2010 \tab A/B/C/- \tab full \cr
+   2012 \tab A/B/C/- \tab full \cr
+   2014 \tab A/B/C/- \tab full \cr
+   2016 \tab A/B/C/- \tab full \cr
+   2018 \tab A/B/C/- \tab full \cr
+   2021 \tab A/B/C/- \tab full \cr
+   2022 \tab A/B/C/- \tab full \cr
+   2024 \tab A/B/C/- \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{fund}},
+\code{\link{jew}},
+\code{\link{jewaj}},
+\code{\link{maattend}},
+\code{\link{paattend}},
+\code{\link{postlife}},
+\code{\link{reliten}},
+\code{\link{relitena}},
+\code{\link{spattend}}
+
+Other Religion: 
+\code{\link{fund}},
+\code{\link{jew}},
+\code{\link{maattend}},
+\code{\link{paattend}},
+\code{\link{postlife}},
+\code{\link{reliten}},
+\code{\link{spattend}}
+}
+\concept{Core}
+\concept{Religion}
 \keyword{variable}

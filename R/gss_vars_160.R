@@ -1,11 +1,203 @@
+#'  Sex of r 9th child
+#' 
+#'  kdsex9
+#' 
+#' Question Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. (RECORD THIS INFORMATION FOR UP TO THE NINE OLDEST CHILDREN IN TABLE TO RIGHT.)
+#' B9. Sex of ninth child.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` male
+#'   * `2` female
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1500/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |female |male |not available in this year |Total |
+#'  |:-----|:-----|:------|:----|:--------------------------|:-----|
+#'  |1972  |1613  |-      |-    |-                          |1613  |
+#'  |1973  |1504  |-      |-    |-                          |1504  |
+#'  |1974  |1484  |-      |-    |-                          |1484  |
+#'  |1975  |1490  |-      |-    |-                          |1490  |
+#'  |1976  |1499  |-      |-    |-                          |1499  |
+#'  |1977  |1530  |-      |-    |-                          |1530  |
+#'  |1978  |1532  |-      |-    |-                          |1532  |
+#'  |1980  |1468  |-      |-    |-                          |1468  |
+#'  |1982  |1860  |-      |-    |-                          |1860  |
+#'  |1983  |1599  |-      |-    |-                          |1599  |
+#'  |1984  |1473  |-      |-    |-                          |1473  |
+#'  |1985  |1534  |-      |-    |-                          |1534  |
+#'  |1986  |1470  |-      |-    |-                          |1470  |
+#'  |1987  |1819  |-      |-    |-                          |1819  |
+#'  |1988  |1481  |-      |-    |-                          |1481  |
+#'  |1989  |1537  |-      |-    |-                          |1537  |
+#'  |1990  |1372  |-      |-    |-                          |1372  |
+#'  |1991  |1517  |-      |-    |-                          |1517  |
+#'  |1993  |1606  |-      |-    |-                          |1606  |
+#'  |1994  |2983  |2      |7    |-                          |2992  |
+#'  |1996  |2904  |-      |-    |-                          |2904  |
+#'  |1998  |2832  |-      |-    |-                          |2832  |
+#'  |2000  |2817  |-      |-    |-                          |2817  |
+#'  |2002  |2765  |-      |-    |-                          |2765  |
+#'  |2004  |2812  |-      |-    |-                          |2812  |
+#'  |2006  |4510  |-      |-    |-                          |4510  |
+#'  |2008  |2023  |-      |-    |-                          |2023  |
+#'  |2010  |2044  |-      |-    |-                          |2044  |
+#'  |2012  |1974  |-      |-    |-                          |1974  |
+#'  |2014  |2538  |-      |-    |-                          |2538  |
+#'  |2016  |2867  |-      |-    |-                          |2867  |
+#'  |2018  |2348  |-      |-    |-                          |2348  |
+#'  |2021  |4032  |-      |-    |-                          |4032  |
+#'  |2022  |-     |-      |-    |3544                       |3544  |
+#'  |2024  |-     |-      |-    |3309                       |3309  |
+#'  |Total |68837 |2      |7    |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Family Mobility
+#' @family Children
+#' @family Household
+#' @family Sex
+#' 
+#' @keywords variable
+#' @md
+#' @name kdsex9
+NULL
+
+
+#'  Birth year of r 1st child
+#' 
+#'  kdyrbrn1
+#' 
+#' Question Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. (RECORD THIS INFORMATION FOR UP TO THE NINE OLDEST CHILDREN IN TABLE TO RIGHT.)
+#' C1. Birth year of first child.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `9996` before 1976
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1501/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |1918 |1919 |1921 |1922 |1923 |1928 |1931 |1932 |1934 |1935 |1936 |1937 |1938 |1939 |1940 |1941 |1942 |1943 |1944 |1945 |1946 |1947 |1948 |1949 |1950 |1951 |1952 |1953 |1954 |1955 |1956 |1957 |1958 |1959 |1960 |1961 |1962 |1963 |1964 |1965 |1966 |1967 |1968 |1969 |1970 |1971 |1972 |1973 |1974 |1975 |1976 |1977 |1978 |1979 |1980 |1981 |1982 |1983 |1984 |1985 |1986 |1987 |1988 |1989 |1990 |1991 |1992 |1993 |1994 |before 1976 |don't know |no answer |not available in this year |Total |
+#'  |:-----|:-----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:-----------|:----------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |1613  |
+#'  |1973  |1504  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |1504  |
+#'  |1974  |1484  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |1484  |
+#'  |1975  |1490  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |1490  |
+#'  |1976  |1499  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |1499  |
+#'  |1977  |1530  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |1530  |
+#'  |1978  |1532  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |1532  |
+#'  |1980  |1468  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |1468  |
+#'  |1982  |1860  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |1860  |
+#'  |1983  |1599  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |1599  |
+#'  |1984  |1473  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |1473  |
+#'  |1985  |1534  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |1534  |
+#'  |1986  |1470  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |1470  |
+#'  |1987  |1819  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |1819  |
+#'  |1988  |1481  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |1481  |
+#'  |1989  |1537  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |1537  |
+#'  |1990  |1372  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |1372  |
+#'  |1991  |1517  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |1517  |
+#'  |1993  |1606  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |1606  |
+#'  |1994  |1860  |1    |1    |1    |1    |2    |1    |1    |5    |3    |1    |8    |3    |6    |10   |7    |8    |15   |12   |10   |8    |20   |9    |21   |11   |17   |13   |19   |15   |18   |22   |14   |14   |19   |14   |23   |13   |17   |20   |18   |24   |25   |20   |16   |19   |22   |18   |27   |20   |14   |18   |22   |32   |27   |28   |27   |26   |27   |35   |32   |23   |25   |29   |22   |27   |25   |25   |20   |16   |2    |12          |1          |5         |-                          |2992  |
+#'  |1996  |2904  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |2904  |
+#'  |1998  |2832  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |2832  |
+#'  |2000  |2817  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |2817  |
+#'  |2002  |2765  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |2765  |
+#'  |2004  |2812  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |2812  |
+#'  |2006  |4510  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |4510  |
+#'  |2008  |2023  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |2023  |
+#'  |2010  |2044  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |2044  |
+#'  |2012  |1974  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |1974  |
+#'  |2014  |2538  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |2538  |
+#'  |2016  |2867  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |2867  |
+#'  |2018  |2348  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |2348  |
+#'  |2021  |4032  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |-                          |4032  |
+#'  |2022  |-     |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |3544                       |3544  |
+#'  |2024  |-     |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |3309                       |3309  |
+#'  |Total |67714 |1    |1    |1    |1    |2    |1    |1    |5    |3    |1    |8    |3    |6    |10   |7    |8    |15   |12   |10   |8    |20   |9    |21   |11   |17   |13   |19   |15   |18   |22   |14   |14   |19   |14   |23   |13   |17   |20   |18   |24   |25   |20   |16   |19   |22   |18   |27   |20   |14   |18   |22   |32   |27   |28   |27   |26   |27   |35   |32   |23   |25   |29   |22   |27   |25   |25   |20   |16   |2    |12          |1          |5         |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Family Mobility
+#' @family Children
+#' @family Date Of Birth
+#' @family Family
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name kdyrbrn1
+NULL
+
+
 #'  Birth year of r 2nd child
 #' 
 #'  kdyrbrn2
 #' 
-#' Question 503. Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. c. In what year was (CHILD) born?
+#' Question Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. (RECORD THIS INFORMATION FOR UP TO THE NINE OLDEST CHILDREN IN TABLE TO RIGHT.)
+#' C2. Birth year of second child.
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `9996` before 1976
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1502/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +240,33 @@
 #'  |2024  |-     |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |3309                       |3309  |
 #'  |Total |67959 |1    |1    |1    |1    |1    |1    |1    |1    |2    |2    |3    |5    |10   |7    |5    |8    |8    |11   |12   |3    |11   |14   |10   |16   |18   |11   |19   |23   |22   |16   |13   |14   |12   |14   |18   |16   |17   |16   |11   |10   |22   |18   |24   |15   |15   |17   |13   |11   |15   |18   |31   |13   |22   |26   |18   |25   |19   |18   |27   |20   |21   |22   |28   |7    |21   |2    |7           |2          |5         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Family Mobility
+#' @family Children
+#' @family Date Of Birth
+#' @family Family
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name kdyrbrn2
+NULL
+
+
+#'  Birth year of r 3rd child
+#' 
+#'  kdyrbrn3
+#' 
+#' Question Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. (RECORD THIS INFORMATION FOR UP TO THE NINE OLDEST CHILDREN IN TABLE TO RIGHT.)
+#' C3. Birth year of third child.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `9996` before 1976
@@ -64,22 +283,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name kdyrbrn2
-NULL
-
-#'  Birth year of r 3rd child
-#' 
-#'  kdyrbrn3
-#' 
-#' Question 503. Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. c. In what year was (CHILD) born?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1503/vshow).
 #'
 #' Counts by year: 
 #'
@@ -122,6 +327,33 @@ NULL
 #'  |2024  |-     |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |3309                       |3309  |
 #'  |Total |68354 |1    |1    |1    |1    |1    |1    |1    |1    |2    |4    |5    |2    |3    |6    |6    |8    |4    |7    |6    |4    |7    |10   |11   |11   |16   |22   |13   |18   |7    |15   |8    |16   |7    |11   |5    |9    |6    |7    |5    |11   |7    |12   |8    |5    |9    |5    |7    |13   |15   |10   |6    |12   |7    |14   |5    |14   |6    |17   |11   |5    |10   |2    |5           |3          |4         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Family Mobility
+#' @family Children
+#' @family Date Of Birth
+#' @family Family
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name kdyrbrn3
+NULL
+
+
+#'  Birth year of r 4th child
+#' 
+#'  kdyrbrn4
+#' 
+#' Question Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. (RECORD THIS INFORMATION FOR UP TO THE NINE OLDEST CHILDREN IN TABLE TO RIGHT.)
+#' C4. Birth year of fourth child.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `9996` before 1976
@@ -138,22 +370,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name kdyrbrn3
-NULL
-
-#'  Birth year of r 4th child
-#' 
-#'  kdyrbrn4
-#' 
-#' Question 503. Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. c. In what year was (CHILD) born?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1504/vshow).
 #'
 #' Counts by year: 
 #'
@@ -196,6 +414,33 @@ NULL
 #'  |2024  |-     |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |3309                       |3309  |
 #'  |Total |68594 |2    |1    |1    |1    |1    |2    |1    |3    |1    |2    |5    |5    |5    |3    |4    |6    |3    |7    |5    |6    |4    |6    |9    |15   |7    |8    |10   |5    |5    |5    |7    |4    |7    |3    |4    |4    |4    |4    |5    |4    |5    |3    |4    |4    |6    |3    |9    |5    |2    |3    |4    |5    |3    |3    |2    |1    |2           |2          |2         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Family Mobility
+#' @family Children
+#' @family Date Of Birth
+#' @family Family
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name kdyrbrn4
+NULL
+
+
+#'  Birth year of r 5th child
+#' 
+#'  kdyrbrn5
+#' 
+#' Question Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. (RECORD THIS INFORMATION FOR UP TO THE NINE OLDEST CHILDREN IN TABLE TO RIGHT.)
+#' C5. Birth year of fifth child.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `9996` before 1976
@@ -212,22 +457,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name kdyrbrn4
-NULL
-
-#'  Birth year of r 5th child
-#' 
-#'  kdyrbrn5
-#' 
-#' Question 503. Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. c. In what year was (CHILD) born?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1505/vshow).
 #'
 #' Counts by year: 
 #'
@@ -270,6 +501,33 @@ NULL
 #'  |2024  |-     |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-           |-          |-         |3309                       |3309  |
 #'  |Total |68725 |1    |1    |2    |1    |1    |1    |3    |5    |3    |6    |2    |2    |3    |2    |3    |3    |6    |4    |4    |5    |7    |2    |3    |2    |3    |4    |3    |4    |1    |1    |1    |2    |1    |1    |3    |2    |2    |3    |3    |1    |2    |1    |1    |3    |1    |1    |1           |2          |2         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Family Mobility
+#' @family Children
+#' @family Date Of Birth
+#' @family Family
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name kdyrbrn5
+NULL
+
+
+#'  Birth year of r 6th child
+#' 
+#'  kdyrbrn6
+#' 
+#' Question Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. (RECORD THIS INFORMATION FOR UP TO THE NINE OLDEST CHILDREN IN TABLE TO RIGHT.)
+#' C6. Birth year of sixth child.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `9996` before 1976
@@ -286,22 +544,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name kdyrbrn5
-NULL
-
-#'  Birth year of r 6th child
-#' 
-#'  kdyrbrn6
-#' 
-#' Question 503. Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. c. In what year was (CHILD) born?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1506/vshow).
 #'
 #' Counts by year: 
 #'
@@ -344,6 +588,33 @@ NULL
 #'  |2024  |-     |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-          |-         |3309                       |3309  |
 #'  |Total |68786 |1    |1    |1    |1    |1    |1    |2    |4    |1    |1    |2    |1    |1    |4    |3    |3    |1    |3    |3    |3    |1    |2    |2    |4    |1    |1    |1    |1    |2    |1    |1    |1    |2          |2         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Family Mobility
+#' @family Children
+#' @family Date Of Birth
+#' @family Family
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name kdyrbrn6
+NULL
+
+
+#'  Birth year of r 7th child
+#' 
+#'  kdyrbrn7
+#' 
+#' Question Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. (RECORD THIS INFORMATION FOR UP TO THE NINE OLDEST CHILDREN IN TABLE TO RIGHT.)
+#' C7. Birth year of seventh child.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `9996` before 1976
@@ -360,22 +631,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name kdyrbrn6
-NULL
-
-#'  Birth year of r 7th child
-#' 
-#'  kdyrbrn7
-#' 
-#' Question 503. Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. c. In what year was (CHILD) born?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1507/vshow).
 #'
 #' Counts by year: 
 #'
@@ -418,6 +675,33 @@ NULL
 #'  |2024  |-     |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-          |-         |3309                       |3309  |
 #'  |Total |68809 |1    |1    |1    |1    |2    |2    |3    |1    |1    |1    |1    |2    |1    |1    |2    |2    |1    |2    |1    |2    |1    |2    |1    |2          |2         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Family Mobility
+#' @family Children
+#' @family Date Of Birth
+#' @family Family
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name kdyrbrn7
+NULL
+
+
+#'  Birth year of r 8th child
+#' 
+#'  kdyrbrn8
+#' 
+#' Question Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. (RECORD THIS INFORMATION FOR UP TO THE NINE OLDEST CHILDREN IN TABLE TO RIGHT.)
+#' C8. Birth year of eighth child.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `9996` before 1976
@@ -434,22 +718,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name kdyrbrn7
-NULL
-
-#'  Birth year of r 8th child
-#' 
-#'  kdyrbrn8
-#' 
-#' Question 503. Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. c. In what year was (CHILD) born?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1508/vshow).
 #'
 #' Counts by year: 
 #'
@@ -492,6 +762,33 @@ NULL
 #'  |2024  |-     |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-          |-         |3309                       |3309  |
 #'  |Total |68829 |1    |1    |1    |1    |1    |1    |1    |1    |2    |2    |1    |1    |1    |1          |1         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Family Mobility
+#' @family Children
+#' @family Date Of Birth
+#' @family Family
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name kdyrbrn8
+NULL
+
+
+#'  Birth year of r 9th child
+#' 
+#'  kdyrbrn9
+#' 
+#' Question Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. (RECORD THIS INFORMATION FOR UP TO THE NINE OLDEST CHILDREN IN TABLE TO RIGHT.)
+#' C9. Birth year of ninth child.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `9996` before 1976
@@ -508,22 +805,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name kdyrbrn8
-NULL
-
-#'  Birth year of r 9th child
-#' 
-#'  kdyrbrn9
-#' 
-#' Question 503. Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. c. In what year was (CHILD) born?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1509/vshow).
 #'
 #' Counts by year: 
 #'
@@ -566,179 +849,22 @@ NULL
 #'  |2024  |-     |-    |-    |-    |-    |-    |-    |-    |-    |3309                       |3309  |
 #'  |Total |68837 |1    |1    |1    |1    |1    |1    |2    |1    |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `9996` before 1976
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Family Mobility
+#' @family Children
+#' @family Date Of Birth
+#' @family Family
+#' @family Household
 #' 
 #' @keywords variable
 #' @md
 #' @name kdyrbrn9
 NULL
 
-#'  R relation to r 1st child
-#' 
-#'  kdrel1
-#' 
-#' Question 503. Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. d. Is (CHILD) your biological child, adopted child, or step child?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |adopted |biological |no answer |step |not available in this year |Total |
-#'  |:-----|:-----|:-------|:----------|:---------|:----|:--------------------------|:-----|
-#'  |1972  |1613  |-       |-          |-         |-    |-                          |1613  |
-#'  |1973  |1504  |-       |-          |-         |-    |-                          |1504  |
-#'  |1974  |1484  |-       |-          |-         |-    |-                          |1484  |
-#'  |1975  |1490  |-       |-          |-         |-    |-                          |1490  |
-#'  |1976  |1499  |-       |-          |-         |-    |-                          |1499  |
-#'  |1977  |1530  |-       |-          |-         |-    |-                          |1530  |
-#'  |1978  |1532  |-       |-          |-         |-    |-                          |1532  |
-#'  |1980  |1468  |-       |-          |-         |-    |-                          |1468  |
-#'  |1982  |1860  |-       |-          |-         |-    |-                          |1860  |
-#'  |1983  |1599  |-       |-          |-         |-    |-                          |1599  |
-#'  |1984  |1473  |-       |-          |-         |-    |-                          |1473  |
-#'  |1985  |1534  |-       |-          |-         |-    |-                          |1534  |
-#'  |1986  |1470  |-       |-          |-         |-    |-                          |1470  |
-#'  |1987  |1819  |-       |-          |-         |-    |-                          |1819  |
-#'  |1988  |1481  |-       |-          |-         |-    |-                          |1481  |
-#'  |1989  |1537  |-       |-          |-         |-    |-                          |1537  |
-#'  |1990  |1372  |-       |-          |-         |-    |-                          |1372  |
-#'  |1991  |1517  |-       |-          |-         |-    |-                          |1517  |
-#'  |1993  |1606  |-       |-          |-         |-    |-                          |1606  |
-#'  |1994  |1860  |21      |1043       |9         |59   |-                          |2992  |
-#'  |1996  |2904  |-       |-          |-         |-    |-                          |2904  |
-#'  |1998  |2832  |-       |-          |-         |-    |-                          |2832  |
-#'  |2000  |2817  |-       |-          |-         |-    |-                          |2817  |
-#'  |2002  |2765  |-       |-          |-         |-    |-                          |2765  |
-#'  |2004  |2812  |-       |-          |-         |-    |-                          |2812  |
-#'  |2006  |4510  |-       |-          |-         |-    |-                          |4510  |
-#'  |2008  |2023  |-       |-          |-         |-    |-                          |2023  |
-#'  |2010  |2044  |-       |-          |-         |-    |-                          |2044  |
-#'  |2012  |1974  |-       |-          |-         |-    |-                          |1974  |
-#'  |2014  |2538  |-       |-          |-         |-    |-                          |2538  |
-#'  |2016  |2867  |-       |-          |-         |-    |-                          |2867  |
-#'  |2018  |2348  |-       |-          |-         |-    |-                          |2348  |
-#'  |2021  |4032  |-       |-          |-         |-    |-                          |4032  |
-#'  |2022  |-     |-       |-          |-         |-    |3544                       |3544  |
-#'  |2024  |-     |-       |-          |-         |-    |3309                       |3309  |
-#'  |Total |67714 |21      |1043       |9         |59   |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` biological
-#'   * `2` adopted
-#'   * `3` step
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name kdrel1
-NULL
-
-#'  R relation to r 2nd child
-#' 
-#'  kdrel2
-#' 
-#' Question 503. Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. d. Is (CHILD) your biological child, adopted child, or step child?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |adopted |biological |no answer |step |not available in this year |Total |
-#'  |:-----|:-----|:-------|:----------|:---------|:----|:--------------------------|:-----|
-#'  |1972  |1613  |-       |-          |-         |-    |-                          |1613  |
-#'  |1973  |1504  |-       |-          |-         |-    |-                          |1504  |
-#'  |1974  |1484  |-       |-          |-         |-    |-                          |1484  |
-#'  |1975  |1490  |-       |-          |-         |-    |-                          |1490  |
-#'  |1976  |1499  |-       |-          |-         |-    |-                          |1499  |
-#'  |1977  |1530  |-       |-          |-         |-    |-                          |1530  |
-#'  |1978  |1532  |-       |-          |-         |-    |-                          |1532  |
-#'  |1980  |1468  |-       |-          |-         |-    |-                          |1468  |
-#'  |1982  |1860  |-       |-          |-         |-    |-                          |1860  |
-#'  |1983  |1599  |-       |-          |-         |-    |-                          |1599  |
-#'  |1984  |1473  |-       |-          |-         |-    |-                          |1473  |
-#'  |1985  |1534  |-       |-          |-         |-    |-                          |1534  |
-#'  |1986  |1470  |-       |-          |-         |-    |-                          |1470  |
-#'  |1987  |1819  |-       |-          |-         |-    |-                          |1819  |
-#'  |1988  |1481  |-       |-          |-         |-    |-                          |1481  |
-#'  |1989  |1537  |-       |-          |-         |-    |-                          |1537  |
-#'  |1990  |1372  |-       |-          |-         |-    |-                          |1372  |
-#'  |1991  |1517  |-       |-          |-         |-    |-                          |1517  |
-#'  |1993  |1606  |-       |-          |-         |-    |-                          |1606  |
-#'  |1994  |2105  |13      |831        |7         |36   |-                          |2992  |
-#'  |1996  |2904  |-       |-          |-         |-    |-                          |2904  |
-#'  |1998  |2832  |-       |-          |-         |-    |-                          |2832  |
-#'  |2000  |2817  |-       |-          |-         |-    |-                          |2817  |
-#'  |2002  |2765  |-       |-          |-         |-    |-                          |2765  |
-#'  |2004  |2812  |-       |-          |-         |-    |-                          |2812  |
-#'  |2006  |4510  |-       |-          |-         |-    |-                          |4510  |
-#'  |2008  |2023  |-       |-          |-         |-    |-                          |2023  |
-#'  |2010  |2044  |-       |-          |-         |-    |-                          |2044  |
-#'  |2012  |1974  |-       |-          |-         |-    |-                          |1974  |
-#'  |2014  |2538  |-       |-          |-         |-    |-                          |2538  |
-#'  |2016  |2867  |-       |-          |-         |-    |-                          |2867  |
-#'  |2018  |2348  |-       |-          |-         |-    |-                          |2348  |
-#'  |2021  |4032  |-       |-          |-         |-    |-                          |4032  |
-#'  |2022  |-     |-       |-          |-         |-    |3544                       |3544  |
-#'  |2024  |-     |-       |-          |-         |-    |3309                       |3309  |
-#'  |Total |67959 |13      |831        |7         |36   |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` biological
-#'   * `2` adopted
-#'   * `3` step
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name kdrel2
-NULL
 

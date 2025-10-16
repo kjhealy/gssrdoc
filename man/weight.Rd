@@ -10,11 +10,29 @@ General Social Survey https://gss.norc.org
 weight
 }
 \details{
-Question About how much do you weigh without shoes?
+Question About how much do you weigh without shoes? Reported in pounds.
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2846/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 102 \tab 103 \tab 105 \tab 106 \tab 108 \tab 110 \tab 112 \tab 113 \tab 115 \tab 117 \tab 118 \tab 119 \tab 120 \tab 122 \tab 123 \tab 124 \tab 125 \tab 126 \tab 127 \tab 128 \tab 129 \tab 130 \tab 131 \tab 132 \tab 133 \tab 134 \tab 135 \tab 136 \tab 137 \tab 138 \tab 139 \tab 140 \tab 141 \tab 142 \tab 143 \tab 144 \tab 145 \tab 146 \tab 147 \tab 148 \tab 149 \tab 150 \tab 152 \tab 153 \tab 154 \tab 155 \tab 156 \tab 157 \tab 158 \tab 159 \tab 160 \tab 161 \tab 162 \tab 163 \tab 164 \tab 165 \tab 166 \tab 167 \tab 168 \tab 169 \tab 170 \tab 171 \tab 172 \tab 173 \tab 174 \tab 175 \tab 176 \tab 177 \tab 178 \tab 179 \tab 180 \tab 181 \tab 182 \tab 183 \tab 184 \tab 185 \tab 186 \tab 187 \tab 188 \tab 189 \tab 190 \tab 191 \tab 192 \tab 193 \tab 194 \tab 195 \tab 196 \tab 197 \tab 198 \tab 200 \tab 201 \tab 202 \tab 203 \tab 204 \tab 205 \tab 206 \tab 207 \tab 208 \tab 209 \tab 210 \tab 212 \tab 213 \tab 215 \tab 216 \tab 217 \tab 218 \tab 219 \tab 220 \tab 224 \tab 225 \tab 226 \tab 227 \tab 228 \tab 229 \tab 230 \tab 231 \tab 234 \tab 235 \tab 237 \tab 239 \tab 240 \tab 242 \tab 244 \tab 245 \tab 246 \tab 247 \tab 250 \tab 251 \tab 253 \tab 254 \tab 255 \tab 256 \tab 258 \tab 260 \tab 261 \tab 264 \tab 265 \tab 266 \tab 267 \tab 268 \tab 270 \tab 274 \tab 275 \tab 278 \tab 280 \tab 283 \tab 285 \tab 290 \tab 296 \tab 300 \tab 315 \tab 319 \tab 320 \tab 323 \tab 330 \tab 345 \tab 350 \tab 356 \tab 365 \tab 410 \tab 90 \tab 92 \tab 97 \tab 98 \tab don't know \tab no answer \tab 100 \tab 107 \tab 111 \tab 114 \tab 116 \tab 121 \tab 151 \tab 214 \tab 221 \tab 222 \tab 223 \tab 232 \tab 233 \tab 238 \tab 269 \tab 289 \tab 292 \tab 295 \tab 308 \tab 310 \tab 311 \tab 332 \tab 338 \tab 340 \tab 342 \tab 344 \tab 380 \tab 395 \tab 85 \tab 101 \tab 109 \tab 199 \tab 248 \tab 257 \tab 262 \tab 271 \tab 273 \tab 276 \tab 281 \tab 297 \tab 299 \tab 305 \tab 306 \tab 325 \tab 326 \tab 327 \tab 335 \tab 359 \tab 360 \tab 369 \tab 375 \tab 400 \tab 425 \tab 94 \tab 96 \tab 99 \tab skipped on web \tab not available in this year \tab Total \cr
@@ -57,22 +75,34 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2014 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Quality of Working Life: 
+\code{\link{arthrtis}},
+\code{\link{depress}},
+\code{\link{diabetes}},
+\code{\link{hyperten}},
+\code{\link{knowschd}},
+\code{\link{satjob1}},
+\code{\link{slpprblm}},
+\code{\link{stress12}},
+\code{\link{usetech}}
+
+Other Health: 
+\code{\link{arthrtis}},
+\code{\link{depress}},
+\code{\link{diabetes}},
+\code{\link{hyperten}},
+\code{\link{slpprblm}}
+}
+\concept{Health}
+\concept{Quality of Working Life}
 \keyword{variable}

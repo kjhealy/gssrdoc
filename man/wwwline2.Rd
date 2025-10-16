@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 wwwline2
 }
 \details{
-Question What is this other means by which you are connected to the World Wide Web?
+Question D. What is this other means by which you are connected to the World Wide Web?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} special high-speed tele line (isdn) cncted to cmptr
+\item \code{2} cable service line cnctd to computer
+\item \code{3} web tv line, cnctd to tv set
+\item \code{4} more than one type of cnction
+\item \code{5} other, not named above
+\item \code{6} wireless connection (e.g. from a satellite)
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2555/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab cable service line cnctd to computer \tab don't know \tab more than one type of cnction \tab no answer \tab other, not named above \tab special high-speed tele line (isdn) cncted to cmptr \tab web tv line, cnctd to tv set \tab wireless connection (e.g. from a satellite) \tab not available in this year \tab Total \cr
@@ -57,28 +81,37 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} special high-speed tele line (isdn) cncted to cmptr
-\item \code{2} cable service line cnctd to computer
-\item \code{3} web tv line, cnctd to tv set
-\item \code{4} more than one type of cnction
-\item \code{5} other, not named above
-\item \code{6} wireless connection (e.g. from a satellite)
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/- \tab partial \cr
+   2002 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Information Society: 
+\code{\link{comphome}},
+\code{\link{ecomhrh}},
+\code{\link{ecomminh}},
+\code{\link{numhome}},
+\code{\link{paywww}},
+\code{\link{perminh}},
+\code{\link{usehome}},
+\code{\link{wwwhome}},
+\code{\link{wwwline1}}
+
+Other Computers And Internet: 
+\code{\link{comphome}},
+\code{\link{ecomhrh}},
+\code{\link{ecomminh}},
+\code{\link{numhome}},
+\code{\link{paywww}},
+\code{\link{perminh}},
+\code{\link{usehome}},
+\code{\link{wwwhome}},
+\code{\link{wwwline1}}
+}
+\concept{Computers And Internet}
+\concept{Information Society}
 \keyword{variable}

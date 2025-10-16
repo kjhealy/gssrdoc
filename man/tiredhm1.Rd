@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 tiredhm1
 }
 \details{
-Question How often has each of the following happened to you during the past three months? You have come home from work too tired to do the chores which need to be done.
+Question How often has each of the following happened to you during the past three months?
+A. You have come home from work too tired to do the chores which need to be done.
 }
+\section{Values}{
+
+\itemize{
+\item \code{0} doesn't apply/no job
+\item \code{1} several times a week
+\item \code{2} several times a month
+\item \code{3} once or twice
+\item \code{4} never
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4475/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab doesn't apply/no job \tab don't know \tab never \tab no answer \tab once or twice \tab several times a month \tab several times a week \tab skipped on web \tab not available in this year \tab Total \cr
@@ -57,27 +81,30 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{0} doesn't apply/no job
-\item \code{1} several times a week
-\item \code{2} several times a month
-\item \code{3} once or twice
-\item \code{4} never
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2012 \tab A/B \tab partial \cr
+   2022 \tab A/- \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Family & Gender Roles: 
+\code{\link{eldcost}},
+\code{\link{famvswk1}},
+\code{\link{hhclean1}},
+\code{\link{jobvsfa1}},
+\code{\link{tiredwk1}},
+\code{\link{wkkidscl}},
+\code{\link{wkkidscs}},
+\code{\link{wkndact}},
+\code{\link{wkyngscl}}
+
+Other Household: 
+\code{\link{hhclean1}},
+\code{\link{tiredwk1}}
+}
+\concept{Household}
+\concept{ISSP Family & Gender Roles}
 \keyword{variable}

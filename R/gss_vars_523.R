@@ -1,11 +1,213 @@
+#'  Indust air pollution danger to envir
+#' 
+#'  indusgen
+#' 
+#' Question A. In general, do you think that air pollution caused by industry isâ€¦
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` extremely dangerous
+#'   * `2` very dangerous
+#'   * `3` somewhat dangerous
+#'   * `4` not very dangerous
+#'   * `5` not dangerous at all
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4758/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |extremely dangerous |no answer |not dangerous at all |not very dangerous |somewhat dangerous |very dangerous |not available in this year |Total |
+#'  |:-----|:-----|:----------|:-------------------|:---------|:--------------------|:------------------|:------------------|:--------------|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |1613  |
+#'  |1973  |1504  |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |1504  |
+#'  |1974  |1484  |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |1484  |
+#'  |1975  |1490  |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |1490  |
+#'  |1976  |1499  |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |1499  |
+#'  |1977  |1530  |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |1530  |
+#'  |1978  |1532  |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |1532  |
+#'  |1980  |1468  |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |1468  |
+#'  |1982  |1860  |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |1860  |
+#'  |1983  |1599  |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |1599  |
+#'  |1984  |1473  |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |1473  |
+#'  |1985  |1534  |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |1534  |
+#'  |1986  |1470  |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |1470  |
+#'  |1987  |1819  |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |1819  |
+#'  |1988  |1481  |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |1481  |
+#'  |1989  |1537  |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |1537  |
+#'  |1990  |1372  |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |1372  |
+#'  |1991  |1517  |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |1517  |
+#'  |1993  |49    |36         |414                 |30        |5                    |59                 |483                |530            |-                          |1606  |
+#'  |1994  |1606  |29         |289                 |45        |7                    |68                 |499                |449            |-                          |2992  |
+#'  |1996  |2904  |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |2904  |
+#'  |1998  |2832  |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |2832  |
+#'  |2000  |1541  |38         |352                 |48        |2                    |28                 |374                |434            |-                          |2817  |
+#'  |2002  |2765  |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |2765  |
+#'  |2004  |2812  |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |2812  |
+#'  |2006  |4510  |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |4510  |
+#'  |2008  |2023  |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |2023  |
+#'  |2010  |614   |32         |377                 |7         |4                    |48                 |417                |545            |-                          |2044  |
+#'  |2012  |1974  |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |1974  |
+#'  |2014  |2538  |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |2538  |
+#'  |2016  |1956  |14         |302                 |2         |3                    |20                 |214                |356            |-                          |2867  |
+#'  |2018  |1563  |6          |281                 |2         |4                    |22                 |173                |297            |-                          |2348  |
+#'  |2021  |4032  |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |4032  |
+#'  |2022  |-     |-          |-                   |-         |-                    |-                  |-                  |-              |3544                       |3544  |
+#'  |2024  |-     |-          |-                   |-         |-                    |-                  |-                  |-              |3309                       |3309  |
+#'  |Total |61501 |155        |2015                |134       |25                   |245                |2160               |2611           |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2010 |A/B/-   |partial      |
+#'  |2016 |A/-/-   |partial      |
+#'  |2018 |A/-/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Science Knowledge & Attitudes
+#' @family ISSP Environment
+#' @family Environment
+#' 
+#' @keywords variable
+#' @md
+#' @name indusgen
+NULL
+
+
+#'  Indust air pollution danger to my family
+#' 
+#'  indusfam
+#' 
+#' Question B. And do you think that air pollution caused by industry isâ€¦
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` extremely dangerous
+#'   * `2` very dangerous
+#'   * `3` somewhat dangerous
+#'   * `4` not very dangerous
+#'   * `5` not dangerous at all
+#'   * `NA(d)` can't choose
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4759/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |can't choose |extremely dangerous |no answer |not dangerous at all |not very dangerous |somewhat dangerous |very dangerous |not available in this year |Total |
+#'  |:-----|:-----|:------------|:-------------------|:---------|:--------------------|:------------------|:------------------|:--------------|:--------------------------|:-----|
+#'  |1972  |1613  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |1613  |
+#'  |1973  |1504  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |1504  |
+#'  |1974  |1484  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |1484  |
+#'  |1975  |1490  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |1490  |
+#'  |1976  |1499  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |1499  |
+#'  |1977  |1530  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |1530  |
+#'  |1978  |1532  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |1532  |
+#'  |1980  |1468  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |1468  |
+#'  |1982  |1860  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |1860  |
+#'  |1983  |1599  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |1599  |
+#'  |1984  |1473  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |1473  |
+#'  |1985  |1534  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |1534  |
+#'  |1986  |1470  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |1470  |
+#'  |1987  |1819  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |1819  |
+#'  |1988  |1481  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |1481  |
+#'  |1989  |1537  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |1537  |
+#'  |1990  |1372  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |1372  |
+#'  |1991  |1517  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |1517  |
+#'  |1993  |49    |40           |326                 |31        |19                   |114                |556                |471            |-                          |1606  |
+#'  |1994  |1606  |33           |243                 |50        |12                   |102                |540                |406            |-                          |2992  |
+#'  |1996  |2904  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |2904  |
+#'  |1998  |2832  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |2832  |
+#'  |2000  |2817  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |2817  |
+#'  |2002  |2765  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |2765  |
+#'  |2004  |2812  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |2812  |
+#'  |2006  |4510  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |4510  |
+#'  |2008  |2023  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |2023  |
+#'  |2010  |2044  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |2044  |
+#'  |2012  |1974  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |1974  |
+#'  |2014  |2538  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |2538  |
+#'  |2016  |2867  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |2867  |
+#'  |2018  |2348  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |2348  |
+#'  |2021  |4032  |-            |-                   |-         |-                    |-                  |-                  |-              |-                          |4032  |
+#'  |2022  |-     |-            |-                   |-         |-                    |-                  |-                  |-              |3544                       |3544  |
+#'  |2024  |-     |-            |-                   |-         |-                    |-                  |-                  |-              |3309                       |3309  |
+#'  |Total |65903 |73           |569                 |81        |31                   |216                |1096               |877            |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Environment
+#' @family Environment
+#' 
+#' @keywords variable
+#' @md
+#' @name indusfam
+NULL
+
+
 #'  Pesticides danger to envir
 #' 
 #'  chemgen
 #' 
-#' Question 1420a. In general, do you think that pesticides and chemicals used in farming are...
+#' Question A. In general, do you think that pesticides and chemicals used in farming are...
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` extremely dangerous
+#'   * `2` very dangerous
+#'   * `3` somewhat dangerous
+#'   * `4` not very dangerous
+#'   * `5` not dangerous at all
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4760/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +250,36 @@
 #'  |2024  |-     |-          |-                   |-         |-                    |-                  |-                  |-              |3309                       |3309  |
 #'  |Total |61501 |186        |1400                |135       |60                   |590                |2970               |2004           |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2010 |A/B/-   |partial      |
+#'  |2016 |A/-/-   |partial      |
+#'  |2018 |A/-/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Science Knowledge & Attitudes
+#' @family ISSP Environment
+#' @family Agriculture
+#' @family Environment
+#' 
+#' @keywords variable
+#' @md
+#' @name chemgen
+NULL
+
+
+#'  Pesticides danger to my family
+#' 
+#'  chemfam
+#' 
+#' Question B. And do you think that pesticides and chemicals used in farming areâ€¦
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` extremely dangerous
@@ -55,7 +287,7 @@
 #'   * `3` somewhat dangerous
 #'   * `4` not very dangerous
 #'   * `5` not dangerous at all
-#'   * `NA(d)` don't know
+#'   * `NA(d)` can't choose
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
 #'   * `NA(m)` dk, na, iap
@@ -68,22 +300,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name chemgen
-NULL
-
-#'  Pesticides danger to my family
-#' 
-#'  chemfam
-#' 
-#' Question 1420b. And do you think that pesticides and chemicals used in farming are...
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4761/vshow).
 #'
 #' Counts by year: 
 #'
@@ -126,6 +344,31 @@ NULL
 #'  |2024  |-     |-            |-                   |-         |-                    |-                  |-                  |-              |3309                       |3309  |
 #'  |Total |65903 |79           |397                 |77        |39                   |382                |1376               |593            |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Environment
+#' @family Agriculture
+#' @family Environment
+#' 
+#' @keywords variable
+#' @md
+#' @name chemfam
+NULL
+
+
+#'  Water pollution danger to envir
+#' 
+#'  watergen
+#' 
+#' Question A. In general, do you think that pollution of America's rivers, lakes, and streams is...
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` extremely dangerous
@@ -133,7 +376,7 @@ NULL
 #'   * `3` somewhat dangerous
 #'   * `4` not very dangerous
 #'   * `5` not dangerous at all
-#'   * `NA(d)` can't choose
+#'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
 #'   * `NA(m)` dk, na, iap
@@ -146,22 +389,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name chemfam
-NULL
-
-#'  Water pollution danger to envir
-#' 
-#'  watergen
-#' 
-#' Question 1421a. In general, do you think that pollution of America's rivers, lakes, and streams is...
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4762/vshow).
 #'
 #' Counts by year: 
 #'
@@ -204,6 +433,35 @@ NULL
 #'  |2024  |-     |-          |-                   |-         |-                    |-                  |-                  |-              |3309                       |3309  |
 #'  |Total |61501 |157        |2536                |135       |50                   |257                |1754               |2456           |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2010 |A/B/-   |partial      |
+#'  |2016 |A/-/-   |partial      |
+#'  |2018 |A/-/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Science Knowledge & Attitudes
+#' @family ISSP Environment
+#' @family Environment
+#' 
+#' @keywords variable
+#' @md
+#' @name watergen
+NULL
+
+
+#'  Water pollution danger to my family
+#' 
+#'  waterfam
+#' 
+#' Question B. And do you think that pollution of America's rivers, lakes, and streams isâ€¦
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` extremely dangerous
@@ -211,7 +469,7 @@ NULL
 #'   * `3` somewhat dangerous
 #'   * `4` not very dangerous
 #'   * `5` not dangerous at all
-#'   * `NA(d)` don't know
+#'   * `NA(d)` can't choose
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
 #'   * `NA(m)` dk, na, iap
@@ -224,22 +482,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name watergen
-NULL
-
-#'  Water pollution danger to my family
-#' 
-#'  waterfam
-#' 
-#' Question 1421b. And do you think that pollution of America's rivers, lakes, and streams is...
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4763/vshow).
 #'
 #' Counts by year: 
 #'
@@ -282,6 +526,30 @@ NULL
 #'  |2024  |-     |-            |-                   |-         |-                    |-                  |-                  |-              |3309                       |3309  |
 #'  |Total |65903 |61           |668                 |69        |33                   |230                |1029               |853            |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Environment
+#' @family Environment
+#' 
+#' @keywords variable
+#' @md
+#' @name waterfam
+NULL
+
+
+#'  Greenhouse effect danger to envir
+#' 
+#'  tempgen
+#' 
+#' Question A. In general, do you think that a rise in the world's temperature caused by the `greenhouse effect', isâ€¦
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` extremely dangerous
@@ -289,7 +557,7 @@ NULL
 #'   * `3` somewhat dangerous
 #'   * `4` not very dangerous
 #'   * `5` not dangerous at all
-#'   * `NA(d)` can't choose
+#'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
 #'   * `NA(m)` dk, na, iap
@@ -302,22 +570,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name waterfam
-NULL
-
-#'  Greenhouse effect danger to envir
-#' 
-#'  tempgen
-#' 
-#' Question 1422a. In general, do you think that a rise in the world's temperature caused by the `greenhouse effect' , is...
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4764/vshow).
 #'
 #' Counts by year: 
 #'
@@ -360,6 +614,35 @@ NULL
 #'  |2024  |-     |-          |-                   |-         |-                    |-                  |-                  |-              |-                          |3309                          |3309  |
 #'  |Total |62931 |556        |1150                |127       |145                  |660                |1871               |1406           |3544                       |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2016 |A/-/-   |partial      |
+#'  |2018 |A/-/-   |partial      |
+#'  |2021 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Science Knowledge & Attitudes
+#' @family ISSP Environment
+#' @family Environment
+#' 
+#' @keywords variable
+#' @md
+#' @name tempgen
+NULL
+
+
+#'  Greenhouse effect danger to my family
+#' 
+#'  tempfam
+#' 
+#' Question B. And do you think that a rise in the world's temperature caused by the `greenhouse effect', isâ€¦
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` extremely dangerous
@@ -367,7 +650,7 @@ NULL
 #'   * `3` somewhat dangerous
 #'   * `4` not very dangerous
 #'   * `5` not dangerous at all
-#'   * `NA(d)` don't know
+#'   * `NA(d)` can't choose
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
 #'   * `NA(m)` dk, na, iap
@@ -380,22 +663,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name tempgen
-NULL
-
-#'  Greenhouse effect danger to my family
-#' 
-#'  tempfam
-#' 
-#' Question 1422b. And do you think that a rise in the world's temperature caused by the `greenhouse effect', is...
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4765/vshow).
 #'
 #' Counts by year: 
 #'
@@ -438,14 +707,35 @@ NULL
 #'  |2024  |-     |-            |-                   |-         |-                    |-                  |-                  |-              |3309                       |3309  |
 #'  |Total |65903 |333          |398                 |77        |83                   |433                |997                |622            |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Environment
+#' @family Environment
+#' 
+#' @keywords variable
+#' @md
+#' @name tempfam
+NULL
+
+
+#'  Govt should let peop decide how to protect envir
+#' 
+#'  pubdecid
+#' 
+#' Question A. If you had to choose, which one of the following would be closest to your views?  Government should let ordinary people decide for themselves how to protect the environment, even if it means they don't always dothe right thing, or government should pass laws to make ordinary people protect the environment, even if it interferes with people's right to make their own decisions.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` extremely dangerous
-#'   * `2` very dangerous
-#'   * `3` somewhat dangerous
-#'   * `4` not very dangerous
-#'   * `5` not dangerous at all
-#'   * `NA(d)` can't choose
+#'   * `1` gov. let people decide
+#'   * `2` gov. make laws
+#'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
 #'   * `NA(m)` dk, na, iap
@@ -458,22 +748,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name tempfam
-NULL
-
-#'  Govt should let peop decide how to protect envir
-#' 
-#'  pubdecid
-#' 
-#' Question 1423a. If you had to choose, which one of the following would be closest to your views? Government should let ordinary people decide for themselves how to protect the environment, even if it means they don't always do the right thing, or government should pass laws to make ordinary people protect the environment, even if it interferes with people's right to make their own decisions.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4766/vshow).
 #'
 #' Counts by year: 
 #'
@@ -516,9 +792,35 @@ NULL
 #'  |2024  |-     |-          |-                      |-              |-         |3309                       |3309  |
 #'  |Total |63197 |1259       |1223                   |2972           |195       |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2010 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Environment
+#' @family Environment
+#' 
+#' @keywords variable
+#' @md
+#' @name pubdecid
+NULL
+
+
+#'  Govt should let biz decide how to protect envir
+#' 
+#'  busdecid
+#' 
+#' Question B. And which one of the following closest to your views?  Government should let businesses decide for themselves how to protect the environment, even if it means they don't always do the right thing, or government should pass laws to make businesses protect the environment, even if it interferes with business' right to make their own decisions.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` gov. let people decide
+#'   * `1` gov. let busnesses decide
 #'   * `2` gov. make laws
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
@@ -533,22 +835,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name pubdecid
-NULL
-
-#'  Govt should let biz decide how to protect envir
-#' 
-#'  busdecid
-#' 
-#' Question 1423b. nd which one of the following closest to your views? Government should let businesses decide for themselves how to protect the environment, even if it means they don't always do the right thing, or government should pass laws to make businesses protect the environment, even if it interferes with business' right to make their own decisions.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4767/vshow).
 #'
 #' Counts by year: 
 #'
@@ -591,182 +879,23 @@ NULL
 #'  |2024  |-     |-          |-                         |-              |-         |3309                       |3309  |
 #'  |Total |63197 |764        |509                       |4183           |193       |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` gov. let busnesses decide
-#'   * `2` gov. make laws
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2010 |A/B/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family ISSP Environment
+#' @family Business
+#' @family Environment
 #' 
 #' @keywords variable
 #' @md
 #' @name busdecid
 NULL
 
-#'  U.s. protect environment
-#' 
-#'  usdoenuf
-#' 
-#' Question Some countries are doing more to protect the world environment than other countries are. In general, do you think that America is doing…
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |about the right amount, or |don't know |more than enough |no answer |too little? |not available in this year |Total |
-#'  |:-----|:-----|:--------------------------|:----------|:----------------|:---------|:-----------|:--------------------------|:-----|
-#'  |1972  |1613  |-                          |-          |-                |-         |-           |-                          |1613  |
-#'  |1973  |1504  |-                          |-          |-                |-         |-           |-                          |1504  |
-#'  |1974  |1484  |-                          |-          |-                |-         |-           |-                          |1484  |
-#'  |1975  |1490  |-                          |-          |-                |-         |-           |-                          |1490  |
-#'  |1976  |1499  |-                          |-          |-                |-         |-           |-                          |1499  |
-#'  |1977  |1530  |-                          |-          |-                |-         |-           |-                          |1530  |
-#'  |1978  |1532  |-                          |-          |-                |-         |-           |-                          |1532  |
-#'  |1980  |1468  |-                          |-          |-                |-         |-           |-                          |1468  |
-#'  |1982  |1860  |-                          |-          |-                |-         |-           |-                          |1860  |
-#'  |1983  |1599  |-                          |-          |-                |-         |-           |-                          |1599  |
-#'  |1984  |1473  |-                          |-          |-                |-         |-           |-                          |1473  |
-#'  |1985  |1534  |-                          |-          |-                |-         |-           |-                          |1534  |
-#'  |1986  |1470  |-                          |-          |-                |-         |-           |-                          |1470  |
-#'  |1987  |1819  |-                          |-          |-                |-         |-           |-                          |1819  |
-#'  |1988  |1481  |-                          |-          |-                |-         |-           |-                          |1481  |
-#'  |1989  |1537  |-                          |-          |-                |-         |-           |-                          |1537  |
-#'  |1990  |1372  |-                          |-          |-                |-         |-           |-                          |1372  |
-#'  |1991  |1517  |-                          |-          |-                |-         |-           |-                          |1517  |
-#'  |1993  |1606  |-                          |-          |-                |-         |-           |-                          |1606  |
-#'  |1994  |2992  |-                          |-          |-                |-         |-           |-                          |2992  |
-#'  |1996  |2904  |-                          |-          |-                |-         |-           |-                          |2904  |
-#'  |1998  |2832  |-                          |-          |-                |-         |-           |-                          |2832  |
-#'  |2000  |2817  |-                          |-          |-                |-         |-           |-                          |2817  |
-#'  |2002  |2765  |-                          |-          |-                |-         |-           |-                          |2765  |
-#'  |2004  |2812  |-                          |-          |-                |-         |-           |-                          |2812  |
-#'  |2006  |4510  |-                          |-          |-                |-         |-           |-                          |4510  |
-#'  |2008  |2023  |-                          |-          |-                |-         |-           |-                          |2023  |
-#'  |2010  |614   |473                        |130        |129              |5         |693         |-                          |2044  |
-#'  |2012  |1974  |-                          |-          |-                |-         |-           |-                          |1974  |
-#'  |2014  |2538  |-                          |-          |-                |-         |-           |-                          |2538  |
-#'  |2016  |2867  |-                          |-          |-                |-         |-           |-                          |2867  |
-#'  |2018  |2348  |-                          |-          |-                |-         |-           |-                          |2348  |
-#'  |2021  |4032  |-                          |-          |-                |-         |-           |-                          |4032  |
-#'  |2022  |-     |-                          |-          |-                |-         |-           |3544                       |3544  |
-#'  |2024  |-     |-                          |-          |-                |-         |-           |3309                       |3309  |
-#'  |Total |67416 |473                        |130        |129              |5         |693         |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` more than enough
-#'   * `2` about the right amount, or
-#'   * `3` too little?
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name usdoenuf
-NULL
-
-#'  Recycle cans bottles
-#' 
-#'  recycle
-#' 
-#' Question 1424a. How often do you make a special effort to sort glass or cans or plastic or papers and so on for recycling?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |always |can't choose |never |no answer |often |recycling not available where i live |sometimes |skipped on web |not available in this year |Total |
-#'  |:-----|:-----|:------|:------------|:-----|:---------|:-----|:------------------------------------|:---------|:--------------|:--------------------------|:-----|
-#'  |1972  |1613  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |1613  |
-#'  |1973  |1504  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |1504  |
-#'  |1974  |1484  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |1484  |
-#'  |1975  |1490  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |1490  |
-#'  |1976  |1499  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |1499  |
-#'  |1977  |1530  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |1530  |
-#'  |1978  |1532  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |1532  |
-#'  |1980  |1468  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |1468  |
-#'  |1982  |1860  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |1860  |
-#'  |1983  |1599  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |1599  |
-#'  |1984  |1473  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |1473  |
-#'  |1985  |1534  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |1534  |
-#'  |1986  |1470  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |1470  |
-#'  |1987  |1819  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |1819  |
-#'  |1988  |1481  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |1481  |
-#'  |1989  |1537  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |1537  |
-#'  |1990  |1372  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |1372  |
-#'  |1991  |1517  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |1517  |
-#'  |1993  |49    |579    |1            |204   |37        |338   |55                                   |343       |-              |-                          |1606  |
-#'  |1994  |1606  |481    |-            |170   |19        |329   |47                                   |340       |-              |-                          |2992  |
-#'  |1996  |2904  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |2904  |
-#'  |1998  |2832  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |2832  |
-#'  |2000  |1541  |393    |2            |189   |63        |291   |67                                   |271       |-              |-                          |2817  |
-#'  |2002  |2765  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |2765  |
-#'  |2004  |2812  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |2812  |
-#'  |2006  |4510  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |4510  |
-#'  |2008  |2023  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |2023  |
-#'  |2010  |614   |563    |1            |190   |7         |324   |28                                   |317       |-              |-                          |2044  |
-#'  |2012  |1974  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |1974  |
-#'  |2014  |2538  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |2538  |
-#'  |2016  |2867  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |2867  |
-#'  |2018  |2348  |-      |-            |-     |-         |-     |-                                    |-         |-              |-                          |2348  |
-#'  |2021  |2003  |1006   |-            |198   |192       |278   |130                                  |218       |7              |-                          |4032  |
-#'  |2022  |-     |-      |-            |-     |-         |-     |-                                    |-         |-              |3544                       |3544  |
-#'  |2024  |-     |-      |-            |-     |-         |-     |-                                    |-         |-              |3309                       |3309  |
-#'  |Total |61168 |3022   |4            |951   |318       |1560  |327                                  |1489      |7              |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` always
-#'   * `2` often
-#'   * `3` sometimes
-#'   * `4` never
-#'   * `5` recycling not available where i live
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name recycle
-NULL
 

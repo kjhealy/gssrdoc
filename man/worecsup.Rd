@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 worecsup
 }
 \details{
-Question B. To what extent, if at all, do you worry about the possibility of losing this main economic support?
+Question To what extent, if at all, do you worry about the possibility of losing this main economic support?             
+(Would you say...)
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} i worry a great deal
+\item \code{2} i worry to some extent
+\item \code{3} i worry a little
+\item \code{4} i don't worry at all
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6350/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab i don't worry at all \tab i worry a great deal \tab i worry a little \tab i worry to some extent \tab no answer \tab not available in this year \tab Total \cr
@@ -57,26 +80,24 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} i worry a great deal
-\item \code{2} i worry to some extent
-\item \code{3} i worry a little
-\item \code{4} i don't worry at all
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2016 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Work Orientation: 
+\code{\link{econsup1}},
+\code{\link{moveaway}},
+\code{\link{moveinus}},
+\code{\link{unfamten}},
+\code{\link{unjobexp}},
+\code{\link{unmoney}},
+\code{\link{unpeople}},
+\code{\link{unrespct}},
+\code{\link{unslfcon}}
+}
+\concept{Work Orientation}
 \keyword{variable}

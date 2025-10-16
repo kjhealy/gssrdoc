@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 sphedoccindv
 }
 \details{
-Question None
+Question Spouse's Head of Household OCC/IND verbatim recovered
 }
+\section{Values}{
+
+\itemize{
+\item \code{0} no verbatims for sphed
+\item \code{1} verbatims for sphed
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6002/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllll}{
    year \tab iap \tab no verbatims for sphed \tab verbatims for sphed \tab not available in this year \tab Total \cr
@@ -57,24 +77,24 @@ Counts by year:\tabular{llllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{0} no verbatims for sphed
-\item \code{1} verbatims for sphed
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Family Mobility: 
+\code{\link{sphedind}},
+\code{\link{sphedind10}},
+\code{\link{sphedindstatus}},
+\code{\link{sphedindtag}},
+\code{\link{sphedocc10}},
+\code{\link{sphedoccstatus}},
+\code{\link{sphedocctag}},
+\code{\link{sphedpre10}},
+\code{\link{sphedslf}}
+}
+\concept{Family Mobility}
 \keyword{variable}

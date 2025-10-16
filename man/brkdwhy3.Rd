@@ -10,11 +10,30 @@ General Social Survey https://gss.norc.org
 brkdwhy3
 }
 \details{
-Question 669a1.(IF YES TO Q.669A) Could you tell me about when you felt that way? What was it about? (PROBE: GET EXACT DATE and complete details.)
+Question Have you ever felt that you were going to have a nervous breakdown?
+A3. The causes and sources of R''s nervous breakdown -- Third mention.
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2069/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 10 \tab 11 \tab 12 \tab 121 \tab 129 \tab 13 \tab 14 \tab 15 \tab 16 \tab 18 \tab 19 \tab 21 \tab 216 \tab 219 \tab 22 \tab 23 \tab 24 \tab 25 \tab 29 \tab 304 \tab 37 \tab 39 \tab 402 \tab 41 \tab 500 \tab 505 \tab 509 \tab 80 \tab 802 \tab 803 \tab 806 \tab 807 \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +76,35 @@ Counts by year:\tabular{lllllllllllllllllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Mental Health: 
+\code{\link{brkddo1}},
+\code{\link{brkdwhy1}},
+\code{\link{brkdwhy2}},
+\code{\link{evbrkdwn}},
+\code{\link{knwpatnt}},
+\code{\link{relmhsp3}},
+\code{\link{relmhsp4}},
+\code{\link{relmhsp5}},
+\code{\link{relmhsp6}}
+
+Other Mental Health: 
+\code{\link{brkddo1}},
+\code{\link{brkdwhy1}},
+\code{\link{brkdwhy2}},
+\code{\link{evbrkdwn}},
+\code{\link{knwpatnt}},
+\code{\link{relmhsp3}},
+\code{\link{relmhsp4}},
+\code{\link{relmhsp5}},
+\code{\link{relmhsp6}}
+}
+\concept{Mental Health}
 \keyword{variable}

@@ -10,11 +10,30 @@ General Social Survey https://gss.norc.org
 probhlp3
 }
 \details{
-Question 647. Problems often come up in life. Sometimes they're personal problems -- people are very unhappy, or nervous and irritable all the time. Sometimes there are problems in a marriage -- a husband and wife just can't get along with each other. Or, sometimes it's a personal problem with a child or a job. I'd like to ask you a few questions now about what you think a person might do to handle problems like this. For instance, let's suppose you had a lot of personal problems and you're very unhappy all the time. Let's suppose you've been that way for a long time, and it isn't getting any better. What do you think you'd do about it?
+Question Problems often come up in life. Sometimes they're personal problems -- people are very unhappy, or nervous and irritable all the time. Sometimes there are problems in a marriage -- a husband and wife just can't get along with each other. Or, sometimes it's a personal problem with a child or a job. I'd like to ask you a few questions now about what you think a person might do to handle problems like this. For instance, let's suppose you had a lot of personal problems and you're very unhappy all the time. Let's suppose you've been that way for a long time, and it isn't getting any better. What do you think you'd Do about it?
+3. The sources of help R would seek -- Third mention.
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1985/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 100 \tab 101 \tab 104 \tab 106 \tab 107 \tab 108 \tab 190 \tab 200 \tab 201 \tab 290 \tab 390 \tab 400 \tab 401 \tab 403 \tab 490 \tab 499 \tab 500 \tab 502 \tab 506 \tab 605 \tab 690 \tab 700 \tab 800 \tab no answer \tab 103 \tab 105 \tab 910 \tab 980 \tab 995 \tab not available in this year \tab Total \cr
@@ -57,22 +76,36 @@ Counts by year:\tabular{lllllllllllllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Mental Health: 
+\code{\link{charactr}},
+\code{\link{imbalnce}},
+\code{\link{probfix3}},
+\code{\link{probhlp1}},
+\code{\link{probhlp2}},
+\code{\link{seriousp}},
+\code{\link{stresses}},
+\code{\link{vigversn}},
+\code{\link{wayraise}}
+
+Other Mental Health: 
+\code{\link{charactr}},
+\code{\link{imbalnce}},
+\code{\link{probfix3}},
+\code{\link{probhlp1}},
+\code{\link{probhlp2}},
+\code{\link{seriousp}},
+\code{\link{stresses}},
+\code{\link{vigversn}},
+\code{\link{wayraise}}
+}
+\concept{Mental Health}
 \keyword{variable}

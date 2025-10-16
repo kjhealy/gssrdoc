@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 talkteam
 }
 \details{
-Question 1088. If you were to see a fellow employee not working as hard or well as he or she should, how likely would you be to talk about it in a work group or team? (Would you say...)
+Question If you were to see a fellow employee not working as hard or well as he or she should, how likely would you be to talk about it in a work group or team? (Would you sayâ€¦)
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} not at all likely
+\item \code{2} not very likely
+\item \code{3} somewhat likely
+\item \code{4} very likely
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3555/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab don't know \tab no answer \tab not at all likely \tab not very likely \tab somewhat likely \tab very likely \tab not available in this year \tab Total \cr
@@ -57,26 +79,36 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} not at all likely
-\item \code{2} not very likely
-\item \code{3} somewhat likely
-\item \code{4} very likely
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Shared Capitalism: 
+\code{\link{compwage}},
+\code{\link{empinput}},
+\code{\link{emptrain}},
+\code{\link{esop}},
+\code{\link{extr2005}},
+\code{\link{numorg}},
+\code{\link{ops2005}},
+\code{\link{slfmangd}},
+\code{\link{wealth}}
+
+Other Work: 
+\code{\link{compwage}},
+\code{\link{empinput}},
+\code{\link{emptrain}},
+\code{\link{esop}},
+\code{\link{extr2005}},
+\code{\link{numorg}},
+\code{\link{ops2005}},
+\code{\link{slfmangd}},
+\code{\link{wealth}}
+}
+\concept{Shared Capitalism}
+\concept{Work}
 \keyword{variable}

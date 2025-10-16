@@ -1,11 +1,122 @@
+#'  If threatened or shot at--how many times
+#' 
+#'  gunnum
+#' 
+#' Question Have you ever been threatened with a gun, or shot at? 
+#' B. How many times would you guess this has happened to you?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` once
+#'   * `2` 2-3 times
+#'   * `3` 4+ times
+#'   * `8` not sure
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/663/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |2-3 times |4+ times |don't know |no answer |once |not available in this year |Total |
+#'  |:-----|:-----|:---------|:--------|:----------|:---------|:----|:--------------------------|:-----|
+#'  |1972  |1613  |-         |-        |-          |-         |-    |-                          |1613  |
+#'  |1973  |1258  |47        |38       |11         |6         |144  |-                          |1504  |
+#'  |1974  |1484  |-         |-        |-          |-         |-    |-                          |1484  |
+#'  |1975  |1230  |62        |35       |12         |9         |142  |-                          |1490  |
+#'  |1976  |1242  |65        |52       |4          |2         |134  |-                          |1499  |
+#'  |1977  |1530  |-         |-        |-          |-         |-    |-                          |1530  |
+#'  |1978  |1221  |71        |40       |11         |2         |187  |-                          |1532  |
+#'  |1980  |1157  |75        |50       |10         |3         |173  |-                          |1468  |
+#'  |1982  |1860  |-         |-        |-          |-         |-    |-                          |1860  |
+#'  |1983  |1272  |86        |52       |6          |3         |180  |-                          |1599  |
+#'  |1984  |1181  |62        |52       |6          |2         |170  |-                          |1473  |
+#'  |1985  |1534  |-         |-        |-          |-         |-    |-                          |1534  |
+#'  |1986  |1470  |-         |-        |-          |-         |-    |-                          |1470  |
+#'  |1987  |1819  |-         |-        |-          |-         |-    |-                          |1819  |
+#'  |1988  |1481  |-         |-        |-          |-         |-    |-                          |1481  |
+#'  |1989  |1537  |-         |-        |-          |-         |-    |-                          |1537  |
+#'  |1990  |1372  |-         |-        |-          |-         |-    |-                          |1372  |
+#'  |1991  |1517  |-         |-        |-          |-         |-    |-                          |1517  |
+#'  |1993  |1606  |-         |-        |-          |-         |-    |-                          |1606  |
+#'  |1994  |2992  |-         |-        |-          |-         |-    |-                          |2992  |
+#'  |1996  |2904  |-         |-        |-          |-         |-    |-                          |2904  |
+#'  |1998  |2832  |-         |-        |-          |-         |-    |-                          |2832  |
+#'  |2000  |2817  |-         |-        |-          |-         |-    |-                          |2817  |
+#'  |2002  |2765  |-         |-        |-          |-         |-    |-                          |2765  |
+#'  |2004  |2812  |-         |-        |-          |-         |-    |-                          |2812  |
+#'  |2006  |4510  |-         |-        |-          |-         |-    |-                          |4510  |
+#'  |2008  |2023  |-         |-        |-          |-         |-    |-                          |2023  |
+#'  |2010  |2044  |-         |-        |-          |-         |-    |-                          |2044  |
+#'  |2012  |1974  |-         |-        |-          |-         |-    |-                          |1974  |
+#'  |2014  |2538  |-         |-        |-          |-         |-    |-                          |2538  |
+#'  |2016  |2867  |-         |-        |-          |-         |-    |-                          |2867  |
+#'  |2018  |2348  |-         |-        |-          |-         |-    |-                          |2348  |
+#'  |2021  |4032  |-         |-        |-          |-         |-    |-                          |4032  |
+#'  |2022  |-     |-         |-        |-          |-         |-    |3544                       |3544  |
+#'  |2024  |-     |-         |-        |-          |-         |-    |3309                       |3309  |
+#'  |Total |66842 |468       |319      |60         |27        |1130 |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-       |full         |
+#'  |1975 |-       |full         |
+#'  |1976 |-       |full         |
+#'  |1978 |-       |full         |
+#'  |1980 |-       |full         |
+#'  |1983 |-       |full         |
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Guns
+#' 
+#' @keywords variable
+#' @md
+#' @name gunnum
+NULL
+
+
 #'  Ever approve of man punching adult male
 #' 
 #'  hitok
 #' 
-#' Question 231. Are there any situations that you can imagine in which you would approve of a man punching an adult male stranger?
+#' Question Are there any situations that you can imagine in which you would approve of a man punching an adult male stranger?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/664/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +159,44 @@
 #'  |2024  |-     |-          |-    |-     |-         |3309                       |3309  |
 #'  |Total |49476 |882        |6214 |12123 |151       |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Violence
+#' 
+#' @keywords variable
+#' @md
+#' @name hitok
+NULL
+
+
+#'  Stranger in protest march
+#' 
+#'  hitmarch
+#' 
+#' Question Are there any situations that you can imagine in which you would approve of a man punching an adult male stranger? 
+#' A. Was in a protest march showing opposition to the other man''s views?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -65,22 +214,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hitok
-NULL
-
-#'  Stranger in protest march
-#' 
-#'  hitmarch
-#' 
-#' Question 231. If yes or not sure: Would you approve if the stranger: a. Was in a protest march showing opposition to the other man's views?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/665/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,6 +258,44 @@ NULL
 #'  |2024  |-     |-          |-     |-         |-   |3309                       |3309  |
 #'  |Total |50372 |333        |17451 |86        |604 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Violence
+#' 
+#' @keywords variable
+#' @md
+#' @name hitmarch
+NULL
+
+
+#'  Drunk bumped into man & wife
+#' 
+#'  hitdrunk
+#' 
+#' Question Are there any situations that you can imagine in which you would approve of a man punching an adult male stranger? 
+#' B. Was drunk and bumped into the man and his wife on the street?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -140,22 +313,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hitmarch
-NULL
-
-#'  Drunk bumped into man & wife
-#' 
-#'  hitdrunk
-#' 
-#' Question 231. If yes or not sure: Would you approve if the stranger: b. Was drunked and bumped into the man and his wife on the street?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/666/vshow).
 #'
 #' Counts by year: 
 #'
@@ -198,6 +357,45 @@ NULL
 #'  |2024  |-     |-          |-     |-         |-    |3309                       |3309  |
 #'  |Total |50372 |473        |16364 |94        |1543 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Drinking
+#' @family Violence
+#' 
+#' @keywords variable
+#' @md
+#' @name hitdrunk
+NULL
+
+
+#'  Stranger had hit mans child
+#' 
+#'  hitchild
+#' 
+#' Question Are there any situations that you can imagine in which you would approve of a man punching an adult male stranger? 
+#' C. Would you approve of a man punching a stranger who had hit the man''s child after the child accidentally damaged the stranger''s car?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -215,22 +413,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hitdrunk
-NULL
-
-#'  Stranger had hit mans child
-#' 
-#'  hitchild
-#' 
-#' Question 231. If yes or not sure: Would you approve if the stranger: c. Would you approve of a man punching a stranger who had hit the man's child after the child accidentally damaged the stranger's car?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/667/vshow).
 #'
 #' Counts by year: 
 #'
@@ -273,6 +457,44 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-    |3309                       |3309  |
 #'  |Total |50372 |629        |7830 |103       |9912 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Violence
+#' 
+#' @keywords variable
+#' @md
+#' @name hitchild
+NULL
+
+
+#'  Stranger was beating up a woman
+#' 
+#'  hitbeatr
+#' 
+#' Question Are there any situations that you can imagine in which you would approve of a man punching an adult male stranger? 
+#' D. Was beating up a woman and the man saw it?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -290,22 +512,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hitchild
-NULL
-
-#'  Stranger was beating up a woman
-#' 
-#'  hitbeatr
-#' 
-#' Question 231. If yes or not sure: Would you approve if the stranger: d. Was beating up a woman and the man saw it?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/668/vshow).
 #'
 #' Counts by year: 
 #'
@@ -348,6 +556,44 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-     |3309                       |3309  |
 #'  |Total |50372 |700        |2700 |98        |14976 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Violence
+#' 
+#' @keywords variable
+#' @md
+#' @name hitbeatr
+NULL
+
+
+#'  Stranger had broken into mans house
+#' 
+#'  hitrobbr
+#' 
+#' Question Are there any situations that you can imagine in which you would approve of a man punching an adult male stranger? 
+#' E. Had broken into the man''s house?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -365,22 +611,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hitbeatr
-NULL
-
-#'  Stranger had broken into mans house
-#' 
-#'  hitrobbr
-#' 
-#' Question 231. If yes or not sure: Would you approve if the stranger: e. Had broken into the man's house?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/669/vshow).
 #'
 #' Counts by year: 
 #'
@@ -423,6 +655,43 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-     |3309                       |3309  |
 #'  |Total |50372 |400        |2635 |76        |15363 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Violence
+#' 
+#' @keywords variable
+#' @md
+#' @name hitrobbr
+NULL
+
+
+#'  Ever approve of police striking citizen
+#' 
+#'  polhitok
+#' 
+#' Question Are there any situations you can imagine in which you would approve of a policeman striking an adult male citizen?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -440,22 +709,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hitrobbr
-NULL
-
-#'  Ever approve of police striking citizen
-#' 
-#'  polhitok
-#' 
-#' Question 232. Are there any situations you can imagine in which you would approve of a policeman striking an adult male citizen?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/670/vshow).
 #'
 #' Counts by year: 
 #'
@@ -498,6 +753,60 @@ NULL
 #'  |2024  |2198  |15         |367   |1         |723   |5              |3309  |
 #'  |Total |33104 |1656       |11712 |226       |28982 |19             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'  |1996 |B/C     |partial      |
+#'  |1998 |B/C     |partial      |
+#'  |2000 |B/C     |partial      |
+#'  |2002 |B/C     |partial      |
+#'  |2004 |B/C     |partial      |
+#'  |2006 |B/C     |partial      |
+#'  |2008 |B/C     |partial      |
+#'  |2010 |B/C     |partial      |
+#'  |2012 |B/C     |partial      |
+#'  |2014 |B/C     |partial      |
+#'  |2016 |B/C     |partial      |
+#'  |2018 |B/C     |partial      |
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'  |2024 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Police
+#' @family Violence
+#' 
+#' @keywords variable
+#' @md
+#' @name polhitok
+NULL
+
+
+#'  Citizen said vulgar or obscene things
+#' 
+#'  polabuse
+#' 
+#' Question Are there any situations you can imagine in which you would approve of a policeman striking an adult male citizen? 
+#' A. Had said vulgar and obscene things to the policeman?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -515,22 +824,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name polhitok
-NULL
-
-#'  Citizen said vulgar or obscene things
-#' 
-#'  polabuse
-#' 
-#' Question 232. If yes or not sure: Would you approve of a policeman striking a citizen who: a. Had said vulgar and obscene things to the policeman?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/671/vshow).
 #'
 #' Counts by year: 
 #'
@@ -573,6 +868,60 @@ NULL
 #'  |2024  |2198  |14         |983   |1         |106  |7              |3309  |
 #'  |Total |33142 |861        |37027 |107       |4544 |18             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'  |1996 |B/C     |partial      |
+#'  |1998 |B/C     |partial      |
+#'  |2000 |B/C     |partial      |
+#'  |2002 |B/C     |partial      |
+#'  |2004 |B/C     |partial      |
+#'  |2006 |B/C     |partial      |
+#'  |2008 |B/C     |partial      |
+#'  |2010 |B/C     |partial      |
+#'  |2012 |B/C     |partial      |
+#'  |2014 |B/C     |partial      |
+#'  |2016 |B/C     |partial      |
+#'  |2018 |B/C     |partial      |
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'  |2024 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Police
+#' @family Violence
+#' 
+#' @keywords variable
+#' @md
+#' @name polabuse
+NULL
+
+
+#'  Citizen questioned as murder suspect
+#' 
+#'  polmurdr
+#' 
+#' Question Are there any situations you can imagine in which you would approve of a policeman striking an adult male citizen? 
+#' B. Was being questioned as a suspect in a murder case?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -590,22 +939,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name polabuse
-NULL
-
-#'  Citizen questioned as murder suspect
-#' 
-#'  polmurdr
-#' 
-#' Question 232. If yes or not sure: Would you approve of a policeman striking a citizen who: b. Was being questioned as a suspect in a murder case?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/672/vshow).
 #'
 #' Counts by year: 
 #'
@@ -648,103 +983,49 @@ NULL
 #'  |2024  |1116  |32         |1701  |4         |436  |20             |3309  |
 #'  |Total |29521 |954        |39823 |137       |5196 |68             |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'  |1996 |B/C     |partial      |
+#'  |1998 |B/C     |partial      |
+#'  |2000 |B/C     |partial      |
+#'  |2002 |B/C     |partial      |
+#'  |2004 |B/C     |partial      |
+#'  |2006 |B/C     |partial      |
+#'  |2008 |B/C     |partial      |
+#'  |2010 |B/C     |partial      |
+#'  |2012 |B/C     |partial      |
+#'  |2014 |B/C     |partial      |
+#'  |2016 |B/C     |partial      |
+#'  |2018 |B/C     |partial      |
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'  |2024 |B/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Police
+#' @family Violence
 #' 
 #' @keywords variable
 #' @md
 #' @name polmurdr
 NULL
 
-#'  Citizen attempting to escape custody
-#' 
-#'  polescap
-#' 
-#' Question 232. If yes or not sure: Would you approve of a policeman striking a citizen who: c. Was attempting to escape from custody?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no    |no answer |yes   |skipped on web |Total |
-#'  |:-----|:-----|:----------|:-----|:---------|:-----|:--------------|:-----|
-#'  |1972  |1613  |-          |-     |-         |-     |-              |1613  |
-#'  |1973  |380   |18         |131   |4         |971   |-              |1504  |
-#'  |1974  |1484  |-          |-     |-         |-     |-              |1484  |
-#'  |1975  |343   |38         |123   |8         |978   |-              |1490  |
-#'  |1976  |-     |59         |273   |6         |1161  |-              |1499  |
-#'  |1977  |1530  |-          |-     |-         |-     |-              |1530  |
-#'  |1978  |-     |54         |332   |2         |1144  |-              |1532  |
-#'  |1980  |-     |62         |293   |7         |1106  |-              |1468  |
-#'  |1982  |1860  |-          |-     |-         |-     |-              |1860  |
-#'  |1983  |-     |63         |335   |2         |1199  |-              |1599  |
-#'  |1984  |-     |52         |342   |15        |1064  |-              |1473  |
-#'  |1985  |1534  |-          |-     |-         |-     |-              |1534  |
-#'  |1986  |-     |55         |358   |3         |1054  |-              |1470  |
-#'  |1987  |-     |101        |382   |8         |1328  |-              |1819  |
-#'  |1988  |484   |45         |191   |6         |755   |-              |1481  |
-#'  |1989  |502   |42         |205   |6         |782   |-              |1537  |
-#'  |1990  |473   |44         |191   |1         |663   |-              |1372  |
-#'  |1991  |500   |51         |264   |8         |694   |-              |1517  |
-#'  |1993  |549   |48         |239   |3         |767   |-              |1606  |
-#'  |1994  |981   |84         |420   |12        |1495  |-              |2992  |
-#'  |1996  |979   |99         |513   |7         |1306  |-              |2904  |
-#'  |1998  |921   |95         |518   |6         |1292  |-              |2832  |
-#'  |2000  |921   |89         |535   |13        |1259  |-              |2817  |
-#'  |2002  |1853  |76         |224   |1         |611   |-              |2765  |
-#'  |2004  |1936  |58         |223   |2         |593   |-              |2812  |
-#'  |2006  |2521  |121        |503   |1         |1364  |-              |4510  |
-#'  |2008  |658   |47         |340   |1         |977   |-              |2023  |
-#'  |2010  |667   |59         |397   |4         |917   |-              |2044  |
-#'  |2012  |636   |62         |329   |-         |947   |-              |1974  |
-#'  |2014  |851   |91         |519   |1         |1076  |-              |2538  |
-#'  |2016  |911   |73         |589   |4         |1290  |-              |2867  |
-#'  |2018  |785   |91         |462   |3         |1007  |-              |2348  |
-#'  |2021  |1360  |11         |1060  |2         |1579  |20             |4032  |
-#'  |2022  |1173  |34         |932   |4         |1390  |11             |3544  |
-#'  |2024  |1116  |29         |845   |6         |1297  |16             |3309  |
-#'  |Total |29521 |1851       |12068 |146       |32066 |47             |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name polescap
-NULL
 

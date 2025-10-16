@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 fairearn
 }
 \details{
-Question 895. How fair is what you earn on your job in comparison to others doing the same type of work you do?
+Question How fair is what you earn on your job in comparison to others doing the same type of work you do?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} much less than you deserve
+\item \code{2} somewhat less than you deserve
+\item \code{3} about as much as you deserve
+\item \code{4} somewhat more than you deserve
+\item \code{5} much more than you deserve
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2816/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab about as much as you deserve \tab don't know \tab much less than you deserve \tab much more than you deserve \tab no answer \tab somewhat less than you deserve \tab somewhat more than you deserve \tab skipped on web \tab not available in this year \tab Total \cr
@@ -57,27 +80,30 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} much less than you deserve
-\item \code{2} somewhat less than you deserve
-\item \code{3} about as much as you deserve
-\item \code{4} somewhat more than you deserve
-\item \code{5} much more than you deserve
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Quality of Working Life: 
+\code{\link{cowrkhlp}},
+\code{\link{handmove}},
+\code{\link{hvylift}},
+\code{\link{manvsemp}},
+\code{\link{suphelp}},
+\code{\link{trainops}},
+\code{\link{wkbonus}},
+\code{\link{wkpraise}},
+\code{\link{wrktime}}
+}
+\concept{Income}
+\concept{Quality of Working Life}
 \keyword{variable}

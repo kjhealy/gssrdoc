@@ -1,11 +1,206 @@
+#'  How long r wait treatment doing less work e
+#' 
+#'  wait5
+#' 
+#' Question Given your life right now, how many days, weeks or months would you wait for this situation to get better on its own before seeking medical treatment?
+#' E. Accomplishing less than you would like with your work or other regular daily activities as a result of any emotional problems (such as feeling depressed or anxious)? 
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` zero days
+#'   * `991` some days
+#'   * `992` some weeks
+#'   * `993` some months
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2703/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |1   |10 |12 |14 |2   |3  |4  |5  |6  |7  |8  |don't know |no answer |some days |some months |some weeks |zero days |not available in this year |Total |
+#'  |:-----|:-----|:---|:--|:--|:--|:---|:--|:--|:--|:--|:--|:--|:----------|:---------|:---------|:-----------|:----------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1613  |
+#'  |1973  |1504  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1504  |
+#'  |1974  |1484  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1484  |
+#'  |1975  |1490  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1490  |
+#'  |1976  |1499  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1499  |
+#'  |1977  |1530  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1530  |
+#'  |1978  |1532  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1532  |
+#'  |1980  |1468  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1468  |
+#'  |1982  |1860  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1860  |
+#'  |1983  |1599  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1599  |
+#'  |1984  |1473  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1473  |
+#'  |1985  |1534  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1534  |
+#'  |1986  |1470  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1470  |
+#'  |1987  |1819  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1819  |
+#'  |1988  |1481  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1481  |
+#'  |1989  |1537  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1537  |
+#'  |1990  |1372  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1372  |
+#'  |1991  |1517  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1517  |
+#'  |1993  |1606  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1606  |
+#'  |1994  |2992  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |2992  |
+#'  |1996  |2904  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |2904  |
+#'  |1998  |2832  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |2832  |
+#'  |2000  |1966  |264 |1  |2  |1  |157 |35 |14 |4  |7  |6  |1  |3          |250       |30        |21          |43         |12        |-                          |2817  |
+#'  |2002  |2765  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |2765  |
+#'  |2004  |2812  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |2812  |
+#'  |2006  |4510  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |4510  |
+#'  |2008  |2023  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |2023  |
+#'  |2010  |2044  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |2044  |
+#'  |2012  |1974  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1974  |
+#'  |2014  |2538  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |2538  |
+#'  |2016  |2867  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |2867  |
+#'  |2018  |2348  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |2348  |
+#'  |2021  |4032  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |4032  |
+#'  |2022  |-     |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |3544                       |3544  |
+#'  |2024  |-     |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |3309                       |3309  |
+#'  |Total |67995 |264 |1  |2  |1  |157 |35 |14 |4  |7  |6  |1  |3          |250       |30        |21          |43         |12        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Health Status
+#' @family Health
+#' 
+#' @keywords variable
+#' @md
+#' @name wait5
+NULL
+
+
+#'  How long r wait treatment working less care
+#' 
+#'  wait6
+#' 
+#' Question Given your life right now, how many days, weeks or months would you wait for this situation to get better on its own before seeking medical treatment?
+#' F. Not working or doing other activities as carefully as usual as a result of any emotional problems such as feeling depressed or anxious?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` zero days
+#'   * `991` some days
+#'   * `992` some weeks
+#'   * `993` some months
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2704/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |1   |10 |12 |14 |2   |3  |4  |5  |6  |7  |9  |don't know |no answer |some days |some months |some weeks |zero days |not available in this year |Total |
+#'  |:-----|:-----|:---|:--|:--|:--|:---|:--|:--|:--|:--|:--|:--|:----------|:---------|:---------|:-----------|:----------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1613  |
+#'  |1973  |1504  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1504  |
+#'  |1974  |1484  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1484  |
+#'  |1975  |1490  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1490  |
+#'  |1976  |1499  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1499  |
+#'  |1977  |1530  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1530  |
+#'  |1978  |1532  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1532  |
+#'  |1980  |1468  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1468  |
+#'  |1982  |1860  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1860  |
+#'  |1983  |1599  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1599  |
+#'  |1984  |1473  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1473  |
+#'  |1985  |1534  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1534  |
+#'  |1986  |1470  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1470  |
+#'  |1987  |1819  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1819  |
+#'  |1988  |1481  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1481  |
+#'  |1989  |1537  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1537  |
+#'  |1990  |1372  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1372  |
+#'  |1991  |1517  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1517  |
+#'  |1993  |1606  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1606  |
+#'  |1994  |2992  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |2992  |
+#'  |1996  |2904  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |2904  |
+#'  |1998  |2832  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |2832  |
+#'  |2000  |1985  |253 |1  |1  |1  |153 |34 |11 |4  |3  |6  |1  |1          |266       |28        |23          |37         |9         |-                          |2817  |
+#'  |2002  |2765  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |2765  |
+#'  |2004  |2812  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |2812  |
+#'  |2006  |4510  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |4510  |
+#'  |2008  |2023  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |2023  |
+#'  |2010  |2044  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |2044  |
+#'  |2012  |1974  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |1974  |
+#'  |2014  |2538  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |2538  |
+#'  |2016  |2867  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |2867  |
+#'  |2018  |2348  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |2348  |
+#'  |2021  |4032  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |-                          |4032  |
+#'  |2022  |-     |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |3544                       |3544  |
+#'  |2024  |-     |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |3309                       |3309  |
+#'  |Total |68014 |253 |1  |1  |1  |153 |34 |11 |4  |3  |6  |1  |1          |266       |28        |23          |37         |9         |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Health Status
+#' @family Health
+#' 
+#' @keywords variable
+#' @md
+#' @name wait6
+NULL
+
+
 #'  How long r wait treatment pain interfere wi
 #' 
 #'  wait7
 #' 
-#' Question 843. Given your life right now, how many days, weeks or months would you wait for this situation to get better on its own before seeking medical treatment? g. Having pain interfere with your normal work, including both work outside the home and housework?
+#' Question Given your life right now, how many days, weeks or months would you wait for this situation to get better on its own before seeking medical treatment? 
+#' G. Having pain interfere with your normal work, including both work outside the home and housework?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` zero days
+#'   * `991` some days
+#'   * `992` some weeks
+#'   * `993` some months
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2705/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +243,30 @@
 #'  |2024  |-     |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |3309                       |3309  |
 #'  |Total |67646 |436 |2  |1  |1  |263 |1  |1  |72 |19 |10 |9  |7  |4          |233       |44        |13          |57         |27        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Health Status
+#' @family Health
+#' 
+#' @keywords variable
+#' @md
+#' @name wait7
+NULL
+
+
+#'  How long r wait treatment not calm and peace
+#' 
+#'  wait8
+#' 
+#' Question Given your life right now, how many days, weeks or months would you wait for this situation to get better on its own before seeking medical treatment? 
+#' H. Not feeling calm and peaceful?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` zero days
@@ -67,22 +286,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wait7
-NULL
-
-#'  How long r wait treatment not calm and peace
-#' 
-#'  wait8
-#' 
-#' Question 843. Given your life right now, how many days, weeks or months would you wait for this situation to get better on its own before seeking medical treatment? h. Not feeling calm and peaceful?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2706/vshow).
 #'
 #' Counts by year: 
 #'
@@ -125,6 +330,30 @@ NULL
 #'  |2024  |-     |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-         |-         |-           |-          |-         |3309                       |3309  |
 #'  |Total |68145 |159 |2  |3  |1   |121 |1  |15 |13 |3  |6  |4  |280       |21        |23          |40         |9         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Health Status
+#' @family Health
+#' 
+#' @keywords variable
+#' @md
+#' @name wait8
+NULL
+
+
+#'  How long r wait treatment lack of energy
+#' 
+#'  wait9
+#' 
+#' Question Given your life right now, how many days, weeks or months would you wait for this situation to get better on its own before seeking medical treatment? 
+#' I. Not having lots of energy?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` zero days
@@ -144,22 +373,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wait8
-NULL
-
-#'  How long r wait treatment lack of energy
-#' 
-#'  wait9
-#' 
-#' Question 843. Given your life right now, how many days, weeks or months would you wait for this situation to get better on its own before seeking medical treatment? i. Not having lots of energy?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2707/vshow).
 #'
 #' Counts by year: 
 #'
@@ -202,6 +417,30 @@ NULL
 #'  |2024  |-     |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-         |-         |-           |-          |-         |3309                       |3309  |
 #'  |Total |68016 |231 |2  |1  |1  |157 |1  |35 |2  |15 |5  |8  |4  |261       |22        |26          |44         |15        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Health Status
+#' @family Health
+#' 
+#' @keywords variable
+#' @md
+#' @name wait9
+NULL
+
+
+#'  How long r wait treatment downhearted and b
+#' 
+#'  wait10
+#' 
+#' Question Given your life right now, how many days, weeks or months would you wait for this situation to get better on its own before seeking medical treatment? 
+#' J. Feeling downhearted and blue?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` zero days
@@ -221,22 +460,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wait9
-NULL
-
-#'  How long r wait treatment downhearted and b
-#' 
-#'  wait10
-#' 
-#' Question 843. Given your life right now, how many days, weeks or months would you wait for this situation to get better on its own before seeking medical treatment? j. Feeling downhearted and blue?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2708/vshow).
 #'
 #' Counts by year: 
 #'
@@ -279,6 +504,30 @@ NULL
 #'  |2024  |-     |-   |-  |-  |-   |-  |-  |-  |-  |-  |-         |-         |-           |-          |-         |3309                       |3309  |
 #'  |Total |68175 |149 |1  |3  |114 |25 |8  |4  |6  |4  |273       |18        |25          |33         |8         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Health Status
+#' @family Health
+#' 
+#' @keywords variable
+#' @md
+#' @name wait10
+NULL
+
+
+#'  How long r wait treatment health interfere
+#' 
+#'  wait11
+#' 
+#' Question Given your life right now, how many days, weeks or months would you wait for this situation to get better on its own before seeking medical treatment? 
+#' K. Having physical health or emotional problems interfere with you social life, like visiting friends, relatives, etc.?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` zero days
@@ -298,22 +547,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wait10
-NULL
-
-#'  How long r wait treatment health interfere
-#' 
-#'  wait11
-#' 
-#' Question 843. Given your life right now, how many days, weeks or months would you wait for this situation to get better on its own before seeking medical treatment? k. Having physical health or emotional problems interfere with you social life, like visiting friends, relatives, etc.?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2709/vshow).
 #'
 #' Counts by year: 
 #'
@@ -356,12 +591,36 @@ NULL
 #'  |2024  |-     |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-         |-           |-          |-         |3309                       |3309  |
 #'  |Total |67951 |265 |1  |3  |1  |179 |33 |1  |16 |7  |9  |6  |3          |266       |23        |25          |48         |9         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Health Status
+#' @family Health
+#' 
+#' @keywords variable
+#' @md
+#' @name wait11
+NULL
+
+
+#'  Treatment for downheartedness improve quality of life
+#' 
+#'  downqol
+#' 
+#' Question As you know, when people go to doctors, they may hold different expectations of what should result from their treatment. Iâ€™m going to describe a health problem. Please tell me how much you, yourself, would expect to get each of the following:
+#' A. Say you went to treatment because you feel downhearted and blue and this interferes with your social activities (like visiting friends, relatives, etc.) Would you definitely expect, probably expect, probably not expect, or definitely not expect your overall quality of life to improve?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` zero days
-#'   * `991` some days
-#'   * `992` some weeks
-#'   * `993` some months
+#'   * `1` definitely expect
+#'   * `2` probably expect
+#'   * `3` probably not expect
+#'   * `4` definitely not expect
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -375,22 +634,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wait11
-NULL
-
-#'  Treatment for downheartedness improve quality of life
-#' 
-#'  downqol
-#' 
-#' Question 844. As you know, when people go to doctors, they may hold different expectations of what should result from their treatment. I'm going to describe a health problem. Please tell me how much you, yourself, would expect to get each of the following: Say you went to treatment because you feel downhearted and blue and this interferes with your social activities (like visiting friends, relatives, etc.) a. Would you definitely expect, probably expect, probably not expect, or definitely not expect your overall quality of life to improve?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2710/vshow).
 #'
 #' Counts by year: 
 #'
@@ -433,6 +678,30 @@ NULL
 #'  |2024  |-     |-                 |-                     |-          |-         |-               |-                   |3309                       |3309  |
 #'  |Total |68391 |120               |22                    |20         |24        |194             |75                  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A       |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Health Status
+#' @family Health
+#' 
+#' @keywords variable
+#' @md
+#' @name downqol
+NULL
+
+
+#'  Treatment for downheartedness improve family
+#' 
+#'  downfam
+#' 
+#' Question As you know, when people go to doctors, they may hold different expectations of what should result from their treatment. Iâ€™m going to describe a health problem. Please tell me how much you, yourself, would expect to get each of the following:
+#' B. Would you definitely expect, probably expect, probably not expect, or definitely not expect your relationships within your family to improve?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` definitely expect
@@ -452,22 +721,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name downqol
-NULL
-
-#'  Treatment for downheartedness improve family
-#' 
-#'  downfam
-#' 
-#' Question 844. As you know, when people go to doctors, they may hold different expectations of what should result from their treatment. I'm going to describe a health problem. Please tell me how much you, yourself, would expect to get each of the following: Say you went to treatment because you feel downhearted and blue and this interferes with your social activities (like visiting friends, relatives, etc.) b. Would you definitely expect, probably expect, probably not expect, or definitely not expect your relationships within your family to improve?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2711/vshow).
 #'
 #' Counts by year: 
 #'
@@ -510,6 +765,30 @@ NULL
 #'  |2024  |-     |-                 |-                     |-          |-         |-               |-                   |3309                       |3309  |
 #'  |Total |68391 |121               |28                    |28         |24        |195             |59                  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A       |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Health Status
+#' @family Health
+#' 
+#' @keywords variable
+#' @md
+#' @name downfam
+NULL
+
+
+#'  Treatment for downheartedness cure condition
+#' 
+#'  downcure
+#' 
+#' Question As you know, when people go to doctors, they may hold different expectations of what should result from their treatment. Iâ€™m going to describe a health problem. Please tell me how much you, yourself, would expect to get each of the following:
+#' C. Would you definitely expect, probably not expect, or definitely not expect to be cured?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` definitely expect
@@ -529,22 +808,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name downfam
-NULL
-
-#'  Treatment for downheartedness cure condition
-#' 
-#'  downcure
-#' 
-#' Question 844. As you know, when people go to doctors, they may hold different expectations of what should result from their treatment. I'm going to describe a health problem. Please tell me how much you, yourself, would expect to get each of the following: Say you went to treatment because you feel downhearted and blue and this interferes with your social activities (like visiting friends, relatives, etc.) c. Would you definitely expect, probably not expect, or definitely not expect to be cured?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2712/vshow).
 #'
 #' Counts by year: 
 #'
@@ -587,184 +852,19 @@ NULL
 #'  |2024  |-     |-                 |-                     |-          |-         |-               |-                   |3309                       |3309  |
 #'  |Total |68391 |112               |34                    |27         |22        |157             |103                 |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` definitely expect
-#'   * `2` probably expect
-#'   * `3` probably not expect
-#'   * `4` definitely not expect
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A       |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Health Status
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
 #' @name downcure
 NULL
 
-#'  Treatment for downheartedness rely less on
-#' 
-#'  downrely
-#' 
-#' Question 844. As you know, when people go to doctors, they may hold different expectations of what should result from their treatment. I'm going to describe a health problem. Please tell me how much you, yourself, would expect to get each of the following: Say you went to treatment because you feel downhearted and blue and this interferes with your social activities (like visiting friends, relatives, etc.) d. Would you definitely expect, probably expect, probably not expect, or definitely not expect to need to rely less on others?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |definitely expect |definitely not expect |don't know |no answer |probably expect |probably not expect |not available in this year |Total |
-#'  |:-----|:-----|:-----------------|:---------------------|:----------|:---------|:---------------|:-------------------|:--------------------------|:-----|
-#'  |1972  |1613  |-                 |-                     |-          |-         |-               |-                   |-                          |1613  |
-#'  |1973  |1504  |-                 |-                     |-          |-         |-               |-                   |-                          |1504  |
-#'  |1974  |1484  |-                 |-                     |-          |-         |-               |-                   |-                          |1484  |
-#'  |1975  |1490  |-                 |-                     |-          |-         |-               |-                   |-                          |1490  |
-#'  |1976  |1499  |-                 |-                     |-          |-         |-               |-                   |-                          |1499  |
-#'  |1977  |1530  |-                 |-                     |-          |-         |-               |-                   |-                          |1530  |
-#'  |1978  |1532  |-                 |-                     |-          |-         |-               |-                   |-                          |1532  |
-#'  |1980  |1468  |-                 |-                     |-          |-         |-               |-                   |-                          |1468  |
-#'  |1982  |1860  |-                 |-                     |-          |-         |-               |-                   |-                          |1860  |
-#'  |1983  |1599  |-                 |-                     |-          |-         |-               |-                   |-                          |1599  |
-#'  |1984  |1473  |-                 |-                     |-          |-         |-               |-                   |-                          |1473  |
-#'  |1985  |1534  |-                 |-                     |-          |-         |-               |-                   |-                          |1534  |
-#'  |1986  |1470  |-                 |-                     |-          |-         |-               |-                   |-                          |1470  |
-#'  |1987  |1819  |-                 |-                     |-          |-         |-               |-                   |-                          |1819  |
-#'  |1988  |1481  |-                 |-                     |-          |-         |-               |-                   |-                          |1481  |
-#'  |1989  |1537  |-                 |-                     |-          |-         |-               |-                   |-                          |1537  |
-#'  |1990  |1372  |-                 |-                     |-          |-         |-               |-                   |-                          |1372  |
-#'  |1991  |1517  |-                 |-                     |-          |-         |-               |-                   |-                          |1517  |
-#'  |1993  |1606  |-                 |-                     |-          |-         |-               |-                   |-                          |1606  |
-#'  |1994  |2992  |-                 |-                     |-          |-         |-               |-                   |-                          |2992  |
-#'  |1996  |2904  |-                 |-                     |-          |-         |-               |-                   |-                          |2904  |
-#'  |1998  |2832  |-                 |-                     |-          |-         |-               |-                   |-                          |2832  |
-#'  |2000  |2362  |93                |45                    |40         |28        |170             |79                  |-                          |2817  |
-#'  |2002  |2765  |-                 |-                     |-          |-         |-               |-                   |-                          |2765  |
-#'  |2004  |2812  |-                 |-                     |-          |-         |-               |-                   |-                          |2812  |
-#'  |2006  |4510  |-                 |-                     |-          |-         |-               |-                   |-                          |4510  |
-#'  |2008  |2023  |-                 |-                     |-          |-         |-               |-                   |-                          |2023  |
-#'  |2010  |2044  |-                 |-                     |-          |-         |-               |-                   |-                          |2044  |
-#'  |2012  |1974  |-                 |-                     |-          |-         |-               |-                   |-                          |1974  |
-#'  |2014  |2538  |-                 |-                     |-          |-         |-               |-                   |-                          |2538  |
-#'  |2016  |2867  |-                 |-                     |-          |-         |-               |-                   |-                          |2867  |
-#'  |2018  |2348  |-                 |-                     |-          |-         |-               |-                   |-                          |2348  |
-#'  |2021  |4032  |-                 |-                     |-          |-         |-               |-                   |-                          |4032  |
-#'  |2022  |-     |-                 |-                     |-          |-         |-               |-                   |3544                       |3544  |
-#'  |2024  |-     |-                 |-                     |-          |-         |-               |-                   |3309                       |3309  |
-#'  |Total |68391 |93                |45                    |40         |28        |170             |79                  |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` definitely expect
-#'   * `2` probably expect
-#'   * `3` probably not expect
-#'   * `4` definitely not expect
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name downrely
-NULL
-
-#'  Treatment for downheartedness improve feelings
-#' 
-#'  downfeel
-#' 
-#' Question 844. As you know, when people go to doctors, they may hold different expectations of what should result from their treatment. I'm going to describe a health problem. Please tell me how much you, yourself, would expect to get each of the following: Say you went to treatment because you feel downhearted and blue and this interferes with your social activities (like visiting friends, relatives, etc.) e. Would you definitely expect, probably expect, probably not expect, or definitely not expect to feel better about yourself as a person?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |definitely expect |definitely not expect |don't know |no answer |probably expect |probably not expect |not available in this year |Total |
-#'  |:-----|:-----|:-----------------|:---------------------|:----------|:---------|:---------------|:-------------------|:--------------------------|:-----|
-#'  |1972  |1613  |-                 |-                     |-          |-         |-               |-                   |-                          |1613  |
-#'  |1973  |1504  |-                 |-                     |-          |-         |-               |-                   |-                          |1504  |
-#'  |1974  |1484  |-                 |-                     |-          |-         |-               |-                   |-                          |1484  |
-#'  |1975  |1490  |-                 |-                     |-          |-         |-               |-                   |-                          |1490  |
-#'  |1976  |1499  |-                 |-                     |-          |-         |-               |-                   |-                          |1499  |
-#'  |1977  |1530  |-                 |-                     |-          |-         |-               |-                   |-                          |1530  |
-#'  |1978  |1532  |-                 |-                     |-          |-         |-               |-                   |-                          |1532  |
-#'  |1980  |1468  |-                 |-                     |-          |-         |-               |-                   |-                          |1468  |
-#'  |1982  |1860  |-                 |-                     |-          |-         |-               |-                   |-                          |1860  |
-#'  |1983  |1599  |-                 |-                     |-          |-         |-               |-                   |-                          |1599  |
-#'  |1984  |1473  |-                 |-                     |-          |-         |-               |-                   |-                          |1473  |
-#'  |1985  |1534  |-                 |-                     |-          |-         |-               |-                   |-                          |1534  |
-#'  |1986  |1470  |-                 |-                     |-          |-         |-               |-                   |-                          |1470  |
-#'  |1987  |1819  |-                 |-                     |-          |-         |-               |-                   |-                          |1819  |
-#'  |1988  |1481  |-                 |-                     |-          |-         |-               |-                   |-                          |1481  |
-#'  |1989  |1537  |-                 |-                     |-          |-         |-               |-                   |-                          |1537  |
-#'  |1990  |1372  |-                 |-                     |-          |-         |-               |-                   |-                          |1372  |
-#'  |1991  |1517  |-                 |-                     |-          |-         |-               |-                   |-                          |1517  |
-#'  |1993  |1606  |-                 |-                     |-          |-         |-               |-                   |-                          |1606  |
-#'  |1994  |2992  |-                 |-                     |-          |-         |-               |-                   |-                          |2992  |
-#'  |1996  |2904  |-                 |-                     |-          |-         |-               |-                   |-                          |2904  |
-#'  |1998  |2832  |-                 |-                     |-          |-         |-               |-                   |-                          |2832  |
-#'  |2000  |2362  |151               |20                    |26         |25        |190             |43                  |-                          |2817  |
-#'  |2002  |2765  |-                 |-                     |-          |-         |-               |-                   |-                          |2765  |
-#'  |2004  |2812  |-                 |-                     |-          |-         |-               |-                   |-                          |2812  |
-#'  |2006  |4510  |-                 |-                     |-          |-         |-               |-                   |-                          |4510  |
-#'  |2008  |2023  |-                 |-                     |-          |-         |-               |-                   |-                          |2023  |
-#'  |2010  |2044  |-                 |-                     |-          |-         |-               |-                   |-                          |2044  |
-#'  |2012  |1974  |-                 |-                     |-          |-         |-               |-                   |-                          |1974  |
-#'  |2014  |2538  |-                 |-                     |-          |-         |-               |-                   |-                          |2538  |
-#'  |2016  |2867  |-                 |-                     |-          |-         |-               |-                   |-                          |2867  |
-#'  |2018  |2348  |-                 |-                     |-          |-         |-               |-                   |-                          |2348  |
-#'  |2021  |4032  |-                 |-                     |-          |-         |-               |-                   |-                          |4032  |
-#'  |2022  |-     |-                 |-                     |-          |-         |-               |-                   |3544                       |3544  |
-#'  |2024  |-     |-                 |-                     |-          |-         |-               |-                   |3309                       |3309  |
-#'  |Total |68391 |151               |20                    |26         |25        |190             |43                  |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` definitely expect
-#'   * `2` probably expect
-#'   * `3` probably not expect
-#'   * `4` definitely not expect
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name downfeel
-NULL
 

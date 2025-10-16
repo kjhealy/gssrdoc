@@ -10,11 +10,36 @@ General Social Survey https://gss.norc.org
 docaskme
 }
 \details{
-Question 854. I will read you some statements of beliefs people have. Please look at the card and decide which answer best applies to you. a. I prefer that my doctor offers me choices and asks my opinion.
+Question I will read you some statements of beliefs people have.  Please look at the card and decide which answer best applies to you.
+A. I prefer that my doctor offers me choices and asks my opinion.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} strongly agree
+\item \code{2} moderately agree
+\item \code{3} slightly agree
+\item \code{4} slightly disagree
+\item \code{5} moderately disagree
+\item \code{6} strongly disagree
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2740/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab don't know \tab moderately agree \tab moderately disagree \tab no answer \tab slightly agree \tab slightly disagree \tab strongly agree \tab strongly disagree \tab not available in this year \tab Total \cr
@@ -57,28 +82,28 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} strongly agree
-\item \code{2} moderately agree
-\item \code{3} slightly agree
-\item \code{4} slightly disagree
-\item \code{5} moderately disagree
-\item \code{6} strongly disagree
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Doctors & Patients: 
+\code{\link{docdecid}},
+\code{\link{docrely}},
+\code{\link{docvig}},
+\code{\link{regdoc}},
+\code{\link{regdocyr}}
+
+Other Health: 
+\code{\link{docdecid}},
+\code{\link{docrely}},
+\code{\link{docvig}},
+\code{\link{regdoc}},
+\code{\link{regdocyr}}
+}
+\concept{Doctors & Patients}
+\concept{Health}
 \keyword{variable}

@@ -10,11 +10,36 @@ General Social Survey https://gss.norc.org
 kdwrkslf
 }
 \details{
-Question 507e. (is/was) (s/he) self-employed or (does/did) (s/he) work for someone else?
+Question Respondent's Child's Occupation, Prestige, and Industry
+A. What kind of work (is/was) (CHILD'S NAME) doing? That is, what (is/was) (his/her) job called?
+B. IF NOT ALREADY ANSWERED, ASK:  What (does/did) (he/she) actually do in that job?  Tell me what (are/were) some of (his/her) main duties?
+C. What kind of place (does/did) (s/he) work for?
+D. IF NOT ALREADY ANSWERED, ASK:  What (do/did) they (make/do)?
+E. IF ALREADY ANSWERED, CODE WITHOUT ASKING:  (Is/was) (s/he) self-employed or (does/did) (s/he) work for someone else?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} self employed
+\item \code{2} someone else
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1543/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab no answer \tab self employed \tab someone else \tab not available in this year \tab Total \cr
@@ -57,24 +82,38 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} self employed
-\item \code{2} someone else
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Family Mobility: 
+\code{\link{kdevwork}},
+\code{\link{kdind10}},
+\code{\link{kdind80}},
+\code{\link{kdocc10}},
+\code{\link{kdocc80}},
+\code{\link{kdoccindv}},
+\code{\link{kdoccstatus}},
+\code{\link{kdocctag}},
+\code{\link{kdpres80}}
+
+Other Children: 
+\code{\link{kdevwork}},
+\code{\link{kdind80}},
+\code{\link{kdocc80}},
+\code{\link{kdpres80}}
+
+Other Occupation: 
+\code{\link{kdind80}},
+\code{\link{kdocc80}}
+}
+\concept{Children}
+\concept{Family Mobility}
+\concept{Job}
+\concept{Occupation}
+\concept{Work}
 \keyword{variable}

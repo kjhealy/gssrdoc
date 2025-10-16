@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 prfmwhy2
 }
 \details{
-Question People attend performances for different reasons. B. How big a reason was wanting to experience high quality art in your decision to attend this performance? Was it a major reason, a minor reason, or not a reason at all?
+Question (People attend performances for different reasons.)
+How big a reason was wanting to experience high quality art in your decision to attend this performance? Was it a major reason, a minor reason, or not a reason at all?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} major reason
+\item \code{2} minor reason
+\item \code{3} not a reason
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6222/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab major reason \tab minor reason \tab no answer \tab not a reason \tab not available in this year \tab Total \cr
@@ -57,25 +79,24 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} major reason
-\item \code{2} minor reason
-\item \code{3} not a reason
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2016 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Arts and Culture: 
+\code{\link{prfmfree}},
+\code{\link{prfmwhy1}},
+\code{\link{prfmwhy3}},
+\code{\link{prfmwhy4}},
+\code{\link{prfmwhy5}},
+\code{\link{prfmwhy6}},
+\code{\link{prfmwhy7}},
+\code{\link{prfmwhy8}},
+\code{\link{prfmwhy9}}
+}
+\concept{Arts and Culture}
 \keyword{variable}

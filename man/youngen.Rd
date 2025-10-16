@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 youngen
 }
 \details{
-Question 172. Here are two statements. Will you tell me which one you agree with more? a. First, the younger generation should be taught by their elders to do what is right. b. Second, the younger generation should be taught to think for themselves.
+Question Here are two statements. Will you tell me which one you agree with more?
+A. First, the younger generation should be taught by their elders to do what is right.
+B. Second, the younger generation should be taught to think for themselves even though they may do something their elders disapprove of.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} what elders think
+\item \code{2} think for selves
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/520/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab no answer \tab think for selves \tab what elders think \tab not available in this year \tab Total \cr
@@ -57,24 +79,25 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} what elders think
-\item \code{2} think for selves
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1980 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{chldsex}},
+\code{\link{chldsex1}},
+\code{\link{helpoth}},
+\code{\link{socbar}},
+\code{\link{socfrend}},
+\code{\link{socommun}},
+\code{\link{socrel}},
+\code{\link{thnkself}},
+\code{\link{workhard}}
+}
+\concept{Authority}
+\concept{Core}
 \keyword{variable}

@@ -1,11 +1,215 @@
+#'  Email minutes per week
+#' 
+#'  emailmin
+#' 
+#' Question About how many minutes or hours per week do you spend sending and answering electronic mail or e-mail?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` 0 minutes
+#'   * `59` 59 minutes
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2381/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |0 minutes |1  |10  |12 |15  |16 |2  |20  |25 |3  |30   |35 |40 |45 |5   |50 |59 minutes |6  |7  |don't know |no answer |4  |8  |17 |26 |44 |38 |53 |14 |48 |36 |22 |33 |52 |55 |58 |skipped on web |23 |24 |29 |57 |not available in this year |Total |
+#'  |:-----|:-----|:---------|:--|:---|:--|:---|:--|:--|:---|:--|:--|:----|:--|:--|:--|:---|:--|:----------|:--|:--|:----------|:---------|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--------------|:--|:--|:--|:--|:--------------------------|:-----|
+#'  |1972  |1613  |-         |-  |-   |-  |-   |-  |-  |-   |-  |-  |-    |-  |-  |-  |-   |-  |-          |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |1613  |
+#'  |1973  |1504  |-         |-  |-   |-  |-   |-  |-  |-   |-  |-  |-    |-  |-  |-  |-   |-  |-          |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |1504  |
+#'  |1974  |1484  |-         |-  |-   |-  |-   |-  |-  |-   |-  |-  |-    |-  |-  |-  |-   |-  |-          |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |1484  |
+#'  |1975  |1490  |-         |-  |-   |-  |-   |-  |-  |-   |-  |-  |-    |-  |-  |-  |-   |-  |-          |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |1490  |
+#'  |1976  |1499  |-         |-  |-   |-  |-   |-  |-  |-   |-  |-  |-    |-  |-  |-  |-   |-  |-          |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |1499  |
+#'  |1977  |1530  |-         |-  |-   |-  |-   |-  |-  |-   |-  |-  |-    |-  |-  |-  |-   |-  |-          |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |1530  |
+#'  |1978  |1532  |-         |-  |-   |-  |-   |-  |-  |-   |-  |-  |-    |-  |-  |-  |-   |-  |-          |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |1532  |
+#'  |1980  |1468  |-         |-  |-   |-  |-   |-  |-  |-   |-  |-  |-    |-  |-  |-  |-   |-  |-          |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |1468  |
+#'  |1982  |1860  |-         |-  |-   |-  |-   |-  |-  |-   |-  |-  |-    |-  |-  |-  |-   |-  |-          |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |1860  |
+#'  |1983  |1599  |-         |-  |-   |-  |-   |-  |-  |-   |-  |-  |-    |-  |-  |-  |-   |-  |-          |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |1599  |
+#'  |1984  |1473  |-         |-  |-   |-  |-   |-  |-  |-   |-  |-  |-    |-  |-  |-  |-   |-  |-          |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |1473  |
+#'  |1985  |1534  |-         |-  |-   |-  |-   |-  |-  |-   |-  |-  |-    |-  |-  |-  |-   |-  |-          |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |1534  |
+#'  |1986  |1470  |-         |-  |-   |-  |-   |-  |-  |-   |-  |-  |-    |-  |-  |-  |-   |-  |-          |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |1470  |
+#'  |1987  |1819  |-         |-  |-   |-  |-   |-  |-  |-   |-  |-  |-    |-  |-  |-  |-   |-  |-          |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |1819  |
+#'  |1988  |1481  |-         |-  |-   |-  |-   |-  |-  |-   |-  |-  |-    |-  |-  |-  |-   |-  |-          |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |1481  |
+#'  |1989  |1537  |-         |-  |-   |-  |-   |-  |-  |-   |-  |-  |-    |-  |-  |-  |-   |-  |-          |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |1537  |
+#'  |1990  |1372  |-         |-  |-   |-  |-   |-  |-  |-   |-  |-  |-    |-  |-  |-  |-   |-  |-          |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |1372  |
+#'  |1991  |1517  |-         |-  |-   |-  |-   |-  |-  |-   |-  |-  |-    |-  |-  |-  |-   |-  |-          |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |1517  |
+#'  |1993  |1606  |-         |-  |-   |-  |-   |-  |-  |-   |-  |-  |-    |-  |-  |-  |-   |-  |-          |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |1606  |
+#'  |1994  |2992  |-         |-  |-   |-  |-   |-  |-  |-   |-  |-  |-    |-  |-  |-  |-   |-  |-          |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |2992  |
+#'  |1996  |2904  |-         |-  |-   |-  |-   |-  |-  |-   |-  |-  |-    |-  |-  |-  |-   |-  |-          |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |2904  |
+#'  |1998  |2832  |-         |-  |-   |-  |-   |-  |-  |-   |-  |-  |-    |-  |-  |-  |-   |-  |-          |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |2832  |
+#'  |2000  |1424  |1078      |7  |28  |1  |23  |2  |8  |24  |1  |2  |104  |3  |8  |3  |23  |1  |1          |2  |2  |4          |68        |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |2817  |
+#'  |2002  |855   |1568      |6  |36  |1  |38  |-  |2  |34  |3  |2  |131  |-  |5  |10 |34  |4  |-          |2  |2  |6          |23        |2  |1  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |2765  |
+#'  |2004  |2178  |503       |4  |20  |1  |17  |-  |2  |6   |1  |-  |54   |-  |-  |4  |5   |-  |-          |-  |-  |5          |12        |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |2812  |
+#'  |2006  |4510  |-         |-  |-   |-  |-   |-  |-  |-   |-  |-  |-    |-  |-  |-  |-   |-  |-          |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |4510  |
+#'  |2008  |2023  |-         |-  |-   |-  |-   |-  |-  |-   |-  |-  |-    |-  |-  |-  |-   |-  |-          |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |2023  |
+#'  |2010  |1473  |407       |-  |19  |-  |19  |-  |1  |10  |-  |-  |86   |1  |3  |5  |15  |1  |-          |1  |-  |-          |-         |-  |-  |1  |1  |1  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |2044  |
+#'  |2012  |1237  |566       |1  |31  |-  |19  |-  |1  |23  |-  |-  |70   |2  |2  |4  |15  |-  |-          |-  |-  |-          |-         |-  |-  |-  |-  |-  |2  |1  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |1974  |
+#'  |2014  |1060  |1269      |4  |31  |-  |20  |-  |2  |18  |-  |1  |93   |2  |1  |9  |19  |-  |-          |-  |-  |5          |2         |1  |-  |-  |-  |-  |-  |-  |1  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |2538  |
+#'  |2016  |1205  |1414      |5  |34  |-  |17  |-  |8  |25  |2  |-  |113  |-  |6  |8  |12  |3  |1          |-  |-  |7          |6         |-  |-  |-  |-  |-  |-  |-  |-  |1  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |2867  |
+#'  |2018  |925   |1223      |2  |34  |-  |22  |-  |4  |18  |-  |2  |82   |1  |2  |5  |19  |1  |-          |-  |-  |3          |1         |2  |-  |-  |-  |1  |-  |-  |-  |-  |1  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-                          |2348  |
+#'  |2021  |1384  |491       |7  |61  |1  |53  |-  |10 |42  |3  |3  |327  |4  |12 |26 |32  |10 |2          |2  |1  |10         |58        |5  |1  |1  |-  |1  |-  |-  |-  |-  |-  |1  |1  |1  |1  |1  |1480           |-  |-  |-  |-  |-                          |4032  |
+#'  |2022  |1271  |1772      |7  |58  |1  |35  |-  |8  |38  |10 |3  |209  |-  |6  |25 |35  |1  |-          |-  |-  |36         |20        |1  |1  |-  |-  |-  |-  |-  |-  |-  |1  |1  |-  |-  |-  |-  |-              |1  |1  |2  |1  |-                          |3544  |
+#'  |2024  |-     |-         |-  |-   |-  |-   |-  |-  |-   |-  |-  |-    |-  |-  |-  |-   |-  |-          |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |3309                       |3309  |
+#'  |Total |57661 |10291     |43 |352 |5  |263 |2  |46 |238 |20 |13 |1269 |13 |45 |99 |209 |21 |4          |7  |5  |76         |190       |11 |3  |2  |1  |3  |2  |1  |1  |1  |2  |2  |1  |1  |1  |1  |1480           |1  |1  |2  |1  |3309                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |B/C/-   |partial      |
+#'  |2010 |A/B/-   |partial      |
+#'  |2012 |A/B/-   |partial      |
+#'  |2014 |A/B/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'  |2021 |A/B/-   |partial      |
+#'  |2022 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Information Society
+#' @family Computers And Internet
+#' 
+#' @keywords variable
+#' @md
+#' @name emailmin
+NULL
+
+
+#'  Email hours per week
+#' 
+#'  emailhr
+#' 
+#' Question About how many minutes or hours per week do you spend sending and answering electronic mail or e-mail?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` 0 hours
+#'   * `168` 168 hours
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2382/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |0 hours |1    |10  |12  |14  |15  |16 |18 |2    |20  |21 |24 |25  |27 |3   |30  |35 |4   |40  |5   |50 |6   |60 |7   |8   |9  |don't know |no answer |11 |13 |22 |32 |41 |42 |56 |70 |28 |36 |38 |43 |45 |48 |55 |90 |100 |168 hours |33 |34 |65 |72 |80 |84 |126 |150 |17 |23 |99 |44 |47 |75 |37 |124 |skipped on web |19 |26 |51 |54 |63 |91 |not available in this year |Total |
+#'  |:-----|:-----|:-------|:----|:---|:---|:---|:---|:--|:--|:----|:---|:--|:--|:---|:--|:---|:---|:--|:---|:---|:---|:--|:---|:--|:---|:---|:--|:----------|:---------|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:---|:---------|:--|:--|:--|:--|:--|:--|:---|:---|:--|:--|:--|:--|:--|:--|:--|:---|:--------------|:--|:--|:--|:--|:--|:--|:--------------------------|:-----|
+#'  |1972  |1613  |-       |-    |-   |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-   |-  |-   |-   |-   |-  |-   |-  |-   |-   |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |1613  |
+#'  |1973  |1504  |-       |-    |-   |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-   |-  |-   |-   |-   |-  |-   |-  |-   |-   |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |1504  |
+#'  |1974  |1484  |-       |-    |-   |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-   |-  |-   |-   |-   |-  |-   |-  |-   |-   |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |1484  |
+#'  |1975  |1490  |-       |-    |-   |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-   |-  |-   |-   |-   |-  |-   |-  |-   |-   |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |1490  |
+#'  |1976  |1499  |-       |-    |-   |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-   |-  |-   |-   |-   |-  |-   |-  |-   |-   |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |1499  |
+#'  |1977  |1530  |-       |-    |-   |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-   |-  |-   |-   |-   |-  |-   |-  |-   |-   |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |1530  |
+#'  |1978  |1532  |-       |-    |-   |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-   |-  |-   |-   |-   |-  |-   |-  |-   |-   |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |1532  |
+#'  |1980  |1468  |-       |-    |-   |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-   |-  |-   |-   |-   |-  |-   |-  |-   |-   |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |1468  |
+#'  |1982  |1860  |-       |-    |-   |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-   |-  |-   |-   |-   |-  |-   |-  |-   |-   |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |1860  |
+#'  |1983  |1599  |-       |-    |-   |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-   |-  |-   |-   |-   |-  |-   |-  |-   |-   |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |1599  |
+#'  |1984  |1473  |-       |-    |-   |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-   |-  |-   |-   |-   |-  |-   |-  |-   |-   |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |1473  |
+#'  |1985  |1534  |-       |-    |-   |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-   |-  |-   |-   |-   |-  |-   |-  |-   |-   |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |1534  |
+#'  |1986  |1470  |-       |-    |-   |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-   |-  |-   |-   |-   |-  |-   |-  |-   |-   |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |1470  |
+#'  |1987  |1819  |-       |-    |-   |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-   |-  |-   |-   |-   |-  |-   |-  |-   |-   |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |1819  |
+#'  |1988  |1481  |-       |-    |-   |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-   |-  |-   |-   |-   |-  |-   |-  |-   |-   |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |1481  |
+#'  |1989  |1537  |-       |-    |-   |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-   |-  |-   |-   |-   |-  |-   |-  |-   |-   |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |1537  |
+#'  |1990  |1372  |-       |-    |-   |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-   |-  |-   |-   |-   |-  |-   |-  |-   |-   |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |1372  |
+#'  |1991  |1517  |-       |-    |-   |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-   |-  |-   |-   |-   |-  |-   |-  |-   |-   |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |1517  |
+#'  |1993  |1606  |-       |-    |-   |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-   |-  |-   |-   |-   |-  |-   |-  |-   |-   |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |1606  |
+#'  |1994  |2992  |-       |-    |-   |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-   |-  |-   |-   |-   |-  |-   |-  |-   |-   |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |2992  |
+#'  |1996  |2904  |-       |-    |-   |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-   |-  |-   |-   |-   |-  |-   |-  |-   |-   |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |2904  |
+#'  |1998  |2832  |-       |-    |-   |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-   |-  |-   |-   |-   |-  |-   |-  |-   |-   |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |2832  |
+#'  |2000  |1424  |538     |205  |53  |6   |7   |25  |3  |2  |138  |21  |2  |1  |3   |1  |98  |5   |2  |48  |10  |71  |2  |20  |1  |35  |23  |1  |4          |68        |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |2817  |
+#'  |2002  |855   |617     |301  |90  |18  |14  |27  |3  |2  |241  |36  |3  |5  |11  |-  |123 |22  |2  |67  |6   |129 |5  |47  |3  |62  |30  |3  |6          |23        |4  |2  |3  |1  |1  |1  |1  |1  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |2765  |
+#'  |2004  |2178  |109     |125  |41  |7   |3   |12  |-  |1  |89   |18  |3  |1  |7   |-  |29  |9   |4  |26  |4   |62  |5  |13  |-  |24  |12  |3  |5          |12        |-  |-  |-  |-  |-  |-  |-  |-  |4  |1  |1  |1  |1  |2  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |2812  |
+#'  |2006  |4510  |-       |-    |-   |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-   |-  |-   |-   |-   |-  |-   |-  |-   |-   |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |4510  |
+#'  |2008  |2023  |-       |-    |-   |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-   |-  |-   |-   |-   |-  |-   |-  |-   |-   |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |2023  |
+#'  |2010  |930   |246     |211  |64  |10  |10  |27  |3  |2  |146  |43  |4  |1  |15  |-  |69  |22  |3  |48  |9   |59  |2  |21  |3  |35  |29  |4  |8          |2         |2  |2  |1  |1  |-  |-  |-  |-  |4  |2  |-  |-  |3  |1  |1  |1  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |2044  |
+#'  |2012  |917   |287     |186  |51  |12  |13  |23  |3  |2  |106  |42  |3  |2  |13  |-  |59  |15  |3  |35  |14  |57  |5  |31  |6  |34  |24  |1  |3          |2         |2  |3  |1  |-  |1  |1  |1  |2  |1  |-  |-  |-  |-  |3  |-  |1  |1   |1         |1  |1  |1  |1  |1  |2  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |1974  |
+#'  |2014  |1060  |379     |295  |84  |10  |18  |34  |3  |-  |152  |59  |2  |5  |20  |2  |81  |37  |6  |52  |12  |77  |4  |28  |3  |57  |26  |3  |5          |2         |3  |1  |-  |2  |-  |1  |-  |2  |3  |-  |-  |-  |1  |1  |1  |-  |2   |-         |-  |-  |-  |-  |-  |-  |1   |1   |1  |1  |1  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |2538  |
+#'  |2016  |1205  |416     |306  |100 |27  |9   |36  |3  |1  |183  |76  |5  |1  |24  |-  |77  |33  |8  |62  |25  |92  |13 |27  |7  |44  |42  |4  |7          |6         |-  |-  |5  |2  |-  |2  |1  |2  |2  |1  |-  |-  |4  |2  |-  |1  |1   |-         |-  |-  |-  |1  |-  |-  |-   |-   |1  |-  |-  |1  |1  |1  |-  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |2867  |
+#'  |2018  |925   |356     |247  |93  |15  |22  |33  |3  |1  |155  |61  |2  |7  |24  |-  |78  |33  |7  |52  |24  |66  |9  |35  |3  |45  |22  |1  |3          |1         |1  |2  |-  |1  |1  |-  |-  |5  |2  |-  |-  |-  |3  |1  |1  |1  |1   |-         |-  |-  |-  |-  |3  |-  |-   |-   |1  |-  |-  |-  |-  |-  |2  |-   |-              |-  |-  |-  |-  |-  |-  |-                          |2348  |
+#'  |2021  |1384  |248     |471  |160 |30  |25  |62  |7  |5  |355  |93  |5  |4  |26  |-  |163 |38  |10 |158 |46  |135 |11 |56  |5  |86  |86  |13 |1          |59        |2  |-  |1  |1  |-  |-  |1  |-  |4  |1  |-  |-  |5  |1  |1  |-  |-   |-         |1  |-  |1  |1  |-  |-  |-   |-   |2  |-  |-  |-  |-  |1  |-  |1   |266            |-  |-  |-  |-  |-  |-  |-                          |4032  |
+#'  |2022  |1271  |524     |408  |124 |22  |16  |38  |2  |5  |247  |72  |3  |4  |34  |1  |144 |34  |6  |99  |59  |141 |11 |52  |7  |66  |62  |10 |28         |21        |-  |1  |-  |-  |1  |-  |-  |-  |7  |-  |2  |-  |4  |1  |-  |1  |1   |-         |-  |-  |-  |1  |4  |-  |-   |-   |-  |2  |-  |1  |-  |-  |1  |-   |-              |1  |1  |1  |1  |1  |1  |-                          |3544  |
+#'  |2024  |-     |-       |-    |-   |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-   |-  |-   |-   |-   |-  |-   |-  |-   |-   |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-              |-  |-  |-  |-  |-  |-  |3309                       |3309  |
+#'  |Total |56798 |3720    |2755 |860 |157 |137 |317 |30 |21 |1812 |521 |32 |31 |177 |4  |921 |248 |51 |647 |209 |889 |67 |330 |38 |488 |356 |43 |70         |196       |14 |11 |11 |8  |4  |5  |4  |12 |27 |5  |3  |1  |21 |12 |4  |5  |6   |1         |2  |1  |2  |4  |8  |2  |1   |1   |5  |3  |1  |2  |1  |2  |3  |1   |266            |1  |1  |1  |1  |1  |1  |3309                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |B/C/-   |partial      |
+#'  |2010 |A/B/-   |partial      |
+#'  |2012 |A/B/-   |partial      |
+#'  |2014 |A/B/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'  |2021 |A/B/-   |partial      |
+#'  |2022 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Information Society
+#' @family Computers And Internet
+#' 
+#' @keywords variable
+#' @md
+#' @name emailhr
+NULL
+
+
 #'  R use www other than email
 #' 
 #'  usewww
 #' 
-#' Question 768. Other than for e-mail, do you ever use the Internet or World Wide Web?
+#' Question Other than for e-mail, do you ever use the Internet or World Wide Web? (INTERVIEWER: TREAT THESE AS THE SAME)
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2383/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,10 +252,43 @@
 #'  |2024  |-     |-    |-         |-    |-              |-          |3309                       |3309  |
 #'  |Total |66425 |1472 |139       |4339 |13             |2          |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |B/C/-   |partial      |
+#'  |2010 |A/B/-   |partial      |
+#'  |2012 |A/B/-   |partial      |
+#'  |2014 |A/B/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'  |2021 |A/B/-   |partial      |
+#'  |2022 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Information Society
+#' @family Computers And Internet
+#' 
+#' @keywords variable
+#' @md
+#' @name usewww
+NULL
+
+
+#'  Www hours per week
+#' 
+#'  wwwhr
+#' 
+#' Question Not counting e-mail, about how many minutes or hours per week Do you use the Web? (Include time you spend visiting regular web sites and time spent using interactive Internet services like chat rooms, Usenet groups, discussion forums, bulletin boards, and the like.)
+#' A. Hours per week?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `0` 0 hours
+#'   * `168` 168 hours
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -65,22 +302,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name usewww
-NULL
-
-#'  Www hours per week
-#' 
-#'  wwwhr
-#' 
-#' Question 769. Not counting e-mail, about how many minutes or hours per week do you use the Web? (Include time you spend visiting regular web sites and time spent using interactive Internet services like chat rooms, Usenet groups, discussion forums, bulletin boards, and the like.) a. Hours per week
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2384/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,10 +346,44 @@ NULL
 #'  |2024  |-     |-       |-    |-    |-   |-  |-   |-   |-  |-  |-    |-    |-   |-  |-   |-   |-    |-   |-   |-  |-   |-   |-  |-  |-  |-    |-   |-   |-   |-   |-   |-  |-  |-          |-         |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-         |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-  |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-              |-   |-   |-  |-  |-  |-  |-  |3309                       |3309  |
 #'  |Total |54497 |1549    |1941 |1551 |331 |33 |377 |661 |60 |19 |1797 |1041 |164 |14 |311 |108 |1193 |499 |147 |20 |931 |413 |23 |49 |3  |1305 |168 |568 |121 |667 |519 |67 |4  |80         |524       |27  |21 |3   |38 |14 |90 |7  |6  |4  |13 |3  |23 |2  |2   |7  |10 |12 |52 |15 |8  |67 |9   |7         |4  |1  |2  |2  |2  |9  |1   |8  |2  |1   |5   |2  |2  |2  |20 |2  |1  |1   |1   |1   |3   |1   |1  |1  |1  |1  |1  |103            |2   |1   |3  |1  |3  |1  |3  |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2010 |A/B/-   |partial      |
+#'  |2012 |A/B/-   |partial      |
+#'  |2014 |A/B/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'  |2021 |A/B/-   |partial      |
+#'  |2022 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Information Society
+#' @family Computers And Internet
+#' 
+#' @keywords variable
+#' @md
+#' @name wwwhr
+NULL
+
+
+#'  Www minutes per week
+#' 
+#'  wwwmin
+#' 
+#' Question Not counting e-mail, about how many minutes or hours per week Do you use the Web? (Include time you spend visiting regular web sites and time spent using interactive Internet services like chat rooms, Usenet groups, discussion forums, bulletin boards, and the like.)
+#' B. Minutes per week?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` 0 hours
-#'   * `168` 168 hours
+#'   * `0` 0 minutes
+#'   * `59` 59 minutes
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -140,22 +397,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wwwhr
-NULL
-
-#'  Www minutes per week
-#' 
-#'  wwwmin
-#' 
-#' Question 769. Not counting e-mail, about how many minutes or hours per week do you use the Web? (Include time you spend visiting regular web sites and time spent using interactive Internet services like chat rooms, Usenet groups, discussion forums, bulletin boards, and the like.) b. Minutes per week
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2385/vshow).
 #'
 #' Counts by year: 
 #'
@@ -198,10 +441,42 @@ NULL
 #'  |2024  |-     |-         |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-          |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |-  |-  |-  |3309                       |3309  |
 #'  |Total |55624 |14570     |44 |149 |6  |132 |37 |120 |11 |23 |797 |5  |29 |2  |72 |87 |10 |3  |3  |93         |521       |4  |4  |1  |1  |1  |1  |5  |2          |6  |2  |1  |2  |1  |1  |1  |2  |1  |1  |1  |1  |8              |1  |1  |1  |1  |1  |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2010 |A/B/-   |partial      |
+#'  |2012 |A/B/-   |partial      |
+#'  |2014 |A/B/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'  |2021 |A/B/-   |partial      |
+#'  |2022 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Information Society
+#' @family Computers And Internet
+#' 
+#' @keywords variable
+#' @md
+#' @name wwwmin
+NULL
+
+
+#'  Chatroom hours per week
+#' 
+#'  chathr
+#' 
+#' Question Earlier you mentioned that you spend (number in answer to WWWHR, WWWMIN) (minutes/hours) using the World Wide Web in a typical week. About how many of those do you spend using chat rooms, news groups, bulletin boards, discussion Forums, and other forms of on-line interaction with other Net usersâ€“not just browsing on your own?
+#' A. Hours per week?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` 0 minutes
-#'   * `59` 59 minutes
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -215,22 +490,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wwwmin
-NULL
-
-#'  Chatroom hours per week
-#' 
-#'  chathr
-#' 
-#' Question 770. Earlier you mentioned that you spend (number in answer to Q.769) (minutes/hours) using the World Wide Web in a typical week. About how many of those do you spend using chat rooms, news groups, bulletin boards, discussion forums, and other forms of on-line interaction with other Net users~not just browsing on your own? a. Hours per week?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2386/vshow).
 #'
 #' Counts by year: 
 #'
@@ -273,6 +534,31 @@ NULL
 #'  |2024  |-     |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |3309                       |3309  |
 #'  |Total |67741 |707 |71 |20 |1  |5  |2  |8  |2  |48 |4  |22 |2  |1  |12 |26 |14 |5  |1  |5  |4  |3          |135       |1  |1  |1  |1  |1  |1  |1  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Information Society
+#' @family Computers And Internet
+#' 
+#' @keywords variable
+#' @md
+#' @name chathr
+NULL
+
+
+#'  Chatroom minutes per week
+#' 
+#'  chatmin
+#' 
+#' Question Earlier you mentioned that you spend (number in answer to WWWHR, WWWMIN) (minutes/hours) using the World Wide Web in a typical week. About how many of those do you spend using chat rooms, news groups, bulletin boards, discussion Forums, and other forms of on-line interaction with other Net usersâ€“not just browsing on your own?
+#' B. Minutes per week?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -288,22 +574,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name chathr
-NULL
-
-#'  Chatroom minutes per week
-#' 
-#'  chatmin
-#' 
-#' Question 770. Earlier you mentioned that you spend (number in answer to Q.769) (minutes/hours) using the World Wide Web in a typical week. About how many of those do you spend using chat rooms, news groups, bulletin boards, discussion forums, and other forms of on-line interaction with other Net users~not just browsing on your own? b. Minutes per week?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2387/vshow).
 #'
 #' Counts by year: 
 #'
@@ -346,8 +618,38 @@ NULL
 #'  |2024  |-     |-   |-  |-  |-  |-  |-  |-  |-  |-          |-         |-  |3309                       |3309  |
 #'  |Total |67741 |896 |1  |7  |7  |7  |1  |43 |4  |3          |135       |1  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Information Society
+#' @family Computers And Internet
+#' 
+#' @keywords variable
+#' @md
+#' @name chatmin
+NULL
+
+
+#'  How often r links from homepage
+#' 
+#'  drctlink
+#' 
+#' Question Now Iâ€™d like to ask you about how you navigate around the Web. How frequently do you use each of the following ways of getting to the web sites you visit: 
+#' A. Use a direct link from your starting page (the page that you see when you go onto the web.)?
+#' 
+#' 
 #' @section Values: 
 #' 
+#'   * `1` never
+#'   * `2` less than half of the time
+#'   * `3` about half of the time
+#'   * `4` more than half of the time
+#'   * `5` almost always
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -361,22 +663,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name chatmin
-NULL
-
-#'  How often r links from homepage
-#' 
-#'  drctlink
-#' 
-#' Question 771. Now I'd like to ask you about how you navigate around the Web. How frequently do you use each of the following ways of getting to the web sites you visit: a. Use a direct link from your starting page (the page that you see when you go onto the web.)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2388/vshow).
 #'
 #' Counts by year: 
 #'
@@ -419,6 +707,31 @@ NULL
 #'  |2024  |-     |-                      |-             |-                          |-                          |-     |-         |-          |3309                       |3309  |
 #'  |Total |67742 |145                    |317           |224                        |120                        |170   |126       |2          |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Information Society
+#' @family Computers And Internet
+#' 
+#' @keywords variable
+#' @md
+#' @name drctlink
+NULL
+
+
+#'  How often r types urls by self
+#' 
+#'  typeurl
+#' 
+#' Question Now Iâ€™d like to ask you about how you navigate around the Web. How frequently do you use each of the following ways of getting to the web sites you visit: 
+#' B. Type (or paste in) the web address yourself?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` never
@@ -439,22 +752,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name drctlink
-NULL
-
-#'  How often r types urls by self
-#' 
-#'  typeurl
-#' 
-#' Question 771. Now I'd like to ask you about how you navigate around the Web. How frequently do you use each of the following ways of getting to the web sites you visit: b. Type (or paste in) the web address yourself
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2389/vshow).
 #'
 #' Counts by year: 
 #'
@@ -497,6 +796,31 @@ NULL
 #'  |2024  |-     |-                      |-             |-                          |-                          |-     |-         |-          |3309                       |3309  |
 #'  |Total |67742 |225                    |196           |279                        |153                        |120   |130       |1          |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Information Society
+#' @family Computers And Internet
+#' 
+#' @keywords variable
+#' @md
+#' @name typeurl
+NULL
+
+
+#'  How often r uses search engine
+#' 
+#'  srcheng
+#' 
+#' Question Now Iâ€™d like to ask you about how you navigate around the Web. How frequently do you use each of the following ways of getting to the web sites you visit: 
+#' C. Use a Search Engine?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` never
@@ -517,22 +841,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name typeurl
-NULL
-
-#'  How often r uses search engine
-#' 
-#'  srcheng
-#' 
-#' Question 771. Now I'd like to ask you about how you navigate around the Web. How frequently do you use each of the following ways of getting to the web sites you visit: c. Use a search engine
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2390/vshow).
 #'
 #' Counts by year: 
 #'
@@ -575,187 +885,20 @@ NULL
 #'  |2024  |-     |-                      |-             |-          |-                          |-                          |-     |-         |3309                       |3309  |
 #'  |Total |67742 |230                    |144           |2          |356                        |136                        |110   |126       |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` never
-#'   * `2` less than half of the time
-#'   * `3` about half of the time
-#'   * `4` more than half of the time
-#'   * `5` almost always
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Information Society
+#' @family Computers And Internet
 #' 
 #' @keywords variable
 #' @md
 #' @name srcheng
 NULL
 
-#'  How often r uses bookmarks
-#' 
-#'  bookmark
-#' 
-#' Question 771. Now I'd like to ask you about how you navigate around the Web. How frequently do you use each of the following ways of getting to the web sites you visit: d. Use a bookmark or "favorites listing"
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |about half of the time |almost always |less than half of the time |more than half of the time |never |no answer |don't know |not available in this year |Total |
-#'  |:-----|:-----|:----------------------|:-------------|:--------------------------|:--------------------------|:-----|:---------|:----------|:--------------------------|:-----|
-#'  |1972  |1613  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |1613  |
-#'  |1973  |1504  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |1504  |
-#'  |1974  |1484  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |1484  |
-#'  |1975  |1490  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |1490  |
-#'  |1976  |1499  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |1499  |
-#'  |1977  |1530  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |1530  |
-#'  |1978  |1532  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |1532  |
-#'  |1980  |1468  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |1468  |
-#'  |1982  |1860  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |1860  |
-#'  |1983  |1599  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |1599  |
-#'  |1984  |1473  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |1473  |
-#'  |1985  |1534  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |1534  |
-#'  |1986  |1470  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |1470  |
-#'  |1987  |1819  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |1819  |
-#'  |1988  |1481  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |1481  |
-#'  |1989  |1537  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |1537  |
-#'  |1990  |1372  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |1372  |
-#'  |1991  |1517  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |1517  |
-#'  |1993  |1606  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |1606  |
-#'  |1994  |2992  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |2992  |
-#'  |1996  |2904  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |2904  |
-#'  |1998  |2832  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |2832  |
-#'  |2000  |2075  |92                     |68            |140                        |80                         |276   |86        |-          |-                          |2817  |
-#'  |2002  |2403  |40                     |65            |89                         |56                         |62    |49        |1          |-                          |2765  |
-#'  |2004  |2812  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |2812  |
-#'  |2006  |4510  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |4510  |
-#'  |2008  |2023  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |2023  |
-#'  |2010  |2044  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |2044  |
-#'  |2012  |1974  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |1974  |
-#'  |2014  |2538  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |2538  |
-#'  |2016  |2867  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |2867  |
-#'  |2018  |2348  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |2348  |
-#'  |2021  |4032  |-                      |-             |-                          |-                          |-     |-         |-          |-                          |4032  |
-#'  |2022  |-     |-                      |-             |-                          |-                          |-     |-         |-          |3544                       |3544  |
-#'  |2024  |-     |-                      |-             |-                          |-                          |-     |-         |-          |3309                       |3309  |
-#'  |Total |67742 |132                    |133           |229                        |136                        |338   |135       |1          |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` never
-#'   * `2` less than half of the time
-#'   * `3` about half of the time
-#'   * `4` more than half of the time
-#'   * `5` almost always
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name bookmark
-NULL
-
-#'  How often r uses web directories
-#' 
-#'  catdrcty
-#' 
-#' Question 771. Now I'd like to ask you about how you navigate around the Web. How frequently do you use each of the following ways of getting to the web sites you visit: e. Go to a category directory or web guide and select an option?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |about half of the time |almost always |don't know |less than half of the time |more than half of the time |never |no answer |not available in this year |Total |
-#'  |:-----|:-----|:----------------------|:-------------|:----------|:--------------------------|:--------------------------|:-----|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |1613  |
-#'  |1973  |1504  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |1504  |
-#'  |1974  |1484  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |1484  |
-#'  |1975  |1490  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |1490  |
-#'  |1976  |1499  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |1499  |
-#'  |1977  |1530  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |1530  |
-#'  |1978  |1532  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |1532  |
-#'  |1980  |1468  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |1468  |
-#'  |1982  |1860  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |1860  |
-#'  |1983  |1599  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |1599  |
-#'  |1984  |1473  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |1473  |
-#'  |1985  |1534  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |1534  |
-#'  |1986  |1470  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |1470  |
-#'  |1987  |1819  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |1819  |
-#'  |1988  |1481  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |1481  |
-#'  |1989  |1537  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |1537  |
-#'  |1990  |1372  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |1372  |
-#'  |1991  |1517  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |1517  |
-#'  |1993  |1606  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |1606  |
-#'  |1994  |2992  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |2992  |
-#'  |1996  |2904  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |2904  |
-#'  |1998  |2832  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |2832  |
-#'  |2000  |2075  |110                    |41            |1          |227                        |50                         |233   |80        |-                          |2817  |
-#'  |2002  |2403  |28                     |13            |5          |129                        |17                         |121   |49        |-                          |2765  |
-#'  |2004  |2812  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |2812  |
-#'  |2006  |4510  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |4510  |
-#'  |2008  |2023  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |2023  |
-#'  |2010  |2044  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |2044  |
-#'  |2012  |1974  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |1974  |
-#'  |2014  |2538  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |2538  |
-#'  |2016  |2867  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |2867  |
-#'  |2018  |2348  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |2348  |
-#'  |2021  |4032  |-                      |-             |-          |-                          |-                          |-     |-         |-                          |4032  |
-#'  |2022  |-     |-                      |-             |-          |-                          |-                          |-     |-         |3544                       |3544  |
-#'  |2024  |-     |-                      |-             |-          |-                          |-                          |-     |-         |3309                       |3309  |
-#'  |Total |67742 |138                    |54            |6          |356                        |67                         |354   |129       |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` never
-#'   * `2` less than half of the time
-#'   * `3` about half of the time
-#'   * `4` more than half of the time
-#'   * `5` almost always
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name catdrcty
-NULL
 

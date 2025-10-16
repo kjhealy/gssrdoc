@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 sbsex9
 }
 \details{
-Question 508. Now I have some questions about your sisters and brothrs. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. b. Is (NAME) male or female?
+Question Now I have some questions about your sisters and brothers. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. (RECORD THIS INFORMATION FOR UP TO THE NINE OLDEST SIBLINGS IN TABLE TO RIGHT).
+B9. Sex of ninth sibling.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} male
+\item \code{2} female
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1553/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab female \tab male \tab no answer \tab not available in this year \tab Total \cr
@@ -57,24 +78,29 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} male
-\item \code{2} female
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Family Mobilityex: 
+\code{\link{sbsex7}},
+\code{\link{sbsex8}}
+
+Other Siblings: 
+\code{\link{sbsex7}},
+\code{\link{sbsex8}},
+\code{\link{sbyrbrn1}},
+\code{\link{sbyrbrn2}},
+\code{\link{sbyrbrn3}},
+\code{\link{sbyrbrn4}},
+\code{\link{sbyrbrn5}},
+\code{\link{sbyrbrn6}},
+\code{\link{sbyrbrn7}}
+}
+\concept{Family Mobilityex}
+\concept{Siblings}
 \keyword{variable}

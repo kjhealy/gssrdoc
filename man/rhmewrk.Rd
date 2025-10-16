@@ -10,11 +10,36 @@ General Social Survey https://gss.norc.org
 rhmewrk
 }
 \details{
-Question 554. We're interested in knowing how much of the work around your home is done by different people. We don't mean taking care of children - just regular work around the house, like cooking, grocerty shopping, and doing little repair jobs. a. How much of this work do you do?
+Question We're interested in knowing how much of the work around your home is done by different people. We don't mean taking care of children - just regular work around the house, like cooking, grocery shopping and doing little repair jobs.
+A. How much of this work do you do?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} all
+\item \code{2} most
+\item \code{3} about half
+\item \code{4} some
+\item \code{5} very little or none
+\item \code{6} not married-living with partner
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1660/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab about half \tab all \tab don't know \tab most \tab no answer \tab some \tab very little or none \tab not available in this year \tab Total \cr
@@ -57,28 +82,28 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} all
-\item \code{2} most
-\item \code{3} about half
-\item \code{4} some
-\item \code{5} very little or none
-\item \code{6} not married-living with partner
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Gender: 
+\code{\link{emoteoth}},
+\code{\link{fejobaff}},
+\code{\link{hapboys}},
+\code{\link{hapgirls}},
+\code{\link{sharesep}},
+\code{\link{sphmewrk}},
+\code{\link{tradmod}},
+\code{\link{willwed1}},
+\code{\link{willwed2}}
+
+Other Household: 
+\code{\link{sphmewrk}}
+}
+\concept{Gender}
+\concept{Household}
 \keyword{variable}

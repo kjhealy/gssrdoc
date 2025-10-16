@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 grppol
 }
 \details{
-Question 1236. People sometimes belong to different kinds of groups or associations. The next few questions contain different types of groups. For each type of group, please select a response to say whether you have participated in the activities of this group in the past 12 months. a. A political party, club, or association
+Question People sometimes belong to different kinds of groups or associations. The next few questions contain different types of groups. For each type of group, please select a response to say whether you have participated in the activities of this group in the past 12 months.
+A. A political party, club or association
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} i have participated more than twice
+\item \code{2} i have participated once or twice
+\item \code{3} i belong to such a group but never participate
+\item \code{4} i do not belong to such a group
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4207/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab don't know \tab i belong to such a group but never participate \tab i do not belong to such a group \tab i have participated more than twice \tab i have participated once or twice \tab no answer \tab not available in this year \tab Total \cr
@@ -57,26 +80,30 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} i have participated more than twice
-\item \code{2} i have participated once or twice
-\item \code{3} i belong to such a group but never participate
-\item \code{4} i do not belong to such a group
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Social Networks & Support Systems: 
+\code{\link{bestfrd}},
+\code{\link{bstcall}},
+\code{\link{bstvisit}},
+\code{\link{cowrkfrd}},
+\code{\link{godparts}},
+\code{\link{grpchurh}},
+\code{\link{grpsport}},
+\code{\link{grpunion}},
+\code{\link{neifrd}}
+
+Other Voluntary Associations: 
+\code{\link{grpchurh}},
+\code{\link{grpsport}},
+\code{\link{grpunion}}
+}
+\concept{ISSP Social Networks & Support Systems}
+\concept{Voluntary Associations}
 \keyword{variable}

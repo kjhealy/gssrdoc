@@ -1,11 +1,143 @@
+#'  Health:version y
+#' 
+#'  nathealy
+#' 
+#' Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?
+#' C. Health
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` too little
+#'   * `2` about right
+#'   * `3` too much
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/201/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |about right |don't know |no answer |too little |too much |skipped on web |Total |
+#'  |:-----|:-----|:-----------|:----------|:---------|:----------|:--------|:--------------|:-----|
+#'  |1972  |1613  |-           |-          |-         |-          |-        |-              |1613  |
+#'  |1973  |1504  |-           |-          |-         |-          |-        |-              |1504  |
+#'  |1974  |1484  |-           |-          |-         |-          |-        |-              |1484  |
+#'  |1975  |1490  |-           |-          |-         |-          |-        |-              |1490  |
+#'  |1976  |1499  |-           |-          |-         |-          |-        |-              |1499  |
+#'  |1977  |1530  |-           |-          |-         |-          |-        |-              |1530  |
+#'  |1978  |1532  |-           |-          |-         |-          |-        |-              |1532  |
+#'  |1980  |1468  |-           |-          |-         |-          |-        |-              |1468  |
+#'  |1982  |1860  |-           |-          |-         |-          |-        |-              |1860  |
+#'  |1983  |1599  |-           |-          |-         |-          |-        |-              |1599  |
+#'  |1984  |974   |158         |19         |11        |270        |41       |-              |1473  |
+#'  |1985  |751   |253         |19         |3         |432        |76       |-              |1534  |
+#'  |1986  |730   |226         |23         |10        |431        |50       |-              |1470  |
+#'  |1987  |603   |296         |36         |12        |806        |66       |-              |1819  |
+#'  |1988  |718   |179         |22         |9         |514        |39       |-              |1481  |
+#'  |1989  |768   |171         |12         |9         |536        |41       |-              |1537  |
+#'  |1990  |674   |168         |21         |15        |457        |37       |-              |1372  |
+#'  |1991  |756   |189         |18         |16        |509        |29       |-              |1517  |
+#'  |1993  |799   |99          |32         |15        |555        |106      |-              |1606  |
+#'  |1994  |1508  |294         |58         |38        |906        |188      |-              |2992  |
+#'  |1996  |1441  |341         |34         |57        |879        |152      |-              |2904  |
+#'  |1998  |1381  |305         |51         |11        |975        |109      |-              |2832  |
+#'  |2000  |1409  |306         |38         |3         |976        |85       |-              |2817  |
+#'  |2002  |1358  |265         |18         |3         |1026       |95       |-              |2765  |
+#'  |2004  |1401  |200         |20         |3         |1093       |95       |-              |2812  |
+#'  |2006  |3002  |258         |27         |-         |1086       |137      |-              |4510  |
+#'  |2008  |1005  |147         |17         |-         |740        |114      |-              |2023  |
+#'  |2010  |1014  |184         |33         |2         |601        |210      |-              |2044  |
+#'  |2012  |998   |207         |36         |-         |572        |161      |-              |1974  |
+#'  |2014  |1274  |272         |34         |3         |701        |254      |-              |2538  |
+#'  |2016  |1437  |303         |31         |-         |887        |209      |-              |2867  |
+#'  |2018  |1188  |220         |22         |-         |802        |116      |-              |2348  |
+#'  |2021  |1987  |432         |4          |-         |1333       |260      |16             |4032  |
+#'  |2022  |1780  |330         |22         |-         |1208       |201      |3              |3544  |
+#'  |2024  |1683  |291         |17         |1         |1111       |205      |1              |3309  |
+#'  |Total |46218 |6094        |664        |221       |19406      |3076     |20             |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Federal Governmentending
+#' @family Split Ballots
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name nathealy
+NULL
+
+
 #'  Assistance to big cities:version y
 #' 
 #'  natcityy
 #' 
-#' Question 69. We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. d. Assistance to big cities.
+#' Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?
+#' D. Assistance to big cities
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` too little
+#'   * `2` about right
+#'   * `3` too much
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/202/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +180,56 @@
 #'  |2024  |1683  |557         |101        |-         |364        |597      |7              |3309  |
 #'  |Total |46218 |10628       |3530       |244       |6029       |9015     |35             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Federal Governmentending
+#' @family Split Ballots
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name natcityy
+NULL
+
+
+#'  Law enforcement:version y
+#' 
+#'  natcrimy
+#' 
+#' Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?
+#' E. Law enforcement
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` too little
@@ -66,22 +248,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name natcityy
-NULL
-
-#'  Law enforcement:version y
-#' 
-#'  natcrimy
-#' 
-#' Question 69. We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. e. Law enforcement.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/203/vshow).
 #'
 #' Counts by year: 
 #'
@@ -124,6 +292,57 @@ NULL
 #'  |2024  |1683  |519         |30         |2         |828        |244      |3              |3309  |
 #'  |Total |46218 |10131       |745        |227       |15338      |3028     |12             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Crime
+#' @family Federal Governmentending
+#' @family Split Ballots
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name natcrimy
+NULL
+
+
+#'  Drug rehabilitation:version y
+#' 
+#'  natdrugy
+#' 
+#' Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?
+#' F. Drug rehabilitation
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` too little
@@ -142,22 +361,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name natcrimy
-NULL
-
-#'  Drug rehabilitation:version y
-#' 
-#'  natdrugy
-#' 
-#' Question 69. We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. f. Drug rehabilitation.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/204/vshow).
 #'
 #' Counts by year: 
 #'
@@ -200,6 +405,57 @@ NULL
 #'  |2024  |1683  |432         |54         |1         |979        |159      |1              |3309  |
 #'  |Total |46218 |8535        |1626       |224       |16038      |3041     |17             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Drug Use And Addiction
+#' @family Federal Governmentending
+#' @family Split Ballots
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name natdrugy
+NULL
+
+
+#'  Education:version y
+#' 
+#'  nateducy
+#' 
+#' Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?
+#' G. Education
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` too little
@@ -218,22 +474,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name natdrugy
-NULL
-
-#'  Education:version y
-#' 
-#'  nateducy
-#' 
-#' Question 69. We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. g. Education
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/205/vshow).
 #'
 #' Counts by year: 
 #'
@@ -276,6 +518,56 @@ NULL
 #'  |2024  |1683  |284         |16         |-         |1187       |137      |2              |3309  |
 #'  |Total |46217 |5719        |349        |202       |21487      |1711     |14             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Education
+#' @family Federal Governmentending
+#' @family Split Ballots
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name nateducy
+NULL
+
+
+#'  Assistance to black people: version y
+#' 
+#'  natracey
+#' 
+#' Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?H. Assistance to Black people.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` too little
@@ -294,22 +586,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name nateducy
-NULL
-
-#'  Assistance to black people: version y
-#' 
-#'  natracey
-#' 
-#' Question 69. We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. h. Assistance to blacks.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/206/vshow).
 #'
 #' Counts by year: 
 #'
@@ -352,6 +630,56 @@ NULL
 #'  |2024  |1683  |578         |115        |8         |632        |286      |7              |3309  |
 #'  |Total |46217 |11312       |2939       |329       |8960       |5908     |34             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Federal Governmentending
+#' @family Split Ballots
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name natracey
+NULL
+
+
+#'  National defense:version y
+#' 
+#'  natarmsy
+#' 
+#' Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?
+#' I. National defense
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` too little
@@ -370,22 +698,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name natracey
-NULL
-
-#'  National defense:version y
-#' 
-#'  natarmsy
-#' 
-#' Question 69. We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. i. National defense.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/207/vshow).
 #'
 #' Counts by year: 
 #'
@@ -428,6 +742,56 @@ NULL
 #'  |2024  |1683  |624         |53         |-         |514        |432      |3              |3309  |
 #'  |Total |46217 |11897       |1203       |222       |7035       |9112     |13             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Federal Governmentending
+#' @family Split Ballots
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name natarmsy
+NULL
+
+
+#'  Assistance to other countries:ver y
+#' 
+#'  nataidy
+#' 
+#' Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?
+#' J. Assistance to other countries
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` too little
@@ -446,22 +810,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name natarmsy
-NULL
-
-#'  Assistance to other countries:ver y
-#' 
-#'  nataidy
-#' 
-#' Question 69. We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. j. Assistance to other countries.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/208/vshow).
 #'
 #' Counts by year: 
 #'
@@ -504,6 +854,56 @@ NULL
 #'  |2024  |1683  |370         |39         |-         |131        |1084     |2              |3309  |
 #'  |Total |46217 |6376        |953        |239       |2075       |19824    |15             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Federal Governmentending
+#' @family Split Ballots
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name nataidy
+NULL
+
+
+#'  Assistance to the poor:version y
+#' 
+#'  natfarey
+#' 
+#' Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?
+#' K. Assistance to the poor
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` too little
@@ -522,22 +922,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name nataidy
-NULL
-
-#'  Assistance to the poor:version y
-#' 
-#'  natfarey
-#' 
-#' Question 69. We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. k. Assistance to the poor.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/209/vshow).
 #'
 #' Counts by year: 
 #'
@@ -580,6 +966,56 @@ NULL
 #'  |2024  |1683  |334         |29         |-         |1116       |145      |2              |3309  |
 #'  |Total |46217 |6669        |668        |212       |19145      |2780     |8              |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Federal Governmentending
+#' @family Split Ballots
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name natfarey
+NULL
+
+
+#'  Space exploration:version z
+#' 
+#'  natspacz
+#' 
+#' Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?
+#' A. Advancing space exploration
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` too little
@@ -598,22 +1034,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name natfarey
-NULL
-
-#'  Space exploration:version z
-#' 
-#'  natspacz
-#' 
-#' Question 70. We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. a. Advancing space exploration.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/210/vshow).
 #'
 #' Counts by year: 
 #'
@@ -656,105 +1078,21 @@ NULL
 #'  |2024  |-     |-           |-          |-         |-          |-        |3309                       |3309  |
 #'  |Total |68362 |225         |19         |3         |55         |182      |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` too little
-#'   * `2` about right
-#'   * `3` too much
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Federal Governmentending
+#' @family Split Ballots
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
 #' @name natspacz
 NULL
 
-#'  Improving the environment:version z
-#' 
-#'  natenviz
-#' 
-#' Question 70. We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. b. Improving and protecting the environment.
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |about right |don't know |no answer |too little |too much |not available in this year |Total |
-#'  |:-----|:-----|:-----------|:----------|:---------|:----------|:--------|:--------------------------|:-----|
-#'  |1972  |1613  |-           |-          |-         |-          |-        |-                          |1613  |
-#'  |1973  |1504  |-           |-          |-         |-          |-        |-                          |1504  |
-#'  |1974  |1484  |-           |-          |-         |-          |-        |-                          |1484  |
-#'  |1975  |1490  |-           |-          |-         |-          |-        |-                          |1490  |
-#'  |1976  |1499  |-           |-          |-         |-          |-        |-                          |1499  |
-#'  |1977  |1530  |-           |-          |-         |-          |-        |-                          |1530  |
-#'  |1978  |1532  |-           |-          |-         |-          |-        |-                          |1532  |
-#'  |1980  |1468  |-           |-          |-         |-          |-        |-                          |1468  |
-#'  |1982  |1860  |-           |-          |-         |-          |-        |-                          |1860  |
-#'  |1983  |1599  |-           |-          |-         |-          |-        |-                          |1599  |
-#'  |1984  |989   |144         |16         |3         |279        |42       |-                          |1473  |
-#'  |1985  |1534  |-           |-          |-         |-          |-        |-                          |1534  |
-#'  |1986  |1470  |-           |-          |-         |-          |-        |-                          |1470  |
-#'  |1987  |1819  |-           |-          |-         |-          |-        |-                          |1819  |
-#'  |1988  |1481  |-           |-          |-         |-          |-        |-                          |1481  |
-#'  |1989  |1537  |-           |-          |-         |-          |-        |-                          |1537  |
-#'  |1990  |1372  |-           |-          |-         |-          |-        |-                          |1372  |
-#'  |1991  |1517  |-           |-          |-         |-          |-        |-                          |1517  |
-#'  |1993  |1606  |-           |-          |-         |-          |-        |-                          |1606  |
-#'  |1994  |2992  |-           |-          |-         |-          |-        |-                          |2992  |
-#'  |1996  |2904  |-           |-          |-         |-          |-        |-                          |2904  |
-#'  |1998  |2832  |-           |-          |-         |-          |-        |-                          |2832  |
-#'  |2000  |2817  |-           |-          |-         |-          |-        |-                          |2817  |
-#'  |2002  |2765  |-           |-          |-         |-          |-        |-                          |2765  |
-#'  |2004  |2812  |-           |-          |-         |-          |-        |-                          |2812  |
-#'  |2006  |4510  |-           |-          |-         |-          |-        |-                          |4510  |
-#'  |2008  |2023  |-           |-          |-         |-          |-        |-                          |2023  |
-#'  |2010  |2044  |-           |-          |-         |-          |-        |-                          |2044  |
-#'  |2012  |1974  |-           |-          |-         |-          |-        |-                          |1974  |
-#'  |2014  |2538  |-           |-          |-         |-          |-        |-                          |2538  |
-#'  |2016  |2867  |-           |-          |-         |-          |-        |-                          |2867  |
-#'  |2018  |2348  |-           |-          |-         |-          |-        |-                          |2348  |
-#'  |2021  |4032  |-           |-          |-         |-          |-        |-                          |4032  |
-#'  |2022  |-     |-           |-          |-         |-          |-        |3544                       |3544  |
-#'  |2024  |-     |-           |-          |-         |-          |-        |3309                       |3309  |
-#'  |Total |68362 |144         |16         |3         |279        |42       |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` too little
-#'   * `2` about right
-#'   * `3` too much
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name natenviz
-NULL
 

@@ -1,11 +1,205 @@
+#'  Angry at an object, circumstances, etc
+#' 
+#'  madat22
+#' 
+#' Question Who were you angry, irritated or annoyed at? (IF RESPONDENT GIVES A NAME, PROBE WITH "and who is name... what relationship is he/she to you?" IF UNSURE ABOUT RELATIONSHIP AFTER RESPONDENT'S DESCRIPTION, READ THE FIELD CODE THAT YOU THINK IS CLOSEST -- e.g., "so that's a co-worker?") CIRCLE ALL THAT APPLY. 
+#' V. Not angry at anyone (not angry at a person, but an object, circumstances, etc.)
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1762/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |no   |no answer |yes |not available in this year |Total |
+#'  |:-----|:-----|:----|:---------|:---|:--------------------------|:-----|
+#'  |1972  |1613  |-    |-         |-   |-                          |1613  |
+#'  |1973  |1504  |-    |-         |-   |-                          |1504  |
+#'  |1974  |1484  |-    |-         |-   |-                          |1484  |
+#'  |1975  |1490  |-    |-         |-   |-                          |1490  |
+#'  |1976  |1499  |-    |-         |-   |-                          |1499  |
+#'  |1977  |1530  |-    |-         |-   |-                          |1530  |
+#'  |1978  |1532  |-    |-         |-   |-                          |1532  |
+#'  |1980  |1468  |-    |-         |-   |-                          |1468  |
+#'  |1982  |1860  |-    |-         |-   |-                          |1860  |
+#'  |1983  |1599  |-    |-         |-   |-                          |1599  |
+#'  |1984  |1473  |-    |-         |-   |-                          |1473  |
+#'  |1985  |1534  |-    |-         |-   |-                          |1534  |
+#'  |1986  |1470  |-    |-         |-   |-                          |1470  |
+#'  |1987  |1819  |-    |-         |-   |-                          |1819  |
+#'  |1988  |1481  |-    |-         |-   |-                          |1481  |
+#'  |1989  |1537  |-    |-         |-   |-                          |1537  |
+#'  |1990  |1372  |-    |-         |-   |-                          |1372  |
+#'  |1991  |1517  |-    |-         |-   |-                          |1517  |
+#'  |1993  |1606  |-    |-         |-   |-                          |1606  |
+#'  |1994  |2992  |-    |-         |-   |-                          |2992  |
+#'  |1996  |1779  |1025 |7         |93  |-                          |2904  |
+#'  |1998  |2832  |-    |-         |-   |-                          |2832  |
+#'  |2000  |2817  |-    |-         |-   |-                          |2817  |
+#'  |2002  |2765  |-    |-         |-   |-                          |2765  |
+#'  |2004  |2812  |-    |-         |-   |-                          |2812  |
+#'  |2006  |4510  |-    |-         |-   |-                          |4510  |
+#'  |2008  |2023  |-    |-         |-   |-                          |2023  |
+#'  |2010  |2044  |-    |-         |-   |-                          |2044  |
+#'  |2012  |1974  |-    |-         |-   |-                          |1974  |
+#'  |2014  |2538  |-    |-         |-   |-                          |2538  |
+#'  |2016  |2867  |-    |-         |-   |-                          |2867  |
+#'  |2018  |2348  |-    |-         |-   |-                          |2348  |
+#'  |2021  |4032  |-    |-         |-   |-                          |4032  |
+#'  |2022  |-     |-    |-         |-   |3544                       |3544  |
+#'  |2024  |-     |-    |-         |-   |3309                       |3309  |
+#'  |Total |67721 |1025 |7         |93  |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Emotions
+#' @family Feelings
+#' 
+#' @keywords variable
+#' @md
+#' @name madat22
+NULL
+
+
+#'  Angry at other
+#' 
+#'  madat23
+#' 
+#' Question Who were you angry, irritated or annoyed at? (IF RESPONDENT GIVES A NAME, PROBE WITH "and who is name... what relationship is he/she to you?" IF UNSURE ABOUT RELATIONSHIP AFTER RESPONDENT'S DESCRIPTION, READ THE FIELD CODE THAT YOU THINK IS CLOSEST -- e.g., "so that's a co-worker?") CIRCLE ALL THAT APPLY. 
+#' W. Other (SPECIFY)
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` ex-spouse
+#'   * `2` other ex-family
+#'   * `3` health care personnel
+#'   * `4` teacher
+#'   * `5` landlord
+#'   * `6` company
+#'   * `7` criminal
+#'   * `8` other
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1763/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |company |criminal |ex-spouse |health care personnel |landlord |no answer |other |other ex-family |teacher |not available in this year |Total |
+#'  |:-----|:-----|:-------|:--------|:---------|:---------------------|:--------|:---------|:-----|:---------------|:-------|:--------------------------|:-----|
+#'  |1972  |1613  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |1613  |
+#'  |1973  |1504  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |1504  |
+#'  |1974  |1484  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |1484  |
+#'  |1975  |1490  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |1490  |
+#'  |1976  |1499  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |1499  |
+#'  |1977  |1530  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |1530  |
+#'  |1978  |1532  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |1532  |
+#'  |1980  |1468  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |1468  |
+#'  |1982  |1860  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |1860  |
+#'  |1983  |1599  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |1599  |
+#'  |1984  |1473  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |1473  |
+#'  |1985  |1534  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |1534  |
+#'  |1986  |1470  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |1470  |
+#'  |1987  |1819  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |1819  |
+#'  |1988  |1481  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |1481  |
+#'  |1989  |1537  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |1537  |
+#'  |1990  |1372  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |1372  |
+#'  |1991  |1517  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |1517  |
+#'  |1993  |1606  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |1606  |
+#'  |1994  |2992  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |2992  |
+#'  |1996  |2766  |6       |4        |16        |10                    |5        |7         |79    |2               |9       |-                          |2904  |
+#'  |1998  |2832  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |2832  |
+#'  |2000  |2817  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |2817  |
+#'  |2002  |2765  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |2765  |
+#'  |2004  |2812  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |2812  |
+#'  |2006  |4510  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |4510  |
+#'  |2008  |2023  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |2023  |
+#'  |2010  |2044  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |2044  |
+#'  |2012  |1974  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |1974  |
+#'  |2014  |2538  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |2538  |
+#'  |2016  |2867  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |2867  |
+#'  |2018  |2348  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |2348  |
+#'  |2021  |4032  |-       |-        |-         |-                     |-        |-         |-     |-               |-       |-                          |4032  |
+#'  |2022  |-     |-       |-        |-         |-                     |-        |-         |-     |-               |-       |3544                       |3544  |
+#'  |2024  |-     |-       |-        |-         |-                     |-        |-         |-     |-               |-       |3309                       |3309  |
+#'  |Total |68708 |6       |4        |16        |10                    |5        |7         |79    |2               |9       |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Emotions
+#' @family Feelings
+#' 
+#' @keywords variable
+#' @md
+#' @name madat23
+NULL
+
+
 #'  How intense would you say your anger was
 #' 
 #'  howangry
 #' 
-#' Question 577. How intense would you say your anger or irritation was, if 0 means the least intense emotion that you can imagine experiencing and 10 is the most intense emotion that you can imagine having.
+#' Question How intense would you say your anger or irritation was, if 0 means the least intense emotion that you can imagine experiencing and 10 is the most intense emotion that you can imagine having. 
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` weakest
+#'   * `10` most intense
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1764/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,10 +242,37 @@
 #'  |2024  |-     |-  |-  |-  |-   |-   |-   |-   |-   |-  |-          |-            |-         |-       |3309                       |3309  |
 #'  |Total |67721 |15 |51 |94 |101 |167 |145 |170 |151 |57 |1          |153          |9         |11      |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Emotions
+#' @family Feelings
+#' 
+#' @keywords variable
+#' @md
+#' @name howangry
+NULL
+
+
+#'  How long did your anger last?
+#' 
+#'  angrlast
+#' 
+#' Question Emotions eventually fade away. How long did your anger or irritation last? Did it last:
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` weakest
-#'   * `10` most intense
+#'   * `1` seconds
+#'   * `2` minutes
+#'   * `3` hours
+#'   * `4` all that day
+#'   * `5` several days, or
+#'   * `6` felt continuously
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -65,22 +286,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name howangry
-NULL
-
-#'  How long did your anger last?
-#' 
-#'  angrlast
-#' 
-#' Question 578. Emotions eventually fade away. How long did your anger or irritation last?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1765/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,14 +330,35 @@ NULL
 #'  |2024  |-     |-            |-                 |-     |-       |-         |-       |-                |3309                       |3309  |
 #'  |Total |67721 |135          |157               |297   |300     |8         |42      |186              |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Emotions
+#' @family Feelings
+#' 
+#' @keywords variable
+#' @md
+#' @name angrlast
+NULL
+
+
+#'  How often thought about this situation
+#' 
+#'  thnkangr
+#' 
+#' Question Even after they go away, feelings sometimes come back when we think about things. How often have you thought about this situation since it happened: very often, every once in a while or just once or twice, or never (until asked  about it just now)?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` seconds
-#'   * `2` minutes
-#'   * `3` hours
-#'   * `4` all that day
-#'   * `5` several days, or
-#'   * `6` felt continuously
+#'   * `1` very often
+#'   * `2` every once in a while
+#'   * `3` just once or twice
+#'   * `4` never-not once until now
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -144,22 +372,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name angrlast
-NULL
-
-#'  How often thought about this situation
-#' 
-#'  thnkangr
-#' 
-#' Question 579. Even after they go away, feelings sometimes come back when we think about things. How often have you thought about this situation since it happened; very often, every once in a while or just once or twice, or never (until asked about it just now)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1766/vshow).
 #'
 #' Counts by year: 
 #'
@@ -202,12 +416,34 @@ NULL
 #'  |2024  |-     |-                     |-                  |-                        |-         |-          |3309                       |3309  |
 #'  |Total |67878 |292                   |292                |219                      |25        |140        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Emotions
+#' @family Feelings
+#' 
+#' @keywords variable
+#' @md
+#' @name thnkangr
+NULL
+
+
+#'  Think about the situation
+#' 
+#'  chnang1
+#' 
+#' Question I'm going to show you a list of things that people sometimes do to change their feelings. Did you do any of these things after you got angry or annoyed,... (INTERVIEWER CODE; CONTINUE WITH "Did you do any of these other things in addition to that?" UNTIL RESPONDENT SAYS NO. CIRCLE ALL TECHNIQUES MENTIONED. DO NOT READ ITEMS ON LIST.) 
+#' A. Tried to think about the situation in a different way
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` very often
-#'   * `2` every once in a while
-#'   * `3` just once or twice
-#'   * `4` never-not once until now
+#'   * `1` did
+#'   * `2` didnt
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -221,22 +457,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name thnkangr
-NULL
-
-#'  Think about the situation
-#' 
-#'  chnang1
-#' 
-#' Question 580. I'm going to show you a list of things that people sometimes do to change their feelings. Did you do any of these things after you got angry or annoyed? a. Tried to think about the situation in a different way.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1767/vshow).
 #'
 #' Counts by year: 
 #'
@@ -279,6 +501,30 @@ NULL
 #'  |2024  |-     |-   |-     |-         |3309                       |3309  |
 #'  |Total |67721 |388 |726   |11        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Emotions
+#' @family Feelings
+#' 
+#' @keywords variable
+#' @md
+#' @name chnang1
+NULL
+
+
+#'  Had a drink or took a pill
+#' 
+#'  chnang2
+#' 
+#' Question I'm going to show you a list of things that people sometimes do to change their feelings. Did you do any of these things after you got angry or annoyed,... (INTERVIEWER CODE; CONTINUE WITH "Did you do any of these other things in addition to that?" UNTIL RESPONDENT SAYS NO. CIRCLE ALL TECHNIQUES MENTIONED. DO NOT READ ITEMS ON LIST.) 
+#' B. Had a drink or took a pill
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` did
@@ -296,22 +542,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name chnang1
-NULL
-
-#'  Had a drink or took a pill
-#' 
-#'  chnang2
-#' 
-#' Question 580. I'm going to show you a list of things that people sometimes do to change their feelings. Did you do any of these things after you got angry or annoyed? b. Had a drink or took a pill
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1768/vshow).
 #'
 #' Counts by year: 
 #'
@@ -354,6 +586,30 @@ NULL
 #'  |2024  |-     |-   |-     |-         |3309                       |3309  |
 #'  |Total |67721 |68  |1046  |11        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Emotions
+#' @family Feelings
+#' 
+#' @keywords variable
+#' @md
+#' @name chnang2
+NULL
+
+
+#'  Talked to the person i was angry at
+#' 
+#'  chnang3
+#' 
+#' Question I'm going to show you a list of things that people sometimes do to change their feelings. Did you do any of these things after you got angry or annoyed,... (INTERVIEWER CODE; CONTINUE WITH "Did you do any of these other things in addition to that?" UNTIL RESPONDENT SAYS NO. CIRCLE ALL TECHNIQUES MENTIONED. DO NOT READ ITEMS ON LIST.) 
+#' C. Talked to the person I was angry or annoyed at
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` did
@@ -371,22 +627,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name chnang2
-NULL
-
-#'  Talked to the person i was angry at
-#' 
-#'  chnang3
-#' 
-#' Question 580. I'm going to show you a list of things that people sometimes do to change their feelings. Did you do any of these things after you got angry or annoyed? c. Talked to the person I was angry or annoyed at
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1769/vshow).
 #'
 #' Counts by year: 
 #'
@@ -429,6 +671,30 @@ NULL
 #'  |2024  |-     |-   |-     |-         |3309                       |3309  |
 #'  |Total |67721 |407 |707   |11        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Emotions
+#' @family Feelings
+#' 
+#' @keywords variable
+#' @md
+#' @name chnang3
+NULL
+
+
+#'  Talked to someone else
+#' 
+#'  chnang4
+#' 
+#' Question I'm going to show you a list of things that people sometimes do to change their feelings. Did you do any of these things after you got angry or annoyed,... (INTERVIEWER CODE; CONTINUE WITH "Did you do any of these other things in addition to that?" UNTIL RESPONDENT SAYS NO. CIRCLE ALL TECHNIQUES MENTIONED. DO NOT READ ITEMS ON LIST.) 
+#' D. Talked to someone else about how I felt
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` did
@@ -446,22 +712,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name chnang3
-NULL
-
-#'  Talked to someone else
-#' 
-#'  chnang4
-#' 
-#' Question 580. I'm going to show you a list of things that people sometimes do to change their feelings. Did you do any of these things after you got angry or annoyed? d. Talked to someone else about how I felt.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1770/vshow).
 #'
 #' Counts by year: 
 #'
@@ -504,6 +756,30 @@ NULL
 #'  |2024  |-     |-   |-     |-         |3309                       |3309  |
 #'  |Total |67721 |655 |459   |11        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Emotions
+#' @family Feelings
+#' 
+#' @keywords variable
+#' @md
+#' @name chnang4
+NULL
+
+
+#'  Tried to forget it
+#' 
+#'  chnang5
+#' 
+#' Question I'm going to show you a list of things that people sometimes do to change their feelings. Did you do any of these things after you got angry or annoyed,... (INTERVIEWER CODE; CONTINUE WITH "Did you do any of these other things in addition to that?" UNTIL RESPONDENT SAYS NO. CIRCLE ALL TECHNIQUES MENTIONED. DO NOT READ ITEMS ON LIST.) 
+#' E. Tried to forget it by doing or thinking about something else
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` did
@@ -521,22 +797,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name chnang4
-NULL
-
-#'  Tried to forget it
-#' 
-#'  chnang5
-#' 
-#' Question 580. I'm going to show you a list of things that people sometimes do to change their feelings. Did you do any of these things after you got angry or annoyed? e. Tried to forget it by doing or thinking about someone else.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1771/vshow).
 #'
 #' Counts by year: 
 #'
@@ -579,178 +841,19 @@ NULL
 #'  |2024  |-     |-   |-     |-         |3309                       |3309  |
 #'  |Total |67721 |345 |769   |11        |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` did
-#'   * `2` didnt
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Emotions
+#' @family Feelings
 #' 
 #' @keywords variable
 #' @md
 #' @name chnang5
 NULL
 
-#'  Tried to change the situation
-#' 
-#'  chnang6
-#' 
-#' Question 580. I'm going to show you a list of things that people sometimes do to change their feelings. Did you do any of these things after you got angry or annoyed? f. Tried to change the situation by doing something.
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |did |didnt |no answer |not available in this year |Total |
-#'  |:-----|:-----|:---|:-----|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-   |-     |-         |-                          |1613  |
-#'  |1973  |1504  |-   |-     |-         |-                          |1504  |
-#'  |1974  |1484  |-   |-     |-         |-                          |1484  |
-#'  |1975  |1490  |-   |-     |-         |-                          |1490  |
-#'  |1976  |1499  |-   |-     |-         |-                          |1499  |
-#'  |1977  |1530  |-   |-     |-         |-                          |1530  |
-#'  |1978  |1532  |-   |-     |-         |-                          |1532  |
-#'  |1980  |1468  |-   |-     |-         |-                          |1468  |
-#'  |1982  |1860  |-   |-     |-         |-                          |1860  |
-#'  |1983  |1599  |-   |-     |-         |-                          |1599  |
-#'  |1984  |1473  |-   |-     |-         |-                          |1473  |
-#'  |1985  |1534  |-   |-     |-         |-                          |1534  |
-#'  |1986  |1470  |-   |-     |-         |-                          |1470  |
-#'  |1987  |1819  |-   |-     |-         |-                          |1819  |
-#'  |1988  |1481  |-   |-     |-         |-                          |1481  |
-#'  |1989  |1537  |-   |-     |-         |-                          |1537  |
-#'  |1990  |1372  |-   |-     |-         |-                          |1372  |
-#'  |1991  |1517  |-   |-     |-         |-                          |1517  |
-#'  |1993  |1606  |-   |-     |-         |-                          |1606  |
-#'  |1994  |2992  |-   |-     |-         |-                          |2992  |
-#'  |1996  |1779  |297 |817   |11        |-                          |2904  |
-#'  |1998  |2832  |-   |-     |-         |-                          |2832  |
-#'  |2000  |2817  |-   |-     |-         |-                          |2817  |
-#'  |2002  |2765  |-   |-     |-         |-                          |2765  |
-#'  |2004  |2812  |-   |-     |-         |-                          |2812  |
-#'  |2006  |4510  |-   |-     |-         |-                          |4510  |
-#'  |2008  |2023  |-   |-     |-         |-                          |2023  |
-#'  |2010  |2044  |-   |-     |-         |-                          |2044  |
-#'  |2012  |1974  |-   |-     |-         |-                          |1974  |
-#'  |2014  |2538  |-   |-     |-         |-                          |2538  |
-#'  |2016  |2867  |-   |-     |-         |-                          |2867  |
-#'  |2018  |2348  |-   |-     |-         |-                          |2348  |
-#'  |2021  |4032  |-   |-     |-         |-                          |4032  |
-#'  |2022  |-     |-   |-     |-         |3544                       |3544  |
-#'  |2024  |-     |-   |-     |-         |3309                       |3309  |
-#'  |Total |67721 |297 |817   |11        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` did
-#'   * `2` didnt
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name chnang6
-NULL
-
-#'  Prayed for help from god
-#' 
-#'  chnang7
-#' 
-#' Question 580. I'm going to show you a list of things that people sometimes do to change their feelings. Did you do any of these things after you got angry or annoyed? g. Prayed for help from God.
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |did |didnt |no answer |not available in this year |Total |
-#'  |:-----|:-----|:---|:-----|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-   |-     |-         |-                          |1613  |
-#'  |1973  |1504  |-   |-     |-         |-                          |1504  |
-#'  |1974  |1484  |-   |-     |-         |-                          |1484  |
-#'  |1975  |1490  |-   |-     |-         |-                          |1490  |
-#'  |1976  |1499  |-   |-     |-         |-                          |1499  |
-#'  |1977  |1530  |-   |-     |-         |-                          |1530  |
-#'  |1978  |1532  |-   |-     |-         |-                          |1532  |
-#'  |1980  |1468  |-   |-     |-         |-                          |1468  |
-#'  |1982  |1860  |-   |-     |-         |-                          |1860  |
-#'  |1983  |1599  |-   |-     |-         |-                          |1599  |
-#'  |1984  |1473  |-   |-     |-         |-                          |1473  |
-#'  |1985  |1534  |-   |-     |-         |-                          |1534  |
-#'  |1986  |1470  |-   |-     |-         |-                          |1470  |
-#'  |1987  |1819  |-   |-     |-         |-                          |1819  |
-#'  |1988  |1481  |-   |-     |-         |-                          |1481  |
-#'  |1989  |1537  |-   |-     |-         |-                          |1537  |
-#'  |1990  |1372  |-   |-     |-         |-                          |1372  |
-#'  |1991  |1517  |-   |-     |-         |-                          |1517  |
-#'  |1993  |1606  |-   |-     |-         |-                          |1606  |
-#'  |1994  |2992  |-   |-     |-         |-                          |2992  |
-#'  |1996  |1779  |310 |804   |11        |-                          |2904  |
-#'  |1998  |2832  |-   |-     |-         |-                          |2832  |
-#'  |2000  |2817  |-   |-     |-         |-                          |2817  |
-#'  |2002  |2765  |-   |-     |-         |-                          |2765  |
-#'  |2004  |2812  |-   |-     |-         |-                          |2812  |
-#'  |2006  |4510  |-   |-     |-         |-                          |4510  |
-#'  |2008  |2023  |-   |-     |-         |-                          |2023  |
-#'  |2010  |2044  |-   |-     |-         |-                          |2044  |
-#'  |2012  |1974  |-   |-     |-         |-                          |1974  |
-#'  |2014  |2538  |-   |-     |-         |-                          |2538  |
-#'  |2016  |2867  |-   |-     |-         |-                          |2867  |
-#'  |2018  |2348  |-   |-     |-         |-                          |2348  |
-#'  |2021  |4032  |-   |-     |-         |-                          |4032  |
-#'  |2022  |-     |-   |-     |-         |3544                       |3544  |
-#'  |2024  |-     |-   |-     |-         |3309                       |3309  |
-#'  |Total |67721 |310 |804   |11        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` did
-#'   * `2` didnt
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name chnang7
-NULL
 

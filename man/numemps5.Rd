@@ -10,11 +10,29 @@ General Social Survey https://gss.norc.org
 numemps5
 }
 \details{
-Question None
+Question How many people do you anticipate employing five years from now?
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3823/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllll}{
    year \tab iap \tab 1 \tab 10 \tab 100 \tab 12 \tab 15 \tab 2 \tab 20 \tab 22 \tab 3 \tab 30 \tab 4 \tab 40 \tab 5 \tab 50 \tab 55 \tab 6 \tab 7 \tab 70 \tab 8 \tab don't know \tab not available in this year \tab Total \cr
@@ -57,22 +75,41 @@ Counts by year:\tabular{llllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2008 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Self Employment: 
+\code{\link{bizgross}},
+\code{\link{bizshare}},
+\code{\link{owninc}},
+\code{\link{paidemps}},
+\code{\link{whybiz}}
+
+Other Business: 
+\code{\link{bizgross}},
+\code{\link{bizshare}},
+\code{\link{owninc}},
+\code{\link{paidemps}},
+\code{\link{whybiz}}
+
+Other Employment: 
+\code{\link{bizgross}},
+\code{\link{bizshare}},
+\code{\link{paidemps}},
+\code{\link{whybiz}}
+
+Other Job: 
+\code{\link{owninc}},
+\code{\link{paidemps}},
+\code{\link{whybiz}}
+}
+\concept{Business}
+\concept{Employment}
+\concept{Job}
+\concept{Self Employment}
 \keyword{variable}

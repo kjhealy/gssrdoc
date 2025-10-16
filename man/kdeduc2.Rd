@@ -10,11 +10,30 @@ General Social Survey https://gss.norc.org
 kdeduc2
 }
 \details{
-Question 503. Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. f. If born before 1976: What is the highest grade or year of regular school that (CHILD) ever completed?
+Question Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. (RECORD THIS INFORMATION FOR UP TO THE NINE OLDEST CHILDREN IN TABLE TO RIGHT.)
+F2. Highest school grade second child completed.
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1529/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllll}{
    year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 20 \tab 8 \tab 9 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +76,64 @@ Counts by year:\tabular{lllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Family Mobility: 
+\code{\link{kdalive2}},
+\code{\link{kdalive3}},
+\code{\link{kdalive4}},
+\code{\link{kdalive5}},
+\code{\link{kdalive6}},
+\code{\link{kdalive7}},
+\code{\link{kdalive8}},
+\code{\link{kdalive9}},
+\code{\link{kdeduc1}}
+
+Other Children: 
+\code{\link{kdalive2}},
+\code{\link{kdalive3}},
+\code{\link{kdalive4}},
+\code{\link{kdalive5}},
+\code{\link{kdalive6}},
+\code{\link{kdalive7}},
+\code{\link{kdalive8}},
+\code{\link{kdalive9}},
+\code{\link{kdeduc1}}
+
+Other Education: 
+\code{\link{kdeduc1}}
+
+Other Family: 
+\code{\link{kdalive2}},
+\code{\link{kdalive3}},
+\code{\link{kdalive4}},
+\code{\link{kdalive5}},
+\code{\link{kdalive6}},
+\code{\link{kdalive7}},
+\code{\link{kdalive8}},
+\code{\link{kdalive9}},
+\code{\link{kdeduc1}}
+
+Other Household: 
+\code{\link{kdalive2}},
+\code{\link{kdalive3}},
+\code{\link{kdalive4}},
+\code{\link{kdalive5}},
+\code{\link{kdalive6}},
+\code{\link{kdalive7}},
+\code{\link{kdalive8}},
+\code{\link{kdalive9}},
+\code{\link{kdeduc1}}
+}
+\concept{Children}
+\concept{Education}
+\concept{Family}
+\concept{Family Mobility}
+\concept{Household}
 \keyword{variable}

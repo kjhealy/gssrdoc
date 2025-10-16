@@ -10,11 +10,30 @@ General Social Survey https://gss.norc.org
 uswht
 }
 \details{
-Question 751. Just your best guess~what percentage of the United States population is each group? a. Whites
+Question Just your best guessâ€“what percentage of the United States population is each group? (INSTRUCTION: PERCENTAGES DO NOT HAVE TO ADD TO 100pct AND THE LISTED GROUPS MAY OVERLAP. ENCOURAGE ESTIMATES FOR ALL GROUPS, BUT DISCOURAGE RESPONDENTS REVISING THEIR ESTIMATES.)
+A. Whites?
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2310/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 0 \tab 10 \tab 100 \tab 15 \tab 20 \tab 22 \tab 23 \tab 25 \tab 28 \tab 30 \tab 33 \tab 35 \tab 37 \tab 38 \tab 40 \tab 41 \tab 42 \tab 43 \tab 45 \tab 47 \tab 48 \tab 49 \tab 5 \tab 50 \tab 51 \tab 52 \tab 53 \tab 55 \tab 56 \tab 57 \tab 58 \tab 6 \tab 60 \tab 62 \tab 63 \tab 64 \tab 65 \tab 66 \tab 67 \tab 68 \tab 69 \tab 7 \tab 70 \tab 72 \tab 74 \tab 75 \tab 79 \tab 8 \tab 80 \tab 82 \tab 85 \tab 89 \tab 90 \tab 95 \tab 98 \tab 99 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +76,26 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Multi-Ethnic United States: 
+\code{\link{betrlang}},
+\code{\link{immcrmup}},
+\code{\link{immnew}},
+\code{\link{immnojob}},
+\code{\link{letinasn}},
+\code{\link{letineur}},
+\code{\link{letinhsp}},
+\code{\link{othhome}},
+\code{\link{spklangw}}
+}
+\concept{Multi-Ethnic United States}
+\concept{United States}
+\concept{Whites}
 \keyword{variable}

@@ -10,11 +10,51 @@ General Social Survey https://gss.norc.org
 suirel1
 }
 \details{
-Question A. Thinking about the person you knew best that died by suicide, please tell me the letter of the category on the card which most clearly describes your relationship to that person?
+Question Thinking about the person you knew best that died by suicide, please tell me the letter of the category on the card which most clearly describes your relationship to that person?                         
+(HAND CARD I1)
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} husband or wife
+\item \code{2} partner or lover
+\item \code{3} son or daughter
+\item \code{4} mother or father
+\item \code{5} brother or sister
+\item \code{6} step-brother or step-sister
+\item \code{7} step-parent
+\item \code{8} step-son or step-daughter
+\item \code{9} cousin
+\item \code{10} other relative
+\item \code{11} friend
+\item \code{12} neighbor
+\item \code{13} co-worker
+\item \code{14} patient
+\item \code{15} acquaintance
+\item \code{16} ex-spouse or ex-partner
+\item \code{18} classmate
+\item \code{19} relative of a friend
+\item \code{20} student
+\item \code{21} friend of a friend
+\item \code{30} other
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6183/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllll}{
    year \tab iap \tab acquaintance \tab brother or sister \tab classmate \tab co-worker \tab cousin \tab ex-spouse or ex-partner \tab friend \tab friend of a friend \tab husband or wife \tab mother or father \tab neighbor \tab no answer \tab other \tab other relative \tab partner or lover \tab patient \tab relative of a friend \tab son or daughter \tab step-brother or step-sister \tab step-parent \tab step-son or step-daughter \tab student \tab not available in this year \tab Total \cr
@@ -57,43 +97,22 @@ Counts by year:\tabular{llllllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} husband or wife
-\item \code{2} partner or lover
-\item \code{3} son or daughter
-\item \code{4} mother or father
-\item \code{5} brother or sister
-\item \code{6} step-brother or step-sister
-\item \code{7} step-parent
-\item \code{8} step-son or step-daughter
-\item \code{9} cousin
-\item \code{10} other relative
-\item \code{11} friend
-\item \code{12} neighbor
-\item \code{13} co-worker
-\item \code{14} patient
-\item \code{15} acquaintance
-\item \code{16} ex-spouse or ex-partner
-\item \code{18} classmate
-\item \code{19} relative of a friend
-\item \code{20} student
-\item \code{21} friend of a friend
-\item \code{30} other
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2016 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Suicide: 
+\code{\link{suicide1}},
+\code{\link{suicide2}},
+\code{\link{suicide3}},
+\code{\link{suicide4}},
+\code{\link{suineg1}},
+\code{\link{suinum}},
+\code{\link{suinum1}}
+}
+\concept{Suicide}
 \keyword{variable}

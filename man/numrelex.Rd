@@ -10,11 +10,36 @@ General Social Survey https://gss.norc.org
 numrelex
 }
 \details{
-Question 992. IF Q. 1385 = yes and Q. 685 = no, READ: Thinking of the "turning point in your life when you made a new and personal commitment to religion," how many such experiences have you had? READ IF NEEDED: THAT IS ON HOW MANY DIFFERENT OCCASIONS DID THIS OCCUR? IF Q. 1385 = no and Q. 685 = yes, READ: Thinking of the "religious or spiritual experience that changed your life," how many such experiences have you had? READ IF NEEDED: THAT IS ON HOW MANY DIFFERENT OCCASIONS DID THIS OCCUR? IF Q. 1385 = yes and Q. 685 = yes, READ: 992. Thinking of the "turning point in your life when you made a new and personal commitment to religion," and the "religious or spiritual experience that changed your life," how many such experiences have you had? READ IF NEEDED: THAT IS ON HOW MANY DIFFERENT OCCASIONS DID THIS OCCUR?
+Question IF RELEXPER = yes and RELEXP = no, READ: Thinking of the â€œturning point in your life when you made a new and personal commitment to religion,â€ how many such experiences have you had?
+READ IF NEEDED: THAT IS ON HOW MANY DIFFERENT OCCASIONS DID THIS OCCUR?
+IF RELEXPER = no and RELEXP = yes, READ: Thinking of the â€œreligious or spiritual experience that changed your life,â€ how many such experiences have you had?
+READ IF NEEDED: THAT IS ON HOW MANY DIFFERENT OCCASIONS DID THIS OCCUR?
+IF RELEXPER = yes and RELEXP = yes, READ: Thinking of the â€œturning point in your life when you made a new and personal commitment to religion,â€ and the "religious or spiritual experience that changed your life,â€ how many such experiences have you had?
+READ IF NEEDED: THAT IS ON HOW MANY DIFFERENT OCCASIONS DID THIS OCCUR?
 }
+\section{Values}{
+
+\itemize{
+\item \code{7} seven or more
+\item \code{8} 1 or more experience, dk
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3061/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab 1 \tab 1 or more experience, dk \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab no answer \tab seven or more \tab not available in this year \tab Total \cr
@@ -57,24 +82,22 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{7} seven or more
-\item \code{8} 1 or more experience, dk
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Spirituality and Religion: 
+\code{\link{agerelex}},
+\code{\link{chngrel}}
+
+Other Religion: 
+\code{\link{agerelex}},
+\code{\link{chngrel}}
+}
+\concept{Religion}
+\concept{Spirituality and Religion}
 \keyword{variable}

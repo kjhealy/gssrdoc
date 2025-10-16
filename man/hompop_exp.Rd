@@ -10,11 +10,30 @@ General Social Survey https://gss.norc.org
 hompop_exp
 }
 \details{
-Question None
+Question Calculated variable: Total people in household according to roster
+As of 2024, HOMPOP_EXP has been calculated to only account for 0 to 14+ people in the household. This has been retroactively applied to all previous years of HOMPOP_EXP. The original HOMPOP_EXP containing data from in 2022 has been renamed HOMPOP_EXP_22.
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/8001/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllll}{
    year \tab not available in this year \tab 0 \tab 1 \tab 11 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab iap \tab not available in this release \tab Total \cr
@@ -57,22 +76,14 @@ Counts by year:\tabular{llllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2022 \tab A/B/C \tab full \cr
+   2024 \tab A/B/C \tab full \cr
 }
 }
 
+\concept{Core}
+\concept{Household}
 \keyword{variable}

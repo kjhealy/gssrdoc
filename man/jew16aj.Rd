@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 jew16aj
 }
 \details{
-Question Were you Orthodox, Conservative, Reform, or none of these? (PROBE FOR EXACT DENOMINATION)
+Question Were you raised as a Jew?
+A. Were you Orthodox, Conservative, Reform, or none of these? (PROBE FOR EXACT DENOMINATION)
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} orthodox
+\item \code{2} conservative
+\item \code{3} reform
+\item \code{4} none of these
+\item \code{5} other
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/346/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllll}{
    year \tab iap \tab no answer \tab reform \tab not available in this year \tab Total \cr
@@ -57,27 +81,25 @@ Counts by year:\tabular{llllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} orthodox
-\item \code{2} conservative
-\item \code{3} reform
-\item \code{4} none of these
-\item \code{5} other
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2012 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{denom16}},
+\code{\link{fund16}},
+\code{\link{jew16}},
+\code{\link{oth16}},
+\code{\link{othjew16}},
+\code{\link{relig16}},
+\code{\link{spden}},
+\code{\link{spother}},
+\code{\link{sprel}}
+}
+\concept{Core}
+\concept{Jews}
 \keyword{variable}

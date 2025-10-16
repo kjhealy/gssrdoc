@@ -10,11 +10,39 @@ General Social Survey https://gss.norc.org
 suiwho2
 }
 \details{
-Question 1535. Think about the person you have known next best, who has committed suicide. Please tell me the letter of the category on the card which best describes your relationship to that person.
+Question Think about the person you have known next best, who has committed suicide. Please tell me the letter of the category on the card which best describes your relationship to that person.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} husband or wife
+\item \code{2} partner or lover
+\item \code{3} son or daughter
+\item \code{4} other relative
+\item \code{5} friend
+\item \code{6} neighbor
+\item \code{7} co-worker
+\item \code{8} acquaintance
+\item \code{9} patient
+\item \code{10} other
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5031/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab acquaintance \tab co-worker \tab friend \tab neighbor \tab no answer \tab other relative \tab patient \tab not available in this year \tab Total \cr
@@ -57,32 +85,37 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} husband or wife
-\item \code{2} partner or lover
-\item \code{3} son or daughter
-\item \code{4} other relative
-\item \code{5} friend
-\item \code{6} neighbor
-\item \code{7} co-worker
-\item \code{8} acquaintance
-\item \code{9} patient
-\item \code{10} other
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1990 \tab A/B/C \tab full \cr
+   1991 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Victims & AIDS: 
+\code{\link{suiage}},
+\code{\link{suiage2}},
+\code{\link{suirac2}},
+\code{\link{suirace}},
+\code{\link{suireg}},
+\code{\link{suireg2}},
+\code{\link{suisex2}},
+\code{\link{suisex3}},
+\code{\link{suiwho3}}
+
+Other Suicide: 
+\code{\link{suiage}},
+\code{\link{suiage2}},
+\code{\link{suirac2}},
+\code{\link{suirace}},
+\code{\link{suireg}},
+\code{\link{suireg2}},
+\code{\link{suisex2}},
+\code{\link{suisex3}},
+\code{\link{suiwho3}}
+}
+\concept{Suicide}
+\concept{Victims & AIDS}
 \keyword{variable}

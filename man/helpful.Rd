@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 helpful
 }
 \details{
-Question 161. Would you say that most of the time people try to be helpful, or that they are mostly just looking out for themselves?
+Question Would you say that most of the time people try to be helpful, or that they are mostly just looking out for themselves?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} try to be helpful
+\item \code{2} looking out for themselves
+\item \code{3} depends
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/439/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab depends \tab don't know \tab iap \tab looking out for themselves \tab no answer \tab try to be helpful \tab not available in this year \tab skipped on web \tab Total \cr
@@ -57,25 +78,56 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} try to be helpful
-\item \code{2} looking out for themselves
-\item \code{3} depends
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1972 \tab -/- \tab full \cr
+   1973 \tab -/- \tab full \cr
+   1975 \tab -/- \tab full \cr
+   1976 \tab -/- \tab full \cr
+   1978 \tab -/- \tab full \cr
+   1980 \tab -/- \tab full \cr
+   1983 \tab -/- \tab full \cr
+   1984 \tab -/- \tab full \cr
+   1986 \tab -/- \tab full \cr
+   1987 \tab -/- \tab full \cr
+   1988 \tab B/C \tab partial \cr
+   1989 \tab B/C \tab partial \cr
+   1990 \tab B/C \tab partial \cr
+   1991 \tab B/C \tab partial \cr
+   1993 \tab B/C \tab partial \cr
+   1994 \tab B/C \tab partial \cr
+   1996 \tab B/C \tab partial \cr
+   1998 \tab B/C \tab partial \cr
+   2000 \tab B/C \tab partial \cr
+   2002 \tab B/C \tab partial \cr
+   2004 \tab B/C \tab partial \cr
+   2006 \tab B/C \tab partial \cr
+   2008 \tab B/C \tab partial \cr
+   2010 \tab B/C \tab partial \cr
+   2012 \tab B/C \tab partial \cr
+   2014 \tab B/C \tab partial \cr
+   2016 \tab B/C \tab partial \cr
+   2018 \tab B/C \tab partial \cr
+   2021 \tab B/C \tab partial \cr
+   2022 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{fair}},
+\code{\link{hapcohab}},
+\code{\link{health}},
+\code{\link{life}},
+\code{\link{trust}},
+\code{\link{trusty}}
+
+Other People: 
+\code{\link{fair}},
+\code{\link{trust}},
+\code{\link{trusty}}
+}
+\concept{Core}
+\concept{People}
 \keyword{variable}

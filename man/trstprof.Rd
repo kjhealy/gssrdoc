@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 trstprof
 }
 \details{
-Question 475. I'm going to read several statements. After I read each one, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it: b. I trust the judgment of the teachers and professors who decide whta high school and college students should be reading.
+Question I'm going to read several statements. After I read each one, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it. For example, ...
+B. I trust the judgment of the teachers and professors who decide what high school and college students should be reading.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} strongly agree
+\item \code{2} agree
+\item \code{3} disagree
+\item \code{4} strongly disagree
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1423/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab strongly agree \tab strongly disagree \tab not available in this year \tab Total \cr
@@ -57,26 +80,29 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} strongly agree
-\item \code{2} agree
-\item \code{3} disagree
-\item \code{4} strongly disagree
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1993 \tab A/B/C \tab full \cr
+   1998 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Culture: 
+\code{\link{classics}},
+\code{\link{english}},
+\code{\link{grtbooks}},
+\code{\link{judgeart}},
+\code{\link{modpaint}},
+\code{\link{pclit}},
+\code{\link{tvnews}},
+\code{\link{tvpbs}},
+\code{\link{tvshows}}
+
+Other Education: 
+\code{\link{classics}}
+}
+\concept{Culture}
+\concept{Education}
 \keyword{variable}

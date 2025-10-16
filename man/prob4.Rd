@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 prob4
 }
 \details{
-Question 1574. What are the most important problems that you and members of your household have had during the last 12 months?
+Question What are the most important problems that you and members of your household have had during the last 12 months?
+RECORD VERBATIM.
+PROBE FOR ADDITIONAL MENTIONS AND FOR SPECIFIC DETAILS. TRY NOT TO ACCEPT GENERAL RESPONSES LIKE "WORK" OR "CRIME."  PROBE TO FIND WHAT ABOUT "WORK" IS THE PROBLEM. FOR EXAMPLE, IS IT JOB INSECURITY, LOW PAY, ARGUMENTS WITH THE BOSS, OR WHAT? OR ABOUT "CRIME", WAS THERE A VICTIMIZATION?  WHO WAS VICTIMIZED AND IN WHAT WAY?
+PROBE FOR ADDITIONAL PROBLEMS.
+D. Fourth problem mentioned.
 }
+\section{Values}{
+
+\itemize{
+\item \code{995} cant understand answer
+\item \code{996} no problems
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5135/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllll}{
    year \tab iap \tab 1 \tab 16 \tab 166 \tab 172 \tab 175 \tab 2 \tab 20 \tab 201 \tab 30 \tab 70 \tab 73 \tab 10 \tab not available in this year \tab Total \cr
@@ -57,24 +81,42 @@ Counts by year:\tabular{llllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{995} cant understand answer
-\item \code{996} no problems
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1991 \tab C \tab partial \cr
+   2004 \tab C \tab partial \cr
 }
 }
 
+\seealso{
+Other Negative Life Events: 
+\code{\link{hlth1}},
+\code{\link{hlth2}},
+\code{\link{hlth3}},
+\code{\link{hlth4}},
+\code{\link{hlth5}},
+\code{\link{hlth6}},
+\code{\link{hlth7}},
+\code{\link{prob2}},
+\code{\link{prob3}}
+
+Other Life Events: 
+\code{\link{prob2}},
+\code{\link{prob3}}
+
+Other Trauma: 
+\code{\link{hlth1}},
+\code{\link{hlth2}},
+\code{\link{hlth3}},
+\code{\link{hlth4}},
+\code{\link{hlth5}},
+\code{\link{hlth6}},
+\code{\link{hlth7}},
+\code{\link{prob2}},
+\code{\link{prob3}}
+}
+\concept{Life Events}
+\concept{Negative Life Events}
+\concept{Trauma}
 \keyword{variable}

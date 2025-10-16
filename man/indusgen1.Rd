@@ -2,7 +2,7 @@
 % Please edit documentation in R/gss_vars_628.R
 \name{indusgen1}
 \alias{indusgen1}
-\title{In general, do you think that air pollution caused by industry is…}
+\title{In general, do you think that air pollution caused by industry is}
 \source{
 General Social Survey https://gss.norc.org
 }
@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 indusgen1
 }
 \details{
-Question In general, do you think that air pollution caused by industry is...
+Question In general, do you think that air pollution caused by industry is…
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} extremely dangerous
+\item \code{2} very dangerous
+\item \code{3} somewhat dangerous
+\item \code{4} not very dangerous
+\item \code{5} not dangerous at all
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7490/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab can't choose \tab extremely dangerous \tab no answer \tab not dangerous at all \tab not very dangerous \tab skipped on web \tab somewhat dangerous \tab very dangerous \tab not available in this year \tab Total \cr
@@ -57,26 +80,10 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} extremely dangerous
-\item \code{2} very dangerous
-\item \code{3} somewhat dangerous
-\item \code{4} not very dangerous
-\item \code{5} not dangerous at all
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2021 \tab A/B \tab partial \cr
 }
 }
 

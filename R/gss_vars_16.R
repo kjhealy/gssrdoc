@@ -1,11 +1,137 @@
 #'  Total family income
 #' 
+#'  income72
+#' 
+#' Question In which of these groups did your total family income, from all sources, fall last year--1971--before taxes, that is?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` lt $2000
+#'   * `2` $2000 to $3999
+#'   * `3` $4000 to $5999
+#'   * `4` $6000 to $7999
+#'   * `5` $8000 to $9999
+#'   * `6` $10000 to $12499
+#'   * `7` $12500 to $14999
+#'   * `8` $15000 to $17499
+#'   * `9` $17500 to $19999
+#'   * `10` $20000 to $24999
+#'   * `11` $25000 to $29999
+#'   * `12` $30000+
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/106/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |$10000 to $12499 |$12500 to $14999 |$15000 to $17499 |$17500 to $19999 |$2000 to $3999 |$20000 to $24999 |$25000 to $29999 |$30000+ |$4000 to $5999 |$6000 to $7999 |$8000 to $9999 |don't know |lt $2000 |no answer |refused |iap   |not available in this year |Total |
+#'  |:-----|:----------------|:----------------|:----------------|:----------------|:--------------|:----------------|:----------------|:-------|:--------------|:--------------|:--------------|:----------|:--------|:---------|:-------|:-----|:--------------------------|:-----|
+#'  |1972  |217              |159              |103              |63               |165            |67               |33               |32      |160            |160            |192            |64         |123      |13        |62      |-     |-                          |1613  |
+#'  |1973  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1504  |-                          |1504  |
+#'  |1974  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1484  |-                          |1484  |
+#'  |1975  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1490  |-                          |1490  |
+#'  |1976  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1499  |-                          |1499  |
+#'  |1977  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1530  |-                          |1530  |
+#'  |1978  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1532  |-                          |1532  |
+#'  |1980  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1468  |-                          |1468  |
+#'  |1982  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1860  |-                          |1860  |
+#'  |1983  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1599  |-                          |1599  |
+#'  |1984  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1473  |-                          |1473  |
+#'  |1985  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1534  |-                          |1534  |
+#'  |1986  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1470  |-                          |1470  |
+#'  |1987  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1819  |-                          |1819  |
+#'  |1988  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1481  |-                          |1481  |
+#'  |1989  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1537  |-                          |1537  |
+#'  |1990  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1372  |-                          |1372  |
+#'  |1991  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1517  |-                          |1517  |
+#'  |1993  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1606  |-                          |1606  |
+#'  |1994  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |2992  |-                          |2992  |
+#'  |1996  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |2904  |-                          |2904  |
+#'  |1998  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |2832  |-                          |2832  |
+#'  |2000  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |2817  |-                          |2817  |
+#'  |2002  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |2765  |-                          |2765  |
+#'  |2004  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |2812  |-                          |2812  |
+#'  |2006  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |4510  |-                          |4510  |
+#'  |2008  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |2023  |-                          |2023  |
+#'  |2010  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |2044  |-                          |2044  |
+#'  |2012  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |1974  |-                          |1974  |
+#'  |2014  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |2538  |-                          |2538  |
+#'  |2016  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |2867  |-                          |2867  |
+#'  |2018  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |2348  |-                          |2348  |
+#'  |2021  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |4032  |-                          |4032  |
+#'  |2022  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |-     |3544                       |3544  |
+#'  |2024  |-                |-                |-                |-                |-              |-                |-                |-       |-              |-              |-              |-          |-        |-         |-       |-     |3309                       |3309  |
+#'  |Total |217              |159              |103              |63               |165            |67               |33               |32      |160            |160            |192            |64         |123      |13        |62      |67233 |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Income
+#' 
+#' @keywords variable
+#' @md
+#' @name income72
+NULL
+
+
+#'  Total family income
+#' 
 #'  income77
 #' 
-#' Question Family income on 1977-1980 surveys
+#' Question Family income on 1977-1980 surveys. For question wording, see INCOME.
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` lt $1000
+#'   * `2` $1000-2999
+#'   * `3` $3000-3999
+#'   * `4` $4000-4999
+#'   * `5` $5000-5999
+#'   * `6` $6000-6999
+#'   * `7` $7000-7999
+#'   * `8` $8000-9999
+#'   * `9` $10000-12499
+#'   * `10` $12500-14999
+#'   * `11` $15000-17499
+#'   * `12` $17500-19999
+#'   * `13` $20000-22499
+#'   * `14` $22500-24999
+#'   * `15` $25000-49999
+#'   * `16` $50000 +
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/107/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +174,31 @@
 #'  |2024  |-     |-          |-            |-            |-            |-            |-            |-            |-            |-          |-          |-          |-        |-          |-          |-          |-          |-        |-         |-       |3309                       |3309  |
 #'  |Total |64316 |175        |415          |363          |363          |292          |303          |256          |620          |221        |153        |177        |132      |185        |186        |295        |201        |52       |17        |124     |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1977 |-       |full         |
+#'  |1978 |-       |full         |
+#'  |1980 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Income
+#' 
+#' @keywords variable
+#' @md
+#' @name income77
+NULL
+
+
+#'  Respondents income
+#' 
+#'  rincom77
+#' 
+#' Question Respondent's income on 1977/78/80 surveys. For question wording, see RINCOME.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` lt $1000
@@ -79,22 +230,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name income77
-NULL
-
-#'  Respondents income
-#' 
-#'  rincom77
-#' 
-#' Question Respondent's income on 1977/78/80 surveys.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/108/vshow).
 #'
 #' Counts by year: 
 #'
@@ -137,6 +274,31 @@ NULL
 #'  |2024  |-     |-          |-            |-            |-            |-            |-            |-            |-            |-          |-          |-          |-        |-          |-          |-          |-          |-        |-         |-       |3309                       |3309  |
 #'  |Total |65856 |275        |348          |241          |209          |160          |105          |75           |164          |152        |127        |161        |42       |132        |137        |271        |28         |175      |121       |67      |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1977 |-       |full         |
+#'  |1978 |-       |full         |
+#'  |1980 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Income
+#' 
+#' @keywords variable
+#' @md
+#' @name rincom77
+NULL
+
+
+#'  Total family income
+#' 
+#'  income82
+#' 
+#' Question Family income on 1982-85 surveys. For question wording, see INCOME.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` lt $1000
@@ -153,8 +315,9 @@ NULL
 #'   * `12` $17500-19999
 #'   * `13` $20000-22499
 #'   * `14` $22500-24999
-#'   * `15` $25000-49999
-#'   * `16` $50000 +
+#'   * `15` $25000-34999
+#'   * `16` $35000-49999
+#'   * `17` $50000+
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -168,22 +331,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name rincom77
-NULL
-
-#'  Total family income
-#' 
-#'  income82
-#' 
-#' Question Family income on 1982-85 surveys.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/109/vshow).
 #'
 #' Counts by year: 
 #'
@@ -226,6 +375,32 @@ NULL
 #'  |2024  |-     |-          |-            |-            |-            |-            |-            |-            |-            |-          |-            |-          |-          |-       |-          |-          |-          |-          |-        |-         |-       |3309                       |3309  |
 #'  |Total |62380 |160        |468          |429          |364          |279          |386          |361          |929          |217        |667          |195        |208        |507     |184        |168        |298        |278        |73       |11        |284     |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1982 |-       |full         |
+#'  |1983 |-       |full         |
+#'  |1984 |-       |full         |
+#'  |1985 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Income
+#' 
+#' @keywords variable
+#' @md
+#' @name income82
+NULL
+
+
+#'  Respondents income
+#' 
+#'  rincom82
+#' 
+#' Question Respondent's income on 1982-85 surveys. For question wording, see RINCOME.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` lt $1000
@@ -258,22 +433,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name income82
-NULL
-
-#'  Respondents income
-#' 
-#'  rincom82
-#' 
-#' Question Respondent's income on 1982-85 surveys.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/110/vshow).
 #'
 #' Counts by year: 
 #'
@@ -316,6 +477,32 @@ NULL
 #'  |2024  |-     |-          |-            |-            |-            |-            |-            |-            |-            |-          |-            |-          |-          |-       |-          |-          |-          |-          |-        |-         |-       |3309                       |3309  |
 #'  |Total |64586 |269        |405          |361          |274          |248          |263          |219          |393          |180        |208          |143        |155        |134     |160        |156        |247        |43         |195      |46        |161     |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1982 |-       |full         |
+#'  |1983 |-       |full         |
+#'  |1984 |-       |full         |
+#'  |1985 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Income
+#' 
+#' @keywords variable
+#' @md
+#' @name rincom82
+NULL
+
+
+#'  Total family income
+#' 
+#'  income86
+#' 
+#' Question Family income on 1986-90 surveys. For question wording, see INCOME.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` lt $1000
@@ -332,9 +519,12 @@ NULL
 #'   * `12` $17500-19999
 #'   * `13` $20000-22499
 #'   * `14` $22500-24999
-#'   * `15` $25000-34999
-#'   * `16` $35000-49999
-#'   * `17` $50000+
+#'   * `15` $25000-29999
+#'   * `16` $30000-34999
+#'   * `17` $35000-39999
+#'   * `18` $40000-49999
+#'   * `19` $50000-59999
+#'   * `20` $60000+
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -348,22 +538,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name rincom82
-NULL
-
-#'  Total family income
-#' 
-#'  income86
-#' 
-#' Question Family income on 1986-90 surveys.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/111/vshow).
 #'
 #' Counts by year: 
 #'
@@ -406,6 +582,33 @@ NULL
 #'  |2024  |-     |-          |-            |-            |-            |-            |-            |-            |-            |-          |-            |-            |-          |-            |-          |-            |-          |-       |-          |-          |-          |-        |-         |-       |3309                       |3309  |
 #'  |Total |61167 |129        |431          |402          |367          |334          |374          |343          |580          |152        |573          |481          |211        |597          |188        |419          |174        |685     |189        |277        |329        |71       |31        |342     |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Income
+#' 
+#' @keywords variable
+#' @md
+#' @name income86
+NULL
+
+
+#'  Respondents income
+#' 
+#'  rincom86
+#' 
+#' Question Respondent's income on 1986-90 surveys. For question wording, see RINCOME.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` lt $1000
@@ -441,22 +644,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name income86
-NULL
-
-#'  Respondents income
-#' 
-#'  rincom86
-#' 
-#' Question Respondent's income on 1986-90 surveys.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/112/vshow).
 #'
 #' Counts by year: 
 #'
@@ -499,6 +688,33 @@ NULL
 #'  |2024  |-     |-          |-            |-            |-            |-            |-            |-            |-            |-          |-            |-            |-          |-            |-          |-            |-          |-       |-          |-          |-          |-        |-       |-         |3309                       |3309  |
 #'  |Total |63700 |254        |391          |368          |313          |317          |300          |294          |397          |183        |306          |224          |153        |238          |164        |95           |138        |144     |156        |236        |44         |188      |199     |44        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Income
+#' 
+#' @keywords variable
+#' @md
+#' @name rincom86
+NULL
+
+
+#'  Total family income
+#' 
+#'  income91
+#' 
+#' Question Family income on the 1991-96 surveys. For question wording, see INCOME.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` lt $1000
@@ -520,7 +736,8 @@ NULL
 #'   * `17` $35000-39999
 #'   * `18` $40000-49999
 #'   * `19` $50000-59999
-#'   * `20` $60000+
+#'   * `20` $60000-74999
+#'   * `21` $75000+
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -534,22 +751,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name rincom86
-NULL
-
-#'  Total family income
-#' 
-#'  income91
-#' 
-#' Question Family income on the 1991-96 surveys.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/113/vshow).
 #'
 #' Counts by year: 
 #'
@@ -592,6 +795,32 @@ NULL
 #'  |2024  |-     |-          |-            |-            |-            |-            |-            |-            |-            |-          |-            |-            |-          |-            |-          |-            |-          |-            |-          |-       |-          |-          |-        |-         |-       |3309                       |3309  |
 #'  |Total |59827 |113        |395          |391          |384          |314          |348          |401          |592          |110        |644          |541          |140        |849          |165        |658          |134        |577          |125        |840     |234        |349        |77       |119       |519     |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Income
+#' 
+#' @keywords variable
+#' @md
+#' @name income91
+NULL
+
+
+#'  Respondents income
+#' 
+#'  rincom91
+#' 
+#' Question Respondent's income on the 1991-96 surveys. For question wording, see RINCOME.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` lt $1000
@@ -628,22 +857,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name income91
-NULL
-
-#'  Respondents income
-#' 
-#'  rincom91
-#' 
-#' Question Respondent's income on the 1991-96 surveys.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/114/vshow).
 #'
 #' Counts by year: 
 #'
@@ -686,29 +901,57 @@ NULL
 #'  |2024  |-     |-          |-            |-            |-            |-            |-            |-            |-            |-          |-            |-            |-          |-            |-          |-            |-          |-            |-          |-       |-          |-          |-        |-         |-       |3309                       |3309  |
 #'  |Total |62447 |218        |358          |351          |361          |333          |364          |358          |534          |170        |497          |326          |136        |454          |141        |252          |112        |156          |101        |218     |253        |78         |145      |164       |319     |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Income
+#' 
+#' @keywords variable
+#' @md
+#' @name rincom91
+NULL
+
+
+#'  Total family income
+#' 
+#'  income98
+#' 
+#' Question Family income on the 1998, 2000, 2002, and 2004 surveys. For question wording, see INCOME.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` lt $1000
-#'   * `2` $1000-2999
-#'   * `3` $3000-3999
-#'   * `4` $4000-4999
-#'   * `5` $5000-5999
-#'   * `6` $6000-6999
-#'   * `7` $7000-7999
-#'   * `8` $8000-9999
-#'   * `9` $10000-12499
-#'   * `10` $12500-14999
-#'   * `11` $15000-17499
-#'   * `12` $17500-19999
-#'   * `13` $20000-22499
-#'   * `14` $22500-24999
-#'   * `15` $25000-29999
-#'   * `16` $30000-34999
-#'   * `17` $35000-39999
-#'   * `18` $40000-49999
-#'   * `19` $50000-59999
-#'   * `20` $60000-74999
-#'   * `21` $75000+
+#'   * `1` under $1 000
+#'   * `2` $1 000 to 2 999
+#'   * `3` $3 000 to 3 999
+#'   * `4` $4 000 to 4 999
+#'   * `5` $5 000 to 5 999
+#'   * `6` $6 000 to 6 999
+#'   * `7` $7 000 to 7 999
+#'   * `8` $8 000 to 9 999
+#'   * `9` $10000 to 12499
+#'   * `10` $12500 to 14999
+#'   * `11` $15000 to 17499
+#'   * `12` $17500 to 19999
+#'   * `13` $20000 to 22499
+#'   * `14` $22500 to 24999
+#'   * `15` $25000 to 29999
+#'   * `16` $30000 to 34999
+#'   * `17` $35000 to 39999
+#'   * `18` $40000 to 49999
+#'   * `19` $50000 to 59999
+#'   * `20` $60000 to 74999
+#'   * `21` $75000 to $89999
+#'   * `22` $90000 - $109999
+#'   * `23` $110000 or over
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -722,22 +965,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name rincom91
-NULL
-
-#'  Total family income
-#' 
-#'  income98
-#' 
-#' Question Family income on the 1998, 2000, 2002 and 2004 surveys.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/115/vshow).
 #'
 #' Counts by year: 
 #'
@@ -780,145 +1009,22 @@ NULL
 #'  |2024  |-     |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |3309                       |3309  |
 #'  |Total |57620 |117             |366             |835             |378             |390             |313             |388             |409             |613             |102             |720             |635             |92              |950             |115             |862             |136             |888             |139             |607              |239             |463              |461        |45        |816     |147          |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` under $1 000
-#'   * `2` $1 000 to 2 999
-#'   * `3` $3 000 to 3 999
-#'   * `4` $4 000 to 4 999
-#'   * `5` $5 000 to 5 999
-#'   * `6` $6 000 to 6 999
-#'   * `7` $7 000 to 7 999
-#'   * `8` $8 000 to 9 999
-#'   * `9` $10000 to 12499
-#'   * `10` $12500 to 14999
-#'   * `11` $15000 to 17499
-#'   * `12` $17500 to 19999
-#'   * `13` $20000 to 22499
-#'   * `14` $22500 to 24999
-#'   * `15` $25000 to 29999
-#'   * `16` $30000 to 34999
-#'   * `17` $35000 to 39999
-#'   * `18` $40000 to 49999
-#'   * `19` $50000 to 59999
-#'   * `20` $60000 to 74999
-#'   * `21` $75000 to $89999
-#'   * `22` $90000 - $109999
-#'   * `23` $110000 or over
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Income
 #' 
 #' @keywords variable
 #' @md
 #' @name income98
 NULL
 
-#'  Respondents income
-#' 
-#'  rincom98
-#' 
-#' Question Respondent's income on the 1998, 2000, 2002 and 2004 surveys.
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |$1 000 to 2 999 |$10000 to 12499 |$110000 or over |$12500 to 14999 |$15000 to 17499 |$17500 to 19999 |$20000 to 22499 |$22500 to 24999 |$25000 to 29999 |$3 000 to 3 999 |$30000 to 34999 |$35000 to 39999 |$4 000 to 4 999 |$40000 to 49999 |$5 000 to 5 999 |$50000 to 59999 |$6 000 to 6 999 |$60000 to 74999 |$7 000 to 7 999 |$75000 to $89999 |$8 000 to 9 999 |$90000 - $109999 |don't know |no answer |refused |under $1 000 |not available in this year |Total |
-#'  |:-----|:-----|:---------------|:---------------|:---------------|:---------------|:---------------|:---------------|:---------------|:---------------|:---------------|:---------------|:---------------|:---------------|:---------------|:---------------|:---------------|:---------------|:---------------|:---------------|:---------------|:----------------|:---------------|:----------------|:----------|:---------|:-------|:------------|:--------------------------|:-----|
-#'  |1972  |1613  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |1613  |
-#'  |1973  |1504  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |1504  |
-#'  |1974  |1484  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |1484  |
-#'  |1975  |1490  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |1490  |
-#'  |1976  |1499  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |1499  |
-#'  |1977  |1530  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |1530  |
-#'  |1978  |1532  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |1532  |
-#'  |1980  |1468  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |1468  |
-#'  |1982  |1860  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |1860  |
-#'  |1983  |1599  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |1599  |
-#'  |1984  |1473  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |1473  |
-#'  |1985  |1534  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |1534  |
-#'  |1986  |1470  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |1470  |
-#'  |1987  |1819  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |1819  |
-#'  |1988  |1481  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |1481  |
-#'  |1989  |1537  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |1537  |
-#'  |1990  |1372  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |1372  |
-#'  |1991  |1517  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |1517  |
-#'  |1993  |1606  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |1606  |
-#'  |1994  |2992  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |2992  |
-#'  |1996  |2904  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |2904  |
-#'  |1998  |798   |42              |110             |40              |89              |92              |106             |127             |111             |160             |40              |169             |107             |27              |178             |32              |109             |43              |64              |41              |37               |63              |20               |26         |41        |118     |42           |-                          |2832  |
-#'  |2000  |792   |53              |97              |45              |100             |84              |97              |99              |101             |140             |37              |182             |106             |30              |178             |30              |108             |33              |94              |28              |37               |73              |25               |37         |28        |142     |41           |-                          |2817  |
-#'  |2002  |828   |69              |78              |70              |85              |69              |86              |100             |81              |140             |37              |166             |123             |24              |170             |37              |136             |20              |95              |26              |41               |60              |23               |35         |27        |95      |44           |-                          |2765  |
-#'  |2004  |923   |48              |69              |88              |74              |70              |75              |99              |80              |110             |27              |144             |101             |36              |183             |22              |105             |28              |123             |22              |68               |35              |43               |48         |40        |113     |38           |-                          |2812  |
-#'  |2006  |4510  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |4510  |
-#'  |2008  |2023  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |2023  |
-#'  |2010  |2044  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |2044  |
-#'  |2012  |1974  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |1974  |
-#'  |2014  |2538  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |2538  |
-#'  |2016  |2867  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |2867  |
-#'  |2018  |2348  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |2348  |
-#'  |2021  |4032  |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |-                          |4032  |
-#'  |2022  |-     |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |3544                       |3544  |
-#'  |2024  |-     |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-               |-                |-               |-                |-          |-         |-       |-            |3309                       |3309  |
-#'  |Total |60961 |212             |354             |243             |348             |315             |364             |425             |373             |550             |141             |661             |437             |117             |709             |121             |458             |124             |376             |117             |183              |231             |111              |146        |136       |468     |165          |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` under $1 000
-#'   * `2` $1 000 to 2 999
-#'   * `3` $3 000 to 3 999
-#'   * `4` $4 000 to 4 999
-#'   * `5` $5 000 to 5 999
-#'   * `6` $6 000 to 6 999
-#'   * `7` $7 000 to 7 999
-#'   * `8` $8 000 to 9 999
-#'   * `9` $10000 to 12499
-#'   * `10` $12500 to 14999
-#'   * `11` $15000 to 17499
-#'   * `12` $17500 to 19999
-#'   * `13` $20000 to 22499
-#'   * `14` $22500 to 24999
-#'   * `15` $25000 to 29999
-#'   * `16` $30000 to 34999
-#'   * `17` $35000 to 39999
-#'   * `18` $40000 to 49999
-#'   * `19` $50000 to 59999
-#'   * `20` $60000 to 74999
-#'   * `21` $75000 to $89999
-#'   * `22` $90000 - $109999
-#'   * `23` $110000 or over
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name rincom98
-NULL
 

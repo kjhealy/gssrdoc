@@ -1,11 +1,117 @@
+#'  Responsible job tasks
+#' 
+#'  jobresp
+#' 
+#' Question On these cards there are various aspects of jobs. How important Do you personally consider these job characteristics? Using the scale from one to seven for your answers again, tell me for each card its letter and the number you've decided on.
+#' SHUFFLE THE PINK CARDS BEFORE HANDING TO RESPONDENT.
+#' H. Responsible job tasks
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` unimportant
+#'   * `7` very important
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/562/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |2  |3  |4  |5   |6   |don't know |no answer |unimportant |very important |not available in this year |Total |
+#'  |:-----|:-----|:--|:--|:--|:---|:---|:----------|:---------|:-----------|:--------------|:--------------------------|:-----|
+#'  |1972  |1613  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |1613  |
+#'  |1973  |1504  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |1504  |
+#'  |1974  |1484  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |1484  |
+#'  |1975  |1490  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |1490  |
+#'  |1976  |1499  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |1499  |
+#'  |1977  |1530  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |1530  |
+#'  |1978  |1532  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |1532  |
+#'  |1980  |1468  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |1468  |
+#'  |1982  |923   |9  |18 |43 |131 |256 |10         |15        |8           |447            |-                          |1860  |
+#'  |1983  |1599  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |1599  |
+#'  |1984  |1473  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |1473  |
+#'  |1985  |1534  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |1534  |
+#'  |1986  |1470  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |1470  |
+#'  |1987  |1819  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |1819  |
+#'  |1988  |1481  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |1481  |
+#'  |1989  |1537  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |1537  |
+#'  |1990  |1372  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |1372  |
+#'  |1991  |1517  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |1517  |
+#'  |1993  |1606  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |1606  |
+#'  |1994  |2992  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |2992  |
+#'  |1996  |2904  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |2904  |
+#'  |1998  |2832  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |2832  |
+#'  |2000  |2817  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |2817  |
+#'  |2002  |2765  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |2765  |
+#'  |2004  |2812  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |2812  |
+#'  |2006  |4510  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |4510  |
+#'  |2008  |2023  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |2023  |
+#'  |2010  |2044  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |2044  |
+#'  |2012  |1974  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |1974  |
+#'  |2014  |2538  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |2538  |
+#'  |2016  |2867  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |2867  |
+#'  |2018  |2348  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |2348  |
+#'  |2021  |4032  |-  |-  |-  |-   |-   |-          |-         |-           |-              |-                          |4032  |
+#'  |2022  |-     |-  |-  |-  |-   |-   |-          |-         |-           |-              |3544                       |3544  |
+#'  |2024  |-     |-  |-  |-  |-   |-   |-          |-         |-           |-              |3309                       |3309  |
+#'  |Total |67909 |9  |18 |43 |131 |256 |10         |15        |8           |447            |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1982 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name jobresp
+NULL
+
+
 #'  Contact with other people
 #' 
 #'  jobpeop
 #' 
-#' Question 184. On these card are various aspects of jobs. How important do you personally consider these job characteristics? A LOT OF CONTACT WITH OTHER PEOPLE
+#' Question On these cards there are various aspects of jobs. How important Do you personally consider these job characteristics? Using the scale from one to seven for your answers again, tell me for each card its letter and the number you've decided on.
+#' SHUFFLE THE PINK CARDS BEFORE HANDING TO RESPONDENT.
+#' I. A lot of contact with other people
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` unimportant
+#'   * `7` very important
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/563/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +154,31 @@
 #'  |2024  |-     |-  |-  |-   |-   |-   |-          |-         |-           |-              |3309                       |3309  |
 #'  |Total |67909 |29 |48 |105 |176 |203 |6          |17        |30          |323            |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1982 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name jobpeop
+NULL
+
+
+#'  Can help others
+#' 
+#'  jobhelp
+#' 
+#' Question On these cards there are various aspects of jobs. How important Do you personally consider these job characteristics? Using the scale from one to seven for your answers again, tell me for each card its letter and the number you've decided on.
+#' SHUFFLE THE PINK CARDS BEFORE HANDING TO RESPONDENT.
+#' J. An occupation in which one can help others
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` unimportant
@@ -65,22 +196,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name jobpeop
-NULL
-
-#'  Can help others
-#' 
-#'  jobhelp
-#' 
-#' Question 184. On these card are various aspects of jobs. How important do you personally consider these job characteristics? AN OCCUPATION IN WHICH ONE CAN HELP OTHERS
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/564/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,6 +240,31 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-   |-   |-          |-         |-           |-              |3309                       |3309  |
 #'  |Total |67909 |16 |29 |50 |103 |200 |6          |13        |14          |506            |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1982 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name jobhelp
+NULL
+
+
+#'  Useful to society
+#' 
+#'  jobsoc
+#' 
+#' Question On these cards there are various aspects of jobs. How important Do you personally consider these job characteristics? Using the scale from one to seven for your answers again, tell me for each card its letter and the number you've decided on.
+#' SHUFFLE THE PINK CARDS BEFORE HANDING TO RESPONDENT.
+#' K. A job that is useful to society
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` unimportant
@@ -140,22 +282,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name jobhelp
-NULL
-
-#'  Useful to society
-#' 
-#'  jobsoc
-#' 
-#' Question 184. On these card are various aspects of jobs. How important do you personally consider these job characteristics? A JOB THAT IS USEFUL TO SOCIETY
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/565/vshow).
 #'
 #' Counts by year: 
 #'
@@ -198,6 +326,31 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-   |-   |-          |-         |-           |-              |3309                       |3309  |
 #'  |Total |67909 |17 |30 |62 |130 |209 |7          |16        |23          |443            |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1982 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name jobsoc
+NULL
+
+
+#'  Doing something meaningful
+#' 
+#'  jobaccmp
+#' 
+#' Question On these cards there are various aspects of jobs. How important Do you personally consider these job characteristics? Using the scale from one to seven for your answers again, tell me for each card its letter and the number you've decided on.
+#' SHUFFLE THE PINK CARDS BEFORE HANDING TO RESPONDENT.
+#' L. Gives a feeling of doing something meaningful
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` unimportant
@@ -215,22 +368,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name jobsoc
-NULL
-
-#'  Doing something meaningful
-#' 
-#'  jobaccmp
-#' 
-#' Question 184. On these card are various aspects of jobs. How important do you personally consider these job characteristics? GIVES A FEELING OF DOING SOMETHING MEANINGFUL
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/566/vshow).
 #'
 #' Counts by year: 
 #'
@@ -273,6 +412,31 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-   |-          |-         |-           |-              |3309                       |3309  |
 #'  |Total |67909 |8  |13 |28 |91 |187 |8          |15        |10          |577            |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1982 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name jobaccmp
+NULL
+
+
+#'  Safe conditions
+#' 
+#'  jobsafe
+#' 
+#' Question On these cards there are various aspects of jobs. How important Do you personally consider these job characteristics? Using the scale from one to seven for your answers again, tell me for each card its letter and the number you've decided on.
+#' SHUFFLE THE PINK CARDS BEFORE HANDING TO RESPONDENT.
+#' M. Safe and healthful working conditions
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` unimportant
@@ -290,22 +454,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name jobaccmp
-NULL
-
-#'  Safe conditions
-#' 
-#'  jobsafe
-#' 
-#' Question 184. On these card are various aspects of jobs. How important do you personally consider these job characteristics? SAFE AND HEALTHFUL WORKING CONDITIONS
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/567/vshow).
 #'
 #' Counts by year: 
 #'
@@ -348,10 +498,36 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-   |-          |-         |-           |-              |3309                       |3309  |
 #'  |Total |67909 |5  |14 |28 |70 |108 |7          |16        |8           |681            |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1982 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name jobsafe
+NULL
+
+
+#'  Subjective class identification
+#' 
+#'  class
+#' 
+#' Question  
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` unimportant
-#'   * `7` very important
+#'   * `1` lower class
+#'   * `2` working class
+#'   * `3` middle class
+#'   * `4` upper class
+#'   * `5` no class
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -365,22 +541,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name jobsafe
-NULL
-
-#'  Subjective class identification
-#' 
-#'  class
-#' 
-#' Question 185a. If you were asked to use one of four names for your social class, which would you say you belong in: the lower class, the working class, the middle class, or the upper class?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/568/vshow).
 #'
 #' Counts by year: 
 #'
@@ -423,13 +585,69 @@ NULL
 #'  |2024  |369         |1451         |9         |140         |1308          |-    |25         |-        |7              |3309  |
 #'  |Total |4970        |32465        |251       |2442        |32248         |3064 |235        |1        |23             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Coreocial Class
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name class
+NULL
+
+
+#'  Subjective social class-version y
+#' 
+#'  classy
+#' 
+#' Question B. If you were asked to use one of five names for your social class, which would you say you belong in: the lower class, the working class, the middle class, the upper middle class, or the upper class?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` lower class
 #'   * `2` working class
 #'   * `3` middle class
-#'   * `4` upper class
-#'   * `5` no class
+#'   * `4` upper middle class
+#'   * `5` upper class
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -443,22 +661,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name class
-NULL
-
-#'  Subjective social class-version y
-#' 
-#'  classy
-#' 
-#' Question 185b. If you were asked to use one of five names for your social class, which would you say you belong in: the lower class, the working class, the middle class, the upper middle class, or the upper class?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/569/vshow).
 #'
 #' Counts by year: 
 #'
@@ -501,13 +705,35 @@ NULL
 #'  |2024  |-     |-           |-            |-         |-           |-                  |-             |3309                       |3309  |
 #'  |Total |68095 |32          |308          |6         |18          |79                 |308           |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Coreocial Class
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name classy
+NULL
+
+
+#'  R's self ranking of social position
+#' 
+#'  rank
+#' 
+#' Question In our society there are groups which tend to be towards the top and those that are towards the bottom. Here we have a scale that runs from top to bottom. 
+#' A. Where would you put yourself on this scale?
+#' HAND SCALE AND PENCIL TO RESPONDENT. LET RESPONDENT MARK SCALE. Be sure that the mark is within one of the boxes. Record answer below.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` lower class
-#'   * `2` working class
-#'   * `3` middle class
-#'   * `4` upper middle class
-#'   * `5` upper class
+#'   * `1` 1 - top
+#'   * `10` 10 - bottom
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -521,22 +747,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name classy
-NULL
-
-#'  R's self ranking of social position
-#' 
-#'  rank
-#' 
-#' Question 186. In our society there are groups which tend to be towards the top and those that are towards the bottom. Here we have ascale that runs from top (1) to bottom (10). a. Where would you put yourself on this scale?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/570/vshow).
 #'
 #' Counts by year: 
 #'
@@ -579,11 +791,47 @@ NULL
 #'  |2024  |1656  |85      |37          |58  |223  |227  |584  |149  |131  |72  |17  |38         |9         |23             |3309  |
 #'  |Total |52120 |1308    |403         |903 |3096 |3405 |8063 |2403 |1799 |968 |274 |489        |402       |66             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |D/-/-   |partial      |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family ISSP Social Inequalityocial Class
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name rank
+NULL
+
+
+#'  R's social rank 10 years ago
+#' 
+#'  rank10
+#' 
+#' Question In our society there are groups which tend to be towards the top and those that are towards the bottom. Here we have a scale that runs from top to bottom. 
+#' B. And ten years ago, where did you fit in then?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` 1 - top
 #'   * `10` 10 - bottom
-#'   * `NA(d)` don't know
+#'   * `NA(d)` can't choose
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
 #'   * `NA(m)` dk, na, iap
@@ -596,22 +844,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name rank
-NULL
-
-#'  R's social rank 10 years ago
-#' 
-#'  rank10
-#' 
-#' Question 186. In our society there are groups which tend to be towards the top and those that are towards the bottom. Here we have ascale that runs from top (1) to bottom (10). b. And ten years ago, where did you fit in then?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/571/vshow).
 #'
 #' Counts by year: 
 #'
@@ -654,104 +888,19 @@ NULL
 #'  |2024  |-     |-       |-           |-  |-   |-   |-   |-   |-   |-   |-  |-            |-         |3309                       |3309  |
 #'  |Total |67574 |27      |40          |49 |106 |132 |239 |194 |149 |133 |52 |7            |144       |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` 1 - top
-#'   * `10` 10 - bottom
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Social Class
 #' 
 #' @keywords variable
 #' @md
 #' @name rank10
 NULL
 
-#'  Satisfaction with financial situation
-#' 
-#'  satfin
-#' 
-#' Question 187a. We are interested in how people are getting along financially these days. So far as you and your family are concerned, would you say that you are pretty well satisfied with your present financial situation, more or less satisfied, or not satisfied at all?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |don't know |more or less satisfied |no answer |not satisfied at all |pretty well satisfied |iap  |skipped on web |Total |
-#'  |:-----|:----------|:----------------------|:---------|:--------------------|:---------------------|:----|:--------------|:-----|
-#'  |1972  |1          |720                    |4         |366                  |522                   |-    |-              |1613  |
-#'  |1973  |1          |683                    |2         |357                  |461                   |-    |-              |1504  |
-#'  |1974  |2          |674                    |4         |343                  |461                   |-    |-              |1484  |
-#'  |1975  |4          |627                    |7         |394                  |458                   |-    |-              |1490  |
-#'  |1976  |4          |686                    |3         |348                  |458                   |-    |-              |1499  |
-#'  |1977  |3          |664                    |6         |337                  |520                   |-    |-              |1530  |
-#'  |1978  |2          |646                    |1         |365                  |518                   |-    |-              |1532  |
-#'  |1980  |4          |652                    |2         |393                  |417                   |-    |-              |1468  |
-#'  |1982  |5          |814                    |8         |579                  |454                   |-    |-              |1860  |
-#'  |1983  |5          |657                    |2         |479                  |456                   |-    |-              |1599  |
-#'  |1984  |3          |668                    |6         |381                  |415                   |-    |-              |1473  |
-#'  |1985  |5          |671                    |4         |401                  |453                   |-    |-              |1534  |
-#'  |1986  |3          |626                    |1         |395                  |445                   |-    |-              |1470  |
-#'  |1987  |2          |855                    |6         |454                  |502                   |-    |-              |1819  |
-#'  |1988  |3          |663                    |4         |360                  |451                   |-    |-              |1481  |
-#'  |1989  |4          |678                    |1         |385                  |469                   |-    |-              |1537  |
-#'  |1990  |3          |591                    |2         |370                  |406                   |-    |-              |1372  |
-#'  |1991  |5          |687                    |6         |402                  |417                   |-    |-              |1517  |
-#'  |1993  |7          |712                    |3         |454                  |430                   |-    |-              |1606  |
-#'  |1994  |5          |1365                   |11        |779                  |832                   |-    |-              |2992  |
-#'  |1996  |4          |1287                   |4         |806                  |803                   |-    |-              |2904  |
-#'  |1998  |5          |1255                   |3         |720                  |849                   |-    |-              |2832  |
-#'  |2000  |9          |1261                   |5         |708                  |834                   |-    |-              |2817  |
-#'  |2002  |2          |568                    |1         |391                  |410                   |1393 |-              |2765  |
-#'  |2004  |3          |562                    |2         |354                  |419                   |1472 |-              |2812  |
-#'  |2006  |4          |1310                   |8         |774                  |896                   |1518 |-              |4510  |
-#'  |2008  |5          |819                    |2         |624                  |573                   |-    |-              |2023  |
-#'  |2010  |1          |918                    |5         |642                  |478                   |-    |-              |2044  |
-#'  |2012  |2          |857                    |5         |573                  |537                   |-    |-              |1974  |
-#'  |2014  |3          |1141                   |3         |693                  |698                   |-    |-              |2538  |
-#'  |2016  |5          |1255                   |6         |785                  |816                   |-    |-              |2867  |
-#'  |2018  |7          |1047                   |3         |554                  |737                   |-    |-              |2348  |
-#'  |2021  |-          |1800                   |1         |962                  |1254                  |-    |15             |4032  |
-#'  |2022  |7          |1568                   |4         |1081                 |877                   |-    |7              |3544  |
-#'  |2024  |6          |1456                   |5         |1061                 |774                   |-    |7              |3309  |
-#'  |Total |134        |31443                  |140       |19070                |20500                 |4383 |29             |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` pretty well satisfied
-#'   * `2` more or less satisfied
-#'   * `3` not satisfied at all
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name satfin
-NULL
 

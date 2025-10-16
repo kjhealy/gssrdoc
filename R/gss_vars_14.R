@@ -1,11 +1,159 @@
+#'  Living with parents when 16 yrs old
+#' 
+#'  family16
+#' 
+#' Question Were you living with both your own mother and father around the time you were 16? (IF NO: With whom were you living around that time?)  (IF R. MARRIED OR LEFT HOME BY AGE 16, PROBE "BEFORE THAT.")
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` other
+#'   * `1` both own parents
+#'   * `2` father and stepparent
+#'   * `3` mother and stepparent
+#'   * `4` father only
+#'   * `5` mother only
+#'   * `6` some other male relative (no female head)
+#'   * `7` some other female relative (no male head)
+#'   * `8` other arrangement with relatives (e.g., aunt and uncle, grandparents)
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/86/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |both own parents |father and stepparent |father only |mother and stepparent |mother only |other arrangement with relatives (e.g., aunt and uncle, grandparents) |some other female relative (no male head) |some other male relative (no female head) |no answer |other |iap  |don't know |skipped on web |Total |
+#'  |:-----|:----------------|:---------------------|:-----------|:---------------------|:-----------|:---------------------------------------------------------------------|:-----------------------------------------|:-----------------------------------------|:---------|:-----|:----|:----------|:--------------|:-----|
+#'  |1972  |1198             |27                    |35          |52                    |173         |93                                                                    |25                                        |10                                        |-         |-     |-    |-          |-              |1613  |
+#'  |1973  |1174             |31                    |46          |43                    |123         |41                                                                    |14                                        |6                                         |2         |24    |-    |-          |-              |1504  |
+#'  |1974  |1126             |25                    |36          |47                    |152         |30                                                                    |20                                        |9                                         |-         |39    |-    |-          |-              |1484  |
+#'  |1975  |1140             |34                    |24          |82                    |124         |36                                                                    |21                                        |4                                         |-         |25    |-    |-          |-              |1490  |
+#'  |1976  |1139             |29                    |40          |45                    |162         |33                                                                    |17                                        |3                                         |3         |28    |-    |-          |-              |1499  |
+#'  |1977  |1133             |28                    |44          |76                    |172         |35                                                                    |14                                        |4                                         |2         |22    |-    |-          |-              |1530  |
+#'  |1978  |1157             |21                    |34          |57                    |172         |36                                                                    |21                                        |5                                         |1         |28    |-    |-          |-              |1532  |
+#'  |1980  |1070             |25                    |29          |69                    |179         |22                                                                    |23                                        |8                                         |-         |43    |-    |-          |-              |1468  |
+#'  |1982  |1334             |34                    |48          |70                    |246         |47                                                                    |35                                        |5                                         |4         |37    |-    |-          |-              |1860  |
+#'  |1983  |1225             |29                    |35          |59                    |170         |34                                                                    |24                                        |1                                         |-         |22    |-    |-          |-              |1599  |
+#'  |1984  |1100             |22                    |33          |73                    |151         |31                                                                    |24                                        |6                                         |1         |32    |-    |-          |-              |1473  |
+#'  |1985  |1160             |33                    |37          |50                    |153         |42                                                                    |19                                        |7                                         |-         |33    |-    |-          |-              |1534  |
+#'  |1986  |1082             |19                    |25          |72                    |180         |35                                                                    |19                                        |4                                         |-         |34    |-    |-          |-              |1470  |
+#'  |1987  |1316             |36                    |43          |65                    |233         |46                                                                    |45                                        |7                                         |3         |25    |-    |-          |-              |1819  |
+#'  |1988  |1072             |27                    |36          |92                    |171         |36                                                                    |18                                        |1                                         |-         |28    |-    |-          |-              |1481  |
+#'  |1989  |1153             |17                    |38          |60                    |172         |23                                                                    |25                                        |3                                         |1         |45    |-    |-          |-              |1537  |
+#'  |1990  |992              |20                    |25          |74                    |170         |29                                                                    |21                                        |7                                         |1         |33    |-    |-          |-              |1372  |
+#'  |1991  |1102             |36                    |37          |68                    |176         |23                                                                    |29                                        |8                                         |-         |38    |-    |-          |-              |1517  |
+#'  |1993  |1192             |33                    |34          |72                    |166         |38                                                                    |31                                        |7                                         |-         |33    |-    |-          |-              |1606  |
+#'  |1994  |2101             |76                    |71          |162                   |405         |62                                                                    |35                                        |12                                        |-         |68    |-    |-          |-              |2992  |
+#'  |1996  |2012             |79                    |70          |135                   |407         |71                                                                    |42                                        |3                                         |3         |82    |-    |-          |-              |2904  |
+#'  |1998  |1959             |90                    |55          |159                   |385         |50                                                                    |44                                        |5                                         |-         |85    |-    |-          |-              |2832  |
+#'  |2000  |1936             |61                    |63          |151                   |417         |58                                                                    |43                                        |9                                         |-         |79    |-    |-          |-              |2817  |
+#'  |2002  |1861             |49                    |76          |179                   |390         |58                                                                    |56                                        |13                                        |3         |80    |-    |-          |-              |2765  |
+#'  |2004  |1967             |48                    |68          |148                   |388         |61                                                                    |33                                        |5                                         |1         |93    |-    |-          |-              |2812  |
+#'  |2006  |2085             |54                    |75          |189                   |404         |49                                                                    |41                                        |6                                         |1         |88    |1518 |-          |-              |4510  |
+#'  |2008  |1375             |25                    |50          |119                   |300         |39                                                                    |36                                        |12                                        |-         |67    |-    |-          |-              |2023  |
+#'  |2010  |1358             |32                    |57          |125                   |319         |44                                                                    |35                                        |5                                         |-         |69    |-    |-          |-              |2044  |
+#'  |2012  |1303             |39                    |53          |129                   |294         |47                                                                    |39                                        |5                                         |-         |65    |-    |-          |-              |1974  |
+#'  |2014  |1672             |43                    |62          |160                   |410         |59                                                                    |44                                        |12                                        |-         |76    |-    |-          |-              |2538  |
+#'  |2016  |1845             |40                    |80          |170                   |489         |70                                                                    |41                                        |10                                        |2         |120   |-    |-          |-              |2867  |
+#'  |2018  |1499             |37                    |74          |150                   |411         |56                                                                    |46                                        |9                                         |1         |65    |-    |-          |-              |2348  |
+#'  |2021  |2910             |83                    |97          |230                   |522         |60                                                                    |40                                        |9                                         |3         |76    |-    |1          |1              |4032  |
+#'  |2022  |2360             |78                    |67          |228                   |539         |100                                                                   |58                                        |11                                        |2         |100   |-    |-          |1              |3544  |
+#'  |2024  |2265             |56                    |81          |163                   |506         |77                                                                    |52                                        |19                                        |5         |83    |-    |1          |1              |3309  |
+#'  |Total |52373            |1416                  |1778        |3823                  |9831        |1671                                                                  |1130                                      |250                                       |39        |1865  |1518 |2          |3              |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Family
+#' @family Parents
+#' 
+#' @keywords variable
+#' @md
+#' @name family16
+NULL
+
+
 #'  Reason not living with parents
 #' 
 #'  famdif16
 #' 
-#' Question 27a. If not living with both own mother and father: What happened?
+#' Question Were you living with both your own mother and father around the time you were 16? (IF NO: With whom were you living around that time?)  (IF R. MARRIED OR LEFT HOME BY AGE 16, PROBE "BEFORE THAT.")
+#' A. IF NOT LIVING WITH BOTH OWN MOTHER AND FATHER:  What happened?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` one or both parents died
+#'   * `2` parents divorced or separated
+#'   * `3` father absent in armed forces
+#'   * `4` one or both parents in institution
+#'   * `5` other
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/87/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,13 +196,68 @@
 #'  |2024  |2756  |3                             |5         |124                      |12                                 |70    |336                           |3          |-              |3309  |
 #'  |Total |56253 |59                            |404       |6281                     |154                                |2898  |9508                          |139        |3              |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Divorce
+#' @family Family
+#' @family Parents
+#' 
+#' @keywords variable
+#' @md
+#' @name famdif16
+NULL
+
+
+#'  Mothers employment since marriage
+#' 
+#'  mawork
+#' 
+#' Question Did your mother ever work for pay for as long as a year, after she was married?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` one or both parents died
-#'   * `2` parents divorced or separated
-#'   * `3` father absent in armed forces
-#'   * `4` one or both parents in institution
-#'   * `5` other
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -68,22 +271,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name famdif16
-NULL
-
-#'  Mothers employment since marriage
-#' 
-#'  mawork
-#' 
-#' Question 28. Did your mother ever work for pay for as long as a year, after she was married?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/88/vshow).
 #'
 #' Counts by year: 
 #'
@@ -126,6 +315,47 @@ NULL
 #'  |2024  |-     |-          |-     |-         |-     |3309                       |3309  |
 #'  |Total |43868 |411        |10212 |255       |14100 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Labor Force Status
+#' 
+#' @keywords variable
+#' @md
+#' @name mawork
+NULL
+
+
+#'  Mothers employment before first grade
+#' 
+#'  mawkbaby
+#' 
+#' Question Did your mother ever work for pay for as long as a year, after she was married?
+#'  A. Did she work for as long as a year before you started first grade?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -143,22 +373,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name mawork
-NULL
-
-#'  Mothers employment before first grade
-#' 
-#'  mawkbaby
-#' 
-#' Question 28a. Did she work for as long as a year before you started first grade?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/89/vshow).
 #'
 #' Counts by year: 
 #'
@@ -201,6 +417,38 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-    |3309                       |3309  |
 #'  |Total |62342 |271        |3444 |161       |2628 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-       |full         |
+#'  |1974 |-       |full         |
+#'  |1975 |-       |full         |
+#'  |1976 |-       |full         |
+#'  |1977 |-       |full         |
+#'  |1978 |-       |full         |
+#'  |1980 |-       |full         |
+#'  |1982 |-       |full         |
+#'  |1983 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Labor Force Status
+#' 
+#' @keywords variable
+#' @md
+#' @name mawkbaby
+NULL
+
+
+#'  Mothers employment after r was born
+#' 
+#'  mawkborn
+#' 
+#' Question Did your mother ever work for pay for as long as a year, after she was married?
+#'  B. Did she work as long as a year after you were born and before you started first grade?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -218,22 +466,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name mawkbaby
-NULL
-
-#'  Mothers employment after r was born
-#' 
-#'  mawkborn
-#' 
-#' Question 28b. Did she work as long as a year after you were born and before you started first grade?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/90/vshow).
 #'
 #' Counts by year: 
 #'
@@ -276,6 +510,36 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-    |3309                       |3309  |
 #'  |Total |63094 |204        |2955 |65        |2528 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Labor Force Status
+#' 
+#' @keywords variable
+#' @md
+#' @name mawkborn
+NULL
+
+
+#'  Mothers employment when r growing up
+#' 
+#'  mawk16
+#' 
+#' Question Did your mother ever work for pay for as long as a year, after she was married?
+#'  C. Did she work for as long as a year around the time you were 16?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -293,22 +557,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name mawkborn
-NULL
-
-#'  Mothers employment when r growing up
-#' 
-#'  mawk16
-#' 
-#' Question 28c. Did she work for as long as a year around the time you were 16?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/91/vshow).
 #'
 #' Counts by year: 
 #'
@@ -351,6 +601,37 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-    |3309                       |3309  |
 #'  |Total |62342 |29         |2032 |175       |4268 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-       |full         |
+#'  |1974 |-       |full         |
+#'  |1975 |-       |full         |
+#'  |1976 |-       |full         |
+#'  |1977 |-       |full         |
+#'  |1978 |-       |full         |
+#'  |1980 |-       |full         |
+#'  |1982 |-       |full         |
+#'  |1983 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Labor Force Status
+#' 
+#' @keywords variable
+#' @md
+#' @name mawk16
+NULL
+
+
+#'  Did mother (or youngest same-sex parent) ever work for pay for as long as a year while you were growing up?
+#' 
+#'  mawrkgrw
+#' 
+#' Question Did your mother ever work for pay for as long as a year, while you were growing up?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -368,22 +649,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name mawk16
-NULL
-
-#'  Did mother (or youngest same-sex parent) ever work for pay for as long as a year
-#' 
-#'  mawrkgrw
-#' 
-#' Question 29. Did your mother ever work for pay for as long as a year, while you were growing up?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/92/vshow).
 #'
 #' Counts by year: 
 #'
@@ -426,10 +693,52 @@ NULL
 #'  |2024  |-     |-          |-     |-         |-     |-              |3309                          |3309  |
 #'  |Total |32600 |449        |12232 |190       |26909 |10             |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Labor Force Status
+#' 
+#' @keywords variable
+#' @md
+#' @name mawrkgrw
+NULL
+
+
+#'  R's family income when 16 yrs old
+#' 
+#'  incom16
+#' 
+#' Question Thinking about the time when you were 16 years old, compared with American families in general then, would you say your family income was--far below average, below average, average, above average, or far above average? (PROBE: Just your best guess.)
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` far below average
+#'   * `2` below average
+#'   * `3` average
+#'   * `4` above average
+#'   * `5` far above average
+#'   * `7` lived in institution
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -443,22 +752,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name mawrkgrw
-NULL
-
-#'  R's family income when 16 yrs old
-#' 
-#'  incom16
-#' 
-#' Question 30. Thinking about the time when you were 16 years old, compared with American families in general then, would you say your family income was far below average, below average, average, above average, or far above average?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/93/vshow).
 #'
 #' Counts by year: 
 #'
@@ -501,14 +796,64 @@ NULL
 #'  |2024  |526           |1413    |875           |42         |67                |356               |-                    |9         |-     |21             |3309  |
 #'  |Total |9595          |29781   |15607         |784        |1203              |5690              |10                   |209       |12776 |44             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Income
+#' 
+#' @keywords variable
+#' @md
+#' @name incom16
+NULL
+
+
+#'  Was r born in this country
+#' 
+#'  born
+#' 
+#' Question Were you born in this country?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` far below average
-#'   * `2` below average
-#'   * `3` average
-#'   * `4` above average
-#'   * `5` far above average
-#'   * `7` lived in institution
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -522,22 +867,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name incom16
-NULL
-
-#'  Was r born in this country
-#' 
-#'  born
-#' 
-#' Question 31. Were you born in this country?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/94/vshow).
 #'
 #' Counts by year: 
 #'
@@ -580,10 +911,69 @@ NULL
 #'  |2024  |-    |432  |1         |2859  |8          |9              |3309  |
 #'  |Total |9160 |6431 |150       |59893 |39         |26             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Nativity
+#' 
+#' @keywords variable
+#' @md
+#' @name born
+NULL
+
+
+#'  Were r's parents born in this country
+#' 
+#'  parborn
+#' 
+#' Question Were both your parents born in this country? (IF THE RESPONDENT IS UNCERTAIN OF PARENT, USE SAME PERSONS AS IN PAOCC16 to PAIND16, PAEDUC, MAEDUC, PADEG, AND MADEG.)
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `0` both born in the u.s.
+#'   * `1` mother yes, father no
+#'   * `2` mother no, father yes
+#'   * `3` mother yes, father don't know
+#'   * `4` mother no, father don't know
+#'   * `5` mother don't know, father yes
+#'   * `6` mother don't know, father no
+#'   * `7` mother don't know, father don't know
+#'   * `8` neither born in the u.s.
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -597,22 +987,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name born
-NULL
-
-#'  Were r's parents born in this country
-#' 
-#'  parborn
-#' 
-#' Question 32. Were both your parents born in this country?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/95/vshow).
 #'
 #' Counts by year: 
 #'
@@ -655,113 +1031,48 @@ NULL
 #'  |2024  |-    |2521                  |20                                   |96                    |29                            |93                    |521                      |3         |3                            |3                            |11                            |9              |3309  |
 #'  |Total |9108 |53514                 |115                                  |1543                  |206                           |2079                  |8734                     |238       |50                           |26                           |47                            |39             |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `0` both born in the u.s.
-#'   * `1` mother yes, father no
-#'   * `2` mother no, father yes
-#'   * `3` mother yes, father don't know
-#'   * `4` mother no, father don't know
-#'   * `5` mother don't know, father yes
-#'   * `6` mother don't know, father no
-#'   * `7` mother don't know, father don't know
-#'   * `8` neither born in the u.s.
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Nativity
 #' 
 #' @keywords variable
 #' @md
 #' @name parborn
 NULL
 
-#'  How many grandparents born outside u.s.
-#' 
-#'  granborn
-#' 
-#' Question 33. Were all of your four grandparents born in this country? a. How many were born outside the United States?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |four  |no answer |none  |one  |three |two  |skipped on web |Total |
-#'  |:-----|:-----|:----------|:-----|:---------|:-----|:----|:-----|:----|:--------------|:-----|
-#'  |1972  |1613  |-          |-     |-         |-     |-    |-     |-    |-              |1613  |
-#'  |1973  |1504  |-          |-     |-         |-     |-    |-     |-    |-              |1504  |
-#'  |1974  |1484  |-          |-     |-         |-     |-    |-     |-    |-              |1484  |
-#'  |1975  |1490  |-          |-     |-         |-     |-    |-     |-    |-              |1490  |
-#'  |1976  |1499  |-          |-     |-         |-     |-    |-     |-    |-              |1499  |
-#'  |1977  |35    |20         |337   |5         |840   |81   |30    |182  |-              |1530  |
-#'  |1978  |50    |38         |299   |4         |845   |101  |40    |155  |-              |1532  |
-#'  |1980  |44    |28         |302   |8         |793   |91   |39    |163  |-              |1468  |
-#'  |1982  |83    |12         |344   |8         |1079  |89   |50    |195  |-              |1860  |
-#'  |1983  |82    |16         |361   |6         |786   |104  |52    |192  |-              |1599  |
-#'  |1984  |77    |7          |283   |12        |802   |94   |30    |168  |-              |1473  |
-#'  |1985  |53    |18         |291   |8         |832   |117  |35    |180  |-              |1534  |
-#'  |1986  |73    |9          |306   |12        |777   |98   |42    |153  |-              |1470  |
-#'  |1987  |91    |24         |261   |11        |1143  |90   |27    |172  |-              |1819  |
-#'  |1988  |103   |13         |262   |3         |810   |92   |41    |157  |-              |1481  |
-#'  |1989  |76    |21         |279   |11        |859   |92   |37    |162  |-              |1537  |
-#'  |1990  |68    |13         |244   |8         |763   |87   |37    |152  |-              |1372  |
-#'  |1991  |74    |17         |272   |14        |843   |93   |44    |160  |-              |1517  |
-#'  |1993  |83    |14         |272   |11        |925   |96   |39    |166  |-              |1606  |
-#'  |1994  |159   |19         |503   |15        |1747  |187  |57    |305  |-              |2992  |
-#'  |1996  |157   |21         |466   |16        |1672  |176  |68    |328  |-              |2904  |
-#'  |1998  |153   |21         |486   |28        |1606  |165  |63    |310  |-              |2832  |
-#'  |2000  |174   |25         |476   |17        |1605  |152  |61    |307  |-              |2817  |
-#'  |2002  |134   |14         |492   |8         |1626  |153  |57    |281  |-              |2765  |
-#'  |2004  |116   |19         |525   |2         |1652  |169  |55    |274  |-              |2812  |
-#'  |2006  |1639  |18         |649   |-         |1676  |181  |72    |275  |-              |4510  |
-#'  |2008  |96    |7          |409   |-         |1149  |128  |40    |194  |-              |2023  |
-#'  |2010  |111   |19         |412   |3         |1152  |115  |38    |194  |-              |2044  |
-#'  |2012  |104   |11         |409   |6         |1087  |121  |34    |202  |-              |1974  |
-#'  |2014  |126   |13         |557   |1         |1356  |160  |53    |272  |-              |2538  |
-#'  |2016  |136   |20         |564   |8         |1609  |197  |49    |284  |-              |2867  |
-#'  |2018  |121   |11         |461   |2         |1333  |124  |60    |236  |-              |2348  |
-#'  |2021  |216   |108        |585   |62        |2379  |220  |99    |350  |13             |4032  |
-#'  |2022  |216   |62         |646   |15        |2012  |206  |89    |296  |2              |3544  |
-#'  |2024  |178   |61         |588   |16        |1955  |148  |77    |283  |3              |3309  |
-#'  |Total |12418 |699        |12341 |320       |37713 |3927 |1515  |6748 |18             |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `0` none
-#'   * `1` one
-#'   * `2` two
-#'   * `3` three
-#'   * `4` four
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name granborn
-NULL
 

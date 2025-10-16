@@ -10,11 +10,37 @@ General Social Survey https://gss.norc.org
 cowrksta
 }
 \details{
-Question None
+Question Last week was your partner working full time, part time, going to school, keeping house, or what?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} working full time
+\item \code{2} working part time
+\item \code{3} with a job, but not at work because of temporary illness, vacation, strike
+\item \code{4} unemployed, laid off, looking for work
+\item \code{5} retired
+\item \code{6} in school
+\item \code{7} keeping house
+\item \code{8} other
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6152/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab in school \tab keeping house \tab other \tab retired \tab unemployed, laid off, looking for work \tab with a job, but not at work because of temporary illness, vacation, strike \tab working full time \tab working part time \tab no answer \tab skipped on web \tab Total \cr
@@ -57,30 +83,30 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} working full time
-\item \code{2} working part time
-\item \code{3} with a job, but not at work because of temporary illness, vacation, strike
-\item \code{4} unemployed, laid off, looking for work
-\item \code{5} retired
-\item \code{6} in school
-\item \code{7} keeping house
-\item \code{8} other
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2021 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
+   2024 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{coevwork}},
+\code{\link{cohrs1}},
+\code{\link{cowrkslf}},
+\code{\link{divorce}},
+\code{\link{spevwork}},
+\code{\link{sphrs1}},
+\code{\link{sphrs2}},
+\code{\link{spwrksta}},
+\code{\link{widowed}}
+}
+\concept{Core}
 \keyword{variable}

@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 racdis
 }
 \details{
-Question 129b. How many blocks (or miles) away do they live (the Negro/black/African American) families who live closest to you) live?
+Question Are there any (â€œwhitesâ€ for black respondents, â€œblacksâ€ for non-black respondents) living in this neighborhood now?
+B. How many blocks (or miles) away do they (the (Negro/Black/African-American) families who live closest to you) live?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} same block
+\item \code{2} 1-3 blks away
+\item \code{3} 4-8 blks away
+\item \code{4} over 8 blks
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/390/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab 1-3 blks away \tab 4-8 blks away \tab iap \tab no answer \tab over 8 blks \tab same block \tab don't know \tab not available in this year \tab Total \cr
@@ -57,26 +80,55 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} same block
-\item \code{2} 1-3 blks away
-\item \code{3} 4-8 blks away
-\item \code{4} over 8 blks
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1972 \tab -/-/- \tab full \cr
+   1973 \tab -/-/- \tab full \cr
+   1974 \tab -/-/- \tab full \cr
+   1975 \tab -/-/- \tab full \cr
+   1976 \tab -/-/- \tab full \cr
+   1977 \tab -/-/- \tab full \cr
+   1978 \tab -/-/- \tab full \cr
+   1980 \tab -/-/- \tab full \cr
+   1982 \tab -/-/- \tab full \cr
+   1983 \tab -/-/- \tab full \cr
+   1984 \tab -/-/- \tab full \cr
+   1985 \tab -/-/- \tab full \cr
+   1986 \tab -/-/- \tab full \cr
+   1987 \tab -/-/- \tab full \cr
+   1988 \tab A/B/C \tab full \cr
+   1989 \tab A/B/C \tab full \cr
+   1990 \tab A/B/C \tab full \cr
+   1991 \tab A/B/C \tab full \cr
+   1993 \tab A/B/C \tab full \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{racclos}},
+\code{\link{racfew}},
+\code{\link{rachome}},
+\code{\link{racinteg}},
+\code{\link{raclive}},
+\code{\link{racobjct}},
+\code{\link{racopen}},
+\code{\link{racschol}},
+\code{\link{racseg}}
+
+Other Race: 
+\code{\link{racclos}},
+\code{\link{racfew}},
+\code{\link{rachome}},
+\code{\link{racinteg}},
+\code{\link{raclive}},
+\code{\link{racobjct}},
+\code{\link{racopen}},
+\code{\link{racschol}},
+\code{\link{racseg}}
+}
+\concept{Core}
+\concept{Race}
 \keyword{variable}

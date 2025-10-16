@@ -10,11 +10,38 @@ General Social Survey https://gss.norc.org
 organsw
 }
 \details{
-Question 626. Recently, medical science has made it possible to save lives by transplanting body parts from donors to patients who need them. But for some body organs there are not enough to go around, and some patients die before they can obtain a transplant. When only one organ is available and several patients need it for survival, the organ could be assigned to a patient by one of the following procedures: Auction: The organ is assigned to the patient who can pay the most for it. First come, first served: The organ is assigned to the patient who has been waiting the longest Lottery: The organ is assigned to the patient whose name is drawn at random. Merit: The organ is assigned to the patient who can make the greatest contribution to others and society. b. Which of these procedures would be the worst way to assign an organ?
+Question Recently, medical science has made it possible to save lives by transplanting body parts from donors to patients who need them. But for some body organs there are not enough to go around, and some patients die before they can obtain a transplant. When only one organ is available and several patients need it for survival, the organ could be assigned to a patient by one of the following procedures: (READ PROCEDURES ON SHOWCARD)
+By auction: The organ is assigned to the patient who can pay the most for it.
+By first come, first served: the organ is assigned to the patient who has been waiting the longest.
+By lottery: The organ is assigned to the patient whose name is drawn at random.
+By merit: The organ is assigned to the patient who can make the greatest contribution to others and society.
+B. Which of these procedures would be the worst way to assign an organ? (CODE ONE RESPONSE ONLY)
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} auction
+\item \code{2} first come-first served
+\item \code{3} lottery
+\item \code{4} merit
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1867/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab auction \tab don't know \tab first come-first served \tab lottery \tab merit \tab no answer \tab not available in this year \tab Total \cr
@@ -57,26 +84,36 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} auction
-\item \code{2} first come-first served
-\item \code{3} lottery
-\item \code{4} merit
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Markets: 
+\code{\link{adoption}},
+\code{\link{frndawk}},
+\code{\link{frnddeal}},
+\code{\link{organsb}},
+\code{\link{sellbaby}},
+\code{\link{sellorgn}},
+\code{\link{sellsex}},
+\code{\link{tablprce}},
+\code{\link{transrel}}
+
+Other Purchases/Transactions: 
+\code{\link{adoption}},
+\code{\link{frndawk}},
+\code{\link{frnddeal}},
+\code{\link{organsb}},
+\code{\link{sellbaby}},
+\code{\link{sellorgn}},
+\code{\link{sellsex}},
+\code{\link{tablprce}},
+\code{\link{transrel}}
+}
+\concept{Markets}
+\concept{Purchases/Transactions}
 \keyword{variable}

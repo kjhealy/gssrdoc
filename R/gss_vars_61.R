@@ -1,11 +1,132 @@
+#'  Officials not interested in average man
+#' 
+#'  anomia7
+#' 
+#' Question Now I''m going to read you several more statements. (See REMARKS.) 
+#' A. Most public officials (people in public office) are not really interested in the problems of the average man.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` agree
+#'   * `2` disagree
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/543/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |agree |disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:-----|:-----|:--------|:----------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-     |-        |-          |-         |-                          |1613  |
+#'  |1973  |-     |873   |594      |34         |3         |-                          |1504  |
+#'  |1974  |-     |948   |496      |37         |3         |-                          |1484  |
+#'  |1975  |1490  |-     |-        |-          |-         |-                          |1490  |
+#'  |1976  |-     |976   |487      |31         |5         |-                          |1499  |
+#'  |1977  |-     |955   |517      |51         |7         |-                          |1530  |
+#'  |1978  |1532  |-     |-        |-          |-         |-                          |1532  |
+#'  |1980  |-     |1038  |383      |44         |3         |-                          |1468  |
+#'  |1982  |-     |1232  |538      |66         |24        |-                          |1860  |
+#'  |1983  |1599  |-     |-        |-          |-         |-                          |1599  |
+#'  |1984  |-     |997   |434      |35         |7         |-                          |1473  |
+#'  |1985  |-     |964   |518      |45         |7         |-                          |1534  |
+#'  |1986  |1470  |-     |-        |-          |-         |-                          |1470  |
+#'  |1987  |-     |1265  |499      |48         |7         |-                          |1819  |
+#'  |1988  |504   |639   |300      |36         |2         |-                          |1481  |
+#'  |1989  |504   |659   |335      |36         |3         |-                          |1537  |
+#'  |1990  |455   |613   |275      |26         |3         |-                          |1372  |
+#'  |1991  |524   |664   |287      |40         |2         |-                          |1517  |
+#'  |1993  |531   |791   |254      |25         |5         |-                          |1606  |
+#'  |1994  |1737  |923   |299      |29         |4         |-                          |2992  |
+#'  |1996  |2904  |-     |-        |-          |-         |-                          |2904  |
+#'  |1998  |2832  |-     |-        |-          |-         |-                          |2832  |
+#'  |2000  |2817  |-     |-        |-          |-         |-                          |2817  |
+#'  |2002  |2765  |-     |-        |-          |-         |-                          |2765  |
+#'  |2004  |2812  |-     |-        |-          |-         |-                          |2812  |
+#'  |2006  |2992  |972   |507      |33         |6         |-                          |4510  |
+#'  |2008  |2023  |-     |-        |-          |-         |-                          |2023  |
+#'  |2010  |2044  |-     |-        |-          |-         |-                          |2044  |
+#'  |2012  |1974  |-     |-        |-          |-         |-                          |1974  |
+#'  |2014  |2538  |-     |-        |-          |-         |-                          |2538  |
+#'  |2016  |2867  |-     |-        |-          |-         |-                          |2867  |
+#'  |2018  |2348  |-     |-        |-          |-         |-                          |2348  |
+#'  |2021  |4032  |-     |-        |-          |-         |-                          |4032  |
+#'  |2022  |-     |-     |-        |-          |-         |3544                       |3544  |
+#'  |2024  |-     |-     |-        |-          |-         |3309                       |3309  |
+#'  |Total |46907 |14509 |6723     |616        |91        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |A/C     |partial      |
+#'  |1989 |A/C     |partial      |
+#'  |1990 |A/C     |partial      |
+#'  |1991 |A/C     |partial      |
+#'  |1993 |A/C     |partial      |
+#'  |1994 |A/C     |partial      |
+#'  |2006 |D/-     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Anomia
+#' @family Political
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name anomia7
+NULL
+
+
 #'  Don't know whom to trust
 #' 
 #'  anomia8
 #' 
-#' Question 179. Now I'm going to read you several more statements. Some people agree with a statement, others disagree. As I read each one, tell me whether you more or less agree with it, or more or less disagree. b. These days a person doesn't really know whom he can count on.
+#' Question Now I''m going to read you several more statements. (See REMARKS.) 
+#' B. These days a person doesn''t really know whom he can count on.
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` agree
+#'   * `2` disagree
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/544/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +169,33 @@
 #'  |2024  |-     |-     |-        |-          |-         |3309                       |3309  |
 #'  |Total |64359 |3200  |1238     |42         |7         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-       |full         |
+#'  |1974 |-       |full         |
+#'  |1976 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Anomia
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name anomia8
+NULL
+
+
+#'  Most don't care what happens to others
+#' 
+#'  anomia9
+#' 
+#' Question Now I''m going to read you several more statements. (See REMARKS.) 
+#' C. Most people don''t really care what happens to the next fellow.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` agree
@@ -65,22 +213,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name anomia8
-NULL
-
-#'  Most don't care what happens to others
-#' 
-#'  anomia9
-#' 
-#' Question 179. Now I'm going to read you several more statements. Some people agree with a statement, others disagree. As I read each one, tell me whether you more or less agree with it, or more or less disagree. c. Most people don't really care what happens to the next fellow.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/545/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,10 +257,38 @@ NULL
 #'  |2024  |-     |-     |-        |-          |-         |3309                       |3309  |
 #'  |Total |64359 |2461  |1964     |54         |8         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-       |full         |
+#'  |1974 |-       |full         |
+#'  |1976 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Anomia
+#' 
+#' @keywords variable
+#' @md
+#' @name anomia9
+NULL
+
+
+#'  Is r likely to lose job
+#' 
+#'  joblose
+#' 
+#' Question A. Thinking about the next 12 months, how likely do you think it is that you will lose your job or be laid off--very likely, fairly likely, not too likely, or not at all likely?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` agree
-#'   * `2` disagree
+#'   * `1` very likely
+#'   * `2` fairly likely
+#'   * `3` not too likely
+#'   * `4` not likely
+#'   * `5` leaving labor force
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -140,22 +302,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name anomia9
-NULL
-
-#'  Is r likely to lose job
-#' 
-#'  joblose
-#' 
-#' Question 180a. Thinking about the next 12 months, how likely do you think it is that you will lose your job or be laid off?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/546/vshow).
 #'
 #' Counts by year: 
 #'
@@ -198,13 +346,60 @@ NULL
 #'  |2024  |2065  |9          |89            |-                   |3         |716        |379            |46          |2              |3309  |
 #'  |Total |49191 |295        |1505          |5                   |224       |16293      |7008           |1166        |12             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1977 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#'  |1996 |A/B     |partial      |
+#'  |1998 |A/B     |partial      |
+#'  |2000 |A/B     |partial      |
+#'  |2002 |A/B     |partial      |
+#'  |2004 |A/B     |partial      |
+#'  |2006 |A/B     |partial      |
+#'  |2008 |A/B     |partial      |
+#'  |2010 |A/B     |partial      |
+#'  |2012 |A/B     |partial      |
+#'  |2014 |A/B     |partial      |
+#'  |2016 |A/B     |partial      |
+#'  |2018 |A/B     |partial      |
+#'  |2021 |A/B     |partial      |
+#'  |2022 |A/B     |partial      |
+#'  |2024 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name joblose
+NULL
+
+
+#'  Could r find equally good job
+#' 
+#'  jobfind
+#' 
+#' Question B. About how easy would it be for you to find a job with another employer with approximately the same income and fringe benefits you now have?  Would you say very easy, somewhat easy, or not easy at all?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` very likely
-#'   * `2` fairly likely
-#'   * `3` not too likely
-#'   * `4` not likely
-#'   * `5` leaving labor force
+#'   * `1` very easy
+#'   * `2` somewhat easy
+#'   * `3` not easy
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -218,22 +413,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name joblose
-NULL
-
-#'  Could r find equally good job
-#' 
-#'  jobfind
-#' 
-#' Question 180b. About how easy would it be for you to find a job with another employer with approximately the same income and fringe benefits you now have?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/547/vshow).
 #'
 #' Counts by year: 
 #'
@@ -276,11 +457,62 @@ NULL
 #'  |2024  |2065  |13         |3         |415      |538           |270       |5              |3309  |
 #'  |Total |49191 |388        |241       |10404    |9047          |6409      |19             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1977 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#'  |1996 |A/B     |partial      |
+#'  |1998 |A/B     |partial      |
+#'  |2000 |A/B     |partial      |
+#'  |2002 |A/B     |partial      |
+#'  |2004 |A/B     |partial      |
+#'  |2006 |A/B     |partial      |
+#'  |2008 |A/B     |partial      |
+#'  |2010 |A/B     |partial      |
+#'  |2012 |A/B     |partial      |
+#'  |2014 |A/B     |partial      |
+#'  |2016 |A/B     |partial      |
+#'  |2018 |A/B     |partial      |
+#'  |2021 |A/B     |partial      |
+#'  |2022 |A/B     |partial      |
+#'  |2024 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name jobfind
+NULL
+
+
+#'  Work satisfaction
+#' 
+#'  satjob
+#' 
+#' Question On the whole, how satisfied are you with the work you do--would you say you are very satisfied, moderately satisfied, 
+#' a little dissatisfied, or very dissatisfied?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` very easy
-#'   * `2` somewhat easy
-#'   * `3` not easy
+#'   * `1` very satisfied
+#'   * `2` moderately satisfied
+#'   * `3` a little dissatisfied
+#'   * `4` very dissatisfied
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -294,22 +526,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name jobfind
-NULL
-
-#'  Work satisfaction
-#' 
-#'  satjob
-#' 
-#' Question 181. On the whole, how satisfied are you with the work you do?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/548/vshow).
 #'
 #' Counts by year: 
 #'
@@ -352,6 +570,65 @@ NULL
 #'  |2024  |215                   |20         |1025  |922                  |10        |114               |993            |10             |3309  |
 #'  |Total |5372                  |241        |19753 |20776                |1517      |2272              |25711          |57             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Job
+#' @family Satisfaction
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name satjob
+NULL
+
+
+#'  Job satisfaction
+#' 
+#'  satjobhv
+#' 
+#' Question B. On the whole, how satisfied are you with the job you have -- would you say you are very satisfied, moderately satisfied, a little dissatisfied, or very dissatisfied?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` very satisfied
@@ -371,22 +648,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name satjob
-NULL
-
-#'  Job satisfaction
-#' 
-#'  satjobhv
-#' 
-#' Question B. On the whole, how satisfied are you with the job you have -- would you say you are very satisfied, moderately satisfied, a little dissatisfied, or very dissatisfied?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6645/vshow).
 #'
 #' Counts by year: 
 #'
@@ -429,12 +692,33 @@ NULL
 #'  |2024  |-     |-                     |-          |-                    |-         |-                 |-              |3309                       |3309  |
 #'  |Total |68540 |32                    |10         |134                  |2         |10                |118            |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |A       |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name satjobhv
+NULL
+
+
+#'  If rich, continue or stop working
+#' 
+#'  richwork
+#' 
+#' Question If you were to get enough money to live as comfortably as you would like for the rest of your life, would you continue to work or would you stop working?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` very satisfied
-#'   * `2` moderately satisfied
-#'   * `3` a little dissatisfied
-#'   * `4` very dissatisfied
+#'   * `1` continue to work
+#'   * `2` stop working
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -448,22 +732,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name satjobhv
-NULL
-
-#'  If rich, continue or stop working
-#' 
-#'  richwork
-#' 
-#' Question 182. If you were to get enough money to live as comfortably as you would like for the rest of your life, would you continue to work or would you stop working?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/549/vshow).
 #'
 #' Counts by year: 
 #'
@@ -506,10 +776,69 @@ NULL
 #'  |2024  |1957  |872              |10         |4         |461          |5              |3309  |
 #'  |Total |45485 |20541            |287        |253       |9117         |16             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |A/C     |partial      |
+#'  |1989 |A/C     |partial      |
+#'  |1990 |A/C     |partial      |
+#'  |1991 |A/C     |partial      |
+#'  |1993 |A/C     |partial      |
+#'  |1994 |A/C     |partial      |
+#'  |1996 |A/C     |partial      |
+#'  |1998 |A/C     |partial      |
+#'  |2000 |A/C     |partial      |
+#'  |2002 |A/C     |partial      |
+#'  |2004 |A/C     |partial      |
+#'  |2006 |A/C     |partial      |
+#'  |2008 |A/C     |partial      |
+#'  |2010 |A/C     |partial      |
+#'  |2012 |A/C     |partial      |
+#'  |2014 |A/C     |partial      |
+#'  |2016 |A/C     |partial      |
+#'  |2018 |A/C     |partial      |
+#'  |2021 |A/C     |partial      |
+#'  |2022 |A/C     |partial      |
+#'  |2024 |A/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name richwork
+NULL
+
+
+#'  High income
+#' 
+#'  jobinc
+#' 
+#' Question A. Would you please look at this card and tell me which one thing on this list you would most prefer in a job? 
+#' B. Which comes next? 
+#' C. Which is third most important? 
+#' D. Which is fourth most important? 
+#' A. High Income
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` continue to work
-#'   * `2` stop working
+#'   * `1` most impt
+#'   * `2` second
+#'   * `3` third
+#'   * `4` fourth
+#'   * `5` fifth
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -523,22 +852,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name richwork
-NULL
-
-#'  High income
-#' 
-#'  jobinc
-#' 
-#' Question 183a. Would you please look at this card and tell me which one thing on this list you would most prefer in a job? b. Which comes next? c. Which is third most important? d. Which is fourth most important? HIGH INCOME
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/550/vshow).
 #'
 #' Counts by year: 
 #'
@@ -581,6 +896,52 @@ NULL
 #'  |2024  |-     |-     |-      |-         |-         |-      |-     |3309                       |3309  |
 #'  |Total |46393 |1231  |3803   |4767      |647       |5498   |6507  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |A/C     |partial      |
+#'  |1989 |A/C     |partial      |
+#'  |1990 |A/C     |partial      |
+#'  |1991 |A/C     |partial      |
+#'  |1993 |A/C     |partial      |
+#'  |1994 |A/C     |partial      |
+#'  |2006 |D/-     |partial      |
+#'  |2012 |A/B     |partial      |
+#'  |2014 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Job
+#' @family Split Ballots
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name jobinc
+NULL
+
+
+#'  No danger of being fired
+#' 
+#'  jobsec
+#' 
+#' Question A. Would you please look at this card and tell me which one thing on this list you would most prefer in a job? 
+#' B. Which comes next? 
+#' C. Which is third most important? 
+#' D. Which is fourth most important? 
+#' B. No danger of being fired
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` most impt
@@ -601,22 +962,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name jobinc
-NULL
-
-#'  No danger of being fired
-#' 
-#'  jobsec
-#' 
-#' Question 183a. Would you please look at this card and tell me which one thing on this list you would most prefer in a job? b. Which comes next? c. Which is third most important? d. Which is fourth most important? NO DANGER OF BEING FIRED
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/551/vshow).
 #'
 #' Counts by year: 
 #'
@@ -659,109 +1006,38 @@ NULL
 #'  |2024  |-     |-     |-      |-         |-         |-      |-     |3309                       |3309  |
 #'  |Total |46393 |5777  |6900   |1662      |648       |2996   |4470  |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` most impt
-#'   * `2` second
-#'   * `3` third
-#'   * `4` fourth
-#'   * `5` fifth
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |A/C     |partial      |
+#'  |1989 |A/C     |partial      |
+#'  |1990 |A/C     |partial      |
+#'  |1991 |A/C     |partial      |
+#'  |1993 |A/C     |partial      |
+#'  |1994 |A/C     |partial      |
+#'  |2006 |D/-     |partial      |
+#'  |2012 |A/B     |partial      |
+#'  |2014 |A/B     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Job
+#' @family Split Ballots
+#' @family Work
 #' 
 #' @keywords variable
 #' @md
 #' @name jobsec
 NULL
 
-#'  Short working hours
-#' 
-#'  jobhour
-#' 
-#' Question 183a. Would you please look at this card and tell me which one thing on this list you would most prefer in a job? b. Which comes next? c. Which is third most important? d. Which is fourth most important? WORKING HOURS ARE SHORT, LOTS OF FREE TIME
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |fifth |fourth |most impt |no answer |second |third |not available in this year |Total |
-#'  |:-----|:-----|:-----|:------|:---------|:---------|:------|:-----|:--------------------------|:-----|
-#'  |1972  |1613  |-     |-      |-         |-         |-      |-     |-                          |1613  |
-#'  |1973  |-     |684   |370    |70        |42        |147    |191   |-                          |1504  |
-#'  |1974  |-     |621   |393    |71        |30        |166    |203   |-                          |1484  |
-#'  |1975  |1490  |-     |-      |-         |-         |-      |-     |-                          |1490  |
-#'  |1976  |-     |759   |325    |58        |50        |133    |174   |-                          |1499  |
-#'  |1977  |-     |768   |368    |66        |50        |116    |162   |-                          |1530  |
-#'  |1978  |1532  |-     |-      |-         |-         |-      |-     |-                          |1532  |
-#'  |1980  |-     |740   |371    |47        |32        |122    |156   |-                          |1468  |
-#'  |1982  |937   |472   |179    |27        |41        |73     |131   |-                          |1860  |
-#'  |1983  |1599  |-     |-      |-         |-         |-      |-     |-                          |1599  |
-#'  |1984  |-     |847   |316    |42        |32        |97     |139   |-                          |1473  |
-#'  |1985  |-     |884   |319    |51        |34        |100    |146   |-                          |1534  |
-#'  |1986  |1470  |-     |-      |-         |-         |-      |-     |-                          |1470  |
-#'  |1987  |-     |935   |459    |62        |47        |140    |176   |-                          |1819  |
-#'  |1988  |504   |496   |249    |27        |31        |75     |99    |-                          |1481  |
-#'  |1989  |504   |566   |228    |28        |53        |73     |85    |-                          |1537  |
-#'  |1990  |455   |486   |211    |27        |37        |58     |98    |-                          |1372  |
-#'  |1991  |524   |522   |216    |34        |48        |64     |109   |-                          |1517  |
-#'  |1993  |531   |605   |219    |37        |38        |65     |111   |-                          |1606  |
-#'  |1994  |2508  |275   |94     |10        |21        |39     |45    |-                          |2992  |
-#'  |1996  |2904  |-     |-      |-         |-         |-      |-     |-                          |2904  |
-#'  |1998  |2832  |-     |-      |-         |-         |-      |-     |-                          |2832  |
-#'  |2000  |2817  |-     |-      |-         |-         |-      |-     |-                          |2817  |
-#'  |2002  |2765  |-     |-      |-         |-         |-      |-     |-                          |2765  |
-#'  |2004  |2812  |-     |-      |-         |-         |-      |-     |-                          |2812  |
-#'  |2006  |2992  |717   |363    |74        |20        |158    |186   |-                          |4510  |
-#'  |2008  |2023  |-     |-      |-         |-         |-      |-     |-                          |2023  |
-#'  |2010  |2044  |-     |-      |-         |-         |-      |-     |-                          |2044  |
-#'  |2012  |1002  |437   |195    |63        |27        |127    |123   |-                          |1974  |
-#'  |2014  |1288  |573   |283    |70        |19        |126    |179   |-                          |2538  |
-#'  |2016  |2867  |-     |-      |-         |-         |-      |-     |-                          |2867  |
-#'  |2018  |2348  |-     |-      |-         |-         |-      |-     |-                          |2348  |
-#'  |2021  |4032  |-     |-      |-         |-         |-      |-     |-                          |4032  |
-#'  |2022  |-     |-     |-      |-         |-         |-      |-     |3544                       |3544  |
-#'  |2024  |-     |-     |-      |-         |-         |-      |-     |3309                       |3309  |
-#'  |Total |46393 |11387 |5158   |864       |652       |1879   |2513  |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` most impt
-#'   * `2` second
-#'   * `3` third
-#'   * `4` fourth
-#'   * `5` fifth
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name jobhour
-NULL
 

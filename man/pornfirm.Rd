@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 pornfirm
 }
 \details{
-Question 224c. How firm are you about (your opinion on/the way you feel about) pornography?
+Question C. How firm are you about (your opinion on/the way you feel about) pornography--would you way you are very likely to change (your opinion), somewhat likely to change, somewhat unlikely to change or very unlikely to change your opinion?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} change very likely
+\item \code{2} somewhat likely
+\item \code{3} somewhat unlikely
+\item \code{4} change very unlikely
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/645/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab change very likely \tab change very unlikely \tab don't know \tab no answer \tab somewhat likely \tab somewhat unlikely \tab not available in this year \tab Total \cr
@@ -57,26 +79,23 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} change very likely
-\item \code{2} somewhat likely
-\item \code{3} somewhat unlikely
-\item \code{4} change very unlikely
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1984 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Coreex: 
+\code{\link{pornimp}},
+\code{\link{porninfo}}
+
+Other Split Ballots: 
+\code{\link{pornimp}},
+\code{\link{porninfo}},
+\code{\link{xmovie1}}
+}
+\concept{Coreex}
+\concept{Split Ballots}
 \keyword{variable}

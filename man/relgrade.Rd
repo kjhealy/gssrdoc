@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 relgrade
 }
 \details{
-Question 124. Using the school grading system of A,B,C,D, and F for fail, how do you rate your church or religious group in meeting your spiritual needs?
+Question Using the school grading system of A,B,C,D, and F for Fail, how Do you rate your church or religious group in meeting your spiritual needs?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} a
+\item \code{2} b
+\item \code{3} c
+\item \code{4} d
+\item \code{5} f
+\item \code{6} no religion
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/381/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab a \tab b \tab c \tab d \tab don't know \tab f \tab no answer \tab no religion \tab not available in this year \tab Total \cr
@@ -57,28 +81,32 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} a
-\item \code{2} b
-\item \code{3} c
-\item \code{4} d
-\item \code{5} f
-\item \code{6} no religion
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1989 \tab A/B \tab partial \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{cathtemp}},
+\code{\link{feclergy}},
+\code{\link{fepriest}},
+\code{\link{jewtemp}},
+\code{\link{mslmtemp}},
+\code{\link{racdin}},
+\code{\link{racmar}},
+\code{\link{racmar10}},
+\code{\link{racpush}}
+
+Other Religion: 
+\code{\link{cathtemp}},
+\code{\link{feclergy}},
+\code{\link{fepriest}},
+\code{\link{jewtemp}},
+\code{\link{mslmtemp}}
+}
+\concept{Core}
+\concept{Religion}
 \keyword{variable}

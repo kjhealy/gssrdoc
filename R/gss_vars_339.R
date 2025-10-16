@@ -1,11 +1,196 @@
+#'  Gene or learning?
+#' 
+#'  genenvo3
+#' 
+#' Question (The description of the third person presented to the respondent - please check GENEVIG1 & GENEVIG2)(Please type in a number from 1 to 21):
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3034/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |1   |10  |11  |12  |13 |14 |15  |16 |17 |18  |19 |2  |20 |21  |3  |4  |5   |6  |7  |8  |9  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:-----|:---|:---|:---|:---|:--|:--|:---|:--|:--|:---|:--|:--|:--|:---|:--|:--|:---|:--|:--|:--|:--|:----------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1613  |
+#'  |1973  |1504  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1504  |
+#'  |1974  |1484  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1484  |
+#'  |1975  |1490  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1490  |
+#'  |1976  |1499  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1499  |
+#'  |1977  |1530  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1530  |
+#'  |1978  |1532  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1532  |
+#'  |1980  |1468  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1468  |
+#'  |1982  |1860  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1860  |
+#'  |1983  |1599  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1599  |
+#'  |1984  |1473  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1473  |
+#'  |1985  |1534  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1534  |
+#'  |1986  |1470  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1470  |
+#'  |1987  |1819  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1819  |
+#'  |1988  |1481  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1481  |
+#'  |1989  |1537  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1537  |
+#'  |1990  |1372  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1372  |
+#'  |1991  |1517  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1517  |
+#'  |1993  |1606  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1606  |
+#'  |1994  |2992  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |2992  |
+#'  |1996  |2904  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |2904  |
+#'  |1998  |2832  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |2832  |
+#'  |2000  |2817  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |2817  |
+#'  |2002  |2765  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |2765  |
+#'  |2004  |432   |155 |239 |185 |153 |45 |64 |203 |78 |98 |147 |73 |43 |93 |296 |50 |57 |144 |44 |55 |66 |60 |18         |14        |-                          |2812  |
+#'  |2006  |4510  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |4510  |
+#'  |2008  |2023  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |2023  |
+#'  |2010  |2044  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |2044  |
+#'  |2012  |1974  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1974  |
+#'  |2014  |2538  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |2538  |
+#'  |2016  |2867  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |2867  |
+#'  |2018  |2348  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |2348  |
+#'  |2021  |4032  |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |4032  |
+#'  |2022  |-     |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |3544                       |3544  |
+#'  |2024  |-     |-   |-   |-   |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |3309                       |3309  |
+#'  |Total |66466 |155 |239 |185 |153 |45 |64 |203 |78 |98 |147 |73 |43 |93 |296 |50 |57 |144 |44 |55 |66 |60 |18         |14        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Genes and the Environment
+#' @family Genetic Testing
+#' 
+#' @keywords variable
+#' @md
+#' @name genenvo3
+NULL
+
+
+#'  Gene or learning?
+#' 
+#'  genenvo4
+#' 
+#' Question (The description of the fourth person presented to the respondent - please check GENEVIG1 & GENEVIG2)(Please type in a number from 1 to 21):
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3035/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |1   |10  |11  |12  |13 |14 |15  |16 |17  |18  |19 |2  |20 |21  |3  |4  |5   |6  |7  |8  |9  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:-----|:---|:---|:---|:---|:--|:--|:---|:--|:---|:---|:--|:--|:--|:---|:--|:--|:---|:--|:--|:--|:--|:----------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1613  |
+#'  |1973  |1504  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1504  |
+#'  |1974  |1484  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1484  |
+#'  |1975  |1490  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1490  |
+#'  |1976  |1499  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1499  |
+#'  |1977  |1530  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1530  |
+#'  |1978  |1532  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1532  |
+#'  |1980  |1468  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1468  |
+#'  |1982  |1860  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1860  |
+#'  |1983  |1599  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1599  |
+#'  |1984  |1473  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1473  |
+#'  |1985  |1534  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1534  |
+#'  |1986  |1470  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1470  |
+#'  |1987  |1819  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1819  |
+#'  |1988  |1481  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1481  |
+#'  |1989  |1537  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1537  |
+#'  |1990  |1372  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1372  |
+#'  |1991  |1517  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1517  |
+#'  |1993  |1606  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1606  |
+#'  |1994  |2992  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |2992  |
+#'  |1996  |2904  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |2904  |
+#'  |1998  |2832  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |2832  |
+#'  |2000  |2817  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |2817  |
+#'  |2002  |2765  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |2765  |
+#'  |2004  |432   |154 |266 |202 |152 |49 |53 |216 |78 |106 |140 |53 |56 |91 |252 |50 |60 |133 |50 |67 |68 |55 |19         |10        |-                          |2812  |
+#'  |2006  |4510  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |4510  |
+#'  |2008  |2023  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |2023  |
+#'  |2010  |2044  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |2044  |
+#'  |2012  |1974  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |1974  |
+#'  |2014  |2538  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |2538  |
+#'  |2016  |2867  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |2867  |
+#'  |2018  |2348  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |2348  |
+#'  |2021  |4032  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-                          |4032  |
+#'  |2022  |-     |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |3544                       |3544  |
+#'  |2024  |-     |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |3309                       |3309  |
+#'  |Total |66466 |154 |266 |202 |152 |49 |53 |216 |78 |106 |140 |53 |56 |91 |252 |50 |60 |133 |50 |67 |68 |55 |19         |10        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Genes and the Environment
+#' @family Genetic Testing
+#' 
+#' @keywords variable
+#' @md
+#' @name genenvo4
+NULL
+
+
 #'  On the whole i am satisfied with myself
 #' 
 #'  satself
 #' 
-#' Question 982. Indicate your agreement with each of the following statements by selecting the number that comes closest to your answer: a. On the whole, I am satisfied with myself
+#' Question Indicate your agreement with each of the following statements by selecting the number that comes closest to your answer: 
+#' A. On the whole, I am satisfied with myself      
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` disagree
+#'   * `4` strongly disagree
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3036/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +233,32 @@
 #'  |2024  |-     |-     |-        |-          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |66466 |1338  |183      |2          |3         |824            |30                |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Organizations
+#' @family Genes and the Environment
+#' @family Feelings
+#' @family Satisfaction
+#' 
+#' @keywords variable
+#' @md
+#' @name satself
+NULL
+
+
+#'  I am inclined to feel i am a failure
+#' 
+#'  afailure
+#' 
+#' Question Indicate your agreement with each of the following statements by selecting the number that comes closest to your answer:
+#' B. All in all, I'm inclinded to feel I'm a failure.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -67,22 +278,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name satself
-NULL
-
-#'  I am inclined to feel i am a failure
-#' 
-#'  afailure
-#' 
-#' Question 982. Indicate your agreement with each of the following statements by selecting the number that comes closest to your answer: b. All in all, I'm inclinded to feel I'm a failure.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3037/vshow).
 #'
 #' Counts by year: 
 #'
@@ -125,6 +322,32 @@ NULL
 #'  |2024  |-     |-     |-        |-          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |66466 |152   |964      |5          |2         |55             |1202              |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Organizations
+#' @family Genes and the Environment
+#' @family Feelings
+#' @family Satisfaction
+#' 
+#' @keywords variable
+#' @md
+#' @name afailure
+NULL
+
+
+#'  I wish i could have more respect for myself
+#' 
+#'  slfrspct
+#' 
+#' Question Indicate your agreement with each of the following statements by selecting the number that comes closest to your answer:
+#' C. I wish I could have more respect for myself. 
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -144,22 +367,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name afailure
-NULL
-
-#'  I wish i could have more respect for myself
-#' 
-#'  slfrspct
-#' 
-#' Question 982. Indicate your agreement with each of the following statements by selecting the number that comes closest to your answer: c. I wish I could have more respect for myself
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3038/vshow).
 #'
 #' Counts by year: 
 #'
@@ -202,6 +411,32 @@ NULL
 #'  |2024  |-     |-     |-        |-          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |66466 |518   |957      |5          |5         |138            |757               |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Organizations
+#' @family Genes and the Environment
+#' @family Feelings
+#' @family Satisfaction
+#' 
+#' @keywords variable
+#' @md
+#' @name slfrspct
+NULL
+
+
+#'  I am a person of worth at least equal to others
+#' 
+#'  ofworth
+#' 
+#' Question Indicate your agreement with each of the following statements by selecting the number that comes closest to your answer:
+#' D. I feel that Iâ€™m a person of worth, at least equal to others.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -221,22 +456,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name slfrspct
-NULL
-
-#'  I am a person of worth at least equal to others
-#' 
-#'  ofworth
-#' 
-#' Question 982. Indicate your agreement with each of the following statements by selecting the number that comes closest to your answer: d. I feel that I'm a person of worth, at least equal to others.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3039/vshow).
 #'
 #' Counts by year: 
 #'
@@ -279,6 +500,32 @@ NULL
 #'  |2024  |-     |-     |-        |-          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |66466 |915   |60       |3          |2         |1369           |31                |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Organizations
+#' @family Genes and the Environment
+#' @family Feelings
+#' @family Satisfaction
+#' 
+#' @keywords variable
+#' @md
+#' @name ofworth
+NULL
+
+
+#'  At times i think i am no good at all
+#' 
+#'  nogood
+#' 
+#' Question Indicate your agreement with each of the following statements by selecting the number that comes closest to your answer:
+#' E. At times I think I am no good at all.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -298,22 +545,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name ofworth
-NULL
-
-#'  At times i think i am no good at all
-#' 
-#'  nogood
-#' 
-#' Question 982. Indicate your agreement with each of the following statements by selecting the number that comes closest to your answer: e. At times I think I am no good at all.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3040/vshow).
 #'
 #' Counts by year: 
 #'
@@ -356,6 +589,32 @@ NULL
 #'  |2024  |-     |-     |-        |-          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |66466 |372   |892      |4          |3         |73             |1036              |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Organizations
+#' @family Genes and the Environment
+#' @family Feelings
+#' @family Satisfaction
+#' 
+#' @keywords variable
+#' @md
+#' @name nogood
+NULL
+
+
+#'  I am always optimistic about my future
+#' 
+#'  optimist
+#' 
+#' Question Indicate your agreement with each of the following statements by selecting the number that comes closest to your answer:
+#' F. Iâ€™m always optimistic about my future.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -375,22 +634,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name nogood
-NULL
-
-#'  I am always optimistic about my future
-#' 
-#'  optimist
-#' 
-#' Question 982. Indicate your agreement with each of the following statements by selecting the number that comes closest to your answer: f. I'm always optimistic about my future.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3041/vshow).
 #'
 #' Counts by year: 
 #'
@@ -433,6 +678,32 @@ NULL
 #'  |2024  |-     |-     |-        |-          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |66466 |1259  |357      |9          |4         |705            |46                |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Organizations
+#' @family Genes and the Environment
+#' @family Feelings
+#' @family Satisfaction
+#' 
+#' @keywords variable
+#' @md
+#' @name optimist
+NULL
+
+
+#'  I hardly ever expect things to go my way
+#' 
+#'  pessimst
+#' 
+#' Question Indicate your agreement with each of the following statements by selecting the number that comes closest to your answer:
+#' G. I hardly ever expect things to go my way.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -452,22 +723,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name optimist
-NULL
-
-#'  I hardly ever expect things to go my way
-#' 
-#'  pessimst
-#' 
-#' Question 982. Indicate your agreement with each of the following statements by selecting the number that comes closest to your answer: g. I hardly ever expect things to go my way.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3042/vshow).
 #'
 #' Counts by year: 
 #'
@@ -510,6 +767,32 @@ NULL
 #'  |2024  |-     |-     |-        |-          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |66466 |416   |1359     |6          |6         |98             |495               |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Work Organizations
+#' @family Genes and the Environment
+#' @family Feelings
+#' @family Satisfaction
+#' 
+#' @keywords variable
+#' @md
+#' @name pessimst
+NULL
+
+
+#'  I rarely count on good things happening to me
+#' 
+#'  notcount
+#' 
+#' Question Indicate your agreement with each of the following statements by selecting the number that comes closest to your answer:
+#' H. I rarely count on good things happening to me.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -529,22 +812,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name pessimst
-NULL
-
-#'  I rarely count on good things happening to me
-#' 
-#'  notcount
-#' 
-#' Question 982. Indicate your agreement with each of the following statements by selecting the number that comes closest to your answer: h. I rarely count on good things happening to me.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3043/vshow).
 #'
 #' Counts by year: 
 #'
@@ -587,183 +856,21 @@ NULL
 #'  |2024  |-     |-     |-        |-          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |66466 |466   |1241     |6          |4         |140            |523               |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` disagree
-#'   * `4` strongly disagree
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Work Organizations
+#' @family Genes and the Environment
+#' @family Feelings
+#' @family Satisfaction
 #' 
 #' @keywords variable
 #' @md
 #' @name notcount
 NULL
 
-#'  I expect more good things to happen to me than bad
-#' 
-#'  moregood
-#' 
-#' Question 982. Indicate your agreement with each of the following statements by selecting the number that comes closest to your answer: i. Overall, I expect more good things to happen to me than bad.
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |agree |disagree |don't know |no answer |strongly agree |strongly disagree |not available in this year |Total |
-#'  |:-----|:-----|:-----|:--------|:----------|:---------|:--------------|:-----------------|:--------------------------|:-----|
-#'  |1972  |1613  |-     |-        |-          |-         |-              |-                 |-                          |1613  |
-#'  |1973  |1504  |-     |-        |-          |-         |-              |-                 |-                          |1504  |
-#'  |1974  |1484  |-     |-        |-          |-         |-              |-                 |-                          |1484  |
-#'  |1975  |1490  |-     |-        |-          |-         |-              |-                 |-                          |1490  |
-#'  |1976  |1499  |-     |-        |-          |-         |-              |-                 |-                          |1499  |
-#'  |1977  |1530  |-     |-        |-          |-         |-              |-                 |-                          |1530  |
-#'  |1978  |1532  |-     |-        |-          |-         |-              |-                 |-                          |1532  |
-#'  |1980  |1468  |-     |-        |-          |-         |-              |-                 |-                          |1468  |
-#'  |1982  |1860  |-     |-        |-          |-         |-              |-                 |-                          |1860  |
-#'  |1983  |1599  |-     |-        |-          |-         |-              |-                 |-                          |1599  |
-#'  |1984  |1473  |-     |-        |-          |-         |-              |-                 |-                          |1473  |
-#'  |1985  |1534  |-     |-        |-          |-         |-              |-                 |-                          |1534  |
-#'  |1986  |1470  |-     |-        |-          |-         |-              |-                 |-                          |1470  |
-#'  |1987  |1819  |-     |-        |-          |-         |-              |-                 |-                          |1819  |
-#'  |1988  |1481  |-     |-        |-          |-         |-              |-                 |-                          |1481  |
-#'  |1989  |1537  |-     |-        |-          |-         |-              |-                 |-                          |1537  |
-#'  |1990  |1372  |-     |-        |-          |-         |-              |-                 |-                          |1372  |
-#'  |1991  |1517  |-     |-        |-          |-         |-              |-                 |-                          |1517  |
-#'  |1993  |1606  |-     |-        |-          |-         |-              |-                 |-                          |1606  |
-#'  |1994  |2992  |-     |-        |-          |-         |-              |-                 |-                          |2992  |
-#'  |1996  |2904  |-     |-        |-          |-         |-              |-                 |-                          |2904  |
-#'  |1998  |2832  |-     |-        |-          |-         |-              |-                 |-                          |2832  |
-#'  |2000  |2817  |-     |-        |-          |-         |-              |-                 |-                          |2817  |
-#'  |2002  |2765  |-     |-        |-          |-         |-              |-                 |-                          |2765  |
-#'  |2004  |432   |1308  |205      |6          |3         |819            |39                |-                          |2812  |
-#'  |2006  |4510  |-     |-        |-          |-         |-              |-                 |-                          |4510  |
-#'  |2008  |2023  |-     |-        |-          |-         |-              |-                 |-                          |2023  |
-#'  |2010  |2044  |-     |-        |-          |-         |-              |-                 |-                          |2044  |
-#'  |2012  |1974  |-     |-        |-          |-         |-              |-                 |-                          |1974  |
-#'  |2014  |2538  |-     |-        |-          |-         |-              |-                 |-                          |2538  |
-#'  |2016  |2867  |-     |-        |-          |-         |-              |-                 |-                          |2867  |
-#'  |2018  |2348  |-     |-        |-          |-         |-              |-                 |-                          |2348  |
-#'  |2021  |4032  |-     |-        |-          |-         |-              |-                 |-                          |4032  |
-#'  |2022  |-     |-     |-        |-          |-         |-              |-                 |3544                       |3544  |
-#'  |2024  |-     |-     |-        |-          |-         |-              |-                 |3309                       |3309  |
-#'  |Total |66466 |1308  |205      |6          |3         |819            |39                |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` disagree
-#'   * `4` strongly disagree
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name moregood
-NULL
-
-#'  Degree of influence over what happens to me
-#' 
-#'  owndoing
-#' 
-#' Question 983. Please indicate which of the following statements comes closer to describing you by circling the appropriate letter:
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |i have little influence over things that happens to me |no answer |what happens to me is largely my own doing |not available in this year |Total |
-#'  |:-----|:-----|:----------|:------------------------------------------------------|:---------|:------------------------------------------|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-                                                      |-         |-                                          |-                          |1613  |
-#'  |1973  |1504  |-          |-                                                      |-         |-                                          |-                          |1504  |
-#'  |1974  |1484  |-          |-                                                      |-         |-                                          |-                          |1484  |
-#'  |1975  |1490  |-          |-                                                      |-         |-                                          |-                          |1490  |
-#'  |1976  |1499  |-          |-                                                      |-         |-                                          |-                          |1499  |
-#'  |1977  |1530  |-          |-                                                      |-         |-                                          |-                          |1530  |
-#'  |1978  |1532  |-          |-                                                      |-         |-                                          |-                          |1532  |
-#'  |1980  |1468  |-          |-                                                      |-         |-                                          |-                          |1468  |
-#'  |1982  |1860  |-          |-                                                      |-         |-                                          |-                          |1860  |
-#'  |1983  |1599  |-          |-                                                      |-         |-                                          |-                          |1599  |
-#'  |1984  |1473  |-          |-                                                      |-         |-                                          |-                          |1473  |
-#'  |1985  |1534  |-          |-                                                      |-         |-                                          |-                          |1534  |
-#'  |1986  |1470  |-          |-                                                      |-         |-                                          |-                          |1470  |
-#'  |1987  |1819  |-          |-                                                      |-         |-                                          |-                          |1819  |
-#'  |1988  |1481  |-          |-                                                      |-         |-                                          |-                          |1481  |
-#'  |1989  |1537  |-          |-                                                      |-         |-                                          |-                          |1537  |
-#'  |1990  |1372  |-          |-                                                      |-         |-                                          |-                          |1372  |
-#'  |1991  |1517  |-          |-                                                      |-         |-                                          |-                          |1517  |
-#'  |1993  |1606  |-          |-                                                      |-         |-                                          |-                          |1606  |
-#'  |1994  |2992  |-          |-                                                      |-         |-                                          |-                          |2992  |
-#'  |1996  |2904  |-          |-                                                      |-         |-                                          |-                          |2904  |
-#'  |1998  |2832  |-          |-                                                      |-         |-                                          |-                          |2832  |
-#'  |2000  |2817  |-          |-                                                      |-         |-                                          |-                          |2817  |
-#'  |2002  |2765  |-          |-                                                      |-         |-                                          |-                          |2765  |
-#'  |2004  |432   |17         |341                                                    |14        |2008                                       |-                          |2812  |
-#'  |2006  |4510  |-          |-                                                      |-         |-                                          |-                          |4510  |
-#'  |2008  |2023  |-          |-                                                      |-         |-                                          |-                          |2023  |
-#'  |2010  |2044  |-          |-                                                      |-         |-                                          |-                          |2044  |
-#'  |2012  |1974  |-          |-                                                      |-         |-                                          |-                          |1974  |
-#'  |2014  |2538  |-          |-                                                      |-         |-                                          |-                          |2538  |
-#'  |2016  |2867  |-          |-                                                      |-         |-                                          |-                          |2867  |
-#'  |2018  |2348  |-          |-                                                      |-         |-                                          |-                          |2348  |
-#'  |2021  |4032  |-          |-                                                      |-         |-                                          |-                          |4032  |
-#'  |2022  |-     |-          |-                                                      |-         |-                                          |3544                       |3544  |
-#'  |2024  |-     |-          |-                                                      |-         |-                                          |3309                       |3309  |
-#'  |Total |66466 |17         |341                                                    |14        |2008                                       |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` i have little influence over things that happens to me
-#'   * `2` what happens to me is largely my own doing
-#'   * `9` refused
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name owndoing
-NULL
 

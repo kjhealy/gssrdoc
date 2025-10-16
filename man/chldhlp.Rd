@@ -10,11 +10,49 @@ General Social Survey https://gss.norc.org
 chldhlp
 }
 \details{
-Question 941. What (if anything) should be done to help (John/Mary)? PROBE: Anything else?
+Question What (if anything) should be done to help (John/Mary)?
+PROBE: Anything else?
 }
+\section{Values}{
+
+\itemize{
+\item \code{10} nothing
+\item \code{20} medical general
+\item \code{21} doctor
+\item \code{22} specialist
+\item \code{30} mental health general
+\item \code{31} psychiatrist
+\item \code{32} social worker
+\item \code{33} counselor therapist
+\item \code{34} psychologist
+\item \code{40} family friends general
+\item \code{41} negative blaming parenting
+\item \code{42} positive parenting
+\item \code{50} assistance from school general
+\item \code{51} involve teacher
+\item \code{52} involve school counselor
+\item \code{60} religion
+\item \code{80} social extracurricular activity
+\item \code{90} other help miscellaneous
+\item \code{97} dk ref
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2920/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllll}{
    year \tab iap \tab assistance from school general \tab counselor therapist \tab doctor \tab don't know \tab family friends general \tab involve school counselor \tab involve teacher \tab medical general \tab mental health general \tab negative blaming parenting \tab no answer \tab nothing \tab other help miscellaneous \tab positive parenting \tab psychiatrist \tab psychologist \tab religion \tab social extracurricular activity \tab social worker \tab specialist \tab not available in this year \tab Total \cr
@@ -57,41 +95,28 @@ Counts by year:\tabular{llllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{10} nothing
-\item \code{20} medical general
-\item \code{21} doctor
-\item \code{22} specialist
-\item \code{30} mental health general
-\item \code{31} psychiatrist
-\item \code{32} social worker
-\item \code{33} counselor therapist
-\item \code{34} psychologist
-\item \code{40} family friends general
-\item \code{41} negative blaming parenting
-\item \code{42} positive parenting
-\item \code{50} assistance from school general
-\item \code{51} involve teacher
-\item \code{52} involve school counselor
-\item \code{60} religion
-\item \code{80} social extracurricular activity
-\item \code{90} other help miscellaneous
-\item \code{97} dk ref
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Mental Health II: 
+\code{\link{badchar}},
+\code{\link{chembal}},
+\code{\link{chldprb}},
+\code{\link{chldprob}},
+\code{\link{stressfl}}
+
+Other Children: 
+\code{\link{badchar}},
+\code{\link{chembal}},
+\code{\link{chldprob}},
+\code{\link{chldvig}},
+\code{\link{stressfl}}
+}
+\concept{Children}
+\concept{Mental Health II}
 \keyword{variable}

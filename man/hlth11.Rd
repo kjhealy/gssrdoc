@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 hlth11
 }
 \details{
-Question Now I am going to ask about some things that happen in families. First I am going to ask you about illness. 11. During the past twelve months, were you unable to work at your job or carry on your regular activities for one month or more because of illness or injury?
+Question 11. During the past twelve months, were you unable to work at your job or carry on your regular activities for one month or more because of illness or injury?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes
+\item \code{2} no
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5146/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab not available in this year \tab Total \cr
@@ -57,24 +77,39 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes
-\item \code{2} no
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Negative Life Events: 
+\code{\link{hlth10}},
+\code{\link{hlth12}},
+\code{\link{hlth13}},
+\code{\link{hlth14}},
+\code{\link{hlth8}},
+\code{\link{hlth9}},
+\code{\link{work1}},
+\code{\link{work2}},
+\code{\link{work3}}
+
+Other Health: 
+\code{\link{hlth10}},
+\code{\link{hlth8}},
+\code{\link{hlth9}}
+
+Other Trauma: 
+\code{\link{hlth10}},
+\code{\link{hlth8}},
+\code{\link{hlth9}},
+\code{\link{work1}},
+\code{\link{work2}},
+\code{\link{work3}}
+}
+\concept{Health}
+\concept{Negative Life Events}
+\concept{Trauma}
 \keyword{variable}

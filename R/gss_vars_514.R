@@ -1,11 +1,209 @@
+#'  God's laws should decide right and wrong
+#' 
+#'  godright
+#' 
+#' Question Do you agree or disagree with the following statements. . . 
+#' A. Right and wrong should be based on God''s laws.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` neither agree nor disagree
+#'   * `4` disagree
+#'   * `5` strongly disagree
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4681/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |agree |disagree |don't know |neither agree nor disagree |no answer |strongly agree |strongly disagree |not available in this year |Total |
+#'  |:-----|:-----|:-----|:--------|:----------|:--------------------------|:---------|:--------------|:-----------------|:--------------------------|:-----|
+#'  |1972  |1613  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1613  |
+#'  |1973  |1504  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1504  |
+#'  |1974  |1484  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1484  |
+#'  |1975  |1490  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1490  |
+#'  |1976  |1499  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1499  |
+#'  |1977  |1530  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1530  |
+#'  |1978  |1532  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1532  |
+#'  |1980  |1468  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1468  |
+#'  |1982  |1860  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1860  |
+#'  |1983  |1599  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1599  |
+#'  |1984  |1473  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1473  |
+#'  |1985  |1534  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1534  |
+#'  |1986  |1470  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1470  |
+#'  |1987  |1819  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1819  |
+#'  |1988  |1481  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1481  |
+#'  |1989  |1537  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1537  |
+#'  |1990  |1372  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1372  |
+#'  |1991  |158   |361   |155      |60         |269                        |41        |358            |115               |-                          |1517  |
+#'  |1993  |1606  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1606  |
+#'  |1994  |2992  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2992  |
+#'  |1996  |2904  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2904  |
+#'  |1998  |2832  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2832  |
+#'  |2000  |2817  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2817  |
+#'  |2002  |2765  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2765  |
+#'  |2004  |2812  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2812  |
+#'  |2006  |4510  |-     |-        |-          |-                          |-         |-              |-                 |-                          |4510  |
+#'  |2008  |2023  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2023  |
+#'  |2010  |2044  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2044  |
+#'  |2012  |1974  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1974  |
+#'  |2014  |2538  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2538  |
+#'  |2016  |2867  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2867  |
+#'  |2018  |2348  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2348  |
+#'  |2021  |4032  |-     |-        |-          |-                          |-         |-              |-                 |-                          |4032  |
+#'  |2022  |-     |-     |-        |-          |-                          |-         |-              |-                 |3544                       |3544  |
+#'  |2024  |-     |-     |-        |-          |-                          |-         |-              |-                 |3309                       |3309  |
+#'  |Total |67487 |361   |155      |60         |269                        |41        |358            |115               |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Religion
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name godright
+NULL
+
+
+#'  Society's laws should decide right and wrong
+#' 
+#'  socright
+#' 
+#' Question Do you agree or disagree with the following statements. . . 
+#' B. Right and wrong should be decided by society.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` neither agree nor disagree
+#'   * `4` disagree
+#'   * `5` strongly disagree
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4682/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |agree |disagree |don't know |neither agree nor disagree |no answer |strongly agree |strongly disagree |not available in this year |Total |
+#'  |:-----|:-----|:-----|:--------|:----------|:--------------------------|:---------|:--------------|:-----------------|:--------------------------|:-----|
+#'  |1972  |1613  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1613  |
+#'  |1973  |1504  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1504  |
+#'  |1974  |1484  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1484  |
+#'  |1975  |1490  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1490  |
+#'  |1976  |1499  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1499  |
+#'  |1977  |1530  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1530  |
+#'  |1978  |1532  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1532  |
+#'  |1980  |1468  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1468  |
+#'  |1982  |1860  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1860  |
+#'  |1983  |1599  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1599  |
+#'  |1984  |1473  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1473  |
+#'  |1985  |1534  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1534  |
+#'  |1986  |1470  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1470  |
+#'  |1987  |1819  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1819  |
+#'  |1988  |1481  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1481  |
+#'  |1989  |1537  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1537  |
+#'  |1990  |1372  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1372  |
+#'  |1991  |158   |418   |241      |59         |309                        |77        |113            |142               |-                          |1517  |
+#'  |1993  |1606  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1606  |
+#'  |1994  |2992  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2992  |
+#'  |1996  |2904  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2904  |
+#'  |1998  |2832  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2832  |
+#'  |2000  |2817  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2817  |
+#'  |2002  |2765  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2765  |
+#'  |2004  |2812  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2812  |
+#'  |2006  |4510  |-     |-        |-          |-                          |-         |-              |-                 |-                          |4510  |
+#'  |2008  |2023  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2023  |
+#'  |2010  |2044  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2044  |
+#'  |2012  |1974  |-     |-        |-          |-                          |-         |-              |-                 |-                          |1974  |
+#'  |2014  |2538  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2538  |
+#'  |2016  |2867  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2867  |
+#'  |2018  |2348  |-     |-        |-          |-                          |-         |-              |-                 |-                          |2348  |
+#'  |2021  |4032  |-     |-        |-          |-                          |-         |-              |-                 |-                          |4032  |
+#'  |2022  |-     |-     |-        |-          |-                          |-         |-              |-                 |3544                       |3544  |
+#'  |2024  |-     |-     |-        |-          |-                          |-         |-              |-                 |3309                       |3309  |
+#'  |Total |67487 |418   |241      |59         |309                        |77        |113            |142               |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Religion
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name socright
+NULL
+
+
 #'  Conscience should decide right and wrong
 #' 
 #'  perright
 #' 
-#' Question 1397. Do you agree or disagree with the following statements. . . c. Right and wrong should be a matter of personal conscience.
+#' Question Do you agree or disagree with the following statements. . . 
+#' C. Right and wrong should be a matter of personal conscience.
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` neither agree nor disagree
+#'   * `4` disagree
+#'   * `5` strongly disagree
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4683/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,13 +246,35 @@
 #'  |2024  |-     |-     |-        |-          |-                          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |67487 |393   |211      |60         |255                        |72        |180            |188               |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Religion
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name perright
+NULL
+
+
+#'  Anti-religious material should be banned
+#' 
+#'  antirel
+#' 
+#' Question Some books or films offend people who have strong religious beliefs. Should books and films that attack religions be prohibited by law or should they be allowed?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` neither agree nor disagree
-#'   * `4` disagree
-#'   * `5` strongly disagree
+#'   * `1` definitely should
+#'   * `2` probably should
+#'   * `3` probably should not
+#'   * `4` definitely should not
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -68,22 +288,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name perright
-NULL
-
-#'  Anti-religious material should be banned
-#' 
-#'  antirel
-#' 
-#' Question 398. Some books or films offend people who have strong religious beliefs. Should books and films that attack religions be prohibited by law or should they be allowed?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4684/vshow).
 #'
 #' Counts by year: 
 #'
@@ -126,13 +332,36 @@ NULL
 #'  |2024  |-     |-                 |-                     |-          |-         |-               |-                   |3309                       |3309  |
 #'  |Total |67487 |184               |373                   |158        |24        |211             |409                 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Religion
+#' @family Civil Liberties
+#' 
+#' @keywords variable
+#' @md
+#' @name antirel
+NULL
+
+
+#'  How often do you think people take advantage
+#' 
+#'  befair
+#' 
+#' Question How often do you think that people would try to take advantage of you if they got the chance and how often would they try to be fair?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` definitely should
-#'   * `2` probably should
-#'   * `3` probably should not
-#'   * `4` definitely should not
-#'   * `NA(d)` don't know
+#'   * `1` try to take advantage almost all of the time
+#'   * `2` try to take advantage most of the time
+#'   * `3` try to be fair most of the time
+#'   * `4` try to be fair almost all of the time
+#'   * `NA(d)` can't choose
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
 #'   * `NA(m)` dk, na, iap
@@ -145,22 +374,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name antirel
-NULL
-
-#'  How often do you think people take advantage
-#' 
-#'  befair
-#' 
-#' Question 1399. How often do you think that people would try to take advantage of you if they got the chance and how often would they try to be fair?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4685/vshow).
 #'
 #' Counts by year: 
 #'
@@ -203,12 +418,39 @@ NULL
 #'  |2024  |1667  |159          |6         |115                                   |689                             |185                                          |462                                    |-                          |26             |3309  |
 #'  |Total |65320 |348          |49        |633                                   |3402                            |608                                          |1769                                   |3544                       |26             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2018 |B/C/-   |partial      |
+#'  |2024 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Religion
+#' @family People
+#' 
+#' @keywords variable
+#' @md
+#' @name befair
+NULL
+
+
+#'  People can be trusted or cant be too careful
+#' 
+#'  cantrust
+#' 
+#' Question Generally speaking, would you say that people can be trusted or that you can't be too careful in dealing with people?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` try to take advantage almost all of the time
-#'   * `2` try to take advantage most of the time
-#'   * `3` try to be fair most of the time
-#'   * `4` try to be fair almost all of the time
+#'   * `1` people can almost always be trusted
+#'   * `2` people can usually be trusted
+#'   * `3` you usually can't be too careful in dealing with people
+#'   * `4` you almost always can't be too careful in dealing with people
 #'   * `NA(d)` can't choose
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -222,22 +464,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name befair
-NULL
-
-#'  People can be trusted or cant be too careful
-#' 
-#'  cantrust
-#' 
-#' Question 1400. Generally speaking, would you say that people can be trusted or that you can't be too careful in dealing with people?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4686/vshow).
 #'
 #' Counts by year: 
 #'
@@ -280,12 +508,43 @@ NULL
 #'  |2024  |1669  |95           |4         |53                                  |515                           |201                                                           |747                                                     |25             |-                          |3309  |
 #'  |Total |61954 |246          |227       |493                                 |3712                          |1117                                                          |4372                                                    |34             |3544                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2008 |B/C/-   |partial      |
+#'  |2014 |A/B/C   |full         |
+#'  |2018 |B/C/-   |partial      |
+#'  |2021 |B/C/-   |partial      |
+#'  |2024 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Religion
+#' @family Anomia
+#' @family People
+#' 
+#' @keywords variable
+#' @md
+#' @name cantrust
+NULL
+
+
+#'  We trust too much in science
+#' 
+#'  trustsci
+#' 
+#' Question We trust too much in science and not enough in religious faith.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` people can almost always be trusted
-#'   * `2` people can usually be trusted
-#'   * `3` you usually can't be too careful in dealing with people
-#'   * `4` you almost always can't be too careful in dealing with people
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` neither agree nor disagree
+#'   * `4` disagree
+#'   * `5` strongly disagree
 #'   * `NA(d)` can't choose
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -299,22 +558,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name cantrust
-NULL
-
-#'  We trust too much in science
-#' 
-#'  trustsci
-#' 
-#' Question 1401. We trust too much in science and not enough in religious faith.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4687/vshow).
 #'
 #' Counts by year: 
 #'
@@ -357,6 +602,33 @@ NULL
 #'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |65022 |886   |86           |974      |1029                       |54        |333            |462               |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'  |2008 |B/C/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Religion
+#' @family Confidence
+#' @family Science
+#' 
+#' @keywords variable
+#' @md
+#' @name trustsci
+NULL
+
+
+#'  Religions bring more conflict
+#' 
+#'  religcon
+#' 
+#' Question Do you agree or disagree with the following statements? 
+#' A. Looking around the world, religions bring more conflict than peace.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -377,22 +649,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name trustsci
-NULL
-
-#'  Religions bring more conflict
-#' 
-#'  religcon
-#' 
-#' Question 1402. Do you agree or disagree with the following statements? a. Looking around the world, religions bring more conflict than peace.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4688/vshow).
 #'
 #' Counts by year: 
 #'
@@ -435,6 +693,32 @@ NULL
 #'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |65022 |1284  |83           |916      |721                        |56        |551            |213               |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'  |2008 |B/C/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Religion
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name religcon
+NULL
+
+
+#'  Religious people are often too intolerant
+#' 
+#'  religint
+#' 
+#' Question Do you agree or disagree with the following statements? 
+#' B. People with very strong religious beliefs are often too intolerant of others.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -455,22 +739,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name religcon
-NULL
-
-#'  Religious people are often too intolerant
-#' 
-#'  religint
-#' 
-#' Question 1402. Do you agree or disagree with the following statements? b. People with very strong religious beliefs are often too intolerant of others.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4689/vshow).
 #'
 #' Counts by year: 
 #'
@@ -513,6 +783,32 @@ NULL
 #'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |65022 |1584  |84           |650      |710                        |53        |611            |132               |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'  |2008 |B/C/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP Religion
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name religint
+NULL
+
+
+#'  The u.s. would be a better country if religion had less influence
+#' 
+#'  religinf
+#' 
+#' Question Do you agree or disagree with the following statements? 
+#' C. The U.S. would be a better country if religion had less influence.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -533,22 +829,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name religint
-NULL
-
-#'  The u.s. would be a better country if religion had less influence
-#' 
-#'  religinf
-#' 
-#' Question 1402. Do you agree or disagree with the following statements? c. The U.S. would be a better country if religion had less influence
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4690/vshow).
 #'
 #' Counts by year: 
 #'
@@ -591,185 +873,21 @@ NULL
 #'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-                 |-              |-                          |3309                          |3309  |
 #'  |Total |63957 |696   |52           |1369     |1390                       |49        |565            |730               |38             |3544                       |3309                          |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` neither agree nor disagree
-#'   * `4` disagree
-#'   * `5` strongly disagree
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2024 |A/C/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family ISSP Religion
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
 #' @name religinf
 NULL
 
-#'  Volunteered political activities past 12 month
-#' 
-#'  volwkpol
-#' 
-#' Question 1403. Have you done any voluntary activity in the past 12 months in any of the following areas? Voluntary activity is unpaid work, not just belonging to an organization or group. It should be of service or benefit to other people or the community and not only to one's family or personal friends. During the last 12 months did you do volunteer work in any of the following areas: a. Political activities (helping political parties, political movements, election campaigns, etc.)
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |no   |no answer |yes 1-2 times |yes 3-5 times |yes 6/more times |not available in this year |Total |
-#'  |:-----|:-----|:----|:---------|:-------------|:-------------|:----------------|:--------------------------|:-----|
-#'  |1972  |1613  |-    |-         |-             |-             |-                |-                          |1613  |
-#'  |1973  |1504  |-    |-         |-             |-             |-                |-                          |1504  |
-#'  |1974  |1484  |-    |-         |-             |-             |-                |-                          |1484  |
-#'  |1975  |1490  |-    |-         |-             |-             |-                |-                          |1490  |
-#'  |1976  |1499  |-    |-         |-             |-             |-                |-                          |1499  |
-#'  |1977  |1530  |-    |-         |-             |-             |-                |-                          |1530  |
-#'  |1978  |1532  |-    |-         |-             |-             |-                |-                          |1532  |
-#'  |1980  |1468  |-    |-         |-             |-             |-                |-                          |1468  |
-#'  |1982  |1860  |-    |-         |-             |-             |-                |-                          |1860  |
-#'  |1983  |1599  |-    |-         |-             |-             |-                |-                          |1599  |
-#'  |1984  |1473  |-    |-         |-             |-             |-                |-                          |1473  |
-#'  |1985  |1534  |-    |-         |-             |-             |-                |-                          |1534  |
-#'  |1986  |1470  |-    |-         |-             |-             |-                |-                          |1470  |
-#'  |1987  |1819  |-    |-         |-             |-             |-                |-                          |1819  |
-#'  |1988  |1481  |-    |-         |-             |-             |-                |-                          |1481  |
-#'  |1989  |1537  |-    |-         |-             |-             |-                |-                          |1537  |
-#'  |1990  |1372  |-    |-         |-             |-             |-                |-                          |1372  |
-#'  |1991  |1517  |-    |-         |-             |-             |-                |-                          |1517  |
-#'  |1993  |1606  |-    |-         |-             |-             |-                |-                          |1606  |
-#'  |1994  |2992  |-    |-         |-             |-             |-                |-                          |2992  |
-#'  |1996  |2904  |-    |-         |-             |-             |-                |-                          |2904  |
-#'  |1998  |1548  |1102 |59        |81            |22            |20               |-                          |2832  |
-#'  |2000  |2817  |-    |-         |-             |-             |-                |-                          |2817  |
-#'  |2002  |2765  |-    |-         |-             |-             |-                |-                          |2765  |
-#'  |2004  |2812  |-    |-         |-             |-             |-                |-                          |2812  |
-#'  |2006  |4510  |-    |-         |-             |-             |-                |-                          |4510  |
-#'  |2008  |2023  |-    |-         |-             |-             |-                |-                          |2023  |
-#'  |2010  |2044  |-    |-         |-             |-             |-                |-                          |2044  |
-#'  |2012  |1974  |-    |-         |-             |-             |-                |-                          |1974  |
-#'  |2014  |2538  |-    |-         |-             |-             |-                |-                          |2538  |
-#'  |2016  |2867  |-    |-         |-             |-             |-                |-                          |2867  |
-#'  |2018  |2348  |-    |-         |-             |-             |-                |-                          |2348  |
-#'  |2021  |4032  |-    |-         |-             |-             |-                |-                          |4032  |
-#'  |2022  |-     |-    |-         |-             |-             |-                |3544                       |3544  |
-#'  |2024  |-     |-    |-         |-             |-             |-                |3309                       |3309  |
-#'  |Total |67562 |1102 |59        |81            |22            |20               |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` no
-#'   * `2` yes 1-2 times
-#'   * `3` yes 3-5 times
-#'   * `4` yes 6/more times
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name volwkpol
-NULL
-
-#'  Volunteered charitable past 12 month
-#' 
-#'  volwkchr
-#' 
-#' Question 1403. Have you done any voluntary activity in the past 12 months in any of the following areas? Voluntary activity is unpaid work, not just belonging to an organization or group. It should be of service or benefit to other people or the community and not only to one's family or personal friends. During the last 12 months did you do volunteer work in any of the following areas: b. Charitable activities (helping the sick, elderly, poor, etc.)
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |no  |no answer |yes 1-2 times |yes 3-5 times |yes 6/more times |not available in this year |Total |
-#'  |:-----|:-----|:---|:---------|:-------------|:-------------|:----------------|:--------------------------|:-----|
-#'  |1972  |1613  |-   |-         |-             |-             |-                |-                          |1613  |
-#'  |1973  |1504  |-   |-         |-             |-             |-                |-                          |1504  |
-#'  |1974  |1484  |-   |-         |-             |-             |-                |-                          |1484  |
-#'  |1975  |1490  |-   |-         |-             |-             |-                |-                          |1490  |
-#'  |1976  |1499  |-   |-         |-             |-             |-                |-                          |1499  |
-#'  |1977  |1530  |-   |-         |-             |-             |-                |-                          |1530  |
-#'  |1978  |1532  |-   |-         |-             |-             |-                |-                          |1532  |
-#'  |1980  |1468  |-   |-         |-             |-             |-                |-                          |1468  |
-#'  |1982  |1860  |-   |-         |-             |-             |-                |-                          |1860  |
-#'  |1983  |1599  |-   |-         |-             |-             |-                |-                          |1599  |
-#'  |1984  |1473  |-   |-         |-             |-             |-                |-                          |1473  |
-#'  |1985  |1534  |-   |-         |-             |-             |-                |-                          |1534  |
-#'  |1986  |1470  |-   |-         |-             |-             |-                |-                          |1470  |
-#'  |1987  |1819  |-   |-         |-             |-             |-                |-                          |1819  |
-#'  |1988  |1481  |-   |-         |-             |-             |-                |-                          |1481  |
-#'  |1989  |1537  |-   |-         |-             |-             |-                |-                          |1537  |
-#'  |1990  |1372  |-   |-         |-             |-             |-                |-                          |1372  |
-#'  |1991  |1517  |-   |-         |-             |-             |-                |-                          |1517  |
-#'  |1993  |1606  |-   |-         |-             |-             |-                |-                          |1606  |
-#'  |1994  |2992  |-   |-         |-             |-             |-                |-                          |2992  |
-#'  |1996  |2904  |-   |-         |-             |-             |-                |-                          |2904  |
-#'  |1998  |1548  |752 |57        |251           |119           |105              |-                          |2832  |
-#'  |2000  |2817  |-   |-         |-             |-             |-                |-                          |2817  |
-#'  |2002  |2765  |-   |-         |-             |-             |-                |-                          |2765  |
-#'  |2004  |2812  |-   |-         |-             |-             |-                |-                          |2812  |
-#'  |2006  |4510  |-   |-         |-             |-             |-                |-                          |4510  |
-#'  |2008  |2023  |-   |-         |-             |-             |-                |-                          |2023  |
-#'  |2010  |2044  |-   |-         |-             |-             |-                |-                          |2044  |
-#'  |2012  |1974  |-   |-         |-             |-             |-                |-                          |1974  |
-#'  |2014  |2538  |-   |-         |-             |-             |-                |-                          |2538  |
-#'  |2016  |2867  |-   |-         |-             |-             |-                |-                          |2867  |
-#'  |2018  |2348  |-   |-         |-             |-             |-                |-                          |2348  |
-#'  |2021  |4032  |-   |-         |-             |-             |-                |-                          |4032  |
-#'  |2022  |-     |-   |-         |-             |-             |-                |3544                       |3544  |
-#'  |2024  |-     |-   |-         |-             |-             |-                |3309                       |3309  |
-#'  |Total |67562 |752 |57        |251           |119           |105              |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` no
-#'   * `2` yes 1-2 times
-#'   * `3` yes 3-5 times
-#'   * `4` yes 6/more times
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name volwkchr
-NULL
 

@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 mhmoney
 }
 \details{
-Question 1139. How able is (NAME) to make decisions about managing (his/her) own money?
+Question How able is (NAME) to make decisions about managing (his/her) own money?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very able
+\item \code{2} moderately able
+\item \code{3} not very able
+\item \code{4} not at all able
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3761/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab don't know \tab moderately able \tab no answer \tab not at all able \tab not very able \tab very able \tab not available in this year \tab Total \cr
@@ -57,26 +79,36 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very able
-\item \code{2} moderately able
-\item \code{3} not very able
-\item \code{4} not at all able
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab D \tab partial \cr
 }
 }
 
+\seealso{
+Other Mental Health IV: 
+\code{\link{mhdecslf}},
+\code{\link{mhimptrt}},
+\code{\link{mhintl}},
+\code{\link{mhlessop}},
+\code{\link{mhlosefr}},
+\code{\link{mhnotpol}},
+\code{\link{mhoutsdr}},
+\code{\link{mhuneasy}},
+\code{\link{mhunsure}}
+
+Other Mental Health: 
+\code{\link{mhdecslf}},
+\code{\link{mhimptrt}},
+\code{\link{mhintl}},
+\code{\link{mhlessop}},
+\code{\link{mhlosefr}},
+\code{\link{mhnotpol}},
+\code{\link{mhoutsdr}},
+\code{\link{mhuneasy}},
+\code{\link{mhunsure}}
+}
+\concept{Mental Health}
+\concept{Mental Health IV}
 \keyword{variable}

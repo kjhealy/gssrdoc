@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 incentiv
 }
 \details{
-Question 1252. Some people earn a lot of money while others do not earn very much at all. In order to get people to work hard, do you think large differences in pay are . . .
+Question Some people earn a lot of money while others do not earn very much at all. In order to get people to work hard, do you think large differences in pay are . . .
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} absolutely neccessary
+\item \code{2} probably neccessary
+\item \code{3} probably not necc
+\item \code{4} definitely not necc
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4255/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab absolutely neccessary \tab can't choose \tab definitely not necc \tab no answer \tab probably neccessary \tab probably not necc \tab not available in this year \tab Total \cr
@@ -57,26 +79,21 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} absolutely neccessary
-\item \code{2} probably neccessary
-\item \code{3} probably not necc
-\item \code{4} definitely not necc
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1987 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Inequality, Income: 
+\code{\link{inequal1}},
+\code{\link{inequal2}},
+\code{\link{inequal3}},
+\code{\link{inequal4}},
+\code{\link{inequal5}}
+}
+\concept{ISSP Social Inequalitycentives}
+\concept{Inequality, Income}
 \keyword{variable}

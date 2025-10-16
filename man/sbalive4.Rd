@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 sbalive4
 }
 \details{
-Question 508. Now I have some questions about your sisters and brothrs. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. e. Is (NAME) alive?
+Question Now I have some questions about your sisters and brothers. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. (RECORD THIS INFORMATION FOR UP TO THE NINE OLDEST SIBLINGS IN TABLE TO RIGHT).
+E4. Is fourth sibling alive?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes
+\item \code{2} no
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1575/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab not available in this year \tab Total \cr
@@ -57,24 +78,36 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes
-\item \code{2} no
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Family Mobility: 
+\code{\link{sbalive1}},
+\code{\link{sbalive2}},
+\code{\link{sbalive3}},
+\code{\link{sbalive5}},
+\code{\link{sbalive6}},
+\code{\link{sbalive7}},
+\code{\link{sbalive8}},
+\code{\link{sbalive9}},
+\code{\link{sbrel9}}
+
+Other Siblings: 
+\code{\link{sbalive1}},
+\code{\link{sbalive2}},
+\code{\link{sbalive3}},
+\code{\link{sbalive5}},
+\code{\link{sbalive6}},
+\code{\link{sbalive7}},
+\code{\link{sbalive8}},
+\code{\link{sbalive9}},
+\code{\link{sbrel9}}
+}
+\concept{Family Mobility}
+\concept{Siblings}
 \keyword{variable}

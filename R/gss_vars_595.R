@@ -1,11 +1,280 @@
+#'  Relationship of person 11 to spouse of househo
+#' 
+#'  relsp11
+#' 
+#' Question What is (NAME)â€™s relationship to spouse?
+#'  K. Relationship of eleventh person to spouse?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` hh spouse, partner
+#'   * `2` spouse
+#'   * `3` partner, fiance(e), boyfriend, girlfriend, etc.
+#'   * `4` child, not specified
+#'   * `5` grandchild, great-grandchild
+#'   * `6` son-in-law, daughter-in-law
+#'   * `7` parent
+#'   * `8` parent-in-law
+#'   * `9` grandparent, great-grandparent
+#'   * `10` uncle or aunt
+#'   * `11` niece or nephew
+#'   * `12` cousin
+#'   * `13` brother, sister (full, half, or step sibling)
+#'   * `14` sibling-in-law
+#'   * `15` other relative (great-aunt, grandniece, etc.)
+#'   * `16` roommate, housemate
+#'   * `17` friend
+#'   * `18` child of non-relative
+#'   * `19` other non-relative (employee, boarder)
+#'   * `41` natural/biological child
+#'   * `42` adopted child
+#'   * `43` stepchild
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5463/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |brother, sister (full, half, or step sibling) |child, not specified |grandchild, great-grandchild |natural/biological child |niece or nephew |no answer |parent |parent-in-law |stepchild |other non-relative (employee, boarder) |sibling-in-law |cousin |friend |other relative (great-aunt, grandniece, etc.) |son-in-law, daughter-in-law |roommate, housemate |child of non-relative |uncle or aunt |skipped on web |not available in this release |Total |
+#'  |:-----|:-----|:---------------------------------------------|:--------------------|:----------------------------|:------------------------|:---------------|:---------|:------|:-------------|:---------|:--------------------------------------|:--------------|:------|:------|:---------------------------------------------|:---------------------------|:-------------------|:---------------------|:-------------|:--------------|:-----------------------------|:-----|
+#'  |1972  |1613  |-                                             |-                    |-                            |-                        |-               |-         |-      |-             |-         |-                                      |-              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |-                             |1613  |
+#'  |1973  |1504  |-                                             |-                    |-                            |-                        |-               |-         |-      |-             |-         |-                                      |-              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |-                             |1504  |
+#'  |1974  |1484  |-                                             |-                    |-                            |-                        |-               |-         |-      |-             |-         |-                                      |-              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |-                             |1484  |
+#'  |1975  |1490  |-                                             |-                    |-                            |-                        |-               |-         |-      |-             |-         |-                                      |-              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |-                             |1490  |
+#'  |1976  |1499  |-                                             |-                    |-                            |-                        |-               |-         |-      |-             |-         |-                                      |-              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |-                             |1499  |
+#'  |1977  |1530  |-                                             |-                    |-                            |-                        |-               |-         |-      |-             |-         |-                                      |-              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |-                             |1530  |
+#'  |1978  |1532  |-                                             |-                    |-                            |-                        |-               |-         |-      |-             |-         |-                                      |-              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |-                             |1532  |
+#'  |1980  |1468  |-                                             |-                    |-                            |-                        |-               |-         |-      |-             |-         |-                                      |-              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |-                             |1468  |
+#'  |1982  |1860  |-                                             |-                    |-                            |-                        |-               |-         |-      |-             |-         |-                                      |-              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |-                             |1860  |
+#'  |1983  |1599  |-                                             |-                    |-                            |-                        |-               |-         |-      |-             |-         |-                                      |-              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |-                             |1599  |
+#'  |1984  |1473  |-                                             |-                    |-                            |-                        |-               |-         |-      |-             |-         |-                                      |-              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |-                             |1473  |
+#'  |1985  |1534  |-                                             |-                    |-                            |-                        |-               |-         |-      |-             |-         |-                                      |-              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |-                             |1534  |
+#'  |1986  |1470  |-                                             |-                    |-                            |-                        |-               |-         |-      |-             |-         |-                                      |-              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |-                             |1470  |
+#'  |1987  |1819  |-                                             |-                    |-                            |-                        |-               |-         |-      |-             |-         |-                                      |-              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |-                             |1819  |
+#'  |1988  |1481  |-                                             |-                    |-                            |-                        |-               |-         |-      |-             |-         |-                                      |-              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |-                             |1481  |
+#'  |1989  |1537  |-                                             |-                    |-                            |-                        |-               |-         |-      |-             |-         |-                                      |-              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |-                             |1537  |
+#'  |1990  |1372  |-                                             |-                    |-                            |-                        |-               |-         |-      |-             |-         |-                                      |-              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |-                             |1372  |
+#'  |1991  |1517  |-                                             |-                    |-                            |-                        |-               |-         |-      |-             |-         |-                                      |-              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |-                             |1517  |
+#'  |1993  |1606  |-                                             |-                    |-                            |-                        |-               |-         |-      |-             |-         |-                                      |-              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |-                             |1606  |
+#'  |1994  |2992  |-                                             |-                    |-                            |-                        |-               |-         |-      |-             |-         |-                                      |-              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |-                             |2992  |
+#'  |1996  |2904  |-                                             |-                    |-                            |-                        |-               |-         |-      |-             |-         |-                                      |-              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |-                             |2904  |
+#'  |1998  |2832  |-                                             |-                    |-                            |-                        |-               |-         |-      |-             |-         |-                                      |-              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |-                             |2832  |
+#'  |2000  |2809  |1                                             |1                    |1                            |3                        |1               |1         |-      |-             |-         |-                                      |-              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |-                             |2817  |
+#'  |2002  |2762  |-                                             |-                    |-                            |-                        |-               |-         |1      |1             |1         |-                                      |-              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |-                             |2765  |
+#'  |2004  |2806  |-                                             |1                    |-                            |2                        |-               |-         |-      |-             |1         |1                                      |1              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |-                             |2812  |
+#'  |2006  |4484  |3                                             |3                    |-                            |5                        |2               |-         |2      |1             |1         |1                                      |-              |3      |3      |1                                             |1                           |-                   |-                     |-             |-              |-                             |4510  |
+#'  |2008  |2013  |2                                             |-                    |1                            |-                        |-               |-         |3      |-             |1         |-                                      |1              |-      |-      |-                                             |-                           |2                   |-                     |-             |-              |-                             |2023  |
+#'  |2010  |2028  |-                                             |2                    |1                            |2                        |1               |2         |2      |-             |-         |1                                      |1              |-      |3      |-                                             |-                           |-                   |1                     |-             |-              |-                             |2044  |
+#'  |2012  |1965  |-                                             |1                    |-                            |-                        |-               |-         |1      |1             |-         |1                                      |3              |1      |1      |-                                             |-                           |-                   |-                     |-             |-              |-                             |1974  |
+#'  |2014  |2532  |1                                             |1                    |1                            |-                        |1               |-         |1      |-             |-         |1                                      |-              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |-                             |2538  |
+#'  |2016  |2854  |1                                             |2                    |-                            |1                        |2               |-         |1      |1             |-         |1                                      |1              |-      |2      |-                                             |-                           |1                   |-                     |-             |-              |-                             |2867  |
+#'  |2018  |2330  |1                                             |4                    |1                            |-                        |-               |1         |1      |2             |-         |1                                      |2              |-      |3      |-                                             |-                           |1                   |-                     |1             |-              |-                             |2348  |
+#'  |2021  |3987  |1                                             |1                    |4                            |14                       |1               |-         |4      |2             |4         |3                                      |1              |-      |4      |1                                             |-                           |1                   |1                     |-             |3              |-                             |4032  |
+#'  |2022  |3526  |2                                             |-                    |-                            |7                        |-               |-         |3      |1             |-         |3                                      |-              |1      |1      |-                                             |-                           |-                   |-                     |-             |-              |-                             |3544  |
+#'  |2024  |-     |-                                             |-                    |-                            |-                        |-               |-         |-      |-             |-         |-                                      |-              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |3309                          |3309  |
+#'  |Total |72212 |12                                            |16                   |9                            |34                       |8               |4         |19     |9             |8         |13                                     |10             |5      |17     |2                                             |1                           |5                   |2                     |1             |3              |3309                          |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Household Members and Structure
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name relsp11
+NULL
+
+
+#'  Relationship of person 12 to spouse of househo
+#' 
+#'  relsp12
+#' 
+#' Question What is (NAME)â€™s relationship to spouse?
+#'  L. Relationship of twelfth person to spouse?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` hh spouse, partner
+#'   * `2` spouse
+#'   * `3` partner, fiance(e), boyfriend, girlfriend, etc.
+#'   * `4` child, not specified
+#'   * `5` grandchild, great-grandchild
+#'   * `6` son-in-law, daughter-in-law
+#'   * `7` parent
+#'   * `8` parent-in-law
+#'   * `9` grandparent, great-grandparent
+#'   * `10` uncle or aunt
+#'   * `11` niece or nephew
+#'   * `12` cousin
+#'   * `13` brother, sister (full, half, or step sibling)
+#'   * `14` sibling-in-law
+#'   * `15` other relative (great-aunt, grandniece, etc.)
+#'   * `16` roommate, housemate
+#'   * `17` friend
+#'   * `18` child of non-relative
+#'   * `19` other non-relative (employee, boarder)
+#'   * `41` natural/biological child
+#'   * `42` adopted child
+#'   * `43` stepchild
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5464/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |child, not specified |grandchild, great-grandchild |natural/biological child |son-in-law, daughter-in-law |cousin |friend |niece or nephew |other relative (great-aunt, grandniece, etc.) |sibling-in-law |stepchild |child of non-relative |no answer |parent |roommate, housemate |other non-relative (employee, boarder) |not available in this release |Total |
+#'  |:-----|:-----|:--------------------|:----------------------------|:------------------------|:---------------------------|:------|:------|:---------------|:---------------------------------------------|:--------------|:---------|:---------------------|:---------|:------|:-------------------|:--------------------------------------|:-----------------------------|:-----|
+#'  |1972  |1613  |-                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |-                             |1613  |
+#'  |1973  |1504  |-                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |-                             |1504  |
+#'  |1974  |1484  |-                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |-                             |1484  |
+#'  |1975  |1490  |-                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |-                             |1490  |
+#'  |1976  |1499  |-                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |-                             |1499  |
+#'  |1977  |1530  |-                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |-                             |1530  |
+#'  |1978  |1532  |-                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |-                             |1532  |
+#'  |1980  |1468  |-                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |-                             |1468  |
+#'  |1982  |1860  |-                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |-                             |1860  |
+#'  |1983  |1599  |-                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |-                             |1599  |
+#'  |1984  |1473  |-                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |-                             |1473  |
+#'  |1985  |1534  |-                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |-                             |1534  |
+#'  |1986  |1470  |-                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |-                             |1470  |
+#'  |1987  |1819  |-                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |-                             |1819  |
+#'  |1988  |1481  |-                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |-                             |1481  |
+#'  |1989  |1537  |-                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |-                             |1537  |
+#'  |1990  |1372  |-                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |-                             |1372  |
+#'  |1991  |1517  |-                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |-                             |1517  |
+#'  |1993  |1606  |-                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |-                             |1606  |
+#'  |1994  |2992  |-                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |-                             |2992  |
+#'  |1996  |2904  |-                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |-                             |2904  |
+#'  |1998  |2832  |-                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |-                             |2832  |
+#'  |2000  |2813  |1                    |1                            |1                        |1                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |-                             |2817  |
+#'  |2002  |2765  |-                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |-                             |2765  |
+#'  |2004  |2812  |-                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |-                             |2812  |
+#'  |2006  |4502  |-                    |-                            |1                        |1                           |1      |1      |1               |1                                             |1              |1         |-                     |-         |-      |-                   |-                                      |-                             |4510  |
+#'  |2008  |2021  |-                    |-                            |-                        |-                           |-      |-      |1               |-                                             |-              |-         |1                     |-         |-      |-                   |-                                      |-                             |2023  |
+#'  |2010  |2038  |1                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |2         |2      |1                   |-                                      |-                             |2044  |
+#'  |2012  |1972  |-                    |1                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |1      |-                   |-                                      |-                             |1974  |
+#'  |2014  |2537  |1                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |-                             |2538  |
+#'  |2016  |2866  |-                    |-                            |-                        |-                           |-      |-      |-               |1                                             |-              |-         |-                     |-         |-      |-                   |-                                      |-                             |2867  |
+#'  |2018  |2345  |-                    |-                            |-                        |-                           |-      |1      |-               |-                                             |-              |-         |-                     |-         |2      |-                   |-                                      |-                             |2348  |
+#'  |2021  |4025  |-                    |1                            |3                        |-                           |-      |-      |-               |1                                             |-              |-         |-                     |-         |-      |1                   |1                                      |-                             |4032  |
+#'  |2022  |3541  |-                    |-                            |2                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |1                                      |-                             |3544  |
+#'  |2024  |-     |-                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |3309                          |3309  |
+#'  |Total |72353 |3                    |3                            |7                        |2                           |1      |2      |2               |3                                             |1              |1         |1                     |2         |5      |2                   |2                                      |3309                          |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Household Members and Structure
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name relsp12
+NULL
+
+
 #'  Relationship of person 13 to spouse of househo
 #' 
 #'  relsp13
 #' 
-#' Question 1633. What is (NAME)'s relationship to spouse?
+#' Question What is (NAME)â€™s relationship to spouse?
+#'  M. Relationship of thirteenth person to spouse?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` head of household
+#'   * `2` spouse
+#'   * `3` partner, fiance(e), boyfriend, girlfriend, etc.
+#'   * `4` child, not specified
+#'   * `5` grandchild, great-grandchild
+#'   * `6` son-in-law, daughter-in-law
+#'   * `7` parent
+#'   * `8` parent-in-law
+#'   * `9` grandparent, great-grandparent
+#'   * `10` uncle or aunt
+#'   * `11` niece or nephew
+#'   * `12` cousin
+#'   * `13` brother, sister (full, half, or step sibling)
+#'   * `14` sibling-in-law
+#'   * `15` other relative (great-aunt, grandniece, etc.)
+#'   * `16` roommate, housemate
+#'   * `17` friend
+#'   * `18` child of non-relative
+#'   * `19` other non-relative (employee, boarder)
+#'   * `41` natural/biological child
+#'   * `42` adopted child
+#'   * `43` stepchild
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5465/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +317,40 @@
 #'  |2024  |-     |-                        |-                     |-               |-         |-                            |-                    |3309                          |3309  |
 #'  |Total |72380 |2                        |1                     |1               |2         |3                            |1                    |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Household Members and Structure
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name relsp13
+NULL
+
+
+#'  Relationship of person 14 to spouse of househo
+#' 
+#'  relsp14
+#' 
+#' Question What is (NAME)â€™s relationship to spouse?
+#'  N. Relationship of fourteenth person to spouse?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` head of household
@@ -85,22 +388,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name relsp13
-NULL
-
-#'  Relationship of person 14 to spouse of househo
-#' 
-#'  relsp14
-#' 
-#' Question 1633. What is (NAME)'s relationship to spouse?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5466/vshow).
 #'
 #' Counts by year: 
 #'
@@ -143,30 +432,41 @@ NULL
 #'  |2024  |-     |-               |-         |-                            |-         |3309                          |3309  |
 #'  |Total |72384 |1               |2         |2                            |1         |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Household Members and Structure
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name relsp14
+NULL
+
+
+#'  Date of interview
+#' 
+#'  dateintv
+#' 
+#' Question Date of interview.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` head of household
-#'   * `2` spouse
-#'   * `3` partner, fiance(e), boyfriend, girlfriend, etc.
-#'   * `4` child, not specified
-#'   * `5` grandchild, great-grandchild
-#'   * `6` son-in-law, daughter-in-law
-#'   * `7` parent
-#'   * `8` parent-in-law
-#'   * `9` grandparent, great-grandparent
-#'   * `10` uncle or aunt
-#'   * `11` niece or nephew
-#'   * `12` cousin
-#'   * `13` brother, sister (full, half, or step sibling)
-#'   * `14` sibling-in-law
-#'   * `15` other relative (great-aunt, grandniece, etc.)
-#'   * `16` roommate, housemate
-#'   * `17` friend
-#'   * `18` child of non-relative
-#'   * `19` other non-relative (employee, boarder)
-#'   * `41` natural/biological child
-#'   * `42` adopted child
-#'   * `43` stepchild
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -180,22 +480,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name relsp14
-NULL
-
-#'  Date of interview
-#' 
-#'  dateintv
-#' 
-#' Question 1634. Date of interview.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5467/vshow).
 #'
 #' Counts by year: 
 #'
@@ -238,6 +524,60 @@ NULL
 #'  |2024  |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |1   |4   |3   |9   |18  |21  |36  |24  |35  |17  |32  |9   |14  |7   |13  |10  |12  |5   |9   |-         |-   |10  |11  |32  |23  |13  |21  |13  |16  |37  |20  |22  |20  |19  |9   |15  |11  |15  |10  |6   |10  |6   |7   |3   |7   |4   |62  |88  |45  |33  |19  |20  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |9   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |9   |7   |9   |27  |21  |21  |-   |7   |15  |9   |24  |16  |21  |15  |9   |15  |13  |9   |25  |17  |21  |15  |13  |9   |13  |21  |14  |-   |15  |15  |20  |9   |8   |16  |8   |3    |7    |1    |3    |2    |5    |7    |8    |4    |-   |5    |12   |6    |9    |13   |10   |11   |64   |48   |37   |-   |22   |23   |20   |15   |21   |16   |17   |15   |12   |-   |17   |13   |9    |8    |12   |5    |11   |12   |8    |6    |16   |8    |20   |17   |23   |13   |16   |11   |18   |9    |11   |12   |4    |14   |15   |13   |3    |5    |10   |11   |3    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |3   |6   |8   |7   |22  |8   |13  |9   |9   |11  |5   |12  |12  |9   |5   |8   |6   |12  |10  |11  |15  |6   |10  |12  |8   |10  |13  |16  |8   |16  |4   |8   |17  |7   |9   |4   |7   |6   |5   |8   |8   |11  |9   |12  |18  |11  |10  |17  |13  |10  |8   |15  |10  |9   |18  |10  |13  |9   |6   |9   |6   |9   |7   |6   |11  |14  |12  |8   |9   |10  |7   |10  |16  |11  |8   |47  |37  |33  |23  |12  |25  |9   |9   |12  |11  |19  |10  |11  |12  |12  |11  |15  |13  |19  |7   |23   |12   |5    |7    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |3309  |
 #'  |Total |4601 |818 |801 |753 |732 |765 |771 |875 |726 |986 |844 |766 |784 |734 |873 |874 |961 |808 |713 |677 |673 |654 |666 |706 |652 |593 |615 |562 |622 |611 |628 |528 |495 |40  |454 |425 |455 |479 |453 |429 |425 |414 |423 |415 |444 |428 |431 |342 |332 |232 |253 |217 |228 |216 |195 |259 |233 |510       |191 |447 |404 |366 |371 |398 |334 |345 |363 |328 |310 |308 |297 |278 |277 |235 |239 |212 |235 |207 |225 |205 |242 |211 |248 |242 |295 |290 |238 |163 |133 |119 |235 |320 |309 |348 |362 |368 |468 |528 |576 |638 |675 |662 |692 |710 |685 |638 |739 |693 |737 |2   |183 |226 |21  |208 |64  |186 |63  |176 |179 |154 |194 |227 |50  |12  |98  |94  |63  |2   |212 |227 |129 |148 |130 |152 |11  |90  |138 |144 |145 |157 |143 |160 |141 |163 |160 |188 |201 |157 |182 |173 |165 |125 |144 |140 |141 |5   |152 |146 |146 |130 |114 |117 |133 |59   |56   |45   |59   |45   |73   |66   |60   |59   |10  |47   |78   |46   |49   |64   |73   |74   |114  |126  |107  |16  |82   |92   |85   |74   |66   |68   |65   |41   |47   |23  |47   |36   |26   |31   |37   |33   |32   |44   |31   |39   |38   |32   |53   |47   |93   |86   |62   |51   |50   |44   |41   |39   |12   |23   |29   |31   |39   |26   |34   |41   |27   |27   |34   |41   |35   |34   |35   |44   |68   |49   |50   |48   |78   |106  |69   |42   |37   |36   |37   |28   |23   |29   |8    |10   |10   |13   |21   |29   |12   |56  |57  |81  |70  |93  |83  |94  |101 |93  |109 |110 |78  |107 |90  |87  |85  |88  |81  |61  |63  |98  |101 |86  |82  |96  |74  |91  |82  |65  |76  |84  |82  |64  |84  |92  |89  |84  |80  |83  |58  |69  |71  |66  |63  |137 |143 |107 |82  |64  |56  |30  |71  |71  |57  |68  |78  |73  |80  |95  |90  |88  |128 |128 |108 |128 |117 |100 |82  |87  |105 |84  |81  |90  |104 |88  |139 |116 |117 |104 |113 |90  |100 |83  |68  |81  |83  |66  |78  |84  |74  |81  |65  |56  |73  |55  |43   |27   |19   |19   |31  |19  |10  |12  |8   |9   |10  |7   |11  |2   |5   |3   |4   |8   |4   |3   |1   |3    |14  |8   |23  |17  |1   |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Date of Interview
+#' @family Date Of Interview
+#' 
+#' @keywords variable
+#' @md
+#' @name dateintv
+NULL
+
+
+#'  Respondent's occupation, 1970 census
+#' 
+#'  isco68
+#' 
+#' Question Respondent's occupation (International Standard Classification Codes-1968)
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -253,22 +593,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name dateintv
-NULL
-
-#'  Respondent's occupation, 1970 census
-#' 
-#'  isco68
-#' 
-#' Question 1635. Respondent's occupation (International Standard Classification Codes-1968)
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5468/vshow).
 #'
 #' Counts by year: 
 #'
@@ -311,6 +637,45 @@ NULL
 #'  |2024  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-   |-   |-   |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-     |-   |-   |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-   |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |3309                       |3309  |
 #'  |Total |228  |94   |176  |414  |525  |58   |70   |101  |56   |10   |52   |45   |61   |38   |8    |32   |46   |22   |192  |22   |37   |28   |29  |137  |1510 |49  |63  |43  |24  |50  |38  |213  |153  |50  |277  |1035 |73   |460  |383  |83   |79   |119  |157  |82  |66   |111  |13   |18  |16   |96   |24   |137  |17   |90  |130  |179  |134  |22   |67   |683  |13   |10   |21   |25  |229  |40   |47   |139  |117  |28   |43   |980  |53   |170  |181  |30  |12   |577  |85   |132 |322  |185  |83   |256  |550  |85   |217  |49   |96   |131  |211  |17   |34   |5    |7    |53  |412  |11   |93  |143  |27  |54  |7   |325  |535 |11   |490 |20   |9    |16   |6    |15   |56   |15   |43   |51  |27  |71   |22   |53   |81   |356  |20   |51   |13   |17   |40  |41   |14   |742  |123 |124  |113  |5    |201  |36   |247  |321  |55   |14   |34   |148  |42   |23   |4    |95   |146  |59   |28   |34  |34   |41   |4    |16   |99   |3    |30   |256  |59   |15   |25   |276  |13   |221  |39   |11   |184  |193  |61   |102  |64   |7    |21   |2    |8    |14   |73   |341  |120  |3    |7    |557  |26   |44579 |33  |11  |27   |13   |41   |6    |19   |2   |13  |44   |20   |12   |6   |4    |24   |11   |8    |57   |20   |7    |12   |5    |9    |99   |7   |18   |38   |4   |5    |13   |6    |30   |26   |7    |46   |9    |8    |10   |4    |36   |16   |7    |27   |27   |8    |21   |14   |15   |15   |6    |2   |8    |18   |9    |10  |23  |16  |1    |5    |2   |8    |2    |8    |5   |16  |2    |3    |4   |6    |4    |2    |2    |8    |5    |5   |2    |4    |1    |9    |2    |7   |2    |1    |2    |6    |1    |2    |1    |2   |3    |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Occupation
+#' @family Occupation
+#' 
+#' @keywords variable
+#' @md
+#' @name isco68
+NULL
+
+
+#'  R's father's occupation, 1970 census
+#' 
+#'  paisco68
+#' 
+#' Question Occupation of respondent's father (International Standard Classification Codes-1968)
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -326,22 +691,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name isco68
-NULL
-
-#'  R's father's occupation, 1970 census
-#' 
-#'  paisco68
-#' 
-#' Question 1636. Occupation of respondent's father (International Standard Classification Codes-1968)
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5469/vshow).
 #'
 #' Counts by year: 
 #'
@@ -384,6 +735,45 @@ NULL
 #'  |2024  |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-   |-   |-   |-   |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-     |-   |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |3309                       |3309  |
 #'  |Total |45  |175  |94   |8    |3   |94   |84   |44   |54   |159  |31   |10   |20   |14   |22   |14   |8    |10   |26  |91   |2286 |80  |105 |90  |31  |6   |9   |75  |58   |115  |36   |48  |3    |56   |11   |6    |74   |34   |6    |24   |14   |54   |23   |120  |4    |10   |69   |100  |109  |2    |15   |18  |29  |159  |23   |46   |28   |152  |99   |23   |23   |589  |35   |107  |24  |31   |205  |116  |32   |102  |87   |162  |5    |101  |17   |295  |10   |7    |32   |112 |4032 |451  |40  |25   |37  |696  |573  |28  |47   |53   |14   |22   |18   |13   |42   |10   |112  |9    |67   |9   |68   |4    |64   |22   |24   |10   |30   |17   |54   |65   |82   |20   |833  |43   |118  |232  |50   |305  |338  |145  |21   |28   |203  |35   |45   |6    |182  |200  |100  |21   |33   |22   |4    |8   |47   |6    |14   |179  |24   |156  |158  |31   |33   |632  |26   |8    |346  |84   |33   |173  |48   |85   |212  |53   |22   |72   |12   |63   |59   |64   |548  |201  |33   |5    |851  |34   |46546 |4   |8    |18   |4    |11   |48   |20   |33  |12  |26   |5   |28  |2    |7    |9    |15   |7    |2    |5    |8    |9    |66   |9    |14   |12  |3   |35   |8   |14   |9    |1    |12  |6    |41   |10   |5    |42   |7    |3    |11   |15   |6    |5   |6    |7    |3    |8    |15   |2    |3    |5    |7    |4   |3    |3   |17   |3   |5    |10   |29  |9    |3    |6    |1    |2    |1    |8    |4    |3    |2    |2    |29  |15  |5    |4    |9    |3    |1    |8   |4    |2    |5   |2    |9    |2   |4   |4    |1   |3    |2    |1    |2    |1    |1    |1   |2    |2    |1   |1    |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Occupation
+#' @family Occupation
+#' 
+#' @keywords variable
+#' @md
+#' @name paisco68
+NULL
+
+
+#'  R's spouse's occupation, 1970 census
+#' 
+#'  spisco68
+#' 
+#' Question Occupation of respondent's spouse (International Standard Classification Codes-1968)
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -399,22 +789,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name paisco68
-NULL
-
-#'  R's spouse's occupation, 1970 census
-#' 
-#'  spisco68
-#' 
-#' Question 1637. Occupation of respondent's spouse (International Standard Classification Codes-1968)
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5470/vshow).
 #'
 #' Counts by year: 
 #'
@@ -457,6 +833,45 @@ NULL
 #'  |2024  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-   |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-   |-   |-   |-    |-   |-    |-   |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-     |-   |-   |-    |-    |-    |-    |-    |-   |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |3309                       |3309  |
 #'  |Total |24  |159  |71   |96   |221  |307  |52   |55   |42   |27   |23   |20   |9    |4    |31   |12   |109  |20   |12   |13  |84   |1113 |36  |52  |41  |25  |109  |80   |39   |39  |119  |612  |48   |259  |168  |69   |44   |58   |81   |38  |36   |61   |6    |16   |60   |11   |63   |52  |87   |88   |84   |19   |34   |341  |9    |19   |21  |6   |156  |27   |41   |6    |8    |106  |75   |14   |31   |632  |25   |79   |13  |48   |18  |244  |22   |38   |55  |92   |78   |21   |179  |220  |34   |129  |37   |69   |70   |10   |177  |6    |9    |6    |49  |276  |37  |77   |35  |1   |14  |292  |292 |80   |213 |13   |2    |16   |14   |6   |24   |12  |51   |15   |3    |42   |202  |27   |11   |24   |2    |473  |28   |70  |76   |96   |21   |12   |176  |30   |174  |177  |17   |41   |79   |34   |39   |10   |75   |116  |47   |23   |14   |1    |17  |21   |29   |4    |11   |59   |158  |28   |15   |20   |195  |4    |9    |17   |119  |21   |105  |94   |37   |95   |51   |14   |20   |18   |52   |279  |91   |5    |16   |299  |12   |54282 |6   |4   |49   |17   |3    |15   |19   |33  |8   |18  |2    |10   |6    |11   |3    |4    |8    |6    |1    |19  |13   |9    |18   |14   |15   |9    |3   |31  |5    |1    |11   |12   |17   |6    |6    |11   |4   |4    |12   |22   |13   |19  |10   |7    |12   |7    |14  |4    |6    |2    |38  |1    |9    |10   |3    |2    |1    |11   |2    |14   |17   |2    |6    |4    |7    |4    |6    |1    |9    |2   |2    |5    |7   |1    |1    |3    |3   |4    |1    |3    |3    |4    |1    |3    |4    |2    |4    |4    |2    |1    |3    |3   |3    |5    |1    |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Occupation
+#' @family Occupation
+#' 
+#' @keywords variable
+#' @md
+#' @name spisco68
+NULL
+
+
+#'  Respondent's occupation, 1980 census
+#' 
+#'  isco681
+#' 
+#' Question Respondent's occupation (International Standard Classification Codes-1968)
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -472,22 +887,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name spisco68
-NULL
-
-#'  Respondent's occupation, 1980 census
-#' 
-#'  isco681
-#' 
-#' Question 1638. Respondent's occupation (International Standard Classification Codes-1968)
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5471/vshow).
 #'
 #' Counts by year: 
 #'
@@ -530,6 +931,42 @@ NULL
 #'  |2024  |-     |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-   |-   |-   |-   |-   |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-   |-    |-    |-   |-    |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-   |-   |-   |-    |-    |-    |-   |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |3309                       |3309  |
 #'  |Total |37407 |31  |351  |258  |253  |371  |695  |110  |49   |183  |106  |68  |81   |21   |33   |108  |56   |83   |159  |56   |11   |47   |25   |10   |73   |66   |20   |276  |204  |121  |164  |53  |131  |2640 |34   |68  |113 |76  |25  |4   |86  |89  |178  |10  |78   |60  |969  |91   |121  |648  |111  |424  |72   |47   |144 |39   |66   |9    |176  |15   |135  |77   |91   |55  |158  |132  |179  |414  |231  |71   |48   |358  |6    |37  |1   |713  |105  |8    |285  |103  |192  |218  |86   |160  |201  |87   |920  |38   |98   |16   |12   |26  |244  |18  |160  |78   |405  |49   |97   |86   |466  |128 |198  |396  |118 |532  |57   |242  |111  |14   |241  |18   |71   |144  |207  |56   |162  |131  |32   |48   |626  |49   |124 |223  |16   |188 |146  |140  |43  |1    |20   |71  |19   |35  |26  |524  |738 |14   |36   |10   |32   |26   |14   |32   |19   |16  |49   |47   |43   |15   |212  |26   |33   |10   |24   |15   |389 |35   |479  |28   |6    |12   |206  |48   |147 |113  |284  |67   |227  |80   |116  |23   |158  |59   |21   |5    |135  |157  |74   |22   |13   |21   |31   |12   |14   |100  |22   |94   |38   |31   |61   |193  |64   |19   |50   |731  |7    |6    |156  |112  |120  |178  |8    |24   |30   |230  |17   |128  |597  |57   |22   |13   |328  |9    |36   |32   |11   |4   |35   |3    |42   |18   |20   |6    |29   |7    |9    |7   |37  |21   |77  |17   |16   |3    |19   |2    |6    |25   |17   |23   |62  |11   |12   |11   |10   |2    |11   |13   |9    |4    |31  |10   |13  |1    |31   |11  |8    |1    |5    |8   |5    |7    |10   |5    |9   |10  |2   |4    |1    |7    |4   |8    |5    |3   |6    |6    |16  |5    |2    |6    |1    |4    |1    |1    |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Occupation
+#' @family Occupation
+#' 
+#' @keywords variable
+#' @md
+#' @name isco681
+NULL
+
+
+#'  R's father's occupation, 1980 census
+#' 
+#'  paisc681
+#' 
+#' Question Occupation of respondent's father (International Standard Classification Codes-1968)
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -545,22 +982,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name isco681
-NULL
-
-#'  R's father's occupation, 1980 census
-#' 
-#'  paisc681
-#' 
-#' Question 1639. Occupation of respondent's father (International Standard Classification Codes-1968)
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5472/vshow).
 #'
 #' Counts by year: 
 #'
@@ -603,172 +1026,32 @@ NULL
 #'  |2024  |-     |-   |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-   |-    |3309                       |3309  |
 #'  |Total |43333 |60  |265  |14  |171  |7   |156  |193  |129  |197  |29   |22   |12   |17   |43   |57   |48   |166  |9    |15   |47  |67   |2192 |161 |213 |164 |67  |106 |97  |43   |97   |60  |14   |8    |55   |51  |28   |105  |86   |80   |159  |30  |59   |46   |32   |58   |6    |52   |19   |841  |74   |19   |365  |38   |53   |98   |215  |15   |18   |434  |98   |30   |74   |29  |101  |16  |322  |31   |48   |66   |125  |198  |142  |31   |419  |21   |9    |16   |103  |182 |2845 |21   |452  |10   |128  |57  |11   |108  |60   |43  |988  |49   |8    |211  |36   |10   |4    |41   |5    |74   |47   |30   |15   |21   |128  |54   |14  |42   |45   |36   |10   |27   |13   |20   |74  |8    |134  |27   |622  |26   |17   |405  |54   |183  |233  |53   |439  |70   |66   |30   |314  |103  |224  |247  |84   |50   |56   |10   |96   |19  |23   |84   |166  |35   |37   |56   |97   |149  |26   |38   |24   |1253 |8    |7    |416  |84   |31   |51   |68   |48   |229  |34   |78   |80   |963  |87   |58   |9    |656  |32   |11  |41   |1    |33  |17   |47   |24   |25   |3    |4    |19   |14  |8   |2    |65  |31   |14   |8    |28   |26   |10   |5    |22   |6    |21  |8    |1   |10  |11   |23   |5    |14   |11   |41   |18   |13   |4    |44   |7    |4    |11  |10   |4    |3    |9    |21   |9    |23   |6   |23  |10  |62  |15   |30   |10   |7    |10   |4    |5    |17  |17   |13   |3    |11   |13   |15   |2   |3    |20   |6   |5    |7    |7    |10   |5    |6    |4    |7    |9    |6    |11   |6    |6    |2    |5   |5    |5    |3    |6   |5    |3    |3    |6    |2   |1    |2   |1    |2    |1    |1    |1    |1   |1    |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Occupation
+#' @family Occupation
 #' 
 #' @keywords variable
 #' @md
 #' @name paisc681
 NULL
 
-#'  R's mothers occupation, 1980 census
-#' 
-#'  maisc681
-#' 
-#' Question 1640. Occupation of respondent's mother (International Standard Classification Codes-1968)
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |110 |1100 |1219 |1310 |1320 |1330 |1340 |1350 |1390 |1393 |140 |1410 |1490 |1590 |1610 |1621 |1639 |1730 |1910 |1930 |1939 |1940 |2010 |2110 |2190 |2192 |3000 |3100 |320 |3211 |3219 |3220 |3311 |3313 |3319 |3399 |3420 |3520 |3590 |3700 |3709 |3809 |3919 |3920 |3939 |3940 |3949 |3951 |3959 |3990 |4210 |4220 |4320 |4400 |4410 |4411 |4412 |4419 |4431 |4432 |4519 |4520 |4521 |4523 |510 |5200 |530 |5300 |5312 |5319 |5321 |5322 |5329 |540 |5400 |5401 |549 |5500 |5510 |5520 |5600 |5700 |5702 |5810 |5829 |5890 |5900 |5920 |5990 |5991 |5999 |6001 |610 |6110 |620 |6210 |6270 |630 |6319 |640 |650 |670 |690 |7000 |710 |7240 |7430 |7520 |7540 |770 |7730 |7760 |7790 |7910 |7919 |7950 |7960 |7990 |8020 |830 |8340 |8420 |849 |8493 |8499 |8530 |8559 |8720 |9210 |9220 |9250 |9260 |9270 |9390 |9430 |9490 |9499 |9594 |9712 |9714 |9851 |9852 |9859 |9891 |9979 |9990 |9996 |1519 |1593 |1710 |1790 |1921 |1999 |230 |240 |3102 |3391 |390 |3911 |3999 |4513 |5320 |5709 |6000 |6240 |7410 |760 |761 |790 |8010 |810 |8120 |8351 |8421 |8422 |8494 |8520 |8620 |8800 |9310 |9599 |9690 |9730 |9790 |1799 |2020 |2030 |210 |340 |3410 |4420 |5895 |5992 |7119 |7320 |769 |8110 |8190 |8440 |8910 |8950 |1229 |1924 |220 |250 |8490 |8560 |3801 |4222 |5891 |5998 |6320 |759 |8430 |8610 |900 |120 |8329 |8330 |8730 |9510 |9530 |9595 |9710 |280 |6410 |1720 |310 |3800 |3930 |5821 |7280 |131 |not available in this year |Total |
-#'  |:-----|:-----|:---|:----|:----|:----|:----|:----|:----|:----|:----|:----|:---|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:---|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:---|:----|:---|:----|:----|:----|:----|:----|:----|:---|:----|:----|:---|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:---|:----|:---|:----|:----|:---|:----|:---|:---|:---|:---|:----|:---|:----|:----|:----|:----|:---|:----|:----|:----|:----|:----|:----|:----|:----|:----|:---|:----|:----|:---|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:---|:---|:----|:----|:---|:----|:----|:----|:----|:----|:----|:----|:----|:---|:---|:---|:----|:---|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:---|:---|:----|:----|:----|:----|:----|:----|:---|:----|:----|:----|:----|:----|:----|:----|:---|:---|:----|:----|:----|:----|:----|:----|:----|:---|:----|:----|:---|:---|:----|:----|:----|:----|:----|:----|:----|:---|:----|:----|:---|:----|:----|:----|:----|:---|:--------------------------|:-----|
-#'  |1972  |1613  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-   |-   |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |1613  |
-#'  |1973  |1504  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-   |-   |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |1504  |
-#'  |1974  |1484  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-   |-   |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |1484  |
-#'  |1975  |1490  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-   |-   |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |1490  |
-#'  |1976  |1499  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-   |-   |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |1499  |
-#'  |1977  |1530  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-   |-   |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |1530  |
-#'  |1978  |1532  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-   |-   |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |1532  |
-#'  |1980  |1468  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-   |-   |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |1468  |
-#'  |1982  |1860  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-   |-   |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |1860  |
-#'  |1983  |1599  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-   |-   |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |1599  |
-#'  |1984  |1473  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-   |-   |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |1473  |
-#'  |1985  |1534  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-   |-   |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |1534  |
-#'  |1986  |1470  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-   |-   |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |1470  |
-#'  |1987  |1819  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-   |-   |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |1819  |
-#'  |1988  |1481  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-   |-   |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |1481  |
-#'  |1989  |1537  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-   |-   |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |1537  |
-#'  |1990  |1372  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-   |-   |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |1372  |
-#'  |1991  |1517  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-   |-   |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |1517  |
-#'  |1993  |1606  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-   |-   |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |1606  |
-#'  |1994  |1371  |1   |12   |6    |5    |13   |63   |4    |5    |5    |16   |1   |1    |2    |4    |9    |6    |1    |1    |1    |2    |3    |7    |2    |3    |29   |3    |16   |1    |1   |121  |6    |4    |57   |8    |49   |1    |3    |3    |5    |6    |1    |12   |3    |3    |22   |2    |10   |4    |3    |12   |35   |2    |6    |2    |10   |9    |1    |3    |4    |4    |64   |1    |13   |2    |2   |7    |1   |12   |1    |63   |6    |2    |55   |4   |19   |25   |1   |24   |1    |75   |26   |2    |25   |1    |2    |4    |3    |1    |1    |2    |65   |1    |2   |11   |4   |18   |3    |1   |1    |3   |1   |1   |5   |10   |84  |1    |1    |13   |10   |2   |4    |1    |2    |18   |1    |65   |1    |3    |5    |4   |19   |1    |1   |32   |5    |15   |2    |4    |2    |2    |1    |2    |1    |1    |6    |4    |16   |1    |9    |29   |7    |1    |2    |2    |2    |33   |1    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |2992  |
-#'  |1996  |1176  |-   |16   |1    |5    |24   |71   |8    |3    |10   |6    |-   |-    |1    |2    |2    |6    |1    |1    |4    |1    |12   |9    |5    |7    |80   |1    |6    |-    |1   |141  |8    |6    |54   |13   |54   |2    |1    |1    |6    |8    |6    |15   |1    |6    |15   |1    |13   |3    |1    |7    |26   |1    |4    |3    |7    |11   |-    |3    |3    |3    |61   |1    |9    |-    |-   |32   |-   |14   |4    |50   |3    |2    |48   |5   |25   |20   |3   |20   |3    |64   |33   |-    |26   |-    |2    |2    |2    |1    |-    |2    |62   |-    |3   |12   |3   |16   |-    |1   |-    |6   |-   |1   |6   |13   |102 |1    |-    |3    |8    |1   |1    |1    |2    |24   |4    |59   |-    |9    |4    |1   |20   |-    |1   |40   |6    |5    |-    |3    |-    |2    |-    |1    |-    |2    |4    |2    |12   |1    |9    |20   |7    |2    |1    |2    |5    |41   |-    |1    |1    |2    |2    |2    |5    |2   |1   |2    |2    |1   |3    |4    |1    |1    |1    |2    |2    |2    |1   |1   |4   |1    |1   |2    |1    |2    |1    |1    |1    |1    |1    |1    |1    |1    |1    |2    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |2904  |
-#'  |1998  |1222  |2   |13   |4    |3    |28   |75   |12   |5    |9    |12   |-   |-    |-    |4    |2    |6    |-    |-    |6    |-    |16   |2    |4    |3    |63   |-    |6    |-    |1   |119  |4    |7    |39   |13   |38   |6    |2    |1    |4    |6    |3    |13   |6    |6    |25   |-    |18   |2    |-    |12   |37   |3    |3    |1    |9    |11   |-    |-    |4    |3    |72   |-    |2    |-    |1   |14   |-   |12   |3    |42   |2    |2    |43   |1   |15   |28   |5   |28   |2    |45   |15   |-    |23   |-    |-    |4    |5    |1    |1    |-    |57   |-    |4   |11   |1   |11   |2    |1   |-    |3   |1   |-   |5   |7    |107 |1    |1    |9    |2    |3   |2    |5    |-    |38   |2    |47   |1    |3    |7    |-   |30   |-    |2   |46   |3    |6    |2    |3    |-    |2    |-    |2    |3    |-    |3    |3    |9    |1    |2    |25   |8    |2    |1    |2    |-    |39   |-    |-    |1    |-    |2    |2    |1    |2   |-   |1    |1    |-   |9    |2    |-    |2    |-    |-    |-    |-    |1   |-   |1   |1    |-   |-    |1    |-    |1    |-    |-    |-    |-    |-    |-    |2    |-    |-    |1    |1    |1    |1   |1   |1    |2    |1    |1    |1    |1    |1   |1    |1    |1    |1    |1    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |2832  |
-#'  |2000  |1194  |1   |11   |2    |9    |16   |74   |11   |3    |2    |10   |1   |-    |3    |3    |3    |3    |-    |1    |8    |-    |13   |6    |4    |6    |80   |3    |2    |-    |1   |131  |7    |4    |32   |10   |47   |5    |-    |-    |1    |12   |3    |11   |2    |3    |28   |-    |7    |3    |1    |14   |29   |-    |5    |2    |5    |14   |-    |5    |6    |1    |75   |1    |9    |2    |-   |7    |-   |23   |1    |54   |6    |4    |41   |1   |29   |26   |6   |17   |2    |66   |15   |2    |26   |-    |2    |7    |4    |1    |2    |1    |58   |-    |2   |11   |3   |18   |1    |3   |-    |8   |-   |4   |4   |6    |95  |-    |1    |1    |4    |2   |1    |5    |3    |28   |1    |54   |-    |3    |8    |4   |43   |-    |2   |35   |2    |8    |1    |3    |2    |2    |-    |3    |-    |-    |1    |1    |7    |1    |4    |20   |9    |1    |2    |-    |-    |15   |-    |-    |1    |3    |-    |2    |-    |2   |-   |-    |2    |-   |2    |-    |1    |1    |-    |-    |1    |1    |-   |2   |-   |-    |-   |-    |-    |1    |1    |2    |-    |-    |1    |1    |1    |-    |-    |1    |-    |-    |-    |-   |-   |-    |-    |-    |1    |-    |-    |3   |-    |-    |-    |2    |-    |1    |1    |2   |1   |1    |1    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |2817  |
-#'  |2002  |1146  |1   |9    |5    |7    |13   |66   |10   |5    |10   |10   |1   |1    |-    |4    |4    |12   |1    |-    |8    |-    |12   |5    |4    |4    |76   |2    |4    |-    |1   |150  |5    |1    |33   |7    |33   |4    |1    |2    |3    |7    |2    |13   |2    |6    |35   |-    |11   |8    |1    |12   |39   |2    |4    |1    |6    |9    |3    |6    |5    |3    |84   |-    |3    |3    |1   |10   |-   |14   |4    |47   |5    |9    |63   |2   |21   |26   |1   |26   |1    |64   |12   |-    |19   |-    |5    |6    |2    |-    |1    |1    |56   |-    |4   |6    |3   |10   |2    |-   |-    |7   |-   |-   |1   |13   |95  |2    |-    |5    |3    |-   |2    |2    |-    |16   |1    |42   |2    |8    |2    |3   |44   |-    |4   |43   |1    |14   |-    |-    |-    |2    |-    |-    |-    |-    |1    |1    |9    |-    |4    |16   |10   |2    |1    |2    |2    |11   |-    |-    |1    |1    |-    |-    |3    |-   |-   |-    |1    |1   |3    |-    |1    |4    |-    |-    |-    |1    |-   |1   |-   |-    |-   |1    |-    |-    |2    |2    |-    |-    |-    |-    |-    |2    |-    |1    |1    |-    |-    |1   |-   |2    |-    |3    |1    |-    |-    |3   |-    |-    |-    |1    |-    |-    |-    |-   |-   |1    |-    |1    |1    |1    |1    |1    |1   |2    |1    |1   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |2765  |
-#'  |2004  |1116  |1   |25   |9    |8    |25   |98   |12   |4    |10   |15   |1   |-    |2    |6    |-    |7    |1    |1    |9    |2    |9    |4    |10   |3    |76   |-    |6    |1    |-   |111  |5    |5    |25   |17   |34   |5    |2    |1    |7    |5    |1    |9    |5    |4    |31   |-    |14   |1    |4    |16   |33   |5    |4    |2    |6    |20   |1    |9    |5    |2    |81   |-    |6    |-    |-   |14   |2   |21   |3    |49   |2    |5    |62   |8   |30   |31   |4   |27   |1    |49   |15   |1    |16   |-    |2    |6    |5    |-    |-    |2    |54   |-    |4   |6    |8   |23   |1    |3   |-    |9   |-   |2   |5   |1    |98  |-    |1    |3    |4    |3   |3    |6    |2    |11   |4    |44   |-    |5    |2    |3   |33   |-    |4   |37   |5    |2    |-    |1    |-    |5    |-    |1    |2    |-    |1    |4    |6    |1    |5    |11   |9    |2    |1    |2    |2    |24   |-    |-    |1    |6    |-    |1    |-    |1   |-   |2    |3    |-   |4    |2    |2    |1    |1    |1    |3    |-    |1   |-   |1   |1    |-   |-    |-    |-    |-    |2    |-    |-    |-    |-    |-    |2    |-    |-    |-    |-    |-    |1   |1   |1    |-    |1    |-    |1    |-    |2   |-    |1    |-    |-    |-    |2    |1    |-   |-   |-    |1    |-    |-    |-    |-    |-    |-   |-    |-    |1   |1   |1    |1    |1    |1    |1    |1    |2    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |2812  |
-#'  |2006  |2715  |1   |22   |6    |10   |54   |65   |9    |1    |9    |7    |1   |-    |-    |6    |6    |7    |-    |-    |8    |1    |17   |9    |3    |5    |76   |3    |12   |1    |-   |128  |3    |6    |44   |9    |33   |5    |1    |1    |2    |5    |1    |10   |6    |11   |23   |2    |10   |3    |2    |14   |26   |3    |5    |-    |7    |7    |-    |5    |13   |2    |77   |-    |7    |1    |2   |12   |-   |18   |6    |58   |5    |3    |48   |11  |25   |42   |3   |28   |2    |75   |18   |-    |20   |-    |5    |2    |5    |-    |1    |1    |41   |1    |2   |12   |14  |19   |1    |2   |-    |6   |-   |2   |4   |8    |115 |2    |-    |2    |5    |-   |3    |4    |2    |25   |2    |40   |-    |6    |2    |4   |38   |1    |7   |42   |6    |5    |-    |3    |2    |2    |-    |1    |2    |1    |2    |4    |8    |2    |7    |19   |14   |1    |1    |-    |-    |42   |-    |-    |-    |-    |1    |2    |1    |-   |-   |1    |2    |-   |5    |1    |-    |1    |-    |-    |-    |4    |-   |-   |3   |1    |-   |-    |-    |-    |-    |-    |-    |-    |1    |1    |1    |1    |-    |-    |-    |-    |-    |1   |4   |1    |-    |8    |-    |-    |-    |2   |1    |1    |-    |-    |1    |-    |1    |2   |-   |1    |1    |-    |-    |1    |-    |-    |1   |2    |-    |2   |-   |-    |-    |-    |-    |-    |-    |1    |2   |1    |-    |-   |-    |-    |-    |-    |-   |-                          |4510  |
-#'  |2008  |738   |-   |14   |6    |4    |25   |49   |9    |1    |1    |8    |2   |-    |-    |6    |-    |2    |-    |-    |4    |4    |7    |7    |5    |3    |62   |-    |5    |-    |-   |101  |3    |6    |36   |13   |33   |1    |1    |2    |1    |6    |6    |9    |-    |6    |25   |1    |5    |3    |-    |9    |15   |5    |2    |7    |3    |9    |-    |7    |2    |-    |51   |1    |4    |-    |1   |22   |-   |15   |5    |45   |3    |-    |37   |3   |24   |25   |1   |18   |-    |38   |12   |1    |21   |-    |3    |3    |16   |1    |1    |1    |35   |-    |2   |13   |6   |13   |-    |1   |1    |6   |-   |1   |1   |4    |73  |1    |-    |3    |4    |-   |1    |3    |2    |15   |3    |25   |-    |9    |5    |-   |32   |-    |3   |19   |3    |-    |-    |3    |1    |-    |-    |-    |1    |-    |1    |4    |4    |2    |5    |17   |7    |2    |-    |1    |1    |13   |-    |-    |1    |2    |-    |-    |1    |-   |-   |1    |-    |1   |3    |1    |-    |-    |-    |-    |-    |-    |-   |1   |5   |1    |-   |-    |1    |-    |-    |2    |-    |-    |-    |-    |-    |-    |-    |1    |-    |-    |-    |4   |-   |-    |1    |2    |-    |-    |-    |2   |1    |-    |-    |-    |-    |-    |-    |-   |2   |-    |-    |-    |-    |-    |-    |-    |-   |-    |1    |3   |-   |-    |1    |-    |-    |1    |-    |-    |-   |-    |1    |1   |1    |1    |1    |2    |-   |-                          |2023  |
-#'  |2010  |701   |-   |20   |3    |6    |29   |63   |4    |1    |10   |4    |-   |-    |1    |2    |2    |7    |-    |-    |9    |-    |11   |9    |2    |4    |74   |3    |5    |-    |1   |82   |7    |4    |29   |11   |31   |4    |2    |1    |12   |7    |-    |11   |2    |9    |20   |2    |7    |-    |2    |15   |19   |1    |4    |1    |4    |14   |-    |5    |4    |1    |57   |-    |5    |-    |2   |6    |-   |19   |2    |36   |4    |5    |54   |4   |19   |15   |4   |23   |3    |34   |11   |1    |23   |-    |-    |4    |12   |-    |1    |3    |33   |-    |7   |9    |8   |13   |3    |1   |-    |7   |1   |3   |4   |5    |83  |3    |-    |3    |-    |-   |2    |2    |3    |16   |2    |35   |1    |6    |2    |3   |42   |-    |4   |27   |4    |-    |-    |3    |-    |-    |-    |-    |1    |1    |-    |5    |5    |-    |3    |15   |4    |1    |-    |-    |-    |4    |-    |-    |1    |2    |-    |-    |3    |-   |1   |-    |2    |-   |2    |-    |-    |-    |2    |-    |-    |-    |-   |-   |3   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |2    |-    |-    |-    |-   |3   |-    |1    |5    |1    |-    |-    |-   |2    |-    |-    |1    |1    |2    |-    |-   |-   |-    |1    |-    |-    |1    |-    |-    |-   |-    |3    |-   |-   |-    |-    |-    |-    |-    |-    |-    |1   |-    |-    |-   |-    |-    |-    |-    |1   |-                          |2044  |
-#'  |2012  |1974  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-   |-   |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |1974  |
-#'  |2014  |2538  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-   |-   |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |2538  |
-#'  |2016  |2867  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-   |-   |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |2867  |
-#'  |2018  |2348  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-   |-   |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |2348  |
-#'  |2021  |4032  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-   |-   |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-                          |4032  |
-#'  |2022  |-     |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-   |-   |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |3544                       |3544  |
-#'  |2024  |-     |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-   |-   |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |3309                       |3309  |
-#'  |Total |54526 |7   |142  |42   |57   |227  |624  |79   |28   |66   |88   |7   |2    |9    |37   |28   |56   |4    |4    |57   |10   |100  |58   |39   |38   |616  |15   |62   |3    |6   |1084 |48   |43   |349  |101  |352  |33   |13   |12   |41   |62   |23   |103  |27   |54   |224  |8    |95   |27   |14   |111  |259  |22   |37   |19   |57   |104  |5    |43   |46   |19   |622  |4    |58   |8    |9   |124  |3   |148  |29   |444  |36   |32   |451  |39  |207  |238  |28  |211  |15   |510  |157  |7    |199  |1    |21   |38   |54   |5    |8    |13   |461  |2    |30  |91   |50  |141  |13   |13  |2    |55  |3   |14  |35  |67   |852 |11   |4    |42   |40   |11  |19   |29   |16   |191  |20   |411  |5    |52   |37   |22  |301  |2    |28  |321  |35   |55   |5    |23   |7    |17   |1    |10   |10   |5    |19   |28   |76   |9    |48   |172  |75   |14   |9    |11   |12   |222  |1    |1    |7    |16   |5    |9    |14   |7   |2   |7    |13   |3   |31   |10   |5    |10   |4    |3    |6    |8    |3   |5   |17  |5    |1   |3    |3    |3    |5    |9    |1    |1    |3    |3    |3    |8    |1    |7    |2    |1    |1    |8   |9   |5    |4    |20   |4    |2    |1    |13  |5    |3    |1    |5    |3    |5    |3    |4   |3   |3    |4    |1    |1    |3    |1    |1    |2   |4    |5    |7   |1   |1    |2    |1    |1    |2    |1    |3    |3   |1    |1    |1   |1    |1    |1    |2    |1   |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name maisc681
-NULL
-
-#'  R's spouse's occupation, 1980 census
-#' 
-#'  spisc681
-#' 
-#' Question 1641. Occupation of respondent's spouse (International Standard Classification Codes-1968)
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |110 |1100 |1219 |1310 |1320 |1330 |1340 |1390 |1393 |140 |1410 |1519 |1590 |1610 |1621 |1639 |1720 |1730 |1910 |1939 |1940 |1999 |2010 |2110 |2190 |220 |230 |240 |250 |280 |290 |3000 |3102 |320 |3211 |3219 |3220 |3311 |3313 |3319 |3391 |340 |3410 |3420 |3590 |3700 |3701 |3709 |3809 |3911 |3919 |3920 |3939 |3949 |3951 |3959 |3990 |4210 |4220 |4320 |4400 |4410 |4411 |4412 |4419 |4420 |4431 |4432 |4519 |4520 |4521 |4900 |510 |5200 |530 |5300 |5319 |5321 |5322 |5329 |540 |5400 |5401 |549 |5500 |5520 |5600 |5702 |5709 |5810 |5829 |5890 |5895 |5900 |5920 |5999 |610 |6110 |6120 |620 |6210 |6270 |6319 |6320 |640 |670 |690 |7000 |710 |7119 |7130 |7280 |7320 |7410 |7520 |759 |760 |7760 |790 |7910 |7950 |7990 |8020 |810 |8110 |8190 |830 |8329 |8330 |8340 |8351 |8421 |8422 |8430 |8440 |849 |8490 |8493 |8494 |8499 |8520 |8530 |8540 |8559 |8560 |8570 |8719 |8720 |8730 |8740 |8800 |8930 |9220 |9270 |9310 |9390 |9430 |9490 |9499 |9530 |9594 |9595 |9690 |9710 |9712 |9714 |9730 |9740 |9790 |9810 |9830 |9851 |9852 |9891 |9971 |9990 |1490 |1593 |1790 |1799 |1921 |2192 |260 |270 |3609 |390 |3930 |3993 |410 |5312 |5320 |5510 |5700 |5991 |6000 |630 |7240 |7270 |7430 |769 |7730 |7919 |8350 |8739 |9210 |9250 |9260 |9510 |9520 |9570 |9719 |9859 |9979 |9996 |130 |131 |1710 |210 |330 |3399 |3800 |4222 |4513 |4523 |5821 |5891 |5992 |6240 |7110 |7540 |770 |7960 |8390 |8732 |900 |9599 |9610 |1350 |1809 |1930 |3100 |3520 |5910 |5990 |7220 |8950 |2020 |7940 |8590 |9560 |9890 |310 |3940 |5998 |6410 |650 |761 |7790 |8321 |8420 |8610 |8910 |9559 |120 |8120 |1924 |2030 |421 |1229 |4319 |8620 |3801 |6001 |7230 |8010 |820 |9240 |3999 |6310 |6491 |6490 |not available in this year |Total |
-#'  |:-----|:-----|:---|:----|:----|:----|:----|:----|:----|:----|:----|:---|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:---|:---|:---|:---|:---|:---|:----|:----|:---|:----|:----|:----|:----|:----|:----|:----|:---|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:---|:----|:---|:----|:----|:----|:----|:----|:---|:----|:----|:---|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:---|:----|:----|:---|:----|:----|:----|:----|:---|:---|:---|:----|:---|:----|:----|:----|:----|:----|:----|:---|:---|:----|:---|:----|:----|:----|:----|:---|:----|:----|:---|:----|:----|:----|:----|:----|:----|:----|:----|:---|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:---|:---|:----|:---|:----|:----|:---|:----|:----|:----|:----|:----|:----|:---|:----|:----|:----|:---|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:---|:---|:----|:---|:---|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:---|:----|:----|:----|:---|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:---|:----|:----|:----|:---|:---|:----|:----|:----|:----|:----|:----|:---|:----|:----|:----|:---|:----|:----|:----|:----|:----|:----|:----|:---|:----|:----|:----|:----|:----|:--------------------------|:-----|
-#'  |1972  |1613  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |1613  |
-#'  |1973  |1504  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |1504  |
-#'  |1974  |1484  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |1484  |
-#'  |1975  |1490  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |1490  |
-#'  |1976  |1499  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |1499  |
-#'  |1977  |1530  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |1530  |
-#'  |1978  |1532  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |1532  |
-#'  |1980  |1468  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |1468  |
-#'  |1982  |1860  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |1860  |
-#'  |1983  |1599  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |1599  |
-#'  |1984  |1473  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |1473  |
-#'  |1985  |1534  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |1534  |
-#'  |1986  |1470  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |1470  |
-#'  |1987  |1819  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |1819  |
-#'  |1988  |745   |1   |4    |7    |3    |11   |15   |3    |3    |5    |2   |1    |1    |1    |1    |5    |2    |1    |1    |2    |3    |5    |2    |3    |7    |61   |1   |4   |3   |1   |2   |3   |1    |2    |1   |37   |2    |1    |7    |2    |10   |4    |3   |3    |5    |2    |2    |3    |4    |4    |3    |4    |4    |7    |6    |2    |1    |3    |19   |3    |1    |1    |3    |10   |1    |6    |1    |2    |1    |27   |1    |2    |1    |1   |8    |1   |4    |5    |2    |4    |7    |3   |3    |8    |2   |10   |2    |4    |10   |1    |3    |5    |5    |6    |4    |1    |7    |6   |7    |1    |1   |3    |3    |1    |1    |1   |1   |2   |19   |10  |1    |1    |2    |1    |2    |2    |1   |1   |2    |2   |1    |5    |1    |1    |1   |2    |1    |2   |2    |1    |17   |1    |1    |2    |6    |4    |3   |5    |6    |2    |6    |2    |3    |2    |7    |2    |2    |4    |3    |2    |3    |1    |2    |2    |2    |2    |1    |1    |1    |3    |2    |18   |1    |4    |1    |2    |3    |1    |2    |9    |1    |1    |4    |20   |1    |1    |7    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |1481  |
-#'  |1989  |746   |-   |4    |7    |10   |5    |10   |1    |5    |-    |1   |1    |-    |2    |2    |3    |1    |-    |1    |2    |4    |5    |-    |4    |7    |56   |2   |3   |2   |-   |6   |3   |5    |4    |-   |49   |2    |1    |10   |3    |7    |4    |2   |2    |4    |5    |1    |-    |5    |2    |7    |3    |4    |9    |4    |3    |1    |3    |33   |1    |5    |3    |3    |-    |2    |6    |1    |3    |-    |22   |1    |1    |-    |-   |6    |-   |-    |9    |1    |1    |8    |4   |4    |9    |1   |12   |3    |1    |1    |1    |1    |5    |4    |14   |1    |-    |7    |3   |17   |1    |3   |3    |3    |1    |-    |2   |-   |2   |25   |21  |2    |-    |-    |1    |-    |-    |1   |-   |-    |2   |8    |6    |1    |-    |-   |1    |1    |11  |-    |-    |13   |2    |1    |1    |7    |3    |3   |4    |2    |2    |5    |2    |2    |1    |2    |2    |1    |3    |8    |1    |3    |-    |1    |4    |1    |2    |1    |-    |4    |5    |-    |18   |-    |4    |2    |1    |4    |2    |-    |7    |1    |-    |5    |13   |-    |1    |9    |2    |1    |2    |1    |1    |3    |1   |2   |1    |1   |1    |1    |1   |1    |1    |1    |1    |1    |1    |4   |2    |1    |1    |1   |6    |1    |1    |1    |4    |1    |2    |5    |1    |1    |1    |2    |1    |2    |-   |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |1537  |
-#'  |1990  |695   |1   |8    |8    |9    |3    |16   |4    |1    |4    |1   |5    |-    |6    |-    |1    |-    |-    |1    |4    |3    |3    |1    |7    |-    |49   |2   |4   |4   |-   |3   |-   |6    |5    |2   |28   |6    |-    |6    |3    |15   |1    |3   |3    |3    |3    |-    |-    |1    |1    |3    |4    |3    |7    |7    |3    |-    |7    |15   |5    |11   |2    |-    |8    |-    |6    |3    |2    |3    |13   |2    |-    |-    |1   |5    |1   |-    |6    |1    |3    |5    |4   |1    |9    |1   |6    |4    |2    |8    |-    |-    |1    |6    |3    |1    |-    |9    |3   |12   |-    |-   |-    |1    |2    |-    |1   |4   |1   |15   |8   |-    |-    |-    |1    |-    |2    |-   |-   |1    |-   |2    |7    |1    |-    |-   |-    |1    |6   |-    |1    |13   |-    |-    |1    |-    |2    |3   |1    |7    |2    |7    |1    |-    |-    |4    |2    |1    |3    |5    |1    |-    |-    |1    |4    |-    |1    |-    |1    |1    |8    |1    |28   |-    |3    |1    |4    |5    |-    |-    |5    |2    |-    |4    |8    |2    |-    |8    |2    |1    |1    |-    |-    |2    |-   |-   |1    |1   |-    |-    |-   |2    |-    |1    |-    |2    |3    |1   |-    |-    |-    |2   |2    |1    |-    |-    |-    |1    |-    |-    |1    |1    |-    |-    |2    |-    |1   |1   |1    |2   |1   |1    |1    |1    |1    |1    |2    |1    |1    |1    |1    |1    |1   |1    |2    |1    |1   |1    |1    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |1372  |
-#'  |1991  |755   |1   |12   |5    |5    |13   |18   |6    |3    |2    |2   |2    |-    |3    |-    |4    |1    |-    |1    |3    |7    |7    |1    |9    |2    |56   |2   |2   |2   |-   |9   |-   |5    |2    |-   |32   |-    |1    |20   |2    |14   |-    |2   |1    |3    |2    |6    |-    |4    |1    |1    |4    |3    |7    |4    |2    |-    |8    |19   |2    |12   |2    |7    |1    |1    |3    |-    |2    |3    |23   |1    |2    |-    |-   |5    |-   |1    |7    |1    |-    |7    |1   |4    |4    |1   |16   |5    |2    |6    |-    |4    |2    |3    |10   |-    |-    |8    |4   |6    |-    |2   |2    |4    |1    |-    |1   |2   |-   |18   |24  |-    |1    |3    |2    |1    |-    |-   |-   |-    |-   |1    |5    |1    |-    |-   |1    |1    |3   |2    |2    |9    |1    |-    |-    |12   |2    |3   |6    |3    |1    |6    |1    |-    |-    |4    |2    |2    |6    |7    |1    |-    |-    |2    |3    |-    |5    |1    |1    |2    |7    |2    |11   |-    |8    |2    |5    |4    |6    |4    |4    |-    |-    |5    |18   |-    |-    |10   |-    |-    |2    |-    |1    |1    |-   |-   |-    |2   |-    |-    |-   |4    |-    |-    |-    |1    |1    |1   |1    |-    |-    |1   |3    |1    |-    |-    |-    |-    |-    |1    |-    |-    |-    |-    |2    |-    |-   |-   |3    |-   |-   |-    |-    |-    |-    |-    |-    |1    |-    |-    |-    |-    |-   |2    |-    |-    |2   |-    |-    |1    |1    |1    |1    |1    |2    |1    |1    |3    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |1517  |
-#'  |1993  |787   |-   |7    |14   |4    |4    |16   |3    |2    |3    |-   |5    |1    |2    |6    |-    |-    |-    |2    |3    |3    |8    |2    |3    |5    |70   |3   |2   |2   |1   |3   |5   |7    |3    |1   |31   |6    |2    |15   |3    |18   |-    |2   |3    |1    |16   |6    |1    |2    |1    |4    |2    |2    |8    |9    |2    |2    |2    |26   |3    |15   |1    |6    |2    |2    |7    |2    |5    |1    |10   |5    |2    |5    |-   |6    |3   |1    |4    |-    |2    |7    |2   |2    |5    |1   |13   |5    |-    |4    |1    |3    |5    |2    |6    |3    |-    |11   |3   |11   |-    |4   |2    |2    |-    |-    |-   |-   |-   |24   |21  |-    |-    |-    |1    |-    |2    |-   |1   |1    |1   |2    |10   |-    |2    |-   |1    |1    |6   |1    |-    |8    |2    |-    |-    |3    |1    |5   |4    |10   |1    |6    |2    |2    |-    |10   |1    |-    |11   |2    |-    |-    |-    |1    |4    |-    |6    |1    |1    |3    |5    |2    |21   |-    |7    |4    |3    |4    |-    |3    |6    |-    |-    |3    |15   |1    |1    |5    |-    |-    |-    |1    |1    |-    |-   |-   |1    |-   |-    |1    |1   |1    |1    |3    |-    |2    |1    |1   |2    |-    |-    |2   |1    |1    |-    |1    |1    |-    |1    |3    |1    |-    |1    |1    |-    |2    |1   |1   |-    |1   |-   |-    |-    |1    |1    |-    |-    |2    |-    |1    |-    |1    |2   |-    |1    |1    |-   |-    |1    |1    |-    |-    |-    |-    |1    |1    |-    |-    |1    |1    |1    |1    |1    |-   |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |1606  |
-#'  |1994  |1530  |5   |15   |9    |10   |10   |37   |1    |11   |8    |2   |3    |-    |2    |-    |3    |2    |-    |2    |5    |11   |12   |3    |5    |1    |121  |2   |9   |6   |-   |8   |5   |15   |7    |2   |53   |4    |11   |28   |7    |31   |6    |6   |-    |5    |15   |5    |1    |4    |2    |8    |4    |8    |15   |8    |3    |2    |16   |42   |8    |30   |7    |11   |14   |5    |13   |3    |7    |1    |32   |12   |6    |1    |-   |14   |1   |1    |17   |1    |5    |14   |3   |7    |13   |7   |21   |3    |6    |6    |1    |3    |3    |11   |11   |-    |-    |23   |8   |13   |-    |2   |4    |9    |3    |-    |6   |1   |-   |36   |42  |-    |-    |-    |1    |1    |2    |-   |1   |4    |1   |-    |12   |2    |1    |-   |2    |1    |13  |2    |3    |13   |1    |-    |-    |13   |3    |11  |6    |10   |5    |13   |5    |10   |1    |10   |3    |4    |9    |4    |1    |2    |-    |1    |2    |1    |2    |2    |2    |6    |7    |4    |25   |-    |8    |7    |5    |10   |-    |2    |7    |-    |3    |8    |22   |2    |2    |11   |-    |2    |1    |-    |-    |1    |1   |-   |-    |-   |-    |-    |3   |2    |1    |2    |1    |3    |2    |4   |2    |-    |1    |-   |2    |-    |2    |3    |-    |1    |-    |1    |3    |1    |1    |1    |-    |-    |1   |1   |3    |6   |-   |5    |-    |1    |-    |-    |-    |5    |1    |-    |-    |-    |1   |1    |-    |1    |1   |-    |1    |1    |-    |-    |1    |-    |1    |1    |-    |1    |-    |-    |-    |1    |-    |2   |1    |1    |1    |2   |2   |1    |1    |2    |1    |1    |2    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |2992  |
-#'  |1996  |1579  |-   |17   |12   |8    |16   |32   |7    |5    |2    |5   |7    |1    |1    |5    |3    |1    |-    |1    |3    |6    |10   |8    |13   |6    |137  |6   |14  |4   |-   |5   |6   |3    |4    |1   |48   |5    |4    |9    |1    |26   |5    |8   |-    |2    |6    |5    |1    |2    |2    |11   |6    |8    |9    |8    |3    |1    |12   |35   |4    |5    |5    |7    |8    |5    |10   |-    |5    |3    |49   |-    |6    |-    |2   |14   |-   |7    |14   |3    |1    |11   |9   |2    |11   |6   |16   |7    |1    |7    |2    |1    |5    |8    |1    |1    |-    |14   |9   |14   |-    |5   |4    |3    |1    |-    |6   |1   |1   |29   |36  |-    |-    |3    |1    |3    |1    |1   |2   |1    |2   |4    |10   |1    |1    |1   |-    |-    |7   |-    |1    |12   |4    |1    |-    |13   |3    |7   |11   |14   |-    |9    |2    |5    |-    |10   |2    |1    |5    |9    |3    |-    |2    |1    |2    |2    |5    |-    |2    |2    |12   |3    |19   |1    |8    |3    |4    |11   |-    |1    |10   |-    |2    |6    |34   |-    |1    |25   |1    |2    |-    |1    |2    |2    |-   |-   |1    |-   |-    |-    |3   |1    |-    |4    |1    |2    |3    |3   |4    |-    |1    |3   |-    |-    |1    |-    |2    |1    |-    |4    |1    |1    |1    |2    |-    |1    |2   |-   |3    |2   |-   |2    |-    |1    |1    |1    |1    |4    |-    |1    |-    |-    |3   |3    |-    |-    |2   |-    |1    |4    |-    |-    |1    |-    |-    |1    |-    |1    |-    |1    |-    |1    |-    |2   |-    |2    |-    |-   |1   |-    |1    |1    |1    |-    |-    |1   |1    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |2904  |
-#'  |1998  |1544  |3   |12   |9    |12   |15   |31   |6    |8    |6    |1   |5    |-    |1    |-    |3    |4    |-    |-    |4    |9    |8    |1    |11   |6    |154  |5   |8   |6   |3   |2   |3   |3    |2    |1   |36   |2    |3    |16   |5    |13   |3    |9   |2    |1    |1    |4    |1    |5    |2    |6    |5    |4    |16   |9    |4    |-    |13   |40   |3    |12   |1    |9    |13   |5    |5    |4    |5    |2    |46   |2    |-    |-    |2   |12   |-   |1    |13   |1    |2    |12   |1   |4    |18   |6   |22   |1    |5    |14   |-    |3    |12   |10   |12   |4    |-    |16   |7   |12   |-    |4   |1    |4    |-    |-    |2   |1   |2   |22   |25  |-    |1    |1    |2    |1    |1    |1   |1   |-    |3   |1    |3    |1    |1    |-   |2    |1    |12  |2    |-    |21   |2    |-    |-    |10   |4    |10  |11   |15   |2    |13   |5    |2    |-    |12   |4    |-    |7    |7    |6    |2    |3    |3    |4    |1    |5    |-    |1    |3    |6    |2    |26   |-    |11   |7    |2    |1    |1    |-    |7    |1    |-    |4    |32   |-    |-    |12   |1    |3    |1    |2    |1    |1    |-   |1   |-    |2   |-    |1    |3   |-    |-    |2    |-    |2    |2    |2   |3    |2    |1    |3   |2    |-    |-    |3    |-    |-    |-    |2    |1    |-    |-    |4    |-    |2    |1   |-   |2    |3   |1   |1    |-    |-    |1    |1    |1    |4    |-    |2    |-    |1    |4   |-    |1    |-    |-   |-    |-    |1    |-    |1    |-    |1    |-    |-    |-    |-    |-    |-    |1    |1    |-    |1   |-    |1    |-    |3   |-   |1    |-    |-    |1    |2    |1    |1   |-    |1    |1    |1   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |2832  |
-#'  |2000  |1638  |2   |19   |15   |11   |13   |37   |4    |7    |5    |7   |2    |1    |3    |3    |4    |4    |-    |1    |-    |11   |10   |1    |4    |4    |123  |-   |9   |1   |1   |3   |1   |2    |2    |4   |30   |3    |4    |12   |2    |20   |-    |6   |-    |5    |10   |3    |-    |1    |2    |4    |4    |3    |13   |16   |2    |3    |17   |37   |1    |4    |4    |4    |6    |2    |7    |2    |16   |1    |31   |1    |2    |-    |1   |4    |4   |5    |11   |3    |2    |7    |1   |3    |8    |5   |15   |6    |1    |7    |-    |-    |4    |5    |8    |3    |1    |13   |8   |15   |-    |4   |2    |4    |2    |1    |2   |1   |-   |31   |23  |-    |1    |1    |-    |5    |-    |-   |-   |3    |3   |-    |4    |-    |-    |-   |-    |1    |17  |3    |2    |25   |-    |-    |-    |8    |3    |3   |4    |22   |2    |8    |2    |4    |1    |9    |1    |2    |6    |6    |1    |1    |3    |1    |2    |-    |1    |3    |1    |5    |9    |3    |27   |1    |15   |4    |6    |2    |1    |1    |9    |-    |-    |5    |40   |2    |1    |17   |-    |1    |-    |-    |5    |2    |-   |-   |1    |2   |-    |-    |-   |-    |1    |3    |-    |1    |-    |-   |5    |-    |1    |-   |1    |-    |-    |1    |-    |-    |1    |2    |-    |1    |-    |2    |1    |-    |-   |1   |3    |1   |-   |2    |-    |-    |1    |-    |-    |4    |-    |-    |-    |-    |2   |1    |-    |-    |2   |-    |-    |3    |1    |-    |1    |3    |-    |1    |-    |-    |-    |1    |1    |1    |1    |-   |-    |-    |-    |2   |-   |1    |-    |-    |1    |-    |-    |-   |1    |-    |-    |1   |1    |1    |1    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |2817  |
-#'  |2002  |1565  |3   |13   |13   |7    |12   |32   |6    |8    |6    |2   |3    |1    |4    |2    |5    |1    |1    |1    |3    |9    |14   |2    |8    |6    |143  |6   |3   |7   |-   |2   |3   |6    |2    |4   |31   |3    |3    |15   |3    |20   |4    |8   |-    |1    |3    |3    |4    |5    |2    |4    |4    |5    |20   |9    |2    |1    |9    |29   |6    |10   |7    |4    |6    |5    |2    |1    |6    |6    |27   |4    |1    |-    |1   |11   |-   |5    |4    |2    |4    |11   |4   |9    |16   |2   |13   |4    |3    |9    |2    |5    |8    |7    |8    |1    |-    |15   |9   |8    |1    |3   |3    |7    |1    |-    |2   |1   |3   |32   |29  |-    |2    |2    |-    |1    |-    |1   |-   |2    |4   |1    |4    |1    |-    |-   |-    |-    |20  |4    |1    |21   |-    |1    |-    |12   |1    |3   |5    |13   |1    |10   |5    |9    |2    |10   |3    |2    |2    |2    |-    |1    |-    |1    |1    |-    |2    |2    |-    |1    |5    |2    |20   |-    |12   |2    |3    |1    |1    |-    |11   |1    |1    |3    |24   |-    |1    |11   |2    |1    |1    |-    |3    |3    |-   |-   |1    |5   |-    |2    |4   |4    |2    |2    |-    |-    |1    |2   |-    |-    |1    |2   |2    |-    |-    |1    |-    |-    |-    |3    |-    |-    |-    |4    |-    |2    |-   |-   |-    |2   |1   |-    |-    |-    |-    |4    |-    |3    |-    |2    |1    |-    |4   |-    |-    |1    |3   |1    |-    |2    |-    |-    |-    |-    |-    |4    |-    |-    |1    |-    |1    |1    |-    |1   |4    |-    |-    |1   |-   |-    |-    |1    |-    |1    |-    |-   |-    |1    |-    |1   |-    |-    |-    |1    |1    |1    |1    |1   |1    |-    |-    |-    |-    |-                          |2765  |
-#'  |2004  |1453  |3   |23   |14   |12   |13   |45   |6    |11   |3    |4   |4    |1    |2    |3    |7    |2    |-    |-    |2    |13   |12   |4    |20   |13   |164  |4   |15  |3   |2   |3   |6   |1    |8    |-   |27   |5    |4    |10   |5    |12   |4    |10  |2    |1    |6    |3    |-    |5    |-    |5    |8    |7    |10   |13   |3    |1    |12   |47   |5    |20   |4    |14   |12   |7    |9    |1    |4    |1    |40   |-    |4    |-    |1   |13   |1   |3    |7    |2    |-    |4    |6   |10   |16   |3   |20   |6    |1    |13   |1    |4    |8    |13   |6    |4    |1    |17   |13  |6    |-    |5   |-    |6    |-    |-    |3   |3   |1   |27   |30  |1    |2    |-    |-    |-    |-    |1   |1   |2    |4   |-    |4    |-    |-    |1   |2    |-    |17  |-    |-    |13   |-    |-    |-    |11   |-    |2   |3    |10   |1    |15   |2    |7    |1    |13   |3    |2    |4    |4    |2    |1    |-    |1    |2    |-    |1    |1    |-    |-    |7    |3    |31   |-    |6    |4    |3    |6    |2    |2    |18   |-    |-    |4    |41   |-    |-    |13   |-    |4    |2    |-    |2    |2    |-   |-   |2    |2   |-    |1    |1   |1    |-    |5    |-    |1    |3    |1   |1    |-    |1    |3   |3    |1    |-    |-    |-    |-    |-    |4    |1    |-    |-    |2    |-    |-    |1   |2   |3    |1   |-   |2    |-    |-    |-    |-    |1    |4    |-    |1    |-    |-    |3   |-    |-    |-    |-   |-    |-    |2    |2    |-    |1    |-    |-    |2    |-    |1    |-    |-    |-    |-    |-    |1   |1    |-    |1    |1   |3   |-    |-    |2    |2    |1    |-    |1   |-    |2    |-    |-   |-    |1    |-    |-    |-    |1    |-    |-   |-    |1    |-    |-    |-    |-                          |2812  |
-#'  |2006  |2513  |4   |22   |13   |16   |44   |50   |7    |8    |4    |6   |9    |1    |7    |5    |8    |1    |-    |2    |3    |12   |16   |6    |5    |11   |178  |8   |11  |6   |1   |10  |7   |11   |5    |1   |42   |3    |5    |24   |11   |22   |1    |9   |2    |2    |13   |4    |1    |3    |4    |9    |8    |7    |19   |16   |4    |1    |28   |36   |6    |23   |8    |10   |10   |6    |7    |1    |14   |6    |46   |1    |5    |1    |1   |11   |1   |7    |29   |6    |3    |9    |7   |9    |24   |6   |30   |15   |2    |11   |-    |6    |12   |20   |20   |5    |-    |19   |18  |10   |2    |12  |12   |13   |1    |1    |11  |3   |2   |61   |58  |-    |1    |-    |3    |2    |-    |-   |1   |3    |6   |1    |7    |2    |-    |2   |6    |-    |37  |3    |-    |35   |1    |-    |-    |19   |4    |13  |11   |22   |4    |13   |5    |7    |2    |13   |3    |-    |12   |8    |6    |-    |-    |1    |7    |-    |14   |2    |1    |2    |7    |2    |60   |-    |10   |3    |10   |8    |2    |2    |17   |1    |2    |8    |62   |-    |1    |27   |2    |2    |1    |1    |4    |1    |1   |-   |-    |3   |-    |1    |3   |3    |1    |2    |1    |2    |-    |3   |-    |-    |2    |4   |1    |-    |1    |2    |-    |-    |-    |3    |3    |-    |1    |3    |-    |-    |1   |1   |4    |3   |-   |1    |-    |1    |-    |-    |1    |6    |-    |1    |1    |1    |1   |-    |1    |1    |6   |-    |-    |2    |2    |2    |2    |-    |2    |4    |-    |1    |1    |-    |1    |1    |2    |3   |2    |-    |1    |2   |2   |-    |-    |1    |1    |3    |-    |1   |-    |-    |-    |-   |1    |1    |-    |-    |1    |-    |-    |1   |-    |-    |1    |1    |-    |-                          |4510  |
-#'  |2008  |1113  |-   |8    |10   |12   |16   |22   |2    |6    |4    |-   |5    |3    |2    |3    |3    |1    |1    |3    |-    |10   |7    |7    |5    |8    |92   |3   |6   |1   |1   |4   |3   |4    |3    |2   |27   |3    |1    |10   |5    |15   |-    |6   |-    |1    |6    |3    |2    |3    |2    |1    |1    |9    |11   |7    |1    |1    |13   |16   |1    |8    |5    |5    |5    |1    |2    |2    |-    |1    |19   |2    |3    |-    |-   |5    |3   |1    |8    |-    |1    |6    |8   |7    |14   |4   |11   |3    |-    |3    |1    |2    |7    |2    |8    |7    |1    |15   |2   |10   |-    |5   |4    |9    |-    |-    |7   |1   |1   |19   |19  |1    |-    |-    |2    |2    |-    |-   |1   |1    |2   |-    |3    |1    |-    |1   |-    |-    |11  |1    |-    |15   |-    |1    |-    |5    |1    |6   |2    |5    |1    |6    |3    |-    |-    |6    |3    |1    |6    |8    |3    |2    |-    |2    |-    |-    |2    |1    |1    |1    |4    |-    |21   |-    |5    |3    |1    |3    |2    |3    |5    |-    |1    |3    |26   |3    |-    |10   |-    |2    |-    |-    |4    |2    |-   |-   |-    |3   |-    |-    |2   |1    |-    |-    |-    |-    |1    |3   |-    |-    |2    |-   |2    |-    |-    |-    |-    |-    |-    |1    |-    |-    |2    |2    |-    |3    |-   |-   |1    |2   |1   |2    |-    |-    |-    |-    |1    |6    |-    |1    |-    |1    |-   |1    |-    |1    |1   |-    |-    |-    |1    |1    |2    |-    |1    |2    |-    |-    |-    |-    |-    |-    |-    |-   |1    |-    |1    |-   |1   |1    |-    |1    |1    |-    |1    |-   |-    |-    |1    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |1    |-                          |2023  |
-#'  |2010  |1223  |1   |9    |8    |5    |9    |22   |2    |5    |2    |3   |4    |-    |-    |3    |2    |1    |1    |3    |3    |6    |11   |6    |1    |7    |86   |2   |4   |-   |1   |1   |2   |6    |4    |-   |19   |1    |-    |10   |6    |8    |3    |3   |1    |-    |6    |4    |-    |1    |1    |3    |2    |3    |11   |6    |1    |-    |25   |12   |2    |8    |6    |6    |11   |1    |3    |3    |2    |1    |21   |-    |-    |-    |-   |5    |-   |6    |7    |3    |-    |5    |5   |1    |9    |1   |16   |2    |-    |2    |1    |2    |1    |3    |9    |6    |1    |10   |7   |3    |-    |10  |3    |6    |1    |-    |4   |1   |-   |21   |20  |-    |-    |-    |-    |1    |-    |2   |1   |3    |3   |2    |3    |-    |-    |-   |-    |-    |15  |-    |-    |14   |2    |-    |-    |7    |1    |3   |8    |6    |2    |2    |2    |1    |1    |6    |2    |1    |2    |5    |2    |1    |-    |-    |1    |-    |3    |1    |1    |1    |4    |1    |15   |1    |7    |2    |1    |3    |-    |-    |14   |-    |-    |1    |26   |1    |1    |7    |-    |1    |-    |-    |-    |1    |-   |-   |-    |4   |-    |-    |3   |-    |1    |-    |-    |-    |3    |2   |1    |1    |-    |1   |2    |-    |1    |-    |-    |1    |-    |2    |-    |1    |-    |2    |1    |1    |-   |-   |-    |2   |-   |-    |-    |-    |-    |-    |-    |2    |-    |1    |-    |1    |-   |-    |-    |-    |5   |-    |1    |-    |-    |-    |-    |1    |-    |3    |-    |-    |-    |-    |-    |1    |1    |1   |1    |-    |-    |-   |1   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |1    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |2044  |
-#'  |2012  |1974  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |1974  |
-#'  |2014  |2538  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |2538  |
-#'  |2016  |2867  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |2867  |
-#'  |2018  |2348  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |2348  |
-#'  |2021  |4032  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-                          |4032  |
-#'  |2022  |-     |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |3544                       |3544  |
-#'  |2024  |-     |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-   |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |3309                       |3309  |
-#'  |Total |53520 |24  |173  |144  |124  |184  |383  |58   |83   |54   |36  |56   |10   |36   |33   |51   |21   |4    |19   |37   |107  |128  |44   |98   |83   |1490 |46  |94  |47  |11  |61  |47  |75   |53   |19  |490  |45   |40   |192  |58   |231  |35   |77  |19   |34   |94   |49   |14   |45   |26   |69   |59   |70   |162  |122  |35   |14   |168  |406  |50   |164  |56   |89   |106  |43   |86   |24   |73   |30   |406  |32   |34   |8    |10  |119  |15  |42   |141  |26   |28   |113  |58  |66   |164  |46  |221  |66   |28   |101  |11   |37   |78   |99   |122  |40   |5    |184  |100 |144  |5    |60  |43   |74   |14   |3    |48  |20  |15  |379  |366 |5    |9    |12   |15   |19   |10   |8   |10  |23   |33  |23   |83   |12   |6    |6   |17   |8    |177 |20   |11   |229  |16   |5    |4    |126  |32   |75  |81   |145  |26   |119  |39   |52   |11   |116  |33   |19   |80   |78   |29   |16   |9    |18   |38   |7    |51   |16   |13   |32   |89   |27   |340  |4    |108  |45   |50   |65   |18   |20   |129  |7    |10   |63   |381  |12   |10   |172  |10   |20   |11   |6    |24   |21   |3   |3   |8    |25  |1    |7    |24  |20   |8    |25   |4    |17   |21   |27  |21   |4    |11   |22  |27   |5    |6    |12   |7    |5    |4    |31   |12   |6    |7    |25   |7    |13   |8   |7   |23   |25  |4   |16   |1    |5    |5    |7    |7    |42   |2    |11   |3    |6    |21  |9    |5    |6    |23  |2    |5    |17   |7    |5    |9    |6    |7    |20   |1    |7    |3    |3    |5    |8    |5    |11  |10   |4    |4    |11  |10  |4    |2    |8    |8    |8    |4    |4   |2    |4    |2    |3   |2    |4    |1    |1    |2    |2    |1    |2   |1    |1    |1    |1    |1    |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name spisc681
-NULL
 

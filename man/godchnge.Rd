@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 godchnge
 }
 \details{
-Question 1381. Which best describes your beliefs about God?
+Question Which best describes your beliefs about God?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} i don't believe in god now, and i never have
+\item \code{2} i don't believe in god now, but i used to
+\item \code{3} i believe in god now, but i didn't used to
+\item \code{4} i believe in god now, and i always have
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4650/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab don't know \tab i believe in god now, and i always have \tab i believe in god now, but i didn't used to \tab i don't believe in god now, and i never have \tab i don't believe in god now, but i used to \tab no answer \tab not available in this year \tab Total \cr
@@ -57,26 +79,37 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} i don't believe in god now, and i never have
-\item \code{2} i don't believe in god now, but i used to
-\item \code{3} i believe in god now, but i didn't used to
-\item \code{4} i believe in god now, and i always have
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1991 \tab A/B/C \tab full \cr
+   1998 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2008 \tab B/C/- \tab partial \cr
+   2018 \tab A/B/- \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Religion: 
+\code{\link{afterlif}},
+\code{\link{churhpow}},
+\code{\link{clerggov}},
+\code{\link{clergvte}},
+\code{\link{conchurh}},
+\code{\link{conschls}},
+\code{\link{polsgod}},
+\code{\link{religpub}}
+
+Other Religion: 
+\code{\link{afterlif}},
+\code{\link{churhpow}},
+\code{\link{clerggov}},
+\code{\link{clergvte}},
+\code{\link{conchurh}},
+\code{\link{polsgod}},
+\code{\link{religpub}}
+}
+\concept{ISSP Religion}
+\concept{Religion}
 \keyword{variable}

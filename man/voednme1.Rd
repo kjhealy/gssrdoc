@@ -10,11 +10,52 @@ General Social Survey https://gss.norc.org
 voednme1
 }
 \details{
-Question None
+Question In what year did you receive the (COLLEGE NAME) degree?
+F. IF YES: What institution was that?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} jail/prison
+\item \code{2} high school
+\item \code{3} company/business
+\item \code{4} vocational school/trades/technical (not high school, not college)
+\item \code{5} secretarial school
+\item \code{6} adult education/school
+\item \code{7} medical/nursing/health/dental/hospital
+\item \code{8} union
+\item \code{9} armed forces
+\item \code{10} college/university
+\item \code{11} art/design
+\item \code{12} business college (not business school at a university)
+\item \code{13} home study/correspondence
+\item \code{14} job corp
+\item \code{15} beauty school/cosmetology
+\item \code{16} insurance, real estate, finance, executive management
+\item \code{17} police/fire academy; training
+\item \code{18} development center
+\item \code{19} career center
+\item \code{20} foreign college/university
+\item \code{30} other
+\item \code{40} unable to code response, unclear, not identifiable
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/74/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllllll}{
    year \tab iap \tab adult education/school \tab armed forces \tab art/design \tab beauty school/cosmetology \tab business college (not business school at a university) \tab career center \tab college/university \tab company/business \tab development center \tab foreign college/university \tab high school \tab home study/correspondence \tab insurance, real estate, finance, executive management \tab jail/prison \tab job corp \tab medical/nursing/health/dental/hospital \tab no answer \tab other \tab police/fire academy; training \tab secretarial school \tab uncodeable \tab union \tab vocational school/trades/technical (not high school, not college) \tab unable to code response, unclear, not identifiable \tab not available in this year \tab Total \cr
@@ -57,44 +98,33 @@ Counts by year:\tabular{llllllllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} jail/prison
-\item \code{2} high school
-\item \code{3} company/business
-\item \code{4} vocational school/trades/technical (not high school, not college)
-\item \code{5} secretarial school
-\item \code{6} adult education/school
-\item \code{7} medical/nursing/health/dental/hospital
-\item \code{8} union
-\item \code{9} armed forces
-\item \code{10} college/university
-\item \code{11} art/design
-\item \code{12} business college (not business school at a university)
-\item \code{13} home study/correspondence
-\item \code{14} job corp
-\item \code{15} beauty school/cosmetology
-\item \code{16} insurance, real estate, finance, executive management
-\item \code{17} police/fire academy; training
-\item \code{18} development center
-\item \code{19} career center
-\item \code{20} foreign college/university
-\item \code{30} other
-\item \code{40} unable to code response, unclear, not identifiable
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{barate}},
+\code{\link{eftotlt}},
+\code{\link{gradtounder}},
+\code{\link{sector}},
+\code{\link{speftotlt}},
+\code{\link{spsector}},
+\code{\link{voedcol}},
+\code{\link{voedncol}},
+\code{\link{voednme2}}
+
+Other Education: 
+\code{\link{voedcol}},
+\code{\link{voedncol}},
+\code{\link{voednme2}}
+}
+\concept{Core}
+\concept{Education}
 \keyword{variable}

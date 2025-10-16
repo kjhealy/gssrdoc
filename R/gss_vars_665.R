@@ -1,11 +1,293 @@
+#'  First type of insurance mentioned
+#' 
+#'  instype01
+#' 
+#' Question What kind of health insurance do you have?  Please check all that apply.  First type of insurance mentioned.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` public health insurance
+#'   * `2` private insurance
+#'   * `3` employer/union based insurance
+#'   * `4` other
+#'   * `5` have no health insurance
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7972/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |don't know |employer/union based insurance |have no health insurance |iap  |no answer |other |private insurance |public health insurance |skipped on web |Total |
+#'  |:-----|:--------------------------|:----------|:------------------------------|:------------------------|:----|:---------|:-----|:-----------------|:-----------------------|:--------------|:-----|
+#'  |1972  |1613                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |1613  |
+#'  |1973  |1504                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |1504  |
+#'  |1974  |1484                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |1484  |
+#'  |1975  |1490                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |1490  |
+#'  |1976  |1499                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |1499  |
+#'  |1977  |1530                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |1530  |
+#'  |1978  |1532                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |1532  |
+#'  |1980  |1468                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |1468  |
+#'  |1982  |1860                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |1860  |
+#'  |1983  |1599                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |1599  |
+#'  |1984  |1473                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |1473  |
+#'  |1985  |1534                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |1534  |
+#'  |1986  |1470                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |1470  |
+#'  |1987  |1819                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |1819  |
+#'  |1988  |1481                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |1481  |
+#'  |1989  |1537                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |1537  |
+#'  |1990  |1372                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |1372  |
+#'  |1991  |1517                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |1517  |
+#'  |1993  |1606                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |1606  |
+#'  |1994  |2992                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |2992  |
+#'  |1996  |2904                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |2904  |
+#'  |1998  |2832                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |2832  |
+#'  |2000  |2817                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |2817  |
+#'  |2002  |2765                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |2765  |
+#'  |2004  |2812                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |2812  |
+#'  |2006  |4510                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |4510  |
+#'  |2008  |2023                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |2023  |
+#'  |2010  |2044                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |2044  |
+#'  |2012  |1974                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |1974  |
+#'  |2014  |2538                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |2538  |
+#'  |2016  |2867                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |2867  |
+#'  |2018  |2348                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |2348  |
+#'  |2021  |4032                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |4032  |
+#'  |2022  |-                          |1          |358                            |71                       |2545 |8         |36    |153               |363                     |9              |3544  |
+#'  |2024  |3309                       |-          |-                              |-                        |-    |-         |-     |-                 |-                       |-              |3309  |
+#'  |Total |72155                      |1          |358                            |71                       |2545 |8         |36    |153               |363                     |9              |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2022 |C       |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name instype01
+NULL
+
+
+#'  Second type of insurance mentioned
+#' 
+#'  instype02
+#' 
+#' Question What kind of health insurance do you have?  Please check all that apply.  Second type of insurance mentioned.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` public health insurance
+#'   * `2` private insurance
+#'   * `3` employer/union based insurance
+#'   * `4` other
+#'   * `5` have no health insurance
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7973/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |don't know |iap  |no answer |skipped on web |Total |
+#'  |:-----|:--------------------------|:----------|:----|:---------|:--------------|:-----|
+#'  |1972  |1613                       |-          |-    |-         |-              |1613  |
+#'  |1973  |1504                       |-          |-    |-         |-              |1504  |
+#'  |1974  |1484                       |-          |-    |-         |-              |1484  |
+#'  |1975  |1490                       |-          |-    |-         |-              |1490  |
+#'  |1976  |1499                       |-          |-    |-         |-              |1499  |
+#'  |1977  |1530                       |-          |-    |-         |-              |1530  |
+#'  |1978  |1532                       |-          |-    |-         |-              |1532  |
+#'  |1980  |1468                       |-          |-    |-         |-              |1468  |
+#'  |1982  |1860                       |-          |-    |-         |-              |1860  |
+#'  |1983  |1599                       |-          |-    |-         |-              |1599  |
+#'  |1984  |1473                       |-          |-    |-         |-              |1473  |
+#'  |1985  |1534                       |-          |-    |-         |-              |1534  |
+#'  |1986  |1470                       |-          |-    |-         |-              |1470  |
+#'  |1987  |1819                       |-          |-    |-         |-              |1819  |
+#'  |1988  |1481                       |-          |-    |-         |-              |1481  |
+#'  |1989  |1537                       |-          |-    |-         |-              |1537  |
+#'  |1990  |1372                       |-          |-    |-         |-              |1372  |
+#'  |1991  |1517                       |-          |-    |-         |-              |1517  |
+#'  |1993  |1606                       |-          |-    |-         |-              |1606  |
+#'  |1994  |2992                       |-          |-    |-         |-              |2992  |
+#'  |1996  |2904                       |-          |-    |-         |-              |2904  |
+#'  |1998  |2832                       |-          |-    |-         |-              |2832  |
+#'  |2000  |2817                       |-          |-    |-         |-              |2817  |
+#'  |2002  |2765                       |-          |-    |-         |-              |2765  |
+#'  |2004  |2812                       |-          |-    |-         |-              |2812  |
+#'  |2006  |4510                       |-          |-    |-         |-              |4510  |
+#'  |2008  |2023                       |-          |-    |-         |-              |2023  |
+#'  |2010  |2044                       |-          |-    |-         |-              |2044  |
+#'  |2012  |1974                       |-          |-    |-         |-              |1974  |
+#'  |2014  |2538                       |-          |-    |-         |-              |2538  |
+#'  |2016  |2867                       |-          |-    |-         |-              |2867  |
+#'  |2018  |2348                       |-          |-    |-         |-              |2348  |
+#'  |2021  |4032                       |-          |-    |-         |-              |4032  |
+#'  |2022  |-                          |1          |3526 |8         |9              |3544  |
+#'  |2024  |3309                       |-          |-    |-         |-              |3309  |
+#'  |Total |72155                      |1          |3526 |8         |9              |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2022 |C       |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name instype02
+NULL
+
+
+#'  Third type of insurance mentioned
+#' 
+#'  instype03
+#' 
+#' Question What kind of health insurance do you have?  Please check all that apply.  Third type of insurance mentioned.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` public health insurance
+#'   * `2` private insurance
+#'   * `3` employer/union based insurance
+#'   * `4` other
+#'   * `5` have no health insurance
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7974/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |don't know |iap  |no answer |skipped on web |Total |
+#'  |:-----|:--------------------------|:----------|:----|:---------|:--------------|:-----|
+#'  |1972  |1613                       |-          |-    |-         |-              |1613  |
+#'  |1973  |1504                       |-          |-    |-         |-              |1504  |
+#'  |1974  |1484                       |-          |-    |-         |-              |1484  |
+#'  |1975  |1490                       |-          |-    |-         |-              |1490  |
+#'  |1976  |1499                       |-          |-    |-         |-              |1499  |
+#'  |1977  |1530                       |-          |-    |-         |-              |1530  |
+#'  |1978  |1532                       |-          |-    |-         |-              |1532  |
+#'  |1980  |1468                       |-          |-    |-         |-              |1468  |
+#'  |1982  |1860                       |-          |-    |-         |-              |1860  |
+#'  |1983  |1599                       |-          |-    |-         |-              |1599  |
+#'  |1984  |1473                       |-          |-    |-         |-              |1473  |
+#'  |1985  |1534                       |-          |-    |-         |-              |1534  |
+#'  |1986  |1470                       |-          |-    |-         |-              |1470  |
+#'  |1987  |1819                       |-          |-    |-         |-              |1819  |
+#'  |1988  |1481                       |-          |-    |-         |-              |1481  |
+#'  |1989  |1537                       |-          |-    |-         |-              |1537  |
+#'  |1990  |1372                       |-          |-    |-         |-              |1372  |
+#'  |1991  |1517                       |-          |-    |-         |-              |1517  |
+#'  |1993  |1606                       |-          |-    |-         |-              |1606  |
+#'  |1994  |2992                       |-          |-    |-         |-              |2992  |
+#'  |1996  |2904                       |-          |-    |-         |-              |2904  |
+#'  |1998  |2832                       |-          |-    |-         |-              |2832  |
+#'  |2000  |2817                       |-          |-    |-         |-              |2817  |
+#'  |2002  |2765                       |-          |-    |-         |-              |2765  |
+#'  |2004  |2812                       |-          |-    |-         |-              |2812  |
+#'  |2006  |4510                       |-          |-    |-         |-              |4510  |
+#'  |2008  |2023                       |-          |-    |-         |-              |2023  |
+#'  |2010  |2044                       |-          |-    |-         |-              |2044  |
+#'  |2012  |1974                       |-          |-    |-         |-              |1974  |
+#'  |2014  |2538                       |-          |-    |-         |-              |2538  |
+#'  |2016  |2867                       |-          |-    |-         |-              |2867  |
+#'  |2018  |2348                       |-          |-    |-         |-              |2348  |
+#'  |2021  |4032                       |-          |-    |-         |-              |4032  |
+#'  |2022  |-                          |1          |3526 |8         |9              |3544  |
+#'  |2024  |3309                       |-          |-    |-         |-              |3309  |
+#'  |Total |72155                      |1          |3526 |8         |9              |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2022 |C       |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name instype03
+NULL
+
+
 #'  Fourth type of insurance mentioned
 #' 
 #'  instype04
 #' 
-#' Question None
+#' Question What kind of health insurance do you have?  Please check all that apply.  Fourth type of insurance mentioned.
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` public health insurance
+#'   * `2` private insurance
+#'   * `3` employer/union based insurance
+#'   * `4` other
+#'   * `5` have no health insurance
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7975/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,13 +330,32 @@
 #'  |2024  |3309                       |-          |-    |-         |-     |-              |3309  |
 #'  |Total |72155                      |1          |3525 |8         |1     |9              |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2022 |C       |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name instype04
+NULL
+
+
+#'  Totalincentive
+#' 
+#'  totalincentive
+#' 
+#' Question TOTAL INCENTIVE FOR CASE, INCLUDING PRE- AND POST- INCENTIVE FOR BASELINE AND ANY FOLLOW-ON STUDIES
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` public health insurance
-#'   * `2` private insurance
-#'   * `3` employer/union based insurance
-#'   * `4` other
-#'   * `5` have no health insurance
+#'   * `200` $200+ in total payments
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -68,22 +369,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name instype04
-NULL
-
-#'  Total incentive for case, including pre- and post- incentive for baseline and an
-#' 
-#'  totalincentive
-#' 
-#' Question TOTAL INCENTIVE FOR CASE, INCLUDING PRE- AND POST- INCENTIVE FOR BASELINE AND ANY FOLLOW-ON STUDIES
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7976/vshow).
 #'
 #' Counts by year: 
 #'
@@ -126,9 +413,34 @@ NULL
 #'  |2024  |-                          |-                       |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |3309                          |3309  |
 #'  |Total |68846                      |802                     |424 |2   |89  |92  |93  |8   |13  |4  |102 |292 |29  |31  |262 |5   |26  |54  |95  |39  |1   |45  |4   |1   |41  |6   |5   |41 |28 |8  |11 |5  |218 |2  |12 |81 |54 |4  |11 |44 |2  |17 |95 |4  |15 |292 |4  |25 |6  |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name totalincentive
+NULL
+
+
+#'  Any kids under 18 in hh
+#' 
+#'  kidsund18
+#' 
+#' Question This section contains questions about you and your household. We are interested in understanding what households in the United States look like and we are grateful for any information you provide.
+#' Are there any individuals aged 0 to 17 years old living at this household?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `200` $200+ in total payments
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -142,22 +454,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name totalincentive
-NULL
-
-#'  Any kids under 18 in hh
-#' 
-#'  kidsund18
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/8015/vshow).
 #'
 #' Counts by year: 
 #'
@@ -200,10 +498,34 @@ NULL
 #'  |2024  |-                          |-    |-    |-         |-              |-   |3309                          |3309  |
 #'  |Total |68846                      |1788 |1213 |10        |5              |528 |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name kidsund18
+NULL
+
+
+#'  Kids 0-6 in hh(experimental version)
+#' 
+#'  babies_exp
+#' 
+#' Question Household Size and Composition (see Appendix D:  Recodes, for information about these variables).  A. NUMBER OF MEMBERS UNDER 6 YEARS OLD: 
+#'  As of 2024, BABIES_EXP has been recoded to only account for 0 to 2+ children younger than 6 in the household. This has been retroactively applied to all previous years of BABIES_EXP. The original BABIES_EXP containing data in 2022 has been renamed BABIES_EXP_22.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `0` 0 household members under 6
+#'   * `8` 8 or more
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -217,22 +539,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name kidsund18
-NULL
-
-#'  Kids 0-6 in hh(experimental version)
-#' 
-#'  babies_exp
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7998/vshow).
 #'
 #' Counts by year: 
 #'
@@ -275,9 +583,34 @@ NULL
 #'  |2024  |-                          |-                           |-   |-  |-  |-  |-  |-    |-         |-              |3309                          |3309  |
 #'  |Total |68846                      |1457                        |178 |73 |22 |8  |1  |1788 |9         |8              |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name babies_exp
+NULL
+
+
+#'  Kids 7-12 in hh(experimental version)
+#' 
+#'  preteen_exp
+#' 
+#' Question How many individuals are there in this household between the ages of 7 and 12? 
+#'  As of 2024, PRETEEN_EXP has been recoded to only account for 0 to 2+ children ages 7 to 12 in the household. This has been retroactively applied to all previous years of PRETEEN_EXP. The original PRETEEN_EXP containing data from in 2022 has been renamed PRETEEN_EXP_22.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` 0 household members under 6
+#'   * `0` 0 household members between 6 to 12
 #'   * `8` 8 or more
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
@@ -292,22 +625,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name babies_exp
-NULL
-
-#'  Kids 7-12 in hh(experimental version)
-#' 
-#'  preteen_exp
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/8008/vshow).
 #'
 #' Counts by year: 
 #'
@@ -350,9 +669,34 @@ NULL
 #'  |2024  |-                          |-                                   |-   |-  |-  |-    |-         |-              |3309                          |3309  |
 #'  |Total |68846                      |1459                                |196 |65 |15 |1788 |9         |12             |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name preteen_exp
+NULL
+
+
+#'  Kids 13-17 in hh(experimental version)
+#' 
+#'  teens_exp
+#' 
+#' Question How many individuals are there in this household between the ages of 13 and 17? 
+#'  As of 2024, TEENS_EXP has been recoded to only account for 0 to 2+ teenagers in the household. This has been retroactively applied to all previous years of TEENS_EXP. The original TEENS_EXP containing data from in 2022 has been renamed TEENS_EXP_22.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` 0 household members between 6 to 12
+#'   * `0` 0 household members between 13 to 17
 #'   * `8` 8 or more
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
@@ -367,22 +711,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name preteen_exp
-NULL
-
-#'  Kids 13-17 in hh(experimental version)
-#' 
-#'  teens_exp
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/8011/vshow).
 #'
 #' Counts by year: 
 #'
@@ -425,9 +755,34 @@ NULL
 #'  |2024  |-                          |-                                    |-   |-  |-  |-    |-         |-              |3309                          |3309  |
 #'  |Total |68846                      |1524                                 |152 |44 |8  |1788 |10        |18             |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name teens_exp
+NULL
+
+
+#'  Adults 18+ in hh(experimental version)
+#' 
+#'  adults_exp
+#' 
+#' Question Including yourself, how many individuals 18 or older live in this household? 
+#' If you have roommates, please include them. Please also include those who usually live here but are away temporarily, such as those on business trips, at school, or temporarily in a hospital.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` 0 household members between 13 to 17
+#'   * `1` 1 adult in household
 #'   * `8` 8 or more
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
@@ -442,22 +797,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name teens_exp
-NULL
-
-#'  Adults 18+ in hh(experimental version)
-#' 
-#'  adults_exp
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7983/vshow).
 #'
 #' Counts by year: 
 #'
@@ -500,253 +841,20 @@ NULL
 #'  |2024  |-                          |-                    |-   |-   |-  |-  |-  |-  |-         |-    |-         |-              |3309                          |3309  |
 #'  |Total |68846                      |699                  |764 |171 |63 |12 |6  |1  |1         |1788 |4         |35             |3309                          |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` 1 adult in household
-#'   * `8` 8 or more
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
+#' 
 #' 
 #' @keywords variable
 #' @md
 #' @name adults_exp
 NULL
 
-#'  R in long-term relationship in hh
-#' 
-#'  lngrltnshp
-#' 
-#' Question None
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |not available in this year |iap  |no  |no answer |skipped on web |yes |not available in this release |Total |
-#'  |:-----|:--------------------------|:----|:---|:---------|:--------------|:---|:-----------------------------|:-----|
-#'  |1972  |1613                       |-    |-   |-         |-              |-   |-                             |1613  |
-#'  |1973  |1504                       |-    |-   |-         |-              |-   |-                             |1504  |
-#'  |1974  |1484                       |-    |-   |-         |-              |-   |-                             |1484  |
-#'  |1975  |1490                       |-    |-   |-         |-              |-   |-                             |1490  |
-#'  |1976  |1499                       |-    |-   |-         |-              |-   |-                             |1499  |
-#'  |1977  |1530                       |-    |-   |-         |-              |-   |-                             |1530  |
-#'  |1978  |1532                       |-    |-   |-         |-              |-   |-                             |1532  |
-#'  |1980  |1468                       |-    |-   |-         |-              |-   |-                             |1468  |
-#'  |1982  |1860                       |-    |-   |-         |-              |-   |-                             |1860  |
-#'  |1983  |1599                       |-    |-   |-         |-              |-   |-                             |1599  |
-#'  |1984  |1473                       |-    |-   |-         |-              |-   |-                             |1473  |
-#'  |1985  |1534                       |-    |-   |-         |-              |-   |-                             |1534  |
-#'  |1986  |1470                       |-    |-   |-         |-              |-   |-                             |1470  |
-#'  |1987  |1819                       |-    |-   |-         |-              |-   |-                             |1819  |
-#'  |1988  |1481                       |-    |-   |-         |-              |-   |-                             |1481  |
-#'  |1989  |1537                       |-    |-   |-         |-              |-   |-                             |1537  |
-#'  |1990  |1372                       |-    |-   |-         |-              |-   |-                             |1372  |
-#'  |1991  |1517                       |-    |-   |-         |-              |-   |-                             |1517  |
-#'  |1993  |1606                       |-    |-   |-         |-              |-   |-                             |1606  |
-#'  |1994  |2992                       |-    |-   |-         |-              |-   |-                             |2992  |
-#'  |1996  |2904                       |-    |-   |-         |-              |-   |-                             |2904  |
-#'  |1998  |2832                       |-    |-   |-         |-              |-   |-                             |2832  |
-#'  |2000  |2817                       |-    |-   |-         |-              |-   |-                             |2817  |
-#'  |2002  |2765                       |-    |-   |-         |-              |-   |-                             |2765  |
-#'  |2004  |2812                       |-    |-   |-         |-              |-   |-                             |2812  |
-#'  |2006  |4510                       |-    |-   |-         |-              |-   |-                             |4510  |
-#'  |2008  |2023                       |-    |-   |-         |-              |-   |-                             |2023  |
-#'  |2010  |2044                       |-    |-   |-         |-              |-   |-                             |2044  |
-#'  |2012  |1974                       |-    |-   |-         |-              |-   |-                             |1974  |
-#'  |2014  |2538                       |-    |-   |-         |-              |-   |-                             |2538  |
-#'  |2016  |2867                       |-    |-   |-         |-              |-   |-                             |2867  |
-#'  |2018  |2348                       |-    |-   |-         |-              |-   |-                             |2348  |
-#'  |2021  |4032                       |-    |-   |-         |-              |-   |-                             |4032  |
-#'  |2022  |-                          |2520 |222 |4         |7              |791 |-                             |3544  |
-#'  |2024  |-                          |-    |-   |-         |-              |-   |3309                          |3309  |
-#'  |Total |68846                      |2520 |222 |4         |7              |791 |3309                          |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name lngrltnshp
-NULL
-
-#'  R has sibling in hh
-#' 
-#'  rsblng18
-#' 
-#' Question None
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |not available in this year |iap  |no  |no answer |skipped on web |yes |not available in this release |Total |
-#'  |:-----|:--------------------------|:----|:---|:---------|:--------------|:---|:-----------------------------|:-----|
-#'  |1972  |1613                       |-    |-   |-         |-              |-   |-                             |1613  |
-#'  |1973  |1504                       |-    |-   |-         |-              |-   |-                             |1504  |
-#'  |1974  |1484                       |-    |-   |-         |-              |-   |-                             |1484  |
-#'  |1975  |1490                       |-    |-   |-         |-              |-   |-                             |1490  |
-#'  |1976  |1499                       |-    |-   |-         |-              |-   |-                             |1499  |
-#'  |1977  |1530                       |-    |-   |-         |-              |-   |-                             |1530  |
-#'  |1978  |1532                       |-    |-   |-         |-              |-   |-                             |1532  |
-#'  |1980  |1468                       |-    |-   |-         |-              |-   |-                             |1468  |
-#'  |1982  |1860                       |-    |-   |-         |-              |-   |-                             |1860  |
-#'  |1983  |1599                       |-    |-   |-         |-              |-   |-                             |1599  |
-#'  |1984  |1473                       |-    |-   |-         |-              |-   |-                             |1473  |
-#'  |1985  |1534                       |-    |-   |-         |-              |-   |-                             |1534  |
-#'  |1986  |1470                       |-    |-   |-         |-              |-   |-                             |1470  |
-#'  |1987  |1819                       |-    |-   |-         |-              |-   |-                             |1819  |
-#'  |1988  |1481                       |-    |-   |-         |-              |-   |-                             |1481  |
-#'  |1989  |1537                       |-    |-   |-         |-              |-   |-                             |1537  |
-#'  |1990  |1372                       |-    |-   |-         |-              |-   |-                             |1372  |
-#'  |1991  |1517                       |-    |-   |-         |-              |-   |-                             |1517  |
-#'  |1993  |1606                       |-    |-   |-         |-              |-   |-                             |1606  |
-#'  |1994  |2992                       |-    |-   |-         |-              |-   |-                             |2992  |
-#'  |1996  |2904                       |-    |-   |-         |-              |-   |-                             |2904  |
-#'  |1998  |2832                       |-    |-   |-         |-              |-   |-                             |2832  |
-#'  |2000  |2817                       |-    |-   |-         |-              |-   |-                             |2817  |
-#'  |2002  |2765                       |-    |-   |-         |-              |-   |-                             |2765  |
-#'  |2004  |2812                       |-    |-   |-         |-              |-   |-                             |2812  |
-#'  |2006  |4510                       |-    |-   |-         |-              |-   |-                             |4510  |
-#'  |2008  |2023                       |-    |-   |-         |-              |-   |-                             |2023  |
-#'  |2010  |2044                       |-    |-   |-         |-              |-   |-                             |2044  |
-#'  |2012  |1974                       |-    |-   |-         |-              |-   |-                             |1974  |
-#'  |2014  |2538                       |-    |-   |-         |-              |-   |-                             |2538  |
-#'  |2016  |2867                       |-    |-   |-         |-              |-   |-                             |2867  |
-#'  |2018  |2348                       |-    |-   |-         |-              |-   |-                             |2348  |
-#'  |2021  |4032                       |-    |-   |-         |-              |-   |-                             |4032  |
-#'  |2022  |-                          |3243 |231 |1         |5              |64  |-                             |3544  |
-#'  |2024  |-                          |-    |-   |-         |-              |-   |3309                          |3309  |
-#'  |Total |68846                      |3243 |231 |1         |5              |64  |3309                          |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name rsblng18
-NULL
-
-#'  R is child of another adult in hh
-#' 
-#'  rchild18
-#' 
-#' Question None
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |not available in this year |iap  |no  |no answer |skipped on web |yes |not available in this release |Total |
-#'  |:-----|:--------------------------|:----|:---|:---------|:--------------|:---|:-----------------------------|:-----|
-#'  |1972  |1613                       |-    |-   |-         |-              |-   |-                             |1613  |
-#'  |1973  |1504                       |-    |-   |-         |-              |-   |-                             |1504  |
-#'  |1974  |1484                       |-    |-   |-         |-              |-   |-                             |1484  |
-#'  |1975  |1490                       |-    |-   |-         |-              |-   |-                             |1490  |
-#'  |1976  |1499                       |-    |-   |-         |-              |-   |-                             |1499  |
-#'  |1977  |1530                       |-    |-   |-         |-              |-   |-                             |1530  |
-#'  |1978  |1532                       |-    |-   |-         |-              |-   |-                             |1532  |
-#'  |1980  |1468                       |-    |-   |-         |-              |-   |-                             |1468  |
-#'  |1982  |1860                       |-    |-   |-         |-              |-   |-                             |1860  |
-#'  |1983  |1599                       |-    |-   |-         |-              |-   |-                             |1599  |
-#'  |1984  |1473                       |-    |-   |-         |-              |-   |-                             |1473  |
-#'  |1985  |1534                       |-    |-   |-         |-              |-   |-                             |1534  |
-#'  |1986  |1470                       |-    |-   |-         |-              |-   |-                             |1470  |
-#'  |1987  |1819                       |-    |-   |-         |-              |-   |-                             |1819  |
-#'  |1988  |1481                       |-    |-   |-         |-              |-   |-                             |1481  |
-#'  |1989  |1537                       |-    |-   |-         |-              |-   |-                             |1537  |
-#'  |1990  |1372                       |-    |-   |-         |-              |-   |-                             |1372  |
-#'  |1991  |1517                       |-    |-   |-         |-              |-   |-                             |1517  |
-#'  |1993  |1606                       |-    |-   |-         |-              |-   |-                             |1606  |
-#'  |1994  |2992                       |-    |-   |-         |-              |-   |-                             |2992  |
-#'  |1996  |2904                       |-    |-   |-         |-              |-   |-                             |2904  |
-#'  |1998  |2832                       |-    |-   |-         |-              |-   |-                             |2832  |
-#'  |2000  |2817                       |-    |-   |-         |-              |-   |-                             |2817  |
-#'  |2002  |2765                       |-    |-   |-         |-              |-   |-                             |2765  |
-#'  |2004  |2812                       |-    |-   |-         |-              |-   |-                             |2812  |
-#'  |2006  |4510                       |-    |-   |-         |-              |-   |-                             |4510  |
-#'  |2008  |2023                       |-    |-   |-         |-              |-   |-                             |2023  |
-#'  |2010  |2044                       |-    |-   |-         |-              |-   |-                             |2044  |
-#'  |2012  |1974                       |-    |-   |-         |-              |-   |-                             |1974  |
-#'  |2014  |2538                       |-    |-   |-         |-              |-   |-                             |2538  |
-#'  |2016  |2867                       |-    |-   |-         |-              |-   |-                             |2867  |
-#'  |2018  |2348                       |-    |-   |-         |-              |-   |-                             |2348  |
-#'  |2021  |4032                       |-    |-   |-         |-              |-   |-                             |4032  |
-#'  |2022  |-                          |3170 |238 |1         |6              |129 |-                             |3544  |
-#'  |2024  |-                          |-    |-   |-         |-              |-   |3309                          |3309  |
-#'  |Total |68846                      |3170 |238 |1         |6              |129 |3309                          |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name rchild18
-NULL
 

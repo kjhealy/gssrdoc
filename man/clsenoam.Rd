@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 clsenoam
 }
 \details{
-Question To begin, we have some questions about where you live: your neighborhood or village, your town or city, your county, and so on. (By neighborhood we mean the part of the town/city you live in. If you live in a village, we take this as your neighborhood.) 1436. How close do you feel to... e. North America
+Question How close do you feel toâ€¦
+5. North America
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very close
+\item \code{2} close
+\item \code{3} not very close
+\item \code{4} not close at all
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4820/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab can't choose \tab close \tab no answer \tab not close at all \tab not very close \tab very close \tab not available in this year \tab Total \cr
@@ -57,26 +80,36 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very close
-\item \code{2} close
-\item \code{3} not very close
-\item \code{4} not close at all
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP National Identity: 
+\code{\link{ambornin}},
+\code{\link{clsestat}},
+\code{\link{clseusa}},
+\code{\link{movenei}},
+\code{\link{movenoam}},
+\code{\link{movestat}},
+\code{\link{movetown}},
+\code{\link{moveusa}},
+\code{\link{onenatn}}
+
+Other Residence: 
+\code{\link{clsestat}},
+\code{\link{clseusa}},
+\code{\link{movenei}},
+\code{\link{movenoam}},
+\code{\link{movestat}},
+\code{\link{movetown}},
+\code{\link{moveusa}}
+}
+\concept{ISSP National Identity}
+\concept{Residence}
 \keyword{variable}

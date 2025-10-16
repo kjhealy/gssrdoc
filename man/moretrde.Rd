@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 moretrde
 }
 \details{
-Question Now let us talk about trade with other countries. Suppose two friends of yours are talking about trade with other countries. One friend thinks that increased trade has created a lot of jobs in the United States for people with jobs like yours. The other friend thinks that increased trade has take
+Question Suppose two friends of yours are talking about trade with other countries. One friend thinks that increased trade has created a lot of jobs in the United States for people with jobs like yours. The other friend thinks that increased trade has taken away a lot of jobs in the United States for people with jobs like yours. Which view is closer to your own?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} created more jobs
+\item \code{2} about the same
+\item \code{3} taken them away
+\item \code{4} not relevant for my job
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3884/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab about the same \tab created more jobs \tab don't know \tab no answer \tab not relevant for my job \tab taken them away \tab not available in this year \tab Total \cr
@@ -57,26 +79,40 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} created more jobs
-\item \code{2} about the same
-\item \code{3} taken them away
-\item \code{4} not relevant for my job
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2008 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Employment: 
+\code{\link{losejb12}},
+\code{\link{lostjobs}},
+\code{\link{newjobs}},
+\code{\link{whyjbct2}},
+\code{\link{whylose1}},
+\code{\link{whylose2}},
+\code{\link{whylose3}}
+
+Other Job: 
+\code{\link{findnwjb}},
+\code{\link{losejb12}},
+\code{\link{lostjobs}},
+\code{\link{newjobs}},
+\code{\link{whyjbct2}},
+\code{\link{wkcomptr}}
+
+Other Unemployment: 
+\code{\link{losejb12}},
+\code{\link{lostjobs}},
+\code{\link{newjobs}},
+\code{\link{whyjbct2}}
+}
+\concept{Employment}
+\concept{Foreign Affairs}
+\concept{Global Economicsconomy}
+\concept{Job}
+\concept{Unemployment}
 \keyword{variable}

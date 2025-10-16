@@ -10,11 +10,50 @@ General Social Survey https://gss.norc.org
 coeduc
 }
 \details{
-Question None
+Question RESPONDENT'S PARTNER'S EDUCATION
 }
+\section{Values}{
+
+\itemize{
+\item \code{0} no formal schooling
+\item \code{1} 1st grade
+\item \code{2} 2nd grade
+\item \code{3} 3rd grade
+\item \code{4} 4th grade
+\item \code{5} 5th grade
+\item \code{6} 6th grade
+\item \code{7} 7th grade
+\item \code{8} 8th grade
+\item \code{9} 9th grade
+\item \code{10} 10th grade
+\item \code{11} 11th grade
+\item \code{12} 12th grade
+\item \code{13} 1 year of college
+\item \code{14} 2 years of college
+\item \code{15} 3 years of college
+\item \code{16} 4 years of college
+\item \code{17} 5 years of college
+\item \code{18} 6 years of college
+\item \code{19} 7 years of college
+\item \code{20} 8 or more years of college
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6160/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllll}{
    year \tab iap \tab 1 year of college \tab 10th grade \tab 11th grade \tab 12th grade \tab 2 years of college \tab 3 years of college \tab 4 years of college \tab 4th grade \tab 5 years of college \tab 6 years of college \tab 6th grade \tab 7 years of college \tab 7th grade \tab 8 or more years of college \tab 8th grade \tab 9th grade \tab don't know \tab no answer \tab 3rd grade \tab no formal schooling \tab 5th grade \tab Total \cr
@@ -57,43 +96,30 @@ Counts by year:\tabular{llllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{0} no formal schooling
-\item \code{1} 1st grade
-\item \code{2} 2nd grade
-\item \code{3} 3rd grade
-\item \code{4} 4th grade
-\item \code{5} 5th grade
-\item \code{6} 6th grade
-\item \code{7} 7th grade
-\item \code{8} 8th grade
-\item \code{9} 9th grade
-\item \code{10} 10th grade
-\item \code{11} 11th grade
-\item \code{12} 12th grade
-\item \code{13} 1 year of college
-\item \code{14} 2 years of college
-\item \code{15} 3 years of college
-\item \code{16} 4 years of college
-\item \code{17} 5 years of college
-\item \code{18} 6 years of college
-\item \code{19} 7 years of college
-\item \code{20} 8 or more years of college
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2021 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
+   2024 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{age}},
+\code{\link{agekdbrn}},
+\code{\link{codeg}},
+\code{\link{degree}},
+\code{\link{educ}},
+\code{\link{maeduc}},
+\code{\link{padeg}},
+\code{\link{paeduc}},
+\code{\link{speduc}}
+}
+\concept{Core}
 \keyword{variable}

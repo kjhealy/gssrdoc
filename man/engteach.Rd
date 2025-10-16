@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 engteach
 }
 \details{
-Question 524. There are several different ideas about how to teach children who don't speak English when they enter our public schools. Please look at the card and tell me which statement best describes how you feel: 1. All classes should be conducted only in English so that children have to learn English right from the start. 2. Children who don't know English should have classes in their native language just for a year or two until they learn English. 3. Students who want to keep up with their native languages and cultures should be able to take many of the classes in Spanish or other languages all the way through high school.
+Question There are several different ideas about how to teach children who don't speak English when they enter our public schools. Please look at the card and tell me which statement best describes how you feel:
+All classes should be conducted only in English so that children have to learn English right from the startâ€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦.â€¦â€¦â€¦â€¦â€¦â€¦â€¦1
+Children who don't know English should have classes in their native language just for a year or two until they learn Englishâ€¦â€¦â€¦â€¦â€¦â€¦...â€¦â€¦â€¦.â€¦.....â€¦â€¦â€¦â€¦â€¦ 2
+Students who want to keep up with their native languages and cultures should be able to take many of the classes in Spanish or other languages All the way through high schoolâ€¦â€¦......3
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} all classes in english
+\item \code{2} 1-2 yrs in native lang
+\item \code{3} native lang thru hs
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1608/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab 1-2 yrs in native lang \tab all classes in english \tab don't know \tab native lang thru hs \tab no answer \tab not available in this year \tab Total \cr
@@ -57,25 +81,35 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} all classes in english
-\item \code{2} 1-2 yrs in native lang
-\item \code{3} native lang thru hs
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Multiculturalism: 
+\code{\link{admirblk}},
+\code{\link{bilinged}},
+\code{\link{engballt}},
+\code{\link{engoffcl}},
+\code{\link{ethorgs}},
+\code{\link{ethspkno}},
+\code{\link{ethspkok}},
+\code{\link{letin}},
+\code{\link{symptblk}}
+
+Other Education: 
+\code{\link{bilinged}}
+
+Other Language: 
+\code{\link{bilinged}},
+\code{\link{engballt}},
+\code{\link{engoffcl}}
+}
+\concept{Education}
+\concept{Hispanics}
+\concept{Language}
+\concept{Multiculturalism}
 \keyword{variable}

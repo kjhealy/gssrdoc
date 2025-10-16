@@ -1,11 +1,194 @@
+#'  How many years r born a member of other group4
+#' 
+#'  yrother4
+#' 
+#' Question P. How many years have you been a member ofâ€¦? 
+#' 4. Fourth other group
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3214/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |10 |12 |no answer |not available in this year |Total |
+#'  |:-----|:-----|:--|:--|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-  |-  |-         |-                          |1613  |
+#'  |1973  |1504  |-  |-  |-         |-                          |1504  |
+#'  |1974  |1484  |-  |-  |-         |-                          |1484  |
+#'  |1975  |1490  |-  |-  |-         |-                          |1490  |
+#'  |1976  |1499  |-  |-  |-         |-                          |1499  |
+#'  |1977  |1530  |-  |-  |-         |-                          |1530  |
+#'  |1978  |1532  |-  |-  |-         |-                          |1532  |
+#'  |1980  |1468  |-  |-  |-         |-                          |1468  |
+#'  |1982  |1860  |-  |-  |-         |-                          |1860  |
+#'  |1983  |1599  |-  |-  |-         |-                          |1599  |
+#'  |1984  |1473  |-  |-  |-         |-                          |1473  |
+#'  |1985  |1534  |-  |-  |-         |-                          |1534  |
+#'  |1986  |1470  |-  |-  |-         |-                          |1470  |
+#'  |1987  |1819  |-  |-  |-         |-                          |1819  |
+#'  |1988  |1481  |-  |-  |-         |-                          |1481  |
+#'  |1989  |1537  |-  |-  |-         |-                          |1537  |
+#'  |1990  |1372  |-  |-  |-         |-                          |1372  |
+#'  |1991  |1517  |-  |-  |-         |-                          |1517  |
+#'  |1993  |1606  |-  |-  |-         |-                          |1606  |
+#'  |1994  |2992  |-  |-  |-         |-                          |2992  |
+#'  |1996  |2904  |-  |-  |-         |-                          |2904  |
+#'  |1998  |2832  |-  |-  |-         |-                          |2832  |
+#'  |2000  |2817  |-  |-  |-         |-                          |2817  |
+#'  |2002  |2765  |-  |-  |-         |-                          |2765  |
+#'  |2004  |2801  |1  |1  |9         |-                          |2812  |
+#'  |2006  |4510  |-  |-  |-         |-                          |4510  |
+#'  |2008  |2023  |-  |-  |-         |-                          |2023  |
+#'  |2010  |2044  |-  |-  |-         |-                          |2044  |
+#'  |2012  |1974  |-  |-  |-         |-                          |1974  |
+#'  |2014  |2538  |-  |-  |-         |-                          |2538  |
+#'  |2016  |2867  |-  |-  |-         |-                          |2867  |
+#'  |2018  |2348  |-  |-  |-         |-                          |2348  |
+#'  |2021  |4032  |-  |-  |-         |-                          |4032  |
+#'  |2022  |-     |-  |-  |-         |3544                       |3544  |
+#'  |2024  |-     |-  |-  |-         |3309                       |3309  |
+#'  |Total |68835 |1  |1  |9         |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Voluntary Assocations/Social Networks
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name yrother4
+NULL
+
+
+#'  How many years r born a member of other group5
+#' 
+#'  yrother5
+#' 
+#' Question P. How many years have you been a member ofâ€¦? 
+#' 5. Fifth other group
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3215/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |1  |20 |no answer |not available in this year |Total |
+#'  |:-----|:-----|:--|:--|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-  |-  |-         |-                          |1613  |
+#'  |1973  |1504  |-  |-  |-         |-                          |1504  |
+#'  |1974  |1484  |-  |-  |-         |-                          |1484  |
+#'  |1975  |1490  |-  |-  |-         |-                          |1490  |
+#'  |1976  |1499  |-  |-  |-         |-                          |1499  |
+#'  |1977  |1530  |-  |-  |-         |-                          |1530  |
+#'  |1978  |1532  |-  |-  |-         |-                          |1532  |
+#'  |1980  |1468  |-  |-  |-         |-                          |1468  |
+#'  |1982  |1860  |-  |-  |-         |-                          |1860  |
+#'  |1983  |1599  |-  |-  |-         |-                          |1599  |
+#'  |1984  |1473  |-  |-  |-         |-                          |1473  |
+#'  |1985  |1534  |-  |-  |-         |-                          |1534  |
+#'  |1986  |1470  |-  |-  |-         |-                          |1470  |
+#'  |1987  |1819  |-  |-  |-         |-                          |1819  |
+#'  |1988  |1481  |-  |-  |-         |-                          |1481  |
+#'  |1989  |1537  |-  |-  |-         |-                          |1537  |
+#'  |1990  |1372  |-  |-  |-         |-                          |1372  |
+#'  |1991  |1517  |-  |-  |-         |-                          |1517  |
+#'  |1993  |1606  |-  |-  |-         |-                          |1606  |
+#'  |1994  |2992  |-  |-  |-         |-                          |2992  |
+#'  |1996  |2904  |-  |-  |-         |-                          |2904  |
+#'  |1998  |2832  |-  |-  |-         |-                          |2832  |
+#'  |2000  |2817  |-  |-  |-         |-                          |2817  |
+#'  |2002  |2765  |-  |-  |-         |-                          |2765  |
+#'  |2004  |2801  |1  |1  |9         |-                          |2812  |
+#'  |2006  |4510  |-  |-  |-         |-                          |4510  |
+#'  |2008  |2023  |-  |-  |-         |-                          |2023  |
+#'  |2010  |2044  |-  |-  |-         |-                          |2044  |
+#'  |2012  |1974  |-  |-  |-         |-                          |1974  |
+#'  |2014  |2538  |-  |-  |-         |-                          |2538  |
+#'  |2016  |2867  |-  |-  |-         |-                          |2867  |
+#'  |2018  |2348  |-  |-  |-         |-                          |2348  |
+#'  |2021  |4032  |-  |-  |-         |-                          |4032  |
+#'  |2022  |-     |-  |-  |-         |3544                       |3544  |
+#'  |2024  |-     |-  |-  |-         |3309                       |3309  |
+#'  |Total |68835 |1  |1  |9         |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Voluntary Assocations/Social Networks
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name yrother5
+NULL
+
+
 #'  How many years r born a member of informal group1
 #' 
 #'  yrinfrm1
 #' 
-#' Question 1026q. How many years have you been a member of (INFORMAL GROUP)?
+#' Question Q. How many years have you been a member ofâ€¦? 
+#' 1. First informal group
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3216/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +231,30 @@
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68446 |51 |67 |22 |2  |5  |4  |3  |8  |2  |1  |4  |38 |11 |1  |1  |1  |1  |3  |44 |4  |1  |1  |4  |19 |4  |1  |27 |5  |8  |1  |6  |5  |20         |25        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Voluntary Assocations/Social Networks
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name yrinfrm1
+NULL
+
+
+#'  How many years r born a member of informal group2
+#' 
+#'  yrinfrm2
+#' 
+#' Question Q. How many years have you been a member ofâ€¦? 
+#' 2. Second informal group
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -63,22 +270,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name yrinfrm1
-NULL
-
-#'  How many years r born a member of informal group2
-#' 
-#'  yrinfrm2
-#' 
-#' Question 1026q. How many years have you been a member of (INFORMAL GROUP)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3217/vshow).
 #'
 #' Counts by year: 
 #'
@@ -121,6 +314,30 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68742 |5  |13 |7  |1  |6  |3  |1  |12 |2  |1  |10 |4  |1  |4  |5  |2  |1  |5  |1  |1  |2          |17        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Voluntary Assocations/Social Networks
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name yrinfrm2
+NULL
+
+
+#'  How many years r born a member of informal group3
+#' 
+#'  yrinfrm3
+#' 
+#' Question Q. How many years have you been a member ofâ€¦? 
+#' 3. Third informal group
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -136,22 +353,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name yrinfrm2
-NULL
-
-#'  How many years r born a member of informal group3
-#' 
-#'  yrinfrm3
-#' 
-#' Question 1026q. How many years have you been a member of (INFORMAL GROUP)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3218/vshow).
 #'
 #' Counts by year: 
 #'
@@ -194,6 +397,30 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |3309                       |3309  |
 #'  |Total |68801 |2  |6  |2  |1  |1  |2  |3  |1  |4  |3  |2  |1  |1  |1  |1  |1  |13        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Voluntary Assocations/Social Networks
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name yrinfrm3
+NULL
+
+
+#'  How many years r born a member of informal group4
+#' 
+#'  yrinfrm4
+#' 
+#' Question Q. How many years have you been a member ofâ€¦? 
+#' 4. Fourth informal group
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -209,22 +436,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name yrinfrm3
-NULL
-
-#'  How many years r born a member of informal group4
-#' 
-#'  yrinfrm4
-#' 
-#' Question 1026q. How many years have you been a member of (INFORMAL GROUP)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3219/vshow).
 #'
 #' Counts by year: 
 #'
@@ -267,6 +480,30 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-         |3309                       |3309  |
 #'  |Total |68823 |1  |1  |1  |2  |1  |1  |2  |1  |13        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Voluntary Assocations/Social Networks
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name yrinfrm4
+NULL
+
+
+#'  How many years r born a member of informal group5
+#' 
+#'  yrinfrm5
+#' 
+#' Question Q. How many years have you been a member ofâ€¦? 
+#' 5. Fifth informal group
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -282,22 +519,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name yrinfrm4
-NULL
-
-#'  How many years r born a member of informal group5
-#' 
-#'  yrinfrm5
-#' 
-#' Question 1026q. How many years have you been a member of (INFORMAL GROUP)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3220/vshow).
 #'
 #' Counts by year: 
 #'
@@ -340,8 +563,34 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-         |3309                       |3309  |
 #'  |Total |68829 |1  |1  |1  |1  |13        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Voluntary Assocations/Social Networks
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name yrinfrm5
+NULL
+
+
+#'  How many years r born a member of fraternity group1
+#' 
+#'  mtfrat1
+#' 
+#' Question A. Does the fraternal club meet in this area? 
+#' 1. First fraternal club
+#' 
+#' 
 #' @section Values: 
 #' 
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -355,22 +604,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name yrinfrm5
-NULL
-
-#'  How many years r born a member of fraternity group1
-#' 
-#'  mtfrat1
-#' 
-#' Question 1027a. Does the fraternal club meet in this area?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3221/vshow).
 #'
 #' Counts by year: 
 #'
@@ -413,6 +648,30 @@ NULL
 #'  |2024  |-     |-          |-  |-         |-   |3309                       |3309  |
 #'  |Total |68741 |1          |19 |8         |77  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Voluntary Assocations/Social Networks
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name mtfrat1
+NULL
+
+
+#'  How many years r born a member of fraternity group2
+#' 
+#'  mtfrat2
+#' 
+#' Question A. Does the fraternal club meet in this area? 
+#' 2. Second fraternal club
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -430,22 +689,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name mtfrat1
-NULL
-
-#'  How many years r born a member of fraternity group2
-#' 
-#'  mtfrat2
-#' 
-#' Question 1027a. Does the fraternal club meet in this area?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3222/vshow).
 #'
 #' Counts by year: 
 #'
@@ -488,6 +733,30 @@ NULL
 #'  |2024  |-     |-  |-         |-   |3309                       |3309  |
 #'  |Total |68821 |3  |7         |15  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Voluntary Assocations/Social Networks
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name mtfrat2
+NULL
+
+
+#'  How many years r born a member of fraternity group3
+#' 
+#'  mtfrat3
+#' 
+#' Question A. Does the fraternal club meet in this area? 
+#' 3. Third fraternal club
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -505,22 +774,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name mtfrat2
-NULL
-
-#'  How many years r born a member of fraternity group3
-#' 
-#'  mtfrat3
-#' 
-#' Question 1027a. Does the fraternal club meet in this area?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3223/vshow).
 #'
 #' Counts by year: 
 #'
@@ -563,178 +818,19 @@ NULL
 #'  |2024  |-     |-         |-   |3309                       |3309  |
 #'  |Total |68836 |7         |3   |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Voluntary Assocations/Social Networks
+#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
 #' @name mtfrat3
 NULL
 
-#'  How many years r born a member of fraternity group4
-#' 
-#'  mtfrat4
-#' 
-#' Question 1027a. Does the fraternal club meet in this area?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |no answer |not available in this year |Total |
-#'  |:-----|:-----|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-         |-                          |1613  |
-#'  |1973  |1504  |-         |-                          |1504  |
-#'  |1974  |1484  |-         |-                          |1484  |
-#'  |1975  |1490  |-         |-                          |1490  |
-#'  |1976  |1499  |-         |-                          |1499  |
-#'  |1977  |1530  |-         |-                          |1530  |
-#'  |1978  |1532  |-         |-                          |1532  |
-#'  |1980  |1468  |-         |-                          |1468  |
-#'  |1982  |1860  |-         |-                          |1860  |
-#'  |1983  |1599  |-         |-                          |1599  |
-#'  |1984  |1473  |-         |-                          |1473  |
-#'  |1985  |1534  |-         |-                          |1534  |
-#'  |1986  |1470  |-         |-                          |1470  |
-#'  |1987  |1819  |-         |-                          |1819  |
-#'  |1988  |1481  |-         |-                          |1481  |
-#'  |1989  |1537  |-         |-                          |1537  |
-#'  |1990  |1372  |-         |-                          |1372  |
-#'  |1991  |1517  |-         |-                          |1517  |
-#'  |1993  |1606  |-         |-                          |1606  |
-#'  |1994  |2992  |-         |-                          |2992  |
-#'  |1996  |2904  |-         |-                          |2904  |
-#'  |1998  |2832  |-         |-                          |2832  |
-#'  |2000  |2817  |-         |-                          |2817  |
-#'  |2002  |2765  |-         |-                          |2765  |
-#'  |2004  |2805  |7         |-                          |2812  |
-#'  |2006  |4510  |-         |-                          |4510  |
-#'  |2008  |2023  |-         |-                          |2023  |
-#'  |2010  |2044  |-         |-                          |2044  |
-#'  |2012  |1974  |-         |-                          |1974  |
-#'  |2014  |2538  |-         |-                          |2538  |
-#'  |2016  |2867  |-         |-                          |2867  |
-#'  |2018  |2348  |-         |-                          |2348  |
-#'  |2021  |4032  |-         |-                          |4032  |
-#'  |2022  |-     |-         |3544                       |3544  |
-#'  |2024  |-     |-         |3309                       |3309  |
-#'  |Total |68839 |7         |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name mtfrat4
-NULL
-
-#'  Service club1 meets in this area
-#' 
-#'  mtserv1
-#' 
-#' Question 1027b. Does the service club meet in this area?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no |no answer |yes |not available in this year |Total |
-#'  |:-----|:-----|:----------|:--|:---------|:---|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-  |-         |-   |-                          |1613  |
-#'  |1973  |1504  |-          |-  |-         |-   |-                          |1504  |
-#'  |1974  |1484  |-          |-  |-         |-   |-                          |1484  |
-#'  |1975  |1490  |-          |-  |-         |-   |-                          |1490  |
-#'  |1976  |1499  |-          |-  |-         |-   |-                          |1499  |
-#'  |1977  |1530  |-          |-  |-         |-   |-                          |1530  |
-#'  |1978  |1532  |-          |-  |-         |-   |-                          |1532  |
-#'  |1980  |1468  |-          |-  |-         |-   |-                          |1468  |
-#'  |1982  |1860  |-          |-  |-         |-   |-                          |1860  |
-#'  |1983  |1599  |-          |-  |-         |-   |-                          |1599  |
-#'  |1984  |1473  |-          |-  |-         |-   |-                          |1473  |
-#'  |1985  |1534  |-          |-  |-         |-   |-                          |1534  |
-#'  |1986  |1470  |-          |-  |-         |-   |-                          |1470  |
-#'  |1987  |1819  |-          |-  |-         |-   |-                          |1819  |
-#'  |1988  |1481  |-          |-  |-         |-   |-                          |1481  |
-#'  |1989  |1537  |-          |-  |-         |-   |-                          |1537  |
-#'  |1990  |1372  |-          |-  |-         |-   |-                          |1372  |
-#'  |1991  |1517  |-          |-  |-         |-   |-                          |1517  |
-#'  |1993  |1606  |-          |-  |-         |-   |-                          |1606  |
-#'  |1994  |2992  |-          |-  |-         |-   |-                          |2992  |
-#'  |1996  |2904  |-          |-  |-         |-   |-                          |2904  |
-#'  |1998  |2832  |-          |-  |-         |-   |-                          |2832  |
-#'  |2000  |2817  |-          |-  |-         |-   |-                          |2817  |
-#'  |2002  |2765  |-          |-  |-         |-   |-                          |2765  |
-#'  |2004  |2666  |4          |22 |9         |111 |-                          |2812  |
-#'  |2006  |4510  |-          |-  |-         |-   |-                          |4510  |
-#'  |2008  |2023  |-          |-  |-         |-   |-                          |2023  |
-#'  |2010  |2044  |-          |-  |-         |-   |-                          |2044  |
-#'  |2012  |1974  |-          |-  |-         |-   |-                          |1974  |
-#'  |2014  |2538  |-          |-  |-         |-   |-                          |2538  |
-#'  |2016  |2867  |-          |-  |-         |-   |-                          |2867  |
-#'  |2018  |2348  |-          |-  |-         |-   |-                          |2348  |
-#'  |2021  |4032  |-          |-  |-         |-   |-                          |4032  |
-#'  |2022  |-     |-          |-  |-         |-   |3544                       |3544  |
-#'  |2024  |-     |-          |-  |-         |-   |3309                       |3309  |
-#'  |Total |68700 |4          |22 |9         |111 |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name mtserv1
-NULL
 

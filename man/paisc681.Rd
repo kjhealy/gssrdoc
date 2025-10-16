@@ -10,11 +10,29 @@ General Social Survey https://gss.norc.org
 paisc681
 }
 \details{
-Question 1639. Occupation of respondent's father (International Standard Classification Codes-1968)
+Question Occupation of respondent's father (International Standard Classification Codes-1968)
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5472/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 110 \tab 1100 \tab 120 \tab 1219 \tab 131 \tab 1310 \tab 1320 \tab 1330 \tab 1410 \tab 1590 \tab 1610 \tab 1790 \tab 1921 \tab 1939 \tab 1940 \tab 1999 \tab 2010 \tab 2020 \tab 2030 \tab 210 \tab 2110 \tab 2190 \tab 220 \tab 230 \tab 240 \tab 250 \tab 280 \tab 290 \tab 3000 \tab 3102 \tab 320 \tab 3211 \tab 3313 \tab 3319 \tab 340 \tab 3520 \tab 3590 \tab 3609 \tab 3700 \tab 3709 \tab 390 \tab 3911 \tab 3919 \tab 3920 \tab 3939 \tab 3951 \tab 3990 \tab 3993 \tab 4210 \tab 4220 \tab 4222 \tab 4320 \tab 4400 \tab 4410 \tab 4411 \tab 4419 \tab 4420 \tab 4432 \tab 4519 \tab 4520 \tab 4521 \tab 5200 \tab 530 \tab 5319 \tab 540 \tab 5500 \tab 5510 \tab 5600 \tab 5709 \tab 5810 \tab 5829 \tab 5890 \tab 5891 \tab 5895 \tab 5990 \tab 5998 \tab 5999 \tab 6000 \tab 610 \tab 6110 \tab 6120 \tab 6210 \tab 6240 \tab 6270 \tab 630 \tab 6310 \tab 6319 \tab 6410 \tab 670 \tab 7000 \tab 7110 \tab 7111 \tab 7119 \tab 7130 \tab 7220 \tab 7230 \tab 7240 \tab 7270 \tab 7320 \tab 7410 \tab 7430 \tab 7520 \tab 7540 \tab 7730 \tab 7760 \tab 790 \tab 7919 \tab 7990 \tab 8010 \tab 8020 \tab 8110 \tab 8120 \tab 8190 \tab 830 \tab 8311 \tab 8329 \tab 8330 \tab 8340 \tab 8351 \tab 8420 \tab 8430 \tab 8440 \tab 8490 \tab 8493 \tab 8494 \tab 8499 \tab 8520 \tab 8530 \tab 8540 \tab 8559 \tab 8560 \tab 8719 \tab 8720 \tab 8730 \tab 8739 \tab 8740 \tab 8800 \tab 8930 \tab 900 \tab 9210 \tab 9220 \tab 9310 \tab 9390 \tab 9430 \tab 9490 \tab 9499 \tab 9510 \tab 9520 \tab 9530 \tab 9559 \tab 9594 \tab 9599 \tab 9610 \tab 9690 \tab 9710 \tab 9712 \tab 9714 \tab 9730 \tab 9740 \tab 9790 \tab 9810 \tab 9830 \tab 9851 \tab 9852 \tab 9859 \tab 9891 \tab 9971 \tab 9990 \tab 9996 \tab 130 \tab 1390 \tab 1393 \tab 140 \tab 1593 \tab 1621 \tab 1639 \tab 1710 \tab 1799 \tab 1809 \tab 2192 \tab 260 \tab 270 \tab 3800 \tab 410 \tab 4412 \tab 4431 \tab 5312 \tab 5321 \tab 5329 \tab 5991 \tab 5992 \tab 6001 \tab 6320 \tab 650 \tab 7280 \tab 769 \tab 770 \tab 7790 \tab 7950 \tab 8321 \tab 8421 \tab 8422 \tab 8570 \tab 8590 \tab 8910 \tab 9595 \tab 9719 \tab 1730 \tab 1910 \tab 330 \tab 3399 \tab 3809 \tab 4319 \tab 4523 \tab 5821 \tab 5900 \tab 5920 \tab 620 \tab 710 \tab 759 \tab 849 \tab 8610 \tab 8732 \tab 9250 \tab 9560 \tab 9570 \tab 9979 \tab 1490 \tab 310 \tab 3311 \tab 3420 \tab 3959 \tab 5300 \tab 5400 \tab 5702 \tab 690 \tab 7910 \tab 7960 \tab 810 \tab 8620 \tab 9260 \tab 9890 \tab 1229 \tab 3219 \tab 3949 \tab 4900 \tab 5322 \tab 5520 \tab 5700 \tab 8950 \tab 3220 \tab 3701 \tab 6491 \tab 760 \tab 8350 \tab 1924 \tab 5401 \tab 549 \tab 8390 \tab 9240 \tab 1519 \tab 3801 \tab 421 \tab 5320 \tab 510 \tab 9270 \tab 1350 \tab 8990 \tab 1340 \tab 3391 \tab 350 \tab 3999 \tab not available in this year \tab Total \cr
@@ -57,22 +75,38 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1988 \tab A/B/C \tab full \cr
+   1989 \tab A/B/C \tab full \cr
+   1990 \tab A/B/C \tab full \cr
+   1991 \tab A/B/C \tab full \cr
+   1993 \tab A/B/C \tab full \cr
+   1994 \tab A/B/C \tab full \cr
+   1996 \tab A/B/C \tab full \cr
+   1998 \tab A/B/C \tab full \cr
+   2000 \tab A/B/C \tab full \cr
+   2002 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Occupation: 
+\code{\link{isco68}},
+\code{\link{isco681}},
+\code{\link{paisco68}},
+\code{\link{spisco68}}
+
+Other Occupation: 
+\code{\link{isco68}},
+\code{\link{isco681}},
+\code{\link{paisco68}},
+\code{\link{spisco68}}
+}
+\concept{Occupation}
 \keyword{variable}

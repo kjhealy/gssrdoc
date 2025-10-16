@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 mnilwhy1
 }
 \details{
-Question D. (IF YES TO Q.669C ASK:) Could you tell me about when you felt that way? What was it about? (PROBE: GET EXACT DATE and complete details.) 1. Causes and sources of R's mental illness
+Question (IF NO TO EVBRKDWN, ASK EVMHP) Have you ever felt you had a mental health problem?
+A. (IF YES TO EVMHP ASK:) Could you tell me about when you felt that way?  What was it about? (PROBE: GET EXACT DATE and complete details.)
+A1. The causes and sources of R's mental illness -- First mention.
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2079/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 12 \tab 123 \tab 15 \tab 19 \tab 200 \tab 204 \tab 21 \tab 217 \tab 219 \tab 22 \tab 309 \tab 31 \tab 35 \tab 38 \tab 39 \tab 41 \tab 500 \tab 502 \tab 524 \tab 700 \tab 701 \tab 702 \tab 709 \tab 80 \tab 802 \tab 803 \tab 804 \tab 806 \tab 807 \tab 809 \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +77,35 @@ Counts by year:\tabular{lllllllllllllllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Mental Health: 
+\code{\link{brkddo2}},
+\code{\link{brkddo3}},
+\code{\link{brkddur}},
+\code{\link{brkdhlp1}},
+\code{\link{brkdhlp2}},
+\code{\link{brkdhlp3}},
+\code{\link{brkdtime}},
+\code{\link{evmhp}},
+\code{\link{mnilwhy2}}
+
+Other Mental Health: 
+\code{\link{brkddo2}},
+\code{\link{brkddo3}},
+\code{\link{brkddur}},
+\code{\link{brkdhlp1}},
+\code{\link{brkdhlp2}},
+\code{\link{brkdhlp3}},
+\code{\link{brkdtime}},
+\code{\link{evmhp}},
+\code{\link{mnilwhy2}}
+}
+\concept{Mental Health}
 \keyword{variable}

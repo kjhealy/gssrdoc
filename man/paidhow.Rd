@@ -10,11 +10,44 @@ General Social Survey https://gss.norc.org
 paidhow
 }
 \details{
-Question In this section, we ask about your work hours and how you are paid. When referring to jobs, we are referring to jobs for which you work for pay, not volunteer work, unpaid housework, or other unpaid activities. When we refer to work hours, we ask you to include all hours performed for a paid job, including any extra hours, overtime, work you did at home for your paid job, and hours that may not have been directly billable or compensated. Are you salaried, paid by the hour, or paid some other way? If you have more than one job, think of the job in which you spend the most hours working each week.
+Question In this section, we ask about your work hours and how you are paid.  When referring to jobs, we are referring to jobs for which you work for pay, not volunteer work, unpaid housework, or other unpaid activities. When we refer to work hours, we ask you to include all hours performed for a paid job, including any extra hours, overtime, work you did at home for your paid job, and hours that may not have been directly billable or compensated.
+Are you salaried, paid by the hour, or paid some other way? If you have more than one job, think of the job in which you spend the most hours working each week.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} salary
+\item \code{2} by the hour
+\item \code{3} earnings from business
+\item \code{4} piecework
+\item \code{5} by the job/project
+\item \code{6} wage + commission
+\item \code{7} by hour + tips
+\item \code{8} mileage
+\item \code{9} salary & hours combination
+\item \code{10} by day/week
+\item \code{11} by route
+\item \code{12} by client
+\item \code{13} by contract
+\item \code{20} other
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6291/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllll}{
    year \tab iap \tab by client \tab by contract \tab by day/week \tab by hour + tips \tab by route \tab by the hour \tab by the job/project \tab earnings from business \tab mileage \tab no answer \tab other \tab piecework \tab salary \tab salary & hours combination \tab wage + commission \tab not available in this year \tab Total \cr
@@ -57,36 +90,17 @@ Counts by year:\tabular{lllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} salary
-\item \code{2} by the hour
-\item \code{3} earnings from business
-\item \code{4} piecework
-\item \code{5} by the job/project
-\item \code{6} wage + commission
-\item \code{7} by hour + tips
-\item \code{8} mileage
-\item \code{9} salary & hours combination
-\item \code{10} by day/week
-\item \code{11} by route
-\item \code{12} by client
-\item \code{13} by contract
-\item \code{20} other
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2016 \tab C \tab partial \cr
 }
 }
 
+\seealso{
+Other Flexible Work: 
+\code{\link{mosthrs}},
+\code{\link{usualhrs}}
+}
+\concept{Flexible Work}
 \keyword{variable}

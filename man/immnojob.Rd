@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 immnojob
 }
 \details{
-Question 750. What do you think will happen as a result of more immigrants coming to this country? Is each of these possible results very likely, somewhat likely, not too likely, or not likely at all? c. People born in the U.S. losing their jobs
+Question What do you think will happen as a result of more immigrants coming to this country?  Is each of these possible results very likely, somewhat likely, not too likely, or not likely at all?
+C. People born in the U.S. losing their jobs?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very likely
+\item \code{2} somewhat likely
+\item \code{3} not too likely
+\item \code{4} not likely at all
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2309/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab don't know \tab no answer \tab not likely at all \tab not too likely \tab somewhat likely \tab very likely \tab not available in this year \tab Total \cr
@@ -57,26 +80,32 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very likely
-\item \code{2} somewhat likely
-\item \code{3} not too likely
-\item \code{4} not likely at all
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Multi-Ethnic United States: 
+\code{\link{betrlang}},
+\code{\link{immcrmup}},
+\code{\link{immnew}},
+\code{\link{letinasn}},
+\code{\link{letineur}},
+\code{\link{letinhsp}},
+\code{\link{othhome}},
+\code{\link{spklangw}},
+\code{\link{uswht}}
+
+Other Immigration: 
+\code{\link{immcrmup}},
+\code{\link{immnew}},
+\code{\link{letinasn}},
+\code{\link{letineur}},
+\code{\link{letinhsp}}
+}
+\concept{Immigration}
+\concept{Multi-Ethnic United States}
 \keyword{variable}

@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 grwingup
 }
 \details{
-Question 951. In your opinion, how likely is it that (John/Mary) is experiencing part of the normal ups and downs of growing up -- very likely, somewhat likely, not very likely, or not at all likely?
+Question In your opinion, how likely is it that (John/Mary) is experiencing part of the normal ups and downs of growing up -- very likely, somewhat likely, not very likely, or not at all likely?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very likely
+\item \code{2} somewhat likely
+\item \code{3} not very likely
+\item \code{4} not likely at all
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2952/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab don't know \tab no answer \tab not likely at all \tab not very likely \tab somewhat likely \tab very likely \tab not available in this year \tab skipped on web \tab Total \cr
@@ -57,26 +79,37 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very likely
-\item \code{2} somewhat likely
-\item \code{3} not very likely
-\item \code{4} not likely at all
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
+   2024 \tab A/C/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Mental Health II: 
+\code{\link{adcoumed}},
+\code{\link{adhos}},
+\code{\link{adhosmed}},
+\code{\link{adpsy}},
+\code{\link{adpsymed}},
+\code{\link{forcedoc}},
+\code{\link{forcehos}},
+\code{\link{forcemed}},
+\code{\link{mntlill}}
+
+Other Children: 
+\code{\link{adcoumed}},
+\code{\link{adhos}},
+\code{\link{adhosmed}},
+\code{\link{adpsy}},
+\code{\link{adpsymed}},
+\code{\link{forcedoc}},
+\code{\link{forcehos}},
+\code{\link{forcemed}},
+\code{\link{mntlill}}
+}
+\concept{Children}
+\concept{Mental Health II}
 \keyword{variable}

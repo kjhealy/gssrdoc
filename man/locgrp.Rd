@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 locgrp
 }
 \details{
-Question 339. Have you ever taken part in forming a new group or a new organization to try to solve some community problems?
+Question Have you ever taken part in forming a new group or a new organization to try to solve some community problems?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes
+\item \code{2} no
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1025/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllll}{
    year \tab iap \tab no \tab no answer \tab yes \tab not available in this year \tab Total \cr
@@ -57,24 +77,35 @@ Counts by year:\tabular{lllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes
-\item \code{2} no
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1987 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Socio-political participation: 
+\code{\link{intpol}},
+\code{\link{lobbygrp}},
+\code{\link{loccare}},
+\code{\link{locinflu}},
+\code{\link{loclived}},
+\code{\link{locprob}},
+\code{\link{loctrust}},
+\code{\link{swayvote}},
+\code{\link{workpol}}
+
+Other Political: 
+\code{\link{intpol}},
+\code{\link{loccare}},
+\code{\link{locinflu}},
+\code{\link{loclived}},
+\code{\link{locprob}},
+\code{\link{loctrust}},
+\code{\link{swayvote}},
+\code{\link{workpol}}
+}
+\concept{Political}
+\concept{Socio-political participation}
 \keyword{variable}

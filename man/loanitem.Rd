@@ -10,11 +10,36 @@ General Social Survey https://gss.norc.org
 loanitem
 }
 \details{
-Question 927. During the past 12 months, how often have you done each of the following things: k. Let someone you didn't know well borrow a item of some value like dishes or tools.
+Question During the past 12 months, how often have you done each of the following things:
+K. Let someone you didn''t know well borrow a item of some value like dishes or tools.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} more than once a week
+\item \code{2} once a week
+\item \code{3} once a month
+\item \code{4} at least 2 or 3 times in the past year
+\item \code{5} once in the past year
+\item \code{6} not at all in the past year
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2887/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab at least 2 or 3 times in the past year \tab don't know \tab more than once a week \tab no answer \tab not at all in the past year \tab once a month \tab once a week \tab once in the past year \tab not available in this year \tab Total \cr
@@ -57,28 +82,38 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} more than once a week
-\item \code{2} once a week
-\item \code{3} once a month
-\item \code{4} at least 2 or 3 times in the past year
-\item \code{5} once in the past year
-\item \code{6} not at all in the past year
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2012 \tab A/C/- \tab partial \cr
+   2014 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Altruism: 
+\code{\link{accptoth}},
+\code{\link{careself}},
+\code{\link{carried}},
+\code{\link{directns}},
+\code{\link{helpaway}},
+\code{\link{othshelp}},
+\code{\link{peoptrbl}},
+\code{\link{selffrst}},
+\code{\link{selfless}}
+
+Other Altruism: 
+\code{\link{accptoth}},
+\code{\link{careself}},
+\code{\link{carried}},
+\code{\link{directns}},
+\code{\link{helpaway}},
+\code{\link{othshelp}},
+\code{\link{peoptrbl}},
+\code{\link{selffrst}},
+\code{\link{selfless}}
+}
+\concept{Altruism}
 \keyword{variable}

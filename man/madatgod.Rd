@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 madatgod
 }
 \details{
-Question 377. Here is another card with contrasting ideas. If you fee that "I often feel angry at God," you would place yourself at 1. If you feel "I have never felt angry at God," you would place yourself at 7. If you feel somewhere beetween these two, you would place yourself at 2,3,4,5 or 6. Where would you place your feelings about your faith?
+Question Here is another card with contrasting ideas. If you feel that
+"My faith is completely free of doubts," you would place yourself at 1. If you feel "My faith is mixed with doubts," you would place yourself at 7. If you feel somewhere between these two, you would place yourself at 2, 3, 4, 5 or 6. Where would you place your feelings about your faithâ€¦
+B. From Often felt agnry to Never felt angry at God
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} often angry at god
+\item \code{7} never angry at god
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1094/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab don't know \tab never angry at god \tab no answer \tab often angry at god \tab not available in this year \tab Total \cr
@@ -57,24 +79,35 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} often angry at god
-\item \code{7} never angry at god
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1988 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Religion: 
+\code{\link{believe}},
+\code{\link{doubts1}},
+\code{\link{doubts2}},
+\code{\link{doubts3}},
+\code{\link{doubts4}},
+\code{\link{faith1}},
+\code{\link{follow}},
+\code{\link{goownway}},
+\code{\link{myfaith}}
+
+Other Religion: 
+\code{\link{believe}},
+\code{\link{doubts1}},
+\code{\link{doubts2}},
+\code{\link{doubts3}},
+\code{\link{doubts4}},
+\code{\link{faith1}},
+\code{\link{follow}},
+\code{\link{goownway}},
+\code{\link{myfaith}}
+}
+\concept{Religion}
 \keyword{variable}

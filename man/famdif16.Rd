@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 famdif16
 }
 \details{
-Question 27a. If not living with both own mother and father: What happened?
+Question Were you living with both your own mother and father around the time you were 16? (IF NO: With whom were you living around that time?)  (IF R. MARRIED OR LEFT HOME BY AGE 16, PROBE "BEFORE THAT.")
+A. IF NOT LIVING WITH BOTH OWN MOTHER AND FATHER:  What happened?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} one or both parents died
+\item \code{2} parents divorced or separated
+\item \code{3} father absent in armed forces
+\item \code{4} one or both parents in institution
+\item \code{5} other
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/87/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab father absent in armed forces \tab no answer \tab one or both parents died \tab one or both parents in institution \tab other \tab parents divorced or separated \tab don't know \tab skipped on web \tab Total \cr
@@ -57,27 +81,66 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} one or both parents died
-\item \code{2} parents divorced or separated
-\item \code{3} father absent in armed forces
-\item \code{4} one or both parents in institution
-\item \code{5} other
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1973 \tab -/-/- \tab full \cr
+   1974 \tab -/-/- \tab full \cr
+   1975 \tab -/-/- \tab full \cr
+   1976 \tab -/-/- \tab full \cr
+   1977 \tab -/-/- \tab full \cr
+   1978 \tab -/-/- \tab full \cr
+   1980 \tab -/-/- \tab full \cr
+   1982 \tab -/-/- \tab full \cr
+   1983 \tab -/-/- \tab full \cr
+   1984 \tab -/-/- \tab full \cr
+   1985 \tab -/-/- \tab full \cr
+   1986 \tab -/-/- \tab full \cr
+   1987 \tab -/-/- \tab full \cr
+   1988 \tab A/B/C \tab full \cr
+   1989 \tab A/B/C \tab full \cr
+   1990 \tab A/B/C \tab full \cr
+   1991 \tab A/B/C \tab full \cr
+   1993 \tab A/B/C \tab full \cr
+   1994 \tab A/B/C \tab full \cr
+   1996 \tab A/B/C \tab full \cr
+   1998 \tab A/B/C \tab full \cr
+   2000 \tab A/B/C \tab full \cr
+   2002 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2021 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
+   2024 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{born}},
+\code{\link{family16}},
+\code{\link{incom16}},
+\code{\link{mawk16}},
+\code{\link{mawkbaby}},
+\code{\link{mawkborn}},
+\code{\link{mawork}},
+\code{\link{mawrkgrw}},
+\code{\link{parborn}}
+
+Other Family: 
+\code{\link{family16}}
+
+Other Parents: 
+\code{\link{family16}}
+}
+\concept{Core}
+\concept{Divorce}
+\concept{Family}
+\concept{Parents}
 \keyword{variable}

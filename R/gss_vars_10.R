@@ -1,11 +1,145 @@
+#'  Age of respondent
+#' 
+#'  age
+#' 
+#' Question RESPONDENT'S AGE
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `89` 89 or older
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/53/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |18  |19  |20  |21   |22   |23   |24   |25   |26   |27   |28   |29   |30   |31   |32   |33   |34   |35   |36   |37   |38   |39   |40   |41   |42   |43   |44   |45   |46   |47   |48   |49   |50   |51   |52   |53   |54   |55   |56   |57   |58   |59   |60   |61   |62   |63   |64  |65   |66  |67   |68  |69  |70  |71  |72  |73  |74  |75  |76  |77  |78  |79  |80  |81  |82  |83  |84  |85  |87  |88  |89 or older |no answer |86  |don't know |iap |Total |
+#'  |:-----|:---|:---|:---|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:---|:----|:---|:----|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:-----------|:---------|:---|:----------|:---|:-----|
+#'  |1972  |5   |24  |34  |37   |38   |31   |31   |40   |48   |37   |30   |45   |50   |25   |25   |26   |32   |29   |28   |18   |23   |21   |16   |22   |29   |31   |23   |42   |31   |30   |38   |36   |28   |26   |32   |29   |24   |26   |31   |26   |24   |25   |34   |21   |15   |23   |27  |24   |11  |13   |20  |16  |17  |9   |19  |12  |17  |13  |12  |10  |12  |4   |6   |5   |6   |4   |3   |3   |2   |2   |2           |5         |-   |-          |-   |1613  |
+#'  |1973  |6   |29  |29  |32   |42   |33   |43   |32   |33   |40   |30   |34   |29   |29   |22   |21   |35   |31   |41   |28   |32   |27   |24   |23   |24   |24   |21   |22   |32   |23   |24   |30   |20   |28   |29   |20   |30   |18   |33   |19   |29   |28   |21   |16   |23   |20   |24  |17   |24  |16   |17  |15  |17  |14  |12  |11  |25  |7   |7   |10  |6   |8   |-   |2   |1   |4   |1   |1   |-   |-   |1           |4         |1   |-          |-   |1504  |
+#'  |1974  |10  |21  |25  |33   |29   |50   |34   |28   |41   |43   |36   |30   |35   |38   |30   |22   |24   |26   |19   |26   |35   |31   |26   |15   |32   |24   |28   |22   |25   |20   |28   |15   |23   |32   |27   |21   |26   |19   |24   |19   |26   |25   |23   |22   |10   |17   |11  |25   |18  |19   |17  |27  |10  |17  |21  |12  |13  |8   |11  |5   |8   |6   |8   |6   |1   |6   |2   |2   |1   |1   |5           |6         |3   |-          |-   |1484  |
+#'  |1975  |10  |38  |33  |26   |31   |35   |42   |46   |36   |38   |36   |34   |30   |19   |37   |35   |26   |24   |25   |17   |30   |21   |33   |28   |21   |33   |18   |26   |31   |14   |23   |21   |31   |19   |26   |21   |24   |21   |16   |20   |24   |21   |19   |13   |26   |18   |18  |19   |25  |21   |16  |21  |28  |8   |11  |10  |12  |3   |12  |13  |6   |7   |7   |9   |4   |4   |3   |4   |1   |1   |3           |5         |3   |-          |-   |1490  |
+#'  |1976  |8   |34  |32  |28   |26   |34   |41   |35   |30   |39   |42   |39   |35   |24   |40   |27   |37   |23   |34   |25   |26   |28   |18   |27   |20   |16   |15   |22   |22   |19   |20   |20   |13   |21   |27   |32   |18   |23   |22   |18   |29   |19   |22   |27   |29   |16   |24  |16   |17  |26   |11  |13  |20  |11  |16  |16  |9   |10  |17  |10  |13  |10  |9   |5   |4   |4   |7   |4   |5   |1   |7           |6         |6   |-          |-   |1499  |
+#'  |1977  |3   |26  |38  |25   |36   |36   |28   |34   |48   |35   |34   |25   |40   |25   |20   |39   |35   |29   |33   |32   |25   |25   |26   |27   |37   |20   |21   |30   |21   |18   |24   |31   |28   |21   |19   |31   |28   |25   |24   |30   |33   |28   |19   |18   |19   |27   |15  |19   |16  |19   |19  |14  |11  |18  |13  |18  |17  |10  |10  |11  |5   |6   |3   |6   |3   |3   |1   |3   |3   |1   |1           |6         |2   |1          |-   |1530  |
+#'  |1978  |7   |25  |28  |32   |29   |42   |41   |40   |51   |35   |40   |37   |39   |44   |44   |34   |34   |35   |22   |27   |27   |28   |33   |23   |27   |28   |21   |13   |13   |17   |20   |22   |21   |25   |23   |22   |22   |17   |20   |32   |26   |20   |20   |16   |18   |13   |18  |22   |18  |13   |16  |11  |14  |20  |15  |15  |12  |11  |11  |12  |8   |14  |7   |9   |3   |4   |4   |1   |1   |2   |5           |7         |6   |-          |-   |1532  |
+#'  |1980  |2   |28  |26  |31   |38   |30   |39   |22   |27   |42   |34   |38   |38   |34   |38   |46   |31   |28   |32   |35   |19   |18   |25   |21   |20   |15   |26   |20   |17   |19   |19   |28   |20   |20   |16   |20   |21   |20   |22   |27   |24   |22   |18   |19   |16   |24   |16  |26   |23  |26   |20  |18  |18  |20  |11  |9   |9   |9   |12  |13  |4   |5   |5   |6   |6   |6   |5   |2   |4   |2   |5           |9         |4   |-          |-   |1468  |
+#'  |1982  |6   |33  |25  |40   |35   |45   |41   |57   |47   |61   |51   |55   |51   |47   |38   |31   |37   |38   |32   |39   |33   |27   |30   |29   |25   |24   |28   |17   |26   |24   |24   |27   |24   |20   |30   |22   |31   |21   |38   |25   |31   |29   |24   |31   |19   |25   |22  |20   |19  |23   |29  |21  |21  |22  |13  |21  |15  |15  |12  |14  |9   |12  |10  |8   |8   |5   |6   |5   |4   |3   |10          |15        |5   |-          |-   |1860  |
+#'  |1983  |10  |23  |12  |21   |28   |34   |36   |45   |56   |59   |48   |43   |33   |50   |41   |36   |38   |38   |31   |37   |32   |25   |25   |23   |26   |22   |29   |25   |23   |20   |16   |21   |17   |14   |17   |31   |24   |11   |30   |21   |32   |16   |29   |21   |19   |19   |18  |26   |13  |27   |15  |16  |17  |14  |20  |14  |12  |10  |10  |10  |9   |8   |5   |11  |7   |6   |5   |2   |1   |1   |6           |7         |2   |-          |-   |1599  |
+#'  |1984  |2   |20  |23  |37   |29   |50   |47   |39   |32   |44   |37   |33   |28   |28   |37   |39   |31   |37   |41   |38   |31   |24   |28   |25   |21   |25   |23   |20   |18   |19   |22   |21   |8    |16   |21   |14   |17   |19   |19   |19   |24   |16   |27   |20   |20   |15   |13  |18   |14  |25   |24  |9   |18  |12  |14  |6   |15  |9   |14  |13  |6   |4   |6   |12  |8   |5   |4   |2   |1   |2   |7           |6         |2   |-          |-   |1473  |
+#'  |1985  |4   |15  |30  |25   |26   |33   |24   |41   |37   |47   |40   |28   |37   |30   |49   |33   |31   |32   |31   |36   |32   |30   |30   |25   |23   |22   |20   |18   |25   |16   |18   |23   |21   |34   |15   |20   |20   |13   |25   |20   |29   |27   |20   |20   |23   |27   |17  |24   |16  |23   |15  |21  |22  |16  |12  |12  |11  |13  |10  |11  |12  |8   |8   |12  |6   |7   |6   |7   |7   |-   |5           |7         |1   |-          |-   |1534  |
+#'  |1986  |1   |18  |19  |22   |26   |22   |28   |43   |31   |39   |42   |35   |42   |37   |45   |26   |39   |32   |32   |31   |32   |37   |27   |29   |28   |28   |25   |21   |25   |14   |16   |19   |22   |25   |12   |14   |20   |15   |19   |15   |10   |20   |21   |14   |27   |18   |15  |20   |25  |22   |20  |11  |22  |14  |15  |12  |16  |6   |11  |13  |15  |12  |8   |10  |7   |4   |7   |3   |3   |-   |5           |7         |4   |-          |-   |1470  |
+#'  |1987  |5   |30  |24  |31   |32   |47   |34   |38   |37   |43   |44   |44   |53   |42   |41   |35   |62   |46   |43   |37   |40   |41   |41   |28   |27   |32   |27   |43   |38   |19   |30   |19   |21   |26   |20   |30   |18   |26   |13   |20   |23   |20   |19   |15   |26   |22   |23  |28   |26  |18   |22  |20  |20  |23  |17  |22  |12  |15  |12  |14  |16  |8   |7   |7   |4   |7   |5   |6   |3   |4   |8           |12        |8   |-          |-   |1819  |
+#'  |1988  |3   |24  |24  |28   |31   |31   |29   |40   |36   |38   |42   |30   |36   |35   |24   |30   |28   |42   |28   |40   |39   |22   |31   |33   |34   |28   |33   |28   |16   |18   |11   |22   |15   |18   |12   |14   |10   |15   |17   |10   |19   |14   |22   |22   |20   |19   |22  |14   |19  |18   |23  |20  |18  |18  |15  |12  |15  |17  |16  |10  |18  |13  |3   |5   |3   |8   |4   |5   |4   |2   |11          |4         |3   |-          |-   |1481  |
+#'  |1989  |5   |26  |21  |33   |23   |29   |28   |35   |23   |33   |47   |36   |34   |42   |36   |39   |29   |32   |43   |29   |40   |28   |29   |29   |35   |25   |23   |28   |22   |28   |24   |24   |27   |31   |15   |17   |17   |24   |16   |14   |15   |13   |21   |18   |16   |20   |12  |24   |24  |19   |26  |18  |18  |8   |22  |8   |15  |17  |11  |14  |12  |8   |6   |9   |10  |4   |2   |5   |3   |5   |9           |4         |2   |-          |-   |1537  |
+#'  |1990  |4   |15  |22  |19   |37   |19   |26   |27   |16   |24   |33   |34   |35   |32   |36   |35   |36   |33   |35   |35   |40   |21   |33   |31   |26   |34   |25   |23   |20   |25   |19   |18   |14   |14   |15   |14   |15   |8    |21   |15   |13   |12   |15   |17   |18   |17   |17  |18   |18  |16   |17  |19  |14  |8   |16  |20  |21  |9   |9   |14  |12  |11  |6   |9   |5   |9   |6   |4   |2   |4   |10          |-         |2   |-          |-   |1372  |
+#'  |1991  |3   |9   |18  |38   |35   |28   |24   |28   |33   |29   |33   |27   |35   |35   |44   |38   |35   |55   |35   |33   |37   |35   |36   |38   |30   |33   |30   |22   |12   |28   |29   |22   |20   |15   |20   |14   |18   |16   |12   |17   |18   |15   |16   |20   |17   |19   |15  |18   |13  |18   |18  |17  |15  |20  |19  |24  |17  |10  |13  |12  |11  |7   |11  |9   |13  |5   |5   |6   |4   |2   |8           |3         |-   |-          |-   |1517  |
+#'  |1993  |5   |18  |20  |24   |16   |28   |26   |35   |27   |23   |46   |33   |39   |36   |30   |36   |28   |44   |45   |38   |44   |41   |40   |39   |32   |40   |29   |33   |33   |36   |20   |29   |24   |27   |22   |18   |19   |23   |13   |19   |25   |16   |17   |12   |18   |19   |14  |18   |20  |11   |18  |20  |12  |17  |20  |20  |19  |18  |14  |15  |14  |7   |6   |9   |12  |3   |4   |4   |6   |3   |7           |5         |5   |-          |-   |1606  |
+#'  |1994  |9   |27  |34  |29   |31   |42   |51   |62   |55   |57   |68   |56   |69   |74   |83   |78   |88   |76   |80   |60   |80   |65   |59   |71   |59   |69   |65   |48   |60   |71   |55   |66   |55   |34   |56   |45   |44   |32   |38   |40   |29   |43   |32   |26   |25   |42   |23  |27   |28  |30   |32  |30  |28  |32  |25  |26  |31  |28  |32  |20  |21  |20  |21  |11  |16  |9   |9   |12  |6   |4   |20          |6         |7   |-          |-   |2992  |
+#'  |1996  |7   |34  |40  |37   |45   |58   |66   |66   |58   |53   |68   |59   |72   |60   |75   |74   |64   |61   |61   |89   |82   |58   |68   |63   |67   |74   |53   |54   |52   |57   |66   |69   |48   |49   |40   |55   |45   |31   |41   |25   |27   |33   |33   |26   |38   |29   |24  |27   |25  |21   |31  |24  |39  |13  |27  |17  |27  |18  |16  |24  |17  |15  |16  |8   |11  |11  |9   |5   |7   |7   |18          |6         |11  |-          |-   |2904  |
+#'  |1998  |6   |36  |36  |48   |37   |42   |37   |50   |61   |50   |77   |57   |53   |56   |66   |74   |83   |79   |71   |71   |63   |71   |70   |63   |63   |61   |67   |54   |52   |49   |51   |50   |42   |72   |40   |34   |37   |45   |42   |33   |34   |26   |31   |26   |33   |22   |28  |27   |23  |29   |24  |24  |30  |24  |26  |41  |20  |27  |20  |21  |12  |18  |15  |12  |13  |14  |7   |13  |12  |6   |12          |4         |9   |-          |-   |2832  |
+#'  |2000  |7   |44  |40  |37   |39   |48   |52   |53   |58   |47   |45   |56   |62   |62   |77   |45   |55   |55   |62   |63   |76   |53   |73   |60   |73   |70   |70   |69   |55   |54   |62   |48   |51   |42   |58   |51   |46   |26   |42   |29   |29   |34   |32   |38   |29   |29   |20  |18   |32  |27   |28  |20  |22  |21  |28  |28  |20  |19  |20  |20  |22  |22  |17  |17  |15  |17  |17  |15  |5   |5   |17          |8         |11  |-          |-   |2817  |
+#'  |2002  |4   |25  |32  |40   |46   |68   |58   |61   |54   |48   |51   |43   |61   |53   |62   |76   |57   |59   |55   |64   |49   |54   |60   |54   |44   |63   |47   |51   |70   |52   |61   |43   |47   |52   |58   |45   |45   |39   |47   |35   |33   |33   |30   |31   |32   |34   |38  |30   |20  |30   |26  |27  |34  |36  |23  |22  |24  |26  |31  |19  |15  |9   |16  |13  |11  |15  |14  |11  |10  |6   |13          |14        |6   |-          |-   |2765  |
+#'  |2004  |27  |33  |32  |38   |36   |47   |50   |55   |59   |52   |69   |43   |55   |52   |52   |58   |70   |62   |58   |45   |54   |51   |73   |58   |49   |60   |68   |57   |58   |62   |57   |61   |59   |53   |58   |40   |36   |50   |56   |53   |36   |39   |44   |43   |43   |36   |26  |32   |29  |41   |22  |22  |22  |22  |18  |12  |23  |25  |14  |8   |17  |22  |9   |15  |15  |11  |7   |11  |4   |7   |14          |9         |8   |-          |-   |2812  |
+#'  |2006  |19  |47  |50  |52   |72   |63   |61   |74   |83   |86   |80   |79   |84   |67   |97   |88   |91   |80   |105  |89   |94   |95   |95   |94   |99   |95   |100  |79   |90   |110  |109  |97   |93   |76   |78   |89   |96   |86   |68   |58   |81   |78   |75   |57   |58   |62   |56  |42   |53  |45   |41  |42  |41  |39  |48  |29  |33  |39  |31  |33  |28  |22  |27  |25  |21  |19  |17  |18  |7   |11  |29          |18        |17  |-          |-   |4510  |
+#'  |2008  |6   |31  |28  |21   |27   |37   |34   |26   |41   |37   |40   |31   |27   |47   |22   |36   |40   |41   |45   |44   |38   |33   |39   |36   |28   |35   |40   |34   |41   |49   |38   |41   |51   |43   |37   |42   |38   |33   |42   |41   |24   |20   |40   |36   |34   |19   |25  |31   |23  |27   |16  |21  |21  |16  |19  |11  |23  |18  |17  |11  |17  |12  |15  |13  |12  |8   |7   |3   |6   |1   |21          |10        |6   |-          |-   |2023  |
+#'  |2010  |10  |24  |24  |35   |19   |38   |31   |48   |29   |42   |30   |45   |40   |42   |33   |36   |32   |45   |30   |39   |31   |35   |36   |38   |34   |42   |39   |38   |40   |29   |27   |45   |43   |39   |37   |37   |40   |32   |40   |31   |38   |41   |44   |27   |39   |35   |19  |28   |20  |37   |27  |26  |24  |15  |18  |8   |15  |15  |17  |14  |8   |11  |17  |10  |13  |12  |12  |6   |4   |9   |20          |3         |7   |-          |-   |2044  |
+#'  |2012  |12  |20  |19  |31   |31   |30   |27   |31   |29   |32   |41   |28   |47   |35   |47   |39   |34   |35   |33   |40   |37   |42   |30   |40   |43   |29   |29   |35   |34   |36   |38   |43   |32   |40   |37   |32   |33   |47   |29   |31   |25   |31   |27   |37   |31   |35   |31  |38   |19  |23   |24  |20  |17  |29  |15  |20  |17  |16  |17  |15  |15  |11  |10  |12  |10  |6   |13  |5   |10  |7   |15          |5         |10  |-          |-   |1974  |
+#'  |2014  |6   |25  |26  |24   |28   |30   |31   |48   |47   |41   |31   |51   |57   |49   |55   |47   |46   |40   |40   |54   |47   |52   |46   |54   |35   |54   |39   |41   |34   |43   |32   |39   |54   |45   |37   |60   |53   |52   |60   |43   |60   |47   |46   |38   |44   |42   |38  |40   |35  |41   |21  |23  |32  |28  |20  |22  |25  |21  |24  |17  |28  |26  |16  |14  |8   |11  |13  |6   |8   |11  |19          |9         |9   |-          |-   |2538  |
+#'  |2016  |7   |33  |26  |33   |44   |49   |35   |56   |42   |58   |42   |56   |54   |57   |42   |54   |49   |56   |52   |58   |44   |42   |46   |36   |50   |45   |52   |27   |45   |55   |46   |41   |48   |49   |65   |60   |53   |48   |48   |70   |67   |58   |53   |56   |56   |43   |34  |44   |47  |49   |43  |42  |32  |27  |26  |22  |24  |19  |25  |23  |26  |21  |25  |21  |11  |22  |11  |11  |9   |3   |22          |10        |12  |-          |-   |2867  |
+#'  |2018  |22  |26  |15  |27   |40   |29   |38   |43   |31   |39   |45   |43   |50   |34   |43   |42   |65   |40   |40   |43   |38   |55   |41   |40   |40   |39   |40   |29   |42   |30   |33   |31   |37   |41   |29   |48   |35   |48   |50   |39   |37   |46   |46   |39   |24   |37   |33  |39   |36  |27   |39  |41  |45  |33  |22  |20  |29  |23  |19  |28  |11  |9   |12  |9   |12  |7   |10  |12  |5   |8   |29          |7         |14  |-          |-   |2348  |
+#'  |2021  |4   |14  |18  |24   |31   |30   |38   |46   |44   |35   |59   |63   |61   |56   |59   |82   |69   |62   |61   |74   |59   |65   |63   |76   |77   |56   |60   |52   |61   |54   |47   |54   |51   |69   |53   |65   |53   |65   |63   |79   |60   |81   |70   |76   |77   |77   |68  |68   |58  |89   |72  |73  |71  |55  |52  |48  |69  |57  |34  |37  |32  |40  |30  |31  |18  |17  |21  |16  |5   |5   |26          |107       |14  |-          |226 |4032  |
+#'  |2022  |22  |29  |48  |46   |46   |53   |45   |45   |58   |46   |57   |61   |60   |68   |76   |69   |61   |58   |69   |47   |57   |72   |62   |48   |67   |45   |55   |56   |52   |53   |46   |51   |40   |55   |47   |38   |50   |60   |56   |53   |44   |51   |75   |57   |60   |48   |50  |65   |67  |44   |68  |56  |67  |40  |54  |34  |43  |34  |31  |32  |26  |30  |22  |15  |15  |13  |21  |8   |5   |4   |19          |208       |11  |-          |-   |3544  |
+#'  |2024  |30  |34  |27  |28   |38   |33   |44   |42   |54   |43   |44   |41   |50   |58   |59   |58   |62   |50   |68   |71   |54   |70   |47   |55   |70   |56   |48   |56   |49   |50   |56   |54   |37   |36   |42   |48   |46   |71   |47   |42   |46   |49   |70   |51   |52   |54   |72  |62   |65  |70   |50  |64  |49  |54  |37  |47  |55  |36  |33  |38  |19  |24  |28  |11  |18  |16  |10  |15  |3   |3   |28          |101       |11  |-          |-   |3309  |
+#'  |Total |297 |938 |978 |1112 |1197 |1354 |1340 |1511 |1492 |1515 |1592 |1492 |1621 |1522 |1625 |1584 |1614 |1553 |1560 |1552 |1520 |1443 |1459 |1401 |1415 |1397 |1337 |1255 |1285 |1261 |1249 |1281 |1185 |1227 |1170 |1193 |1152 |1125 |1184 |1088 |1124 |1096 |1155 |1026 |1054 |1022 |926 |1014 |939 |1003 |927 |882 |906 |773 |759 |681 |760 |631 |605 |584 |510 |470 |417 |386 |330 |306 |278 |236 |161 |133 |437         |643       |222 |1          |226 |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Age
+#' 
+#' @keywords variable
+#' @md
+#' @name age
+NULL
+
+
 #'  R's age when 1st child born
 #' 
 #'  agekdbrn
 #' 
-#' Question 14. How old were you when your first child was born?
+#' Question How old were you when your first child was born? 
+#'  As of 2024, AGEKDBRN has been recoded to only account for first child born during ages 18-45. This has been retroactively applied to all previous years of AGEKDBRN. The original AGEKDBRN containing data from 1994 to 2022 has been renamed AGEKDBRN_9422.
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/54/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,8 +182,72 @@
 #'  |2024  |-     |-  |-  |-  |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |3309                          |3309  |
 #'  |Total |43220 |9  |42 |98 |263 |741 |1206 |1829 |2160 |2395 |2566 |1979 |1827 |1735 |1866 |1458 |1387 |1256 |992 |1188 |632 |698 |521 |395 |426 |268 |203 |185 |146 |123 |67 |62 |22 |4  |66         |198       |17 |16 |6  |7  |1  |26 |14 |3  |9  |4  |2  |1  |1  |4  |1  |3  |1  |39             |1  |1  |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Age
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name agekdbrn
+NULL
+
+
+#'  Highest year of school completed
+#' 
+#'  educ
+#' 
+#' Question ASK ALL PARTS OF QUESTION ABOUT RESPONDENT BEFORE GOING ON TO ASK ABOUT R'S FATHER; AND THEN R'S MOTHER; THEN R'S SPOUSE, IF R IS CURRENTLY MARRIED. 
+#' A. What is the highest grade in elementary school or high school that (you/your father/ your mother/your (husband/wife)) finished and got credit for? CODE EXACT GRADE. 
+#' B. IF FINISHED 9th-12th GRADE OR DK*: Did (you/he/she) ever get a high school diploma or a GED certificate? (SEE D BELOW.) (See REMARKS) 
+#' C. Did (you/he/she) complete one or more years of college for credit--not including schooling such as business college, technical or vocational school? IF YES: How many years did (you/he/she) complete? 
+#'  Do you (Does (he/she)) have any college degrees? (IF YES: What degree or degrees?) CODE HIGHEST DEGREE EARNED.
+#' 
+#' 
 #' @section Values: 
 #' 
+#'   * `0` no formal schooling
+#'   * `1` 1st grade
+#'   * `2` 2nd grade
+#'   * `3` 3rd grade
+#'   * `4` 4th grade
+#'   * `5` 5th grade
+#'   * `6` 6th grade
+#'   * `7` 7th grade
+#'   * `8` 8th grade
+#'   * `9` 9th grade
+#'   * `10` 10th grade
+#'   * `11` 11th grade
+#'   * `12` 12th grade
+#'   * `13` 1 year of college
+#'   * `14` 2 years of college
+#'   * `15` 3 years of college
+#'   * `16` 4 years of college
+#'   * `17` 5 years of college
+#'   * `18` 6 years of college
+#'   * `19` 7 years of college
+#'   * `20` 8 or more years of college
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -63,22 +261,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name agekdbrn
-NULL
-
-#'  Highest year of school completed
-#' 
-#'  educ
-#' 
-#' Question 15. What is the highest grade in elementary school or high school that you finished and got credit for?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/55/vshow).
 #'
 #' Counts by year: 
 #'
@@ -121,6 +305,63 @@ NULL
 #'  |2024  |283               |69         |104        |801        |1         |443                |3         |177                |5         |672                |3         |179                |4         |242                |23        |54                 |10        |138                        |26        |37        |7         |12                  |16         |3309  |
 #'  |Total |6188              |3079       |4046       |22202      |50        |8651               |161       |3484               |273       |10666              |329       |2571               |414       |3187               |889       |1166               |906       |1941                       |2812      |2209      |179       |189                 |107        |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Education
+#' 
+#' @keywords variable
+#' @md
+#' @name educ
+NULL
+
+
+#'  Highest year school completed, father (or oldest same-sex parent)
+#' 
+#'  paeduc
+#' 
+#' Question RESPONDENT'S FATHER'S (FATHER SUBSTITUTE'S) EDUCATION
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` no formal schooling
@@ -157,22 +398,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name educ
-NULL
-
-#'  Highest year school completed, father (or oldest same-sex parent)
-#' 
-#'  paeduc
-#' 
-#' Question 16. What is the highest grade in elementary school or high school that your father finished and got credit for?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/56/vshow).
 #'
 #' Counts by year: 
 #'
@@ -215,6 +442,63 @@ NULL
 #'  |2024  |-                 |-          |-          |-          |-         |-                  |-         |-                  |-         |-                  |-         |-                  |-         |-                  |-         |-                  |-         |-                          |-         |-         |-          |-     |-         |-                   |3309                          |3309  |
 #'  |Total |1501              |2269       |1554       |15406      |133       |3194               |404       |674                |1349      |5385               |1174      |536                |1152      |1387               |2630      |409                |1311      |1282                       |6760      |1646      |7776       |12734 |351       |1373                |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Education
+#' 
+#' @keywords variable
+#' @md
+#' @name paeduc
+NULL
+
+
+#'  Highest year school completed, mother (or youngest same-sex parent)
+#' 
+#'  maeduc
+#' 
+#' Question RESPONDENT'S MOTHER'S (SUBSTITUTE MOTHER'S) EDUCATION
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` no formal schooling
@@ -251,22 +535,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name paeduc
-NULL
-
-#'  Highest year school completed, mother (or youngest same-sex parent)
-#' 
-#'  maeduc
-#' 
-#' Question 17. What is the highest grade in elementary school or high school that your mother finished and got credit for?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/57/vshow).
 #'
 #' Counts by year: 
 #'
@@ -309,6 +579,63 @@ NULL
 #'  |2024  |-                 |-          |-          |-          |-         |-                  |-         |-                  |-         |-                  |-         |-                  |-         |-                  |-         |-                  |-         |-         |-         |-          |-    |-         |-                   |-                          |3309                          |3309  |
 #'  |Total |2118              |3137       |2331       |22815      |100       |4566               |322       |957                |890       |5226               |928       |406                |1002      |1146               |2312      |165                |1267      |6883      |1928      |7077       |4246 |464       |1578                |526                        |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Education
+#' 
+#' @keywords variable
+#' @md
+#' @name maeduc
+NULL
+
+
+#'  Highest year school completed, spouse
+#' 
+#'  speduc
+#' 
+#' Question RESPONDENT'S SPOUSE'S EDUCATION
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` no formal schooling
@@ -345,22 +672,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name maeduc
-NULL
-
-#'  Highest year school completed, spouse
-#' 
-#'  speduc
-#' 
-#' Question 18. What is the highest grade in elementary school or high school that your husband/wife finished and got credit for?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/58/vshow).
 #'
 #' Counts by year: 
 #'
@@ -403,6 +716,62 @@ NULL
 #'  |2024  |63                |20         |19         |352        |-         |170                |-         |53                 |-         |343                |-         |67                 |4         |100                |12        |31                 |2         |67                         |15        |10        |17         |1957  |-         |7                   |-              |3309  |
 #'  |Total |2447              |1491       |1713       |12595      |21        |4031               |57        |1312               |137       |5767               |142       |1117               |195       |1698               |447       |555                |430       |1010                       |1504      |907       |343        |37485 |190       |100                 |5              |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Education
+#' 
+#' @keywords variable
+#' @md
+#' @name speduc
+NULL
+
+
+#'  Highest year school completed, partner
+#' 
+#'  coeduc
+#' 
+#' Question RESPONDENT'S PARTNER'S EDUCATION
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` no formal schooling
@@ -439,22 +808,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name speduc
-NULL
-
-#'  Highest year school completed, partner
-#' 
-#'  coeduc
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6160/vshow).
 #'
 #' Counts by year: 
 #'
@@ -497,29 +852,42 @@ NULL
 #'  |2024  |3049  |21                |12         |7          |89         |27                 |8                  |51                 |-         |7                  |12                 |3         |-                  |1         |6                          |2         |4         |9          |-         |-         |1                   |-         |3309  |
 #'  |Total |73881 |126               |65         |84         |634        |198                |71                 |287                |6         |48                 |60                 |18        |16                 |11        |31                         |19        |37        |65         |32        |3         |5                   |2         |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name coeduc
+NULL
+
+
+#'  Partner's highest degree
+#' 
+#'  codeg
+#' 
+#' Question RESPONDENT'S PARTNER'S DEGREE
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` no formal schooling
-#'   * `1` 1st grade
-#'   * `2` 2nd grade
-#'   * `3` 3rd grade
-#'   * `4` 4th grade
-#'   * `5` 5th grade
-#'   * `6` 6th grade
-#'   * `7` 7th grade
-#'   * `8` 8th grade
-#'   * `9` 9th grade
-#'   * `10` 10th grade
-#'   * `11` 11th grade
-#'   * `12` 12th grade
-#'   * `13` 1 year of college
-#'   * `14` 2 years of college
-#'   * `15` 3 years of college
-#'   * `16` 4 years of college
-#'   * `17` 5 years of college
-#'   * `18` 6 years of college
-#'   * `19` 7 years of college
-#'   * `20` 8 or more years of college
+#'   * `0` less than high school
+#'   * `1` high school
+#'   * `2` associate/junior college
+#'   * `3` bachelor's
+#'   * `4` graduate
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -533,22 +901,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name coeduc
-NULL
-
-#'  Partner's highest degree
-#' 
-#'  codeg
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6161/vshow).
 #'
 #' Counts by year: 
 #'
@@ -591,6 +945,35 @@ NULL
 #'  |2024  |3049  |19                       |51         |2          |19       |137         |32                    |-         |-              |3309  |
 #'  |Total |73881 |129                      |300        |39         |120      |966         |255                   |6         |3              |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name codeg
+NULL
+
+
+#'  R's highest degree
+#' 
+#'  degree
+#' 
+#' Question RESPONDENT'S DEGREE
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` less than high school
@@ -611,22 +994,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name codeg
-NULL
-
-#'  R's highest degree
-#' 
-#'  degree
-#' 
-#' Question 19. If finished 9th-12th grade: Did you ever get a high school diploma or a GED certificate?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/59/vshow).
 #'
 #' Counts by year: 
 #'
@@ -669,6 +1038,63 @@ NULL
 #'  |2024  |299                      |721        |474      |1506        |306                   |-         |3          |-              |3309  |
 #'  |Total |4654                     |11969      |6427     |37952       |14498                 |143       |47         |9              |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Education
+#' 
+#' @keywords variable
+#' @md
+#' @name degree
+NULL
+
+
+#'  Father's (or oldest same-sex parent's) highest degree
+#' 
+#'  padeg
+#' 
+#' Question RESPONDENT'S FATHER'S (SUBSTITUTE FATHER'S) DEGREE
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` less than high school
@@ -689,22 +1115,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name degree
-NULL
-
-#'  Father's (or oldest same-sex parent's) highest degree
-#' 
-#'  padeg
-#' 
-#' Question 20. If finished 9th-12th grade: Did he ever get a high school diploma or a GED certificate?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/60/vshow).
 #'
 #' Counts by year: 
 #'
@@ -747,109 +1159,53 @@ NULL
 #'  |2024  |342        |50         |248      |1156        |617   |799                   |-         |97                       |-              |3309  |
 #'  |Total |5565       |4598       |3784     |21358       |13335 |25208                 |599       |1248                     |4              |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `0` less than high school
-#'   * `1` high school
-#'   * `2` associate/junior college
-#'   * `3` bachelor's
-#'   * `4` graduate
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Education
 #' 
 #' @keywords variable
 #' @md
 #' @name padeg
 NULL
 
-#'  Mother's (or youngest same-sex parent's) highest degree
-#' 
-#'  madeg
-#' 
-#' Question 21. If finished 9th-12th grade: Did she ever get a high school diploma or a GED certificate?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |associate/junior college |bachelor's |don't know |graduate |high school |iap  |less than high school |no answer |skipped on web |Total |
-#'  |:-----|:------------------------|:----------|:----------|:--------|:-----------|:----|:---------------------|:---------|:--------------|:-----|
-#'  |1972  |16                       |39         |96         |13       |390         |80   |832                   |147       |-              |1613  |
-#'  |1973  |12                       |41         |76         |14       |415         |67   |768                   |111       |-              |1504  |
-#'  |1974  |13                       |44         |98         |16       |420         |55   |817                   |21        |-              |1484  |
-#'  |1975  |11                       |51         |125        |8        |451         |38   |796                   |10        |-              |1490  |
-#'  |1976  |13                       |45         |136        |9        |422         |51   |811                   |12        |-              |1499  |
-#'  |1977  |14                       |48         |141        |16       |437         |53   |807                   |14        |-              |1530  |
-#'  |1978  |27                       |49         |92         |11       |512         |51   |781                   |9         |-              |1532  |
-#'  |1980  |10                       |55         |88         |20       |488         |62   |727                   |18        |-              |1468  |
-#'  |1982  |21                       |82         |181        |21       |579         |66   |889                   |21        |-              |1860  |
-#'  |1983  |18                       |76         |99         |19       |593         |48   |743                   |3         |-              |1599  |
-#'  |1984  |20                       |57         |85         |16       |564         |68   |659                   |4         |-              |1473  |
-#'  |1985  |25                       |73         |84         |33       |580         |67   |672                   |-         |-              |1534  |
-#'  |1986  |20                       |73         |101        |14       |570         |47   |640                   |5         |-              |1470  |
-#'  |1987  |32                       |85         |109        |41       |664         |61   |808                   |19        |-              |1819  |
-#'  |1988  |28                       |70         |83         |19       |594         |37   |647                   |3         |-              |1481  |
-#'  |1989  |34                       |85         |81         |33       |595         |41   |664                   |4         |-              |1537  |
-#'  |1990  |32                       |80         |69         |22       |562         |32   |556                   |19        |-              |1372  |
-#'  |1991  |28                       |72         |69         |27       |626         |45   |578                   |72        |-              |1517  |
-#'  |1993  |43                       |103        |100        |30       |697         |41   |571                   |21        |-              |1606  |
-#'  |1994  |80                       |186        |172        |72       |1299        |135  |1031                  |17        |-              |2992  |
-#'  |1996  |94                       |213        |188        |84       |1308        |123  |869                   |25        |-              |2904  |
-#'  |1998  |109                      |232        |175        |86       |1212        |124  |850                   |44        |-              |2832  |
-#'  |2000  |104                      |219        |168        |79       |1194        |132  |887                   |34        |-              |2817  |
-#'  |2002  |119                      |210        |103        |80       |1289        |168  |779                   |17        |-              |2765  |
-#'  |2004  |138                      |270        |120        |112      |1214        |166  |791                   |1         |-              |2812  |
-#'  |2006  |139                      |263        |78         |122      |1267        |1687 |924                   |30        |-              |4510  |
-#'  |2008  |94                       |185        |95         |64       |928         |83   |573                   |1         |-              |2023  |
-#'  |2010  |83                       |180        |83         |89       |924         |78   |606                   |1         |-              |2044  |
-#'  |2012  |110                      |189        |83         |97       |866         |65   |563                   |1         |-              |1974  |
-#'  |2014  |139                      |228        |99         |131      |1160        |83   |698                   |-         |-              |2538  |
-#'  |2016  |144                      |292        |97         |146      |1349        |101  |736                   |2         |-              |2867  |
-#'  |2018  |141                      |272        |95         |118      |1048        |84   |589                   |1         |-              |2348  |
-#'  |2021  |220                      |486        |247        |255      |2019        |100  |698                   |1         |6              |4032  |
-#'  |2022  |197                      |449        |326        |237      |1561        |78   |696                   |-         |-              |3544  |
-#'  |2024  |187                      |402        |46         |197      |1492        |170  |814                   |-         |1              |3309  |
-#'  |Total |2515                     |5504       |4088       |2351     |30289       |4387 |25870                 |688       |7              |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `0` less than high school
-#'   * `1` high school
-#'   * `2` associate/junior college
-#'   * `3` bachelor's
-#'   * `4` graduate
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name madeg
-NULL
 

@@ -1,11 +1,204 @@
+#'  Percentage change population of asians in 25 yr
+#' 
+#'  asnchng
+#' 
+#' Question In the next 25 years, which of these groups do you think will increase their share of the population by a lot, which will increase by a little, which will stay the same, which will decrease by a little, and which will decrease by a lot? 
+#' E. Asian Americans?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` increase a lot
+#'   * `2` increase by a little
+#'   * `3` stay the same
+#'   * `4` decrease by a little
+#'   * `5` decrease by a lot
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2321/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |decrease by a little |decrease by a lot |don't know |increase a lot |increase by a little |no answer |stay the same |not available in this year |Total |
+#'  |:-----|:-----|:--------------------|:-----------------|:----------|:--------------|:--------------------|:---------|:-------------|:--------------------------|:-----|
+#'  |1972  |1613  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |1613  |
+#'  |1973  |1504  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |1504  |
+#'  |1974  |1484  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |1484  |
+#'  |1975  |1490  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |1490  |
+#'  |1976  |1499  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |1499  |
+#'  |1977  |1530  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |1530  |
+#'  |1978  |1532  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |1532  |
+#'  |1980  |1468  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |1468  |
+#'  |1982  |1860  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |1860  |
+#'  |1983  |1599  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |1599  |
+#'  |1984  |1473  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |1473  |
+#'  |1985  |1534  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |1534  |
+#'  |1986  |1470  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |1470  |
+#'  |1987  |1819  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |1819  |
+#'  |1988  |1481  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |1481  |
+#'  |1989  |1537  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |1537  |
+#'  |1990  |1372  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |1372  |
+#'  |1991  |1517  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |1517  |
+#'  |1993  |1606  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |1606  |
+#'  |1994  |2992  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |2992  |
+#'  |1996  |2904  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |2904  |
+#'  |1998  |2832  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |2832  |
+#'  |2000  |1419  |40                   |17                |110        |269            |607                  |14        |341           |-                          |2817  |
+#'  |2002  |2765  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |2765  |
+#'  |2004  |2812  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |2812  |
+#'  |2006  |4510  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |4510  |
+#'  |2008  |2023  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |2023  |
+#'  |2010  |2044  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |2044  |
+#'  |2012  |1974  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |1974  |
+#'  |2014  |2538  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |2538  |
+#'  |2016  |2867  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |2867  |
+#'  |2018  |2348  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |2348  |
+#'  |2021  |4032  |-                    |-                 |-          |-              |-                    |-         |-             |-                          |4032  |
+#'  |2022  |-     |-                    |-                 |-          |-              |-                    |-         |-             |3544                       |3544  |
+#'  |2024  |-     |-                    |-                 |-          |-              |-                    |-         |-             |3309                       |3309  |
+#'  |Total |67448 |40                   |17                |110        |269            |607                  |14        |341           |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Multi-Ethnic United States
+#' @family Asian Americans
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name asnchng
+NULL
+
+
+#'  Ethnic change in 25 yrs good for country
+#' 
+#'  ethchng
+#' 
+#' Question When you think about these changes in the racial and ethnic make-up of the country in the next 25 years, do you think they will be a very good thing for the country, a good thing, neither good nor bad, a bad thing, or a very bad thing?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` very good thing
+#'   * `2` good thing
+#'   * `3` neither good nor bad
+#'   * `4` bad thing
+#'   * `5` very bad thing
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2322/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |bad thing |don't know |good thing |neither good nor bad |no answer |very bad thing |very good thing |not available in this year |Total |
+#'  |:-----|:-----|:---------|:----------|:----------|:--------------------|:---------|:--------------|:---------------|:--------------------------|:-----|
+#'  |1972  |1613  |-         |-          |-          |-                    |-         |-              |-               |-                          |1613  |
+#'  |1973  |1504  |-         |-          |-          |-                    |-         |-              |-               |-                          |1504  |
+#'  |1974  |1484  |-         |-          |-          |-                    |-         |-              |-               |-                          |1484  |
+#'  |1975  |1490  |-         |-          |-          |-                    |-         |-              |-               |-                          |1490  |
+#'  |1976  |1499  |-         |-          |-          |-                    |-         |-              |-               |-                          |1499  |
+#'  |1977  |1530  |-         |-          |-          |-                    |-         |-              |-               |-                          |1530  |
+#'  |1978  |1532  |-         |-          |-          |-                    |-         |-              |-               |-                          |1532  |
+#'  |1980  |1468  |-         |-          |-          |-                    |-         |-              |-               |-                          |1468  |
+#'  |1982  |1860  |-         |-          |-          |-                    |-         |-              |-               |-                          |1860  |
+#'  |1983  |1599  |-         |-          |-          |-                    |-         |-              |-               |-                          |1599  |
+#'  |1984  |1473  |-         |-          |-          |-                    |-         |-              |-               |-                          |1473  |
+#'  |1985  |1534  |-         |-          |-          |-                    |-         |-              |-               |-                          |1534  |
+#'  |1986  |1470  |-         |-          |-          |-                    |-         |-              |-               |-                          |1470  |
+#'  |1987  |1819  |-         |-          |-          |-                    |-         |-              |-               |-                          |1819  |
+#'  |1988  |1481  |-         |-          |-          |-                    |-         |-              |-               |-                          |1481  |
+#'  |1989  |1537  |-         |-          |-          |-                    |-         |-              |-               |-                          |1537  |
+#'  |1990  |1372  |-         |-          |-          |-                    |-         |-              |-               |-                          |1372  |
+#'  |1991  |1517  |-         |-          |-          |-                    |-         |-              |-               |-                          |1517  |
+#'  |1993  |1606  |-         |-          |-          |-                    |-         |-              |-               |-                          |1606  |
+#'  |1994  |2992  |-         |-          |-          |-                    |-         |-              |-               |-                          |2992  |
+#'  |1996  |2904  |-         |-          |-          |-                    |-         |-              |-               |-                          |2904  |
+#'  |1998  |2832  |-         |-          |-          |-                    |-         |-              |-               |-                          |2832  |
+#'  |2000  |1419  |195       |61         |301        |730                  |17        |52             |42              |-                          |2817  |
+#'  |2002  |2765  |-         |-          |-          |-                    |-         |-              |-               |-                          |2765  |
+#'  |2004  |2812  |-         |-          |-          |-                    |-         |-              |-               |-                          |2812  |
+#'  |2006  |4510  |-         |-          |-          |-                    |-         |-              |-               |-                          |4510  |
+#'  |2008  |2023  |-         |-          |-          |-                    |-         |-              |-               |-                          |2023  |
+#'  |2010  |2044  |-         |-          |-          |-                    |-         |-              |-               |-                          |2044  |
+#'  |2012  |1974  |-         |-          |-          |-                    |-         |-              |-               |-                          |1974  |
+#'  |2014  |2538  |-         |-          |-          |-                    |-         |-              |-               |-                          |2538  |
+#'  |2016  |2867  |-         |-          |-          |-                    |-         |-              |-               |-                          |2867  |
+#'  |2018  |2348  |-         |-          |-          |-                    |-         |-              |-               |-                          |2348  |
+#'  |2021  |4032  |-         |-          |-          |-                    |-         |-              |-               |-                          |4032  |
+#'  |2022  |-     |-         |-          |-          |-                    |-         |-              |-               |3544                       |3544  |
+#'  |2024  |-     |-         |-          |-          |-                    |-         |-              |-               |3309                       |3309  |
+#'  |Total |67448 |195       |61         |301        |730                  |17        |52             |42              |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Multi-Ethnic United States
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name ethchng
+NULL
+
+
 #'  Percentage white living in r's community
 #' 
 #'  comwht
 #' 
-#' Question 755. Just your best guess~what percentage of the people who live in your local community is each group? a. Whites
+#' Question Just your best guessâ€“what percentage of the people who live in your local community is each group? 
+#' A. Whites?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2323/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +241,30 @@
 #'  |2024  |-     |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |67448 |15 |8  |30 |70  |9  |13 |34 |1  |18 |1  |3  |38 |12 |55 |1  |10 |1  |1  |1  |24 |116 |1  |15 |1  |120 |31 |2  |102 |1  |1  |1  |92 |1  |1  |2  |136 |1  |47 |3  |1  |159 |1  |84 |1  |7  |26 |39 |37         |24        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Multi-Ethnic United States
+#' @family Whites
+#' 
+#' @keywords variable
+#' @md
+#' @name comwht
+NULL
+
+
+#'  Percentage black living in r's community
+#' 
+#'  comblk
+#' 
+#' Question Just your best guessâ€“what percentage of the people who live in your local community is each group? 
+#' B. Blacks/African-Americans?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -63,22 +280,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name comwht
-NULL
-
-#'  Percentage black living in r's community
-#' 
-#'  comblk
-#' 
-#' Question 755. Just your best guess~what percentage of the people who live in your local community is each group? b. Blacks/African-Americans
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2324/vshow).
 #'
 #' Counts by year: 
 #'
@@ -121,6 +324,30 @@ NULL
 #'  |2024  |-     |-  |-   |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |67448 |96 |114 |184 |13  |3  |74 |1  |4  |72 |117 |1  |2  |67 |1  |32 |88 |13 |8  |66 |13 |1  |170 |61 |3  |2  |16 |4  |2  |10 |11 |2  |17 |2  |3  |23 |1  |4  |1  |3  |3  |45         |45        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Multi-Ethnic United States
+#' @family Blacks
+#' 
+#' @keywords variable
+#' @md
+#' @name comblk
+NULL
+
+
+#'  Percentage jews living in r's community
+#' 
+#'  comjews
+#' 
+#' Question Just your best guessâ€“what percentage of the people who live in your local community is each group? 
+#' C. Jews?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -136,22 +363,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name comblk
-NULL
-
-#'  Percentage jews living in r's community
-#' 
-#'  comjews
-#' 
-#' Question 755. Just your best guess~what percentage of the people who live in your local community is each group? c. Jews
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2325/vshow).
 #'
 #' Counts by year: 
 #'
@@ -194,6 +407,30 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |67448 |375 |125 |138 |2   |26 |94 |50 |16 |34 |31 |1  |8  |8  |12 |214 |16 |3  |5  |3  |2  |1  |7  |2  |1  |149        |75        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Multi-Ethnic United States
+#' @family Jews
+#' 
+#' @keywords variable
+#' @md
+#' @name comjews
+NULL
+
+
+#'  Percentage hispanic living in r's community
+#' 
+#'  comhisp
+#' 
+#' Question Just your best guessâ€“what percentage of the people who live in your local community is each group? 
+#' D. Hispanics?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -209,22 +446,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name comjews
-NULL
-
-#'  Percentage hispanic living in r's community
-#' 
-#'  comhisp
-#' 
-#' Question 755. Just your best guess~what percentage of the people who live in your local community is each group? d. Hispanics
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2326/vshow).
 #'
 #' Counts by year: 
 #'
@@ -267,6 +490,30 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |67448 |190 |110 |200 |1   |3  |1  |67 |1  |1  |75 |104 |43 |24 |64 |1  |16 |1  |12 |41 |1  |8  |1  |1  |182 |48 |1  |1  |6  |19 |8  |8  |2  |1  |10 |9  |1  |1  |7  |1  |69         |58        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Multi-Ethnic United States
+#' @family Hispanics
+#' 
+#' @keywords variable
+#' @md
+#' @name comhisp
+NULL
+
+
+#'  Percentage asian living in r's community
+#' 
+#'  comasn
+#' 
+#' Question Just your best guessâ€“what percentage of the people who live in your local community is each group? 
+#' E. Asian Americans?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -282,22 +529,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name comhisp
-NULL
-
-#'  Percentage asian living in r's community
-#' 
-#'  comasn
-#' 
-#' Question 755. Just your best guess~what percentage of the people who live in your local community is each group? e. Asian Americans
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2327/vshow).
 #'
 #' Counts by year: 
 #'
@@ -340,6 +573,30 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |67448 |346 |144 |168 |1   |2  |35 |2  |101 |61 |23 |41 |30 |4  |1  |19 |16 |225 |10 |1  |3  |3  |1  |4  |2  |8  |2  |1  |1  |1  |82         |60        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Multi-Ethnic United States
+#' @family Asian Americans
+#' 
+#' @keywords variable
+#' @md
+#' @name comasn
+NULL
+
+
+#'  Percentage american indian living in r's community
+#' 
+#'  comamind
+#' 
+#' Question Just your best guessâ€“what percentage of the people who live in your local community is each group? 
+#' F. American Indians
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -355,22 +612,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name comasn
-NULL
-
-#'  Percentage american indian living in r's community
-#' 
-#'  comamind
-#' 
-#' Question 755. Just your best guess~what percentage of the people who live in your local community is each group? f. American Indians
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2328/vshow).
 #'
 #' Counts by year: 
 #'
@@ -413,8 +656,39 @@ NULL
 #'  |2024  |-     |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |67448 |521 |212 |98 |1   |2  |14 |86 |35 |1  |10 |1  |21 |18 |2  |7  |5  |2  |1  |173 |9  |1  |1  |3  |1  |4  |2  |2  |2  |97         |66        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Multi-Ethnic United States
+#' @family Residence
+#' @family Social Networks
+#' 
+#' @keywords variable
+#' @md
+#' @name comamind
+NULL
+
+
+#'  How many people hispanic at work
+#' 
+#'  hispwork
+#' 
+#' Question How many of the people who work where you work are Hispanic?  Are all Hispanic, almost all Hispanic, most Hispanic, about half Hispanic, most not Hispanic, almost none Hispanic, or are none Hispanic?
+#' 
+#' 
 #' @section Values: 
 #' 
+#'   * `1` all hispanic
+#'   * `2` almost all hispanic
+#'   * `3` most hispanic
+#'   * `4` about half hispanic
+#'   * `5` most not hispanic
+#'   * `6` almost non hispanic
+#'   * `7` none hispanic
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -428,22 +702,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name comamind
-NULL
-
-#'  How many people hispanic at work
-#' 
-#'  hispwork
-#' 
-#' Question 756. How many of the people who work where you work are Hispanic? Are all Hispanic, almost all Hispanic, most Hispanic, about half Hispanic, most not Hispanic, almost none Hispanic, or are none Hispanic?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2329/vshow).
 #'
 #' Counts by year: 
 #'
@@ -486,15 +746,34 @@ NULL
 #'  |2024  |-     |-                   |-            |-                   |-                   |-          |-             |-                 |-         |-             |3309                       |3309  |
 #'  |Total |67909 |75                  |8            |21                  |269                 |14         |24            |180               |16        |330           |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Multi-Ethnic United States
+#' @family Hispanics
+#' 
+#' @keywords variable
+#' @md
+#' @name hispwork
+NULL
+
+
+#'  Does r personally any whites
+#' 
+#'  knwwht
+#' 
+#' Question Do you personally know any...? 
+#' A. Whites?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` all hispanic
-#'   * `2` almost all hispanic
-#'   * `3` most hispanic
-#'   * `4` about half hispanic
-#'   * `5` most not hispanic
-#'   * `6` almost non hispanic
-#'   * `7` none hispanic
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -508,22 +787,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hispwork
-NULL
-
-#'  Does r personally any whites
-#' 
-#'  knwwht
-#' 
-#' Question 757. Do you personally know any...? a. Whites
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2330/vshow).
 #'
 #' Counts by year: 
 #'
@@ -566,178 +831,19 @@ NULL
 #'  |2024  |-     |-  |-         |-   |3309                       |3309  |
 #'  |Total |68491 |23 |24        |308 |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Multi-Ethnic United States
+#' @family Whites
 #' 
 #' @keywords variable
 #' @md
 #' @name knwwht
 NULL
 
-#'  Does r personally any blacks
-#' 
-#'  knwblk
-#' 
-#' Question 757. Do you personally know any...? b. Blacks
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |no  |no answer |yes  |not available in this year |Total |
-#'  |:-----|:-----|:---|:---------|:----|:--------------------------|:-----|
-#'  |1972  |1613  |-   |-         |-    |-                          |1613  |
-#'  |1973  |1504  |-   |-         |-    |-                          |1504  |
-#'  |1974  |1484  |-   |-         |-    |-                          |1484  |
-#'  |1975  |1490  |-   |-         |-    |-                          |1490  |
-#'  |1976  |1499  |-   |-         |-    |-                          |1499  |
-#'  |1977  |1530  |-   |-         |-    |-                          |1530  |
-#'  |1978  |1532  |-   |-         |-    |-                          |1532  |
-#'  |1980  |1468  |-   |-         |-    |-                          |1468  |
-#'  |1982  |1860  |-   |-         |-    |-                          |1860  |
-#'  |1983  |1599  |-   |-         |-    |-                          |1599  |
-#'  |1984  |1473  |-   |-         |-    |-                          |1473  |
-#'  |1985  |1534  |-   |-         |-    |-                          |1534  |
-#'  |1986  |1470  |-   |-         |-    |-                          |1470  |
-#'  |1987  |1819  |-   |-         |-    |-                          |1819  |
-#'  |1988  |1481  |-   |-         |-    |-                          |1481  |
-#'  |1989  |1537  |-   |-         |-    |-                          |1537  |
-#'  |1990  |1372  |-   |-         |-    |-                          |1372  |
-#'  |1991  |1517  |-   |-         |-    |-                          |1517  |
-#'  |1993  |1606  |-   |-         |-    |-                          |1606  |
-#'  |1994  |2992  |-   |-         |-    |-                          |2992  |
-#'  |1996  |2904  |-   |-         |-    |-                          |2904  |
-#'  |1998  |2832  |-   |-         |-    |-                          |2832  |
-#'  |2000  |1619  |169 |24        |1005 |-                          |2817  |
-#'  |2002  |2765  |-   |-         |-    |-                          |2765  |
-#'  |2004  |2812  |-   |-         |-    |-                          |2812  |
-#'  |2006  |4510  |-   |-         |-    |-                          |4510  |
-#'  |2008  |2023  |-   |-         |-    |-                          |2023  |
-#'  |2010  |2044  |-   |-         |-    |-                          |2044  |
-#'  |2012  |1974  |-   |-         |-    |-                          |1974  |
-#'  |2014  |2538  |-   |-         |-    |-                          |2538  |
-#'  |2016  |2867  |-   |-         |-    |-                          |2867  |
-#'  |2018  |2348  |-   |-         |-    |-                          |2348  |
-#'  |2021  |4032  |-   |-         |-    |-                          |4032  |
-#'  |2022  |-     |-   |-         |-    |3544                       |3544  |
-#'  |2024  |-     |-   |-         |-    |3309                       |3309  |
-#'  |Total |67648 |169 |24        |1005 |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name knwblk
-NULL
-
-#'  Does r personally any jews
-#' 
-#'  knwjew
-#' 
-#' Question 757. Do you personally know any...? c. Jews
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no  |no answer |yes |not available in this year |Total |
-#'  |:-----|:-----|:----------|:---|:---------|:---|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-   |-         |-   |-                          |1613  |
-#'  |1973  |1504  |-          |-   |-         |-   |-                          |1504  |
-#'  |1974  |1484  |-          |-   |-         |-   |-                          |1484  |
-#'  |1975  |1490  |-          |-   |-         |-   |-                          |1490  |
-#'  |1976  |1499  |-          |-   |-         |-   |-                          |1499  |
-#'  |1977  |1530  |-          |-   |-         |-   |-                          |1530  |
-#'  |1978  |1532  |-          |-   |-         |-   |-                          |1532  |
-#'  |1980  |1468  |-          |-   |-         |-   |-                          |1468  |
-#'  |1982  |1860  |-          |-   |-         |-   |-                          |1860  |
-#'  |1983  |1599  |-          |-   |-         |-   |-                          |1599  |
-#'  |1984  |1473  |-          |-   |-         |-   |-                          |1473  |
-#'  |1985  |1534  |-          |-   |-         |-   |-                          |1534  |
-#'  |1986  |1470  |-          |-   |-         |-   |-                          |1470  |
-#'  |1987  |1819  |-          |-   |-         |-   |-                          |1819  |
-#'  |1988  |1481  |-          |-   |-         |-   |-                          |1481  |
-#'  |1989  |1537  |-          |-   |-         |-   |-                          |1537  |
-#'  |1990  |1372  |-          |-   |-         |-   |-                          |1372  |
-#'  |1991  |1517  |-          |-   |-         |-   |-                          |1517  |
-#'  |1993  |1606  |-          |-   |-         |-   |-                          |1606  |
-#'  |1994  |2992  |-          |-   |-         |-   |-                          |2992  |
-#'  |1996  |2904  |-          |-   |-         |-   |-                          |2904  |
-#'  |1998  |2832  |-          |-   |-         |-   |-                          |2832  |
-#'  |2000  |1455  |1          |559 |50        |752 |-                          |2817  |
-#'  |2002  |2765  |-          |-   |-         |-   |-                          |2765  |
-#'  |2004  |2812  |-          |-   |-         |-   |-                          |2812  |
-#'  |2006  |4510  |-          |-   |-         |-   |-                          |4510  |
-#'  |2008  |2023  |-          |-   |-         |-   |-                          |2023  |
-#'  |2010  |2044  |-          |-   |-         |-   |-                          |2044  |
-#'  |2012  |1974  |-          |-   |-         |-   |-                          |1974  |
-#'  |2014  |2538  |-          |-   |-         |-   |-                          |2538  |
-#'  |2016  |2867  |-          |-   |-         |-   |-                          |2867  |
-#'  |2018  |2348  |-          |-   |-         |-   |-                          |2348  |
-#'  |2021  |4032  |-          |-   |-         |-   |-                          |4032  |
-#'  |2022  |-     |-          |-   |-         |-   |3544                       |3544  |
-#'  |2024  |-     |-          |-   |-         |-   |3309                       |3309  |
-#'  |Total |67484 |1          |559 |50        |752 |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name knwjew
-NULL
 

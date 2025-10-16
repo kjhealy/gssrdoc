@@ -1,11 +1,138 @@
+#'  Spend evening with parents
+#' 
+#'  socpars
+#' 
+#' Question Would you use this card and tell me which answer comes closest to how often you do the following thingsâ€¦ 
+#' E. Spend a social evening with your parents?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` no such people
+#'   * `1` almost daily
+#'   * `2` sev times a week
+#'   * `3` sev times a mnth
+#'   * `4` once a month
+#'   * `5` sev times a year
+#'   * `6` once a year
+#'   * `7` never
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/525/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |almost daily |don't know |never |no answer |no such people |once a month |once a year |sev times a mnth |sev times a week |sev times a year |not available in this year |Total |
+#'  |:-----|:-----|:------------|:----------|:-----|:---------|:--------------|:------------|:-----------|:----------------|:----------------|:----------------|:--------------------------|:-----|
+#'  |1972  |1613  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |1613  |
+#'  |1973  |1504  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |1504  |
+#'  |1974  |1484  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |1484  |
+#'  |1975  |1490  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |1490  |
+#'  |1976  |1499  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |1499  |
+#'  |1977  |1530  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |1530  |
+#'  |1978  |-     |49           |2          |109   |4         |551            |113          |118         |166              |216              |204              |-                          |1532  |
+#'  |1980  |1468  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |1468  |
+#'  |1982  |-     |155          |11         |181   |14        |545            |189          |134         |161              |267              |203              |-                          |1860  |
+#'  |1983  |-     |89           |1          |113   |4         |494            |161          |129         |157              |248              |203              |-                          |1599  |
+#'  |1984  |1473  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |1473  |
+#'  |1985  |-     |92           |2          |111   |5         |470            |160          |132         |199              |173              |190              |-                          |1534  |
+#'  |1986  |-     |100          |2          |106   |7         |443            |150          |128         |113              |220              |201              |-                          |1470  |
+#'  |1987  |1819  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |1819  |
+#'  |1988  |493   |69           |7          |124   |7         |244            |100          |78          |92               |133              |134              |-                          |1481  |
+#'  |1989  |531   |66           |2          |124   |2         |236            |99           |80          |92               |160              |145              |-                          |1537  |
+#'  |1990  |444   |53           |2          |68    |5         |262            |88           |78          |103              |134              |135              |-                          |1372  |
+#'  |1991  |493   |66           |4          |122   |3         |259            |102          |68          |113              |154              |133              |-                          |1517  |
+#'  |1993  |526   |73           |2          |95    |5         |283            |121          |92          |107              |154              |148              |-                          |1606  |
+#'  |1994  |2485  |27           |2          |75    |1         |127            |47           |51          |46               |66               |65               |-                          |2992  |
+#'  |1996  |2904  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |2904  |
+#'  |1998  |2832  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |2832  |
+#'  |2000  |2817  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |2817  |
+#'  |2002  |2765  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |2765  |
+#'  |2004  |2812  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |2812  |
+#'  |2006  |4510  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |4510  |
+#'  |2008  |2023  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |2023  |
+#'  |2010  |2044  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |2044  |
+#'  |2012  |1974  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |1974  |
+#'  |2014  |2538  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |2538  |
+#'  |2016  |2867  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |2867  |
+#'  |2018  |2348  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |2348  |
+#'  |2021  |4032  |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |-                          |4032  |
+#'  |2022  |-     |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |3544                       |3544  |
+#'  |2024  |-     |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |3309                       |3309  |
+#'  |Total |55318 |839          |37         |1228  |57        |3914           |1330         |1088        |1349             |1925             |1761             |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1978 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Family
+#' @family Sociability
+#' 
+#' @keywords variable
+#' @md
+#' @name socpars
+NULL
+
+
 #'  Spend evening with siblings
 #' 
 #'  socsibs
 #' 
-#' Question 173. Would you use this card and tell me which answer comes closest to how often you do the following things: f. Spend a social evening with a brother or sister
+#' Question Would you use this card and tell me which answer comes closest to how often you do the following thingsâ€¦ 
+#' F. Spend a social evening with a brother or sister?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` no such people
+#'   * `1` almost daily
+#'   * `2` sev times a week
+#'   * `3` sev times a mnth
+#'   * `4` once a month
+#'   * `5` sev times a year
+#'   * `6` once a year
+#'   * `7` never
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/526/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,16 +175,45 @@
 #'  |2024  |-     |-            |-          |-     |-         |-              |-            |-           |-                |-                |-                |3309                       |3309  |
 #'  |Total |55318 |714          |43         |1326  |62        |1230           |1789         |2052        |1613             |1753             |2946             |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1978 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Family
+#' @family Sociability
+#' 
+#' @keywords variable
+#' @md
+#' @name socsibs
+NULL
+
+
+#'  Should aged live with their children
+#' 
+#'  aged
+#' 
+#' Question As you know, many older people share a home with their grown children. Do you think this is generally a good idea or a bad idea?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` no such people
-#'   * `1` almost daily
-#'   * `2` sev times a week
-#'   * `3` sev times a mnth
-#'   * `4` once a month
-#'   * `5` sev times a year
-#'   * `6` once a year
-#'   * `7` never
+#'   * `1` a good idea
+#'   * `2` a bad idea
+#'   * `3` depends
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -71,22 +227,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name socsibs
-NULL
-
-#'  Should aged live with their children
-#' 
-#'  aged
-#' 
-#' Question 174. As you know, many older people share a home with their grown children. Do you think this is generally a good idea or a bad idea?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/527/vshow).
 #'
 #' Counts by year: 
 #'
@@ -129,6 +271,57 @@ NULL
 #'  |2024  |-     |-          |-           |-       |-          |-         |3309                       |3309  |
 #'  |Total |27505 |14947      |18703       |6793    |342        |68        |7341                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'  |1996 |B/C     |partial      |
+#'  |1998 |B/C     |partial      |
+#'  |2000 |B/C     |partial      |
+#'  |2002 |B/C     |partial      |
+#'  |2004 |B/C     |partial      |
+#'  |2006 |B/C     |partial      |
+#'  |2008 |B/C     |partial      |
+#'  |2010 |B/C     |partial      |
+#'  |2012 |B/C     |partial      |
+#'  |2014 |B/C     |partial      |
+#'  |2016 |B/C     |partial      |
+#'  |2018 |B/C     |partial      |
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Aged
+#' 
+#' @keywords variable
+#' @md
+#' @name aged
+NULL
+
+
+#'  Should aged live with their children
+#' 
+#'  agedpar
+#' 
+#' Question As you know, many older people move into the homes of their grown children. Do you think this is generally a good idea or a bad idea?  
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` a good idea
@@ -147,22 +340,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name aged
-NULL
-
-#'  Should aged live with their children
-#' 
-#'  agedpar
-#' 
-#' Question B. As you know, many older people move into the homes of their grown children. Do you think this is generally a good idea or a bad idea?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6174/vshow).
 #'
 #' Counts by year: 
 #'
@@ -205,6 +384,29 @@ NULL
 #'  |2024  |-     |-          |-           |-       |-          |3309                       |3309  |
 #'  |Total |68390 |113        |270         |71      |2          |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |A       |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name agedpar
+NULL
+
+
+#'  Should grown children live with parents
+#' 
+#'  agedchld
+#' 
+#' Question As you know, many grown children move back home to live with their parents. Do you think this is generally a good idea or a bad idea?  
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` a good idea
@@ -223,22 +425,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name agedpar
-NULL
-
-#'  Should grown children live with parents
-#' 
-#'  agedchld
-#' 
-#' Question C. As you know, many grown children move back home to live with their parents. Do you think this is generally a good idea or a bad idea?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6175/vshow).
 #'
 #' Counts by year: 
 #'
@@ -281,11 +469,32 @@ NULL
 #'  |2024  |-     |-          |-           |-       |-          |-         |3309                       |3309  |
 #'  |Total |68393 |153        |192         |102     |4          |2         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |A       |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name agedchld
+NULL
+
+
+#'  Weeks r worked last year
+#' 
+#'  weekswrk
+#' 
+#' Question Now I'd like to ask you about last year. In (the previous year) how many weeks did you work either full-time or part-time not counting work around the house--include paid vacations and sick leave?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` a good idea
-#'   * `2` a bad idea
-#'   * `3` depends
+#'   * `0` none or zero
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -299,22 +508,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name agedchld
-NULL
-
-#'  Weeks r worked last year
-#' 
-#'  weekswrk
-#' 
-#' Question 175. Now I'd like to ask you about last year. How many weeks did you work either full-time or part-time not counting work around the house? (Include paid vacations and sick leave.)
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/528/vshow).
 #'
 #' Counts by year: 
 #'
@@ -357,9 +552,51 @@ NULL
 #'  |2024  |-     |-  |-   |-  |-   |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-   |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-   |-  |-   |-  |-   |-    |-  |-   |-  |-   |-   |-   |-   |-   |-   |-  |-    |-   |-     |-   |-  |-   |-  |-          |-         |-            |-  |-  |-              |3309                          |3309  |
 #'  |Total |31193 |68 |141 |21 |416 |36 |40 |84 |261 |21 |63 |90 |413 |34 |70 |19 |310 |226 |519 |36 |186 |89 |484 |15 |323 |22 |54 |204 |447 |41 |129 |59 |144 |1318 |27 |262 |52 |289 |422 |253 |132 |941 |334 |64 |1314 |393 |17969 |104 |26 |214 |47 |235        |122       |11432        |16 |3  |163            |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Employment
+#' @family Labor Force Statuseeks Worked
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name weekswrk
+NULL
+
+
+#'  Was r's work part-time or full-time?
+#' 
+#'  partfull
+#' 
+#' Question Now I'd like to ask you about last year. In (the previous year) how many weeks did you work either full-time or part-time not counting work around the house--include paid vacations and sick leave?
+#' A. When you worked in (the previous year), was it usually full or part time?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` none or zero
+#'   * `1` full-time
+#'   * `2` part-time
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -373,22 +610,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name weekswrk
-NULL
-
-#'  Was r's work part-time or full-time?
-#' 
-#'  partfull
-#' 
-#' Question 175a. When you worked last year, was it usually full or part time?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/529/vshow).
 #'
 #' Counts by year: 
 #'
@@ -431,10 +654,49 @@ NULL
 #'  |2024  |-     |-          |-         |-         |-         |-              |3309                          |3309  |
 #'  |Total |43045 |24         |22953     |248       |6115      |5              |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Employment
+#' @family Labor Force Status
+#' 
+#' @keywords variable
+#' @md
+#' @name partfull
+NULL
+
+
+#'  Ever drink alcoholic beverages?
+#' 
+#'  drink
+#' 
+#' Question Do you ever have occasion to use any alcoholic beverages such as liquor, wine, or beer, or are you a total abstainer?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` full-time
-#'   * `2` part-time
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -448,22 +710,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name partfull
-NULL
-
-#'  Ever drink alcoholic beverages?
-#' 
-#'  drink
-#' 
-#' Question 176. Do you ever have occasion to use any alcoholic beverages such as liquor, wine, or beer, or are you a total abstainer?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/530/vshow).
 #'
 #' Counts by year: 
 #'
@@ -506,6 +754,42 @@ NULL
 #'  |2024  |-     |-    |-         |-     |3309                       |3309  |
 #'  |Total |52439 |4776 |33        |11598 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1977 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Drinking
+#' 
+#' @keywords variable
+#' @md
+#' @name drink
+NULL
+
+
+#'  Ever drink too much?
+#' 
+#'  drunk
+#' 
+#' Question Do you ever have occasion to use any alcoholic beverages such as liquor, wine, or beer, or are you a total abstainer? 
+#' A. Do you sometimes drink more than you think you should?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -523,22 +807,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name drink
-NULL
-
-#'  Ever drink too much?
-#' 
-#'  drunk
-#' 
-#' Question 176a. Do you sometimes drink more than you think you should?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/531/vshow).
 #'
 #' Counts by year: 
 #'
@@ -581,6 +851,41 @@ NULL
 #'  |2024  |-     |-    |-         |-    |-          |3309                       |3309  |
 #'  |Total |57215 |7252 |122       |4234 |23         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1977 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Drinking
+#' 
+#' @keywords variable
+#' @md
+#' @name drunk
+NULL
+
+
+#'  Does r smoke
+#' 
+#'  smoke
+#' 
+#' Question Do you smoke?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -598,22 +903,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name drunk
-NULL
-
-#'  Does r smoke
-#' 
-#'  smoke
-#' 
-#' Question 177. Do you smoke?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/532/vshow).
 #'
 #' Counts by year: 
 #'
@@ -656,103 +947,31 @@ NULL
 #'  |2024  |-     |-     |-         |-    |3309                       |3309  |
 #'  |Total |52439 |10648 |34        |5725 |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1977 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Smoking
 #' 
 #' @keywords variable
 #' @md
 #' @name smoke
 NULL
 
-#'  Ever tried to quit smoking
-#' 
-#'  quitsmk
-#' 
-#' Question 177a. Have you ever tried to give up smoking?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |no   |no answer |yes  |not available in this year |Total |
-#'  |:-----|:-----|:----|:---------|:----|:--------------------------|:-----|
-#'  |1972  |1613  |-    |-         |-    |-                          |1613  |
-#'  |1973  |1504  |-    |-         |-    |-                          |1504  |
-#'  |1974  |1484  |-    |-         |-    |-                          |1484  |
-#'  |1975  |1490  |-    |-         |-    |-                          |1490  |
-#'  |1976  |1499  |-    |-         |-    |-                          |1499  |
-#'  |1977  |1530  |-    |-         |-    |-                          |1530  |
-#'  |1978  |927   |187  |6         |412  |-                          |1532  |
-#'  |1980  |866   |187  |7         |408  |-                          |1468  |
-#'  |1982  |1860  |-    |-         |-    |-                          |1860  |
-#'  |1983  |1006  |150  |2         |441  |-                          |1599  |
-#'  |1984  |924   |142  |8         |399  |-                          |1473  |
-#'  |1985  |1534  |-    |-         |-    |-                          |1534  |
-#'  |1986  |989   |129  |7         |345  |-                          |1470  |
-#'  |1987  |1232  |174  |6         |407  |-                          |1819  |
-#'  |1988  |1140  |73   |5         |263  |-                          |1481  |
-#'  |1989  |1226  |79   |3         |229  |-                          |1537  |
-#'  |1990  |1084  |73   |4         |211  |-                          |1372  |
-#'  |1991  |1197  |87   |1         |232  |-                          |1517  |
-#'  |1993  |1316  |70   |2         |218  |-                          |1606  |
-#'  |1994  |2850  |25   |-         |117  |-                          |2992  |
-#'  |1996  |2904  |-    |-         |-    |-                          |2904  |
-#'  |1998  |2832  |-    |-         |-    |-                          |2832  |
-#'  |2000  |2817  |-    |-         |-    |-                          |2817  |
-#'  |2002  |2765  |-    |-         |-    |-                          |2765  |
-#'  |2004  |2812  |-    |-         |-    |-                          |2812  |
-#'  |2006  |4510  |-    |-         |-    |-                          |4510  |
-#'  |2008  |2023  |-    |-         |-    |-                          |2023  |
-#'  |2010  |2044  |-    |-         |-    |-                          |2044  |
-#'  |2012  |1974  |-    |-         |-    |-                          |1974  |
-#'  |2014  |2538  |-    |-         |-    |-                          |2538  |
-#'  |2016  |2867  |-    |-         |-    |-                          |2867  |
-#'  |2018  |2348  |-    |-         |-    |-                          |2348  |
-#'  |2021  |4032  |-    |-         |-    |-                          |4032  |
-#'  |2022  |-     |-    |-         |-    |3544                       |3544  |
-#'  |2024  |-     |-    |-         |-    |3309                       |3309  |
-#'  |Total |63737 |1376 |51        |3682 |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name quitsmk
-NULL
 

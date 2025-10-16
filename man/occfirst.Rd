@@ -10,11 +10,29 @@ General Social Survey https://gss.norc.org
 occfirst
 }
 \details{
-Question 488. We would like to know about the first, full-time civilian job you had after you completed your highest grade in school. Do include full-time work in a family business or farm, even if you were working without pay. What kind of work were you doing? That is, what (is/was) your job called?
+Question Respondent's First Occupation, Prestige, and Industry
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1462/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 104 \tab 118 \tab 127 \tab 128 \tab 13 \tab 136 \tab 14 \tab 143 \tab 15 \tab 154 \tab 156 \tab 157 \tab 158 \tab 159 \tab 16 \tab 163 \tab 164 \tab 165 \tab 167 \tab 174 \tab 176 \tab 177 \tab 178 \tab 18 \tab 185 \tab 186 \tab 187 \tab 188 \tab 19 \tab 193 \tab 194 \tab 197 \tab 198 \tab 199 \tab 203 \tab 206 \tab 207 \tab 208 \tab 213 \tab 216 \tab 217 \tab 218 \tab 224 \tab 225 \tab 226 \tab 228 \tab 229 \tab 23 \tab 234 \tab 235 \tab 243 \tab 25 \tab 253 \tab 254 \tab 256 \tab 259 \tab 263 \tab 264 \tab 265 \tab 266 \tab 267 \tab 268 \tab 269 \tab 27 \tab 274 \tab 275 \tab 276 \tab 277 \tab 278 \tab 303 \tab 307 \tab 308 \tab 313 \tab 315 \tab 316 \tab 317 \tab 318 \tab 319 \tab 327 \tab 328 \tab 329 \tab 33 \tab 335 \tab 336 \tab 337 \tab 338 \tab 339 \tab 343 \tab 344 \tab 347 \tab 348 \tab 354 \tab 355 \tab 356 \tab 357 \tab 359 \tab 363 \tab 364 \tab 365 \tab 368 \tab 373 \tab 375 \tab 376 \tab 378 \tab 379 \tab 383 \tab 384 \tab 385 \tab 387 \tab 389 \tab 403 \tab 404 \tab 405 \tab 406 \tab 407 \tab 415 \tab 417 \tab 418 \tab 423 \tab 426 \tab 427 \tab 43 \tab 430 \tab 433 \tab 434 \tab 435 \tab 436 \tab 438 \tab 439 \tab 44 \tab 443 \tab 444 \tab 445 \tab 446 \tab 447 \tab 449 \tab 453 \tab 454 \tab 456 \tab 458 \tab 459 \tab 464 \tab 465 \tab 466 \tab 468 \tab 473 \tab 475 \tab 479 \tab 48 \tab 486 \tab 487 \tab 488 \tab 5 \tab 503 \tab 505 \tab 507 \tab 508 \tab 514 \tab 518 \tab 523 \tab 525 \tab 527 \tab 53 \tab 533 \tab 534 \tab 538 \tab 55 \tab 554 \tab 56 \tab 565 \tab 566 \tab 567 \tab 569 \tab 57 \tab 573 \tab 575 \tab 576 \tab 585 \tab 587 \tab 588 \tab 59 \tab 595 \tab 599 \tab 614 \tab 63 \tab 633 \tab 634 \tab 635 \tab 636 \tab 637 \tab 639 \tab 64 \tab 643 \tab 645 \tab 647 \tab 653 \tab 666 \tab 67 \tab 678 \tab 683 \tab 686 \tab 687 \tab 688 \tab 689 \tab 7 \tab 704 \tab 706 \tab 709 \tab 715 \tab 723 \tab 725 \tab 727 \tab 734 \tab 737 \tab 738 \tab 739 \tab 744 \tab 745 \tab 747 \tab 748 \tab 749 \tab 754 \tab 755 \tab 756 \tab 759 \tab 76 \tab 766 \tab 769 \tab 773 \tab 774 \tab 777 \tab 779 \tab 78 \tab 783 \tab 785 \tab 79 \tab 796 \tab 797 \tab 799 \tab 8 \tab 804 \tab 806 \tab 829 \tab 84 \tab 85 \tab 856 \tab 859 \tab 86 \tab 863 \tab 865 \tab 869 \tab 877 \tab 878 \tab 883 \tab 885 \tab 887 \tab 888 \tab 889 \tab 9 \tab 95 \tab 96 \tab 98 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +75,30 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Family Mobility: 
+\code{\link{alike1}},
+\code{\link{alike2}},
+\code{\link{datefrst}},
+\code{\link{datesch}},
+\code{\link{indfirst}},
+\code{\link{neverwk}},
+\code{\link{payrdied}},
+\code{\link{presfrst}},
+\code{\link{wrkslfst}}
+
+Other Occupation: 
+\code{\link{datefrst}},
+\code{\link{indfirst}},
+\code{\link{wrkslfst}}
+}
+\concept{Family Mobility}
+\concept{Occupation}
 \keyword{variable}

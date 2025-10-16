@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 clrggen3
 }
 \details{
-Question None
+Question C. Was this leader male or female?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} male
+\item \code{2} female
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3953/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllll}{
    year \tab iap \tab male \tab not available in this year \tab Total \cr
@@ -57,24 +77,42 @@ Counts by year:\tabular{lllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} male
-\item \code{2} female
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2008 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Clergy/Sex: 
+\code{\link{clrggen1}},
+\code{\link{clrggen2}},
+\code{\link{clrgsex1}},
+\code{\link{clrgsex2}},
+\code{\link{clrgsex3}},
+\code{\link{hushrel1}}
+
+Other Religion: 
+\code{\link{clrggen1}},
+\code{\link{clrggen2}},
+\code{\link{clrgsex1}},
+\code{\link{clrgsex2}},
+\code{\link{clrgsex3}},
+\code{\link{hushrel1}}
+
+Other Sex: 
+\code{\link{clrggen1}},
+\code{\link{clrggen2}},
+\code{\link{clrgsex1}},
+\code{\link{clrgsex2}},
+\code{\link{clrgsex3}},
+\code{\link{hushrel1}},
+\code{\link{ongorel1}},
+\code{\link{ongorel2}},
+\code{\link{ongorel3}}
+}
+\concept{Clergy/Sex}
+\concept{Religion}
+\concept{Sex}
 \keyword{variable}

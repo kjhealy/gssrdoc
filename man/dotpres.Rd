@@ -10,11 +10,29 @@ General Social Survey https://gss.norc.org
 dotpres
 }
 \details{
-Question None
+Question F. Occupational Prestige.
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/128/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab 0 \tab 10.8 \tab 11.4 \tab 11.5 \tab 13.8 \tab 14.1 \tab 14.5 \tab 14.6 \tab 15.3 \tab 15.5 \tab 15.8 \tab 16.7 \tab 16.8 \tab 16.9 \tab 17.2 \tab 17.4 \tab 17.8 \tab 18.2 \tab 18.3 \tab 18.7 \tab 19.2 \tab 19.9 \tab 2 \tab 20.2 \tab 20.4 \tab 20.5 \tab 20.9 \tab 21.3 \tab 21.4 \tab 21.6 \tab 21.7 \tab 22 \tab 22.6 \tab 22.7 \tab 22.9 \tab 23 \tab 23.3 \tab 23.4 \tab 23.5 \tab 23.6 \tab 23.9 \tab 24.1 \tab 24.2 \tab 24.4 \tab 24.8 \tab 25 \tab 25.2 \tab 25.3 \tab 25.6 \tab 25.9 \tab 26 \tab 26.3 \tab 26.4 \tab 26.7 \tab 26.8 \tab 26.9 \tab 27 \tab 27.4 \tab 28 \tab 28.3 \tab 28.5 \tab 28.7 \tab 28.8 \tab 28.9 \tab 29 \tab 29.1 \tab 29.2 \tab 29.3 \tab 29.6 \tab 29.7 \tab 29.8 \tab 29.9 \tab 30.2 \tab 30.3 \tab 30.5 \tab 30.7 \tab 30.8 \tab 30.9 \tab 31.2 \tab 31.3 \tab 31.7 \tab 31.8 \tab 32 \tab 32.1 \tab 32.2 \tab 32.3 \tab 32.4 \tab 33 \tab 33.1 \tab 33.2 \tab 33.4 \tab 33.5 \tab 33.6 \tab 33.7 \tab 34 \tab 34.1 \tab 34.4 \tab 34.5 \tab 34.9 \tab 35.2 \tab 35.3 \tab 35.4 \tab 35.5 \tab 35.6 \tab 35.7 \tab 35.8 \tab 36.2 \tab 36.3 \tab 36.6 \tab 37.3 \tab 37.5 \tab 37.6 \tab 37.7 \tab 37.9 \tab 38.2 \tab 38.4 \tab 38.5 \tab 38.6 \tab 38.7 \tab 38.8 \tab 38.9 \tab 39 \tab 39.2 \tab 39.4 \tab 39.5 \tab 39.7 \tab 39.8 \tab 39.9 \tab 40.5 \tab 40.6 \tab 40.7 \tab 40.8 \tab 41 \tab 41.2 \tab 41.4 \tab 41.5 \tab 41.6 \tab 41.7 \tab 42.4 \tab 42.5 \tab 42.6 \tab 42.8 \tab 43.2 \tab 43.3 \tab 43.4 \tab 43.6 \tab 43.7 \tab 43.8 \tab 43.9 \tab 44.1 \tab 44.2 \tab 44.4 \tab 44.5 \tab 44.6 \tab 44.7 \tab 44.9 \tab 45.2 \tab 45.3 \tab 45.4 \tab 45.5 \tab 45.7 \tab 45.9 \tab 46.3 \tab 46.4 \tab 46.7 \tab 46.9 \tab 47.1 \tab 47.5 \tab 47.6 \tab 47.7 \tab 47.8 \tab 47.9 \tab 48 \tab 48.3 \tab 48.6 \tab 49 \tab 49.1 \tab 49.5 \tab 49.7 \tab 50.2 \tab 50.4 \tab 50.7 \tab 50.9 \tab 51.8 \tab 51.9 \tab 52.2 \tab 52.3 \tab 52.4 \tab 52.5 \tab 52.8 \tab 53.7 \tab 53.8 \tab 54.2 \tab 55.3 \tab 55.5 \tab 55.8 \tab 56 \tab 56.3 \tab 56.4 \tab 57.3 \tab 58.3 \tab 59.5 \tab 59.6 \tab 60.1 \tab 60.5 \tab 60.6 \tab 60.7 \tab 60.8 \tab 60.9 \tab 61.3 \tab 61.7 \tab 62 \tab 62.5 \tab 62.6 \tab 62.7 \tab 63.6 \tab 63.7 \tab 64.1 \tab 64.6 \tab 65.3 \tab 65.5 \tab 66 \tab 67.1 \tab 67.4 \tab 67.9 \tab 68.1 \tab 68.2 \tab 68.5 \tab 68.8 \tab 69 \tab 69.3 \tab 69.7 \tab 70.3 \tab 70.4 \tab 70.9 \tab 71 \tab 71.2 \tab 71.9 \tab 73 \tab 76.4 \tab 76.7 \tab 8.5 \tab 88.4 \tab 9.3 \tab 9.8 \tab iap \tab 12.8 \tab 15 \tab 18.1 \tab 19.3 \tab 23.1 \tab 23.2 \tab 24.3 \tab 24.7 \tab 24.9 \tab 25.1 \tab 25.7 \tab 25.8 \tab 26.5 \tab 26.6 \tab 30.4 \tab 30.6 \tab 31 \tab 32.6 \tab 32.7 \tab 33.9 \tab 34.2 \tab 34.8 \tab 35.1 \tab 39.1 \tab 40.4 \tab 41.3 \tab 42.7 \tab 43 \tab 45 \tab 46 \tab 48.4 \tab 49.4 \tab 49.6 \tab 5.3 \tab 53.5 \tab 53.9 \tab 58 \tab 61.8 \tab 64.5 \tab 64.7 \tab 67 \tab 7.4 \tab 71.8 \tab 72.1 \tab 72.8 \tab 73.2 \tab 73.3 \tab 75.3 \tab 12.6 \tab 19 \tab 2.1 \tab 21 \tab 27.3 \tab 27.5 \tab 27.6 \tab 33.3 \tab 36 \tab 38.1 \tab 39.6 \tab 42.9 \tab 43.5 \tab 45.6 \tab 48.1 \tab 68.9 \tab 74.9 \tab 78 \tab 25.5 \tab 27.9 \tab 37.4 \tab 40.9 \tab 42.1 \tab 43.1 \tab 47.2 \tab 61.4 \tab 72 \tab 74.7 \tab 46.8 \tab 48.8 \tab 65.2 \tab 67.6 \tab 68 \tab 71.1 \tab 73.7 \tab 27.1 \tab 30 \tab 30.1 \tab 35 \tab 46.5 \tab 49.3 \tab 62.9 \tab 26.2 \tab 56.1 \tab 59.7 \tab 19.8 \tab 27.2 \tab 32.8 \tab 36.7 \tab 39.3 \tab 45.8 \tab 54.6 \tab 58.5 \tab 68.4 \tab 77.1 \tab 28.6 \tab 61.9 \tab 15.7 \tab 21.1 \tab 46.2 \tab 55.7 \tab 18.4 \tab 20.6 \tab 28.4 \tab 3.7 \tab 24 \tab 73.4 \tab 22.2 \tab 46.1 \tab 73.6 \tab 74.2 \tab 71.3 \tab 36.4 \tab 37.2 \tab not available in this year \tab Total \cr
@@ -57,22 +75,52 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1972 \tab -/-/- \tab full \cr
+   1973 \tab -/-/- \tab full \cr
+   1974 \tab -/-/- \tab full \cr
+   1975 \tab -/-/- \tab full \cr
+   1976 \tab -/-/- \tab full \cr
+   1977 \tab -/-/- \tab full \cr
+   1978 \tab -/-/- \tab full \cr
+   1980 \tab -/-/- \tab full \cr
+   1982 \tab -/-/- \tab full \cr
+   1983 \tab -/-/- \tab full \cr
+   1984 \tab -/-/- \tab full \cr
+   1985 \tab -/-/- \tab full \cr
+   1986 \tab -/-/- \tab full \cr
+   1987 \tab -/-/- \tab full \cr
+   1988 \tab A/B/C \tab full \cr
+   1989 \tab A/B/C \tab full \cr
+   1990 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{dotged}},
+\code{\link{dotpeop}},
+\code{\link{dotsvp}},
+\code{\link{dotthng}},
+\code{\link{spdotdat}},
+\code{\link{spdotged}},
+\code{\link{spdotpeo}},
+\code{\link{spdotsvp}},
+\code{\link{spdotthn}}
+
+Other D.O.T. Codes: 
+\code{\link{dotged}},
+\code{\link{dotpeop}},
+\code{\link{dotsvp}},
+\code{\link{dotthng}},
+\code{\link{spdotdat}},
+\code{\link{spdotged}},
+\code{\link{spdotpeo}},
+\code{\link{spdotsvp}},
+\code{\link{spdotthn}}
+}
+\concept{Core}
+\concept{D.O.T. Codes}
 \keyword{variable}

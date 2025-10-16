@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 socdif2
 }
 \details{
-Question 402. Here are different opinions about social differences in this country. Please tell me for each one whether you strongly agree, somewhat agree, somewhat disagree, or strongly disagree. b. Personal income should not be determined solely by one's work. Rather, everybody should get what he/she needs to provide a decent life to his/her family.
+Question Here are different opinions about social differences in this country. Please tell me for each one whether you strongly agree, somewhat agree, somewhat disagree, or strongly disagree.
+B. Personal income should not be determined solely by one's work.  Rather, everybody should get what he/she needs to provide a decent life to his/her family.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} agree strongly
+\item \code{2} agree
+\item \code{3} disagree
+\item \code{4} disagree strongly
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1175/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab agree \tab agree strongly \tab disagree \tab disagree strongly \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,26 +80,28 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} agree strongly
-\item \code{2} agree
-\item \code{3} disagree
-\item \code{4} disagree strongly
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1990 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Intergroup Relations: 
+\code{\link{socdif4}},
+\code{\link{whypoor1}},
+\code{\link{whypoor2}},
+\code{\link{whypoor3}},
+\code{\link{whypoor4}},
+\code{\link{wlthjews}},
+\code{\link{wlthwhts}}
+
+Other Inequality, Income: 
+\code{\link{socdif1}},
+\code{\link{socdif3}},
+\code{\link{socdif4}}
+}
+\concept{Inequality, Income}
+\concept{Intergroup Relations}
 \keyword{variable}

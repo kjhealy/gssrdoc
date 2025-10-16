@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 fenews
 }
 \details{
-Question 570. When reading, watching, or listening to the news, how often do you pay attention to issues that especially affect women?
+Question When reading, watching, or listening to the news, how often do you pay attention to issues that especially affect women - very often, fairly often, not too often, or never?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very often
+\item \code{2} fairly often
+\item \code{3} not too often
+\item \code{4} never
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1699/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab don't know \tab fairly often \tab never \tab no answer \tab not too often \tab very often \tab not available in this year \tab Total \cr
@@ -57,26 +79,36 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very often
-\item \code{2} fairly often
-\item \code{3} not too often
-\item \code{4} never
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Gender: 
+\code{\link{fehire}},
+\code{\link{fekids2}},
+\code{\link{fekids3}},
+\code{\link{fekids4}},
+\code{\link{fekids5}},
+\code{\link{feminist}},
+\code{\link{hmemaker}},
+\code{\link{mebear}},
+\code{\link{wrkclass}}
+
+Other Women: 
+\code{\link{fehire}},
+\code{\link{fekids2}},
+\code{\link{fekids3}},
+\code{\link{fekids4}},
+\code{\link{fekids5}},
+\code{\link{feminist}},
+\code{\link{hmemaker}},
+\code{\link{mebear}},
+\code{\link{wrkclass}}
+}
+\concept{Gender}
+\concept{Women}
 \keyword{variable}

@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 mtfarm3
 }
 \details{
-Question 1027l. Does the farm organization meet in this area?
+Question L. Does the farm organization meet in this area?
+3. Third farm organization
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes
+\item \code{2} no
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3271/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllll}{
    year \tab iap \tab no answer \tab yes \tab not available in this year \tab Total \cr
@@ -57,24 +78,41 @@ Counts by year:\tabular{llllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes
-\item \code{2} no
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Voluntary Assocations/Social Networks: 
+\code{\link{mtfarm1}},
+\code{\link{mtfarm2}},
+\code{\link{mtgreek2}},
+\code{\link{mtgreek3}},
+\code{\link{mtlit1}},
+\code{\link{mtlit2}},
+\code{\link{mtnat1}},
+\code{\link{mtnat2}},
+\code{\link{mtnat3}}
+
+Other Agriculture: 
+\code{\link{mtfarm1}},
+\code{\link{mtfarm2}}
+
+Other Voluntary Associations: 
+\code{\link{mtfarm1}},
+\code{\link{mtfarm2}},
+\code{\link{mtgreek2}},
+\code{\link{mtgreek3}},
+\code{\link{mtlit1}},
+\code{\link{mtlit2}},
+\code{\link{mtnat1}},
+\code{\link{mtnat2}},
+\code{\link{mtnat3}}
+}
+\concept{Agriculture}
+\concept{Voluntary Assocations/Social Networks}
+\concept{Voluntary Associations}
 \keyword{variable}

@@ -10,11 +10,38 @@ General Social Survey https://gss.norc.org
 numwomen
 }
 \details{
-Question 1548. Now thinking about the time since your 18th birthday(including the past 12 months) how many female partners have you had sex with.
+Question Now thinking about the time since your 18th birthday (including the past 12 months) how many female partners have you had sex with?
 }
+\section{Values}{
+
+\itemize{
+\item \code{989} 989 or more
+\item \code{990} dash or slash
+\item \code{991} 1 or more, number unknown
+\item \code{992} 'x'
+\item \code{993} garbled text
+\item \code{994} 'several'
+\item \code{995} 'many,' 'lots'
+\item \code{996} 'n.a.'
+\item \code{997} refused
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5060/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 'many,' 'lots' \tab 'several' \tab 0 \tab 1 \tab 10 \tab 100 \tab 12 \tab 125 \tab 13 \tab 14 \tab 15 \tab 16 \tab 165 \tab 17 \tab 175 \tab 18 \tab 2 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 253 \tab 27 \tab 28 \tab 3 \tab 30 \tab 300 \tab 35 \tab 36 \tab 4 \tab 40 \tab 45 \tab 47 \tab 5 \tab 50 \tab 56 \tab 6 \tab 7 \tab 70 \tab 75 \tab 8 \tab 80 \tab 9 \tab dash or slash \tab don't know \tab garbled text \tab no answer \tab 130 \tab 150 \tab 19 \tab 200 \tab 33 \tab refused \tab 'n.a.' \tab 'x' \tab 1 or more, number unknown \tab 101 \tab 11 \tab 145 \tab 34 \tab 68 \tab 90 \tab 120 \tab 250 \tab 26 \tab 32 \tab 403 \tab 60 \tab 167 \tab 42 \tab 450 \tab 500 \tab 52 \tab 53 \tab 61 \tab 63 \tab 65 \tab 89 \tab 989 or more \tab 137 \tab 138 \tab 147 \tab 210 \tab 270 \tab 280 \tab 29 \tab 66 \tab 85 \tab 37 \tab 41 \tab 59 \tab 350 \tab 86 \tab 140 \tab 325 \tab 38 \tab 39 \tab 55 \tab 57 \tab 77 \tab 82 \tab 103 \tab 123 \tab 48 \tab 700 \tab 73 \tab 88 \tab 105 \tab 121 \tab 122 \tab 201 \tab 301 \tab 31 \tab 43 \tab 51 \tab 54 \tab 69 \tab 170 \tab 240 \tab 46 \tab 62 \tab 127 \tab 400 \tab 49 \tab 58 \tab 750 \tab 222 \tab 74 \tab 87 \tab 84 \tab 115 \tab 255 \tab 380 \tab 96 \tab 110 \tab 132 \tab 205 \tab 311 \tab 76 \tab 420 \tab 95 \tab not available in this year \tab Total \cr
@@ -57,31 +84,44 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{989} 989 or more
-\item \code{990} dash or slash
-\item \code{991} 1 or more, number unknown
-\item \code{992} 'x'
-\item \code{993} garbled text
-\item \code{994} 'several'
-\item \code{995} 'many,' 'lots'
-\item \code{996} 'n.a.'
-\item \code{997} refused
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1989 \tab A/B/C \tab full \cr
+   1990 \tab A/B/C \tab full \cr
+   1991 \tab A/B/C \tab full \cr
+   1993 \tab A/B/C \tab full \cr
+   1994 \tab A/B/C \tab full \cr
+   1996 \tab A/B/C \tab full \cr
+   1998 \tab A/B/C \tab full \cr
+   2000 \tab A/B/C \tab full \cr
+   2002 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab B/C/- \tab partial \cr
+   2018 \tab B/C/- \tab partial \cr
+   2021 \tab B/C/- \tab partial \cr
+   2022 \tab B/C/- \tab partial \cr
 }
 }
 
+\seealso{
+Other High Risk Behaviors: 
+\code{\link{evpaidsx}},
+\code{\link{evstray}},
+\code{\link{nummen}},
+\code{\link{sexsex5}}
+
+Other Sex: 
+\code{\link{evpaidsx}},
+\code{\link{evstray}},
+\code{\link{nummen}},
+\code{\link{sexsex5}}
+}
+\concept{High Risk Behaviors}
+\concept{Sex}
 \keyword{variable}

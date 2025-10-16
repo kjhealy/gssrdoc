@@ -10,11 +10,36 @@ General Social Survey https://gss.norc.org
 neieth4
 }
 \details{
-Question 765. Now I'd like you to imagine a neighborhood that had an ethnic and racial mix you personally would feel most comfortable in. Here is a blank neighborhood card, which depicts some houses that surround your own. Using the letters A for Asian, B for Black, H for Hispanic or Latin American and W for White, please put a letter in each of these houses to represent your preferred neighborhood where you would most like to live. Please be sure to fill in all of the houses.
+Question Now Iâ€™d like you to imagine a neighborhood that had an ethnic and racial mix you personally would feel most comfortable in. Here is a blank neighborhood card, which depicts some houses that surround your own. Using the letters A for Asian, B for Black, H for Hispanic or Latin American and W for White, please put a letter in each of these houses to represent your preferred neighborhood where you would most like to live. Please be sure to fill in all ofthe houses.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} asian
+\item \code{2} black
+\item \code{3} hispanic
+\item \code{4} white
+\item \code{5} doesnt matter-dont care-race not important
+\item \code{6} rural-wants no neighbors
+\item \code{7} mixed race, 2 or more races in 1 hh
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2365/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab asian \tab black \tab doesnt matter-dont care-race not important \tab don't know \tab hispanic \tab mixed race, 2 or more races in 1 hh \tab no answer \tab rural-wants no neighbors \tab white \tab not available in this year \tab Total \cr
@@ -57,29 +82,36 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} asian
-\item \code{2} black
-\item \code{3} hispanic
-\item \code{4} white
-\item \code{5} doesnt matter-dont care-race not important
-\item \code{6} rural-wants no neighbors
-\item \code{7} mixed race, 2 or more races in 1 hh
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Multi-Ethnic United States: 
+\code{\link{leastcom}},
+\code{\link{neieth1}},
+\code{\link{neieth2}},
+\code{\link{neieth3}},
+\code{\link{neieth5}},
+\code{\link{neieth6}},
+\code{\link{neieth7}},
+\code{\link{neieth8}},
+\code{\link{neieth9}}
+
+Other Race: 
+\code{\link{leastcom}},
+\code{\link{neieth1}},
+\code{\link{neieth2}},
+\code{\link{neieth3}},
+\code{\link{neieth5}},
+\code{\link{neieth6}},
+\code{\link{neieth7}},
+\code{\link{neieth8}},
+\code{\link{neieth9}}
+}
+\concept{Multi-Ethnic United States}
+\concept{Race}
 \keyword{variable}

@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 nanotech
 }
 \details{
-Question Now for a few final questions about a different topic, a new form of technology called nanotechnology. 1081. How much have you heard about nanotechnology? Have you heard a lot, some, just a little, or nothing at all?
+Question How much have you heard about nanotechnology? Have you heard a lot, some, just a little, or nothing at all?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} a lot
+\item \code{2} some
+\item \code{3} just a little
+\item \code{4} nothing at all
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3445/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab a lot \tab don't know \tab just a little \tab no answer \tab nothing at all \tab some \tab not available in this year \tab Total \cr
@@ -57,26 +79,43 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} a lot
-\item \code{2} some
-\item \code{3} just a little
-\item \code{4} nothing at all
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab B/C/- \tab partial \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/C/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{artseals}},
+\code{\link{caremost}},
+\code{\link{inuitway}},
+\code{\link{nanoknw1}},
+\code{\link{nanoknw2}},
+\code{\link{nanowill}},
+\code{\link{noicecap}},
+\code{\link{penguins}},
+\code{\link{sealevel}}
+
+Other Knowledge: 
+\code{\link{nanoknw1}},
+\code{\link{nanoknw2}},
+\code{\link{nanowill}}
+
+Other Science: 
+\code{\link{artseals}},
+\code{\link{caremost}},
+\code{\link{inuitway}},
+\code{\link{nanoknw1}},
+\code{\link{nanoknw2}},
+\code{\link{nanowill}},
+\code{\link{noicecap}},
+\code{\link{sealevel}}
+}
+\concept{Knowledge}
+\concept{Science}
+\concept{Science Knowledge & Attitudes}
 \keyword{variable}

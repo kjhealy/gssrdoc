@@ -10,11 +10,40 @@ General Social Survey https://gss.norc.org
 hsmath
 }
 \details{
-Question 1050. Now, let me ask you to think about the courses you took in high school. What was the highest level of math that you completed in high school?
+Question Now, let me ask you to think about the courses you took in high school. What was the highest level of math that you completed in high school?
 }
+\section{Values}{
+
+\itemize{
+\item \code{0} no math in hs; didn't go to hs
+\item \code{1} general math, business, or vocational math
+\item \code{2} pre-algebra
+\item \code{3} one year of algebra
+\item \code{4} two years of algebra
+\item \code{5} geometry (plane or solid or both)
+\item \code{6} trigonometry/linear programming/analysis
+\item \code{7} pre-calculus
+\item \code{8} calculus
+\item \code{9} statistics/probability
+\item \code{10} other
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3351/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllll}{
    year \tab iap \tab calculus \tab don't know \tab general math, business, or vocational math \tab geometry (plane or solid or both) \tab no answer \tab no math in hs; didn't go to hs \tab one year of algebra \tab other \tab pre-algebra \tab pre-calculus \tab statistics/probability \tab trigonometry/linear programming/analysis \tab two years of algebra \tab not available in this year \tab Total \cr
@@ -57,33 +86,38 @@ Counts by year:\tabular{lllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{0} no math in hs; didn't go to hs
-\item \code{1} general math, business, or vocational math
-\item \code{2} pre-algebra
-\item \code{3} one year of algebra
-\item \code{4} two years of algebra
-\item \code{5} geometry (plane or solid or both)
-\item \code{6} trigonometry/linear programming/analysis
-\item \code{7} pre-calculus
-\item \code{8} calculus
-\item \code{9} statistics/probability
-\item \code{10} other
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab B/C/- \tab partial \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/C/- \tab partial \cr
+   2012 \tab B/C/- \tab partial \cr
+   2014 \tab B/C/- \tab partial \cr
+   2016 \tab A/B/- \tab partial \cr
+   2018 \tab A/B/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{colsci}},
+\code{\link{colscinm}},
+\code{\link{gwbiz}},
+\code{\link{gwpol}},
+\code{\link{gwsci}},
+\code{\link{hsbio}},
+\code{\link{hschem}},
+\code{\link{hsphys}},
+\code{\link{sciagrgw}}
+
+Other Education: 
+\code{\link{colsci}},
+\code{\link{colscinm}},
+\code{\link{hsbio}},
+\code{\link{hschem}},
+\code{\link{hsphys}}
+}
+\concept{Education}
+\concept{Science Knowledge & Attitudes}
 \keyword{variable}

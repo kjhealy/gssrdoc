@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 busing10
 }
 \details{
-Question 134b. Now, thinking about ten years ago, that is in 1972, did you then favor or oppose the busing of (negro/black) and white school children from one school district to another?
+Question B. Now, thinking about ten years ago, that is in 1972, did you then favor or oppose the busing of (Negro/Black) and white school children from one school district to another?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} favor
+\item \code{2} oppose
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/399/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab favor \tab no answer \tab oppose \tab not available in this year \tab Total \cr
@@ -57,24 +77,36 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} favor
-\item \code{2} oppose
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1982 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{busing}},
+\code{\link{color}},
+\code{\link{racchurh}},
+\code{\link{rachaf}},
+\code{\link{rachisch}},
+\code{\link{racjob}},
+\code{\link{racmost}},
+\code{\link{racname}},
+\code{\link{racpres}}
+
+Other Race: 
+\code{\link{busing}},
+\code{\link{color}},
+\code{\link{racchurh}},
+\code{\link{rachaf}},
+\code{\link{rachisch}},
+\code{\link{racjob}},
+\code{\link{racmost}},
+\code{\link{racname}},
+\code{\link{racpres}}
+}
+\concept{Core}
+\concept{Race}
 \keyword{variable}

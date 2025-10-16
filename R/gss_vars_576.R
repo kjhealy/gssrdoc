@@ -1,11 +1,191 @@
+#'  Points assigned to white
+#' 
+#'  racethwh
+#' 
+#' Question a.  White?  
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6351/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |0   |1  |10  |2  |3  |4  |5  |6  |7  |8  |9  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:-----|:---|:--|:---|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1613  |
+#'  |1973  |1504  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1504  |
+#'  |1974  |1484  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1484  |
+#'  |1975  |1490  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1490  |
+#'  |1976  |1499  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1499  |
+#'  |1977  |1530  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1530  |
+#'  |1978  |1532  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1532  |
+#'  |1980  |1468  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1468  |
+#'  |1982  |1860  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1860  |
+#'  |1983  |1599  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1599  |
+#'  |1984  |1473  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1473  |
+#'  |1985  |1534  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1534  |
+#'  |1986  |1470  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1470  |
+#'  |1987  |1819  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1819  |
+#'  |1988  |1481  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1481  |
+#'  |1989  |1537  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1537  |
+#'  |1990  |1372  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1372  |
+#'  |1991  |1517  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1517  |
+#'  |1993  |1606  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1606  |
+#'  |1994  |2992  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2992  |
+#'  |1996  |2904  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2904  |
+#'  |1998  |2832  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2832  |
+#'  |2000  |2817  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2817  |
+#'  |2002  |2765  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2765  |
+#'  |2004  |2812  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2812  |
+#'  |2006  |4510  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |4510  |
+#'  |2008  |2023  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2023  |
+#'  |2010  |2044  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2044  |
+#'  |2012  |1974  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1974  |
+#'  |2014  |2538  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2538  |
+#'  |2016  |1888  |259 |16 |545 |16 |9  |8  |35 |12 |13 |26 |22 |3          |15        |-                          |2867  |
+#'  |2018  |2348  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2348  |
+#'  |2021  |4032  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |4032  |
+#'  |2022  |-     |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3544                       |3544  |
+#'  |2024  |-     |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
+#'  |Total |67867 |259 |16 |545 |16 |9  |8  |35 |12 |13 |26 |22 |3          |15        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |C       |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Racial/Ethnic Identity
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name racethwh
+NULL
+
+
+#'  Points assigned to hispanic/latino
+#' 
+#'  racethhi
+#' 
+#' Question b.  Hispanic or Latino?  
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6352/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |0   |1  |10 |2  |3  |4  |5  |6  |7  |8  |9  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:-----|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1613  |
+#'  |1973  |1504  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1504  |
+#'  |1974  |1484  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1484  |
+#'  |1975  |1490  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1490  |
+#'  |1976  |1499  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1499  |
+#'  |1977  |1530  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1530  |
+#'  |1978  |1532  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1532  |
+#'  |1980  |1468  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1468  |
+#'  |1982  |1860  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1860  |
+#'  |1983  |1599  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1599  |
+#'  |1984  |1473  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1473  |
+#'  |1985  |1534  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1534  |
+#'  |1986  |1470  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1470  |
+#'  |1987  |1819  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1819  |
+#'  |1988  |1481  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1481  |
+#'  |1989  |1537  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1537  |
+#'  |1990  |1372  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1372  |
+#'  |1991  |1517  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1517  |
+#'  |1993  |1606  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1606  |
+#'  |1994  |2992  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2992  |
+#'  |1996  |2904  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2904  |
+#'  |1998  |2832  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2832  |
+#'  |2000  |2817  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2817  |
+#'  |2002  |2765  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2765  |
+#'  |2004  |2812  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2812  |
+#'  |2006  |4510  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |4510  |
+#'  |2008  |2023  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2023  |
+#'  |2010  |2044  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2044  |
+#'  |2012  |1974  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1974  |
+#'  |2014  |2538  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2538  |
+#'  |2016  |1888  |833 |6  |74 |8  |2  |10 |14 |4  |2  |4  |2  |5          |15        |-                          |2867  |
+#'  |2018  |2348  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2348  |
+#'  |2021  |4032  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |4032  |
+#'  |2022  |-     |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3544                       |3544  |
+#'  |2024  |-     |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
+#'  |Total |67867 |833 |6  |74 |8  |2  |10 |14 |4  |2  |4  |2  |5          |15        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |C       |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Racial/Ethnic Identity
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name racethhi
+NULL
+
+
 #'  Points assigned to black/african american
 #' 
 #'  racethbl
 #' 
-#' Question How would you describe your race and ethnicity using this 10-point system using the following choices: C. Black or African American
+#' Question c.  Black or African American?  
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6353/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +228,29 @@
 #'  |2024  |-     |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |67867 |779 |3  |103 |4  |3  |9  |11 |15 |12 |15 |5  |5          |15        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |C       |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Racial/Ethnic Identity
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name racethbl
+NULL
+
+
+#'  Points assigned to asian american
+#' 
+#'  racethas
+#' 
+#' Question d.  Asian American?  
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -63,22 +266,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name racethbl
-NULL
-
-#'  Points assigned to asian american
-#' 
-#'  racethas
-#' 
-#' Question How would you describe your race and ethnicity using this 10-point system using the following choices: D. Asian American
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6354/vshow).
 #'
 #' Counts by year: 
 #'
@@ -121,6 +310,29 @@ NULL
 #'  |2024  |-     |-   |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |67867 |931 |3  |14 |2  |1  |1  |6  |1  |5          |15        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |C       |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Racial/Ethnic Identity
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name racethas
+NULL
+
+
+#'  Points assigned to native american/american indian
+#' 
+#'  racethna
+#' 
+#' Question e.  Native American or American Indian?  
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -136,22 +348,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name racethas
-NULL
-
-#'  Points assigned to native american/american indian
-#' 
-#'  racethna
-#' 
-#' Question How would you describe your race and ethnicity using this 10-point system using the following choices: E. Native American or American Indian
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6355/vshow).
 #'
 #' Counts by year: 
 #'
@@ -194,6 +392,29 @@ NULL
 #'  |2024  |-     |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |67867 |823 |34 |6  |44 |18 |13 |16 |1  |2  |1  |1  |5          |15        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |C       |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Racial/Ethnic Identity
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name racethna
+NULL
+
+
+#'  Points assigned to other
+#' 
+#'  racethot
+#' 
+#' Question f.  Other?  
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -209,22 +430,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name racethna
-NULL
-
-#'  Points assigned to other
-#' 
-#'  racethot
-#' 
-#' Question How would you describe your race and ethnicity using this 10-point system using the following choices: F. Other
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6356/vshow).
 #'
 #' Counts by year: 
 #'
@@ -267,8 +474,39 @@ NULL
 #'  |2024  |-     |-   |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |67867 |905 |8  |19 |9  |5  |1  |11 |1  |5          |15        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |C       |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Racial/Ethnic Identity
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name racethot
+NULL
+
+
+#'  Specify other in racethot
+#' 
+#'  racethmn
+#' 
+#' Question In describing our background, we often ask someone which racial or ethnic groups best describes them. Imagine if we used instead a 10 point system where points are allocated to whichever racial or ethnic groups the respondent thinks accurately describes themselves. For example, if you think of yourself as just Latino, you would allocate all 10 points to Latino. Or if you think of yourself as mixed race, but more African American than white, you might allocate 6 or 7 points to black and 3 or 4 points to white. Thinking of your background in racial and ethnic terms ... How would you describe your race and ethnicity using this 10-point system using the following choices: G. Specified other ethnicities
+#' 
+#' 
 #' @section Values: 
 #' 
+#'   * `1` european
+#'   * `2` hispanic
+#'   * `3` african
+#'   * `4` east asian
+#'   * `5` native american
+#'   * `6` south asian
+#'   * `7` asian, not south or east
+#'   * `8` other
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -282,22 +520,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name racethot
-NULL
-
-#'  Specify other in racethot
-#' 
-#'  racethmn
-#' 
-#' Question How would you describe your race and ethnicity using this 10-point system using the following choices: G. Specified other ethnicities
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6649/vshow).
 #'
 #' Counts by year: 
 #'
@@ -340,16 +564,34 @@ NULL
 #'  |2024  |-     |-       |-                        |-          |-          |-        |-        |-         |-     |-           |3309                       |3309  |
 #'  |Total |67867 |1       |2                        |2          |6          |22       |2        |927       |12    |5           |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |C       |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name racethmn
+NULL
+
+
+#'  Is r us citizen
+#' 
+#'  uscitzn
+#' 
+#' Question If not born in US, is R a US citizen 
+#'  As of 2024, USCITZN has been recoded to simplify responses. It is now a synthetic variable which represents the original USCITZN, as well as the experimental USCITZNV and USCITZNNV. This recode is retroactive, covering all previous years of USCITZN. The original data have been preserved in USCITZN_0822. USCITZNV and USCITZNNV will not be made available in 2024.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` european
-#'   * `2` hispanic
-#'   * `3` african
-#'   * `4` east asian
-#'   * `5` native american
-#'   * `6` south asian
-#'   * `7` asian, not south or east
-#'   * `8` other
+#'   * `1` a u.s. citizen
+#'   * `2` not a u.s. citizen
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -363,22 +605,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name racethmn
-NULL
-
-#'  If not born in us, is r a us citizen
-#' 
-#'  uscitzn
-#' 
-#' Question Now we would like to ask you about U.S. citizenship. Are you... IF RESPONDENT SAYS S/HE IS "NATURALIZED," CODE "A U.S. CITIZEN."
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5283/vshow).
 #'
 #' Counts by year: 
 #'
@@ -421,10 +649,43 @@ NULL
 #'  |2024  |-                          |263            |3          |2859  |2         |172                |10             |3309  |
 #'  |Total |55052                      |1497           |19         |17930 |41        |1147               |13             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Ethnicity
+#' @family Citizenship
+#' 
+#' @keywords variable
+#' @md
+#' @name uscitzn
+NULL
+
+
+#'  Is r planning/appling for us citizenship or not
+#' 
+#'  fucitzn
+#' 
+#' Question Are youâ€¦
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` a u.s. citizen
-#'   * `2` not a u.s. citizen
+#'   * `1` currently applying for u.s. citizenship
+#'   * `2` planning to apply for u.s. citizenship
+#'   * `3` not planning to apply to u.s. citizenship
+#'   * `4` not eligible to become a u.s. citizen
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -438,22 +699,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name uscitzn
-NULL
-
-#'  Is r planning/appling for us citizenship or not
-#' 
-#'  fucitzn
-#' 
-#' Question Are you...
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5284/vshow).
 #'
 #' Counts by year: 
 #'
@@ -496,12 +743,39 @@ NULL
 #'  |2024  |-     |-                                       |-          |-         |-                                     |-                                         |-                                      |-                          |3309                          |3309  |
 #'  |Total |67412 |97                                      |12         |45        |94                                    |262                                       |436                                    |4032                       |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Ethnicity
+#' @family Citizenship
+#' @family Immigration
+#' 
+#' @keywords variable
+#' @md
+#' @name fucitzn
+NULL
+
+
+#'  Lived in u.s., years:
+#' 
+#'  yearsusa
+#' 
+#' Question How long have you lived in the United States? If you have lived in the United States for more than one period during your life, what is the total number of years you have lived in the United States? - Years
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` currently applying for u.s. citizenship
-#'   * `2` planning to apply for u.s. citizenship
-#'   * `3` not planning to apply to u.s. citizenship
-#'   * `4` not eligible to become a u.s. citizen
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -515,22 +789,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name fucitzn
-NULL
-
-#'  Lived in u.s., years:
-#' 
-#'  yearsusa
-#' 
-#' Question How long have you lived in the United States? If you have lived in the United States for more than one period during your life, what is the total number of years you have lived in the United States? A. Years in US
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7297/vshow).
 #'
 #' Counts by year: 
 #'
@@ -573,179 +833,21 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-              |3309                          |3309  |
 #'  |Total |71270 |16 |33 |10 |28 |21 |19 |34 |30 |14 |35 |28 |23 |51 |12 |26 |18 |20 |34 |17 |15 |12 |21 |28 |32 |12 |15 |17 |15 |17 |8  |13 |10 |9  |28 |27 |9  |14 |14 |9  |14 |9  |7  |38 |23 |5  |6  |9  |10 |5  |8  |2  |3  |23 |2  |4  |6  |2  |2  |18 |2  |2  |1  |27 |14 |1  |8         |11 |16 |4  |1  |5  |2  |3  |2  |2  |1  |3          |25             |3309                          |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
+#' 
 #' 
 #' @keywords variable
 #' @md
 #' @name yearsusa
 NULL
 
-#'  Lived in u.s., if less than one year 		months:
-#' 
-#'  mnthsusa
-#' 
-#' Question How long have you lived in the United States? If you have lived in the United States for more than one period during your life, what is the total number of years you have lived in the United States? B. (If less than 1 year) Months in US
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |1 month |10 |8  |9  |6  |don't know |no answer |skipped on web |11 months |2  |3  |5  |7  |not available in this release |Total |
-#'  |:-----|:-----|:-------|:--|:--|:--|:--|:----------|:---------|:--------------|:---------|:--|:--|:--|:--|:-----------------------------|:-----|
-#'  |1972  |1613  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1613  |
-#'  |1973  |1504  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1504  |
-#'  |1974  |1484  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1484  |
-#'  |1975  |1490  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1490  |
-#'  |1976  |1499  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1499  |
-#'  |1977  |1530  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1530  |
-#'  |1978  |1532  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1532  |
-#'  |1980  |1468  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1468  |
-#'  |1982  |1860  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1860  |
-#'  |1983  |1599  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1599  |
-#'  |1984  |1473  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1473  |
-#'  |1985  |1534  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1534  |
-#'  |1986  |1470  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1470  |
-#'  |1987  |1819  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1819  |
-#'  |1988  |1481  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1481  |
-#'  |1989  |1537  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1537  |
-#'  |1990  |1372  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1372  |
-#'  |1991  |1517  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1517  |
-#'  |1993  |1606  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1606  |
-#'  |1994  |2992  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |2992  |
-#'  |1996  |2904  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |2904  |
-#'  |1998  |2832  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |2832  |
-#'  |2000  |2817  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |2817  |
-#'  |2002  |2765  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |2765  |
-#'  |2004  |2812  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |2812  |
-#'  |2006  |4510  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |4510  |
-#'  |2008  |2023  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |2023  |
-#'  |2010  |2044  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |2044  |
-#'  |2012  |1974  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |1974  |
-#'  |2014  |2538  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |2538  |
-#'  |2016  |2867  |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |2867  |
-#'  |2018  |2344  |1       |1  |1  |1  |-  |-          |-         |-              |-         |-  |-  |-  |-  |-                             |2348  |
-#'  |2021  |3746  |1       |-  |1  |1  |1  |9          |2         |271            |-         |-  |-  |-  |-  |-                             |4032  |
-#'  |2022  |3520  |1       |1  |1  |2  |1  |2          |6         |4              |2         |1  |1  |1  |1  |-                             |3544  |
-#'  |2024  |-     |-       |-  |-  |-  |-  |-          |-         |-              |-         |-  |-  |-  |-  |3309                          |3309  |
-#'  |Total |72076 |3       |2  |3  |4  |2  |11         |8         |275            |2         |1  |1  |1  |1  |3309                          |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` 1 month
-#'   * `11` 11 months
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name mnthsusa
-NULL
-
-#'  Years in armed forces
-#' 
-#'  vetyears
-#' 
-#' Question 1604. Have you ever been on active duty for military training or service for two consecutive months or more? IF YES: What was your total time on active duty?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |no active duty |no answer |some, don't know how long |yes, 2-4 years |yes, less than 2 years |yes, more than 4 years |skipped on web |Total |
-#'  |:-----|:-----|:--------------|:---------|:-------------------------|:--------------|:----------------------|:----------------------|:--------------|:-----|
-#'  |1972  |1613  |-              |-         |-                         |-              |-                      |-                      |-              |1613  |
-#'  |1973  |1504  |-              |-         |-                         |-              |-                      |-                      |-              |1504  |
-#'  |1974  |-     |1142           |3         |5                         |184            |65                     |85                     |-              |1484  |
-#'  |1975  |-     |1162           |2         |-                         |189            |84                     |53                     |-              |1490  |
-#'  |1976  |1499  |-              |-         |-                         |-              |-                      |-                      |-              |1499  |
-#'  |1977  |-     |1188           |8         |-                         |198            |72                     |64                     |-              |1530  |
-#'  |1978  |-     |1205           |5         |-                         |184            |65                     |73                     |-              |1532  |
-#'  |1980  |1468  |-              |-         |-                         |-              |-                      |-                      |-              |1468  |
-#'  |1982  |-     |1543           |11        |-                         |190            |58                     |58                     |-              |1860  |
-#'  |1983  |-     |1301           |3         |-                         |181            |58                     |56                     |-              |1599  |
-#'  |1984  |-     |1205           |28        |-                         |136            |50                     |54                     |-              |1473  |
-#'  |1985  |-     |1236           |3         |-                         |175            |68                     |52                     |-              |1534  |
-#'  |1986  |1470  |-              |-         |-                         |-              |-                      |-                      |-              |1470  |
-#'  |1987  |1819  |-              |-         |-                         |-              |-                      |-                      |-              |1819  |
-#'  |1988  |493   |816            |6         |-                         |90             |35                     |41                     |-              |1481  |
-#'  |1989  |531   |820            |20        |-                         |87             |36                     |43                     |-              |1537  |
-#'  |1990  |444   |759            |11        |-                         |89             |36                     |33                     |-              |1372  |
-#'  |1991  |493   |865            |4         |-                         |86             |35                     |34                     |-              |1517  |
-#'  |1993  |526   |856            |58        |-                         |84             |40                     |42                     |-              |1606  |
-#'  |1994  |2485  |425            |2         |-                         |37             |17                     |26                     |-              |2992  |
-#'  |1996  |2904  |-              |-         |-                         |-              |-                      |-                      |-              |2904  |
-#'  |1998  |2832  |-              |-         |-                         |-              |-                      |-                      |-              |2832  |
-#'  |2000  |2817  |-              |-         |-                         |-              |-                      |-                      |-              |2817  |
-#'  |2002  |2765  |-              |-         |-                         |-              |-                      |-                      |-              |2765  |
-#'  |2004  |2812  |-              |-         |-                         |-              |-                      |-                      |-              |2812  |
-#'  |2006  |4510  |-              |-         |-                         |-              |-                      |-                      |-              |4510  |
-#'  |2008  |2023  |-              |-         |-                         |-              |-                      |-                      |-              |2023  |
-#'  |2010  |-     |1825           |1         |1                         |106            |48                     |63                     |-              |2044  |
-#'  |2012  |-     |1745           |3         |-                         |107            |49                     |70                     |-              |1974  |
-#'  |2014  |-     |2242           |1         |2                         |131            |66                     |96                     |-              |2538  |
-#'  |2016  |-     |2557           |7         |-                         |132            |60                     |111                    |-              |2867  |
-#'  |2018  |-     |2098           |3         |-                         |101            |55                     |91                     |-              |2348  |
-#'  |2021  |-     |3491           |78        |-                         |212            |87                     |144                    |20             |4032  |
-#'  |2022  |-     |3175           |10        |-                         |145            |73                     |131                    |10             |3544  |
-#'  |2024  |-     |2980           |2         |3                         |123            |63                     |123                    |15             |3309  |
-#'  |Total |35008 |34636          |269       |11                        |2967           |1220                   |1543                   |45             |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `0` no active duty
-#'   * `1` yes, less than 2 years
-#'   * `2` yes, 2-4 years
-#'   * `3` yes, more than 4 years
-#'   * `4` some, don't know how long
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name vetyears
-NULL
 

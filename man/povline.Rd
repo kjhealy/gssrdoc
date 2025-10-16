@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 povline
 }
 \details{
-Question 1576a. Poverty Status of Household
+Question A. Poverty Status of Household
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} poor
+\item \code{2} poor -- imputed
+\item \code{3} not poor
+\item \code{4} not poor -- imputed
+\item \code{5} borderline
+\item \code{6} borderline -- imputed
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5196/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab borderline \tab borderline -- imputed \tab not imputable \tab not poor \tab not poor -- imputed \tab poor \tab poor -- imputed \tab not available in this year \tab iap \tab Total \cr
@@ -57,28 +81,55 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} poor
-\item \code{2} poor -- imputed
-\item \code{3} not poor
-\item \code{4} not poor -- imputed
-\item \code{5} borderline
-\item \code{6} borderline -- imputed
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1972 \tab -/-/- \tab full \cr
+   1973 \tab -/-/- \tab full \cr
+   1974 \tab -/-/- \tab full \cr
+   1975 \tab -/-/- \tab full \cr
+   1976 \tab -/-/- \tab full \cr
+   1977 \tab -/-/- \tab full \cr
+   1978 \tab -/-/- \tab full \cr
+   1980 \tab -/-/- \tab full \cr
+   1982 \tab -/-/- \tab full \cr
+   1983 \tab -/-/- \tab full \cr
+   1984 \tab -/-/- \tab full \cr
+   1985 \tab -/-/- \tab full \cr
+   1986 \tab -/-/- \tab full \cr
+   1987 \tab -/-/- \tab full \cr
+   1988 \tab A/B/C \tab full \cr
+   1989 \tab A/B/C \tab full \cr
+   1990 \tab A/B/C \tab full \cr
+   1991 \tab A/B/C \tab full \cr
+   1993 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Income: 
+\code{\link{coninc}},
+\code{\link{conrinc}},
+\code{\link{incdef}},
+\code{\link{minfour}},
+\code{\link{realinc}},
+\code{\link{realrinc}}
+
+Other Household: 
+\code{\link{incdef}}
+
+Other Income: 
+\code{\link{coninc}},
+\code{\link{conrinc}},
+\code{\link{incdef}},
+\code{\link{minfour}},
+\code{\link{realinc}},
+\code{\link{realrinc}}
+
+Other Poverty: 
+\code{\link{incdef}}
+}
+\concept{Household}
+\concept{Income}
+\concept{Poverty}
 \keyword{variable}

@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 vote08
 }
 \details{
-Question In 2008, you remember that Obama ran for President on the Democratic ticket against McCain for the Republicans. Do you remember for sure whether or not you voted in that election?
+Question K. In 2008, you remember that Obama ran for President on the Democratic ticket against McCain for the Republicans. Do you remember for sure whether or not you voted in that election?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} voted
+\item \code{2} did not vote
+\item \code{3} ineligible
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/172/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab did not vote \tab don't know \tab ineligible \tab no answer \tab voted \tab not available in this year \tab Total \cr
@@ -57,25 +78,38 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} voted
-\item \code{2} did not vote
-\item \code{3} ineligible
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2010 \tab A/B/C \tab full \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{if00who}},
+\code{\link{if04who}},
+\code{\link{if96who}},
+\code{\link{pres00}},
+\code{\link{pres04}},
+\code{\link{pres08}},
+\code{\link{pres96}},
+\code{\link{vote00}},
+\code{\link{vote04}}
+
+Other Political: 
+\code{\link{if00who}},
+\code{\link{if04who}},
+\code{\link{if96who}},
+\code{\link{pres00}},
+\code{\link{pres04}},
+\code{\link{pres08}},
+\code{\link{pres96}},
+\code{\link{vote00}},
+\code{\link{vote04}}
+}
+\concept{Core}
+\concept{Political}
 \keyword{variable}

@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 buyesop
 }
 \details{
-Question If you were thinking of buying from a company, would you be influenced by whether the company was employee-owned? PLEASE READ THE DEFINITION OF EMPLOYEE-OWNED: Employee-owned is when a company is owned by all of its employees, with each employee having a share of ownership.
+Question If you were thinking of buying from a company, would you be influenced by whether the company was employee-owned?
+PLEASE READ THE DEFINITION OF EMPLOYEE-OWNED: Employee-owned is when a company is owned by all of its employees,
+with each employee having a share of ownership.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} i would be less likely to buy from an employee-owned company
+\item \code{2} i would be neither more nor less likely to buy from an employee-owned company
+\item \code{3} i would be more likely to buy from an employee-owned company
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7225/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab don't know \tab i would be less likely to buy from an employee-owned company \tab i would be more likely to buy from an employee-owned company \tab i would be neither more nor less likely to buy from an employee-owned company \tab no answer \tab not available in this year \tab Total \cr
@@ -57,24 +80,10 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} i would be less likely to buy from an employee-owned company
-\item \code{2} i would be neither more nor less likely to buy from an employee-owned company
-\item \code{3} i would be more likely to buy from an employee-owned company
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2018 \tab A/B/C \tab full \cr
 }
 }
 

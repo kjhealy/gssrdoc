@@ -10,11 +10,39 @@ General Social Survey https://gss.norc.org
 pres92
 }
 \details{
-Question 63a. If voted: Did you vote for Clinton, Bush,or Perot?
+Question G. In 1992, you remember that Clinton ran for President on the Democratic ticket against Bush for the Republicans and Perot as an Independent.
+Do you remember for sure whether or not you voted in that election?
+\enumerate{
+\item IF VOTED:
+Did you vote for Clinton, Bush, or Perot?
 }
+}
+\section{Values}{
+
+\itemize{
+\item \code{1} clinton
+\item \code{2} bush
+\item \code{3} perot
+\item \code{4} other
+\item \code{6} no pres. vote
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/161/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab bush \tab clinton \tab don't know \tab no answer \tab no pres. vote \tab other \tab perot \tab not available in this year \tab Total \cr
@@ -57,27 +85,39 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} clinton
-\item \code{2} bush
-\item \code{3} perot
-\item \code{4} other
-\item \code{6} no pres. vote
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1993 \tab A/B/C \tab full \cr
+   1994 \tab A/B/C \tab full \cr
+   1996 \tab A/B/C \tab full \cr
+   1998 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{if84who}},
+\code{\link{if88who}},
+\code{\link{if92who}},
+\code{\link{pres84}},
+\code{\link{pres88}},
+\code{\link{vote84}},
+\code{\link{vote88}},
+\code{\link{vote92}},
+\code{\link{vote96}}
+
+Other Political: 
+\code{\link{if84who}},
+\code{\link{if88who}},
+\code{\link{if92who}},
+\code{\link{pres84}},
+\code{\link{pres88}},
+\code{\link{vote84}},
+\code{\link{vote88}},
+\code{\link{vote92}},
+\code{\link{vote96}}
+}
+\concept{Core}
+\concept{Political}
 \keyword{variable}

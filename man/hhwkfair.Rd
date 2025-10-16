@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 hhwkfair
 }
 \details{
-Question 1311. Which of the following best applies to the sharing of household work between you and your spouse/partner?
+Question Which of the following best applies to the sharing of household work between you and your spouse/partner?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} i do much more than my fair share of hh work
+\item \code{2} i do a bit more than my fair share of hh work
+\item \code{3} i do roughly my fair share of hh work
+\item \code{4} i do a bit less than my fair share of hh work
+\item \code{5} i do much less than my fair share of hh work
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4437/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab don't know \tab i do a bit less than my fair share of hh work \tab i do a bit more than my fair share of hh work \tab i do much less than my fair share of hh work \tab i do much more than my fair share of hh work \tab i do roughly my fair share of hh work \tab no answer \tab not available in this year \tab Total \cr
@@ -57,27 +80,35 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} i do much more than my fair share of hh work
-\item \code{2} i do a bit more than my fair share of hh work
-\item \code{3} i do roughly my fair share of hh work
-\item \code{4} i do a bit less than my fair share of hh work
-\item \code{5} i do much less than my fair share of hh work
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
+   2012 \tab A/B/- \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Family & Gender Roles: 
+\code{\link{caresik1}},
+\code{\link{clean1}},
+\code{\link{cooking1}},
+\code{\link{deckids}},
+\code{\link{hhwkdis}},
+\code{\link{rhhwork}},
+\code{\link{shop1}},
+\code{\link{spborn}},
+\code{\link{sphhwork}}
+
+Other Household: 
+\code{\link{caresik1}},
+\code{\link{clean1}},
+\code{\link{cooking1}},
+\code{\link{hhwkdis}},
+\code{\link{rhhwork}},
+\code{\link{shop1}},
+\code{\link{sphhwork}}
+}
+\concept{Household}
+\concept{ISSP Family & Gender Roles}
 \keyword{variable}

@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 wrkwell
 }
 \details{
-Question 451. Compared to other pepole who do the same or similar kind of work that you do, how well would you say you do your job?
+Question Compared to other people who do the same or similar kind of work that you do, how well would you say you do your job?  Would you say much better, somewhat better, about the same, somewhat worse or much worse?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} much better
+\item \code{2} somewhat better
+\item \code{3} about same
+\item \code{4} somewhat worse
+\item \code{5} much worse
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1338/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab about same \tab don't know \tab much better \tab no answer \tab somewhat better \tab somewhat worse \tab not available in this year \tab Total \cr
@@ -57,27 +80,36 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} much better
-\item \code{2} somewhat better
-\item \code{3} about same
-\item \code{4} somewhat worse
-\item \code{5} much worse
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1991 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Work Organizations: 
+\code{\link{jobjudge}},
+\code{\link{orgmoney}},
+\code{\link{othduty5}},
+\code{\link{othduty6}},
+\code{\link{othduty7}},
+\code{\link{quality}},
+\code{\link{quantity}},
+\code{\link{totmoney}},
+\code{\link{youmoney}}
+
+Other Work: 
+\code{\link{jobjudge}},
+\code{\link{orgmoney}},
+\code{\link{othduty5}},
+\code{\link{othduty6}},
+\code{\link{othduty7}},
+\code{\link{quality}},
+\code{\link{quantity}},
+\code{\link{totmoney}},
+\code{\link{youmoney}}
+}
+\concept{Work}
+\concept{Work Organizations}
 \keyword{variable}

@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 bored
 }
 \details{
-Question 285a. If sometimes or never: How often would you say you have time on your hands that you don't know what to do with?
+Question In general, how do you feel about your time--would you say you always feel rushed even to do things you have to do, Only sometimes feel rushed, or almost never feel rushed.
+A. How often would you say you have time on your hands that you don't know what to do with--quite often, just now and then, or almost never?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} quite often
+\item \code{2} now and then
+\item \code{3} almost never
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/775/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab almost never \tab no answer \tab now and then \tab quite often \tab don't know \tab not available in this year \tab Total \cr
@@ -57,25 +79,30 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} quite often
-\item \code{2} now and then
-\item \code{3} almost never
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1982 \tab -/- \tab full \cr
+   2004 \tab B/C \tab partial \cr
+   2016 \tab C/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{civic}},
+\code{\link{feserve}},
+\code{\link{imppol}},
+\code{\link{meserve}},
+\code{\link{pollgood}},
+\code{\link{polltrue}},
+\code{\link{privacy}},
+\code{\link{rushed}},
+\code{\link{stresswk}}
+
+Other Time: 
+\code{\link{rushed}}
+}
+\concept{Core}
+\concept{Time}
 \keyword{variable}

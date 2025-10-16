@@ -1,11 +1,203 @@
+#'  Have japanese positive contribution to country
+#' 
+#'  contjpn
+#' 
+#' Question Since the beginning of our country, people of many different races, nationalities, and religions have come here. and settled. As I name some of these groups please tell me if the group has made one of the most important positive contributions to this country, an important contribution, some contribution, or little positive contribution to this community. 
+#' K. Japanese?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` most important contribution
+#'   * `2` important contribution
+#'   * `3` some contribution
+#'   * `4` little positive contribution
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2281/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |important contribution |little positive contribution |most important contribution |no answer |some contribution |not available in this year |Total |
+#'  |:-----|:-----|:----------|:----------------------|:----------------------------|:---------------------------|:---------|:-----------------|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-                      |-                            |-                           |-         |-                 |-                          |1613  |
+#'  |1973  |1504  |-          |-                      |-                            |-                           |-         |-                 |-                          |1504  |
+#'  |1974  |1484  |-          |-                      |-                            |-                           |-         |-                 |-                          |1484  |
+#'  |1975  |1490  |-          |-                      |-                            |-                           |-         |-                 |-                          |1490  |
+#'  |1976  |1499  |-          |-                      |-                            |-                           |-         |-                 |-                          |1499  |
+#'  |1977  |1530  |-          |-                      |-                            |-                           |-         |-                 |-                          |1530  |
+#'  |1978  |1532  |-          |-                      |-                            |-                           |-         |-                 |-                          |1532  |
+#'  |1980  |1468  |-          |-                      |-                            |-                           |-         |-                 |-                          |1468  |
+#'  |1982  |1860  |-          |-                      |-                            |-                           |-         |-                 |-                          |1860  |
+#'  |1983  |1599  |-          |-                      |-                            |-                           |-         |-                 |-                          |1599  |
+#'  |1984  |1473  |-          |-                      |-                            |-                           |-         |-                 |-                          |1473  |
+#'  |1985  |1534  |-          |-                      |-                            |-                           |-         |-                 |-                          |1534  |
+#'  |1986  |1470  |-          |-                      |-                            |-                           |-         |-                 |-                          |1470  |
+#'  |1987  |1819  |-          |-                      |-                            |-                           |-         |-                 |-                          |1819  |
+#'  |1988  |1481  |-          |-                      |-                            |-                           |-         |-                 |-                          |1481  |
+#'  |1989  |1537  |-          |-                      |-                            |-                           |-         |-                 |-                          |1537  |
+#'  |1990  |1372  |-          |-                      |-                            |-                           |-         |-                 |-                          |1372  |
+#'  |1991  |1517  |-          |-                      |-                            |-                           |-         |-                 |-                          |1517  |
+#'  |1993  |1606  |-          |-                      |-                            |-                           |-         |-                 |-                          |1606  |
+#'  |1994  |2992  |-          |-                      |-                            |-                           |-         |-                 |-                          |2992  |
+#'  |1996  |2904  |-          |-                      |-                            |-                           |-         |-                 |-                          |2904  |
+#'  |1998  |2832  |-          |-                      |-                            |-                           |-         |-                 |-                          |2832  |
+#'  |2000  |1419  |162        |449                    |191                          |106                         |8         |482               |-                          |2817  |
+#'  |2002  |2765  |-          |-                      |-                            |-                           |-         |-                 |-                          |2765  |
+#'  |2004  |2812  |-          |-                      |-                            |-                           |-         |-                 |-                          |2812  |
+#'  |2006  |4510  |-          |-                      |-                            |-                           |-         |-                 |-                          |4510  |
+#'  |2008  |2023  |-          |-                      |-                            |-                           |-         |-                 |-                          |2023  |
+#'  |2010  |2044  |-          |-                      |-                            |-                           |-         |-                 |-                          |2044  |
+#'  |2012  |1974  |-          |-                      |-                            |-                           |-         |-                 |-                          |1974  |
+#'  |2014  |2538  |-          |-                      |-                            |-                           |-         |-                 |-                          |2538  |
+#'  |2016  |2867  |-          |-                      |-                            |-                           |-         |-                 |-                          |2867  |
+#'  |2018  |2348  |-          |-                      |-                            |-                           |-         |-                 |-                          |2348  |
+#'  |2021  |4032  |-          |-                      |-                            |-                           |-         |-                 |-                          |4032  |
+#'  |2022  |-     |-          |-                      |-                            |-                           |-         |-                 |3544                       |3544  |
+#'  |2024  |-     |-          |-                      |-                            |-                           |-         |-                 |3309                       |3309  |
+#'  |Total |67448 |162        |449                    |191                          |106                         |8         |482               |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Multi-Ethnic United States
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name contjpn
+NULL
+
+
+#'  Have muslims positive contribution to country
+#' 
+#'  contmslm
+#' 
+#' Question Since the beginning of our country, people of many different races, nationalities, and religions have come here. and settled. As I name some of these groups please tell me if the group has made one of the most important positive contributions to this country, an important contribution, some contribution, or little positive contribution to this community. 
+#' L. Muslims?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` most important contribution
+#'   * `2` important contribution
+#'   * `3` some contribution
+#'   * `4` little positive contribution
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2282/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |important contribution |little positive contribution |most important contribution |no answer |some contribution |not available in this year |Total |
+#'  |:-----|:-----|:----------|:----------------------|:----------------------------|:---------------------------|:---------|:-----------------|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-                      |-                            |-                           |-         |-                 |-                          |1613  |
+#'  |1973  |1504  |-          |-                      |-                            |-                           |-         |-                 |-                          |1504  |
+#'  |1974  |1484  |-          |-                      |-                            |-                           |-         |-                 |-                          |1484  |
+#'  |1975  |1490  |-          |-                      |-                            |-                           |-         |-                 |-                          |1490  |
+#'  |1976  |1499  |-          |-                      |-                            |-                           |-         |-                 |-                          |1499  |
+#'  |1977  |1530  |-          |-                      |-                            |-                           |-         |-                 |-                          |1530  |
+#'  |1978  |1532  |-          |-                      |-                            |-                           |-         |-                 |-                          |1532  |
+#'  |1980  |1468  |-          |-                      |-                            |-                           |-         |-                 |-                          |1468  |
+#'  |1982  |1860  |-          |-                      |-                            |-                           |-         |-                 |-                          |1860  |
+#'  |1983  |1599  |-          |-                      |-                            |-                           |-         |-                 |-                          |1599  |
+#'  |1984  |1473  |-          |-                      |-                            |-                           |-         |-                 |-                          |1473  |
+#'  |1985  |1534  |-          |-                      |-                            |-                           |-         |-                 |-                          |1534  |
+#'  |1986  |1470  |-          |-                      |-                            |-                           |-         |-                 |-                          |1470  |
+#'  |1987  |1819  |-          |-                      |-                            |-                           |-         |-                 |-                          |1819  |
+#'  |1988  |1481  |-          |-                      |-                            |-                           |-         |-                 |-                          |1481  |
+#'  |1989  |1537  |-          |-                      |-                            |-                           |-         |-                 |-                          |1537  |
+#'  |1990  |1372  |-          |-                      |-                            |-                           |-         |-                 |-                          |1372  |
+#'  |1991  |1517  |-          |-                      |-                            |-                           |-         |-                 |-                          |1517  |
+#'  |1993  |1606  |-          |-                      |-                            |-                           |-         |-                 |-                          |1606  |
+#'  |1994  |2992  |-          |-                      |-                            |-                           |-         |-                 |-                          |2992  |
+#'  |1996  |2904  |-          |-                      |-                            |-                           |-         |-                 |-                          |2904  |
+#'  |1998  |2832  |-          |-                      |-                            |-                           |-         |-                 |-                          |2832  |
+#'  |2000  |1419  |286        |202                    |406                          |32                          |10        |462               |-                          |2817  |
+#'  |2002  |2765  |-          |-                      |-                            |-                           |-         |-                 |-                          |2765  |
+#'  |2004  |2812  |-          |-                      |-                            |-                           |-         |-                 |-                          |2812  |
+#'  |2006  |4510  |-          |-                      |-                            |-                           |-         |-                 |-                          |4510  |
+#'  |2008  |2023  |-          |-                      |-                            |-                           |-         |-                 |-                          |2023  |
+#'  |2010  |2044  |-          |-                      |-                            |-                           |-         |-                 |-                          |2044  |
+#'  |2012  |1974  |-          |-                      |-                            |-                           |-         |-                 |-                          |1974  |
+#'  |2014  |2538  |-          |-                      |-                            |-                           |-         |-                 |-                          |2538  |
+#'  |2016  |2867  |-          |-                      |-                            |-                           |-         |-                 |-                          |2867  |
+#'  |2018  |2348  |-          |-                      |-                            |-                           |-         |-                 |-                          |2348  |
+#'  |2021  |4032  |-          |-                      |-                            |-                           |-         |-                 |-                          |4032  |
+#'  |2022  |-     |-          |-                      |-                            |-                           |-         |-                 |3544                       |3544  |
+#'  |2024  |-     |-          |-                      |-                            |-                           |-         |-                 |3309                       |3309  |
+#'  |Total |67448 |286        |202                    |406                          |32                          |10        |462               |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Multi-Ethnic United States
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name contmslm
+NULL
+
+
 #'  Can r speak language other than english/spanish
 #' 
 #'  othlang
 #' 
-#' Question 739a. Can you speak a language other than English?
+#' Question A. Can you speak a language other than English (Spanish)?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2283/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,10 +240,234 @@
 #'  |2024  |-     |2393  |-         |904  |-          |12             |3309  |
 #'  |Total |46814 |20728 |43        |8013 |2          |99             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Multi-Ethnic United States
+#' @family Language
+#' 
+#' @keywords variable
+#' @md
+#' @name othlang
+NULL
+
+
+#'  What other languages does r speak
+#' 
+#'  othlang1
+#' 
+#' Question B. What other language(s) do you speak?  First response.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` english
+#'   * `2` spanish
+#'   * `3` polish
+#'   * `4` french
+#'   * `5` hebrew
+#'   * `6` russian
+#'   * `7` tagalog
+#'   * `8` chinese
+#'   * `9` urdu
+#'   * `10` italian
+#'   * `11` romanian
+#'   * `12` german
+#'   * `13` pashtu
+#'   * `14` chamorro
+#'   * `15` ukranian
+#'   * `16` hungarian
+#'   * `17` turkish
+#'   * `18` khmer
+#'   * `19` korean
+#'   * `20` navajo
+#'   * `21` malayam
+#'   * `22` arabic
+#'   * `23` farsi/persian
+#'   * `24` serbian
+#'   * `25` lithuanian
+#'   * `27` thai
+#'   * `28` gujarati
+#'   * `30` dari
+#'   * `31` slovak
+#'   * `32` japanese
+#'   * `33` portuguese
+#'   * `34` vajun
+#'   * `35` yiddish
+#'   * `36` creole
+#'   * `37` vietnamese
+#'   * `38` norwegian
+#'   * `39` malaysian
+#'   * `40` latin
+#'   * `41` czech
+#'   * `42` hindi
+#'   * `43` hakka
+#'   * `44` swedish
+#'   * `45` vesaya
+#'   * `46` sign language
+#'   * `47` tongan
+#'   * `48` armenian
+#'   * `49` ibo
+#'   * `50` dutch
+#'   * `51` cherokee
+#'   * `52` samoan
+#'   * `53` yoruba
+#'   * `54` greek
+#'   * `55` lakota
+#'   * `56` african
+#'   * `57` anishnabee
+#'   * `58` ilokand
+#'   * `59` assyrian
+#'   * `60` danish
+#'   * `61` laotian
+#'   * `62` finnish
+#'   * `63` mohawk
+#'   * `64` amharic
+#'   * `65` bengali
+#'   * `66` oriya
+#'   * `67` hawaiian
+#'   * `68` albanian
+#'   * `69` hmong
+#'   * `70` indonesian
+#'   * `71` swahili
+#'   * `72` telugu
+#'   * `73` kannada
+#'   * `74` bulgarian
+#'   * `75` guarani
+#'   * `76` bosnian
+#'   * `77` punjabi
+#'   * `78` latvian
+#'   * `79` basque
+#'   * `80` bikol/bicolano
+#'   * `81` croatian
+#'   * `82` romani
+#'   * `83` slovenian
+#'   * `84` belgian
+#'   * `85` mandingo
+#'   * `86` jamaican
+#'   * `87` somali
+#'   * `88` other native american language
+#'   * `89` tigrinya
+#'   * `90` krio
+#'   * `91` unspecified asian indian language
+#'   * `92` cebuano
+#'   * `93` macedonian
+#'   * `94` patois
+#'   * `95` pangasinan
+#'   * `96` ilocano
+#'   * `97` marathi
+#'   * `98` kashmiri
+#'   * `99` tamil
+#'   * `100` akan
+#'   * `101` ethiopian
+#'   * `102` georgian
+#'   * `103` yugoslavian
+#'   * `104` irish
+#'   * `105` catalan
+#'   * `106` mixtec
+#'   * `107` garifuna
+#'   * `108` fang
+#'   * `109` apache
+#'   * `110` bassa
+#'   * `111` efik
+#'   * `112` twi
+#'   * `113` maltese
+#'   * `114` zuni
+#'   * `115` ga
+#'   * `116` mina
+#'   * `117` surinamese
+#'   * `118` yaqui
+#'   * `119` quechua
+#'   * `120` tok pisin
+#'   * `121` pima
+#'   * `122` lingala
+#'   * `123` otomi
+#'   * `124` chindali
+#'   * `125` tibetan
+#'   * `126` oromo
+#'   * `127` nepali
+#'   * `128` eskimo
+#'   * `129` mam
+#'   * `130` choctaw
+#'   * `131` ashanti
+#'   * `132` burmese
+#'   * `133` hewa
+#'   * `134` sango
+#'   * `135` chitumbuka
+#'   * `136` maratsi
+#'   * `137` yemba
+#'   * `138` k'iche'
+#'   * `139` fante
+#'   * `140` sinhalase
+#'   * `141` icelandic
+#'   * `142` maricopa
+#'   * `143` quechan
+#'   * `144` pohnpeian
+#'   * `145` luganda
+#'   * `146` shona
+#'   * `147` urhobo
+#'   * `148` colville tribe
+#'   * `149` chickasau
+#'   * `150` dakota
+#'   * `151` hokkien
+#'   * `152` wolof
+#'   * `153` ewe
+#'   * `154` igbo
+#'   * `155` luhya
+#'   * `156` black feet
+#'   * `157` inupiaq
+#'   * `158` paiute
+#'   * `159` afrikaans
+#'   * `160` kaien
+#'   * `161` shawnee
+#'   * `162` welsh
+#'   * `163` chuj
+#'   * `164` oremagna
+#'   * `165` kaugel
+#'   * `166` sanskrit
+#'   * `167` hausa
+#'   * `168` aramaic
+#'   * `169` chuukese
+#'   * `170` dagbani
+#'   * `171` fijian
+#'   * `172` kapampagng
+#'   * `173` kinyarwanda
+#'   * `174` doric
+#'   * `175` sesotho
+#'   * `176` sousou
+#'   * `177` estonian
+#'   * `178` ebon
+#'   * `179` chibemba
+#'   * `180` chewa
+#'   * `181` gusii
+#'   * `182` gun
+#'   * `183` nuer
+#'   * `184` oro
+#'   * `185` kamba
+#'   * `186` huichol
+#'   * `187` papiamento
+#'   * `188` hiligaynon
+#'   * `189` mongolian
+#'   * `190` bunong
+#'   * `191` kikuyu
+#'   * `192` konkani
+#'   * `193` mende
+#'   * `194` naija
+#'   * `195` wendish
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -65,22 +481,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name othlang
-NULL
-
-#'  What other languages does r speak
-#' 
-#'  othlang1
-#' 
-#' Question 739b. What other language(s) do you speak?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2284/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,6 +525,38 @@ NULL
 #'  |2024  |-     |-       |-      |-        |-        |-        |-       |-      |-      |-     |-             |-       |-      |-      |-     |-      |-     |-         |-   |-       |-       |-        |-      |-       |-          |-      |-      |-      |-          |-       |-      |-       |-             |-      |-       |-       |-       |-     |-      |-       |-          |-       |-       |-       |-       |-         |-        |-     |-       |-        |-        |-     |-    |-      |-     |-       |-        |-         |-     |-                              |-       |-      |-        |-      |-       |-      |-    |-        |-                                 |-    |-      |-          |-         |-         |-      |-    |-         |-        |-     |-           |-     |-       |-    |-       |-       |-       |-   |-        |-       |-    |-      |-       |-       |-   |-      |-      |-     |-     |-      |-    |-       |-       |-         |-        |-         |-              |-      |-          |-     |-         |-          |-     |-        |-       |-       |-        |-         |-       |-     |-         |-        |-      |-       |-       |-    |-    |-       |-     |-      |-       |-     |-    |-         |-        |-       |-     |-           |-       |-              |-         |-      |-        |-        |-    |3309                          |3309  |
 #'  |Total |65245 |6       |69     |8        |3        |4        |177     |50     |5      |23    |20            |7       |657    |482    |38    |62     |96    |10        |3   |2       |167     |94       |72     |7       |7          |1      |13     |60     |84         |94      |3      |10      |89            |9      |3542    |8       |88      |26    |2      |13      |43         |10      |9       |2       |13      |5         |4        |7     |389     |12       |11       |14    |2    |5      |16    |10      |2        |13        |1     |7                              |10      |1      |21       |5      |8       |13     |11   |12       |9                                 |22   |11     |1          |3         |75        |6      |4    |1         |1        |4     |1           |1     |2       |1    |1       |2       |1       |14  |1        |1       |3    |1      |5       |1       |2   |1      |4      |1     |1     |3      |4    |1       |1       |1         |2        |1         |1              |4      |1          |1     |1         |3          |5     |7        |5       |3       |2        |1         |1       |1     |2         |2        |1      |1       |1       |1    |4    |1       |2     |1      |1       |1     |1    |3         |1        |1       |1     |1           |1       |116            |1         |1      |1        |1        |1    |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Multi-Ethnic United States
+#' @family Language
+#' 
+#' @keywords variable
+#' @md
+#' @name othlang1
+NULL
+
+
+#'  What other languages does r speak
+#' 
+#'  othlang2
+#' 
+#' Question C. What other language(s) do you speak?  Second response.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` english
@@ -331,22 +765,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name othlang1
-NULL
-
-#'  What other languages does r speak
-#' 
-#'  othlang2
-#' 
-#' Question 739b. What other language(s) do you speak?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2285/vshow).
 #'
 #' Counts by year: 
 #'
@@ -389,271 +809,37 @@ NULL
 #'  |2024  |-     |-       |-          |-      |-       |-      |-     |-             |-      |-      |-     |-      |-     |-         |-       |-      |-      |-       |-      |-             |-       |-     |-        |-          |-       |-      |-      |-              |-       |-       |-        |-       |-       |-        |-          |-        |-        |-       |-        |-      |-    |-     |-       |-          |-       |-      |-         |-       |-       |-      |-    |-        |-       |-         |-     |-        |-       |-       |-         |-          |-      |-       |-        |-       |-      |-          |-    |-        |-     |-     |-      |-      |-       |-     |-  |-       |-    |-                              |-      |-          |-    |-     |-       |-       |-          |-    |-       |-       |-        |-     |-      |-       |-   |-     |-          |-        |-   |-        |-       |-    |-     |-      |-     |-       |-    |-     |-   |-      |-         |-         |-        |-        |-    |-       |-      |-       |-          |-       |-              |-        |-     |-   |-     |-       |-          |-                                 |3309                          |3309  |
 #'  |Total |69477 |5       |1          |42     |46      |16     |11    |7             |269    |156    |7     |23     |49    |8         |94      |2      |2      |52      |3      |47            |421     |9     |10       |10         |10      |3      |4      |3              |3       |3       |1        |77      |1       |3        |3          |1        |57       |5       |4        |6      |1    |11    |1       |44         |13      |1      |1         |7       |13      |9      |8    |3        |5       |1         |3     |11       |1       |5       |105       |1          |10     |5       |3        |2       |3      |2          |1    |1        |4     |1     |1      |2      |9       |1     |2  |6       |1    |3                              |3      |1          |3    |1     |2       |2       |1          |1    |3       |1       |3        |1     |1      |6       |2   |1     |1          |2        |2   |1        |2       |2    |1     |2      |1     |1       |1    |2     |1   |1      |2         |2         |1        |1        |1    |1       |2      |2       |1          |2       |1064           |1        |1     |1   |1     |1       |1          |1                                 |3309                          |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` english
-#'   * `2` spanish
-#'   * `3` polish
-#'   * `4` french
-#'   * `5` hebrew
-#'   * `6` russian
-#'   * `7` tagalog
-#'   * `8` chinese
-#'   * `9` urdu
-#'   * `10` italian
-#'   * `11` romanian
-#'   * `12` german
-#'   * `13` pashtu
-#'   * `14` chamorro
-#'   * `15` ukranian
-#'   * `16` hungarian
-#'   * `17` turkish
-#'   * `18` khmer
-#'   * `19` korean
-#'   * `20` navajo
-#'   * `21` malayam
-#'   * `22` arabic
-#'   * `23` farsi/persian
-#'   * `24` serbian
-#'   * `25` lithuanian
-#'   * `27` thai
-#'   * `28` gujarati
-#'   * `30` dari
-#'   * `31` slovak
-#'   * `32` japanese
-#'   * `33` portuguese
-#'   * `34` vajun
-#'   * `35` yiddish
-#'   * `36` creole
-#'   * `37` vietnamese
-#'   * `38` norwegian
-#'   * `39` malaysian
-#'   * `40` latin
-#'   * `41` czech
-#'   * `42` hindi
-#'   * `43` hakka
-#'   * `44` swedish
-#'   * `45` vesaya
-#'   * `46` sign language
-#'   * `47` tongan
-#'   * `48` armenian
-#'   * `49` ibo
-#'   * `50` dutch
-#'   * `51` cherokee
-#'   * `52` samoan
-#'   * `53` yoruba
-#'   * `54` greek
-#'   * `55` lakota
-#'   * `56` african
-#'   * `57` anishnabee
-#'   * `58` ilokand
-#'   * `59` assyrian
-#'   * `60` danish
-#'   * `61` laotian
-#'   * `62` finnish
-#'   * `63` mohawk
-#'   * `64` amharic
-#'   * `65` bengali
-#'   * `66` oriya
-#'   * `67` hawaiian
-#'   * `68` albanian
-#'   * `69` hmong
-#'   * `70` indonesian
-#'   * `71` swahili
-#'   * `72` telugu
-#'   * `73` kannada
-#'   * `74` bulgarian
-#'   * `75` guarani
-#'   * `76` bosnian
-#'   * `77` punjabi
-#'   * `78` latvian
-#'   * `79` basque
-#'   * `80` bikol/bicolano
-#'   * `81` croatian
-#'   * `82` romani
-#'   * `83` slovenian
-#'   * `84` belgian
-#'   * `85` mandingo
-#'   * `86` jamaican
-#'   * `87` somali
-#'   * `88` other native american language
-#'   * `89` tigrinya
-#'   * `90` krio
-#'   * `91` unspecified asian indian language
-#'   * `92` cebuano
-#'   * `93` macedonian
-#'   * `94` patois
-#'   * `95` pangasinan
-#'   * `96` ilocano
-#'   * `97` marathi
-#'   * `98` kashmiri
-#'   * `99` tamil
-#'   * `100` akan
-#'   * `101` ethiopian
-#'   * `102` georgian
-#'   * `103` yugoslavian
-#'   * `104` irish
-#'   * `105` catalan
-#'   * `106` mixtec
-#'   * `107` garifuna
-#'   * `108` fang
-#'   * `109` apache
-#'   * `110` bassa
-#'   * `111` efik
-#'   * `112` twi
-#'   * `113` maltese
-#'   * `114` zuni
-#'   * `115` ga
-#'   * `116` mina
-#'   * `117` surinamese
-#'   * `118` yaqui
-#'   * `119` quechua
-#'   * `120` tok pisin
-#'   * `121` pima
-#'   * `122` lingala
-#'   * `123` otomi
-#'   * `124` chindali
-#'   * `125` tibetan
-#'   * `126` oromo
-#'   * `127` nepali
-#'   * `128` eskimo
-#'   * `129` mam
-#'   * `130` choctaw
-#'   * `131` ashanti
-#'   * `132` burmese
-#'   * `133` hewa
-#'   * `134` sango
-#'   * `135` chitumbuka
-#'   * `136` maratsi
-#'   * `137` yemba
-#'   * `138` k'iche'
-#'   * `139` fante
-#'   * `140` sinhalase
-#'   * `141` icelandic
-#'   * `142` maricopa
-#'   * `143` quechan
-#'   * `144` pohnpeian
-#'   * `145` luganda
-#'   * `146` shona
-#'   * `147` urhobo
-#'   * `148` colville tribe
-#'   * `149` chickasau
-#'   * `150` dakota
-#'   * `151` hokkien
-#'   * `152` wolof
-#'   * `153` ewe
-#'   * `154` igbo
-#'   * `155` luhya
-#'   * `156` black feet
-#'   * `157` inupiaq
-#'   * `158` paiute
-#'   * `159` afrikaans
-#'   * `160` kaien
-#'   * `161` shawnee
-#'   * `162` welsh
-#'   * `163` chuj
-#'   * `164` oremagna
-#'   * `165` kaugel
-#'   * `166` sanskrit
-#'   * `167` hausa
-#'   * `168` aramaic
-#'   * `169` chuukese
-#'   * `170` dagbani
-#'   * `171` fijian
-#'   * `172` kapampagng
-#'   * `173` kinyarwanda
-#'   * `174` doric
-#'   * `175` sesotho
-#'   * `176` sousou
-#'   * `177` estonian
-#'   * `178` ebon
-#'   * `179` chibemba
-#'   * `180` chewa
-#'   * `181` gusii
-#'   * `182` gun
-#'   * `183` nuer
-#'   * `184` oro
-#'   * `185` kamba
-#'   * `186` huichol
-#'   * `187` papiamento
-#'   * `188` hiligaynon
-#'   * `189` mongolian
-#'   * `190` bunong
-#'   * `191` kikuyu
-#'   * `192` konkani
-#'   * `193` mende
-#'   * `194` naija
-#'   * `195` wendish
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Multi-Ethnic United States
+#' @family Language
 #' 
 #' @keywords variable
 #' @md
 #' @name othlang2
 NULL
 
+
 #'  What language other than english does r speak b
 #' 
 #'  othbest
 #' 
-#' Question 739d. Which of these languages other than English do you speak most fluently?
+#' Question D. Which of these languages other than English do you speak most fluently?
 #' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |arabic |armenian |cherokee |chinese |creole |dutch |farsi-persian |french |german |hebrew |hindu |hungarian |ibo |italian |pangasinan |patois |polish |portuguese |russian |serbian |sign language |slovak |spanish |tamil |tongan |vietnamese |not available in this year |Total |
-#'  |:-----|:-----|:------|:--------|:--------|:-------|:------|:-----|:-------------|:------|:------|:------|:-----|:---------|:---|:-------|:----------|:------|:------|:----------|:-------|:-------|:-------------|:------|:-------|:-----|:------|:----------|:--------------------------|:-----|
-#'  |1972  |1613  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1613  |
-#'  |1973  |1504  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1504  |
-#'  |1974  |1484  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1484  |
-#'  |1975  |1490  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1490  |
-#'  |1976  |1499  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1499  |
-#'  |1977  |1530  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1530  |
-#'  |1978  |1532  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1532  |
-#'  |1980  |1468  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1468  |
-#'  |1982  |1860  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1860  |
-#'  |1983  |1599  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1599  |
-#'  |1984  |1473  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1473  |
-#'  |1985  |1534  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1534  |
-#'  |1986  |1470  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1470  |
-#'  |1987  |1819  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1819  |
-#'  |1988  |1481  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1481  |
-#'  |1989  |1537  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1537  |
-#'  |1990  |1372  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1372  |
-#'  |1991  |1517  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1517  |
-#'  |1993  |1606  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1606  |
-#'  |1994  |2992  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |2992  |
-#'  |1996  |2904  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |2904  |
-#'  |1998  |2832  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |2832  |
-#'  |2000  |2728  |3      |1        |1        |3       |1      |1     |1             |15     |7      |1      |1     |1         |2   |4       |2          |1      |1      |1          |1       |1       |3             |2      |28      |5     |1      |1          |-                          |2817  |
-#'  |2002  |2765  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |2765  |
-#'  |2004  |2812  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |2812  |
-#'  |2006  |4510  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |4510  |
-#'  |2008  |2023  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |2023  |
-#'  |2010  |2044  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |2044  |
-#'  |2012  |1974  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1974  |
-#'  |2014  |2538  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |2538  |
-#'  |2016  |2867  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |2867  |
-#'  |2018  |2348  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |2348  |
-#'  |2021  |4032  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |4032  |
-#'  |2022  |-     |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |3544                       |3544  |
-#'  |2024  |-     |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |3309                       |3309  |
-#'  |Total |68757 |3      |1        |1        |3       |1      |1     |1             |15     |7      |1      |1     |1         |2   |4       |2          |1      |1      |1          |1       |1       |3             |2      |28      |5     |1      |1          |6853                       |75699 |
 #' 
 #' @section Values: 
 #' 
@@ -766,22 +952,94 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2286/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |arabic |armenian |cherokee |chinese |creole |dutch |farsi-persian |french |german |hebrew |hindu |hungarian |ibo |italian |pangasinan |patois |polish |portuguese |russian |serbian |sign language |slovak |spanish |tamil |tongan |vietnamese |not available in this year |Total |
+#'  |:-----|:-----|:------|:--------|:--------|:-------|:------|:-----|:-------------|:------|:------|:------|:-----|:---------|:---|:-------|:----------|:------|:------|:----------|:-------|:-------|:-------------|:------|:-------|:-----|:------|:----------|:--------------------------|:-----|
+#'  |1972  |1613  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1613  |
+#'  |1973  |1504  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1504  |
+#'  |1974  |1484  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1484  |
+#'  |1975  |1490  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1490  |
+#'  |1976  |1499  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1499  |
+#'  |1977  |1530  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1530  |
+#'  |1978  |1532  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1532  |
+#'  |1980  |1468  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1468  |
+#'  |1982  |1860  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1860  |
+#'  |1983  |1599  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1599  |
+#'  |1984  |1473  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1473  |
+#'  |1985  |1534  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1534  |
+#'  |1986  |1470  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1470  |
+#'  |1987  |1819  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1819  |
+#'  |1988  |1481  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1481  |
+#'  |1989  |1537  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1537  |
+#'  |1990  |1372  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1372  |
+#'  |1991  |1517  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1517  |
+#'  |1993  |1606  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1606  |
+#'  |1994  |2992  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |2992  |
+#'  |1996  |2904  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |2904  |
+#'  |1998  |2832  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |2832  |
+#'  |2000  |2728  |3      |1        |1        |3       |1      |1     |1             |15     |7      |1      |1     |1         |2   |4       |2          |1      |1      |1          |1       |1       |3             |2      |28      |5     |1      |1          |-                          |2817  |
+#'  |2002  |2765  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |2765  |
+#'  |2004  |2812  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |2812  |
+#'  |2006  |4510  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |4510  |
+#'  |2008  |2023  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |2023  |
+#'  |2010  |2044  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |2044  |
+#'  |2012  |1974  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |1974  |
+#'  |2014  |2538  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |2538  |
+#'  |2016  |2867  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |2867  |
+#'  |2018  |2348  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |2348  |
+#'  |2021  |4032  |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |-                          |4032  |
+#'  |2022  |-     |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |3544                       |3544  |
+#'  |2024  |-     |-      |-        |-        |-       |-      |-     |-             |-      |-      |-      |-     |-         |-   |-       |-          |-      |-      |-          |-       |-       |-             |-      |-       |-     |-      |-          |3309                       |3309  |
+#'  |Total |68757 |3      |1        |1        |3       |1      |1     |1             |15     |7      |1      |1     |1         |2   |4       |2          |1      |1      |1          |1       |1       |3             |2      |28      |5     |1      |1          |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Multi-Ethnic United States
+#' @family Language
 #' 
 #' @keywords variable
 #' @md
 #' @name othbest
 NULL
 
+
 #'  How well does r speak other language
 #' 
 #'  spklang
 #' 
-#' Question 739e. How well do you speak that language?
+#' Question E. How well do you speak that language? (IF SPEAKS 2 OR MORE, ASK ONLY OF THE MOST FLUENT LANGUAGE) READ CATEGORIES
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` very well
+#'   * `2` well
+#'   * `3` not well
+#'   * `4` poorly/hardly at all
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2287/vshow).
 #'
 #' Counts by year: 
 #'
@@ -824,12 +1082,47 @@ NULL
 #'  |2024  |2404  |-         |202      |60                   |420       |206  |-          |17             |3309  |
 #'  |Total |67582 |261       |2030     |730                  |3192      |1874 |2          |28             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Multi-Ethnic United States
+#' @family Language
+#' 
+#' @keywords variable
+#' @md
+#' @name spklang
+NULL
+
+
+#'  How often does r use language other than english
+#' 
+#'  uselang
+#' 
+#' Question F. How often do you use that language in your everyday life? (READ CATEGORIES)
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` very well
-#'   * `2` well
-#'   * `3` not well
-#'   * `4` poorly/hardly at all
+#'   * `1` never
+#'   * `2` less than once a week
+#'   * `3` once a week
+#'   * `4` several times a week
+#'   * `5` once a day
+#'   * `6` several times a day
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -843,22 +1136,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name spklang
-NULL
-
-#'  How often does r use language other than english
-#' 
-#'  uselang
-#' 
-#' Question 739f. How often do you use that language in your everyday life?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2288/vshow).
 #'
 #' Counts by year: 
 #'
@@ -901,14 +1180,34 @@ NULL
 #'  |2024  |-     |-                     |-     |-         |-          |-           |-                   |-                    |3309                       |3309  |
 #'  |Total |68479 |73                    |79    |8         |19         |28          |126                 |34                   |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Multi-Ethnic United States
+#' @family Language
+#' 
+#' @keywords variable
+#' @md
+#' @name uselang
+NULL
+
+
+#'  Where did r learn other language
+#' 
+#'  getlang
+#' 
+#' Question Is that a language you first learned as a child at home, in school, or is it one that you learned elsewhere?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` never
-#'   * `2` less than once a week
-#'   * `3` once a week
-#'   * `4` several times a week
-#'   * `5` once a day
-#'   * `6` several times a day
+#'   * `1` childhood home
+#'   * `2` school
+#'   * `3` elsewhere
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -922,22 +1221,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name uselang
-NULL
-
-#'  Where did r learn other language
-#' 
-#'  getlang
-#' 
-#' Question 740. Is that a language you first learned as a child at home, in school, or is it one that you learned elsewhere?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2289/vshow).
 #'
 #' Counts by year: 
 #'
@@ -980,11 +1265,34 @@ NULL
 #'  |2024  |-     |-              |-         |-         |-      |3309                       |3309  |
 #'  |Total |67806 |525            |157       |12        |346    |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Multi-Ethnic United States
+#' @family Language
+#' 
+#' @keywords variable
+#' @md
+#' @name getlang
+NULL
+
+
+#'  R's parents speak other language at home
+#' 
+#'  parlang
+#' 
+#' Question Did/do one or both of your parents speak a language other than English at home?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` childhood home
-#'   * `2` school
-#'   * `3` elsewhere
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -998,22 +1306,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name getlang
-NULL
-
-#'  R's parents speak other language at home
-#' 
-#'  parlang
-#' 
-#' Question 741. Did/do one or both of your parents speak a language other than English at home?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2290/vshow).
 #'
 #' Counts by year: 
 #'
@@ -1056,182 +1350,19 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-   |3309                       |3309  |
 #'  |Total |67448 |2          |1013 |23        |360 |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Multi-Ethnic United States
+#' @family Language
 #' 
 #' @keywords variable
 #' @md
 #' @name parlang
 NULL
 
-#'  R's grandparents speak other language at home
-#' 
-#'  granlang
-#' 
-#' Question 742. Did/do one or more of your grandparents speak a language other than English?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no  |no answer |yes |not available in this year |Total |
-#'  |:-----|:-----|:----------|:---|:---------|:---|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-   |-         |-   |-                          |1613  |
-#'  |1973  |1504  |-          |-   |-         |-   |-                          |1504  |
-#'  |1974  |1484  |-          |-   |-         |-   |-                          |1484  |
-#'  |1975  |1490  |-          |-   |-         |-   |-                          |1490  |
-#'  |1976  |1499  |-          |-   |-         |-   |-                          |1499  |
-#'  |1977  |1530  |-          |-   |-         |-   |-                          |1530  |
-#'  |1978  |1532  |-          |-   |-         |-   |-                          |1532  |
-#'  |1980  |1468  |-          |-   |-         |-   |-                          |1468  |
-#'  |1982  |1860  |-          |-   |-         |-   |-                          |1860  |
-#'  |1983  |1599  |-          |-   |-         |-   |-                          |1599  |
-#'  |1984  |1473  |-          |-   |-         |-   |-                          |1473  |
-#'  |1985  |1534  |-          |-   |-         |-   |-                          |1534  |
-#'  |1986  |1470  |-          |-   |-         |-   |-                          |1470  |
-#'  |1987  |1819  |-          |-   |-         |-   |-                          |1819  |
-#'  |1988  |1481  |-          |-   |-         |-   |-                          |1481  |
-#'  |1989  |1537  |-          |-   |-         |-   |-                          |1537  |
-#'  |1990  |1372  |-          |-   |-         |-   |-                          |1372  |
-#'  |1991  |1517  |-          |-   |-         |-   |-                          |1517  |
-#'  |1993  |1606  |-          |-   |-         |-   |-                          |1606  |
-#'  |1994  |2992  |-          |-   |-         |-   |-                          |2992  |
-#'  |1996  |2904  |-          |-   |-         |-   |-                          |2904  |
-#'  |1998  |2832  |-          |-   |-         |-   |-                          |2832  |
-#'  |2000  |1419  |69         |759 |26        |544 |-                          |2817  |
-#'  |2002  |2765  |-          |-   |-         |-   |-                          |2765  |
-#'  |2004  |2812  |-          |-   |-         |-   |-                          |2812  |
-#'  |2006  |4510  |-          |-   |-         |-   |-                          |4510  |
-#'  |2008  |2023  |-          |-   |-         |-   |-                          |2023  |
-#'  |2010  |2044  |-          |-   |-         |-   |-                          |2044  |
-#'  |2012  |1974  |-          |-   |-         |-   |-                          |1974  |
-#'  |2014  |2538  |-          |-   |-         |-   |-                          |2538  |
-#'  |2016  |2867  |-          |-   |-         |-   |-                          |2867  |
-#'  |2018  |2348  |-          |-   |-         |-   |-                          |2348  |
-#'  |2021  |4032  |-          |-   |-         |-   |-                          |4032  |
-#'  |2022  |-     |-          |-   |-         |-   |3544                       |3544  |
-#'  |2024  |-     |-          |-   |-         |-   |3309                       |3309  |
-#'  |Total |67448 |69         |759 |26        |544 |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name granlang
-NULL
-
-#'  How often are other languages heard in community
-#' 
-#'  langcom
-#' 
-#' Question 743a. How often do you hear languages other than English spoken in the local community where you live?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |less than once a week |never |no answer |once a day |once a week |several times a day |several times a week |not available in this year |Total |
-#'  |:-----|:-----|:----------|:---------------------|:-----|:---------|:----------|:-----------|:-------------------|:--------------------|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |1613  |
-#'  |1973  |1504  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |1504  |
-#'  |1974  |1484  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |1484  |
-#'  |1975  |1490  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |1490  |
-#'  |1976  |1499  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |1499  |
-#'  |1977  |1530  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |1530  |
-#'  |1978  |1532  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |1532  |
-#'  |1980  |1468  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |1468  |
-#'  |1982  |1860  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |1860  |
-#'  |1983  |1599  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |1599  |
-#'  |1984  |1473  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |1473  |
-#'  |1985  |1534  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |1534  |
-#'  |1986  |1470  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |1470  |
-#'  |1987  |1819  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |1819  |
-#'  |1988  |1481  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |1481  |
-#'  |1989  |1537  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |1537  |
-#'  |1990  |1372  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |1372  |
-#'  |1991  |1517  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |1517  |
-#'  |1993  |1606  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |1606  |
-#'  |1994  |2992  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |2992  |
-#'  |1996  |2904  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |2904  |
-#'  |1998  |2832  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |2832  |
-#'  |2000  |1419  |13         |251                   |380   |13        |90         |142         |258                 |251                  |-                          |2817  |
-#'  |2002  |2765  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |2765  |
-#'  |2004  |2812  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |2812  |
-#'  |2006  |4510  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |4510  |
-#'  |2008  |2023  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |2023  |
-#'  |2010  |2044  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |2044  |
-#'  |2012  |1974  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |1974  |
-#'  |2014  |2538  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |2538  |
-#'  |2016  |2867  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |2867  |
-#'  |2018  |2348  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |2348  |
-#'  |2021  |4032  |-          |-                     |-     |-         |-          |-           |-                   |-                    |-                          |4032  |
-#'  |2022  |-     |-          |-                     |-     |-         |-          |-           |-                   |-                    |3544                       |3544  |
-#'  |2024  |-     |-          |-                     |-     |-         |-          |-           |-                   |-                    |3309                       |3309  |
-#'  |Total |67448 |13         |251                   |380   |13        |90         |142         |258                 |251                  |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` never
-#'   * `2` less than once a week
-#'   * `3` once a week
-#'   * `4` several times a week
-#'   * `5` once a day
-#'   * `6` several times a day
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name langcom
-NULL
 

@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 health1
 }
 \details{
-Question 905. Would you say that in general your health is Excellent, Very good, Good, Fair, or Poor?
+Question Would you say that in general your health is Excellent, Very good, Good, Fair, or Poor?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} excellent
+\item \code{2} very good
+\item \code{3} good
+\item \code{4} fair
+\item \code{5} poor
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2826/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab don't know \tab excellent \tab fair \tab good \tab no answer \tab poor \tab very good \tab skipped on web \tab not available in this year \tab Total \cr
@@ -57,27 +80,38 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} excellent
-\item \code{2} very good
-\item \code{3} good
-\item \code{4} fair
-\item \code{5} poor
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
+   2004 \tab A/C/- \tab partial \cr
+   2006 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2012 \tab A/B/- \tab partial \cr
+   2014 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Quality of Working Life: 
+\code{\link{jobfind1}},
+\code{\link{laidoff}},
+\code{\link{rincblls}},
+\code{\link{trynewjb}},
+\code{\link{wkageism}},
+\code{\link{wkharoth}},
+\code{\link{wkharsex}},
+\code{\link{wkracism}},
+\code{\link{wksexism}}
+
+Other Workplace Conflict: 
+\code{\link{trynewjb}},
+\code{\link{wkageism}},
+\code{\link{wkracism}}
+}
+\concept{Health}
+\concept{Quality of Working Life}
+\concept{Workplace Conflict}
 \keyword{variable}

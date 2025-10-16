@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 earnsmor
 }
 \details{
-Question 1295. Who earns more money?
+Question Who earns more money?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} husband, much more
+\item \code{2} husband, bit more
+\item \code{3} same for both
+\item \code{4} wife, bit more
+\item \code{5} wife, much more
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4400/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab husband, bit more \tab husband, much more \tab no answer \tab same for both \tab wife, bit more \tab wife, much more \tab not available in this year \tab Total \cr
@@ -57,27 +80,26 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} husband, much more
-\item \code{2} husband, bit more
-\item \code{3} same for both
-\item \code{4} wife, bit more
-\item \code{5} wife, much more
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1988 \tab A/B/C \tab full \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Family & Gender Roles: 
+\code{\link{cohabit}},
+\code{\link{divhubby}},
+\code{\link{evdiv}},
+\code{\link{mawork14}},
+\code{\link{rwrkbaby}},
+\code{\link{rwrkgrwn}},
+\code{\link{rwrknokd}},
+\code{\link{rwrksch}},
+\code{\link{spevdiv}}
+}
+\concept{ISSP Family & Gender Roles}
+\concept{Income}
 \keyword{variable}

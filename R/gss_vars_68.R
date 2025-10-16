@@ -1,11 +1,143 @@
+#'  Abortion if woman wants for any reason
+#' 
+#'  abany
+#' 
+#' Question Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if. . .READ EACH STATEMENT, AND CIRCLE ONE CODE FOR EACH. 
+#' G. The woman wants it for any reason?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/607/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no    |no answer |yes   |skipped on web |Total |
+#'  |:-----|:-----|:----------|:-----|:---------|:-----|:--------------|:-----|
+#'  |1972  |1613  |-          |-     |-         |-     |-              |1613  |
+#'  |1973  |1504  |-          |-     |-         |-     |-              |1504  |
+#'  |1974  |1484  |-          |-     |-         |-     |-              |1484  |
+#'  |1975  |1490  |-          |-     |-         |-     |-              |1490  |
+#'  |1976  |1499  |-          |-     |-         |-     |-              |1499  |
+#'  |1977  |-     |44         |921   |7         |558   |-              |1530  |
+#'  |1978  |-     |43         |990   |5         |494   |-              |1532  |
+#'  |1980  |-     |59         |828   |3         |578   |-              |1468  |
+#'  |1982  |-     |89         |1082  |11        |678   |-              |1860  |
+#'  |1983  |-     |50         |996   |34        |519   |-              |1599  |
+#'  |1984  |-     |42         |872   |11        |548   |-              |1473  |
+#'  |1985  |-     |48         |934   |5         |547   |-              |1534  |
+#'  |1986  |1470  |-          |-     |-         |-     |-              |1470  |
+#'  |1987  |-     |75         |1051  |14        |679   |-              |1819  |
+#'  |1988  |504   |37         |598   |4         |338   |-              |1481  |
+#'  |1989  |504   |39         |590   |5         |399   |-              |1537  |
+#'  |1990  |455   |36         |496   |4         |381   |-              |1372  |
+#'  |1991  |524   |35         |546   |7         |405   |-              |1517  |
+#'  |1993  |531   |59         |552   |6         |458   |-              |1606  |
+#'  |1994  |996   |56         |1039  |6         |895   |-              |2992  |
+#'  |1996  |981   |94         |1002  |8         |819   |-              |2904  |
+#'  |1998  |950   |98         |1050  |6         |728   |-              |2832  |
+#'  |2000  |956   |87         |1063  |6         |705   |-              |2817  |
+#'  |2002  |1841  |23         |513   |1         |387   |-              |2765  |
+#'  |2004  |1914  |35         |507   |10        |346   |-              |2812  |
+#'  |2006  |2507  |50         |1155  |14        |784   |-              |4510  |
+#'  |2008  |671   |43         |748   |11        |550   |-              |2023  |
+#'  |2010  |763   |34         |693   |17        |537   |-              |2044  |
+#'  |2012  |666   |40         |694   |20        |554   |-              |1974  |
+#'  |2014  |824   |43         |907   |18        |746   |-              |2538  |
+#'  |2016  |977   |52         |973   |28        |837   |-              |2867  |
+#'  |2018  |774   |30         |760   |20        |764   |-              |2348  |
+#'  |2021  |2675  |4          |579   |2         |749   |23             |4032  |
+#'  |2022  |2367  |24         |467   |10        |669   |7              |3544  |
+#'  |2024  |1067  |65         |859   |18        |1281  |19             |3309  |
+#'  |Total |32507 |1434       |23465 |311       |17933 |49             |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1977 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |A/C     |partial      |
+#'  |1989 |A/C     |partial      |
+#'  |1990 |A/C     |partial      |
+#'  |1991 |A/C     |partial      |
+#'  |1993 |A/C     |partial      |
+#'  |1994 |A/C     |partial      |
+#'  |1996 |A/C     |partial      |
+#'  |1998 |A/C     |partial      |
+#'  |2000 |A/C     |partial      |
+#'  |2002 |A/C     |partial      |
+#'  |2004 |A/C     |partial      |
+#'  |2006 |A/C     |partial      |
+#'  |2008 |A/C     |partial      |
+#'  |2010 |A/C     |partial      |
+#'  |2012 |A/C     |partial      |
+#'  |2014 |A/C     |partial      |
+#'  |2016 |A/C     |partial      |
+#'  |2018 |A/C     |partial      |
+#'  |2021 |A/C     |partial      |
+#'  |2022 |A/C     |partial      |
+#'  |2024 |A/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Abortion
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name abany
+NULL
+
+
 #'  Heard supreme court decision on abortion
 #' 
 #'  aborct
 #' 
-#' Question 207. Have you heard or read of the recent Supreme Court decision concerning abortion?
+#' Question Have you heard or read of the recent Supreme Court decision concerning abortion?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/608/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,10 +180,33 @@
 #'  |2024  |-     |-          |-   |-         |-    |3309                       |3309  |
 #'  |Total |67342 |11         |204 |1         |1288 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Abortion
+#' 
+#' @keywords variable
+#' @md
+#' @name aborct
+NULL
+
+
+#'  1st argument for abortion
+#' 
+#'  abpro1
+#' 
+#' Question As far as you've heard what are the main arguments in favor of abortions? PROBE EACH RESPONSE FOR CLARITY. PROBE FOR ADDITIONAL REASONS.
+#' A. First reason
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `96` none
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -65,22 +220,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name aborct
-NULL
-
-#'  1st argument for abortion
-#' 
-#'  abpro1
-#' 
-#' Question 208. As far as you've heard, what are the main arguments in favor of abortions?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/609/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,9 +264,33 @@ NULL
 #'  |2024  |-     |-  |-   |-   |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-    |3309                       |3309  |
 #'  |Total |66986 |52 |159 |189 |48 |8  |59 |184 |22 |16 |78 |3  |24 |12 |205 |3  |195 |8  |41 |77 |17 |12 |8  |12 |40 |5  |15 |2         |366  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1982 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Abortion
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name abpro1
+NULL
+
+
+#'  2nd argument for abortion
+#' 
+#'  abpro2
+#' 
+#' Question As far as you've heard what are the main arguments in favor of abortions? PROBE EACH RESPONSE FOR CLARITY. PROBE FOR ADDITIONAL REASONS.
+#' B. Second reason
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `96` none
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -139,22 +304,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name abpro1
-NULL
-
-#'  2nd argument for abortion
-#' 
-#'  abpro2
-#' 
-#' Question 208. As far as you've heard, what are the main arguments in favor of abortions?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/610/vshow).
 #'
 #' Counts by year: 
 #'
@@ -197,6 +348,31 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |3309                       |3309  |
 #'  |Total |67854 |16 |43 |48 |29 |2  |51 |129 |3  |11 |1  |84 |12 |45 |5  |130 |27 |127 |12 |48 |87 |18 |11 |15 |8  |16 |1  |11 |2         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1982 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Abortion
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name abpro2
+NULL
+
+
+#'  3rd argument for abortion
+#' 
+#'  abpro3
+#' 
+#' Question As far as you've heard what are the main arguments in favor of abortions? PROBE EACH RESPONSE FOR CLARITY. PROBE FOR ADDITIONAL REASONS.
+#' C. Third reason
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -212,22 +388,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name abpro2
-NULL
-
-#'  3rd argument for abortion
-#' 
-#'  abpro3
-#' 
-#' Question 208. As far as you've heard, what are the main arguments in favor of abortions?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/611/vshow).
 #'
 #' Counts by year: 
 #'
@@ -270,8 +432,34 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |3309                       |3309  |
 #'  |Total |68321 |12 |9  |15 |9  |1  |19 |74 |9  |43 |8  |25 |5  |75 |9  |49 |14 |33 |53 |24 |4  |8  |11 |8  |2  |4  |2         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1982 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Abortion
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name abpro3
+NULL
+
+
+#'  1st argument against abortion
+#' 
+#'  abcon1
+#' 
+#' Question And, as far as you've heard, what are the main arguments against abortion?  PROBE FOR CLARITY, AND PROBE FOR ADDITIONAL REASONS.
+#' A. First reason
+#' 
+#' 
 #' @section Values: 
 #' 
+#'   * `96` none
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -285,22 +473,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name abpro3
-NULL
-
-#'  1st argument against abortion
-#' 
-#'  abcon1
-#' 
-#' Question 208. And, as far as you've heard, what are the main arguments against abortion?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/612/vshow).
 #'
 #' Counts by year: 
 #'
@@ -343,9 +517,33 @@ NULL
 #'  |2024  |-     |-   |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-         |-    |3309                       |3309  |
 #'  |Total |66986 |438 |288 |45 |9  |110 |24 |233 |5  |19 |102 |31 |15 |12 |4  |39 |4  |12 |115 |36 |21 |4  |5  |35 |3         |251  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1982 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Abortion
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name abcon1
+NULL
+
+
+#'  2nd argument against abortion
+#' 
+#'  abcon2
+#' 
+#' Question And, as far as you've heard, what are the main arguments against abortion?  PROBE FOR CLARITY, AND PROBE FOR ADDITIONAL REASONS.
+#' B. Second reason
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `96` none
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -359,22 +557,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name abcon1
-NULL
-
-#'  2nd argument against abortion
-#' 
-#'  abcon2
-#' 
-#' Question 208. And, as far as you've heard, what are the main arguments against abortion?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/613/vshow).
 #'
 #' Counts by year: 
 #'
@@ -417,6 +601,31 @@ NULL
 #'  |2024  |-     |-   |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |3309                       |3309  |
 #'  |Total |67944 |156 |110 |11 |22 |75 |16 |107 |4  |19 |89 |54 |12 |13 |31 |9  |7  |68 |62 |19 |2  |1  |12 |3         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1982 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Abortion
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name abcon2
+NULL
+
+
+#'  3rd argument against abortion
+#' 
+#'  abcon3
+#' 
+#' Question And, as far as you've heard, what are the main arguments against abortion?  PROBE FOR CLARITY, AND PROBE FOR ADDITIONAL REASONS.
+#' C. Third reason
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -432,22 +641,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name abcon2
-NULL
-
-#'  3rd argument against abortion
-#' 
-#'  abcon3
-#' 
-#' Question 208. And, as far as you've heard, what are the main arguments against abortion?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/614/vshow).
 #'
 #' Counts by year: 
 #'
@@ -490,8 +685,36 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |3309                       |3309  |
 #'  |Total |68565 |29 |42 |3  |8  |29 |15 |15 |1  |11 |25 |18 |11 |3  |9  |3  |7  |19 |13 |10 |3  |2  |2  |3         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1982 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Abortion
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name abcon3
+NULL
+
+
+#'  Importance of abortion issue to r
+#' 
+#'  abimp
+#' 
+#' Question A. How important is the abortion issue to you--would you say it is one of the most important, important, not very important, or not important at all?
+#' 
+#' 
 #' @section Values: 
 #' 
+#'   * `1` one of most imp
+#'   * `2` important
+#'   * `3` not very imp
+#'   * `4` not imp at all
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -505,22 +728,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name abcon3
-NULL
-
-#'  Importance of abortion issue to r
-#' 
-#'  abimp
-#' 
-#' Question 209a. How important is the abortion issue to you?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/615/vshow).
 #'
 #' Counts by year: 
 #'
@@ -563,12 +772,37 @@ NULL
 #'  |2024  |-     |-          |-         |-         |-              |-            |-               |3309                       |3309  |
 #'  |Total |65997 |32         |1224      |12        |382            |821          |378             |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1982 |-       |full         |
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Abortion
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name abimp
+NULL
+
+
+#'  How much info does r have on abortion
+#' 
+#'  abinfo
+#' 
+#' Question B. How much information do you have about the abortion issue? Do you have all the information you need, most of the information, some information, or very little information?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` one of most imp
-#'   * `2` important
-#'   * `3` not very imp
-#'   * `4` not imp at all
+#'   * `1` all info r needs
+#'   * `2` most info
+#'   * `3` some info
+#'   * `4` very little info
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -582,22 +816,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name abimp
-NULL
-
-#'  How much info does r have on abortion
-#' 
-#'  abinfo
-#' 
-#' Question 209b. How much information do you have about the abortion issue?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/616/vshow).
 #'
 #' Counts by year: 
 #'
@@ -640,107 +860,21 @@ NULL
 #'  |2024  |-     |-                |-          |-         |-         |-         |-                |3309                       |3309  |
 #'  |Total |65513 |709              |21         |812       |14        |1064      |713              |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` all info r needs
-#'   * `2` most info
-#'   * `3` some info
-#'   * `4` very little info
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1982 |-       |full         |
+#'  |1984 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Abortion
+#' @family Split Ballots
 #' 
 #' @keywords variable
 #' @md
 #' @name abinfo
 NULL
 
-#'  How firm is r's opinion on abortion
-#' 
-#'  abfirm
-#' 
-#' Question 209c. How firm are you about your opinion on abortion?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |change very likely |change very unlikely |don't know |no answer |somewhat likely |somewhat unlikely |not available in this year |Total |
-#'  |:-----|:-----|:------------------|:--------------------|:----------|:---------|:---------------|:-----------------|:--------------------------|:-----|
-#'  |1972  |1613  |-                  |-                    |-          |-         |-               |-                 |-                          |1613  |
-#'  |1973  |1504  |-                  |-                    |-          |-         |-               |-                 |-                          |1504  |
-#'  |1974  |1484  |-                  |-                    |-          |-         |-               |-                 |-                          |1484  |
-#'  |1975  |1490  |-                  |-                    |-          |-         |-               |-                 |-                          |1490  |
-#'  |1976  |1499  |-                  |-                    |-          |-         |-               |-                 |-                          |1499  |
-#'  |1977  |1530  |-                  |-                    |-          |-         |-               |-                 |-                          |1530  |
-#'  |1978  |1532  |-                  |-                    |-          |-         |-               |-                 |-                          |1532  |
-#'  |1980  |1468  |-                  |-                    |-          |-         |-               |-                 |-                          |1468  |
-#'  |1982  |-     |48                 |1108                 |63         |13        |215             |413               |-                          |1860  |
-#'  |1983  |1599  |-                  |-                    |-          |-         |-               |-                 |-                          |1599  |
-#'  |1984  |-     |44                 |869                  |23         |7         |195             |335               |-                          |1473  |
-#'  |1985  |1534  |-                  |-                    |-          |-         |-               |-                 |-                          |1534  |
-#'  |1986  |1470  |-                  |-                    |-          |-         |-               |-                 |-                          |1470  |
-#'  |1987  |1819  |-                  |-                    |-          |-         |-               |-                 |-                          |1819  |
-#'  |1988  |1481  |-                  |-                    |-          |-         |-               |-                 |-                          |1481  |
-#'  |1989  |1537  |-                  |-                    |-          |-         |-               |-                 |-                          |1537  |
-#'  |1990  |1372  |-                  |-                    |-          |-         |-               |-                 |-                          |1372  |
-#'  |1991  |1517  |-                  |-                    |-          |-         |-               |-                 |-                          |1517  |
-#'  |1993  |1606  |-                  |-                    |-          |-         |-               |-                 |-                          |1606  |
-#'  |1994  |2992  |-                  |-                    |-          |-         |-               |-                 |-                          |2992  |
-#'  |1996  |2904  |-                  |-                    |-          |-         |-               |-                 |-                          |2904  |
-#'  |1998  |2832  |-                  |-                    |-          |-         |-               |-                 |-                          |2832  |
-#'  |2000  |2817  |-                  |-                    |-          |-         |-               |-                 |-                          |2817  |
-#'  |2002  |2765  |-                  |-                    |-          |-         |-               |-                 |-                          |2765  |
-#'  |2004  |2812  |-                  |-                    |-          |-         |-               |-                 |-                          |2812  |
-#'  |2006  |4510  |-                  |-                    |-          |-         |-               |-                 |-                          |4510  |
-#'  |2008  |2023  |-                  |-                    |-          |-         |-               |-                 |-                          |2023  |
-#'  |2010  |2044  |-                  |-                    |-          |-         |-               |-                 |-                          |2044  |
-#'  |2012  |1974  |-                  |-                    |-          |-         |-               |-                 |-                          |1974  |
-#'  |2014  |2538  |-                  |-                    |-          |-         |-               |-                 |-                          |2538  |
-#'  |2016  |2867  |-                  |-                    |-          |-         |-               |-                 |-                          |2867  |
-#'  |2018  |2348  |-                  |-                    |-          |-         |-               |-                 |-                          |2348  |
-#'  |2021  |4032  |-                  |-                    |-          |-         |-               |-                 |-                          |4032  |
-#'  |2022  |-     |-                  |-                    |-          |-         |-               |-                 |3544                       |3544  |
-#'  |2024  |-     |-                  |-                    |-          |-         |-               |-                 |3309                       |3309  |
-#'  |Total |65513 |92                 |1977                 |86         |20        |410             |748               |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` change very likely
-#'   * `2` somewhat likely
-#'   * `3` somewhat unlikely
-#'   * `4` change very unlikely
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name abfirm
-NULL
 

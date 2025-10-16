@@ -10,11 +10,36 @@ General Social Survey https://gss.norc.org
 nafta2a
 }
 \details{
-Question 1463a. How strongly do you agree or disagree with the following statement? (Please, select one response) Generally speaking, would you say that America benefits or does not benefit from being a member of NAFTA?
+Question A. How strongly do you agree or disagree with the following statement? (Please, select one response)
+Generally speaking, would you say that America benefits or does not benefit from being a member of NAFTA?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} greatly benefits
+\item \code{2} largely benefits
+\item \code{3} somewhat benefits
+\item \code{4} benefits only a little
+\item \code{5} does not benefit at all
+\item \code{7} have never heard of nafta
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4896/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab benefits only a little \tab does not benefit at all \tab don't know \tab greatly benefits \tab have never heard of nafta \tab largely benefits \tab no answer \tab somewhat benefits \tab not available in this year \tab Total \cr
@@ -57,28 +82,31 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} greatly benefits
-\item \code{2} largely benefits
-\item \code{3} somewhat benefits
-\item \code{4} benefits only a little
-\item \code{5} does not benefit at all
-\item \code{7} have never heard of nafta
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP National Identity: 
+\code{\link{amproud1}},
+\code{\link{forcult}},
+\code{\link{immcosts}},
+\code{\link{immimp}},
+\code{\link{immrghts}},
+\code{\link{internet}},
+\code{\link{kidsaway}},
+\code{\link{kidshere}},
+\code{\link{nafta3}}
+
+Other United States: 
+\code{\link{amproud1}},
+\code{\link{forcult}},
+\code{\link{nafta3}}
+}
+\concept{ISSP National Identity}
+\concept{United States}
 \keyword{variable}

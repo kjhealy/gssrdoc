@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 letdie2
 }
 \details{
-Question 226a. Would you approve of ending a patient's life if a board of doctors appointed by the court agreed that the patient could not be cured?
+Question When a person has a disease that cannot be cured, do you think Doctors should be allowed by law to end the patient's life by some painless means if the patient and his family request it?
+A. Would you approve of ending a patient's life if a board of doctors appointed by the court agreed that the patient could not be cured?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes
+\item \code{2} no
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/648/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab not available in this year \tab Total \cr
@@ -57,24 +78,27 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes
-\item \code{2} no
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1977 \tab - \tab full \cr
+   1978 \tab - \tab full \cr
+   1982 \tab - \tab full \cr
+   1983 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{letdie1}},
+\code{\link{suicide1}},
+\code{\link{suicide2}},
+\code{\link{suicide3}},
+\code{\link{suicide4}}
+
+Other Euthanasia: 
+\code{\link{letdie1}}
+}
+\concept{Core}
+\concept{Euthanasia}
 \keyword{variable}

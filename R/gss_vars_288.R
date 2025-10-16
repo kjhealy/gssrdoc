@@ -1,11 +1,224 @@
+#'  Which social network did you join first
+#' 
+#'  snsmfrst
+#' 
+#' Question Of the social networking/social media sites that you mentioned, which did you join or start using first? 
+#' SOCIAL NETWORKING/SOCIAL MEDIA SITE:  
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` twitter
+#'   * `2` facebook
+#'   * `3` instagram
+#'   * `4` linkedin
+#'   * `5` snapchat
+#'   * `6` tumblr
+#'   * `7` whatsapp
+#'   * `8` google+
+#'   * `9` pinterest
+#'   * `10` flickr
+#'   * `11` vine
+#'   * `12` classmates
+#'   * `13` youtube
+#'   * `14` myspace
+#'   * `15` reddit
+#'   * `16` viber
+#'   * `17` line
+#'   * `18` plenty of fish
+#'   * `19` kik
+#'   * `20` ravelry
+#'   * `22` wechat
+#'   * `23` imo
+#'   * `24` online dating sites
+#'   * `25` spotify
+#'   * `26` groupme
+#'   * `27` tinder
+#'   * `28` hangouts
+#'   * `29` researchgate
+#'   * `30` online gaming
+#'   * `31` yahoo
+#'   * `32` other social networks
+#'   * `33` not a social network
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6286/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |classmates |facebook |flickr |google+ |instagram |kik |linkedin |no answer |not a social network |online dating sites |online gaming |other social networks |pinterest |plenty of fish |snapchat |tumblr |twitter |whatsapp |yahoo |youtube |not available in this year |Total |
+#'  |:-----|:-----|:----------|:--------|:------|:-------|:---------|:---|:--------|:---------|:--------------------|:-------------------|:-------------|:---------------------|:---------|:--------------|:--------|:------|:-------|:--------|:-----|:-------|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |1613  |
+#'  |1973  |1504  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |1504  |
+#'  |1974  |1484  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |1484  |
+#'  |1975  |1490  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |1490  |
+#'  |1976  |1499  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |1499  |
+#'  |1977  |1530  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |1530  |
+#'  |1978  |1532  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |1532  |
+#'  |1980  |1468  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |1468  |
+#'  |1982  |1860  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |1860  |
+#'  |1983  |1599  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |1599  |
+#'  |1984  |1473  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |1473  |
+#'  |1985  |1534  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |1534  |
+#'  |1986  |1470  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |1470  |
+#'  |1987  |1819  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |1819  |
+#'  |1988  |1481  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |1481  |
+#'  |1989  |1537  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |1537  |
+#'  |1990  |1372  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |1372  |
+#'  |1991  |1517  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |1517  |
+#'  |1993  |1606  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |1606  |
+#'  |1994  |2992  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |2992  |
+#'  |1996  |2904  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |2904  |
+#'  |1998  |2832  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |2832  |
+#'  |2000  |2817  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |2817  |
+#'  |2002  |2765  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |2765  |
+#'  |2004  |2812  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |2812  |
+#'  |2006  |4510  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |4510  |
+#'  |2008  |2023  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |2023  |
+#'  |2010  |2044  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |2044  |
+#'  |2012  |1974  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |1974  |
+#'  |2014  |2538  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |2538  |
+#'  |2016  |1871  |16         |688      |4      |90      |21        |1   |58       |10        |6                    |1                   |1             |4                     |31        |2              |15       |4      |29      |6        |2     |7       |-                          |2867  |
+#'  |2018  |2348  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |2348  |
+#'  |2021  |4032  |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |-                          |4032  |
+#'  |2022  |-     |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |3544                       |3544  |
+#'  |2024  |-     |-          |-        |-      |-       |-         |-   |-        |-         |-                    |-                   |-             |-                     |-         |-              |-        |-      |-       |-        |-     |-       |3309                       |3309  |
+#'  |Total |67850 |16         |688      |4      |90      |21        |1   |58       |10        |6                    |1                   |1             |4                     |31        |2              |15       |4      |29      |6        |2     |7       |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Social Media Usage
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name snsmfrst
+NULL
+
+
+#'  Minutes of internet use on weekdays
+#' 
+#'  intwkdym
+#' 
+#' Question MINUTES:  
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6287/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |0    |1  |10 |15 |2  |20 |25 |3  |30  |40 |45 |5  |55 |59 |don't know |no answer |not available in this year |Total |
+#'  |:-----|:-----|:----|:--|:--|:--|:--|:--|:--|:--|:---|:--|:--|:--|:--|:--|:----------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1613  |
+#'  |1973  |1504  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1504  |
+#'  |1974  |1484  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1484  |
+#'  |1975  |1490  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1490  |
+#'  |1976  |1499  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1499  |
+#'  |1977  |1530  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1530  |
+#'  |1978  |1532  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1532  |
+#'  |1980  |1468  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1468  |
+#'  |1982  |1860  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1860  |
+#'  |1983  |1599  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1599  |
+#'  |1984  |1473  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1473  |
+#'  |1985  |1534  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1534  |
+#'  |1986  |1470  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1470  |
+#'  |1987  |1819  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1819  |
+#'  |1988  |1481  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1481  |
+#'  |1989  |1537  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1537  |
+#'  |1990  |1372  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1372  |
+#'  |1991  |1517  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1517  |
+#'  |1993  |1606  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1606  |
+#'  |1994  |2992  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |2992  |
+#'  |1996  |2904  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |2904  |
+#'  |1998  |2832  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |2832  |
+#'  |2000  |2817  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |2817  |
+#'  |2002  |2765  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |2765  |
+#'  |2004  |2812  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |2812  |
+#'  |2006  |4510  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |4510  |
+#'  |2008  |2023  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |2023  |
+#'  |2010  |2044  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |2044  |
+#'  |2012  |1974  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |1974  |
+#'  |2014  |2538  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |2538  |
+#'  |2016  |1630  |1024 |1  |12 |14 |1  |15 |1  |1  |137 |3  |11 |2  |1  |1  |5          |8         |-                          |2867  |
+#'  |2018  |2348  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |2348  |
+#'  |2021  |4032  |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |-                          |4032  |
+#'  |2022  |-     |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |3544                       |3544  |
+#'  |2024  |-     |-    |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
+#'  |Total |67609 |1024 |1  |12 |14 |1  |15 |1  |1  |137 |3  |11 |2  |1  |1  |5          |8         |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Social Media Usage
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name intwkdym
+NULL
+
+
 #'  Hours of internet use on weekdays
 #' 
 #'  intwkdyh
 #' 
-#' Question How many minutes or hours do you spend actively using the Internet or web-enabled applications/APPS on a typical weekday? A. HOURS:
+#' Question HOURS:  
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6288/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +261,29 @@
 #'  |2024  |-     |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |67609 |150 |341 |30 |2  |22 |3  |4  |9  |1  |250 |4  |8  |130 |83 |64 |52 |14 |41 |12 |7          |10        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Social Media Usage
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name intwkdyh
+NULL
+
+
+#'  Minutes of internet use on weekends
+#' 
+#'  intwkenm
+#' 
+#' Question MINUTES:  
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -63,22 +299,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name intwkdyh
-NULL
-
-#'  Minutes of internet use on weekends
-#' 
-#'  intwkenm
-#' 
-#' Question B. MINUTES:
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6289/vshow).
 #'
 #' Counts by year: 
 #'
@@ -121,6 +343,29 @@ NULL
 #'  |2024  |-     |-    |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |67609 |1018 |1  |15 |14 |16 |2  |2  |134 |1  |3  |11 |6  |1  |1  |4          |8         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Social Media Usage
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name intwkenm
+NULL
+
+
+#'  Hours of internet use on weekends
+#' 
+#'  intwkenh
+#' 
+#' Question HOURS:  
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -136,22 +381,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name intwkenm
-NULL
-
-#'  Hours of internet use on weekends
-#' 
-#'  intwkenh
-#' 
-#' Question How many minutes or hours do you spend actively using the Internet or web-enabled applications/APPS on a typical weekend day? A. HOURS
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6290/vshow).
 #'
 #' Counts by year: 
 #'
@@ -194,8 +425,32 @@ NULL
 #'  |2024  |-     |-   |-   |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |67609 |189 |329 |24 |22 |3  |6  |6  |1  |241 |7  |7  |136 |115 |61 |39 |8  |20 |2  |10         |11        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Social Media Usage
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name intwkenh
+NULL
+
+
+#'  How many friends close to discuss problems
+#' 
+#'  numprobs
+#' 
+#' Question Of these (NUMCNTCT) friends and relatives, about how many would you say you feel really close to, that is close enough to discuss personal or important problems with?
+#' 
+#' 
 #' @section Values: 
 #' 
+#'   * `96` 96 or higher
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -209,22 +464,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name intwkenh
-NULL
-
-#'  How many friends close to discuss problems
-#' 
-#'  numprobs
-#' 
-#' Question 808. Of these (NUMCNTCT) friends and relatives, about how many would you say you feel really close to, that is close enough to discuss personal or important problems with?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2606/vshow).
 #'
 #' Counts by year: 
 #'
@@ -267,6 +508,29 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-  |-  |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-            |-          |-         |3309                       |3309  |
 #'  |Total |66155 |101 |200 |304 |17 |41 |7  |2  |129 |7  |5  |375 |100 |2  |68 |2  |366 |31 |1  |6  |1  |199 |8  |352 |35 |1  |163 |4  |1  |48 |1  |7  |70 |9  |10           |4          |14        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Information Society
+#' @family Family
+#' 
+#' @keywords variable
+#' @md
+#' @name numprobs
+NULL
+
+
+#'  How many friends discuss problems via email
+#' 
+#'  byemprob
+#' 
+#' Question A. Of these (NUMPROBS) friends and relatives that you feel really close to, how many do you stay in contact with  through electronic mail or instant messaging?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `96` 96 or higher
@@ -283,22 +547,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name numprobs
-NULL
-
-#'  How many friends discuss problems via email
-#' 
-#'  byemprob
-#' 
-#' Question 808a. Of these (NUMPROBS) friends and relatives that you feel really close to, how many do you stay in contact with through electronic mail or instant messaging?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2607/vshow).
 #'
 #' Counts by year: 
 #'
@@ -341,9 +591,33 @@ NULL
 #'  |2024  |-     |-    |-   |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-            |-          |-         |3309                       |3309  |
 #'  |Total |66260 |1318 |164 |130 |6  |17 |3  |2  |55 |2  |3  |234 |32 |21 |1  |159 |9  |2  |93 |2  |187 |8  |55 |2  |23 |37 |4  |2            |1          |14        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Information Society
+#' @family Family
+#' 
+#' @keywords variable
+#' @md
+#' @name byemprob
+NULL
+
+
+#'  Does r have internet through cell phone or pda
+#' 
+#'  intaccss
+#' 
+#' Question Do you have access to the Internet or World Wide Web through a Cellular Telephone, Palm Pilot, or other Personal Digital Assistant (like â€œBlackberryâ€)?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `96` 96 or higher
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -357,22 +631,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name byemprob
-NULL
-
-#'  Does r have internet through cell phone or pda
-#' 
-#'  intaccss
-#' 
-#' Question 809. Do you have access to the Internet or World Wide Web through a Cellular Telephone, Palm Pilot, or other Personal Digital Assistant (like "Blackberry")?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2608/vshow).
 #'
 #' Counts by year: 
 #'
@@ -415,10 +675,36 @@ NULL
 #'  |2024  |-     |-          |-   |-         |-   |3309                       |3309  |
 #'  |Total |68393 |5          |430 |2         |16  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Information Society
+#' @family Computers And Internet
+#' 
+#' @keywords variable
+#' @md
+#' @name intaccss
+NULL
+
+
+#'  R sought employment info past year
+#' 
+#'  jobinfo
+#' 
+#' Question Now I'd like to ask you about how you navigate around the Web. How frequently do you use each of the following ways of getting to the web sites you visit: Click on a link in an email message from a friend, relative, or co-worker.
+#' A. In the past year, that is, between (INSERT CURRENT MONTH) 2001/2003 and  (INSERT CURRENT MONTH) 2002/2004â€“have you searched for information about a new job or explored career opportunities?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `0` no
+#'   * `1` 1 or 2 times
+#'   * `2` 3-5 times
+#'   * `3` 6 or more times
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -432,22 +718,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name intaccss
-NULL
-
-#'  R sought employment info past year
-#' 
-#'  jobinfo
-#' 
-#' Question 810a. In the past year, that is, between (INSERT CURRENT MONTH) 2001/2003 and (INSERT CURRENT MONTH) 2002/2004~have you searched for information about a new job or explored career opportunities?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2610/vshow).
 #'
 #' Counts by year: 
 #'
@@ -490,9 +762,34 @@ NULL
 #'  |2024  |-     |-            |-         |-               |-          |-    |-         |3309                       |3309  |
 #'  |Total |66469 |301          |238       |354             |7          |1466 |11        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Information Society
+#' @family Job
+#' 
+#' @keywords variable
+#' @md
+#' @name jobinfo
+NULL
+
+
+#'  Times r sought job information from newspaper
+#' 
+#'  jobpaper
+#' 
+#' Question Now I'd like to ask you about how you navigate around the Web. How frequently do you use each of the following ways of getting to the web sites you visit: Click on a link in an email message from a friend, relative, or co-worker.
+#' B. Classified ads in a daily newspaper? Would you say not at all, 1 or 2 times, or 3 or more times?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` no
+#'   * `0` not at all
 #'   * `1` 1 or 2 times
 #'   * `2` 3-5 times
 #'   * `3` 6 or more times
@@ -509,22 +806,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name jobinfo
-NULL
-
-#'  Times r sought job information from newspaper
-#' 
-#'  jobpaper
-#' 
-#' Question 810. Please tell me how many times you tried to find such information from... b. Classified ads in a daily newspaper? Would you say not at all, 1 or 2 times, or 3 or more times?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2611/vshow).
 #'
 #' Counts by year: 
 #'
@@ -567,184 +850,20 @@ NULL
 #'  |2024  |-     |-            |-         |-               |-         |-          |3309                       |3309  |
 #'  |Total |67942 |181          |173       |229             |11        |310        |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `0` not at all
-#'   * `1` 1 or 2 times
-#'   * `2` 3-5 times
-#'   * `3` 6 or more times
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |B/C/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Information Society
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
 #' @name jobpaper
 NULL
 
-#'  Times r sought job information from publication
-#' 
-#'  jobpub
-#' 
-#' Question Please tell me how many times you tried to find such information from... c. Classified ads in an industry or professional publication?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |1 or 2 times |3-5 times |6 or more times |no answer |not at all |not available in this year |Total |
-#'  |:-----|:-----|:------------|:---------|:---------------|:---------|:----------|:--------------------------|:-----|
-#'  |1972  |1613  |-            |-         |-               |-         |-          |-                          |1613  |
-#'  |1973  |1504  |-            |-         |-               |-         |-          |-                          |1504  |
-#'  |1974  |1484  |-            |-         |-               |-         |-          |-                          |1484  |
-#'  |1975  |1490  |-            |-         |-               |-         |-          |-                          |1490  |
-#'  |1976  |1499  |-            |-         |-               |-         |-          |-                          |1499  |
-#'  |1977  |1530  |-            |-         |-               |-         |-          |-                          |1530  |
-#'  |1978  |1532  |-            |-         |-               |-         |-          |-                          |1532  |
-#'  |1980  |1468  |-            |-         |-               |-         |-          |-                          |1468  |
-#'  |1982  |1860  |-            |-         |-               |-         |-          |-                          |1860  |
-#'  |1983  |1599  |-            |-         |-               |-         |-          |-                          |1599  |
-#'  |1984  |1473  |-            |-         |-               |-         |-          |-                          |1473  |
-#'  |1985  |1534  |-            |-         |-               |-         |-          |-                          |1534  |
-#'  |1986  |1470  |-            |-         |-               |-         |-          |-                          |1470  |
-#'  |1987  |1819  |-            |-         |-               |-         |-          |-                          |1819  |
-#'  |1988  |1481  |-            |-         |-               |-         |-          |-                          |1481  |
-#'  |1989  |1537  |-            |-         |-               |-         |-          |-                          |1537  |
-#'  |1990  |1372  |-            |-         |-               |-         |-          |-                          |1372  |
-#'  |1991  |1517  |-            |-         |-               |-         |-          |-                          |1517  |
-#'  |1993  |1606  |-            |-         |-               |-         |-          |-                          |1606  |
-#'  |1994  |2992  |-            |-         |-               |-         |-          |-                          |2992  |
-#'  |1996  |2904  |-            |-         |-               |-         |-          |-                          |2904  |
-#'  |1998  |2832  |-            |-         |-               |-         |-          |-                          |2832  |
-#'  |2000  |2817  |-            |-         |-               |-         |-          |-                          |2817  |
-#'  |2002  |2220  |86           |50        |58              |6         |345        |-                          |2765  |
-#'  |2004  |2453  |47           |39        |35              |5         |233        |-                          |2812  |
-#'  |2006  |4510  |-            |-         |-               |-         |-          |-                          |4510  |
-#'  |2008  |2023  |-            |-         |-               |-         |-          |-                          |2023  |
-#'  |2010  |2044  |-            |-         |-               |-         |-          |-                          |2044  |
-#'  |2012  |1974  |-            |-         |-               |-         |-          |-                          |1974  |
-#'  |2014  |2538  |-            |-         |-               |-         |-          |-                          |2538  |
-#'  |2016  |2867  |-            |-         |-               |-         |-          |-                          |2867  |
-#'  |2018  |2348  |-            |-         |-               |-         |-          |-                          |2348  |
-#'  |2021  |4032  |-            |-         |-               |-         |-          |-                          |4032  |
-#'  |2022  |-     |-            |-         |-               |-         |-          |3544                       |3544  |
-#'  |2024  |-     |-            |-         |-               |-         |-          |3309                       |3309  |
-#'  |Total |67942 |133          |89        |93              |11        |578        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `0` not at all
-#'   * `1` 1 or 2 times
-#'   * `2` 3-5 times
-#'   * `3` 6 or more times
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name jobpub
-NULL
-
-#'  Times r sought job information from co-workers
-#' 
-#'  jobcowrk
-#' 
-#' Question Please tell me how many times you tried to find such information from... d. A fellow worker or human resources staff member at your workplace~that is, where you were working when you were searching?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |1 or 2 times |3-5 times |6 or more times |no answer |not at all |not available in this year |Total |
-#'  |:-----|:-----|:------------|:---------|:---------------|:---------|:----------|:--------------------------|:-----|
-#'  |1972  |1613  |-            |-         |-               |-         |-          |-                          |1613  |
-#'  |1973  |1504  |-            |-         |-               |-         |-          |-                          |1504  |
-#'  |1974  |1484  |-            |-         |-               |-         |-          |-                          |1484  |
-#'  |1975  |1490  |-            |-         |-               |-         |-          |-                          |1490  |
-#'  |1976  |1499  |-            |-         |-               |-         |-          |-                          |1499  |
-#'  |1977  |1530  |-            |-         |-               |-         |-          |-                          |1530  |
-#'  |1978  |1532  |-            |-         |-               |-         |-          |-                          |1532  |
-#'  |1980  |1468  |-            |-         |-               |-         |-          |-                          |1468  |
-#'  |1982  |1860  |-            |-         |-               |-         |-          |-                          |1860  |
-#'  |1983  |1599  |-            |-         |-               |-         |-          |-                          |1599  |
-#'  |1984  |1473  |-            |-         |-               |-         |-          |-                          |1473  |
-#'  |1985  |1534  |-            |-         |-               |-         |-          |-                          |1534  |
-#'  |1986  |1470  |-            |-         |-               |-         |-          |-                          |1470  |
-#'  |1987  |1819  |-            |-         |-               |-         |-          |-                          |1819  |
-#'  |1988  |1481  |-            |-         |-               |-         |-          |-                          |1481  |
-#'  |1989  |1537  |-            |-         |-               |-         |-          |-                          |1537  |
-#'  |1990  |1372  |-            |-         |-               |-         |-          |-                          |1372  |
-#'  |1991  |1517  |-            |-         |-               |-         |-          |-                          |1517  |
-#'  |1993  |1606  |-            |-         |-               |-         |-          |-                          |1606  |
-#'  |1994  |2992  |-            |-         |-               |-         |-          |-                          |2992  |
-#'  |1996  |2904  |-            |-         |-               |-         |-          |-                          |2904  |
-#'  |1998  |2832  |-            |-         |-               |-         |-          |-                          |2832  |
-#'  |2000  |2817  |-            |-         |-               |-         |-          |-                          |2817  |
-#'  |2002  |2220  |137          |44        |28              |6         |330        |-                          |2765  |
-#'  |2004  |2453  |76           |36        |21              |7         |219        |-                          |2812  |
-#'  |2006  |4510  |-            |-         |-               |-         |-          |-                          |4510  |
-#'  |2008  |2023  |-            |-         |-               |-         |-          |-                          |2023  |
-#'  |2010  |2044  |-            |-         |-               |-         |-          |-                          |2044  |
-#'  |2012  |1974  |-            |-         |-               |-         |-          |-                          |1974  |
-#'  |2014  |2538  |-            |-         |-               |-         |-          |-                          |2538  |
-#'  |2016  |2867  |-            |-         |-               |-         |-          |-                          |2867  |
-#'  |2018  |2348  |-            |-         |-               |-         |-          |-                          |2348  |
-#'  |2021  |4032  |-            |-         |-               |-         |-          |-                          |4032  |
-#'  |2022  |-     |-            |-         |-               |-         |-          |3544                       |3544  |
-#'  |2024  |-     |-            |-         |-               |-         |-          |3309                       |3309  |
-#'  |Total |67942 |213          |80        |49              |13        |549        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `0` not at all
-#'   * `1` 1 or 2 times
-#'   * `2` 3-5 times
-#'   * `3` 6 or more times
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name jobcowrk
-NULL
 

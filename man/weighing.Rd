@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 weighing
 }
 \details{
-Question As part of a laboratory experiment, five students measured the weight of the same leaf four times. They recorded 20 slightly different weights. All of the work was done carefully and correctly. Their goal was to be as accurate as possible and reduce Which of the following is the best method to report the weight of the leaf? (response to acceptDK) (response to probeDK)
+Question As part of a laboratory experiment, five students measured the weight of the same leaf four times. They recorded 20 slightly different weights. All of the work was done carefully and correctly. Their goal was to be as accurate as possible and reduce error in the experiment to a minimum. Which of the following is the best method to report the weight of the leaf?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} ask the teacher to weigh the leaf
+\item \code{2} report the first measurement
+\item \code{3} average all of the weights that were recorded
+\item \code{4} average the highest and lowest weights recorded
+\item \code{5} discard the lowest five weights
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3483/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab ask the teacher to weigh the leaf \tab average all of the weights that were recorded \tab average the highest and lowest weights recorded \tab discard the lowest five weights \tab don't know \tab no answer \tab report the first measurement \tab not available in this year \tab Total \cr
@@ -57,27 +80,44 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} ask the teacher to weigh the leaf
-\item \code{2} report the first measurement
-\item \code{3} average all of the weights that were recorded
-\item \code{4} average the highest and lowest weights recorded
-\item \code{5} discard the lowest five weights
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2008 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{daynight}},
+\code{\link{fishexp1}},
+\code{\link{fishexp2}},
+\code{\link{genes}},
+\code{\link{gills}},
+\code{\link{morempg}},
+\code{\link{polnuke}},
+\code{\link{seesand}},
+\code{\link{upbreath}}
+
+Other Knowledge: 
+\code{\link{daynight}},
+\code{\link{fishexp1}},
+\code{\link{fishexp2}},
+\code{\link{genes}},
+\code{\link{gills}},
+\code{\link{seesand}},
+\code{\link{upbreath}}
+
+Other Science: 
+\code{\link{daynight}},
+\code{\link{fishexp1}},
+\code{\link{fishexp2}},
+\code{\link{genes}},
+\code{\link{gills}},
+\code{\link{seesand}},
+\code{\link{upbreath}}
+}
+\concept{Knowledge}
+\concept{Science}
+\concept{Science Knowledge & Attitudes}
 \keyword{variable}

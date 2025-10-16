@@ -1,11 +1,293 @@
+#'  Govt should support declining industries to protect jobs
+#' 
+#'  dclindus
+#' 
+#' Question The government should support declining industries to protect jobs, even if it might require a tax increase to pay for it
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` neither agree nor disagree
+#'   * `4` disagree
+#'   * `5` strongly disagree
+#'   * `NA(d)` can't choose
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7553/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |agree |can't choose |disagree |neither agree nor disagree |no answer |skipped on web |strongly agree |strongly disagree |not available in this year |Total |
+#'  |:-----|:-----|:-----|:------------|:--------|:--------------------------|:---------|:--------------|:--------------|:-----------------|:--------------------------|:-----|
+#'  |1972  |1613  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1613  |
+#'  |1973  |1504  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1504  |
+#'  |1974  |1484  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1484  |
+#'  |1975  |1490  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1490  |
+#'  |1976  |1499  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1499  |
+#'  |1977  |1530  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1530  |
+#'  |1978  |1532  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1532  |
+#'  |1980  |1468  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1468  |
+#'  |1982  |1860  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1860  |
+#'  |1983  |1599  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1599  |
+#'  |1984  |1473  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1473  |
+#'  |1985  |1534  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1534  |
+#'  |1986  |1470  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1470  |
+#'  |1987  |1819  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1819  |
+#'  |1988  |1481  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1481  |
+#'  |1989  |1537  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1537  |
+#'  |1990  |1372  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1372  |
+#'  |1991  |1517  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1517  |
+#'  |1993  |1606  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1606  |
+#'  |1994  |2992  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |2992  |
+#'  |1996  |2904  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |2904  |
+#'  |1998  |2832  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |2832  |
+#'  |2000  |2817  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |2817  |
+#'  |2002  |2765  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |2765  |
+#'  |2004  |2812  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |2812  |
+#'  |2006  |4510  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |4510  |
+#'  |2008  |2023  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |2023  |
+#'  |2010  |2044  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |2044  |
+#'  |2012  |1974  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1974  |
+#'  |2014  |2538  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |2538  |
+#'  |2016  |2867  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |2867  |
+#'  |2018  |2348  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |2348  |
+#'  |2021  |2246  |311   |82           |553      |582                        |2         |25             |54             |177               |-                          |4032  |
+#'  |2022  |-     |-     |-            |-        |-                          |-         |-              |-              |-                 |3544                       |3544  |
+#'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-              |-                 |3309                       |3309  |
+#'  |Total |67060 |311   |82           |553      |582                        |2         |25             |54             |177               |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2021 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name dclindus
+NULL
+
+
+#'  Govt should give financial assistance to college students from low-income famili
+#' 
+#'  govfnaid
+#' 
+#' Question The government should give financial assistance to college students from low-income families, even if it might require a tax increase to pay for it
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` neither agree nor disagree
+#'   * `4` disagree
+#'   * `5` strongly disagree
+#'   * `NA(d)` can't choose
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7554/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |agree |can't choose |disagree |neither agree nor disagree |no answer |skipped on web |strongly agree |strongly disagree |not available in this year |Total |
+#'  |:-----|:-----|:-----|:------------|:--------|:--------------------------|:---------|:--------------|:--------------|:-----------------|:--------------------------|:-----|
+#'  |1972  |1613  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1613  |
+#'  |1973  |1504  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1504  |
+#'  |1974  |1484  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1484  |
+#'  |1975  |1490  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1490  |
+#'  |1976  |1499  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1499  |
+#'  |1977  |1530  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1530  |
+#'  |1978  |1532  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1532  |
+#'  |1980  |1468  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1468  |
+#'  |1982  |1860  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1860  |
+#'  |1983  |1599  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1599  |
+#'  |1984  |1473  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1473  |
+#'  |1985  |1534  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1534  |
+#'  |1986  |1470  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1470  |
+#'  |1987  |1819  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1819  |
+#'  |1988  |1481  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1481  |
+#'  |1989  |1537  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1537  |
+#'  |1990  |1372  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1372  |
+#'  |1991  |1517  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1517  |
+#'  |1993  |1606  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1606  |
+#'  |1994  |2992  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |2992  |
+#'  |1996  |2904  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |2904  |
+#'  |1998  |2832  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |2832  |
+#'  |2000  |2817  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |2817  |
+#'  |2002  |2765  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |2765  |
+#'  |2004  |2812  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |2812  |
+#'  |2006  |4510  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |4510  |
+#'  |2008  |2023  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |2023  |
+#'  |2010  |2044  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |2044  |
+#'  |2012  |1974  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |1974  |
+#'  |2014  |2538  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |2538  |
+#'  |2016  |2867  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |2867  |
+#'  |2018  |2348  |-     |-            |-        |-                          |-         |-              |-              |-                 |-                          |2348  |
+#'  |2021  |2250  |681   |52           |242      |419                        |2         |15             |281            |90                |-                          |4032  |
+#'  |2022  |-     |-     |-            |-        |-                          |-         |-              |-              |-                 |3544                       |3544  |
+#'  |2024  |-     |-     |-            |-        |-                          |-         |-              |-              |-                 |3309                       |3309  |
+#'  |Total |67064 |681   |52           |242      |419                        |2         |15             |281            |90                |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2021 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name govfnaid
+NULL
+
+
+#'  Afraid to be around a person with hiv
+#' 
+#'  hivafraid
+#' 
+#' Question Please indicate how much you agree or disagree with each of the following comments. I would be afraid to be around a person with HIV because I would be worried I could get infected.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly disagree
+#'   * `2` somewhat disagree
+#'   * `3` somewhat agree
+#'   * `4` strongly agree
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7556/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no answer |skipped on web |somewhat agree |somewhat disagree |strongly agree |strongly disagree |Total |
+#'  |:-----|:-----|:----------|:---------|:--------------|:--------------|:-----------------|:--------------|:-----------------|:-----|
+#'  |1972  |1613  |-          |-         |-              |-              |-                 |-              |-                 |1613  |
+#'  |1973  |1504  |-          |-         |-              |-              |-                 |-              |-                 |1504  |
+#'  |1974  |1484  |-          |-         |-              |-              |-                 |-              |-                 |1484  |
+#'  |1975  |1490  |-          |-         |-              |-              |-                 |-              |-                 |1490  |
+#'  |1976  |1499  |-          |-         |-              |-              |-                 |-              |-                 |1499  |
+#'  |1977  |1530  |-          |-         |-              |-              |-                 |-              |-                 |1530  |
+#'  |1978  |1532  |-          |-         |-              |-              |-                 |-              |-                 |1532  |
+#'  |1980  |1468  |-          |-         |-              |-              |-                 |-              |-                 |1468  |
+#'  |1982  |1860  |-          |-         |-              |-              |-                 |-              |-                 |1860  |
+#'  |1983  |1599  |-          |-         |-              |-              |-                 |-              |-                 |1599  |
+#'  |1984  |1473  |-          |-         |-              |-              |-                 |-              |-                 |1473  |
+#'  |1985  |1534  |-          |-         |-              |-              |-                 |-              |-                 |1534  |
+#'  |1986  |1470  |-          |-         |-              |-              |-                 |-              |-                 |1470  |
+#'  |1987  |1819  |-          |-         |-              |-              |-                 |-              |-                 |1819  |
+#'  |1988  |1481  |-          |-         |-              |-              |-                 |-              |-                 |1481  |
+#'  |1989  |1537  |-          |-         |-              |-              |-                 |-              |-                 |1537  |
+#'  |1990  |1372  |-          |-         |-              |-              |-                 |-              |-                 |1372  |
+#'  |1991  |1517  |-          |-         |-              |-              |-                 |-              |-                 |1517  |
+#'  |1993  |1606  |-          |-         |-              |-              |-                 |-              |-                 |1606  |
+#'  |1994  |2992  |-          |-         |-              |-              |-                 |-              |-                 |2992  |
+#'  |1996  |2904  |-          |-         |-              |-              |-                 |-              |-                 |2904  |
+#'  |1998  |2832  |-          |-         |-              |-              |-                 |-              |-                 |2832  |
+#'  |2000  |2817  |-          |-         |-              |-              |-                 |-              |-                 |2817  |
+#'  |2002  |2765  |-          |-         |-              |-              |-                 |-              |-                 |2765  |
+#'  |2004  |2812  |-          |-         |-              |-              |-                 |-              |-                 |2812  |
+#'  |2006  |4510  |-          |-         |-              |-              |-                 |-              |-                 |4510  |
+#'  |2008  |2023  |-          |-         |-              |-              |-                 |-              |-                 |2023  |
+#'  |2010  |2044  |-          |-         |-              |-              |-                 |-              |-                 |2044  |
+#'  |2012  |1974  |-          |-         |-              |-              |-                 |-              |-                 |1974  |
+#'  |2014  |2538  |-          |-         |-              |-              |-                 |-              |-                 |2538  |
+#'  |2016  |2867  |-          |-         |-              |-              |-                 |-              |-                 |2867  |
+#'  |2018  |2348  |-          |-         |-              |-              |-                 |-              |-                 |2348  |
+#'  |2021  |1713  |126        |4         |15             |270            |508               |147            |1249              |4032  |
+#'  |2022  |1929  |79         |2         |17             |273            |327               |128            |789               |3544  |
+#'  |2024  |1188  |127        |11        |51             |372            |418               |205            |937               |3309  |
+#'  |Total |69644 |332        |17        |83             |915            |1253              |480            |2975              |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'  |2024 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name hivafraid
+NULL
+
+
 #'  People with hiv have participated in immoral activities
 #' 
 #'  hivimmrl
 #' 
 #' Question (Please indicate how much you agree or disagree with each of the following comments.) People who have HIV have participated in immoral activities.
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` strongly disagree
+#'   * `2` somewhat disagree
+#'   * `3` somewhat agree
+#'   * `4` strongly agree
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7557/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +330,31 @@
 #'  |2024  |1188  |264        |10        |67             |341            |454               |120            |865               |3309  |
 #'  |Total |69644 |695        |18        |122            |850            |1290              |291            |2789              |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'  |2024 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name hivimmrl
+NULL
+
+
+#'  There is a lot of discrimination against people with hiv
+#' 
+#'  hivdscrm
+#' 
+#' Question (Please indicate how much you agree or disagree with each of the following comments.) There is a lot of discrimination against people with HIV in this country today.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly disagree
@@ -67,22 +374,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hivimmrl
-NULL
-
-#'  There is a lot of discrimination against people with hiv
-#' 
-#'  hivdscrm
-#' 
-#' Question (Please indicate how much you agree or disagree with each of the following comments.) There is a lot of discrimination against people with HIV in this country today.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7558/vshow).
 #'
 #' Counts by year: 
 #'
@@ -125,12 +418,37 @@ NULL
 #'  |2024  |1188  |254        |8         |67             |780            |483               |368            |161               |3309  |
 #'  |Total |69645 |742        |14        |119            |2361           |1294              |1089           |435               |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'  |2024 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name hivdscrm
+NULL
+
+
+#'  Recent partner's sexual orientation
+#' 
+#'  ptnrornt
+#' 
+#' Question To the best of your knowledge, which of the following best describes how your most recent sexual partner thinks of themselves?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` strongly disagree
-#'   * `2` somewhat disagree
-#'   * `3` somewhat agree
-#'   * `4` strongly agree
+#'   * `1` gay, lesbian, or homosexual
+#'   * `2` bisexual
+#'   * `3` heterosexual or straight
+#'   * `4` i have never had a sexual partner
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -144,22 +462,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hivdscrm
-NULL
-
-#'  Recent partner's sexual orientation
-#' 
-#'  ptnrornt
-#' 
-#' Question To the best of your knowledge, which of the following best describes how your most recent sexual partner thinks of themselves?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7559/vshow).
 #'
 #' Counts by year: 
 #'
@@ -202,12 +506,35 @@ NULL
 #'  |2024  |1186  |66       |102        |45                          |1760                     |87                                |7         |56             |3309  |
 #'  |Total |69586 |197      |256        |166                         |5110                     |201                               |26        |157            |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'  |2024 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name ptnrornt
+NULL
+
+
+#'  Recent partner's sex at birth
+#' 
+#'  ptnrsxbrth
+#' 
+#' Question To the best of your knowledge, was your most recent sexual partnerâ€™s sex recorded as male or female at birth?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` gay, lesbian, or homosexual
-#'   * `2` bisexual
-#'   * `3` heterosexual or straight
-#'   * `4` i have never had a sexual partner
+#'   * `1` male
+#'   * `2` female
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -221,22 +548,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name ptnrornt
-NULL
-
-#'  Recent partner's sex at birth
-#' 
-#'  ptnrsxbrth
-#' 
-#' Question To the best of your knowledge, was your most recent sexual partner's sex recorded as male or female at birth?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7560/vshow).
 #'
 #' Counts by year: 
 #'
@@ -279,10 +592,36 @@ NULL
 #'  |2024  |1273  |57         |854    |1072 |7         |46             |3309  |
 #'  |Total |69787 |143        |2498   |3132 |21        |118            |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name ptnrsxbrth
+NULL
+
+
+#'  Recent partner's sex now
+#' 
+#'  ptnrsxnow
+#' 
+#' Question To the best of your knowledge, does your most recent sexual partner describe themselves as male, female, or transgender?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` male
 #'   * `2` female
+#'   * `3` transgender
+#'   * `4` none of these
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -296,22 +635,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name ptnrsxbrth
-NULL
-
-#'  Recent partner's sex now
-#' 
-#'  ptnrsxnow
-#' 
-#' Question To the best of your knowledge, does your most recent sexual partner describe themselves as male, female, or transgender?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7561/vshow).
 #'
 #' Counts by year: 
 #'
@@ -354,12 +679,39 @@ NULL
 #'  |2024  |-     |-          |-      |-    |-         |-             |-              |-           |3309                       |3309  |
 #'  |Total |68516 |86         |1622   |2048 |13        |16            |80             |9           |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name ptnrsxnow
+NULL
+
+
+#'  Police treats whites better than black people
+#' 
+#'  poltrtblk
+#' 
+#' Question Do the police treat Whites better than Black people, treat both the same, or treat Black people better than Whites?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` male
-#'   * `2` female
-#'   * `3` transgender
-#'   * `4` none of these
+#'   * `1` treat whites much better than blacks
+#'   * `2` treat whites moderately better than blacks
+#'   * `3` treat whites a little better than blacks
+#'   * `4` treat both the same
+#'   * `5` treat blacks a little better than whites
+#'   * `6` treat blacks moderately better than whites
+#'   * `7` treat blacks much better than whites
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -373,22 +725,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name ptnrsxnow
-NULL
-
-#'  Police treats whites better than black people
-#' 
-#'  poltrtblk
-#' 
-#' Question The following questions are about police and law enforcement. In general, do the police (treat Whites better than Blacks, treat them both the same, or treat Blacks better than Whites/treat Blacks better than Whites, treat them both the same, or treat Whites better than Blacks)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7562/vshow).
 #'
 #' Counts by year: 
 #'
@@ -431,15 +769,38 @@ NULL
 #'  |2024  |-     |-          |-         |-              |-                                        |-                                          |-                                    |-                   |-                                        |-                                          |-                                    |3309                       |3309  |
 #'  |Total |66129 |10         |365       |14             |19                                       |5                                          |6                                    |765                 |167                                      |452                                        |914                                  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2021 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name poltrtblk
+NULL
+
+
+#'  Police treats whites better than latinos or latinos better than whites
+#' 
+#'  poltrthsp
+#' 
+#' Question In general, do the police treat Whites better than Latinos, treat both the same, or treak Latinos better than Whites?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` treat whites much better than blacks
-#'   * `2` treat whites moderately better than blacks
-#'   * `3` treat whites a little better than blacks
+#'   * `1` treat whites much better than latinos
+#'   * `2` treat whites moderately better than latinos
+#'   * `3` treat whites a little better than latinos
 #'   * `4` treat both the same
-#'   * `5` treat blacks a little better than whites
-#'   * `6` treat blacks moderately better than whites
-#'   * `7` treat blacks much better than whites
+#'   * `5` treat latinos a little better than whites
+#'   * `6` treat latinos moderately better than whites
+#'   * `7` treat latinos much better than whites
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -453,22 +814,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name poltrtblk
-NULL
-
-#'  Police treats whites better than latinos or latinos better than whites
-#' 
-#'  poltrthsp
-#' 
-#' Question In general, do the police (treat Whites better than Latinos, treat them both the same, or treat Latinos better than Whites/treat Latinos better than Whites, treat them both the same, or treat Whites better than Latinos)? Latinos better than Whites?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7568/vshow).
 #'
 #' Counts by year: 
 #'
@@ -511,258 +858,19 @@ NULL
 #'  |2024  |-     |-          |-         |-              |-                   |-                                         |-                                           |-                                     |-                                         |-                                           |-                                     |3309                       |3309  |
 #'  |Total |66129 |12         |373       |17             |856                 |3                                         |6                                           |6                                     |174                                       |509                                         |761                                   |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` treat whites much better than latinos
-#'   * `2` treat whites moderately better than latinos
-#'   * `3` treat whites a little better than latinos
-#'   * `4` treat both the same
-#'   * `5` treat latinos a little better than whites
-#'   * `6` treat latinos moderately better than whites
-#'   * `7` treat latinos much better than whites
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2021 |A/B     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
+#' 
 #' 
 #' @keywords variable
 #' @md
 #' @name poltrthsp
 NULL
 
-#'  Move funds for police to social service
-#' 
-#'  defund
-#' 
-#' Question Do you favor or oppose reducing funding for police departments, and moving those funds to mental health, housing, and other social services?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |favor |no answer |oppose |skipped on web |not available in this year |Total |
-#'  |:-----|:-----|:----------|:-----|:---------|:------|:--------------|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-     |-         |-      |-              |-                          |1613  |
-#'  |1973  |1504  |-          |-     |-         |-      |-              |-                          |1504  |
-#'  |1974  |1484  |-          |-     |-         |-      |-              |-                          |1484  |
-#'  |1975  |1490  |-          |-     |-         |-      |-              |-                          |1490  |
-#'  |1976  |1499  |-          |-     |-         |-      |-              |-                          |1499  |
-#'  |1977  |1530  |-          |-     |-         |-      |-              |-                          |1530  |
-#'  |1978  |1532  |-          |-     |-         |-      |-              |-                          |1532  |
-#'  |1980  |1468  |-          |-     |-         |-      |-              |-                          |1468  |
-#'  |1982  |1860  |-          |-     |-         |-      |-              |-                          |1860  |
-#'  |1983  |1599  |-          |-     |-         |-      |-              |-                          |1599  |
-#'  |1984  |1473  |-          |-     |-         |-      |-              |-                          |1473  |
-#'  |1985  |1534  |-          |-     |-         |-      |-              |-                          |1534  |
-#'  |1986  |1470  |-          |-     |-         |-      |-              |-                          |1470  |
-#'  |1987  |1819  |-          |-     |-         |-      |-              |-                          |1819  |
-#'  |1988  |1481  |-          |-     |-         |-      |-              |-                          |1481  |
-#'  |1989  |1537  |-          |-     |-         |-      |-              |-                          |1537  |
-#'  |1990  |1372  |-          |-     |-         |-      |-              |-                          |1372  |
-#'  |1991  |1517  |-          |-     |-         |-      |-              |-                          |1517  |
-#'  |1993  |1606  |-          |-     |-         |-      |-              |-                          |1606  |
-#'  |1994  |2992  |-          |-     |-         |-      |-              |-                          |2992  |
-#'  |1996  |2904  |-          |-     |-         |-      |-              |-                          |2904  |
-#'  |1998  |2832  |-          |-     |-         |-      |-              |-                          |2832  |
-#'  |2000  |2817  |-          |-     |-         |-      |-              |-                          |2817  |
-#'  |2002  |2765  |-          |-     |-         |-      |-              |-                          |2765  |
-#'  |2004  |2812  |-          |-     |-         |-      |-              |-                          |2812  |
-#'  |2006  |4510  |-          |-     |-         |-      |-              |-                          |4510  |
-#'  |2008  |2023  |-          |-     |-         |-      |-              |-                          |2023  |
-#'  |2010  |2044  |-          |-     |-         |-      |-              |-                          |2044  |
-#'  |2012  |1974  |-          |-     |-         |-      |-              |-                          |1974  |
-#'  |2014  |2538  |-          |-     |-         |-      |-              |-                          |2538  |
-#'  |2016  |2867  |-          |-     |-         |-      |-              |-                          |2867  |
-#'  |2018  |2348  |-          |-     |-         |-      |-              |-                          |2348  |
-#'  |2021  |1315  |7          |952   |332       |1392   |34             |-                          |4032  |
-#'  |2022  |-     |-          |-     |-         |-      |-              |3544                       |3544  |
-#'  |2024  |-     |-          |-     |-         |-      |-              |3309                       |3309  |
-#'  |Total |66129 |7          |952   |332       |1392   |34             |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` favor
-#'   * `2` oppose
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name defund
-NULL
-
-#'  Priority for criminal justice system
-#' 
-#'  strvbias
-#' 
-#' Question Which do you think should be the bigger priority for the U.S. criminal justice system today?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no answer |reducing bias against minorities in the criminal justice system by reforming court and police practices |skipped on web |strengthening law and order through more police and greater enforcement of the laws |not available in this year |Total |
-#'  |:-----|:-----|:----------|:---------|:-------------------------------------------------------------------------------------------------------|:--------------|:-----------------------------------------------------------------------------------|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1613  |
-#'  |1973  |1504  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1504  |
-#'  |1974  |1484  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1484  |
-#'  |1975  |1490  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1490  |
-#'  |1976  |1499  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1499  |
-#'  |1977  |1530  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1530  |
-#'  |1978  |1532  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1532  |
-#'  |1980  |1468  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1468  |
-#'  |1982  |1860  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1860  |
-#'  |1983  |1599  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1599  |
-#'  |1984  |1473  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1473  |
-#'  |1985  |1534  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1534  |
-#'  |1986  |1470  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1470  |
-#'  |1987  |1819  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1819  |
-#'  |1988  |1481  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1481  |
-#'  |1989  |1537  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1537  |
-#'  |1990  |1372  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1372  |
-#'  |1991  |1517  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1517  |
-#'  |1993  |1606  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1606  |
-#'  |1994  |2992  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |2992  |
-#'  |1996  |2904  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |2904  |
-#'  |1998  |2832  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |2832  |
-#'  |2000  |2817  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |2817  |
-#'  |2002  |2765  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |2765  |
-#'  |2004  |2812  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |2812  |
-#'  |2006  |4510  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |4510  |
-#'  |2008  |2023  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |2023  |
-#'  |2010  |2044  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |2044  |
-#'  |2012  |1974  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1974  |
-#'  |2014  |2538  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |2538  |
-#'  |2016  |2867  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |2867  |
-#'  |2018  |2348  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |2348  |
-#'  |2021  |2689  |6          |168       |764                                                                                                     |20             |385                                                                                 |-                          |4032  |
-#'  |2022  |-     |-          |-         |-                                                                                                       |-              |-                                                                                   |3544                       |3544  |
-#'  |2024  |-     |-          |-         |-                                                                                                       |-              |-                                                                                   |3309                       |3309  |
-#'  |Total |67503 |6          |168       |764                                                                                                     |20             |385                                                                                 |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` strengthening law and order through more police and greater enforcement of the laws
-#'   * `2` reducing bias against minorities in the criminal justice system by reforming court and police practices
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name strvbias
-NULL
-
-#'  Bigger priority for criminal justice system
-#' 
-#'  strvbiasy
-#' 
-#' Question None
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no answer |reducing bias against minorities in the criminal justice system by reforming court and police practices |skipped on web |strengthening law and order through more police and greater enforcement of the laws |not available in this year |Total |
-#'  |:-----|:-----|:----------|:---------|:-------------------------------------------------------------------------------------------------------|:--------------|:-----------------------------------------------------------------------------------|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1613  |
-#'  |1973  |1504  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1504  |
-#'  |1974  |1484  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1484  |
-#'  |1975  |1490  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1490  |
-#'  |1976  |1499  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1499  |
-#'  |1977  |1530  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1530  |
-#'  |1978  |1532  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1532  |
-#'  |1980  |1468  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1468  |
-#'  |1982  |1860  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1860  |
-#'  |1983  |1599  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1599  |
-#'  |1984  |1473  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1473  |
-#'  |1985  |1534  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1534  |
-#'  |1986  |1470  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1470  |
-#'  |1987  |1819  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1819  |
-#'  |1988  |1481  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1481  |
-#'  |1989  |1537  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1537  |
-#'  |1990  |1372  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1372  |
-#'  |1991  |1517  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1517  |
-#'  |1993  |1606  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1606  |
-#'  |1994  |2992  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |2992  |
-#'  |1996  |2904  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |2904  |
-#'  |1998  |2832  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |2832  |
-#'  |2000  |2817  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |2817  |
-#'  |2002  |2765  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |2765  |
-#'  |2004  |2812  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |2812  |
-#'  |2006  |4510  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |4510  |
-#'  |2008  |2023  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |2023  |
-#'  |2010  |2044  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |2044  |
-#'  |2012  |1974  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |1974  |
-#'  |2014  |2538  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |2538  |
-#'  |2016  |2867  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |2867  |
-#'  |2018  |2348  |-          |-         |-                                                                                                       |-              |-                                                                                   |-                          |2348  |
-#'  |2021  |2658  |8          |168       |770                                                                                                     |30             |398                                                                                 |-                          |4032  |
-#'  |2022  |-     |-          |-         |-                                                                                                       |-              |-                                                                                   |3544                       |3544  |
-#'  |2024  |-     |-          |-         |-                                                                                                       |-              |-                                                                                   |3309                       |3309  |
-#'  |Total |67472 |8          |168       |770                                                                                                     |30             |398                                                                                 |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` strengthening law and order through more police and greater enforcement of the laws
-#'   * `2` reducing bias against minorities in the criminal justice system by reforming court and police practices
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name strvbiasy
-NULL
 

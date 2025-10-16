@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 ecomminh
 }
 \details{
-Question 801. About how many minutes or hours a week do you use your home computer for each of the following: a. Shopping, paying bills and other household management?
+Question About how many minutes or hours a week do you use your home computer for each of the following:
+A. Shopping, paying bills and other household management?
+\enumerate{
+\item Minutes per week?
 }
+}
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2556/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab 0 \tab 10 \tab 15 \tab 20 \tab 30 \tab 45 \tab 5 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +79,36 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B \tab partial \cr
 }
 }
 
+\seealso{
+Other Information Society: 
+\code{\link{comphome}},
+\code{\link{ecomhrh}},
+\code{\link{numhome}},
+\code{\link{paywww}},
+\code{\link{perminh}},
+\code{\link{usehome}},
+\code{\link{wwwhome}},
+\code{\link{wwwline1}},
+\code{\link{wwwline2}}
+
+Other Computers And Internet: 
+\code{\link{comphome}},
+\code{\link{ecomhrh}},
+\code{\link{numhome}},
+\code{\link{paywww}},
+\code{\link{perminh}},
+\code{\link{usehome}},
+\code{\link{wwwhome}},
+\code{\link{wwwline1}},
+\code{\link{wwwline2}}
+}
+\concept{Computers And Internet}
+\concept{Information Society}
 \keyword{variable}

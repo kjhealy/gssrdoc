@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 letin1
 }
 \details{
-Question 1446. Do you think the number of immigrants to America nowadays should be...
+Question Do you think the number of immigrants to America nowadays should beâ€¦
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} increased a lot
+\item \code{2} increased a little
+\item \code{3} remain the same as it is
+\item \code{4} reduced a little
+\item \code{5} reduced a lot
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4863/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab can't choose \tab increased a little \tab increased a lot \tab no answer \tab reduced a little \tab reduced a lot \tab remain the same as it is \tab not available in this year \tab skipped on web \tab Total \cr
@@ -57,27 +80,33 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} increased a lot
-\item \code{2} increased a little
-\item \code{3} remain the same as it is
-\item \code{4} reduced a little
-\item \code{5} reduced a lot
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP National Identity: 
+\code{\link{abroad}},
+\code{\link{immameco}},
+\code{\link{immideas}},
+\code{\link{livecom1}},
+\code{\link{meltpot1}},
+\code{\link{refugees}},
+\code{\link{res161}}
+
+Other United States: 
+\code{\link{immameco}},
+\code{\link{immcrime}},
+\code{\link{immideas}},
+\code{\link{immjobs}},
+\code{\link{meltpot1}},
+\code{\link{refugees}}
+}
+\concept{ISSP National Identity}
+\concept{United States}
 \keyword{variable}

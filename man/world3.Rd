@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 world3
 }
 \details{
-Question 121. People have different images of the world and human nature. We'd like to know the kinds of images you have. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of the world and human nature between the two contrasting images? c. 1. God is almost totally removed from the sinfulness of the world. 7. God reveals himself in and through the world.
+Question People have different images of the world and human nature. We'd like to know the kinds of images you have. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of the world  and human nature between the two contrasting images? (HAND CARD AH)
+Look at the first set of contrasting images. If you think that "The world is basically filled with evil and sin," you would place yourself at 1. If you think "There is much goodness in the world which hints at God's goodness" you would place yourself at 7. If you think things are somewhere between these two you would place yourself at 2, 3,4, 5 or 6. (REPEAT EXAMPLE AS NECESSARY FOR EACH ITEM A-F) Where would you place your image of the world on the scale for . . .?
+(READ EACH SET AND CIRCLE ONE CODE FOR EACH)
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} god not here
+\item \code{7} god is here
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/368/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab don't know \tab god is here \tab god not here \tab no answer \tab not available in this year \tab Total \cr
@@ -57,24 +79,37 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} god not here
-\item \code{7} god is here
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1985 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{contemp}},
+\code{\link{libtemp}},
+\code{\link{prottemp}},
+\code{\link{world1}},
+\code{\link{world2}},
+\code{\link{world4}},
+\code{\link{world5}},
+\code{\link{world6}},
+\code{\link{world7}}
+
+Other Religion: 
+\code{\link{prottemp}}
+
+Other World View: 
+\code{\link{world1}},
+\code{\link{world2}},
+\code{\link{world4}},
+\code{\link{world5}},
+\code{\link{world6}},
+\code{\link{world7}}
+}
+\concept{Core}
+\concept{Religion}
+\concept{World View}
 \keyword{variable}

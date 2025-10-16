@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 rclose5
 }
 \details{
-Question 314a. Which of these people do you feel especially close to?
+Question Do you feel equally close to all these people?
+A. Which of these people do you feel especially close to?  REFER TO MATRIX ON PAGE 338 FOR NAME NUMBERS. CODE ALL RESPONDENT FEELS ESPECIALLY CLOSE TO, IF ONLY ONE MENTIONED,
+PROBE:  Anyone else?
+5. Fifth name
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} especially close
+\item \code{2} not esp. close
+\item \code{7} refused
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/854/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllll}{
    year \tab iap \tab especially close \tab no answer \tab not esp. close \tab not available in this year \tab Total \cr
@@ -57,25 +81,35 @@ Counts by year:\tabular{lllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} especially close
-\item \code{2} not esp. close
-\item \code{7} refused
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1985 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Social Networks: 
+\code{\link{close12}},
+\code{\link{close13}},
+\code{\link{close14}},
+\code{\link{close15}},
+\code{\link{close23}},
+\code{\link{rclose1}},
+\code{\link{rclose2}},
+\code{\link{rclose3}},
+\code{\link{rclose4}}
+
+Other Social Networks: 
+\code{\link{close12}},
+\code{\link{close13}},
+\code{\link{close14}},
+\code{\link{close15}},
+\code{\link{close23}},
+\code{\link{rclose1}},
+\code{\link{rclose2}},
+\code{\link{rclose3}},
+\code{\link{rclose4}}
+}
+\concept{Social Networks}
 \keyword{variable}

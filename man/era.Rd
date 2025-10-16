@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 era
 }
 \details{
-Question 253b. Do you strongly favor, somewhat favor, somewhat oppose, or strongly oppose this amendment?
+Question Have you heard or read about the Equal Rights Amendment?
+B. Do you strongly favor, somewhat favor, somewhat oppose, or strongly oppose this amendment?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} strongly favor
+\item \code{2} favor
+\item \code{3} oppose
+\item \code{4} strongly oppose
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/709/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab don't know \tab favor \tab no answer \tab oppose \tab strongly favor \tab strongly oppose \tab not available in this year \tab Total \cr
@@ -57,26 +80,31 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} strongly favor
-\item \code{2} favor
-\item \code{3} oppose
-\item \code{4} strongly oppose
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1977 \tab - \tab full \cr
+   1982 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{abhave3}},
+\code{\link{ablegal}},
+\code{\link{erameans}},
+\code{\link{eraread}},
+\code{\link{eratell}},
+\code{\link{fechld}},
+\code{\link{fefam}},
+\code{\link{fehelp}},
+\code{\link{fepresch}}
+
+Other Equal Rights Amendment: 
+\code{\link{erameans}},
+\code{\link{eraread}},
+\code{\link{eratell}}
+}
+\concept{Core}
+\concept{Equal Rights Amendment}
 \keyword{variable}

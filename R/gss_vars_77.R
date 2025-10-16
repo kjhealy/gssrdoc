@@ -1,11 +1,141 @@
+#'  Does gun belong to r
+#' 
+#'  rowngun
+#' 
+#' Question Do you happen to have in your home (IF HOUSE:  or garage) any guns or revolvers? 
+#' B. Do any of these guns personally belong to you?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `3` refused
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/683/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |no   |no answer |refused |yes   |don't know |skipped on web |Total |
+#'  |:-----|:-----|:----|:---------|:-------|:-----|:----------|:--------------|:-----|
+#'  |1972  |1613  |-    |-         |-       |-     |-          |-              |1613  |
+#'  |1973  |1504  |-    |-         |-       |-     |-          |-              |1504  |
+#'  |1974  |1484  |-    |-         |-       |-     |-          |-              |1484  |
+#'  |1975  |1490  |-    |-         |-       |-     |-          |-              |1490  |
+#'  |1976  |1499  |-    |-         |-       |-     |-          |-              |1499  |
+#'  |1977  |1530  |-    |-         |-       |-     |-          |-              |1530  |
+#'  |1978  |1532  |-    |-         |-       |-     |-          |-              |1532  |
+#'  |1980  |761   |250  |40        |5       |412   |-          |-              |1468  |
+#'  |1982  |1022  |261  |45        |23      |509   |-          |-              |1860  |
+#'  |1983  |1599  |-    |-         |-       |-     |-          |-              |1599  |
+#'  |1984  |796   |285  |8         |9       |375   |-          |-              |1473  |
+#'  |1985  |842   |232  |7         |10      |443   |-          |-              |1534  |
+#'  |1986  |1470  |-    |-         |-       |-     |-          |-              |1470  |
+#'  |1987  |1032  |275  |20        |10      |482   |-          |-              |1819  |
+#'  |1988  |1075  |147  |9         |12      |238   |-          |-              |1481  |
+#'  |1989  |1059  |184  |8         |-       |286   |-          |-              |1537  |
+#'  |1990  |975   |130  |12        |-       |255   |-          |-              |1372  |
+#'  |1991  |1107  |134  |22        |-       |254   |-          |-              |1517  |
+#'  |1993  |1145  |141  |4         |7       |309   |-          |-              |1606  |
+#'  |1994  |2156  |253  |20        |5       |555   |3          |-              |2992  |
+#'  |1996  |2125  |254  |6         |7       |512   |-          |-              |2904  |
+#'  |1998  |2166  |222  |11        |6       |427   |-          |-              |2832  |
+#'  |2000  |2187  |187  |4         |23      |416   |-          |-              |2817  |
+#'  |2002  |2446  |71   |-         |9       |239   |-          |-              |2765  |
+#'  |2004  |2474  |83   |5         |16      |234   |-          |-              |2812  |
+#'  |2006  |3816  |214  |-         |30      |449   |1          |-              |4510  |
+#'  |2008  |1544  |137  |-         |15      |327   |-          |-              |2023  |
+#'  |2010  |1608  |118  |-         |42      |275   |1          |-              |2044  |
+#'  |2012  |1510  |139  |-         |26      |299   |-          |-              |1974  |
+#'  |2014  |1955  |147  |-         |55      |380   |1          |-              |2538  |
+#'  |2016  |2224  |186  |-         |53      |404   |-          |-              |2867  |
+#'  |2018  |1772  |170  |-         |41      |365   |-          |-              |2348  |
+#'  |2021  |2532  |340  |-         |117     |1036  |-          |7              |4032  |
+#'  |2022  |2717  |187  |-         |69      |567   |1          |3              |3544  |
+#'  |2024  |2454  |204  |-         |69      |578   |-          |4              |3309  |
+#'  |Total |59221 |4951 |221       |659     |10626 |7          |14             |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/C/-   |partial      |
+#'  |1989 |A/C/-   |partial      |
+#'  |1990 |A/C/-   |partial      |
+#'  |1991 |A/C/-   |partial      |
+#'  |1993 |A/C/-   |partial      |
+#'  |1994 |A/C/-   |partial      |
+#'  |1996 |A/C/-   |partial      |
+#'  |1998 |A/C/-   |partial      |
+#'  |2000 |A/C/-   |partial      |
+#'  |2002 |A/C/-   |partial      |
+#'  |2004 |A/C/-   |partial      |
+#'  |2006 |A/C/-   |partial      |
+#'  |2008 |A/C/-   |partial      |
+#'  |2010 |A/C/-   |partial      |
+#'  |2012 |A/C/-   |partial      |
+#'  |2014 |A/C/-   |partial      |
+#'  |2016 |A/C/-   |partial      |
+#'  |2018 |A/C/-   |partial      |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/C/-   |partial      |
+#'  |2024 |A/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Guns
+#' 
+#' @keywords variable
+#' @md
+#' @name rowngun
+NULL
+
+
 #'  Ever received a traffic ticket
 #' 
 #'  ticket
 #' 
-#' Question 238. Have you ever received a ticket, or been charged by the police, for a traffic violation - other than for illegal parking?
+#' Question Have you ever received a ticket, or been charged by the police, for a traffic violation--other than for illegal parking?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `3` refused
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/684/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +178,37 @@
 #'  |2024  |-     |-    |-         |-       |-    |-          |3309                       |3309  |
 #'  |Total |56274 |6500 |20        |2       |6039 |11         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |2012 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Arrest (R's)
+#' @family Police
+#' 
+#' @keywords variable
+#' @md
+#' @name ticket
+NULL
+
+
+#'  Ever picked up or charged by police
+#' 
+#'  arrest
+#' 
+#' Question A. Were you ever picked up, or charged, by the police, for any (other) reason whether or not you were guilty?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -66,22 +227,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name ticket
-NULL
-
-#'  Ever picked up or charged by police
-#' 
-#'  arrest
-#' 
-#' Question 239. Were you ever picked up, or charged, by the police, for any (other) reason whether or not you were guilty?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/685/vshow).
 #'
 #' Counts by year: 
 #'
@@ -124,11 +271,41 @@ NULL
 #'  |2024  |-     |-     |-         |-       |-    |-          |3309                       |3309  |
 #'  |Total |56274 |10781 |223       |3       |1558 |7          |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |2012 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Arrest (R's)
+#' @family Police
+#' 
+#' @keywords variable
+#' @md
+#' @name arrest
+NULL
+
+
+#'  Convicted of crime ever
+#' 
+#'  convictd
+#' 
+#' Question B. Not counting minor traffic offenses, have you ever been convicted of a crime?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
 #'   * `2` no
-#'   * `3` refused
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -142,22 +319,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name arrest
-NULL
-
-#'  Convicted of crime ever
-#' 
-#'  convictd
-#' 
-#' Question Not counting minor traffic offenses, have you ever been convicted of a crime?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/686/vshow).
 #'
 #' Counts by year: 
 #'
@@ -200,6 +363,29 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-   |3309                       |3309  |
 #'  |Total |67092 |1          |1538 |5         |210 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Courts
+#' 
+#' @keywords variable
+#' @md
+#' @name convictd
+NULL
+
+
+#'  Prison or jail ever
+#' 
+#'  lockedup
+#' 
+#' Question C. Have you ever spent any time in prison or jail?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -217,22 +403,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name convictd
-NULL
-
-#'  Prison or jail ever
-#' 
-#'  lockedup
-#' 
-#' Question Have you ever spent any time in prison or jail?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/687/vshow).
 #'
 #' Counts by year: 
 #'
@@ -275,10 +447,36 @@ NULL
 #'  |2024  |-     |-    |-         |-   |3309                       |3309  |
 #'  |Total |67092 |1489 |6         |259 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Courts
+#' @family Police
+#' 
+#' @keywords variable
+#' @md
+#' @name lockedup
+NULL
+
+
+#'  Does r or spouse hunt
+#' 
+#'  hunt
+#' 
+#' Question A. Do you (or does your (husband/wife)) go hunting?  CIRCLE ONLY ONE CODE.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` yes, respondent does
+#'   * `2` yes, spouse does
+#'   * `3` yes, both do
+#'   * `4` no, neither r nor spouse hunts
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -292,22 +490,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name lockedup
-NULL
-
-#'  Does r or spouse hunt
-#' 
-#'  hunt
-#' 
-#' Question 240a. Do you (or does you (husband/wife)) go hunting?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/688/vshow).
 #'
 #' Counts by year: 
 #'
@@ -350,12 +534,61 @@ NULL
 #'  |2024  |1067  |6         |1888                           |37           |236                  |68               |3          |4              |3309  |
 #'  |Total |31799 |75        |35495                          |957          |5211                 |2140             |10         |12             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1977 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/C/-   |partial      |
+#'  |1989 |A/C/-   |partial      |
+#'  |1990 |A/C/-   |partial      |
+#'  |1991 |A/C/-   |partial      |
+#'  |1993 |A/C/-   |partial      |
+#'  |1994 |A/C/-   |partial      |
+#'  |1996 |A/C/-   |partial      |
+#'  |1998 |A/C/-   |partial      |
+#'  |2000 |A/C/-   |partial      |
+#'  |2002 |A/C/-   |partial      |
+#'  |2004 |A/C/-   |partial      |
+#'  |2006 |A/C/-   |partial      |
+#'  |2008 |A/C/-   |partial      |
+#'  |2010 |A/C/-   |partial      |
+#'  |2012 |A/C/-   |partial      |
+#'  |2014 |A/C/-   |partial      |
+#'  |2016 |A/C/-   |partial      |
+#'  |2018 |A/C/-   |partial      |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/C/-   |partial      |
+#'  |2024 |A/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Hunting
+#' 
+#' @keywords variable
+#' @md
+#' @name hunt
+NULL
+
+
+#'  Does r or spouse or partner hunt
+#' 
+#'  hunt1
+#' 
+#' Question Do you (or does your (husband/wife/partner)) go hunting?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes, respondent does
-#'   * `2` yes, spouse does
+#'   * `2` yes, spouse or partner does
 #'   * `3` yes, both do
-#'   * `4` no, neither r nor spouse hunts
+#'   * `4` no, neither r nor spouse or partner does
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -369,22 +602,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hunt
-NULL
-
-#'  Does r or spouse or partner hunt
-#' 
-#'  hunt1
-#' 
-#' Question B. Do you (or does your (husband/wife/partner)) go hunting?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6195/vshow).
 #'
 #' Counts by year: 
 #'
@@ -427,12 +646,37 @@ NULL
 #'  |2024  |1067  |3          |6         |1878                                     |40           |233                  |78                          |4              |3309  |
 #'  |Total |63621 |8          |9         |10188                                    |274          |1141                 |446                         |12             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2016 |A/C/-   |partial      |
+#'  |2018 |A/C/-   |partial      |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/C/-   |partial      |
+#'  |2024 |A/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name hunt1
+NULL
+
+
+#'  Does other household member hunt
+#' 
+#'  huntothr
+#' 
+#' Question B. Does any other member of this household go hunting?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes, respondent does
-#'   * `2` yes, spouse or partner does
-#'   * `3` yes, both do
-#'   * `4` no, neither r nor spouse or partner does
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -446,22 +690,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hunt1
-NULL
-
-#'  Does other household member hunt
-#' 
-#'  huntothr
-#' 
-#' Question 240b. Does any other member of this household go hunting?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/689/vshow).
 #'
 #' Counts by year: 
 #'
@@ -504,10 +734,39 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-   |3309                       |3309  |
 #'  |Total |65776 |12         |2087 |381       |590 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1977 |-       |full         |
+#'  |1980 |-       |full         |
+#'  |1982 |-       |full         |
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Hunting
+#' 
+#' @keywords variable
+#' @md
+#' @name huntothr
+NULL
+
+
+#'  How often does r read newspaper
+#' 
+#'  news
+#' 
+#' Question How often do you read the newspaper--every day, a few times a week, once a week, less than once a week, or never?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` every day
+#'   * `2` a few times a week
+#'   * `3` once a week
+#'   * `4` less than once a week
+#'   * `5` never
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -521,22 +780,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name huntothr
-NULL
-
-#'  How often does r read newspaper
-#' 
-#'  news
-#' 
-#' Question 241. How often do you read the newspaper - every day, a few times a week, once a week, less than once a week, or never?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/690/vshow).
 #'
 #' Counts by year: 
 #'
@@ -579,13 +824,62 @@ NULL
 #'  |2024  |239                |342       |287                   |1128  |4         |172         |1126  |7              |4          |3309  |
 #'  |Total |9225               |19517     |5458                  |7972  |52        |5865        |27582 |20             |8          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/-   |partial      |
+#'  |1989 |A/B/-   |partial      |
+#'  |1990 |A/B/-   |partial      |
+#'  |1991 |A/B/-   |partial      |
+#'  |1993 |A/B/-   |partial      |
+#'  |1994 |A/B/-   |partial      |
+#'  |1996 |A/B/-   |partial      |
+#'  |1998 |A/B/-   |partial      |
+#'  |2000 |A/B/-   |partial      |
+#'  |2002 |A/B/-   |partial      |
+#'  |2004 |A/B/-   |partial      |
+#'  |2006 |A/B/D   |partial      |
+#'  |2008 |A/B/-   |partial      |
+#'  |2010 |A/B/-   |partial      |
+#'  |2012 |A/B/-   |partial      |
+#'  |2014 |A/B/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'  |2021 |A/B/-   |partial      |
+#'  |2022 |A/B/-   |partial      |
+#'  |2024 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Newspaper Readership
+#' 
+#' @keywords variable
+#' @md
+#' @name news
+NULL
+
+
+#'  Hours per day watching tv
+#' 
+#'  tvhours
+#' 
+#' Question On the average day, about how many hours do you personally watch television?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` every day
-#'   * `2` a few times a week
-#'   * `3` once a week
-#'   * `4` less than once a week
-#'   * `5` never
+#'   * `0` 0 hours
+#'   * `24` 24 hours
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -599,22 +893,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name news
-NULL
-
-#'  Hours per day watching tv
-#' 
-#'  tvhours
-#' 
-#' Question 242. On the average day, about how many hours do you personally watch television?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/691/vshow).
 #'
 #' Counts by year: 
 #'
@@ -657,101 +937,47 @@ NULL
 #'  |2024  |1126  |198     |389  |40  |-  |28  |3  |7  |5  |2  |-  |496   |343  |284  |143  |97   |23  |65   |2   |4         |10 |3  |12       |10         |1  |1  |-  |17             |-  |3309  |
 #'  |Total |29231 |2738    |8992 |547 |35 |368 |31 |69 |84 |40 |7  |11949 |8293 |6030 |3081 |2084 |449 |1053 |104 |196       |85 |28 |65       |77         |6  |8  |2  |46             |1  |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `0` 0 hours
-#'   * `24` 24 hours
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1975 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1988 |A/B/-   |partial      |
+#'  |1989 |A/B/-   |partial      |
+#'  |1990 |A/B/-   |partial      |
+#'  |1991 |A/B/-   |partial      |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/-   |partial      |
+#'  |1996 |A/B/-   |partial      |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/-   |partial      |
+#'  |2002 |A/B/-   |partial      |
+#'  |2004 |A/B/-   |partial      |
+#'  |2006 |A/B/-   |partial      |
+#'  |2008 |A/B/-   |partial      |
+#'  |2010 |A/B/-   |partial      |
+#'  |2012 |A/B/-   |partial      |
+#'  |2014 |A/B/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'  |2021 |A/B/-   |partial      |
+#'  |2022 |A/B/-   |partial      |
+#'  |2024 |A/B/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Television Viewing
 #' 
 #' @keywords variable
 #' @md
 #' @name tvhours
 NULL
 
-#'  Hours per day listening to radio
-#' 
-#'  radiohrs
-#' 
-#' Question 243. Do you ever listen to the radio? a. If yes: on the average, about how many hours a day do you usually listen to the radio?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |0  |1    |10  |11 |12 |13 |14 |15 |16 |18 |2   |20 |24 |3   |4   |5   |6   |7  |8   |9  |don't know |no answer |17 |21 |not available in this year |Total |
-#'  |:-----|:-----|:--|:----|:---|:--|:--|:--|:--|:--|:--|:--|:---|:--|:--|:---|:---|:---|:---|:--|:---|:--|:----------|:---------|:--|:--|:--------------------------|:-----|
-#'  |1972  |1613  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1613  |
-#'  |1973  |1504  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1504  |
-#'  |1974  |1484  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1484  |
-#'  |1975  |1490  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1490  |
-#'  |1976  |1499  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1499  |
-#'  |1977  |1530  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1530  |
-#'  |1978  |126   |11 |547  |36  |1  |26 |1  |2  |5  |1  |2  |293 |1  |7  |124 |112 |54  |62  |13 |84  |12 |3          |9         |-  |-  |-                          |1532  |
-#'  |1980  |1468  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1468  |
-#'  |1982  |175   |-  |591  |49  |3  |35 |-  |3  |5  |7  |2  |357 |5  |10 |175 |144 |85  |77  |37 |76  |9  |4          |8         |2  |1  |-                          |1860  |
-#'  |1983  |158   |10 |526  |47  |2  |34 |1  |2  |4  |3  |1  |294 |-  |1  |143 |104 |68  |66  |19 |103 |9  |2          |2         |-  |-  |-                          |1599  |
-#'  |1984  |1473  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1473  |
-#'  |1985  |1534  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1534  |
-#'  |1986  |1470  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1470  |
-#'  |1987  |1819  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1819  |
-#'  |1988  |1481  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1481  |
-#'  |1989  |1537  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1537  |
-#'  |1990  |1372  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1372  |
-#'  |1991  |1517  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1517  |
-#'  |1993  |1606  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1606  |
-#'  |1994  |2992  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |2992  |
-#'  |1996  |2904  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |2904  |
-#'  |1998  |2832  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |2832  |
-#'  |2000  |2817  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |2817  |
-#'  |2002  |2765  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |2765  |
-#'  |2004  |2812  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |2812  |
-#'  |2006  |4510  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |4510  |
-#'  |2008  |2023  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |2023  |
-#'  |2010  |2044  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |2044  |
-#'  |2012  |1974  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |1974  |
-#'  |2014  |2538  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |2538  |
-#'  |2016  |2867  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |2867  |
-#'  |2018  |2348  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |2348  |
-#'  |2021  |4032  |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |-                          |4032  |
-#'  |2022  |-     |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |3544                       |3544  |
-#'  |2024  |-     |-  |-    |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-   |-   |-   |-   |-  |-   |-  |-          |-         |-  |-  |3309                       |3309  |
-#'  |Total |64314 |21 |1664 |132 |6  |95 |2  |7  |14 |11 |5  |944 |6  |18 |442 |360 |207 |205 |69 |263 |30 |9          |19        |2  |1  |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name radiohrs
-NULL
 

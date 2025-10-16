@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 fstspdeg
 }
 \details{
-Question 493. Did s/he ever get a high school diploma or a GED certificate? Does s/he have any college degrees? What degree or degrees?
+Question RESPONDENT'S FIRST SPOUSE'S DEGREE
 }
+\section{Values}{
+
+\itemize{
+\item \code{0} less than high school
+\item \code{1} high school
+\item \code{2} associate/junior college
+\item \code{3} bachelor's
+\item \code{4} graduate
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1478/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab associate/junior college \tab bachelor's \tab don't know \tab graduate \tab high school \tab less than high school \tab no answer \tab not available in this year \tab Total \cr
@@ -57,27 +80,28 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{0} less than high school
-\item \code{1} high school
-\item \code{2} associate/junior college
-\item \code{3} bachelor's
-\item \code{4} graduate
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Family Mobility: 
+\code{\link{alike3}},
+\code{\link{alike4}},
+\code{\link{alike5}},
+\code{\link{alike6}},
+\code{\link{alike7}},
+\code{\link{alike8}},
+\code{\link{fstspedc}},
+\code{\link{fstspyr}},
+\code{\link{marnum}}
+
+Other Education: 
+\code{\link{fstspedc}}
+}
+\concept{Education}
+\concept{Family Mobility}
 \keyword{variable}

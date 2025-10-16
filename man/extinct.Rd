@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 extinct
 }
 \details{
-Question 1079. Please look at Card B24. Scientists predict that global warming may soon have big effects on the polar regions. I will describe some of these possible effects and, for each one, please say whether it would bother you a great deal, some, a little, or not at all if it actually happened. a. By 2020, polar bears may become extinct.
+Question Please look at Card B24. Scientists predict that global warming may soon have big effects on the polar regions. I will describe some of these possible effects and, for each one, please say whether it would bother you a great deal, some, a little, or not at all if it actually happened.
+A. By 2020, polar bears may become extinct.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} a great deal
+\item \code{2} some
+\item \code{3} a little
+\item \code{4} not at all
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3438/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab a great deal \tab a little \tab don't know \tab no answer \tab not at all \tab some \tab not available in this year \tab Total \cr
@@ -57,26 +80,41 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} a great deal
-\item \code{2} some
-\item \code{3} a little
-\item \code{4} not at all
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab B/C \tab partial \cr
+   2010 \tab A/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{comorsci}},
+\code{\link{huntbear}},
+\code{\link{icecaps}},
+\code{\link{icesheet}},
+\code{\link{inuit}},
+\code{\link{nosun}},
+\code{\link{polaryr6}},
+\code{\link{polaryr7}},
+\code{\link{polaryr8}}
+
+Other Environment: 
+\code{\link{comorsci}}
+
+Other Science: 
+\code{\link{comorsci}},
+\code{\link{huntbear}},
+\code{\link{icecaps}},
+\code{\link{icesheet}},
+\code{\link{inuit}},
+\code{\link{nosun}},
+\code{\link{polaryr6}},
+\code{\link{polaryr7}},
+\code{\link{polaryr8}}
+}
+\concept{Environment}
+\concept{Science}
+\concept{Science Knowledge & Attitudes}
 \keyword{variable}

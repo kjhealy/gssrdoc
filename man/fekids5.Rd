@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 fekids5
 }
 \details{
-Question 566. Women are more likely than ment ot ake care of children. I'm going to read several reasons why this might be so. Please tell me how important you think each reason is: e. It is God's will that women care for children.
+Question Women are more likely than men to take care of children. I'm going to read several reasons why this might be so. please tell me how important you think each reason is: very important, important, somewhat important, or not at all important. For example, ...
+E. It is God's will that women care for children. How important do you think this reason is for explaining why women are more likely to take care of children?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very important
+\item \code{2} important
+\item \code{3} somewhat important
+\item \code{4} not at all important
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1695/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab don't know \tab important \tab no answer \tab not at all important \tab somewhat important \tab very important \tab not available in this year \tab Total \cr
@@ -57,26 +80,49 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very important
-\item \code{2} important
-\item \code{3} somewhat important
-\item \code{4} not at all important
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Gender: 
+\code{\link{fehire}},
+\code{\link{fekids2}},
+\code{\link{fekids3}},
+\code{\link{fekids4}},
+\code{\link{feminist}},
+\code{\link{fenews}},
+\code{\link{hmemaker}},
+\code{\link{mebear}},
+\code{\link{wrkclass}}
+
+Other Children: 
+\code{\link{fekids2}},
+\code{\link{fekids3}},
+\code{\link{fekids4}}
+
+Other Household: 
+\code{\link{fekids2}},
+\code{\link{fekids3}},
+\code{\link{fekids4}}
+
+Other Women: 
+\code{\link{fehire}},
+\code{\link{fekids2}},
+\code{\link{fekids3}},
+\code{\link{fekids4}},
+\code{\link{feminist}},
+\code{\link{fenews}},
+\code{\link{hmemaker}},
+\code{\link{mebear}},
+\code{\link{wrkclass}}
+}
+\concept{Children}
+\concept{Gender}
+\concept{Household}
+\concept{Mental Health}
+\concept{Women}
 \keyword{variable}

@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 acqvahsp
 }
 \details{
-Question 1107. Next, we are going to ask about people that you are acquainted with through schools, clubs, associations, or places of worship. h. How many are Hispanic?
+Question Next, we are going to ask about people that you are acquainted with through schools, clubs, associations, or places of worship.
+H. How many are Hispanic?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} 0
+\item \code{2} 1
+\item \code{3} 2 - 5
+\item \code{4} 6 - 10
+\item \code{5} more than 10
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3654/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab don't know \tab more than 10 \tab no answer \tab not available in this year \tab Total \cr
@@ -57,27 +81,37 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} 0
-\item \code{2} 1
-\item \code{3} 2 - 5
-\item \code{4} 6 - 10
-\item \code{5} more than 10
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Number Known: 
+\code{\link{acqvaasn}},
+\code{\link{acqvablk}},
+\code{\link{acqvagay}},
+\code{\link{acqvago}},
+\code{\link{acqvahme}},
+\code{\link{acqvano}},
+\code{\link{acqvapri}},
+\code{\link{acqvaune}},
+\code{\link{acqvawht}}
+
+Other Social Networks: 
+\code{\link{acqvaasn}},
+\code{\link{acqvablk}},
+\code{\link{acqvagay}},
+\code{\link{acqvago}},
+\code{\link{acqvahme}},
+\code{\link{acqvano}},
+\code{\link{acqvapri}},
+\code{\link{acqvaune}},
+\code{\link{acqvawht}}
+}
+\concept{Hispanics}
+\concept{Number Known}
+\concept{Social Networks}
 \keyword{variable}

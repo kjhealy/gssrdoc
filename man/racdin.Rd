@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 racdin
 }
 \details{
-Question 126. How strongly would you object if a member of your family wanted to bring a (negro/black) friend home to dinner?
+Question How strongly would you object if a member of your family wanted to bring a (Negro/Black) friend home to dinner?
+Would you object strongly, mildly, or not at all?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} strongly object
+\item \code{2} mildly object
+\item \code{3} not object
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/384/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab don't know \tab iap \tab mildly object \tab no answer \tab not object \tab strongly object \tab not available in this year \tab Total \cr
@@ -57,25 +79,38 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} strongly object
-\item \code{2} mildly object
-\item \code{3} not object
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1972 \tab - \tab full \cr
+   1973 \tab - \tab full \cr
+   1974 \tab - \tab full \cr
+   1976 \tab - \tab full \cr
+   1977 \tab - \tab full \cr
+   1980 \tab - \tab full \cr
+   1982 \tab - \tab full \cr
+   1984 \tab - \tab full \cr
+   1985 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{cathtemp}},
+\code{\link{feclergy}},
+\code{\link{fepriest}},
+\code{\link{jewtemp}},
+\code{\link{mslmtemp}},
+\code{\link{racmar}},
+\code{\link{racmar10}},
+\code{\link{racpush}},
+\code{\link{relgrade}}
+
+Other Race: 
+\code{\link{racmar}},
+\code{\link{racmar10}},
+\code{\link{racpush}}
+}
+\concept{Core}
+\concept{Race}
 \keyword{variable}

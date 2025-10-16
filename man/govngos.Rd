@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 govngos
 }
 \details{
-Question 1479. Which of these two statements comes closer to your view? 1. In international organizations, decisions should be left to national government representatives 2. In international organizations, citizens' organizations should be involved directly in the decision-making process
+Question Which of these two statements comes closer to your view?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} should be left to govt representatives
+\item \code{2} citizen orgs should be involved
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4950/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab can't choose \tab citizen orgs should be involved \tab no answer \tab should be left to govt representatives \tab not available in this year \tab Total \cr
@@ -57,24 +77,36 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} should be left to govt representatives
-\item \code{2} citizen orgs should be involved
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Citizenship: 
+\code{\link{chngeoth}},
+\code{\link{choices}},
+\code{\link{elecfair}},
+\code{\link{elecvote}},
+\code{\link{polactve}},
+\code{\link{powerun}},
+\code{\link{refrndms}},
+\code{\link{servepeo}},
+\code{\link{unrghts}}
+
+Other Political: 
+\code{\link{chngeoth}},
+\code{\link{choices}},
+\code{\link{elecfair}},
+\code{\link{elecvote}},
+\code{\link{polactve}},
+\code{\link{powerun}},
+\code{\link{refrndms}},
+\code{\link{servepeo}},
+\code{\link{unrghts}}
+}
+\concept{ISSP Citizenship}
+\concept{Political}
 \keyword{variable}

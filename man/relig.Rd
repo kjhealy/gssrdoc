@@ -10,11 +10,42 @@ General Social Survey https://gss.norc.org
 relig
 }
 \details{
-Question 104. What is your religous preference? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
+Question What is your religious preference?  Is it Protestant, Catholic, Jewish, some other religion, or no religion?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} protestant
+\item \code{2} catholic
+\item \code{3} jewish
+\item \code{4} none
+\item \code{5} other
+\item \code{6} buddhism
+\item \code{7} hinduism
+\item \code{8} other eastern religions
+\item \code{9} muslim/islam
+\item \code{10} orthodox-christian
+\item \code{11} christian
+\item \code{12} native american
+\item \code{13} inter-nondenominational
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/287/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllll}{
    year \tab catholic \tab jewish \tab no answer \tab none \tab other \tab protestant \tab don't know \tab buddhism \tab christian \tab hinduism \tab inter-nondenominational \tab muslim/islam \tab native american \tab orthodox-christian \tab other eastern religions \tab skipped on web \tab not available in this release \tab Total \cr
@@ -57,35 +88,64 @@ Counts by year:\tabular{lllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} protestant
-\item \code{2} catholic
-\item \code{3} jewish
-\item \code{4} none
-\item \code{5} other
-\item \code{6} buddhism
-\item \code{7} hinduism
-\item \code{8} other eastern religions
-\item \code{9} muslim/islam
-\item \code{10} orthodox-christian
-\item \code{11} christian
-\item \code{12} native american
-\item \code{13} inter-nondenominational
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1972 \tab -/-/-/- \tab full \cr
+   1973 \tab -/-/-/- \tab full \cr
+   1974 \tab -/-/-/- \tab full \cr
+   1975 \tab -/-/-/- \tab full \cr
+   1976 \tab -/-/-/- \tab full \cr
+   1977 \tab -/-/-/- \tab full \cr
+   1978 \tab -/-/-/- \tab full \cr
+   1980 \tab -/-/-/- \tab full \cr
+   1982 \tab -/-/-/- \tab full \cr
+   1983 \tab -/-/-/- \tab full \cr
+   1984 \tab -/-/-/- \tab full \cr
+   1985 \tab -/-/-/- \tab full \cr
+   1986 \tab -/-/-/- \tab full \cr
+   1987 \tab -/-/-/- \tab full \cr
+   1988 \tab A/B/C/- \tab full \cr
+   1989 \tab A/B/C/- \tab full \cr
+   1990 \tab A/B/C/- \tab full \cr
+   1991 \tab A/B/C/- \tab full \cr
+   1993 \tab A/B/C/- \tab full \cr
+   1994 \tab A/B/C/- \tab full \cr
+   1996 \tab A/B/C/- \tab full \cr
+   1998 \tab A/B/C/- \tab full \cr
+   2000 \tab A/B/C/- \tab full \cr
+   2002 \tab A/B/C/- \tab full \cr
+   2004 \tab A/B/C/- \tab full \cr
+   2006 \tab A/B/C/D \tab full \cr
+   2008 \tab A/B/C/- \tab full \cr
+   2010 \tab A/B/C/- \tab full \cr
+   2012 \tab A/B/C/- \tab full \cr
+   2014 \tab A/B/C/- \tab full \cr
+   2016 \tab A/B/C/- \tab full \cr
+   2018 \tab A/B/C/- \tab full \cr
+   2021 \tab A/B/C/- \tab full \cr
+   2022 \tab A/B/C/- \tab full \cr
+   2024 \tab A/B/C/- \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{denom}},
+\code{\link{grass}},
+\code{\link{grassy}},
+\code{\link{lawfirm}},
+\code{\link{lawimp}},
+\code{\link{lawinfo}},
+\code{\link{other}},
+\code{\link{othjew}},
+\code{\link{wirtap}}
+
+Other Religion: 
+\code{\link{denom}},
+\code{\link{other}},
+\code{\link{othjew}}
+}
+\concept{Core}
+\concept{Religion}
 \keyword{variable}

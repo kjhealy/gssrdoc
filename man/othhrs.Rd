@@ -10,11 +10,29 @@ General Social Survey https://gss.norc.org
 othhrs
 }
 \details{
-Question 1344. How many hours per week do you normally work in these other jobs, not including time spent on traveling to work?
+Question How many hours per week do you normally work in these other jobs, not including time spent on traveling to work?
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4565/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 1 \tab 10 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 2 \tab 20 \tab 23 \tab 25 \tab 26 \tab 3 \tab 30 \tab 33 \tab 35 \tab 4 \tab 40 \tab 42 \tab 45 \tab 47 \tab 48 \tab 5 \tab 50 \tab 56 \tab 58 \tab 6 \tab 60 \tab 65 \tab 72 \tab 8 \tab 80 \tab 89 \tab 9 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +75,33 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1989 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Work Orientation: 
+\code{\link{employer}},
+\code{\link{localnum}},
+\code{\link{moonlite}},
+\code{\link{numemply}},
+\code{\link{numsites}},
+\code{\link{supervis}},
+\code{\link{supnum}},
+\code{\link{suprvsjb}},
+\code{\link{totalnum}}
+
+Other Job: 
+\code{\link{localnum}},
+\code{\link{moonlite}},
+\code{\link{numsites}},
+\code{\link{supervis}},
+\code{\link{supnum}},
+\code{\link{totalnum}}
+}
+\concept{Job}
+\concept{Work Orientation}
 \keyword{variable}

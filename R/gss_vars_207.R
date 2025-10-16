@@ -1,11 +1,194 @@
+#'  How much money contributed in arts, culture, etc
+#' 
+#'  totart
+#' 
+#' Question Approximately how much money or the cash equivalent of property have you contributed in each of the fields listed above in the past twelve months? (REPEAT FOR EACH ITEM MENTIONED IN GIVHLTH-GIVOTH) RECORD ABOVE UNDER TOTHLTH-VALOTH. (ESTIMATED DOLLAR VALUE CONTRIBUTED INCLUDING BOTH CASH CONTRIBUTIONS AND THE CASH-VALUE OF PROPERTY.) 
+#' H. Arts, culture, and humanities
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1952/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |10 |100 |1000 |1200 |125 |130 |15 |150 |1500 |2  |20 |200 |2000 |25 |250 |30 |300 |350 |40 |400 |50 |500 |5000 |75 |don't know |no answer |not available in this year |Total |
+#'  |:-----|:-----|:--|:---|:----|:----|:---|:---|:--|:---|:----|:--|:--|:---|:----|:--|:---|:--|:---|:---|:--|:---|:--|:---|:----|:--|:----------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |1613  |
+#'  |1973  |1504  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |1504  |
+#'  |1974  |1484  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |1484  |
+#'  |1975  |1490  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |1490  |
+#'  |1976  |1499  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |1499  |
+#'  |1977  |1530  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |1530  |
+#'  |1978  |1532  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |1532  |
+#'  |1980  |1468  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |1468  |
+#'  |1982  |1860  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |1860  |
+#'  |1983  |1599  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |1599  |
+#'  |1984  |1473  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |1473  |
+#'  |1985  |1534  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |1534  |
+#'  |1986  |1470  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |1470  |
+#'  |1987  |1819  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |1819  |
+#'  |1988  |1481  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |1481  |
+#'  |1989  |1537  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |1537  |
+#'  |1990  |1372  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |1372  |
+#'  |1991  |1517  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |1517  |
+#'  |1993  |1606  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |1606  |
+#'  |1994  |2992  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |2992  |
+#'  |1996  |2782  |4  |16  |2    |1    |1   |1   |3  |2   |1    |1  |5  |6   |2    |9  |3   |3  |2   |1   |1  |4   |22 |4   |1    |3  |7          |17        |-                          |2904  |
+#'  |1998  |2832  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |2832  |
+#'  |2000  |2817  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |2817  |
+#'  |2002  |2765  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |2765  |
+#'  |2004  |2812  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |2812  |
+#'  |2006  |4510  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |4510  |
+#'  |2008  |2023  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |2023  |
+#'  |2010  |2044  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |2044  |
+#'  |2012  |1974  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |1974  |
+#'  |2014  |2538  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |2538  |
+#'  |2016  |2867  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |2867  |
+#'  |2018  |2348  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |2348  |
+#'  |2021  |4032  |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |-                          |4032  |
+#'  |2022  |-     |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |3544                       |3544  |
+#'  |2024  |-     |-  |-   |-    |-    |-   |-   |-  |-   |-    |-  |-  |-   |-    |-  |-   |-  |-   |-   |-  |-   |-  |-   |-    |-  |-          |-         |3309                       |3309  |
+#'  |Total |68724 |4  |16  |2    |1    |1   |1   |3  |2   |1    |1  |5  |6   |2    |9  |3   |3  |2   |1   |1  |4   |22 |4   |1    |3  |7          |17        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name totart
+NULL
+
+
+#'  How much money contributed in work-related org
+#' 
+#'  totwork
+#' 
+#' Question Approximately how much money or the cash equivalent of property have you contributed in each of the fields listed above in the past twelve months? (REPEAT FOR EACH ITEM MENTIONED IN GIVHLTH-GIVOTH) RECORD ABOVE UNDER TOTHLTH-VALOTH. (ESTIMATED DOLLAR VALUE CONTRIBUTED INCLUDING BOTH CASH CONTRIBUTIONS AND THE CASH-VALUE OF PROPERTY.) 
+#' I. Work-related organizations
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1953/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |0  |10 |100 |1000 |120 |15 |150 |20 |200 |2000 |25 |26 |28 |30 |300 |3000 |35 |350 |40 |5  |50 |500 |60 |600 |don't know |no answer |not available in this year |Total |
+#'  |:-----|:-----|:--|:--|:---|:----|:---|:--|:---|:--|:---|:----|:--|:--|:--|:--|:---|:----|:--|:---|:--|:--|:--|:---|:--|:---|:----------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |1613  |
+#'  |1973  |1504  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |1504  |
+#'  |1974  |1484  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |1484  |
+#'  |1975  |1490  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |1490  |
+#'  |1976  |1499  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |1499  |
+#'  |1977  |1530  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |1530  |
+#'  |1978  |1532  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |1532  |
+#'  |1980  |1468  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |1468  |
+#'  |1982  |1860  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |1860  |
+#'  |1983  |1599  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |1599  |
+#'  |1984  |1473  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |1473  |
+#'  |1985  |1534  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |1534  |
+#'  |1986  |1470  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |1470  |
+#'  |1987  |1819  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |1819  |
+#'  |1988  |1481  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |1481  |
+#'  |1989  |1537  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |1537  |
+#'  |1990  |1372  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |1372  |
+#'  |1991  |1517  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |1517  |
+#'  |1993  |1606  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |1606  |
+#'  |1994  |2992  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |2992  |
+#'  |1996  |2800  |1  |4  |20  |1    |1   |3  |4   |9  |6   |1    |4  |1  |1  |2  |3   |1    |3  |1   |5  |1  |9  |4   |2  |1   |10         |6         |-                          |2904  |
+#'  |1998  |2832  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |2832  |
+#'  |2000  |2817  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |2817  |
+#'  |2002  |2765  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |2765  |
+#'  |2004  |2812  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |2812  |
+#'  |2006  |4510  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |4510  |
+#'  |2008  |2023  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |2023  |
+#'  |2010  |2044  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |2044  |
+#'  |2012  |1974  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |1974  |
+#'  |2014  |2538  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |2538  |
+#'  |2016  |2867  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |2867  |
+#'  |2018  |2348  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |2348  |
+#'  |2021  |4032  |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |-                          |4032  |
+#'  |2022  |-     |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |3544                       |3544  |
+#'  |2024  |-     |-  |-  |-   |-    |-   |-  |-   |-  |-   |-    |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-   |-  |-   |-          |-         |3309                       |3309  |
+#'  |Total |68742 |1  |4  |20  |1    |1   |3  |4   |9  |6   |1    |4  |1  |1  |2  |3   |1    |3  |1   |5  |1  |9  |4   |2  |1   |10         |6         |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name totwork
+NULL
+
+
 #'  How much money contributed in political org. etc
 #' 
 #'  totpol
 #' 
-#' Question 644. Approximately how much money or the cash equivalent of property have you contributed in each of the fields listed above in the past twelve months? j. Political organizations or campaigns
+#' Question Approximately how much money or the cash equivalent of property have you contributed in each of the fields listed above in the past twelve months? (REPEAT FOR EACH ITEM MENTIONED IN GIVHLTH-GIVOTH) RECORD ABOVE UNDER TOTHLTH-VALOTH. (ESTIMATED DOLLAR VALUE CONTRIBUTED INCLUDING BOTH CASH CONTRIBUTIONS AND THE CASH-VALUE OF PROPERTY.) 
+#' J. Political organizations or campaigns
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1954/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +231,30 @@
 #'  |2024  |-     |-  |-  |-   |-    |-  |-   |-    |-   |-  |-  |-   |-  |-   |-  |-  |-   |-    |-  |-   |-    |-  |-          |-         |3309                       |3309  |
 #'  |Total |68754 |1  |3  |14  |3    |1  |1   |1    |1   |1  |2  |8   |7  |2   |2  |2  |4   |2    |16 |3   |1    |1  |4          |12        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name totpol
+NULL
+
+
+#'  How much money contributed in youth development
+#' 
+#'  totyouth
+#' 
+#' Question Approximately how much money or the cash equivalent of property have you contributed in each of the fields listed above in the past twelve months? (REPEAT FOR EACH ITEM MENTIONED IN GIVHLTH-GIVOTH) RECORD ABOVE UNDER TOTHLTH-VALOTH. (ESTIMATED DOLLAR VALUE CONTRIBUTED INCLUDING BOTH CASH CONTRIBUTIONS AND THE CASH-VALUE OF PROPERTY.) 
+#' K. Youth development
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -63,22 +270,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name totpol
-NULL
-
-#'  How much money contributed in youth development
-#' 
-#'  totyouth
-#' 
-#' Question 644. Approximately how much money or the cash equivalent of property have you contributed in each of the fields listed above in the past twelve months? k. Youth development
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1955/vshow).
 #'
 #' Counts by year: 
 #'
@@ -121,6 +314,30 @@ NULL
 #'  |2024  |-     |-  |-  |-   |-    |-   |-  |-   |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-    |-  |-  |-   |-    |-   |-  |-  |-   |-    |-  |-   |-  |-   |-  |-     |-          |-         |3309                       |3309  |
 #'  |Total |68648 |2  |3  |26  |3    |2   |2  |3   |1   |15 |15  |1    |1     |15 |3   |2    |5  |7   |1    |1  |4  |2   |1    |1   |3  |32 |9   |1    |3  |1   |1  |1   |5  |1     |9          |16        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name totyouth
+NULL
+
+
+#'  How much money contributed in priv & comm. found
+#' 
+#'  totfound
+#' 
+#' Question Approximately how much money or the cash equivalent of property have you contributed in each of the fields listed above in the past twelve months? (REPEAT FOR EACH ITEM MENTIONED IN GIVHLTH-GIVOTH) RECORD ABOVE UNDER TOTHLTH-VALOTH. (ESTIMATED DOLLAR VALUE CONTRIBUTED INCLUDING BOTH CASH CONTRIBUTIONS AND THE CASH-VALUE OF PROPERTY.) 
+#' L. Private and community foundations
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -136,22 +353,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name totyouth
-NULL
-
-#'  How much money contributed in priv & comm. found
-#' 
-#'  totfound
-#' 
-#' Question 644. Approximately how much money or the cash equivalent of property have you contributed in each of the fields listed above in the past twelve months? l. Private and community foundations
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1956/vshow).
 #'
 #' Counts by year: 
 #'
@@ -194,6 +397,30 @@ NULL
 #'  |2024  |-     |-  |-  |-   |-    |-   |-    |-   |-  |-   |-    |-   |-  |-  |-   |-   |-   |-   |-  |-   |-   |-    |-  |-   |-  |-    |-  |-   |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-   |-          |-         |3309                       |3309  |
 #'  |Total |68642 |16 |6  |28  |3    |1   |1    |2   |1  |3   |2    |1   |1  |11 |17  |1   |1   |1   |11 |1   |1   |1    |2  |3   |1  |1    |2  |2   |1   |5  |24 |5   |1  |1   |1  |3  |1   |2  |3  |1  |3   |10         |22        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name totfound
+NULL
+
+
+#'  How much money contributed in international
+#' 
+#'  totintl
+#' 
+#' Question Approximately how much money or the cash equivalent of property have you contributed in each of the fields listed above in the past twelve months? (REPEAT FOR EACH ITEM MENTIONED IN GIVHLTH-GIVOTH) RECORD ABOVE UNDER TOTHLTH-VALOTH. (ESTIMATED DOLLAR VALUE CONTRIBUTED INCLUDING BOTH CASH CONTRIBUTIONS AND THE CASH-VALUE OF PROPERTY.) 
+#' M. International/foreign
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -209,22 +436,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name totfound
-NULL
-
-#'  How much money contributed in international
-#' 
-#'  totintl
-#' 
-#' Question 644. Approximately how much money or the cash equivalent of property have you contributed in each of the fields listed above in the past twelve months? m. International/foreign
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1957/vshow).
 #'
 #' Counts by year: 
 #'
@@ -267,6 +480,30 @@ NULL
 #'  |2024  |-     |-  |-   |-    |-  |-   |-    |-   |-   |-  |-  |-  |-   |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68813 |1  |1   |2    |1  |6   |1    |1   |2   |1  |1  |4  |1   |1  |1  |3          |6         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name totintl
+NULL
+
+
+#'  How much money contributed in informal-alone
+#' 
+#'  totinfrm
+#' 
+#' Question Approximately how much money or the cash equivalent of property have you contributed in each of the fields listed above in the past twelve months? (REPEAT FOR EACH ITEM MENTIONED IN GIVHLTH-GIVOTH) RECORD ABOVE UNDER TOTHLTH-VALOTH. (ESTIMATED DOLLAR VALUE CONTRIBUTED INCLUDING BOTH CASH CONTRIBUTIONS AND THE CASH-VALUE OF PROPERTY.) 
+#' N. Informal-alone-not-for-pay
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -282,22 +519,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name totintl
-NULL
-
-#'  How much money contributed in informal-alone
-#' 
-#'  totinfrm
-#' 
-#' Question 644. Approximately how much money or the cash equivalent of property have you contributed in each of the fields listed above in the past twelve months? n. Informal-alone-not-for-pay
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1958/vshow).
 #'
 #' Counts by year: 
 #'
@@ -340,6 +563,30 @@ NULL
 #'  |2024  |-     |-  |-   |-    |-    |-   |-   |-  |-   |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68809 |3  |6   |4    |1    |1   |4   |1  |2   |1  |3  |1  |4          |6         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name totinfrm
+NULL
+
+
+#'  How much money contributed in other (specify)
+#' 
+#'  tototh
+#' 
+#' Question Approximately how much money or the cash equivalent of property have you contributed in each of the fields listed above in the past twelve months? (REPEAT FOR EACH ITEM MENTIONED IN GIVHLTH-GIVOTH) RECORD ABOVE UNDER TOTHLTH-VALOTH. (ESTIMATED DOLLAR VALUE CONTRIBUTED INCLUDING BOTH CASH CONTRIBUTIONS AND THE CASH-VALUE OF PROPERTY.) 
+#' O. Other (SPECIFY)
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -355,22 +602,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name totinfrm
-NULL
-
-#'  How much money contributed in other (specify)
-#' 
-#'  tototh
-#' 
-#' Question 644. Approximately how much money or the cash equivalent of property have you contributed in each of the fields listed above in the past twelve months? o. Other (specify)
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1959/vshow).
 #'
 #' Counts by year: 
 #'
@@ -413,6 +646,31 @@ NULL
 #'  |2024  |-     |-  |-  |-   |-   |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-  |-  |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68749 |2  |4  |10  |1   |1    |2  |1   |8  |10  |2    |5  |1   |1    |1    |2  |1   |4  |1  |7  |3   |1  |1   |1  |1   |4  |3  |2          |17        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name tototh
+NULL
+
+
+#'  Estimated value contributed in health
+#' 
+#'  valhlth
+#' 
+#' Question Of the total amount you gave to (AREA IN TOTHLTH-TOTOTH what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? (REPEAT FOR EACH ITEM MENTIONED IN TOTHLTH-TOTOTH) 
+#' RECORD above UNDER VALHLTH-VALOTH. (ESTIMATED CASH-VALUE OF PROPERTY CONTRIBUTIONS ONLY.)
+#' A. Health
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -428,22 +686,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name tototh
-NULL
-
-#'  Estimated value contributed in health
-#' 
-#'  valhlth
-#' 
-#' Question 645. Of the total amount you gave to (AREA IN Q.644) what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? a. Health
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1960/vshow).
 #'
 #' Counts by year: 
 #'
@@ -486,6 +730,31 @@ NULL
 #'  |2024  |-     |-   |-  |-   |-    |-  |-   |-    |-   |-  |-   |-  |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |3309                       |3309  |
 #'  |Total |68595 |122 |1  |3   |1    |1  |1   |1    |1   |2  |2   |1  |1  |2   |3  |1   |1  |2   |1  |1  |1   |9          |93        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name valhlth
+NULL
+
+
+#'  Estimated value contributed in education
+#' 
+#'  valeduc
+#' 
+#' Question Of the total amount you gave to (AREA IN TOTHLTH-TOTOTH what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? (REPEAT FOR EACH ITEM MENTIONED IN TOTHLTH-TOTOTH) 
+#' RECORD above UNDER VALHLTH-VALOTH. (ESTIMATED CASH-VALUE OF PROPERTY CONTRIBUTIONS ONLY.)
+#' B. Education
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -501,22 +770,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name valhlth
-NULL
-
-#'  Estimated value contributed in education
-#' 
-#'  valeduc
-#' 
-#' Question 645. Of the total amount you gave to (AREA IN Q.644) what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? b. Education
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1961/vshow).
 #'
 #' Counts by year: 
 #'
@@ -559,172 +814,19 @@ NULL
 #'  |2024  |-     |-  |-  |-   |-    |-  |-  |-    |-  |-   |-  |-  |-   |-    |-  |-  |-   |-  |-  |-     |-          |-         |3309                       |3309  |
 #'  |Total |68627 |93 |3  |7   |1    |1  |1  |1    |3  |3   |3  |1  |1   |1    |2  |6  |4   |1  |1  |1     |10         |75        |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
 #' @name valeduc
 NULL
 
-#'  Estimated value contributed in religious org
-#' 
-#'  valrelig
-#' 
-#' Question 645. Of the total amount you gave to (AREA IN Q.644) what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? c. Religious organizations
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |0   |10 |100 |1000 |1200 |15 |150 |20 |200 |2000 |25 |250 |2500 |2800 |30 |300 |3000 |350 |3500 |40 |400 |4000 |5  |50 |500 |600 |6000 |625 |70 |700 |75 |750 |80 |800 |9000 |don't know |no answer |not available in this year |Total |
-#'  |:-----|:-----|:---|:--|:---|:----|:----|:--|:---|:--|:---|:----|:--|:---|:----|:----|:--|:---|:----|:---|:----|:--|:---|:----|:--|:--|:---|:---|:----|:---|:--|:---|:--|:---|:--|:---|:----|:----------|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1613  |
-#'  |1973  |1504  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1504  |
-#'  |1974  |1484  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1484  |
-#'  |1975  |1490  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1490  |
-#'  |1976  |1499  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1499  |
-#'  |1977  |1530  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1530  |
-#'  |1978  |1532  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1532  |
-#'  |1980  |1468  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1468  |
-#'  |1982  |1860  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1860  |
-#'  |1983  |1599  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1599  |
-#'  |1984  |1473  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1473  |
-#'  |1985  |1534  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1534  |
-#'  |1986  |1470  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1470  |
-#'  |1987  |1819  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1819  |
-#'  |1988  |1481  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1481  |
-#'  |1989  |1537  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1537  |
-#'  |1990  |1372  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1372  |
-#'  |1991  |1517  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1517  |
-#'  |1993  |1606  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1606  |
-#'  |1994  |2992  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |2992  |
-#'  |1996  |2274  |290 |2  |24  |2    |1    |2  |3   |6  |11  |1    |4  |2   |2    |1    |3  |6   |2    |1   |1    |5  |7   |1    |2  |5  |4   |3   |2    |1   |1  |1   |1  |1   |1  |1   |1    |33         |196       |-                          |2904  |
-#'  |1998  |2832  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |2832  |
-#'  |2000  |2817  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |2817  |
-#'  |2002  |2765  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |2765  |
-#'  |2004  |2812  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |2812  |
-#'  |2006  |4510  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |4510  |
-#'  |2008  |2023  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |2023  |
-#'  |2010  |2044  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |2044  |
-#'  |2012  |1974  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1974  |
-#'  |2014  |2538  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |2538  |
-#'  |2016  |2867  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |2867  |
-#'  |2018  |2348  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |2348  |
-#'  |2021  |4032  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |4032  |
-#'  |2022  |-     |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |3544                       |3544  |
-#'  |2024  |-     |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |3309                       |3309  |
-#'  |Total |68216 |290 |2  |24  |2    |1    |2  |3   |6  |11  |1    |4  |2   |2    |1    |3  |6   |2    |1   |1    |5  |7   |1    |2  |5  |4   |3   |2    |1   |1  |1   |1  |1   |1  |1   |1    |33         |196       |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name valrelig
-NULL
-
-#'  Estimated value contributed in human services
-#' 
-#'  valhuman
-#' 
-#' Question 645. Of the total amount you gave to (AREA IN Q.644) what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? d. Human services
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |0  |10 |100 |1000 |1200 |15 |150 |1500 |20 |200 |2000 |25 |250 |30 |300 |400 |5  |50 |500 |60 |600 |75 |don't know |no answer |not available in this year |Total |
-#'  |:-----|:-----|:--|:--|:---|:----|:----|:--|:---|:----|:--|:---|:----|:--|:---|:--|:---|:---|:--|:--|:---|:--|:---|:--|:----------|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1613  |
-#'  |1973  |1504  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1504  |
-#'  |1974  |1484  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1484  |
-#'  |1975  |1490  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1490  |
-#'  |1976  |1499  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1499  |
-#'  |1977  |1530  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1530  |
-#'  |1978  |1532  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1532  |
-#'  |1980  |1468  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1468  |
-#'  |1982  |1860  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1860  |
-#'  |1983  |1599  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1599  |
-#'  |1984  |1473  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1473  |
-#'  |1985  |1534  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1534  |
-#'  |1986  |1470  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1470  |
-#'  |1987  |1819  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1819  |
-#'  |1988  |1481  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1481  |
-#'  |1989  |1537  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1537  |
-#'  |1990  |1372  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1372  |
-#'  |1991  |1517  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1517  |
-#'  |1993  |1606  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1606  |
-#'  |1994  |2992  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |2992  |
-#'  |1996  |2674  |94 |5  |11  |1    |1    |1  |3   |1    |2  |10  |1    |2  |1   |2  |4   |4   |1  |6  |8   |1  |1   |2  |8          |60        |-                          |2904  |
-#'  |1998  |2832  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |2832  |
-#'  |2000  |2817  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |2817  |
-#'  |2002  |2765  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |2765  |
-#'  |2004  |2812  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |2812  |
-#'  |2006  |4510  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |4510  |
-#'  |2008  |2023  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |2023  |
-#'  |2010  |2044  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |2044  |
-#'  |2012  |1974  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1974  |
-#'  |2014  |2538  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |2538  |
-#'  |2016  |2867  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |2867  |
-#'  |2018  |2348  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |2348  |
-#'  |2021  |4032  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |4032  |
-#'  |2022  |-     |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |3544                       |3544  |
-#'  |2024  |-     |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |3309                       |3309  |
-#'  |Total |68616 |94 |5  |11  |1    |1    |1  |3   |1    |2  |10  |1    |2  |1   |2  |4   |4   |1  |6  |8   |1  |1   |2  |8          |60        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name valhuman
-NULL
 

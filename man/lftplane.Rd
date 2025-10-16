@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 lftplane
 }
 \details{
-Question Which of the following is a key factor that enables an airplane to lift? (response to acceptDK) (response to probeDK)
+Question Which of the following is a key factor that enables an airplane to lift?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} air pressure beneath the wing is greater than that above the wing
+\item \code{2} pressure within the airplane is greater than that of the outside
+\item \code{3} engine power is greater than that of friction
+\item \code{4} the plane's wing is lighter than air
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3473/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab air pressure beneath the wing is greater than that above the wing \tab don't know \tab engine power is greater than that of friction \tab no answer \tab pressure within the airplane is greater than that of the outside \tab the plane's wing is lighter than air \tab not available in this year \tab Total \cr
@@ -57,26 +79,42 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} air pressure beneath the wing is greater than that above the wing
-\item \code{2} pressure within the airplane is greater than that of the outside
-\item \code{3} engine power is greater than that of friction
-\item \code{4} the plane's wing is lighter than air
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2008 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{anheat}},
+\code{\link{anscitst}},
+\code{\link{erosion}},
+\code{\link{goldfish}},
+\code{\link{h2olife}},
+\code{\link{litmstxt}},
+\code{\link{maboygrl}},
+\code{\link{salth2o}},
+\code{\link{stormtxt}}
+
+Other Knowledge: 
+\code{\link{anheat}},
+\code{\link{h2olife}},
+\code{\link{maboygrl}},
+\code{\link{stormtxt}}
+
+Other Science: 
+\code{\link{anheat}},
+\code{\link{anscitst}},
+\code{\link{erosion}},
+\code{\link{goldfish}},
+\code{\link{h2olife}},
+\code{\link{maboygrl}},
+\code{\link{salth2o}},
+\code{\link{stormtxt}}
+}
+\concept{Knowledge}
+\concept{Science}
+\concept{Science Knowledge & Attitudes}
 \keyword{variable}

@@ -10,11 +10,41 @@ General Social Survey https://gss.norc.org
 jbendmo
 }
 \details{
-Question B. Please also specify the month.
+Question Please also specify the month.        In (MONTHS):
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} january
+\item \code{2} february
+\item \code{3} march
+\item \code{4} april
+\item \code{5} may
+\item \code{6} june
+\item \code{7} july
+\item \code{8} august
+\item \code{9} september
+\item \code{10} october
+\item \code{11} november
+\item \code{12} december
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6340/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllll}{
    year \tab iap \tab april \tab august \tab december \tab don't know \tab february \tab january \tab july \tab june \tab march \tab may \tab no answer \tab november \tab october \tab september \tab not available in this year \tab Total \cr
@@ -57,34 +87,24 @@ Counts by year:\tabular{llllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} january
-\item \code{2} february
-\item \code{3} march
-\item \code{4} april
-\item \code{5} may
-\item \code{6} june
-\item \code{7} july
-\item \code{8} august
-\item \code{9} september
-\item \code{10} october
-\item \code{11} november
-\item \code{12} december
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2016 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Work Orientation: 
+\code{\link{exjobsat}},
+\code{\link{extraern}},
+\code{\link{extrawrk}},
+\code{\link{jbendyr}},
+\code{\link{lowpay}},
+\code{\link{mortravl}},
+\code{\link{newskill}},
+\code{\link{tempwork}},
+\code{\link{wornojob}}
+}
+\concept{Work Orientation}
 \keyword{variable}

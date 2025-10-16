@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 adults_exp
 }
 \details{
-Question None
+Question Including yourself, how many individuals 18 or older live in this household?
+If you have roommates, please include them. Please also include those who usually live here but are away temporarily, such as those on business trips, at school, or temporarily in a hospital.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} 1 adult in household
+\item \code{8} 8 or more
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7983/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllll}{
    year \tab not available in this year \tab 1 adult in household \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 or more \tab iap \tab no answer \tab skipped on web \tab not available in this release \tab Total \cr
@@ -57,23 +78,11 @@ Counts by year:\tabular{lllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} 1 adult in household
-\item \code{8} 8 or more
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2022 \tab A/B/C \tab full \cr
+   2024 \tab A/B/C \tab full \cr
 }
 }
 

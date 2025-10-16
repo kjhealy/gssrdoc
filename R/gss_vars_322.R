@@ -1,11 +1,206 @@
+#'  How hard to say how people work at workplace
+#' 
+#'  cowrkhrd
+#' 
+#' Question At your workplace, how hard would you say that people work with 0 meaning not at all hard and 10 meaning very hard?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` not at all hard
+#'   * `10` very hard
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2864/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |1  |2  |3  |4   |5   |6   |7   |8   |9   |don't know |no answer |not at all hard |very hard |not available in this year |Total |
+#'  |:-----|:-----|:--|:--|:--|:---|:---|:---|:---|:---|:---|:----------|:---------|:---------------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1613  |
+#'  |1973  |1504  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1504  |
+#'  |1974  |1484  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1484  |
+#'  |1975  |1490  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1490  |
+#'  |1976  |1499  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1499  |
+#'  |1977  |1530  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1530  |
+#'  |1978  |1532  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1532  |
+#'  |1980  |1468  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1468  |
+#'  |1982  |1860  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1860  |
+#'  |1983  |1599  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1599  |
+#'  |1984  |1473  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1473  |
+#'  |1985  |1534  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1534  |
+#'  |1986  |1470  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1470  |
+#'  |1987  |1819  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1819  |
+#'  |1988  |1481  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1481  |
+#'  |1989  |1537  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1537  |
+#'  |1990  |1372  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1372  |
+#'  |1991  |1517  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1517  |
+#'  |1993  |1606  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1606  |
+#'  |1994  |2992  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |2992  |
+#'  |1996  |2904  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |2904  |
+#'  |1998  |2832  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |2832  |
+#'  |2000  |2817  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |2817  |
+#'  |2002  |969   |10 |24 |47 |61  |284 |136 |283 |335 |160 |35         |15        |94              |312       |-                          |2765  |
+#'  |2004  |2812  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |2812  |
+#'  |2006  |2778  |5  |24 |49 |53  |237 |124 |248 |341 |147 |72         |27        |49              |356       |-                          |4510  |
+#'  |2008  |2023  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |2023  |
+#'  |2010  |2044  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |2044  |
+#'  |2012  |1974  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |1974  |
+#'  |2014  |2538  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |2538  |
+#'  |2016  |2867  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |2867  |
+#'  |2018  |2348  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |2348  |
+#'  |2021  |4032  |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |-                          |4032  |
+#'  |2022  |-     |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |3544                       |3544  |
+#'  |2024  |-     |-  |-  |-  |-   |-   |-   |-   |-   |-   |-          |-         |-               |-         |3309                       |3309  |
+#'  |Total |65318 |15 |48 |96 |114 |521 |260 |531 |676 |307 |107        |42        |143             |668       |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Employee Compensation
+#' @family Job
+#' 
+#' @keywords variable
+#' @md
+#' @name cowrkhrd
+NULL
+
+
+#'  How likely to talk directly if coworker not work
+#' 
+#'  talkemp
+#' 
+#' Question If you were to see a fellow employee not working as hard or well as he or she should, how likely would you be to: 
+#' A. Talk directly to the employee
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` not at all likely
+#'   * `2` not very likely
+#'   * `3` somewhat likely
+#'   * `4` very likely
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2865/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no answer |not at all likely |not very likely |somewhat likely |very likely |not available in this year |Total |
+#'  |:-----|:-----|:----------|:---------|:-----------------|:---------------|:---------------|:-----------|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-         |-                 |-               |-               |-           |-                          |1613  |
+#'  |1973  |1504  |-          |-         |-                 |-               |-               |-           |-                          |1504  |
+#'  |1974  |1484  |-          |-         |-                 |-               |-               |-           |-                          |1484  |
+#'  |1975  |1490  |-          |-         |-                 |-               |-               |-           |-                          |1490  |
+#'  |1976  |1499  |-          |-         |-                 |-               |-               |-           |-                          |1499  |
+#'  |1977  |1530  |-          |-         |-                 |-               |-               |-           |-                          |1530  |
+#'  |1978  |1532  |-          |-         |-                 |-               |-               |-           |-                          |1532  |
+#'  |1980  |1468  |-          |-         |-                 |-               |-               |-           |-                          |1468  |
+#'  |1982  |1860  |-          |-         |-                 |-               |-               |-           |-                          |1860  |
+#'  |1983  |1599  |-          |-         |-                 |-               |-               |-           |-                          |1599  |
+#'  |1984  |1473  |-          |-         |-                 |-               |-               |-           |-                          |1473  |
+#'  |1985  |1534  |-          |-         |-                 |-               |-               |-           |-                          |1534  |
+#'  |1986  |1470  |-          |-         |-                 |-               |-               |-           |-                          |1470  |
+#'  |1987  |1819  |-          |-         |-                 |-               |-               |-           |-                          |1819  |
+#'  |1988  |1481  |-          |-         |-                 |-               |-               |-           |-                          |1481  |
+#'  |1989  |1537  |-          |-         |-                 |-               |-               |-           |-                          |1537  |
+#'  |1990  |1372  |-          |-         |-                 |-               |-               |-           |-                          |1372  |
+#'  |1991  |1517  |-          |-         |-                 |-               |-               |-           |-                          |1517  |
+#'  |1993  |1606  |-          |-         |-                 |-               |-               |-           |-                          |1606  |
+#'  |1994  |2992  |-          |-         |-                 |-               |-               |-           |-                          |2992  |
+#'  |1996  |2904  |-          |-         |-                 |-               |-               |-           |-                          |2904  |
+#'  |1998  |2832  |-          |-         |-                 |-               |-               |-           |-                          |2832  |
+#'  |2000  |2817  |-          |-         |-                 |-               |-               |-           |-                          |2817  |
+#'  |2002  |969   |40         |29        |480               |301             |432             |514         |-                          |2765  |
+#'  |2004  |2812  |-          |-         |-                 |-               |-               |-           |-                          |2812  |
+#'  |2006  |2778  |69         |30        |420               |284             |383             |546         |-                          |4510  |
+#'  |2008  |2023  |-          |-         |-                 |-               |-               |-           |-                          |2023  |
+#'  |2010  |2044  |-          |-         |-                 |-               |-               |-           |-                          |2044  |
+#'  |2012  |1974  |-          |-         |-                 |-               |-               |-           |-                          |1974  |
+#'  |2014  |2538  |-          |-         |-                 |-               |-               |-           |-                          |2538  |
+#'  |2016  |2867  |-          |-         |-                 |-               |-               |-           |-                          |2867  |
+#'  |2018  |2348  |-          |-         |-                 |-               |-               |-           |-                          |2348  |
+#'  |2021  |4032  |-          |-         |-                 |-               |-               |-           |-                          |4032  |
+#'  |2022  |-     |-          |-         |-                 |-               |-               |-           |3544                       |3544  |
+#'  |2024  |-     |-          |-         |-                 |-               |-               |-           |3309                       |3309  |
+#'  |Total |65318 |109        |59        |900               |585             |815             |1060        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Employee Compensation
+#' @family Job
+#' 
+#' @keywords variable
+#' @md
+#' @name talkemp
+NULL
+
+
 #'  How likely to speak supervisor if coworker not w
 #' 
 #'  talksup
 #' 
-#' Question 925. If you were to see a fellow employee not working as hard or well as he or she should, how likely would you be to: b. Speak to your supervisor or manager
+#' Question If you were to see a fellow employee not working as hard or well as he or she should, how likely would you be to: 
+#' B. Speak to your supervisor or manager
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` i do not have a supervisor or manager
+#'   * `1` not at all likely
+#'   * `2` not very likely
+#'   * `3` somewhat likely
+#'   * `4` very likely
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2866/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,9 +243,33 @@
 #'  |2024  |-     |-          |-                                     |-         |-                 |-               |-               |-           |3309                       |3309  |
 #'  |Total |65318 |98         |230                                   |62        |906               |702             |781             |749         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Employee Compensation
+#' @family Job
+#' 
+#' @keywords variable
+#' @md
+#' @name talksup
+NULL
+
+
+#'  How likely to do nothing if coworker not working
+#' 
+#'  donothng
+#' 
+#' Question If you were to see a fellow employee not working as hard or well as he or she should, how likely would you be to: 
+#' C. Do nothing
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` i do not have a supervisor or manager
 #'   * `1` not at all likely
 #'   * `2` not very likely
 #'   * `3` somewhat likely
@@ -68,22 +287,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name talksup
-NULL
-
-#'  How likely to do nothing if coworker not working
-#' 
-#'  donothng
-#' 
-#' Question 925. If you were to see a fellow employee not working as hard or well as he or she should, how likely would you be to: c. Do nothing?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2867/vshow).
 #'
 #' Counts by year: 
 #'
@@ -126,12 +331,45 @@ NULL
 #'  |2024  |-     |-          |-         |-                 |-               |-               |-           |3309                       |3309  |
 #'  |Total |65318 |121        |61        |1317              |694             |600             |735         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Employee Compensation
+#' @family Job
+#' 
+#' @keywords variable
+#' @md
+#' @name donothng
+NULL
+
+
+#'  What month were you last working
+#' 
+#'  lastwkmo
+#' 
+#' Question When were you last working for pay, that is what month and year were you last working? 
+#' 1. MONTH
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` not at all likely
-#'   * `2` not very likely
-#'   * `3` somewhat likely
-#'   * `4` very likely
+#'   * `1` january
+#'   * `2` february
+#'   * `3` march
+#'   * `4` april
+#'   * `5` may
+#'   * `6` june
+#'   * `7` july
+#'   * `8` august
+#'   * `9` september
+#'   * `10` october
+#'   * `11` november
+#'   * `12` december
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -145,22 +383,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name donothng
-NULL
-
-#'  What month were you last working
-#' 
-#'  lastwkmo
-#' 
-#' Question 925d. D. When were you last working for pay, that is what month and year were you last working?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2868/vshow).
 #'
 #' Counts by year: 
 #'
@@ -203,20 +427,32 @@ NULL
 #'  |2024  |-     |-     |-      |-        |-          |-        |-       |-    |-    |-     |-   |-         |-        |-       |-         |3309                       |3309  |
 #'  |Total |67898 |75    |55     |83       |70         |74       |105     |66   |109  |79    |72  |6         |40       |46      |68        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Employee Compensation
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name lastwkmo
+NULL
+
+
+#'  What year were you last working
+#' 
+#'  lastwkyr
+#' 
+#' Question When were you last working for pay, that is what month and year were you last working? 
+#' 2. YEAR
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` january
-#'   * `2` february
-#'   * `3` march
-#'   * `4` april
-#'   * `5` may
-#'   * `6` june
-#'   * `7` july
-#'   * `8` august
-#'   * `9` september
-#'   * `10` october
-#'   * `11` november
-#'   * `12` december
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -230,22 +466,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name lastwkmo
-NULL
-
-#'  What year were you last working
-#' 
-#'  lastwkyr
-#' 
-#' Question 925d. D. When were you last working for pay, that is what month and year were you last working?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2869/vshow).
 #'
 #' Counts by year: 
 #'
@@ -288,8 +510,34 @@ NULL
 #'  |2024  |-     |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-          |-         |3309                       |3309  |
 #'  |Total |67898 |2    |1    |4    |2    |1    |1    |1    |1    |1    |3    |1    |4    |1    |2    |1    |1    |1    |1    |2    |1    |1    |5    |3    |6    |2    |2    |2    |8    |2    |5    |7    |7    |7    |2    |8    |11   |6    |14   |7    |11   |9    |9    |24   |14   |14   |21   |22   |36   |21   |17   |28   |23   |29   |37   |33   |39   |53   |76   |160  |117  |14         |4         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Employee Compensation
+#' @family Work
+#' 
+#' @keywords variable
+#' @md
+#' @name lastwkyr
+NULL
+
+
+#'  R have tender feeling for people less fortunate
+#' 
+#'  empathy1
+#' 
+#' Question The following statements ask about your thoughts and feelings in various situations. For each item indicate how well it describes you by choosing the number on the showcard where 1 indicates that it does not describe you very well  and 5 means that it does describe you very well. Of course numbers 2-4 indicate that how well it describes you are In between these points.
+#' A. I often have tender, concerned feelings for people less fortunate than me.
+#' 
+#' 
 #' @section Values: 
 #' 
+#'   * `1` does not describe very well
+#'   * `5` describes very well
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -303,22 +551,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name lastwkyr
-NULL
-
-#'  R have tender feeling for people less fortunate
-#' 
-#'  empathy1
-#' 
-#' Question 926. The following statements ask about your thoughts and feelings in various situations. For each item indicate how well it describes you by choosing the number on the showcard where 1 indicates that it does not describe you very well and 5 means that it does describe you very well. Of course numbers 2-4 indicate that how well it describes you are in between these points. a. I often have tender, concerned feelings for people less fortunate than me.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2870/vshow).
 #'
 #' Counts by year: 
 #'
@@ -361,6 +595,31 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-                   |-                           |-          |-         |3309                       |3309  |
 #'  |Total |66134 |127 |454 |759 |1236                |108                         |18         |10        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Altruism
+#' @family Feelings
+#' 
+#' @keywords variable
+#' @md
+#' @name empathy1
+NULL
+
+
+#'  R does not feel very sorry for people having pro
+#' 
+#'  empathy2
+#' 
+#' Question The following statements ask about your thoughts and feelings in various situations. For each item indicate how well it describes you by choosing the number on the showcard where 1 indicates that it does not describe you very well  and 5 means that it does describe you very well. Of course numbers 2-4 indicate that how well it describes you are In between these points.
+#' B. Sometimes I don't feel very sorry for other people when they are having problems.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` does not describe very well
@@ -378,22 +637,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name empathy1
-NULL
-
-#'  R does not feel very sorry for people having pro
-#' 
-#'  empathy2
-#' 
-#' Question 926. The following statements ask about your thoughts and feelings in various situations. For each item indicate how well it describes you by choosing the number on the showcard where 1 indicates that it does not describe you very well and 5 means that it does describe you very well. Of course numbers 2-4 indicate that how well it describes you are in between these points. b. Sometimes I don't feel very sorry for other people when they are having problems.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2871/vshow).
 #'
 #' Counts by year: 
 #'
@@ -436,6 +681,31 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-                   |-                           |-          |-         |3309                       |3309  |
 #'  |Total |66134 |629 |659 |295 |187                 |913                         |17         |12        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Altruism
+#' @family Feelings
+#' 
+#' @keywords variable
+#' @md
+#' @name empathy2
+NULL
+
+
+#'  R feels protective towards people taken advantage
+#' 
+#'  empathy3
+#' 
+#' Question The following statements ask about your thoughts and feelings in various situations. For each item indicate how well it describes you by choosing the number on the showcard where 1 indicates that it does not describe you very well  and 5 means that it does describe you very well. Of course numbers 2-4 indicate that how well it describes you are In between these points.
+#' C. When I see someone being taken advantage of, I feel kind of protective towards them.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` does not describe very well
@@ -453,22 +723,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name empathy2
-NULL
-
-#'  R feels protective towards people taken advantage
-#' 
-#'  empathy3
-#' 
-#' Question 926. The following statements ask about your thoughts and feelings in various situations. For each item indicate how well it describes you by choosing the number on the showcard where 1 indicates that it does not describe you very well and 5 means that it does describe you very well. Of course numbers 2-4 indicate that how well it describes you are in between these points. c. When I see someone being taken advantage of, I feel kind of protective towards them.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2872/vshow).
 #'
 #' Counts by year: 
 #'
@@ -511,6 +767,31 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-                   |-                           |-          |-         |3309                       |3309  |
 #'  |Total |66134 |103 |312 |881 |1297                |89                          |19         |11        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Altruism
+#' @family Feelings
+#' 
+#' @keywords variable
+#' @md
+#' @name empathy3
+NULL
+
+
+#'  Others misfortunes do not disturb r
+#' 
+#'  empathy4
+#' 
+#' Question The following statements ask about your thoughts and feelings in various situations. For each item indicate how well it describes you by choosing the number on the showcard where 1 indicates that it does not describe you very well  and 5 means that it does describe you very well. Of course numbers 2-4 indicate that how well it describes you are In between these points.
+#' D. Other people's misfortunes do not usually disturb me a great deal.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` does not describe very well
@@ -528,22 +809,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name empathy3
-NULL
-
-#'  Others misfortunes do not disturb r
-#' 
-#'  empathy4
-#' 
-#' Question 926. The following statements ask about your thoughts and feelings in various situations. For each item indicate how well it describes you by choosing the number on the showcard where 1 indicates that it does not describe you very well and 5 means that it does describe you very well. Of course numbers 2-4 indicate that how well it describes you are in between these points. d. Other people's misfortunes do not usually disturb me a great deal.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2873/vshow).
 #'
 #' Counts by year: 
 #'
@@ -586,178 +853,20 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-                   |-                           |-          |-         |3309                       |3309  |
 #'  |Total |66134 |700 |601 |264 |170                 |948                         |18         |11        |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` does not describe very well
-#'   * `5` describes very well
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Altruism
+#' @family Feelings
 #' 
 #' @keywords variable
 #' @md
 #' @name empathy4
 NULL
 
-#'  R does not feel pity for someone treated unfair
-#' 
-#'  empathy5
-#' 
-#' Question 926. The following statements ask about your thoughts and feelings in various situations. For each item indicate how well it describes you by choosing the number on the showcard where 1 indicates that it does not describe you very well and 5 means that it does describe you very well. Of course numbers 2-4 indicate that how well it describes you are in between these points. e. When I see someone being treated unfairly, I sometimes don't feel very much pity for them.
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |2   |3   |4   |describes very well |does not describe very well |don't know |no answer |not available in this year |Total |
-#'  |:-----|:-----|:---|:---|:---|:-------------------|:---------------------------|:----------|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1613  |
-#'  |1973  |1504  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1504  |
-#'  |1974  |1484  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1484  |
-#'  |1975  |1490  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1490  |
-#'  |1976  |1499  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1499  |
-#'  |1977  |1530  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1530  |
-#'  |1978  |1532  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1532  |
-#'  |1980  |1468  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1468  |
-#'  |1982  |1860  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1860  |
-#'  |1983  |1599  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1599  |
-#'  |1984  |1473  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1473  |
-#'  |1985  |1534  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1534  |
-#'  |1986  |1470  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1470  |
-#'  |1987  |1819  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1819  |
-#'  |1988  |1481  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1481  |
-#'  |1989  |1537  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1537  |
-#'  |1990  |1372  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1372  |
-#'  |1991  |1517  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1517  |
-#'  |1993  |1606  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1606  |
-#'  |1994  |2992  |-   |-   |-   |-                   |-                           |-          |-         |-                          |2992  |
-#'  |1996  |2904  |-   |-   |-   |-                   |-                           |-          |-         |-                          |2904  |
-#'  |1998  |2832  |-   |-   |-   |-                   |-                           |-          |-         |-                          |2832  |
-#'  |2000  |2817  |-   |-   |-   |-                   |-                           |-          |-         |-                          |2817  |
-#'  |2002  |1393  |373 |191 |90  |76                  |613                         |21         |8         |-                          |2765  |
-#'  |2004  |1472  |374 |163 |89  |68                  |633                         |8          |5         |-                          |2812  |
-#'  |2006  |4510  |-   |-   |-   |-                   |-                           |-          |-         |-                          |4510  |
-#'  |2008  |2023  |-   |-   |-   |-                   |-                           |-          |-         |-                          |2023  |
-#'  |2010  |2044  |-   |-   |-   |-                   |-                           |-          |-         |-                          |2044  |
-#'  |2012  |1974  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1974  |
-#'  |2014  |2538  |-   |-   |-   |-                   |-                           |-          |-         |-                          |2538  |
-#'  |2016  |2867  |-   |-   |-   |-                   |-                           |-          |-         |-                          |2867  |
-#'  |2018  |2348  |-   |-   |-   |-                   |-                           |-          |-         |-                          |2348  |
-#'  |2021  |4032  |-   |-   |-   |-                   |-                           |-          |-         |-                          |4032  |
-#'  |2022  |-     |-   |-   |-   |-                   |-                           |-          |-         |3544                       |3544  |
-#'  |2024  |-     |-   |-   |-   |-                   |-                           |-          |-         |3309                       |3309  |
-#'  |Total |66134 |747 |354 |179 |144                 |1246                        |29         |13        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` does not describe very well
-#'   * `5` describes very well
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name empathy5
-NULL
-
-#'  R often quite touched by things
-#' 
-#'  empathy6
-#' 
-#' Question 926. The following statements ask about your thoughts and feelings in various situations. For each item indicate how well it describes you by choosing the number on the showcard where 1 indicates that it does not describe you very well and 5 means that it does describe you very well. Of course numbers 2-4 indicate that how well it describes you are in between these points. f. I am often quite touched by things that I see happen.
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |2   |3   |4   |describes very well |does not describe very well |don't know |no answer |not available in this year |Total |
-#'  |:-----|:-----|:---|:---|:---|:-------------------|:---------------------------|:----------|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1613  |
-#'  |1973  |1504  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1504  |
-#'  |1974  |1484  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1484  |
-#'  |1975  |1490  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1490  |
-#'  |1976  |1499  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1499  |
-#'  |1977  |1530  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1530  |
-#'  |1978  |1532  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1532  |
-#'  |1980  |1468  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1468  |
-#'  |1982  |1860  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1860  |
-#'  |1983  |1599  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1599  |
-#'  |1984  |1473  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1473  |
-#'  |1985  |1534  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1534  |
-#'  |1986  |1470  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1470  |
-#'  |1987  |1819  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1819  |
-#'  |1988  |1481  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1481  |
-#'  |1989  |1537  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1537  |
-#'  |1990  |1372  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1372  |
-#'  |1991  |1517  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1517  |
-#'  |1993  |1606  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1606  |
-#'  |1994  |2992  |-   |-   |-   |-                   |-                           |-          |-         |-                          |2992  |
-#'  |1996  |2904  |-   |-   |-   |-                   |-                           |-          |-         |-                          |2904  |
-#'  |1998  |2832  |-   |-   |-   |-                   |-                           |-          |-         |-                          |2832  |
-#'  |2000  |2817  |-   |-   |-   |-                   |-                           |-          |-         |-                          |2817  |
-#'  |2002  |1393  |49  |241 |364 |651                 |46                          |14         |7         |-                          |2765  |
-#'  |2004  |1472  |68  |250 |397 |586                 |29                          |6          |4         |-                          |2812  |
-#'  |2006  |4510  |-   |-   |-   |-                   |-                           |-          |-         |-                          |4510  |
-#'  |2008  |2023  |-   |-   |-   |-                   |-                           |-          |-         |-                          |2023  |
-#'  |2010  |2044  |-   |-   |-   |-                   |-                           |-          |-         |-                          |2044  |
-#'  |2012  |1974  |-   |-   |-   |-                   |-                           |-          |-         |-                          |1974  |
-#'  |2014  |2538  |-   |-   |-   |-                   |-                           |-          |-         |-                          |2538  |
-#'  |2016  |2867  |-   |-   |-   |-                   |-                           |-          |-         |-                          |2867  |
-#'  |2018  |2348  |-   |-   |-   |-                   |-                           |-          |-         |-                          |2348  |
-#'  |2021  |4032  |-   |-   |-   |-                   |-                           |-          |-         |-                          |4032  |
-#'  |2022  |-     |-   |-   |-   |-                   |-                           |-          |-         |3544                       |3544  |
-#'  |2024  |-     |-   |-   |-   |-                   |-                           |-          |-         |3309                       |3309  |
-#'  |Total |66134 |117 |491 |761 |1237                |75                          |20         |11        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` does not describe very well
-#'   * `5` describes very well
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name empathy6
-NULL
 

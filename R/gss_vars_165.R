@@ -1,11 +1,202 @@
+#'  Kdind10 coding status
+#' 
+#'  kdindstatus
+#' 
+#' Question KDIND10 Coding Status
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` found, iap
+#'   * `2` found, no answer
+#'   * `3` found, coded
+#'   * `4` not found, iap
+#'   * `5` not found, no answer
+#'   * `6` not found, coded
+#'   * `7` not found, no code assigned
+#'   * `8` case not collected in 1994
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6015/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |found, coded |found, iap |found, no answer |not found, coded |not found, iap |not found, no code assigned |not available in this year |Total |
+#'  |:-----|:-----|:------------|:----------|:----------------|:----------------|:--------------|:---------------------------|:--------------------------|:-----|
+#'  |1972  |1613  |-            |-          |-                |-                |-              |-                           |-                          |1613  |
+#'  |1973  |1504  |-            |-          |-                |-                |-              |-                           |-                          |1504  |
+#'  |1974  |1484  |-            |-          |-                |-                |-              |-                           |-                          |1484  |
+#'  |1975  |1490  |-            |-          |-                |-                |-              |-                           |-                          |1490  |
+#'  |1976  |1499  |-            |-          |-                |-                |-              |-                           |-                          |1499  |
+#'  |1977  |1530  |-            |-          |-                |-                |-              |-                           |-                          |1530  |
+#'  |1978  |1532  |-            |-          |-                |-                |-              |-                           |-                          |1532  |
+#'  |1980  |1468  |-            |-          |-                |-                |-              |-                           |-                          |1468  |
+#'  |1982  |1860  |-            |-          |-                |-                |-              |-                           |-                          |1860  |
+#'  |1983  |1599  |-            |-          |-                |-                |-              |-                           |-                          |1599  |
+#'  |1984  |1473  |-            |-          |-                |-                |-              |-                           |-                          |1473  |
+#'  |1985  |1534  |-            |-          |-                |-                |-              |-                           |-                          |1534  |
+#'  |1986  |1470  |-            |-          |-                |-                |-              |-                           |-                          |1470  |
+#'  |1987  |1819  |-            |-          |-                |-                |-              |-                           |-                          |1819  |
+#'  |1988  |1481  |-            |-          |-                |-                |-              |-                           |-                          |1481  |
+#'  |1989  |1537  |-            |-          |-                |-                |-              |-                           |-                          |1537  |
+#'  |1990  |1372  |-            |-          |-                |-                |-              |-                           |-                          |1372  |
+#'  |1991  |1517  |-            |-          |-                |-                |-              |-                           |-                          |1517  |
+#'  |1993  |1606  |-            |-          |-                |-                |-              |-                           |-                          |1606  |
+#'  |1994  |-     |561          |2338       |39               |4                |48             |2                           |-                          |2992  |
+#'  |1996  |2904  |-            |-          |-                |-                |-              |-                           |-                          |2904  |
+#'  |1998  |2832  |-            |-          |-                |-                |-              |-                           |-                          |2832  |
+#'  |2000  |2817  |-            |-          |-                |-                |-              |-                           |-                          |2817  |
+#'  |2002  |2765  |-            |-          |-                |-                |-              |-                           |-                          |2765  |
+#'  |2004  |2812  |-            |-          |-                |-                |-              |-                           |-                          |2812  |
+#'  |2006  |4510  |-            |-          |-                |-                |-              |-                           |-                          |4510  |
+#'  |2008  |2023  |-            |-          |-                |-                |-              |-                           |-                          |2023  |
+#'  |2010  |2044  |-            |-          |-                |-                |-              |-                           |-                          |2044  |
+#'  |2012  |1974  |-            |-          |-                |-                |-              |-                           |-                          |1974  |
+#'  |2014  |2538  |-            |-          |-                |-                |-              |-                           |-                          |2538  |
+#'  |2016  |2867  |-            |-          |-                |-                |-              |-                           |-                          |2867  |
+#'  |2018  |2348  |-            |-          |-                |-                |-              |-                           |-                          |2348  |
+#'  |2021  |4032  |-            |-          |-                |-                |-              |-                           |-                          |4032  |
+#'  |2022  |-     |-            |-          |-                |-                |-              |-                           |3544                       |3544  |
+#'  |2024  |-     |-            |-          |-                |-                |-              |-                           |3309                       |3309  |
+#'  |Total |65854 |561          |2338       |39               |4                |48             |2                           |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Family Mobility
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name kdindstatus
+NULL
+
+
+#'  Kdind10 coding tag
+#' 
+#'  kdindtag
+#' 
+#' Question KDIND10 Coding Tag
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` found
+#'   * `2` not found, assigned
+#'   * `3` not found, not assigned
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6016/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |found |not found, assigned |not found, not assigned |not available in this year |Total |
+#'  |:-----|:-----|:-----|:-------------------|:-----------------------|:--------------------------|:-----|
+#'  |1972  |1613  |-     |-                   |-                       |-                          |1613  |
+#'  |1973  |1504  |-     |-                   |-                       |-                          |1504  |
+#'  |1974  |1484  |-     |-                   |-                       |-                          |1484  |
+#'  |1975  |1490  |-     |-                   |-                       |-                          |1490  |
+#'  |1976  |1499  |-     |-                   |-                       |-                          |1499  |
+#'  |1977  |1530  |-     |-                   |-                       |-                          |1530  |
+#'  |1978  |1532  |-     |-                   |-                       |-                          |1532  |
+#'  |1980  |1468  |-     |-                   |-                       |-                          |1468  |
+#'  |1982  |1860  |-     |-                   |-                       |-                          |1860  |
+#'  |1983  |1599  |-     |-                   |-                       |-                          |1599  |
+#'  |1984  |1473  |-     |-                   |-                       |-                          |1473  |
+#'  |1985  |1534  |-     |-                   |-                       |-                          |1534  |
+#'  |1986  |1470  |-     |-                   |-                       |-                          |1470  |
+#'  |1987  |1819  |-     |-                   |-                       |-                          |1819  |
+#'  |1988  |1481  |-     |-                   |-                       |-                          |1481  |
+#'  |1989  |1537  |-     |-                   |-                       |-                          |1537  |
+#'  |1990  |1372  |-     |-                   |-                       |-                          |1372  |
+#'  |1991  |1517  |-     |-                   |-                       |-                          |1517  |
+#'  |1993  |1606  |-     |-                   |-                       |-                          |1606  |
+#'  |1994  |-     |2938  |52                  |2                       |-                          |2992  |
+#'  |1996  |2904  |-     |-                   |-                       |-                          |2904  |
+#'  |1998  |2832  |-     |-                   |-                       |-                          |2832  |
+#'  |2000  |2817  |-     |-                   |-                       |-                          |2817  |
+#'  |2002  |2765  |-     |-                   |-                       |-                          |2765  |
+#'  |2004  |2812  |-     |-                   |-                       |-                          |2812  |
+#'  |2006  |4510  |-     |-                   |-                       |-                          |4510  |
+#'  |2008  |2023  |-     |-                   |-                       |-                          |2023  |
+#'  |2010  |2044  |-     |-                   |-                       |-                          |2044  |
+#'  |2012  |1974  |-     |-                   |-                       |-                          |1974  |
+#'  |2014  |2538  |-     |-                   |-                       |-                          |2538  |
+#'  |2016  |2867  |-     |-                   |-                       |-                          |2867  |
+#'  |2018  |2348  |-     |-                   |-                       |-                          |2348  |
+#'  |2021  |4032  |-     |-                   |-                       |-                          |4032  |
+#'  |2022  |-     |-     |-                   |-                       |3544                       |3544  |
+#'  |2024  |-     |-     |-                   |-                       |3309                       |3309  |
+#'  |Total |65854 |2938  |52                  |2                       |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Family Mobility
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name kdindtag
+NULL
+
+
 #'  R child occupational prestige score (2010)
 #' 
 #'  kdpres10
 #' 
-#' Question None
+#' Question Prestige of Respondent's Child's Occupation (2010)
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6017/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +239,29 @@
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |3309                       |3309  |
 #'  |Total |68282 |2  |2  |1  |9  |7  |1  |7  |22 |4  |2  |15 |3  |2  |40 |14 |16 |4  |32 |12 |9  |28 |14 |9  |5  |6  |11 |29 |27 |37 |28 |16 |11 |9  |5  |12 |4  |3  |2  |3  |3  |14 |18 |5  |13 |18 |5  |3  |1  |2  |5  |1  |3  |3  |5  |1  |1  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Family Mobility
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name kdpres10
+NULL
+
+
+#'  R child occupational prestige score using threshold method (2010)
+#' 
+#'  kdpres105plus
+#' 
+#' Question Prestige of Respondent's Child's Occupation (2010)
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -63,22 +277,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name kdpres10
-NULL
-
-#'  R child occupational prestige score using threshold method (2010)
-#' 
-#'  kdpres105plus
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6018/vshow).
 #'
 #' Counts by year: 
 #'
@@ -121,8 +321,40 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |3309                       |3309  |
 #'  |Total |68282 |1  |6  |9  |8  |5  |5  |33 |2  |23 |2  |4  |7  |5  |8  |9  |2  |12 |10 |13 |29 |1  |5  |6  |3  |9  |3  |1  |11 |4  |7  |2  |4  |2  |1  |15 |10 |2  |21 |5  |3  |4  |11 |38 |11 |3  |17 |2  |2  |2  |5  |6  |6  |8  |7  |1  |6  |4  |1  |1  |4  |3  |1  |1  |4  |8  |1  |2  |2  |1  |2  |7  |21 |3  |18 |2  |2  |6  |6  |8  |1  |3  |10 |3  |2  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Family Mobility
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name kdpres105plus
+NULL
+
+
+#'  Sex of r 1st sibling
+#' 
+#'  sbsex1
+#' 
+#' Question Now I have some questions about your sisters and brothers. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. (RECORD THIS INFORMATION FOR UP TO THE NINE OLDEST SIBLINGS IN TABLE TO RIGHT).
+#' A. What is (this/your next) sister's or brother's first name?
+#' B. Is (BROTHER'S NAME/SISTER'S NAME) male or female?
+#' C. In what year was (BROTHER'S NAME/SISTER'S NAME) born?
+#' D. Is (BROTHER'S NAME/SISTER'S NAME) your full (F), adopted (A), step (S) or half (H) (sister/brother)?
+#' E. Is (BROTHER'S NAME/SISTER'S NAME) alive?
+#' F. Do you have any other sisters or brothers?
+#' B1. Sex of first sibling.
+#' 
+#' 
 #' @section Values: 
 #' 
+#'   * `1` male
+#'   * `2` female
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -136,22 +368,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name kdpres105plus
-NULL
-
-#'  Sex of r 1st sibling
-#' 
-#'  sbsex1
-#' 
-#' Question 508. Now I have some questions about your sisters and brothrs. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. b. Is (NAME) male or female?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1545/vshow).
 #'
 #' Counts by year: 
 #'
@@ -194,6 +412,30 @@ NULL
 #'  |2024  |-     |-          |-      |-    |-         |3309                       |3309  |
 #'  |Total |66025 |1          |1307   |1479 |34        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Family Mobilityex
+#' @family Siblings
+#' 
+#' @keywords variable
+#' @md
+#' @name sbsex1
+NULL
+
+
+#'  Sex of r 2nd sibling
+#' 
+#'  sbsex2
+#' 
+#' Question Now I have some questions about your sisters and brothers. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. (RECORD THIS INFORMATION FOR UP TO THE NINE OLDEST SIBLINGS IN TABLE TO RIGHT).
+#' B2. Sex of second sibling.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` male
@@ -211,22 +453,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name sbsex1
-NULL
-
-#'  Sex of r 2nd sibling
-#' 
-#'  sbsex2
-#' 
-#' Question 508. Now I have some questions about your sisters and brothrs. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. b. Is (NAME) male or female?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1546/vshow).
 #'
 #' Counts by year: 
 #'
@@ -269,6 +497,30 @@ NULL
 #'  |2024  |-     |-      |-    |-         |3309                       |3309  |
 #'  |Total |66575 |1127   |1101 |43        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Family Mobilityex
+#' @family Siblings
+#' 
+#' @keywords variable
+#' @md
+#' @name sbsex2
+NULL
+
+
+#'  Sex of r 3rd sibling
+#' 
+#'  sbsex3
+#' 
+#' Question Now I have some questions about your sisters and brothers. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. (RECORD THIS INFORMATION FOR UP TO THE NINE OLDEST SIBLINGS IN TABLE TO RIGHT).
+#' B3. Sex of third sibling.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` male
@@ -286,22 +538,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name sbsex2
-NULL
-
-#'  Sex of r 3rd sibling
-#' 
-#'  sbsex3
-#' 
-#' Question 508. Now I have some questions about your sisters and brothrs. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. b. Is (NAME) male or female?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1547/vshow).
 #'
 #' Counts by year: 
 #'
@@ -344,6 +582,30 @@ NULL
 #'  |2024  |-     |-          |-      |-    |-         |3309                       |3309  |
 #'  |Total |67151 |1          |852    |802  |40        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Family Mobilityex
+#' @family Siblings
+#' 
+#' @keywords variable
+#' @md
+#' @name sbsex3
+NULL
+
+
+#'  Sex of r 4th sibling
+#' 
+#'  sbsex4
+#' 
+#' Question Now I have some questions about your sisters and brothers. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. (RECORD THIS INFORMATION FOR UP TO THE NINE OLDEST SIBLINGS IN TABLE TO RIGHT).
+#' B4. Sex of fourth sibling.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` male
@@ -361,22 +623,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name sbsex3
-NULL
-
-#'  Sex of r 4th sibling
-#' 
-#'  sbsex4
-#' 
-#' Question 508. Now I have some questions about your sisters and brothrs. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. b. Is (NAME) male or female?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1548/vshow).
 #'
 #' Counts by year: 
 #'
@@ -419,6 +667,30 @@ NULL
 #'  |2024  |-     |-          |-      |-    |-         |3309                       |3309  |
 #'  |Total |67648 |3          |578    |577  |40        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Family Mobilityex
+#' @family Siblings
+#' 
+#' @keywords variable
+#' @md
+#' @name sbsex4
+NULL
+
+
+#'  Sex of r 5th sibling
+#' 
+#'  sbsex5
+#' 
+#' Question Now I have some questions about your sisters and brothers. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. (RECORD THIS INFORMATION FOR UP TO THE NINE OLDEST SIBLINGS IN TABLE TO RIGHT).
+#' B5. Sex of fifth sibling.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` male
@@ -436,22 +708,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name sbsex4
-NULL
-
-#'  Sex of r 5th sibling
-#' 
-#'  sbsex5
-#' 
-#' Question 508. Now I have some questions about your sisters and brothrs. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. b. Is (NAME) male or female?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1549/vshow).
 #'
 #' Counts by year: 
 #'
@@ -494,6 +752,30 @@ NULL
 #'  |2024  |-     |-          |-      |-    |-         |3309                       |3309  |
 #'  |Total |68012 |5          |388    |407  |34        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Family Mobilityex
+#' @family Siblings
+#' 
+#' @keywords variable
+#' @md
+#' @name sbsex5
+NULL
+
+
+#'  Sex of r 6th sibling
+#' 
+#'  sbsex6
+#' 
+#' Question Now I have some questions about your sisters and brothers. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. (RECORD THIS INFORMATION FOR UP TO THE NINE OLDEST SIBLINGS IN TABLE TO RIGHT).
+#' B6. Sex of sixth sibling.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` male
@@ -511,22 +793,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name sbsex5
-NULL
-
-#'  Sex of r 6th sibling
-#' 
-#'  sbsex6
-#' 
-#' Question 508. Now I have some questions about your sisters and brothrs. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. b. Is (NAME) male or female?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1550/vshow).
 #'
 #' Counts by year: 
 #'
@@ -569,178 +837,19 @@ NULL
 #'  |2024  |-     |-          |-      |-    |-         |3309                       |3309  |
 #'  |Total |68252 |5          |285    |276  |28        |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` male
-#'   * `2` female
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Family Mobilityex
+#' @family Siblings
 #' 
 #' @keywords variable
 #' @md
 #' @name sbsex6
 NULL
 
-#'  Sex of r 7th sibling
-#' 
-#'  sbsex7
-#' 
-#' Question 508. Now I have some questions about your sisters and brothrs. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. b. Is (NAME) male or female?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |female |male |no answer |not available in this year |Total |
-#'  |:-----|:-----|:----------|:------|:----|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-      |-    |-         |-                          |1613  |
-#'  |1973  |1504  |-          |-      |-    |-         |-                          |1504  |
-#'  |1974  |1484  |-          |-      |-    |-         |-                          |1484  |
-#'  |1975  |1490  |-          |-      |-    |-         |-                          |1490  |
-#'  |1976  |1499  |-          |-      |-    |-         |-                          |1499  |
-#'  |1977  |1530  |-          |-      |-    |-         |-                          |1530  |
-#'  |1978  |1532  |-          |-      |-    |-         |-                          |1532  |
-#'  |1980  |1468  |-          |-      |-    |-         |-                          |1468  |
-#'  |1982  |1860  |-          |-      |-    |-         |-                          |1860  |
-#'  |1983  |1599  |-          |-      |-    |-         |-                          |1599  |
-#'  |1984  |1473  |-          |-      |-    |-         |-                          |1473  |
-#'  |1985  |1534  |-          |-      |-    |-         |-                          |1534  |
-#'  |1986  |1470  |-          |-      |-    |-         |-                          |1470  |
-#'  |1987  |1819  |-          |-      |-    |-         |-                          |1819  |
-#'  |1988  |1481  |-          |-      |-    |-         |-                          |1481  |
-#'  |1989  |1537  |-          |-      |-    |-         |-                          |1537  |
-#'  |1990  |1372  |-          |-      |-    |-         |-                          |1372  |
-#'  |1991  |1517  |-          |-      |-    |-         |-                          |1517  |
-#'  |1993  |1606  |-          |-      |-    |-         |-                          |1606  |
-#'  |1994  |2583  |4          |185    |196  |24        |-                          |2992  |
-#'  |1996  |2904  |-          |-      |-    |-         |-                          |2904  |
-#'  |1998  |2832  |-          |-      |-    |-         |-                          |2832  |
-#'  |2000  |2817  |-          |-      |-    |-         |-                          |2817  |
-#'  |2002  |2765  |-          |-      |-    |-         |-                          |2765  |
-#'  |2004  |2812  |-          |-      |-    |-         |-                          |2812  |
-#'  |2006  |4510  |-          |-      |-    |-         |-                          |4510  |
-#'  |2008  |2023  |-          |-      |-    |-         |-                          |2023  |
-#'  |2010  |2044  |-          |-      |-    |-         |-                          |2044  |
-#'  |2012  |1974  |-          |-      |-    |-         |-                          |1974  |
-#'  |2014  |2538  |-          |-      |-    |-         |-                          |2538  |
-#'  |2016  |2867  |-          |-      |-    |-         |-                          |2867  |
-#'  |2018  |2348  |-          |-      |-    |-         |-                          |2348  |
-#'  |2021  |4032  |-          |-      |-    |-         |-                          |4032  |
-#'  |2022  |-     |-          |-      |-    |-         |3544                       |3544  |
-#'  |2024  |-     |-          |-      |-    |-         |3309                       |3309  |
-#'  |Total |68437 |4          |185    |196  |24        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` male
-#'   * `2` female
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name sbsex7
-NULL
-
-#'  Sex of r 8th sibling
-#' 
-#'  sbsex8
-#' 
-#' Question 508. Now I have some questions about your sisters and brothrs. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. b. Is (NAME) male or female?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |female |male |no answer |not available in this year |Total |
-#'  |:-----|:-----|:----------|:------|:----|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-      |-    |-         |-                          |1613  |
-#'  |1973  |1504  |-          |-      |-    |-         |-                          |1504  |
-#'  |1974  |1484  |-          |-      |-    |-         |-                          |1484  |
-#'  |1975  |1490  |-          |-      |-    |-         |-                          |1490  |
-#'  |1976  |1499  |-          |-      |-    |-         |-                          |1499  |
-#'  |1977  |1530  |-          |-      |-    |-         |-                          |1530  |
-#'  |1978  |1532  |-          |-      |-    |-         |-                          |1532  |
-#'  |1980  |1468  |-          |-      |-    |-         |-                          |1468  |
-#'  |1982  |1860  |-          |-      |-    |-         |-                          |1860  |
-#'  |1983  |1599  |-          |-      |-    |-         |-                          |1599  |
-#'  |1984  |1473  |-          |-      |-    |-         |-                          |1473  |
-#'  |1985  |1534  |-          |-      |-    |-         |-                          |1534  |
-#'  |1986  |1470  |-          |-      |-    |-         |-                          |1470  |
-#'  |1987  |1819  |-          |-      |-    |-         |-                          |1819  |
-#'  |1988  |1481  |-          |-      |-    |-         |-                          |1481  |
-#'  |1989  |1537  |-          |-      |-    |-         |-                          |1537  |
-#'  |1990  |1372  |-          |-      |-    |-         |-                          |1372  |
-#'  |1991  |1517  |-          |-      |-    |-         |-                          |1517  |
-#'  |1993  |1606  |-          |-      |-    |-         |-                          |1606  |
-#'  |1994  |2702  |2          |132    |137  |19        |-                          |2992  |
-#'  |1996  |2904  |-          |-      |-    |-         |-                          |2904  |
-#'  |1998  |2832  |-          |-      |-    |-         |-                          |2832  |
-#'  |2000  |2817  |-          |-      |-    |-         |-                          |2817  |
-#'  |2002  |2765  |-          |-      |-    |-         |-                          |2765  |
-#'  |2004  |2812  |-          |-      |-    |-         |-                          |2812  |
-#'  |2006  |4510  |-          |-      |-    |-         |-                          |4510  |
-#'  |2008  |2023  |-          |-      |-    |-         |-                          |2023  |
-#'  |2010  |2044  |-          |-      |-    |-         |-                          |2044  |
-#'  |2012  |1974  |-          |-      |-    |-         |-                          |1974  |
-#'  |2014  |2538  |-          |-      |-    |-         |-                          |2538  |
-#'  |2016  |2867  |-          |-      |-    |-         |-                          |2867  |
-#'  |2018  |2348  |-          |-      |-    |-         |-                          |2348  |
-#'  |2021  |4032  |-          |-      |-    |-         |-                          |4032  |
-#'  |2022  |-     |-          |-      |-    |-         |3544                       |3544  |
-#'  |2024  |-     |-          |-      |-    |-         |3309                       |3309  |
-#'  |Total |68556 |2          |132    |137  |19        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` male
-#'   * `2` female
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name sbsex8
-NULL
 

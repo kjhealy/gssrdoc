@@ -12,9 +12,32 @@ cabgndr
 \details{
 Question People may have different opinions about whether women or men are best suited to serve in certain leadership positions. Please consider the following positions and select the options that come closest to your own opinion. A member of the cabinet in the f
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} women are much better suited
+\item \code{2} women are somewhat better suited
+\item \code{3} women and men are equally suited
+\item \code{4} men are somewhat better suited
+\item \code{5} men are much better suited
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7783/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab not available in this year \tab don't know \tab iap \tab men are much better suited \tab men are somewhat better suited \tab no answer \tab skipped on web \tab women and men are equally suited \tab women are much better suited \tab women are somewhat better suited \tab Total \cr
@@ -57,26 +80,10 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} women are much better suited
-\item \code{2} women are somewhat better suited
-\item \code{3} women and men are equally suited
-\item \code{4} men are somewhat better suited
-\item \code{5} men are much better suited
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2022 \tab A \tab partial \cr
 }
 }
 

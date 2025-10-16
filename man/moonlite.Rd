@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 moonlite
 }
 \details{
-Question 1343. And aside from your main job, do you have any other paid jobs, like a second job or other paid work?
+Question And aside from your main job, do you have any other paid jobs, like a second job or other paid work?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes, regularly
+\item \code{2} yes, sometimes
+\item \code{3} no
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4564/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllll}{
    year \tab not available in this year \tab no \tab no answer \tab yes, regularly \tab yes, sometimes \tab Total \cr
@@ -57,25 +78,33 @@ Counts by year:\tabular{lllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes, regularly
-\item \code{2} yes, sometimes
-\item \code{3} no
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1989 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Work Orientation: 
+\code{\link{employer}},
+\code{\link{localnum}},
+\code{\link{numemply}},
+\code{\link{numsites}},
+\code{\link{othhrs}},
+\code{\link{supervis}},
+\code{\link{supnum}},
+\code{\link{suprvsjb}},
+\code{\link{totalnum}}
+
+Other Job: 
+\code{\link{localnum}},
+\code{\link{numsites}},
+\code{\link{othhrs}},
+\code{\link{supervis}},
+\code{\link{supnum}},
+\code{\link{totalnum}}
+}
+\concept{Job}
+\concept{Work Orientation}
 \keyword{variable}

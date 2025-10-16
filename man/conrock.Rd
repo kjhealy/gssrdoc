@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 conrock
 }
 \details{
-Question 472. I'm going to read you a list of some types of music. Can you tell me which of the statements on this card comes closest to your feeling about each type of music. p. Contemporary pop/rock
+Question I'm going to read you a list of some types of music. Can you tell me which of the statements on this card comes closest to your feeling about each type of music (HAND CARD CA TO RESPONDENT.) Let's start with big band music. Do you like it very much, like it, have mixed feelings, dislike it, dislike it very much, or is this a type of music that you don't know much about?
+P. Contemporary pop/rock
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} like very much
+\item \code{2} like it
+\item \code{3} mixed feelings
+\item \code{4} dislike it
+\item \code{5} dislike very much
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1402/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab dislike it \tab dislike very much \tab don't know \tab like it \tab like very much \tab mixed feelings \tab no answer \tab not available in this year \tab Total \cr
@@ -57,27 +81,32 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} like very much
-\item \code{2} like it
-\item \code{3} mixed feelings
-\item \code{4} dislike it
-\item \code{5} dislike very much
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1993 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Culture: 
+\code{\link{attsprts}},
+\code{\link{autorace}},
+\code{\link{hvymetal}},
+\code{\link{makeart}},
+\code{\link{oldies}},
+\code{\link{opera}},
+\code{\link{rap}},
+\code{\link{reggae}},
+\code{\link{visitart}}
+
+Other Music: 
+\code{\link{hvymetal}},
+\code{\link{oldies}},
+\code{\link{opera}},
+\code{\link{rap}},
+\code{\link{reggae}}
+}
+\concept{Culture}
+\concept{Music}
 \keyword{variable}

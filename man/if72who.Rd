@@ -10,11 +10,36 @@ General Social Survey https://gss.norc.org
 if72who
 }
 \details{
-Question 58b. If did not vote: Who would you have voted for, for President, if you had voted?
+Question B. In 1972, you remember that McGovern ran for President on the Democratic ticket against Nixon for the Republicans. Do you remember for sure whether or not you voted in that election?
+2. IF DID NOT VOTE:  Who would you have voted for, for President, if you had voted?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} mcgovern
+\item \code{2} nixon
+\item \code{3} other
+\item \code{4} refused
+\item \code{5} wouldnt vote
+\item \code{6} wldnt vt-relig
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/147/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab don't know \tab mcgovern \tab nixon \tab no answer \tab other \tab wouldnt vote \tab refused \tab wldnt vt-relig \tab not available in this year \tab Total \cr
@@ -57,28 +82,40 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} mcgovern
-\item \code{2} nixon
-\item \code{3} other
-\item \code{4} refused
-\item \code{5} wouldnt vote
-\item \code{6} wldnt vt-relig
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1973 \tab - \tab full \cr
+   1974 \tab - \tab full \cr
+   1975 \tab - \tab full \cr
+   1976 \tab - \tab full \cr
+   1977 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{if68who}},
+\code{\link{if76who}},
+\code{\link{if80who}},
+\code{\link{pres72}},
+\code{\link{pres76}},
+\code{\link{pres80}},
+\code{\link{vote72}},
+\code{\link{vote76}},
+\code{\link{vote80}}
+
+Other Political: 
+\code{\link{if68who}},
+\code{\link{if76who}},
+\code{\link{if80who}},
+\code{\link{pres72}},
+\code{\link{pres76}},
+\code{\link{pres80}},
+\code{\link{vote72}},
+\code{\link{vote76}},
+\code{\link{vote80}}
+}
+\concept{Core}
+\concept{Political}
 \keyword{variable}

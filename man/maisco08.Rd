@@ -2,7 +2,7 @@
 % Please edit documentation in R/gss_vars_596.R
 \name{maisco08}
 \alias{maisco08}
-\title{R's spouse's occupation, 2010 census & 2008 isco code}
+\title{R's mother's occupation, 2010 census & 2008 isco code}
 \source{
 General Social Survey https://gss.norc.org
 }
@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 maisco08
 }
 \details{
-Question None
+Question Respondent's mother's occupation, 2010 census, and 2008 ISCO code
 }
 \section{Values}{
 
@@ -617,4 +617,36 @@ Question None
 }
 }
 
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
+   1996 \tab A/B/C \tab full \cr
+   1998 \tab A/B/C \tab full \cr
+   2000 \tab A/B/C \tab full \cr
+   2002 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+}
+}
+
+\seealso{
+Other Occupation: 
+\code{\link{isco08}},
+\code{\link{isco88}},
+\code{\link{maisc681}},
+\code{\link{maisco88}},
+\code{\link{paisco08}},
+\code{\link{paisco88}},
+\code{\link{spisc681}},
+\code{\link{spisco08}},
+\code{\link{spisco88}}
+}
+\concept{Occupation}
 \keyword{variable}

@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 porninf
 }
 \details{
-Question 221. The next questions are about pornography - books, movies, magazines, and photographs that show or describe sex activities. I'm going to read some opinions about the effects of looking at or reading such sexual materials. As I read each one, please tell me if you think sexual materials do or do not have that effect: a. Sexual materials provide information about sex.
+Question The next questions are about pornography--books, movies, magazines, and photographs that show or describe sex activities.
+I''m going to read some opinions about the effects of looking at or reading such sexual materials. As I read each one, please tell me if you think sexual materials do or do not have that effect.
+READ EACH ITEM. CODE ONE FOR EACH
+A. Sexual materials provide information about sex
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes
+\item \code{2} no
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/636/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab not available in this year \tab Total \cr
@@ -57,24 +80,46 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes
-\item \code{2} no
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1973 \tab -/- \tab full \cr
+   1975 \tab -/- \tab full \cr
+   1976 \tab -/- \tab full \cr
+   1978 \tab -/- \tab full \cr
+   1980 \tab -/- \tab full \cr
+   1983 \tab -/- \tab full \cr
+   1984 \tab -/- \tab full \cr
+   1986 \tab -/- \tab full \cr
+   1987 \tab -/- \tab full \cr
+   1988 \tab B/C \tab partial \cr
+   1989 \tab B/C \tab partial \cr
+   1990 \tab B/C \tab partial \cr
+   1991 \tab B/C \tab partial \cr
+   1993 \tab B/C \tab partial \cr
+   1994 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{divlaw}},
+\code{\link{divlawy}},
+\code{\link{homochng}},
+\code{\link{homosex}},
+\code{\link{premarsx}},
+\code{\link{spdue}},
+\code{\link{sppaid}},
+\code{\link{teensex}},
+\code{\link{xmarsex}}
+
+Other Sex: 
+\code{\link{homochng}},
+\code{\link{homosex}},
+\code{\link{premarsx}},
+\code{\link{teensex}},
+\code{\link{xmarsex}}
+}
+\concept{Core}
+\concept{Sex}
 \keyword{variable}

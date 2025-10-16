@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 seefilm
 }
 \details{
-Question 1614. Now I'm going to ask you about things you did during the last seven days. I'm only interested in what you did during the last seven days. From last (DAY OF WEEK) to today did you... c. Go to a movie theater to see a film?
+Question Now I'm going to ask you about things you did during the last seven days. I'm only interested in what you did during the last seven days.
+From last (DAY OF WEEK) to today did youâ€¦
+C. Go to a movie theater to see a film?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes
+\item \code{2} no
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5308/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllll}{
    year \tab iap \tab no \tab no answer \tab yes \tab not available in this year \tab Total \cr
@@ -57,24 +79,28 @@ Counts by year:\tabular{lllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes
-\item \code{2} no
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/C/- \tab partial \cr
+   1998 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Religious Attendance and Identity: 
+\code{\link{attrelig}},
+\code{\link{eatout}},
+\code{\link{godoc}},
+\code{\link{monday}},
+\code{\link{numdays}},
+\code{\link{sunday}}
+
+Other Life Events: 
+\code{\link{attrelig}},
+\code{\link{eatout}},
+\code{\link{godoc}}
+}
+\concept{Life Events}
+\concept{Religious Attendance and Identity}
 \keyword{variable}

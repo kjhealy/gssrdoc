@@ -12,9 +12,32 @@ relgendr
 \details{
 Question Which of the following best describes your current relationship situation?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} i am in a steady relationship with a woman and we live together
+\item \code{2} i am in a steady relationship with a man and we live together
+\item \code{3} i am in a steady relationship with a woman and we do not live together
+\item \code{4} i am in a steady relationship with a man and we do not live together
+\item \code{5} i am not in a steady relationship right now
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3910/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab don't know \tab i am in a steady relationship with a man and we do not live together \tab i am in a steady relationship with a man and we live together \tab i am in a steady relationship with a woman and we do not live together \tab i am in a steady relationship with a woman and we live together \tab i am not in a steady relationship right now \tab no answer \tab not available in this year \tab Total \cr
@@ -57,27 +80,36 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} i am in a steady relationship with a woman and we live together
-\item \code{2} i am in a steady relationship with a man and we live together
-\item \code{3} i am in a steady relationship with a woman and we do not live together
-\item \code{4} i am in a steady relationship with a man and we do not live together
-\item \code{5} i am not in a steady relationship right now
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2008 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Sexual Orientation: 
+\code{\link{adoptkid}},
+\code{\link{attractd}},
+\code{\link{evkid}},
+\code{\link{kidlived}},
+\code{\link{kidnow1}},
+\code{\link{kidresp}},
+\code{\link{marunion}},
+\code{\link{sexunion}},
+\code{\link{toldsxor}}
+
+Other Marital Status: 
+\code{\link{marunion}},
+\code{\link{sexunion}}
+
+Other Sex: 
+\code{\link{attractd}},
+\code{\link{sexunion}},
+\code{\link{toldsxor}}
+}
+\concept{Marital Status}
+\concept{Romantic Relationships}
+\concept{Sex}
+\concept{Sexual Orientation}
 \keyword{variable}

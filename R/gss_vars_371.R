@@ -1,11 +1,218 @@
+#'  R has taken any college-level sci course
+#' 
+#'  colsci
+#' 
+#' Question Have you ever taken any college-level science courses?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3349/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no   |no answer |yes  |not available in this year |Total |
+#'  |:-----|:-----|:----------|:----|:---------|:----|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-    |-         |-    |-                          |1613  |
+#'  |1973  |1504  |-          |-    |-         |-    |-                          |1504  |
+#'  |1974  |1484  |-          |-    |-         |-    |-                          |1484  |
+#'  |1975  |1490  |-          |-    |-         |-    |-                          |1490  |
+#'  |1976  |1499  |-          |-    |-         |-    |-                          |1499  |
+#'  |1977  |1530  |-          |-    |-         |-    |-                          |1530  |
+#'  |1978  |1532  |-          |-    |-         |-    |-                          |1532  |
+#'  |1980  |1468  |-          |-    |-         |-    |-                          |1468  |
+#'  |1982  |1860  |-          |-    |-         |-    |-                          |1860  |
+#'  |1983  |1599  |-          |-    |-         |-    |-                          |1599  |
+#'  |1984  |1473  |-          |-    |-         |-    |-                          |1473  |
+#'  |1985  |1534  |-          |-    |-         |-    |-                          |1534  |
+#'  |1986  |1470  |-          |-    |-         |-    |-                          |1470  |
+#'  |1987  |1819  |-          |-    |-         |-    |-                          |1819  |
+#'  |1988  |1481  |-          |-    |-         |-    |-                          |1481  |
+#'  |1989  |1537  |-          |-    |-         |-    |-                          |1537  |
+#'  |1990  |1372  |-          |-    |-         |-    |-                          |1372  |
+#'  |1991  |1517  |-          |-    |-         |-    |-                          |1517  |
+#'  |1993  |1606  |-          |-    |-         |-    |-                          |1606  |
+#'  |1994  |2992  |-          |-    |-         |-    |-                          |2992  |
+#'  |1996  |2904  |-          |-    |-         |-    |-                          |2904  |
+#'  |1998  |2832  |-          |-    |-         |-    |-                          |2832  |
+#'  |2000  |2817  |-          |-    |-         |-    |-                          |2817  |
+#'  |2002  |2765  |-          |-    |-         |-    |-                          |2765  |
+#'  |2004  |2812  |-          |-    |-         |-    |-                          |2812  |
+#'  |2006  |2646  |4          |1035 |1         |824  |-                          |4510  |
+#'  |2008  |518   |4          |929  |4         |568  |-                          |2023  |
+#'  |2010  |1328  |-          |379  |3         |334  |-                          |2044  |
+#'  |2012  |972   |6          |578  |4         |414  |-                          |1974  |
+#'  |2014  |1299  |2          |736  |1         |500  |-                          |2538  |
+#'  |2016  |1477  |1          |811  |6         |572  |-                          |2867  |
+#'  |2018  |1173  |6          |652  |4         |513  |-                          |2348  |
+#'  |2021  |4032  |-          |-    |-         |-    |-                          |4032  |
+#'  |2022  |-     |-          |-    |-         |-    |3544                       |3544  |
+#'  |2024  |-     |-          |-    |-         |-    |3309                       |3309  |
+#'  |Total |59955 |23         |5120 |23        |3725 |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |B/C/-   |partial      |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/C/-   |partial      |
+#'  |2012 |B/C/-   |partial      |
+#'  |2014 |B/C/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Science Knowledge & Attitudes
+#' @family Education
+#' @family Science
+#' 
+#' @keywords variable
+#' @md
+#' @name colsci
+NULL
+
+
+#'  Number of college-level sci courses r have taken
+#' 
+#'  colscinm
+#' 
+#' Question How many college-level science courses have you taken?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3350/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |1   |10  |12 |14 |15 |16 |17 |2   |20  |21 |22 |23 |24 |25 |3   |30 |35 |4   |40 |5   |50 |52 |6   |7  |8  |9  |90 |don't know |no answer |28 |32 |36 |45 |65 |11 |18 |42 |80 |41 |13 |60 |70 |72 |31 |44 |48 |not available in this year |Total |
+#'  |:-----|:-----|:---|:---|:--|:--|:--|:--|:--|:---|:---|:--|:--|:--|:--|:--|:---|:--|:--|:---|:--|:---|:--|:--|:---|:--|:--|:--|:--|:----------|:---------|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--------------------------|:-----|
+#'  |1972  |1613  |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1613  |
+#'  |1973  |1504  |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1504  |
+#'  |1974  |1484  |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1484  |
+#'  |1975  |1490  |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1490  |
+#'  |1976  |1499  |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1499  |
+#'  |1977  |1530  |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1530  |
+#'  |1978  |1532  |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1532  |
+#'  |1980  |1468  |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1468  |
+#'  |1982  |1860  |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1860  |
+#'  |1983  |1599  |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1599  |
+#'  |1984  |1473  |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1473  |
+#'  |1985  |1534  |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1534  |
+#'  |1986  |1470  |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1470  |
+#'  |1987  |1819  |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1819  |
+#'  |1988  |1481  |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1481  |
+#'  |1989  |1537  |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1537  |
+#'  |1990  |1372  |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1372  |
+#'  |1991  |1517  |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1517  |
+#'  |1993  |1606  |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1606  |
+#'  |1994  |2992  |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2992  |
+#'  |1996  |2904  |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2904  |
+#'  |1998  |2832  |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2832  |
+#'  |2000  |2817  |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2817  |
+#'  |2002  |2765  |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2765  |
+#'  |2004  |2812  |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2812  |
+#'  |2006  |3692  |148 |35  |28 |4  |11 |6  |1  |176 |20  |2  |1  |1  |2  |6  |98  |17 |3  |89  |8  |47  |1  |1  |33  |6  |19 |6  |1  |43         |5         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |4510  |
+#'  |2008  |1455  |84  |16  |16 |1  |6  |2  |-  |121 |12  |1  |-  |1  |2  |5  |81  |7  |-  |67  |3  |36  |7  |-  |28  |12 |16 |2  |-  |35         |1         |1  |2  |1  |1  |1  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2023  |
+#'  |2010  |1707  |64  |10  |7  |1  |5  |-  |1  |72  |12  |-  |-  |-  |-  |5  |43  |3  |-  |28  |3  |20  |4  |-  |20  |3  |8  |1  |-  |13         |7         |-  |-  |1  |-  |-  |2  |1  |1  |2  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2044  |
+#'  |2012  |1556  |79  |16  |8  |-  |10 |3  |-  |85  |14  |-  |-  |-  |2  |5  |55  |9  |3  |41  |5  |23  |5  |-  |17  |5  |11 |2  |-  |15         |4         |-  |-  |-  |-  |-  |-  |-  |-  |-  |1  |-  |-  |-  |-  |-  |-  |-  |-                          |1974  |
+#'  |2014  |2037  |88  |17  |11 |-  |6  |1  |-  |122 |17  |-  |-  |-  |-  |4  |78  |6  |1  |49  |2  |32  |2  |-  |15  |5  |11 |1  |-  |20         |2         |-  |-  |2  |1  |-  |1  |3  |-  |-  |-  |2  |1  |1  |-  |-  |-  |-  |-                          |2538  |
+#'  |2016  |2289  |92  |18  |9  |4  |8  |1  |-  |131 |22  |-  |1  |-  |1  |5  |90  |13 |2  |62  |1  |27  |1  |-  |22  |7  |13 |2  |-  |30         |10        |-  |1  |-  |-  |-  |-  |3  |-  |-  |-  |-  |-  |1  |1  |-  |-  |-  |-                          |2867  |
+#'  |2018  |1831  |90  |24  |9  |-  |10 |1  |-  |104 |15  |-  |-  |-  |-  |3  |86  |14 |1  |53  |5  |26  |5  |-  |18  |8  |10 |4  |-  |22         |5         |-  |-  |-  |1  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |1  |1  |1  |-                          |2348  |
+#'  |2021  |4032  |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |4032  |
+#'  |2022  |-     |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |3544                       |3544  |
+#'  |2024  |-     |-   |-   |-  |-  |-  |-  |-  |-   |-   |-  |-  |-  |-  |-  |-   |-  |-  |-   |-  |-   |-  |-  |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |3309                       |3309  |
+#'  |Total |65109 |645 |136 |88 |10 |56 |14 |2  |811 |112 |3  |2  |2  |7  |33 |531 |69 |10 |389 |27 |211 |25 |1  |153 |46 |88 |18 |1  |178        |34        |1  |3  |4  |3  |1  |3  |7  |1  |2  |1  |2  |1  |2  |1  |1  |1  |1  |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |B/C/-   |partial      |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/C/-   |partial      |
+#'  |2012 |B/C/-   |partial      |
+#'  |2014 |B/C/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Science Knowledge & Attitudes
+#' @family Education
+#' @family Science
+#' 
+#' @keywords variable
+#' @md
+#' @name colscinm
+NULL
+
+
 #'  The highest level of math r completed in high school
 #' 
 #'  hsmath
 #' 
-#' Question 1050. Now, let me ask you to think about the courses you took in high school. What was the highest level of math that you completed in high school?
+#' Question Now, let me ask you to think about the courses you took in high school. What was the highest level of math that you completed in high school?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` no math in hs; didn't go to hs
+#'   * `1` general math, business, or vocational math
+#'   * `2` pre-algebra
+#'   * `3` one year of algebra
+#'   * `4` two years of algebra
+#'   * `5` geometry (plane or solid or both)
+#'   * `6` trigonometry/linear programming/analysis
+#'   * `7` pre-calculus
+#'   * `8` calculus
+#'   * `9` statistics/probability
+#'   * `10` other
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3351/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,19 +255,39 @@
 #'  |2024  |-     |-        |-          |-                                          |-                                 |-         |-                              |-                   |-     |-           |-            |-                      |-                                        |-                    |3309                       |3309  |
 #'  |Total |60369 |860      |283        |1119                                       |1385                              |94        |127                            |1188                |53    |320         |531          |173                    |933                                      |1411                 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |B/C/-   |partial      |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/C/-   |partial      |
+#'  |2012 |B/C/-   |partial      |
+#'  |2014 |B/C/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Science Knowledge & Attitudes
+#' @family Education
+#' 
+#' @keywords variable
+#' @md
+#' @name hsmath
+NULL
+
+
+#'  R ever took a high school biology course
+#' 
+#'  hsbio
+#' 
+#' Question Did you take a high school biology course?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` no math in hs; didn't go to hs
-#'   * `1` general math, business, or vocational math
-#'   * `2` pre-algebra
-#'   * `3` one year of algebra
-#'   * `4` two years of algebra
-#'   * `5` geometry (plane or solid or both)
-#'   * `6` trigonometry/linear programming/analysis
-#'   * `7` pre-calculus
-#'   * `8` calculus
-#'   * `9` statistics/probability
-#'   * `10` other
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -74,22 +301,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hsmath
-NULL
-
-#'  R ever took a high school biology course
-#' 
-#'  hsbio
-#' 
-#' Question 1051. Did you take a high school biology course?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3352/vshow).
 #'
 #' Counts by year: 
 #'
@@ -132,6 +345,35 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-    |3309                       |3309  |
 #'  |Total |60369 |92         |1656 |115       |6614 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |B/C/-   |partial      |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/C/-   |partial      |
+#'  |2012 |B/C/-   |partial      |
+#'  |2014 |B/C/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Science Knowledge & Attitudes
+#' @family Education
+#' 
+#' @keywords variable
+#' @md
+#' @name hsbio
+NULL
+
+
+#'  R ever took a high school chemistry course
+#' 
+#'  hschem
+#' 
+#' Question Did you take a high school chemistry course?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -149,22 +391,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hsbio
-NULL
-
-#'  R ever took a high school chemistry course
-#' 
-#'  hschem
-#' 
-#' Question 1052. Did you take a high school chemistry course?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3353/vshow).
 #'
 #' Counts by year: 
 #'
@@ -207,6 +435,35 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-    |3309                       |3309  |
 #'  |Total |60369 |62         |3777 |114       |4524 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |B/C/-   |partial      |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/C/-   |partial      |
+#'  |2012 |B/C/-   |partial      |
+#'  |2014 |B/C/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Science Knowledge & Attitudes
+#' @family Education
+#' 
+#' @keywords variable
+#' @md
+#' @name hschem
+NULL
+
+
+#'  R ever took a high school physics course
+#' 
+#'  hsphys
+#' 
+#' Question Did you take a high school physics course?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -224,22 +481,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hschem
-NULL
-
-#'  R ever took a high school physics course
-#' 
-#'  hsphys
-#' 
-#' Question 1053. Did you take a high school physics course?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3354/vshow).
 #'
 #' Counts by year: 
 #'
@@ -282,10 +525,40 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-    |3309                       |3309  |
 #'  |Total |60369 |81         |5589 |114       |2693 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |B/C/-   |partial      |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/C/-   |partial      |
+#'  |2012 |B/C/-   |partial      |
+#'  |2014 |B/C/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Science Knowledge & Attitudes
+#' @family Education
+#' 
+#' @keywords variable
+#' @md
+#' @name hsphys
+NULL
+
+
+#'  Understanding of global warming by environmnt scientists
+#' 
+#'  gwsci
+#' 
+#' Question The first issue is global warming. Global warming means a trend toward warmer temperatures throughoutthe world, with more extreme weather in many places and changes in food production that could affect our way of life. Some people believe that the burning of gasoline and other fossil fuels causes global warming. Others say that global warming has purely natural causes. Please look at Card B2. On a scale of 1 to 5, where 1 means â€œVery Wellâ€ and 5 means â€œNot at Allâ€, how well do the following groups understand the causes of global warming? 
+#' A. Environmental Scientists
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` very well
+#'   * `5` not at all
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -299,22 +572,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hsphys
-NULL
-
-#'  Understanding of global warming by environmnt scientists
-#' 
-#'  gwsci
-#' 
-#' Question 1054. The first issue is global warming. Global warming means a trend toward warmer temperatures throughout the world, with more extreme weather in many places and changes in food production that could affect our way of life. Some people believe that the burning of gasoline and other fossil fuels causes global warming. Others say that global warming has purely natural causes. Please look at Card B2. On a scale of 1 to 5, where 1 means "Very Well" and 5 means "Not at All", how well do the following groups understand the causes of global warming? a. Environmental scientists
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3355/vshow).
 #'
 #' Counts by year: 
 #'
@@ -357,6 +616,32 @@ NULL
 #'  |2024  |-     |-   |-   |-  |-          |-         |-          |-         |3309                       |3309  |
 #'  |Total |67443 |299 |299 |87 |55         |7         |71         |585       |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |B/C     |partial      |
+#'  |2010 |A/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Science Knowledge & Attitudes
+#' @family Environment
+#' @family Science
+#' 
+#' @keywords variable
+#' @md
+#' @name gwsci
+NULL
+
+
+#'  Understanding of global warming by elected officials
+#' 
+#'  gwpol
+#' 
+#' Question The first issue is global warming. Global warming means a trend toward warmer temperatures throughoutthe world, with more extreme weather in many places and changes in food production that could affect our way of life. Some people believe that the burning of gasoline and other fossil fuels causes global warming. Others say that global warming has purely natural causes. Please look at Card B2. On a scale of 1 to 5, where 1 means â€œVery Wellâ€ and 5 means â€œNot at Allâ€, how well do the following groups understand the causes of global warming? 
+#' B. Elected Officials
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` very well
@@ -374,22 +659,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name gwsci
-NULL
-
-#'  Understanding of global warming by elected officials
-#' 
-#'  gwpol
-#' 
-#' Question 1054. The first issue is global warming. Global warming means a trend toward warmer temperatures throughout the world, with more extreme weather in many places and changes in food production that could affect our way of life. Some people believe that the burning of gasoline and other fossil fuels causes global warming. Others say that global warming has purely natural causes. Please look at Card B2. On a scale of 1 to 5, where 1 means "Very Well" and 5 means "Not at All", how well do the following groups understand the causes of global warming? b. Elected officials
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3356/vshow).
 #'
 #' Counts by year: 
 #'
@@ -432,6 +703,32 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-          |-         |-          |-         |3309                       |3309  |
 #'  |Total |67443 |108 |415 |405 |58         |7         |336        |74        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |B/C     |partial      |
+#'  |2010 |A/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Science Knowledge & Attitudes
+#' @family Environment
+#' @family Science
+#' 
+#' @keywords variable
+#' @md
+#' @name gwpol
+NULL
+
+
+#'  Understanding of global warming by business leaders
+#' 
+#'  gwbiz
+#' 
+#' Question The first issue is global warming. Global warming means a trend toward warmer temperatures throughoutthe world, with more extreme weather in many places and changes in food production that could affect our way of life. Some people believe that the burning of gasoline and other fossil fuels causes global warming. Others say that global warming has purely natural causes. Please look at Card B2. On a scale of 1 to 5, where 1 means â€œVery Wellâ€ and 5 means â€œNot at Allâ€, how well do the following groups understand the causes of global warming?
+#' C. Business Leaders
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` very well
@@ -449,22 +746,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name gwpol
-NULL
-
-#'  Understanding of global warming by business leaders
-#' 
-#'  gwbiz
-#' 
-#' Question 1054. The first issue is global warming. Global warming means a trend toward warmer temperatures throughout the world, with more extreme weather in many places and changes in food production that could affect our way of life. Some people believe that the burning of gasoline and other fossil fuels causes global warming. Others say that global warming has purely natural causes. Please look at Card B2. On a scale of 1 to 5, where 1 means "Very Well" and 5 means "Not at All", how well do the following groups understand the causes of global warming? c. Business leaders
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3357/vshow).
 #'
 #' Counts by year: 
 #'
@@ -507,10 +790,35 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-          |-         |-          |-         |3309                       |3309  |
 #'  |Total |67443 |120 |410 |424 |52         |9         |337        |51        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |B/C     |partial      |
+#'  |2010 |A/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Science Knowledge & Attitudes
+#' @family Environment
+#' @family Science
+#' 
+#' @keywords variable
+#' @md
+#' @name gwbiz
+NULL
+
+
+#'  Extent of agreement on global warming amg env scientists
+#' 
+#'  sciagrgw
+#' 
+#' Question Please look at Card B3. On a scale of 1 to 5, where 1 means â€œNear complete agreementâ€ and 5 means â€œNo agreement at allâ€, to what extent do environmental scientists agree among themselves about the existence and causes of global warming?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` very well
-#'   * `5` not at all
+#'   * `1` near complete agreement
+#'   * `5` no agreement at all
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -524,22 +832,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name gwbiz
-NULL
-
-#'  Extent of agreement on global warming amg env scientists
-#' 
-#'  sciagrgw
-#' 
-#' Question 1055. Please look at Card B3. On a scale of 1 to 5, where 1 means "Near complete agreement" and 5 means "No agreement at all", to what extent do environmental scientists agree among themselves about the existence and causes of global warming?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3358/vshow).
 #'
 #' Counts by year: 
 #'
@@ -582,182 +876,21 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-          |-                       |-                   |-         |3309                       |3309  |
 #'  |Total |67443 |376 |491 |134 |109        |182                     |102                 |9         |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` near complete agreement
-#'   * `5` no agreement at all
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |B/C     |partial      |
+#'  |2010 |A/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Science Knowledge & Attitudes
+#' @family Environment
+#' @family Science
 #' 
 #' @keywords variable
 #' @md
 #' @name sciagrgw
 NULL
 
-#'  Influence on global warming policy: environmntal scientists
-#' 
-#'  sciinfgw
-#' 
-#' Question 1056. Please look at Card B4. How much influence should each of the following groups have in deciding what to do about global warming? a. Environmental scientists
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |a fair amount |a great deal of influence |a little influence |don't know |no answer |none at all |not available in this year |Total |
-#'  |:-----|:-----|:-------------|:-------------------------|:------------------|:----------|:---------|:-----------|:--------------------------|:-----|
-#'  |1972  |1613  |-             |-                         |-                  |-          |-         |-           |-                          |1613  |
-#'  |1973  |1504  |-             |-                         |-                  |-          |-         |-           |-                          |1504  |
-#'  |1974  |1484  |-             |-                         |-                  |-          |-         |-           |-                          |1484  |
-#'  |1975  |1490  |-             |-                         |-                  |-          |-         |-           |-                          |1490  |
-#'  |1976  |1499  |-             |-                         |-                  |-          |-         |-           |-                          |1499  |
-#'  |1977  |1530  |-             |-                         |-                  |-          |-         |-           |-                          |1530  |
-#'  |1978  |1532  |-             |-                         |-                  |-          |-         |-           |-                          |1532  |
-#'  |1980  |1468  |-             |-                         |-                  |-          |-         |-           |-                          |1468  |
-#'  |1982  |1860  |-             |-                         |-                  |-          |-         |-           |-                          |1860  |
-#'  |1983  |1599  |-             |-                         |-                  |-          |-         |-           |-                          |1599  |
-#'  |1984  |1473  |-             |-                         |-                  |-          |-         |-           |-                          |1473  |
-#'  |1985  |1534  |-             |-                         |-                  |-          |-         |-           |-                          |1534  |
-#'  |1986  |1470  |-             |-                         |-                  |-          |-         |-           |-                          |1470  |
-#'  |1987  |1819  |-             |-                         |-                  |-          |-         |-           |-                          |1819  |
-#'  |1988  |1481  |-             |-                         |-                  |-          |-         |-           |-                          |1481  |
-#'  |1989  |1537  |-             |-                         |-                  |-          |-         |-           |-                          |1537  |
-#'  |1990  |1372  |-             |-                         |-                  |-          |-         |-           |-                          |1372  |
-#'  |1991  |1517  |-             |-                         |-                  |-          |-         |-           |-                          |1517  |
-#'  |1993  |1606  |-             |-                         |-                  |-          |-         |-           |-                          |1606  |
-#'  |1994  |2992  |-             |-                         |-                  |-          |-         |-           |-                          |2992  |
-#'  |1996  |2904  |-             |-                         |-                  |-          |-         |-           |-                          |2904  |
-#'  |1998  |2832  |-             |-                         |-                  |-          |-         |-           |-                          |2832  |
-#'  |2000  |2817  |-             |-                         |-                  |-          |-         |-           |-                          |2817  |
-#'  |2002  |2765  |-             |-                         |-                  |-          |-         |-           |-                          |2765  |
-#'  |2004  |2812  |-             |-                         |-                  |-          |-         |-           |-                          |2812  |
-#'  |2006  |3582  |347           |438                       |73                 |38         |2         |30          |-                          |4510  |
-#'  |2008  |2023  |-             |-                         |-                  |-          |-         |-           |-                          |2023  |
-#'  |2010  |1569  |184           |219                       |42                 |16         |4         |10          |-                          |2044  |
-#'  |2012  |1974  |-             |-                         |-                  |-          |-         |-           |-                          |1974  |
-#'  |2014  |2538  |-             |-                         |-                  |-          |-         |-           |-                          |2538  |
-#'  |2016  |2867  |-             |-                         |-                  |-          |-         |-           |-                          |2867  |
-#'  |2018  |2348  |-             |-                         |-                  |-          |-         |-           |-                          |2348  |
-#'  |2021  |4032  |-             |-                         |-                  |-          |-         |-           |-                          |4032  |
-#'  |2022  |-     |-             |-                         |-                  |-          |-         |-           |3544                       |3544  |
-#'  |2024  |-     |-             |-                         |-                  |-          |-         |-           |3309                       |3309  |
-#'  |Total |67443 |531           |657                       |115                |54         |6         |40          |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` a great deal of influence
-#'   * `2` a fair amount
-#'   * `3` a little influence
-#'   * `4` none at all
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name sciinfgw
-NULL
-
-#'  Influence on global warming policy: elected official
-#' 
-#'  polinfgw
-#' 
-#' Question 1056. Please look at Card B4. How much influence should each of the following groups have in deciding what to do about global warming? b. Elected officials
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |a fair amount |a great deal of influence |a little influence |don't know |no answer |none at all |not available in this year |Total |
-#'  |:-----|:-----|:-------------|:-------------------------|:------------------|:----------|:---------|:-----------|:--------------------------|:-----|
-#'  |1972  |1613  |-             |-                         |-                  |-          |-         |-           |-                          |1613  |
-#'  |1973  |1504  |-             |-                         |-                  |-          |-         |-           |-                          |1504  |
-#'  |1974  |1484  |-             |-                         |-                  |-          |-         |-           |-                          |1484  |
-#'  |1975  |1490  |-             |-                         |-                  |-          |-         |-           |-                          |1490  |
-#'  |1976  |1499  |-             |-                         |-                  |-          |-         |-           |-                          |1499  |
-#'  |1977  |1530  |-             |-                         |-                  |-          |-         |-           |-                          |1530  |
-#'  |1978  |1532  |-             |-                         |-                  |-          |-         |-           |-                          |1532  |
-#'  |1980  |1468  |-             |-                         |-                  |-          |-         |-           |-                          |1468  |
-#'  |1982  |1860  |-             |-                         |-                  |-          |-         |-           |-                          |1860  |
-#'  |1983  |1599  |-             |-                         |-                  |-          |-         |-           |-                          |1599  |
-#'  |1984  |1473  |-             |-                         |-                  |-          |-         |-           |-                          |1473  |
-#'  |1985  |1534  |-             |-                         |-                  |-          |-         |-           |-                          |1534  |
-#'  |1986  |1470  |-             |-                         |-                  |-          |-         |-           |-                          |1470  |
-#'  |1987  |1819  |-             |-                         |-                  |-          |-         |-           |-                          |1819  |
-#'  |1988  |1481  |-             |-                         |-                  |-          |-         |-           |-                          |1481  |
-#'  |1989  |1537  |-             |-                         |-                  |-          |-         |-           |-                          |1537  |
-#'  |1990  |1372  |-             |-                         |-                  |-          |-         |-           |-                          |1372  |
-#'  |1991  |1517  |-             |-                         |-                  |-          |-         |-           |-                          |1517  |
-#'  |1993  |1606  |-             |-                         |-                  |-          |-         |-           |-                          |1606  |
-#'  |1994  |2992  |-             |-                         |-                  |-          |-         |-           |-                          |2992  |
-#'  |1996  |2904  |-             |-                         |-                  |-          |-         |-           |-                          |2904  |
-#'  |1998  |2832  |-             |-                         |-                  |-          |-         |-           |-                          |2832  |
-#'  |2000  |2817  |-             |-                         |-                  |-          |-         |-           |-                          |2817  |
-#'  |2002  |2765  |-             |-                         |-                  |-          |-         |-           |-                          |2765  |
-#'  |2004  |2812  |-             |-                         |-                  |-          |-         |-           |-                          |2812  |
-#'  |2006  |3582  |300           |150                       |305                |39         |2         |132         |-                          |4510  |
-#'  |2008  |2023  |-             |-                         |-                  |-          |-         |-           |-                          |2023  |
-#'  |2010  |1569  |162           |58                        |173                |15         |4         |63          |-                          |2044  |
-#'  |2012  |1974  |-             |-                         |-                  |-          |-         |-           |-                          |1974  |
-#'  |2014  |2538  |-             |-                         |-                  |-          |-         |-           |-                          |2538  |
-#'  |2016  |2867  |-             |-                         |-                  |-          |-         |-           |-                          |2867  |
-#'  |2018  |2348  |-             |-                         |-                  |-          |-         |-           |-                          |2348  |
-#'  |2021  |4032  |-             |-                         |-                  |-          |-         |-           |-                          |4032  |
-#'  |2022  |-     |-             |-                         |-                  |-          |-         |-           |3544                       |3544  |
-#'  |2024  |-     |-             |-                         |-                  |-          |-         |-           |3309                       |3309  |
-#'  |Total |67443 |462           |208                       |478                |54         |6         |195         |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` a great deal of influence
-#'   * `2` a fair amount
-#'   * `3` a little influence
-#'   * `4` none at all
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name polinfgw
-NULL
 

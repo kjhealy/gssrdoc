@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 liveso
 }
 \details{
-Question 404. Now I'm going to ask you about different types of contact with various groups of people. In each situation would you please tell me whether you would be very much in favor of it happening, somewhat in favor, neither in favor nor opposed to it happening, somewhat opposed, or very much opposed to it happening? f. Living in a neighborhood where half your neighbors were raised in the south
+Question Now I'm going to ask you about different types of contact with various groups of people. In each situation would you please tell me whether you would be very much in favor of it happening, somewhat in favor, neither in favor nor opposed to it happening, somewhat opposed, or very much opposed to it happening?
+F. Living in a neighborhood where half your neighbors were raised in the South?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} strongly favor
+\item \code{2} favor
+\item \code{3} neither favor nor oppose
+\item \code{4} oppose
+\item \code{5} strongly oppose
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1219/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab don't know \tab favor \tab neither favor nor oppose \tab no answer \tab oppose \tab strongly favor \tab strongly oppose \tab not available in this year \tab Total \cr
@@ -57,27 +81,28 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} strongly favor
-\item \code{2} favor
-\item \code{3} neither favor nor oppose
-\item \code{4} oppose
-\item \code{5} strongly oppose
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1990 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Intergroup Relations: 
+\code{\link{liveasns}},
+\code{\link{liveblks}},
+\code{\link{livehsps}},
+\code{\link{livejews}},
+\code{\link{liveno}},
+\code{\link{patrasns}},
+\code{\link{patrblks}},
+\code{\link{patrhsps}},
+\code{\link{patrso}}
+
+Other Southern Whites: 
+\code{\link{patrso}}
+}
+\concept{Intergroup Relations}
+\concept{Southern Whites}
 \keyword{variable}

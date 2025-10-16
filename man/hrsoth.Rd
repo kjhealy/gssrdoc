@@ -10,11 +10,30 @@ General Social Survey https://gss.norc.org
 hrsoth
 }
 \details{
-Question 642. I'd like your best estimate of the total number of hours you spent in the past month on each of the areas in which you have been a volunteer. First, how many hours did you spend in the past month working for: o. Other (specify)
+Question I'd like your best estimate of the total number of hours you spent in the past month on each of the areas in which you have been a volunteer. First, how many hours did you spend in the past month working for (ASK FOR EACH ITEM R MENTIONED IN MONHLTH-MONOTH) (RECORD ABOVE UNDER MONHLTH-MONOTH TO NEAREST HALF HOUR. If UNSURE, PROBE FOR BEST ESTIMATE.)
+O. Other (SPECIFY)
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1929/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllll}{
    year \tab iap \tab 1 \tab 10 \tab 15 \tab 16 \tab 2 \tab 20 \tab 21 \tab 3 \tab 4 \tab 5 \tab 6 \tab 8 \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +76,36 @@ Counts by year:\tabular{lllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Markets & Exchange - Giving & Volunteering: 
+\code{\link{giveduc}},
+\code{\link{givhlth}},
+\code{\link{hrsart}},
+\code{\link{hrsfound}},
+\code{\link{hrsinfrm}},
+\code{\link{hrsintl}},
+\code{\link{hrspol}},
+\code{\link{hrswork}},
+\code{\link{hrsyouth}}
+
+Other Voluntary Associations: 
+\code{\link{giveduc}},
+\code{\link{givhlth}},
+\code{\link{hrsart}},
+\code{\link{hrsfound}},
+\code{\link{hrsinfrm}},
+\code{\link{hrsintl}},
+\code{\link{hrspol}},
+\code{\link{hrswork}},
+\code{\link{hrsyouth}}
+}
+\concept{Markets & Exchange - Giving & Volunteering}
+\concept{Voluntary Associations}
 \keyword{variable}

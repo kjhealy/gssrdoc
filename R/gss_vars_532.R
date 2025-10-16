@@ -1,11 +1,212 @@
+#'  How proud its history
+#' 
+#'  proudhis
+#' 
+#' Question How proud are you of America in each of the following? 
+#' I. Its history
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` very proud
+#'   * `2` somewhat proud
+#'   * `3` not very proud
+#'   * `4` not proud at all
+#'   * `NA(d)` can't choose
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4848/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |can't choose |no answer |not proud at all |not very proud |somewhat proud |very proud |not available in this year |skipped on web |Total |
+#'  |:-----|:-----|:------------|:---------|:----------------|:--------------|:--------------|:----------|:--------------------------|:--------------|:-----|
+#'  |1972  |1613  |-            |-         |-                |-              |-              |-          |-                          |-              |1613  |
+#'  |1973  |1504  |-            |-         |-                |-              |-              |-          |-                          |-              |1504  |
+#'  |1974  |1484  |-            |-         |-                |-              |-              |-          |-                          |-              |1484  |
+#'  |1975  |1490  |-            |-         |-                |-              |-              |-          |-                          |-              |1490  |
+#'  |1976  |1499  |-            |-         |-                |-              |-              |-          |-                          |-              |1499  |
+#'  |1977  |1530  |-            |-         |-                |-              |-              |-          |-                          |-              |1530  |
+#'  |1978  |1532  |-            |-         |-                |-              |-              |-          |-                          |-              |1532  |
+#'  |1980  |1468  |-            |-         |-                |-              |-              |-          |-                          |-              |1468  |
+#'  |1982  |1860  |-            |-         |-                |-              |-              |-          |-                          |-              |1860  |
+#'  |1983  |1599  |-            |-         |-                |-              |-              |-          |-                          |-              |1599  |
+#'  |1984  |1473  |-            |-         |-                |-              |-              |-          |-                          |-              |1473  |
+#'  |1985  |1534  |-            |-         |-                |-              |-              |-          |-                          |-              |1534  |
+#'  |1986  |1470  |-            |-         |-                |-              |-              |-          |-                          |-              |1470  |
+#'  |1987  |1819  |-            |-         |-                |-              |-              |-          |-                          |-              |1819  |
+#'  |1988  |1481  |-            |-         |-                |-              |-              |-          |-                          |-              |1481  |
+#'  |1989  |1537  |-            |-         |-                |-              |-              |-          |-                          |-              |1537  |
+#'  |1990  |1372  |-            |-         |-                |-              |-              |-          |-                          |-              |1372  |
+#'  |1991  |1517  |-            |-         |-                |-              |-              |-          |-                          |-              |1517  |
+#'  |1993  |1606  |-            |-         |-                |-              |-              |-          |-                          |-              |1606  |
+#'  |1994  |2992  |-            |-         |-                |-              |-              |-          |-                          |-              |2992  |
+#'  |1996  |1537  |52           |27        |51               |108            |491            |638        |-                          |-              |2904  |
+#'  |1998  |2832  |-            |-         |-                |-              |-              |-          |-                          |-              |2832  |
+#'  |2000  |2817  |-            |-         |-                |-              |-              |-          |-                          |-              |2817  |
+#'  |2002  |2765  |-            |-         |-                |-              |-              |-          |-                          |-              |2765  |
+#'  |2004  |1596  |31           |1         |22               |70             |365            |727        |-                          |-              |2812  |
+#'  |2006  |4510  |-            |-         |-                |-              |-              |-          |-                          |-              |4510  |
+#'  |2008  |2023  |-            |-         |-                |-              |-              |-          |-                          |-              |2023  |
+#'  |2010  |2044  |-            |-         |-                |-              |-              |-          |-                          |-              |2044  |
+#'  |2012  |1974  |-            |-         |-                |-              |-              |-          |-                          |-              |1974  |
+#'  |2014  |1264  |52           |3         |33               |78             |460            |648        |-                          |-              |2538  |
+#'  |2016  |2867  |-            |-         |-                |-              |-              |-          |-                          |-              |2867  |
+#'  |2018  |2348  |-            |-         |-                |-              |-              |-          |-                          |-              |2348  |
+#'  |2021  |4032  |-            |-         |-                |-              |-              |-          |-                          |-              |4032  |
+#'  |2022  |-     |-            |-         |-                |-              |-              |-          |3544                       |-              |3544  |
+#'  |2024  |1661  |130          |1         |154              |299            |658            |387        |-                          |19             |3309  |
+#'  |Total |66650 |265          |32        |260              |555            |1974           |2400       |3544                       |19             |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2024 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP National Identity
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name proudhis
+NULL
+
+
+#'  How proud its fair and equal treatment
+#' 
+#'  proudgrp
+#' 
+#' Question How proud are you of America in each of the following? 
+#' J. Its fair and equal treatment of all groups in society
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` very proud
+#'   * `2` somewhat proud
+#'   * `3` not very proud
+#'   * `4` not proud at all
+#'   * `NA(d)` can't choose
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4849/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |can't choose |no answer |not proud at all |not very proud |somewhat proud |very proud |not available in this year |Total |
+#'  |:-----|:-----|:------------|:---------|:----------------|:--------------|:--------------|:----------|:--------------------------|:-----|
+#'  |1972  |1613  |-            |-         |-                |-              |-              |-          |-                          |1613  |
+#'  |1973  |1504  |-            |-         |-                |-              |-              |-          |-                          |1504  |
+#'  |1974  |1484  |-            |-         |-                |-              |-              |-          |-                          |1484  |
+#'  |1975  |1490  |-            |-         |-                |-              |-              |-          |-                          |1490  |
+#'  |1976  |1499  |-            |-         |-                |-              |-              |-          |-                          |1499  |
+#'  |1977  |1530  |-            |-         |-                |-              |-              |-          |-                          |1530  |
+#'  |1978  |1532  |-            |-         |-                |-              |-              |-          |-                          |1532  |
+#'  |1980  |1468  |-            |-         |-                |-              |-              |-          |-                          |1468  |
+#'  |1982  |1860  |-            |-         |-                |-              |-              |-          |-                          |1860  |
+#'  |1983  |1599  |-            |-         |-                |-              |-              |-          |-                          |1599  |
+#'  |1984  |1473  |-            |-         |-                |-              |-              |-          |-                          |1473  |
+#'  |1985  |1534  |-            |-         |-                |-              |-              |-          |-                          |1534  |
+#'  |1986  |1470  |-            |-         |-                |-              |-              |-          |-                          |1470  |
+#'  |1987  |1819  |-            |-         |-                |-              |-              |-          |-                          |1819  |
+#'  |1988  |1481  |-            |-         |-                |-              |-              |-          |-                          |1481  |
+#'  |1989  |1537  |-            |-         |-                |-              |-              |-          |-                          |1537  |
+#'  |1990  |1372  |-            |-         |-                |-              |-              |-          |-                          |1372  |
+#'  |1991  |1517  |-            |-         |-                |-              |-              |-          |-                          |1517  |
+#'  |1993  |1606  |-            |-         |-                |-              |-              |-          |-                          |1606  |
+#'  |1994  |2992  |-            |-         |-                |-              |-              |-          |-                          |2992  |
+#'  |1996  |1537  |64           |26        |146              |398            |500            |233        |-                          |2904  |
+#'  |1998  |2832  |-            |-         |-                |-              |-              |-          |-                          |2832  |
+#'  |2000  |2817  |-            |-         |-                |-              |-              |-          |-                          |2817  |
+#'  |2002  |2765  |-            |-         |-                |-              |-              |-          |-                          |2765  |
+#'  |2004  |1596  |52           |2         |62               |233            |574            |293        |-                          |2812  |
+#'  |2006  |4510  |-            |-         |-                |-              |-              |-          |-                          |4510  |
+#'  |2008  |2023  |-            |-         |-                |-              |-              |-          |-                          |2023  |
+#'  |2010  |2044  |-            |-         |-                |-              |-              |-          |-                          |2044  |
+#'  |2012  |1974  |-            |-         |-                |-              |-              |-          |-                          |1974  |
+#'  |2014  |1264  |92           |3         |128              |347            |488            |216        |-                          |2538  |
+#'  |2016  |2867  |-            |-         |-                |-              |-              |-          |-                          |2867  |
+#'  |2018  |2348  |-            |-         |-                |-              |-              |-          |-                          |2348  |
+#'  |2021  |4032  |-            |-         |-                |-              |-              |-          |-                          |4032  |
+#'  |2022  |-     |-            |-         |-                |-              |-              |-          |3544                       |3544  |
+#'  |2024  |-     |-            |-         |-                |-              |-              |-          |3309                       |3309  |
+#'  |Total |64989 |208          |31        |336              |978            |1562           |742        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP National Identity
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name proudgrp
+NULL
+
+
 #'  America should limit the import
 #' 
 #'  imports
 #' 
-#' Question Now we would like to ask a few questions about relations between America and other countries. 1442. How much do you agree or disagree with the following statements? a. America should limit the import of foreign products in order to protect its national economy
+#' Question How much do you agree or disagree with the following statements? 
+#' A. America should limit the import of foreign products in order to protect its national economy
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` agree strongly
+#'   * `2` agree
+#'   * `3` neither agree nor disagree
+#'   * `4` disagree
+#'   * `5` disagree strongly
+#'   * `NA(d)` can't choose
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4850/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +249,34 @@
 #'  |2024  |1661  |577   |234            |114          |238      |46                |420                        |4         |15             |-                          |3309  |
 #'  |Total |64621 |2726  |1222           |327          |1095     |196               |1757                       |182       |29             |3544                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2021 |A/B/-   |partial      |
+#'  |2024 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP National Identity
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name imports
+NULL
+
+
+#'  International bodies should enforce environment
+#' 
+#'  wrldgovt
+#' 
+#' Question How much do you agree or disagree with the following statements? 
+#' B. For certain problems, like environmental pollution, international bodies should have the right to enforce solutions
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` agree strongly
@@ -68,22 +297,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name imports
-NULL
-
-#'  International bodies should enforce environment
-#' 
-#'  wrldgovt
-#' 
-#' Question Now we would like to ask a few questions about relations between America and other countries. 1442. How much do you agree or disagree with the following statements? b. For certain problems, like environmental pollution, international bodies should have the right to enforce solutions
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4851/vshow).
 #'
 #' Counts by year: 
 #'
@@ -126,6 +341,33 @@ NULL
 #'  |2024  |1661  |611   |241            |138          |193      |86                |357                        |2         |-                          |20             |3309  |
 #'  |Total |66650 |2326  |892            |365          |600      |235               |1033                       |34        |3544                       |20             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2024 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP National Identity
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name wrldgovt
+NULL
+
+
+#'  American schools should teach foreign languages
+#' 
+#'  forlang
+#' 
+#' Question How much do you agree or disagree with the following statements? 
+#' C. American schools should make much more effort to teach foreign languages properly
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` agree strongly
@@ -146,22 +388,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wrldgovt
-NULL
-
-#'  American schools should teach foreign languages
-#' 
-#'  forlang
-#' 
-#' Question Now we would like to ask a few questions about relations between America and other countries. 1442. How much do you agree or disagree with the following statements? c. American schools should make much more effort to teach foreign languages properly
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4852/vshow).
 #'
 #' Counts by year: 
 #'
@@ -204,6 +432,31 @@ NULL
 #'  |2024  |-     |-     |-              |-            |-        |-                 |-                          |-         |3309                       |3309  |
 #'  |Total |67479 |600   |236            |29           |119      |15                |347                        |21        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP National Identity
+#' @family Language
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name forlang
+NULL
+
+
+#'  America should follow its own interests
+#' 
+#'  amownway
+#' 
+#' Question How much do you agree or disagree with the following statements? 
+#' D. America should follow its own interests, even if this leads to conflicts with other nations
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` agree strongly
@@ -224,22 +477,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name forlang
-NULL
-
-#'  America should follow its own interests
-#' 
-#'  amownway
-#' 
-#' Question Now we would like to ask a few questions about relations between America and other countries. 1442. How much do you agree or disagree with the following statements? d. America should follow its own interests, even if this leads to conflicts with other nations
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4853/vshow).
 #'
 #' Counts by year: 
 #'
@@ -282,6 +521,33 @@ NULL
 #'  |2024  |1662  |445   |137            |100          |388      |88                |461                        |7         |-                          |21             |3309  |
 #'  |Total |66651 |1705  |557            |254          |1326     |223               |1379                       |39        |3544                       |21             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2024 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP National Identity
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name amownway
+NULL
+
+
+#'  Foreigner's should not be allowed to buy land
+#' 
+#'  forland
+#' 
+#' Question How much do you agree or disagree with the following statements? 
+#' E. Foreigners should not be allowed to buy land in America
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` agree strongly
@@ -302,22 +568,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name amownway
-NULL
-
-#'  Foreigner's should not be allowed to buy land
-#' 
-#'  forland
-#' 
-#' Question Now we would like to ask a few questions about relations between America and other countries. 1442. How much do you agree or disagree with the following statements? e. Foreigners should not be allowed to buy land in America
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4854/vshow).
 #'
 #' Counts by year: 
 #'
@@ -360,6 +612,33 @@ NULL
 #'  |2024  |1662  |355   |220            |98           |452      |145               |356                        |5         |-                          |16             |3309  |
 #'  |Total |66651 |1035  |609            |221          |1834     |523               |1234                       |32        |3544                       |16             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2024 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP National Identity
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name forland
+NULL
+
+
+#'  Tv should give preference to american films
+#' 
+#'  amtv
+#' 
+#' Question How much do you agree or disagree with the following statements? 
+#' F. American television should give preference to American films and programs
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` agree strongly
@@ -380,22 +659,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name forland
-NULL
-
-#'  Tv should give preference to american films
-#' 
-#'  amtv
-#' 
-#' Question Now we would like to ask a few questions about relations between America and other countries. 1442. How much do you agree or disagree with the following statements? f. American television should give preference to American films and programs
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4855/vshow).
 #'
 #' Counts by year: 
 #'
@@ -438,6 +703,33 @@ NULL
 #'  |2024  |1663  |309   |95             |99           |446      |137               |538                        |3         |-                          |19             |3309  |
 #'  |Total |66652 |1246  |394            |226          |1504     |403               |1679                       |32        |3544                       |19             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2024 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP National Identity
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name amtv
+NULL
+
+
+#'  It is impossible to become fully american
+#' 
+#'  amcult
+#' 
+#' Question How much do you agree or disagree with the following statements? 
+#' A. It is impossible for people who do not share American customs and traditions to become fully American 
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` agree strongly
@@ -458,22 +750,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name amtv
-NULL
-
-#'  It is impossible to become fully american
-#' 
-#'  amcult
-#' 
-#' Question Now we would like to ask a few questions about minorities in America. 1443. How much do you agree or disagree with the following statements? a. It is impossible for people who do not share American customs and traditions to become fully American
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4856/vshow).
 #'
 #' Counts by year: 
 #'
@@ -516,6 +794,32 @@ NULL
 #'  |2024  |-     |-     |-              |-            |-        |-                 |-                          |-         |3309                       |3309  |
 #'  |Total |64989 |905   |286            |121          |1420     |336               |729                        |60        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ISSP National Identity
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name amcult
+NULL
+
+
+#'  Ethnic minorities should be given gov assistance
+#' 
+#'  mincult
+#' 
+#' Question How much do you agree or disagree with the following statements? 
+#' B. Ethnic minorities should be given government assistance to preserve their customs and traditions
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` agree strongly
@@ -536,22 +840,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name amcult
-NULL
-
-#'  Ethnic minorities should be given gov assistance
-#' 
-#'  mincult
-#' 
-#' Question Now we would like to ask a few questions about minorities in America. 1443. How much do you agree or disagree with the following statements? b. Ethnic minorities should be given government assistance to preserve their customs and traditions
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/4857/vshow).
 #'
 #' Counts by year: 
 #'
@@ -594,184 +884,21 @@ NULL
 #'  |2024  |-     |-     |-              |-            |-        |-                 |-                          |-         |3309                       |3309  |
 #'  |Total |64989 |579   |109            |132          |1494     |637               |838                        |68        |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` agree strongly
-#'   * `2` agree
-#'   * `3` neither agree nor disagree
-#'   * `4` disagree
-#'   * `5` disagree strongly
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family ISSP National Identity
+#' @family United States
 #' 
 #' @keywords variable
 #' @md
 #' @name mincult
 NULL
 
-#'  Better to maintain distinct cultures
-#' 
-#'  meltpot1
-#' 
-#' Question 1444. Some people say that it is better for a country if different racial and ethnic groups maintain their distinct customs and traditions. Others say that it is better if these groups adapt and blend into the larger society. Which of these views comes closer to your own?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |better for society maintain distinct |better if groups adapt and blend into |don't know |no answer |not available in this year |Total |
-#'  |:-----|:-----|:------------------------------------|:-------------------------------------|:----------|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-                                    |-                                     |-          |-         |-                          |1613  |
-#'  |1973  |1504  |-                                    |-                                     |-          |-         |-                          |1504  |
-#'  |1974  |1484  |-                                    |-                                     |-          |-         |-                          |1484  |
-#'  |1975  |1490  |-                                    |-                                     |-          |-         |-                          |1490  |
-#'  |1976  |1499  |-                                    |-                                     |-          |-         |-                          |1499  |
-#'  |1977  |1530  |-                                    |-                                     |-          |-         |-                          |1530  |
-#'  |1978  |1532  |-                                    |-                                     |-          |-         |-                          |1532  |
-#'  |1980  |1468  |-                                    |-                                     |-          |-         |-                          |1468  |
-#'  |1982  |1860  |-                                    |-                                     |-          |-         |-                          |1860  |
-#'  |1983  |1599  |-                                    |-                                     |-          |-         |-                          |1599  |
-#'  |1984  |1473  |-                                    |-                                     |-          |-         |-                          |1473  |
-#'  |1985  |1534  |-                                    |-                                     |-          |-         |-                          |1534  |
-#'  |1986  |1470  |-                                    |-                                     |-          |-         |-                          |1470  |
-#'  |1987  |1819  |-                                    |-                                     |-          |-         |-                          |1819  |
-#'  |1988  |1481  |-                                    |-                                     |-          |-         |-                          |1481  |
-#'  |1989  |1537  |-                                    |-                                     |-          |-         |-                          |1537  |
-#'  |1990  |1372  |-                                    |-                                     |-          |-         |-                          |1372  |
-#'  |1991  |1517  |-                                    |-                                     |-          |-         |-                          |1517  |
-#'  |1993  |1606  |-                                    |-                                     |-          |-         |-                          |1606  |
-#'  |1994  |2992  |-                                    |-                                     |-          |-         |-                          |2992  |
-#'  |1996  |1537  |399                                  |557                                   |348        |63        |-                          |2904  |
-#'  |1998  |2832  |-                                    |-                                     |-          |-         |-                          |2832  |
-#'  |2000  |2817  |-                                    |-                                     |-          |-         |-                          |2817  |
-#'  |2002  |2765  |-                                    |-                                     |-          |-         |-                          |2765  |
-#'  |2004  |1596  |554                                  |615                                   |28         |19        |-                          |2812  |
-#'  |2006  |4510  |-                                    |-                                     |-          |-         |-                          |4510  |
-#'  |2008  |2023  |-                                    |-                                     |-          |-         |-                          |2023  |
-#'  |2010  |2044  |-                                    |-                                     |-          |-         |-                          |2044  |
-#'  |2012  |1974  |-                                    |-                                     |-          |-         |-                          |1974  |
-#'  |2014  |1264  |478                                  |597                                   |191        |8         |-                          |2538  |
-#'  |2016  |2867  |-                                    |-                                     |-          |-         |-                          |2867  |
-#'  |2018  |2348  |-                                    |-                                     |-          |-         |-                          |2348  |
-#'  |2021  |4032  |-                                    |-                                     |-          |-         |-                          |4032  |
-#'  |2022  |-     |-                                    |-                                     |-          |-         |3544                       |3544  |
-#'  |2024  |-     |-                                    |-                                     |-          |-         |3309                       |3309  |
-#'  |Total |64989 |1431                                 |1769                                  |567        |90        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` better for society maintain distinct
-#'   * `2` better if groups adapt and blend into
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name meltpot1
-NULL
-
-#'  Immigrants increase crime rates
-#' 
-#'  immcrime
-#' 
-#' Question 1445. There are different opinions about immigrants from other countries living in America. (By "immigrants" we mean people who come to settle in America.) How much do you agree or disagree with each of the following statements? a. Immigrants increase crime rates
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |agree |agree strongly |can't choose |disagree |disagree strongly |neither agree nor disagree |no answer |skipped on web |Total |
-#'  |:-----|:-----|:-----|:--------------|:------------|:--------|:-----------------|:--------------------------|:---------|:--------------|:-----|
-#'  |1972  |1613  |-     |-              |-            |-        |-                 |-                          |-         |-              |1613  |
-#'  |1973  |1504  |-     |-              |-            |-        |-                 |-                          |-         |-              |1504  |
-#'  |1974  |1484  |-     |-              |-            |-        |-                 |-                          |-         |-              |1484  |
-#'  |1975  |1490  |-     |-              |-            |-        |-                 |-                          |-         |-              |1490  |
-#'  |1976  |1499  |-     |-              |-            |-        |-                 |-                          |-         |-              |1499  |
-#'  |1977  |1530  |-     |-              |-            |-        |-                 |-                          |-         |-              |1530  |
-#'  |1978  |1532  |-     |-              |-            |-        |-                 |-                          |-         |-              |1532  |
-#'  |1980  |1468  |-     |-              |-            |-        |-                 |-                          |-         |-              |1468  |
-#'  |1982  |1860  |-     |-              |-            |-        |-                 |-                          |-         |-              |1860  |
-#'  |1983  |1599  |-     |-              |-            |-        |-                 |-                          |-         |-              |1599  |
-#'  |1984  |1473  |-     |-              |-            |-        |-                 |-                          |-         |-              |1473  |
-#'  |1985  |1534  |-     |-              |-            |-        |-                 |-                          |-         |-              |1534  |
-#'  |1986  |1470  |-     |-              |-            |-        |-                 |-                          |-         |-              |1470  |
-#'  |1987  |1819  |-     |-              |-            |-        |-                 |-                          |-         |-              |1819  |
-#'  |1988  |1481  |-     |-              |-            |-        |-                 |-                          |-         |-              |1481  |
-#'  |1989  |1537  |-     |-              |-            |-        |-                 |-                          |-         |-              |1537  |
-#'  |1990  |1372  |-     |-              |-            |-        |-                 |-                          |-         |-              |1372  |
-#'  |1991  |1517  |-     |-              |-            |-        |-                 |-                          |-         |-              |1517  |
-#'  |1993  |1606  |-     |-              |-            |-        |-                 |-                          |-         |-              |1606  |
-#'  |1994  |2992  |-     |-              |-            |-        |-                 |-                          |-         |-              |2992  |
-#'  |1996  |1537  |328   |95             |45           |388      |86                |368                        |57        |-              |2904  |
-#'  |1998  |2832  |-     |-              |-            |-        |-                 |-                          |-         |-              |2832  |
-#'  |2000  |2817  |-     |-              |-            |-        |-                 |-                          |-         |-              |2817  |
-#'  |2002  |2765  |-     |-              |-            |-        |-                 |-                          |-         |-              |2765  |
-#'  |2004  |1596  |235   |83             |31           |437      |84                |345                        |1         |-              |2812  |
-#'  |2006  |4510  |-     |-              |-            |-        |-                 |-                          |-         |-              |4510  |
-#'  |2008  |2023  |-     |-              |-            |-        |-                 |-                          |-         |-              |2023  |
-#'  |2010  |2044  |-     |-              |-            |-        |-                 |-                          |-         |-              |2044  |
-#'  |2012  |1974  |-     |-              |-            |-        |-                 |-                          |-         |-              |1974  |
-#'  |2014  |1264  |202   |50             |47           |519      |142               |311                        |3         |-              |2538  |
-#'  |2016  |2867  |-     |-              |-            |-        |-                 |-                          |-         |-              |2867  |
-#'  |2018  |2348  |-     |-              |-            |-        |-                 |-                          |-         |-              |2348  |
-#'  |2021  |4032  |-     |-              |-            |-        |-                 |-                          |-         |-              |4032  |
-#'  |2022  |1203  |323   |107            |20           |777      |372               |734                        |4         |4              |3544  |
-#'  |2024  |1067  |409   |242            |32           |557      |286               |696                        |9         |11             |3309  |
-#'  |Total |67259 |1497  |577            |175          |2678     |970               |2454                       |74        |15             |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` agree strongly
-#'   * `2` agree
-#'   * `3` neither agree nor disagree
-#'   * `4` disagree
-#'   * `5` disagree strongly
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name immcrime
-NULL
 

@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 music30
 }
 \details{
-Question 772. In the past 30 days, how often have you visited a web site for: j. Music/concerts?
+Question In the past 30 days, how often have you visited a web site for?
+J. Music/concerts?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} never
+\item \code{2} 1-2 times
+\item \code{3} 3-5 times
+\item \code{4} more than 5 times
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2403/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab 1-2 times \tab 3-5 times \tab more than 5 times \tab never \tab no answer \tab don't know \tab not available in this year \tab Total \cr
@@ -57,26 +80,38 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} never
-\item \code{2} 1-2 times
-\item \code{3} 3-5 times
-\item \code{4} more than 5 times
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
+   2002 \tab A/B/C \tab full \cr
+   2004 \tab B/C/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Information Society: 
+\code{\link{art30}},
+\code{\link{games30}},
+\code{\link{health30}},
+\code{\link{humor30}},
+\code{\link{pol30}},
+\code{\link{relig30}},
+\code{\link{sports30}},
+\code{\link{travel30}},
+\code{\link{tvmov30}}
+
+Other Computers And Internet: 
+\code{\link{art30}},
+\code{\link{games30}},
+\code{\link{health30}},
+\code{\link{humor30}},
+\code{\link{pol30}},
+\code{\link{relig30}},
+\code{\link{sports30}},
+\code{\link{travel30}},
+\code{\link{tvmov30}}
+}
+\concept{Computers And Internet}
+\concept{Information Society}
 \keyword{variable}

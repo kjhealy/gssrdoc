@@ -10,11 +10,29 @@ General Social Survey https://gss.norc.org
 yrjobend
 }
 \details{
-Question 1365. When did your last paid job end?
+Question When did your last paid job end?
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4594/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 1941 \tab 1944 \tab 1945 \tab 1946 \tab 1950 \tab 1951 \tab 1952 \tab 1955 \tab 1956 \tab 1959 \tab 1962 \tab 1964 \tab 1966 \tab 1967 \tab 1969 \tab 1970 \tab 1971 \tab 1972 \tab 1974 \tab 1975 \tab 1976 \tab 1978 \tab 1979 \tab 1980 \tab 1981 \tab 1982 \tab 1983 \tab 1984 \tab 1985 \tab 1986 \tab 1987 \tab 1988 \tab 1989 \tab 1990 \tab 1991 \tab 1992 \tab 1993 \tab 1994 \tab 1995 \tab 1996 \tab 1997 \tab 1998 \tab no answer \tab 1926 \tab 1942 \tab 1954 \tab 1960 \tab 1961 \tab 1965 \tab 1973 \tab 1977 \tab 1999 \tab 2000 \tab 2001 \tab 2002 \tab 2003 \tab 2004 \tab 2005 \tab 2006 \tab not available in this year \tab Total \cr
@@ -57,22 +75,35 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1998 \tab A/B/C \tab full \cr
+   2006 \tab D/-/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Work Orientation: 
+\code{\link{evjob}},
+\code{\link{getjob}},
+\code{\link{leavejob}},
+\code{\link{lookjob}},
+\code{\link{priagncy}},
+\code{\link{pubagncy}},
+\code{\link{wantjob2}},
+\code{\link{whyjbend}},
+\code{\link{worryjob}}
+
+Other Unemployment: 
+\code{\link{evjob}},
+\code{\link{getjob}},
+\code{\link{lookjob}},
+\code{\link{priagncy}},
+\code{\link{pubagncy}},
+\code{\link{wantjob2}},
+\code{\link{whyjbend}}
+}
+\concept{Unemployment}
+\concept{Work Orientation}
 \keyword{variable}

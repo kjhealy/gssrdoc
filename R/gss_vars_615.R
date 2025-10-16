@@ -1,11 +1,284 @@
+#'  From what country or countries did your ancestors come?  Poland
+#' 
+#'  ethregion16
+#' 
+#' Question From what country or countries did your ancestors come?  Poland
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` no
+#'   * `1` yes
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7655/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no   |no answer |skipped on web |yes |not available in this release |Total |
+#'  |:-----|:-----|:----------|:----|:---------|:--------------|:---|:-----------------------------|:-----|
+#'  |1972  |1613  |-          |-    |-         |-              |-   |-                             |1613  |
+#'  |1973  |1504  |-          |-    |-         |-              |-   |-                             |1504  |
+#'  |1974  |1484  |-          |-    |-         |-              |-   |-                             |1484  |
+#'  |1975  |1490  |-          |-    |-         |-              |-   |-                             |1490  |
+#'  |1976  |1499  |-          |-    |-         |-              |-   |-                             |1499  |
+#'  |1977  |1530  |-          |-    |-         |-              |-   |-                             |1530  |
+#'  |1978  |1532  |-          |-    |-         |-              |-   |-                             |1532  |
+#'  |1980  |1468  |-          |-    |-         |-              |-   |-                             |1468  |
+#'  |1982  |1860  |-          |-    |-         |-              |-   |-                             |1860  |
+#'  |1983  |1599  |-          |-    |-         |-              |-   |-                             |1599  |
+#'  |1984  |1473  |-          |-    |-         |-              |-   |-                             |1473  |
+#'  |1985  |1534  |-          |-    |-         |-              |-   |-                             |1534  |
+#'  |1986  |1470  |-          |-    |-         |-              |-   |-                             |1470  |
+#'  |1987  |1819  |-          |-    |-         |-              |-   |-                             |1819  |
+#'  |1988  |1481  |-          |-    |-         |-              |-   |-                             |1481  |
+#'  |1989  |1537  |-          |-    |-         |-              |-   |-                             |1537  |
+#'  |1990  |1372  |-          |-    |-         |-              |-   |-                             |1372  |
+#'  |1991  |1517  |-          |-    |-         |-              |-   |-                             |1517  |
+#'  |1993  |1606  |-          |-    |-         |-              |-   |-                             |1606  |
+#'  |1994  |2992  |-          |-    |-         |-              |-   |-                             |2992  |
+#'  |1996  |2904  |-          |-    |-         |-              |-   |-                             |2904  |
+#'  |1998  |2832  |-          |-    |-         |-              |-   |-                             |2832  |
+#'  |2000  |2817  |-          |-    |-         |-              |-   |-                             |2817  |
+#'  |2002  |2765  |-          |-    |-         |-              |-   |-                             |2765  |
+#'  |2004  |2812  |-          |-    |-         |-              |-   |-                             |2812  |
+#'  |2006  |4510  |-          |-    |-         |-              |-   |-                             |4510  |
+#'  |2008  |2023  |-          |-    |-         |-              |-   |-                             |2023  |
+#'  |2010  |2044  |-          |-    |-         |-              |-   |-                             |2044  |
+#'  |2012  |1974  |-          |-    |-         |-              |-   |-                             |1974  |
+#'  |2014  |2538  |-          |-    |-         |-              |-   |-                             |2538  |
+#'  |2016  |2867  |-          |-    |-         |-              |-   |-                             |2867  |
+#'  |2018  |2348  |-          |-    |-         |-              |-   |-                             |2348  |
+#'  |2021  |15    |681        |3023 |1         |33             |279 |-                             |4032  |
+#'  |2022  |216   |163        |2885 |48        |-              |232 |-                             |3544  |
+#'  |2024  |-     |-          |-    |-         |-              |-   |3309                          |3309  |
+#'  |Total |65045 |844        |5908 |49        |33             |511 |3309                          |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name ethregion16
+NULL
+
+
+#'  From what country or countries did your ancestors come?  Portugal
+#' 
+#'  ethregion17
+#' 
+#' Question From what country or countries did your ancestors come?  Portugal
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` no
+#'   * `1` yes
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7656/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no   |no answer |skipped on web |yes |not available in this release |Total |
+#'  |:-----|:-----|:----------|:----|:---------|:--------------|:---|:-----------------------------|:-----|
+#'  |1972  |1613  |-          |-    |-         |-              |-   |-                             |1613  |
+#'  |1973  |1504  |-          |-    |-         |-              |-   |-                             |1504  |
+#'  |1974  |1484  |-          |-    |-         |-              |-   |-                             |1484  |
+#'  |1975  |1490  |-          |-    |-         |-              |-   |-                             |1490  |
+#'  |1976  |1499  |-          |-    |-         |-              |-   |-                             |1499  |
+#'  |1977  |1530  |-          |-    |-         |-              |-   |-                             |1530  |
+#'  |1978  |1532  |-          |-    |-         |-              |-   |-                             |1532  |
+#'  |1980  |1468  |-          |-    |-         |-              |-   |-                             |1468  |
+#'  |1982  |1860  |-          |-    |-         |-              |-   |-                             |1860  |
+#'  |1983  |1599  |-          |-    |-         |-              |-   |-                             |1599  |
+#'  |1984  |1473  |-          |-    |-         |-              |-   |-                             |1473  |
+#'  |1985  |1534  |-          |-    |-         |-              |-   |-                             |1534  |
+#'  |1986  |1470  |-          |-    |-         |-              |-   |-                             |1470  |
+#'  |1987  |1819  |-          |-    |-         |-              |-   |-                             |1819  |
+#'  |1988  |1481  |-          |-    |-         |-              |-   |-                             |1481  |
+#'  |1989  |1537  |-          |-    |-         |-              |-   |-                             |1537  |
+#'  |1990  |1372  |-          |-    |-         |-              |-   |-                             |1372  |
+#'  |1991  |1517  |-          |-    |-         |-              |-   |-                             |1517  |
+#'  |1993  |1606  |-          |-    |-         |-              |-   |-                             |1606  |
+#'  |1994  |2992  |-          |-    |-         |-              |-   |-                             |2992  |
+#'  |1996  |2904  |-          |-    |-         |-              |-   |-                             |2904  |
+#'  |1998  |2832  |-          |-    |-         |-              |-   |-                             |2832  |
+#'  |2000  |2817  |-          |-    |-         |-              |-   |-                             |2817  |
+#'  |2002  |2765  |-          |-    |-         |-              |-   |-                             |2765  |
+#'  |2004  |2812  |-          |-    |-         |-              |-   |-                             |2812  |
+#'  |2006  |4510  |-          |-    |-         |-              |-   |-                             |4510  |
+#'  |2008  |2023  |-          |-    |-         |-              |-   |-                             |2023  |
+#'  |2010  |2044  |-          |-    |-         |-              |-   |-                             |2044  |
+#'  |2012  |1974  |-          |-    |-         |-              |-   |-                             |1974  |
+#'  |2014  |2538  |-          |-    |-         |-              |-   |-                             |2538  |
+#'  |2016  |2867  |-          |-    |-         |-              |-   |-                             |2867  |
+#'  |2018  |2348  |-          |-    |-         |-              |-   |-                             |2348  |
+#'  |2021  |15    |681        |3250 |1         |33             |52  |-                             |4032  |
+#'  |2022  |216   |163        |3070 |48        |-              |47  |-                             |3544  |
+#'  |2024  |-     |-          |-    |-         |-              |-   |3309                          |3309  |
+#'  |Total |65045 |844        |6320 |49        |33             |99  |3309                          |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name ethregion17
+NULL
+
+
+#'  From what country or countries did your ancestors come?  Romania
+#' 
+#'  ethregion18
+#' 
+#' Question From what country or countries did your ancestors come?  Romania
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` no
+#'   * `1` yes
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7657/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no   |no answer |skipped on web |yes |not available in this release |Total |
+#'  |:-----|:-----|:----------|:----|:---------|:--------------|:---|:-----------------------------|:-----|
+#'  |1972  |1613  |-          |-    |-         |-              |-   |-                             |1613  |
+#'  |1973  |1504  |-          |-    |-         |-              |-   |-                             |1504  |
+#'  |1974  |1484  |-          |-    |-         |-              |-   |-                             |1484  |
+#'  |1975  |1490  |-          |-    |-         |-              |-   |-                             |1490  |
+#'  |1976  |1499  |-          |-    |-         |-              |-   |-                             |1499  |
+#'  |1977  |1530  |-          |-    |-         |-              |-   |-                             |1530  |
+#'  |1978  |1532  |-          |-    |-         |-              |-   |-                             |1532  |
+#'  |1980  |1468  |-          |-    |-         |-              |-   |-                             |1468  |
+#'  |1982  |1860  |-          |-    |-         |-              |-   |-                             |1860  |
+#'  |1983  |1599  |-          |-    |-         |-              |-   |-                             |1599  |
+#'  |1984  |1473  |-          |-    |-         |-              |-   |-                             |1473  |
+#'  |1985  |1534  |-          |-    |-         |-              |-   |-                             |1534  |
+#'  |1986  |1470  |-          |-    |-         |-              |-   |-                             |1470  |
+#'  |1987  |1819  |-          |-    |-         |-              |-   |-                             |1819  |
+#'  |1988  |1481  |-          |-    |-         |-              |-   |-                             |1481  |
+#'  |1989  |1537  |-          |-    |-         |-              |-   |-                             |1537  |
+#'  |1990  |1372  |-          |-    |-         |-              |-   |-                             |1372  |
+#'  |1991  |1517  |-          |-    |-         |-              |-   |-                             |1517  |
+#'  |1993  |1606  |-          |-    |-         |-              |-   |-                             |1606  |
+#'  |1994  |2992  |-          |-    |-         |-              |-   |-                             |2992  |
+#'  |1996  |2904  |-          |-    |-         |-              |-   |-                             |2904  |
+#'  |1998  |2832  |-          |-    |-         |-              |-   |-                             |2832  |
+#'  |2000  |2817  |-          |-    |-         |-              |-   |-                             |2817  |
+#'  |2002  |2765  |-          |-    |-         |-              |-   |-                             |2765  |
+#'  |2004  |2812  |-          |-    |-         |-              |-   |-                             |2812  |
+#'  |2006  |4510  |-          |-    |-         |-              |-   |-                             |4510  |
+#'  |2008  |2023  |-          |-    |-         |-              |-   |-                             |2023  |
+#'  |2010  |2044  |-          |-    |-         |-              |-   |-                             |2044  |
+#'  |2012  |1974  |-          |-    |-         |-              |-   |-                             |1974  |
+#'  |2014  |2538  |-          |-    |-         |-              |-   |-                             |2538  |
+#'  |2016  |2867  |-          |-    |-         |-              |-   |-                             |2867  |
+#'  |2018  |2348  |-          |-    |-         |-              |-   |-                             |2348  |
+#'  |2021  |15    |681        |3285 |1         |33             |17  |-                             |4032  |
+#'  |2022  |216   |163        |3106 |48        |-              |11  |-                             |3544  |
+#'  |2024  |-     |-          |-    |-         |-              |-   |3309                          |3309  |
+#'  |Total |65045 |844        |6391 |49        |33             |28  |3309                          |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name ethregion18
+NULL
+
+
 #'  From what country or countries did your ancestors come?  Russia (ussr)
 #' 
 #'  ethregion19
 #' 
-#' Question None
+#' Question From what country or countries did your ancestors come?  Russia (USSR)
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` no
+#'   * `1` yes
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7658/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +321,30 @@
 #'  |2024  |-     |-          |-    |-         |-              |-   |3309                          |3309  |
 #'  |Total |65045 |844        |6177 |49        |33             |242 |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name ethregion19
+NULL
+
+
+#'  From what country or countries did your ancestors come?  Scotland
+#' 
+#'  ethregion20
+#' 
+#' Question From what country or countries did your ancestors come?  Scotland
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` no
@@ -65,22 +362,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name ethregion19
-NULL
-
-#'  From what country or countries did your ancestors come?  Scotland
-#' 
-#'  ethregion20
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7659/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,6 +406,30 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-              |-   |3309                          |3309  |
 #'  |Total |65045 |844        |5528 |49        |33             |891 |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name ethregion20
+NULL
+
+
+#'  From what country or countries did your ancestors come?  Spain
+#' 
+#'  ethregion21
+#' 
+#' Question From what country or countries did your ancestors come?  Spain
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` no
@@ -140,22 +447,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name ethregion20
-NULL
-
-#'  From what country or countries did your ancestors come?  Spain
-#' 
-#'  ethregion21
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7660/vshow).
 #'
 #' Counts by year: 
 #'
@@ -198,6 +491,30 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-              |-   |3309                          |3309  |
 #'  |Total |65045 |844        |6147 |49        |33             |272 |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name ethregion21
+NULL
+
+
+#'  From what country or countries did your ancestors come?  Sweden
+#' 
+#'  ethregion22
+#' 
+#' Question From what country or countries did your ancestors come?  Sweden
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` no
@@ -215,22 +532,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name ethregion21
-NULL
-
-#'  From what country or countries did your ancestors come?  Sweden
-#' 
-#'  ethregion22
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7661/vshow).
 #'
 #' Counts by year: 
 #'
@@ -273,6 +576,30 @@ NULL
 #'  |2024  |264   |141        |2712 |3         |48             |141 |3309  |
 #'  |Total |65309 |985        |8757 |52        |81             |515 |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name ethregion22
+NULL
+
+
+#'  From what country or countries did your ancestors come?  Switzerland
+#' 
+#'  ethregion23
+#' 
+#' Question From what country or countries did your ancestors come?  Switzerland
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` no
@@ -290,22 +617,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name ethregion22
-NULL
-
-#'  From what country or countries did your ancestors come?  Switzerland
-#' 
-#'  ethregion23
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7662/vshow).
 #'
 #' Counts by year: 
 #'
@@ -348,6 +661,30 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-              |-   |3309                          |3309  |
 #'  |Total |65045 |844        |6299 |49        |33             |120 |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name ethregion23
+NULL
+
+
+#'  From what country or countries did your ancestors come?  Turkey
+#' 
+#'  ethregion24
+#' 
+#' Question From what country or countries did your ancestors come?  Turkey
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` no
@@ -365,22 +702,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name ethregion23
-NULL
-
-#'  From what country or countries did your ancestors come?  Turkey
-#' 
-#'  ethregion24
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7663/vshow).
 #'
 #' Counts by year: 
 #'
@@ -423,6 +746,32 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-              |-   |3309                          |3309  |
 #'  |Total |65045 |844        |6396 |49        |33             |23  |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name ethregion24
+NULL
+
+
+#'  From what country or countries did your ancestors come?  Yugoslavia
+#' 
+#'  ethregion25
+#' 
+#' Question From what country or countries did your ancestors come?  Yugoslavia
+#' 
+#' As of 2024, ETHREGION variables will only be available as restricted data, beginning with R2.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` no
@@ -440,22 +789,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name ethregion24
-NULL
-
-#'  From what country or countries did your ancestors come?  Yugoslavia
-#' 
-#'  ethregion25
-#' 
-#' Question None
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7664/vshow).
 #'
 #' Counts by year: 
 #'
@@ -498,253 +833,20 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-              |-   |3309                          |3309  |
 #'  |Total |65045 |844        |6369 |49        |33             |50  |3309                          |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `0` no
-#'   * `1` yes
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' 
+#' 
 #' 
 #' @keywords variable
 #' @md
 #' @name ethregion25
 NULL
 
-#'  From what country or countries did your ancestors come?  Other europe
-#' 
-#'  ethregion26
-#' 
-#' Question None
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no   |no answer |skipped on web |yes |not available in this release |Total |
-#'  |:-----|:-----|:----------|:----|:---------|:--------------|:---|:-----------------------------|:-----|
-#'  |1972  |1613  |-          |-    |-         |-              |-   |-                             |1613  |
-#'  |1973  |1504  |-          |-    |-         |-              |-   |-                             |1504  |
-#'  |1974  |1484  |-          |-    |-         |-              |-   |-                             |1484  |
-#'  |1975  |1490  |-          |-    |-         |-              |-   |-                             |1490  |
-#'  |1976  |1499  |-          |-    |-         |-              |-   |-                             |1499  |
-#'  |1977  |1530  |-          |-    |-         |-              |-   |-                             |1530  |
-#'  |1978  |1532  |-          |-    |-         |-              |-   |-                             |1532  |
-#'  |1980  |1468  |-          |-    |-         |-              |-   |-                             |1468  |
-#'  |1982  |1860  |-          |-    |-         |-              |-   |-                             |1860  |
-#'  |1983  |1599  |-          |-    |-         |-              |-   |-                             |1599  |
-#'  |1984  |1473  |-          |-    |-         |-              |-   |-                             |1473  |
-#'  |1985  |1534  |-          |-    |-         |-              |-   |-                             |1534  |
-#'  |1986  |1470  |-          |-    |-         |-              |-   |-                             |1470  |
-#'  |1987  |1819  |-          |-    |-         |-              |-   |-                             |1819  |
-#'  |1988  |1481  |-          |-    |-         |-              |-   |-                             |1481  |
-#'  |1989  |1537  |-          |-    |-         |-              |-   |-                             |1537  |
-#'  |1990  |1372  |-          |-    |-         |-              |-   |-                             |1372  |
-#'  |1991  |1517  |-          |-    |-         |-              |-   |-                             |1517  |
-#'  |1993  |1606  |-          |-    |-         |-              |-   |-                             |1606  |
-#'  |1994  |2992  |-          |-    |-         |-              |-   |-                             |2992  |
-#'  |1996  |2904  |-          |-    |-         |-              |-   |-                             |2904  |
-#'  |1998  |2832  |-          |-    |-         |-              |-   |-                             |2832  |
-#'  |2000  |2817  |-          |-    |-         |-              |-   |-                             |2817  |
-#'  |2002  |2765  |-          |-    |-         |-              |-   |-                             |2765  |
-#'  |2004  |2812  |-          |-    |-         |-              |-   |-                             |2812  |
-#'  |2006  |4510  |-          |-    |-         |-              |-   |-                             |4510  |
-#'  |2008  |2023  |-          |-    |-         |-              |-   |-                             |2023  |
-#'  |2010  |2044  |-          |-    |-         |-              |-   |-                             |2044  |
-#'  |2012  |1974  |-          |-    |-         |-              |-   |-                             |1974  |
-#'  |2014  |2538  |-          |-    |-         |-              |-   |-                             |2538  |
-#'  |2016  |2867  |-          |-    |-         |-              |-   |-                             |2867  |
-#'  |2018  |2348  |-          |-    |-         |-              |-   |-                             |2348  |
-#'  |2021  |15    |681        |3201 |1         |33             |101 |-                             |4032  |
-#'  |2022  |216   |163        |3016 |48        |-              |101 |-                             |3544  |
-#'  |2024  |-     |-          |-    |-         |-              |-   |3309                          |3309  |
-#'  |Total |65045 |844        |6217 |49        |33             |202 |3309                          |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `0` no
-#'   * `1` yes
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name ethregion26
-NULL
-
-#'  From what country or countries did your ancestors come?  Algeria
-#' 
-#'  ethregion27
-#' 
-#' Question None
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no   |no answer |skipped on web |yes |not available in this release |Total |
-#'  |:-----|:-----|:----------|:----|:---------|:--------------|:---|:-----------------------------|:-----|
-#'  |1972  |1613  |-          |-    |-         |-              |-   |-                             |1613  |
-#'  |1973  |1504  |-          |-    |-         |-              |-   |-                             |1504  |
-#'  |1974  |1484  |-          |-    |-         |-              |-   |-                             |1484  |
-#'  |1975  |1490  |-          |-    |-         |-              |-   |-                             |1490  |
-#'  |1976  |1499  |-          |-    |-         |-              |-   |-                             |1499  |
-#'  |1977  |1530  |-          |-    |-         |-              |-   |-                             |1530  |
-#'  |1978  |1532  |-          |-    |-         |-              |-   |-                             |1532  |
-#'  |1980  |1468  |-          |-    |-         |-              |-   |-                             |1468  |
-#'  |1982  |1860  |-          |-    |-         |-              |-   |-                             |1860  |
-#'  |1983  |1599  |-          |-    |-         |-              |-   |-                             |1599  |
-#'  |1984  |1473  |-          |-    |-         |-              |-   |-                             |1473  |
-#'  |1985  |1534  |-          |-    |-         |-              |-   |-                             |1534  |
-#'  |1986  |1470  |-          |-    |-         |-              |-   |-                             |1470  |
-#'  |1987  |1819  |-          |-    |-         |-              |-   |-                             |1819  |
-#'  |1988  |1481  |-          |-    |-         |-              |-   |-                             |1481  |
-#'  |1989  |1537  |-          |-    |-         |-              |-   |-                             |1537  |
-#'  |1990  |1372  |-          |-    |-         |-              |-   |-                             |1372  |
-#'  |1991  |1517  |-          |-    |-         |-              |-   |-                             |1517  |
-#'  |1993  |1606  |-          |-    |-         |-              |-   |-                             |1606  |
-#'  |1994  |2992  |-          |-    |-         |-              |-   |-                             |2992  |
-#'  |1996  |2904  |-          |-    |-         |-              |-   |-                             |2904  |
-#'  |1998  |2832  |-          |-    |-         |-              |-   |-                             |2832  |
-#'  |2000  |2817  |-          |-    |-         |-              |-   |-                             |2817  |
-#'  |2002  |2765  |-          |-    |-         |-              |-   |-                             |2765  |
-#'  |2004  |2812  |-          |-    |-         |-              |-   |-                             |2812  |
-#'  |2006  |4510  |-          |-    |-         |-              |-   |-                             |4510  |
-#'  |2008  |2023  |-          |-    |-         |-              |-   |-                             |2023  |
-#'  |2010  |2044  |-          |-    |-         |-              |-   |-                             |2044  |
-#'  |2012  |1974  |-          |-    |-         |-              |-   |-                             |1974  |
-#'  |2014  |2538  |-          |-    |-         |-              |-   |-                             |2538  |
-#'  |2016  |2867  |-          |-    |-         |-              |-   |-                             |2867  |
-#'  |2018  |2348  |-          |-    |-         |-              |-   |-                             |2348  |
-#'  |2021  |15    |681        |3299 |1         |33             |3   |-                             |4032  |
-#'  |2022  |216   |163        |3107 |48        |-              |10  |-                             |3544  |
-#'  |2024  |-     |-          |-    |-         |-              |-   |3309                          |3309  |
-#'  |Total |65045 |844        |6406 |49        |33             |13  |3309                          |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `0` no
-#'   * `1` yes
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name ethregion27
-NULL
-
-#'  From what country or countries did your ancestors come?  Democratic republic of
-#' 
-#'  ethregion28
-#' 
-#' Question None
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no   |no answer |skipped on web |yes |not available in this release |Total |
-#'  |:-----|:-----|:----------|:----|:---------|:--------------|:---|:-----------------------------|:-----|
-#'  |1972  |1613  |-          |-    |-         |-              |-   |-                             |1613  |
-#'  |1973  |1504  |-          |-    |-         |-              |-   |-                             |1504  |
-#'  |1974  |1484  |-          |-    |-         |-              |-   |-                             |1484  |
-#'  |1975  |1490  |-          |-    |-         |-              |-   |-                             |1490  |
-#'  |1976  |1499  |-          |-    |-         |-              |-   |-                             |1499  |
-#'  |1977  |1530  |-          |-    |-         |-              |-   |-                             |1530  |
-#'  |1978  |1532  |-          |-    |-         |-              |-   |-                             |1532  |
-#'  |1980  |1468  |-          |-    |-         |-              |-   |-                             |1468  |
-#'  |1982  |1860  |-          |-    |-         |-              |-   |-                             |1860  |
-#'  |1983  |1599  |-          |-    |-         |-              |-   |-                             |1599  |
-#'  |1984  |1473  |-          |-    |-         |-              |-   |-                             |1473  |
-#'  |1985  |1534  |-          |-    |-         |-              |-   |-                             |1534  |
-#'  |1986  |1470  |-          |-    |-         |-              |-   |-                             |1470  |
-#'  |1987  |1819  |-          |-    |-         |-              |-   |-                             |1819  |
-#'  |1988  |1481  |-          |-    |-         |-              |-   |-                             |1481  |
-#'  |1989  |1537  |-          |-    |-         |-              |-   |-                             |1537  |
-#'  |1990  |1372  |-          |-    |-         |-              |-   |-                             |1372  |
-#'  |1991  |1517  |-          |-    |-         |-              |-   |-                             |1517  |
-#'  |1993  |1606  |-          |-    |-         |-              |-   |-                             |1606  |
-#'  |1994  |2992  |-          |-    |-         |-              |-   |-                             |2992  |
-#'  |1996  |2904  |-          |-    |-         |-              |-   |-                             |2904  |
-#'  |1998  |2832  |-          |-    |-         |-              |-   |-                             |2832  |
-#'  |2000  |2817  |-          |-    |-         |-              |-   |-                             |2817  |
-#'  |2002  |2765  |-          |-    |-         |-              |-   |-                             |2765  |
-#'  |2004  |2812  |-          |-    |-         |-              |-   |-                             |2812  |
-#'  |2006  |4510  |-          |-    |-         |-              |-   |-                             |4510  |
-#'  |2008  |2023  |-          |-    |-         |-              |-   |-                             |2023  |
-#'  |2010  |2044  |-          |-    |-         |-              |-   |-                             |2044  |
-#'  |2012  |1974  |-          |-    |-         |-              |-   |-                             |1974  |
-#'  |2014  |2538  |-          |-    |-         |-              |-   |-                             |2538  |
-#'  |2016  |2867  |-          |-    |-         |-              |-   |-                             |2867  |
-#'  |2018  |2348  |-          |-    |-         |-              |-   |-                             |2348  |
-#'  |2021  |15    |681        |3286 |1         |33             |16  |-                             |4032  |
-#'  |2022  |216   |163        |3097 |48        |-              |20  |-                             |3544  |
-#'  |2024  |-     |-          |-    |-         |-              |-   |3309                          |3309  |
-#'  |Total |65045 |844        |6383 |49        |33             |36  |3309                          |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `0` no
-#'   * `1` yes
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name ethregion28
-NULL
 

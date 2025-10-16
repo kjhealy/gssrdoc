@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 feless2
 }
 \details{
-Question 565. On average, women who are employed full time earn less than men. I'm going to read several reasons why this might be so. Please tell me how important you think each reason is. b. Women's family responsibilities keep them from putting as much time and effort into their jobs as men do.
+Question On average, women who are employed full time earn less than men earn. I'm going to read several reasons why this might be so. Please tell me how important you think each reason is: very important, important, somewhat important, or not at all important. For example,...
+B. Women's family responsibilities keep them from putting as much time and effort into their jobs as men do. How important Do you think this reason is for explaining why women earn less?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very important
+\item \code{2} important
+\item \code{3} somewhat important
+\item \code{4} not at all important
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1689/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab don't know \tab important \tab no answer \tab not at all important \tab somewhat important \tab very important \tab not available in this year \tab Total \cr
@@ -57,26 +80,39 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very important
-\item \code{2} important
-\item \code{3} somewhat important
-\item \code{4} not at all important
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Gender: 
+\code{\link{allhrt}},
+\code{\link{chldhrt}},
+\code{\link{fekids1}},
+\code{\link{feless1}},
+\code{\link{feless3}},
+\code{\link{menhrt}},
+\code{\link{nooneben}},
+\code{\link{noonehrt}},
+\code{\link{womenhrt}}
+
+Other Employment: 
+\code{\link{feless1}},
+\code{\link{feless3}}
+
+Other Jobmen: 
+\code{\link{feless1}},
+\code{\link{feless3}}
+
+Other Work: 
+\code{\link{feless1}},
+\code{\link{feless3}}
+}
+\concept{Employment}
+\concept{Gender}
+\concept{Jobmen}
+\concept{Work}
 \keyword{variable}

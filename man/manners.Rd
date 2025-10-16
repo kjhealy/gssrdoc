@@ -10,11 +10,40 @@ General Social Survey https://gss.norc.org
 manners
 }
 \details{
-Question 167a. Which three qualities listed on this card would you say are the most desirable for a child to have? b. Which one of these three is the most desirable of all? c. All of the qualities listed on this card may be desirable, but could you tell me which three you consider least important? d. And which of these three is least important of all? THAT HE HAS GOOD MANNERS
+Question A. Which three qualities listed on this card would you say are the most desirable for a child to have?
+B. Which one of these three is the most desirable of all?
+C. All of the qualities listed on this card may be desirable, but could you tell me which three you consider least important?
+D. And which one of these three is least important of all?
+\enumerate{
+\item That he has good manners
 }
+}
+\section{Values}{
+
+\itemize{
+\item \code{1} 1 most desirable
+\item \code{2} 3 most desirable
+\item \code{3} not mentioned
+\item \code{4} 3 least desirable
+\item \code{5} 1 least desirable
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/474/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab 1 least desirable \tab 1 most desirable \tab 3 least desirable \tab 3 most desirable \tab no answer \tab not mentioned \tab don't know \tab not available in this year \tab Total \cr
@@ -57,27 +86,41 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} 1 most desirable
-\item \code{2} 3 most desirable
-\item \code{3} not mentioned
-\item \code{4} 3 least desirable
-\item \code{5} 1 least desirable
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1973 \tab - \tab full \cr
+   1975 \tab - \tab full \cr
+   1976 \tab - \tab full \cr
+   1978 \tab - \tab full \cr
+   1980 \tab - \tab full \cr
+   1983 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{conarmyy}},
+\code{\link{confedy}},
+\code{\link{conlaboy}},
+\code{\link{conlegiy}},
+\code{\link{conmediy}},
+\code{\link{conpresy}},
+\code{\link{consciy}},
+\code{\link{contvy}}
+
+Other Split Ballots: 
+\code{\link{conarmyy}},
+\code{\link{confedy}},
+\code{\link{conjudgy}},
+\code{\link{conlaboy}},
+\code{\link{conlegiy}},
+\code{\link{conmediy}},
+\code{\link{conpresy}},
+\code{\link{consciy}},
+\code{\link{contvy}}
+}
+\concept{Children}
+\concept{Core}
+\concept{Split Ballots}
 \keyword{variable}

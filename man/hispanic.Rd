@@ -2,7 +2,7 @@
 % Please edit documentation in R/gss_vars_575.R
 \name{hispanic}
 \alias{hispanic}
-\title{R hispanic specific}
+\title{Hispanic specified}
 \source{
 General Social Survey https://gss.norc.org
 }
@@ -10,11 +10,42 @@ General Social Survey https://gss.norc.org
 hispanic
 }
 \details{
-Question 1601. IF R IS FEMALE, READ LATINA; IF MALE, READ LATINO. Are you Spanish, Hispanic, or Latino/Latina? IF YES: Which group are you from?
+Question IF R IS FEMALE, READ LATINA; IF MALE, READ LATINO.
+Are you Spanish, Hispanic, or Latino/Latina?
+Yes . . . . . (ASK A)
+No   . . . . . . (GO TO NEXT QUESTION)
+IF YES:                  Which group are you from?
+Mexican, Mexican American, Chicano/Chicana
+Puerto Rican
+Cuban
+Other
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} not hispanic
+\item \code{2} mexican, mexican american, chicano/a
+\item \code{3} puerto rican
+\item \code{4} cuban
+\item \code{5} another hispanic, latino, or spanish origin
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5276/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab not available in this year \tab another hispanic, latino, or spanish origin \tab cuban \tab don't know \tab mexican, mexican american, chicano/a \tab not hispanic \tab puerto rican \tab no answer \tab iap \tab skipped on web \tab Total \cr
@@ -57,27 +88,58 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} not hispanic
-\item \code{2} mexican, mexican american, chicano/a
-\item \code{3} puerto rican
-\item \code{4} cuban
-\item \code{5} another hispanic, latino, or spanish origin
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C/- \tab full \cr
+   2002 \tab A/B/C/- \tab full \cr
+   2004 \tab A/B/C/- \tab full \cr
+   2006 \tab A/B/C/D \tab full \cr
+   2008 \tab A/B/C/- \tab full \cr
+   2010 \tab A/B/C/- \tab full \cr
+   2012 \tab A/B/C/- \tab full \cr
+   2014 \tab A/B/C/- \tab full \cr
+   2016 \tab A/B/C/- \tab full \cr
+   2018 \tab A/B/C/- \tab full \cr
+   2021 \tab A/B/C/- \tab full \cr
+   2022 \tab A/B/C/- \tab full \cr
 }
 }
 
+\seealso{
+Other Ethnicity: 
+\code{\link{difrace1}},
+\code{\link{difrace2}},
+\code{\link{difrace3}},
+\code{\link{racecen1}},
+\code{\link{racecen2}},
+\code{\link{racecen3}},
+\code{\link{racedbtf}},
+\code{\link{racesee}},
+\code{\link{raceself}}
+
+Other Ethnicity: 
+\code{\link{difrace1}},
+\code{\link{difrace2}},
+\code{\link{difrace3}},
+\code{\link{racecen1}},
+\code{\link{racecen2}},
+\code{\link{racecen3}},
+\code{\link{racedbtf}},
+\code{\link{racesee}},
+\code{\link{raceself}}
+
+Other Race: 
+\code{\link{difrace1}},
+\code{\link{difrace2}},
+\code{\link{difrace3}},
+\code{\link{racecen1}},
+\code{\link{racecen2}},
+\code{\link{racecen3}},
+\code{\link{racedbtf}},
+\code{\link{racesee}},
+\code{\link{raceself}}
+}
+\concept{Ethnicity}
+\concept{Race}
 \keyword{variable}

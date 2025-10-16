@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 decbible
 }
 \details{
-Question 375. Can you tell me how important is each of the following in helping you to make decisions about your life. Please indicate your answer by stating where you would place your feelings on a scale from 1 to 5 as shown on this hand card. a. The bible
+Question Can you tell me how important is each of the following in helping you to make decisions about your life. Please indicate your answer by stating where you would place your feelings on a scale from 1 to 5 as shown on this hand Card. Consider the first topic. If you think the Bible is very important in helping you to make decisions about your life, you would place yourself at 1. If you feel it is not very important in helping you to make decisions about your life, then you would place yourself at 5. If you feel the Bible is "somewhere between these two" in helping you make decisions about your life, then you would place yourself at 2, 3 or 4.
+A. The Bible
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very important
+\item \code{5} not very important
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1085/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab 2 \tab 3 \tab 4 \tab don't know \tab no answer \tab not very important \tab very important \tab not available in this year \tab Total \cr
@@ -57,24 +78,35 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very important
-\item \code{5} not very important
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1988 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Religion: 
+\code{\link{blkwhite}},
+\code{\link{decchurh}},
+\code{\link{decoths}},
+\code{\link{decself}},
+\code{\link{gochurch}},
+\code{\link{permoral}},
+\code{\link{punsin}},
+\code{\link{readword}},
+\code{\link{rotapple}}
+
+Other Religion: 
+\code{\link{blkwhite}},
+\code{\link{decchurh}},
+\code{\link{decoths}},
+\code{\link{decself}},
+\code{\link{gochurch}},
+\code{\link{permoral}},
+\code{\link{punsin}},
+\code{\link{readword}},
+\code{\link{rotapple}}
+}
+\concept{Religion}
 \keyword{variable}

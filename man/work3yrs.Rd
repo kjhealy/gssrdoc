@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 work3yrs
 }
 \details{
-Question How many full time jobs have you have had in past three years, that is since 2005 (counting the current job)? FI INFO: SELF-EMPLOYMENT AND CONTRACT WORK COUNT AS A 'JOB'
+Question How many full time jobs have you have had in past three years, that is since 2005 (counting the current job)?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} one
+\item \code{2} number greater than 1
+\item \code{3} none
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3872/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab don't know \tab no answer \tab none \tab number greater than 1 \tab one \tab not available in this year \tab Total \cr
@@ -57,25 +78,34 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} one
-\item \code{2} number greater than 1
-\item \code{3} none
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2008 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Global Economics: 
+\code{\link{curempyr}},
+\code{\link{pastpay}},
+\code{\link{paychnge}},
+\code{\link{whyjbct1}},
+\code{\link{whyleave}}
+
+Other Employment: 
+\code{\link{curempyr}},
+\code{\link{whyjbct1}},
+\code{\link{whyleave}}
+
+Other Job: 
+\code{\link{curempyr}},
+\code{\link{pastpay}},
+\code{\link{paychnge}},
+\code{\link{whyjbct1}},
+\code{\link{whyleave}}
+}
+\concept{Employment}
+\concept{Global Economics}
+\concept{Job}
 \keyword{variable}

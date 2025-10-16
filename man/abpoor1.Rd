@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 abpoor1
 }
 \details{
-Question 1375. Do you think the law should or should not allow a pregnant woman to obtain a legal abortion. . . b. If the family has a very low income and cannot afford any more children
+Question Do you think the law should or should not allow a pregnant woman to obtain a legal abortion. . .
+B. If the family has a very low income and cannot afford any more children.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} definitely should allow it
+\item \code{2} probably should allow it
+\item \code{3} probably should not allow it
+\item \code{4} definitely should not allow it
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4634/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab definitely should allow it \tab definitely should not allow it \tab don't know \tab no answer \tab probably should allow it \tab probably should not allow it \tab not available in this year \tab Total \cr
@@ -57,26 +80,30 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} definitely should allow it
-\item \code{2} probably should allow it
-\item \code{3} probably should not allow it
-\item \code{4} definitely should not allow it
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1991 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Religion: 
+\code{\link{abdefct1}},
+\code{\link{abdefctw}},
+\code{\link{abpoorw}},
+\code{\link{conbiz}},
+\code{\link{concong}},
+\code{\link{congovt}},
+\code{\link{govcheat}},
+\code{\link{homosex1}},
+\code{\link{taxcheat}}
+
+Other Abortion: 
+\code{\link{abdefct1}},
+\code{\link{abdefctw}},
+\code{\link{abpoorw}}
+}
+\concept{Abortion}
+\concept{ISSP Religion}
 \keyword{variable}

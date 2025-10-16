@@ -10,11 +10,39 @@ General Social Survey https://gss.norc.org
 viglabel
 }
 \details{
-Question 651. In your opinion, how likely is it that NAME is experiencing (READ a-e) -- very likely, somewhat likely, not very likely, or not at all likely? (In Part e, read only the phrase following the letter of the Vignette) e: Vignette A: alcohol dependence Vignette B: a major depression Vignette C: schizophrenia Vignette D: a drug problem
+Question In your opinion, how likely is it that NAME is experiencing (READ A-E) -- very likely, somewhat likely, not very likely, or not at all likely? (IN PART E, READ ONLY THE PHRASE FOLLOWING THE LETTER OF THE VIGNETTE)
+E. REFER TO VIGNETTE ID, CHECK BELOW AND READ ONLY 1 PHRASE OF THE FOLLOWING:
+Vignette A: alcohol dependence
+Vignette B: a major depression
+Vignette C: schizophrenia
+Vignette D: a drug problem
+Vignette E: GO TO DECTREAT
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very likely
+\item \code{2} somewhat likely
+\item \code{3} not very likely
+\item \code{4} not at all likely
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1998/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab don't know \tab no answer \tab not at all likely \tab not very likely \tab somewhat likely \tab very likely \tab not available in this year \tab skipped on web \tab Total \cr
@@ -57,26 +85,37 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very likely
-\item \code{2} somewhat likely
-\item \code{3} not very likely
-\item \code{4} not at all likely
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
+   2018 \tab B/C/- \tab partial \cr
+   2024 \tab A/B/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Mental Health: 
+\code{\link{breakdwn}},
+\code{\link{decmoney}},
+\code{\link{dectreat}},
+\code{\link{genetics}},
+\code{\link{godswill}},
+\code{\link{imprvown}},
+\code{\link{mentlill}},
+\code{\link{physill}},
+\code{\link{upsdowns}}
+
+Other Mental Health: 
+\code{\link{breakdwn}},
+\code{\link{decmoney}},
+\code{\link{dectreat}},
+\code{\link{genetics}},
+\code{\link{godswill}},
+\code{\link{imprvown}},
+\code{\link{mentlill}},
+\code{\link{physill}},
+\code{\link{upsdowns}}
+}
+\concept{Mental Health}
 \keyword{variable}

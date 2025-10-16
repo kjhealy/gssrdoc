@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 impchurh
 }
 \details{
-Question 282. On these cards are various aspects of life. We would like to know how important each of these aspects of life is for you. On each of these cards you see on teh right hand side a scale with seven points. The lowest point with number 1 indicates that this aspect of life is unimportant to you. POint 7 at the top indicates that particular aspect of life is very important to you. The numbers in between indicate varying degrees of importance. Please take a look at all the cards first. Then, tell me for each card its letter and the number you've decided on. f. Religion and church.
+Question On these cards are various aspects of life. We would like to know how important each of these aspects of life is for you. On each of these Cards you see on the right hand side a scale with seven points. The lowest point with number 1 indicates that this aspect of life is unimportant to you. Point 7 at the top indicates that particular aspect of life is very important to you. The numbers in between indicate varying degrees of importance. Please take a look at all the cards first. Then, tell me for each card its letter and the number you've decided on. SHUFFLE THE SET OF BLUE CardS BEFORE HANDING TO RESPONDENT.
+F. Religion and church.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} unimportant
+\item \code{7} very important
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/770/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab don't know \tab no answer \tab unimportant \tab very important \tab not available in this year \tab Total \cr
@@ -57,24 +78,32 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} unimportant
-\item \code{7} very important
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1982 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{cutspdfg}},
+\code{\link{cutspdr}},
+\code{\link{hlpminfg}},
+\code{\link{hlpminr}},
+\code{\link{impfam}},
+\code{\link{impfrend}},
+\code{\link{impkin}},
+\code{\link{imprelax}},
+\code{\link{impwork}}
+
+Other Life Aspects, Importance Of: 
+\code{\link{impfam}},
+\code{\link{impfrend}},
+\code{\link{impkin}},
+\code{\link{imprelax}},
+\code{\link{impwork}}
+}
+\concept{Core}
+\concept{Life Aspects, Importance Of}
 \keyword{variable}

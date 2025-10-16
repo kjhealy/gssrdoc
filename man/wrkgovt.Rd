@@ -10,11 +10,39 @@ General Social Survey https://gss.norc.org
 wrkgovt
 }
 \details{
-Question 2f. (Are/were) you employed by the federal, state, or local government or by a private employer (including non-profit organizations)?
+Question A. What kind of work do you (did you normally) do?  That is, what (is/was) your job called?
+OCCUPATION:  (See REMARKS)
+B. What (do/did) you actually do in that job?  Tell me, what (are/were) some of your main duties?
+C. What kind of place (do/did) you work for?
+INDUSTRY:  (See REMARKS)
+D. What (do/did) they (make/do)?
+E. (Are/Were) you self employed or (do/did) you work for someone else?
+F. (Are/Were) you employed by the federal, state or local government or by a private employer (including non-profit organizations)?
+G. About how much time (does/did) it usually take you to travel to work - about how many minutes?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} government
+\item \code{2} private
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/10/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab government \tab private \tab no answer \tab don't know \tab not available in this year \tab Total \cr
@@ -57,24 +85,41 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} government
-\item \code{2} private
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1985 \tab -/-/-/- \tab full \cr
+   1986 \tab -/-/-/- \tab full \cr
+   2000 \tab A/B/C/- \tab full \cr
+   2002 \tab A/B/C/- \tab full \cr
+   2004 \tab A/B/C/- \tab full \cr
+   2006 \tab A/B/C/D \tab full \cr
+   2008 \tab A/B/C/- \tab full \cr
+   2010 \tab A/B/C/- \tab full \cr
+   2012 \tab A/B/C/- \tab full \cr
+   2014 \tab A/B/C/- \tab full \cr
+   2016 \tab A/B/C/- \tab full \cr
+   2018 \tab A/B/C/- \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{evwork}},
+\code{\link{hrs1}},
+\code{\link{hrs2}},
+\code{\link{id}},
+\code{\link{occ}},
+\code{\link{prestige}},
+\code{\link{wrkslf}},
+\code{\link{wrkstat}},
+\code{\link{year}}
+
+Other Occupation: 
+\code{\link{occ}},
+\code{\link{wrkslf}}
+}
+\concept{Core}
+\concept{Industry}
+\concept{Occupation}
 \keyword{variable}

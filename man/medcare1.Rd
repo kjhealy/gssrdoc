@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 medcare1
 }
 \details{
-Question 662. In your opinion, who should be most responsible for paying the cost of NAME's medical care, including mental health care and treatment?
+Question In your opinion, who should be most responsible for paying the cost of NAME's medical care, including mental health care and treatment?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} name, him-herself
+\item \code{2} his-her family
+\item \code{3} government
+\item \code{4} insurance
+\item \code{5} private charity
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2036/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab don't know \tab government \tab his-her family \tab insurance \tab name, him-herself \tab no answer \tab private charity \tab not available in this year \tab Total \cr
@@ -57,27 +80,36 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} name, him-herself
-\item \code{2} his-her family
-\item \code{3} government
-\item \code{4} insurance
-\item \code{5} private charity
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Mental Health: 
+\code{\link{dangroth}},
+\code{\link{dangrslf}},
+\code{\link{govmentl}},
+\code{\link{medcare2}},
+\code{\link{mntlas1}},
+\code{\link{mustdoc}},
+\code{\link{musthosp}},
+\code{\link{mustmed}},
+\code{\link{spmentl}}
+
+Other Mental Health: 
+\code{\link{dangroth}},
+\code{\link{dangrslf}},
+\code{\link{govmentl}},
+\code{\link{medcare2}},
+\code{\link{mntlas1}},
+\code{\link{mustdoc}},
+\code{\link{musthosp}},
+\code{\link{mustmed}},
+\code{\link{spmentl}}
+}
+\concept{Mental Health}
 \keyword{variable}

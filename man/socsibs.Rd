@@ -10,11 +10,38 @@ General Social Survey https://gss.norc.org
 socsibs
 }
 \details{
-Question 173. Would you use this card and tell me which answer comes closest to how often you do the following things: f. Spend a social evening with a brother or sister
+Question Would you use this card and tell me which answer comes closest to how often you do the following thingsâ€¦
+F. Spend a social evening with a brother or sister?
 }
+\section{Values}{
+
+\itemize{
+\item \code{0} no such people
+\item \code{1} almost daily
+\item \code{2} sev times a week
+\item \code{3} sev times a mnth
+\item \code{4} once a month
+\item \code{5} sev times a year
+\item \code{6} once a year
+\item \code{7} never
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/526/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllll}{
    year \tab iap \tab almost daily \tab don't know \tab never \tab no answer \tab no such people \tab once a month \tab once a year \tab sev times a mnth \tab sev times a week \tab sev times a year \tab not available in this year \tab Total \cr
@@ -57,30 +84,42 @@ Counts by year:\tabular{llllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{0} no such people
-\item \code{1} almost daily
-\item \code{2} sev times a week
-\item \code{3} sev times a mnth
-\item \code{4} once a month
-\item \code{5} sev times a year
-\item \code{6} once a year
-\item \code{7} never
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1978 \tab -/- \tab full \cr
+   1982 \tab -/- \tab full \cr
+   1983 \tab -/- \tab full \cr
+   1985 \tab -/- \tab full \cr
+   1986 \tab -/- \tab full \cr
+   1988 \tab A/B \tab partial \cr
+   1989 \tab A/B \tab partial \cr
+   1990 \tab A/B \tab partial \cr
+   1991 \tab A/B \tab partial \cr
+   1993 \tab A/B \tab partial \cr
+   1994 \tab A/B \tab partial \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{aged}},
+\code{\link{agedchld}},
+\code{\link{agedpar}},
+\code{\link{drink}},
+\code{\link{drunk}},
+\code{\link{partfull}},
+\code{\link{smoke}},
+\code{\link{socpars}},
+\code{\link{weekswrk}}
+
+Other Family: 
+\code{\link{socpars}}
+
+Other Sociability: 
+\code{\link{socpars}}
+}
+\concept{Core}
+\concept{Family}
+\concept{Sociability}
 \keyword{variable}

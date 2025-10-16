@@ -1,11 +1,114 @@
+#'  Feeling thermometer:catholics
+#' 
+#'  cathtemp
+#' 
+#' Question I'd like to get your feelings toward groups that are in the news these days. I will use something we call the feeling thermometer, and here is how it works: I'll read the names of a group and I'd like you to rate that group using the feeling thermometer. Ratings between 50 degrees and 100 degrees mean that you feel favorable and warm toward the group. Ratings between 0 degrees and 50 degrees mean that you don't feel favorable toward the group and that you don't care too much for that group. If we come to a group whose name you Don't recognize, you don't need to rate that group. Just tell me and we'll move on to the next one. IF you do recognize the name, but you don't feel particularly warm or cold toward the group, you would rate the group at the 50 degree mark. How would you rate this group using the thermometer? 
+#' D. Catholics
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/376/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |0  |10 |100 |15 |25 |3  |30  |35 |40  |45 |49 |5  |50   |51 |52 |55 |60  |65 |70  |75 |80  |83 |85  |90 |95 |don't know |no answer |20 |99 |1  |33 |97 |2  |44 |7  |78 |not available in this year |Total |
+#'  |:-----|:-----|:--|:--|:---|:--|:--|:--|:---|:--|:---|:--|:--|:--|:----|:--|:--|:--|:---|:--|:---|:--|:---|:--|:---|:--|:--|:----------|:---------|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--------------------------|:-----|
+#'  |1972  |1613  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1613  |
+#'  |1973  |1504  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1504  |
+#'  |1974  |1484  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1484  |
+#'  |1975  |1490  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1490  |
+#'  |1976  |1499  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1499  |
+#'  |1977  |1530  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1530  |
+#'  |1978  |1532  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1532  |
+#'  |1980  |1468  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1468  |
+#'  |1982  |1860  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1860  |
+#'  |1983  |1599  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1599  |
+#'  |1984  |1473  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1473  |
+#'  |1985  |1534  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1534  |
+#'  |1986  |-     |19 |4  |188 |13 |4  |1  |31  |1  |84  |1  |2  |1  |200  |5  |1  |4  |257 |3  |272 |20 |34  |1  |242 |20 |2  |42         |18        |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1470  |
+#'  |1987  |1819  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1819  |
+#'  |1988  |-     |21 |3  |165 |16 |3  |-  |25  |-  |51  |2  |-  |-  |385  |-  |-  |1  |172 |5  |250 |25 |39  |1  |209 |20 |1  |66         |19        |1  |1  |-  |-  |-  |-  |-  |-  |-  |-                          |1481  |
+#'  |1989  |531   |18 |1  |127 |18 |-  |-  |23  |2  |42  |-  |-  |1  |217  |-  |-  |-  |107 |2  |163 |12 |15  |-  |166 |13 |6  |54         |11        |5  |-  |1  |1  |1  |-  |-  |-  |-  |-                          |1537  |
+#'  |1990  |1372  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1372  |
+#'  |1991  |1517  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1517  |
+#'  |1993  |1606  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1606  |
+#'  |1994  |2992  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2992  |
+#'  |1996  |2904  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2904  |
+#'  |1998  |2832  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2832  |
+#'  |2000  |2817  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2817  |
+#'  |2002  |2765  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2765  |
+#'  |2004  |1939  |13 |4  |113 |7  |9  |-  |21  |1  |44  |2  |-  |3  |258  |-  |-  |1  |79  |5  |104 |21 |16  |-  |93  |12 |4  |34         |15        |6  |1  |3  |-  |-  |1  |1  |1  |1  |-                          |2812  |
+#'  |2006  |4510  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |4510  |
+#'  |2008  |2023  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2023  |
+#'  |2010  |2044  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2044  |
+#'  |2012  |1974  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1974  |
+#'  |2014  |2538  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2538  |
+#'  |2016  |2867  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2867  |
+#'  |2018  |2348  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2348  |
+#'  |2021  |4032  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |4032  |
+#'  |2022  |-     |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |3544                       |3544  |
+#'  |2024  |-     |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-  |-   |-  |-   |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |3309                       |3309  |
+#'  |Total |64016 |71 |12 |593 |54 |16 |1  |100 |4  |221 |5  |2  |5  |1060 |5  |1  |6  |615 |15 |789 |78 |104 |2  |710 |65 |13 |196        |63        |12 |2  |4  |1  |1  |1  |1  |1  |1  |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/-   |partial      |
+#'  |2004 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name cathtemp
+NULL
+
+
 #'  Feeling thermometer:jews
 #' 
 #'  jewtemp
 #' 
-#' Question 122. I'd like to get your feelings toward groups that are in teh news these days. I will use something we call the feeling thermometer, and here is how it works: I'll read the names of a group and I'd like you to rate that group using the feeling thermometer. Ratings between 50 degrees and 100 degrees mean that you feel favorable and warm toward the group. Ratings between 0 degrees and 50 degrees mean that you don't feel favorable toward the group and that you don't care too much for that group. e. Jews
+#' Question I'd like to get your feelings toward groups that are in the news these days. I will use something we call the feeling thermometer, and here is how it works: I'll read the names of a group and I'd like you to rate that group using the feeling thermometer. Ratings between 50 degrees and 100 degrees mean that you feel favorable and warm toward the group. Ratings between 0 degrees and 50 degrees mean that you don't feel favorable toward the group and that you don't care too much for that group. If we come to a group whose name you Don't recognize, you don't need to rate that group. Just tell me and we'll move on to the next one. IF you do recognize the name, but you don't feel particularly warm or cold toward the group, you would rate the group at the 50 degree mark. How would you rate this group using the thermometer? 
+#' E. Jews
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/377/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +151,34 @@
 #'  |2024  |-     |-  |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-  |-  |-    |-  |-  |-  |-   |-   |-  |-  |-  |-   |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |3309                       |3309  |
 #'  |Total |64016 |83 |5  |25 |341 |55 |24 |15 |107 |5  |217 |8  |2  |6  |1397 |6  |1  |10 |622 |791 |71 |2  |74 |557 |31 |6  |271        |72        |12 |1  |1  |2  |1  |1  |1  |1  |1  |2  |1  |1  |1  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/-   |partial      |
+#'  |2004 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Jews
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name jewtemp
+NULL
+
+
+#'  Feeling thermometer:muslims
+#' 
+#'  mslmtemp
+#' 
+#' Question I'd like to get your feelings toward groups that are in the news these days. I will use something we call the feeling thermometer, and here is how it works: I'll read the names of a group and I'd like you to rate that group using the feeling thermometer. Ratings between 50 degrees and 100 degrees mean that you feel favorable and warm toward the group. Ratings between 0 degrees and 50 degrees mean that you don't feel favorable toward the group and that you don't care too much for that group. If we come to a group whose name you Don't recognize, you don't need to rate that group. Just tell me and we'll move on to the next one. IF you do recognize the name, but you don't feel particularly warm or cold toward the group, you would rate the group at the 50 degree mark. How would you rate this group using the thermometer? 
+#' F. Muslims 
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -63,22 +194,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name jewtemp
-NULL
-
-#'  Feeling thermometer:muslims
-#' 
-#'  mslmtemp
-#' 
-#' Question 122. I'd like to get your feelings toward groups that are in teh news these days. I will use something we call the feeling thermometer, and here is how it works: I'll read the names of a group and I'd like you to rate that group using the feeling thermometer. Ratings between 50 degrees and 100 degrees mean that you feel favorable and warm toward the group. Ratings between 0 degrees and 50 degrees mean that you don't feel favorable toward the group and that you don't care too much for that group. f. Muslims
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/378/vshow).
 #'
 #' Counts by year: 
 #'
@@ -121,8 +238,38 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |67973 |50 |4  |15 |25  |1  |34 |13 |4  |1  |47 |1  |69 |2  |1  |3  |330 |4  |60 |5  |1  |62 |17 |7  |32 |3  |1  |1  |63         |17        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name mslmtemp
+NULL
+
+
+#'  R favors women as priests
+#' 
+#'  fepriest
+#' 
+#' Question A. IF CATHOLIC RESPONDENT, ASK FEPRIEST. OTHERS GO TO FECLERGY.
+#' As I read this statement, will you tell me whether you agree strongly, agree somewhat, disagree somewhat, or disagree strongly? 
+#' It would be a good thing if women were allowed to be ordained as priests.
+#' 
+#' 
 #' @section Values: 
 #' 
+#'   * `1` agree strongly
+#'   * `2` agree somewhat
+#'   * `3` disagree somewhat
+#'   * `4` disagree strongly
+#'   * `8` no opinion
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -136,22 +283,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name mslmtemp
-NULL
-
-#'  R favors women as priests
-#' 
-#'  fepriest
-#' 
-#' Question 123a. If Catholic respondent: As I read this statement, will you tell me whether you agree strongly, agree somewhat, disagree somewhat, or disagree strongly? It would be a good thing if women were allowed to be ordained as priests.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/379/vshow).
 #'
 #' Counts by year: 
 #'
@@ -194,12 +327,35 @@ NULL
 #'  |2024  |-     |-              |-              |-                 |-                 |-          |-         |3309                       |3309  |
 #'  |Total |68464 |111            |88             |58                |105               |14         |6         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' @family Women
+#' 
+#' @keywords variable
+#' @md
+#' @name fepriest
+NULL
+
+
+#'  R favors women as ministers
+#' 
+#'  feclergy
+#' 
+#' Question B. ASK NON-CATHOLICS ONLY. 
+#' Do you favor or oppose women as pastors, ministers, priests, or rabbis in your own faith or denomination?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` agree strongly
-#'   * `2` agree somewhat
-#'   * `3` disagree somewhat
-#'   * `4` disagree strongly
+#'   * `1` favor
+#'   * `2` oppose
 #'   * `8` no opinion
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
@@ -214,22 +370,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name fepriest
-NULL
-
-#'  R favors women as ministers
-#' 
-#'  feclergy
-#' 
-#' Question 123b. Non-Catholic respondents: Do you favor or oppose women as pastors, ministers, priests, or rabbis in your own faith or denomination?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/380/vshow).
 #'
 #' Counts by year: 
 #'
@@ -272,11 +414,38 @@ NULL
 #'  |2024  |-     |-          |-     |-         |-      |3309                       |3309  |
 #'  |Total |67755 |85         |617   |33        |356    |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' @family Women
+#' 
+#' @keywords variable
+#' @md
+#' @name feclergy
+NULL
+
+
+#'  Grade given religion
+#' 
+#'  relgrade
+#' 
+#' Question Using the school grading system of A,B,C,D, and F for Fail, how Do you rate your church or religious group in meeting your spiritual needs?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` favor
-#'   * `2` oppose
-#'   * `8` no opinion
+#'   * `1` a
+#'   * `2` b
+#'   * `3` c
+#'   * `4` d
+#'   * `5` f
+#'   * `6` no religion
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -290,22 +459,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name feclergy
-NULL
-
-#'  Grade given religion
-#' 
-#'  relgrade
-#' 
-#' Question 124. Using the school grading system of A,B,C,D, and F for fail, how do you rate your church or religious group in meeting your spiritual needs?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/381/vshow).
 #'
 #' Counts by year: 
 #'
@@ -348,14 +503,33 @@ NULL
 #'  |2024  |-     |-   |-   |-   |-  |-          |-  |-         |-           |3309                       |3309  |
 #'  |Total |67840 |278 |287 |182 |45 |51         |33 |5         |125         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1989 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name relgrade
+NULL
+
+
+#'  Favor law against racial intermarriage
+#' 
+#'  racmar
+#' 
+#' Question A. Do you think there should be laws against marriages between (Negroes/Blacks/African-Americans) and whites?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` a
-#'   * `2` b
-#'   * `3` c
-#'   * `4` d
-#'   * `5` f
-#'   * `6` no religion
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -369,22 +543,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name relgrade
-NULL
-
-#'  Favor law against racial intermarriage
-#' 
-#'  racmar
-#' 
-#' Question 125a. Do you think there should be laws against marriages between (Negroes/Blacks/African-Americans) and whites?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/382/vshow).
 #'
 #' Counts by year: 
 #'
@@ -427,6 +587,49 @@ NULL
 #'  |2024  |-          |-     |-     |-    |-         |3309                       |3309  |
 #'  |Total |736        |39187 |22155 |6629 |139       |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-     |full         |
+#'  |1973 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |A/C     |partial      |
+#'  |1989 |A/C     |partial      |
+#'  |1990 |A/C     |partial      |
+#'  |1991 |A/C     |partial      |
+#'  |1993 |A/C     |partial      |
+#'  |1994 |A/C     |partial      |
+#'  |1996 |A/C     |partial      |
+#'  |1998 |A/C     |partial      |
+#'  |2000 |A/C     |partial      |
+#'  |2002 |A/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name racmar
+NULL
+
+
+#'  Favor law against rac intrmar 10 yrs ago
+#' 
+#'  racmar10
+#' 
+#' Question B. Now thinking about ten years ago, that is in 1972, did you then think there should be laws against marriages between (Negroes/Blacks) and whites?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -444,22 +647,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name racmar
-NULL
-
-#'  Favor law against rac intrmar 10 yrs ago
-#' 
-#'  racmar10
-#' 
-#' Question 125b. Now thinking about ten years ago, that is in 1972, did you then think there should be laws against marriages between (negroes/blacks) and whites?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/383/vshow).
 #'
 #' Counts by year: 
 #'
@@ -502,10 +691,35 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-   |3309                       |3309  |
 #'  |Total |66986 |97         |1161 |17        |585 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1982 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name racmar10
+NULL
+
+
+#'  Object to opp. race home for dinner
+#' 
+#'  racdin
+#' 
+#' Question How strongly would you object if a member of your family wanted to bring a (Negro/Black) friend home to dinner?  
+#' Would you object strongly, mildly, or not at all?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` strongly object
+#'   * `2` mildly object
+#'   * `3` not object
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -519,22 +733,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name racmar10
-NULL
-
-#'  Object to opp. race home for dinner
-#' 
-#'  racdin
-#' 
-#' Question 126. How strongly would you object if a member of your family wanted to bring a (negro/black) friend home to dinner?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/384/vshow).
 #'
 #' Counts by year: 
 #'
@@ -577,11 +777,44 @@ NULL
 #'  |2024  |-          |-     |-             |-         |-          |-               |3309                       |3309  |
 #'  |Total |185        |56586 |1637          |42        |9100       |1296            |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-       |full         |
+#'  |1973 |-       |full         |
+#'  |1974 |-       |full         |
+#'  |1976 |-       |full         |
+#'  |1977 |-       |full         |
+#'  |1980 |-       |full         |
+#'  |1982 |-       |full         |
+#'  |1984 |-       |full         |
+#'  |1985 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name racdin
+NULL
+
+
+#'  Blacks shouldn't push
+#' 
+#'  racpush
+#' 
+#' Question Here are some opinions other people have expressed in connection with (Negro/Black)-white relations. Which statement on the card comes closest to how you, yourself, feel? The first one is . . . 
+#' A. (Negroes/Blacks/African-Americans) shouldn't push themselves where they're not wanted.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` strongly object
-#'   * `2` mildly object
-#'   * `3` not object
+#'   * `1` agree strongly
+#'   * `2` agree slightly
+#'   * `3` disagree slightly
+#'   * `4` disagree strongly
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -595,22 +828,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name racdin
-NULL
-
-#'  Blacks shouldn't push
-#' 
-#'  racpush
-#' 
-#' Question 127. Here are some opinions other people have expressed in connection with (negro/black)-white relations. Do you agree or disagree with each statement: a. (Negroes/blacks/African-Americans) shouldn't push themselves where they're not wanted.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/385/vshow).
 #'
 #' Counts by year: 
 #'
@@ -653,107 +872,32 @@ NULL
 #'  |2024  |-              |-              |-                 |-                 |-          |-     |-         |3309                       |3309  |
 #'  |Total |5418           |5580           |4018              |4429              |733        |48579 |89        |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` agree strongly
-#'   * `2` agree slightly
-#'   * `3` disagree slightly
-#'   * `4` disagree strongly
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-     |full         |
+#'  |1973 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1994 |A/C     |partial      |
+#'  |1996 |A/C     |partial      |
+#'  |1998 |A/C     |partial      |
+#'  |2000 |A/C     |partial      |
+#'  |2002 |A/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
 #' 
 #' @keywords variable
 #' @md
 #' @name racpush
 NULL
 
-#'  Whites have right to seg. neighborhood
-#' 
-#'  racseg
-#' 
-#' Question 127. Here are some opinions other people have expressed in connection with (negro/black)-white relations. Do you agree or disagree with each statement: b. White people have a right to keep (negroes/blacks/African-Americans) out of their neighborhoods if they want to, and (negroes/blacks/African-Americans) should respect that right.
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |agree slightly |agree strongly |disagree slightly |disagree strongly |don't know |iap   |no answer |not available in this year |Total |
-#'  |:-----|:--------------|:--------------|:-----------------|:-----------------|:----------|:-----|:---------|:--------------------------|:-----|
-#'  |1972  |224            |279            |307               |443               |96         |261   |3         |-                          |1613  |
-#'  |1973  |-              |-              |-                 |-                 |-          |1504  |-         |-                          |1504  |
-#'  |1974  |-              |-              |-                 |-                 |-          |1484  |-         |-                          |1484  |
-#'  |1975  |-              |-              |-                 |-                 |-          |1490  |-         |-                          |1490  |
-#'  |1976  |237            |288            |346               |466               |26         |129   |7         |-                          |1499  |
-#'  |1977  |266            |289            |381               |373               |40         |176   |5         |-                          |1530  |
-#'  |1978  |-              |-              |-                 |-                 |-          |1532  |-         |-                          |1532  |
-#'  |1980  |220            |221            |397               |576               |50         |-     |4         |-                          |1468  |
-#'  |1982  |222            |220            |452               |923               |39         |-     |4         |-                          |1860  |
-#'  |1983  |-              |-              |-                 |-                 |-          |1599  |-         |-                          |1599  |
-#'  |1984  |211            |151            |368               |705               |31         |-     |7         |-                          |1473  |
-#'  |1985  |224            |151            |432               |680               |38         |-     |9         |-                          |1534  |
-#'  |1986  |-              |-              |-                 |-                 |-          |1470  |-         |-                          |1470  |
-#'  |1987  |217            |149            |401               |1009              |38         |-     |5         |-                          |1819  |
-#'  |1988  |138            |72             |230               |510               |26         |504   |1         |-                          |1481  |
-#'  |1989  |136            |78             |234               |553               |28         |504   |4         |-                          |1537  |
-#'  |1990  |124            |74             |218               |471               |27         |455   |3         |-                          |1372  |
-#'  |1991  |105            |66             |221               |574               |21         |524   |6         |-                          |1517  |
-#'  |1993  |109            |42             |218               |681               |23         |531   |2         |-                          |1606  |
-#'  |1994  |197            |102            |472               |1176              |44         |996   |5         |-                          |2992  |
-#'  |1996  |59             |50             |177               |636               |27         |1953  |2         |-                          |2904  |
-#'  |1998  |-              |-              |-                 |-                 |-          |2832  |-         |-                          |2832  |
-#'  |2000  |-              |-              |-                 |-                 |-          |2817  |-         |-                          |2817  |
-#'  |2002  |-              |-              |-                 |-                 |-          |2765  |-         |-                          |2765  |
-#'  |2004  |-              |-              |-                 |-                 |-          |2812  |-         |-                          |2812  |
-#'  |2006  |-              |-              |-                 |-                 |-          |4510  |-         |-                          |4510  |
-#'  |2008  |-              |-              |-                 |-                 |-          |2023  |-         |-                          |2023  |
-#'  |2010  |-              |-              |-                 |-                 |-          |2044  |-         |-                          |2044  |
-#'  |2012  |-              |-              |-                 |-                 |-          |1974  |-         |-                          |1974  |
-#'  |2014  |-              |-              |-                 |-                 |-          |2538  |-         |-                          |2538  |
-#'  |2016  |-              |-              |-                 |-                 |-          |2867  |-         |-                          |2867  |
-#'  |2018  |-              |-              |-                 |-                 |-          |2348  |-         |-                          |2348  |
-#'  |2021  |-              |-              |-                 |-                 |-          |4032  |-         |-                          |4032  |
-#'  |2022  |-              |-              |-                 |-                 |-          |-     |-         |3544                       |3544  |
-#'  |2024  |-              |-              |-                 |-                 |-          |-     |-         |3309                       |3309  |
-#'  |Total |2689           |2232           |4854              |9776              |554        |48674 |67        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` agree strongly
-#'   * `2` agree slightly
-#'   * `3` disagree slightly
-#'   * `4` disagree strongly
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name racseg
-NULL
 

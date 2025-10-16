@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 othplan
 }
 \details{
-Question Is there any other name for the (insname) policy, such as Option A, $100 Deductible Plan, 90/80 Plan, Gold Plan, or High Option Plan?
+Question Other name for insurance or HMO policy?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes, another name
+\item \code{2} no other name
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3905/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab no answer \tab no other name \tab yes, another name \tab not available in this year \tab Total \cr
@@ -57,24 +77,32 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes, another name
-\item \code{2} no other name
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2008 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Global Economics: 
+\code{\link{agecmeus}},
+\code{\link{bornsp}},
+\code{\link{emphlth}},
+\code{\link{emphplan}},
+\code{\link{natdeg}},
+\code{\link{typevisa}},
+\code{\link{visa}}
+
+Other Health: 
+\code{\link{emphlth}},
+\code{\link{emphplan}}
+
+Other Job: 
+\code{\link{emphlth}},
+\code{\link{emphplan}}
+}
+\concept{Global Economics}
+\concept{Health}
+\concept{Job}
 \keyword{variable}

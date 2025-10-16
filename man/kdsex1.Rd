@@ -10,11 +10,39 @@ General Social Survey https://gss.norc.org
 kdsex1
 }
 \details{
-Question 503. Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. b. Is (CHILD) male or female?
+Question Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. (RECORD THIS INFORMATION FOR UP TO THE NINE OLDEST CHILDREN IN TABLE TO RIGHT.)
+A. What is (this/your next) child's first name?
+B. Is (CHILD'S NAME) male or female?
+C. In what year was (CHILD'S NAME) born?
+D. Is (CHILD'S NAME) your biological child (B), adopted child (A), or step child (S)?
+E. Is (CHILD'S NAME) alive?
+F. (IF BORN BEFORE 1976) What is the highest grade or year of regular school that (CHILD'S NAME) ever completed?  CODE EXACT GRADE.
+G. Do you have any other children?
+B1. Sex of first child.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} male
+\item \code{2} female
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1492/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllll}{
    year \tab iap \tab female \tab male \tab no answer \tab not available in this year \tab Total \cr
@@ -57,24 +85,55 @@ Counts by year:\tabular{lllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} male
-\item \code{2} female
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Family Mobility: 
+\code{\link{kdsex2}},
+\code{\link{kdsex3}},
+\code{\link{kdsex4}},
+\code{\link{kdsex5}},
+\code{\link{kdsex6}},
+\code{\link{kdsex7}},
+\code{\link{kdsex8}},
+\code{\link{sphedpre105plus}},
+\code{\link{spsibs}}
+
+Other Children: 
+\code{\link{kdsex2}},
+\code{\link{kdsex3}},
+\code{\link{kdsex4}},
+\code{\link{kdsex5}},
+\code{\link{kdsex6}},
+\code{\link{kdsex7}},
+\code{\link{kdsex8}}
+
+Other Household: 
+\code{\link{kdsex2}},
+\code{\link{kdsex3}},
+\code{\link{kdsex4}},
+\code{\link{kdsex5}},
+\code{\link{kdsex6}},
+\code{\link{kdsex7}},
+\code{\link{kdsex8}}
+
+Other Sex: 
+\code{\link{kdsex2}},
+\code{\link{kdsex3}},
+\code{\link{kdsex4}},
+\code{\link{kdsex5}},
+\code{\link{kdsex6}},
+\code{\link{kdsex7}},
+\code{\link{kdsex8}}
+}
+\concept{Children}
+\concept{Family}
+\concept{Family Mobility}
+\concept{Household}
+\concept{Sex}
 \keyword{variable}

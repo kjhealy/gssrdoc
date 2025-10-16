@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 hell
 }
 \details{
-Question 1382. Do you believe in. . . d. Hell
+Question Do you believe in. . .
+D. Hell
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes, definitely
+\item \code{2} yes, probably
+\item \code{3} no, probably not
+\item \code{4} no, definitely not
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4654/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab don't know \tab no answer \tab no, definitely not \tab no, probably not \tab yes, definitely \tab yes, probably \tab not available in this year \tab Total \cr
@@ -57,26 +80,39 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes, definitely
-\item \code{2} yes, probably
-\item \code{3} no, probably not
-\item \code{4} no, definitely not
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1991 \tab A/B/C \tab full \cr
+   1998 \tab A/B/C \tab full \cr
+   2008 \tab B/C/- \tab partial \cr
+   2018 \tab A/B/- \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Religion: 
+\code{\link{bible1}},
+\code{\link{devil}},
+\code{\link{fatalism}},
+\code{\link{godmeans}},
+\code{\link{heaven}},
+\code{\link{miracles}},
+\code{\link{nihilism}},
+\code{\link{predeter}},
+\code{\link{theism}}
+
+Other Religion: 
+\code{\link{bible1}},
+\code{\link{devil}},
+\code{\link{fatalism}},
+\code{\link{godmeans}},
+\code{\link{heaven}},
+\code{\link{miracles}},
+\code{\link{nihilism}},
+\code{\link{predeter}},
+\code{\link{theism}}
+}
+\concept{ISSP Religion}
+\concept{Religion}
 \keyword{variable}

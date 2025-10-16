@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 engda
 }
 \details{
-Question Now I'd like you to consider the following situations. If you had a daughter, how would you feel if she wanted to be an engineer? Would you feel happy, unhappy, or would you not care one way or the other?
+Question A. If you had a daughter, how would you feel if she wanted to be an engineer—would you feel happy, unhappy, or would you not care one way or the other?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} happy
+\item \code{2} not care
+\item \code{3} unhappy
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3522/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab don't know \tab happy \tab no answer \tab not care \tab unhappy \tab not available in this year \tab Total \cr
@@ -57,25 +78,74 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} happy
-\item \code{2} not care
-\item \code{3} unhappy
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2012 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{engdgr}},
+\code{\link{engdo}},
+\code{\link{enggood}},
+\code{\link{englone}},
+\code{\link{engresp}},
+\code{\link{engson}},
+\code{\link{scientbr}},
+\code{\link{scientmo}},
+\code{\link{scientwk}}
+
+Other Employment: 
+\code{\link{engdgr}},
+\code{\link{engdo}},
+\code{\link{enggood}},
+\code{\link{englone}},
+\code{\link{engresp}},
+\code{\link{engson}},
+\code{\link{scientbr}},
+\code{\link{scientmo}},
+\code{\link{scientwk}}
+
+Other Family: 
+\code{\link{engson}}
+
+Other Job: 
+\code{\link{engdgr}},
+\code{\link{engdo}},
+\code{\link{enggood}},
+\code{\link{englone}},
+\code{\link{engresp}},
+\code{\link{engson}},
+\code{\link{scientbr}},
+\code{\link{scientmo}},
+\code{\link{scientwk}}
+
+Other Occupation: 
+\code{\link{engdgr}},
+\code{\link{engdo}},
+\code{\link{englone}},
+\code{\link{engresp}},
+\code{\link{engson}},
+\code{\link{scientbr}},
+\code{\link{scientmo}},
+\code{\link{scientwk}}
+
+Other Work: 
+\code{\link{engdgr}},
+\code{\link{engdo}},
+\code{\link{englone}},
+\code{\link{engresp}},
+\code{\link{engson}},
+\code{\link{scientbr}},
+\code{\link{scientmo}},
+\code{\link{scientwk}}
+}
+\concept{Employment}
+\concept{Family}
+\concept{Job}
+\concept{Occupation}
+\concept{Science Knowledge & Attitudes}
+\concept{Work}
 \keyword{variable}

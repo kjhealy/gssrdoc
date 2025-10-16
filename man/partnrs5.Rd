@@ -10,11 +10,40 @@ General Social Survey https://gss.norc.org
 partnrs5
 }
 \details{
-Question 1552. Now think about the past five years--the time since February/March (1999), and including the past 12 months, how many sex partners have you had in that five year period?
+Question Now think about the past five years--the time since February/March (1999), and including the past 12 months, how many sex partners have you had in that five year period?
 }
+\section{Values}{
+
+\itemize{
+\item \code{0} no partners
+\item \code{1} 1 partner
+\item \code{2} 2 partners
+\item \code{3} 3 partners
+\item \code{4} 4 partners
+\item \code{5} 5-10 partners
+\item \code{6} 11-20 partners
+\item \code{7} 21-100 partners
+\item \code{8} more than 100 partners
+\item \code{9} 1 or more (unspecified)
+\item \code{95} several
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5064/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllll}{
    year \tab iap \tab 1 or more (unspecified) \tab 1 partner \tab 11-20 partners \tab 2 partners \tab 21-100 partners \tab 3 partners \tab 4 partners \tab 5-10 partners \tab more than 100 partners \tab no answer \tab no partners \tab don't know \tab not available in this year \tab Total \cr
@@ -57,33 +86,42 @@ Counts by year:\tabular{llllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{0} no partners
-\item \code{1} 1 partner
-\item \code{2} 2 partners
-\item \code{3} 3 partners
-\item \code{4} 4 partners
-\item \code{5} 5-10 partners
-\item \code{6} 11-20 partners
-\item \code{7} 21-100 partners
-\item \code{8} more than 100 partners
-\item \code{9} 1 or more (unspecified)
-\item \code{95} several
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1991 \tab A/B/C \tab full \cr
+   1993 \tab A/B/C \tab full \cr
+   1994 \tab A/B/C \tab full \cr
+   1996 \tab A/B/C \tab full \cr
+   1998 \tab A/B/C \tab full \cr
+   2000 \tab A/B/C \tab full \cr
+   2002 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab B/C/- \tab partial \cr
+   2018 \tab B/C/- \tab partial \cr
+   2021 \tab B/C/- \tab partial \cr
+   2022 \tab B/C/- \tab partial \cr
 }
 }
 
+\seealso{
+Other High Risk Behaviorsex: 
+\code{\link{partopen}},
+\code{\link{partopn5}},
+\code{\link{sexfreq1}},
+\code{\link{sexfreq2}}
+
+Other Split Ballots: 
+\code{\link{partopen}},
+\code{\link{partopn5}},
+\code{\link{sexfreq1}},
+\code{\link{sexfreq2}}
+}
+\concept{High Risk Behaviorsex}
+\concept{Split Ballots}
 \keyword{variable}

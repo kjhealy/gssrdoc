@@ -10,11 +10,37 @@ General Social Survey https://gss.norc.org
 racethmn
 }
 \details{
-Question How would you describe your race and ethnicity using this 10-point system using the following choices: G. Specified other ethnicities
+Question In describing our background, we often ask someone which racial or ethnic groups best describes them. Imagine if we used instead a 10 point system where points are allocated to whichever racial or ethnic groups the respondent thinks accurately describes themselves. For example, if you think of yourself as just Latino, you would allocate all 10 points to Latino. Or if you think of yourself as mixed race, but more African American than white, you might allocate 6 or 7 points to black and 3 or 4 points to white. Thinking of your background in racial and ethnic terms ... How would you describe your race and ethnicity using this 10-point system using the following choices: G. Specified other ethnicities
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} european
+\item \code{2} hispanic
+\item \code{3} african
+\item \code{4} east asian
+\item \code{5} native american
+\item \code{6} south asian
+\item \code{7} asian, not south or east
+\item \code{8} other
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6649/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab african \tab asian, not south or east \tab don't know \tab east asian \tab european \tab hispanic \tab no answer \tab other \tab south asian \tab not available in this year \tab Total \cr
@@ -57,29 +83,10 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} european
-\item \code{2} hispanic
-\item \code{3} african
-\item \code{4} east asian
-\item \code{5} native american
-\item \code{6} south asian
-\item \code{7} asian, not south or east
-\item \code{8} other
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2016 \tab C \tab partial \cr
 }
 }
 

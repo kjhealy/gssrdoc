@@ -1,11 +1,121 @@
+#'  Image of god as king
+#' 
+#'  king
+#' 
+#' Question When you think about God, how likely are each of these images to come to your mind?  Would you say extremely likely, somewhat likely, not too likely, or not likely at all? (HAND CARD AD. READ EACH ITEM.) (CIRCLE ONE NUMBER FOR EACH WORD)
+#' J. King
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` extremely likely
+#'   * `2` somewhat likely
+#'   * `3` not too likely
+#'   * `4` not likely at all
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/331/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |extremely likely |no answer |not likely at all |not too likely |somewhat likely |not available in this year |Total |
+#'  |:-----|:-----|:----------|:----------------|:---------|:-----------------|:--------------|:---------------|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-                |-         |-                 |-              |-               |-                          |1613  |
+#'  |1973  |1504  |-          |-                |-         |-                 |-              |-               |-                          |1504  |
+#'  |1974  |1484  |-          |-                |-         |-                 |-              |-               |-                          |1484  |
+#'  |1975  |1490  |-          |-                |-         |-                 |-              |-               |-                          |1490  |
+#'  |1976  |1499  |-          |-                |-         |-                 |-              |-               |-                          |1499  |
+#'  |1977  |1530  |-          |-                |-         |-                 |-              |-               |-                          |1530  |
+#'  |1978  |1532  |-          |-                |-         |-                 |-              |-               |-                          |1532  |
+#'  |1980  |1468  |-          |-                |-         |-                 |-              |-               |-                          |1468  |
+#'  |1982  |1860  |-          |-                |-         |-                 |-              |-               |-                          |1860  |
+#'  |1983  |-     |38         |792              |17        |206               |216            |330             |-                          |1599  |
+#'  |1984  |989   |5          |257              |11        |60                |62             |89              |-                          |1473  |
+#'  |1985  |1534  |-          |-                |-         |-                 |-              |-               |-                          |1534  |
+#'  |1986  |1470  |-          |-                |-         |-                 |-              |-               |-                          |1470  |
+#'  |1987  |1819  |-          |-                |-         |-                 |-              |-               |-                          |1819  |
+#'  |1988  |1481  |-          |-                |-         |-                 |-              |-               |-                          |1481  |
+#'  |1989  |1537  |-          |-                |-         |-                 |-              |-               |-                          |1537  |
+#'  |1990  |1372  |-          |-                |-         |-                 |-              |-               |-                          |1372  |
+#'  |1991  |1517  |-          |-                |-         |-                 |-              |-               |-                          |1517  |
+#'  |1993  |1606  |-          |-                |-         |-                 |-              |-               |-                          |1606  |
+#'  |1994  |2992  |-          |-                |-         |-                 |-              |-               |-                          |2992  |
+#'  |1996  |2904  |-          |-                |-         |-                 |-              |-               |-                          |2904  |
+#'  |1998  |2832  |-          |-                |-         |-                 |-              |-               |-                          |2832  |
+#'  |2000  |2817  |-          |-                |-         |-                 |-              |-               |-                          |2817  |
+#'  |2002  |2765  |-          |-                |-         |-                 |-              |-               |-                          |2765  |
+#'  |2004  |2812  |-          |-                |-         |-                 |-              |-               |-                          |2812  |
+#'  |2006  |4510  |-          |-                |-         |-                 |-              |-               |-                          |4510  |
+#'  |2008  |2023  |-          |-                |-         |-                 |-              |-               |-                          |2023  |
+#'  |2010  |2044  |-          |-                |-         |-                 |-              |-               |-                          |2044  |
+#'  |2012  |1974  |-          |-                |-         |-                 |-              |-               |-                          |1974  |
+#'  |2014  |2538  |-          |-                |-         |-                 |-              |-               |-                          |2538  |
+#'  |2016  |2867  |-          |-                |-         |-                 |-              |-               |-                          |2867  |
+#'  |2018  |2348  |-          |-                |-         |-                 |-              |-               |-                          |2348  |
+#'  |2021  |4032  |-          |-                |-         |-                 |-              |-               |-                          |4032  |
+#'  |2022  |-     |-          |-                |-         |-                 |-              |-               |3544                       |3544  |
+#'  |2024  |-     |-          |-                |-         |-                 |-              |-               |3309                       |3309  |
+#'  |Total |66763 |43         |1049             |28        |266               |278            |419             |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-       |full         |
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name king
+NULL
+
+
 #'  Image of god as liberator
 #' 
 #'  liberatr
 #' 
-#' Question 113. When you think about God, how likely are each of these images to come to your mind? k. Liberator
+#' Question When you think about God, how likely are each of these images to come to your mind?  Would you say extremely likely, somewhat likely, not too likely, or not likely at all? (HAND CARD AD. READ EACH ITEM.) (CIRCLE ONE NUMBER FOR EACH WORD)
+#' K. Liberator
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` extremely likely
+#'   * `2` somewhat likely
+#'   * `3` not too likely
+#'   * `4` not likely at all
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/332/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +158,32 @@
 #'  |2024  |-     |-          |-                |-         |-                 |-              |-               |3309                       |3309  |
 #'  |Total |66763 |78         |868              |30        |241               |282            |584             |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-       |full         |
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name liberatr
+NULL
+
+
+#'  Image of god as healer
+#' 
+#'  healer
+#' 
+#' Question When you think about God, how likely are each of these images to come to your mind?  Would you say extremely likely, somewhat likely, not too likely, or not likely at all? (HAND CARD AD. READ EACH ITEM.) (CIRCLE ONE NUMBER FOR EACH WORD)
+#' L. Healer
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` extremely likely
@@ -67,22 +203,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name liberatr
-NULL
-
-#'  Image of god as healer
-#' 
-#'  healer
-#' 
-#' Question 113. When you think about God, how likely are each of these images to come to your mind? l. Healer
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/333/vshow).
 #'
 #' Counts by year: 
 #'
@@ -125,12 +247,35 @@ NULL
 #'  |2024  |-     |-          |-                |-         |-                 |-              |-               |3309                       |3309  |
 #'  |Total |66763 |35         |1407             |28        |98                |92             |423             |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-       |full         |
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name healer
+NULL
+
+
+#'  Contrast between mother and father
+#' 
+#'  mapa
+#' 
+#' Question There are many different ways of picturing God. We'd like to know the kinds of images you are most likely to associate with God. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of God between the two contrasting images? (HAND CARD AE) The first set of contrasting images shows Mother at 1 on the scale and Father at 7. If you imagine God as a Mother you would place yourself at 1. If you imagine God as a Father, you would place yourself at 7. If you imagine God as somewhere between Mother and Father, you would place yourself at 2, 3, 4, 5, or 6. (REPEAT EXAMPLE AS NECESSARY FOR EACH ITEM A-F, SUBSTITUTING IMAGES A-F FOR "MOTHER" AND "FATHER".) Where would you place your image of God on the scale for . . . READ EACH SET OF IMAGES AND CIRCLE ONE CODE FOR EACH.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` extremely likely
-#'   * `2` somewhat likely
-#'   * `3` not too likely
-#'   * `4` not likely at all
+#'   * `1` mother
+#'   * `7` father
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -144,22 +289,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name healer
-NULL
-
-#'  Contrast between mother and father
-#' 
-#'  mapa
-#' 
-#' Question 114. There are many different ways of picturing God. We'd like to know the kinds of images you are most likely to associate with God. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of God between the two contrasting images? a. 1. Mother 7. Father
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/334/vshow).
 #'
 #' Counts by year: 
 #'
@@ -202,10 +333,46 @@ NULL
 #'  |2024  |-     |-   |-   |-    |-    |-    |-      |-      |-         |-          |3309                       |3309  |
 #'  |Total |51402 |230 |363 |4274 |1401 |1497 |8134   |553    |788       |204        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/-   |partial      |
+#'  |1990 |A/B/-   |partial      |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/-   |partial      |
+#'  |1994 |A/B/-   |partial      |
+#'  |1996 |A/B/-   |partial      |
+#'  |1998 |A/B/C   |full         |
+#'  |2008 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name mapa
+NULL
+
+
+#'  Contrast between master and spouse
+#' 
+#'  mastersp
+#' 
+#' Question There are many different ways of picturing God. We'd like to know the kinds of images you are most likely to associate with God. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of God between the two contrasting images? (HAND CARD AE) The first set of contrasting images shows Mother at 1 on the scale and Father at 7. If you imagine God as a Mother you would place yourself at 1. If you imagine God as a Father, you would place yourself at 7. If you imagine God as somewhere between Mother and Father, you would place yourself at 2, 3, 4, 5, or 6. (REPEAT EXAMPLE AS NECESSARY FOR EACH ITEM A-F, SUBSTITUTING IMAGES A-F FOR "MOTHER" AND "FATHER".) Where would you place your image of God on the scale for . . . READ EACH SET OF IMAGES AND CIRCLE ONE CODE FOR EACH.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` mother
-#'   * `7` father
+#'   * `1` master
+#'   * `7` spouse
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -219,22 +386,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name mapa
-NULL
-
-#'  Contrast between master and spouse
-#' 
-#'  mastersp
-#' 
-#' Question 114. There are many different ways of picturing God. We'd like to know the kinds of images you are most likely to associate with God. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of God between the two contrasting images? b. 1. Master 7. Spouse
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/335/vshow).
 #'
 #' Counts by year: 
 #'
@@ -277,10 +430,46 @@ NULL
 #'  |2024  |-     |-    |-    |-    |-   |-   |-          |-      |-         |-      |3309                       |3309  |
 #'  |Total |51402 |1773 |1381 |3480 |572 |375 |315        |7999   |912       |637    |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/-   |partial      |
+#'  |1990 |A/B/-   |partial      |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/-   |partial      |
+#'  |1994 |A/B/-   |partial      |
+#'  |1996 |A/B/-   |partial      |
+#'  |1998 |A/B/C   |full         |
+#'  |2008 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name mastersp
+NULL
+
+
+#'  Contrast between judge and lover
+#' 
+#'  judgeluv
+#' 
+#' Question There are many different ways of picturing God. We'd like to know the kinds of images you are most likely to associate with God. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of God between the two contrasting images? (HAND CARD AE) The first set of contrasting images shows Mother at 1 on the scale and Father at 7. If you imagine God as a Mother you would place yourself at 1. If you imagine God as a Father, you would place yourself at 7. If you imagine God as somewhere between Mother and Father, you would place yourself at 2, 3, 4, 5, or 6. (REPEAT EXAMPLE AS NECESSARY FOR EACH ITEM A-F, SUBSTITUTING IMAGES A-F FOR "MOTHER" AND "FATHER".) Where would you place your image of God on the scale for . . . READ EACH SET OF IMAGES AND CIRCLE ONE CODE FOR EACH.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` master
-#'   * `7` spouse
+#'   * `1` judge
+#'   * `7` lover
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -294,22 +483,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name mastersp
-NULL
-
-#'  Contrast between judge and lover
-#' 
-#'  judgeluv
-#' 
-#' Question 114. There are many different ways of picturing God. We'd like to know the kinds of images you are most likely to associate with God. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of God between the two contrasting images? c. 1. Judge 7. Lover
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/336/vshow).
 #'
 #' Counts by year: 
 #'
@@ -352,10 +527,46 @@ NULL
 #'  |2024  |-     |-    |-    |-    |-   |-   |-          |-     |-     |-         |3309                       |3309  |
 #'  |Total |51402 |1575 |1315 |4353 |699 |592 |287        |6321  |1400  |902       |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/-   |partial      |
+#'  |1990 |A/B/-   |partial      |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/-   |partial      |
+#'  |1994 |A/B/-   |partial      |
+#'  |1996 |A/B/-   |partial      |
+#'  |1998 |A/B/C   |full         |
+#'  |2008 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name judgeluv
+NULL
+
+
+#'  Contrast between friend and king
+#' 
+#'  frndking
+#' 
+#' Question There are many different ways of picturing God. We'd like to know the kinds of images you are most likely to associate with God. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of God between the two contrasting images? (HAND CARD AE) The first set of contrasting images shows Mother at 1 on the scale and Father at 7. If you imagine God as a Mother you would place yourself at 1. If you imagine God as a Father, you would place yourself at 7. If you imagine God as somewhere between Mother and Father, you would place yourself at 2, 3, 4, 5, or 6. (REPEAT EXAMPLE AS NECESSARY FOR EACH ITEM A-F, SUBSTITUTING IMAGES A-F FOR "MOTHER" AND "FATHER".) Where would you place your image of God on the scale for . . . READ EACH SET OF IMAGES AND CIRCLE ONE CODE FOR EACH.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` judge
-#'   * `7` lover
+#'   * `1` friend
+#'   * `7` king
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -369,22 +580,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name judgeluv
-NULL
-
-#'  Contrast between friend and king
-#' 
-#'  frndking
-#' 
-#' Question 114. There are many different ways of picturing God. We'd like to know the kinds of images you are most likely to associate with God. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of God between the two contrasting images? d. 1. Friend 7. King
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/337/vshow).
 #'
 #' Counts by year: 
 #'
@@ -427,10 +624,46 @@ NULL
 #'  |2024  |-     |-    |-   |-    |-   |-   |-      |-    |-         |-          |3309                       |3309  |
 #'  |Total |51402 |1111 |829 |4859 |879 |726 |4621   |3398 |812       |209        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/-   |partial      |
+#'  |1990 |A/B/-   |partial      |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/-   |partial      |
+#'  |1994 |A/B/-   |partial      |
+#'  |1996 |A/B/-   |partial      |
+#'  |1998 |A/B/C   |full         |
+#'  |2008 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name frndking
+NULL
+
+
+#'  Contrast between creator and healer
+#' 
+#'  crtrheal
+#' 
+#' Question There are many different ways of picturing God. We'd like to know the kinds of images you are most likely to associate with God. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of God between the two contrasting images? (HAND CARD AE) The first set of contrasting images shows Mother at 1 on the scale and Father at 7. If you imagine God as a Mother you would place yourself at 1. If you imagine God as a Father, you would place yourself at 7. If you imagine God as somewhere between Mother and Father, you would place yourself at 2, 3, 4, 5, or 6. (REPEAT EXAMPLE AS NECESSARY FOR EACH ITEM A-F, SUBSTITUTING IMAGES A-F FOR "MOTHER" AND "FATHER".) Where would you place your image of God on the scale for . . . READ EACH SET OF IMAGES AND CIRCLE ONE CODE FOR EACH.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` friend
-#'   * `7` king
+#'   * `1` creator
+#'   * `7` healer
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -444,22 +677,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name frndking
-NULL
-
-#'  Contrast between creator and healer
-#' 
-#'  crtrheal
-#' 
-#' Question 114. There are many different ways of picturing God. We'd like to know the kinds of images you are most likely to associate with God. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of God between the two contrasting images? e. 1. Creator 7. Healer
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/338/vshow).
 #'
 #' Counts by year: 
 #'
@@ -502,10 +721,36 @@ NULL
 #'  |2024  |-     |-   |-   |-    |-   |-   |-       |-      |-         |-          |3309                       |3309  |
 #'  |Total |64853 |191 |142 |1761 |106 |118 |1176    |330    |145       |24         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-       |full         |
+#'  |1985 |-       |full         |
+#'  |1986 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name crtrheal
+NULL
+
+
+#'  Contrast between redeemer and liberator
+#' 
+#'  rdeemlib
+#' 
+#' Question There are many different ways of picturing God. We'd like to know the kinds of images you are most likely to associate with God. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of God between the two contrasting images? (HAND CARD AE) The first set of contrasting images shows Mother at 1 on the scale and Father at 7. If you imagine God as a Mother you would place yourself at 1. If you imagine God as a Father, you would place yourself at 7. If you imagine God as somewhere between Mother and Father, you would place yourself at 2, 3, 4, 5, or 6. (REPEAT EXAMPLE AS NECESSARY FOR EACH ITEM A-F, SUBSTITUTING IMAGES A-F FOR "MOTHER" AND "FATHER".) Where would you place your image of God on the scale for . . . READ EACH SET OF IMAGES AND CIRCLE ONE CODE FOR EACH.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` creator
-#'   * `7` healer
+#'   * `1` redeemer
+#'   * `7` liberator
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -519,22 +764,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name crtrheal
-NULL
-
-#'  Contrast between redeemer and liberator
-#' 
-#'  rdeemlib
-#' 
-#' Question 114. There are many different ways of picturing God. We'd like to know the kinds of images you are most likely to associate with God. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of God between the two contrasting images? f. 1. Redeemer 7. Liberator
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/339/vshow).
 #'
 #' Counts by year: 
 #'
@@ -577,10 +808,39 @@ NULL
 #'  |2024  |-     |-   |-   |-    |-   |-  |-          |-         |-         |-        |3309                       |3309  |
 #'  |Total |64853 |288 |220 |1430 |113 |76 |39         |218       |164       |1445     |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-       |full         |
+#'  |1985 |-       |full         |
+#'  |1986 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name rdeemlib
+NULL
+
+
+#'  Pope is infallible on matter's of faith or morals
+#' 
+#'  popespks
+#' 
+#' Question We are interested in what American Catholics think about religious matters. please select the answer from this card that comes closest to your own personal opinion about the following statement: Under certain conditions, the pope is infallible when he speaks on matters of faith and morals.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` redeemer
-#'   * `7` liberator
+#'   * `1` certainly true
+#'   * `2` probably true
+#'   * `3` i am uncertain whether this is true or false
+#'   * `4` probably false
+#'   * `5` certainly false
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -594,22 +854,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name rdeemlib
-NULL
-
-#'  Pope is infallible on matter's of faith or morals
-#' 
-#'  popespks
-#' 
-#' Question 114g. We are interested in what American Catholics think about religious matters. Please select the answer from this card that comes closest to your own personal opinion about the following statement: under certain conditions, the pope is infallible when he speaks on matters of faith and morals.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/340/vshow).
 #'
 #' Counts by year: 
 #'
@@ -652,117 +898,28 @@ NULL
 #'  |2024  |-     |-               |-              |-          |-                                            |-              |-             |-         |-              |3309                       |3309  |
 #'  |Total |66761 |271             |1134           |83         |2025                                         |467            |1519          |121       |9              |3309                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` certainly true
-#'   * `2` probably true
-#'   * `3` i am uncertain whether this is true or false
-#'   * `4` probably false
-#'   * `5` certainly false
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
 #' @name popespks
 NULL
 
-#'  Religion in which raised
-#' 
-#'  relig16
-#' 
-#' Question 115. In what religion were you raised?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap  |catholic |jewish |no answer |none |other |protestant |don't know |buddhism |christian |hinduism |inter-nondenominational |muslim/islam |native american |orthodox-christian |other eastern religions |skipped on web |not available in this release |Total |
-#'  |:-----|:----|:--------|:------|:---------|:----|:-----|:----------|:----------|:--------|:---------|:--------|:-----------------------|:------------|:---------------|:------------------|:-----------------------|:--------------|:-----------------------------|:-----|
-#'  |1972  |1613 |-        |-      |-         |-    |-     |-          |-          |-        |-         |-        |-                       |-            |-               |-                  |-                       |-              |-                             |1613  |
-#'  |1973  |-    |419      |43     |4         |36   |21    |981        |-          |-        |-         |-        |-                       |-            |-               |-                  |-                       |-              |-                             |1504  |
-#'  |1974  |-    |402      |49     |2         |39   |8     |984        |-          |-        |-         |-        |-                       |-            |-               |-                  |-                       |-              |-                             |1484  |
-#'  |1975  |-    |378      |25     |-         |45   |10    |1032       |-          |-        |-         |-        |-                       |-            |-               |-                  |-                       |-              |-                             |1490  |
-#'  |1976  |-    |428      |33     |2         |47   |18    |971        |-          |-        |-         |-        |-                       |-            |-               |-                  |-                       |-              |-                             |1499  |
-#'  |1977  |-    |390      |37     |6         |39   |15    |1042       |1          |-        |-         |-        |-                       |-            |-               |-                  |-                       |-              |-                             |1530  |
-#'  |1978  |-    |418      |31     |7         |48   |11    |1017       |-          |-        |-         |-        |-                       |-            |-               |-                  |-                       |-              |-                             |1532  |
-#'  |1980  |-    |389      |32     |2         |45   |17    |983        |-          |-        |-         |-        |-                       |-            |-               |-                  |-                       |-              |-                             |1468  |
-#'  |1982  |-    |441      |44     |9         |48   |23    |1295       |-          |-        |-         |-        |-                       |-            |-               |-                  |-                       |-              |-                             |1860  |
-#'  |1983  |-    |481      |50     |9         |52   |11    |996        |-          |-        |-         |-        |-                       |-            |-               |-                  |-                       |-              |-                             |1599  |
-#'  |1984  |-    |399      |30     |21        |43   |25    |955        |-          |-        |-         |-        |-                       |-            |-               |-                  |-                       |-              |-                             |1473  |
-#'  |1985  |-    |444      |32     |5         |63   |12    |978        |-          |-        |-         |-        |-                       |-            |-               |-                  |-                       |-              |-                             |1534  |
-#'  |1986  |-    |411      |33     |2         |45   |26    |953        |-          |-        |-         |-        |-                       |-            |-               |-                  |-                       |-              |-                             |1470  |
-#'  |1987  |-    |407      |22     |29        |48   |23    |1290       |-          |-        |-         |-        |-                       |-            |-               |-                  |-                       |-              |-                             |1819  |
-#'  |1988  |-    |414      |31     |-         |53   |31    |952        |-          |-        |-         |-        |-                       |-            |-               |-                  |-                       |-              |-                             |1481  |
-#'  |1989  |-    |444      |28     |4         |61   |34    |966        |-          |-        |-         |-        |-                       |-            |-               |-                  |-                       |-              |-                             |1537  |
-#'  |1990  |-    |361      |27     |8         |72   |27    |877        |-          |-        |-         |-        |-                       |-            |-               |-                  |-                       |-              |-                             |1372  |
-#'  |1991  |-    |434      |34     |3         |58   |22    |966        |-          |-        |-         |-        |-                       |-            |-               |-                  |-                       |-              |-                             |1517  |
-#'  |1993  |-    |422      |35     |10        |71   |29    |1039       |-          |-        |-         |-        |-                       |-            |-               |-                  |-                       |-              |-                             |1606  |
-#'  |1994  |-    |882      |55     |7         |127  |74    |1846       |1          |-        |-         |-        |-                       |-            |-               |-                  |-                       |-              |-                             |2992  |
-#'  |1996  |-    |837      |68     |5         |169  |91    |1734       |-          |-        |-         |-        |-                       |-            |-               |-                  |-                       |-              |-                             |2904  |
-#'  |1998  |-    |857      |53     |27        |175  |13    |1637       |3          |6        |21        |5        |2                       |15           |5               |10                 |3                       |-              |-                             |2832  |
-#'  |2000  |-    |844      |64     |14        |192  |18    |1610       |-          |15       |21        |7        |4                       |7            |6               |13                 |2                       |-              |-                             |2817  |
-#'  |2002  |-    |821      |56     |15        |195  |8     |1553       |6          |13       |38        |5        |13                      |14           |1               |26                 |1                       |-              |-                             |2765  |
-#'  |2004  |-    |829      |60     |6         |226  |8     |1568       |5          |17       |40        |9        |7                       |19           |1               |15                 |2                       |-              |-                             |2812  |
-#'  |2006  |1518 |960      |56     |1         |249  |5     |1620       |-          |21       |26        |16       |-                       |23           |2               |9                  |4                       |-              |-                             |4510  |
-#'  |2008  |-    |635      |39     |10        |168  |4     |1095       |8          |5        |27        |12       |1                       |9            |-               |10                 |-                       |-              |-                             |2023  |
-#'  |2010  |-    |647      |33     |8         |150  |11    |1066       |3          |15       |82        |3        |4                       |12           |-               |10                 |-                       |-              |-                             |2044  |
-#'  |2012  |-    |653      |28     |4         |162  |9     |1015       |8          |3        |50        |15       |-                       |13           |4               |10                 |-                       |-              |-                             |1974  |
-#'  |2014  |-    |872      |41     |12        |206  |11    |1273       |4          |10       |68        |17       |-                       |12           |1               |11                 |-                       |-              |-                             |2538  |
-#'  |2016  |-    |923      |55     |10        |248  |23    |1511       |10         |12       |30        |13       |-                       |20           |2               |10                 |-                       |-              |-                             |2867  |
-#'  |2018  |-    |732      |42     |7         |241  |10    |1237       |9          |11       |14        |12       |-                       |17           |2               |14                 |-                       |-              |-                             |2348  |
-#'  |2021  |40   |1290     |87     |3         |499  |59    |1860       |29         |32       |60        |30       |6                       |1            |2               |-                  |2                       |32             |-                             |4032  |
-#'  |2022  |2    |1159     |55     |18        |404  |27    |1685       |20         |17       |52        |30       |1                       |30           |-               |22                 |2                       |20             |-                             |3544  |
-#'  |2024  |-    |-        |-      |-         |-    |-     |-          |-          |-        |-         |-        |-                       |-            |-               |-                  |-                       |-              |3309                          |3309  |
-#'  |Total |3173 |20423    |1408   |270       |4324 |734   |40587      |107        |177      |529       |174      |38                      |192          |26              |160                |16                      |52             |3309                          |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` protestant
-#'   * `2` catholic
-#'   * `3` jewish
-#'   * `4` none
-#'   * `5` other
-#'   * `6` buddhism
-#'   * `7` hinduism
-#'   * `8` other eastern religions
-#'   * `9` muslim/islam
-#'   * `10` orthodox-christian
-#'   * `11` christian
-#'   * `12` native american
-#'   * `13` inter-nondenominational
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name relig16
-NULL
 

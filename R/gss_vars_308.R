@@ -1,11 +1,216 @@
+#'  Opportunity to develop my abilities
+#' 
+#'  opdevel
+#' 
+#' Question Now I''m going to read you another list of statements about your main job. For each, please tell me if the statement is very true, somewhat true, not too true, or not at all true with respect to the work you do. 
+#' B. I have an opportunity to develop my own special abilities
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` very true
+#'   * `2` somewhat true
+#'   * `3` not too true
+#'   * `4` not at all true
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2797/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no answer |not at all true |not too true |somewhat true |very true |skipped on web |not available in this year |Total |
+#'  |:-----|:-----|:----------|:---------|:---------------|:------------|:-------------|:---------|:--------------|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-         |-               |-            |-             |-         |-              |-                          |1613  |
+#'  |1973  |1504  |-          |-         |-               |-            |-             |-         |-              |-                          |1504  |
+#'  |1974  |1484  |-          |-         |-               |-            |-             |-         |-              |-                          |1484  |
+#'  |1975  |1490  |-          |-         |-               |-            |-             |-         |-              |-                          |1490  |
+#'  |1976  |1499  |-          |-         |-               |-            |-             |-         |-              |-                          |1499  |
+#'  |1977  |1530  |-          |-         |-               |-            |-             |-         |-              |-                          |1530  |
+#'  |1978  |1532  |-          |-         |-               |-            |-             |-         |-              |-                          |1532  |
+#'  |1980  |1468  |-          |-         |-               |-            |-             |-         |-              |-                          |1468  |
+#'  |1982  |1860  |-          |-         |-               |-            |-             |-         |-              |-                          |1860  |
+#'  |1983  |1599  |-          |-         |-               |-            |-             |-         |-              |-                          |1599  |
+#'  |1984  |1473  |-          |-         |-               |-            |-             |-         |-              |-                          |1473  |
+#'  |1985  |1534  |-          |-         |-               |-            |-             |-         |-              |-                          |1534  |
+#'  |1986  |1470  |-          |-         |-               |-            |-             |-         |-              |-                          |1470  |
+#'  |1987  |1819  |-          |-         |-               |-            |-             |-         |-              |-                          |1819  |
+#'  |1988  |1481  |-          |-         |-               |-            |-             |-         |-              |-                          |1481  |
+#'  |1989  |1537  |-          |-         |-               |-            |-             |-         |-              |-                          |1537  |
+#'  |1990  |1372  |-          |-         |-               |-            |-             |-         |-              |-                          |1372  |
+#'  |1991  |1517  |-          |-         |-               |-            |-             |-         |-              |-                          |1517  |
+#'  |1993  |1606  |-          |-         |-               |-            |-             |-         |-              |-                          |1606  |
+#'  |1994  |2992  |-          |-         |-               |-            |-             |-         |-              |-                          |2992  |
+#'  |1996  |2904  |-          |-         |-               |-            |-             |-         |-              |-                          |2904  |
+#'  |1998  |2832  |-          |-         |-               |-            |-             |-         |-              |-                          |2832  |
+#'  |2000  |2817  |-          |-         |-               |-            |-             |-         |-              |-                          |2817  |
+#'  |2002  |969   |11         |15        |121             |220          |686           |743       |-              |-                          |2765  |
+#'  |2004  |2812  |-          |-         |-               |-            |-             |-         |-              |-                          |2812  |
+#'  |2006  |2776  |19         |19        |120             |226          |689           |661       |-              |-                          |4510  |
+#'  |2008  |2023  |-          |-         |-               |-            |-             |-         |-              |-                          |2023  |
+#'  |2010  |857   |7          |25        |75              |142          |475           |463       |-              |-                          |2044  |
+#'  |2012  |1974  |-          |-         |-               |-            |-             |-         |-              |-                          |1974  |
+#'  |2014  |1288  |2          |7         |66              |180          |516           |479       |-              |-                          |2538  |
+#'  |2016  |2867  |-          |-         |-               |-            |-             |-         |-              |-                          |2867  |
+#'  |2018  |900   |8          |31        |69              |194          |625           |521       |-              |-                          |2348  |
+#'  |2021  |4032  |-          |-         |-               |-            |-             |-         |-              |-                          |4032  |
+#'  |2022  |1552  |15         |15        |134             |257          |827           |723       |21             |-                          |3544  |
+#'  |2024  |-     |-          |-         |-               |-            |-             |-         |-              |3309                       |3309  |
+#'  |Total |62983 |62         |112       |585             |1219         |3818          |3590      |21             |3309                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Quality of Working Life
+#' @family Job
+#' 
+#' @keywords variable
+#' @md
+#' @name opdevel
+NULL
+
+
+#'  Enough help and equip to ge the job done
+#' 
+#'  hlpequip
+#' 
+#' Question Now I''m going to read you another list of statements about your main job. For each, please tell me if the statement is very true, somewhat true, not too true, or not at all true with respect to the work you do. 
+#' C. I receive enough help and equipment to get the job done 
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` very true
+#'   * `2` somewhat true
+#'   * `3` not too true
+#'   * `4` not at all true
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2798/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no answer |not at all true |not too true |somewhat true |very true |skipped on web |not available in this year |Total |
+#'  |:-----|:-----|:----------|:---------|:---------------|:------------|:-------------|:---------|:--------------|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-         |-               |-            |-             |-         |-              |-                          |1613  |
+#'  |1973  |1504  |-          |-         |-               |-            |-             |-         |-              |-                          |1504  |
+#'  |1974  |1484  |-          |-         |-               |-            |-             |-         |-              |-                          |1484  |
+#'  |1975  |1490  |-          |-         |-               |-            |-             |-         |-              |-                          |1490  |
+#'  |1976  |1499  |-          |-         |-               |-            |-             |-         |-              |-                          |1499  |
+#'  |1977  |1530  |-          |-         |-               |-            |-             |-         |-              |-                          |1530  |
+#'  |1978  |1532  |-          |-         |-               |-            |-             |-         |-              |-                          |1532  |
+#'  |1980  |1468  |-          |-         |-               |-            |-             |-         |-              |-                          |1468  |
+#'  |1982  |1860  |-          |-         |-               |-            |-             |-         |-              |-                          |1860  |
+#'  |1983  |1599  |-          |-         |-               |-            |-             |-         |-              |-                          |1599  |
+#'  |1984  |1473  |-          |-         |-               |-            |-             |-         |-              |-                          |1473  |
+#'  |1985  |1534  |-          |-         |-               |-            |-             |-         |-              |-                          |1534  |
+#'  |1986  |1470  |-          |-         |-               |-            |-             |-         |-              |-                          |1470  |
+#'  |1987  |1819  |-          |-         |-               |-            |-             |-         |-              |-                          |1819  |
+#'  |1988  |1481  |-          |-         |-               |-            |-             |-         |-              |-                          |1481  |
+#'  |1989  |1537  |-          |-         |-               |-            |-             |-         |-              |-                          |1537  |
+#'  |1990  |1372  |-          |-         |-               |-            |-             |-         |-              |-                          |1372  |
+#'  |1991  |1517  |-          |-         |-               |-            |-             |-         |-              |-                          |1517  |
+#'  |1993  |1606  |-          |-         |-               |-            |-             |-         |-              |-                          |1606  |
+#'  |1994  |2992  |-          |-         |-               |-            |-             |-         |-              |-                          |2992  |
+#'  |1996  |2904  |-          |-         |-               |-            |-             |-         |-              |-                          |2904  |
+#'  |1998  |2832  |-          |-         |-               |-            |-             |-         |-              |-                          |2832  |
+#'  |2000  |2817  |-          |-         |-               |-            |-             |-         |-              |-                          |2817  |
+#'  |2002  |969   |9          |14        |68              |171          |677           |857       |-              |-                          |2765  |
+#'  |2004  |2812  |-          |-         |-               |-            |-             |-         |-              |-                          |2812  |
+#'  |2006  |2776  |18         |17        |77              |184          |679           |759       |-              |-                          |4510  |
+#'  |2008  |2023  |-          |-         |-               |-            |-             |-         |-              |-                          |2023  |
+#'  |2010  |857   |2          |25        |52              |106          |466           |536       |-              |-                          |2044  |
+#'  |2012  |1974  |-          |-         |-               |-            |-             |-         |-              |-                          |1974  |
+#'  |2014  |1288  |3          |7         |42              |98           |511           |589       |-              |-                          |2538  |
+#'  |2016  |2867  |-          |-         |-               |-            |-             |-         |-              |-                          |2867  |
+#'  |2018  |900   |4          |31        |39              |128          |567           |679       |-              |-                          |2348  |
+#'  |2021  |4032  |-          |-         |-               |-            |-             |-         |-              |-                          |4032  |
+#'  |2022  |1552  |10         |12        |76              |203          |821           |848       |22             |-                          |3544  |
+#'  |2024  |-     |-          |-         |-               |-            |-             |-         |-              |3309                       |3309  |
+#'  |Total |62983 |46         |106       |354             |890          |3721          |4268      |22             |3309                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Quality of Working Life
+#' @family Job
+#' 
+#' @keywords variable
+#' @md
+#' @name hlpequip
+NULL
+
+
 #'  Enough info to get the job done
 #' 
 #'  haveinfo
 #' 
-#' Question 889. Now I'm going to read you another list of statements about your main job. For each, please tell me if the statement is very true, somewhat true, not too true, or not at all true with respect to the work you do. d. I have enough information to get the job done.
+#' Question Now I''m going to read you another list of statements about your main job. For each, please tell me if the statement is very true, somewhat true, not too true, or not at all true with respect to the work you do. 
+#' D. I have enough information to get the job done
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` very true
+#'   * `2` somewhat true
+#'   * `3` not too true
+#'   * `4` not at all true
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2799/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +253,35 @@
 #'  |2024  |-     |-          |-         |-               |-            |-             |-         |-              |3309                       |3309  |
 #'  |Total |62984 |37         |103       |132             |397          |3495          |5220      |22             |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Quality of Working Life
+#' @family Job
+#' 
+#' @keywords variable
+#' @md
+#' @name haveinfo
+NULL
+
+
+#'  A lot of freedom to decide how to do job
+#' 
+#'  wkfreedm
+#' 
+#' Question Now I''m going to read you another list of statements about your main job. For each, please tell me if the statement is very true, somewhat true, not too true, or not at all true with respect to the work you do. 
+#' E. I am given a lot of freedom to decide how to do my own work
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` very true
@@ -67,22 +301,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name haveinfo
-NULL
-
-#'  A lot of freedom to decide how to do job
-#' 
-#'  wkfreedm
-#' 
-#' Question 889. Now I'm going to read you another list of statements about your main job. For each, please tell me if the statement is very true, somewhat true, not too true, or not at all true with respect to the work you do. e. I am given a lot of freedom to decide how to do my own work
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2800/vshow).
 #'
 #' Counts by year: 
 #'
@@ -125,6 +345,35 @@ NULL
 #'  |2024  |-     |-          |-         |-               |-            |-             |-         |-              |3309                       |3309  |
 #'  |Total |62984 |37         |108       |358             |834          |2957          |5089      |23             |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Quality of Working Life
+#' @family Job
+#' 
+#' @keywords variable
+#' @md
+#' @name wkfreedm
+NULL
+
+
+#'  Fringe benefits are good
+#' 
+#'  fringeok
+#' 
+#' Question Now I''m going to read you another list of statements about your main job. For each, please tell me if the statement is very true, somewhat true, not too true, or not at all true with respect to the work you do. 
+#' F. My fringe benefits are good
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` very true
@@ -144,22 +393,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wkfreedm
-NULL
-
-#'  Fringe benefits are good
-#' 
-#'  fringeok
-#' 
-#' Question 889. Now I'm going to read you another list of statements about your main job. For each, please tell me if the statement is very true, somewhat true, not too true, or not at all true with respect to the work you do. f. My fringe benefits are good
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2801/vshow).
 #'
 #' Counts by year: 
 #'
@@ -202,6 +437,35 @@ NULL
 #'  |2024  |-     |-          |-         |-               |-            |-             |-         |-              |3309                       |3309  |
 #'  |Total |62984 |126        |121       |1399            |1147         |3189          |3398      |26             |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Quality of Working Life
+#' @family Job
+#' 
+#' @keywords variable
+#' @md
+#' @name fringeok
+NULL
+
+
+#'  Supervisor concerned about welfare
+#' 
+#'  supcares
+#' 
+#' Question Now I''m going to read you another list of statements about your main job. For each, please tell me if the statement is very true, somewhat true, not too true, or not at all true with respect to the work you do. 
+#' G. My supervisor is concerned with the welfare of those under him or her
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` very true
@@ -221,22 +485,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name fringeok
-NULL
-
-#'  Supervisor concerned about welfare
-#' 
-#'  supcares
-#' 
-#' Question 889. Now I'm going to read you another list of statements about your main job. For each, please tell me if the statement is very true, somewhat true, not too true, or not at all true with respect to the work you do.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2802/vshow).
 #'
 #' Counts by year: 
 #'
@@ -279,6 +529,37 @@ NULL
 #'  |2024  |-     |-          |-         |-               |-            |-             |-         |-              |3309                       |3309  |
 #'  |Total |61807 |278        |216       |714             |936          |3371          |5042      |26             |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Quality of Working Life
+#' @family Workplace Conflict
+#' @family Job
+#' 
+#' @keywords variable
+#' @md
+#' @name supcares
+NULL
+
+
+#'  R free from conflicting demands
+#' 
+#'  condemnd
+#' 
+#' Question Now I''m going to read you another list of statements about your main job. For each, please tell me if the statement is very true, somewhat true, not too true, or not at all true with respect to the work you do. 
+#' H. I am free from the conflicting demands that other people make of me
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` very true
@@ -298,22 +579,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name supcares
-NULL
-
-#'  R free from conflicting demands
-#' 
-#'  condemnd
-#' 
-#' Question 889. Now I'm going to read you another list of statements about your main job. For each, please tell me if the statement is very true, somewhat true, not too true, or not at all true with respect to the work you do. h. I am free from the conflicting demands that other people make of me
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2803/vshow).
 #'
 #' Counts by year: 
 #'
@@ -356,6 +623,35 @@ NULL
 #'  |2024  |-     |-          |-         |-               |-            |-             |-         |-              |3309                       |3309  |
 #'  |Total |62986 |215        |129       |725             |1770         |4083          |2448      |34             |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Quality of Working Life
+#' @family Job
+#' 
+#' @keywords variable
+#' @md
+#' @name condemnd
+NULL
+
+
+#'  Promotions are handled fairly
+#' 
+#'  promtefr
+#' 
+#' Question Now I''m going to read you another list of statements about your main job. For each, please tell me if the statement is very true, somewhat true, not too true, or not at all true with respect to the work you do. 
+#' I. Promotions are handled fairly
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` very true
@@ -375,22 +671,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name condemnd
-NULL
-
-#'  Promotions are handled fairly
-#' 
-#'  promtefr
-#' 
-#' Question 889. Now I'm going to read you another list of statements about your main job. For each, please tell me if the statement is very true, somewhat true, not too true, or not at all true with respect to the work you do. i. Promotions are handled fairly
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2804/vshow).
 #'
 #' Counts by year: 
 #'
@@ -433,6 +715,35 @@ NULL
 #'  |2024  |-     |-          |-         |-               |-            |-             |-         |-              |3309                       |3309  |
 #'  |Total |62986 |589        |180       |1061            |1348         |3497          |2691      |38             |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Quality of Working Life
+#' @family Job
+#' 
+#' @keywords variable
+#' @md
+#' @name promtefr
+NULL
+
+
+#'  Coworkers take a personal interest in r
+#' 
+#'  cowrkint
+#' 
+#' Question Now I''m going to read you another list of statements about your main job. For each, please tell me if the statement is very true, somewhat true, not too true, or not at all true with respect to the work you do. 
+#' J. The people I work with take a personal interest in me
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` very true
@@ -452,22 +763,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name promtefr
-NULL
-
-#'  Coworkers take a personal interest in r
-#' 
-#'  cowrkint
-#' 
-#' Question 889. Now I'm going to read you another list of statements about your main job. For each, please tell me if the statement is very true, somewhat true, not too true, or not at all true with respect to the work you do. j. The people I work with take a personal interest in me
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2805/vshow).
 #'
 #' Counts by year: 
 #'
@@ -510,6 +807,35 @@ NULL
 #'  |2024  |-     |-          |-         |-               |-            |-             |-         |-              |3309                       |3309  |
 #'  |Total |62986 |126        |134       |444             |888          |4015          |3772      |25             |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Quality of Working Life
+#' @family Job
+#' 
+#' @keywords variable
+#' @md
+#' @name cowrkint
+NULL
+
+
+#'  The job security is good
+#' 
+#'  jobsecok
+#' 
+#' Question Now I''m going to read you another list of statements about your main job. For each, please tell me if the statement is very true, somewhat true, not too true, or not at all true with respect to the work you do. 
+#' K. The job security is good
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` very true
@@ -529,22 +855,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name cowrkint
-NULL
-
-#'  The job security is good
-#' 
-#'  jobsecok
-#' 
-#' Question 889. Now I'm going to read you another list of statements about your main job. For each, please tell me if the statement is very true, somewhat true, not too true, or not at all true with respect to the work you do. k. The job security is good
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2806/vshow).
 #'
 #' Counts by year: 
 #'
@@ -587,184 +899,26 @@ NULL
 #'  |2024  |-     |-          |-         |-               |-            |-             |-         |-              |3309                       |3309  |
 #'  |Total |61807 |82         |145       |519             |756          |3386          |5673      |22             |3309                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` very true
-#'   * `2` somewhat true
-#'   * `3` not too true
-#'   * `4` not at all true
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Quality of Working Life
+#' @family Workplace Conflict
+#' @family Job
 #' 
 #' @keywords variable
 #' @md
 #' @name jobsecok
 NULL
 
-#'  Supervisor helpful to r in getting job done
-#' 
-#'  suphelp
-#' 
-#' Question 889. Now I'm going to read you another list of statements about your main job. For each, please tell me if the statement is very true, somewhat true, not too true, or not at all true with respect to the work you do. l. My supervisor is helpful to me in getting the job done
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no answer |not at all true |not too true |somewhat true |very true |skipped on web |not available in this year |Total |
-#'  |:-----|:-----|:----------|:---------|:---------------|:------------|:-------------|:---------|:--------------|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-         |-               |-            |-             |-         |-              |-                          |1613  |
-#'  |1973  |1504  |-          |-         |-               |-            |-             |-         |-              |-                          |1504  |
-#'  |1974  |1484  |-          |-         |-               |-            |-             |-         |-              |-                          |1484  |
-#'  |1975  |1490  |-          |-         |-               |-            |-             |-         |-              |-                          |1490  |
-#'  |1976  |1499  |-          |-         |-               |-            |-             |-         |-              |-                          |1499  |
-#'  |1977  |1530  |-          |-         |-               |-            |-             |-         |-              |-                          |1530  |
-#'  |1978  |1532  |-          |-         |-               |-            |-             |-         |-              |-                          |1532  |
-#'  |1980  |1468  |-          |-         |-               |-            |-             |-         |-              |-                          |1468  |
-#'  |1982  |1860  |-          |-         |-               |-            |-             |-         |-              |-                          |1860  |
-#'  |1983  |1599  |-          |-         |-               |-            |-             |-         |-              |-                          |1599  |
-#'  |1984  |1473  |-          |-         |-               |-            |-             |-         |-              |-                          |1473  |
-#'  |1985  |1534  |-          |-         |-               |-            |-             |-         |-              |-                          |1534  |
-#'  |1986  |1470  |-          |-         |-               |-            |-             |-         |-              |-                          |1470  |
-#'  |1987  |1819  |-          |-         |-               |-            |-             |-         |-              |-                          |1819  |
-#'  |1988  |1481  |-          |-         |-               |-            |-             |-         |-              |-                          |1481  |
-#'  |1989  |1537  |-          |-         |-               |-            |-             |-         |-              |-                          |1537  |
-#'  |1990  |1372  |-          |-         |-               |-            |-             |-         |-              |-                          |1372  |
-#'  |1991  |1517  |-          |-         |-               |-            |-             |-         |-              |-                          |1517  |
-#'  |1993  |1606  |-          |-         |-               |-            |-             |-         |-              |-                          |1606  |
-#'  |1994  |2992  |-          |-         |-               |-            |-             |-         |-              |-                          |2992  |
-#'  |1996  |2904  |-          |-         |-               |-            |-             |-         |-              |-                          |2904  |
-#'  |1998  |2832  |-          |-         |-               |-            |-             |-         |-              |-                          |2832  |
-#'  |2000  |2817  |-          |-         |-               |-            |-             |-         |-              |-                          |2817  |
-#'  |2002  |969   |40         |32        |132             |155          |570           |867       |-              |-                          |2765  |
-#'  |2004  |2812  |-          |-         |-               |-            |-             |-         |-              |-                          |2812  |
-#'  |2006  |2776  |64         |33        |110             |151          |597           |779       |-              |-                          |4510  |
-#'  |2008  |2023  |-          |-         |-               |-            |-             |-         |-              |-                          |2023  |
-#'  |2010  |857   |27         |36        |75              |91           |417           |541       |-              |-                          |2044  |
-#'  |2012  |1974  |-          |-         |-               |-            |-             |-         |-              |-                          |1974  |
-#'  |2014  |1288  |24         |16        |54              |107          |439           |610       |-              |-                          |2538  |
-#'  |2016  |2867  |-          |-         |-               |-            |-             |-         |-              |-                          |2867  |
-#'  |2018  |900   |25         |38        |43              |131          |489           |722       |-              |-                          |2348  |
-#'  |2021  |4032  |-          |-         |-               |-            |-             |-         |-              |-                          |4032  |
-#'  |2022  |1555  |36         |19        |110             |160          |681           |955       |28             |-                          |3544  |
-#'  |2024  |-     |-          |-         |-               |-            |-             |-         |-              |3309                       |3309  |
-#'  |Total |62986 |216        |174       |524             |795          |3193          |4474      |28             |3309                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` very true
-#'   * `2` somewhat true
-#'   * `3` not too true
-#'   * `4` not at all true
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name suphelp
-NULL
-
-#'  R has enough time to get the job done
-#' 
-#'  wrktime
-#' 
-#' Question 889. Now I'm going to read you another list of statements about your main job. For each, please tell me if the statement is very true, somewhat true, not too true, or not at all true with respect to the work you do. m. I have enough time to get the job done
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no answer |not at all true |not too true |somewhat true |very true |skipped on web |not available in this year |Total |
-#'  |:-----|:-----|:----------|:---------|:---------------|:------------|:-------------|:---------|:--------------|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-         |-               |-            |-             |-         |-              |-                          |1613  |
-#'  |1973  |1504  |-          |-         |-               |-            |-             |-         |-              |-                          |1504  |
-#'  |1974  |1484  |-          |-         |-               |-            |-             |-         |-              |-                          |1484  |
-#'  |1975  |1490  |-          |-         |-               |-            |-             |-         |-              |-                          |1490  |
-#'  |1976  |1499  |-          |-         |-               |-            |-             |-         |-              |-                          |1499  |
-#'  |1977  |1530  |-          |-         |-               |-            |-             |-         |-              |-                          |1530  |
-#'  |1978  |1532  |-          |-         |-               |-            |-             |-         |-              |-                          |1532  |
-#'  |1980  |1468  |-          |-         |-               |-            |-             |-         |-              |-                          |1468  |
-#'  |1982  |1860  |-          |-         |-               |-            |-             |-         |-              |-                          |1860  |
-#'  |1983  |1599  |-          |-         |-               |-            |-             |-         |-              |-                          |1599  |
-#'  |1984  |1473  |-          |-         |-               |-            |-             |-         |-              |-                          |1473  |
-#'  |1985  |1534  |-          |-         |-               |-            |-             |-         |-              |-                          |1534  |
-#'  |1986  |1470  |-          |-         |-               |-            |-             |-         |-              |-                          |1470  |
-#'  |1987  |1819  |-          |-         |-               |-            |-             |-         |-              |-                          |1819  |
-#'  |1988  |1481  |-          |-         |-               |-            |-             |-         |-              |-                          |1481  |
-#'  |1989  |1537  |-          |-         |-               |-            |-             |-         |-              |-                          |1537  |
-#'  |1990  |1372  |-          |-         |-               |-            |-             |-         |-              |-                          |1372  |
-#'  |1991  |1517  |-          |-         |-               |-            |-             |-         |-              |-                          |1517  |
-#'  |1993  |1606  |-          |-         |-               |-            |-             |-         |-              |-                          |1606  |
-#'  |1994  |2992  |-          |-         |-               |-            |-             |-         |-              |-                          |2992  |
-#'  |1996  |2904  |-          |-         |-               |-            |-             |-         |-              |-                          |2904  |
-#'  |1998  |2832  |-          |-         |-               |-            |-             |-         |-              |-                          |2832  |
-#'  |2000  |2817  |-          |-         |-               |-            |-             |-         |-              |-                          |2817  |
-#'  |2002  |969   |7          |15        |115             |193          |665           |801       |-              |-                          |2765  |
-#'  |2004  |2812  |-          |-         |-               |-            |-             |-         |-              |-                          |2812  |
-#'  |2006  |2776  |15         |18        |86              |205          |723           |687       |-              |-                          |4510  |
-#'  |2008  |2023  |-          |-         |-               |-            |-             |-         |-              |-                          |2023  |
-#'  |2010  |857   |4          |25        |59              |126          |491           |482       |-              |-                          |2044  |
-#'  |2012  |1974  |-          |-         |-               |-            |-             |-         |-              |-                          |1974  |
-#'  |2014  |1288  |1          |8         |38              |142          |524           |537       |-              |-                          |2538  |
-#'  |2016  |2867  |-          |-         |-               |-            |-             |-         |-              |-                          |2867  |
-#'  |2018  |900   |5          |34        |60              |167          |567           |615       |-              |-                          |2348  |
-#'  |2021  |4032  |-          |-         |-               |-            |-             |-         |-              |-                          |4032  |
-#'  |2022  |1555  |8          |14        |94              |211          |833           |808       |21             |-                          |3544  |
-#'  |2024  |-     |-          |-         |-               |-            |-             |-         |-              |3309                       |3309  |
-#'  |Total |62986 |40         |114       |452             |1044         |3803          |3930      |21             |3309                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` very true
-#'   * `2` somewhat true
-#'   * `3` not too true
-#'   * `4` not at all true
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name wrktime
-NULL
 

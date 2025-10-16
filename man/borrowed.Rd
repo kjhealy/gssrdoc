@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 borrowed
 }
 \details{
-Question 615. Have you borrowed $100 or more from antoher person (not a bank, business, or other organization) at any time during the past 12 months?
+Question Have you borrowed $100 or more from another person (not a bank, business, or other organization) at any time during the past 12 months?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes
+\item \code{2} no
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1849/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllll}{
    year \tab iap \tab no \tab no answer \tab yes \tab not available in this year \tab Total \cr
@@ -57,24 +77,36 @@ Counts by year:\tabular{lllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes
-\item \code{2} no
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Markets: 
+\code{\link{fixer1}},
+\code{\link{fixerc}},
+\code{\link{fixerd}},
+\code{\link{fixere}},
+\code{\link{fixerf}},
+\code{\link{relfixer}},
+\code{\link{satfixes}},
+\code{\link{sellbed}},
+\code{\link{wholoand}}
+
+Other Purchases/Transactions: 
+\code{\link{fixer1}},
+\code{\link{fixerc}},
+\code{\link{fixerd}},
+\code{\link{fixere}},
+\code{\link{fixerf}},
+\code{\link{relfixer}},
+\code{\link{satfixes}},
+\code{\link{sellbed}},
+\code{\link{wholoand}}
+}
+\concept{Markets}
+\concept{Purchases/Transactions}
 \keyword{variable}

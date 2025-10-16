@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 numgiven
 }
 \details{
-Question 313. From time to time, most peopole discuss important matters with other people. Looking back over the last six months, who are the people with whom you discussed matters important to you? NUMBER
+Question From time to time, most people discuss important matters with other people. Looking back over the last six months - who are the people with whom you discussed matters important to you? Just tell me their first names or initials. If LESS THAN 5 NAMES MENTIONED, PROBE, Anyone else?  ONLY RECORD FIRST 5 NAMES.
+LIST ALL NAMES IN ORDER ACROSS THE TOP OF THE MATRIX (SEE 2 PAGES AHEAD). THEN WRITE NAMES 2-5 DOWN THE SIDE OF THE MATRIX.
+A. INTERVIEWER CHECK: HOW MANY NAMES WERE MENTIONED?
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/848/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +77,21 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1985 \tab -/-/- \tab full \cr
+   1987 \tab -/-/- \tab full \cr
+   2004 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Social Networks: 
+\code{\link{eqclose}}
+
+Other Social Networks: 
+\code{\link{eqclose}}
+}
+\concept{Social Networks}
 \keyword{variable}

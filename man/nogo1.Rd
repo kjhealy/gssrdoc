@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 nogo1
 }
 \details{
-Question B. Was it a performance or an exhibit?
+Question Was it a performance or an exhibit?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} performance
+\item \code{2} exhibit
+\item \code{3} both performance and exhibit
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6248/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllll}{
    year \tab iap \tab both performance and exhibit \tab exhibit \tab performance \tab not available in this year \tab Total \cr
@@ -57,25 +78,24 @@ Counts by year:\tabular{lllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} performance
-\item \code{2} exhibit
-\item \code{3} both performance and exhibit
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2016 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Arts and Culture: 
+\code{\link{artwhy3}},
+\code{\link{artwhy4}},
+\code{\link{artwhy5}},
+\code{\link{artwhy6}},
+\code{\link{artwhy7}},
+\code{\link{artwhy8}},
+\code{\link{artwhy9}},
+\code{\link{nogo}},
+\code{\link{prfmcost}}
+}
+\concept{Arts and Culture}
 \keyword{variable}

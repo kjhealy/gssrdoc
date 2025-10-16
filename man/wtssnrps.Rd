@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 wtssnrps
 }
 \details{
-Question None
+Question Person post-stratification weight, nonrespondents adjusted
 }
 \section{Values}{
 
@@ -27,6 +27,23 @@ Question None
 \item \code{NA(x)} not available in this release
 \item \code{NA(y)} not available in this year
 \item \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C/- \tab full \cr
+   2006 \tab A/B/C/D \tab full \cr
+   2008 \tab A/B/C/- \tab full \cr
+   2010 \tab A/B/C/- \tab full \cr
+   2012 \tab A/B/C/- \tab full \cr
+   2014 \tab A/B/C/- \tab full \cr
+   2016 \tab A/B/C/- \tab full \cr
+   2018 \tab A/B/C/- \tab full \cr
+   2021 \tab A/B/C/- \tab full \cr
+   2022 \tab A/B/C/- \tab full \cr
+   2024 \tab A/B/C/- \tab full \cr
 }
 }
 

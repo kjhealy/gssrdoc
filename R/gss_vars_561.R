@@ -1,11 +1,214 @@
+#'  Second problem mentioned
+#' 
+#'  prob2
+#' 
+#' Question What are the most important problems that you and members of your household have had during the last 12 months? 
+#' RECORD VERBATIM. 
+#' PROBE FOR ADDITIONAL MENTIONS AND FOR SPECIFIC DETAILS. TRY NOT TO ACCEPT GENERAL RESPONSES LIKE "WORK" OR "CRIME."  PROBE TO FIND WHAT ABOUT "WORK" IS THE
+#' PROBLEM. FOR EXAMPLE, IS IT JOB INSECURITY, LOW PAY, ARGUMENTS WITH THE BOSS, OR WHAT? OR ABOUT "CRIME", WAS THERE A VICTIMIZATION?  WHO WAS VICTIMIZED AND IN WHAT WAY? 
+#' PROBE FOR ADDITIONAL PROBLEMS. 
+#' B. Second problem mentioned.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `995` cant understand answer
+#'   * `996` no problems
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5133/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |1  |10 |101 |102 |103 |120 |130 |131 |140 |15 |150 |151 |16 |160 |175 |180 |2  |20 |200 |201 |202 |21 |210 |211 |22 |220 |23 |230 |235 |237 |24 |240 |26 |28 |30 |31 |40 |41 |43 |44 |45 |47 |55 |61 |65 |70 |72 |73 |74 |81 |83 |84 |86 |92 |95 |96 |cant understand answer |11 |115 |133 |191 |192 |29 |46 |50 |75 |80 |85 |91 |94 |not available in this year |Total |
+#'  |:-----|:-----|:--|:--|:---|:---|:---|:---|:---|:---|:---|:--|:---|:---|:--|:---|:---|:---|:--|:--|:---|:---|:---|:--|:---|:---|:--|:---|:--|:---|:---|:---|:--|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------------------|:--|:---|:---|:---|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--------------------------|:-----|
+#'  |1972  |1613  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1613  |
+#'  |1973  |1504  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1504  |
+#'  |1974  |1484  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1484  |
+#'  |1975  |1490  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1490  |
+#'  |1976  |1499  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1499  |
+#'  |1977  |1530  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1530  |
+#'  |1978  |1532  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1532  |
+#'  |1980  |1468  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1468  |
+#'  |1982  |1860  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1860  |
+#'  |1983  |1599  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1599  |
+#'  |1984  |1473  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1473  |
+#'  |1985  |1534  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1534  |
+#'  |1986  |1470  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1470  |
+#'  |1987  |1819  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1819  |
+#'  |1988  |1481  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1481  |
+#'  |1989  |1537  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1537  |
+#'  |1990  |1372  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1372  |
+#'  |1991  |1356  |11 |4  |1   |1   |2   |3   |1   |2   |3   |1  |4   |1   |1  |1   |1   |1   |17 |9  |4   |1   |1   |4  |3   |2   |1  |1   |1  |1   |1   |3   |2  |2   |4  |1  |19 |1  |5  |2  |6  |1  |1  |1  |4  |1  |2  |1  |3  |6  |2  |1  |1  |1  |1  |3  |1  |1  |1                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1517  |
+#'  |1993  |1606  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1606  |
+#'  |1994  |2992  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2992  |
+#'  |1996  |2904  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2904  |
+#'  |1998  |2832  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2832  |
+#'  |2000  |2817  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2817  |
+#'  |2002  |2765  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2765  |
+#'  |2004  |2733  |1  |3  |-   |1   |2   |1   |1   |1   |1   |-  |-   |-   |-  |-   |2   |-   |9  |2  |1   |1   |-   |-  |-   |-   |-  |-   |2  |-   |-   |-   |-  |-   |5  |-  |16 |-  |-  |-  |-  |-  |-  |2  |-  |1  |1  |-  |1  |4  |2  |-  |-  |-  |1  |2  |-  |1  |-                      |1  |1   |1   |1   |1   |2  |1  |1  |1  |1  |1  |1  |2  |-                          |2812  |
+#'  |2006  |4510  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |4510  |
+#'  |2008  |2023  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2023  |
+#'  |2010  |2044  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2044  |
+#'  |2012  |1974  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1974  |
+#'  |2014  |2538  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2538  |
+#'  |2016  |2867  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2867  |
+#'  |2018  |2348  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2348  |
+#'  |2021  |4032  |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-                          |4032  |
+#'  |2022  |-     |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |3544                       |3544  |
+#'  |2024  |-     |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |3309                       |3309  |
+#'  |Total |68606 |12 |7  |1   |2   |4   |4   |2   |3   |4   |1  |4   |1   |1  |1   |3   |1   |26 |11 |5   |2   |1   |4  |3   |2   |1  |1   |3  |1   |1   |3   |2  |2   |9  |1  |35 |1  |5  |2  |6  |1  |1  |3  |4  |2  |3  |1  |4  |10 |4  |1  |1  |1  |2  |5  |1  |2  |1                      |1  |1   |1   |1   |1   |2  |1  |1  |1  |1  |1  |1  |2  |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |C       |partial      |
+#'  |2004 |C       |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Negative Life Events
+#' @family Life Events
+#' @family Trauma
+#' 
+#' @keywords variable
+#' @md
+#' @name prob2
+NULL
+
+
+#'  Third problem mentioned
+#' 
+#'  prob3
+#' 
+#' Question What are the most important problems that you and members of your household have had during the last 12 months?
+#' RECORD VERBATIM. 
+#' PROBE FOR ADDITIONAL MENTIONS AND FOR SPECIFIC DETAILS. TRY NOT TO ACCEPT GENERAL RESPONSES LIKE "WORK" OR "CRIME."  PROBE TO FIND WHAT ABOUT "WORK" IS THE PROBLEM. FOR EXAMPLE, IS IT JOB INSECURITY, LOW PAY, ARGUMENTS WITH THE BOSS, OR WHAT? OR ABOUT "CRIME", WAS THERE A VICTIMIZATION?  WHO WAS VICTIMIZED AND IN WHAT WAY? 
+#' PROBE FOR ADDITIONAL PROBLEMS. 
+#' C. Third problem mentioned.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `995` cant understand answer
+#'   * `996` no problems
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5134/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |1  |101 |103 |150 |175 |2  |20 |202 |21 |210 |211 |22 |240 |26 |30 |43 |55 |72 |73 |84 |10 |120 |132 |165 |27 |3  |47 |not available in this year |Total |
+#'  |:-----|:-----|:--|:---|:---|:---|:---|:--|:--|:---|:--|:---|:---|:--|:---|:--|:--|:--|:--|:--|:--|:--|:--|:---|:---|:---|:--|:--|:--|:--------------------------|:-----|
+#'  |1972  |1613  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |1613  |
+#'  |1973  |1504  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |1504  |
+#'  |1974  |1484  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |1484  |
+#'  |1975  |1490  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |1490  |
+#'  |1976  |1499  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |1499  |
+#'  |1977  |1530  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |1530  |
+#'  |1978  |1532  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |1532  |
+#'  |1980  |1468  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |1468  |
+#'  |1982  |1860  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |1860  |
+#'  |1983  |1599  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |1599  |
+#'  |1984  |1473  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |1473  |
+#'  |1985  |1534  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |1534  |
+#'  |1986  |1470  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |1470  |
+#'  |1987  |1819  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |1819  |
+#'  |1988  |1481  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |1481  |
+#'  |1989  |1537  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |1537  |
+#'  |1990  |1372  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |1372  |
+#'  |1991  |1481  |7  |1   |2   |1   |2   |2  |1  |1   |1  |2   |1   |1  |1   |2  |4  |1  |1  |2  |2  |1  |-  |-   |-   |-   |-  |-  |-  |-                          |1517  |
+#'  |1993  |1606  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |1606  |
+#'  |1994  |2992  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |2992  |
+#'  |1996  |2904  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |2904  |
+#'  |1998  |2832  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |2832  |
+#'  |2000  |2817  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |2817  |
+#'  |2002  |2765  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |2765  |
+#'  |2004  |2795  |1  |-   |-   |-   |-   |2  |1  |-   |-  |-   |-   |1  |1   |1  |-  |-  |-  |-  |2  |-  |1  |1   |1   |1   |1  |2  |1  |-                          |2812  |
+#'  |2006  |4510  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |4510  |
+#'  |2008  |2023  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |2023  |
+#'  |2010  |2044  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |2044  |
+#'  |2012  |1974  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |1974  |
+#'  |2014  |2538  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |2538  |
+#'  |2016  |2867  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |2867  |
+#'  |2018  |2348  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |2348  |
+#'  |2021  |4032  |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |-                          |4032  |
+#'  |2022  |-     |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |3544                       |3544  |
+#'  |2024  |-     |-  |-   |-   |-   |-   |-  |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-   |-   |-  |-  |-  |3309                       |3309  |
+#'  |Total |68793 |8  |1   |2   |1   |2   |4  |2  |1   |1  |2   |1   |2  |2   |3  |4  |1  |1  |2  |4  |1  |1  |1   |1   |1   |1  |2  |1  |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |C       |partial      |
+#'  |2004 |C       |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Negative Life Events
+#' @family Life Events
+#' @family Trauma
+#' 
+#' @keywords variable
+#' @md
+#' @name prob3
+NULL
+
+
 #'  Fourth problem mentioned
 #' 
 #'  prob4
 #' 
-#' Question 1574. What are the most important problems that you and members of your household have had during the last 12 months?
+#' Question What are the most important problems that you and members of your household have had during the last 12 months? 
+#' RECORD VERBATIM. 
+#' PROBE FOR ADDITIONAL MENTIONS AND FOR SPECIFIC DETAILS. TRY NOT TO ACCEPT GENERAL RESPONSES LIKE "WORK" OR "CRIME."  PROBE TO FIND WHAT ABOUT "WORK" IS THE PROBLEM. FOR EXAMPLE, IS IT JOB INSECURITY, LOW PAY, ARGUMENTS WITH THE BOSS, OR WHAT? OR ABOUT "CRIME", WAS THERE A VICTIMIZATION?  WHO WAS VICTIMIZED AND IN WHAT WAY? 
+#' PROBE FOR ADDITIONAL PROBLEMS. 
+#' D. Fourth problem mentioned.
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `995` cant understand answer
+#'   * `996` no problems
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5135/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,10 +251,37 @@
 #'  |2024  |-     |-  |-  |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |3309                       |3309  |
 #'  |Total |68833 |1  |1  |1   |1   |1   |1  |1  |1   |2  |1  |1  |1  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |C       |partial      |
+#'  |2004 |C       |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Negative Life Events
+#' @family Life Events
+#' @family Trauma
+#' 
+#' @keywords variable
+#' @md
+#' @name prob4
+NULL
+
+
+#'  Ill enough to go to a doctor
+#' 
+#'  hlth1
+#' 
+#' Question Now, I'm going to ask you about various events and conditions that happen to people. I'm interested in those that happened to you during the last 12 months, that is since (CURRENT MONTH), (1990/2003). As I ask you about the specific events, please think carefully, so I can record things accurately. 
+#' A. First, thinking about health related matters, did any of the following happen to you since (CURRENT MONTH, 1990/2003)? 
+#' 1. Ill enough to go to a doctor.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `995` cant understand answer
-#'   * `996` no problems
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -65,22 +295,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name prob4
-NULL
-
-#'  Ill enough to go to a doctor
-#' 
-#'  hlth1
-#' 
-#' Question 1575. Now, I'm going to ask you about various events and conditions that happen to people. I'm interested in those that happened to you during the last 12 months, that is since (CURRENT MONTH), 2003. As I ask you about the specific events, please think carefully, so I can record things accurately. a. First, thinking about health related matters, did any of the following happen to you since February/March, 1990? 1. Ill enough to go to a doctor
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5136/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,6 +339,33 @@ NULL
 #'  |2024  |-     |-    |-         |-    |-          |3309                       |3309  |
 #'  |Total |66489 |1020 |10        |1325 |2          |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |B/C/-   |partial      |
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Negative Life Events
+#' @family Health
+#' @family Trauma
+#' 
+#' @keywords variable
+#' @md
+#' @name hlth1
+NULL
+
+
+#'  Counseling for mental problems
+#' 
+#'  hlth2
+#' 
+#' Question Now, I'm going to ask you about various events and conditions that happen to people. I'm interested in those that happened to you during the last 12 months, that is since (CURRENT MONTH), (1990/2003). As I ask you about the specific events, please think carefully, so I can record things accurately. 
+#' A. First, thinking about health related matters, did any of the following happen to you since (CURRENT MONTH, 1990/2003)? 
+#' 2. Underwent counseling for mental or emotional problems.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -140,22 +383,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hlth1
-NULL
-
-#'  Counseling for mental problems
-#' 
-#'  hlth2
-#' 
-#' Question 1575. Now, I'm going to ask you about various events and conditions that happen to people. I'm interested in those that happened to you during the last 12 months, that is since (CURRENT MONTH), 2003. As I ask you about the specific events, please think carefully, so I can record things accurately. a. First, thinking about health related matters, did any of the following happen to you since February/March, 1990? 2. Underwent counseling for mental or emotional problems
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5137/vshow).
 #'
 #' Counts by year: 
 #'
@@ -198,6 +427,33 @@ NULL
 #'  |2024  |-     |-    |-         |-   |3309                       |3309  |
 #'  |Total |66489 |2183 |12        |162 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |B/C/-   |partial      |
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Negative Life Events
+#' @family Health
+#' @family Trauma
+#' 
+#' @keywords variable
+#' @md
+#' @name hlth2
+NULL
+
+
+#'  Infertility, unable to have a baby
+#' 
+#'  hlth3
+#' 
+#' Question Now, I'm going to ask you about various events and conditions that happen to people. I'm interested in those that happened to you during the last 12 months, that is since (CURRENT MONTH), (1990/2003). As I ask you about the specific events, please think carefully, so I can record things accurately. 
+#' A. First, thinking about health related matters, did any of the following happen to you since (CURRENT MONTH, 1990/2003)? 
+#' 3. Infertility or unable to have a baby.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -215,22 +471,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hlth2
-NULL
-
-#'  Infertility, unable to have a baby
-#' 
-#'  hlth3
-#' 
-#' Question 1575. Now, I'm going to ask you about various events and conditions that happen to people. I'm interested in those that happened to you during the last 12 months, that is since (CURRENT MONTH), 2003. As I ask you about the specific events, please think carefully, so I can record things accurately. a. First, thinking about health related matters, did any of the following happen to you since February/March, 1990? 3. Infertility or unable to have a baby
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5138/vshow).
 #'
 #' Counts by year: 
 #'
@@ -273,6 +515,33 @@ NULL
 #'  |2024  |-     |-    |-         |-   |-          |3309                       |3309  |
 #'  |Total |66489 |2279 |16        |61  |1          |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |B/C/-   |partial      |
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Negative Life Events
+#' @family Health
+#' @family Trauma
+#' 
+#' @keywords variable
+#' @md
+#' @name hlth3
+NULL
+
+
+#'  Drinking problem
+#' 
+#'  hlth4
+#' 
+#' Question Now, I'm going to ask you about various events and conditions that happen to people. I'm interested in those that happened to you during the last 12 months, that is since (CURRENT MONTH), (1990/2003). As I ask you about the specific events, please think carefully, so I can record things accurately. 
+#' A. First, thinking about health related matters, did any of the following happen to you since (CURRENT MONTH, 1990/2003)? 
+#' 4. Had a drinking problem (e.g. frequently drunk, suffered from alcoholism)
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -290,22 +559,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hlth3
-NULL
-
-#'  Drinking problem
-#' 
-#'  hlth4
-#' 
-#' Question 1575. Now, I'm going to ask you about various events and conditions that happen to people. I'm interested in those that happened to you during the last 12 months, that is since (CURRENT MONTH), 2003. As I ask you about the specific events, please think carefully, so I can record things accurately. a. First, thinking about health related matters, did any of the following happen to you since February/March, 1990? 4. Had a drinking problem (e.g. frequently drunk, suffered from alcoholism)
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5139/vshow).
 #'
 #' Counts by year: 
 #'
@@ -348,6 +603,34 @@ NULL
 #'  |2024  |-     |-    |-         |-   |3309                       |3309  |
 #'  |Total |66489 |2304 |12        |41  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |B/C/-   |partial      |
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Negative Life Events
+#' @family Drinking
+#' @family Health
+#' @family Trauma
+#' 
+#' @keywords variable
+#' @md
+#' @name hlth4
+NULL
+
+
+#'  Illegal drugs (marijuana, cocaine)
+#' 
+#'  hlth5
+#' 
+#' Question Now, I'm going to ask you about various events and conditions that happen to people. I'm interested in those that happened to you during the last 12 months, that is since (CURRENT MONTH), (1990/2003). As I ask you about the specific vents, please think carefully, so I can record things accurately. 
+#' A. First, thinking about health related matters, did any of the following happen to you since (CURRENT MONTH, 1990/2003)? 
+#' 5. Used illegal drugs (e.g. marijuana, cocaine, pills).
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -365,22 +648,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hlth4
-NULL
-
-#'  Illegal drugs (marijuana, cocaine)
-#' 
-#'  hlth5
-#' 
-#' Question 1575. Now, I'm going to ask you about various events and conditions that happen to people. I'm interested in those that happened to you during the last 12 months, that is since (CURRENT MONTH), 2003. As I ask you about the specific events, please think carefully, so I can record things accurately. a. First, thinking about health related matters, did any of the following happen to you since February/March, 1990? 5. Used illegal drugs (e.g. marijuana, cocaine, pills)
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5140/vshow).
 #'
 #' Counts by year: 
 #'
@@ -423,6 +692,34 @@ NULL
 #'  |2024  |-     |-    |-         |-   |3309                       |3309  |
 #'  |Total |66489 |2235 |15        |107 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |B/C/-   |partial      |
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Negative Life Events
+#' @family Drug Use And Addiction
+#' @family Health
+#' @family Trauma
+#' 
+#' @keywords variable
+#' @md
+#' @name hlth5
+NULL
+
+
+#'  (Husband, wife)partner in hospital
+#' 
+#'  hlth6
+#' 
+#' Question Now, I'm going to ask you about various events and conditions that happen to people. I'm interested in those that happened to you during the last 12 months, that is since (CURRENT MONTH), (1990/2003). As I ask you about the specific events, please think carefully, so I can record things accurately. 
+#' A. First, thinking about health related matters, did any of the following happen to you since (CURRENT MONTH, 1990/2003)? 
+#' 6. Your (husband/wife)/partner was a patient in a hospital, sanitorium, convalescent or nursing home 
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -440,22 +737,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hlth5
-NULL
-
-#'  (Husband, wife)partner in hospital
-#' 
-#'  hlth6
-#' 
-#' Question 1575. Now, I'm going to ask you about various events and conditions that happen to people. I'm interested in those that happened to you during the last 12 months, that is since (CURRENT MONTH), 2003. As I ask you about the specific events, please think carefully, so I can record things accurately. a. First, thinking about health related matters, did any of the following happen to you since February/March, 1990? 6. Your (husband/wife)/partner was a patient in a hospital, sanitorium, convalescent or nursing home (apart from having a baby).
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5141/vshow).
 #'
 #' Counts by year: 
 #'
@@ -498,6 +781,33 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-   |3309                       |3309  |
 #'  |Total |66489 |5          |2120 |24        |208 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |B/C/-   |partial      |
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Negative Life Events
+#' @family Health
+#' @family Trauma
+#' 
+#' @keywords variable
+#' @md
+#' @name hlth6
+NULL
+
+
+#'  A child in hospital
+#' 
+#'  hlth7
+#' 
+#' Question Now, I'm going to ask you about various events and conditions that happen to people. I'm interested in those that happened to you during the last 12 months, that is since (CURRENT MONTH), (1990/2003). As I ask you about the specific events, please think carefully, so I can record things accurately. 
+#' A. First, thinking about health related matters, did any of the following happen to you since (CURRENT MONTH, 1990/2003)? 
+#' 7. A child of yours was a patient in a hospital, sanitorium, convalescent or nursing home (apart from
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -515,22 +825,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hlth6
-NULL
-
-#'  A child in hospital
-#' 
-#'  hlth7
-#' 
-#' Question 1575. Now, I'm going to ask you about various events and conditions that happen to people. I'm interested in those that happened to you during the last 12 months, that is since (CURRENT MONTH), 2003. As I ask you about the specific events, please think carefully, so I can record things accurately. a. First, thinking about health related matters, did any of the following happen to you since February/March, 1990? 7. A child of yours was a patient in a hospital, sanitorium, convalescent or nursing home (apart from having a baby).
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5142/vshow).
 #'
 #' Counts by year: 
 #'
@@ -573,178 +869,21 @@ NULL
 #'  |2024  |-     |-    |-         |-   |-          |3309                       |3309  |
 #'  |Total |66489 |2126 |24        |204 |3          |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |B/C/-   |partial      |
+#'  |2004 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Negative Life Events
+#' @family Health
+#' @family Trauma
 #' 
 #' @keywords variable
 #' @md
 #' @name hlth7
 NULL
 
-#'  Child on drugs, drinking problem
-#' 
-#'  hlth8
-#' 
-#' Question 1575. Now, I'm going to ask you about various events and conditions that happen to people. I'm interested in those that happened to you during the last 12 months, that is since (CURRENT MONTH), 2003. As I ask you about the specific events, please think carefully, so I can record things accurately. a. First, thinking about health related matters, did any of the following happen to you since February/March, 1990? 8. Child on drugs or had drinking problem
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |no   |no answer |yes |don't know |not available in this year |Total |
-#'  |:-----|:-----|:----|:---------|:---|:----------|:--------------------------|:-----|
-#'  |1972  |1613  |-    |-         |-   |-          |-                          |1613  |
-#'  |1973  |1504  |-    |-         |-   |-          |-                          |1504  |
-#'  |1974  |1484  |-    |-         |-   |-          |-                          |1484  |
-#'  |1975  |1490  |-    |-         |-   |-          |-                          |1490  |
-#'  |1976  |1499  |-    |-         |-   |-          |-                          |1499  |
-#'  |1977  |1530  |-    |-         |-   |-          |-                          |1530  |
-#'  |1978  |1532  |-    |-         |-   |-          |-                          |1532  |
-#'  |1980  |1468  |-    |-         |-   |-          |-                          |1468  |
-#'  |1982  |1860  |-    |-         |-   |-          |-                          |1860  |
-#'  |1983  |1599  |-    |-         |-   |-          |-                          |1599  |
-#'  |1984  |1473  |-    |-         |-   |-          |-                          |1473  |
-#'  |1985  |1534  |-    |-         |-   |-          |-                          |1534  |
-#'  |1986  |1470  |-    |-         |-   |-          |-                          |1470  |
-#'  |1987  |1819  |-    |-         |-   |-          |-                          |1819  |
-#'  |1988  |1481  |-    |-         |-   |-          |-                          |1481  |
-#'  |1989  |1537  |-    |-         |-   |-          |-                          |1537  |
-#'  |1990  |1372  |-    |-         |-   |-          |-                          |1372  |
-#'  |1991  |500   |978  |11        |28  |-          |-                          |1517  |
-#'  |1993  |1606  |-    |-         |-   |-          |-                          |1606  |
-#'  |1994  |2992  |-    |-         |-   |-          |-                          |2992  |
-#'  |1996  |2904  |-    |-         |-   |-          |-                          |2904  |
-#'  |1998  |2832  |-    |-         |-   |-          |-                          |2832  |
-#'  |2000  |2817  |-    |-         |-   |-          |-                          |2817  |
-#'  |2002  |2765  |-    |-         |-   |-          |-                          |2765  |
-#'  |2004  |1472  |1282 |12        |41  |5          |-                          |2812  |
-#'  |2006  |4510  |-    |-         |-   |-          |-                          |4510  |
-#'  |2008  |2023  |-    |-         |-   |-          |-                          |2023  |
-#'  |2010  |2044  |-    |-         |-   |-          |-                          |2044  |
-#'  |2012  |1974  |-    |-         |-   |-          |-                          |1974  |
-#'  |2014  |2538  |-    |-         |-   |-          |-                          |2538  |
-#'  |2016  |2867  |-    |-         |-   |-          |-                          |2867  |
-#'  |2018  |2348  |-    |-         |-   |-          |-                          |2348  |
-#'  |2021  |4032  |-    |-         |-   |-          |-                          |4032  |
-#'  |2022  |-     |-    |-         |-   |-          |3544                       |3544  |
-#'  |2024  |-     |-    |-         |-   |-          |3309                       |3309  |
-#'  |Total |66489 |2260 |23        |69  |5          |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hlth8
-NULL
-
-#'  A death of a close friend
-#' 
-#'  hlth9
-#' 
-#' Question 1575. Now, I'm going to ask you about various events and conditions that happen to people. I'm interested in those that happened to you during the last 12 months, that is since (CURRENT MONTH), 2003. As I ask you about the specific events, please think carefully, so I can record things accurately. a. First, thinking about health related matters, did any of the following happen to you since February/March, 1990? 9. A death of a close friend
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |no   |no answer |yes |not available in this year |Total |
-#'  |:-----|:-----|:----|:---------|:---|:--------------------------|:-----|
-#'  |1972  |1613  |-    |-         |-   |-                          |1613  |
-#'  |1973  |1504  |-    |-         |-   |-                          |1504  |
-#'  |1974  |1484  |-    |-         |-   |-                          |1484  |
-#'  |1975  |1490  |-    |-         |-   |-                          |1490  |
-#'  |1976  |1499  |-    |-         |-   |-                          |1499  |
-#'  |1977  |1530  |-    |-         |-   |-                          |1530  |
-#'  |1978  |1532  |-    |-         |-   |-                          |1532  |
-#'  |1980  |1468  |-    |-         |-   |-                          |1468  |
-#'  |1982  |1860  |-    |-         |-   |-                          |1860  |
-#'  |1983  |1599  |-    |-         |-   |-                          |1599  |
-#'  |1984  |1473  |-    |-         |-   |-                          |1473  |
-#'  |1985  |1534  |-    |-         |-   |-                          |1534  |
-#'  |1986  |1470  |-    |-         |-   |-                          |1470  |
-#'  |1987  |1819  |-    |-         |-   |-                          |1819  |
-#'  |1988  |1481  |-    |-         |-   |-                          |1481  |
-#'  |1989  |1537  |-    |-         |-   |-                          |1537  |
-#'  |1990  |1372  |-    |-         |-   |-                          |1372  |
-#'  |1991  |500   |782  |5         |230 |-                          |1517  |
-#'  |1993  |1606  |-    |-         |-   |-                          |1606  |
-#'  |1994  |2992  |-    |-         |-   |-                          |2992  |
-#'  |1996  |2904  |-    |-         |-   |-                          |2904  |
-#'  |1998  |2832  |-    |-         |-   |-                          |2832  |
-#'  |2000  |2817  |-    |-         |-   |-                          |2817  |
-#'  |2002  |2765  |-    |-         |-   |-                          |2765  |
-#'  |2004  |1472  |1022 |7         |311 |-                          |2812  |
-#'  |2006  |4510  |-    |-         |-   |-                          |4510  |
-#'  |2008  |2023  |-    |-         |-   |-                          |2023  |
-#'  |2010  |2044  |-    |-         |-   |-                          |2044  |
-#'  |2012  |1974  |-    |-         |-   |-                          |1974  |
-#'  |2014  |2538  |-    |-         |-   |-                          |2538  |
-#'  |2016  |2867  |-    |-         |-   |-                          |2867  |
-#'  |2018  |2348  |-    |-         |-   |-                          |2348  |
-#'  |2021  |4032  |-    |-         |-   |-                          |4032  |
-#'  |2022  |-     |-    |-         |-   |3544                       |3544  |
-#'  |2024  |-     |-    |-         |-   |3309                       |3309  |
-#'  |Total |66489 |1804 |12        |541 |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hlth9
-NULL
 

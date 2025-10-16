@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 govtpow
 }
 \details{
-Question 1186. And what about the federal government, does it have too much power or too little power?
+Question And what about the federal government, does it have too much power or too little power?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} far too much power
+\item \code{2} too much power
+\item \code{3} about the right amount of power
+\item \code{4} too little power
+\item \code{5} far too little power
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4070/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab about the right amount of power \tab can't choose \tab far too little power \tab far too much power \tab no answer \tab too little power \tab too much power \tab not available in this year \tab Total \cr
@@ -57,27 +80,40 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} far too much power
-\item \code{2} too much power
-\item \code{3} about the right amount of power
-\item \code{4} too little power
-\item \code{5} far too little power
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1985 \tab -/-/- \tab full \cr
+   1990 \tab A/B/C \tab full \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Role of Gov't: 
+\code{\link{buspow}},
+\code{\link{jobsall}},
+\code{\link{laborpow}},
+\code{\link{ownautos}},
+\code{\link{ownbanks}},
+\code{\link{ownmass}},
+\code{\link{ownpower}},
+\code{\link{ownsteel}},
+\code{\link{pricecon}}
+
+Other Federal Government: 
+\code{\link{jobsall}},
+\code{\link{ownautos}},
+\code{\link{ownmass}},
+\code{\link{ownpower}},
+\code{\link{ownsteel}},
+\code{\link{pricecon}}
+
+Other Political: 
+\code{\link{buspow}},
+\code{\link{laborpow}}
+}
+\concept{Federal Government}
+\concept{ISSP Role of Gov't}
+\concept{Political}
 \keyword{variable}

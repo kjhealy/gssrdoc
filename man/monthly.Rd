@@ -10,11 +10,30 @@ General Social Survey https://gss.norc.org
 monthly
 }
 \details{
-Question 707d. What is your monthly salary, before any taxes or deductions?
+Question IF HOURLY WAGE:
+D. What is your monthly salary, before any taxes or deductions?
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2164/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 1000 \tab 10000 \tab 1100 \tab 1200 \tab 1400 \tab 1471 \tab 1500 \tab 1600 \tab 1700 \tab 1800 \tab 1808 \tab 1900 \tab 2000 \tab 2100 \tab 2200 \tab 2300 \tab 2350 \tab 2400 \tab 2500 \tab 2546 \tab 2580 \tab 2600 \tab 2622 \tab 2680 \tab 2750 \tab 2991 \tab 3000 \tab 3107 \tab 3200 \tab 3300 \tab 3400 \tab 3465 \tab 3500 \tab 3600 \tab 3750 \tab 3800 \tab 4000 \tab 4100 \tab 4300 \tab 4500 \tab 500 \tab 5000 \tab 5200 \tab 5400 \tab 5600 \tab 5700 \tab 600 \tab 6000 \tab 6200 \tab 6600 \tab 700 \tab 7000 \tab 7800 \tab 800 \tab 8000 \tab 8123 \tab 8147 \tab 8750 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +76,34 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1998 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Jobs: 
+\code{\link{daily}},
+\code{\link{hourly}},
+\code{\link{trusting}},
+\code{\link{weekly}},
+\code{\link{yearly}}
+
+Other Job: 
+\code{\link{daily}},
+\code{\link{hourly}},
+\code{\link{weekly}},
+\code{\link{yearly}}
+
+Other Occupation: 
+\code{\link{daily}},
+\code{\link{hourly}},
+\code{\link{weekly}},
+\code{\link{yearly}}
+}
+\concept{Job}
+\concept{Jobs}
+\concept{Occupation}
 \keyword{variable}

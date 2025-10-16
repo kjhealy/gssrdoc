@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 numknown
 }
 \details{
-Question 1102. Cases in Sample B (Ballots 4-6) should receive this variable. This variable is used to drive skips in a module. This variable should have a value of 1-5 using the following proportions: 1=50pct, 2,3,4,5 = 12.5pct each
+Question Cases in Sample B (Ballots 4-6) should receive this variable. This variable is used to drive skips in a module. This  variable should have a value of 1-5 using the following proportions: 1=50pct, 2,3,4,5 = 12.5pct each
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} subset1
+\item \code{2} subset2
+\item \code{3} subset3
+\item \code{4} subset4
+\item \code{5} subset5
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3571/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab subset1 \tab subset2 \tab subset3 \tab subset4 \tab subset5 \tab not available in this year \tab Total \cr
@@ -57,27 +80,22 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} subset1
-\item \code{2} subset2
-\item \code{3} subset3
-\item \code{4} subset4
-\item \code{5} subset5
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Number Known: 
+\code{\link{acqbrnda}},
+\code{\link{acqkaren}},
+\code{\link{acqkeith}},
+\code{\link{acqkevin}},
+\code{\link{acqmark}},
+\code{\link{acqrachl}},
+\code{\link{acqshawn}}
+}
+\concept{Number Known}
 \keyword{variable}

@@ -12,9 +12,41 @@ prfmothr1
 \details{
 Question Thinking about the most recent performance you wanted to attend but did not, which of the following factors were important in your decision not to attend? H. Please specify:
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} cost too much
+\item \code{2} programs or events were not of interest
+\item \code{3} too difficult to get there
+\item \code{4} could not find anyone to go with
+\item \code{5} could not find the time
+\item \code{6} did not want to go to that location
+\item \code{7} work conflict
+\item \code{8} ill, too tired
+\item \code{10} no childcare
+\item \code{11} sold out
+\item \code{12} forgot, didn't act in time
+\item \code{13} away, other conflict
+\item \code{14} taking care of family member
+\item \code{20} some other reason not shown
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6646/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllll}{
    year \tab iap \tab away, other conflict \tab don't know \tab forgot, didn't act in time \tab ill, too tired \tab no answer \tab no childcare \tab sold out \tab some other reason not shown \tab taking care of family member \tab work conflict \tab not available in this year \tab Total \cr
@@ -57,35 +89,10 @@ Counts by year:\tabular{llllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} cost too much
-\item \code{2} programs or events were not of interest
-\item \code{3} too difficult to get there
-\item \code{4} could not find anyone to go with
-\item \code{5} could not find the time
-\item \code{6} did not want to go to that location
-\item \code{7} work conflict
-\item \code{8} ill, too tired
-\item \code{10} no childcare
-\item \code{11} sold out
-\item \code{12} forgot, didn't act in time
-\item \code{13} away, other conflict
-\item \code{14} taking care of family member
-\item \code{20} some other reason not shown
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2016 \tab B/C \tab partial \cr
 }
 }
 

@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 chnang2
 }
 \details{
-Question 580. I'm going to show you a list of things that people sometimes do to change their feelings. Did you do any of these things after you got angry or annoyed? b. Had a drink or took a pill
+Question I'm going to show you a list of things that people sometimes do to change their feelings. Did you do any of these things after you got angry or annoyed,... (INTERVIEWER CODE; CONTINUE WITH "Did you do any of these other things in addition to that?" UNTIL RESPONDENT SAYS NO. CIRCLE ALL TECHNIQUES MENTIONED. DO NOT READ ITEMS ON LIST.)
+B. Had a drink or took a pill
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} did
+\item \code{2} didnt
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1768/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllll}{
    year \tab iap \tab did \tab didnt \tab no answer \tab not available in this year \tab Total \cr
@@ -57,24 +78,36 @@ Counts by year:\tabular{lllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} did
-\item \code{2} didnt
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Emotions: 
+\code{\link{angrlast}},
+\code{\link{chnang1}},
+\code{\link{chnang3}},
+\code{\link{chnang4}},
+\code{\link{chnang5}},
+\code{\link{howangry}},
+\code{\link{madat22}},
+\code{\link{madat23}},
+\code{\link{thnkangr}}
+
+Other Feelings: 
+\code{\link{angrlast}},
+\code{\link{chnang1}},
+\code{\link{chnang3}},
+\code{\link{chnang4}},
+\code{\link{chnang5}},
+\code{\link{howangry}},
+\code{\link{madat22}},
+\code{\link{madat23}},
+\code{\link{thnkangr}}
+}
+\concept{Emotions}
+\concept{Feelings}
 \keyword{variable}

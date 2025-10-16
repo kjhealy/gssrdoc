@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 abcon1
 }
 \details{
-Question 208. And, as far as you've heard, what are the main arguments against abortion?
+Question And, as far as you've heard, what are the main arguments against abortion?  PROBE FOR CLARITY, AND PROBE FOR ADDITIONAL REASONS.
+A. First reason
 }
+\section{Values}{
+
+\itemize{
+\item \code{96} none
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/612/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllll}{
    year \tab iap \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 2 \tab 20 \tab 25 \tab 3 \tab 30 \tab 35 \tab 4 \tab 40 \tab 41 \tab 42 \tab 43 \tab 5 \tab 50 \tab 51 \tab 52 \tab 53 \tab 60 \tab no answer \tab none \tab not available in this year \tab Total \cr
@@ -57,23 +77,47 @@ Counts by year:\tabular{lllllllllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{96} none
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1982 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{abany}},
+\code{\link{abcon2}},
+\code{\link{abcon3}},
+\code{\link{abimp}},
+\code{\link{abinfo}},
+\code{\link{aborct}},
+\code{\link{abpro1}},
+\code{\link{abpro2}},
+\code{\link{abpro3}}
+
+Other Abortion: 
+\code{\link{abany}},
+\code{\link{abcon2}},
+\code{\link{abcon3}},
+\code{\link{abimp}},
+\code{\link{abinfo}},
+\code{\link{aborct}},
+\code{\link{abpro1}},
+\code{\link{abpro2}},
+\code{\link{abpro3}}
+
+Other Split Ballots: 
+\code{\link{abany}},
+\code{\link{abcon2}},
+\code{\link{abcon3}},
+\code{\link{abimp}},
+\code{\link{abinfo}},
+\code{\link{abpro1}},
+\code{\link{abpro2}},
+\code{\link{abpro3}}
+}
+\concept{Abortion}
+\concept{Core}
+\concept{Split Ballots}
 \keyword{variable}

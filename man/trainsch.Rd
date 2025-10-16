@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 trainsch
 }
 \details{
-Question 695b. In total, how many years have you spent (on such specialized training in school)?
+Question B. In total, how many years have you spent (on such specialized training in school)?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} less than one year
+\item \code{2} two years or less
+\item \code{3} four years or less
+\item \code{4} six years or less
+\item \code{5} eight years or less
+\item \code{6} over eight years
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2139/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab eight years or less \tab four years or less \tab less than one year \tab no answer \tab over eight years \tab six years or less \tab two years or less \tab not available in this year \tab Total \cr
@@ -57,28 +81,24 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} less than one year
-\item \code{2} two years or less
-\item \code{3} four years or less
-\item \code{4} six years or less
-\item \code{5} eight years or less
-\item \code{6} over eight years
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1998 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Jobs: 
+\code{\link{occtrain}},
+\code{\link{occyrs}},
+\code{\link{typeorg}}
+
+Other Job: 
+\code{\link{occtrain}},
+\code{\link{occyrs}},
+\code{\link{typeorg}}
+}
+\concept{Job}
+\concept{Jobs}
 \keyword{variable}

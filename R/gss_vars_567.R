@@ -1,11 +1,203 @@
+#'  Do not have a car
+#' 
+#'  oth5
+#' 
+#' Question Now, I'm going to ask you about various events and conditions that happen to people. I'm interested in those that happened to you during the last 12 months, that is since (CURRENT MONTH), (1990/2003). As I ask you about the specific events, please think carefully, so I can record things accurately. 
+#' H. And finally, since (CURRENT MONTH), (1990/2003), did any of the following occur to you? 
+#' 5. Did not have a car (one month or more).
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5193/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |no   |no answer |yes |not available in this year |Total |
+#'  |:-----|:-----|:----|:---------|:---|:--------------------------|:-----|
+#'  |1972  |1613  |-    |-         |-   |-                          |1613  |
+#'  |1973  |1504  |-    |-         |-   |-                          |1504  |
+#'  |1974  |1484  |-    |-         |-   |-                          |1484  |
+#'  |1975  |1490  |-    |-         |-   |-                          |1490  |
+#'  |1976  |1499  |-    |-         |-   |-                          |1499  |
+#'  |1977  |1530  |-    |-         |-   |-                          |1530  |
+#'  |1978  |1532  |-    |-         |-   |-                          |1532  |
+#'  |1980  |1468  |-    |-         |-   |-                          |1468  |
+#'  |1982  |1860  |-    |-         |-   |-                          |1860  |
+#'  |1983  |1599  |-    |-         |-   |-                          |1599  |
+#'  |1984  |1473  |-    |-         |-   |-                          |1473  |
+#'  |1985  |1534  |-    |-         |-   |-                          |1534  |
+#'  |1986  |1470  |-    |-         |-   |-                          |1470  |
+#'  |1987  |1819  |-    |-         |-   |-                          |1819  |
+#'  |1988  |1481  |-    |-         |-   |-                          |1481  |
+#'  |1989  |1537  |-    |-         |-   |-                          |1537  |
+#'  |1990  |1372  |-    |-         |-   |-                          |1372  |
+#'  |1991  |500   |882  |4         |131 |-                          |1517  |
+#'  |1993  |1606  |-    |-         |-   |-                          |1606  |
+#'  |1994  |2992  |-    |-         |-   |-                          |2992  |
+#'  |1996  |2904  |-    |-         |-   |-                          |2904  |
+#'  |1998  |2832  |-    |-         |-   |-                          |2832  |
+#'  |2000  |2817  |-    |-         |-   |-                          |2817  |
+#'  |2002  |2765  |-    |-         |-   |-                          |2765  |
+#'  |2004  |1472  |1208 |7         |125 |-                          |2812  |
+#'  |2006  |4510  |-    |-         |-   |-                          |4510  |
+#'  |2008  |2023  |-    |-         |-   |-                          |2023  |
+#'  |2010  |2044  |-    |-         |-   |-                          |2044  |
+#'  |2012  |1974  |-    |-         |-   |-                          |1974  |
+#'  |2014  |2538  |-    |-         |-   |-                          |2538  |
+#'  |2016  |2867  |-    |-         |-   |-                          |2867  |
+#'  |2018  |2348  |-    |-         |-   |-                          |2348  |
+#'  |2021  |4032  |-    |-         |-   |-                          |4032  |
+#'  |2022  |-     |-    |-         |-   |3544                       |3544  |
+#'  |2024  |-     |-    |-         |-   |3309                       |3309  |
+#'  |Total |66489 |2090 |11        |256 |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |B/C/-   |partial      |
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Negative Life Events
+#' @family Trauma
+#' 
+#' @keywords variable
+#' @md
+#' @name oth5
+NULL
+
+
+#'  Other problems
+#' 
+#'  extra1
+#' 
+#' Question Now, I'm going to ask you about various events and conditions that happen to people. I'm interested in those that happened to you during the last 12 months, that is since (CURRENT MONTH), (1990/2003). As I ask you about the specific events, please think carefully, so I can record things accurately. 
+#' I. Aside from the things we've already covered, what other important problems did you or members of your household have during the last 12 months? 
+#' PROBE FOR TWO MENTIONS. RECORD FIRST TWO MENTIONS BELOW. 
+#' 1. First mention.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5194/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |1   |10 |100 |104 |110 |120 |130 |131 |132 |140 |15 |150 |151 |16 |160 |165 |171 |175 |176 |180 |191 |2  |20 |200 |201 |202 |21 |210 |220 |230 |235 |237 |240 |26 |28 |30  |31 |4  |40 |41 |42 |43 |44 |5  |51 |55 |61 |63 |70 |72 |73 |74 |75 |78 |80 |83 |84 |85 |86 |90 |93 |94 |995 |996  |101 |103 |133 |134 |161 |166 |170 |172 |190 |211 |24 |25 |27 |29 |3  |46 |47 |50 |6  |65 |7  |76 |81 |91 |92 |96 |no answer |not available in this year |Total |
+#'  |:-----|:-----|:---|:--|:---|:---|:---|:---|:---|:---|:---|:---|:--|:---|:---|:--|:---|:---|:---|:---|:---|:---|:---|:--|:--|:---|:---|:---|:--|:---|:---|:---|:---|:---|:---|:--|:--|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:---|:----|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1613  |
+#'  |1973  |1504  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1504  |
+#'  |1974  |1484  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1484  |
+#'  |1975  |1490  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1490  |
+#'  |1976  |1499  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1499  |
+#'  |1977  |1530  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1530  |
+#'  |1978  |1532  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1532  |
+#'  |1980  |1468  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1468  |
+#'  |1982  |1860  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1860  |
+#'  |1983  |1599  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1599  |
+#'  |1984  |1473  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1473  |
+#'  |1985  |1534  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1534  |
+#'  |1986  |1470  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1470  |
+#'  |1987  |1819  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1819  |
+#'  |1988  |1481  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1481  |
+#'  |1989  |1537  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1537  |
+#'  |1990  |1372  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1372  |
+#'  |1991  |500   |67  |4  |1   |1   |2   |3   |1   |3   |2   |8   |1  |3   |2   |1  |2   |1   |1   |4   |3   |1   |3   |45 |13 |2   |3   |1   |1  |2   |3   |1   |3   |3   |7   |4  |4  |59  |3  |1  |2  |3  |1  |9  |1  |1  |1  |1  |1  |2  |4  |1  |13 |3  |3  |1  |4  |2  |2  |2  |3  |3  |2  |1  |1   |681  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1517  |
+#'  |1993  |1606  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1606  |
+#'  |1994  |2992  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2992  |
+#'  |1996  |2904  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2904  |
+#'  |1998  |2832  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2832  |
+#'  |2000  |2817  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2817  |
+#'  |2002  |2765  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2765  |
+#'  |2004  |1472  |56  |11 |1   |-   |2   |2   |2   |1   |1   |7   |1  |-   |-   |-  |-   |-   |-   |6   |1   |2   |4   |51 |7  |2   |3   |-   |2  |5   |-   |-   |7   |3   |22  |18 |2  |68  |3  |-  |-  |-  |-  |1  |3  |-  |-  |2  |-  |-  |7  |2  |17 |1  |-  |-  |2  |-  |1  |-  |1  |2  |4  |3  |-   |944  |1   |3   |1   |1   |1   |2   |5   |5   |11  |2   |1  |1  |1  |1  |2  |1  |2  |1  |1  |1  |1  |1  |2  |3  |1  |1  |7         |-                          |2812  |
+#'  |2006  |4510  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |4510  |
+#'  |2008  |2023  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2023  |
+#'  |2010  |2044  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2044  |
+#'  |2012  |1974  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |1974  |
+#'  |2014  |2538  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2538  |
+#'  |2016  |2867  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2867  |
+#'  |2018  |2348  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |2348  |
+#'  |2021  |4032  |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |-                          |4032  |
+#'  |2022  |-     |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |3544                       |3544  |
+#'  |2024  |-     |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |3309                       |3309  |
+#'  |Total |66489 |123 |15 |2   |1   |4   |5   |3   |4   |3   |15  |2  |3   |2   |1  |2   |1   |1   |10  |4   |3   |7   |96 |20 |4   |6   |1   |3  |7   |3   |1   |10  |6   |29  |22 |6  |127 |6  |1  |2  |3  |1  |10 |4  |1  |1  |3  |1  |2  |11 |3  |30 |4  |3  |1  |6  |2  |3  |2  |4  |5  |6  |4  |1   |1625 |1   |3   |1   |1   |1   |2   |5   |5   |11  |2   |1  |1  |1  |1  |2  |1  |2  |1  |1  |1  |1  |1  |2  |3  |1  |1  |7         |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |B/C/-   |partial      |
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Negative Life Events
+#' @family Life Events
+#' 
+#' @keywords variable
+#' @md
+#' @name extra1
+NULL
+
+
 #'  Other problems
 #' 
 #'  extra2
 #' 
-#' Question I. Aside from the things we've already covered, what other important problems did you or members of your household have during the last 12 months?
+#' Question Now, I'm going to ask you about various events and conditions that happen to people. I'm interested in those that happened to you during the last 12 months, that is since (CURRENT MONTH), (1990/2003). As I ask you about the specific events, please think carefully, so I can record things accurately. 
+#' I. Aside from the things we've already covered, what other important problems did you or members of your household have during the last 12 months? 
+#' PROBE FOR TWO MENTIONS. RECORD FIRST TWO MENTIONS BELOW. 
+#' 2. Second mention.
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5195/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,8 +240,38 @@
 #'  |2024  |-     |-  |-   |-   |-   |-   |-  |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-   |-    |-  |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |3309                       |3309  |
 #'  |Total |66489 |54 |4   |3   |2   |1   |2  |7   |1   |1  |2   |2   |1   |1   |4   |6   |2   |30 |6  |5   |1   |11  |2   |3   |2   |12  |19 |1  |2  |53 |6  |2  |3  |8  |4  |1  |1  |1  |2  |1  |9  |1  |19 |2  |3  |2  |5  |1  |6  |2  |1   |1983 |7  |3   |3   |4   |1   |2  |4  |1  |2  |1  |2  |1  |8  |1  |1  |1  |3  |1  |1  |2  |5         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1991 |B/C/-   |partial      |
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Negative Life Events
+#' @family Life Events
+#' 
+#' @keywords variable
+#' @md
+#' @name extra2
+NULL
+
+
+#'  R's hh poverty status
+#' 
+#'  povline
+#' 
+#' Question A. Poverty Status of Household
+#' 
+#' 
 #' @section Values: 
 #' 
+#'   * `1` poor
+#'   * `2` poor -- imputed
+#'   * `3` not poor
+#'   * `4` not poor -- imputed
+#'   * `5` borderline
+#'   * `6` borderline -- imputed
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -63,22 +285,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name extra2
-NULL
-
-#'  R's hh poverty status
-#' 
-#'  povline
-#' 
-#' Question 1576a. Poverty Status of Household
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5196/vshow).
 #'
 #' Counts by year: 
 #'
@@ -121,14 +329,59 @@ NULL
 #'  |2024  |-          |-                     |-             |-        |-                   |-    |-               |3309                       |-    |3309  |
 #'  |Total |1426       |33                    |260           |22446    |1902                |3032 |289             |42279                      |4032 |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Income
+#' @family Household
+#' @family Income
+#' @family Poverty
+#' 
+#' @keywords variable
+#' @md
+#' @name povline
+NULL
+
+
+#'  Distance below poverty line
+#' 
+#'  incdef
+#' 
+#' Question B. Income Deficit of Household
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` poor
-#'   * `2` poor -- imputed
-#'   * `3` not poor
-#'   * `4` not poor -- imputed
-#'   * `5` borderline
-#'   * `6` borderline -- imputed
+#'   * `1` ( -10,000
+#'   * `2` -10,000 to -5,000
+#'   * `3` -4,999 to -1,000
+#'   * `4` -999 to 999
+#'   * `5` 1,000 to 4,999
+#'   * `6` 5,000 to 9,999
+#'   * `7` 10,000 to 20,000
+#'   * `8` 20,001 +
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -142,22 +395,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name povline
-NULL
-
-#'  Distance below poverty line
-#' 
-#'  incdef
-#' 
-#' Question 1576b. Income Deficit of Household
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5197/vshow).
 #'
 #' Counts by year: 
 #'
@@ -200,44 +439,48 @@ NULL
 #'  |2024  |-                 |-                |-           |-              |-                |-        |-              |-             |-         |3309                       |-    |3309  |
 #'  |Total |662               |2049             |2142        |3953           |5704             |7351     |4769           |2591          |167       |42279                      |4032 |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` ( -10,000
-#'   * `2` -10,000 to -5,000
-#'   * `3` -4,999 to -1,000
-#'   * `4` -999 to 999
-#'   * `5` 1,000 to 4,999
-#'   * `6` 5,000 to 9,999
-#'   * `7` 10,000 to 20,000
-#'   * `8` 20,001 +
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Income
+#' @family Household
+#' @family Income
+#' @family Poverty
 #' 
 #' @keywords variable
 #' @md
 #' @name incdef
 NULL
 
+
 #'  Family income in constant $
 #' 
 #'  realinc
 #' 
-#' Question 1577. Family income on 1972-2006 surveys in constant dollars (base = 1986)
+#' Question Family income on 1972-2006 surveys in constant dollars (base = 1986)
 #' 
-#'
 #' 
 #' @section Values: 
 #' 
@@ -255,20 +498,63 @@ NULL
 #'   * `NA(z)` see codebook
 #'
 #'
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
 #' @source General Social Survey https://gss.norc.org
+#' @family Income
+#' @family Income
 #' 
 #' @keywords variable
 #' @md
 #' @name realinc
 NULL
 
+
 #'  R's income in constant $
 #' 
 #'  realrinc
 #' 
-#' Question 1578. Respondent's income on 1972-2006 surveys in constant dollars (base = 1986)
+#' Question Respondent's income on 1972-2006 surveys in constant dollars (base = 1986)
 #' 
-#'
 #' 
 #' @section Values: 
 #' 
@@ -286,20 +572,61 @@ NULL
 #'   * `NA(z)` see codebook
 #'
 #'
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
 #' @source General Social Survey https://gss.norc.org
+#' @family Income
+#' @family Income
 #' 
 #' @keywords variable
 #' @md
 #' @name realrinc
 NULL
 
+
 #'  Family income in constant dollars
 #' 
 #'  coninc
 #' 
-#' Question 1657. Inflation-adjusted family income.
+#' Question Inflation-adjusted family income.
 #' 
-#'
 #' 
 #' @section Values: 
 #' 
@@ -317,20 +644,63 @@ NULL
 #'   * `NA(z)` see codebook
 #'
 #'
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
 #' @source General Social Survey https://gss.norc.org
+#' @family Income
+#' @family Income
 #' 
 #' @keywords variable
 #' @md
 #' @name coninc
 NULL
 
+
 #'  Respondent income in constant dollars
 #' 
 #'  conrinc
 #' 
-#' Question 1658. Inflation-adjusted personal income.
+#' Question Inflation-adjusted personal income.
 #' 
-#'
 #' 
 #' @section Values: 
 #' 
@@ -348,21 +718,79 @@ NULL
 #'   * `NA(z)` see codebook
 #'
 #'
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#'
 #' @source General Social Survey https://gss.norc.org
+#' @family Income
+#' @family Income
 #' 
 #' @keywords variable
 #' @md
 #' @name conrinc
 NULL
 
+
 #'  Imputed poverty line for family of four
 #' 
 #'  minfour
 #' 
-#' Question 1579. People who have incomes below a certain level can be considered poor. That level is called the "poverty line." What Amount of weekly income would you use as a poverty line for a family of four (husband, wife, and two children) in this community?
+#' Question People who have incomes below a certain level can be considered poor. That level is called the "poverty  line."What amount of weekly income would you use as a poverty line for a family of four (husband, wife, and two children) in this community?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5202/vshow).
 #'
 #' Counts by year: 
 #'
@@ -405,172 +833,19 @@ NULL
 #'  |2024  |-     |-   |-    |-   |-    |-    |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-    |-   |-   |-  |-   |-   |-   |-   |-   |-    |-  |-   |-   |-  |-  |-         |3309                       |3309  |
 #'  |Total |67240 |44  |18   |1   |1    |1    |6   |3   |1   |51  |2    |1   |3   |2   |7   |247 |1   |1   |4   |1   |2   |1  |121 |1   |3   |3   |4   |1   |2  |269 |1   |2   |2   |4   |1   |1   |1   |56  |1   |4   |1   |8   |200 |2   |13  |1   |1   |3   |2  |192 |1    |1   |3   |1  |48  |1   |1   |1   |10  |1    |2  |5   |12  |1  |1  |219       |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1993 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Income
+#' @family Income
 #' 
 #' @keywords variable
 #' @md
 #' @name minfour
 NULL
 
-#'  Imputed wkly food spending for pov line fam of 4
-#' 
-#'  minfood
-#' 
-#' Question 1580. Now more specifically, thinking about that family of four at the "poverty line," what would you say that family needs to spend each week on food, in this community?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |10 |100 |110 |112 |115 |120 |125 |13 |130 |140 |150 |160 |170 |175 |180 |20 |200 |225 |25 |250 |30 |300 |35 |350 |37 |40 |400 |45 |50  |500 |55 |60 |600 |65 |70 |710 |75  |80 |85 |88 |90 |95 |no answer |not available in this year |Total |
-#'  |:-----|:-----|:--|:---|:---|:---|:---|:---|:---|:--|:---|:---|:---|:---|:---|:---|:---|:--|:---|:---|:--|:---|:--|:---|:--|:---|:--|:--|:---|:--|:---|:---|:--|:--|:---|:--|:--|:---|:---|:--|:--|:--|:--|:--|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |1613  |
-#'  |1973  |1504  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |1504  |
-#'  |1974  |1484  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |1484  |
-#'  |1975  |1490  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |1490  |
-#'  |1976  |1499  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |1499  |
-#'  |1977  |1530  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |1530  |
-#'  |1978  |1532  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |1532  |
-#'  |1980  |1468  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |1468  |
-#'  |1982  |1860  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |1860  |
-#'  |1983  |1599  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |1599  |
-#'  |1984  |1473  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |1473  |
-#'  |1985  |1534  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |1534  |
-#'  |1986  |1470  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |1470  |
-#'  |1987  |1819  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |1819  |
-#'  |1988  |1481  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |1481  |
-#'  |1989  |1537  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |1537  |
-#'  |1990  |1372  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |1372  |
-#'  |1991  |1517  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |1517  |
-#'  |1993  |1     |2  |472 |4   |1   |1   |24  |59  |1  |8   |2   |179 |3   |3   |3   |2   |3  |105 |1   |7  |6   |4  |14  |2  |1   |1  |18 |4   |1  |127 |1   |2  |59 |1   |12 |46 |1   |160 |82 |5  |1  |21 |1  |155       |-                          |1606  |
-#'  |1994  |2992  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |2992  |
-#'  |1996  |2904  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |2904  |
-#'  |1998  |2832  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |2832  |
-#'  |2000  |2817  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |2817  |
-#'  |2002  |2765  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |2765  |
-#'  |2004  |2812  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |2812  |
-#'  |2006  |4510  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |4510  |
-#'  |2008  |2023  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |2023  |
-#'  |2010  |2044  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |2044  |
-#'  |2012  |1974  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |1974  |
-#'  |2014  |2538  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |2538  |
-#'  |2016  |2867  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |2867  |
-#'  |2018  |2348  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |2348  |
-#'  |2021  |4032  |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |-                          |4032  |
-#'  |2022  |-     |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |3544                       |3544  |
-#'  |2024  |-     |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-  |-   |-   |-  |-  |-   |-  |-  |-   |-   |-  |-  |-  |-  |-  |-         |3309                       |3309  |
-#'  |Total |67241 |2  |472 |4   |1   |1   |24  |59  |1  |8   |2   |179 |3   |3   |3   |2   |3  |105 |1   |7  |6   |4  |14  |2  |1   |1  |18 |4   |1  |127 |1   |2  |59 |1   |12 |46 |1   |160 |82 |5  |1  |21 |1  |155       |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name minfood
-NULL
-
-#'  Imputed poverty line for family of three
-#' 
-#'  minthree
-#' 
-#' Question 1581. And finally, what amount of weekly income would you use as a "poverty line" for a family of three, made up of a woman and two children, in this community?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |100 |1000 |110 |115 |120 |1200 |125 |130 |135 |140 |145 |150 |153 |154 |160 |165 |170 |175 |180 |185 |190 |200 |210 |220 |225 |230 |231 |25 |250 |270 |275 |280 |288 |290 |295 |30 |300 |305 |307 |325 |326 |340 |346 |350 |360 |3700 |375 |380 |384 |385 |400 |420 |425 |45 |450 |461 |480 |50 |500 |550 |60 |600 |65 |650 |673 |70 |700 |75 |750 |80 |800 |85 |90 |950 |don't know |no answer |not available in this year |Total |
-#'  |:-----|:-----|:---|:----|:---|:---|:---|:----|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:--|:---|:---|:---|:---|:---|:---|:---|:--|:---|:---|:---|:---|:---|:---|:---|:---|:---|:----|:---|:---|:---|:---|:---|:---|:---|:--|:---|:---|:---|:--|:---|:---|:--|:---|:--|:---|:---|:--|:---|:--|:---|:--|:---|:--|:--|:---|:----------|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |1613  |
-#'  |1973  |1504  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |1504  |
-#'  |1974  |1484  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |1484  |
-#'  |1975  |1490  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |1490  |
-#'  |1976  |1499  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |1499  |
-#'  |1977  |1530  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |1530  |
-#'  |1978  |1532  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |1532  |
-#'  |1980  |1468  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |1468  |
-#'  |1982  |1860  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |1860  |
-#'  |1983  |1599  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |1599  |
-#'  |1984  |1473  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |1473  |
-#'  |1985  |1534  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |1534  |
-#'  |1986  |1470  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |1470  |
-#'  |1987  |1819  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |1819  |
-#'  |1988  |1481  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |1481  |
-#'  |1989  |1537  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |1537  |
-#'  |1990  |1372  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |1372  |
-#'  |1991  |1517  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |1517  |
-#'  |1993  |-     |51  |10   |3   |1   |3   |1    |15  |2   |1   |1   |1   |113 |1   |1   |3   |1   |3   |44  |4   |1   |2   |252 |1   |2   |17  |3   |2   |1  |142 |2   |17  |1   |5   |1   |1   |2  |214 |1   |1   |6   |1   |1   |2   |88  |1   |1    |10  |3   |1   |1   |134 |1   |2   |1  |23  |1   |2   |8  |93  |3   |3  |19  |2  |2   |1   |2  |9   |11 |4   |4  |7   |3  |5  |1   |1          |222       |-                          |1606  |
-#'  |1994  |2992  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |2992  |
-#'  |1996  |2904  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |2904  |
-#'  |1998  |2832  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |2832  |
-#'  |2000  |2817  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |2817  |
-#'  |2002  |2765  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |2765  |
-#'  |2004  |2812  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |2812  |
-#'  |2006  |4510  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |4510  |
-#'  |2008  |2023  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |2023  |
-#'  |2010  |2044  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |2044  |
-#'  |2012  |1974  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |1974  |
-#'  |2014  |2538  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |2538  |
-#'  |2016  |2867  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |2867  |
-#'  |2018  |2348  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |2348  |
-#'  |2021  |4032  |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |-                          |4032  |
-#'  |2022  |-     |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |3544                       |3544  |
-#'  |2024  |-     |-   |-    |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-  |-   |-   |-  |-   |-  |-   |-   |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |3309                       |3309  |
-#'  |Total |67240 |51  |10   |3   |1   |3   |1    |15  |2   |1   |1   |1   |113 |1   |1   |3   |1   |3   |44  |4   |1   |2   |252 |1   |2   |17  |3   |2   |1  |142 |2   |17  |1   |5   |1   |1   |2  |214 |1   |1   |6   |1   |1   |2   |88  |1   |1    |10  |3   |1   |1   |134 |1   |2   |1  |23  |1   |2   |8  |93  |3   |3  |19  |2  |2   |1   |2  |9   |11 |4   |4  |7   |3  |5  |1   |1          |222       |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name minthree
-NULL
 

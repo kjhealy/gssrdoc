@@ -12,9 +12,30 @@ newjobs
 \details{
 Question On average, do you think the jobs that have been created in the United States for people with jobs like yours are better than your job (with higher pay and better benefits) or worse?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} better
+\item \code{2} about the same
+\item \code{3} worse
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3885/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab about the same \tab better \tab don't know \tab no answer \tab worse \tab not available in this year \tab Total \cr
@@ -57,25 +78,51 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} better
-\item \code{2} about the same
-\item \code{3} worse
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2008 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Global Economics: 
+\code{\link{findnwjb}},
+\code{\link{losejb12}},
+\code{\link{lostjobs}},
+\code{\link{whyjbct2}},
+\code{\link{whylose1}},
+\code{\link{whylose2}},
+\code{\link{whylose3}},
+\code{\link{wkcomptr}}
+
+Other Employment: 
+\code{\link{losejb12}},
+\code{\link{lostjobs}},
+\code{\link{moretrde}},
+\code{\link{whyjbct2}},
+\code{\link{whylose1}},
+\code{\link{whylose2}},
+\code{\link{whylose3}}
+
+Other Job: 
+\code{\link{findnwjb}},
+\code{\link{losejb12}},
+\code{\link{lostjobs}},
+\code{\link{moretrde}},
+\code{\link{whyjbct2}},
+\code{\link{wkcomptr}}
+
+Other Unemployment: 
+\code{\link{losejb12}},
+\code{\link{lostjobs}},
+\code{\link{moretrde}},
+\code{\link{whyjbct2}}
+}
+\concept{Employment}
+\concept{Global Economics}
+\concept{Job}
+\concept{Technology}
+\concept{Unemployment}
+\concept{Work}
 \keyword{variable}

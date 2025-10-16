@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 strsswrk
 }
 \details{
-Question 1315. To what extent do you agree or disagree? d. My job is rarely stressful
+Question To what extent do you agree or disagree?
+D. My job is rarely stressful
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} strongly agree
+\item \code{2} agree
+\item \code{3} neither agree nor disagree
+\item \code{4} disagree
+\item \code{5} strongly disagree
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4446/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab agree \tab can't choose \tab disagree \tab neither agree nor disagree \tab no answer \tab strongly agree \tab strongly disagree \tab not available in this year \tab Total \cr
@@ -57,27 +81,34 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} strongly agree
-\item \code{2} agree
-\item \code{3} neither agree nor disagree
-\item \code{4} disagree
-\item \code{5} strongly disagree
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Family & Gender Roles: 
+\code{\link{buythngs}},
+\code{\link{famvswrk}},
+\code{\link{jobvsfam}},
+\code{\link{strsshme}},
+\code{\link{timehome}},
+\code{\link{timework}},
+\code{\link{tiredhme}},
+\code{\link{tiredwrk}},
+\code{\link{weekend}}
+
+Other Work: 
+\code{\link{famvswrk}},
+\code{\link{jobvsfam}},
+\code{\link{strsshme}},
+\code{\link{timehome}},
+\code{\link{timework}},
+\code{\link{tiredhme}},
+\code{\link{tiredwrk}}
+}
+\concept{ISSP Family & Gender Roles}
+\concept{Work}
 \keyword{variable}

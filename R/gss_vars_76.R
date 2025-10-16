@@ -1,11 +1,145 @@
+#'  Citizen attempting to escape custody
+#' 
+#'  polescap
+#' 
+#' Question Are there any situations you can imagine in which you would approve of a policeman striking an adult male citizen? 
+#' C. Was attempting to escape from custody?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/673/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no    |no answer |yes   |skipped on web |Total |
+#'  |:-----|:-----|:----------|:-----|:---------|:-----|:--------------|:-----|
+#'  |1972  |1613  |-          |-     |-         |-     |-              |1613  |
+#'  |1973  |380   |18         |131   |4         |971   |-              |1504  |
+#'  |1974  |1484  |-          |-     |-         |-     |-              |1484  |
+#'  |1975  |343   |38         |123   |8         |978   |-              |1490  |
+#'  |1976  |-     |59         |273   |6         |1161  |-              |1499  |
+#'  |1977  |1530  |-          |-     |-         |-     |-              |1530  |
+#'  |1978  |-     |54         |332   |2         |1144  |-              |1532  |
+#'  |1980  |-     |62         |293   |7         |1106  |-              |1468  |
+#'  |1982  |1860  |-          |-     |-         |-     |-              |1860  |
+#'  |1983  |-     |63         |335   |2         |1199  |-              |1599  |
+#'  |1984  |-     |52         |342   |15        |1064  |-              |1473  |
+#'  |1985  |1534  |-          |-     |-         |-     |-              |1534  |
+#'  |1986  |-     |55         |358   |3         |1054  |-              |1470  |
+#'  |1987  |-     |101        |382   |8         |1328  |-              |1819  |
+#'  |1988  |484   |45         |191   |6         |755   |-              |1481  |
+#'  |1989  |502   |42         |205   |6         |782   |-              |1537  |
+#'  |1990  |473   |44         |191   |1         |663   |-              |1372  |
+#'  |1991  |500   |51         |264   |8         |694   |-              |1517  |
+#'  |1993  |549   |48         |239   |3         |767   |-              |1606  |
+#'  |1994  |981   |84         |420   |12        |1495  |-              |2992  |
+#'  |1996  |979   |99         |513   |7         |1306  |-              |2904  |
+#'  |1998  |921   |95         |518   |6         |1292  |-              |2832  |
+#'  |2000  |921   |89         |535   |13        |1259  |-              |2817  |
+#'  |2002  |1853  |76         |224   |1         |611   |-              |2765  |
+#'  |2004  |1936  |58         |223   |2         |593   |-              |2812  |
+#'  |2006  |2521  |121        |503   |1         |1364  |-              |4510  |
+#'  |2008  |658   |47         |340   |1         |977   |-              |2023  |
+#'  |2010  |667   |59         |397   |4         |917   |-              |2044  |
+#'  |2012  |636   |62         |329   |-         |947   |-              |1974  |
+#'  |2014  |851   |91         |519   |1         |1076  |-              |2538  |
+#'  |2016  |911   |73         |589   |4         |1290  |-              |2867  |
+#'  |2018  |785   |91         |462   |3         |1007  |-              |2348  |
+#'  |2021  |1360  |11         |1060  |2         |1579  |20             |4032  |
+#'  |2022  |1173  |34         |932   |4         |1390  |11             |3544  |
+#'  |2024  |1116  |29         |845   |6         |1297  |16             |3309  |
+#'  |Total |29521 |1851       |12068 |146       |32066 |47             |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'  |1996 |B/C     |partial      |
+#'  |1998 |B/C     |partial      |
+#'  |2000 |B/C     |partial      |
+#'  |2002 |B/C     |partial      |
+#'  |2004 |B/C     |partial      |
+#'  |2006 |B/C     |partial      |
+#'  |2008 |B/C     |partial      |
+#'  |2010 |B/C     |partial      |
+#'  |2012 |B/C     |partial      |
+#'  |2014 |B/C     |partial      |
+#'  |2016 |B/C     |partial      |
+#'  |2018 |B/C     |partial      |
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'  |2024 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Police
+#' @family Violence
+#' 
+#' @keywords variable
+#' @md
+#' @name polescap
+NULL
+
+
 #'  Citizen attacking policeman with fists
 #' 
 #'  polattak
 #' 
-#' Question 232. If yes or not sure: Would you approve of a policeman striking a citizen who: d. Was attacking the policeman with his fists?
+#' Question Are there any situations you can imagine in which you would approve of a policeman striking an adult male citizen? 
+#' D. Was attacking the policeman with his fists?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/674/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +182,59 @@
 #'  |2024  |2198  |10         |230  |-         |864   |7              |3309  |
 #'  |Total |33142 |573        |3948 |103       |37911 |22             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'  |1996 |B/C     |partial      |
+#'  |1998 |B/C     |partial      |
+#'  |2000 |B/C     |partial      |
+#'  |2002 |B/C     |partial      |
+#'  |2004 |B/C     |partial      |
+#'  |2006 |B/C     |partial      |
+#'  |2008 |B/C     |partial      |
+#'  |2010 |B/C     |partial      |
+#'  |2012 |B/C     |partial      |
+#'  |2014 |B/C     |partial      |
+#'  |2016 |B/C     |partial      |
+#'  |2018 |B/C     |partial      |
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'  |2024 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Police
+#' @family Violence
+#' 
+#' @keywords variable
+#' @md
+#' @name polattak
+NULL
+
+
+#'  Afraid to walk at night in neighborhood
+#' 
+#'  fear
+#' 
+#' Question Is there any area right around here--that is, within a mile--where you would be afraid to walk alone at night?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -65,22 +252,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name polattak
-NULL
-
-#'  Afraid to walk at night in neighborhood
-#' 
-#'  fear
-#' 
-#' Question 233. Is there any area right around here - that is, within a mile - where you would be afraid to walk alone at night?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/675/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,6 +296,59 @@ NULL
 #'  |2024  |1067  |11         |1457  |1         |766   |7              |3309  |
 #'  |Total |27312 |294        |29250 |70        |18754 |19             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/C/-   |partial      |
+#'  |1989 |A/C/-   |partial      |
+#'  |1990 |A/C/-   |partial      |
+#'  |1991 |A/C/-   |partial      |
+#'  |1993 |A/C/-   |partial      |
+#'  |1994 |A/C/-   |partial      |
+#'  |1996 |A/C/-   |partial      |
+#'  |1998 |A/C/-   |partial      |
+#'  |2000 |A/C/-   |partial      |
+#'  |2002 |A/C/-   |partial      |
+#'  |2004 |A/C/-   |partial      |
+#'  |2006 |A/C/-   |partial      |
+#'  |2008 |A/C/-   |partial      |
+#'  |2010 |A/C/-   |partial      |
+#'  |2012 |A/C/-   |partial      |
+#'  |2014 |A/C/-   |partial      |
+#'  |2016 |A/C/-   |partial      |
+#'  |2018 |A/C/-   |partial      |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/C/-   |partial      |
+#'  |2024 |A/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Crime
+#' @family Residence
+#' 
+#' @keywords variable
+#' @md
+#' @name fear
+NULL
+
+
+#'  Does r feel safe and secure at home
+#' 
+#'  fearhome
+#' 
+#' Question How about at home at night--do you feel safe and secure, or not?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -140,22 +366,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name fear
-NULL
-
-#'  Does r feel safe and secure at home
-#' 
-#'  fearhome
-#' 
-#' Question 234. How about at home at night - do you feel safe and secure, or not?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/676/vshow).
 #'
 #' Counts by year: 
 #'
@@ -198,6 +410,30 @@ NULL
 #'  |2024  |-     |-          |-   |-         |-    |3309                       |3309  |
 #'  |Total |66986 |11         |277 |18        |1554 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1982 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Crime
+#' @family Residence
+#' 
+#' @keywords variable
+#' @md
+#' @name fearhome
+NULL
+
+
+#'  Home broken into during the last year
+#' 
+#'  burglr
+#' 
+#' Question During the last year--that is, between last March and now--did anyone break into or somehow illegally get into your (apartment/home)?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -215,22 +451,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name fearhome
-NULL
-
-#'  Home broken into during the last year
-#' 
-#'  burglr
-#' 
-#' Question 235. During the last year - that is, between last March and now - did anyone break into or somehow illegally get into your (apartment/home)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/677/vshow).
 #'
 #' Counts by year: 
 #'
@@ -273,6 +495,43 @@ NULL
 #'  |2024  |-     |-     |-    |-         |-          |3309                       |3309  |
 #'  |Total |48455 |18945 |1406 |39        |1          |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |A/C     |partial      |
+#'  |1989 |A/C     |partial      |
+#'  |1990 |A/C     |partial      |
+#'  |1991 |A/C     |partial      |
+#'  |1993 |A/C     |partial      |
+#'  |1994 |A/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Burglary
+#' 
+#' @keywords variable
+#' @md
+#' @name burglr
+NULL
+
+
+#'  Forcefully robbed during the last year
+#' 
+#'  robbry
+#' 
+#' Question During the last year, did anyone take something directly from you by using force--such as a stickup, mugging, or threat?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -290,22 +549,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name burglr
-NULL
-
-#'  Forcefully robbed during the last year
-#' 
-#'  robbry
-#' 
-#' Question 236. During the last year, did anyone take something directly from you by using force -- such as a stickup, mugging, or threat?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/678/vshow).
 #'
 #' Counts by year: 
 #'
@@ -348,10 +593,48 @@ NULL
 #'  |2024  |-     |-     |-         |-   |3309                       |3309  |
 #'  |Total |48455 |19898 |66        |427 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |A/C     |partial      |
+#'  |1989 |A/C     |partial      |
+#'  |1990 |A/C     |partial      |
+#'  |1991 |A/C     |partial      |
+#'  |1993 |A/C     |partial      |
+#'  |1994 |A/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Robbery
+#' 
+#' @keywords variable
+#' @md
+#' @name robbry
+NULL
+
+
+#'  Have gun in home
+#' 
+#'  owngun
+#' 
+#' Question Do you happen to have in your home (IF HOUSE:  or garage) any guns or revolvers?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
 #'   * `2` no
+#'   * `3` refused
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -365,22 +648,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name robbry
-NULL
-
-#'  Have gun in home
-#' 
-#'  owngun
-#' 
-#' Question 237. Do you happen to have in your home (or garage) any guns or revolvers?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/679/vshow).
 #'
 #' Counts by year: 
 #'
@@ -423,6 +692,59 @@ NULL
 #'  |2024  |1067  |1384  |-         |36      |786   |3          |33             |3309  |
 #'  |Total |27312 |28935 |103       |548     |18586 |50         |165            |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/C/-   |partial      |
+#'  |1989 |A/C/-   |partial      |
+#'  |1990 |A/C/-   |partial      |
+#'  |1991 |A/C/-   |partial      |
+#'  |1993 |A/C/-   |partial      |
+#'  |1994 |A/C/-   |partial      |
+#'  |1996 |A/C/-   |partial      |
+#'  |1998 |A/C/-   |partial      |
+#'  |2000 |A/C/-   |partial      |
+#'  |2002 |A/C/-   |partial      |
+#'  |2004 |A/C/-   |partial      |
+#'  |2006 |A/C/-   |partial      |
+#'  |2008 |A/C/-   |partial      |
+#'  |2010 |A/C/-   |partial      |
+#'  |2012 |A/C/-   |partial      |
+#'  |2014 |A/C/-   |partial      |
+#'  |2016 |A/C/-   |partial      |
+#'  |2018 |A/C/-   |partial      |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/C/-   |partial      |
+#'  |2024 |A/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Guns
+#' 
+#' @keywords variable
+#' @md
+#' @name owngun
+NULL
+
+
+#'  Pistol or revolver in home
+#' 
+#'  pistol
+#' 
+#' Question Do you happen to have in your home (IF HOUSE:  or garage) any guns or revolvers? 
+#' A. IF YES:  Is it a pistol, shotgun, rifle, or what?  CODE ALL THAT APPLY. (Coded if Pistol)
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -441,22 +763,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name owngun
-NULL
-
-#'  Pistol or revolver in home
-#' 
-#'  pistol
-#' 
-#' Question 237a. If yes: Is it a pistol, shotgun, rigfle, or what? PISTOL OR REVOLVER
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/680/vshow).
 #'
 #' Counts by year: 
 #'
@@ -499,6 +807,59 @@ NULL
 #'  |2024  |1067  |1515  |11        |72      |596   |36         |12             |3309  |
 #'  |Total |27335 |36464 |195       |745     |10760 |172        |28             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/C/-   |partial      |
+#'  |1989 |A/C/-   |partial      |
+#'  |1990 |A/C/-   |partial      |
+#'  |1991 |A/C/-   |partial      |
+#'  |1993 |A/C/-   |partial      |
+#'  |1994 |A/C/-   |partial      |
+#'  |1996 |A/C/-   |partial      |
+#'  |1998 |A/C/-   |partial      |
+#'  |2000 |A/C/-   |partial      |
+#'  |2002 |A/C/-   |partial      |
+#'  |2004 |A/C/-   |partial      |
+#'  |2006 |A/C/-   |partial      |
+#'  |2008 |A/C/-   |partial      |
+#'  |2010 |A/C/-   |partial      |
+#'  |2012 |A/C/-   |partial      |
+#'  |2014 |A/C/-   |partial      |
+#'  |2016 |A/C/-   |partial      |
+#'  |2018 |A/C/-   |partial      |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/C/-   |partial      |
+#'  |2024 |A/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Guns
+#' 
+#' @keywords variable
+#' @md
+#' @name pistol
+NULL
+
+
+#'  Shotgun in home
+#' 
+#'  shotgun
+#' 
+#' Question Do you happen to have in your home (IF HOUSE:  or garage) any guns or revolvers? 
+#' A. IF YES:  Is it a pistol, shotgun, rifle, or what?  CODE ALL THAT APPLY. (Coded if shotgun)
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -517,22 +878,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name pistol
-NULL
-
-#'  Shotgun in home
-#' 
-#'  shotgun
-#' 
-#' Question 237a. If yes: Is it a pistol, shotgun, rigfle, or what? SHOTGUN
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/681/vshow).
 #'
 #' Counts by year: 
 #'
@@ -575,6 +922,59 @@ NULL
 #'  |2024  |1067  |1710  |11        |72      |401   |36         |12             |3309  |
 #'  |Total |27335 |36258 |195       |745     |10967 |171        |28             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/C/-   |partial      |
+#'  |1989 |A/C/-   |partial      |
+#'  |1990 |A/C/-   |partial      |
+#'  |1991 |A/C/-   |partial      |
+#'  |1993 |A/C/-   |partial      |
+#'  |1994 |A/C/-   |partial      |
+#'  |1996 |A/C/-   |partial      |
+#'  |1998 |A/C/-   |partial      |
+#'  |2000 |A/C/-   |partial      |
+#'  |2002 |A/C/-   |partial      |
+#'  |2004 |A/C/-   |partial      |
+#'  |2006 |A/C/-   |partial      |
+#'  |2008 |A/C/-   |partial      |
+#'  |2010 |A/C/-   |partial      |
+#'  |2012 |A/C/-   |partial      |
+#'  |2014 |A/C/-   |partial      |
+#'  |2016 |A/C/-   |partial      |
+#'  |2018 |A/C/-   |partial      |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/C/-   |partial      |
+#'  |2024 |A/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Guns
+#' 
+#' @keywords variable
+#' @md
+#' @name shotgun
+NULL
+
+
+#'  Rifle in home
+#' 
+#'  rifle
+#' 
+#' Question Do you happen to have in your home (IF HOUSE:  or garage) any guns or revolvers? 
+#' A. IF YES:  Is it a pistol, shotgun, rifle, or what?  CODE ALL THAT APPLY. (Coded if rifle)
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -593,22 +993,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name shotgun
-NULL
-
-#'  Rifle in home
-#' 
-#'  rifle
-#' 
-#' Question 237a. If yes: Is it a pistol, shotgun, rigfle, or what? RIFLE
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/682/vshow).
 #'
 #' Counts by year: 
 #'
@@ -651,105 +1037,48 @@ NULL
 #'  |2024  |1067  |1709  |11        |72      |402   |36         |12             |3309  |
 #'  |Total |27335 |36370 |193       |745     |10855 |173        |28             |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `3` refused
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/C/-   |partial      |
+#'  |1989 |A/C/-   |partial      |
+#'  |1990 |A/C/-   |partial      |
+#'  |1991 |A/C/-   |partial      |
+#'  |1993 |A/C/-   |partial      |
+#'  |1994 |A/C/-   |partial      |
+#'  |1996 |A/C/-   |partial      |
+#'  |1998 |A/C/-   |partial      |
+#'  |2000 |A/C/-   |partial      |
+#'  |2002 |A/C/-   |partial      |
+#'  |2004 |A/C/-   |partial      |
+#'  |2006 |A/C/-   |partial      |
+#'  |2008 |A/C/-   |partial      |
+#'  |2010 |A/C/-   |partial      |
+#'  |2012 |A/C/-   |partial      |
+#'  |2014 |A/C/-   |partial      |
+#'  |2016 |A/C/-   |partial      |
+#'  |2018 |A/C/-   |partial      |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/C/-   |partial      |
+#'  |2024 |A/C/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Guns
 #' 
 #' @keywords variable
 #' @md
 #' @name rifle
 NULL
 
-#'  Does gun belong to r
-#' 
-#'  rowngun
-#' 
-#' Question 237b. Do any of these guns personally belong to you?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |no   |no answer |refused |yes   |don't know |skipped on web |Total |
-#'  |:-----|:-----|:----|:---------|:-------|:-----|:----------|:--------------|:-----|
-#'  |1972  |1613  |-    |-         |-       |-     |-          |-              |1613  |
-#'  |1973  |1504  |-    |-         |-       |-     |-          |-              |1504  |
-#'  |1974  |1484  |-    |-         |-       |-     |-          |-              |1484  |
-#'  |1975  |1490  |-    |-         |-       |-     |-          |-              |1490  |
-#'  |1976  |1499  |-    |-         |-       |-     |-          |-              |1499  |
-#'  |1977  |1530  |-    |-         |-       |-     |-          |-              |1530  |
-#'  |1978  |1532  |-    |-         |-       |-     |-          |-              |1532  |
-#'  |1980  |761   |250  |40        |5       |412   |-          |-              |1468  |
-#'  |1982  |1022  |261  |45        |23      |509   |-          |-              |1860  |
-#'  |1983  |1599  |-    |-         |-       |-     |-          |-              |1599  |
-#'  |1984  |796   |285  |8         |9       |375   |-          |-              |1473  |
-#'  |1985  |842   |232  |7         |10      |443   |-          |-              |1534  |
-#'  |1986  |1470  |-    |-         |-       |-     |-          |-              |1470  |
-#'  |1987  |1032  |275  |20        |10      |482   |-          |-              |1819  |
-#'  |1988  |1075  |147  |9         |12      |238   |-          |-              |1481  |
-#'  |1989  |1059  |184  |8         |-       |286   |-          |-              |1537  |
-#'  |1990  |975   |130  |12        |-       |255   |-          |-              |1372  |
-#'  |1991  |1107  |134  |22        |-       |254   |-          |-              |1517  |
-#'  |1993  |1145  |141  |4         |7       |309   |-          |-              |1606  |
-#'  |1994  |2156  |253  |20        |5       |555   |3          |-              |2992  |
-#'  |1996  |2125  |254  |6         |7       |512   |-          |-              |2904  |
-#'  |1998  |2166  |222  |11        |6       |427   |-          |-              |2832  |
-#'  |2000  |2187  |187  |4         |23      |416   |-          |-              |2817  |
-#'  |2002  |2446  |71   |-         |9       |239   |-          |-              |2765  |
-#'  |2004  |2474  |83   |5         |16      |234   |-          |-              |2812  |
-#'  |2006  |3816  |214  |-         |30      |449   |1          |-              |4510  |
-#'  |2008  |1544  |137  |-         |15      |327   |-          |-              |2023  |
-#'  |2010  |1608  |118  |-         |42      |275   |1          |-              |2044  |
-#'  |2012  |1510  |139  |-         |26      |299   |-          |-              |1974  |
-#'  |2014  |1955  |147  |-         |55      |380   |1          |-              |2538  |
-#'  |2016  |2224  |186  |-         |53      |404   |-          |-              |2867  |
-#'  |2018  |1772  |170  |-         |41      |365   |-          |-              |2348  |
-#'  |2021  |2532  |340  |-         |117     |1036  |-          |7              |4032  |
-#'  |2022  |2717  |187  |-         |69      |567   |1          |3              |3544  |
-#'  |2024  |2454  |204  |-         |69      |578   |-          |4              |3309  |
-#'  |Total |59221 |4951 |221       |659     |10626 |7          |14             |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `3` refused
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name rowngun
-NULL
 

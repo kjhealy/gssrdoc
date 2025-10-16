@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 spanint
 }
 \details{
-Question 1668. Before 2006 the GSS was only administered in English. Those without enough English to do the interview were excluded as out-of-scope, language problems. In 2006 a Spanish version of the GSS was added. If there had been no Spanish version available in 2006, could this respondent have been interviewed in English or do you think (s/he) would have been excluded as a language problem?
+Question Before 2006 the GSS was only administered in English. Those without enough English to do the interview were excluded as out-of-scope, language problems. In 2006 a Spanish version of the GSS was added. If there had been no Spanish version available in 2006, could this respondent have been interviewed in English or do you think (s/he) would have been excluded as a language problem?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} could have been interviewed in english
+\item \code{2} would have been excluded as language problem
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5583/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab could have been interviewed in english \tab would have been excluded as language problem \tab don't know \tab no answer \tab not available in this release \tab Total \cr
@@ -57,24 +77,36 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} could have been interviewed in english
-\item \code{2} would have been excluded as language problem
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab A/B/C/D \tab full \cr
+   2008 \tab A/B/C/- \tab full \cr
+   2012 \tab A/B/C/- \tab full \cr
+   2014 \tab A/B/C/- \tab full \cr
+   2016 \tab A/B/C/- \tab full \cr
+   2018 \tab A/B/C/- \tab full \cr
+   2021 \tab B/C/-/- \tab partial \cr
+   2022 \tab A/B/C/- \tab full \cr
 }
 }
 
+\seealso{
+Other Sampling and Weights: 
+\code{\link{cshutyp06}},
+\code{\link{oversamp}},
+\code{\link{phase}},
+\code{\link{res2006}},
+\code{\link{res2008}},
+\code{\link{res2010}},
+\code{\link{res2012}},
+\code{\link{spaneng}},
+\code{\link{spanself}}
+
+Other Interview: 
+\code{\link{spaneng}},
+\code{\link{spanself}}
+}
+\concept{Interview}
+\concept{Sampling and Weights}
 \keyword{variable}

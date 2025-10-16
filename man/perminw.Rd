@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 perminw
 }
 \details{
-Question 803. For about how many minutes or hours a week do you use your work computer for each of the following: d. Personal interests, games, or enjoyment?
+Question For about how many minutes or hours a week do you use your work computer for each of the following:
+D. Personal interests, games, or enjoyment?
+\enumerate{
+\item Minutes per week?
 }
+}
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2573/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab 0 \tab 15 \tab 30 \tab 35 \tab 5 \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +79,36 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B \tab partial \cr
 }
 }
 
+\seealso{
+Other Information Society: 
+\code{\link{ecomhrw}},
+\code{\link{ecomminw}},
+\code{\link{emhrw}},
+\code{\link{emminw}},
+\code{\link{inchrw}},
+\code{\link{incminw}},
+\code{\link{perhrw}},
+\code{\link{wwwhrw}},
+\code{\link{wwwminw}}
+
+Other Computers And Internet: 
+\code{\link{ecomhrw}},
+\code{\link{ecomminw}},
+\code{\link{emhrw}},
+\code{\link{emminw}},
+\code{\link{inchrw}},
+\code{\link{incminw}},
+\code{\link{perhrw}},
+\code{\link{wwwhrw}},
+\code{\link{wwwminw}}
+}
+\concept{Computers And Internet}
+\concept{Information Society}
 \keyword{variable}

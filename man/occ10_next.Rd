@@ -10,7 +10,9 @@ General Social Survey https://gss.norc.org
 occ10_next
 }
 \details{
-Question None
+Question OCCUPATION - FOLLOW-ON VERSION
+
+NOTE: This variable originates on the GSS Next follow-on, and should not be analyzed without the GSS Next-specific weights WTSSPS_NEXT or WTSSNRPS_NEXT
 }
 \section{Values}{
 
@@ -567,6 +569,13 @@ Question None
 \item \code{NA(x)} not available in this release
 \item \code{NA(y)} not available in this year
 \item \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 

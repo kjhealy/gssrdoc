@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 hitchild
 }
 \details{
-Question 231. If yes or not sure: Would you approve if the stranger: c. Would you approve of a man punching a stranger who had hit the man's child after the child accidentally damaged the stranger's car?
+Question Are there any situations that you can imagine in which you would approve of a man punching an adult male stranger?
+C. Would you approve of a man punching a stranger who had hit the man''s child after the child accidentally damaged the stranger''s car?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes
+\item \code{2} no
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/667/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab not available in this year \tab Total \cr
@@ -57,24 +78,49 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes
-\item \code{2} no
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1973 \tab -/- \tab full \cr
+   1975 \tab -/- \tab full \cr
+   1976 \tab -/- \tab full \cr
+   1978 \tab -/- \tab full \cr
+   1980 \tab -/- \tab full \cr
+   1983 \tab -/- \tab full \cr
+   1984 \tab -/- \tab full \cr
+   1986 \tab -/- \tab full \cr
+   1987 \tab -/- \tab full \cr
+   1988 \tab B/C \tab partial \cr
+   1989 \tab B/C \tab partial \cr
+   1990 \tab B/C \tab partial \cr
+   1991 \tab B/C \tab partial \cr
+   1993 \tab B/C \tab partial \cr
+   1994 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{gunnum}},
+\code{\link{hitbeatr}},
+\code{\link{hitdrunk}},
+\code{\link{hitmarch}},
+\code{\link{hitok}},
+\code{\link{hitrobbr}},
+\code{\link{polabuse}},
+\code{\link{polhitok}},
+\code{\link{polmurdr}}
+
+Other Violence: 
+\code{\link{hitbeatr}},
+\code{\link{hitdrunk}},
+\code{\link{hitmarch}},
+\code{\link{hitok}},
+\code{\link{hitrobbr}},
+\code{\link{polabuse}},
+\code{\link{polhitok}},
+\code{\link{polmurdr}}
+}
+\concept{Core}
+\concept{Violence}
 \keyword{variable}

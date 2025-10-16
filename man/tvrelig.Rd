@@ -10,11 +10,29 @@ General Social Survey https://gss.norc.org
 tvrelig
 }
 \details{
-Question 368. About how much time per week, in hours and minutes, do you normally spend watching religious shows on television?
+Question About how much time per week, in hours and minutes, do you normally spend watching religious shows on television?
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1075/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 0 \tab 0.1 \tab 0.2 \tab 0.3 \tab 0.4 \tab 0.5 \tab 0.8 \tab 1 \tab 1.1 \tab 1.4 \tab 1.5 \tab 1.8 \tab 2 \tab 2.5 \tab 3 \tab 3.5 \tab 4 \tab 4.5 \tab 5 \tab 6 \tab 7 \tab 8 \tab 8.5 \tab 0.6 \tab 0.7 \tab 1.2 \tab 1.3 \tab 2.2 \tab 2.8 \tab 4.1 \tab 9 \tab not available in this year \tab Total \cr
@@ -57,22 +75,36 @@ Counts by year:\tabular{lllllllllllllllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1988 \tab A/B/C \tab full \cr
+   1998 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Religion: 
+\code{\link{churhact}},
+\code{\link{churhmem}},
+\code{\link{god}},
+\code{\link{grace16}},
+\code{\link{join16}},
+\code{\link{lapsed}},
+\code{\link{reborn}},
+\code{\link{savesoul}},
+\code{\link{saygrace}}
+
+Other Religion: 
+\code{\link{churhact}},
+\code{\link{churhmem}},
+\code{\link{god}},
+\code{\link{grace16}},
+\code{\link{join16}},
+\code{\link{lapsed}},
+\code{\link{reborn}},
+\code{\link{savesoul}},
+\code{\link{saygrace}}
+}
+\concept{Religion}
 \keyword{variable}

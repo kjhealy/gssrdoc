@@ -1,11 +1,207 @@
+#'  R discusses politics with person #3
+#' 
+#'  talkpol3
+#' 
+#' Question About how often do you talk to (NAME) about political matters? 
+#' 3. Political Talks with Third Person
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` almost daily
+#'   * `2` at least weekly
+#'   * `3` at least monthly
+#'   * `4` at least yearly
+#'   * `5` less than yearly
+#'   * `6` never
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/960/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |almost daily |at least monthly |at least weekly |at least yearly |don't know |less than yearly |never |no answer |not available in this year |Total |
+#'  |:-----|:-----|:------------|:----------------|:---------------|:---------------|:----------|:----------------|:-----|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |1613  |
+#'  |1973  |1504  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |1504  |
+#'  |1974  |1484  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |1484  |
+#'  |1975  |1490  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |1490  |
+#'  |1976  |1499  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |1499  |
+#'  |1977  |1530  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |1530  |
+#'  |1978  |1532  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |1532  |
+#'  |1980  |1468  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |1468  |
+#'  |1982  |1860  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |1860  |
+#'  |1983  |1599  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |1599  |
+#'  |1984  |1473  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |1473  |
+#'  |1985  |1534  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |1534  |
+#'  |1986  |1470  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |1470  |
+#'  |1987  |735   |78           |257              |165             |237             |4          |108              |207   |28        |-                          |1819  |
+#'  |1988  |1481  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |1481  |
+#'  |1989  |1537  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |1537  |
+#'  |1990  |1372  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |1372  |
+#'  |1991  |1517  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |1517  |
+#'  |1993  |1606  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |1606  |
+#'  |1994  |2992  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |2992  |
+#'  |1996  |2904  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |2904  |
+#'  |1998  |2832  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |2832  |
+#'  |2000  |2817  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |2817  |
+#'  |2002  |2765  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |2765  |
+#'  |2004  |2812  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |2812  |
+#'  |2006  |4510  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |4510  |
+#'  |2008  |2023  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |2023  |
+#'  |2010  |2044  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |2044  |
+#'  |2012  |1974  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |1974  |
+#'  |2014  |2538  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |2538  |
+#'  |2016  |2867  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |2867  |
+#'  |2018  |2348  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |2348  |
+#'  |2021  |4032  |-            |-                |-               |-               |-          |-                |-     |-         |-                          |4032  |
+#'  |2022  |-     |-            |-                |-               |-               |-          |-                |-     |-         |3544                       |3544  |
+#'  |2024  |-     |-            |-                |-               |-               |-          |-                |-     |-         |3309                       |3309  |
+#'  |Total |67762 |78           |257              |165             |237             |4          |108              |207   |28        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1987 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
+#' @family Social Networks
+#' 
+#' @keywords variable
+#' @md
+#' @name talkpol3
+NULL
+
+
+#'  How often does r discuss politics?
+#' 
+#'  talkpol
+#' 
+#' Question Thinking of the (people/person) we''ve just been discussing, would you say you discuss social and political issues with (him/her/them) almost all the time, most of the time, occasionally, or almost never?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` almost always
+#'   * `2` most of the time
+#'   * `3` occasionally
+#'   * `4` almost never
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/961/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |almost always |almost never |don't know |most of the time |no answer |occasionally |not available in this year |Total |
+#'  |:-----|:-----|:-------------|:------------|:----------|:----------------|:---------|:------------|:--------------------------|:-----|
+#'  |1972  |1613  |-             |-            |-          |-                |-         |-            |-                          |1613  |
+#'  |1973  |1504  |-             |-            |-          |-                |-         |-            |-                          |1504  |
+#'  |1974  |1484  |-             |-            |-          |-                |-         |-            |-                          |1484  |
+#'  |1975  |1490  |-             |-            |-          |-                |-         |-            |-                          |1490  |
+#'  |1976  |1499  |-             |-            |-          |-                |-         |-            |-                          |1499  |
+#'  |1977  |1530  |-             |-            |-          |-                |-         |-            |-                          |1530  |
+#'  |1978  |1532  |-             |-            |-          |-                |-         |-            |-                          |1532  |
+#'  |1980  |1468  |-             |-            |-          |-                |-         |-            |-                          |1468  |
+#'  |1982  |1860  |-             |-            |-          |-                |-         |-            |-                          |1860  |
+#'  |1983  |1599  |-             |-            |-          |-                |-         |-            |-                          |1599  |
+#'  |1984  |1473  |-             |-            |-          |-                |-         |-            |-                          |1473  |
+#'  |1985  |136   |246           |143          |3          |257              |25        |724          |-                          |1534  |
+#'  |1986  |1470  |-             |-            |-          |-                |-         |-            |-                          |1470  |
+#'  |1987  |1819  |-             |-            |-          |-                |-         |-            |-                          |1819  |
+#'  |1988  |1481  |-             |-            |-          |-                |-         |-            |-                          |1481  |
+#'  |1989  |1537  |-             |-            |-          |-                |-         |-            |-                          |1537  |
+#'  |1990  |1372  |-             |-            |-          |-                |-         |-            |-                          |1372  |
+#'  |1991  |1517  |-             |-            |-          |-                |-         |-            |-                          |1517  |
+#'  |1993  |1606  |-             |-            |-          |-                |-         |-            |-                          |1606  |
+#'  |1994  |2992  |-             |-            |-          |-                |-         |-            |-                          |2992  |
+#'  |1996  |2904  |-             |-            |-          |-                |-         |-            |-                          |2904  |
+#'  |1998  |2832  |-             |-            |-          |-                |-         |-            |-                          |2832  |
+#'  |2000  |2817  |-             |-            |-          |-                |-         |-            |-                          |2817  |
+#'  |2002  |2765  |-             |-            |-          |-                |-         |-            |-                          |2765  |
+#'  |2004  |2812  |-             |-            |-          |-                |-         |-            |-                          |2812  |
+#'  |2006  |4510  |-             |-            |-          |-                |-         |-            |-                          |4510  |
+#'  |2008  |2023  |-             |-            |-          |-                |-         |-            |-                          |2023  |
+#'  |2010  |2044  |-             |-            |-          |-                |-         |-            |-                          |2044  |
+#'  |2012  |1974  |-             |-            |-          |-                |-         |-            |-                          |1974  |
+#'  |2014  |2538  |-             |-            |-          |-                |-         |-            |-                          |2538  |
+#'  |2016  |2867  |-             |-            |-          |-                |-         |-            |-                          |2867  |
+#'  |2018  |2348  |-             |-            |-          |-                |-         |-            |-                          |2348  |
+#'  |2021  |4032  |-             |-            |-          |-                |-         |-            |-                          |4032  |
+#'  |2022  |-     |-             |-            |-          |-                |-         |-            |3544                       |3544  |
+#'  |2024  |-     |-             |-            |-          |-                |-         |-            |3309                       |3309  |
+#'  |Total |67448 |246           |143          |3          |257              |25        |724          |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
+#' @family Social Networks
+#' 
+#' @keywords variable
+#' @md
+#' @name talkpol
+NULL
+
+
 #'  How many of r's friends know each other?
 #' 
 #'  frndknow
 #' 
-#' Question 327. Some people have friends who mostly know one another. Other people have friends who don't know one another. Would you say that all of your friends know one another, most of your friends know one another, only a few of your friends know one another, or none of your friends know one another?
+#' Question Some people have friends who mostly know one another. Other people have friends who don't know one another. would you say that all of your friends know one another, most of your friends know one another, only a few of your friends know one another, or none of your friends know one another?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` all know each other
+#'   * `2` most know each other
+#'   * `3` few know each other
+#'   * `4` none know each other
+#'   * `5` no friends(vol.)
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/962/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,13 +244,34 @@
 #'  |2024  |-     |-                   |-          |-                   |-                    |-         |-                |-                    |3309                       |3309  |
 #'  |Total |67312 |183                 |15         |536                 |742                  |2         |4                |52                   |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Social Networks
+#' @family Friends
+#' 
+#' @keywords variable
+#' @md
+#' @name frndknow
+NULL
+
+
+#'  Membership in fraternal group
+#' 
+#'  memfrat
+#' 
+#' Question Now we would like to know something about the groups or organizations to which individuals belong. Here is a list of various organizations. Could you tell me whether or not you are a member of each type?  READ EACH ITEM. CODE OnE FOR EACH.
+#' A. Fraternal groups 
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` all know each other
-#'   * `2` most know each other
-#'   * `3` few know each other
-#'   * `4` none know each other
-#'   * `5` no friends(vol.)
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -68,22 +285,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name frndknow
-NULL
-
-#'  Membership in fraternal group
-#' 
-#'  memfrat
-#' 
-#' Question 328. Now we would like to know something about the groups or organizations to which individuals belong. Here is a list of various organizations. Could you tell me whether or not you are a member of each type? a. Fraternal groups.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/963/vshow).
 #'
 #' Counts by year: 
 #'
@@ -126,6 +329,46 @@ NULL
 #'  |2024  |-     |-          |-     |-         |-    |3309                       |3309  |
 #'  |Total |47993 |30         |18618 |212       |1993 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |B/C/-   |partial      |
+#'  |1989 |B/C/-   |partial      |
+#'  |1990 |B/C/-   |partial      |
+#'  |1991 |B/C/-   |partial      |
+#'  |1993 |B/C/-   |partial      |
+#'  |1994 |B/C/-   |partial      |
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Socio-political participation
+#' @family Education
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name memfrat
+NULL
+
+
+#'  Membership in service group
+#' 
+#'  memserv
+#' 
+#' Question Now we would like to know something about the groups or organizations to which individuals belong. Here is a list of various organizations. Could you tell me whether or not you are a member of each type?  READ EACH ITEM. CODE OnE FOR EACH.
+#' B. Service clubs
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -143,22 +386,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name memfrat
-NULL
-
-#'  Membership in service group
-#' 
-#'  memserv
-#' 
-#' Question 328. Now we would like to know something about the groups or organizations to which individuals belong. Here is a list of various organizations. Could you tell me whether or not you are a member of each type? b. Service clubs
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/964/vshow).
 #'
 #' Counts by year: 
 #'
@@ -201,6 +430,45 @@ NULL
 #'  |2024  |-     |-          |-     |-         |-    |3309                       |3309  |
 #'  |Total |47993 |27         |18577 |216       |2033 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |B/C/-   |partial      |
+#'  |1989 |B/C/-   |partial      |
+#'  |1990 |B/C/-   |partial      |
+#'  |1991 |B/C/-   |partial      |
+#'  |1993 |B/C/-   |partial      |
+#'  |1994 |B/C/-   |partial      |
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Socio-political participation
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name memserv
+NULL
+
+
+#'  Membership in veteran group
+#' 
+#'  memvet
+#' 
+#' Question Now we would like to know something about the groups or organizations to which individuals belong. Here is a list of various organizations. Could you tell me whether or not you are a member of each type?  READ EACH ITEM. CODE OnE FOR EACH.
+#' C. Veterans' groups
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -218,22 +486,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name memserv
-NULL
-
-#'  Membership in veteran group
-#' 
-#'  memvet
-#' 
-#' Question 328. Now we would like to know something about the groups or organizations to which individuals belong. Here is a list of various organizations. Could you tell me whether or not you are a member of each type? c. Veterans' groups
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/965/vshow).
 #'
 #' Counts by year: 
 #'
@@ -276,6 +530,45 @@ NULL
 #'  |2024  |-     |-     |-         |-    |-          |3309                       |3309  |
 #'  |Total |47993 |19157 |220       |1468 |8          |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |B/C/-   |partial      |
+#'  |1989 |B/C/-   |partial      |
+#'  |1990 |B/C/-   |partial      |
+#'  |1991 |B/C/-   |partial      |
+#'  |1993 |B/C/-   |partial      |
+#'  |1994 |B/C/-   |partial      |
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Socio-political participationeteran Status
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name memvet
+NULL
+
+
+#'  Membership in political club
+#' 
+#'  mempolit
+#' 
+#' Question Now we would like to know something about the groups or organizations to which individuals belong. Here is a list of various organizations. Could you tell me whether or not you are a member of each type?  READ EACH ITEM. CODE OnE FOR EACH.
+#' D. Political clubs
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -293,22 +586,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name memvet
-NULL
-
-#'  Membership in political club
-#' 
-#'  mempolit
-#' 
-#' Question 328. Now we would like to know something about the groups or organizations to which individuals belong. Here is a list of various organizations. Could you tell me whether or not you are a member of each type? d. Political clubs
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/966/vshow).
 #'
 #' Counts by year: 
 #'
@@ -351,6 +630,46 @@ NULL
 #'  |2024  |-     |-     |-         |-   |-          |3309                       |3309  |
 #'  |Total |47993 |19756 |230       |859 |8          |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |B/C/-   |partial      |
+#'  |1989 |B/C/-   |partial      |
+#'  |1990 |B/C/-   |partial      |
+#'  |1991 |B/C/-   |partial      |
+#'  |1993 |B/C/-   |partial      |
+#'  |1994 |B/C/-   |partial      |
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Socio-political participation
+#' @family Freedom
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name mempolit
+NULL
+
+
+#'  Membership in labor union
+#' 
+#'  memunion
+#' 
+#' Question Now we would like to know something about the groups or organizations to which individuals belong. Here is a list of various organizations. Could you tell me whether or not you are a member of each type?  READ EACH ITEM. CODE OnE FOR EACH.
+#' E. Labor unions
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -368,22 +687,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name mempolit
-NULL
-
-#'  Membership in labor union
-#' 
-#'  memunion
-#' 
-#' Question 328. Now we would like to know something about the groups or organizations to which individuals belong. Here is a list of various organizations. Could you tell me whether or not you are a member of each type? e. Labor unions
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/967/vshow).
 #'
 #' Counts by year: 
 #'
@@ -426,6 +731,46 @@ NULL
 #'  |2024  |-     |-     |-         |-    |-          |3309                       |3309  |
 #'  |Total |47993 |17845 |215       |2776 |17         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |B/C/-   |partial      |
+#'  |1989 |B/C/-   |partial      |
+#'  |1990 |B/C/-   |partial      |
+#'  |1991 |B/C/-   |partial      |
+#'  |1993 |B/C/-   |partial      |
+#'  |1994 |B/C/-   |partial      |
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Socio-political participation
+#' @family Labor Unions
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name memunion
+NULL
+
+
+#'  Membership in sports club
+#' 
+#'  memsport
+#' 
+#' Question Now we would like to know something about the groups or organizations to which individuals belong. Here is a list of various organizations. Could you tell me whether or not you are a member of each type?  READ EACH ITEM. CODE OnE FOR EACH.
+#' F. Sports groups
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -443,22 +788,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name memunion
-NULL
-
-#'  Membership in sports club
-#' 
-#'  memsport
-#' 
-#' Question 328. Now we would like to know something about the groups or organizations to which individuals belong. Here is a list of various organizations. Could you tell me whether or not you are a member of each type? f. Sports goups
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/968/vshow).
 #'
 #' Counts by year: 
 #'
@@ -501,6 +832,47 @@ NULL
 #'  |2024  |-     |-          |-     |-         |-    |3309                       |3309  |
 #'  |Total |47993 |8          |16669 |208       |3968 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |B/C/-   |partial      |
+#'  |1989 |B/C/-   |partial      |
+#'  |1990 |B/C/-   |partial      |
+#'  |1991 |B/C/-   |partial      |
+#'  |1993 |B/C/-   |partial      |
+#'  |1994 |B/C/-   |partial      |
+#'  |2004 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Socio-political participation
+#' @family Leisure
+#' @family Sports
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name memsport
+NULL
+
+
+#'  Membership in youth group
+#' 
+#'  memyouth
+#' 
+#' Question Now we would like to know something about the groups or organizations to which individuals belong. Here is a list of various organizations. Could you tell me whether or not you are a member of each type?  READ EACH ITEM. CODE OnE FOR EACH.
+#' G. Youth groups
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -518,22 +890,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name memsport
-NULL
-
-#'  Membership in youth group
-#' 
-#'  memyouth
-#' 
-#' Question 328. Now we would like to know something about the groups or organizations to which individuals belong. Here is a list of various organizations. Could you tell me whether or not you are a member of each type? g. Youth groups
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/969/vshow).
 #'
 #' Counts by year: 
 #'
@@ -576,178 +934,34 @@ NULL
 #'  |2024  |-     |-     |-         |-    |-          |3309                       |3309  |
 #'  |Total |47993 |18593 |236       |2014 |10         |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |B/C/-   |partial      |
+#'  |1989 |B/C/-   |partial      |
+#'  |1990 |B/C/-   |partial      |
+#'  |1991 |B/C/-   |partial      |
+#'  |1993 |B/C/-   |partial      |
+#'  |1994 |B/C/-   |partial      |
+#'  |2004 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Socio-political participation
+#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
 #' @name memyouth
 NULL
 
-#'  Membership in school service
-#' 
-#'  memschl
-#' 
-#' Question 328. Now we would like to know something about the groups or organizations to which individuals belong. Here is a list of various organizations. Could you tell me whether or not you are a member of each type? h. School service groups
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no    |no answer |yes  |not available in this year |Total |
-#'  |:-----|:-----|:----------|:-----|:---------|:----|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-     |-         |-    |-                          |1613  |
-#'  |1973  |1504  |-          |-     |-         |-    |-                          |1504  |
-#'  |1974  |-     |1          |1203  |21        |259  |-                          |1484  |
-#'  |1975  |-     |1          |1255  |28        |206  |-                          |1490  |
-#'  |1976  |1499  |-          |-     |-         |-    |-                          |1499  |
-#'  |1977  |-     |-          |1313  |14        |203  |-                          |1530  |
-#'  |1978  |-     |1          |1302  |16        |213  |-                          |1532  |
-#'  |1980  |-     |2          |1294  |27        |145  |-                          |1468  |
-#'  |1982  |1860  |-          |-     |-         |-    |-                          |1860  |
-#'  |1983  |-     |-          |1375  |7         |217  |-                          |1599  |
-#'  |1984  |-     |1          |1273  |20        |179  |-                          |1473  |
-#'  |1985  |1534  |-          |-     |-         |-    |-                          |1534  |
-#'  |1986  |-     |-          |1249  |11        |210  |-                          |1470  |
-#'  |1987  |-     |1          |1577  |21        |220  |-                          |1819  |
-#'  |1988  |484   |-          |861   |12        |124  |-                          |1481  |
-#'  |1989  |502   |1          |872   |28        |134  |-                          |1537  |
-#'  |1990  |473   |-          |775   |7         |117  |-                          |1372  |
-#'  |1991  |500   |1          |860   |11        |145  |-                          |1517  |
-#'  |1993  |549   |2          |888   |4         |163  |-                          |1606  |
-#'  |1994  |2481  |-          |427   |2         |82   |-                          |2992  |
-#'  |1996  |2904  |-          |-     |-         |-    |-                          |2904  |
-#'  |1998  |2832  |-          |-     |-         |-    |-                          |2832  |
-#'  |2000  |2817  |-          |-     |-         |-    |-                          |2817  |
-#'  |2002  |2765  |-          |-     |-         |-    |-                          |2765  |
-#'  |2004  |1340  |1          |1260  |5         |206  |-                          |2812  |
-#'  |2006  |4510  |-          |-     |-         |-    |-                          |4510  |
-#'  |2008  |2023  |-          |-     |-         |-    |-                          |2023  |
-#'  |2010  |2044  |-          |-     |-         |-    |-                          |2044  |
-#'  |2012  |1974  |-          |-     |-         |-    |-                          |1974  |
-#'  |2014  |2538  |-          |-     |-         |-    |-                          |2538  |
-#'  |2016  |2867  |-          |-     |-         |-    |-                          |2867  |
-#'  |2018  |2348  |-          |-     |-         |-    |-                          |2348  |
-#'  |2021  |4032  |-          |-     |-         |-    |-                          |4032  |
-#'  |2022  |-     |-          |-     |-         |-    |3544                       |3544  |
-#'  |2024  |-     |-          |-     |-         |-    |3309                       |3309  |
-#'  |Total |47993 |12         |17784 |234       |2823 |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name memschl
-NULL
-
-#'  Membership in hobby club
-#' 
-#'  memhobby
-#' 
-#' Question 328. Now we would like to know something about the groups or organizations to which individuals belong. Here is a list of various organizations. Could you tell me whether or not you are a member of each type? i. Hobby or garden clubs
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |no    |no answer |yes  |don't know |not available in this year |Total |
-#'  |:-----|:-----|:-----|:---------|:----|:----------|:--------------------------|:-----|
-#'  |1972  |1613  |-     |-         |-    |-          |-                          |1613  |
-#'  |1973  |1504  |-     |-         |-    |-          |-                          |1504  |
-#'  |1974  |-     |1319  |22        |143  |-          |-                          |1484  |
-#'  |1975  |-     |1327  |32        |129  |2          |-                          |1490  |
-#'  |1976  |1499  |-     |-         |-    |-          |-                          |1499  |
-#'  |1977  |-     |1375  |14        |141  |-          |-                          |1530  |
-#'  |1978  |-     |1374  |15        |143  |-          |-                          |1532  |
-#'  |1980  |-     |1320  |24        |123  |1          |-                          |1468  |
-#'  |1982  |1860  |-     |-         |-    |-          |-                          |1860  |
-#'  |1983  |-     |1437  |7         |155  |-          |-                          |1599  |
-#'  |1984  |-     |1323  |19        |129  |2          |-                          |1473  |
-#'  |1985  |1534  |-     |-         |-    |-          |-                          |1534  |
-#'  |1986  |-     |1327  |13        |130  |-          |-                          |1470  |
-#'  |1987  |-     |1649  |22        |147  |1          |-                          |1819  |
-#'  |1988  |484   |882   |12        |103  |-          |-                          |1481  |
-#'  |1989  |502   |917   |30        |88   |-          |-                          |1537  |
-#'  |1990  |473   |788   |7         |104  |-          |-                          |1372  |
-#'  |1991  |500   |898   |8         |110  |1          |-                          |1517  |
-#'  |1993  |549   |918   |5         |133  |1          |-                          |1606  |
-#'  |1994  |2481  |462   |2         |47   |-          |-                          |2992  |
-#'  |1996  |2904  |-     |-         |-    |-          |-                          |2904  |
-#'  |1998  |2832  |-     |-         |-    |-          |-                          |2832  |
-#'  |2000  |2817  |-     |-         |-    |-          |-                          |2817  |
-#'  |2002  |2765  |-     |-         |-    |-          |-                          |2765  |
-#'  |2004  |1340  |1308  |5         |159  |-          |-                          |2812  |
-#'  |2006  |4510  |-     |-         |-    |-          |-                          |4510  |
-#'  |2008  |2023  |-     |-         |-    |-          |-                          |2023  |
-#'  |2010  |2044  |-     |-         |-    |-          |-                          |2044  |
-#'  |2012  |1974  |-     |-         |-    |-          |-                          |1974  |
-#'  |2014  |2538  |-     |-         |-    |-          |-                          |2538  |
-#'  |2016  |2867  |-     |-         |-    |-          |-                          |2867  |
-#'  |2018  |2348  |-     |-         |-    |-          |-                          |2348  |
-#'  |2021  |4032  |-     |-         |-    |-          |-                          |4032  |
-#'  |2022  |-     |-     |-         |-    |-          |3544                       |3544  |
-#'  |2024  |-     |-     |-         |-    |-          |3309                       |3309  |
-#'  |Total |47993 |18624 |237       |1984 |8          |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name memhobby
-NULL
 

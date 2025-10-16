@@ -1,11 +1,223 @@
+#'  Used condom last time
+#' 
+#'  condom
+#' 
+#' Question The last time you had sex, was a condom used? By "sex" we mean vaginal, oral, or anal sex.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` used last time
+#'   * `2` not used
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5068/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no answer |not used |used last time |skipped on web |not available in this year |Total |
+#'  |:-----|:-----|:----------|:---------|:--------|:--------------|:--------------|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-         |-        |-              |-              |-                          |1613  |
+#'  |1973  |1504  |-          |-         |-        |-              |-              |-                          |1504  |
+#'  |1974  |1484  |-          |-         |-        |-              |-              |-                          |1484  |
+#'  |1975  |1490  |-          |-         |-        |-              |-              |-                          |1490  |
+#'  |1976  |1499  |-          |-         |-        |-              |-              |-                          |1499  |
+#'  |1977  |1530  |-          |-         |-        |-              |-              |-                          |1530  |
+#'  |1978  |1532  |-          |-         |-        |-              |-              |-                          |1532  |
+#'  |1980  |1468  |-          |-         |-        |-              |-              |-                          |1468  |
+#'  |1982  |1860  |-          |-         |-        |-              |-              |-                          |1860  |
+#'  |1983  |1599  |-          |-         |-        |-              |-              |-                          |1599  |
+#'  |1984  |1473  |-          |-         |-        |-              |-              |-                          |1473  |
+#'  |1985  |1534  |-          |-         |-        |-              |-              |-                          |1534  |
+#'  |1986  |1470  |-          |-         |-        |-              |-              |-                          |1470  |
+#'  |1987  |1819  |-          |-         |-        |-              |-              |-                          |1819  |
+#'  |1988  |1481  |-          |-         |-        |-              |-              |-                          |1481  |
+#'  |1989  |1537  |-          |-         |-        |-              |-              |-                          |1537  |
+#'  |1990  |1372  |-          |-         |-        |-              |-              |-                          |1372  |
+#'  |1991  |1517  |-          |-         |-        |-              |-              |-                          |1517  |
+#'  |1993  |1606  |-          |-         |-        |-              |-              |-                          |1606  |
+#'  |1994  |2992  |-          |-         |-        |-              |-              |-                          |2992  |
+#'  |1996  |258   |3          |168       |1959     |516            |-              |-                          |2904  |
+#'  |1998  |383   |4          |156       |1832     |457            |-              |-                          |2832  |
+#'  |2000  |417   |2          |196       |1719     |483            |-              |-                          |2817  |
+#'  |2002  |476   |19         |115       |1656     |499            |-              |-                          |2765  |
+#'  |2004  |570   |17         |100       |1699     |426            |-              |-                          |2812  |
+#'  |2006  |2096  |26         |85        |1758     |545            |-              |-                          |4510  |
+#'  |2008  |240   |12         |53        |1299     |419            |-              |-                          |2023  |
+#'  |2010  |202   |11         |75        |1338     |418            |-              |-                          |2044  |
+#'  |2012  |238   |12         |82        |1282     |360            |-              |-                          |1974  |
+#'  |2014  |188   |11         |98        |1732     |509            |-              |-                          |2538  |
+#'  |2016  |1096  |4          |76        |1316     |375            |-              |-                          |2867  |
+#'  |2018  |942   |9          |58        |1057     |282            |-              |-                          |2348  |
+#'  |2021  |1705  |106        |7         |1801     |356            |57             |-                          |4032  |
+#'  |2022  |1928  |107        |6         |1158     |285            |60             |-                          |3544  |
+#'  |2024  |-     |-          |-         |-        |-              |-              |3309                       |3309  |
+#'  |Total |43119 |343        |1275      |21606    |5930           |117            |3309                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |B/C/-   |partial      |
+#'  |2018 |B/C/-   |partial      |
+#'  |2021 |B/C/-   |partial      |
+#'  |2022 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family High Risk Behaviors
+#' @family Sex
+#' 
+#' @keywords variable
+#' @md
+#' @name condom
+NULL
+
+
+#'  Relation to last sex partner
+#' 
+#'  relatsex
+#' 
+#' Question The last time you had sex, was it with someone you were in an on-going relationship with, or was it with someone else? Remember that by "sex" we mean only vaginal, oral, or anal sex.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes, the last time i had sex, it was with someone i was in an on-going relationship with
+#'   * `2` no, the last time i had sex, it was not with someone i was in an on-going relationship with
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5069/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |no answer |no, the last time i had sex, it was not with someone i was in an on-going relationship with |yes, the last time i had sex, it was with someone i was in an on-going relationship with |don't know |skipped on web |not available in this year |Total |
+#'  |:-----|:-----|:---------|:-------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------|:----------|:--------------|:--------------------------|:-----|
+#'  |1972  |1613  |-         |-                                                                                           |-                                                                                        |-          |-              |-                          |1613  |
+#'  |1973  |1504  |-         |-                                                                                           |-                                                                                        |-          |-              |-                          |1504  |
+#'  |1974  |1484  |-         |-                                                                                           |-                                                                                        |-          |-              |-                          |1484  |
+#'  |1975  |1490  |-         |-                                                                                           |-                                                                                        |-          |-              |-                          |1490  |
+#'  |1976  |1499  |-         |-                                                                                           |-                                                                                        |-          |-              |-                          |1499  |
+#'  |1977  |1530  |-         |-                                                                                           |-                                                                                        |-          |-              |-                          |1530  |
+#'  |1978  |1532  |-         |-                                                                                           |-                                                                                        |-          |-              |-                          |1532  |
+#'  |1980  |1468  |-         |-                                                                                           |-                                                                                        |-          |-              |-                          |1468  |
+#'  |1982  |1860  |-         |-                                                                                           |-                                                                                        |-          |-              |-                          |1860  |
+#'  |1983  |1599  |-         |-                                                                                           |-                                                                                        |-          |-              |-                          |1599  |
+#'  |1984  |1473  |-         |-                                                                                           |-                                                                                        |-          |-              |-                          |1473  |
+#'  |1985  |1534  |-         |-                                                                                           |-                                                                                        |-          |-              |-                          |1534  |
+#'  |1986  |1470  |-         |-                                                                                           |-                                                                                        |-          |-              |-                          |1470  |
+#'  |1987  |1819  |-         |-                                                                                           |-                                                                                        |-          |-              |-                          |1819  |
+#'  |1988  |1481  |-         |-                                                                                           |-                                                                                        |-          |-              |-                          |1481  |
+#'  |1989  |1537  |-         |-                                                                                           |-                                                                                        |-          |-              |-                          |1537  |
+#'  |1990  |1372  |-         |-                                                                                           |-                                                                                        |-          |-              |-                          |1372  |
+#'  |1991  |1517  |-         |-                                                                                           |-                                                                                        |-          |-              |-                          |1517  |
+#'  |1993  |1606  |-         |-                                                                                           |-                                                                                        |-          |-              |-                          |1606  |
+#'  |1994  |2992  |-         |-                                                                                           |-                                                                                        |-          |-              |-                          |2992  |
+#'  |1996  |258   |190       |196                                                                                         |2260                                                                                     |-          |-              |-                          |2904  |
+#'  |1998  |383   |162       |236                                                                                         |2048                                                                                     |3          |-              |-                          |2832  |
+#'  |2000  |417   |204       |236                                                                                         |1959                                                                                     |1          |-              |-                          |2817  |
+#'  |2002  |476   |139       |158                                                                                         |1980                                                                                     |12         |-              |-                          |2765  |
+#'  |2004  |570   |96        |176                                                                                         |1956                                                                                     |14         |-              |-                          |2812  |
+#'  |2006  |2096  |97        |229                                                                                         |2074                                                                                     |14         |-              |-                          |4510  |
+#'  |2008  |240   |47        |167                                                                                         |1560                                                                                     |9          |-              |-                          |2023  |
+#'  |2010  |202   |65        |157                                                                                         |1611                                                                                     |9          |-              |-                          |2044  |
+#'  |2012  |238   |79        |173                                                                                         |1476                                                                                     |8          |-              |-                          |1974  |
+#'  |2014  |188   |92        |249                                                                                         |1999                                                                                     |10         |-              |-                          |2538  |
+#'  |2016  |1096  |68        |219                                                                                         |1476                                                                                     |8          |-              |-                          |2867  |
+#'  |2018  |942   |61        |152                                                                                         |1187                                                                                     |6          |-              |-                          |2348  |
+#'  |2021  |1706  |6         |193                                                                                         |1993                                                                                     |89         |45             |-                          |4032  |
+#'  |2022  |1929  |7         |174                                                                                         |1280                                                                                     |103        |51             |-                          |3544  |
+#'  |2024  |-     |-         |-                                                                                           |-                                                                                        |-          |-              |3309                       |3309  |
+#'  |Total |43121 |1313      |2715                                                                                        |24859                                                                                    |286        |96             |3309                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |B/C/-   |partial      |
+#'  |2018 |B/C/-   |partial      |
+#'  |2021 |B/C/-   |partial      |
+#'  |2022 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family High Risk Behaviors
+#' @family Sex
+#' 
+#' @keywords variable
+#' @md
+#' @name relatsex
+NULL
+
+
 #'  R ever inject drugs
 #' 
 #'  evidu
 #' 
-#' Question 1558. Have you ever, even once, taken any drugs by injection with a needle (like heroin, cocaine, amphetamines, or steroids)...Do not include anything you took under a doctor's orders.
+#' Question Have you ever, even once, taken any drugs by injection with a needle (like heroin, cocaine, amphetamines, or steroids). Do not include anything you took under a doctorâ€™s orders.
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5070/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,10 +260,46 @@
 #'  |2024  |-     |-          |-     |-         |-   |-              |3309                       |3309  |
 #'  |Total |48218 |69         |23070 |280       |713 |40             |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |B/C/-   |partial      |
+#'  |2018 |B/C/-   |partial      |
+#'  |2021 |B/C/-   |partial      |
+#'  |2022 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family High Risk Behaviors
+#' @family Drug Use And Addiction
+#' 
+#' @keywords variable
+#' @md
+#' @name evidu
+NULL
+
+
+#'  R inject drugs in past 30 days
+#' 
+#'  idu30
+#' 
+#' Question How long has it been since you last used a needle to inject drugs?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` within the past 30 days
+#'   * `2` more than 30 days ago but within the past 12 months
+#'   * `3` more than 12 months ago but within the past 3 years
+#'   * `4` more than 3 years ago
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -65,22 +313,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name evidu
-NULL
-
-#'  R inject drugs in past 30 days
-#' 
-#'  idu30
-#' 
-#' Question 1559. How long has it been since you last used a needle to inject drugs?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5071/vshow).
 #'
 #' Counts by year: 
 #'
@@ -123,12 +357,44 @@ NULL
 #'  |2024  |-     |-          |-                                                   |-                     |-                                                   |-         |-                       |-              |3309                          |3309  |
 #'  |Total |71395 |17         |64                                                  |498                   |46                                                  |310       |56                      |4              |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |B/C/-   |partial      |
+#'  |2018 |B/C/-   |partial      |
+#'  |2021 |B/C/-   |partial      |
+#'  |2022 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family High Risk Behaviors
+#' @family Drug Use And Addiction
+#' 
+#' @keywords variable
+#' @md
+#' @name idu30
+NULL
+
+
+#'  R ever use crack cocaine
+#' 
+#'  evcrack
+#' 
+#' Question Have you ever, even once, used â€œcrackâ€ cocaine in chunk or rock form?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` within the past 30 days
-#'   * `2` more than 30 days ago but within the past 12 months
-#'   * `3` more than 12 months ago but within the past 3 years
-#'   * `4` more than 3 years ago
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -142,22 +408,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name idu30
-NULL
-
-#'  R ever use crack cocaine
-#' 
-#'  evcrack
-#' 
-#' Question 1560. Have you ever, even once, used "crack" cocaine in chunk or rock form?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5072/vshow).
 #'
 #' Counts by year: 
 #'
@@ -200,10 +452,46 @@ NULL
 #'  |2024  |-     |-     |-         |-    |-          |-              |3309                       |3309  |
 #'  |Total |48218 |22522 |255       |1300 |65         |30             |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |B/C/-   |partial      |
+#'  |2018 |B/C/-   |partial      |
+#'  |2021 |B/C/-   |partial      |
+#'  |2022 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family High Risk Behaviors
+#' @family Drug Use And Addiction
+#' 
+#' @keywords variable
+#' @md
+#' @name evcrack
+NULL
+
+
+#'  R last use crack cocaine
+#' 
+#'  crack30
+#' 
+#' Question How long has it been since you last used â€œcrackâ€ cocaine in chunk or rock form?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` within the past 30 days
+#'   * `2` more than 30 days ago but within the past 12 months
+#'   * `3` more than 12 months ago but within the past 3 years
+#'   * `4` more than 3 years ago
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -217,22 +505,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name evcrack
-NULL
-
-#'  R last use crack cocaine
-#' 
-#'  crack30
-#' 
-#' Question 1561. How long has it been since you last used "crack" cocaine in chunk or rock form?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5073/vshow).
 #'
 #' Counts by year: 
 #'
@@ -275,12 +549,44 @@ NULL
 #'  |2024  |-     |-          |-                                                   |-                     |-                                                   |-         |-                       |3309                       |3309  |
 #'  |Total |70803 |13         |154                                                 |973                   |92                                                  |293       |62                      |3309                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |B/C/-   |partial      |
+#'  |2018 |B/C/-   |partial      |
+#'  |2021 |B/C/-   |partial      |
+#'  |2022 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family High Risk Behaviors
+#' @family Drug Use And Addiction
+#' 
+#' @keywords variable
+#' @md
+#' @name crack30
+NULL
+
+
+#'  Have you ever been tested for hiv
+#' 
+#'  hivtest
+#' 
+#' Question Have you ever been tested for HIV? Do not count tests you may have had as part of a blood donation. Include oral test (where they take a swab from your mouth). 
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` within the past 30 days
-#'   * `2` more than 30 days ago but within the past 12 months
-#'   * `3` more than 12 months ago but within the past 3 years
-#'   * `4` more than 3 years ago
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -294,22 +600,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name crack30
-NULL
-
-#'  Have you ever been tested for hiv
-#' 
-#'  hivtest
-#' 
-#' Question 1562. Have you ever been tested for HIV? Do not count tests you may have had as part of a blood donation. Include oral test (where they take a swab from your mouth).
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5074/vshow).
 #'
 #' Counts by year: 
 #'
@@ -352,38 +644,37 @@ NULL
 #'  |2024  |1186  |120        |1261  |45        |670  |27             |3309  |
 #'  |Total |56335 |370        |11430 |189       |7318 |57             |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |B/C/-   |partial      |
+#'  |2018 |B/C/-   |partial      |
+#'  |2021 |B/C/-   |partial      |
+#'  |2022 |B/C/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family High Risk Behaviors
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
 #' @name hivtest
 NULL
 
+
 #'  In what month and year was your last hiv test
 #' 
 #'  hivtest1
 #' 
-#' Question 1562a. Not including blood donations, in what month and year was your last HIV test?
+#' Question Have you ever been tested for HIV? Do not count tests you may have had as part of a blood donation. Include oral test (where they take a swab from your mouth). A. Not including blood donations, in what month and year was your last HIV test? 
+#'   As of 2024, HIVTEST1 accounts for only the year in which the respondent tested for HIV and the variable has been slightly adjusted to help protect confidentiality. Please see the 2024 codebook for more information. The original HIVTEST1 containing data from 2006 to 2022 has been renamed HIVTEST1_0622.
 #' 
-#'
 #' 
 #' @section Values: 
 #' 
@@ -1059,21 +1350,67 @@ NULL
 #'   * `NA(z)` see codebook
 #'
 #'
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |B/C/-   |partial      |
+#'  |2018 |B/C/-   |partial      |
+#'  |2021 |B/C/-   |partial      |
+#'  |2022 |B/C/-   |partial      |
+#'  |2024 |B/C/-   |partial      |
+#'
 #' @source General Social Survey https://gss.norc.org
+#' @family High Risk Behaviors
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
 #' @name hivtest1
 NULL
 
+
 #'  Where did you have your last hiv test
 #' 
 #'  hivtest2
 #' 
-#' Question 1562b. Where did you have your last HIV test ~ at a private doctor or HMO office, at a counselling and testing site, at a hospital, at a clinic, in a jail or prison, at home, or somewhere else?
+#' Question Have you ever been tested for HIV? Do not count tests you may have had as part of a blood donation. Include oral test (where they take a swab from your mouth). B. Where did you have your last HIV test – at a private doctor or HMO office, at a counselling and testing site, at a hospital, at a clinic, in a jail or prison, at home, or somewhere else? 
+#'  As of 2024, HIVTEST2 has been recoded to only account for seven categories by combining jail, home, and drug treatment facility into "Somewhere else." This has been retroactively applied to all previous years of HIVTEST2. The original HIVTEST2 containing data from 2006 to 2022 has been renamed HIVTEST2_0622.
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` private doctor or hmo office
+#'   * `2` counseling and testing site
+#'   * `3` hospital
+#'   * `4` clinic
+#'   * `5` jail or prison
+#'   * `6` home
+#'   * `7` somewhere else
+#'   * `8` emergency room
+#'   * `9` drug treatment facility
+#'   * `10` hospital inpatient
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5076/vshow).
 #'
 #' Counts by year: 
 #'
@@ -1116,18 +1453,42 @@ NULL
 #'  |2024  |-     |-      |-                           |-          |-    |-        |-              |-         |-                            |-              |-                       |-              |-                  |-              |3309                          |3309  |
 #'  |Total |65588 |1329   |324                         |38         |121  |888      |222            |211       |3227                         |338            |47                      |21             |35                 |1              |3309                          |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |B/C/-   |partial      |
+#'  |2018 |B/C/-   |partial      |
+#'  |2021 |B/C/-   |partial      |
+#'  |2022 |B/C/-   |partial      |
+#'  |2024 |B/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family High Risk Behaviors
+#' @family Health
+#' 
+#' @keywords variable
+#' @md
+#' @name hivtest2
+NULL
+
+
+#'  A health-look person may have aids
+#' 
+#'  aidslook
+#' 
+#' Question A. Is it possible for a healthy-looking person to have the AIDS virus?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` private doctor or hmo office
-#'   * `2` counseling and testing site
-#'   * `3` hospital
-#'   * `4` clinic
-#'   * `5` jail or prison
-#'   * `6` home
-#'   * `7` somewhere else
-#'   * `8` emergency room
-#'   * `9` drug treatment facility
-#'   * `10` hospital inpatient
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -1141,22 +1502,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hivtest2
-NULL
-
-#'  A health-look person may have aids
-#' 
-#'  aidslook
-#' 
-#' Question A. Is it possible for a healthy-looking person to have the AIDS virus?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5077/vshow).
 #'
 #' Counts by year: 
 #'
@@ -1199,178 +1546,20 @@ NULL
 #'  |2024  |-     |-          |-  |-         |-    |3309                       |3309  |
 #'  |Total |67015 |58         |83 |30        |1660 |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2014 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family High Risk Behaviors
+#' @family Aids
+#' @family Health
 #' 
 #' @keywords variable
 #' @md
 #' @name aidslook
 NULL
 
-#'  Condom can reduce aids
-#' 
-#'  aidscndm
-#' 
-#' Question B. Can people reduce their chance of getting the AIDS virus by using a condom every time they have sex?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no |no answer |yes  |not available in this year |Total |
-#'  |:-----|:-----|:----------|:--|:---------|:----|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-  |-         |-    |-                          |1613  |
-#'  |1973  |1504  |-          |-  |-         |-    |-                          |1504  |
-#'  |1974  |1484  |-          |-  |-         |-    |-                          |1484  |
-#'  |1975  |1490  |-          |-  |-         |-    |-                          |1490  |
-#'  |1976  |1499  |-          |-  |-         |-    |-                          |1499  |
-#'  |1977  |1530  |-          |-  |-         |-    |-                          |1530  |
-#'  |1978  |1532  |-          |-  |-         |-    |-                          |1532  |
-#'  |1980  |1468  |-          |-  |-         |-    |-                          |1468  |
-#'  |1982  |1860  |-          |-  |-         |-    |-                          |1860  |
-#'  |1983  |1599  |-          |-  |-         |-    |-                          |1599  |
-#'  |1984  |1473  |-          |-  |-         |-    |-                          |1473  |
-#'  |1985  |1534  |-          |-  |-         |-    |-                          |1534  |
-#'  |1986  |1470  |-          |-  |-         |-    |-                          |1470  |
-#'  |1987  |1819  |-          |-  |-         |-    |-                          |1819  |
-#'  |1988  |1481  |-          |-  |-         |-    |-                          |1481  |
-#'  |1989  |1537  |-          |-  |-         |-    |-                          |1537  |
-#'  |1990  |1372  |-          |-  |-         |-    |-                          |1372  |
-#'  |1991  |1517  |-          |-  |-         |-    |-                          |1517  |
-#'  |1993  |1606  |-          |-  |-         |-    |-                          |1606  |
-#'  |1994  |2992  |-          |-  |-         |-    |-                          |2992  |
-#'  |1996  |2904  |-          |-  |-         |-    |-                          |2904  |
-#'  |1998  |2832  |-          |-  |-         |-    |-                          |2832  |
-#'  |2000  |2817  |-          |-  |-         |-    |-                          |2817  |
-#'  |2002  |2765  |-          |-  |-         |-    |-                          |2765  |
-#'  |2004  |2812  |-          |-  |-         |-    |-                          |2812  |
-#'  |2006  |4510  |-          |-  |-         |-    |-                          |4510  |
-#'  |2008  |2023  |-          |-  |-         |-    |-                          |2023  |
-#'  |2010  |2044  |-          |-  |-         |-    |-                          |2044  |
-#'  |2012  |1974  |-          |-  |-         |-    |-                          |1974  |
-#'  |2014  |707   |39         |95 |34        |1663 |-                          |2538  |
-#'  |2016  |2867  |-          |-  |-         |-    |-                          |2867  |
-#'  |2018  |2348  |-          |-  |-         |-    |-                          |2348  |
-#'  |2021  |4032  |-          |-  |-         |-    |-                          |4032  |
-#'  |2022  |-     |-          |-  |-         |-    |3544                       |3544  |
-#'  |2024  |-     |-          |-  |-         |-    |3309                       |3309  |
-#'  |Total |67015 |39         |95 |34        |1663 |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name aidscndm
-NULL
-
-#'  There is a vaccine that can prevent hiv
-#' 
-#'  hivvac
-#' 
-#' Question C. There is a vaccine that can stop adults from getting HIV.
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |false |no answer |true |not available in this year |Total |
-#'  |:-----|:-----|:----------|:-----|:---------|:----|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-     |-         |-    |-                          |1613  |
-#'  |1973  |1504  |-          |-     |-         |-    |-                          |1504  |
-#'  |1974  |1484  |-          |-     |-         |-    |-                          |1484  |
-#'  |1975  |1490  |-          |-     |-         |-    |-                          |1490  |
-#'  |1976  |1499  |-          |-     |-         |-    |-                          |1499  |
-#'  |1977  |1530  |-          |-     |-         |-    |-                          |1530  |
-#'  |1978  |1532  |-          |-     |-         |-    |-                          |1532  |
-#'  |1980  |1468  |-          |-     |-         |-    |-                          |1468  |
-#'  |1982  |1860  |-          |-     |-         |-    |-                          |1860  |
-#'  |1983  |1599  |-          |-     |-         |-    |-                          |1599  |
-#'  |1984  |1473  |-          |-     |-         |-    |-                          |1473  |
-#'  |1985  |1534  |-          |-     |-         |-    |-                          |1534  |
-#'  |1986  |1470  |-          |-     |-         |-    |-                          |1470  |
-#'  |1987  |1819  |-          |-     |-         |-    |-                          |1819  |
-#'  |1988  |1481  |-          |-     |-         |-    |-                          |1481  |
-#'  |1989  |1537  |-          |-     |-         |-    |-                          |1537  |
-#'  |1990  |1372  |-          |-     |-         |-    |-                          |1372  |
-#'  |1991  |1517  |-          |-     |-         |-    |-                          |1517  |
-#'  |1993  |1606  |-          |-     |-         |-    |-                          |1606  |
-#'  |1994  |2992  |-          |-     |-         |-    |-                          |2992  |
-#'  |1996  |2904  |-          |-     |-         |-    |-                          |2904  |
-#'  |1998  |2832  |-          |-     |-         |-    |-                          |2832  |
-#'  |2000  |2817  |-          |-     |-         |-    |-                          |2817  |
-#'  |2002  |2765  |-          |-     |-         |-    |-                          |2765  |
-#'  |2004  |2812  |-          |-     |-         |-    |-                          |2812  |
-#'  |2006  |4510  |-          |-     |-         |-    |-                          |4510  |
-#'  |2008  |2023  |-          |-     |-         |-    |-                          |2023  |
-#'  |2010  |2044  |-          |-     |-         |-    |-                          |2044  |
-#'  |2012  |1974  |-          |-     |-         |-    |-                          |1974  |
-#'  |2014  |707   |135        |1500  |34        |162  |-                          |2538  |
-#'  |2016  |2867  |-          |-     |-         |-    |-                          |2867  |
-#'  |2018  |2348  |-          |-     |-         |-    |-                          |2348  |
-#'  |2021  |4032  |-          |-     |-         |-    |-                          |4032  |
-#'  |2022  |-     |-          |-     |-         |-    |3544                       |3544  |
-#'  |2024  |-     |-          |-     |-         |-    |3309                       |3309  |
-#'  |Total |67015 |135        |1500  |34        |162  |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` true
-#'   * `2` false
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hivvac
-NULL
 

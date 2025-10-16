@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 carright
 }
 \details{
-Question 1405. Suppose you were riding in a car driven by a close friend. You know he is going too fast. He hits a pedestrian. He asks you to tell the police that he was obeying the speed limit. a. Which statement comes closest to your belief about what your friend has a right to expect from you? 1. My friend has a definite right as a friend to expect me to testify that he was obeying the speed limit. 2. My friend has some right as a friend to expect me to testify that he was obeying the speed limit. 3. My friend has no right as a friend to expect me to testify that he was obeying the speed limit
+Question Suppose you were riding in a car driven by a close friend. You know he is going too fast. He hits a pedestrian. He asks you to tell the police that he was obeying the speed limit.
+A. Which statement comes closest to your belief about what your friend has a right to expect from you?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} definite right
+\item \code{2} some right
+\item \code{3} no right
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4696/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab can't choose \tab definite right \tab no answer \tab no right \tab some right \tab not available in this year \tab Total \cr
@@ -57,25 +79,31 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} definite right
-\item \code{2} some right
-\item \code{3} no right
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1998 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Religion: 
+\code{\link{cardo}},
+\code{\link{geomobil}},
+\code{\link{relgrpeq}},
+\code{\link{reltruth}},
+\code{\link{rspctrel}},
+\code{\link{volwkchr}},
+\code{\link{volwkoth}},
+\code{\link{volwkpol}},
+\code{\link{volwkrel}}
+
+Other Religion: 
+\code{\link{cardo}},
+\code{\link{relgrpeq}},
+\code{\link{reltruth}},
+\code{\link{rspctrel}}
+}
+\concept{ISSP Religion}
+\concept{Religion}
 \keyword{variable}

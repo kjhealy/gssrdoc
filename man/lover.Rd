@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 lover
 }
 \details{
-Question 113. When you think about God, how likely are each of these images to come to your mind? c. Lover
+Question When you think about God, how likely are each of these images to come to your mind?  Would you say extremely likely, somewhat likely, not too likely, or not likely at all? (HAND CARD AD. READ EACH ITEM.) (CIRCLE ONE NUMBER FOR EACH WORD)
+C. Lover
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} extremely likely
+\item \code{2} somewhat likely
+\item \code{3} not too likely
+\item \code{4} not likely at all
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/324/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab don't know \tab extremely likely \tab no answer \tab not likely at all \tab not too likely \tab somewhat likely \tab not available in this year \tab Total \cr
@@ -57,26 +80,48 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} extremely likely
-\item \code{2} somewhat likely
-\item \code{3} not too likely
-\item \code{4} not likely at all
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1983 \tab - \tab full \cr
+   1984 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{creator}},
+\code{\link{father}},
+\code{\link{friend}},
+\code{\link{judge}},
+\code{\link{master}},
+\code{\link{mother}},
+\code{\link{neargod}},
+\code{\link{redeemer}},
+\code{\link{spouse}}
+
+Other Religion: 
+\code{\link{creator}},
+\code{\link{father}},
+\code{\link{friend}},
+\code{\link{judge}},
+\code{\link{master}},
+\code{\link{mother}},
+\code{\link{neargod}},
+\code{\link{redeemer}},
+\code{\link{spouse}}
+
+Other Split Ballots: 
+\code{\link{creator}},
+\code{\link{father}},
+\code{\link{friend}},
+\code{\link{judge}},
+\code{\link{master}},
+\code{\link{mother}},
+\code{\link{redeemer}},
+\code{\link{spouse}}
+}
+\concept{Core}
+\concept{Religion}
+\concept{Split Ballots}
 \keyword{variable}

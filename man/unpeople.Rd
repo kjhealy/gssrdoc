@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 unpeople
 }
 \details{
-Question 1327. Suppose you were unemployed and couldn't find a job. Which of the following problems would be the worst? Please write '1' in the box beside the worst thing, write '2' in the box beside the next worst thing, and '3' beside the third worst thing. Leave the other boxes blank. a. Lack of contact with people at work
+Question Suppose you were unemployed and couldn't find a job. Which of the following problems would be the worst?  Please write '1' in the box beside the worst thing, write '2' in the box beside the next worst thing, and '3' beside the third worst thing. Leave the other boxes blank.
+A. Lack of contact with people at work
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} worst
+\item \code{2} 2nd worst
+\item \code{3} 3rd worst
+\item \code{4} not chosen
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4516/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab 2nd worst \tab 3rd worst \tab don't know \tab no answer \tab not chosen \tab worst \tab not available in this year \tab Total \cr
@@ -57,26 +80,40 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} worst
-\item \code{2} 2nd worst
-\item \code{3} 3rd worst
-\item \code{4} not chosen
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1989 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Work Orientation: 
+\code{\link{econsup1}},
+\code{\link{moveaway}},
+\code{\link{moveinus}},
+\code{\link{unfamten}},
+\code{\link{unjobexp}},
+\code{\link{unmoney}},
+\code{\link{unrespct}},
+\code{\link{unslfcon}},
+\code{\link{worecsup}}
+
+Other Trauma: 
+\code{\link{unfamten}},
+\code{\link{unjobexp}},
+\code{\link{unmoney}},
+\code{\link{unrespct}},
+\code{\link{unslfcon}}
+
+Other Unemployment: 
+\code{\link{unfamten}},
+\code{\link{unjobexp}},
+\code{\link{unmoney}},
+\code{\link{unrespct}},
+\code{\link{unslfcon}}
+}
+\concept{Trauma}
+\concept{Unemployment}
+\concept{Work Orientation}
 \keyword{variable}

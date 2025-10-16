@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 empathy7
 }
 \details{
-Question 926. The following statements ask about your thoughts and feelings in various situations. For each item indicate how well it describes you by choosing the number on the showcard where 1 indicates that it does not describe you very well and 5 means that it does describe you very well. Of course numbers 2-4 indicate that how well it describes you are in between these points. g. I would describe myself as a pretty soft-hearted person.
+Question The following statements ask about your thoughts and feelings in various situations. For each item indicate how well it describes you by choosing the number on the showcard where 1 indicates that it does not describe you very well  and 5 means that it does describe you very well. Of course numbers 2-4 indicate that how well it describes you are In between these points.
+G. I would describe myself as a pretty soft-hearted person.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} does not describe very well
+\item \code{5} describes very well
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2876/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab 2 \tab 3 \tab 4 \tab describes very well \tab does not describe very well \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,24 +78,30 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} does not describe very well
-\item \code{5} describes very well
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Altruism: 
+\code{\link{cutahead}},
+\code{\link{empathy5}},
+\code{\link{empathy6}},
+\code{\link{givblood}},
+\code{\link{givchrty}},
+\code{\link{givhmlss}},
+\code{\link{givseat}},
+\code{\link{retchnge}},
+\code{\link{volchrty}}
+
+Other Feelings: 
+\code{\link{empathy5}},
+\code{\link{empathy6}}
+}
+\concept{Altruism}
+\concept{Feelings}
 \keyword{variable}

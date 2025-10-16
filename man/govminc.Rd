@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 govminc
 }
 \details{
-Question 1256. Do you agree or disagree: g. The government should provide everyone with a guaranteed basic income.
+Question Do you agree or disagree?
+G. The government should provide everyone with a guaranteed basic income.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} strongly agree
+\item \code{2} agree
+\item \code{3} neither agree nor disagree
+\item \code{4} disagree
+\item \code{5} strongly disagree
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4301/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab agree \tab can't choose \tab disagree \tab neither agree nor disagree \tab no answer \tab strongly agree \tab strongly disagree \tab not available in this year \tab Total \cr
@@ -57,27 +81,35 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} strongly agree
-\item \code{2} agree
-\item \code{3} neither agree nor disagree
-\item \code{4} disagree
-\item \code{5} strongly disagree
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1987 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Social Inequality: 
+\code{\link{givfctry}},
+\code{\link{givjudge}},
+\code{\link{givrocc}},
+\code{\link{govedop}},
+\code{\link{goveqinc}},
+\code{\link{govjobs}},
+\code{\link{govless}},
+\code{\link{govunemp}},
+\code{\link{incgap}}
+
+Other Inequality, Income: 
+\code{\link{givfctry}},
+\code{\link{givjudge}},
+\code{\link{givrocc}},
+\code{\link{goveqinc}},
+\code{\link{govjobs}},
+\code{\link{govless}},
+\code{\link{govunemp}},
+\code{\link{incgap}}
+}
+\concept{ISSP Social Inequality}
+\concept{Inequality, Income}
 \keyword{variable}

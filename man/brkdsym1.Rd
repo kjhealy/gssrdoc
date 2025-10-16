@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 brkdsym1
 }
 \details{
-Question 666. As far as you know, what is a nervous breakdown? (PROBES: How would you describe it? What is it like? What happens to a person who has one? How does he act?)
+Question As far as you know, what is a nervous breakdown? (PROBES: How would you describe it?  What is it like?  What happens to a person who has one? How does he act?)
+\enumerate{
+\item Symptoms or manifestations of nervous breakdown -- First mention.
 }
+}
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2054/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 201 \tab 202 \tab 203 \tab 204 \tab 205 \tab 207 \tab 208 \tab 210 \tab 211 \tab 212 \tab 304 \tab 305 \tab 306 \tab 308 \tab 310 \tab 311 \tab 406 \tab 501 \tab 502 \tab 506 \tab 510 \tab 511 \tab 601 \tab 602 \tab 608 \tab 609 \tab 610 \tab 611 \tab 612 \tab 702 \tab 704 \tab 707 \tab 708 \tab 709 \tab 710 \tab 803 \tab 806 \tab 807 \tab 808 \tab 810 \tab 811 \tab 812 \tab 902 \tab 904 \tab 906 \tab 907 \tab 908 \tab 911 \tab 921 \tab 922 \tab 923 \tab 924 \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +78,35 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Mental Health: 
+\code{\link{brkdimp1}},
+\code{\link{brkdimp2}},
+\code{\link{brkdimp3}},
+\code{\link{brkdoth}},
+\code{\link{brkdsym2}},
+\code{\link{brkdsym3}},
+\code{\link{knwmhosp}},
+\code{\link{relmhsp1}},
+\code{\link{relmhsp2}}
+
+Other Mental Health: 
+\code{\link{brkdimp1}},
+\code{\link{brkdimp2}},
+\code{\link{brkdimp3}},
+\code{\link{brkdoth}},
+\code{\link{brkdsym2}},
+\code{\link{brkdsym3}},
+\code{\link{knwmhosp}},
+\code{\link{relmhsp1}},
+\code{\link{relmhsp2}}
+}
+\concept{Mental Health}
 \keyword{variable}

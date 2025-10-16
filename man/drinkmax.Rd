@@ -10,11 +10,37 @@ General Social Survey https://gss.norc.org
 drinkmax
 }
 \details{
-Question 1020. Think of all kinds of alcoholic beverages combined, that is, any combination of cans, bottles or glasses of beer; glasses of wine; or drinks containing liquor of any kind. During the last 12 months, what is the largest number of drinks you had on any single day? Was it:
+Question Think of all kinds of alcoholic beverages combined, that is, any combination of cans, bottles or glasses of beer; glasses of wine; or drinks containing liquor of any kind. During the last 12 months, what is the largest number of drinks you had on any single day?  Was it:
 }
+\section{Values}{
+
+\itemize{
+\item \code{0} did not drink at all in the last 12 months
+\item \code{1} at least a sip, but less than one full drink
+\item \code{2} at least 1, but less than 3 drinks
+\item \code{3} at least 3, but less than 5 drinks
+\item \code{4} at least 5, but less than 8 drinks
+\item \code{5} at least 8, but less than 12 drinks
+\item \code{6} at least 12, but less than 20 drinks
+\item \code{7} 20 or more drinks in a single day
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3101/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllll}{
    year \tab iap \tab 20 or more drinks in a single day \tab at least 1, but less than 3 drinks \tab at least 12, but less than 20 drinks \tab at least 3, but less than 5 drinks \tab at least 5, but less than 8 drinks \tab at least 8, but less than 12 drinks \tab at least a sip, but less than one full drink \tab did not drink at all in the last 12 months \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,30 +83,30 @@ Counts by year:\tabular{llllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{0} did not drink at all in the last 12 months
-\item \code{1} at least a sip, but less than one full drink
-\item \code{2} at least 1, but less than 3 drinks
-\item \code{3} at least 3, but less than 5 drinks
-\item \code{4} at least 5, but less than 8 drinks
-\item \code{5} at least 8, but less than 12 drinks
-\item \code{6} at least 12, but less than 20 drinks
-\item \code{7} 20 or more drinks in a single day
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Women & Alcohol: 
+\code{\link{drink12}},
+\code{\link{drink6up}},
+\code{\link{drink8}},
+\code{\link{drinkday}},
+\code{\link{drinkyr}},
+\code{\link{evdrink}}
+
+Other Drinking: 
+\code{\link{drink12}},
+\code{\link{drink6up}},
+\code{\link{drink8}},
+\code{\link{drinkday}},
+\code{\link{drinkyr}},
+\code{\link{evdrink}}
+}
+\concept{Drinking}
+\concept{Women & Alcohol}
 \keyword{variable}

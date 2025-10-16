@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 eqwlthy
 }
 \details{
-Question 74b. Some people think that the income differences between the rich and the poor ought to be reduced, perhaps by raising the taxes of wealthy families or by giving income assistance to the poor. Others think that the government should not concern itself with reducing this income difference between the rich and the poor. Here is a card with a scale from 1 to 7. Think of a score of 1 as meaning that the government ought to reduce the income differences between rich and poor, and a score of 7 meaning that the government should not concern itself with reducing income differences. What score between 1 and 7 comes closest to the way you feel?
+Question B. Some people think that the income differences between the rich and the poor ought to be reduced, perhaps by raisingthe taxes of wealthy families or by giving income assistance to the poor. Others think that the government should not concern itself with reducing this income difference between the rich and the poor. Here is a card with a scale from 1 to 7. Think of a score of 1 as meaning that the government ought to reduce the income differences between rich and poor, and a score of 7 meaning that the government should not concern itself with reducing income differences. What score between 1 and 7 comes closest to the way you feel? (CIRCLE ONE):
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} govt reduce diff
+\item \code{7} no govt action
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/244/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab don't know \tab govt reduce diff \tab no answer \tab no govt action \tab not available in this year \tab Total \cr
@@ -57,24 +77,33 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} govt reduce diff
-\item \code{7} no govt action
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1978 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{colath}},
+\code{\link{colsoc}},
+\code{\link{educop}},
+\code{\link{eqwlth}},
+\code{\link{govcare}},
+\code{\link{libath}},
+\code{\link{spkath}},
+\code{\link{spksoc}},
+\code{\link{tax}}
+
+Other Inequality, Income: 
+\code{\link{eqwlth}}
+
+Other Split Ballots: 
+\code{\link{eqwlth}},
+\code{\link{tax}}
+}
+\concept{Core}
+\concept{Inequality, Income}
+\concept{Split Ballots}
 \keyword{variable}

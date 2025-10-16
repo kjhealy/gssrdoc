@@ -12,9 +12,33 @@ conwkday
 \details{
 Question Please indicate about how many people do you have contact with on a typical weekday irrespective of whether you know them or not. Include anyone you chat with, talk to, or text, either face-to-face, by phone, internet or any other communication device.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} 0-4 people
+\item \code{2} 5-9 people
+\item \code{3} 10-19 people
+\item \code{4} 20-49 people
+\item \code{5} 50-99 people
+\item \code{6} 100 or more people
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/7263/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab 0-4 people \tab 10-19 people \tab 100 or more people \tab 20-49 people \tab 5-9 people \tab 50-99 people \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,27 +81,10 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} 0-4 people
-\item \code{2} 5-9 people
-\item \code{3} 10-19 people
-\item \code{4} 20-49 people
-\item \code{5} 50-99 people
-\item \code{6} 100 or more people
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2018 \tab B/C \tab partial \cr
 }
 }
 

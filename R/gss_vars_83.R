@@ -1,11 +1,205 @@
+#'  Relatives unemployed in last yr
+#' 
+#'  unrel1
+#' 
+#' Question A. Number of relatives unemployed during last year.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/741/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |0    |1    |2   |3  |4  |5  |not available in this year |Total |
+#'  |:-----|:-----|:----|:----|:---|:--|:--|:--|:--------------------------|:-----|
+#'  |1972  |1613  |-    |-    |-   |-  |-  |-  |-                          |1613  |
+#'  |1973  |1504  |-    |-    |-   |-  |-  |-  |-                          |1504  |
+#'  |1974  |1484  |-    |-    |-   |-  |-  |-  |-                          |1484  |
+#'  |1975  |1490  |-    |-    |-   |-  |-  |-  |-                          |1490  |
+#'  |1976  |1499  |-    |-    |-   |-  |-  |-  |-                          |1499  |
+#'  |1977  |1530  |-    |-    |-   |-  |-  |-  |-                          |1530  |
+#'  |1978  |-     |1107 |352  |64  |7  |2  |-  |-                          |1532  |
+#'  |1980  |-     |1070 |333  |55  |9  |1  |-  |-                          |1468  |
+#'  |1982  |1860  |-    |-    |-   |-  |-  |-  |-                          |1860  |
+#'  |1983  |-     |955  |480  |127 |26 |9  |2  |-                          |1599  |
+#'  |1984  |-     |954  |401  |95  |20 |3  |-  |-                          |1473  |
+#'  |1985  |1534  |-    |-    |-   |-  |-  |-  |-                          |1534  |
+#'  |1986  |1470  |-    |-    |-   |-  |-  |-  |-                          |1470  |
+#'  |1987  |1819  |-    |-    |-   |-  |-  |-  |-                          |1819  |
+#'  |1988  |1481  |-    |-    |-   |-  |-  |-  |-                          |1481  |
+#'  |1989  |1537  |-    |-    |-   |-  |-  |-  |-                          |1537  |
+#'  |1990  |1372  |-    |-    |-   |-  |-  |-  |-                          |1372  |
+#'  |1991  |1517  |-    |-    |-   |-  |-  |-  |-                          |1517  |
+#'  |1993  |1606  |-    |-    |-   |-  |-  |-  |-                          |1606  |
+#'  |1994  |2992  |-    |-    |-   |-  |-  |-  |-                          |2992  |
+#'  |1996  |2904  |-    |-    |-   |-  |-  |-  |-                          |2904  |
+#'  |1998  |2832  |-    |-    |-   |-  |-  |-  |-                          |2832  |
+#'  |2000  |2817  |-    |-    |-   |-  |-  |-  |-                          |2817  |
+#'  |2002  |2765  |-    |-    |-   |-  |-  |-  |-                          |2765  |
+#'  |2004  |2812  |-    |-    |-   |-  |-  |-  |-                          |2812  |
+#'  |2006  |4510  |-    |-    |-   |-  |-  |-  |-                          |4510  |
+#'  |2008  |2023  |-    |-    |-   |-  |-  |-  |-                          |2023  |
+#'  |2010  |2044  |-    |-    |-   |-  |-  |-  |-                          |2044  |
+#'  |2012  |1974  |-    |-    |-   |-  |-  |-  |-                          |1974  |
+#'  |2014  |2538  |-    |-    |-   |-  |-  |-  |-                          |2538  |
+#'  |2016  |2867  |-    |-    |-   |-  |-  |-  |-                          |2867  |
+#'  |2018  |2348  |-    |-    |-   |-  |-  |-  |-                          |2348  |
+#'  |2021  |4032  |-    |-    |-   |-  |-  |-  |-                          |4032  |
+#'  |2022  |-     |-    |-    |-   |-  |-  |-  |3544                       |3544  |
+#'  |2024  |-     |-    |-    |-   |-  |-  |-  |3309                       |3309  |
+#'  |Total |62774 |4086 |1566 |341 |62 |15 |2  |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1978 |-       |full         |
+#'  |1980 |-       |full         |
+#'  |1983 |-       |full         |
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Relatives
+#' @family Trauma
+#' @family Unemployment
+#' 
+#' @keywords variable
+#' @md
+#' @name unrel1
+NULL
+
+
+#'  Relatives unemp between 5 & 1 yrs ago
+#' 
+#'  unrel4
+#' 
+#' Question B. Number or relatives unemployed during previous four years.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/742/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |0    |1    |2   |3  |4  |5  |not available in this year |Total |
+#'  |:-----|:-----|:----|:----|:---|:--|:--|:--|:--------------------------|:-----|
+#'  |1972  |1613  |-    |-    |-   |-  |-  |-  |-                          |1613  |
+#'  |1973  |1504  |-    |-    |-   |-  |-  |-  |-                          |1504  |
+#'  |1974  |1484  |-    |-    |-   |-  |-  |-  |-                          |1484  |
+#'  |1975  |1490  |-    |-    |-   |-  |-  |-  |-                          |1490  |
+#'  |1976  |1499  |-    |-    |-   |-  |-  |-  |-                          |1499  |
+#'  |1977  |1530  |-    |-    |-   |-  |-  |-  |-                          |1530  |
+#'  |1978  |-     |1031 |407  |73  |18 |3  |-  |-                          |1532  |
+#'  |1980  |-     |1029 |371  |53  |12 |3  |-  |-                          |1468  |
+#'  |1982  |1860  |-    |-    |-   |-  |-  |-  |-                          |1860  |
+#'  |1983  |-     |1008 |461  |99  |23 |6  |2  |-                          |1599  |
+#'  |1984  |-     |923  |444  |85  |18 |3  |-  |-                          |1473  |
+#'  |1985  |1534  |-    |-    |-   |-  |-  |-  |-                          |1534  |
+#'  |1986  |1470  |-    |-    |-   |-  |-  |-  |-                          |1470  |
+#'  |1987  |1819  |-    |-    |-   |-  |-  |-  |-                          |1819  |
+#'  |1988  |1481  |-    |-    |-   |-  |-  |-  |-                          |1481  |
+#'  |1989  |1537  |-    |-    |-   |-  |-  |-  |-                          |1537  |
+#'  |1990  |1372  |-    |-    |-   |-  |-  |-  |-                          |1372  |
+#'  |1991  |1517  |-    |-    |-   |-  |-  |-  |-                          |1517  |
+#'  |1993  |1606  |-    |-    |-   |-  |-  |-  |-                          |1606  |
+#'  |1994  |2992  |-    |-    |-   |-  |-  |-  |-                          |2992  |
+#'  |1996  |2904  |-    |-    |-   |-  |-  |-  |-                          |2904  |
+#'  |1998  |2832  |-    |-    |-   |-  |-  |-  |-                          |2832  |
+#'  |2000  |2817  |-    |-    |-   |-  |-  |-  |-                          |2817  |
+#'  |2002  |2765  |-    |-    |-   |-  |-  |-  |-                          |2765  |
+#'  |2004  |2812  |-    |-    |-   |-  |-  |-  |-                          |2812  |
+#'  |2006  |4510  |-    |-    |-   |-  |-  |-  |-                          |4510  |
+#'  |2008  |2023  |-    |-    |-   |-  |-  |-  |-                          |2023  |
+#'  |2010  |2044  |-    |-    |-   |-  |-  |-  |-                          |2044  |
+#'  |2012  |1974  |-    |-    |-   |-  |-  |-  |-                          |1974  |
+#'  |2014  |2538  |-    |-    |-   |-  |-  |-  |-                          |2538  |
+#'  |2016  |2867  |-    |-    |-   |-  |-  |-  |-                          |2867  |
+#'  |2018  |2348  |-    |-    |-   |-  |-  |-  |-                          |2348  |
+#'  |2021  |4032  |-    |-    |-   |-  |-  |-  |-                          |4032  |
+#'  |2022  |-     |-    |-    |-   |-  |-  |-  |3544                       |3544  |
+#'  |2024  |-     |-    |-    |-   |-  |-  |-  |3309                       |3309  |
+#'  |Total |62774 |3991 |1683 |310 |71 |15 |2  |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1978 |-       |full         |
+#'  |1980 |-       |full         |
+#'  |1983 |-       |full         |
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Relatives
+#' @family Trauma
+#' @family Unemployment
+#' 
+#' @keywords variable
+#' @md
+#' @name unrel4
+NULL
+
+
 #'  Hospitalized, disabled last 5 yrs
 #' 
 #'  hosdis5
 #' 
-#' Question 272. Hospitalization and disability during last five years.
+#' Question Hospitalization and disability during last five years.
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` none
+#'   * `1` prior 4 years
+#'   * `2` last year
+#'   * `3` both
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/743/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,12 +242,42 @@
 #'  |2024  |-     |-    |-         |-         |-    |-             |3309                       |3309  |
 #'  |Total |53969 |1891 |1069      |203       |8767 |2947          |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Trauma
+#' 
+#' @keywords variable
+#' @md
+#' @name hosdis5
+NULL
+
+
+#'  Rels hospitalized in last year
+#' 
+#'  hosrel1
+#' 
+#' Question A. Number of relatives hospitalized/disabled last year.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` none
-#'   * `1` prior 4 years
-#'   * `2` last year
-#'   * `3` both
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -67,22 +291,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hosdis5
-NULL
-
-#'  Rels hospitalized in last year
-#' 
-#'  hosrel1
-#' 
-#' Question 273a. Number of relatives hospitalized/disabled last year.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/744/vshow).
 #'
 #' Counts by year: 
 #'
@@ -125,6 +335,33 @@ NULL
 #'  |2024  |-     |-    |-    |-   |-   |-  |-  |-  |3309                       |3309  |
 #'  |Total |62774 |3663 |1821 |441 |116 |20 |10 |1  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1978 |-       |full         |
+#'  |1980 |-       |full         |
+#'  |1983 |-       |full         |
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Relatives
+#' @family Trauma
+#' 
+#' @keywords variable
+#' @md
+#' @name hosrel1
+NULL
+
+
+#'  Rels hospitalized betw 5 & 1 yrs ago
+#' 
+#'  hosrel4
+#' 
+#' Question B. Number of relatives hospitalized/disabled during previous four years.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -140,22 +377,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hosrel1
-NULL
-
-#'  Rels hospitalized betw 5 & 1 yrs ago
-#' 
-#'  hosrel4
-#' 
-#' Question 273b. Number of relatives hospitalized/disabled during previous four years.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/745/vshow).
 #'
 #' Counts by year: 
 #'
@@ -198,8 +421,44 @@ NULL
 #'  |2024  |-     |-    |-    |-   |-   |-   |-  |-  |-  |3309                       |3309  |
 #'  |Total |62774 |2802 |2066 |773 |271 |102 |40 |14 |4  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1978 |-       |full         |
+#'  |1980 |-       |full         |
+#'  |1983 |-       |full         |
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Relatives
+#' @family Trauma
+#' 
+#' @keywords variable
+#' @md
+#' @name hosrel4
+NULL
+
+
+#'  Relatives died in last 5 yrs
+#' 
+#'  death5
+#' 
+#' Question A. Death of relatives during the last five years.
+#' 
+#' 
 #' @section Values: 
 #' 
+#'   * `0` none
+#'   * `1` 1 in prior 4 yrs
+#'   * `2` 2+ in prior 4 yrs
+#'   * `3` 1 last yr
+#'   * `4` 1 last,1 in prior 4
+#'   * `5` 1 in last,2+ prior 4
+#'   * `6` 2+ last yr
+#'   * `7` 2+ last, 1 prior 4
+#'   * `8` 2+ last, 2+ prior 4
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -213,22 +472,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hosrel4
-NULL
-
-#'  Relatives died in last 5 yrs
-#' 
-#'  death5
-#' 
-#' Question 274a. Death of relatives during the last five years.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/746/vshow).
 #'
 #' Counts by year: 
 #'
@@ -271,17 +516,44 @@ NULL
 #'  |2024  |-     |-                    |-                |-         |-                   |-                 |-          |-                  |-                   |-         |-    |3309                       |3309  |
 #'  |Total |53969 |151                  |2614             |923       |432                 |783               |162        |72                 |43                  |133       |9564 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Family
+#' @family Relatives
+#' @family Trauma
+#' 
+#' @keywords variable
+#' @md
+#' @name death5
+NULL
+
+
+#'  Relatives died since age 16
+#' 
+#'  death16
+#' 
+#' Question B. Number of relatives dying since respondent 16 years old and prior to the last five years.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` none
-#'   * `1` 1 in prior 4 yrs
-#'   * `2` 2+ in prior 4 yrs
-#'   * `3` 1 last yr
-#'   * `4` 1 last,1 in prior 4
-#'   * `5` 1 in last,2+ prior 4
-#'   * `6` 2+ last yr
-#'   * `7` 2+ last, 1 prior 4
-#'   * `8` 2+ last, 2+ prior 4
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -295,22 +567,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name death5
-NULL
-
-#'  Relatives died since age 16
-#' 
-#'  death16
-#' 
-#' Question 274b. Number of relatives dying since respondent 16 years old and prior to the last five years.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/747/vshow).
 #'
 #' Counts by year: 
 #'
@@ -353,8 +611,50 @@ NULL
 #'  |2024  |-     |-    |-    |-    |-    |-   |-   |-   |-   |-  |-  |3309                       |3309  |
 #'  |Total |53969 |7512 |2485 |1539 |1078 |883 |686 |442 |193 |47 |12 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Family
+#' @family Relatives
+#' @family Trauma
+#' 
+#' @keywords variable
+#' @md
+#' @name death16
+NULL
+
+
+#'  Death of father
+#' 
+#'  padeath
+#' 
+#' Question A. Death of respondent's father
+#' 
+#' 
 #' @section Values: 
 #' 
+#'   * `0` no death reported
+#'   * `1` died before r 16
+#'   * `2` died 6+ yrs ago
+#'   * `3` died 1-5 yrs ago
+#'   * `4` died last year
+#'   * `8` cant tell
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -368,22 +668,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name death16
-NULL
-
-#'  Death of father
-#' 
-#'  padeath
-#' 
-#' Question 275a. Death of respondent's father.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/748/vshow).
 #'
 #' Counts by year: 
 #'
@@ -426,6 +712,40 @@ NULL
 #'  |2024  |-     |-                |-               |-                |-              |-          |-         |-                 |3309                       |3309  |
 #'  |Total |53969 |889              |4875            |813              |387            |639        |159       |7115              |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Family
+#' 
+#' @keywords variable
+#' @md
+#' @name padeath
+NULL
+
+
+#'  Death of mother
+#' 
+#'  madeath
+#' 
+#' Question B. Death of respondent's mother
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` no death reported
@@ -447,22 +767,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name padeath
-NULL
-
-#'  Death of mother
-#' 
-#'  madeath
-#' 
-#' Question 275b. Death of respondent's mother.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/749/vshow).
 #'
 #' Counts by year: 
 #'
@@ -505,14 +811,46 @@ NULL
 #'  |2024  |-     |-                |-               |-                |-              |-          |-         |-                 |3309                       |3309  |
 #'  |Total |53969 |729              |3683            |302              |285            |705        |127       |9046              |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Family
+#' 
+#' @keywords variable
+#' @md
+#' @name madeath
+NULL
+
+
+#'  Death of child
+#' 
+#'  chlddth
+#' 
+#' Question C. Death of child or child's spouse
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` no death reported
-#'   * `1` died before r 16
-#'   * `2` died 6+ yrs ago
-#'   * `3` died 1-5 yrs ago
-#'   * `4` died last year
-#'   * `8` cant tell
+#'   * `1` died 6+ yrs ago
+#'   * `2` died 1-5 yrs ago
+#'   * `3` died last year
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -526,22 +864,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name madeath
-NULL
-
-#'  Death of child
-#' 
-#'  chlddth
-#' 
-#' Question 275c. Death of child or child's spouse.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/750/vshow).
 #'
 #' Counts by year: 
 #'
@@ -584,184 +908,30 @@ NULL
 #'  |2024  |-     |-                |-               |-              |-         |-                 |3309                       |3309  |
 #'  |Total |58072 |208              |694             |97             |159       |9616              |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `0` no death reported
-#'   * `1` died 6+ yrs ago
-#'   * `2` died 1-5 yrs ago
-#'   * `3` died last year
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Family
 #' 
 #' @keywords variable
 #' @md
 #' @name chlddth
 NULL
 
-#'  Death of sibling
-#' 
-#'  sibdeath
-#' 
-#' Question 275d. Death of sibling or sibling-in-law.
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |died 1-5 yrs ago |died 6+ yrs ago |died last year |no answer |no death reported |not available in this year |Total |
-#'  |:-----|:-----|:----------------|:---------------|:--------------|:---------|:-----------------|:--------------------------|:-----|
-#'  |1972  |1613  |-                |-               |-              |-         |-                 |-                          |1613  |
-#'  |1973  |1504  |-                |-               |-              |-         |-                 |-                          |1504  |
-#'  |1974  |1484  |-                |-               |-              |-         |-                 |-                          |1484  |
-#'  |1975  |1490  |-                |-               |-              |-         |-                 |-                          |1490  |
-#'  |1976  |1499  |-                |-               |-              |-         |-                 |-                          |1499  |
-#'  |1977  |1530  |-                |-               |-              |-         |-                 |-                          |1530  |
-#'  |1978  |98    |166              |201             |75             |20        |972               |-                          |1532  |
-#'  |1980  |73    |151              |193             |78             |11        |962               |-                          |1468  |
-#'  |1982  |1860  |-                |-               |-              |-         |-                 |-                          |1860  |
-#'  |1983  |98    |181              |209             |69             |7         |1035              |-                          |1599  |
-#'  |1984  |64    |130              |227             |69             |21        |962               |-                          |1473  |
-#'  |1985  |1534  |-                |-               |-              |-         |-                 |-                          |1534  |
-#'  |1986  |60    |156              |221             |84             |6         |943               |-                          |1470  |
-#'  |1987  |89    |177              |250             |105            |20        |1178              |-                          |1819  |
-#'  |1988  |528   |114              |133             |69             |6         |631               |-                          |1481  |
-#'  |1989  |549   |73               |115             |36             |9         |755               |-                          |1537  |
-#'  |1990  |516   |56               |97              |26             |7         |670               |-                          |1372  |
-#'  |1991  |550   |59               |129             |32             |15        |732               |-                          |1517  |
-#'  |1993  |616   |72               |104             |30             |12        |772               |-                          |1606  |
-#'  |1994  |2510  |35               |53              |11             |3         |380               |-                          |2992  |
-#'  |1996  |2904  |-                |-               |-              |-         |-                 |-                          |2904  |
-#'  |1998  |2832  |-                |-               |-              |-         |-                 |-                          |2832  |
-#'  |2000  |2817  |-                |-               |-              |-         |-                 |-                          |2817  |
-#'  |2002  |2765  |-                |-               |-              |-         |-                 |-                          |2765  |
-#'  |2004  |2812  |-                |-               |-              |-         |-                 |-                          |2812  |
-#'  |2006  |4510  |-                |-               |-              |-         |-                 |-                          |4510  |
-#'  |2008  |2023  |-                |-               |-              |-         |-                 |-                          |2023  |
-#'  |2010  |2044  |-                |-               |-              |-         |-                 |-                          |2044  |
-#'  |2012  |1974  |-                |-               |-              |-         |-                 |-                          |1974  |
-#'  |2014  |2538  |-                |-               |-              |-         |-                 |-                          |2538  |
-#'  |2016  |2867  |-                |-               |-              |-         |-                 |-                          |2867  |
-#'  |2018  |2348  |-                |-               |-              |-         |-                 |-                          |2348  |
-#'  |2021  |4032  |-                |-               |-              |-         |-                 |-                          |4032  |
-#'  |2022  |-     |-                |-               |-              |-         |-                 |3544                       |3544  |
-#'  |2024  |-     |-                |-               |-              |-         |-                 |3309                       |3309  |
-#'  |Total |54731 |1370             |1932            |684            |137       |9992              |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `0` no death reported
-#'   * `1` died 6+ yrs ago
-#'   * `2` died 1-5 yrs ago
-#'   * `3` died last year
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name sibdeath
-NULL
-
-#'  Death of spouse
-#' 
-#'  spdeath
-#' 
-#' Question 275e. Death of spouse.
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |died 1-5 yrs ago |died 6+ yrs ago |died last year |no answer |no death reported |not available in this year |Total |
-#'  |:-----|:-----|:----------------|:---------------|:--------------|:---------|:-----------------|:--------------------------|:-----|
-#'  |1972  |1613  |-                |-               |-              |-         |-                 |-                          |1613  |
-#'  |1973  |1504  |-                |-               |-              |-         |-                 |-                          |1504  |
-#'  |1974  |1484  |-                |-               |-              |-         |-                 |-                          |1484  |
-#'  |1975  |1490  |-                |-               |-              |-         |-                 |-                          |1490  |
-#'  |1976  |1499  |-                |-               |-              |-         |-                 |-                          |1499  |
-#'  |1977  |1530  |-                |-               |-              |-         |-                 |-                          |1530  |
-#'  |1978  |237   |41               |115             |18             |19        |1102              |-                          |1532  |
-#'  |1980  |242   |45               |109             |22             |13        |1037              |-                          |1468  |
-#'  |1982  |1860  |-                |-               |-              |-         |-                 |-                          |1860  |
-#'  |1983  |265   |41               |123             |15             |20        |1135              |-                          |1599  |
-#'  |1984  |282   |54               |101             |17             |18        |1001              |-                          |1473  |
-#'  |1985  |1534  |-                |-               |-              |-         |-                 |-                          |1534  |
-#'  |1986  |266   |44               |129             |18             |4         |1009              |-                          |1470  |
-#'  |1987  |380   |54               |152             |36             |18        |1179              |-                          |1819  |
-#'  |1988  |675   |20               |80              |17             |7         |682               |-                          |1481  |
-#'  |1989  |710   |33               |67              |16             |7         |704               |-                          |1537  |
-#'  |1990  |650   |20               |86              |13             |7         |596               |-                          |1372  |
-#'  |1991  |710   |39               |79              |6              |10        |673               |-                          |1517  |
-#'  |1993  |736   |31               |86              |13             |14        |726               |-                          |1606  |
-#'  |1994  |2585  |14               |36              |2              |5         |350               |-                          |2992  |
-#'  |1996  |2904  |-                |-               |-              |-         |-                 |-                          |2904  |
-#'  |1998  |2832  |-                |-               |-              |-         |-                 |-                          |2832  |
-#'  |2000  |2817  |-                |-               |-              |-         |-                 |-                          |2817  |
-#'  |2002  |2765  |-                |-               |-              |-         |-                 |-                          |2765  |
-#'  |2004  |2812  |-                |-               |-              |-         |-                 |-                          |2812  |
-#'  |2006  |4510  |-                |-               |-              |-         |-                 |-                          |4510  |
-#'  |2008  |2023  |-                |-               |-              |-         |-                 |-                          |2023  |
-#'  |2010  |2044  |-                |-               |-              |-         |-                 |-                          |2044  |
-#'  |2012  |1974  |-                |-               |-              |-         |-                 |-                          |1974  |
-#'  |2014  |2538  |-                |-               |-              |-         |-                 |-                          |2538  |
-#'  |2016  |2867  |-                |-               |-              |-         |-                 |-                          |2867  |
-#'  |2018  |2348  |-                |-               |-              |-         |-                 |-                          |2348  |
-#'  |2021  |4032  |-                |-               |-              |-         |-                 |-                          |4032  |
-#'  |2022  |-     |-                |-               |-              |-         |-                 |3544                       |3544  |
-#'  |2024  |-     |-                |-               |-              |-         |-                 |3309                       |3309  |
-#'  |Total |56718 |436              |1163            |193            |142       |10194             |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `0` no death reported
-#'   * `1` died 6+ yrs ago
-#'   * `2` died 1-5 yrs ago
-#'   * `3` died last year
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name spdeath
-NULL
 

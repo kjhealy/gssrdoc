@@ -10,11 +10,40 @@ General Social Survey https://gss.norc.org
 obey
 }
 \details{
-Question 170. If you had to choose, which thing on this list would you pick as the most important for a child to learn to prepare him or her for life? a. Which comes next in importantc? b. Which comes third? c. Which comes fourth? TO OBEY
+Question If you had to choose, which thing on this list would you pick as the most important for a child to learn to prepare him or her for life?  (INTERVIEWER: READ CHOICES)
+A. Which comes next in importance?
+B. Which comes third?
+C. Which comes fourth?
+\enumerate{
+\item To obey
 }
+}
+\section{Values}{
+
+\itemize{
+\item \code{1} first
+\item \code{2} second
+\item \code{3} third
+\item \code{4} fourth
+\item \code{5} fifth
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/513/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab fifth \tab first \tab fourth \tab no answer \tab second \tab third \tab not available in this release \tab Total \cr
@@ -57,27 +86,58 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} first
-\item \code{2} second
-\item \code{3} third
-\item \code{4} fourth
-\item \code{5} fifth
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1986 \tab -/- \tab full \cr
+   1987 \tab -/- \tab full \cr
+   1988 \tab B/C \tab partial \cr
+   1989 \tab B/C \tab partial \cr
+   1990 \tab B/C \tab partial \cr
+   1991 \tab B/C \tab partial \cr
+   1993 \tab B/C \tab partial \cr
+   1994 \tab B/C \tab partial \cr
+   1996 \tab B/C \tab partial \cr
+   1998 \tab B/C \tab partial \cr
+   2000 \tab B/C \tab partial \cr
+   2002 \tab B/C \tab partial \cr
+   2004 \tab B/C \tab partial \cr
+   2006 \tab B/C \tab partial \cr
+   2008 \tab B/C \tab partial \cr
+   2010 \tab B/C \tab partial \cr
+   2012 \tab B/C \tab partial \cr
+   2014 \tab B/C \tab partial \cr
+   2016 \tab B/C \tab partial \cr
+   2018 \tab B/C \tab partial \cr
+   2021 \tab B/C \tab partial \cr
+   2022 \tab B/C \tab partial \cr
+   2024 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{amicablz}},
+\code{\link{considez}},
+\code{\link{controlz}},
+\code{\link{interesz}},
+\code{\link{obeysz}},
+\code{\link{popular}},
+\code{\link{responsz}},
+\code{\link{rolez}},
+\code{\link{studiouz}}
+
+Other Children: 
+\code{\link{amicablz}},
+\code{\link{considez}},
+\code{\link{controlz}},
+\code{\link{interesz}},
+\code{\link{obeysz}},
+\code{\link{popular}},
+\code{\link{responsz}},
+\code{\link{rolez}},
+\code{\link{studiouz}}
+}
+\concept{Children}
+\concept{Core}
 \keyword{variable}

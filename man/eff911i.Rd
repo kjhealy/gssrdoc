@@ -12,9 +12,32 @@ eff911i
 \details{
 Question How effective do you think changing mail handling procedures is for people dealing with terrorism? (Would you say 1, not at all effective, 5, extremely effective, or you may use any number in between?)
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} 1 not at all effective
+\item \code{2} 2
+\item \code{3} 3
+\item \code{4} 4
+\item \code{5} 5 extremely effective
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3860/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab 1 not at all effective \tab 2 \tab 3 \tab 4 \tab 5 extremely effective \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,27 +80,28 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} 1 not at all effective
-\item \code{2} 2
-\item \code{3} 3
-\item \code{4} 4
-\item \code{5} 5 extremely effective
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2008 \tab A/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Terrorism Preparedness: 
+\code{\link{done911i}},
+\code{\link{done911j}},
+\code{\link{done911l}},
+\code{\link{eff911j}},
+\code{\link{eff911l}}
+
+Other Terrorism: 
+\code{\link{done911i}},
+\code{\link{done911j}},
+\code{\link{done911l}},
+\code{\link{eff911j}},
+\code{\link{eff911l}}
+}
+\concept{Terrorism}
+\concept{Terrorism Preparedness}
 \keyword{variable}

@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 aidsinsr
 }
 \details{
-Question 1539. Do you support or oppose the following measures to deal with AIDS? c. Permit insurance companies to test applicants for the AIDS virus
+Question Do you support or oppose the following measures to deal with AIDS?
+C. Permit insurance companies to test applicants for the AIDS virus
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} support
+\item \code{2} oppose
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5043/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab no answer \tab oppose \tab support \tab not available in this year \tab Total \cr
@@ -57,24 +78,32 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} support
-\item \code{2} oppose
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1988 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Victims & AIDS: 
+\code{\link{aidsads}},
+\code{\link{aidshlth}},
+\code{\link{aidsids}},
+\code{\link{aidsmar}},
+\code{\link{aidssch}},
+\code{\link{aidssxed}},
+\code{\link{suiage3}},
+\code{\link{suirac3}},
+\code{\link{suireg3}}
+
+Other Aids: 
+\code{\link{aidsads}},
+\code{\link{aidshlth}},
+\code{\link{aidsids}},
+\code{\link{aidsmar}},
+\code{\link{aidssxed}}
+}
+\concept{Aids}
+\concept{Victims & AIDS}
 \keyword{variable}

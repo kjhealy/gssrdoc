@@ -1,11 +1,197 @@
+#'  Estimated value contributed in religious org
+#' 
+#'  valrelig
+#' 
+#' Question Of the total amount you gave to (AREA IN TOTHLTH-TOTOTH what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? (REPEAT FOR EACH ITEM MENTIONED IN TOTHLTH-TOTOTH) 
+#' RECORD above UNDER VALHLTH-VALOTH. (ESTIMATED CASH-VALUE OF PROPERTY CONTRIBUTIONS ONLY.)
+#' C. Religious organizations
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1962/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |0   |10 |100 |1000 |1200 |15 |150 |20 |200 |2000 |25 |250 |2500 |2800 |30 |300 |3000 |350 |3500 |40 |400 |4000 |5  |50 |500 |600 |6000 |625 |70 |700 |75 |750 |80 |800 |9000 |don't know |no answer |not available in this year |Total |
+#'  |:-----|:-----|:---|:--|:---|:----|:----|:--|:---|:--|:---|:----|:--|:---|:----|:----|:--|:---|:----|:---|:----|:--|:---|:----|:--|:--|:---|:---|:----|:---|:--|:---|:--|:---|:--|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1613  |
+#'  |1973  |1504  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1504  |
+#'  |1974  |1484  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1484  |
+#'  |1975  |1490  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1490  |
+#'  |1976  |1499  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1499  |
+#'  |1977  |1530  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1530  |
+#'  |1978  |1532  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1532  |
+#'  |1980  |1468  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1468  |
+#'  |1982  |1860  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1860  |
+#'  |1983  |1599  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1599  |
+#'  |1984  |1473  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1473  |
+#'  |1985  |1534  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1534  |
+#'  |1986  |1470  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1470  |
+#'  |1987  |1819  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1819  |
+#'  |1988  |1481  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1481  |
+#'  |1989  |1537  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1537  |
+#'  |1990  |1372  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1372  |
+#'  |1991  |1517  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1517  |
+#'  |1993  |1606  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1606  |
+#'  |1994  |2992  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |2992  |
+#'  |1996  |2274  |290 |2  |24  |2    |1    |2  |3   |6  |11  |1    |4  |2   |2    |1    |3  |6   |2    |1   |1    |5  |7   |1    |2  |5  |4   |3   |2    |1   |1  |1   |1  |1   |1  |1   |1    |33         |196       |-                          |2904  |
+#'  |1998  |2832  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |2832  |
+#'  |2000  |2817  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |2817  |
+#'  |2002  |2765  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |2765  |
+#'  |2004  |2812  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |2812  |
+#'  |2006  |4510  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |4510  |
+#'  |2008  |2023  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |2023  |
+#'  |2010  |2044  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |2044  |
+#'  |2012  |1974  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |1974  |
+#'  |2014  |2538  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |2538  |
+#'  |2016  |2867  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |2867  |
+#'  |2018  |2348  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |2348  |
+#'  |2021  |4032  |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |-                          |4032  |
+#'  |2022  |-     |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |3544                       |3544  |
+#'  |2024  |-     |-   |-  |-   |-    |-    |-  |-   |-  |-   |-    |-  |-   |-    |-    |-  |-   |-    |-   |-    |-  |-   |-    |-  |-  |-   |-   |-    |-   |-  |-   |-  |-   |-  |-   |-    |-          |-         |3309                       |3309  |
+#'  |Total |68216 |290 |2  |24  |2    |1    |2  |3   |6  |11  |1    |4  |2   |2    |1    |3  |6   |2    |1   |1    |5  |7   |1    |2  |5  |4   |3   |2    |1   |1  |1   |1  |1   |1  |1   |1    |33         |196       |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name valrelig
+NULL
+
+
+#'  Estimated value contributed in human services
+#' 
+#'  valhuman
+#' 
+#' Question Of the total amount you gave to (AREA IN TOTHLTH-TOTOTH what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? (REPEAT FOR EACH ITEM MENTIONED IN TOTHLTH-TOTOTH) 
+#' RECORD above UNDER VALHLTH-VALOTH. (ESTIMATED CASH-VALUE OF PROPERTY CONTRIBUTIONS ONLY.)
+#' D. Human services
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1963/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |0  |10 |100 |1000 |1200 |15 |150 |1500 |20 |200 |2000 |25 |250 |30 |300 |400 |5  |50 |500 |60 |600 |75 |don't know |no answer |not available in this year |Total |
+#'  |:-----|:-----|:--|:--|:---|:----|:----|:--|:---|:----|:--|:---|:----|:--|:---|:--|:---|:---|:--|:--|:---|:--|:---|:--|:----------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1613  |
+#'  |1973  |1504  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1504  |
+#'  |1974  |1484  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1484  |
+#'  |1975  |1490  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1490  |
+#'  |1976  |1499  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1499  |
+#'  |1977  |1530  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1530  |
+#'  |1978  |1532  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1532  |
+#'  |1980  |1468  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1468  |
+#'  |1982  |1860  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1860  |
+#'  |1983  |1599  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1599  |
+#'  |1984  |1473  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1473  |
+#'  |1985  |1534  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1534  |
+#'  |1986  |1470  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1470  |
+#'  |1987  |1819  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1819  |
+#'  |1988  |1481  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1481  |
+#'  |1989  |1537  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1537  |
+#'  |1990  |1372  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1372  |
+#'  |1991  |1517  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1517  |
+#'  |1993  |1606  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1606  |
+#'  |1994  |2992  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |2992  |
+#'  |1996  |2674  |94 |5  |11  |1    |1    |1  |3   |1    |2  |10  |1    |2  |1   |2  |4   |4   |1  |6  |8   |1  |1   |2  |8          |60        |-                          |2904  |
+#'  |1998  |2832  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |2832  |
+#'  |2000  |2817  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |2817  |
+#'  |2002  |2765  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |2765  |
+#'  |2004  |2812  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |2812  |
+#'  |2006  |4510  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |4510  |
+#'  |2008  |2023  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |2023  |
+#'  |2010  |2044  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |2044  |
+#'  |2012  |1974  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |1974  |
+#'  |2014  |2538  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |2538  |
+#'  |2016  |2867  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |2867  |
+#'  |2018  |2348  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |2348  |
+#'  |2021  |4032  |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |-                          |4032  |
+#'  |2022  |-     |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |3544                       |3544  |
+#'  |2024  |-     |-  |-  |-   |-    |-    |-  |-   |-    |-  |-   |-    |-  |-   |-  |-   |-   |-  |-  |-   |-  |-   |-  |-          |-         |3309                       |3309  |
+#'  |Total |68616 |94 |5  |11  |1    |1    |1  |3   |1    |2  |10  |1    |2  |1   |2  |4   |4   |1  |6  |8   |1  |1   |2  |8          |60        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name valhuman
+NULL
+
+
 #'  Estimated value contributed in environment
 #' 
 #'  valenvir
 #' 
-#' Question 645. Of the total amount you gave to (AREA IN Q.644) what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? e. Environment
+#' Question Of the total amount you gave to (AREA IN TOTHLTH-TOTOTH what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? (REPEAT FOR EACH ITEM MENTIONED IN TOTHLTH-TOTOTH) 
+#' RECORD above UNDER VALHLTH-VALOTH. (ESTIMATED CASH-VALUE OF PROPERTY CONTRIBUTIONS ONLY.)
+#' E. Environment
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1964/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +234,31 @@
 #'  |2024  |-     |-  |-   |-    |-   |-  |-  |-   |-  |-   |-    |-  |-          |-         |3309                       |3309  |
 #'  |Total |68716 |58 |5   |1    |1   |1  |3  |1   |2  |1   |1    |1  |2          |53        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name valenvir
+NULL
+
+
+#'  Estimated value contributed in pub-soc benefit
+#' 
+#'  valpub
+#' 
+#' Question Of the total amount you gave to (AREA IN TOTHLTH-TOTOTH what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? (REPEAT FOR EACH ITEM MENTIONED IN TOTHLTH-TOTOTH) 
+#' RECORD above UNDER VALHLTH-VALOTH. (ESTIMATED CASH-VALUE OF PROPERTY CONTRIBUTIONS ONLY.)
+#' F. Public/society benefit
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -63,22 +274,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name valenvir
-NULL
-
-#'  Estimated value contributed in pub-soc benefit
-#' 
-#'  valpub
-#' 
-#' Question 645. Of the total amount you gave to (AREA IN Q.644) what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? f. Public/society benefit
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1965/vshow).
 #'
 #' Counts by year: 
 #'
@@ -121,6 +318,31 @@ NULL
 #'  |2024  |-     |-  |-  |-   |-    |-   |-  |-   |-  |-  |-   |-   |-  |-  |-   |-   |-  |-          |-         |3309                       |3309  |
 #'  |Total |68696 |60 |1  |3   |1    |1   |2  |5   |1  |2  |3   |2   |1  |4  |2   |1   |1  |6          |54        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name valpub
+NULL
+
+
+#'  Estimated value contributed in recreation adults
+#' 
+#'  valrec
+#' 
+#' Question Of the total amount you gave to (AREA IN TOTHLTH-TOTOTH what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? (REPEAT FOR EACH ITEM MENTIONED IN TOTHLTH-TOTOTH) 
+#' RECORD above UNDER VALHLTH-VALOTH. (ESTIMATED CASH-VALUE OF PROPERTY CONTRIBUTIONS ONLY.)
+#' G. Recreation - adults
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -136,22 +358,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name valpub
-NULL
-
-#'  Estimated value contributed in recreation adults
-#' 
-#'  valrec
-#' 
-#' Question 645. Of the total amount you gave to (AREA IN Q.644) what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? g. Recreation - adults
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1966/vshow).
 #'
 #' Counts by year: 
 #'
@@ -194,6 +402,31 @@ NULL
 #'  |2024  |-     |-  |-   |-  |-   |-  |-   |-          |-         |3309                       |3309  |
 #'  |Total |68795 |23 |2   |1  |3   |1  |1   |1          |19        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name valrec
+NULL
+
+
+#'  Estimated value contributed in arts, culture, etc
+#' 
+#'  valart
+#' 
+#' Question Of the total amount you gave to (AREA IN TOTHLTH-TOTOTH what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? (REPEAT FOR EACH ITEM MENTIONED IN TOTHLTH-TOTOTH) 
+#' RECORD above UNDER VALHLTH-VALOTH. (ESTIMATED CASH-VALUE OF PROPERTY CONTRIBUTIONS ONLY.)
+#' H. Arts, culture, and humanities
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -209,22 +442,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name valrec
-NULL
-
-#'  Estimated value contributed in arts, culture, etc
-#' 
-#'  valart
-#' 
-#' Question 645. Of the total amount you gave to (AREA IN Q.644) what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? h. Arts, culture, and humanities
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1967/vshow).
 #'
 #' Counts by year: 
 #'
@@ -267,6 +486,31 @@ NULL
 #'  |2024  |-     |-  |-   |-   |-  |-   |-  |-   |-  |-   |-   |-          |-         |3309                       |3309  |
 #'  |Total |68724 |51 |2   |1   |2  |2   |1  |1   |5  |3   |1   |5          |48        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name valart
+NULL
+
+
+#'  Estimated value contributed in work-related org
+#' 
+#'  valwork
+#' 
+#' Question Of the total amount you gave to (AREA IN TOTHLTH-TOTOTH what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? (REPEAT FOR EACH ITEM MENTIONED IN TOTHLTH-TOTOTH) 
+#' RECORD above UNDER VALHLTH-VALOTH. (ESTIMATED CASH-VALUE OF PROPERTY CONTRIBUTIONS ONLY.)
+#' I. Work-related organizations
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -282,22 +526,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name valart
-NULL
-
-#'  Estimated value contributed in work-related org
-#' 
-#'  valwork
-#' 
-#' Question 645. Of the total amount you gave to (AREA IN Q.644) what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? i. Work-related organizations
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1968/vshow).
 #'
 #' Counts by year: 
 #'
@@ -340,6 +570,31 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-   |-    |-  |-   |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68742 |59 |1  |1  |2  |1   |1    |2  |1   |1  |2  |1  |4          |28        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name valwork
+NULL
+
+
+#'  Estimated value contributed in political org. etc
+#' 
+#'  valpol
+#' 
+#' Question Of the total amount you gave to (AREA IN TOTHLTH-TOTOTH what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? (REPEAT FOR EACH ITEM MENTIONED IN TOTHLTH-TOTOTH) 
+#' RECORD above UNDER VALHLTH-VALOTH. (ESTIMATED CASH-VALUE OF PROPERTY CONTRIBUTIONS ONLY.)
+#' J. Political organizations or campaigns
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -355,22 +610,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name valwork
-NULL
-
-#'  Estimated value contributed in political org. etc
-#' 
-#'  valpol
-#' 
-#' Question 645. Of the total amount you gave to (AREA IN Q.644) what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? j. Political organizations or campaigns
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1969/vshow).
 #'
 #' Counts by year: 
 #'
@@ -413,6 +654,31 @@ NULL
 #'  |2024  |-     |-  |-   |-  |-  |-   |-          |-         |3309                       |3309  |
 #'  |Total |68754 |35 |1   |1  |7  |1   |4          |43        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name valpol
+NULL
+
+
+#'  Estimated value contributed in youth development
+#' 
+#'  valyouth
+#' 
+#' Question Of the total amount you gave to (AREA IN TOTHLTH-TOTOTH what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? (REPEAT FOR EACH ITEM MENTIONED IN TOTHLTH-TOTOTH) 
+#' RECORD above UNDER VALHLTH-VALOTH. (ESTIMATED CASH-VALUE OF PROPERTY CONTRIBUTIONS ONLY.)
+#' K. Youth development
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -428,22 +694,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name valpol
-NULL
-
-#'  Estimated value contributed in youth development
-#' 
-#'  valyouth
-#' 
-#' Question 645. Of the total amount you gave to (AREA IN Q.644) what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? k. Youth development
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1970/vshow).
 #'
 #' Counts by year: 
 #'
@@ -486,6 +738,31 @@ NULL
 #'  |2024  |-     |-  |-  |-   |-   |-    |-  |-   |-  |-   |-    |-  |-  |-   |-  |-   |-  |-   |-  |-  |-   |-          |-         |3309                       |3309  |
 #'  |Total |68648 |94 |1  |6   |1   |1    |1  |1   |2  |4   |1    |4  |1  |1   |1  |1   |3  |1   |3  |1  |1   |4          |65        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name valyouth
+NULL
+
+
+#'  Estimated value contributed in priv & comm. found
+#' 
+#'  valfound
+#' 
+#' Question Of the total amount you gave to (AREA IN TOTHLTH-TOTOTH what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? (REPEAT FOR EACH ITEM MENTIONED IN TOTHLTH-TOTOTH) 
+#' RECORD above UNDER VALHLTH-VALOTH. (ESTIMATED CASH-VALUE OF PROPERTY CONTRIBUTIONS ONLY.)
+#' L. Private and community foundations
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -501,22 +778,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name valyouth
-NULL
-
-#'  Estimated value contributed in priv & comm. found
-#' 
-#'  valfound
-#' 
-#' Question 645. Of the total amount you gave to (AREA IN Q.644) what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? l. Private and community foundations
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1971/vshow).
 #'
 #' Counts by year: 
 #'
@@ -559,172 +822,19 @@ NULL
 #'  |2024  |-     |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68642 |82 |1  |7   |1    |2   |1  |6  |9   |1    |1   |4  |1   |1  |2  |5   |1  |3  |5   |1  |2  |1  |9          |58        |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
 #' @name valfound
 NULL
 
-#'  Estimated value contributed in international
-#' 
-#'  valintl
-#' 
-#' Question 645. Of the total amount you gave to (AREA IN Q.644) what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? m. International/foreign
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |0  |12 |40 |50 |500 |60 |don't know |no answer |not available in this year |Total |
-#'  |:-----|:-----|:--|:--|:--|:--|:---|:--|:----------|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |1613  |
-#'  |1973  |1504  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |1504  |
-#'  |1974  |1484  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |1484  |
-#'  |1975  |1490  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |1490  |
-#'  |1976  |1499  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |1499  |
-#'  |1977  |1530  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |1530  |
-#'  |1978  |1532  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |1532  |
-#'  |1980  |1468  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |1468  |
-#'  |1982  |1860  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |1860  |
-#'  |1983  |1599  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |1599  |
-#'  |1984  |1473  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |1473  |
-#'  |1985  |1534  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |1534  |
-#'  |1986  |1470  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |1470  |
-#'  |1987  |1819  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |1819  |
-#'  |1988  |1481  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |1481  |
-#'  |1989  |1537  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |1537  |
-#'  |1990  |1372  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |1372  |
-#'  |1991  |1517  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |1517  |
-#'  |1993  |1606  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |1606  |
-#'  |1994  |2992  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |2992  |
-#'  |1996  |2871  |14 |1  |1  |1  |1   |1  |3          |11        |-                          |2904  |
-#'  |1998  |2832  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |2832  |
-#'  |2000  |2817  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |2817  |
-#'  |2002  |2765  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |2765  |
-#'  |2004  |2812  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |2812  |
-#'  |2006  |4510  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |4510  |
-#'  |2008  |2023  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |2023  |
-#'  |2010  |2044  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |2044  |
-#'  |2012  |1974  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |1974  |
-#'  |2014  |2538  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |2538  |
-#'  |2016  |2867  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |2867  |
-#'  |2018  |2348  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |2348  |
-#'  |2021  |4032  |-  |-  |-  |-  |-   |-  |-          |-         |-                          |4032  |
-#'  |2022  |-     |-  |-  |-  |-  |-   |-  |-          |-         |3544                       |3544  |
-#'  |2024  |-     |-  |-  |-  |-  |-   |-  |-          |-         |3309                       |3309  |
-#'  |Total |68813 |14 |1  |1  |1  |1   |1  |3          |11        |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name valintl
-NULL
-
-#'   Estimated value contributed in informal-alone
-#' 
-#'  valinfrm
-#' 
-#' Question 645. Of the total amount you gave to (AREA IN Q.644) what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? n. Informal-alone-not-for-pay
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |0  |10 |100 |1000 |250 |50 |75 |don't know |no answer |not available in this year |Total |
-#'  |:-----|:-----|:--|:--|:---|:----|:---|:--|:--|:----------|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |1613  |
-#'  |1973  |1504  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |1504  |
-#'  |1974  |1484  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |1484  |
-#'  |1975  |1490  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |1490  |
-#'  |1976  |1499  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |1499  |
-#'  |1977  |1530  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |1530  |
-#'  |1978  |1532  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |1532  |
-#'  |1980  |1468  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |1468  |
-#'  |1982  |1860  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |1860  |
-#'  |1983  |1599  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |1599  |
-#'  |1984  |1473  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |1473  |
-#'  |1985  |1534  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |1534  |
-#'  |1986  |1470  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |1470  |
-#'  |1987  |1819  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |1819  |
-#'  |1988  |1481  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |1481  |
-#'  |1989  |1537  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |1537  |
-#'  |1990  |1372  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |1372  |
-#'  |1991  |1517  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |1517  |
-#'  |1993  |1606  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |1606  |
-#'  |1994  |2992  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |2992  |
-#'  |1996  |2867  |14 |2  |2   |1    |1   |4  |1  |3          |9         |-                          |2904  |
-#'  |1998  |2832  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |2832  |
-#'  |2000  |2817  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |2817  |
-#'  |2002  |2765  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |2765  |
-#'  |2004  |2812  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |2812  |
-#'  |2006  |4510  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |4510  |
-#'  |2008  |2023  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |2023  |
-#'  |2010  |2044  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |2044  |
-#'  |2012  |1974  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |1974  |
-#'  |2014  |2538  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |2538  |
-#'  |2016  |2867  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |2867  |
-#'  |2018  |2348  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |2348  |
-#'  |2021  |4032  |-  |-  |-   |-    |-   |-  |-  |-          |-         |-                          |4032  |
-#'  |2022  |-     |-  |-  |-   |-    |-   |-  |-  |-          |-         |3544                       |3544  |
-#'  |2024  |-     |-  |-  |-   |-    |-   |-  |-  |-          |-         |3309                       |3309  |
-#'  |Total |68809 |14 |2  |2   |1    |1   |4  |1  |3          |9         |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name valinfrm
-NULL
 

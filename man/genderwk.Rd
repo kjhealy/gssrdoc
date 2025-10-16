@@ -10,11 +10,37 @@ General Social Survey https://gss.norc.org
 genderwk
 }
 \details{
-Question 698. Are the people who work at this location mostly men or women?
+Question Are the people who work at this location mostly men or women?  Please just tell me the number on the card?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} all women
+\item \code{2} almost all women
+\item \code{3} mostly women
+\item \code{4} half men/women
+\item \code{5} mostly men
+\item \code{6} almost all men
+\item \code{7} all men
+\item \code{8} not sure
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2145/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab all men \tab all women \tab almost all men \tab almost all women \tab don't know \tab half men/women \tab mostly men \tab mostly women \tab no answer \tab not available in this year \tab Total \cr
@@ -57,30 +83,36 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} all women
-\item \code{2} almost all women
-\item \code{3} mostly women
-\item \code{4} half men/women
-\item \code{5} mostly men
-\item \code{6} almost all men
-\item \code{7} all men
-\item \code{8} not sure
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1998 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Jobs: 
+\code{\link{formltrn}},
+\code{\link{locyrs}},
+\code{\link{orgsize}},
+\code{\link{othyrs}},
+\code{\link{otjtrain}},
+\code{\link{partorg}},
+\code{\link{samework}},
+\code{\link{siteyrs}},
+\code{\link{wrkoth}}
+
+Other Job: 
+\code{\link{formltrn}},
+\code{\link{locyrs}},
+\code{\link{orgsize}},
+\code{\link{othyrs}},
+\code{\link{otjtrain}},
+\code{\link{partorg}},
+\code{\link{samework}},
+\code{\link{siteyrs}},
+\code{\link{wrkoth}}
+}
+\concept{Job}
+\concept{Jobs}
 \keyword{variable}

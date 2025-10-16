@@ -10,11 +10,45 @@ General Social Survey https://gss.norc.org
 colmajr2
 }
 \details{
-Question 479a. Could you tell me your major field of study (while you were) in college?
+Question A. Could you tell me your major field of study (while you were) in college?
 }
+\section{Values}{
+
+\itemize{
+\item \code{0} none
+\item \code{1} english, literature
+\item \code{2} foreign language
+\item \code{3} fine arts
+\item \code{4} other humanities
+\item \code{5} economics
+\item \code{6} psychology
+\item \code{7} government-civics
+\item \code{8} social science-other social study
+\item \code{9} mathematics
+\item \code{10} science
+\item \code{11} other
+\item \code{12} business
+\item \code{13} education
+\item \code{14} engineering
+\item \code{15} other vocational
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1451/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllll}{
    year \tab iap \tab business \tab economics \tab education \tab engineering \tab fine arts \tab foreign language \tab mathematics \tab no answer \tab other \tab other humanities \tab other vocational \tab psychology \tab science \tab social science-other social study \tab not available in this year \tab Total \cr
@@ -57,38 +91,25 @@ Counts by year:\tabular{llllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{0} none
-\item \code{1} english, literature
-\item \code{2} foreign language
-\item \code{3} fine arts
-\item \code{4} other humanities
-\item \code{5} economics
-\item \code{6} psychology
-\item \code{7} government-civics
-\item \code{8} social science-other social study
-\item \code{9} mathematics
-\item \code{10} science
-\item \code{11} other
-\item \code{12} business
-\item \code{13} education
-\item \code{14} engineering
-\item \code{15} other vocational
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1993 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Culture: 
+\code{\link{colmajr1}},
+\code{\link{hsclass1}},
+\code{\link{hsclass2}},
+\code{\link{mostimp4}}
+
+Other Education: 
+\code{\link{colmajr1}},
+\code{\link{hsclass1}},
+\code{\link{hsclass2}}
+}
+\concept{Culture}
+\concept{Education}
 \keyword{variable}

@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 chldsup
 }
 \details{
-Question 1571. Compared with 10 years ago, would you say that American children today are much better off, better off, about the same, worse off, or much worse off regarding: e. The supervision and discipline they receive from their parents
+Question Compared with 10 years ago, would you say that American children today are much better off, better off, about the same, worse off, or much worse off regarding:
+E. The supervision and discipline they receive from their parents.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} much better
+\item \code{2} better
+\item \code{3} about the same
+\item \code{4} worse
+\item \code{5} much worse
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5112/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab about the same \tab better \tab don't know \tab much better \tab much worse \tab no answer \tab worse \tab not available in this year \tab Total \cr
@@ -57,27 +81,35 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} much better
-\item \code{2} better
-\item \code{3} about the same
-\item \code{4} worse
-\item \code{5} much worse
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1990 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Children: 
+\code{\link{chldeduc}},
+\code{\link{chldlove}},
+\code{\link{chldmorl}},
+\code{\link{chldsafe}},
+\code{\link{roleccp}},
+\code{\link{roleclrg}},
+\code{\link{rolegp}},
+\code{\link{rolepa}},
+\code{\link{roletchr}}
+
+Other Children: 
+\code{\link{chldeduc}},
+\code{\link{chldlove}},
+\code{\link{chldmorl}},
+\code{\link{chldsafe}},
+\code{\link{roleccp}},
+\code{\link{roleclrg}},
+\code{\link{rolegp}},
+\code{\link{rolepa}},
+\code{\link{roletchr}}
+}
+\concept{Children}
 \keyword{variable}

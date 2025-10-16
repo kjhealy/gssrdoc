@@ -10,11 +10,39 @@ General Social Survey https://gss.norc.org
 freemns3
 }
 \details{
-Question 821. The next questions are about freedom in American today. Freedom means many different things to people. When you think about freedom, what comes to mind? Can you tell me in a couple of sentences what does freedom mean to you?
+Question The next questions are about freedom in American today. Freedom means many different things to people. When you think about freedom, what comes to mind? Can you tell me in a couple of sentences what does freedom mean to you?
+C. Third distinct subject mentioned
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} want:doing what i want
+\item \code{2} autonomy:self-realization
+\item \code{3} choices:making decision
+\item \code{4} rights:religion and speech
+\item \code{5} movement:movement and travel
+\item \code{6} negative:slave surbordinate discrimination
+\item \code{7} citizen:political participation
+\item \code{8} security:economic independence
+\item \code{9} other
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2659/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab autonomy:self-realization \tab choices:making decision \tab citizen:political participation \tab movement:movement and travel \tab negative:slave surbordinate discrimination \tab other \tab rights:religion and speech \tab security:economic independence \tab want:doing what i want \tab not available in this year \tab Total \cr
@@ -57,31 +85,25 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} want:doing what i want
-\item \code{2} autonomy:self-realization
-\item \code{3} choices:making decision
-\item \code{4} rights:religion and speech
-\item \code{5} movement:movement and travel
-\item \code{6} negative:slave surbordinate discrimination
-\item \code{7} citizen:political participation
-\item \code{8} security:economic independence
-\item \code{9} other
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Freedomeelings: 
+\code{\link{freemns1}},
+\code{\link{freemns2}}
+
+Other Freedom: 
+\code{\link{freeexp1}},
+\code{\link{freeexp2}},
+\code{\link{freeexp3}},
+\code{\link{freemns1}},
+\code{\link{freemns2}}
+}
+\concept{Freedom}
+\concept{Freedomeelings}
 \keyword{variable}

@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 fewknokd
 }
 \details{
-Question 1319. Do you think that women should work outside the home full-time, part-time or not at all, when a couple has not yet had a child?
+Question Do you think that women should work outside the home full-time, part-time or not at all, when a couple has not yet had a child?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} work full-time
+\item \code{2} work part-time
+\item \code{3} stay at home
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4454/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab can't choose \tab no answer \tab stay at home \tab work full-time \tab work part-time \tab not available in this year \tab Total \cr
@@ -57,25 +78,28 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} work full-time
-\item \code{2} work part-time
-\item \code{3} stay at home
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Family & Gender Roles: 
+\code{\link{earnshh}},
+\code{\link{happy7}},
+\code{\link{kidfinbu}},
+\code{\link{kidjob}},
+\code{\link{satfam7}},
+\code{\link{satjob7}},
+\code{\link{ssfchild}},
+\code{\link{ssmchild}},
+\code{\link{twoincs1}}
+
+Other Women: 
+\code{\link{twoincs1}}
+}
+\concept{ISSP Family & Gender Roles}
+\concept{Women}
 \keyword{variable}

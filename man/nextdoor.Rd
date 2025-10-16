@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 nextdoor
 }
 \details{
-Question 943a. How willing would you be to move next door to (John/Mary)'s family? -- definitely willing, probably willing, probably unwilling, or definitely unwilling?
+Question A. How willing would you be to move next door to (John/Mary)''s family? -- definitely willing, probably willing, probably unwilling, or definitely unwilling?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} definitely willing
+\item \code{2} probably willing
+\item \code{3} probably unwilling
+\item \code{4} definitely unwilling
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2933/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab definitely unwilling \tab definitely willing \tab don't know \tab no answer \tab probably unwilling \tab probably willing \tab not available in this year \tab skipped on web \tab Total \cr
@@ -57,26 +79,37 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} definitely willing
-\item \code{2} probably willing
-\item \code{3} probably unwilling
-\item \code{4} definitely unwilling
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
+   2024 \tab A/C/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Mental Health II: 
+\code{\link{allergic}},
+\code{\link{bettrown}},
+\code{\link{discipln}},
+\code{\link{geneprob}},
+\code{\link{imprvdis}},
+\code{\link{imprveat}},
+\code{\link{imprvmed}},
+\code{\link{raised}},
+\code{\link{violtv}}
+
+Other Children: 
+\code{\link{allergic}},
+\code{\link{bettrown}},
+\code{\link{discipln}},
+\code{\link{geneprob}},
+\code{\link{imprvdis}},
+\code{\link{imprveat}},
+\code{\link{imprvmed}},
+\code{\link{raised}},
+\code{\link{violtv}}
+}
+\concept{Children}
+\concept{Mental Health II}
 \keyword{variable}

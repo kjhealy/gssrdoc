@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 creation
 }
 \details{
-Question 1489. After I read off three statements, please tell me which one comes closest to your views about the origin and development of man. 1. God created man pretty much in his present form at one time within the last 10,000 years 2. Man has developed over millions of years from less advanced forms of life. God had no part in this process. 3. Man has developed over millions of years from less advanced forms of life, but God guided this process, including man's creation
+Question After I read off three statements, please tell me which one comes closest to your views about the origin and development of man.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} god created man
+\item \code{2} man has evolved
+\item \code{3} man has evolved, but god guided
+\item \code{4} other
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4972/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab can't choose \tab god created man \tab man has evolved \tab man has evolved, but god guided \tab no answer \tab other \tab not available in this year \tab Total \cr
@@ -57,26 +79,20 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} god created man
-\item \code{2} man has evolved
-\item \code{3} man has evolved, but god guided
-\item \code{4} other
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Misc II: 
+\code{\link{scitesty}}
+
+Other Religion: 
+\code{\link{scitesty}}
+}
+\concept{Misc II}
+\concept{Religion}
 \keyword{variable}

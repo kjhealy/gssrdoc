@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 geneself
 }
 \details{
-Question 1566. Today, tests are being developed that make it possible to detect serious genetic defects before a baby is born. But so far, it is impossible either to treat or to correct most of them. If (you/your partner) were pregnant, would you want (her) to have a test to find out if the baby has any serious genetic defects?
+Question Today, tests are being developed that make it possible to detect serious genetic defects before a baby is born. But so far, it is impossible either to treat or to correct most of them. If (you/your partner) were pregnant, would you want (her) to have a test to find out if the baby has any serious genetic defects?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} have test
+\item \code{2} not have test
+\item \code{7} refused
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5088/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab don't know \tab have test \tab no answer \tab not have test \tab refused \tab not available in this year \tab Total \cr
@@ -57,25 +78,33 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} have test
-\item \code{2} not have test
-\item \code{7} refused
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1990 \tab A/C/- \tab partial \cr
+   1996 \tab A/C/- \tab partial \cr
+   2004 \tab A/B/C \tab full \cr
+   2018 \tab A/C/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Genes: 
+\code{\link{geneabrt}},
+\code{\link{genedef1}},
+\code{\link{genedef2}},
+\code{\link{genedef3}},
+\code{\link{genegoo1}},
+\code{\link{genegoo2}}
+
+Other Genetic Testing: 
+\code{\link{geneabrt}},
+\code{\link{genedef1}},
+\code{\link{genedef2}},
+\code{\link{genedef3}},
+\code{\link{genegoo1}},
+\code{\link{genegoo2}}
+}
+\concept{Genes}
+\concept{Genetic Testing}
 \keyword{variable}

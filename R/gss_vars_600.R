@@ -1,11 +1,243 @@
+#'  Liking for japan
+#' 
+#'  japan
+#' 
+#' Question You will notice that the boxes on this card go from the highest position of "plus 5" for a country which you like very much, to the lowest position of "minus 5" for a country you dislike very much. How far up the scale or how far down the scale would you rate the following countries? READ EACH ITEM.
+#' B. Japan
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` +5
+#'   * `1` +4
+#'   * `2` +3
+#'   * `3` +2
+#'   * `4` +1
+#'   * `5` -1
+#'   * `6` -2
+#'   * `7` -3
+#'   * `8` -4
+#'   * `9` -5
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5491/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |+1   |+2   |+3   |+4   |+5   |-1   |-2  |-3  |-4  |-5   |dk, na, iap |Total |
+#'  |:-----|:--------------------------|:----|:----|:----|:----|:----|:----|:---|:---|:---|:----|:-----------|:-----|
+#'  |1972  |1613                       |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-           |1613  |
+#'  |1973  |1504                       |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-           |1504  |
+#'  |1974  |-                          |253  |217  |314  |149  |110  |101  |60  |63  |52  |87   |78          |1484  |
+#'  |1975  |-                          |273  |210  |277  |137  |83   |124  |69  |78  |64  |73   |102         |1490  |
+#'  |1976  |1499                       |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-           |1499  |
+#'  |1977  |-                          |267  |203  |288  |100  |102  |125  |72  |78  |68  |96   |131         |1530  |
+#'  |1978  |1532                       |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-           |1532  |
+#'  |1980  |1468                       |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-           |1468  |
+#'  |1982  |-                          |294  |231  |344  |169  |160  |163  |95  |83  |67  |113  |141         |1860  |
+#'  |1983  |-                          |307  |255  |257  |121  |105  |159  |84  |97  |53  |83   |78          |1599  |
+#'  |1984  |1473                       |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-           |1473  |
+#'  |1985  |-                          |249  |246  |298  |148  |128  |136  |70  |85  |40  |53   |81          |1534  |
+#'  |1986  |-                          |243  |240  |319  |149  |111  |109  |80  |59  |31  |74   |55          |1470  |
+#'  |1987  |1819                       |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-           |1819  |
+#'  |1988  |-                          |185  |136  |182  |83   |82   |85   |44  |51  |18  |68   |547         |1481  |
+#'  |1989  |-                          |194  |128  |189  |97   |73   |83   |56  |45  |18  |79   |575         |1537  |
+#'  |1990  |-                          |179  |112  |151  |67   |80   |83   |40  |50  |30  |88   |492         |1372  |
+#'  |1991  |-                          |158  |129  |189  |92   |95   |78   |46  |51  |41  |89   |549         |1517  |
+#'  |1993  |-                          |203  |137  |165  |77   |76   |123  |58  |58  |46  |92   |571         |1606  |
+#'  |1994  |-                          |93   |54   |73   |35   |41   |50   |32  |35  |21  |50   |2508        |2992  |
+#'  |1996  |2904                       |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-           |2904  |
+#'  |1998  |2832                       |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-           |2832  |
+#'  |2000  |2817                       |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-           |2817  |
+#'  |2002  |2765                       |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-           |2765  |
+#'  |2004  |2812                       |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-           |2812  |
+#'  |2006  |4510                       |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-           |4510  |
+#'  |2008  |2023                       |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-           |2023  |
+#'  |2010  |2044                       |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-           |2044  |
+#'  |2012  |1974                       |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-           |1974  |
+#'  |2014  |2538                       |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-           |2538  |
+#'  |2016  |2867                       |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-           |2867  |
+#'  |2018  |2348                       |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-           |2348  |
+#'  |2021  |4032                       |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-           |4032  |
+#'  |2022  |3544                       |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-           |3544  |
+#'  |2024  |3309                       |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-           |3309  |
+#'  |Total |54227                      |2898 |2298 |3046 |1424 |1246 |1419 |806 |833 |549 |1045 |5908        |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family War and International
+#' @family Countries
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name japan
+NULL
+
+
+#'  Liking for england
+#' 
+#'  england
+#' 
+#' Question You will notice that the boxes on this card go from the highest position of "plus 5" for a country which you like very much, to the lowest position of "minus 5" for a country you dislike very much. How far up the scale or how far down the scale would you rate the following countries? READ EACH ITEM.
+#' C. England
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` +5
+#'   * `1` +4
+#'   * `2` +3
+#'   * `3` +2
+#'   * `4` +1
+#'   * `5` -1
+#'   * `6` -2
+#'   * `7` -3
+#'   * `8` -4
+#'   * `9` -5
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5492/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |+1   |+2   |+3   |+4   |+5   |-1  |-2  |-3  |-4 |-5  |dk, na, iap |Total |
+#'  |:-----|:--------------------------|:----|:----|:----|:----|:----|:---|:---|:---|:--|:---|:-----------|:-----|
+#'  |1972  |1613                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |1613  |
+#'  |1973  |1504                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |1504  |
+#'  |1974  |-                          |153  |202  |358  |294  |250  |62  |25  |24  |14 |37  |65          |1484  |
+#'  |1975  |-                          |200  |198  |367  |241  |244  |57  |24  |32  |13 |24  |90          |1490  |
+#'  |1976  |1499                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |1499  |
+#'  |1977  |-                          |197  |193  |326  |260  |276  |60  |33  |20  |13 |28  |124         |1530  |
+#'  |1978  |1532                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |1532  |
+#'  |1980  |1468                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |1468  |
+#'  |1982  |-                          |211  |256  |410  |329  |349  |63  |34  |32  |22 |25  |129         |1860  |
+#'  |1983  |-                          |205  |208  |350  |304  |331  |41  |26  |28  |15 |20  |71          |1599  |
+#'  |1984  |1473                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |1473  |
+#'  |1985  |-                          |83   |106  |180  |145  |154  |17  |9   |9   |5  |4   |822         |1534  |
+#'  |1986  |1470                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |1470  |
+#'  |1987  |1819                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |1819  |
+#'  |1988  |1481                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |1481  |
+#'  |1989  |1537                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |1537  |
+#'  |1990  |1372                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |1372  |
+#'  |1991  |1517                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |1517  |
+#'  |1993  |1606                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |1606  |
+#'  |1994  |2992                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |2992  |
+#'  |1996  |2904                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |2904  |
+#'  |1998  |2832                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |2832  |
+#'  |2000  |2817                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |2817  |
+#'  |2002  |2765                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |2765  |
+#'  |2004  |2812                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |2812  |
+#'  |2006  |4510                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |4510  |
+#'  |2008  |2023                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |2023  |
+#'  |2010  |2044                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |2044  |
+#'  |2012  |1974                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |1974  |
+#'  |2014  |2538                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |2538  |
+#'  |2016  |2867                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |2867  |
+#'  |2018  |2348                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |2348  |
+#'  |2021  |4032                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |4032  |
+#'  |2022  |3544                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |3544  |
+#'  |2024  |3309                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |3309  |
+#'  |Total |66202                      |1049 |1163 |1991 |1573 |1604 |300 |151 |145 |82 |138 |1301        |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-       |full         |
+#'  |1975 |-       |full         |
+#'  |1977 |-       |full         |
+#'  |1982 |-       |full         |
+#'  |1983 |-       |full         |
+#'  |1985 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family War and International
+#' @family Countries
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name england
+NULL
+
+
 #'  Liking for canada
 #' 
 #'  canada
 #' 
-#' Question 103. You will notice that the boxes on this card go from the highest position of "plus 5" for a country which you like very much, to the lowest position of "minus 5" for a country you dislike very much. How far up the scale or how far down the scale would you rate the following countries? d. Canada
+#' Question You will notice that the boxes on this card go from the highest position of "plus 5" for a country which you like very much, to the lowest position of "minus 5" for a country you dislike very much. How far up the scale or how far down the scale would you rate the following countries? READ EACH ITEM.
+#' D. Canada
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` +5
+#'   * `1` +4
+#'   * `2` +3
+#'   * `3` +2
+#'   * `4` +1
+#'   * `5` -1
+#'   * `6` -2
+#'   * `7` -3
+#'   * `8` -4
+#'   * `9` -5
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5493/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +280,43 @@
 #'  |2024  |3309                       |-    |-    |-    |-    |-    |-   |-   |-  |-  |-   |-           |3309  |
 #'  |Total |54227                      |1196 |1353 |2809 |3502 |6272 |224 |120 |98 |50 |118 |5730        |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family War and International
+#' @family Countries
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name canada
+NULL
+
+
+#'  Liking for brazil
+#' 
+#'  brazil
+#' 
+#' Question You will notice that the boxes on this card go from the highest position of "plus 5" for a country which you like very much, to the lowest position of "minus 5" for a country you dislike very much. How far up the scale or how far down the scale would you rate the following countries? READ EACH ITEM.
+#' E. Brazil
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` +5
@@ -73,22 +342,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name canada
-NULL
-
-#'  Liking for brazil
-#' 
-#'  brazil
-#' 
-#' Question 103. You will notice that the boxes on this card go from the highest position of "plus 5" for a country which you like very much, to the lowest position of "minus 5" for a country you dislike very much. How far up the scale or how far down the scale would you rate the following countries? e. Brazil
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5494/vshow).
 #'
 #' Counts by year: 
 #'
@@ -131,6 +386,36 @@ NULL
 #'  |2024  |3309                       |-    |-    |-    |-   |-   |-   |-   |-   |-   |-   |-           |3309  |
 #'  |Total |66202                      |2107 |1227 |1162 |576 |481 |908 |386 |296 |150 |204 |2000        |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-       |full         |
+#'  |1975 |-       |full         |
+#'  |1977 |-       |full         |
+#'  |1982 |-       |full         |
+#'  |1983 |-       |full         |
+#'  |1985 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family War and International
+#' @family Countries
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name brazil
+NULL
+
+
+#'  Liking for china
+#' 
+#'  china
+#' 
+#' Question You will notice that the boxes on this card go from the highest position of "plus 5" for a country which you like very much, to the lowest position of "minus 5" for a country you dislike very much. How far up the scale or how far down the scale would you rate the following countries? READ EACH ITEM.
+#' F. China
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` +5
@@ -156,22 +441,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name brazil
-NULL
-
-#'  Liking for china
-#' 
-#'  china
-#' 
-#' Question 103. You will notice that the boxes on this card go from the highest position of "plus 5" for a country which you like very much, to the lowest position of "minus 5" for a country you dislike very much. How far up the scale or how far down the scale would you rate the following countries? f. China
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5495/vshow).
 #'
 #' Counts by year: 
 #'
@@ -214,6 +485,43 @@ NULL
 #'  |2024  |3309                       |-    |-    |-    |-   |-   |-    |-    |-    |-   |-    |-           |3309  |
 #'  |Total |54227                      |3344 |1885 |1699 |763 |684 |2212 |1220 |1127 |776 |1599 |6163        |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family War and International
+#' @family Countries
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name china
+NULL
+
+
+#'  Liking for israel
+#' 
+#'  israel
+#' 
+#' Question You will notice that the boxes on this card go from the highest position of "plus 5" for a country which you like very much, to the lowest position of "minus 5" for a country you dislike very much. How far up the scale or how far down the scale would you rate the following countries? READ EACH ITEM.
+#' G. Israel
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` +5
@@ -239,22 +547,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name china
-NULL
-
-#'  Liking for israel
-#' 
-#'  israel
-#' 
-#' Question 103. You will notice that the boxes on this card go from the highest position of "plus 5" for a country which you like very much, to the lowest position of "minus 5" for a country you dislike very much. How far up the scale or how far down the scale would you rate the following countries? g. Israel
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5496/vshow).
 #'
 #' Counts by year: 
 #'
@@ -297,6 +591,43 @@ NULL
 #'  |2024  |3309                       |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-           |3309  |
 #'  |Total |54227                      |2945 |1861 |2086 |1311 |1773 |1785 |971 |875 |524 |1071 |6270        |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family War and International
+#' @family Countries
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name israel
+NULL
+
+
+#'  Liking for egypt
+#' 
+#'  egypt
+#' 
+#' Question You will notice that the boxes on this card go from the highest position of "plus 5" for a country which you like very much, to the lowest position of "minus 5" for a country you dislike very much. How far up the scale or how far down the scale would you rate the following countries? READ EACH ITEM.
+#' H. Egypt
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `0` +5
@@ -322,22 +653,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name israel
-NULL
-
-#'  Liking for egypt
-#' 
-#'  egypt
-#' 
-#' Question 103. You will notice that the boxes on this card go from the highest position of "plus 5" for a country which you like very much, to the lowest position of "minus 5" for a country you dislike very much. How far up the scale or how far down the scale would you rate the following countries? h. Egypt
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5497/vshow).
 #'
 #' Counts by year: 
 #'
@@ -380,18 +697,50 @@ NULL
 #'  |2024  |3309                       |-    |-    |-    |-   |-   |-    |-    |-   |-   |-   |-           |3309  |
 #'  |Total |54227                      |3823 |1953 |1841 |931 |819 |2135 |1046 |893 |510 |948 |6573        |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family War and International
+#' @family Countries
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name egypt
+NULL
+
+
+#'  Welfare makes people work less
+#' 
+#'  welfare1
+#' 
+#' Question Here are some opinions other people have expressed about welfare. For each of the following statements, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it.
+#'  Welfare . . . (READ EACH STATEMENT. CIRCLE ONE CODE FOR EACH.)
+#'  A. Makes people work less than they would if there wasn''t a welfare system.
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `0` +5
-#'   * `1` +4
-#'   * `2` +3
-#'   * `3` +2
-#'   * `4` +1
-#'   * `5` -1
-#'   * `6` -2
-#'   * `7` -3
-#'   * `8` -4
-#'   * `9` -5
+#'   * `1` strongly agree
+#'   * `2` agree
+#'   * `3` disagree
+#'   * `4` strongly disagree
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -405,22 +754,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name egypt
-NULL
-
-#'  Welfare makes people work less
-#' 
-#'  welfare1
-#' 
-#' Question 1613. Here are some opinions other people have expressed about welfare. For each of the following statements, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it. Welfare . . . a. Makes people work less than they would if there wasn't a welfare system.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5498/vshow).
 #'
 #' Counts by year: 
 #'
@@ -463,6 +798,32 @@ NULL
 #'  |2024  |-     |-     |-        |-          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |67376 |753   |191      |17         |1         |481            |27                |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Welfare
+#' @family Income
+#' @family Welfare
+#' 
+#' @keywords variable
+#' @md
+#' @name welfare1
+NULL
+
+
+#'  Helps people overcome difficult times
+#' 
+#'  welfare2
+#' 
+#' Question Here are some opinions other people have expressed about welfare. For each of the following statements, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it.
+#'  Welfare . . . (READ EACH STATEMENT. CIRCLE ONE CODE FOR EACH.)
+#'  B. Helps people get on their feet when facing difficult situations such as unemployment, a divorce or a death in the family.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -482,22 +843,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name welfare1
-NULL
-
-#'  Helps people overcome difficult times
-#' 
-#'  welfare2
-#' 
-#' Question 1613. Here are some opinions other people have expressed about welfare. For each of the following statements, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it. Welfare . . . b. Helps people get on their feet when facing difficult situations such as unemployment, a divorce or a death in the family.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5499/vshow).
 #'
 #' Counts by year: 
 #'
@@ -540,6 +887,32 @@ NULL
 #'  |2024  |-     |-     |-        |-          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |67376 |1040  |193      |10         |2         |183            |42                |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Welfare
+#' @family Income
+#' @family Welfare
+#' 
+#' @keywords variable
+#' @md
+#' @name welfare2
+NULL
+
+
+#'  Encourages out-of-wedlock children
+#' 
+#'  welfare3
+#' 
+#' Question Here are some opinions other people have expressed about welfare. For each of the following statements, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it.
+#'  Welfare . . . (READ EACH STATEMENT. CIRCLE ONE CODE FOR EACH.)
+#'  C. Encourage young women to have babies before marriage.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` strongly agree
@@ -559,22 +932,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name welfare2
-NULL
-
-#'  Encourages out-of-wedlock children
-#' 
-#'  welfare3
-#' 
-#' Question 1613. Here are some opinions other people have expressed about welfare. For each of the following statements, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it. Welfare . . . c. Encourage young women to have babies before marriage.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5500/vshow).
 #'
 #' Counts by year: 
 #'
@@ -617,184 +976,20 @@ NULL
 #'  |2024  |-     |-     |-        |-          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |67376 |572   |484      |39         |2         |305            |68                |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` disagree
-#'   * `4` strongly disagree
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Welfare
+#' @family Income
+#' @family Welfare
 #' 
 #' @keywords variable
 #' @md
 #' @name welfare3
 NULL
 
-#'  Preserves marriages in difficult times
-#' 
-#'  welfare4
-#' 
-#' Question 1613. Here are some opinions other people have expressed about welfare. For each of the following statements, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it. Welfare . . . d. Helps keep people's marriage together in times of financial problems?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |agree |disagree |don't know |no answer |strongly agree |strongly disagree |not available in this year |Total |
-#'  |:-----|:-----|:-----|:--------|:----------|:---------|:--------------|:-----------------|:--------------------------|:-----|
-#'  |1972  |1613  |-     |-        |-          |-         |-              |-                 |-                          |1613  |
-#'  |1973  |1504  |-     |-        |-          |-         |-              |-                 |-                          |1504  |
-#'  |1974  |1484  |-     |-        |-          |-         |-              |-                 |-                          |1484  |
-#'  |1975  |1490  |-     |-        |-          |-         |-              |-                 |-                          |1490  |
-#'  |1976  |1499  |-     |-        |-          |-         |-              |-                 |-                          |1499  |
-#'  |1977  |1530  |-     |-        |-          |-         |-              |-                 |-                          |1530  |
-#'  |1978  |1532  |-     |-        |-          |-         |-              |-                 |-                          |1532  |
-#'  |1980  |1468  |-     |-        |-          |-         |-              |-                 |-                          |1468  |
-#'  |1982  |1860  |-     |-        |-          |-         |-              |-                 |-                          |1860  |
-#'  |1983  |1599  |-     |-        |-          |-         |-              |-                 |-                          |1599  |
-#'  |1984  |1473  |-     |-        |-          |-         |-              |-                 |-                          |1473  |
-#'  |1985  |1534  |-     |-        |-          |-         |-              |-                 |-                          |1534  |
-#'  |1986  |-     |772   |491      |47         |1         |67             |92                |-                          |1470  |
-#'  |1987  |1819  |-     |-        |-          |-         |-              |-                 |-                          |1819  |
-#'  |1988  |1481  |-     |-        |-          |-         |-              |-                 |-                          |1481  |
-#'  |1989  |1537  |-     |-        |-          |-         |-              |-                 |-                          |1537  |
-#'  |1990  |1372  |-     |-        |-          |-         |-              |-                 |-                          |1372  |
-#'  |1991  |1517  |-     |-        |-          |-         |-              |-                 |-                          |1517  |
-#'  |1993  |1606  |-     |-        |-          |-         |-              |-                 |-                          |1606  |
-#'  |1994  |2992  |-     |-        |-          |-         |-              |-                 |-                          |2992  |
-#'  |1996  |2904  |-     |-        |-          |-         |-              |-                 |-                          |2904  |
-#'  |1998  |2832  |-     |-        |-          |-         |-              |-                 |-                          |2832  |
-#'  |2000  |2817  |-     |-        |-          |-         |-              |-                 |-                          |2817  |
-#'  |2002  |2765  |-     |-        |-          |-         |-              |-                 |-                          |2765  |
-#'  |2004  |2812  |-     |-        |-          |-         |-              |-                 |-                          |2812  |
-#'  |2006  |4510  |-     |-        |-          |-         |-              |-                 |-                          |4510  |
-#'  |2008  |2023  |-     |-        |-          |-         |-              |-                 |-                          |2023  |
-#'  |2010  |2044  |-     |-        |-          |-         |-              |-                 |-                          |2044  |
-#'  |2012  |1974  |-     |-        |-          |-         |-              |-                 |-                          |1974  |
-#'  |2014  |2538  |-     |-        |-          |-         |-              |-                 |-                          |2538  |
-#'  |2016  |2867  |-     |-        |-          |-         |-              |-                 |-                          |2867  |
-#'  |2018  |2348  |-     |-        |-          |-         |-              |-                 |-                          |2348  |
-#'  |2021  |4032  |-     |-        |-          |-         |-              |-                 |-                          |4032  |
-#'  |2022  |-     |-     |-        |-          |-         |-              |-                 |3544                       |3544  |
-#'  |2024  |-     |-     |-        |-          |-         |-              |-                 |3309                       |3309  |
-#'  |Total |67376 |772   |491      |47         |1         |67             |92                |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` disagree
-#'   * `4` strongly disagree
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name welfare4
-NULL
-
-#'  Helps prevent hunger and starvation
-#' 
-#'  welfare5
-#' 
-#' Question 1613. Here are some opinions other people have expressed about welfare. For each of the following statements, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it. Welfare . . . e. Helps to prevent hunger and starvation.
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |agree |disagree |don't know |no answer |strongly agree |strongly disagree |not available in this year |Total |
-#'  |:-----|:-----|:-----|:--------|:----------|:---------|:--------------|:-----------------|:--------------------------|:-----|
-#'  |1972  |1613  |-     |-        |-          |-         |-              |-                 |-                          |1613  |
-#'  |1973  |1504  |-     |-        |-          |-         |-              |-                 |-                          |1504  |
-#'  |1974  |1484  |-     |-        |-          |-         |-              |-                 |-                          |1484  |
-#'  |1975  |1490  |-     |-        |-          |-         |-              |-                 |-                          |1490  |
-#'  |1976  |1499  |-     |-        |-          |-         |-              |-                 |-                          |1499  |
-#'  |1977  |1530  |-     |-        |-          |-         |-              |-                 |-                          |1530  |
-#'  |1978  |1532  |-     |-        |-          |-         |-              |-                 |-                          |1532  |
-#'  |1980  |1468  |-     |-        |-          |-         |-              |-                 |-                          |1468  |
-#'  |1982  |1860  |-     |-        |-          |-         |-              |-                 |-                          |1860  |
-#'  |1983  |1599  |-     |-        |-          |-         |-              |-                 |-                          |1599  |
-#'  |1984  |1473  |-     |-        |-          |-         |-              |-                 |-                          |1473  |
-#'  |1985  |1534  |-     |-        |-          |-         |-              |-                 |-                          |1534  |
-#'  |1986  |-     |1070  |136      |7          |3         |228            |26                |-                          |1470  |
-#'  |1987  |1819  |-     |-        |-          |-         |-              |-                 |-                          |1819  |
-#'  |1988  |1481  |-     |-        |-          |-         |-              |-                 |-                          |1481  |
-#'  |1989  |1537  |-     |-        |-          |-         |-              |-                 |-                          |1537  |
-#'  |1990  |1372  |-     |-        |-          |-         |-              |-                 |-                          |1372  |
-#'  |1991  |1517  |-     |-        |-          |-         |-              |-                 |-                          |1517  |
-#'  |1993  |1606  |-     |-        |-          |-         |-              |-                 |-                          |1606  |
-#'  |1994  |2992  |-     |-        |-          |-         |-              |-                 |-                          |2992  |
-#'  |1996  |2904  |-     |-        |-          |-         |-              |-                 |-                          |2904  |
-#'  |1998  |2832  |-     |-        |-          |-         |-              |-                 |-                          |2832  |
-#'  |2000  |2817  |-     |-        |-          |-         |-              |-                 |-                          |2817  |
-#'  |2002  |2765  |-     |-        |-          |-         |-              |-                 |-                          |2765  |
-#'  |2004  |2812  |-     |-        |-          |-         |-              |-                 |-                          |2812  |
-#'  |2006  |4510  |-     |-        |-          |-         |-              |-                 |-                          |4510  |
-#'  |2008  |2023  |-     |-        |-          |-         |-              |-                 |-                          |2023  |
-#'  |2010  |2044  |-     |-        |-          |-         |-              |-                 |-                          |2044  |
-#'  |2012  |1974  |-     |-        |-          |-         |-              |-                 |-                          |1974  |
-#'  |2014  |2538  |-     |-        |-          |-         |-              |-                 |-                          |2538  |
-#'  |2016  |2867  |-     |-        |-          |-         |-              |-                 |-                          |2867  |
-#'  |2018  |2348  |-     |-        |-          |-         |-              |-                 |-                          |2348  |
-#'  |2021  |4032  |-     |-        |-          |-         |-              |-                 |-                          |4032  |
-#'  |2022  |-     |-     |-        |-          |-         |-              |-                 |3544                       |3544  |
-#'  |2024  |-     |-     |-        |-          |-         |-              |-                 |3309                       |3309  |
-#'  |Total |67376 |1070  |136      |7          |3         |228            |26                |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` strongly agree
-#'   * `2` agree
-#'   * `3` disagree
-#'   * `4` strongly disagree
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name welfare5
-NULL
 

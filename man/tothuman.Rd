@@ -10,11 +10,30 @@ General Social Survey https://gss.norc.org
 tothuman
 }
 \details{
-Question 644. Approximately how much money or the cash equivalent of property have you contributed in each of the fields listed above in the past twelve months? d. Human services
+Question Approximately how much money or the cash equivalent of property have you contributed in each of the fields listed above in the past twelve months? (REPEAT FOR EACH ITEM MENTIONED IN GIVHLTH-GIVOTH) RECORD ABOVE UNDER TOTHLTH-VALOTH. (ESTIMATED DOLLAR VALUE CONTRIBUTED INCLUDING BOTH CASH CONTRIBUTIONS AND THE CASH-VALUE OF PROPERTY.)
+D. Human services
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1948/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 0 \tab 10 \tab 100 \tab 1000 \tab 10000 \tab 11 \tab 120 \tab 1200 \tab 130 \tab 145 \tab 15 \tab 150 \tab 1500 \tab 20 \tab 200 \tab 25 \tab 250 \tab 2500 \tab 30 \tab 300 \tab 3000 \tab 35 \tab 350 \tab 40 \tab 400 \tab 450 \tab 480 \tab 50 \tab 500 \tab 5000 \tab 60 \tab 600 \tab 70 \tab 700 \tab 75 \tab 80 \tab 850 \tab 900 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +76,36 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Markets & Exchange - Giving & Volunteering: 
+\code{\link{givinfrm}},
+\code{\link{givintl}},
+\code{\link{givoth}},
+\code{\link{toteduc}},
+\code{\link{totenvir}},
+\code{\link{tothlth}},
+\code{\link{totpub}},
+\code{\link{totrec}},
+\code{\link{totrelig}}
+
+Other Voluntary Associations: 
+\code{\link{givinfrm}},
+\code{\link{givintl}},
+\code{\link{givoth}},
+\code{\link{toteduc}},
+\code{\link{totenvir}},
+\code{\link{tothlth}},
+\code{\link{totpub}},
+\code{\link{totrec}},
+\code{\link{totrelig}}
+}
+\concept{Markets & Exchange - Giving & Volunteering}
+\concept{Voluntary Associations}
 \keyword{variable}

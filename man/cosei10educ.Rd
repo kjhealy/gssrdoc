@@ -10,11 +10,29 @@ General Social Survey https://gss.norc.org
 cosei10educ
 }
 \details{
-Question None
+Question Percentage of those who had some college or more education among those who had the same occupation as in COOCC10 in American Community Survey between 2010 and 2012 (25-64 years old only). This percentage is not from the GSS but it is used to calculate COSEI10.
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} i don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6359/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 13.1 \tab 13.3 \tab 13.5 \tab 14.1 \tab 14.2 \tab 16.5 \tab 16.9 \tab 17 \tab 17.3 \tab 18 \tab 18.7 \tab 19.2 \tab 19.6 \tab 20.4 \tab 21 \tab 21.1 \tab 21.6 \tab 22.3 \tab 23.9 \tab 24.1 \tab 24.3 \tab 25.4 \tab 25.7 \tab 26.7 \tab 27.8 \tab 28.9 \tab 29.5 \tab 33.7 \tab 33.9 \tab 35 \tab 35.1 \tab 36.5 \tab 37.4 \tab 37.7 \tab 38.4 \tab 39.6 \tab 40.8 \tab 42 \tab 42.3 \tab 42.6 \tab 43.9 \tab 44 \tab 45.2 \tab 45.7 \tab 46.4 \tab 47.8 \tab 48.5 \tab 48.9 \tab 54.2 \tab 54.8 \tab 55.4 \tab 55.9 \tab 56.1 \tab 56.6 \tab 57.1 \tab 57.6 \tab 58.8 \tab 58.9 \tab 61.1 \tab 61.3 \tab 62.7 \tab 64.6 \tab 65.3 \tab 68.4 \tab 68.6 \tab 68.8 \tab 73 \tab 75.5 \tab 76.5 \tab 76.9 \tab 77.2 \tab 77.5 \tab 79.4 \tab 82.4 \tab 82.5 \tab 83.3 \tab 85.4 \tab 85.7 \tab 86.3 \tab 86.7 \tab 90.6 \tab 91.4 \tab 91.9 \tab 94.4 \tab 94.8 \tab 95.6 \tab 98.9 \tab 99 \tab 99.4 \tab don't know \tab 17.5 \tab 20.6 \tab 22.7 \tab 25.1 \tab 26.2 \tab 30.4 \tab 31 \tab 31.2 \tab 33.5 \tab 34.3 \tab 36 \tab 40.3 \tab 45.4 \tab 46.1 \tab 46.6 \tab 47.4 \tab 48.3 \tab 48.8 \tab 49.3 \tab 50.1 \tab 51.7 \tab 52.7 \tab 53.9 \tab 54.3 \tab 57.7 \tab 59.2 \tab 63.9 \tab 65.5 \tab 67.3 \tab 69.1 \tab 69.9 \tab 70.1 \tab 70.3 \tab 73.9 \tab 78.2 \tab 79.2 \tab 81.3 \tab 81.9 \tab 82.3 \tab 83 \tab 89.4 \tab 91.1 \tab 92.4 \tab 93.7 \tab 95.1 \tab 97.3 \tab 97.5 \tab 97.8 \tab 99.7 \tab 12.3 \tab 16 \tab 17.2 \tab 17.9 \tab 21.7 \tab 22 \tab 26 \tab 27 \tab 28.7 \tab 29.7 \tab 30.7 \tab 31.9 \tab 44.2 \tab 50.6 \tab 51.1 \tab 58.5 \tab 65.6 \tab 66.9 \tab 70.4 \tab 71.6 \tab 71.7 \tab 73.3 \tab 74.4 \tab 75.9 \tab 78 \tab 78.4 \tab 83.7 \tab 85.9 \tab 89.8 \tab 90.9 \tab 92 \tab 92.6 \tab 99.1 \tab 99.2 \tab 99.5 \tab 15.5 \tab 16.8 \tab 19.1 \tab 21.5 \tab 22.4 \tab 25.6 \tab 32.1 \tab 34.7 \tab 47.3 \tab 50 \tab 53 \tab 55.8 \tab 63.1 \tab 67.4 \tab 69.8 \tab 72.5 \tab 78.3 \tab 82.8 \tab 84.8 \tab 90.2 \tab 93.1 \tab 95 \tab 95.5 \tab 95.7 \tab 96.5 \tab 11.9 \tab 30.6 \tab 34.8 \tab 39.2 \tab 46.9 \tab 54.6 \tab 55.1 \tab 55.5 \tab 55.7 \tab 58.6 \tab 63.3 \tab 70.9 \tab 72.2 \tab 73.5 \tab 74.2 \tab 74.6 \tab 75.1 \tab 79.6 \tab 80 \tab 80.1 \tab 81.1 \tab 84.5 \tab 87 \tab 87.3 \tab 87.5 \tab 92.1 \tab 93.3 \tab 94 \tab 96.4 \tab 26.6 \tab 27.1 \tab 27.5 \tab 35.3 \tab 38.6 \tab 39.9 \tab 42.8 \tab 48.2 \tab 61 \tab 64.1 \tab 75.6 \tab 94.1 \tab 96 \tab 98.3 \tab 98.5 \tab not available in this release \tab Total \cr
@@ -57,22 +75,30 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} i don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2021 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
+   2024 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Occupation: 
+\code{\link{cosei10}},
+\code{\link{masei10}},
+\code{\link{masei10educ}},
+\code{\link{masei10inc}},
+\code{\link{pasei10educ}},
+\code{\link{pasei10inc}},
+\code{\link{spsei10}},
+\code{\link{spsei10educ}},
+\code{\link{spsei10inc}}
+}
+\concept{Occupation}
 \keyword{variable}

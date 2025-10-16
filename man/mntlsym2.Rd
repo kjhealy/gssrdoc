@@ -10,11 +10,30 @@ General Social Survey https://gss.norc.org
 mntlsym2
 }
 \details{
-Question 665. Of course, everybody hears a good deal about physical illness and disease, but now, what about the ones we call mental or nervous illness?...When you hear someone say that a person is "mentally-ill," what does that mean to you? (PROBES: How would you describe a person who is mentally-ill? What do you think a mentally-ill person is like? What does a person like this do that tells you he is mentally-ill? How does a person like this act?)
+Question Of course, everybody hears a good deal about physical illness and disease, but now, what about the ones we call mental or nervous illness?...When you hear someone say that a person is "mentally-ill," what does that mean to you? (PROBES: How would you describe a person who is mentally-ill?  What do you think a mentally-ill person is like?  What does a person like this do that tells you he is mentally-ill?  How does a person like this act?)
+2. Symptoms or manifestations of mental illness -- Second mention.
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2046/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 201 \tab 202 \tab 203 \tab 204 \tab 205 \tab 207 \tab 208 \tab 210 \tab 211 \tab 212 \tab 302 \tab 303 \tab 304 \tab 306 \tab 307 \tab 308 \tab 310 \tab 404 \tab 405 \tab 406 \tab 407 \tab 408 \tab 409 \tab 411 \tab 412 \tab 501 \tab 503 \tab 506 \tab 507 \tab 508 \tab 510 \tab 512 \tab 601 \tab 602 \tab 609 \tab 610 \tab 611 \tab 612 \tab 701 \tab 702 \tab 704 \tab 707 \tab 708 \tab 709 \tab 710 \tab 711 \tab 712 \tab 801 \tab 802 \tab 803 \tab 805 \tab 807 \tab 808 \tab 810 \tab 811 \tab 812 \tab 902 \tab 904 \tab 905 \tab 906 \tab 908 \tab 909 \tab 911 \tab 921 \tab 922 \tab 923 \tab 925 \tab no answer \tab not available in this year \tab Total \cr
@@ -57,22 +76,35 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Mental Health: 
+\code{\link{brkdas1}},
+\code{\link{brkdas2}},
+\code{\link{mntlas2}},
+\code{\link{mntlimp1}},
+\code{\link{mntlimp2}},
+\code{\link{mntlimp3}},
+\code{\link{mntloth}},
+\code{\link{mntlsym1}},
+\code{\link{mntlsym3}}
+
+Other Mental Health: 
+\code{\link{brkdas1}},
+\code{\link{brkdas2}},
+\code{\link{mntlas2}},
+\code{\link{mntlimp1}},
+\code{\link{mntlimp2}},
+\code{\link{mntlimp3}},
+\code{\link{mntloth}},
+\code{\link{mntlsym1}},
+\code{\link{mntlsym3}}
+}
+\concept{Mental Health}
 \keyword{variable}

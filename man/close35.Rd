@@ -10,11 +10,43 @@ General Social Survey https://gss.norc.org
 close35
 }
 \details{
-Question 315. Please think about the relations between the people you just mentioned. Some of them may be total strangers in teh sense that they wouldn't recognize each other if they bumped into each other on the street. Others may be especially close, as close or closer to each other as they are to you. a. Are (PERSON 3) and (PERSON 5) total strangers? b. Are they especially close? As close or closer to each other as they are to you?
+Question IF LESS THAN 5 NAMES MENTIONED CROSS OUT UNUSED BOXES.
+Please think about the relations between the people you just mentioned. Some of them may be total strangers in the sense that they wouldn't recognize each other if they bumped into each other on the street. Others may be especially close, as close or closer to each other as they are to you.
+First, think about NAME 1 and NAME 2.
+ASK  CLOSE1 FOR FIRST PAIR.
+A. Are ____ and ____ total strangers?
+IF YES.......(ASK NAME1, NAME2, NAME3, NAME4, NAME5 FOR NEXT PAIR DoWN)
+IF NO........(ASK CLOSE12, CLOSE13, CLOSE14, CLOSE15, CLOSE 23, CLOSE24, CLOSE25, CLOSE34, CLOSE35, CLOSE45)
+B. Are they especially close?  PROBE:  As close or closer to each other as they are to you?
+IF YES.......(ASK NAME1, NAME2, NAME3, NAME4, NAME5 FOR NEXT PAIR DOWN)
+IF NO........(ASK NAME1, NAME2, NAME3, NAME4, NAME5 FOR NEXT PAIR DOWN)
+9. Closeness of Third and Fifth Persons
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} especially close
+\item \code{2} know each other
+\item \code{3} total strangers
+\item \code{7} refused
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/863/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab especially close \tab know each other \tab no answer \tab total strangers \tab not available in this year \tab Total \cr
@@ -57,26 +89,36 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} especially close
-\item \code{2} know each other
-\item \code{3} total strangers
-\item \code{7} refused
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1985 \tab -/-/- \tab full \cr
+   2004 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Social Networks: 
+\code{\link{close24}},
+\code{\link{close25}},
+\code{\link{close34}},
+\code{\link{close45}},
+\code{\link{sex1}},
+\code{\link{sex2}},
+\code{\link{sex3}},
+\code{\link{sex4}},
+\code{\link{sex5}}
+
+Other Social Networks: 
+\code{\link{close24}},
+\code{\link{close25}},
+\code{\link{close34}},
+\code{\link{close45}},
+\code{\link{sex1}},
+\code{\link{sex2}},
+\code{\link{sex3}},
+\code{\link{sex4}},
+\code{\link{sex5}}
+}
+\concept{Social Networks}
 \keyword{variable}

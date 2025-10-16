@@ -10,11 +10,38 @@ General Social Survey https://gss.norc.org
 meetings
 }
 \details{
-Question 798. Of these__________friends and relatives, about how many do you stay in contact with by: d. Seeing them at meetings or events related to church, clubs, or other groups?
+Question Of these____friends and relatives, about how many do you stay in contact with by:
+D. Seeing them at meetings or events related to church, clubs, or other groups?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} 0
+\item \code{2} 1 - 2
+\item \code{3} 3 - 5
+\item \code{4} 6 - 10
+\item \code{5} 11 - 15
+\item \code{6} 16-25
+\item \code{7} 26-50
+\item \code{8} 50+
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2547/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllll}{
    year \tab iap \tab 0 \tab 1 - 2 \tab 11 - 15 \tab 16-25 \tab 26-50 \tab 3 - 5 \tab 50+ \tab 6 - 10 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,30 +84,34 @@ Counts by year:\tabular{llllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} 0
-\item \code{2} 1 - 2
-\item \code{3} 3 - 5
-\item \code{4} 6 - 10
-\item \code{5} 11 - 15
-\item \code{6} 16-25
-\item \code{7} 26-50
-\item \code{8} 50+
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/- \tab partial \cr
+   2002 \tab A/B/C \tab full \cr
+   2004 \tab B/C/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Information Society: 
+\code{\link{artgn}},
+\code{\link{byemail}},
+\code{\link{byphone}},
+\code{\link{inperson}},
+\code{\link{letters}},
+\code{\link{numcntct}},
+\code{\link{perfrmgn}},
+\code{\link{polcangn}},
+\code{\link{polinfgn}}
+
+Other Family: 
+\code{\link{byemail}},
+\code{\link{byphone}},
+\code{\link{inperson}},
+\code{\link{letters}},
+\code{\link{numcntct}}
+}
+\concept{Family}
+\concept{Information Society}
 \keyword{variable}

@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 colop
 }
 \details{
-Question 1174. How do you feel about opportunities for young people to go to college. Should opportunities be...
+Question How do you feel about opportunities for young people to go to college. Should opportunities be...
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} increased a lot
+\item \code{2} increased a little
+\item \code{3} kept the same
+\item \code{4} reduced a little
+\item \code{5} reduced a lot
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4024/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab can't choose \tab increased a little \tab increased a lot \tab kept the same \tab no answer \tab reduced a little \tab reduced a lot \tab not available in this year \tab Total \cr
@@ -57,27 +80,38 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} increased a lot
-\item \code{2} increased a little
-\item \code{3} kept the same
-\item \code{4} reduced a little
-\item \code{5} reduced a lot
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1985 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Role of Gov't: 
+\code{\link{aidavg}},
+\code{\link{aidneedy}},
+\code{\link{aidsmart}},
+\code{\link{hscaring}},
+\code{\link{hsjobtr}},
+\code{\link{hsjudge}},
+\code{\link{hslibart}},
+\code{\link{hsorder}},
+\code{\link{hssci}}
+
+Other Education: 
+\code{\link{aidavg}},
+\code{\link{aidneedy}},
+\code{\link{aidsmart}},
+\code{\link{hscaring}},
+\code{\link{hsjobtr}},
+\code{\link{hsjudge}},
+\code{\link{hslibart}},
+\code{\link{hsorder}},
+\code{\link{hssci}}
+}
+\concept{Education}
+\concept{ISSP Role of Gov't}
+\concept{Opportunity}
+\concept{Split Ballots}
 \keyword{variable}

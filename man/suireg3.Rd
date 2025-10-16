@@ -10,11 +10,40 @@ General Social Survey https://gss.norc.org
 suireg3
 }
 \details{
-Question 1538. We would like to know a few other things about that person. d. What state did this person live in?
+Question We would like to know a few other things about that person.
+D. What state did this person live in?
 }
+\section{Values}{
+
+\itemize{
+\item \code{0} foreign
+\item \code{1} new england
+\item \code{2} middle atlantic
+\item \code{3} e. nor. central
+\item \code{4} w. nor. central
+\item \code{5} south atlantic
+\item \code{6} e. sou. central
+\item \code{7} w. sou. central
+\item \code{8} mountain
+\item \code{9} pacific
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5040/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab e. nor. central \tab new england \tab no answer \tab pacific \tab w. sou. central \tab e. sou. central \tab middle atlantic \tab mountain \tab south atlantic \tab not available in this year \tab Total \cr
@@ -57,32 +86,30 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{0} foreign
-\item \code{1} new england
-\item \code{2} middle atlantic
-\item \code{3} e. nor. central
-\item \code{4} w. nor. central
-\item \code{5} south atlantic
-\item \code{6} e. sou. central
-\item \code{7} w. sou. central
-\item \code{8} mountain
-\item \code{9} pacific
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1990 \tab A/B/C \tab full \cr
+   1991 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Victims & AIDS: 
+\code{\link{aidsads}},
+\code{\link{aidshlth}},
+\code{\link{aidsids}},
+\code{\link{aidsinsr}},
+\code{\link{aidsmar}},
+\code{\link{aidssch}},
+\code{\link{aidssxed}},
+\code{\link{suiage3}},
+\code{\link{suirac3}}
+
+Other Suicide: 
+\code{\link{suiage3}},
+\code{\link{suirac3}}
+}
+\concept{Suicide}
+\concept{Victims & AIDS}
 \keyword{variable}

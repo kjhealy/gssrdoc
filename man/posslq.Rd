@@ -10,11 +10,37 @@ General Social Survey https://gss.norc.org
 posslq
 }
 \details{
-Question 1205. Which of these statements applies to you? a. I am married and living in the same household as my husband or wife b. I am living as married and my partner and I together live in the same household c. I have a husband or wife or steady partner but we don't live in the same household d. I don't have a steady partner
+Question Which of these statements applies to you?  CODE ONE ONLY.
+A. I am married and living in the same household as my husband or wife.
+B. I am living as married and my partner and I together live in the same household.
+C. I have a husband or wife or steady partner but we don''t live in the same household.
+D. I don''t have a steady partner.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} i am married and living in the same household as my husband or wife
+\item \code{2} i am living as married and my partner and i together live in the same household
+\item \code{3} i have a husband or wife or steady partner, but we don't live in the same household
+\item \code{4} i don't have a steady partner
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4151/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab i am living as married and my partner and i together live in the same household \tab i am married and living in the same household as my husband or wife \tab i don't have a steady partner \tab i have a husband or wife or steady partner, but we don't live in the same household \tab no answer \tab don't know \tab skipped on web \tab Total \cr
@@ -57,26 +83,47 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} i am married and living in the same household as my husband or wife
-\item \code{2} i am living as married and my partner and i together live in the same household
-\item \code{3} i have a husband or wife or steady partner, but we don't live in the same household
-\item \code{4} i don't have a steady partner
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1986 \tab -/-/- \tab full \cr
+   2000 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2006 \tab D/-/- \tab partial \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2021 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
+   2024 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Social Networks & Support Systems: 
+\code{\link{brocall}},
+\code{\link{daucall}},
+\code{\link{daunum}},
+\code{\link{dautime}},
+\code{\link{dauvisit}},
+\code{\link{soncall}},
+\code{\link{sonnum}},
+\code{\link{sontime}},
+\code{\link{sonvisit}}
+
+Other Family: 
+\code{\link{brocall}},
+\code{\link{daucall}},
+\code{\link{daunum}},
+\code{\link{dautime}},
+\code{\link{dauvisit}},
+\code{\link{soncall}},
+\code{\link{sonnum}},
+\code{\link{sontime}},
+\code{\link{sonvisit}}
+}
+\concept{Cohabitation}
+\concept{Family}
+\concept{ISSP Social Networks & Support Systems}
 \keyword{variable}

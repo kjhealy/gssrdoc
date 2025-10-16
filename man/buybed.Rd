@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 buybed
 }
 \details{
-Question 621. I'd like you to imagine that you want to buy each of the following items or services. Would you rather buy them from a business or service provider with whom you had some family or social relationship, or from a seller or provider with whom you had no prior personal contact. a. Bedroom furniture
+Question I'd like you to imagine that you want to buy each of the following items or services. Would you rather buy them from a business or service provider with whom you had some family or social relationship, or from a seller or provider with whom you had no prior personal contact. Please tell me the number that best represents your feeling with respect to each of the purchases listed.
+A. Bedroom furniture
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} strong preference no contact
+\item \code{3} dont care
+\item \code{5} strong preference contact
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1857/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab 2 \tab 4 \tab don't know \tab dont care \tab no answer \tab strong preference contact \tab strong preference no contact \tab not available in this year \tab Total \cr
@@ -57,25 +79,36 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} strong preference no contact
-\item \code{3} dont care
-\item \code{5} strong preference contact
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Markets: 
+\code{\link{buyauto}},
+\code{\link{buyfixes}},
+\code{\link{buyhome}},
+\code{\link{buylaw}},
+\code{\link{loaned}},
+\code{\link{loanedto}},
+\code{\link{sellauto}},
+\code{\link{sellhome}},
+\code{\link{transoth}}
+
+Other Purchases/Transactions: 
+\code{\link{buyauto}},
+\code{\link{buyfixes}},
+\code{\link{buyhome}},
+\code{\link{buylaw}},
+\code{\link{loaned}},
+\code{\link{loanedto}},
+\code{\link{sellauto}},
+\code{\link{sellhome}},
+\code{\link{transoth}}
+}
+\concept{Markets}
+\concept{Purchases/Transactions}
 \keyword{variable}

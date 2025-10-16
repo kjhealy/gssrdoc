@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 transoth
 }
 \details{
-Question 618. Imagine that you have a used car in average condition for an automobile of its age and model. To your knowledge the car is in basically sound condition; ther ehas been a history of transmission problems, but the transmission is working well now. Now imagine that someone you didn't know comes to see the car and wants to buy it. How likely would you be to mention the car's history of transmission problems (if this person did not ask)?
+Question Now imagine that someone you didn't know comes to see the car and wants to buy it. How likely would you be to mention the car's history of transmission problems (if this person did not ask)?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} definitely would not mention it
+\item \code{2} probably would not
+\item \code{3} probably would
+\item \code{4} definitely would mention it
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1854/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab definitely would mention it \tab definitely would not mention it \tab don't know \tab no answer \tab probably would \tab probably would not \tab not available in this year \tab Total \cr
@@ -57,26 +79,36 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} definitely would not mention it
-\item \code{2} probably would not
-\item \code{3} probably would
-\item \code{4} definitely would mention it
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Markets: 
+\code{\link{buyauto}},
+\code{\link{buybed}},
+\code{\link{buyfixes}},
+\code{\link{buyhome}},
+\code{\link{buylaw}},
+\code{\link{loaned}},
+\code{\link{loanedto}},
+\code{\link{sellauto}},
+\code{\link{sellhome}}
+
+Other Purchases/Transactions: 
+\code{\link{buyauto}},
+\code{\link{buybed}},
+\code{\link{buyfixes}},
+\code{\link{buyhome}},
+\code{\link{buylaw}},
+\code{\link{loaned}},
+\code{\link{loanedto}},
+\code{\link{sellauto}},
+\code{\link{sellhome}}
+}
+\concept{Markets}
+\concept{Purchases/Transactions}
 \keyword{variable}

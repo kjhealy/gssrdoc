@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 sex3
 }
 \details{
-Question 316. (PERSON) is male/female? Is that correct?
+Question (NAME) is (male/female)?  Is that correct?  ASK FOR EACH NAME.
+3. Sex of Third Person
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} male
+\item \code{2} female
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/867/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllll}{
    year \tab iap \tab female \tab male \tab no answer \tab not available in this year \tab Total \cr
@@ -57,24 +78,32 @@ Counts by year:\tabular{lllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} male
-\item \code{2} female
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1985 \tab -/-/- \tab full \cr
+   2004 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Social Networksex: 
+\code{\link{sex1}},
+\code{\link{sex2}},
+\code{\link{sex4}},
+\code{\link{sex5}}
+
+Other Social Networks: 
+\code{\link{close24}},
+\code{\link{close25}},
+\code{\link{close34}},
+\code{\link{close35}},
+\code{\link{close45}},
+\code{\link{sex1}},
+\code{\link{sex2}},
+\code{\link{sex4}},
+\code{\link{sex5}}
+}
+\concept{Social Networks}
+\concept{Social Networksex}
 \keyword{variable}

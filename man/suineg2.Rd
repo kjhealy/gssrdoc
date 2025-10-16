@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 suineg2
 }
 \details{
-Question B. Was that person's death emotionally distressing to you?
+Question Was that person's death emotionally distressing to you?
+(HAND CARD I5)
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes, greatly
+\item \code{2} yes, to some extent
+\item \code{3} yes, but not much
+\item \code{4} no
+\item \code{5} not sure
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6190/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab no \tab no answer \tab not sure \tab yes, but not much \tab yes, greatly \tab yes, to some extent \tab not available in this year \tab Total \cr
@@ -57,27 +81,24 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes, greatly
-\item \code{2} yes, to some extent
-\item \code{3} yes, but not much
-\item \code{4} no
-\item \code{5} not sure
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2016 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Suicide: 
+\code{\link{suiclse1}},
+\code{\link{suiclse2}},
+\code{\link{suimths1}},
+\code{\link{suimths2}},
+\code{\link{suirel2}},
+\code{\link{suitime1}},
+\code{\link{suitime2}},
+\code{\link{suiyrs1}},
+\code{\link{suiyrs2}}
+}
+\concept{Suicide}
 \keyword{variable}

@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 taxshare
 }
 \details{
-Question 1258. Do you think that people with high incomes should pay a larger share of their income in taxes than those with low incomes, the same share, or a smaller share . . .
+Question Do you think that people with high incomes should pay a larger share of their income in taxes than those with low incomes, the same share, or a smaller share . . .
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} much larger share
+\item \code{2} larger
+\item \code{3} the same share
+\item \code{4} smaller
+\item \code{5} much smaller share
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4305/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab can't choose \tab larger \tab much larger share \tab much smaller share \tab no answer \tab smaller \tab the same share \tab skipped on web \tab not available in this year \tab Total \cr
@@ -57,27 +80,33 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} much larger share
-\item \code{2} larger
-\item \code{3} the same share
-\item \code{4} smaller
-\item \code{5} much smaller share
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1987 \tab -/-/- \tab full \cr
+   2000 \tab A/B/C \tab full \cr
+   2008 \tab B/C/- \tab partial \cr
+   2021 \tab B/C/- \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Social Inequality: 
+\code{\link{conclass}},
+\code{\link{conjobs}},
+\code{\link{consoc}},
+\code{\link{conunion}},
+\code{\link{conurban}},
+\code{\link{conwlth}},
+\code{\link{taxmid}},
+\code{\link{taxpoor}},
+\code{\link{taxrich}}
+
+Other Taxes: 
+\code{\link{taxmid}},
+\code{\link{taxpoor}},
+\code{\link{taxrich}}
+}
+\concept{ISSP Social Inequality}
+\concept{Taxes}
 \keyword{variable}

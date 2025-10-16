@@ -10,7 +10,8 @@ General Social Survey https://gss.norc.org
 indus07
 }
 \details{
-Question None
+Question C. What kind of place (do/did) you work for?
+D. What (do/did) they (make/do)?
 }
 \section{Values}{
 
@@ -30,4 +31,24 @@ Question None
 }
 }
 
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2010 \tab A/B/C \tab full \cr
+}
+}
+
+\seealso{
+Other Core: 
+\code{\link{commute}},
+\code{\link{found}},
+\code{\link{indus80}},
+\code{\link{industry}},
+\code{\link{occ10}},
+\code{\link{occ80}},
+\code{\link{occindv}},
+\code{\link{occonet}},
+\code{\link{prestg80}}
+}
+\concept{Core}
 \keyword{variable}

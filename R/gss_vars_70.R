@@ -1,11 +1,144 @@
+#'  Divorce laws
+#' 
+#'  divlaw
+#' 
+#' Question A. Should divorce in this country be easier or more difficult to obtain than it is now?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` easier
+#'   * `2` more difficult
+#'   * `3` stay as is
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/627/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |easier |more difficult |no answer |stay as is |not available in this year |Total |
+#'  |:-----|:-----|:----------|:------|:--------------|:---------|:----------|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-      |-              |-         |-          |-                          |1613  |
+#'  |1973  |1504  |-          |-      |-              |-         |-          |-                          |1504  |
+#'  |1974  |-     |77         |472    |624            |3         |308        |-                          |1484  |
+#'  |1975  |-     |71         |425    |692            |1         |301        |-                          |1490  |
+#'  |1976  |-     |80         |409    |743            |3         |264        |-                          |1499  |
+#'  |1977  |-     |74         |447    |736            |5         |268        |-                          |1530  |
+#'  |1978  |-     |63         |405    |629            |23        |412        |-                          |1532  |
+#'  |1980  |1468  |-          |-      |-              |-         |-          |-                          |1468  |
+#'  |1982  |-     |112        |491    |877            |3         |377        |-                          |1860  |
+#'  |1983  |-     |73         |379    |835            |2         |310        |-                          |1599  |
+#'  |1984  |1473  |-          |-      |-              |-         |-          |-                          |1473  |
+#'  |1985  |-     |64         |355    |813            |5         |297        |-                          |1534  |
+#'  |1986  |-     |60         |391    |758            |2         |259        |-                          |1470  |
+#'  |1987  |1819  |-          |-      |-              |-         |-          |-                          |1819  |
+#'  |1988  |493   |53         |241    |472            |6         |216        |-                          |1481  |
+#'  |1989  |531   |62         |251    |512            |1         |180        |-                          |1537  |
+#'  |1990  |444   |48         |212    |456            |1         |211        |-                          |1372  |
+#'  |1991  |493   |46         |284    |493            |3         |198        |-                          |1517  |
+#'  |1993  |526   |75         |280    |511            |3         |211        |-                          |1606  |
+#'  |1994  |1015  |112        |512    |916            |9         |428        |-                          |2992  |
+#'  |1996  |944   |110        |527    |960            |6         |357        |-                          |2904  |
+#'  |1998  |961   |122        |428    |967            |3         |351        |-                          |2832  |
+#'  |2000  |940   |105        |442    |912            |8         |410        |-                          |2817  |
+#'  |2002  |1857  |23         |238    |447            |4         |196        |-                          |2765  |
+#'  |2004  |1906  |47         |226    |459            |2         |172        |-                          |2812  |
+#'  |2006  |2518  |83         |494    |879            |-         |536        |-                          |4510  |
+#'  |2008  |694   |52         |364    |609            |5         |299        |-                          |2023  |
+#'  |2010  |614   |83         |450    |579            |5         |313        |-                          |2044  |
+#'  |2012  |672   |88         |432    |503            |6         |273        |-                          |1974  |
+#'  |2014  |863   |94         |574    |663            |5         |339        |-                          |2538  |
+#'  |2016  |979   |87         |702    |705            |11        |383        |-                          |2867  |
+#'  |2018  |789   |104        |648    |502            |10        |295        |-                          |2348  |
+#'  |2021  |-     |-          |-      |-              |-         |-          |4032                       |4032  |
+#'  |2022  |2299  |114        |606    |272            |3         |250        |-                          |3544  |
+#'  |2024  |2324  |79         |455    |243            |3         |205        |-                          |3309  |
+#'  |Total |29739 |2261       |12140  |18767          |141       |8619       |4032                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#'  |1996 |A/B     |partial      |
+#'  |1998 |A/B     |partial      |
+#'  |2000 |A/B     |partial      |
+#'  |2002 |A/B     |partial      |
+#'  |2004 |A/B     |partial      |
+#'  |2006 |A/B     |partial      |
+#'  |2008 |A/B     |partial      |
+#'  |2010 |A/B     |partial      |
+#'  |2012 |A/B     |partial      |
+#'  |2014 |A/B     |partial      |
+#'  |2016 |A/B     |partial      |
+#'  |2018 |A/B     |partial      |
+#'  |2021 |A/B     |partial      |
+#'  |2022 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Divorce
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name divlaw
+NULL
+
+
 #'  Divorce laws-version y
 #' 
 #'  divlawy
 #' 
-#' Question 215b. Should divorce in this country be easier to obtain, more difficult to obtain, or stay as it is now?
+#' Question B. Should divorce in this country be easier to obtain, more difficult to obtain, or stay as it is now?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` easier
+#'   * `2` more difficult
+#'   * `3` stay same
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/628/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,11 +181,34 @@
 #'  |2024  |-     |-          |-      |-              |-         |-         |3309                       |3309  |
 #'  |Total |68075 |33         |175    |252            |1         |310       |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1978 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Divorce
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name divlawy
+NULL
+
+
+#'  Ever entitled to alimony or chld support
+#' 
+#'  spdue
+#' 
+#' Question Are you currently or have you ever been entitled to alimony or child support payments from a former (husband/wife)?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` easier
-#'   * `2` more difficult
-#'   * `3` stay same
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -66,22 +222,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name divlawy
-NULL
-
-#'  Ever entitled to alimony or chld support
-#' 
-#'  spdue
-#' 
-#' Question 216. Are you currently or have you ever been entitled to alimony or child support payments from a former (husband/wife)?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/629/vshow).
 #'
 #' Counts by year: 
 #'
@@ -124,10 +266,36 @@ NULL
 #'  |2024  |-     |-   |-         |-   |3309                       |3309  |
 #'  |Total |68448 |244 |30        |124 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Divorce
+#' @family Marital Status
+#' 
+#' @keywords variable
+#' @md
+#' @name spdue
+NULL
+
+
+#'  Regularly received alimony - chld supprt
+#' 
+#'  sppaid
+#' 
+#' Question Are you currently or have you ever been entitled to alimony or child support payments from a former (husband/wife)?
+#' A. During the time you were entitled to alimony or child support, did you receive these payments on a regular basis, occasionally, or not at all?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` yes
-#'   * `2` no
+#'   * `1` regular basis
+#'   * `2` occasionally
+#'   * `3` not at all
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -141,22 +309,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name spdue
-NULL
-
-#'  Regularly received alimony - chld supprt
-#' 
-#'  sppaid
-#' 
-#' Question 216a. During the time you were entitled to alimony or child support, did you receive these payments on a regular basis, occasionally, or not at all?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/630/vshow).
 #'
 #' Counts by year: 
 #'
@@ -199,11 +353,37 @@ NULL
 #'  |2024  |-     |-         |-          |-            |-             |3309                       |3309  |
 #'  |Total |68692 |32        |36         |29           |57            |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Divorce
+#' 
+#' @keywords variable
+#' @md
+#' @name sppaid
+NULL
+
+
+#'  Sex before marriage
+#' 
+#'  premarsx
+#' 
+#' Question There's been a lot of discussion about the way morals and attitudes about sex are changing in this country. If a man and woman have sex relations before marriage, do you think it is always wrong, almost always wrong, wrong only 
+#' sometimes, or not wrong at all?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` regular basis
-#'   * `2` occasionally
-#'   * `3` not at all
+#'   * `1` always wrong
+#'   * `2` almost always wrong
+#'   * `3` wrong only sometimes
+#'   * `4` not wrong at all
+#'   * `5` other
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -217,22 +397,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name sppaid
-NULL
-
-#'  Sex before marriage
-#' 
-#'  premarsx
-#' 
-#' Question 217. There's been a lot of discussion about the way morals and attitudes about sex are changing in this country. If a man and woman have sex relations before marriage, do you think it is always wrong, almost always wrong, wrong only sometimes, or not wrong at all?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/631/vshow).
 #'
 #' Counts by year: 
 #'
@@ -275,6 +441,59 @@ NULL
 #'  |2024  |122                 |357          |50         |6         |1378             |258                  |1126  |12             |3309  |
 #'  |Total |3894                |11290        |1141       |204       |21806            |8707                 |28611 |46             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#'  |1996 |A/B     |partial      |
+#'  |1998 |A/B     |partial      |
+#'  |2000 |A/B     |partial      |
+#'  |2002 |A/B     |partial      |
+#'  |2004 |A/B     |partial      |
+#'  |2006 |A/B     |partial      |
+#'  |2008 |A/B     |partial      |
+#'  |2010 |A/B     |partial      |
+#'  |2012 |A/B     |partial      |
+#'  |2014 |A/B     |partial      |
+#'  |2016 |A/B     |partial      |
+#'  |2018 |A/B     |partial      |
+#'  |2021 |A/B     |partial      |
+#'  |2022 |A/B     |partial      |
+#'  |2024 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Sex
+#' 
+#' @keywords variable
+#' @md
+#' @name premarsx
+NULL
+
+
+#'  Sex before marriage:teens 14-16
+#' 
+#'  teensex
+#' 
+#' Question There's been a lot of discussion about the way morals and attitudes about sex are changing in this country. If a man and woman have sex relations before marriage, do you think it is always wrong, almost always wrong, wrong only sometimes, or not wrong at all?
+#' A. What if they are in their early teens, say 14 to 16 years old?  In that case, do you think sex relations before marriage are always wrong, almost always wrong, wrong only sometimes, or not wrong at all?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` always wrong
@@ -295,22 +514,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name premarsx
-NULL
-
-#'  Sex before marriage:teens 14-16
-#' 
-#'  teensex
-#' 
-#' Question 217a. What if they are in their early teens, say 14 to 16 years old? In that case, do you think sex relations before marriage are always wrong, almost always wrong, wrong only sometimes, or not wrong at all?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/632/vshow).
 #'
 #' Counts by year: 
 #'
@@ -353,6 +558,50 @@ NULL
 #'  |2024  |1126  |396                 |1028         |34         |4         |321              |378                  |22             |3309  |
 #'  |Total |41254 |5795                |21586        |390        |88        |2435             |4085                 |66             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#'  |1996 |A/B     |partial      |
+#'  |1998 |A/B     |partial      |
+#'  |2000 |A/B     |partial      |
+#'  |2002 |A/B     |partial      |
+#'  |2004 |A/B     |partial      |
+#'  |2006 |A/B     |partial      |
+#'  |2008 |A/B     |partial      |
+#'  |2010 |A/B     |partial      |
+#'  |2012 |A/B     |partial      |
+#'  |2014 |A/B     |partial      |
+#'  |2016 |A/B     |partial      |
+#'  |2018 |A/B     |partial      |
+#'  |2021 |A/B     |partial      |
+#'  |2022 |A/B     |partial      |
+#'  |2024 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Sex
+#' 
+#' @keywords variable
+#' @md
+#' @name teensex
+NULL
+
+
+#'  Sex with person other than spouse
+#' 
+#'  xmarsex
+#' 
+#' Question What is your opinion about a married person having sexual relations with someone other than the marriage partner--is it always wrong, almost always wrong, wrong only sometimes, or not wrong at all?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` always wrong
@@ -373,22 +622,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name teensex
-NULL
-
-#'  Sex with person other than spouse
-#' 
-#'  xmarsex
-#' 
-#' Question 218. What is yoru opinion about a married person having sexual relations with someone other than the marriage partner?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/633/vshow).
 #'
 #' Counts by year: 
 #'
@@ -431,6 +666,58 @@ NULL
 #'  |2024  |1067  |361                 |1503         |25         |9         |97               |228                  |19             |3309  |
 #'  |Total |28670 |6690                |34484        |550        |160       |1256             |3836                 |53             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |A/C     |partial      |
+#'  |1989 |A/C     |partial      |
+#'  |1990 |A/C     |partial      |
+#'  |1991 |A/C     |partial      |
+#'  |1993 |A/C     |partial      |
+#'  |1994 |A/C     |partial      |
+#'  |1996 |A/C     |partial      |
+#'  |1998 |A/C     |partial      |
+#'  |2000 |A/C     |partial      |
+#'  |2002 |A/C     |partial      |
+#'  |2004 |A/C     |partial      |
+#'  |2006 |A/C     |partial      |
+#'  |2008 |A/C     |partial      |
+#'  |2010 |A/C     |partial      |
+#'  |2012 |A/C     |partial      |
+#'  |2014 |A/C     |partial      |
+#'  |2016 |A/C     |partial      |
+#'  |2018 |A/C     |partial      |
+#'  |2021 |A/C     |partial      |
+#'  |2022 |A/C     |partial      |
+#'  |2024 |A/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Sex
+#' 
+#' @keywords variable
+#' @md
+#' @name xmarsex
+NULL
+
+
+#'  Homosexual sex relations
+#' 
+#'  homosex
+#' 
+#' Question What about sexual relations between two adults of the same sex--do you think it is always wrong, almost always wrong, wrong only sometimes, or not wrong at all?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` always wrong
@@ -451,22 +738,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name xmarsex
-NULL
-
-#'  Homosexual sex relations
-#' 
-#'  homosex
-#' 
-#' Question 219. What about sexual relations between two adults of the same sex?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/634/vshow).
 #'
 #' Counts by year: 
 #'
@@ -509,13 +782,63 @@ NULL
 #'  |2024  |1067  |84                  |741          |69         |20        |1163             |-     |137                  |28             |3309  |
 #'  |Total |28670 |2037                |25544        |1879       |341       |14041            |82    |3022                 |83             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |A/C     |partial      |
+#'  |1989 |A/C     |partial      |
+#'  |1990 |A/C     |partial      |
+#'  |1991 |A/C     |partial      |
+#'  |1993 |A/C     |partial      |
+#'  |1994 |A/C     |partial      |
+#'  |1996 |A/C     |partial      |
+#'  |1998 |A/C     |partial      |
+#'  |2000 |A/C     |partial      |
+#'  |2002 |A/C     |partial      |
+#'  |2004 |A/C     |partial      |
+#'  |2006 |A/C     |partial      |
+#'  |2008 |A/C     |partial      |
+#'  |2010 |A/C     |partial      |
+#'  |2012 |A/C     |partial      |
+#'  |2014 |A/C     |partial      |
+#'  |2016 |A/C     |partial      |
+#'  |2018 |A/C     |partial      |
+#'  |2021 |A/C     |partial      |
+#'  |2022 |A/C     |partial      |
+#'  |2024 |A/C     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Gays And Lesbians
+#' @family Sex
+#' 
+#' @keywords variable
+#' @md
+#' @name homosex
+NULL
+
+
+#'  Homosexuality: inherent or choice?
+#' 
+#'  homochng
+#' 
+#' Question Do you think being homosexual is something people choose to be, or do you think it is something they cannot change?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` always wrong
-#'   * `2` almost always wrong
-#'   * `3` wrong only sometimes
-#'   * `4` not wrong at all
-#'   * `5` other
+#'   * `1` something people choose to be
+#'   * `2` something they cannot change
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -529,22 +852,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name homosex
-NULL
-
-#'  Homosexuality: inherent or choice?
-#' 
-#'  homochng
-#' 
-#' Question 220. Do you think being homosexual is something people choose to be, or do you think it is something they cannot change?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/635/vshow).
 #'
 #' Counts by year: 
 #'
@@ -587,10 +896,37 @@ NULL
 #'  |2024  |-     |-          |-         |-                             |-                            |3309                       |3309  |
 #'  |Total |67888 |129        |12        |393                           |424                          |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B     |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Gays And Lesbians
+#' @family Sex
+#' 
+#' @keywords variable
+#' @md
+#' @name homochng
+NULL
+
+
+#'  Materials provide info about sex
+#' 
+#'  porninf
+#' 
+#' Question The next questions are about pornography--books, movies, magazines, and photographs that show or describe sex activities. 
+#' I''m going to read some opinions about the effects of looking at or reading such sexual materials. As I read each one, please tell me if you think sexual materials do or do not have that effect. 
+#' READ EACH ITEM. CODE ONE FOR EACH 
+#' A. Sexual materials provide information about sex
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` something people choose to be
-#'   * `2` something they cannot change
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -604,22 +940,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name homochng
-NULL
-
-#'  Materials provide info about sex
-#' 
-#'  porninf
-#' 
-#' Question 221. The next questions are about pornography - books, movies, magazines, and photographs that show or describe sex activities. I'm going to read some opinions about the effects of looking at or reading such sexual materials. As I read each one, please tell me if you think sexual materials do or do not have that effect: a. Sexual materials provide information about sex.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/636/vshow).
 #'
 #' Counts by year: 
 #'
@@ -662,103 +984,33 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-     |3309                       |3309  |
 #'  |Total |48960 |1203       |6950 |79        |11654 |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Sex
 #' 
 #' @keywords variable
 #' @md
 #' @name porninf
 NULL
 
-#'  Materials lead to breakdown in morals
-#' 
-#'  pornmorl
-#' 
-#' Question 221. The next questions are about pornography - books, movies, magazines, and photographs that show or describe sex activities. I'm going to read some opinions about the effects of looking at or reading such sexual materials. As I read each one, please tell me if you think sexual materials do or do not have that effect: b. Sexual materials lead to breakdown of morals.
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no   |no answer |yes   |not available in this year |Total |
-#'  |:-----|:-----|:----------|:----|:---------|:-----|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-    |-         |-     |-                          |1613  |
-#'  |1973  |-     |84         |622  |4         |794   |-                          |1504  |
-#'  |1974  |1484  |-          |-    |-         |-     |-                          |1484  |
-#'  |1975  |-     |134        |588  |3         |765   |-                          |1490  |
-#'  |1976  |-     |111        |560  |9         |819   |-                          |1499  |
-#'  |1977  |1530  |-          |-    |-         |-     |-                          |1530  |
-#'  |1978  |-     |78         |581  |3         |870   |-                          |1532  |
-#'  |1980  |-     |103        |477  |7         |881   |-                          |1468  |
-#'  |1982  |1860  |-          |-    |-         |-     |-                          |1860  |
-#'  |1983  |-     |83         |573  |10        |933   |-                          |1599  |
-#'  |1984  |-     |75         |484  |11        |903   |-                          |1473  |
-#'  |1985  |1534  |-          |-    |-         |-     |-                          |1534  |
-#'  |1986  |-     |78         |475  |7         |910   |-                          |1470  |
-#'  |1987  |-     |124        |613  |9         |1073  |-                          |1819  |
-#'  |1988  |484   |51         |325  |5         |616   |-                          |1481  |
-#'  |1989  |502   |62         |323  |7         |643   |-                          |1537  |
-#'  |1990  |473   |64         |287  |1         |547   |-                          |1372  |
-#'  |1991  |500   |69         |340  |2         |606   |-                          |1517  |
-#'  |1993  |549   |58         |318  |10        |671   |-                          |1606  |
-#'  |1994  |1965  |71         |370  |4         |582   |-                          |2992  |
-#'  |1996  |2904  |-          |-    |-         |-     |-                          |2904  |
-#'  |1998  |2832  |-          |-    |-         |-     |-                          |2832  |
-#'  |2000  |2817  |-          |-    |-         |-     |-                          |2817  |
-#'  |2002  |2765  |-          |-    |-         |-     |-                          |2765  |
-#'  |2004  |2812  |-          |-    |-         |-     |-                          |2812  |
-#'  |2006  |4510  |-          |-    |-         |-     |-                          |4510  |
-#'  |2008  |2023  |-          |-    |-         |-     |-                          |2023  |
-#'  |2010  |2044  |-          |-    |-         |-     |-                          |2044  |
-#'  |2012  |1974  |-          |-    |-         |-     |-                          |1974  |
-#'  |2014  |2538  |-          |-    |-         |-     |-                          |2538  |
-#'  |2016  |2867  |-          |-    |-         |-     |-                          |2867  |
-#'  |2018  |2348  |-          |-    |-         |-     |-                          |2348  |
-#'  |2021  |4032  |-          |-    |-         |-     |-                          |4032  |
-#'  |2022  |-     |-          |-    |-         |-     |3544                       |3544  |
-#'  |2024  |-     |-          |-    |-         |-     |3309                       |3309  |
-#'  |Total |48960 |1245       |6936 |92        |11613 |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name pornmorl
-NULL
 

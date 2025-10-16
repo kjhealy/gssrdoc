@@ -10,11 +10,38 @@ General Social Survey https://gss.norc.org
 parborn
 }
 \details{
-Question 32. Were both your parents born in this country?
+Question Were both your parents born in this country? (IF THE RESPONDENT IS UNCERTAIN OF PARENT, USE SAME PERSONS AS IN PAOCC16 to PAIND16, PAEDUC, MAEDUC, PADEG, AND MADEG.)
 }
+\section{Values}{
+
+\itemize{
+\item \code{0} both born in the u.s.
+\item \code{1} mother yes, father no
+\item \code{2} mother no, father yes
+\item \code{3} mother yes, father don't know
+\item \code{4} mother no, father don't know
+\item \code{5} mother don't know, father yes
+\item \code{6} mother don't know, father no
+\item \code{7} mother don't know, father don't know
+\item \code{8} neither born in the u.s.
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/95/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllll}{
    year \tab iap \tab both born in the u.s. \tab mother don't know, father don't know \tab mother no, father yes \tab mother yes, father don't know \tab mother yes, father no \tab neither born in the u.s. \tab no answer \tab mother no, father don't know \tab mother don't know, father no \tab mother don't know, father yes \tab skipped on web \tab Total \cr
@@ -57,31 +84,57 @@ Counts by year:\tabular{llllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{0} both born in the u.s.
-\item \code{1} mother yes, father no
-\item \code{2} mother no, father yes
-\item \code{3} mother yes, father don't know
-\item \code{4} mother no, father don't know
-\item \code{5} mother don't know, father yes
-\item \code{6} mother don't know, father no
-\item \code{7} mother don't know, father don't know
-\item \code{8} neither born in the u.s.
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1977 \tab -/-/- \tab full \cr
+   1978 \tab -/-/- \tab full \cr
+   1980 \tab -/-/- \tab full \cr
+   1982 \tab -/-/- \tab full \cr
+   1983 \tab -/-/- \tab full \cr
+   1984 \tab -/-/- \tab full \cr
+   1985 \tab -/-/- \tab full \cr
+   1986 \tab -/-/- \tab full \cr
+   1987 \tab -/-/- \tab full \cr
+   1988 \tab A/B/C \tab full \cr
+   1989 \tab A/B/C \tab full \cr
+   1990 \tab A/B/C \tab full \cr
+   1991 \tab A/B/C \tab full \cr
+   1993 \tab A/B/C \tab full \cr
+   1994 \tab A/B/C \tab full \cr
+   1996 \tab A/B/C \tab full \cr
+   1998 \tab A/B/C \tab full \cr
+   2000 \tab A/B/C \tab full \cr
+   2002 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2021 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
+   2024 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{born}},
+\code{\link{famdif16}},
+\code{\link{family16}},
+\code{\link{incom16}},
+\code{\link{mawk16}},
+\code{\link{mawkbaby}},
+\code{\link{mawkborn}},
+\code{\link{mawork}},
+\code{\link{mawrkgrw}}
+
+Other Nativity: 
+\code{\link{born}}
+}
+\concept{Core}
+\concept{Nativity}
 \keyword{variable}

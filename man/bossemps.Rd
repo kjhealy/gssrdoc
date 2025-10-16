@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 bossemps
 }
 \details{
-Question 1340. In general how would you describe relations in your work place: a. Between management and employees?
+Question In general how would you describe relations in your work placeâ€¦
+A. between management and employees?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very good
+\item \code{2} quite good
+\item \code{3} neither good nor bad
+\item \code{4} quite bad
+\item \code{5} very bad
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4559/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab can't choose \tab neither good nor bad \tab no answer \tab quite bad \tab quite good \tab very bad \tab very good \tab not available in this year \tab Total \cr
@@ -57,27 +81,40 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very good
-\item \code{2} quite good
-\item \code{3} neither good nor bad
-\item \code{4} quite bad
-\item \code{5} very bad
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1989 \tab A/B/C \tab full \cr
+   1998 \tab A/B/C \tab full \cr
+   2006 \tab D/-/- \tab partial \cr
+   2012 \tab A/B/C \tab full \cr
+   2016 \tab B/C/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Work Orientation: 
+\code{\link{boredom}},
+\code{\link{cowrkers}},
+\code{\link{danger}},
+\code{\link{findwork}},
+\code{\link{jobsat}},
+\code{\link{planwrk}},
+\code{\link{stress}},
+\code{\link{unhlthy}},
+\code{\link{unpleznt}}
+
+Other Job: 
+\code{\link{boredom}},
+\code{\link{cowrkers}},
+\code{\link{danger}},
+\code{\link{jobsat}},
+\code{\link{planwrk}},
+\code{\link{stress}},
+\code{\link{unhlthy}},
+\code{\link{unpleznt}}
+}
+\concept{Job}
+\concept{Social Class}
+\concept{Work Orientation}
 \keyword{variable}

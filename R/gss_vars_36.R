@@ -1,11 +1,122 @@
+#'  Life of peace and tranquility
+#' 
+#'  postlf1
+#' 
+#' Question Do you believe there is a life after death?
+#' A. Of course, no one knows exactly what life after death would be like, but here are some ideas people have had. (HAND CARD AA) How likely do you feel each possibility is? Would you say very likely, somewhat likely, not too likely, or not likely at all? (CIRCLE ONE NUMBER BESIDE EACH IDEA)
+#' 1. A life of peace and tranquility.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` very likely
+#'   * `2` somewhat likely
+#'   * `3` not too likely
+#'   * `4` not likely at all
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/301/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no answer |not likely at all |not too likely |somewhat likely |very likely |not available in this year |Total |
+#'  |:-----|:-----|:----------|:---------|:-----------------|:--------------|:---------------|:-----------|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-         |-                 |-              |-               |-           |-                          |1613  |
+#'  |1973  |1504  |-          |-         |-                 |-              |-               |-           |-                          |1504  |
+#'  |1974  |1484  |-          |-         |-                 |-              |-               |-           |-                          |1484  |
+#'  |1975  |1490  |-          |-         |-                 |-              |-               |-           |-                          |1490  |
+#'  |1976  |1499  |-          |-         |-                 |-              |-               |-           |-                          |1499  |
+#'  |1977  |1530  |-          |-         |-                 |-              |-               |-           |-                          |1530  |
+#'  |1978  |1532  |-          |-         |-                 |-              |-               |-           |-                          |1532  |
+#'  |1980  |1468  |-          |-         |-                 |-              |-               |-           |-                          |1468  |
+#'  |1982  |1860  |-          |-         |-                 |-              |-               |-           |-                          |1860  |
+#'  |1983  |389   |38         |8         |9                 |39             |346             |770         |-                          |1599  |
+#'  |1984  |278   |31         |15        |17                |50             |307             |775         |-                          |1473  |
+#'  |1985  |1534  |-          |-         |-                 |-              |-               |-           |-                          |1534  |
+#'  |1986  |1470  |-          |-         |-                 |-              |-               |-           |-                          |1470  |
+#'  |1987  |1819  |-          |-         |-                 |-              |-               |-           |-                          |1819  |
+#'  |1988  |1481  |-          |-         |-                 |-              |-               |-           |-                          |1481  |
+#'  |1989  |1537  |-          |-         |-                 |-              |-               |-           |-                          |1537  |
+#'  |1990  |1372  |-          |-         |-                 |-              |-               |-           |-                          |1372  |
+#'  |1991  |1517  |-          |-         |-                 |-              |-               |-           |-                          |1517  |
+#'  |1993  |1606  |-          |-         |-                 |-              |-               |-           |-                          |1606  |
+#'  |1994  |2992  |-          |-         |-                 |-              |-               |-           |-                          |2992  |
+#'  |1996  |2904  |-          |-         |-                 |-              |-               |-           |-                          |2904  |
+#'  |1998  |2832  |-          |-         |-                 |-              |-               |-           |-                          |2832  |
+#'  |2000  |2817  |-          |-         |-                 |-              |-               |-           |-                          |2817  |
+#'  |2002  |2765  |-          |-         |-                 |-              |-               |-           |-                          |2765  |
+#'  |2004  |2812  |-          |-         |-                 |-              |-               |-           |-                          |2812  |
+#'  |2006  |4510  |-          |-         |-                 |-              |-               |-           |-                          |4510  |
+#'  |2008  |2023  |-          |-         |-                 |-              |-               |-           |-                          |2023  |
+#'  |2010  |2044  |-          |-         |-                 |-              |-               |-           |-                          |2044  |
+#'  |2012  |1974  |-          |-         |-                 |-              |-               |-           |-                          |1974  |
+#'  |2014  |2538  |-          |-         |-                 |-              |-               |-           |-                          |2538  |
+#'  |2016  |2867  |-          |-         |-                 |-              |-               |-           |-                          |2867  |
+#'  |2018  |2348  |-          |-         |-                 |-              |-               |-           |-                          |2348  |
+#'  |2021  |4032  |-          |-         |-                 |-              |-               |-           |-                          |4032  |
+#'  |2022  |-     |-          |-         |-                 |-              |-               |-           |3544                       |3544  |
+#'  |2024  |-     |-          |-         |-                 |-              |-               |-           |3309                       |3309  |
+#'  |Total |66441 |69         |23        |26                |89             |653             |1545        |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-       |full         |
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name postlf1
+NULL
+
+
 #'  Life of intense action
 #' 
 #'  postlf2
 #' 
-#' Question 108a. Of course, no one knows exactly what life after death would be like, but her are some ideas people have had. How likely do you feel each possibility is? 2. A life of intense action.
+#' Question Do you believe there is a life after death?
+#' A. Of course, no one knows exactly what life after death would be like, but here are some ideas people have had. (HAND CARD AA) How likely do you feel each possibility is? Would you say very likely, somewhat likely, not too likely, or not likely at all? (CIRCLE ONE NUMBER BESIDE EACH IDEA)
+#' 2. A life of intense action.
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` very likely
+#'   * `2` somewhat likely
+#'   * `3` not too likely
+#'   * `4` not likely at all
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/302/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +159,32 @@
 #'  |2024  |-     |-          |-         |-                 |-              |-               |-           |3309                       |3309  |
 #'  |Total |66441 |189        |28        |424               |871            |612             |281         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-       |full         |
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name postlf2
+NULL
+
+
+#'  Like here on earth only better
+#' 
+#'  postlf3
+#' 
+#' Question Do you believe there is a life after death?
+#' A. Of course, no one knows exactly what life after death would be like, but here are some ideas people have had. (HAND CARD AA) How likely do you feel each possibility is? Would you say very likely, somewhat likely, not too likely, or not likely at all? (CIRCLE ONE NUMBER BESIDE EACH IDEA)
+#' 3. A life like the one here on earth only better.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` very likely
@@ -67,22 +204,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name postlf2
-NULL
-
-#'  Like here on earth only better
-#' 
-#'  postlf3
-#' 
-#' Question 108a. Of course, no one knows exactly what life after death would be like, but her are some ideas people have had. How likely do you feel each possibility is? 3. A life liek the one here on earth only better.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/303/vshow).
 #'
 #' Counts by year: 
 #'
@@ -125,6 +248,32 @@ NULL
 #'  |2024  |-     |-          |-         |-                 |-              |-               |-           |3309                       |3309  |
 #'  |Total |66441 |96         |25        |400               |508            |687             |689         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-       |full         |
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name postlf3
+NULL
+
+
+#'  Life without many earthly joys
+#' 
+#'  postlf4
+#' 
+#' Question Do you believe there is a life after death?
+#' A. Of course, no one knows exactly what life after death would be like, but here are some ideas people have had. (HAND CARD AA) How likely do you feel each possibility is? Would you say very likely, somewhat likely, not too likely, or not likely at all? (CIRCLE ONE NUMBER BESIDE EACH IDEA)
+#' 4. A life without many things which make our present life enjoyable.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` very likely
@@ -144,22 +293,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name postlf3
-NULL
-
-#'  Life without many earthly joys
-#' 
-#'  postlf4
-#' 
-#' Question 108a. Of course, no one knows exactly what life after death would be like, but her are some ideas people have had. How likely do you feel each possibility is? 4. A life without many things which make our present life enjoyable.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/304/vshow).
 #'
 #' Counts by year: 
 #'
@@ -202,6 +337,32 @@ NULL
 #'  |2024  |-     |-          |-         |-                 |-              |-               |-           |3309                       |3309  |
 #'  |Total |66441 |154        |28        |489               |644            |594             |496         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-       |full         |
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name postlf4
+NULL
+
+
+#'  Pale or shadowy form of life
+#' 
+#'  postlf5
+#' 
+#' Question Do you believe there is a life after death?
+#' A. Of course, no one knows exactly what life after death would be like, but here are some ideas people have had. (HAND CARD AA) How likely do you feel each possibility is? Would you say very likely, somewhat likely, not too likely, or not likely at all? (CIRCLE ONE NUMBER BESIDE EACH IDEA)
+#' 5. A pale, shadowy form of life, hardly life at all.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` very likely
@@ -221,22 +382,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name postlf4
-NULL
-
-#'  Pale or shadowy form of life
-#' 
-#'  postlf5
-#' 
-#' Question 108a. Of course, no one knows exactly what life after death would be like, but her are some ideas people have had. How likely do you feel each possibility is? 5. A pale, shadowy form of life, hardly life at all.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/305/vshow).
 #'
 #' Counts by year: 
 #'
@@ -279,6 +426,32 @@ NULL
 #'  |2024  |-     |-          |-         |-                 |-              |-               |-           |3309                       |3309  |
 #'  |Total |66441 |162        |28        |1147              |639            |305             |124         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-       |full         |
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name postlf5
+NULL
+
+
+#'  A spiritual life involving mind not body
+#' 
+#'  postlf6
+#' 
+#' Question Do you believe there is a life after death?
+#' A. Of course, no one knows exactly what life after death would be like, but here are some ideas people have had. (HAND CARD AA) How likely do you feel each possibility is? Would you say very likely, somewhat likely, not too likely, or not likely at all? (CIRCLE ONE NUMBER BESIDE EACH IDEA)
+#' 6. A spiritual life, involving our mind but not our body.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` very likely
@@ -298,22 +471,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name postlf5
-NULL
-
-#'  A spiritual life involving mind not body
-#' 
-#'  postlf6
-#' 
-#' Question 108a. Of course, no one knows exactly what life after death would be like, but her are some ideas people have had. How likely do you feel each possibility is? 6. A spiritual life, involving our mind but not our body.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/306/vshow).
 #'
 #' Counts by year: 
 #'
@@ -356,6 +515,32 @@ NULL
 #'  |2024  |-     |-          |-         |-                 |-              |-               |-           |3309                       |3309  |
 #'  |Total |66441 |124        |31        |254               |206            |692             |1098        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-       |full         |
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name postlf6
+NULL
+
+
+#'  Paradise of pleasures and delights
+#' 
+#'  postlf7
+#' 
+#' Question Do you believe there is a life after death?
+#' A. Of course, no one knows exactly what life after death would be like, but here are some ideas people have had. (HAND CARD AA) How likely do you feel each possibility is? Would you say very likely, somewhat likely, not too likely, or not likely at all? (CIRCLE ONE NUMBER BESIDE EACH IDEA)
+#' 7. A paradise of pleasure and delights.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` very likely
@@ -375,22 +560,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name postlf6
-NULL
-
-#'  Paradise of pleasures and delights
-#' 
-#'  postlf7
-#' 
-#' Question 108a. Of course, no one knows exactly what life after death would be like, but her are some ideas people have had. How likely do you feel each possibility is? 7. A paradise of pleasure and delights.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/307/vshow).
 #'
 #' Counts by year: 
 #'
@@ -433,6 +604,32 @@ NULL
 #'  |2024  |-     |-          |-         |-                 |-              |-               |-           |3309                       |3309  |
 #'  |Total |66441 |113        |31        |255               |481            |679             |846         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-       |full         |
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name postlf7
+NULL
+
+
+#'  Place of loving intellectual communion
+#' 
+#'  postlf8
+#' 
+#' Question Do you believe there is a life after death?
+#' A. Of course, no one knows exactly what life after death would be like, but here are some ideas people have had. (HAND CARD AA) How likely do you feel each possibility is? Would you say very likely, somewhat likely, not too likely, or not likely at all? (CIRCLE ONE NUMBER BESIDE EACH IDEA)
+#' 8. A place of loving intellectual communion.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` very likely
@@ -452,22 +649,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name postlf7
-NULL
-
-#'  Place of loving intellectual communion
-#' 
-#'  postlf8
-#' 
-#' Question 108a. Of course, no one knows exactly what life after death would be like, but her are some ideas people have had. How likely do you feel each possibility is? 8. A place of loving intellectual communion.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/308/vshow).
 #'
 #' Counts by year: 
 #'
@@ -510,6 +693,32 @@ NULL
 #'  |2024  |-     |-          |-         |-                 |-              |-               |-           |3309                       |3309  |
 #'  |Total |66441 |115        |29        |69                |149            |803             |1240        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-       |full         |
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name postlf8
+NULL
+
+
+#'  Union with god
+#' 
+#'  postlf9
+#' 
+#' Question Do you believe there is a life after death?
+#' A. Of course, no one knows exactly what life after death would be like, but here are some ideas people have had. (HAND CARD AA) How likely do you feel each possibility is? Would you say very likely, somewhat likely, not too likely, or not likely at all? (CIRCLE ONE NUMBER BESIDE EACH IDEA)
+#' 9. Union with God.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` very likely
@@ -529,22 +738,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name postlf8
-NULL
-
-#'  Union with god
-#' 
-#'  postlf9
-#' 
-#' Question 108a. Of course, no one knows exactly what life after death would be like, but her are some ideas people have had. How likely do you feel each possibility is? 9. Union with God.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/309/vshow).
 #'
 #' Counts by year: 
 #'
@@ -587,6 +782,32 @@ NULL
 #'  |2024  |-     |-          |-         |-                 |-              |-               |-           |3309                       |3309  |
 #'  |Total |66441 |58         |27        |20                |44             |373             |1883        |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-       |full         |
+#'  |1984 |-       |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name postlf9
+NULL
+
+
+#'  Reunion with loved ones
+#' 
+#'  postlf10
+#' 
+#' Question Do you believe there is a life after death?
+#' A. Of course, no one knows exactly what life after death would be like, but here are some ideas people have had. (HAND CARD AA) How likely do you feel each possibility is? Would you say very likely, somewhat likely, not too likely, or not likely at all? (CIRCLE ONE NUMBER BESIDE EACH IDEA)
+#' 10. Reunion with loved ones.
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` very likely
@@ -606,22 +827,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name postlf9
-NULL
-
-#'  Reunion with loved ones
-#' 
-#'  postlf10
-#' 
-#' Question 108a. Of course, no one knows exactly what life after death would be like, but her are some ideas people have had. How likely do you feel each possibility is? 10. Reunion with loved ones.
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/310/vshow).
 #'
 #' Counts by year: 
 #'
@@ -664,105 +871,20 @@ NULL
 #'  |2024  |-     |-          |-         |-                 |-              |-               |-           |3309                       |3309  |
 #'  |Total |66441 |68         |29        |50                |93             |478             |1687        |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` not too likely
-#'   * `4` not likely at all
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-       |full         |
+#'  |1984 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
 #' 
 #' @keywords variable
 #' @md
 #' @name postlf10
 NULL
 
-#'  Afterlife contrast: better or lacking
-#' 
-#'  likediff
-#' 
-#' Question 109. People picture life after death in many different ways. We'd like to know how you think of life after death. Here is a card with sets of contrasting images. On a scale of 1-7, where would you place your image of life after death. a. 1. A life like the one here on earth, only better. 7. A life without many of the things which make our present life enjoyable.
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |2   |3   |4   |5   |6   |better than earth |don't know |life lacking |no answer |not available in this year |Total |
-#'  |:-----|:-----|:---|:---|:---|:---|:---|:-----------------|:----------|:------------|:---------|:--------------------------|:-----|
-#'  |1972  |1613  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1613  |
-#'  |1973  |1504  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1504  |
-#'  |1974  |1484  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1484  |
-#'  |1975  |1490  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1490  |
-#'  |1976  |1499  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1499  |
-#'  |1977  |1530  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1530  |
-#'  |1978  |1532  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1532  |
-#'  |1980  |1468  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1468  |
-#'  |1982  |1860  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1860  |
-#'  |1983  |1599  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1599  |
-#'  |1984  |1473  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1473  |
-#'  |1985  |1534  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1534  |
-#'  |1986  |246   |125 |111 |224 |68  |32  |503               |21         |114          |26        |-                          |1470  |
-#'  |1987  |369   |148 |132 |226 |77  |64  |584               |26         |132          |61        |-                          |1819  |
-#'  |1988  |282   |116 |100 |224 |69  |35  |492               |16         |100          |47        |-                          |1481  |
-#'  |1989  |749   |86  |77  |137 |45  |27  |310               |10         |60           |36        |-                          |1537  |
-#'  |1990  |1372  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1372  |
-#'  |1991  |1517  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1517  |
-#'  |1993  |1606  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1606  |
-#'  |1994  |2992  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |2992  |
-#'  |1996  |2904  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |2904  |
-#'  |1998  |2832  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |2832  |
-#'  |2000  |2817  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |2817  |
-#'  |2002  |2765  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |2765  |
-#'  |2004  |2812  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |2812  |
-#'  |2006  |4510  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |4510  |
-#'  |2008  |2023  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |2023  |
-#'  |2010  |2044  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |2044  |
-#'  |2012  |1974  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |1974  |
-#'  |2014  |2538  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |2538  |
-#'  |2016  |2867  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |2867  |
-#'  |2018  |2348  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |2348  |
-#'  |2021  |4032  |-   |-   |-   |-   |-   |-                 |-          |-            |-         |-                          |4032  |
-#'  |2022  |-     |-   |-   |-   |-   |-   |-                 |-          |-            |-         |3544                       |3544  |
-#'  |2024  |-     |-   |-   |-   |-   |-   |-                 |-          |-            |-         |3309                       |3309  |
-#'  |Total |64185 |475 |420 |811 |259 |158 |1889              |73         |406          |170       |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` better than earth
-#'   * `7` life lacking
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name likediff
-NULL
 

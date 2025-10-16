@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 richhlth
 }
 \details{
-Question 1267. Is it just or unjust - right or wrong - that people with higher incomes can: a. Buy better health care than people with lower incomes.
+Question Is it just or unjust - right or wrong - that people with higher incomes can:
+A. Buy better health care than people with lower incomes
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very just, definitely right
+\item \code{2} somewhat just, right
+\item \code{3} neither just nor unjust, mixed feelings
+\item \code{4} somewhat unjust, wrong
+\item \code{5} very unjust, definitely wrong
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4326/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab can't choose \tab neither just nor unjust, mixed feelings \tab no answer \tab somewhat just, right \tab somewhat unjust, wrong \tab very just, definitely right \tab very unjust, definitely wrong \tab skipped on web \tab not available in this year \tab Total \cr
@@ -57,27 +81,29 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very just, definitely right
-\item \code{2} somewhat just, right
-\item \code{3} neither just nor unjust, mixed feelings
-\item \code{4} somewhat unjust, wrong
-\item \code{5} very unjust, definitely wrong
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
+   2021 \tab B/C/- \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Social Inequality: 
+\code{\link{corrupt}},
+\code{\link{earndes}},
+\code{\link{ldcgap}},
+\code{\link{ldctax}},
+\code{\link{payedtrn}},
+\code{\link{payfam1}},
+\code{\link{payresp}},
+\code{\link{paysup}},
+\code{\link{richeduc}}
+
+Other Inequality, Income: 
+\code{\link{richeduc}}
+}
+\concept{ISSP Social Inequality}
+\concept{Inequality, Income}
 \keyword{variable}

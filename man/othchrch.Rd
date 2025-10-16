@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 othchrch
 }
 \details{
-Question 398. If Catholic: Please tell me whether you strongly agree, agree, disagree, or strongly disagree with the following statements: a. I could be just as happy in some other church, it wouldn't have to be Catholic.
+Question Please tell me whether you strongly agree, agree, disagree, or strongly disagree with the following statements:
+A. I could be just as happy in some other church, it wouldnâ€™t have to be Catholic.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} strongly agree
+\item \code{2} agree
+\item \code{3} disagree
+\item \code{4} strongly disagree
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1158/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab strongly agree \tab strongly disagree \tab not available in this year \tab Total \cr
@@ -57,26 +80,35 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} strongly agree
-\item \code{2} agree
-\item \code{3} disagree
-\item \code{4} strongly disagree
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Religion: 
+\code{\link{chrissch}},
+\code{\link{denomsch}},
+\code{\link{implives}},
+\code{\link{othsch}},
+\code{\link{privsch}},
+\code{\link{relsch}},
+\code{\link{shopmove}},
+\code{\link{shopnum}},
+\code{\link{shoprel}}
+
+Other Religion: 
+\code{\link{chrissch}},
+\code{\link{denomsch}},
+\code{\link{implives}},
+\code{\link{othsch}},
+\code{\link{privsch}},
+\code{\link{relsch}},
+\code{\link{shopmove}},
+\code{\link{shopnum}},
+\code{\link{shoprel}}
+}
+\concept{Religion}
 \keyword{variable}

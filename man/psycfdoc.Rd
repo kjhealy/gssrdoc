@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 psycfdoc
 }
 \details{
-Question 713. If you were to seek services for a problem with your emotions, nerves, or your mental health, how much would you agree or disagree with the following options? b. I would trust my family physician to prescribe psychiatric medication
+Question If you were to seek services for a problem with your emotions, nerves, or your mental health, how much would you agree or disagree with the following options?
+B. I would trust my family physician to prescribe psychiatric medication.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very likely
+\item \code{2} somewhat likely
+\item \code{3} mixed
+\item \code{4} somewht unlikely
+\item \code{5} very unlikely
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2183/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab don't know \tab mixed \tab no answer \tab somewhat likely \tab somewht unlikely \tab very likely \tab very unlikely \tab not available in this year \tab Total \cr
@@ -57,27 +81,35 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very likely
-\item \code{2} somewhat likely
-\item \code{3} mixed
-\item \code{4} somewht unlikely
-\item \code{5} very unlikely
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1998 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Mental Health: 
+\code{\link{anydoc}},
+\code{\link{doclist}},
+\code{\link{hlthinsr}},
+\code{\link{mntlcare}},
+\code{\link{psycdrct}},
+\code{\link{psyckid3}},
+\code{\link{psycpsyc}},
+\code{\link{swithlth}},
+\code{\link{usedmntl}}
+
+Other Mental Health: 
+\code{\link{anydoc}},
+\code{\link{doclist}},
+\code{\link{hlthinsr}},
+\code{\link{mntlcare}},
+\code{\link{psycdrct}},
+\code{\link{psyckid3}},
+\code{\link{psycpsyc}},
+\code{\link{swithlth}},
+\code{\link{usedmntl}}
+}
+\concept{Mental Health}
 \keyword{variable}

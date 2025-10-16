@@ -10,11 +10,39 @@ General Social Survey https://gss.norc.org
 spfam16
 }
 \details{
-Question 499. Was your (husband/wife) living with both (his/her) own mother and father around the time (s/he) was 16? With whom was s/he living around that time?
+Question Was your (husband/wife) living with both (his/her) own mother and father around the time (s/he) was 16? (IF NO: with whom was (he/she) living around that time?) IF HUSBAND/WIFE MARRIED OR LEFT HOME BY AGE 16,
+PROBE FOR BEFORE THAT.
 }
+\section{Values}{
+
+\itemize{
+\item \code{0} other
+\item \code{1} both own mother and father
+\item \code{2} father and stepmother
+\item \code{3} mother and stepfather
+\item \code{4} father-no mother or stepmother
+\item \code{5} mother-no father or stepfather
+\item \code{6} some other male relative -no female head-
+\item \code{7} some other female relative -no male head-
+\item \code{8} other, with both male and female relatives
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1484/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllll}{
    year \tab iap \tab both own mother and father \tab father and stepmother \tab father-no mother or stepmother \tab mother and stepfather \tab mother-no father or stepfather \tab no answer \tab other \tab other, with both male and female relatives \tab some other female relative -no male head- \tab some other male relative -no female head- \tab not available in this year \tab Total \cr
@@ -57,31 +85,28 @@ Counts by year:\tabular{llllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{0} other
-\item \code{1} both own mother and father
-\item \code{2} father and stepmother
-\item \code{3} mother and stepfather
-\item \code{4} father-no mother or stepmother
-\item \code{5} mother-no father or stepfather
-\item \code{6} some other male relative -no female head-
-\item \code{7} some other female relative -no male head-
-\item \code{8} other, with both male and female relatives
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Family Mobility: 
+\code{\link{agewedcr}},
+\code{\link{fstspmed}},
+\code{\link{fstspped}},
+\code{\link{sphedocc}},
+\code{\link{sphedpre}},
+\code{\link{spmaeduc}},
+\code{\link{spmarnum}},
+\code{\link{sppaeduc}},
+\code{\link{spyrborn}}
+
+Other Family: 
+\code{\link{agewedcr}}
+}
+\concept{Family}
+\concept{Family Mobility}
 \keyword{variable}

@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 ownstock
 }
 \details{
-Question 915. Do you own any shares of stock in the company where you now work, either directly or through some type of retirement or stock plan?
+Question Do you own any shares of stock in the company where you now work, either directly or through some type of retirement or stock plan?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes
+\item \code{2} no, i work for a company that does not have stock
+\item \code{3} no, my company has stock but i do not own any
+\item \code{4} no, i do not own and do not know if my company has stock
+\item \code{5} i do not know if i own stock in my company
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2852/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab don't know \tab i do not know if i own stock in my company \tab no answer \tab no, i do not own and do not know if my company has stock \tab no, i work for a company that does not have stock \tab no, my company has stock but i do not own any \tab yes \tab skipped on web \tab not available in this year \tab Total \cr
@@ -57,27 +80,29 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes
-\item \code{2} no, i work for a company that does not have stock
-\item \code{3} no, my company has stock but i do not own any
-\item \code{4} no, i do not own and do not know if my company has stock
-\item \code{5} i do not know if i own stock in my company
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Employee Compensation: 
+\code{\link{stockops}},
+\code{\link{stockval}},
+\code{\link{workfor}},
+\code{\link{workfor1}}
+
+Other Job: 
+\code{\link{stockops}},
+\code{\link{stockval}}
+}
+\concept{Employee Compensation}
+\concept{Job}
 \keyword{variable}

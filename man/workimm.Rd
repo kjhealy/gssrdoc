@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 workimm
 }
 \details{
-Question 540. Now I have some questions about different groups in our socieety. I'm going to show you a seven-point scale on which the characteristics of people in a group can be rated. A score of 1 means that you think almost all of the people in that group are "hard working." A score of 7 means that you think almost everyone in the group are "lazy." A score of 4 means that you think that the group is not towards one end or the other, and of course you may choose any number in between that comes closest to where you think people in the group stand. b1. Legal immigrants
+Question Now I have some questions about different groups in our society. I'm going to show you a seven-point scale which the characteristics of people in a group can be rated. In the first statement a score of 1 means that you think almost all of the people in that group are "rich."  A score of 7 means that you think almost everyone in the group are "poor."  A score of 4 means that you think that the group is not towards one end or another, and of course you may choose any number in between that comes closest to where you think people in the group stand.
+B1. Legal immigrants?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} 1 - hard-working
+\item \code{7} 7 - lazy
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1638/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab 1 - hard-working \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 - lazy \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,24 +78,30 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} 1 - hard-working
-\item \code{7} 7 - lazy
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Multiculturalism: 
+\code{\link{asngovt}},
+\code{\link{blkgovt}},
+\code{\link{econpast}},
+\code{\link{hspgovt}},
+\code{\link{obrespct}},
+\code{\link{whtgovt}},
+\code{\link{wlthimm}},
+\code{\link{wlthundc}},
+\code{\link{workundc}}
+
+Other Immigration: 
+\code{\link{wlthimm}},
+\code{\link{wlthundc}},
+\code{\link{workundc}}
+}
+\concept{Immigration}
+\concept{Multiculturalism}
 \keyword{variable}

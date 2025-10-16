@@ -1,11 +1,200 @@
+#'  Have given money to group advocating social change
+#' 
+#'  givchng
+#' 
+#' Question Over the past 5 years have you done any of the following to express your opinion about an issue or your support for a cause? 
+#' E. Give money to a group advocating social change
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2914/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no   |no answer |yes |not available in this year |Total |
+#'  |:-----|:-----|:----------|:----|:---------|:---|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-    |-         |-   |-                          |1613  |
+#'  |1973  |1504  |-          |-    |-         |-   |-                          |1504  |
+#'  |1974  |1484  |-          |-    |-         |-   |-                          |1484  |
+#'  |1975  |1490  |-          |-    |-         |-   |-                          |1490  |
+#'  |1976  |1499  |-          |-    |-         |-   |-                          |1499  |
+#'  |1977  |1530  |-          |-    |-         |-   |-                          |1530  |
+#'  |1978  |1532  |-          |-    |-         |-   |-                          |1532  |
+#'  |1980  |1468  |-          |-    |-         |-   |-                          |1468  |
+#'  |1982  |1860  |-          |-    |-         |-   |-                          |1860  |
+#'  |1983  |1599  |-          |-    |-         |-   |-                          |1599  |
+#'  |1984  |1473  |-          |-    |-         |-   |-                          |1473  |
+#'  |1985  |1534  |-          |-    |-         |-   |-                          |1534  |
+#'  |1986  |1470  |-          |-    |-         |-   |-                          |1470  |
+#'  |1987  |1819  |-          |-    |-         |-   |-                          |1819  |
+#'  |1988  |1481  |-          |-    |-         |-   |-                          |1481  |
+#'  |1989  |1537  |-          |-    |-         |-   |-                          |1537  |
+#'  |1990  |1372  |-          |-    |-         |-   |-                          |1372  |
+#'  |1991  |1517  |-          |-    |-         |-   |-                          |1517  |
+#'  |1993  |1606  |-          |-    |-         |-   |-                          |1606  |
+#'  |1994  |2992  |-          |-    |-         |-   |-                          |2992  |
+#'  |1996  |2904  |-          |-    |-         |-   |-                          |2904  |
+#'  |1998  |2832  |-          |-    |-         |-   |-                          |2832  |
+#'  |2000  |2817  |-          |-    |-         |-   |-                          |2817  |
+#'  |2002  |1372  |12         |1048 |7         |326 |-                          |2765  |
+#'  |2004  |2812  |-          |-    |-         |-   |-                          |2812  |
+#'  |2006  |4510  |-          |-    |-         |-   |-                          |4510  |
+#'  |2008  |2023  |-          |-    |-         |-   |-                          |2023  |
+#'  |2010  |2044  |-          |-    |-         |-   |-                          |2044  |
+#'  |2012  |1974  |-          |-    |-         |-   |-                          |1974  |
+#'  |2014  |2538  |-          |-    |-         |-   |-                          |2538  |
+#'  |2016  |2867  |-          |-    |-         |-   |-                          |2867  |
+#'  |2018  |2348  |-          |-    |-         |-   |-                          |2348  |
+#'  |2021  |4032  |-          |-    |-         |-   |-                          |4032  |
+#'  |2022  |-     |-          |-    |-         |-   |3544                       |3544  |
+#'  |2024  |-     |-          |-    |-         |-   |3309                       |3309  |
+#'  |Total |67453 |12         |1048 |7         |326 |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Adult Transitions
+#' @family Demonstrations
+#' 
+#' @keywords variable
+#' @md
+#' @name givchng
+NULL
+
+
+#'  Have ever contributed time to help the needy
+#' 
+#'  hlpneedy
+#' 
+#' Question Over the past 5 years have you done any of the following to express your opinion about an issue or your support for a cause? 
+#' F. Contribute your time to help the needy
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2915/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |no  |no answer |yes |not available in this year |Total |
+#'  |:-----|:-----|:----------|:---|:---------|:---|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-   |-         |-   |-                          |1613  |
+#'  |1973  |1504  |-          |-   |-         |-   |-                          |1504  |
+#'  |1974  |1484  |-          |-   |-         |-   |-                          |1484  |
+#'  |1975  |1490  |-          |-   |-         |-   |-                          |1490  |
+#'  |1976  |1499  |-          |-   |-         |-   |-                          |1499  |
+#'  |1977  |1530  |-          |-   |-         |-   |-                          |1530  |
+#'  |1978  |1532  |-          |-   |-         |-   |-                          |1532  |
+#'  |1980  |1468  |-          |-   |-         |-   |-                          |1468  |
+#'  |1982  |1860  |-          |-   |-         |-   |-                          |1860  |
+#'  |1983  |1599  |-          |-   |-         |-   |-                          |1599  |
+#'  |1984  |1473  |-          |-   |-         |-   |-                          |1473  |
+#'  |1985  |1534  |-          |-   |-         |-   |-                          |1534  |
+#'  |1986  |1470  |-          |-   |-         |-   |-                          |1470  |
+#'  |1987  |1819  |-          |-   |-         |-   |-                          |1819  |
+#'  |1988  |1481  |-          |-   |-         |-   |-                          |1481  |
+#'  |1989  |1537  |-          |-   |-         |-   |-                          |1537  |
+#'  |1990  |1372  |-          |-   |-         |-   |-                          |1372  |
+#'  |1991  |1517  |-          |-   |-         |-   |-                          |1517  |
+#'  |1993  |1606  |-          |-   |-         |-   |-                          |1606  |
+#'  |1994  |2992  |-          |-   |-         |-   |-                          |2992  |
+#'  |1996  |2904  |-          |-   |-         |-   |-                          |2904  |
+#'  |1998  |2832  |-          |-   |-         |-   |-                          |2832  |
+#'  |2000  |2817  |-          |-   |-         |-   |-                          |2817  |
+#'  |2002  |1372  |8          |690 |5         |690 |-                          |2765  |
+#'  |2004  |2812  |-          |-   |-         |-   |-                          |2812  |
+#'  |2006  |4510  |-          |-   |-         |-   |-                          |4510  |
+#'  |2008  |2023  |-          |-   |-         |-   |-                          |2023  |
+#'  |2010  |2044  |-          |-   |-         |-   |-                          |2044  |
+#'  |2012  |1974  |-          |-   |-         |-   |-                          |1974  |
+#'  |2014  |2538  |-          |-   |-         |-   |-                          |2538  |
+#'  |2016  |2867  |-          |-   |-         |-   |-                          |2867  |
+#'  |2018  |2348  |-          |-   |-         |-   |-                          |2348  |
+#'  |2021  |4032  |-          |-   |-         |-   |-                          |4032  |
+#'  |2022  |-     |-          |-   |-         |-   |3544                       |3544  |
+#'  |2024  |-     |-          |-   |-         |-   |3309                       |3309  |
+#'  |Total |67453 |8          |690 |5         |690 |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Adult Transitions
+#' @family Demonstrations
+#' 
+#' @keywords variable
+#' @md
+#' @name hlpneedy
+NULL
+
+
 #'  Have participated in a walkathon over past 5 years
 #' 
 #'  partthon
 #' 
-#' Question 937. Over the past 5 years have you done any of the following to express your opinion about an issue or your support for a cause? g. Participate in a walkathon or marathon to raise money for a cause
+#' Question Over the past 5 years have you done any of the following to express your opinion about an issue or your support for a cause? 
+#' G. Participate in a walkathon or marathon to raise money for a cause
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2916/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,80 +237,28 @@
 #'  |2024  |-     |-          |-    |-         |-   |3309                       |3309  |
 #'  |Total |67453 |8          |1084 |5         |296 |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Adult Transitions
+#' @family Demonstrations
 #' 
 #' @keywords variable
 #' @md
 #' @name partthon
 NULL
 
+
 #'  Vignette asked
 #' 
 #'  chldvig
 #' 
-#' Question 938. Vignette number given to respondent.
+#' Question Child mental health vignette version number
 #' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |10: depression, john, white, 14 |11: depression, mary, white, 8 |12: depression, mary, white, 14 |13: depression, john, black, 8 |14: depression, john, black, 14 |15: depression, mary, black, 8 |16: depression, mary, black, 14 |17: normal, john, white, 8 |18: normal, john, white, 14 |19: normal, mary, white, 8 |1:  adhd, john, white, 8 |20: normal, mary, white, 14 |21: normal, john, black, 8 |22: normal, john, black, 14 |23: normal, mary, black, 8 |24: normal, mary, black, 14 |25: asthma, john, white, 8 |26: asthma, john, white, 14 |27: asthma, mary, white, 8 |28: asthma, mary, white, 14 |29: asthma, john, black, 8 |2:  adhd, john, white, 14 |30: asthma, john, black, 14 |31: asthma, mary, black, 8 |32: asthma, mary, black, 14 |3:  adhd, mary, white, 8 |4:  adhd, mary, white, 14 |5:  adhd, john, black, 8 |6:  adhd, john, black, 14 |7:  adhd, mary, black, 8 |8:  adhd, mary, black, 14 |9:  depression, john, white, 8 |not available in this year |33: classic depression, john, white, 8 |34: classic depression, john, white, 14 |35: classic depression, mary, white, 8 |36: classic depression, mary, white, 14 |37: classic depression, john, black, 8 |38: classic depression, john, black, 14 |39: classic depression, mary, black, 8 |40: classic depression, mary, black, 14 |41: impulsivity, john, white, 8 |42: impulsivity, john, white, 14 |43: impulsivity, mary, white, 8 |44: impulsivity, mary, white, 14 |45: impulsivity, john, black, 8 |46: impulsivity, john, black, 14 |47: impulsivity, mary, black, 8 |48: impulsivity, mary, black, 14 |49: perfectionism, john, white, 8 |50: perfectionism, john, white, 14 |51: perfectionism, mary, white, 8 |52: perfectionism, mary, white, 14 |53: perfectionism, john, black, 8 |54: perfectionism, john, black, 14 |55: perfectionism, mary, black, 8 |56: perfectionism, mary, black, 14 |Total |
-#'  |:-----|:-----|:-------------------------------|:------------------------------|:-------------------------------|:------------------------------|:-------------------------------|:------------------------------|:-------------------------------|:--------------------------|:---------------------------|:--------------------------|:------------------------|:---------------------------|:--------------------------|:---------------------------|:--------------------------|:---------------------------|:--------------------------|:---------------------------|:--------------------------|:---------------------------|:--------------------------|:-------------------------|:---------------------------|:--------------------------|:---------------------------|:------------------------|:-------------------------|:------------------------|:-------------------------|:------------------------|:-------------------------|:------------------------------|:--------------------------|:--------------------------------------|:---------------------------------------|:--------------------------------------|:---------------------------------------|:--------------------------------------|:---------------------------------------|:--------------------------------------|:---------------------------------------|:-------------------------------|:--------------------------------|:-------------------------------|:--------------------------------|:-------------------------------|:--------------------------------|:-------------------------------|:--------------------------------|:---------------------------------|:----------------------------------|:---------------------------------|:----------------------------------|:---------------------------------|:----------------------------------|:---------------------------------|:----------------------------------|:-----|
-#'  |1972  |1613  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1613  |
-#'  |1973  |1504  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1504  |
-#'  |1974  |1484  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1484  |
-#'  |1975  |1490  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1490  |
-#'  |1976  |1499  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1499  |
-#'  |1977  |1530  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1530  |
-#'  |1978  |1532  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1532  |
-#'  |1980  |1468  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1468  |
-#'  |1982  |1860  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1860  |
-#'  |1983  |1599  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1599  |
-#'  |1984  |1473  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1473  |
-#'  |1985  |1534  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1534  |
-#'  |1986  |1470  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1470  |
-#'  |1987  |1819  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1819  |
-#'  |1988  |1481  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1481  |
-#'  |1989  |1537  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1537  |
-#'  |1990  |1372  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1372  |
-#'  |1991  |1517  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1517  |
-#'  |1993  |1606  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1606  |
-#'  |1994  |2992  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |2992  |
-#'  |1996  |2904  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |2904  |
-#'  |1998  |2832  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |2832  |
-#'  |2000  |2817  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |2817  |
-#'  |2002  |1372  |40                              |50                             |43                              |54                             |48                              |48                             |49                              |40                         |49                          |48                         |36                       |42                          |48                         |44                          |38                         |43                          |47                         |44                          |34                         |41                          |36                         |45                        |38                          |46                         |41                          |39                       |47                        |42                       |45                        |47                       |39                        |42                             |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |2765  |
-#'  |2004  |2812  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |2812  |
-#'  |2006  |4510  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |4510  |
-#'  |2008  |2023  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |2023  |
-#'  |2010  |2044  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |2044  |
-#'  |2012  |1974  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1974  |
-#'  |2014  |2538  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |2538  |
-#'  |2016  |2867  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |2867  |
-#'  |2018  |2348  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |2348  |
-#'  |2021  |4032  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |4032  |
-#'  |2022  |-     |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |3544                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |3544  |
-#'  |2024  |1639  |24                              |40                             |38                              |38                             |40                              |38                             |28                              |29                         |29                          |42                         |31                       |33                          |42                         |35                          |27                         |42                          |-                          |-                           |-                          |-                           |-                          |33                        |-                           |-                          |-                           |29                       |29                        |26                       |39                        |37                       |37                        |39                             |-                          |31                                     |29                                      |41                                     |34                                      |35                                     |31                                      |37                                     |40                                      |32                              |34                               |33                              |43                               |25                              |31                               |44                              |26                               |44                                |34                                 |37                                |32                                 |42                                |42                                 |33                                |35                                 |3309  |
-#'  |Total |69092 |64                              |90                             |81                              |92                             |88                              |86                             |77                              |69                         |78                          |90                         |67                       |75                          |90                         |79                          |65                         |85                          |47                         |44                          |34                         |41                          |36                         |78                        |38                          |46                         |41                          |68                       |76                        |68                       |84                        |84                       |76                        |81                             |3544                       |31                                     |29                                      |41                                     |34                                      |35                                     |31                                      |37                                     |40                                      |32                              |34                               |33                              |43                               |25                              |31                               |44                              |26                               |44                                |34                                 |37                                |32                                 |42                                |42                                 |33                                |35                                 |75699 |
 #' 
 #' @section Values: 
 #' 
@@ -194,22 +331,103 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2917/vshow).
 #'
-#' @source General Social Survey https://gss.norc.org
+#' Counts by year: 
+#'
+#'  |year  |iap   |10: depression, john, white, 14 |11: depression, mary, white, 8 |12: depression, mary, white, 14 |13: depression, john, black, 8 |14: depression, john, black, 14 |15: depression, mary, black, 8 |16: depression, mary, black, 14 |17: normal, john, white, 8 |18: normal, john, white, 14 |19: normal, mary, white, 8 |1:  adhd, john, white, 8 |20: normal, mary, white, 14 |21: normal, john, black, 8 |22: normal, john, black, 14 |23: normal, mary, black, 8 |24: normal, mary, black, 14 |25: asthma, john, white, 8 |26: asthma, john, white, 14 |27: asthma, mary, white, 8 |28: asthma, mary, white, 14 |29: asthma, john, black, 8 |2:  adhd, john, white, 14 |30: asthma, john, black, 14 |31: asthma, mary, black, 8 |32: asthma, mary, black, 14 |3:  adhd, mary, white, 8 |4:  adhd, mary, white, 14 |5:  adhd, john, black, 8 |6:  adhd, john, black, 14 |7:  adhd, mary, black, 8 |8:  adhd, mary, black, 14 |9:  depression, john, white, 8 |not available in this year |33: classic depression, john, white, 8 |34: classic depression, john, white, 14 |35: classic depression, mary, white, 8 |36: classic depression, mary, white, 14 |37: classic depression, john, black, 8 |38: classic depression, john, black, 14 |39: classic depression, mary, black, 8 |40: classic depression, mary, black, 14 |41: impulsivity, john, white, 8 |42: impulsivity, john, white, 14 |43: impulsivity, mary, white, 8 |44: impulsivity, mary, white, 14 |45: impulsivity, john, black, 8 |46: impulsivity, john, black, 14 |47: impulsivity, mary, black, 8 |48: impulsivity, mary, black, 14 |49: perfectionism, john, white, 8 |50: perfectionism, john, white, 14 |51: perfectionism, mary, white, 8 |52: perfectionism, mary, white, 14 |53: perfectionism, john, black, 8 |54: perfectionism, john, black, 14 |55: perfectionism, mary, black, 8 |56: perfectionism, mary, black, 14 |Total |
+#'  |:-----|:-----|:-------------------------------|:------------------------------|:-------------------------------|:------------------------------|:-------------------------------|:------------------------------|:-------------------------------|:--------------------------|:---------------------------|:--------------------------|:------------------------|:---------------------------|:--------------------------|:---------------------------|:--------------------------|:---------------------------|:--------------------------|:---------------------------|:--------------------------|:---------------------------|:--------------------------|:-------------------------|:---------------------------|:--------------------------|:---------------------------|:------------------------|:-------------------------|:------------------------|:-------------------------|:------------------------|:-------------------------|:------------------------------|:--------------------------|:--------------------------------------|:---------------------------------------|:--------------------------------------|:---------------------------------------|:--------------------------------------|:---------------------------------------|:--------------------------------------|:---------------------------------------|:-------------------------------|:--------------------------------|:-------------------------------|:--------------------------------|:-------------------------------|:--------------------------------|:-------------------------------|:--------------------------------|:---------------------------------|:----------------------------------|:---------------------------------|:----------------------------------|:---------------------------------|:----------------------------------|:---------------------------------|:----------------------------------|:-----|
+#'  |1972  |1613  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1613  |
+#'  |1973  |1504  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1504  |
+#'  |1974  |1484  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1484  |
+#'  |1975  |1490  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1490  |
+#'  |1976  |1499  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1499  |
+#'  |1977  |1530  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1530  |
+#'  |1978  |1532  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1532  |
+#'  |1980  |1468  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1468  |
+#'  |1982  |1860  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1860  |
+#'  |1983  |1599  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1599  |
+#'  |1984  |1473  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1473  |
+#'  |1985  |1534  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1534  |
+#'  |1986  |1470  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1470  |
+#'  |1987  |1819  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1819  |
+#'  |1988  |1481  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1481  |
+#'  |1989  |1537  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1537  |
+#'  |1990  |1372  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1372  |
+#'  |1991  |1517  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1517  |
+#'  |1993  |1606  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1606  |
+#'  |1994  |2992  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |2992  |
+#'  |1996  |2904  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |2904  |
+#'  |1998  |2832  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |2832  |
+#'  |2000  |2817  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |2817  |
+#'  |2002  |1372  |40                              |50                             |43                              |54                             |48                              |48                             |49                              |40                         |49                          |48                         |36                       |42                          |48                         |44                          |38                         |43                          |47                         |44                          |34                         |41                          |36                         |45                        |38                          |46                         |41                          |39                       |47                        |42                       |45                        |47                       |39                        |42                             |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |2765  |
+#'  |2004  |2812  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |2812  |
+#'  |2006  |4510  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |4510  |
+#'  |2008  |2023  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |2023  |
+#'  |2010  |2044  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |2044  |
+#'  |2012  |1974  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |1974  |
+#'  |2014  |2538  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |2538  |
+#'  |2016  |2867  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |2867  |
+#'  |2018  |2348  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |2348  |
+#'  |2021  |4032  |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |4032  |
+#'  |2022  |-     |-                               |-                              |-                               |-                              |-                               |-                              |-                               |-                          |-                           |-                          |-                        |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                         |-                           |-                          |-                           |-                        |-                         |-                        |-                         |-                        |-                         |-                              |3544                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |3544  |
+#'  |2024  |1639  |24                              |40                             |38                              |38                             |40                              |38                             |28                              |29                         |29                          |42                         |31                       |33                          |42                         |35                          |27                         |42                          |-                          |-                           |-                          |-                           |-                          |33                        |-                           |-                          |-                           |29                       |29                        |26                       |39                        |37                       |37                        |39                             |-                          |31                                     |29                                      |41                                     |34                                      |35                                     |31                                      |37                                     |40                                      |32                              |34                               |33                              |43                               |25                              |31                               |44                              |26                               |44                                |34                                 |37                                |32                                 |42                                |42                                 |33                                |35                                 |3309  |
+#'  |Total |69092 |64                              |90                             |81                              |92                             |88                              |86                             |77                              |69                         |78                          |90                         |67                       |75                          |90                         |79                          |65                         |85                          |47                         |44                          |34                         |41                          |36                         |78                        |38                          |46                         |41                          |68                       |76                        |68                       |84                        |84                       |76                        |81                             |3544                       |31                                     |29                                      |41                                     |34                                      |35                                     |31                                      |37                                     |40                                      |32                              |34                               |33                              |43                               |25                              |31                               |44                              |26                               |44                                |34                                 |37                                |32                                 |42                                |42                                 |33                                |35                                 |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2024 |A/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org II
+#' @family Mental Health
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
 #' @name chldvig
 NULL
 
+
 #'  What r think may be wrong with a named youth
 #' 
 #'  chldprb
 #' 
-#' Question 939. First, I'd like to know what you think may be wrong (if anything) with (John/Mary). PROBE: Anything else?
+#' Question First, I'd like to know what you think may be wrong (if anything) with (John/Mary). 
+#' PROBE: Anything else?
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` adhd or add
+#'   * `2` depression
+#'   * `3` normal
+#'   * `4` asthma
+#'   * `5` developmental puberty
+#'   * `6` illicit drugs
+#'   * `7` adhd symptoms
+#'   * `8` psychiatric personality problems
+#'   * `9` medical problems symptoms
+#'   * `10` environment social
+#'   * `11` other characteristic miscellaneous
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2918/vshow).
 #'
 #' Counts by year: 
 #'
@@ -252,19 +470,35 @@ NULL
 #'  |2024  |-     |-           |-             |-      |-          |-                     |-          |-                  |-             |-                         |-         |-      |-                                  |-                                |3309                       |3309  |
 #'  |Total |67453 |135         |43            |230    |228        |30                    |78         |161                |49            |62                        |3         |287    |26                                 |61                               |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health II
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name chldprb
+NULL
+
+
+#'  How serious r consider his or her problem
+#' 
+#'  chldprob
+#' 
+#' Question How serious would you consider (John/Mary)'s problem, if any, to be: very serious, somewhat serious, not very serious, or not at all serious?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` adhd or add
-#'   * `2` depression
-#'   * `3` normal
-#'   * `4` asthma
-#'   * `5` developmental puberty
-#'   * `6` illicit drugs
-#'   * `7` adhd symptoms
-#'   * `8` psychiatric personality problems
-#'   * `9` medical problems symptoms
-#'   * `10` environment social
-#'   * `11` other characteristic miscellaneous
+#'   * `1` very serious
+#'   * `2` somewhat serious
+#'   * `3` not very serious
+#'   * `4` not at all serious
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -278,22 +512,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name chldprb
-NULL
-
-#'  How serious r consider his or her problem
-#' 
-#'  chldprob
-#' 
-#' Question 940. How serious would you consider (John/Mary)'s problem, if any, to be: very serious, somewhat serious, not very serious, or not at all serious?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2919/vshow).
 #'
 #' Counts by year: 
 #'
@@ -336,12 +556,52 @@ NULL
 #'  |2024  |1659  |10         |4         |92                 |258              |616              |652          |-                          |18             |3309  |
 #'  |Total |69112 |38         |16        |263                |426              |1005             |1277         |3544                       |18             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2024 |A/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health II
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name chldprob
+NULL
+
+
+#'  What should be done to help a named youth
+#' 
+#'  chldhlp
+#' 
+#' Question What (if anything) should be done to help (John/Mary)? 
+#' PROBE: Anything else?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` very serious
-#'   * `2` somewhat serious
-#'   * `3` not very serious
-#'   * `4` not at all serious
+#'   * `10` nothing
+#'   * `20` medical general
+#'   * `21` doctor
+#'   * `22` specialist
+#'   * `30` mental health general
+#'   * `31` psychiatrist
+#'   * `32` social worker
+#'   * `33` counselor therapist
+#'   * `34` psychologist
+#'   * `40` family friends general
+#'   * `41` negative blaming parenting
+#'   * `42` positive parenting
+#'   * `50` assistance from school general
+#'   * `51` involve teacher
+#'   * `52` involve school counselor
+#'   * `60` religion
+#'   * `80` social extracurricular activity
+#'   * `90` other help miscellaneous
+#'   * `97` dk ref
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -355,22 +615,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name chldprob
-NULL
-
-#'  What should be done to help a named youth
-#' 
-#'  chldhlp
-#' 
-#' Question 941. What (if anything) should be done to help (John/Mary)? PROBE: Anything else?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2920/vshow).
 #'
 #' Counts by year: 
 #'
@@ -413,27 +659,35 @@ NULL
 #'  |2024  |-     |-                              |-                   |-      |-          |-                      |-                        |-               |-               |-                     |-                          |-         |-       |-                        |-                  |-            |-            |-        |-                               |-             |-          |3309                       |3309  |
 #'  |Total |67453 |32                             |27                  |332    |67         |56                     |19                       |24              |115             |165                   |99                         |1         |150     |79                       |103                |29           |21           |11       |23                              |5             |35         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health II
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name chldhlp
+NULL
+
+
+#'  Situation caused by own bad character
+#' 
+#'  badchar
+#' 
+#' Question A. Now, I want to ask you some specific questions about (John/Mary). In your opinion, how likely is it that (John/Mary)'s situation MIGHT be caused by (his/her) own bad character--very likely, somewhat likely, not very likely, or not at all likely?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `10` nothing
-#'   * `20` medical general
-#'   * `21` doctor
-#'   * `22` specialist
-#'   * `30` mental health general
-#'   * `31` psychiatrist
-#'   * `32` social worker
-#'   * `33` counselor therapist
-#'   * `34` psychologist
-#'   * `40` family friends general
-#'   * `41` negative blaming parenting
-#'   * `42` positive parenting
-#'   * `50` assistance from school general
-#'   * `51` involve teacher
-#'   * `52` involve school counselor
-#'   * `60` religion
-#'   * `80` social extracurricular activity
-#'   * `90` other help miscellaneous
-#'   * `97` dk ref
+#'   * `1` very likely
+#'   * `2` somewhat likely
+#'   * `3` not very likely
+#'   * `4` not at all likely
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -447,22 +701,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name chldhlp
-NULL
-
-#'  Situation caused by own bad character
-#' 
-#'  badchar
-#' 
-#' Question 942a. Now, I want to ask you some specific questions about (John/Mary). In your opinion, how likely is it that (John/Mary)'s situation MIGHT be caused by (his/her) own bad character--very likely, somewhat likely, not very likely, or not at all likely?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2921/vshow).
 #'
 #' Counts by year: 
 #'
@@ -505,6 +745,30 @@ NULL
 #'  |2024  |1659  |31         |4         |335               |623             |521             |116         |-                          |20             |3309  |
 #'  |Total |69112 |69         |15        |805               |1086            |855             |193         |3544                       |20             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2024 |A/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health II
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name badchar
+NULL
+
+
+#'  Situation by a chemical imbalance in the brain
+#' 
+#'  chembal
+#' 
+#' Question B. In your opinion, how likely is it that (John/Mary)''s situation MIGHT be caused by a chemical imbalance in the brain?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` very likely
@@ -524,22 +788,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name badchar
-NULL
-
-#'  Situation by a chemical imbalance in the brain
-#' 
-#'  chembal
-#' 
-#' Question 942b. In your opinion, how likely is it that (John/Mary)'s situation MIGHT be caused by a chemical imbalance in the brain?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2922/vshow).
 #'
 #' Counts by year: 
 #'
@@ -582,6 +832,30 @@ NULL
 #'  |2024  |1660  |54         |4         |142               |377             |771             |278         |-                          |23             |3309  |
 #'  |Total |69113 |109        |15        |388               |702             |1302            |503         |3544                       |23             |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2024 |A/C/-   |partial      |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Mental Health II
+#' @family Children
+#' 
+#' @keywords variable
+#' @md
+#' @name chembal
+NULL
+
+
+#'  Situation caused by stressful circumstances
+#' 
+#'  stressfl
+#' 
+#' Question C. In your opinion, how likely is it that (John/Mary)'s situation MIGHT be caused by stressful circumstances in (his/her) life?
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` very likely
@@ -601,22 +875,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name chembal
-NULL
-
-#'  Situation caused by stressful circumstances
-#' 
-#'  stressfl
-#' 
-#' Question 942c. In your opinion, how likely is it that (John/Mary)'s situation MIGHT be caused by stressful circumstances in (his/her) life?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2923/vshow).
 #'
 #' Counts by year: 
 #'
@@ -659,184 +919,20 @@ NULL
 #'  |2024  |1660  |21         |3         |47                |129             |830             |594         |-                          |25             |3309  |
 #'  |Total |69113 |57         |14        |152               |306             |1493            |995         |3544                       |25             |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` not very likely
-#'   * `4` not at all likely
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'  |2024 |A/C/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Mental Health II
+#' @family Children
 #' 
 #' @keywords variable
 #' @md
 #' @name stressfl
 NULL
 
-#'  Situation caused by a genetic or inherited problem
-#' 
-#'  geneprob
-#' 
-#' Question 942d. In your opinion, how likely is it that (John/Mary)'s situation MIGHT be caused by a genetic or inherited problem?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no answer |not at all likely |not very likely |somewhat likely |very likely |not available in this year |skipped on web |Total |
-#'  |:-----|:-----|:----------|:---------|:-----------------|:---------------|:---------------|:-----------|:--------------------------|:--------------|:-----|
-#'  |1972  |1613  |-          |-         |-                 |-               |-               |-           |-                          |-              |1613  |
-#'  |1973  |1504  |-          |-         |-                 |-               |-               |-           |-                          |-              |1504  |
-#'  |1974  |1484  |-          |-         |-                 |-               |-               |-           |-                          |-              |1484  |
-#'  |1975  |1490  |-          |-         |-                 |-               |-               |-           |-                          |-              |1490  |
-#'  |1976  |1499  |-          |-         |-                 |-               |-               |-           |-                          |-              |1499  |
-#'  |1977  |1530  |-          |-         |-                 |-               |-               |-           |-                          |-              |1530  |
-#'  |1978  |1532  |-          |-         |-                 |-               |-               |-           |-                          |-              |1532  |
-#'  |1980  |1468  |-          |-         |-                 |-               |-               |-           |-                          |-              |1468  |
-#'  |1982  |1860  |-          |-         |-                 |-               |-               |-           |-                          |-              |1860  |
-#'  |1983  |1599  |-          |-         |-                 |-               |-               |-           |-                          |-              |1599  |
-#'  |1984  |1473  |-          |-         |-                 |-               |-               |-           |-                          |-              |1473  |
-#'  |1985  |1534  |-          |-         |-                 |-               |-               |-           |-                          |-              |1534  |
-#'  |1986  |1470  |-          |-         |-                 |-               |-               |-           |-                          |-              |1470  |
-#'  |1987  |1819  |-          |-         |-                 |-               |-               |-           |-                          |-              |1819  |
-#'  |1988  |1481  |-          |-         |-                 |-               |-               |-           |-                          |-              |1481  |
-#'  |1989  |1537  |-          |-         |-                 |-               |-               |-           |-                          |-              |1537  |
-#'  |1990  |1372  |-          |-         |-                 |-               |-               |-           |-                          |-              |1372  |
-#'  |1991  |1517  |-          |-         |-                 |-               |-               |-           |-                          |-              |1517  |
-#'  |1993  |1606  |-          |-         |-                 |-               |-               |-           |-                          |-              |1606  |
-#'  |1994  |2992  |-          |-         |-                 |-               |-               |-           |-                          |-              |2992  |
-#'  |1996  |2904  |-          |-         |-                 |-               |-               |-           |-                          |-              |2904  |
-#'  |1998  |2832  |-          |-         |-                 |-               |-               |-           |-                          |-              |2832  |
-#'  |2000  |2817  |-          |-         |-                 |-               |-               |-           |-                          |-              |2817  |
-#'  |2002  |1372  |46         |11        |166               |299             |668             |203         |-                          |-              |2765  |
-#'  |2004  |2812  |-          |-         |-                 |-               |-               |-           |-                          |-              |2812  |
-#'  |2006  |4510  |-          |-         |-                 |-               |-               |-           |-                          |-              |4510  |
-#'  |2008  |2023  |-          |-         |-                 |-               |-               |-           |-                          |-              |2023  |
-#'  |2010  |2044  |-          |-         |-                 |-               |-               |-           |-                          |-              |2044  |
-#'  |2012  |1974  |-          |-         |-                 |-               |-               |-           |-                          |-              |1974  |
-#'  |2014  |2538  |-          |-         |-                 |-               |-               |-           |-                          |-              |2538  |
-#'  |2016  |2867  |-          |-         |-                 |-               |-               |-           |-                          |-              |2867  |
-#'  |2018  |2348  |-          |-         |-                 |-               |-               |-           |-                          |-              |2348  |
-#'  |2021  |4032  |-          |-         |-                 |-               |-               |-           |-                          |-              |4032  |
-#'  |2022  |-     |-          |-         |-                 |-               |-               |-           |3544                       |-              |3544  |
-#'  |2024  |1660  |44         |3         |176               |462             |748             |190         |-                          |26             |3309  |
-#'  |Total |69113 |90         |14        |342               |761             |1416            |393         |3544                       |26             |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` not very likely
-#'   * `4` not at all likely
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name geneprob
-NULL
-
-#'  Situation caused by the way he or she was raised
-#' 
-#'  raised
-#' 
-#' Question 942e. In your opinion, how likely is it that (John/Mary)'s situation MIGHT be caused by the way he or she was raised?
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no answer |not at all likely |not very likely |somewhat likely |very likely |not available in this year |skipped on web |Total |
-#'  |:-----|:-----|:----------|:---------|:-----------------|:---------------|:---------------|:-----------|:--------------------------|:--------------|:-----|
-#'  |1972  |1613  |-          |-         |-                 |-               |-               |-           |-                          |-              |1613  |
-#'  |1973  |1504  |-          |-         |-                 |-               |-               |-           |-                          |-              |1504  |
-#'  |1974  |1484  |-          |-         |-                 |-               |-               |-           |-                          |-              |1484  |
-#'  |1975  |1490  |-          |-         |-                 |-               |-               |-           |-                          |-              |1490  |
-#'  |1976  |1499  |-          |-         |-                 |-               |-               |-           |-                          |-              |1499  |
-#'  |1977  |1530  |-          |-         |-                 |-               |-               |-           |-                          |-              |1530  |
-#'  |1978  |1532  |-          |-         |-                 |-               |-               |-           |-                          |-              |1532  |
-#'  |1980  |1468  |-          |-         |-                 |-               |-               |-           |-                          |-              |1468  |
-#'  |1982  |1860  |-          |-         |-                 |-               |-               |-           |-                          |-              |1860  |
-#'  |1983  |1599  |-          |-         |-                 |-               |-               |-           |-                          |-              |1599  |
-#'  |1984  |1473  |-          |-         |-                 |-               |-               |-           |-                          |-              |1473  |
-#'  |1985  |1534  |-          |-         |-                 |-               |-               |-           |-                          |-              |1534  |
-#'  |1986  |1470  |-          |-         |-                 |-               |-               |-           |-                          |-              |1470  |
-#'  |1987  |1819  |-          |-         |-                 |-               |-               |-           |-                          |-              |1819  |
-#'  |1988  |1481  |-          |-         |-                 |-               |-               |-           |-                          |-              |1481  |
-#'  |1989  |1537  |-          |-         |-                 |-               |-               |-           |-                          |-              |1537  |
-#'  |1990  |1372  |-          |-         |-                 |-               |-               |-           |-                          |-              |1372  |
-#'  |1991  |1517  |-          |-         |-                 |-               |-               |-           |-                          |-              |1517  |
-#'  |1993  |1606  |-          |-         |-                 |-               |-               |-           |-                          |-              |1606  |
-#'  |1994  |2992  |-          |-         |-                 |-               |-               |-           |-                          |-              |2992  |
-#'  |1996  |2904  |-          |-         |-                 |-               |-               |-           |-                          |-              |2904  |
-#'  |1998  |2832  |-          |-         |-                 |-               |-               |-           |-                          |-              |2832  |
-#'  |2000  |2817  |-          |-         |-                 |-               |-               |-           |-                          |-              |2817  |
-#'  |2002  |1372  |32         |10        |201               |246             |615             |289         |-                          |-              |2765  |
-#'  |2004  |2812  |-          |-         |-                 |-               |-               |-           |-                          |-              |2812  |
-#'  |2006  |4510  |-          |-         |-                 |-               |-               |-           |-                          |-              |4510  |
-#'  |2008  |2023  |-          |-         |-                 |-               |-               |-           |-                          |-              |2023  |
-#'  |2010  |2044  |-          |-         |-                 |-               |-               |-           |-                          |-              |2044  |
-#'  |2012  |1974  |-          |-         |-                 |-               |-               |-           |-                          |-              |1974  |
-#'  |2014  |2538  |-          |-         |-                 |-               |-               |-           |-                          |-              |2538  |
-#'  |2016  |2867  |-          |-         |-                 |-               |-               |-           |-                          |-              |2867  |
-#'  |2018  |2348  |-          |-         |-                 |-               |-               |-           |-                          |-              |2348  |
-#'  |2021  |4032  |-          |-         |-                 |-               |-               |-           |-                          |-              |4032  |
-#'  |2022  |-     |-          |-         |-                 |-               |-               |-           |3544                       |-              |3544  |
-#'  |2024  |1660  |31         |4         |111               |299             |879             |301         |-                          |24             |3309  |
-#'  |Total |69113 |63         |14        |312               |545             |1494            |590         |3544                       |24             |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` very likely
-#'   * `2` somewhat likely
-#'   * `3` not very likely
-#'   * `4` not at all likely
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name raised
-NULL
 

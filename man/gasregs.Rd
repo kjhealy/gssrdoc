@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 gasregs
 }
 \details{
-Question 1058. How much do you favor or oppose requiring car makers to make cars and trucks that use less gasoline? Do you strongly favor, favor, neither favor nor oppose, oppose, or strongly oppose such a requirement?
+Question How much do you favor or oppose requiring car makers to make cars and trucks that use less gasoline? Do you strongly favor, favor, neither favor nor oppose, oppose, or strongly oppose such a requirement?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} strongly favor
+\item \code{2} favor
+\item \code{3} neither favor nor oppose
+\item \code{4} oppose
+\item \code{5} strongly oppose
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3365/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab don't know \tab favor \tab neither favor nor oppose \tab no answer \tab oppose \tab strongly favor \tab strongly oppose \tab not available in this year \tab Total \cr
@@ -57,27 +80,33 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} strongly favor
-\item \code{2} favor
-\item \code{3} neither favor nor oppose
-\item \code{4} oppose
-\item \code{5} strongly oppose
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{bizbstgw}},
+\code{\link{bizinfgw}},
+\code{\link{polbstgw}},
+\code{\link{polinfgw}},
+\code{\link{scibstgw}},
+\code{\link{sciinfgw}},
+\code{\link{scmed}},
+\code{\link{scpol}},
+\code{\link{screlig}}
+
+Other Environment: 
+\code{\link{bizbstgw}},
+\code{\link{bizinfgw}},
+\code{\link{polbstgw}},
+\code{\link{polinfgw}},
+\code{\link{scibstgw}},
+\code{\link{sciinfgw}}
+}
+\concept{Environment}
+\concept{Science Knowledge & Attitudes}
 \keyword{variable}

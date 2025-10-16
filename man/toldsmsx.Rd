@@ -12,9 +12,36 @@ toldsmsx
 \details{
 Question At about what age were you when you first told someone that you had sex with someone of the same sex?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} under age 14
+\item \code{2} age 14-18
+\item \code{3} age 18-25
+\item \code{4} age 26-35
+\item \code{5} age 36-45
+\item \code{6} age 46-55
+\item \code{7} age 56-65
+\item \code{8} age 66 or older
+\item \code{9} i have never told anyone
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3907/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab age 14-18 \tab age 18-25 \tab age 26-35 \tab age 36-45 \tab age 46-55 \tab i have never told anyone \tab under age 14 \tab not available in this year \tab Total \cr
@@ -57,31 +84,24 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} under age 14
-\item \code{2} age 14-18
-\item \code{3} age 18-25
-\item \code{4} age 26-35
-\item \code{5} age 36-45
-\item \code{6} age 46-55
-\item \code{7} age 56-65
-\item \code{8} age 66 or older
-\item \code{9} i have never told anyone
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2008 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Sexual Orientation: 
+\code{\link{sexsex18}}
+
+Other Gays And Lesbians: 
+\code{\link{sexsex18}}
+
+Other Sex: 
+\code{\link{sexsex18}}
+}
+\concept{Gays And Lesbians}
+\concept{Sex}
+\concept{Sexual Orientation}
 \keyword{variable}

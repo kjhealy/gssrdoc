@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 grassy
 }
 \details{
-Question 96. Some people think the use of marijuana should be made legal. Other people think marijuana use should not be made legal. Which do you favor?
+Question Some people think the use of marijuana should be made legal.
+Other people think marijuana use should not be made legal. Which do you favor?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} legal
+\item \code{2} not legal
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/286/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab don't know \tab legal \tab no answer \tab not legal \tab not available in this year \tab Total \cr
@@ -57,24 +78,35 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} legal
-\item \code{2} not legal
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1978 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{denom}},
+\code{\link{grass}},
+\code{\link{lawfirm}},
+\code{\link{lawimp}},
+\code{\link{lawinfo}},
+\code{\link{other}},
+\code{\link{othjew}},
+\code{\link{relig}},
+\code{\link{wirtap}}
+
+Other Marijuana: 
+\code{\link{grass}}
+
+Other Split Ballots: 
+\code{\link{grass}},
+\code{\link{lawfirm}},
+\code{\link{lawimp}},
+\code{\link{lawinfo}}
+}
+\concept{Core}
+\concept{Marijuana}
+\concept{Split Ballots}
 \keyword{variable}

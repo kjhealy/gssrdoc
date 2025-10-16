@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 polinfgm
 }
 \details{
-Question 1070. Some say that the government should restrict the sale of genetically modified foods. Others say there is no need for such restrictions. Please look at Card B17. How much influence should each of the following groups have in deciding whether to restrict the sale of genetically modified foods? b. Elected officials
+Question Some say that the government should restrict the sale of genetically modified foods. Others say there is no need for such restrictions. Please look at Card B17. How much influence should each of the following groups have in deciding whether to restrict the sale of genetically modified foods?
+B. Elected officials. (Would you say a great deal of influence, a fair amount, a little influence, or none at all?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} a great deal of influence
+\item \code{2} a fair amount
+\item \code{3} a little influence
+\item \code{4} none at all
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3392/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab a fair amount \tab a great deal of influence \tab a little influence \tab don't know \tab none at all \tab not available in this year \tab Total \cr
@@ -57,26 +80,36 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} a great deal of influence
-\item \code{2} a fair amount
-\item \code{3} a little influence
-\item \code{4} none at all
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{bizbstgm}},
+\code{\link{bizinfgm}},
+\code{\link{eatgm}},
+\code{\link{gmbiz}},
+\code{\link{medagrgm}},
+\code{\link{medbstgm}},
+\code{\link{medinfgm}},
+\code{\link{polbstgm}},
+\code{\link{sciimp1}}
+
+Other Science: 
+\code{\link{bizbstgm}},
+\code{\link{bizinfgm}},
+\code{\link{eatgm}},
+\code{\link{gmbiz}},
+\code{\link{medagrgm}},
+\code{\link{medbstgm}},
+\code{\link{medinfgm}},
+\code{\link{polbstgm}},
+\code{\link{sciimp1}}
+}
+\concept{Science}
+\concept{Science Knowledge & Attitudes}
 \keyword{variable}

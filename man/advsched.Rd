@@ -11,10 +11,36 @@ advsched
 }
 \details{
 Question How far in advance do you usually know what days and hours you will need to work?
+(HAND CARD L2)
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} one day or less in advance
+\item \code{2} 2 to 3 days in advance
+\item \code{3} 4 to 7 days in advance
+\item \code{4} between 1 and 2 weeks in advance
+\item \code{5} between 3 and 4 weeks in advance
+\item \code{6} more than 4 weeks in advance
+\item \code{7} my schedule never changes
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/6296/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab 2 to 3 days in advance \tab 4 to 7 days in advance \tab between 1 and 2 weeks in advance \tab between 3 and 4 weeks in advance \tab don't know \tab more than 4 weeks in advance \tab my schedule never changes \tab no answer \tab one day or less in advance \tab not available in this year \tab Total \cr
@@ -57,29 +83,17 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} one day or less in advance
-\item \code{2} 2 to 3 days in advance
-\item \code{3} 4 to 7 days in advance
-\item \code{4} between 1 and 2 weeks in advance
-\item \code{5} between 3 and 4 weeks in advance
-\item \code{6} more than 4 weeks in advance
-\item \code{7} my schedule never changes
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2016 \tab C \tab partial \cr
 }
 }
 
+\seealso{
+Other Flexible Work: 
+\code{\link{leasthrs}},
+\code{\link{sethrs}}
+}
+\concept{Flexible Work}
 \keyword{variable}

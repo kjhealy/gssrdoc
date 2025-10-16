@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 relexp
 }
 \details{
-Question 685. Did you ever have a religious or spiritual experience that changed your life?
+Question Did you ever have a religious or spiritual experience that changed your life?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} yes
+\item \code{2} no
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2122/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab skipped on web \tab not available in this year \tab Total \cr
@@ -57,24 +77,35 @@ Counts by year:\tabular{lllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} yes
-\item \code{2} no
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1998 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2021 \tab A/-/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Religion and Culture: 
+\code{\link{artgod}},
+\code{\link{artists}},
+\code{\link{irrelart}},
+\code{\link{irreloff}},
+\code{\link{natarts}},
+\code{\link{relpersn}},
+\code{\link{sprtprsn}}
+
+Other Religion: 
+\code{\link{artgod}},
+\code{\link{irrelart}},
+\code{\link{irreloff}},
+\code{\link{relpersn}},
+\code{\link{sprtprsn}}
+}
+\concept{Religion}
+\concept{Religion and Culture}
 \keyword{variable}

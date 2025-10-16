@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 ethid
 }
 \details{
-Question 515. When you think of social and political issues, do you think of yourself mainly as a member of a particular ethnic, racial, or nationality group or do you think of yourself mainly as just an American?
+Question When you think of social and political issues, do you think of yourself mainly as a member of a particular ethnic, racial, or nationality group or do you think of yourself mainly as just an American?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} just an american
+\item \code{2} some part. ethnic grp
+\item \code{3} 2 or more ethnic grps
+\item \code{4} amer and ethnic grps
+\item \code{5} it depends
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1591/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab 2 or more ethnic grps \tab amer and ethnic grps \tab don't know \tab it depends \tab just an american \tab no answer \tab some part. ethnic grp \tab not available in this year \tab Total \cr
@@ -57,27 +80,13 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} just an american
-\item \code{2} some part. ethnic grp
-\item \code{3} 2 or more ethnic grps
-\item \code{4} amer and ethnic grps
-\item \code{5} it depends
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\concept{Ethnicity}
+\concept{Multiculturalism}
 \keyword{variable}

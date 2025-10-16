@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 hspjobs
 }
 \details{
-Question 410a. How much discrimination is there that hurts the chances of Hispanic Americans to get good paying jobs?
+Question How much discrimination is there that hurts the chances of Hispanic Americans to get good paying jobs?  Would you say there is a lot, some, only a little, or none at all?
+A. Hispanic Americans?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} a lot
+\item \code{2} some
+\item \code{3} only a little
+\item \code{4} none at all
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1243/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab a lot \tab don't know \tab no answer \tab none at all \tab only a little \tab some \tab not available in this year \tab Total \cr
@@ -57,26 +80,27 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} a lot
-\item \code{2} some
-\item \code{3} only a little
-\item \code{4} none at all
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1990 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Intergroup Relations: 
+\code{\link{asnhouse}},
+\code{\link{asnjobs}},
+\code{\link{blkhouse}},
+\code{\link{blkjobs}},
+\code{\link{influasn}},
+\code{\link{influhsp}},
+\code{\link{influso}},
+\code{\link{racwork}}
+
+Other Hispanics: 
+\code{\link{influhsp}}
+}
+\concept{Hispanics}
+\concept{Intergroup Relations}
 \keyword{variable}

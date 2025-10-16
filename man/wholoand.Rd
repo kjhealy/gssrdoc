@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 wholoand
 }
 \details{
-Question 616. Think of the most recent loan of this type. From whom did you borrow this money?
+Question Think of the most recent loan of this type. From whom did you borrow this money?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} parents or grandparents
+\item \code{2} children
+\item \code{3} other relative
+\item \code{4} friend
+\item \code{5} co-worker or bus. associate
+\item \code{6} other-specify
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1850/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab children \tab co-worker or bus. associate \tab friend \tab no answer \tab other relative \tab other-specify \tab parents or grandparents \tab not available in this year \tab Total \cr
@@ -57,28 +81,36 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} parents or grandparents
-\item \code{2} children
-\item \code{3} other relative
-\item \code{4} friend
-\item \code{5} co-worker or bus. associate
-\item \code{6} other-specify
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Markets: 
+\code{\link{borrowed}},
+\code{\link{fixer1}},
+\code{\link{fixerc}},
+\code{\link{fixerd}},
+\code{\link{fixere}},
+\code{\link{fixerf}},
+\code{\link{relfixer}},
+\code{\link{satfixes}},
+\code{\link{sellbed}}
+
+Other Purchases/Transactions: 
+\code{\link{borrowed}},
+\code{\link{fixer1}},
+\code{\link{fixerc}},
+\code{\link{fixerd}},
+\code{\link{fixere}},
+\code{\link{fixerf}},
+\code{\link{relfixer}},
+\code{\link{satfixes}},
+\code{\link{sellbed}}
+}
+\concept{Markets}
+\concept{Purchases/Transactions}
 \keyword{variable}

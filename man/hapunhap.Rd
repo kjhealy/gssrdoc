@@ -4,17 +4,39 @@
 \alias{hapunhap}
 \title{Happy or unhappy with life today}
 \source{
-General Social Survey https://gss.norc.org
+General Social Survey https://gss.norc.orgSocial Networks & Support Systems
 }
 \description{
 hapunhap
 }
 \details{
-Question 1372. If you were to consider your life in general these days, how happy or unhappy would you say you are, on the whole...
+Question If you were to consider your life in general these days, how happy or unhappy would you say you are, on the wholeâ€¦
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very happy
+\item \code{2} fairly happy
+\item \code{3} not very happy
+\item \code{4} not at all happy
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4627/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab don't know \tab fairly happy \tab no answer \tab not at all happy \tab not very happy \tab very happy \tab not available in this year \tab Total \cr
@@ -57,26 +79,24 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very happy
-\item \code{2} fairly happy
-\item \code{3} not very happy
-\item \code{4} not at all happy
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1991 \tab A/B/C \tab full \cr
+   1998 \tab A/B/C \tab full \cr
+   2002 \tab A/B/C \tab full \cr
+   2008 \tab B/C/- \tab partial \cr
+   2018 \tab A/B/- \tab partial \cr
+   2022 \tab C/-/- \tab partial \cr
 }
 }
 
+\seealso{
+Other ISSP Religion: 
+\code{\link{deathpen}},
+\code{\link{premars1}},
+\code{\link{xmarsex1}}
+}
+\concept{Happiness}
+\concept{ISSP Religion}
 \keyword{variable}

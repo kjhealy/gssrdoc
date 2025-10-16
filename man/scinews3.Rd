@@ -10,11 +10,40 @@ General Social Survey https://gss.norc.org
 scinews3
 }
 \details{
-Question None
+Question You said you get most of your information about science and technology from the Internet. What is the place you are most likely to go on the Internet for science and technology informationâ€”online newspapers, online magazines, or some other place on the Internet?
+you most likely to go on the Internet for science and technology information?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} online newspapers
+\item \code{2} online magazines
+\item \code{3} science site
+\item \code{4} news site
+\item \code{5} electronic books & reports
+\item \code{6} wikipedia
+\item \code{7} government site
+\item \code{8} social media (facebook, youtube, twitter)
+\item \code{10} other
+\item \code{11} search engine (google, bing)
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3502/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllll}{
    year \tab iap \tab don't know \tab no answer \tab online magazines \tab online newspapers \tab science site \tab electronic books & reports \tab government site \tab news site \tab other \tab search engine (google, bing) \tab social media (facebook, youtube, twitter) \tab wikipedia \tab not available in this year \tab Total \cr
@@ -57,32 +86,39 @@ Counts by year:\tabular{llllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} online newspapers
-\item \code{2} online magazines
-\item \code{3} science site
-\item \code{4} news site
-\item \code{5} electronic books & reports
-\item \code{6} wikipedia
-\item \code{7} government site
-\item \code{8} social media (facebook, youtube, twitter)
-\item \code{10} other
-\item \code{11} search engine (google, bing)
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2010 \tab C/- \tab partial \cr
+   2012 \tab B/C \tab partial \cr
+   2014 \tab B/C \tab partial \cr
+   2016 \tab A/B \tab partial \cr
+   2018 \tab A/B \tab partial \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{cloning}},
+\code{\link{newsfrmy}},
+\code{\link{scientda}},
+\code{\link{scientsn}},
+\code{\link{scifromy}},
+\code{\link{sciinfgo}},
+\code{\link{scinews1}},
+\code{\link{scinews2}},
+\code{\link{seeksciy}}
+
+Other Science: 
+\code{\link{newsfrmy}},
+\code{\link{scientda}},
+\code{\link{scientsn}},
+\code{\link{scifromy}},
+\code{\link{sciinfgo}},
+\code{\link{scinews1}},
+\code{\link{scinews2}},
+\code{\link{seeksciy}}
+}
+\concept{Science}
+\concept{Science Knowledge & Attitudes}
 \keyword{variable}

@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 nukeacc
 }
 \details{
-Question 1434. Within the next five years, how likely is it that an accident at a nuclear power station will cause long-term environmental damage across many countries?
+Question Within the next five years, how likely is it that an accident at a nuclear power station will cause long-term environmental damage across many countries?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very likely
+\item \code{2} likely
+\item \code{3} unlikely
+\item \code{4} very unlikely
+\item \code{5} cant choose
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4790/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab don't know \tab likely \tab no answer \tab unlikely \tab very likely \tab very unlikely \tab not available in this year \tab Total \cr
@@ -57,27 +80,29 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very likely
-\item \code{2} likely
-\item \code{3} unlikely
-\item \code{4} very unlikely
-\item \code{5} cant choose
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Environment: 
+\code{\link{econgrn}},
+\code{\link{excldimm}},
+\code{\link{infobiz}},
+\code{\link{infocol}},
+\code{\link{infogovt}},
+\code{\link{infogrn}},
+\code{\link{infonews}},
+\code{\link{infotv}},
+\code{\link{ldcgrn}}
+
+Other Environment: 
+\code{\link{econgrn}},
+\code{\link{ldcgrn}}
+}
+\concept{Environment}
+\concept{ISSP Environment}
 \keyword{variable}

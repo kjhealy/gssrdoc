@@ -1,11 +1,205 @@
+#'  Young should be able to support family
+#' 
+#'  supfam
+#' 
+#' Question People differ in their ideas about what it takes for a young person to become an adult these days. How important is it for them to be... 
+#' Be capable of supporting a family financially
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` extremely important
+#'   * `2` quite important
+#'   * `3` somewhat important
+#'   * `4` not too important
+#'   * `5` not at all important
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2904/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |don't know |extremely important |no answer |not at all important |not too important |quite important |somewhat important |not available in this year |Total |
+#'  |:-----|:-----|:----------|:-------------------|:---------|:--------------------|:-----------------|:---------------|:------------------|:--------------------------|:-----|
+#'  |1972  |1613  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |1613  |
+#'  |1973  |1504  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |1504  |
+#'  |1974  |1484  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |1484  |
+#'  |1975  |1490  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |1490  |
+#'  |1976  |1499  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |1499  |
+#'  |1977  |1530  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |1530  |
+#'  |1978  |1532  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |1532  |
+#'  |1980  |1468  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |1468  |
+#'  |1982  |1860  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |1860  |
+#'  |1983  |1599  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |1599  |
+#'  |1984  |1473  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |1473  |
+#'  |1985  |1534  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |1534  |
+#'  |1986  |1470  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |1470  |
+#'  |1987  |1819  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |1819  |
+#'  |1988  |1481  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |1481  |
+#'  |1989  |1537  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |1537  |
+#'  |1990  |1372  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |1372  |
+#'  |1991  |1517  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |1517  |
+#'  |1993  |1606  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |1606  |
+#'  |1994  |2992  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |2992  |
+#'  |1996  |2904  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |2904  |
+#'  |1998  |2832  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |2832  |
+#'  |2000  |2817  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |2817  |
+#'  |2002  |1372  |21         |824                 |6         |27                   |57                |306             |152                |-                          |2765  |
+#'  |2004  |2812  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |2812  |
+#'  |2006  |4510  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |4510  |
+#'  |2008  |2023  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |2023  |
+#'  |2010  |2044  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |2044  |
+#'  |2012  |1974  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |1974  |
+#'  |2014  |2538  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |2538  |
+#'  |2016  |2867  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |2867  |
+#'  |2018  |2348  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |2348  |
+#'  |2021  |4032  |-          |-                   |-         |-                    |-                 |-               |-                  |-                          |4032  |
+#'  |2022  |-     |-          |-                   |-         |-                    |-                 |-               |-                  |3544                       |3544  |
+#'  |2024  |-     |-          |-                   |-         |-                    |-                 |-               |-                  |3309                       |3309  |
+#'  |Total |67453 |21         |824                 |6         |27                   |57                |306             |152                |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Adult Transitions
+#' @family Adult Transitions
+#' 
+#' @keywords variable
+#' @md
+#' @name supfam
+NULL
+
+
+#'  Aged should be able to support family
+#' 
+#'  supfam1
+#' 
+#' Question People differ in their ideas about what it takes for a young person to become an adult these days. How important is it for them to be... 
+#' Be capable of supporting a family financially 
+#' A. By what age should this normally occur?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2905/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |16 |17 |18 |19 |20 |21  |22  |23 |24 |25  |26 |27 |28 |29 |30  |31 |32 |35 |37 |40 |55 |don't know |no answer |not available in this year |Total |
+#'  |:-----|:-----|:--|:--|:--|:--|:--|:---|:---|:--|:--|:---|:--|:--|:--|:--|:---|:--|:--|:--|:--|:--|:--|:----------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1613  |
+#'  |1973  |1504  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1504  |
+#'  |1974  |1484  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1484  |
+#'  |1975  |1490  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1490  |
+#'  |1976  |1499  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1499  |
+#'  |1977  |1530  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1530  |
+#'  |1978  |1532  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1532  |
+#'  |1980  |1468  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1468  |
+#'  |1982  |1860  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1860  |
+#'  |1983  |1599  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1599  |
+#'  |1984  |1473  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1473  |
+#'  |1985  |1534  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1534  |
+#'  |1986  |1470  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1470  |
+#'  |1987  |1819  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1819  |
+#'  |1988  |1481  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1481  |
+#'  |1989  |1537  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1537  |
+#'  |1990  |1372  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1372  |
+#'  |1991  |1517  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1517  |
+#'  |1993  |1606  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1606  |
+#'  |1994  |2992  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2992  |
+#'  |1996  |2904  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2904  |
+#'  |1998  |2832  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2832  |
+#'  |2000  |2817  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2817  |
+#'  |2002  |1483  |7  |3  |58 |12 |62 |116 |100 |65 |92 |373 |61 |37 |55 |9  |138 |1  |7  |14 |2  |1  |1  |65         |3         |-                          |2765  |
+#'  |2004  |2812  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2812  |
+#'  |2006  |4510  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |4510  |
+#'  |2008  |2023  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2023  |
+#'  |2010  |2044  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2044  |
+#'  |2012  |1974  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1974  |
+#'  |2014  |2538  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2538  |
+#'  |2016  |2867  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2867  |
+#'  |2018  |2348  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2348  |
+#'  |2021  |4032  |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |-                          |4032  |
+#'  |2022  |-     |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |3544                       |3544  |
+#'  |2024  |-     |-  |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
+#'  |Total |67564 |7  |3  |58 |12 |62 |116 |100 |65 |92 |373 |61 |37 |55 |9  |138 |1  |7  |14 |2  |1  |1  |65         |3         |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Adult Transitions
+#' @family Adult Transitions
+#' 
+#' @keywords variable
+#' @md
+#' @name supfam1
+NULL
+
+
 #'  Young should have child
 #' 
 #'  havchld
 #' 
-#' Question 935. People differ in their ideas about what it takes for a young person to become an adult these days. How important is it for them to... ...have a child
+#' Question People differ in their ideas about what it takes for a young person to become an adult these days. How important is it for them to... 
+#' Have a child
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` extremely important
+#'   * `2` quite important
+#'   * `3` somewhat important
+#'   * `4` not too important
+#'   * `5` not at all important
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2906/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,13 +242,33 @@
 #'  |2024  |-     |-          |-                   |-         |-                    |-                 |-               |-                  |3309                       |3309  |
 #'  |Total |67453 |38         |211                 |9         |302                  |344               |168             |321                |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Adult Transitions
+#' @family Adult Transitions
+#' 
+#' @keywords variable
+#' @md
+#' @name havchld
+NULL
+
+
+#'  Aged should have child
+#' 
+#'  havchld1
+#' 
+#' Question People differ in their ideas about what it takes for a young person to become an adult these days. How important is it for them to... 
+#' Have a child 
+#' A. By what age should this normally occur?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` extremely important
-#'   * `2` quite important
-#'   * `3` somewhat important
-#'   * `4` not too important
-#'   * `5` not at all important
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -68,22 +282,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name havchld
-NULL
-
-#'  Aged should have child
-#' 
-#'  havchld1
-#' 
-#' Question 935. People differ in their ideas about what it takes for a young person to become an adult these days. How important is it for them to... ...have a child a. By what age should this normally occur?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2907/vshow).
 #'
 #' Counts by year: 
 #'
@@ -126,8 +326,37 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68146 |1  |13 |2  |29 |40 |27 |19 |27 |198 |39 |36 |53 |19 |126 |2  |11 |2  |1  |15 |1  |1  |5  |32         |1         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Adult Transitions
+#' @family Adult Transitions
+#' 
+#' @keywords variable
+#' @md
+#' @name havchld1
+NULL
+
+
+#'  Young should get married
+#' 
+#'  getmar
+#' 
+#' Question People differ in their ideas about what it takes for a young person to become an adult these days. How important is it for them to... 
+#' get married
+#' 
+#' 
 #' @section Values: 
 #' 
+#'   * `1` extremely important
+#'   * `2` quite important
+#'   * `3` somewhat important
+#'   * `4` not too important
+#'   * `5` not at all important
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -141,22 +370,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name havchld1
-NULL
-
-#'  Young should get married
-#' 
-#'  getmar
-#' 
-#' Question 936. People differ in their ideas about what it takes for a young person to become an adult these days. How important is it for them to... ...get married
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2908/vshow).
 #'
 #' Counts by year: 
 #'
@@ -199,13 +414,33 @@ NULL
 #'  |2024  |-     |-          |-                   |-         |-                    |-                 |-               |-                  |3309                       |3309  |
 #'  |Total |67453 |34         |256                 |8         |290                  |330               |191             |284                |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Adult Transitions
+#' @family Adult Transitions
+#' 
+#' @keywords variable
+#' @md
+#' @name getmar
+NULL
+
+
+#'  Aged should get married
+#' 
+#'  getmar1
+#' 
+#' Question People differ in their ideas about what it takes for a young person to become an adult these days. How important is it for them to... 
+#' get married 
+#' A. By what age should this normally occur?
+#' 
+#' 
 #' @section Values: 
 #' 
-#'   * `1` extremely important
-#'   * `2` quite important
-#'   * `3` somewhat important
-#'   * `4` not too important
-#'   * `5` not at all important
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -219,22 +454,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name getmar
-NULL
-
-#'  Aged should get married
-#' 
-#'  getmar1
-#' 
-#' Question 936. People differ in their ideas about what it takes for a young person to become an adult these days. How important is it for them to... ...get married a. By what age should this normally occur?
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2909/vshow).
 #'
 #' Counts by year: 
 #'
@@ -277,8 +498,34 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68115 |16 |2  |33 |61 |42 |29 |48 |208 |43 |28 |46 |3  |107 |3  |8  |1  |1  |12 |4  |1  |1  |1  |1  |31         |1         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Adult Transitions
+#' @family Adult Transitions
+#' 
+#' @keywords variable
+#' @md
+#' @name getmar1
+NULL
+
+
+#'  Have ever boycotted a product past 5 years
+#' 
+#'  boycott
+#' 
+#' Question Over the past 5 years have you done any of the following to express your opinion about an issue or your support for a cause? 
+#' A. Boycotting a product
+#' 
+#' 
 #' @section Values: 
 #' 
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -292,22 +539,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name getmar1
-NULL
-
-#'  Have ever boycotted a product past 5 years
-#' 
-#'  boycott
-#' 
-#' Question 937. Over the past 5 years have you done any of the following to express your opinion about an issue or your support for a cause? a. Boycotting a product
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2910/vshow).
 #'
 #' Counts by year: 
 #'
@@ -350,6 +583,30 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-   |3309                       |3309  |
 #'  |Total |67453 |8          |1071 |6         |308 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Adult Transitions
+#' @family Demonstrations
+#' 
+#' @keywords variable
+#' @md
+#' @name boycott
+NULL
+
+
+#'  Have ever signed a petition past 5 years
+#' 
+#'  signpet
+#' 
+#' Question Over the past 5 years have you done any of the following to express your opinion about an issue or your support for a cause? 
+#' B. Sign a petition or an e-mail letter
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -367,22 +624,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name boycott
-NULL
-
-#'  Have ever signed a petition past 5 years
-#' 
-#'  signpet
-#' 
-#' Question 937. Over the past 5 years have you done any of the following to express your opinion about an issue or your support for a cause? b. Sign a petition or an email letter
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2911/vshow).
 #'
 #' Counts by year: 
 #'
@@ -425,6 +668,30 @@ NULL
 #'  |2024  |-     |-          |-   |-         |-   |3309                       |3309  |
 #'  |Total |67453 |8          |787 |6         |592 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Adult Transitions
+#' @family Demonstrations
+#' 
+#' @keywords variable
+#' @md
+#' @name signpet
+NULL
+
+
+#'  Have ever joined a protest rally past 5 years
+#' 
+#'  protest
+#' 
+#' Question Over the past 5 years have you done any of the following to express your opinion about an issue or your support for a cause? 
+#' C. Join a protest rally or march
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -442,22 +709,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name signpet
-NULL
-
-#'  Have ever joined a protest rally past 5 years
-#' 
-#'  protest
-#' 
-#' Question 937. Over the past 5 years have you done any of the following to express your opinion about an issue or your support for a cause? c. Join a protest rally or march
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2912/vshow).
 #'
 #' Counts by year: 
 #'
@@ -500,6 +753,30 @@ NULL
 #'  |2024  |-     |-          |-    |-         |-   |3309                       |3309  |
 #'  |Total |67453 |9          |1294 |6         |84  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Adult Transitions
+#' @family Demonstrations
+#' 
+#' @keywords variable
+#' @md
+#' @name protest
+NULL
+
+
+#'  Have ever contacted an elected official
+#' 
+#'  conoffcl
+#' 
+#' Question Over the past 5 years have you done any of the following to express your opinion about an issue or your support for a cause? 
+#' D. Contact an elected official by phone, letter, or e-mail
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -517,22 +794,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name protest
-NULL
-
-#'  Have ever contacted an elected official
-#' 
-#'  conoffcl
-#' 
-#' Question 937. Over the past 5 years have you done any of the following to express your opinion about an issue or your support for a cause? d. Contact an elected official by phone, letter, or e-mail
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/2913/vshow).
 #'
 #' Counts by year: 
 #'
@@ -575,178 +838,19 @@ NULL
 #'  |2024  |-     |-          |-   |-         |-   |3309                       |3309  |
 #'  |Total |67453 |8          |990 |6         |389 |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2002 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Adult Transitions
+#' @family Demonstrations
 #' 
 #' @keywords variable
 #' @md
 #' @name conoffcl
 NULL
 
-#'  Have given money to group advocating social change
-#' 
-#'  givchng
-#' 
-#' Question 937. Over the past 5 years have you done any of the following to express your opinion about an issue or your support for a cause? e. Give money to a group advocating social change
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no   |no answer |yes |not available in this year |Total |
-#'  |:-----|:-----|:----------|:----|:---------|:---|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-    |-         |-   |-                          |1613  |
-#'  |1973  |1504  |-          |-    |-         |-   |-                          |1504  |
-#'  |1974  |1484  |-          |-    |-         |-   |-                          |1484  |
-#'  |1975  |1490  |-          |-    |-         |-   |-                          |1490  |
-#'  |1976  |1499  |-          |-    |-         |-   |-                          |1499  |
-#'  |1977  |1530  |-          |-    |-         |-   |-                          |1530  |
-#'  |1978  |1532  |-          |-    |-         |-   |-                          |1532  |
-#'  |1980  |1468  |-          |-    |-         |-   |-                          |1468  |
-#'  |1982  |1860  |-          |-    |-         |-   |-                          |1860  |
-#'  |1983  |1599  |-          |-    |-         |-   |-                          |1599  |
-#'  |1984  |1473  |-          |-    |-         |-   |-                          |1473  |
-#'  |1985  |1534  |-          |-    |-         |-   |-                          |1534  |
-#'  |1986  |1470  |-          |-    |-         |-   |-                          |1470  |
-#'  |1987  |1819  |-          |-    |-         |-   |-                          |1819  |
-#'  |1988  |1481  |-          |-    |-         |-   |-                          |1481  |
-#'  |1989  |1537  |-          |-    |-         |-   |-                          |1537  |
-#'  |1990  |1372  |-          |-    |-         |-   |-                          |1372  |
-#'  |1991  |1517  |-          |-    |-         |-   |-                          |1517  |
-#'  |1993  |1606  |-          |-    |-         |-   |-                          |1606  |
-#'  |1994  |2992  |-          |-    |-         |-   |-                          |2992  |
-#'  |1996  |2904  |-          |-    |-         |-   |-                          |2904  |
-#'  |1998  |2832  |-          |-    |-         |-   |-                          |2832  |
-#'  |2000  |2817  |-          |-    |-         |-   |-                          |2817  |
-#'  |2002  |1372  |12         |1048 |7         |326 |-                          |2765  |
-#'  |2004  |2812  |-          |-    |-         |-   |-                          |2812  |
-#'  |2006  |4510  |-          |-    |-         |-   |-                          |4510  |
-#'  |2008  |2023  |-          |-    |-         |-   |-                          |2023  |
-#'  |2010  |2044  |-          |-    |-         |-   |-                          |2044  |
-#'  |2012  |1974  |-          |-    |-         |-   |-                          |1974  |
-#'  |2014  |2538  |-          |-    |-         |-   |-                          |2538  |
-#'  |2016  |2867  |-          |-    |-         |-   |-                          |2867  |
-#'  |2018  |2348  |-          |-    |-         |-   |-                          |2348  |
-#'  |2021  |4032  |-          |-    |-         |-   |-                          |4032  |
-#'  |2022  |-     |-          |-    |-         |-   |3544                       |3544  |
-#'  |2024  |-     |-          |-    |-         |-   |3309                       |3309  |
-#'  |Total |67453 |12         |1048 |7         |326 |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name givchng
-NULL
-
-#'  Have ever contributed time to help the needy
-#' 
-#'  hlpneedy
-#' 
-#' Question 937. Over the past 5 years have you done any of the following to express your opinion about an issue or your support for a cause? f. Contribute your time to help the needy
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |don't know |no  |no answer |yes |not available in this year |Total |
-#'  |:-----|:-----|:----------|:---|:---------|:---|:--------------------------|:-----|
-#'  |1972  |1613  |-          |-   |-         |-   |-                          |1613  |
-#'  |1973  |1504  |-          |-   |-         |-   |-                          |1504  |
-#'  |1974  |1484  |-          |-   |-         |-   |-                          |1484  |
-#'  |1975  |1490  |-          |-   |-         |-   |-                          |1490  |
-#'  |1976  |1499  |-          |-   |-         |-   |-                          |1499  |
-#'  |1977  |1530  |-          |-   |-         |-   |-                          |1530  |
-#'  |1978  |1532  |-          |-   |-         |-   |-                          |1532  |
-#'  |1980  |1468  |-          |-   |-         |-   |-                          |1468  |
-#'  |1982  |1860  |-          |-   |-         |-   |-                          |1860  |
-#'  |1983  |1599  |-          |-   |-         |-   |-                          |1599  |
-#'  |1984  |1473  |-          |-   |-         |-   |-                          |1473  |
-#'  |1985  |1534  |-          |-   |-         |-   |-                          |1534  |
-#'  |1986  |1470  |-          |-   |-         |-   |-                          |1470  |
-#'  |1987  |1819  |-          |-   |-         |-   |-                          |1819  |
-#'  |1988  |1481  |-          |-   |-         |-   |-                          |1481  |
-#'  |1989  |1537  |-          |-   |-         |-   |-                          |1537  |
-#'  |1990  |1372  |-          |-   |-         |-   |-                          |1372  |
-#'  |1991  |1517  |-          |-   |-         |-   |-                          |1517  |
-#'  |1993  |1606  |-          |-   |-         |-   |-                          |1606  |
-#'  |1994  |2992  |-          |-   |-         |-   |-                          |2992  |
-#'  |1996  |2904  |-          |-   |-         |-   |-                          |2904  |
-#'  |1998  |2832  |-          |-   |-         |-   |-                          |2832  |
-#'  |2000  |2817  |-          |-   |-         |-   |-                          |2817  |
-#'  |2002  |1372  |8          |690 |5         |690 |-                          |2765  |
-#'  |2004  |2812  |-          |-   |-         |-   |-                          |2812  |
-#'  |2006  |4510  |-          |-   |-         |-   |-                          |4510  |
-#'  |2008  |2023  |-          |-   |-         |-   |-                          |2023  |
-#'  |2010  |2044  |-          |-   |-         |-   |-                          |2044  |
-#'  |2012  |1974  |-          |-   |-         |-   |-                          |1974  |
-#'  |2014  |2538  |-          |-   |-         |-   |-                          |2538  |
-#'  |2016  |2867  |-          |-   |-         |-   |-                          |2867  |
-#'  |2018  |2348  |-          |-   |-         |-   |-                          |2348  |
-#'  |2021  |4032  |-          |-   |-         |-   |-                          |4032  |
-#'  |2022  |-     |-          |-   |-         |-   |3544                       |3544  |
-#'  |2024  |-     |-          |-   |-         |-   |3309                       |3309  |
-#'  |Total |67453 |8          |690 |5         |690 |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hlpneedy
-NULL
 

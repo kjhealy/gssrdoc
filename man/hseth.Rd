@@ -10,11 +10,37 @@ General Social Survey https://gss.norc.org
 hseth
 }
 \details{
-Question 766b. Besides Whites, what was the largest racial group in your high school/the last school you attended~ Blacks/African Americans, Hispanics, Asians, or American Indians?
+Question IF ATTENDED HIGH SCHOOL (EDUC), ASK IN TERMS OF â€œHIGH SCHOOL.â€
+IF LEFT SCHOOL beFORE HIGH SCHOOL, ASK IN TERMS OF â€œTHE LAST SCHOOL YOU ATTENDED.â€
+B. Besides Whites, what was the largest racial group in your high school/the last school you attendedâ€“ Blacks/African Americans, Hispanics, Asians, or American Indians?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} blacks/african-americans
+\item \code{2} hispanics
+\item \code{3} asians
+\item \code{4} american indians
+\item \code{5} all, mixed
+\item \code{6} 2 or more groups
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2377/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab 2 or more groups \tab all, mixed \tab american indians \tab asians \tab blacks/african-americans \tab don't know \tab hispanics \tab no answer \tab not available in this year \tab Total \cr
@@ -57,28 +83,30 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} blacks/african-americans
-\item \code{2} hispanics
-\item \code{3} asians
-\item \code{4} american indians
-\item \code{5} all, mixed
-\item \code{6} 2 or more groups
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Multi-Ethnic United States: 
+\code{\link{hswht}},
+\code{\link{neieth10}},
+\code{\link{neieth11}},
+\code{\link{neieth12}},
+\code{\link{neieth13}},
+\code{\link{neieth14}}
+
+Other Race: 
+\code{\link{hswht}},
+\code{\link{neieth10}},
+\code{\link{neieth11}},
+\code{\link{neieth12}},
+\code{\link{neieth13}},
+\code{\link{neieth14}}
+}
+\concept{Multi-Ethnic United States}
+\concept{Race}
 \keyword{variable}

@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 askfinan
 }
 \details{
-Question 585. Before giving an individual a SECRET or TOP SECRET clearance, the government should have the right to ask him or her detailed, personal questions in the following areas: a. Financial and credit history
+Question Before giving an individual a SECRET or TOP SECRET clearance, the government should have the right to ask him or her detailed, personal questions in the following areas:
+A. Financial and credit history
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} definitely should
+\item \code{2} probably should
+\item \code{3} probably should not
+\item \code{4} definitely should not
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5208/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab definitely should \tab definitely should not \tab don't know \tab no answer \tab probably should \tab probably should not \tab not available in this year \tab Total \cr
@@ -57,26 +80,35 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} definitely should
-\item \code{2} probably should
-\item \code{3} probably should not
-\item \code{4} definitely should not
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
+   1996 \tab A/B/C \tab full \cr
+   1998 \tab A/B/C \tab full \cr
+   2000 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other National Security: 
+\code{\link{askcrime}},
+\code{\link{askdrugs}},
+\code{\link{askforgn}},
+\code{\link{askmentl}},
+\code{\link{rptcowrk}},
+\code{\link{secdocs}},
+\code{\link{sectech}}
+
+Other United States: 
+\code{\link{askcrime}},
+\code{\link{askdrugs}},
+\code{\link{askforgn}},
+\code{\link{askmentl}},
+\code{\link{rptcowrk}},
+\code{\link{secdocs}},
+\code{\link{sectech}}
+}
+\concept{National Security}
+\concept{United States}
 \keyword{variable}

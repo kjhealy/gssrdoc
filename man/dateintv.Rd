@@ -10,11 +10,29 @@ General Social Survey https://gss.norc.org
 dateintv
 }
 \details{
-Question 1634. Date of interview.
+Question Date of interview.
 }
+\section{Values}{
+
+\itemize{
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/5467/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 228 \tab 301 \tab 302 \tab 303 \tab 304 \tab 305 \tab 306 \tab 307 \tab 308 \tab 309 \tab 310 \tab 311 \tab 312 \tab 313 \tab 314 \tab 315 \tab 316 \tab 317 \tab 318 \tab 319 \tab 320 \tab 321 \tab 322 \tab 323 \tab 324 \tab 325 \tab 326 \tab 327 \tab 328 \tab 329 \tab 330 \tab 331 \tab 399 \tab 401 \tab 402 \tab 403 \tab 404 \tab 405 \tab 406 \tab 407 \tab 408 \tab 411 \tab 412 \tab 413 \tab 414 \tab 416 \tab 418 \tab 424 \tab 430 \tab 501 \tab 505 \tab 506 \tab 508 \tab 510 \tab 512 \tab 515 \tab no answer \tab 229 \tab 409 \tab 410 \tab 415 \tab 417 \tab 419 \tab 420 \tab 421 \tab 422 \tab 423 \tab 425 \tab 426 \tab 427 \tab 428 \tab 429 \tab 502 \tab 503 \tab 504 \tab 507 \tab 511 \tab 513 \tab 514 \tab 517 \tab 518 \tab 519 \tab 520 \tab 522 \tab 523 \tab 524 \tab 525 \tab 526 \tab 529 \tab 209 \tab 210 \tab 211 \tab 212 \tab 213 \tab 214 \tab 215 \tab 216 \tab 217 \tab 218 \tab 219 \tab 220 \tab 221 \tab 222 \tab 223 \tab 224 \tab 225 \tab 226 \tab 227 \tab 118 \tab 202 \tab 208 \tab 499 \tab 516 \tab 299 \tab 206 \tab 131 \tab 201 \tab 203 \tab 204 \tab 205 \tab 207 \tab 104 \tab 127 \tab 128 \tab 129 \tab 130 \tab 199 \tab 509 \tab 521 \tab 527 \tab 528 \tab 530 \tab 531 \tab 599 \tab 629 \tab 601 \tab 602 \tab 603 \tab 604 \tab 605 \tab 606 \tab 607 \tab 608 \tab 609 \tab 610 \tab 611 \tab 612 \tab 613 \tab 614 \tab 615 \tab 616 \tab 617 \tab 618 \tab 619 \tab 699 \tab 625 \tab 620 \tab 621 \tab 622 \tab 623 \tab 624 \tab 626 \tab 1001 \tab 1002 \tab 1003 \tab 1004 \tab 1005 \tab 1006 \tab 1007 \tab 1008 \tab 1009 \tab 101 \tab 1010 \tab 1011 \tab 1012 \tab 1013 \tab 1014 \tab 1015 \tab 1016 \tab 1017 \tab 1018 \tab 1019 \tab 102 \tab 1020 \tab 1021 \tab 1022 \tab 1023 \tab 1024 \tab 1025 \tab 1026 \tab 1027 \tab 1029 \tab 103 \tab 1030 \tab 1101 \tab 1102 \tab 1105 \tab 1106 \tab 1107 \tab 1108 \tab 1109 \tab 1110 \tab 1111 \tab 1112 \tab 1113 \tab 1114 \tab 1115 \tab 1116 \tab 1117 \tab 1118 \tab 1119 \tab 1120 \tab 1121 \tab 1122 \tab 1123 \tab 1124 \tab 1125 \tab 1126 \tab 1127 \tab 1128 \tab 1129 \tab 1130 \tab 1201 \tab 1202 \tab 1203 \tab 1204 \tab 1205 \tab 1206 \tab 1207 \tab 1208 \tab 1209 \tab 1210 \tab 1211 \tab 1212 \tab 1213 \tab 1214 \tab 1215 \tab 1216 \tab 1217 \tab 1218 \tab 1219 \tab 1220 \tab 1221 \tab 1222 \tab 1223 \tab 1224 \tab 1226 \tab 1227 \tab 1228 \tab 1229 \tab 1230 \tab 1231 \tab 818 \tab 819 \tab 820 \tab 821 \tab 822 \tab 823 \tab 824 \tab 825 \tab 826 \tab 827 \tab 828 \tab 829 \tab 830 \tab 831 \tab 901 \tab 902 \tab 903 \tab 904 \tab 905 \tab 906 \tab 907 \tab 908 \tab 909 \tab 910 \tab 911 \tab 912 \tab 913 \tab 914 \tab 915 \tab 916 \tab 917 \tab 918 \tab 919 \tab 920 \tab 921 \tab 922 \tab 923 \tab 924 \tab 925 \tab 926 \tab 927 \tab 928 \tab 929 \tab 930 \tab 627 \tab 628 \tab 630 \tab 701 \tab 702 \tab 703 \tab 704 \tab 705 \tab 706 \tab 707 \tab 708 \tab 709 \tab 710 \tab 711 \tab 712 \tab 713 \tab 714 \tab 715 \tab 716 \tab 717 \tab 718 \tab 719 \tab 720 \tab 721 \tab 722 \tab 723 \tab 724 \tab 725 \tab 726 \tab 727 \tab 728 \tab 729 \tab 730 \tab 731 \tab 801 \tab 802 \tab 803 \tab 804 \tab 805 \tab 806 \tab 807 \tab 808 \tab 809 \tab 810 \tab 811 \tab 812 \tab 813 \tab 814 \tab 815 \tab 816 \tab 817 \tab 1028 \tab 1031 \tab 1103 \tab 1104 \tab 105 \tab 106 \tab 107 \tab 108 \tab 109 \tab 110 \tab 111 \tab 112 \tab 113 \tab 114 \tab 115 \tab 116 \tab 117 \tab 119 \tab 120 \tab 121 \tab 122 \tab 1225 \tab 123 \tab 124 \tab 125 \tab 126 \tab 431 \tab Total \cr
@@ -57,22 +75,44 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1975 \tab -/-/-/- \tab full \cr
+   1976 \tab -/-/-/- \tab full \cr
+   1977 \tab -/-/-/- \tab full \cr
+   1978 \tab -/-/-/- \tab full \cr
+   1980 \tab -/-/-/- \tab full \cr
+   1982 \tab -/-/-/- \tab full \cr
+   1983 \tab -/-/-/- \tab full \cr
+   1984 \tab -/-/-/- \tab full \cr
+   1985 \tab -/-/-/- \tab full \cr
+   1986 \tab -/-/-/- \tab full \cr
+   1987 \tab -/-/-/- \tab full \cr
+   1988 \tab A/B/C/- \tab full \cr
+   1989 \tab A/B/C/- \tab full \cr
+   1990 \tab A/B/C/- \tab full \cr
+   1991 \tab A/B/C/- \tab full \cr
+   1993 \tab A/B/C/- \tab full \cr
+   1994 \tab A/B/C/- \tab full \cr
+   1996 \tab A/B/C/- \tab full \cr
+   1998 \tab A/B/C/- \tab full \cr
+   2000 \tab A/B/C/- \tab full \cr
+   2002 \tab A/B/C/- \tab full \cr
+   2004 \tab A/B/C/- \tab full \cr
+   2006 \tab A/B/C/D \tab full \cr
+   2008 \tab A/B/C/- \tab full \cr
+   2010 \tab A/B/C/- \tab full \cr
+   2012 \tab A/B/C/- \tab full \cr
+   2014 \tab A/B/C/- \tab full \cr
+   2016 \tab A/B/C/- \tab full \cr
+   2018 \tab A/B/C/- \tab full \cr
+   2021 \tab A/B/C/- \tab full \cr
+   2022 \tab A/B/C/- \tab full \cr
+   2024 \tab A/B/C/- \tab full \cr
 }
 }
 
+\concept{Date Of Interview}
+\concept{Date of Interview}
 \keyword{variable}

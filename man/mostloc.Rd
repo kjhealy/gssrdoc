@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 mostloc
 }
 \details{
-Question 805. Which location do you use the most?
+Question Which location do you use the most?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} school
+\item \code{2} library
+\item \code{3} friends house
+\item \code{4} other
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2584/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab friends house \tab library \tab no answer \tab other \tab school \tab don't know \tab not available in this year \tab Total \cr
@@ -57,26 +79,37 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} school
-\item \code{2} library
-\item \code{3} friends house
-\item \code{4} other
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/- \tab partial \cr
+   2002 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Information Society: 
+\code{\link{compelse}},
+\code{\link{compfri}},
+\code{\link{complib}},
+\code{\link{compoth}},
+\code{\link{compschl}},
+\code{\link{ecomhro}},
+\code{\link{ecommino}},
+\code{\link{perhro}},
+\code{\link{permino}}
+
+Other Computers And Internet: 
+\code{\link{compelse}},
+\code{\link{compfri}},
+\code{\link{complib}},
+\code{\link{compoth}},
+\code{\link{compschl}},
+\code{\link{ecomhro}},
+\code{\link{ecommino}},
+\code{\link{perhro}},
+\code{\link{permino}}
+}
+\concept{Computers And Internet}
+\concept{Information Society}
 \keyword{variable}

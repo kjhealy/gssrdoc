@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 helpsick
 }
 \details{
-Question 311. Look at card BE. In general, some people think that it is the responsibility of the government in Washington to see to it that people have help in paying for doctors and hospital bills; they are at point 1. Others think that these matters are not the responsibility of the federal government and that people should take care of these things themselves; they are at point 5. a. Where would you place yourself on this scale, or haven't you made up your mind on this?
+Question Look at CARD BE. In general, some people think that it is the responsibility of the government in Washington to see to it that people have help in paying for doctors and hospital bills. Others think that these matters are not the responsibility of the federal government and that people should take care of these things themselves.
+A. Where would you place yourself on this scale, or haven't you made up your mind on this?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} government should help
+\item \code{3} agree with both
+\item \code{5} people should care for themselves
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/846/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab 2 \tab 4 \tab agree with both \tab don't know \tab government should help \tab no answer \tab people should care for themselves \tab skipped on web \tab Total \cr
@@ -57,25 +79,53 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} government should help
-\item \code{3} agree with both
-\item \code{5} people should care for themselves
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1975 \tab -/- \tab full \cr
+   1983 \tab -/- \tab full \cr
+   1984 \tab -/- \tab full \cr
+   1986 \tab -/- \tab full \cr
+   1987 \tab -/- \tab full \cr
+   1988 \tab B/C \tab partial \cr
+   1989 \tab B/C \tab partial \cr
+   1990 \tab B/C \tab partial \cr
+   1991 \tab B/C \tab partial \cr
+   1993 \tab B/C \tab partial \cr
+   1994 \tab B/C \tab partial \cr
+   1996 \tab B/C \tab partial \cr
+   1998 \tab B/C \tab partial \cr
+   2000 \tab B/C \tab partial \cr
+   2002 \tab B/C \tab partial \cr
+   2004 \tab B/C \tab partial \cr
+   2006 \tab B/C \tab partial \cr
+   2008 \tab B/C \tab partial \cr
+   2010 \tab B/C \tab partial \cr
+   2012 \tab B/C \tab partial \cr
+   2014 \tab B/C \tab partial \cr
+   2016 \tab B/C \tab partial \cr
+   2018 \tab B/C \tab partial \cr
+   2021 \tab B/C \tab partial \cr
+   2022 \tab B/C \tab partial \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{helpblk}},
+\code{\link{helpnot}},
+\code{\link{helppoor}},
+\code{\link{obfepax}},
+\code{\link{obfewar}},
+\code{\link{obmepax}},
+\code{\link{obmewar}}
+
+Other Federal Government: 
+\code{\link{helpblk}},
+\code{\link{helpnot}},
+\code{\link{helppoor}}
+}
+\concept{Core}
+\concept{Federal Government}
+\concept{Health}
 \keyword{variable}

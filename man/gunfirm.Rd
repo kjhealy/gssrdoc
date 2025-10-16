@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 gunfirm
 }
 \details{
-Question 89. How firm are you about your opinion on gun control?
+Question How firm are you about your opinion on gun control--would you say you are very likely to change your opinion, somewhat likely to change, somewhat unlikely to change, or very unlikely to change?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} change very likely
+\item \code{2} somewhat likely
+\item \code{3} somewhat unlikely
+\item \code{4} change very unlikely
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/275/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab change very likely \tab change very unlikely \tab don't know \tab no answer \tab somewhat likely \tab somewhat unlikely \tab not available in this year \tab Total \cr
@@ -57,26 +79,38 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} change very likely
-\item \code{2} somewhat likely
-\item \code{3} somewhat unlikely
-\item \code{4} change very unlikely
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1984 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{capfirm}},
+\code{\link{crimfirm}},
+\code{\link{crimimp}},
+\code{\link{criminfo}},
+\code{\link{gunimp}},
+\code{\link{guninfo}},
+\code{\link{gunlaw}}
+
+Other Guns: 
+\code{\link{gunimp}},
+\code{\link{guninfo}},
+\code{\link{gunlaw}}
+
+Other Split Ballots: 
+\code{\link{courts}},
+\code{\link{courtsy}},
+\code{\link{crimfirm}},
+\code{\link{crimimp}},
+\code{\link{criminfo}},
+\code{\link{gunimp}},
+\code{\link{guninfo}}
+}
+\concept{Core}
+\concept{Guns}
+\concept{Split Ballots}
 \keyword{variable}

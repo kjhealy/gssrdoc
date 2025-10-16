@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 scitext
 }
 \details{
-Question 1040. In your own words, could you tell me what it means to study something scientifically?
+Question In your own words, could you tell me what it means to study something scientifically?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} formulation of theories, test hypotheses
+\item \code{2} do experiments, control group
+\item \code{3} rigorous, systematic comparison
+\item \code{4} measurement
+\item \code{5} classification
+\item \code{6} redundancies/incorrect
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3329/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab classification \tab do experiments, control group \tab don't know \tab formulation of theories, test hypotheses \tab measurement \tab no answer \tab redundancies/incorrect \tab rigorous, systematic comparison \tab not available in this year \tab Total \cr
@@ -57,28 +81,49 @@ Counts by year:\tabular{llllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} formulation of theories, test hypotheses
-\item \code{2} do experiments, control group
-\item \code{3} rigorous, systematic comparison
-\item \code{4} measurement
-\item \code{5} classification
-\item \code{6} redundancies/incorrect
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab B/C/- \tab partial \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/C/- \tab partial \cr
+   2012 \tab B/C/- \tab partial \cr
+   2014 \tab B/C/- \tab partial \cr
+   2016 \tab A/B/- \tab partial \cr
+   2018 \tab A/B/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Science Knowledge & Attitudes: 
+\code{\link{astrolgy}},
+\code{\link{astrosci}},
+\code{\link{balneg}},
+\code{\link{balpos}},
+\code{\link{expdesgn}},
+\code{\link{exptext}},
+\code{\link{odds1}},
+\code{\link{scibnfts}},
+\code{\link{scistudy}}
+
+Other Knowledge: 
+\code{\link{expdesgn}},
+\code{\link{exptext}},
+\code{\link{odds1}},
+\code{\link{scistudy}}
+
+Other Science: 
+\code{\link{astrolgy}},
+\code{\link{astrosci}},
+\code{\link{balneg}},
+\code{\link{balpos}},
+\code{\link{expdesgn}},
+\code{\link{exptext}},
+\code{\link{odds1}},
+\code{\link{scibnfts}},
+\code{\link{scistudy}}
+}
+\concept{Knowledge}
+\concept{Science}
+\concept{Science Knowledge & Attitudes}
 \keyword{variable}

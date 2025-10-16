@@ -10,11 +10,34 @@ General Social Survey https://gss.norc.org
 jobtvrad
 }
 \details{
-Question Please tell me how many times you tried to find such information from... h. Radio or television programs?
+Question Now I'd like to ask you about how you navigate around the Web. How frequently do you use each of the following ways of getting to the web sites you visit: Click on a link in an email message from a friend, relative, or co-worker.
+H. Radio or television programs?
 }
+\section{Values}{
+
+\itemize{
+\item \code{0} not at all
+\item \code{1} 1 or 2 times
+\item \code{2} 3-5 times
+\item \code{3} 6 or more times
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2617/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab 1 or 2 times \tab 3-5 times \tab 6 or more times \tab don't know \tab no answer \tab not at all \tab not available in this year \tab Total \cr
@@ -57,26 +80,34 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{0} not at all
-\item \code{1} 1 or 2 times
-\item \code{2} 3-5 times
-\item \code{3} 6 or more times
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
+   2004 \tab B/C/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Information Society: 
+\code{\link{emailyr}},
+\code{\link{jobcntct}},
+\code{\link{jobcowrk}},
+\code{\link{jobfrnds}},
+\code{\link{jobonwww}},
+\code{\link{jobplace}},
+\code{\link{jobpub}},
+\code{\link{webable}},
+\code{\link{webyr}}
+
+Other Job: 
+\code{\link{jobcntct}},
+\code{\link{jobcowrk}},
+\code{\link{jobfrnds}},
+\code{\link{jobonwww}},
+\code{\link{jobplace}},
+\code{\link{jobpub}}
+}
+\concept{Information Society}
+\concept{Job}
 \keyword{variable}

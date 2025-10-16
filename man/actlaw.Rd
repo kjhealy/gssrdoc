@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 actlaw
 }
 \details{
-Question Suppose a law were being considered by the Congress that you considered to be unjust or harmful. 1472. If such a case arose, how likely is it that you, acting alone or together with others, would be able to try to do something about it?
+Question If such a case arose, how likely is it that you, acting alone or together with others, would be able to try to do something about it?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very likely
+\item \code{2} fairly likely
+\item \code{3} not very likely
+\item \code{4} not at all likely
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4942/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab can't choose \tab fairly likely \tab no answer \tab not at all likely \tab not very likely \tab very likely \tab not available in this year \tab Total \cr
@@ -57,26 +79,36 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very likely
-\item \code{2} fairly likely
-\item \code{3} not very likely
-\item \code{4} not at all likely
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other ISSP Citizenship: 
+\code{\link{affctlaw}},
+\code{\link{discpol}},
+\code{\link{govdook}},
+\code{\link{oppsegov}},
+\code{\link{poleff18}},
+\code{\link{poleff19}},
+\code{\link{poleff20}},
+\code{\link{polgreed}},
+\code{\link{polint1}}
+
+Other Political: 
+\code{\link{affctlaw}},
+\code{\link{discpol}},
+\code{\link{govdook}},
+\code{\link{poleff18}},
+\code{\link{poleff19}},
+\code{\link{poleff20}},
+\code{\link{polgreed}},
+\code{\link{polint1}}
+}
+\concept{ISSP Citizenship}
+\concept{Political}
 \keyword{variable}

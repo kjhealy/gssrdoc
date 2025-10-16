@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 kdyrbrn8
 }
 \details{
-Question 503. Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. c. In what year was (CHILD) born?
+Question Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. (RECORD THIS INFORMATION FOR UP TO THE NINE OLDEST CHILDREN IN TABLE TO RIGHT.)
+C8. Birth year of eighth child.
 }
+\section{Values}{
+
+\itemize{
+\item \code{9996} before 1976
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1508/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllll}{
    year \tab iap \tab 1932 \tab 1948 \tab 1954 \tab 1958 \tab 1959 \tab 1960 \tab 1961 \tab 1962 \tab 1964 \tab 1965 \tab 1971 \tab 1977 \tab 1990 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,23 +77,70 @@ Counts by year:\tabular{lllllllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{9996} before 1976
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1994 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Family Mobility: 
+\code{\link{kdsex9}},
+\code{\link{kdyrbrn1}},
+\code{\link{kdyrbrn2}},
+\code{\link{kdyrbrn3}},
+\code{\link{kdyrbrn4}},
+\code{\link{kdyrbrn5}},
+\code{\link{kdyrbrn6}},
+\code{\link{kdyrbrn7}},
+\code{\link{kdyrbrn9}}
+
+Other Children: 
+\code{\link{kdsex9}},
+\code{\link{kdyrbrn1}},
+\code{\link{kdyrbrn2}},
+\code{\link{kdyrbrn3}},
+\code{\link{kdyrbrn4}},
+\code{\link{kdyrbrn5}},
+\code{\link{kdyrbrn6}},
+\code{\link{kdyrbrn7}},
+\code{\link{kdyrbrn9}}
+
+Other Date Of Birth: 
+\code{\link{kdyrbrn1}},
+\code{\link{kdyrbrn2}},
+\code{\link{kdyrbrn3}},
+\code{\link{kdyrbrn4}},
+\code{\link{kdyrbrn5}},
+\code{\link{kdyrbrn6}},
+\code{\link{kdyrbrn7}},
+\code{\link{kdyrbrn9}}
+
+Other Family: 
+\code{\link{kdyrbrn1}},
+\code{\link{kdyrbrn2}},
+\code{\link{kdyrbrn3}},
+\code{\link{kdyrbrn4}},
+\code{\link{kdyrbrn5}},
+\code{\link{kdyrbrn6}},
+\code{\link{kdyrbrn7}},
+\code{\link{kdyrbrn9}}
+
+Other Household: 
+\code{\link{kdsex9}},
+\code{\link{kdyrbrn1}},
+\code{\link{kdyrbrn2}},
+\code{\link{kdyrbrn3}},
+\code{\link{kdyrbrn4}},
+\code{\link{kdyrbrn5}},
+\code{\link{kdyrbrn6}},
+\code{\link{kdyrbrn7}},
+\code{\link{kdyrbrn9}}
+}
+\concept{Children}
+\concept{Date Of Birth}
+\concept{Family}
+\concept{Family Mobility}
+\concept{Household}
 \keyword{variable}

@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 flexhrs
 }
 \details{
-Question 1326. On the following list there are various aspects of jobs. Please circle one number to show how important you personally consider it is in a job: i. A job with flexible working hours
+Question On the following list there are various aspects of jobs. Please circle one number to show how important you personally consider it is in a job:
+I. A job with flexible working hours?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} very impt
+\item \code{2} impt
+\item \code{3} neither
+\item \code{4} not impt
+\item \code{5} not impt at all
+\item \code{NA(d)} can't choose
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4515/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllll}{
    year \tab iap \tab can't choose \tab impt \tab neither \tab no answer \tab not impt \tab not impt at all \tab very impt \tab not available in this year \tab Total \cr
@@ -57,27 +81,38 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} very impt
-\item \code{2} impt
-\item \code{3} neither
-\item \code{4} not impt
-\item \code{5} not impt at all
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1989 \tab A/B/C \tab full \cr
+   1998 \tab A/B/C \tab full \cr
+   2006 \tab D/-/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Work Orientation: 
+\code{\link{discwk5}},
+\code{\link{famorjob}},
+\code{\link{flexhrs1}},
+\code{\link{hlpoths}},
+\code{\link{hlpsoc}},
+\code{\link{joborfam}},
+\code{\link{whydisc5}},
+\code{\link{wkpersnl}},
+\code{\link{wrkindp}}
+
+Other Job: 
+\code{\link{hlpoths}},
+\code{\link{hlpsoc}},
+\code{\link{wrkindp}}
+
+Other Work: 
+\code{\link{hlpoths}},
+\code{\link{hlpsoc}},
+\code{\link{wrkindp}}
+}
+\concept{Job}
+\concept{Work}
+\concept{Work Orientation}
 \keyword{variable}

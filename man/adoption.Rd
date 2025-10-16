@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 adoption
 }
 \details{
-Question 628. As you know, when a parent is unable to care for a baby, the parent often puts the baby up for adoption. For certain kinds of babies, the number of couples who want to adopt is much greater than the number of babies available for adoption. What do you think is the best way to mach birth mothers with couples who want to adopt?
+Question As you know, when a parent is unable to care for a baby, the parent often puts the baby up for adoption. For certaIn kinds of babies, the number of couples who want to adopt is much greater than the number of babies available for adoption. What do you think is the best way to match birth mothers with couples who want to adopt?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} a social service agency
+\item \code{2} go to the highest bidders
+\item \code{3} by lottery
+\item \code{4} birth mothers should decide
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/1869/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab a social service agency \tab birth mothers should decide \tab by lottery \tab don't know \tab go to the highest bidders \tab no answer \tab not available in this year \tab Total \cr
@@ -57,26 +79,40 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} a social service agency
-\item \code{2} go to the highest bidders
-\item \code{3} by lottery
-\item \code{4} birth mothers should decide
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Markets: 
+\code{\link{frndawk}},
+\code{\link{frnddeal}},
+\code{\link{organsb}},
+\code{\link{organsw}},
+\code{\link{sellbaby}},
+\code{\link{sellorgn}},
+\code{\link{sellsex}},
+\code{\link{tablprce}},
+\code{\link{transrel}}
+
+Other Children: 
+\code{\link{sellbaby}}
+
+Other Purchases/Transactions: 
+\code{\link{frndawk}},
+\code{\link{frnddeal}},
+\code{\link{organsb}},
+\code{\link{organsw}},
+\code{\link{sellbaby}},
+\code{\link{sellorgn}},
+\code{\link{sellsex}},
+\code{\link{tablprce}},
+\code{\link{transrel}}
+}
+\concept{Children}
+\concept{Markets}
+\concept{Purchases/Transactions}
 \keyword{variable}

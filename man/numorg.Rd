@@ -10,11 +10,43 @@ General Social Survey https://gss.norc.org
 numorg
 }
 \details{
-Question 1089. About how many people work in your organization at all locations? Count part-time as well as full-time employees.
+Question About how many people work in your organization at all locations? Count part-time as well as full-time employees.
 }
+\section{Values}{
+
+\itemize{
+\item \code{9981} 1-9 in range
+\item \code{9982} 10-49 in range
+\item \code{9983} 50-99 in range
+\item \code{9984} 100-499 in range
+\item \code{9985} 500-999 in range
+\item \code{9986} 1,000-1,999 in range
+\item \code{9987} 2,000-2,999 in range
+\item \code{9988} 3,000-3,999 in range
+\item \code{9989} 4,000-4,999 in range
+\item \code{9990} 5,000-10,000 in range
+\item \code{9991} 10,000-50,000 in range
+\item \code{9992} 50,000-100,000 in range
+\item \code{9993} above 100,000 in range
+\item \code{9997} 10,000 or more
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/3556/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
    year \tab iap \tab 1 \tab 1,000-1,999 in range \tab 1-9 in range \tab 10 \tab 10,000 or more \tab 10,000-50,000 in range \tab 10-49 in range \tab 100 \tab 100-499 in range \tab 1000 \tab 1001 \tab 11 \tab 110 \tab 1100 \tab 113 \tab 12 \tab 120 \tab 1200 \tab 13 \tab 130 \tab 14 \tab 140 \tab 15 \tab 150 \tab 1500 \tab 154 \tab 155 \tab 16 \tab 160 \tab 1600 \tab 163 \tab 165 \tab 17 \tab 172 \tab 175 \tab 18 \tab 180 \tab 1800 \tab 19 \tab 2 \tab 2,000-2,999 in range \tab 20 \tab 200 \tab 2000 \tab 207 \tab 21 \tab 22 \tab 225 \tab 23 \tab 2300 \tab 234 \tab 240 \tab 25 \tab 250 \tab 2500 \tab 258 \tab 2600 \tab 27 \tab 3 \tab 3,000-3,999 in range \tab 30 \tab 300 \tab 3000 \tab 309 \tab 3200 \tab 33 \tab 35 \tab 350 \tab 3500 \tab 37 \tab 370 \tab 3800 \tab 4 \tab 4,000-4,999 in range \tab 40 \tab 400 \tab 4000 \tab 42 \tab 425 \tab 43 \tab 4300 \tab 44 \tab 45 \tab 450 \tab 467 \tab 48 \tab 49 \tab 5 \tab 5,000-10,000 in range \tab 50 \tab 50,000-100,000 in range \tab 50-99 in range \tab 500 \tab 500-999 in range \tab 5000 \tab 532 \tab 55 \tab 550 \tab 59 \tab 6 \tab 60 \tab 600 \tab 6000 \tab 61 \tab 63 \tab 630 \tab 65 \tab 6500 \tab 66 \tab 7 \tab 70 \tab 700 \tab 7000 \tab 72 \tab 745 \tab 75 \tab 750 \tab 7500 \tab 76 \tab 8 \tab 80 \tab 800 \tab 8000 \tab 83 \tab 85 \tab 8500 \tab 9 \tab 90 \tab 900 \tab 9000 \tab 92 \tab 9800 \tab above 100,000 in range \tab don't know \tab no answer \tab 1700 \tab 28 \tab 280 \tab 31 \tab 32 \tab 38 \tab 47 \tab 480 \tab 52 \tab 650 \tab 850 \tab 24 \tab 260 \tab 375 \tab 4500 \tab 56 \tab 73 \tab 78 \tab 99 \tab 999 \tab 105 \tab 106 \tab 116 \tab 125 \tab 1300 \tab 161 \tab 185 \tab 190 \tab 210 \tab 220 \tab 275 \tab 36 \tab 499 \tab 5100 \tab 62 \tab 670 \tab 86 \tab 95 \tab not available in this year \tab Total \cr
@@ -57,36 +89,46 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{9981} 1-9 in range
-\item \code{9982} 10-49 in range
-\item \code{9983} 50-99 in range
-\item \code{9984} 100-499 in range
-\item \code{9985} 500-999 in range
-\item \code{9986} 1,000-1,999 in range
-\item \code{9987} 2,000-2,999 in range
-\item \code{9988} 3,000-3,999 in range
-\item \code{9989} 4,000-4,999 in range
-\item \code{9990} 5,000-10,000 in range
-\item \code{9991} 10,000-50,000 in range
-\item \code{9992} 50,000-100,000 in range
-\item \code{9993} above 100,000 in range
-\item \code{9997} 10,000 or more
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Shared Capitalism: 
+\code{\link{compwage}},
+\code{\link{empinput}},
+\code{\link{emptrain}},
+\code{\link{esop}},
+\code{\link{extr2005}},
+\code{\link{ops2005}},
+\code{\link{slfmangd}},
+\code{\link{talkteam}},
+\code{\link{wealth}}
+
+Other Job: 
+\code{\link{emptrain}},
+\code{\link{esop}},
+\code{\link{extr2005}},
+\code{\link{ops2005}}
+
+Other Work: 
+\code{\link{compwage}},
+\code{\link{empinput}},
+\code{\link{emptrain}},
+\code{\link{esop}},
+\code{\link{extr2005}},
+\code{\link{ops2005}},
+\code{\link{slfmangd}},
+\code{\link{talkteam}},
+\code{\link{wealth}}
+}
+\concept{Job}
+\concept{Shared Capitalism}
+\concept{Work}
 \keyword{variable}

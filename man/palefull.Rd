@@ -10,11 +10,31 @@ General Social Survey https://gss.norc.org
 palefull
 }
 \details{
-Question 109. People picture life after death in many different ways. We'd like to know how you think of life after death. Here is a card with sets of contrasting images. On a scale of 1-7, where would you place your image of life after death. d. 1. A pale, shadowy form of life, hardly life at all. 2. A life of compelte fulfillment, spiritual and physical.
+Question A. People picture life after death in many different ways. We'd like to know how you think of life after death. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of life after death. Look at the first set of contrasting images. If you think that life after death is "A life like the one here on earth only better," you would place yourself at 1. If you think it is "A life without many things which make our present life enjoyable" you would place yourself at 7. If you think it is somewhere between these two you would place yourself at 2, 3, 4, 5, or 6. Where would you place your images of life after death for . . .?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} pale, shadowy
+\item \code{7} complete fulfillment
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/314/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllllllllll}{
    year \tab iap \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab complete fulfillment \tab don't know \tab no answer \tab pale, shadowy \tab not available in this year \tab Total \cr
@@ -57,24 +77,34 @@ Counts by year:\tabular{lllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} pale, shadowy
-\item \code{7} complete fulfillment
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1986 \tab -/-/- \tab full \cr
+   1987 \tab -/-/- \tab full \cr
+   1988 \tab A/B/C \tab full \cr
+   1989 \tab A/B/- \tab partial \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{dejavu}},
+\code{\link{esp}},
+\code{\link{grace}},
+\code{\link{likediff}},
+\code{\link{mindbody}},
+\code{\link{pray}},
+\code{\link{restact}},
+\code{\link{spirits}},
+\code{\link{visions}}
+
+Other Religion: 
+\code{\link{likediff}},
+\code{\link{mindbody}},
+\code{\link{pray}},
+\code{\link{restact}}
+}
+\concept{Core}
+\concept{Religion}
 \keyword{variable}

@@ -10,11 +10,36 @@ General Social Survey https://gss.norc.org
 rexpernc
 }
 \details{
-Question 1334. Think of two people doing the same kind of work in your place. What do you personally think is important in deciding how much to pay them? Looking at the things below, please write '1' in the box next to the thing that you think is most important at your place of work. Then write '2' next to the thing that you think is next most important, and '3' next to the thing that you think is third most important. Leave the other boxes blank. At my work, deciding on two people doing the same kind of work, how important is... d. The experience of the employee doing the work
+Question Think of two people doing the same kind of work in your place. What Do you personally think is important in deciding
+Looking at the things below, please write ''1'' in the box next to the thing that you think is most important at your place of work. Then write ''2'' next to the thing that you think is next most important, and ''3'' next to the thing that you think is third most important. Leave the other boxes blank.
+At my work, deciding on two people doing the same kind of work, how important is...
+D. The experience of the employer doing the work
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} most impt
+\item \code{2} 2nd most impt
+\item \code{3} 3rd most impt
+\item \code{4} not chosen
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/4536/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab 2nd most impt \tab 3rd most impt \tab don't know \tab most impt \tab no answer \tab not chosen \tab not available in this year \tab Total \cr
@@ -57,26 +82,56 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} most impt
-\item \code{2} 2nd most impt
-\item \code{3} 3rd most impt
-\item \code{4} not chosen
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1989 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Work Orientation: 
+\code{\link{hrsmoney}},
+\code{\link{rageemp}},
+\code{\link{rdk}},
+\code{\link{rdowell}},
+\code{\link{reducemp}},
+\code{\link{rfamresp}},
+\code{\link{rpaysame}},
+\code{\link{rsecjob}},
+\code{\link{ryrsfirm}}
+
+Other Employment: 
+\code{\link{rageemp}},
+\code{\link{rdk}},
+\code{\link{rdowell}},
+\code{\link{reducemp}},
+\code{\link{rfamresp}},
+\code{\link{rpaysame}},
+\code{\link{ryrsfirm}}
+
+Other Job: 
+\code{\link{hrsmoney}},
+\code{\link{rageemp}},
+\code{\link{rdk}},
+\code{\link{rdowell}},
+\code{\link{reducemp}},
+\code{\link{rfamresp}},
+\code{\link{rpaysame}},
+\code{\link{rsecjob}},
+\code{\link{ryrsfirm}}
+
+Other Occupation: 
+\code{\link{rageemp}},
+\code{\link{rdk}},
+\code{\link{rdowell}},
+\code{\link{reducemp}},
+\code{\link{rfamresp}},
+\code{\link{rpaysame}},
+\code{\link{ryrsfirm}}
+}
+\concept{Employment}
+\concept{Job}
+\concept{Occupation}
+\concept{Work Orientation}
 \keyword{variable}

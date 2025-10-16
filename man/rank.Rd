@@ -10,11 +10,33 @@ General Social Survey https://gss.norc.org
 rank
 }
 \details{
-Question 186. In our society there are groups which tend to be towards the top and those that are towards the bottom. Here we have ascale that runs from top (1) to bottom (10). a. Where would you put yourself on this scale?
+Question In our society there are groups which tend to be towards the top and those that are towards the bottom. Here we have a scale that runs from top to bottom.
+A. Where would you put yourself on this scale?
+HAND SCALE AND PENCIL TO RESPONDENT. LET RESPONDENT MARK SCALE. Be sure that the mark is within one of the boxes. Record answer below.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} 1 - top
+\item \code{10} 10 - bottom
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/570/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllllllllll}{
    year \tab iap \tab 1 - top \tab 10 - bottom \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab skipped on web \tab Total \cr
@@ -57,24 +79,45 @@ Counts by year:\tabular{llllllllllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} 1 - top
-\item \code{10} 10 - bottom
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1983 \tab -/-/- \tab full \cr
+   1987 \tab -/-/- \tab full \cr
+   2000 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2006 \tab D/-/- \tab partial \cr
+   2010 \tab A/B/C \tab full \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2021 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{jobaccmp}},
+\code{\link{jobhelp}},
+\code{\link{jobpeop}},
+\code{\link{jobresp}},
+\code{\link{jobsafe}},
+\code{\link{jobsoc}},
+\code{\link{rank10}}
+
+Other Split Ballots: 
+\code{\link{class}()},
+\code{\link{classy}},
+\code{\link{jobaccmp}},
+\code{\link{jobhelp}},
+\code{\link{jobpeop}},
+\code{\link{jobresp}},
+\code{\link{jobsafe}},
+\code{\link{jobsoc}}
+}
+\concept{Core}
+\concept{ISSP Social Inequalityocial Class}
+\concept{Split Ballots}
 \keyword{variable}

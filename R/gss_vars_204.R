@@ -1,11 +1,194 @@
+#'  How many hours spent in arts, culture
+#' 
+#'  hrsart
+#' 
+#' Question I'd like your best estimate of the total number of hours you spent in the past month on each of the areas in which you have been a volunteer. First, how many hours did you spend in the past month working for (ASK FOR EACH ITEM R MENTIONED IN MONHLTH-MONOTH) (RECORD ABOVE UNDER MONHLTH-MONOTH TO NEAREST HALF HOUR. If UNSURE, PROBE FOR BEST ESTIMATE.)
+#' H. Arts, culture, and humanities
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1922/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |1  |10 |12 |15 |16 |18 |2  |20 |25 |3  |36 |37 |4  |5  |6  |8  |not available in this year |Total |
+#'  |:-----|:-----|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--------------------------|:-----|
+#'  |1972  |1613  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1613  |
+#'  |1973  |1504  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1504  |
+#'  |1974  |1484  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1484  |
+#'  |1975  |1490  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1490  |
+#'  |1976  |1499  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1499  |
+#'  |1977  |1530  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1530  |
+#'  |1978  |1532  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1532  |
+#'  |1980  |1468  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1468  |
+#'  |1982  |1860  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1860  |
+#'  |1983  |1599  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1599  |
+#'  |1984  |1473  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1473  |
+#'  |1985  |1534  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1534  |
+#'  |1986  |1470  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1470  |
+#'  |1987  |1819  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1819  |
+#'  |1988  |1481  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1481  |
+#'  |1989  |1537  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1537  |
+#'  |1990  |1372  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1372  |
+#'  |1991  |1517  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1517  |
+#'  |1993  |1606  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1606  |
+#'  |1994  |2992  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2992  |
+#'  |1996  |2864  |1  |3  |3  |2  |1  |1  |4  |2  |1  |4  |1  |1  |7  |2  |2  |5  |-                          |2904  |
+#'  |1998  |2832  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2832  |
+#'  |2000  |2817  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2817  |
+#'  |2002  |2765  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2765  |
+#'  |2004  |2812  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2812  |
+#'  |2006  |4510  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |4510  |
+#'  |2008  |2023  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2023  |
+#'  |2010  |2044  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2044  |
+#'  |2012  |1974  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |1974  |
+#'  |2014  |2538  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2538  |
+#'  |2016  |2867  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2867  |
+#'  |2018  |2348  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |2348  |
+#'  |2021  |4032  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                          |4032  |
+#'  |2022  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |3544                       |3544  |
+#'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |3309                       |3309  |
+#'  |Total |68806 |1  |3  |3  |2  |1  |1  |4  |2  |1  |4  |1  |1  |7  |2  |2  |5  |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name hrsart
+NULL
+
+
+#'  How many hours spent in work-related org
+#' 
+#'  hrswork
+#' 
+#' Question I'd like your best estimate of the total number of hours you spent in the past month on each of the areas in which you have been a volunteer. First, how many hours did you spend in the past month working for (ASK FOR EACH ITEM R MENTIONED IN MONHLTH-MONOTH) (RECORD ABOVE UNDER MONHLTH-MONOTH TO NEAREST HALF HOUR. If UNSURE, PROBE FOR BEST ESTIMATE.)
+#' I. Work-related organizations
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1923/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap   |1  |10 |11 |12 |15 |16 |2  |20 |25 |3  |30 |4  |5  |6  |7  |8  |80 |don't know |no answer |not available in this year |Total |
+#'  |:-----|:-----|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:--------------------------|:-----|
+#'  |1972  |1613  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1613  |
+#'  |1973  |1504  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1504  |
+#'  |1974  |1484  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1484  |
+#'  |1975  |1490  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1490  |
+#'  |1976  |1499  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1499  |
+#'  |1977  |1530  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1530  |
+#'  |1978  |1532  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1532  |
+#'  |1980  |1468  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1468  |
+#'  |1982  |1860  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1860  |
+#'  |1983  |1599  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1599  |
+#'  |1984  |1473  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1473  |
+#'  |1985  |1534  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1534  |
+#'  |1986  |1470  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1470  |
+#'  |1987  |1819  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1819  |
+#'  |1988  |1481  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1481  |
+#'  |1989  |1537  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1537  |
+#'  |1990  |1372  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1372  |
+#'  |1991  |1517  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1517  |
+#'  |1993  |1606  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1606  |
+#'  |1994  |2992  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2992  |
+#'  |1996  |2819  |5  |8  |1  |4  |2  |3  |10 |3  |1  |8  |1  |19 |9  |4  |2  |2  |1  |1          |1         |-                          |2904  |
+#'  |1998  |2832  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2832  |
+#'  |2000  |2817  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2817  |
+#'  |2002  |2765  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2765  |
+#'  |2004  |2812  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2812  |
+#'  |2006  |4510  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |4510  |
+#'  |2008  |2023  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2023  |
+#'  |2010  |2044  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2044  |
+#'  |2012  |1974  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |1974  |
+#'  |2014  |2538  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2538  |
+#'  |2016  |2867  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2867  |
+#'  |2018  |2348  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |2348  |
+#'  |2021  |4032  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-                          |4032  |
+#'  |2022  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3544                       |3544  |
+#'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
+#'  |Total |68761 |5  |8  |1  |4  |2  |3  |10 |3  |1  |8  |1  |19 |9  |4  |2  |2  |1  |1          |1         |6853                       |75699 |
+#' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name hrswork
+NULL
+
+
 #'  How many hours spent in political org. etc
 #' 
 #'  hrspol
 #' 
-#' Question 642. I'd like your best estimate of the total number of hours you spent in the past month on each of the areas in which you have been a volunteer. First, how many hours did you spend in the past month working for: j. Political organizations or campaigns
+#' Question I'd like your best estimate of the total number of hours you spent in the past month on each of the areas in which you have been a volunteer. First, how many hours did you spend in the past month working for (ASK FOR EACH ITEM R MENTIONED IN MONHLTH-MONOTH) (RECORD ABOVE UNDER MONHLTH-MONOTH TO NEAREST HALF HOUR. If UNSURE, PROBE FOR BEST ESTIMATE.)
+#' J. Political organizations or campaigns
 #' 
+#' 
+#' @section Values: 
+#' 
+#'   * `NA(d)` don't know
+#'   * `NA(i)` iap
+#'   * `NA(j)` I don't have a job
+#'   * `NA(m)` dk, na, iap
+#'   * `NA(n)` no answer
+#'   * `NA(p)` not imputable
+#'   * `NA(r)` refused
+#'   * `NA(s)` skipped on web
+#'   * `NA(u)` uncodeable
+#'   * `NA(x)` not available in this release
+#'   * `NA(y)` not available in this year
+#'   * `NA(z)` see codebook
+#'
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1924/vshow).
 #'
 #' Counts by year: 
 #'
@@ -48,6 +231,30 @@
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |3309                       |3309  |
 #'  |Total |68816 |1  |2  |3  |1  |4  |1  |2  |4  |1  |2  |2  |4  |1  |1  |1  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name hrspol
+NULL
+
+
+#'  How many hours spent in youth development
+#' 
+#'  hrsyouth
+#' 
+#' Question I'd like your best estimate of the total number of hours you spent in the past month on each of the areas in which you have been a volunteer. First, how many hours did you spend in the past month working for (ASK FOR EACH ITEM R MENTIONED IN MONHLTH-MONOTH) (RECORD ABOVE UNDER MONHLTH-MONOTH TO NEAREST HALF HOUR. If UNSURE, PROBE FOR BEST ESTIMATE.)
+#' K. Youth development
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -63,22 +270,8 @@
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hrspol
-NULL
-
-#'  How many hours spent in youth development
-#' 
-#'  hrsyouth
-#' 
-#' Question 642. I'd like your best estimate of the total number of hours you spent in the past month on each of the areas in which you have been a volunteer. First, how many hours did you spend in the past month working for: k. Youth development
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1925/vshow).
 #'
 #' Counts by year: 
 #'
@@ -121,6 +314,30 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68742 |2  |4  |10 |1  |1  |4  |4  |17 |6  |1  |1  |1  |8  |1  |16 |10 |1  |5  |1  |2  |4  |1  |1          |2         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name hrsyouth
+NULL
+
+
+#'  How many hours spent in priv & comm.
+#' 
+#'  hrsfound
+#' 
+#' Question I'd like your best estimate of the total number of hours you spent in the past month on each of the areas in which you have been a volunteer. First, how many hours did you spend in the past month working for (ASK FOR EACH ITEM R MENTIONED IN MONHLTH-MONOTH) (RECORD ABOVE UNDER MONHLTH-MONOTH TO NEAREST HALF HOUR. If UNSURE, PROBE FOR BEST ESTIMATE.)
+#' L. Private and community foundations
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -136,22 +353,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hrsyouth
-NULL
-
-#'  How many hours spent in priv & comm.
-#' 
-#'  hrsfound
-#' 
-#' Question 642. I'd like your best estimate of the total number of hours you spent in the past month on each of the areas in which you have been a volunteer. First, how many hours did you spend in the past month working for: l. Private and community foundations
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1926/vshow).
 #'
 #' Counts by year: 
 #'
@@ -194,6 +397,30 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68804 |1  |3  |3  |1  |1  |1  |2  |6  |2  |5  |2  |3  |1  |2  |4  |1  |1  |1  |1          |1         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name hrsfound
+NULL
+
+
+#'  How many hours spent in international
+#' 
+#'  hrsintl
+#' 
+#' Question I'd like your best estimate of the total number of hours you spent in the past month on each of the areas in which you have been a volunteer. First, how many hours did you spend in the past month working for (ASK FOR EACH ITEM R MENTIONED IN MONHLTH-MONOTH) (RECORD ABOVE UNDER MONHLTH-MONOTH TO NEAREST HALF HOUR. If UNSURE, PROBE FOR BEST ESTIMATE.)
+#' M. International/foreign
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -209,22 +436,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hrsfound
-NULL
-
-#'  How many hours spent in international
-#' 
-#'  hrsintl
-#' 
-#' Question 642. I'd like your best estimate of the total number of hours you spent in the past month on each of the areas in which you have been a volunteer. First, how many hours did you spend in the past month working for: m. International/foregin
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1927/vshow).
 #'
 #' Counts by year: 
 #'
@@ -267,6 +480,30 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |3309                       |3309  |
 #'  |Total |68838 |2  |1  |3  |2  |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name hrsintl
+NULL
+
+
+#'  How many hours spent in informal-alone
+#' 
+#'  hrsinfrm
+#' 
+#' Question I'd like your best estimate of the total number of hours you spent in the past month on each of the areas in which you have been a volunteer. First, how many hours did you spend in the past month working for (ASK FOR EACH ITEM R MENTIONED IN MONHLTH-MONOTH) (RECORD ABOVE UNDER MONHLTH-MONOTH TO NEAREST HALF HOUR. If UNSURE, PROBE FOR BEST ESTIMATE.)
+#' N. Informal-alone-not-for-pay
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -282,22 +519,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hrsintl
-NULL
-
-#'  How many hours spent in informal-alone
-#' 
-#'  hrsinfrm
-#' 
-#' Question 642. I'd like your best estimate of the total number of hours you spent in the past month on each of the areas in which you have been a volunteer. First, how many hours did you spend in the past month working for: n. Informal-alone-not-for-pay
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1928/vshow).
 #'
 #' Counts by year: 
 #'
@@ -340,6 +563,30 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |68787 |5  |5  |1  |1  |12 |7  |1  |5  |1  |1  |1  |6  |1  |3  |1  |2  |4  |1          |1         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name hrsinfrm
+NULL
+
+
+#'  How many hours spent in other (specify)
+#' 
+#'  hrsoth
+#' 
+#' Question I'd like your best estimate of the total number of hours you spent in the past month on each of the areas in which you have been a volunteer. First, how many hours did you spend in the past month working for (ASK FOR EACH ITEM R MENTIONED IN MONHLTH-MONOTH) (RECORD ABOVE UNDER MONHLTH-MONOTH TO NEAREST HALF HOUR. If UNSURE, PROBE FOR BEST ESTIMATE.)
+#' O. Other (SPECIFY)
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `NA(d)` don't know
@@ -355,22 +602,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hrsinfrm
-NULL
-
-#'  How many hours spent in other (specify)
-#' 
-#'  hrsoth
-#' 
-#' Question 642. I'd like your best estimate of the total number of hours you spent in the past month on each of the areas in which you have been a volunteer. First, how many hours did you spend in the past month working for: o. Other (specify)
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1929/vshow).
 #'
 #' Counts by year: 
 #'
@@ -413,8 +646,34 @@ NULL
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-         |3309                       |3309  |
 #'  |Total |68824 |1  |4  |2  |1  |1  |1  |1  |3  |1  |3  |2  |1  |1         |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name hrsoth
+NULL
+
+
+#'  Contributed money in 1995 in health
+#' 
+#'  givhlth
+#' 
+#' Question Listed on this card are examples of many different fields in which people and families contribute money or other property for charitable purposes. I mean making a voluntary contribution and not with the intention of making a profit or obtaining goods and/or services for yourself. In which, if any, of the fields listed on this card have you and the members of your family or household contributed some money or other property in 1995? Just read off the letter of each field (DON'T READ. RECORD BELOW UNDER GIVHLTH-GIVOTH.)
+#' A. Health
+#' 
+#' 
 #' @section Values: 
 #' 
+#'   * `1` yes
+#'   * `2` no
 #'   * `NA(d)` don't know
 #'   * `NA(i)` iap
 #'   * `NA(j)` I don't have a job
@@ -428,22 +687,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name hrsoth
-NULL
-
-#'  Contributed money in 1995 in health
-#' 
-#'  givhlth
-#' 
-#' Question 43. Listed on this card are examples of many different fields in which people and families contribute money or other property for charitable purposes. I mean making a voluntary contribution and not with the intention of making a profit or obtaining goods and/or services for yourself. In which, if any, of the fields listed on this card have you and the members of your family or household contributed some money or other property in 1995? Just read off the letter of each field: a. Health
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1930/vshow).
 #'
 #' Counts by year: 
 #'
@@ -486,6 +731,30 @@ NULL
 #'  |2024  |-     |-    |-         |-   |3309                       |3309  |
 #'  |Total |67402 |1051 |142       |251 |6853                       |75699 |
 #' 
+#' @section Question Years and Ballots: 
+#'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
+#' 
+#' @keywords variable
+#' @md
+#' @name givhlth
+NULL
+
+
+#'  Contributed money in education
+#' 
+#'  giveduc
+#' 
+#' Question Listed on this card are examples of many different fields in which people and families contribute money or other property for charitable purposes. I mean making a voluntary contribution and not with the intention of making a profit or obtaining goods and/or services for yourself. In which, if any, of the fields listed on this card have you and the members of your family or household contributed some money or other property in 1995? Just read off the letter of each field (DON'T READ. RECORD BELOW UNDER GIVHLTH-GIVOTH.)
+#' B. Education
+#' 
+#' 
 #' @section Values: 
 #' 
 #'   * `1` yes
@@ -503,22 +772,8 @@ NULL
 #'   * `NA(y)` not available in this year
 #'   * `NA(z)` see codebook
 #'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name givhlth
-NULL
-
-#'  Contributed money in education
-#' 
-#'  giveduc
-#' 
-#' Question 43. Listed on this card are examples of many different fields in which people and families contribute money or other property for charitable purposes. I mean making a voluntary contribution and not with the intention of making a profit or obtaining goods and/or services for yourself. In which, if any, of the fields listed on this card have you and the members of your family or household contributed some money or other property in 1995? Just read off the letter of each field: b. Education
-#' 
 #' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1931/vshow).
 #'
 #' Counts by year: 
 #'
@@ -561,178 +816,19 @@ NULL
 #'  |2024  |-     |-    |-         |-   |3309                       |3309  |
 #'  |Total |67402 |1076 |149       |219 |6853                       |75699 |
 #' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
+#' @family Markets & Exchange - Giving & Volunteering
+#' @family Voluntary Associations
 #' 
 #' @keywords variable
 #' @md
 #' @name giveduc
 NULL
 
-#'  Contributed money in religious org
-#' 
-#'  givrelig
-#' 
-#' Question 43. Listed on this card are examples of many different fields in which people and families contribute money or other property for charitable purposes. I mean making a voluntary contribution and not with the intention of making a profit or obtaining goods and/or services for yourself. In which, if any, of the fields listed on this card have you and the members of your family or household contributed some money or other property in 1995? Just read off the letter of each field: c. Religious organizations
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |no  |no answer |yes |not available in this year |Total |
-#'  |:-----|:-----|:---|:---------|:---|:--------------------------|:-----|
-#'  |1972  |1613  |-   |-         |-   |-                          |1613  |
-#'  |1973  |1504  |-   |-         |-   |-                          |1504  |
-#'  |1974  |1484  |-   |-         |-   |-                          |1484  |
-#'  |1975  |1490  |-   |-         |-   |-                          |1490  |
-#'  |1976  |1499  |-   |-         |-   |-                          |1499  |
-#'  |1977  |1530  |-   |-         |-   |-                          |1530  |
-#'  |1978  |1532  |-   |-         |-   |-                          |1532  |
-#'  |1980  |1468  |-   |-         |-   |-                          |1468  |
-#'  |1982  |1860  |-   |-         |-   |-                          |1860  |
-#'  |1983  |1599  |-   |-         |-   |-                          |1599  |
-#'  |1984  |1473  |-   |-         |-   |-                          |1473  |
-#'  |1985  |1534  |-   |-         |-   |-                          |1534  |
-#'  |1986  |1470  |-   |-         |-   |-                          |1470  |
-#'  |1987  |1819  |-   |-         |-   |-                          |1819  |
-#'  |1988  |1481  |-   |-         |-   |-                          |1481  |
-#'  |1989  |1537  |-   |-         |-   |-                          |1537  |
-#'  |1990  |1372  |-   |-         |-   |-                          |1372  |
-#'  |1991  |1517  |-   |-         |-   |-                          |1517  |
-#'  |1993  |1606  |-   |-         |-   |-                          |1606  |
-#'  |1994  |2992  |-   |-         |-   |-                          |2992  |
-#'  |1996  |1460  |734 |78        |632 |-                          |2904  |
-#'  |1998  |2832  |-   |-         |-   |-                          |2832  |
-#'  |2000  |2817  |-   |-         |-   |-                          |2817  |
-#'  |2002  |2765  |-   |-         |-   |-                          |2765  |
-#'  |2004  |2812  |-   |-         |-   |-                          |2812  |
-#'  |2006  |4510  |-   |-         |-   |-                          |4510  |
-#'  |2008  |2023  |-   |-         |-   |-                          |2023  |
-#'  |2010  |2044  |-   |-         |-   |-                          |2044  |
-#'  |2012  |1974  |-   |-         |-   |-                          |1974  |
-#'  |2014  |2538  |-   |-         |-   |-                          |2538  |
-#'  |2016  |2867  |-   |-         |-   |-                          |2867  |
-#'  |2018  |2348  |-   |-         |-   |-                          |2348  |
-#'  |2021  |4032  |-   |-         |-   |-                          |4032  |
-#'  |2022  |-     |-   |-         |-   |3544                       |3544  |
-#'  |2024  |-     |-   |-         |-   |3309                       |3309  |
-#'  |Total |67402 |734 |78        |632 |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name givrelig
-NULL
-
-#'  Contributed money in human services
-#' 
-#'  givhuman
-#' 
-#' Question 43. Listed on this card are examples of many different fields in which people and families contribute money or other property for charitable purposes. I mean making a voluntary contribution and not with the intention of making a profit or obtaining goods and/or services for yourself. In which, if any, of the fields listed on this card have you and the members of your family or household contributed some money or other property in 1995? Just read off the letter of each field: d. Human services
-#' 
-#' @section Overview: 
-#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap   |no   |no answer |yes |not available in this year |Total |
-#'  |:-----|:-----|:----|:---------|:---|:--------------------------|:-----|
-#'  |1972  |1613  |-    |-         |-   |-                          |1613  |
-#'  |1973  |1504  |-    |-         |-   |-                          |1504  |
-#'  |1974  |1484  |-    |-         |-   |-                          |1484  |
-#'  |1975  |1490  |-    |-         |-   |-                          |1490  |
-#'  |1976  |1499  |-    |-         |-   |-                          |1499  |
-#'  |1977  |1530  |-    |-         |-   |-                          |1530  |
-#'  |1978  |1532  |-    |-         |-   |-                          |1532  |
-#'  |1980  |1468  |-    |-         |-   |-                          |1468  |
-#'  |1982  |1860  |-    |-         |-   |-                          |1860  |
-#'  |1983  |1599  |-    |-         |-   |-                          |1599  |
-#'  |1984  |1473  |-    |-         |-   |-                          |1473  |
-#'  |1985  |1534  |-    |-         |-   |-                          |1534  |
-#'  |1986  |1470  |-    |-         |-   |-                          |1470  |
-#'  |1987  |1819  |-    |-         |-   |-                          |1819  |
-#'  |1988  |1481  |-    |-         |-   |-                          |1481  |
-#'  |1989  |1537  |-    |-         |-   |-                          |1537  |
-#'  |1990  |1372  |-    |-         |-   |-                          |1372  |
-#'  |1991  |1517  |-    |-         |-   |-                          |1517  |
-#'  |1993  |1606  |-    |-         |-   |-                          |1606  |
-#'  |1994  |2992  |-    |-         |-   |-                          |2992  |
-#'  |1996  |1460  |1058 |156       |230 |-                          |2904  |
-#'  |1998  |2832  |-    |-         |-   |-                          |2832  |
-#'  |2000  |2817  |-    |-         |-   |-                          |2817  |
-#'  |2002  |2765  |-    |-         |-   |-                          |2765  |
-#'  |2004  |2812  |-    |-         |-   |-                          |2812  |
-#'  |2006  |4510  |-    |-         |-   |-                          |4510  |
-#'  |2008  |2023  |-    |-         |-   |-                          |2023  |
-#'  |2010  |2044  |-    |-         |-   |-                          |2044  |
-#'  |2012  |1974  |-    |-         |-   |-                          |1974  |
-#'  |2014  |2538  |-    |-         |-   |-                          |2538  |
-#'  |2016  |2867  |-    |-         |-   |-                          |2867  |
-#'  |2018  |2348  |-    |-         |-   |-                          |2348  |
-#'  |2021  |4032  |-    |-         |-   |-                          |4032  |
-#'  |2022  |-     |-    |-         |-   |3544                       |3544  |
-#'  |2024  |-     |-    |-         |-   |3309                       |3309  |
-#'  |Total |67402 |1058 |156       |230 |6853                       |75699 |
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' @keywords variable
-#' @md
-#' @name givhuman
-NULL
 

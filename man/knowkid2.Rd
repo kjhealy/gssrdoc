@@ -10,11 +10,35 @@ General Social Survey https://gss.norc.org
 knowkid2
 }
 \details{
-Question 819. Thinking now only about weekends (SATURDAY AND SUNDAY) and only when your child is awake~would you say that you know exactly what (NAME OF CHILD) is doing on the weekend almost all of the time, most of the time, about half of the time, come of the time or hardly any of the time?
+Question Thinking now only about weekends (SATURDAY AND SUNDAY) and only when your child is awakeâ€“would you say that you know exactly what (NAME OF CHILD) is doing on the weekend almost all of the time, most of the time, about half of the time, some of the time or hardly any of the time?
+B. Second listed child?
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} almost all of the time
+\item \code{2} most of the time
+\item \code{3} about half of the time
+\item \code{4} some of the time
+\item \code{5} hardly any of the time
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/2652/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab about half of the time \tab almost all of the time \tab hardly any of the time \tab most of the time \tab no answer \tab some of the time \tab not available in this year \tab Total \cr
@@ -57,27 +81,35 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} almost all of the time
-\item \code{2} most of the time
-\item \code{3} about half of the time
-\item \code{4} some of the time
-\item \code{5} hardly any of the time
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
 }
 }
 
+\seealso{
+Other Information Society: 
+\code{\link{kdtmkid1}},
+\code{\link{kdtmkid2}},
+\code{\link{kdtmkid3}},
+\code{\link{kdtmkid4}},
+\code{\link{knowkid1}},
+\code{\link{sptmkid1}},
+\code{\link{sptmkid2}},
+\code{\link{sptmkid3}},
+\code{\link{sptmkid4}}
+
+Other Children: 
+\code{\link{kdtmkid1}},
+\code{\link{kdtmkid2}},
+\code{\link{kdtmkid3}},
+\code{\link{kdtmkid4}},
+\code{\link{knowkid1}},
+\code{\link{sptmkid1}},
+\code{\link{sptmkid2}},
+\code{\link{sptmkid4}}
+}
+\concept{Children}
+\concept{Information Society}
 \keyword{variable}

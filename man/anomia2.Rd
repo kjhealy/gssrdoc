@@ -10,11 +10,32 @@ General Social Survey https://gss.norc.org
 anomia2
 }
 \details{
-Question 178. Now I'm going to read you several more statements. Some people agree with a statement, others disagree. As I read each one, tell me whether you more or less agree with it, or more or less disagree. b. You sometimes can't help wondering whether anything is worthwhile any more.
+Question Now I'm going to read you several more statements. Some people agree with a statement, others disagree. As I read each one, tell me whether you more or less agree with it, or more or less disagree.
+B. You sometimes can't help wondering whether anything is worthwhile any more.
 }
+\section{Values}{
+
+\itemize{
+\item \code{1} agree
+\item \code{2} disagree
+\item \code{NA(d)} don't know
+\item \code{NA(i)} iap
+\item \code{NA(j)} I don't have a job
+\item \code{NA(m)} dk, na, iap
+\item \code{NA(n)} no answer
+\item \code{NA(p)} not imputable
+\item \code{NA(r)} refused
+\item \code{NA(s)} skipped on web
+\item \code{NA(u)} uncodeable
+\item \code{NA(x)} not available in this release
+\item \code{NA(y)} not available in this year
+\item \code{NA(z)} see codebook
+}
+}
+
 \section{Overview}{
 
-For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
+For further details see the \href{https://gssdataexplorer.norc.org/variables/538/vshow}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
@@ -57,24 +78,42 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
-\section{Values}{
-
-\itemize{
-\item \code{1} agree
-\item \code{2} disagree
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1973 \tab - \tab full \cr
+   1974 \tab - \tab full \cr
+   1976 \tab - \tab full \cr
 }
 }
 
+\seealso{
+Other Core: 
+\code{\link{anomia1}},
+\code{\link{anomia3}},
+\code{\link{anomia4}},
+\code{\link{anomia5}},
+\code{\link{anomia6}},
+\code{\link{cigweek}},
+\code{\link{evsmoke}},
+\code{\link{quitsmk}},
+\code{\link{smokecig}}
+
+Other Anomia: 
+\code{\link{anomia1}},
+\code{\link{anomia3}},
+\code{\link{anomia4}},
+\code{\link{anomia5}},
+\code{\link{anomia6}}
+
+Other Split Ballots: 
+\code{\link{anomia1}},
+\code{\link{anomia3}},
+\code{\link{anomia4}},
+\code{\link{anomia5}},
+\code{\link{anomia6}}
+}
+\concept{Anomia}
+\concept{Core}
+\concept{Split Ballots}
 \keyword{variable}
