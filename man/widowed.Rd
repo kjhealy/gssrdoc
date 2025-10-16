@@ -50,49 +50,9 @@ C. IF CURRENTLY MARRIED, SEPARATED, OR DIVORCED: Have you ever been widowed?
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/22/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab no \tab no answer \tab yes \tab don't know \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab 1470 \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab 597 \tab 1157 \tab 15 \tab 50 \tab - \tab - \tab 1819 \cr
-   1988 \tab 459 \tab 963 \tab 27 \tab 32 \tab - \tab - \tab 1481 \cr
-   1989 \tab 454 \tab 1034 \tab 12 \tab 37 \tab - \tab - \tab 1537 \cr
-   1990 \tab 436 \tab 885 \tab 25 \tab 26 \tab - \tab - \tab 1372 \cr
-   1991 \tab 492 \tab 971 \tab 23 \tab 31 \tab - \tab - \tab 1517 \cr
-   1993 \tab 472 \tab 1075 \tab 19 \tab 40 \tab - \tab - \tab 1606 \cr
-   1994 \tab 903 \tab 1958 \tab 58 \tab 72 \tab 1 \tab - \tab 2992 \cr
-   1996 \tab 938 \tab 1782 \tab 109 \tab 73 \tab 2 \tab - \tab 2904 \cr
-   1998 \tab 947 \tab 1672 \tab 136 \tab 77 \tab - \tab - \tab 2832 \cr
-   2000 \tab 985 \tab 1659 \tab 119 \tab 53 \tab 1 \tab - \tab 2817 \cr
-   2002 \tab 955 \tab 1754 \tab - \tab 56 \tab - \tab - \tab 2765 \cr
-   2004 \tab 822 \tab 1938 \tab 5 \tab 47 \tab - \tab - \tab 2812 \cr
-   2006 \tab 1446 \tab 2975 \tab 8 \tab 80 \tab 1 \tab - \tab 4510 \cr
-   2008 \tab 695 \tab 1289 \tab 5 \tab 34 \tab - \tab - \tab 2023 \cr
-   2010 \tab 746 \tab 1259 \tab 1 \tab 38 \tab - \tab - \tab 2044 \cr
-   2012 \tab 689 \tab 1243 \tab - \tab 42 \tab - \tab - \tab 1974 \cr
-   2014 \tab 884 \tab 1609 \tab 6 \tab 39 \tab - \tab - \tab 2538 \cr
-   2016 \tab 1057 \tab 1754 \tab 4 \tab 52 \tab - \tab - \tab 2867 \cr
-   2018 \tab 870 \tab 1431 \tab 5 \tab 42 \tab - \tab - \tab 2348 \cr
-   2021 \tab 1273 \tab 2704 \tab 1 \tab 48 \tab - \tab 6 \tab 4032 \cr
-   2022 \tab 1365 \tab 2097 \tab 6 \tab 71 \tab 1 \tab 4 \tab 3544 \cr
-   2024 \tab 1333 \tab 1909 \tab - \tab 66 \tab - \tab 1 \tab 3309 \cr
-   Total \tab 38874 \tab 35118 \tab 584 \tab 1106 \tab 6 \tab 11 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/22/vshow}{GSS Data Explorer page for \code{widowed}}.
 }
 
 \seealso{

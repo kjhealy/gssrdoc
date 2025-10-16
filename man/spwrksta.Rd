@@ -68,49 +68,9 @@ Question Last week was your (wife/husband) working full time, part time, going t
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/23/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllllllllll}{
-   year \tab iap \tab in school \tab keeping house \tab no answer \tab other \tab retired \tab unemployed, laid off, looking for work \tab with a job, but not at work because of temporary illness, vacation, strike \tab working full time \tab working part time \tab skipped on web \tab don't know \tab Total \cr
-   1972 \tab 453 \tab 9 \tab 368 \tab 2 \tab 21 \tab 68 \tab 17 \tab 15 \tab 569 \tab 91 \tab - \tab - \tab 1613 \cr
-   1973 \tab 428 \tab 12 \tab 303 \tab - \tab 20 \tab 61 \tab 8 \tab 21 \tab 580 \tab 71 \tab - \tab - \tab 1504 \cr
-   1974 \tab 419 \tab 6 \tab 304 \tab - \tab 12 \tab 71 \tab 19 \tab 18 \tab 565 \tab 70 \tab - \tab - \tab 1484 \cr
-   1975 \tab 488 \tab 7 \tab 263 \tab - \tab 15 \tab 74 \tab 27 \tab 22 \tab 513 \tab 81 \tab - \tab - \tab 1490 \cr
-   1976 \tab 525 \tab 11 \tab 259 \tab - \tab 16 \tab 91 \tab 21 \tab 19 \tab 482 \tab 75 \tab - \tab - \tab 1499 \cr
-   1977 \tab 555 \tab 10 \tab 250 \tab 1 \tab 10 \tab 89 \tab 17 \tab 22 \tab 503 \tab 73 \tab - \tab - \tab 1530 \cr
-   1978 \tab 571 \tab 8 \tab 224 \tab 1 \tab 19 \tab 78 \tab 17 \tab 26 \tab 505 \tab 83 \tab - \tab - \tab 1532 \cr
-   1980 \tab 579 \tab 9 \tab 188 \tab 2 \tab 11 \tab 92 \tab 18 \tab 26 \tab 468 \tab 75 \tab - \tab - \tab 1468 \cr
-   1982 \tab 867 \tab 7 \tab 217 \tab 1 \tab 23 \tab 93 \tab 23 \tab 16 \tab 532 \tab 81 \tab - \tab - \tab 1860 \cr
-   1983 \tab 634 \tab 9 \tab 199 \tab - \tab 16 \tab 91 \tab 39 \tab 20 \tab 505 \tab 86 \tab - \tab - \tab 1599 \cr
-   1984 \tab 644 \tab 7 \tab 164 \tab 1 \tab 7 \tab 84 \tab 18 \tab 22 \tab 465 \tab 61 \tab - \tab - \tab 1473 \cr
-   1985 \tab 663 \tab 14 \tab 175 \tab - \tab 13 \tab 99 \tab 17 \tab 18 \tab 454 \tab 81 \tab - \tab - \tab 1534 \cr
-   1986 \tab 644 \tab 5 \tab 142 \tab 1 \tab 12 \tab 121 \tab 11 \tab 19 \tab 429 \tab 86 \tab - \tab - \tab 1470 \cr
-   1987 \tab 903 \tab 10 \tab 142 \tab 4 \tab 14 \tab 101 \tab 16 \tab 16 \tab 527 \tab 86 \tab - \tab - \tab 1819 \cr
-   1988 \tab 693 \tab 7 \tab 136 \tab 2 \tab 7 \tab 128 \tab 15 \tab 14 \tab 409 \tab 70 \tab - \tab - \tab 1481 \cr
-   1989 \tab 690 \tab 7 \tab 126 \tab 3 \tab 14 \tab 117 \tab 16 \tab 20 \tab 474 \tab 70 \tab - \tab - \tab 1537 \cr
-   1990 \tab 645 \tab 12 \tab 126 \tab 3 \tab 8 \tab 93 \tab 13 \tab 16 \tab 391 \tab 65 \tab - \tab - \tab 1372 \cr
-   1991 \tab 713 \tab 8 \tab 120 \tab - \tab 16 \tab 126 \tab 15 \tab 15 \tab 436 \tab 68 \tab - \tab - \tab 1517 \cr
-   1993 \tab 747 \tab 6 \tab 120 \tab 3 \tab 12 \tab 112 \tab 21 \tab 18 \tab 484 \tab 83 \tab - \tab - \tab 1606 \cr
-   1994 \tab 1450 \tab 20 \tab 211 \tab 1 \tab 21 \tab 208 \tab 33 \tab 26 \tab 867 \tab 155 \tab - \tab - \tab 2992 \cr
-   1996 \tab 1513 \tab 14 \tab 182 \tab 4 \tab 24 \tab 146 \tab 13 \tab 22 \tab 841 \tab 145 \tab - \tab - \tab 2904 \cr
-   1998 \tab 1486 \tab 18 \tab 138 \tab 2 \tab 32 \tab 176 \tab 15 \tab 23 \tab 813 \tab 129 \tab - \tab - \tab 2832 \cr
-   2000 \tab 1538 \tab 16 \tab 164 \tab 8 \tab 28 \tab 149 \tab 13 \tab 15 \tab 764 \tab 122 \tab - \tab - \tab 2817 \cr
-   2002 \tab 1496 \tab 13 \tab 159 \tab 2 \tab 22 \tab 164 \tab 33 \tab 30 \tab 704 \tab 142 \tab - \tab - \tab 2765 \cr
-   2004 \tab 1333 \tab 19 \tab 178 \tab 11 \tab 35 \tab 194 \tab 34 \tab 35 \tab 840 \tab 133 \tab - \tab - \tab 2812 \cr
-   2006 \tab 2334 \tab 25 \tab 293 \tab 10 \tab 60 \tab 311 \tab 28 \tab 25 \tab 1237 \tab 187 \tab - \tab - \tab 4510 \cr
-   2008 \tab 1046 \tab 8 \tab 112 \tab 9 \tab 27 \tab 150 \tab 14 \tab 24 \tab 533 \tab 100 \tab - \tab - \tab 2023 \cr
-   2010 \tab 1152 \tab 21 \tab 111 \tab 8 \tab 30 \tab 145 \tab 31 \tab 17 \tab 438 \tab 91 \tab - \tab - \tab 2044 \cr
-   2012 \tab 1074 \tab 17 \tab 127 \tab 2 \tab 16 \tab 129 \tab 21 \tab 18 \tab 487 \tab 83 \tab - \tab - \tab 1974 \cr
-   2014 \tab 1376 \tab 12 \tab 147 \tab 5 \tab 22 \tab 197 \tab 27 \tab 24 \tab 610 \tab 118 \tab - \tab - \tab 2538 \cr
-   2016 \tab 1654 \tab 11 \tab 146 \tab 10 \tab 24 \tab 222 \tab 23 \tab 23 \tab 658 \tab 96 \tab - \tab - \tab 2867 \cr
-   2018 \tab 1348 \tab 10 \tab 122 \tab 7 \tab 16 \tab 161 \tab 19 \tab 23 \tab 552 \tab 90 \tab - \tab - \tab 2348 \cr
-   2021 \tab 2027 \tab 14 \tab 184 \tab 2 \tab 63 \tab 511 \tab 80 \tab 38 \tab 953 \tab 152 \tab 8 \tab - \tab 4032 \cr
-   2022 \tab 2074 \tab 16 \tab 156 \tab 6 \tab 24 \tab 330 \tab 27 \tab 28 \tab 741 \tab 135 \tab 4 \tab 3 \tab 3544 \cr
-   2024 \tab 1946 \tab 13 \tab 135 \tab 2 \tab 31 \tab 355 \tab 29 \tab 26 \tab 656 \tab 108 \tab 4 \tab 4 \tab 3309 \cr
-   Total \tab 36708 \tab 411 \tab 6391 \tab 113 \tab 741 \tab 5337 \tab 788 \tab 760 \tab 20985 \tab 3442 \tab 16 \tab 7 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/23/vshow}{GSS Data Explorer page for \code{spwrksta}}.
 }
 
 \seealso{

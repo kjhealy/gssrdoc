@@ -57,49 +57,9 @@ Question A. Have you seen an X-rated movie in the last year?
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/641/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab - \tab 9 \tab 1113 \tab 4 \tab 378 \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab - \tab 7 \tab 1202 \tab 1 \tab 280 \tab - \tab 1490 \cr
-   1976 \tab - \tab 3 \tab 1220 \tab 4 \tab 272 \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab - \tab 8 \tab 1296 \tab - \tab 228 \tab - \tab 1532 \cr
-   1980 \tab - \tab 5 \tab 1228 \tab 1 \tab 234 \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab - \tab 7 \tab 1277 \tab 4 \tab 311 \tab - \tab 1599 \cr
-   1984 \tab - \tab 2 \tab 1119 \tab 7 \tab 345 \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab - \tab 6 \tab 1098 \tab 4 \tab 362 \tab - \tab 1470 \cr
-   1987 \tab - \tab 6 \tab 1267 \tab 5 \tab 541 \tab - \tab 1819 \cr
-   1988 \tab 484 \tab 5 \tab 727 \tab - \tab 265 \tab - \tab 1481 \cr
-   1989 \tab 502 \tab 5 \tab 792 \tab 4 \tab 234 \tab - \tab 1537 \cr
-   1990 \tab 473 \tab 4 \tab 688 \tab 1 \tab 206 \tab - \tab 1372 \cr
-   1991 \tab 500 \tab 2 \tab 772 \tab 4 \tab 239 \tab - \tab 1517 \cr
-   1993 \tab 549 \tab 4 \tab 848 \tab 3 \tab 202 \tab - \tab 1606 \cr
-   1994 \tab 1487 \tab 4 \tab 1163 \tab 7 \tab 331 \tab - \tab 2992 \cr
-   1996 \tab 979 \tab 12 \tab 1405 \tab 5 \tab 503 \tab - \tab 2904 \cr
-   1998 \tab 921 \tab 11 \tab 1444 \tab 4 \tab 452 \tab - \tab 2832 \cr
-   2000 \tab 921 \tab 5 \tab 1429 \tab 6 \tab 456 \tab - \tab 2817 \cr
-   2002 \tab 1853 \tab 1 \tab 690 \tab 2 \tab 219 \tab - \tab 2765 \cr
-   2004 \tab 1936 \tab - \tab 651 \tab 1 \tab 224 \tab - \tab 2812 \cr
-   2006 \tab 2521 \tab 4 \tab 1541 \tab 2 \tab 442 \tab - \tab 4510 \cr
-   2008 \tab 658 \tab 7 \tab 1022 \tab 3 \tab 333 \tab - \tab 2023 \cr
-   2010 \tab 667 \tab 4 \tab 1025 \tab 4 \tab 344 \tab - \tab 2044 \cr
-   2012 \tab 636 \tab 3 \tab 1002 \tab 1 \tab 332 \tab - \tab 1974 \cr
-   2014 \tab 851 \tab 3 \tab 1273 \tab 4 \tab 407 \tab - \tab 2538 \cr
-   2016 \tab 911 \tab 4 \tab 1409 \tab 6 \tab 537 \tab - \tab 2867 \cr
-   2018 \tab 785 \tab 5 \tab 1122 \tab 4 \tab 432 \tab - \tab 2348 \cr
-   2021 \tab 1360 \tab 1 \tab 1848 \tab 1 \tab 808 \tab 14 \tab 4032 \cr
-   2022 \tab 2353 \tab 4 \tab 787 \tab 12 \tab 385 \tab 3 \tab 3544 \cr
-   2024 \tab 2198 \tab 1 \tab 760 \tab 6 \tab 339 \tab 5 \tab 3309 \cr
-   Total \tab 31566 \tab 142 \tab 33218 \tab 110 \tab 10641 \tab 22 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/641/vshow}{GSS Data Explorer page for \code{xmovie}}.
 }
 
 \seealso{

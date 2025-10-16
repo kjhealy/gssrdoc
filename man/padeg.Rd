@@ -65,49 +65,9 @@ Question RESPONDENT'S FATHER'S (SUBSTITUTE FATHER'S) DEGREE
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/60/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllllll}{
-   year \tab bachelor's \tab don't know \tab graduate \tab high school \tab iap \tab less than high school \tab no answer \tab associate/junior college \tab skipped on web \tab Total \cr
-   1972 \tab 51 \tab 104 \tab 40 \tab 263 \tab 235 \tab 775 \tab 145 \tab - \tab - \tab 1613 \cr
-   1973 \tab 61 \tab 90 \tab 32 \tab 276 \tab 151 \tab 784 \tab 104 \tab 6 \tab - \tab 1504 \cr
-   1974 \tab 44 \tab 116 \tab 38 \tab 296 \tab 182 \tab 781 \tab 18 \tab 9 \tab - \tab 1484 \cr
-   1975 \tab 50 \tab 125 \tab 28 \tab 324 \tab 151 \tab 802 \tab 6 \tab 4 \tab - \tab 1490 \cr
-   1976 \tab 53 \tab 132 \tab 35 \tab 301 \tab 186 \tab 774 \tab 12 \tab 6 \tab - \tab 1499 \cr
-   1977 \tab 41 \tab 149 \tab 39 \tab 285 \tab 193 \tab 803 \tab 12 \tab 8 \tab - \tab 1530 \cr
-   1978 \tab 56 \tab 105 \tab 38 \tab 341 \tab 205 \tab 772 \tab 7 \tab 8 \tab - \tab 1532 \cr
-   1980 \tab 56 \tab 101 \tab 56 \tab 339 \tab 230 \tab 666 \tab 15 \tab 5 \tab - \tab 1468 \cr
-   1982 \tab 72 \tab 195 \tab 48 \tab 395 \tab 296 \tab 829 \tab 15 \tab 10 \tab - \tab 1860 \cr
-   1983 \tab 89 \tab 117 \tab 59 \tab 406 \tab 207 \tab 707 \tab 5 \tab 9 \tab - \tab 1599 \cr
-   1984 \tab 82 \tab 99 \tab 43 \tab 359 \tab 202 \tab 669 \tab 4 \tab 15 \tab - \tab 1473 \cr
-   1985 \tab 89 \tab 96 \tab 59 \tab 403 \tab 194 \tab 683 \tab - \tab 10 \tab - \tab 1534 \cr
-   1986 \tab 82 \tab 103 \tab 40 \tab 376 \tab 222 \tab 631 \tab 5 \tab 11 \tab - \tab 1470 \cr
-   1987 \tab 100 \tab 122 \tab 73 \tab 418 \tab 291 \tab 783 \tab 15 \tab 17 \tab - \tab 1819 \cr
-   1988 \tab 83 \tab 91 \tab 74 \tab 378 \tab 189 \tab 648 \tab 5 \tab 13 \tab - \tab 1481 \cr
-   1989 \tab 93 \tab 95 \tab 63 \tab 390 \tab 197 \tab 671 \tab 4 \tab 24 \tab - \tab 1537 \cr
-   1990 \tab 77 \tab 72 \tab 52 \tab 413 \tab 191 \tab 535 \tab 17 \tab 15 \tab - \tab 1372 \cr
-   1991 \tab 103 \tab 93 \tab 55 \tab 416 \tab 205 \tab 600 \tab 26 \tab 19 \tab - \tab 1517 \cr
-   1993 \tab 131 \tab 98 \tab 76 \tab 457 \tab 197 \tab 597 \tab 24 \tab 26 \tab - \tab 1606 \cr
-   1994 \tab 226 \tab 189 \tab 146 \tab 860 \tab 492 \tab 1007 \tab 17 \tab 55 \tab - \tab 2992 \cr
-   1996 \tab 227 \tab 201 \tab 160 \tab 872 \tab 502 \tab 874 \tab 20 \tab 48 \tab - \tab 2904 \cr
-   1998 \tab 263 \tab 176 \tab 154 \tab 812 \tab 503 \tab 857 \tab 19 \tab 48 \tab - \tab 2832 \cr
-   2000 \tab 226 \tab 195 \tab 133 \tab 808 \tab 518 \tab 847 \tab 39 \tab 51 \tab - \tab 2817 \cr
-   2002 \tab 208 \tab 129 \tab 139 \tab 867 \tab 526 \tab 814 \tab 14 \tab 68 \tab - \tab 2765 \cr
-   2004 \tab 259 \tab 126 \tab 179 \tab 898 \tab 514 \tab 765 \tab 1 \tab 70 \tab - \tab 2812 \cr
-   2006 \tab 256 \tab 84 \tab 193 \tab 943 \tab 2049 \tab 893 \tab 19 \tab 73 \tab - \tab 4510 \cr
-   2008 \tab 187 \tab 109 \tab 111 \tab 679 \tab 354 \tab 538 \tab 7 \tab 38 \tab - \tab 2023 \cr
-   2010 \tab 164 \tab 95 \tab 138 \tab 671 \tab 370 \tab 561 \tab 5 \tab 40 \tab - \tab 2044 \cr
-   2012 \tab 180 \tab 116 \tab 127 \tab 625 \tab 333 \tab 531 \tab 3 \tab 59 \tab - \tab 1974 \cr
-   2014 \tab 252 \tab 128 \tab 157 \tab 852 \tab 459 \tab 619 \tab 5 \tab 66 \tab - \tab 2538 \cr
-   2016 \tab 273 \tab 143 \tab 159 \tab 1010 \tab 550 \tab 663 \tab 5 \tab 64 \tab - \tab 2867 \cr
-   2018 \tab 206 \tab 116 \tab 158 \tab 799 \tab 464 \tab 532 \tab 3 \tab 70 \tab - \tab 2348 \cr
-   2021 \tab 502 \tab 305 \tab 339 \tab 1489 \tab 563 \tab 735 \tab 3 \tab 93 \tab 3 \tab 4032 \cr
-   2022 \tab 381 \tab 333 \tab 295 \tab 1181 \tab 597 \tab 663 \tab - \tab 93 \tab 1 \tab 3544 \cr
-   2024 \tab 342 \tab 50 \tab 248 \tab 1156 \tab 617 \tab 799 \tab - \tab 97 \tab - \tab 3309 \cr
-   Total \tab 5565 \tab 4598 \tab 3784 \tab 21358 \tab 13335 \tab 25208 \tab 599 \tab 1248 \tab 4 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/60/vshow}{GSS Data Explorer page for \code{padeg}}.
 }
 
 \seealso{

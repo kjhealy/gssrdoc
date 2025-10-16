@@ -60,49 +60,9 @@ Question What is your opinion about a married person having sexual relations wit
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/633/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab almost always wrong \tab always wrong \tab don't know \tab no answer \tab not wrong at all \tab wrong only sometimes \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab - \tab 220 \tab 1037 \tab 9 \tab 4 \tab 61 \tab 173 \tab - \tab 1504 \cr
-   1974 \tab - \tab 173 \tab 1082 \tab 22 \tab 2 \tab 36 \tab 169 \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab - \tab 230 \tab 1013 \tab 19 \tab 5 \tab 63 \tab 169 \tab - \tab 1499 \cr
-   1977 \tab - \tab 206 \tab 1103 \tab 13 \tab 7 \tab 48 \tab 153 \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab - \tab 230 \tab 1018 \tab 23 \tab 1 \tab 53 \tab 143 \tab - \tab 1468 \cr
-   1982 \tab - \tab 237 \tab 1333 \tab 28 \tab 11 \tab 57 \tab 194 \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab - \tab 264 \tab 1023 \tab 16 \tab 8 \tab 33 \tab 129 \tab - \tab 1473 \cr
-   1985 \tab - \tab 207 \tab 1132 \tab 18 \tab 4 \tab 43 \tab 130 \tab - \tab 1534 \cr
-   1986 \tab 1470 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab - \tab 263 \tab 1308 \tab 26 \tab 9 \tab 48 \tab 165 \tab - \tab 1819 \cr
-   1988 \tab 504 \tab 125 \tab 764 \tab 12 \tab 2 \tab 20 \tab 54 \tab - \tab 1481 \cr
-   1989 \tab 504 \tab 131 \tab 797 \tab 12 \tab 2 \tab 17 \tab 74 \tab - \tab 1537 \cr
-   1990 \tab 455 \tab 115 \tab 709 \tab 14 \tab 3 \tab 13 \tab 63 \tab - \tab 1372 \cr
-   1991 \tab 524 \tab 132 \tab 738 \tab 23 \tab 6 \tab 31 \tab 63 \tab - \tab 1517 \cr
-   1993 \tab 531 \tab 152 \tab 815 \tab 17 \tab 5 \tab 26 \tab 60 \tab - \tab 1606 \cr
-   1994 \tab 996 \tab 248 \tab 1546 \tab 23 \tab 3 \tab 46 \tab 130 \tab - \tab 2992 \cr
-   1996 \tab 981 \tab 285 \tab 1471 \tab 30 \tab 4 \tab 35 \tab 98 \tab - \tab 2904 \cr
-   1998 \tab 950 \tab 231 \tab 1466 \tab 29 \tab 5 \tab 44 \tab 107 \tab - \tab 2832 \cr
-   2000 \tab 956 \tab 198 \tab 1448 \tab 32 \tab 6 \tab 47 \tab 130 \tab - \tab 2817 \cr
-   2002 \tab 1841 \tab 124 \tab 725 \tab 17 \tab - \tab 19 \tab 39 \tab - \tab 2765 \cr
-   2004 \tab 1914 \tab 107 \tab 717 \tab 9 \tab 2 \tab 19 \tab 44 \tab - \tab 2812 \cr
-   2006 \tab 2507 \tab 236 \tab 1582 \tab 20 \tab 8 \tab 36 \tab 121 \tab - \tab 4510 \cr
-   2008 \tab 671 \tab 144 \tab 1088 \tab 16 \tab 8 \tab 20 \tab 76 \tab - \tab 2023 \cr
-   2010 \tab 763 \tab 168 \tab 988 \tab 12 \tab 6 \tab 26 \tab 81 \tab - \tab 2044 \cr
-   2012 \tab 666 \tab 155 \tab 1026 \tab 17 \tab 7 \tab 16 \tab 87 \tab - \tab 1974 \cr
-   2014 \tab 824 \tab 224 \tab 1329 \tab 10 \tab 7 \tab 30 \tab 114 \tab - \tab 2538 \cr
-   2016 \tab 977 \tab 256 \tab 1398 \tab 12 \tab 12 \tab 51 \tab 161 \tab - \tab 2867 \cr
-   2018 \tab 774 \tab 216 \tab 1172 \tab 16 \tab 5 \tab 32 \tab 133 \tab - \tab 2348 \cr
-   2021 \tab 1358 \tab 606 \tab 1667 \tab 4 \tab 1 \tab 105 \tab 272 \tab 19 \tab 4032 \cr
-   2022 \tab 1203 \tab 446 \tab 1486 \tab 26 \tab 8 \tab 84 \tab 276 \tab 15 \tab 3544 \cr
-   2024 \tab 1067 \tab 361 \tab 1503 \tab 25 \tab 9 \tab 97 \tab 228 \tab 19 \tab 3309 \cr
-   Total \tab 28670 \tab 6690 \tab 34484 \tab 550 \tab 160 \tab 1256 \tab 3836 \tab 53 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/633/vshow}{GSS Data Explorer page for \code{xmarsex}}.
 }
 
 \seealso{

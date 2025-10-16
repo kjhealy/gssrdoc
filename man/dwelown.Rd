@@ -52,49 +52,9 @@ Question (Do you/Does your family) own your (home/apartment), pay rent, or what?
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/5294/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab no answer \tab other \tab own or is buying \tab pays rent \tab don't know \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab - \tab 11 \tab 25 \tab 947 \tab 551 \tab - \tab - \tab 1534 \cr
-   1986 \tab - \tab 25 \tab 26 \tab 921 \tab 497 \tab 1 \tab - \tab 1470 \cr
-   1987 \tab - \tab 11 \tab 38 \tab 1102 \tab 667 \tab 1 \tab - \tab 1819 \cr
-   1988 \tab 493 \tab 32 \tab 13 \tab 612 \tab 331 \tab - \tab - \tab 1481 \cr
-   1989 \tab 531 \tab 26 \tab 28 \tab 634 \tab 318 \tab - \tab - \tab 1537 \cr
-   1990 \tab 449 \tab 39 \tab 30 \tab 557 \tab 297 \tab - \tab - \tab 1372 \cr
-   1991 \tab 493 \tab 51 \tab 16 \tab 633 \tab 324 \tab - \tab - \tab 1517 \cr
-   1993 \tab 526 \tab 4 \tab 29 \tab 710 \tab 337 \tab - \tab - \tab 1606 \cr
-   1994 \tab 1015 \tab 33 \tab 49 \tab 1222 \tab 673 \tab - \tab - \tab 2992 \cr
-   1996 \tab 944 \tab 66 \tab 50 \tab 1165 \tab 679 \tab - \tab - \tab 2904 \cr
-   1998 \tab 961 \tab 5 \tab 40 \tab 1159 \tab 666 \tab 1 \tab - \tab 2832 \cr
-   2000 \tab 946 \tab 63 \tab 19 \tab 1101 \tab 686 \tab 2 \tab - \tab 2817 \cr
-   2002 \tab 1857 \tab 1 \tab 23 \tab 540 \tab 341 \tab 3 \tab - \tab 2765 \cr
-   2004 \tab 1906 \tab 1 \tab 28 \tab 609 \tab 268 \tab - \tab - \tab 2812 \cr
-   2006 \tab 2518 \tab 3 \tab 35 \tab 1318 \tab 634 \tab 2 \tab - \tab 4510 \cr
-   2008 \tab 694 \tab 2 \tab 22 \tab 889 \tab 416 \tab - \tab - \tab 2023 \cr
-   2010 \tab 614 \tab 5 \tab 26 \tab 874 \tab 524 \tab 1 \tab - \tab 2044 \cr
-   2012 \tab 672 \tab 5 \tab 16 \tab 808 \tab 473 \tab - \tab - \tab 1974 \cr
-   2014 \tab 863 \tab 4 \tab 25 \tab 1035 \tab 610 \tab 1 \tab - \tab 2538 \cr
-   2016 \tab 981 \tab 5 \tab 30 \tab 1127 \tab 724 \tab - \tab - \tab 2867 \cr
-   2018 \tab 789 \tab 6 \tab 25 \tab 939 \tab 588 \tab 1 \tab - \tab 2348 \cr
-   2021 \tab 1367 \tab - \tab 33 \tab 1821 \tab 791 \tab 3 \tab 17 \tab 4032 \cr
-   2022 \tab 1174 \tab 4 \tab 64 \tab 1420 \tab 878 \tab 1 \tab 3 \tab 3544 \cr
-   2024 \tab 1126 \tab 13 \tab 13 \tab 1323 \tab 816 \tab 5 \tab 13 \tab 3309 \cr
-   Total \tab 37971 \tab 415 \tab 703 \tab 23466 \tab 13089 \tab 22 \tab 33 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/5294/vshow}{GSS Data Explorer page for \code{dwelown}}.
 }
 
 \concept{Dwelling (R's)}

@@ -71,49 +71,9 @@ Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at col
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/5359/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab married \tab never married \tab no answer \tab separated \tab widowed \tab divorced \tab don't know \tab skipped on web \tab not available in this release \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1368 \tab 6 \tab 109 \tab 3 \tab 1 \tab 3 \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1465 \tab - \tab 31 \tab - \tab - \tab 2 \tab 1 \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1424 \tab 5 \tab 92 \tab 5 \tab - \tab 4 \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1446 \tab 2 \tab 76 \tab 5 \tab - \tab 2 \tab 1 \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1407 \tab 1 \tab 52 \tab 3 \tab 3 \tab - \tab 2 \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1765 \tab 6 \tab 81 \tab 4 \tab - \tab 1 \tab 3 \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1518 \tab - \tab 69 \tab 5 \tab 5 \tab 1 \tab 1 \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1400 \tab 2 \tab 62 \tab 4 \tab - \tab 3 \tab 2 \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab 1458 \tab 2 \tab 64 \tab 5 \tab - \tab - \tab 5 \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab 1396 \tab 5 \tab 57 \tab 7 \tab 1 \tab 2 \tab 2 \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab 1731 \tab 3 \tab 70 \tab 10 \tab - \tab 5 \tab - \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 1442 \tab 1 \tab 29 \tab 6 \tab - \tab 1 \tab 2 \tab - \tab - \tab - \tab 1481 \cr
-   1989 \tab 1476 \tab 4 \tab 50 \tab 5 \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab 1537 \cr
-   1990 \tab 1338 \tab 2 \tab 24 \tab 7 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 1372 \cr
-   1991 \tab 1473 \tab 1 \tab 40 \tab 3 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
-   1993 \tab 1573 \tab - \tab 28 \tab 2 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab 2918 \tab 4 \tab 62 \tab 5 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab 2992 \cr
-   1996 \tab 2828 \tab 7 \tab 48 \tab 16 \tab - \tab 2 \tab 3 \tab - \tab - \tab - \tab 2904 \cr
-   1998 \tab 2771 \tab 5 \tab 46 \tab 7 \tab - \tab 2 \tab 1 \tab - \tab - \tab - \tab 2832 \cr
-   2000 \tab 2750 \tab 2 \tab 54 \tab 6 \tab 2 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab 2817 \cr
-   2002 \tab 2709 \tab 2 \tab 42 \tab 8 \tab - \tab 1 \tab 3 \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab 2731 \tab 7 \tab 63 \tab 1 \tab 3 \tab 4 \tab 2 \tab 1 \tab - \tab - \tab 2812 \cr
-   2006 \tab 4369 \tab 5 \tab 128 \tab 1 \tab 2 \tab 2 \tab 2 \tab 1 \tab - \tab - \tab 4510 \cr
-   2008 \tab 1958 \tab 2 \tab 55 \tab 2 \tab 2 \tab 1 \tab 2 \tab 1 \tab - \tab - \tab 2023 \cr
-   2010 \tab 1971 \tab 5 \tab 60 \tab 3 \tab 2 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab 2044 \cr
-   2012 \tab 1919 \tab 5 \tab 44 \tab 2 \tab 3 \tab 1 \tab - \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab 2452 \tab 3 \tab 76 \tab 2 \tab 3 \tab 1 \tab 1 \tab - \tab - \tab - \tab 2538 \cr
-   2016 \tab 2771 \tab 3 \tab 81 \tab 2 \tab 2 \tab 2 \tab 3 \tab 3 \tab - \tab - \tab 2867 \cr
-   2018 \tab 2299 \tab 2 \tab 37 \tab 2 \tab 2 \tab 2 \tab 2 \tab 2 \tab - \tab - \tab 2348 \cr
-   2021 \tab 3891 \tab 12 \tab 114 \tab - \tab - \tab 6 \tab 8 \tab - \tab 1 \tab - \tab 4032 \cr
-   2022 \tab 3492 \tab 5 \tab 42 \tab 1 \tab - \tab 1 \tab 2 \tab 1 \tab - \tab - \tab 3544 \cr
-   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
-   Total \tab 70110 \tab 109 \tab 1886 \tab 132 \tab 33 \tab 54 \tab 54 \tab 11 \tab 1 \tab 3309 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/5359/vshow}{GSS Data Explorer page for \code{mar5}}.
 }
 
 \seealso{

@@ -63,49 +63,9 @@ G. Improving the nation's education system
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/187/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab about right \tab don't know \tab no answer \tab too little \tab too much \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab - \tab 565 \tab 65 \tab 5 \tab 734 \tab 135 \tab - \tab 1504 \cr
-   1974 \tab - \tab 545 \tab 56 \tab 10 \tab 747 \tab 126 \tab - \tab 1484 \cr
-   1975 \tab - \tab 525 \tab 67 \tab 3 \tab 728 \tab 167 \tab - \tab 1490 \cr
-   1976 \tab - \tab 557 \tab 46 \tab 4 \tab 751 \tab 141 \tab - \tab 1499 \cr
-   1977 \tab - \tab 594 \tab 58 \tab 3 \tab 727 \tab 148 \tab - \tab 1530 \cr
-   1978 \tab - \tab 515 \tab 58 \tab 2 \tab 790 \tab 167 \tab - \tab 1532 \cr
-   1980 \tab - \tab 484 \tab 59 \tab 5 \tab 771 \tab 149 \tab - \tab 1468 \cr
-   1982 \tab - \tab 542 \tab 64 \tab 4 \tab 1116 \tab 134 \tab - \tab 1860 \cr
-   1983 \tab - \tab 495 \tab 49 \tab 6 \tab 956 \tab 93 \tab - \tab 1599 \cr
-   1984 \tab 983 \tab 152 \tab 8 \tab 7 \tab 307 \tab 16 \tab - \tab 1473 \cr
-   1985 \tab 783 \tab 234 \tab 22 \tab 5 \tab 451 \tab 39 \tab - \tab 1534 \cr
-   1986 \tab 740 \tab 236 \tab 21 \tab 4 \tab 439 \tab 30 \tab - \tab 1470 \cr
-   1987 \tab 1216 \tab 170 \tab 16 \tab 2 \tab 388 \tab 27 \tab - \tab 1819 \cr
-   1988 \tab 763 \tab 208 \tab 23 \tab 7 \tab 454 \tab 26 \tab - \tab 1481 \cr
-   1989 \tab 769 \tab 205 \tab 24 \tab 3 \tab 514 \tab 22 \tab - \tab 1537 \cr
-   1990 \tab 698 \tab 156 \tab 17 \tab 3 \tab 478 \tab 20 \tab - \tab 1372 \cr
-   1991 \tab 761 \tab 185 \tab 19 \tab 10 \tab 503 \tab 39 \tab - \tab 1517 \cr
-   1993 \tab 807 \tab 196 \tab 20 \tab 5 \tab 532 \tab 46 \tab - \tab 1606 \cr
-   1994 \tab 1484 \tab 324 \tab 27 \tab 5 \tab 1064 \tab 88 \tab - \tab 2992 \cr
-   1996 \tab 1463 \tab 329 \tab 37 \tab 2 \tab 984 \tab 89 \tab - \tab 2904 \cr
-   1998 \tab 1451 \tab 306 \tab 25 \tab 1 \tab 962 \tab 87 \tab - \tab 2832 \cr
-   2000 \tab 1408 \tab 321 \tab 26 \tab 2 \tab 994 \tab 66 \tab - \tab 2817 \cr
-   2002 \tab 1407 \tab 278 \tab 13 \tab 2 \tab 992 \tab 73 \tab - \tab 2765 \cr
-   2004 \tab 1411 \tab 310 \tab 17 \tab 1 \tab 1001 \tab 72 \tab - \tab 2812 \cr
-   2006 \tab 3026 \tab 310 \tab 21 \tab 1 \tab 1075 \tab 77 \tab - \tab 4510 \cr
-   2008 \tab 1019 \tab 232 \tab 10 \tab 1 \tab 707 \tab 54 \tab - \tab 2023 \cr
-   2010 \tab 1030 \tab 226 \tab 12 \tab 2 \tab 721 \tab 53 \tab - \tab 2044 \cr
-   2012 \tab 976 \tab 174 \tab 11 \tab 2 \tab 733 \tab 78 \tab - \tab 1974 \cr
-   2014 \tab 1264 \tab 277 \tab 27 \tab 1 \tab 894 \tab 75 \tab - \tab 2538 \cr
-   2016 \tab 1430 \tab 310 \tab 15 \tab 1 \tab 1025 \tab 86 \tab - \tab 2867 \cr
-   2018 \tab 1160 \tab 222 \tab 13 \tab - \tab 885 \tab 68 \tab - \tab 2348 \cr
-   2021 \tab 2045 \tab 384 \tab 4 \tab - \tab 1439 \tab 153 \tab 7 \tab 4032 \cr
-   2022 \tab 1764 \tab 324 \tab 12 \tab 2 \tab 1321 \tab 117 \tab 4 \tab 3544 \cr
-   2024 \tab 1626 \tab 281 \tab 14 \tab 2 \tab 1270 \tab 111 \tab 5 \tab 3309 \cr
-   Total \tab 33097 \tab 11172 \tab 976 \tab 113 \tab 27453 \tab 2872 \tab 16 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/187/vshow}{GSS Data Explorer page for \code{nateduc}}.
 }
 
 \seealso{

@@ -38,49 +38,9 @@ Question A. Can you speak a language other than English (Spanish)?
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/2283/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab no \tab no answer \tab yes \tab don't know \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab 1470 \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab 1819 \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 1481 \tab - \tab - \tab - \tab - \tab - \tab 1481 \cr
-   1989 \tab 1537 \tab - \tab - \tab - \tab - \tab - \tab 1537 \cr
-   1990 \tab 1372 \tab - \tab - \tab - \tab - \tab - \tab 1372 \cr
-   1991 \tab 1517 \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
-   1993 \tab 1606 \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab 2992 \tab - \tab - \tab - \tab - \tab - \tab 2992 \cr
-   1996 \tab 2904 \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
-   1998 \tab 2832 \tab - \tab - \tab - \tab - \tab - \tab 2832 \cr
-   2000 \tab 1419 \tab 1031 \tab 4 \tab 363 \tab - \tab - \tab 2817 \cr
-   2002 \tab 2765 \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab 2812 \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
-   2006 \tab 1702 \tab 2135 \tab 2 \tab 671 \tab - \tab - \tab 4510 \cr
-   2008 \tab - \tab 1468 \tab - \tab 555 \tab - \tab - \tab 2023 \cr
-   2010 \tab - \tab 1508 \tab - \tab 536 \tab - \tab - \tab 2044 \cr
-   2012 \tab - \tab 1397 \tab 3 \tab 574 \tab - \tab - \tab 1974 \cr
-   2014 \tab - \tab 1789 \tab 1 \tab 748 \tab - \tab - \tab 2538 \cr
-   2016 \tab - \tab 2045 \tab 6 \tab 816 \tab - \tab - \tab 2867 \cr
-   2018 \tab - \tab 1623 \tab - \tab 723 \tab 2 \tab - \tab 2348 \cr
-   2021 \tab - \tab 2794 \tab 26 \tab 1144 \tab - \tab 68 \tab 4032 \cr
-   2022 \tab - \tab 2545 \tab 1 \tab 979 \tab - \tab 19 \tab 3544 \cr
-   2024 \tab - \tab 2393 \tab - \tab 904 \tab - \tab 12 \tab 3309 \cr
-   Total \tab 46814 \tab 20728 \tab 43 \tab 8013 \tab 2 \tab 99 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/2283/vshow}{GSS Data Explorer page for \code{othlang}}.
 }
 
 \seealso{

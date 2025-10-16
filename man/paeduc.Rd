@@ -81,49 +81,9 @@ Question RESPONDENT'S FATHER'S (FATHER SUBSTITUTE'S) EDUCATION
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/56/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllllllllllllllllllllll}{
-   year \tab 1 year of college \tab 10th grade \tab 11th grade \tab 12th grade \tab 1st grade \tab 2 years of college \tab 2nd grade \tab 3 years of college \tab 3rd grade \tab 4 years of college \tab 4th grade \tab 5 years of college \tab 5th grade \tab 6 years of college \tab 6th grade \tab 7 years of college \tab 7th grade \tab 8 or more years of college \tab 8th grade \tab 9th grade \tab don't know \tab iap \tab no answer \tab no formal schooling \tab not available in this release \tab Total \cr
-   1972 \tab 24 \tab 58 \tab 44 \tab 195 \tab 6 \tab 40 \tab 12 \tab 9 \tab 51 \tab 59 \tab 57 \tab 5 \tab 43 \tab 17 \tab 68 \tab 3 \tab 49 \tab 12 \tab 231 \tab 34 \tab 297 \tab 235 \tab 10 \tab 54 \tab - \tab 1613 \cr
-   1973 \tab 14 \tab 41 \tab 44 \tab 223 \tab 8 \tab 48 \tab 14 \tab 11 \tab 52 \tab 65 \tab 46 \tab 6 \tab 39 \tab 7 \tab 89 \tab 5 \tab 45 \tab 11 \tab 261 \tab 27 \tab 216 \tab 151 \tab 13 \tab 68 \tab - \tab 1504 \cr
-   1974 \tab 21 \tab 55 \tab 37 \tab 234 \tab 8 \tab 48 \tab 10 \tab 11 \tab 49 \tab 50 \tab 46 \tab 4 \tab 43 \tab 15 \tab 81 \tab 1 \tab 47 \tab 10 \tab 213 \tab 43 \tab 223 \tab 182 \tab 1 \tab 52 \tab - \tab 1484 \cr
-   1975 \tab 31 \tab 55 \tab 39 \tab 240 \tab 3 \tab 44 \tab 13 \tab 11 \tab 49 \tab 53 \tab 50 \tab 12 \tab 40 \tab 11 \tab 92 \tab 1 \tab 55 \tab 11 \tab 231 \tab 37 \tab 204 \tab 151 \tab 2 \tab 55 \tab - \tab 1490 \cr
-   1976 \tab 21 \tab 45 \tab 41 \tab 243 \tab 7 \tab 40 \tab 12 \tab 8 \tab 44 \tab 48 \tab 47 \tab 9 \tab 39 \tab 15 \tab 91 \tab 4 \tab 50 \tab 15 \tab 223 \tab 37 \tab 217 \tab 186 \tab 9 \tab 48 \tab - \tab 1499 \cr
-   1977 \tab 20 \tab 62 \tab 38 \tab 219 \tab 2 \tab 38 \tab 15 \tab 13 \tab 45 \tab 46 \tab 64 \tab 5 \tab 37 \tab 13 \tab 80 \tab 7 \tab 49 \tab 13 \tab 228 \tab 35 \tab 267 \tab 193 \tab 2 \tab 39 \tab - \tab 1530 \cr
-   1978 \tab 29 \tab 58 \tab 29 \tab 256 \tab - \tab 51 \tab 11 \tab 8 \tab 36 \tab 54 \tab 39 \tab 16 \tab 35 \tab 12 \tab 88 \tab 6 \tab 53 \tab 10 \tab 213 \tab 44 \tab 235 \tab 205 \tab 3 \tab 41 \tab - \tab 1532 \cr
-   1980 \tab 29 \tab 36 \tab 36 \tab 248 \tab 3 \tab 42 \tab 10 \tab 13 \tab 29 \tab 65 \tab 51 \tab 13 \tab 36 \tab 18 \tab 86 \tab 9 \tab 36 \tab 17 \tab 201 \tab 38 \tab 178 \tab 230 \tab 2 \tab 42 \tab - \tab 1468 \cr
-   1982 \tab 29 \tab 66 \tab 36 \tab 309 \tab 3 \tab 55 \tab 7 \tab 14 \tab 42 \tab 72 \tab 46 \tab 10 \tab 40 \tab 20 \tab 74 \tab 6 \tab 49 \tab 17 \tab 226 \tab 46 \tab 323 \tab 296 \tab 9 \tab 65 \tab - \tab 1860 \cr
-   1983 \tab 30 \tab 53 \tab 39 \tab 302 \tab 3 \tab 57 \tab 12 \tab 5 \tab 28 \tab 102 \tab 32 \tab 9 \tab 47 \tab 22 \tab 68 \tab 7 \tab 39 \tab 18 \tab 202 \tab 52 \tab 224 \tab 207 \tab - \tab 41 \tab - \tab 1599 \cr
-   1984 \tab 28 \tab 57 \tab 43 \tab 278 \tab 1 \tab 51 \tab 4 \tab 9 \tab 32 \tab 79 \tab 41 \tab 9 \tab 28 \tab 15 \tab 66 \tab 6 \tab 29 \tab 16 \tab 207 \tab 41 \tab 201 \tab 202 \tab 3 \tab 27 \tab - \tab 1473 \cr
-   1985 \tab 29 \tab 67 \tab 45 \tab 288 \tab 3 \tab 64 \tab 14 \tab 13 \tab 29 \tab 88 \tab 36 \tab 7 \tab 30 \tab 26 \tab 77 \tab 8 \tab 39 \tab 25 \tab 194 \tab 40 \tab 187 \tab 194 \tab - \tab 31 \tab - \tab 1534 \cr
-   1986 \tab 22 \tab 52 \tab 44 \tab 297 \tab 4 \tab 54 \tab 5 \tab 13 \tab 34 \tab 85 \tab 35 \tab 6 \tab 25 \tab 13 \tab 74 \tab 6 \tab 30 \tab 12 \tab 178 \tab 30 \tab 193 \tab 222 \tab 4 \tab 32 \tab - \tab 1470 \cr
-   1987 \tab 29 \tab 56 \tab 45 \tab 318 \tab 5 \tab 63 \tab 8 \tab 15 \tab 48 \tab 98 \tab 44 \tab 15 \tab 45 \tab 19 \tab 83 \tab 16 \tab 39 \tab 28 \tab 223 \tab 52 \tab 234 \tab 291 \tab 12 \tab 33 \tab - \tab 1819 \cr
-   1988 \tab 33 \tab 49 \tab 30 \tab 291 \tab 1 \tab 43 \tab 11 \tab 11 \tab 41 \tab 94 \tab 24 \tab 10 \tab 33 \tab 28 \tab 59 \tab 4 \tab 26 \tab 27 \tab 183 \tab 39 \tab 208 \tab 189 \tab 19 \tab 28 \tab - \tab 1481 \cr
-   1989 \tab 33 \tab 57 \tab 33 \tab 302 \tab 4 \tab 58 \tab 14 \tab 16 \tab 43 \tab 96 \tab 28 \tab 10 \tab 35 \tab 30 \tab 59 \tab 7 \tab 36 \tab 24 \tab 180 \tab 40 \tab 172 \tab 197 \tab 1 \tab 62 \tab - \tab 1537 \cr
-   1990 \tab 35 \tab 42 \tab 20 \tab 300 \tab 2 \tab 54 \tab 11 \tab 17 \tab 33 \tab 85 \tab 29 \tab 9 \tab 17 \tab 21 \tab 42 \tab 6 \tab 25 \tab 20 \tab 159 \tab 33 \tab 165 \tab 190 \tab 35 \tab 22 \tab - \tab 1372 \cr
-   1991 \tab 28 \tab 49 \tab 38 \tab 300 \tab - \tab 77 \tab 7 \tab 12 \tab 31 \tab 103 \tab 22 \tab 12 \tab 22 \tab 24 \tab 61 \tab 13 \tab 27 \tab 22 \tab 165 \tab 39 \tab 211 \tab 205 \tab 32 \tab 17 \tab - \tab 1517 \cr
-   1993 \tab 37 \tab 62 \tab 34 \tab 317 \tab 2 \tab 79 \tab 9 \tab 20 \tab 39 \tab 123 \tab 22 \tab 12 \tab 23 \tab 36 \tab 63 \tab 9 \tab 34 \tab 31 \tab 187 \tab 34 \tab 185 \tab 197 \tab 29 \tab 22 \tab - \tab 1606 \cr
-   1994 \tab 57 \tab 112 \tab 53 \tab 637 \tab 5 \tab 161 \tab 17 \tab 22 \tab 47 \tab 216 \tab 35 \tab 19 \tab 41 \tab 62 \tab 109 \tab 21 \tab 60 \tab 59 \tab 307 \tab 72 \tab 330 \tab 492 \tab 15 \tab 43 \tab - \tab 2992 \cr
-   1996 \tab 72 \tab 101 \tab 59 \tab 631 \tab 2 \tab 148 \tab 6 \tab 40 \tab 40 \tab 229 \tab 40 \tab 22 \tab 43 \tab 60 \tab 98 \tab 15 \tab 43 \tab 69 \tab 254 \tab 63 \tab 324 \tab 502 \tab 12 \tab 31 \tab - \tab 2904 \cr
-   1998 \tab 58 \tab 76 \tab 56 \tab 607 \tab 4 \tab 145 \tab 15 \tab 26 \tab 45 \tab 256 \tab 40 \tab 31 \tab 42 \tab 57 \tab 96 \tab 16 \tab 53 \tab 58 \tab 274 \tab 58 \tab 275 \tab 503 \tab 13 \tab 28 \tab - \tab 2832 \cr
-   2000 \tab 65 \tab 95 \tab 59 \tab 627 \tab 4 \tab 129 \tab 19 \tab 26 \tab 44 \tab 212 \tab 36 \tab 13 \tab 43 \tab 63 \tab 95 \tab 15 \tab 35 \tab 55 \tab 227 \tab 52 \tab 326 \tab 518 \tab 27 \tab 32 \tab - \tab 2817 \cr
-   2002 \tab 62 \tab 123 \tab 59 \tab 661 \tab 6 \tab 158 \tab 19 \tab 27 \tab 38 \tab 210 \tab 28 \tab 18 \tab 34 \tab 61 \tab 87 \tab 18 \tab 32 \tab 50 \tab 234 \tab 75 \tab 185 \tab 526 \tab 19 \tab 35 \tab - \tab 2765 \cr
-   2004 \tab 72 \tab 81 \tab 65 \tab 692 \tab 3 \tab 165 \tab 5 \tab 25 \tab 36 \tab 256 \tab 27 \tab 29 \tab 29 \tab 69 \tab 84 \tab 28 \tab 48 \tab 60 \tab 204 \tab 79 \tab 182 \tab 514 \tab 26 \tab 33 \tab - \tab 2812 \cr
-   2006 \tab 83 \tab 87 \tab 56 \tab 684 \tab 11 \tab 168 \tab 24 \tab 35 \tab 65 \tab 253 \tab 36 \tab 28 \tab 40 \tab 75 \tab 103 \tab 25 \tab 48 \tab 76 \tab 220 \tab 70 \tab 185 \tab 2049 \tab 18 \tab 71 \tab - \tab 4510 \cr
-   2008 \tab 56 \tab 57 \tab 48 \tab 502 \tab 1 \tab 99 \tab 9 \tab 22 \tab 37 \tab 187 \tab 22 \tab 15 \tab 26 \tab 44 \tab 70 \tab 16 \tab 22 \tab 38 \tab 138 \tab 41 \tab 177 \tab 354 \tab 5 \tab 37 \tab - \tab 2023 \cr
-   2010 \tab 54 \tab 55 \tab 48 \tab 536 \tab 5 \tab 95 \tab 11 \tab 19 \tab 40 \tab 177 \tab 19 \tab 13 \tab 29 \tab 59 \tab 58 \tab 15 \tab 30 \tab 40 \tab 133 \tab 47 \tab 150 \tab 370 \tab 8 \tab 33 \tab - \tab 2044 \cr
-   2012 \tab 51 \tab 60 \tab 44 \tab 475 \tab 6 \tab 95 \tab 11 \tab 15 \tab 30 \tab 190 \tab 22 \tab 17 \tab 28 \tab 44 \tab 51 \tab 10 \tab 20 \tab 59 \tab 122 \tab 54 \tab 193 \tab 338 \tab 3 \tab 36 \tab - \tab 1974 \cr
-   2014 \tab 57 \tab 81 \tab 46 \tab 660 \tab 5 \tab 125 \tab 23 \tab 33 \tab 31 \tab 271 \tab 24 \tab 24 \tab 25 \tab 62 \tab 81 \tab 19 \tab 26 \tab 56 \tab 144 \tab 51 \tab 189 \tab 459 \tab 5 \tab 41 \tab - \tab 2538 \cr
-   2016 \tab 72 \tab 74 \tab 65 \tab 774 \tab 8 \tab 147 \tab 11 \tab 35 \tab 40 \tab 274 \tab 26 \tab 28 \tab 24 \tab 67 \tab 80 \tab 16 \tab 32 \tab 59 \tab 157 \tab 60 \tab 221 \tab 550 \tab 4 \tab 43 \tab - \tab 2867 \cr
-   2018 \tab 55 \tab 54 \tab 50 \tab 596 \tab 1 \tab 136 \tab 12 \tab 29 \tab 33 \tab 238 \tab 15 \tab 19 \tab 25 \tab 65 \tab 64 \tab 13 \tab 33 \tab 48 \tab 112 \tab 47 \tab 194 \tab 464 \tab 3 \tab 42 \tab - \tab 2348 \cr
-   2021 \tab 105 \tab 102 \tab 69 \tab 1157 \tab 2 \tab 231 \tab 13 \tab 55 \tab 34 \tab 538 \tab 18 \tab 52 \tab 40 \tab 118 \tab 82 \tab 31 \tab 41 \tab 112 \tab 177 \tab 71 \tab 372 \tab 563 \tab 7 \tab 42 \tab - \tab 4032 \cr
-   2022 \tab 60 \tab 91 \tab 62 \tab 1007 \tab 5 \tab 186 \tab 10 \tab 36 \tab 34 \tab 413 \tab 27 \tab 29 \tab 26 \tab 119 \tab 71 \tab 27 \tab 31 \tab 104 \tab 152 \tab 65 \tab 333 \tab 609 \tab - \tab 47 \tab - \tab 3544 \cr
-   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
-   Total \tab 1501 \tab 2269 \tab 1554 \tab 15406 \tab 133 \tab 3194 \tab 404 \tab 674 \tab 1349 \tab 5385 \tab 1174 \tab 536 \tab 1152 \tab 1387 \tab 2630 \tab 409 \tab 1311 \tab 1282 \tab 6760 \tab 1646 \tab 7776 \tab 12734 \tab 351 \tab 1373 \tab 3309 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/56/vshow}{GSS Data Explorer page for \code{paeduc}}.
 }
 
 \seealso{

@@ -58,49 +58,9 @@ B. Was being questioned as a suspect in a murder case?
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/672/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 380 \tab 12 \tab 1013 \tab 5 \tab 94 \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 343 \tab 24 \tab 1030 \tab 7 \tab 86 \tab - \tab 1490 \cr
-   1976 \tab - \tab 29 \tab 1351 \tab 5 \tab 114 \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab - \tab 50 \tab 1357 \tab 2 \tab 123 \tab - \tab 1532 \cr
-   1980 \tab - \tab 31 \tab 1308 \tab 7 \tab 122 \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab - \tab 30 \tab 1422 \tab 2 \tab 145 \tab - \tab 1599 \cr
-   1984 \tab - \tab 28 \tab 1301 \tab 15 \tab 129 \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab - \tab 19 \tab 1319 \tab 5 \tab 127 \tab - \tab 1470 \cr
-   1987 \tab - \tab 53 \tab 1588 \tab 8 \tab 170 \tab - \tab 1819 \cr
-   1988 \tab 484 \tab 21 \tab 887 \tab 5 \tab 84 \tab - \tab 1481 \cr
-   1989 \tab 502 \tab 25 \tab 924 \tab 5 \tab 81 \tab - \tab 1537 \cr
-   1990 \tab 473 \tab 26 \tab 771 \tab 1 \tab 101 \tab - \tab 1372 \cr
-   1991 \tab 500 \tab 19 \tab 925 \tab 7 \tab 66 \tab - \tab 1517 \cr
-   1993 \tab 549 \tab 28 \tab 951 \tab 4 \tab 74 \tab - \tab 1606 \cr
-   1994 \tab 981 \tab 34 \tab 1829 \tab 12 \tab 136 \tab - \tab 2992 \cr
-   1996 \tab 979 \tab 31 \tab 1796 \tab 6 \tab 92 \tab - \tab 2904 \cr
-   1998 \tab 921 \tab 33 \tab 1766 \tab 5 \tab 107 \tab - \tab 2832 \cr
-   2000 \tab 921 \tab 29 \tab 1747 \tab 12 \tab 108 \tab - \tab 2817 \cr
-   2002 \tab 1853 \tab 25 \tab 806 \tab - \tab 81 \tab - \tab 2765 \cr
-   2004 \tab 1936 \tab 31 \tab 756 \tab 2 \tab 87 \tab - \tab 2812 \cr
-   2006 \tab 2521 \tab 73 \tab 1681 \tab - \tab 235 \tab - \tab 4510 \cr
-   2008 \tab 658 \tab 38 \tab 1138 \tab - \tab 189 \tab - \tab 2023 \cr
-   2010 \tab 667 \tab 43 \tab 1141 \tab 3 \tab 190 \tab - \tab 2044 \cr
-   2012 \tab 636 \tab 38 \tab 1106 \tab 2 \tab 192 \tab - \tab 1974 \cr
-   2014 \tab 851 \tab 34 \tab 1412 \tab - \tab 241 \tab - \tab 2538 \cr
-   2016 \tab 911 \tab 45 \tab 1585 \tab 7 \tab 319 \tab - \tab 2867 \cr
-   2018 \tab 785 \tab 48 \tab 1260 \tab 2 \tab 253 \tab - \tab 2348 \cr
-   2021 \tab 1360 \tab 2 \tab 2074 \tab - \tab 560 \tab 36 \tab 4032 \cr
-   2022 \tab 1173 \tab 23 \tab 1878 \tab 4 \tab 454 \tab 12 \tab 3544 \cr
-   2024 \tab 1116 \tab 32 \tab 1701 \tab 4 \tab 436 \tab 20 \tab 3309 \cr
-   Total \tab 29521 \tab 954 \tab 39823 \tab 137 \tab 5196 \tab 68 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/672/vshow}{GSS Data Explorer page for \code{polmurdr}}.
 }
 
 \seealso{

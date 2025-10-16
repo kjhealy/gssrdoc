@@ -65,49 +65,9 @@ A. When you were 16 years old, were you living in this same (city/town/county)?
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/85/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllll}{
-   year \tab different state \tab no answer \tab same state, different city \tab same state, same city \tab don't know \tab iap \tab skipped on web \tab Total \cr
-   1972 \tab 522 \tab 51 \tab 316 \tab 724 \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 518 \tab 31 \tab 349 \tab 606 \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 429 \tab 46 \tab 394 \tab 615 \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 449 \tab 64 \tab 357 \tab 620 \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 454 \tab 37 \tab 374 \tab 634 \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 459 \tab 73 \tab 370 \tab 628 \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 468 \tab 10 \tab 434 \tab 619 \tab 1 \tab - \tab - \tab 1532 \cr
-   1980 \tab 446 \tab 6 \tab 386 \tab 630 \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 541 \tab 13 \tab 421 \tab 885 \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 485 \tab 21 \tab 379 \tab 714 \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 482 \tab 9 \tab 397 \tab 585 \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab 489 \tab 7 \tab 425 \tab 613 \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab 464 \tab 21 \tab 363 \tab 622 \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab 621 \tab 24 \tab 407 \tab 767 \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 497 \tab 15 \tab 372 \tab 596 \tab 1 \tab - \tab - \tab 1481 \cr
-   1989 \tab 503 \tab 9 \tab 403 \tab 622 \tab - \tab - \tab - \tab 1537 \cr
-   1990 \tab 428 \tab 12 \tab 391 \tab 541 \tab - \tab - \tab - \tab 1372 \cr
-   1991 \tab 492 \tab 7 \tab 402 \tab 616 \tab - \tab - \tab - \tab 1517 \cr
-   1993 \tab 515 \tab 3 \tab 426 \tab 662 \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab 1051 \tab 7 \tab 754 \tab 1180 \tab - \tab - \tab - \tab 2992 \cr
-   1996 \tab 1094 \tab 14 \tab 704 \tab 1092 \tab - \tab - \tab - \tab 2904 \cr
-   1998 \tab 988 \tab 15 \tab 728 \tab 1101 \tab - \tab - \tab - \tab 2832 \cr
-   2000 \tab 969 \tab 15 \tab 732 \tab 1100 \tab 1 \tab - \tab - \tab 2817 \cr
-   2002 \tab 912 \tab 2 \tab 698 \tab 1153 \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab 956 \tab 1 \tab 739 \tab 1116 \tab - \tab - \tab - \tab 2812 \cr
-   2006 \tab 1155 \tab 10 \tab 707 \tab 1120 \tab - \tab 1518 \tab - \tab 4510 \cr
-   2008 \tab 741 \tab - \tab 475 \tab 807 \tab - \tab - \tab - \tab 2023 \cr
-   2010 \tab 714 \tab 1 \tab 523 \tab 805 \tab 1 \tab - \tab - \tab 2044 \cr
-   2012 \tab 729 \tab 7 \tab 487 \tab 749 \tab 2 \tab - \tab - \tab 1974 \cr
-   2014 \tab 983 \tab - \tab 627 \tab 928 \tab - \tab - \tab - \tab 2538 \cr
-   2016 \tab 1014 \tab 1 \tab 806 \tab 1046 \tab - \tab - \tab - \tab 2867 \cr
-   2018 \tab 850 \tab - \tab 618 \tab 880 \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab 1297 \tab - \tab 1294 \tab 1087 \tab - \tab 354 \tab - \tab 4032 \cr
-   2022 \tab 1079 \tab - \tab 1104 \tab 1115 \tab 1 \tab 244 \tab 1 \tab 3544 \cr
-   2024 \tab 1192 \tab 6 \tab 1101 \tab 996 \tab 2 \tab - \tab 12 \tab 3309 \cr
-   Total \tab 24986 \tab 538 \tab 19463 \tab 28574 \tab 9 \tab 2116 \tab 13 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/85/vshow}{GSS Data Explorer page for \code{mobile16}}.
 }
 
 \seealso{

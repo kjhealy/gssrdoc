@@ -63,49 +63,9 @@ Would you say that your marriage is very happy, pretty happy, or not too happy?
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/435/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab don't know \tab no answer \tab not too happy \tab pretty happy \tab very happy \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 428 \tab 1 \tab 3 \tab 28 \tab 317 \tab 727 \tab - \tab 1504 \cr
-   1974 \tab 419 \tab 2 \tab 4 \tab 37 \tab 290 \tab 732 \tab - \tab 1484 \cr
-   1975 \tab 488 \tab 2 \tab 5 \tab 27 \tab 297 \tab 671 \tab - \tab 1490 \cr
-   1976 \tab 525 \tab - \tab 1 \tab 23 \tab 300 \tab 650 \tab - \tab 1499 \cr
-   1977 \tab 555 \tab 5 \tab 5 \tab 35 \tab 298 \tab 632 \tab - \tab 1530 \cr
-   1978 \tab 571 \tab 1 \tab 6 \tab 25 \tab 307 \tab 622 \tab - \tab 1532 \cr
-   1980 \tab 579 \tab 2 \tab 5 \tab 25 \tab 258 \tab 599 \tab - \tab 1468 \cr
-   1982 \tab 867 \tab 4 \tab 8 \tab 30 \tab 326 \tab 625 \tab - \tab 1860 \cr
-   1983 \tab 634 \tab - \tab 4 \tab 31 \tab 330 \tab 600 \tab - \tab 1599 \cr
-   1984 \tab 644 \tab - \tab 4 \tab 25 \tab 259 \tab 541 \tab - \tab 1473 \cr
-   1985 \tab 663 \tab 1 \tab 7 \tab 29 \tab 346 \tab 488 \tab - \tab 1534 \cr
-   1986 \tab 644 \tab 1 \tab 6 \tab 28 \tab 274 \tab 517 \tab - \tab 1470 \cr
-   1987 \tab 903 \tab - \tab 12 \tab 26 \tab 305 \tab 573 \tab - \tab 1819 \cr
-   1988 \tab 693 \tab - \tab 1 \tab 27 \tab 268 \tab 492 \tab - \tab 1481 \cr
-   1989 \tab 690 \tab 3 \tab 4 \tab 21 \tab 311 \tab 508 \tab - \tab 1537 \cr
-   1990 \tab 643 \tab 1 \tab 4 \tab 16 \tab 240 \tab 468 \tab - \tab 1372 \cr
-   1991 \tab 713 \tab 1 \tab 3 \tab 26 \tab 268 \tab 506 \tab - \tab 1517 \cr
-   1993 \tab 747 \tab 3 \tab 3 \tab 25 \tab 301 \tab 527 \tab - \tab 1606 \cr
-   1994 \tab 1451 \tab 4 \tab 8 \tab 47 \tab 555 \tab 927 \tab - \tab 2992 \cr
-   1996 \tab 1514 \tab 4 \tab 7 \tab 30 \tab 495 \tab 854 \tab - \tab 2904 \cr
-   1998 \tab 1486 \tab 1 \tab 8 \tab 37 \tab 445 \tab 855 \tab - \tab 2832 \cr
-   2000 \tab 1538 \tab 6 \tab 9 \tab 41 \tab 434 \tab 789 \tab - \tab 2817 \cr
-   2002 \tab 2161 \tab 1 \tab - \tab 18 \tab 215 \tab 370 \tab - \tab 2765 \cr
-   2004 \tab 2130 \tab - \tab 6 \tab 25 \tab 234 \tab 417 \tab - \tab 2812 \cr
-   2006 \tab 3094 \tab 1 \tab 5 \tab 37 \tab 512 \tab 861 \tab - \tab 4510 \cr
-   2008 \tab 1046 \tab 1 \tab 7 \tab 30 \tab 343 \tab 596 \tab - \tab 2023 \cr
-   2010 \tab 1152 \tab 2 \tab 4 \tab 28 \tab 314 \tab 544 \tab - \tab 2044 \cr
-   2012 \tab 1074 \tab - \tab 3 \tab 26 \tab 282 \tab 589 \tab - \tab 1974 \cr
-   2014 \tab 1376 \tab 2 \tab 5 \tab 39 \tab 425 \tab 691 \tab - \tab 2538 \cr
-   2016 \tab 1654 \tab 1 \tab 8 \tab 48 \tab 430 \tab 726 \tab - \tab 2867 \cr
-   2018 \tab 1348 \tab 1 \tab 7 \tab 30 \tab 324 \tab 638 \tab - \tab 2348 \cr
-   2021 \tab 2031 \tab - \tab 3 \tab 74 \tab 701 \tab 1211 \tab 12 \tab 4032 \cr
-   2022 \tab 2067 \tab 1 \tab 18 \tab 72 \tab 502 \tab 881 \tab 3 \tab 3544 \cr
-   2024 \tab 1938 \tab 1 \tab 14 \tab 45 \tab 504 \tab 802 \tab 5 \tab 3309 \cr
-   Total \tab 40079 \tab 53 \tab 197 \tab 1111 \tab 12010 \tab 22229 \tab 20 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/435/vshow}{GSS Data Explorer page for \code{hapmar}}.
 }
 
 \seealso{

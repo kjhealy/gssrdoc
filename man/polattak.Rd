@@ -58,49 +58,9 @@ D. Was attacking the policeman with his fists?
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/674/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 380 \tab 3 \tab 34 \tab 2 \tab 1085 \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 343 \tab 8 \tab 17 \tab 6 \tab 1116 \tab - \tab 1490 \cr
-   1976 \tab - \tab 10 \tab 77 \tab 4 \tab 1408 \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab - \tab 15 \tab 96 \tab 2 \tab 1419 \tab - \tab 1532 \cr
-   1980 \tab - \tab 16 \tab 66 \tab 6 \tab 1380 \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab - \tab 22 \tab 113 \tab 1 \tab 1463 \tab - \tab 1599 \cr
-   1984 \tab - \tab 20 \tab 94 \tab 5 \tab 1354 \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab - \tab 18 \tab 76 \tab 2 \tab 1374 \tab - \tab 1470 \cr
-   1987 \tab - \tab 31 \tab 127 \tab 6 \tab 1655 \tab - \tab 1819 \cr
-   1988 \tab 484 \tab 13 \tab 63 \tab 4 \tab 917 \tab - \tab 1481 \cr
-   1989 \tab 502 \tab 12 \tab 55 \tab 5 \tab 963 \tab - \tab 1537 \cr
-   1990 \tab 473 \tab 18 \tab 50 \tab 1 \tab 830 \tab - \tab 1372 \cr
-   1991 \tab 500 \tab 18 \tab 84 \tab 8 \tab 907 \tab - \tab 1517 \cr
-   1993 \tab 549 \tab 18 \tab 67 \tab 3 \tab 969 \tab - \tab 1606 \cr
-   1994 \tab 981 \tab 16 \tab 117 \tab 12 \tab 1866 \tab - \tab 2992 \cr
-   1996 \tab 979 \tab 27 \tab 139 \tab 3 \tab 1756 \tab - \tab 2904 \cr
-   1998 \tab 921 \tab 43 \tab 150 \tab 5 \tab 1713 \tab - \tab 2832 \cr
-   2000 \tab 921 \tab 35 \tab 159 \tab 8 \tab 1694 \tab - \tab 2817 \cr
-   2002 \tab 1853 \tab 16 \tab 85 \tab 1 \tab 810 \tab - \tab 2765 \cr
-   2004 \tab 1936 \tab 17 \tab 91 \tab 2 \tab 766 \tab - \tab 2812 \cr
-   2006 \tab 2521 \tab 39 \tab 211 \tab 1 \tab 1738 \tab - \tab 4510 \cr
-   2008 \tab 658 \tab 15 \tab 151 \tab - \tab 1199 \tab - \tab 2023 \cr
-   2010 \tab 667 \tab 22 \tab 189 \tab 3 \tab 1163 \tab - \tab 2044 \cr
-   2012 \tab 636 \tab 24 \tab 157 \tab - \tab 1157 \tab - \tab 1974 \cr
-   2014 \tab 851 \tab 24 \tab 207 \tab 1 \tab 1455 \tab - \tab 2538 \cr
-   2016 \tab 911 \tab 26 \tab 278 \tab 5 \tab 1647 \tab - \tab 2867 \cr
-   2018 \tab 785 \tab 32 \tab 218 \tab 2 \tab 1311 \tab - \tab 2348 \cr
-   2021 \tab 2719 \tab - \tab 279 \tab - \tab 1024 \tab 10 \tab 4032 \cr
-   2022 \tab 2353 \tab 5 \tab 268 \tab 5 \tab 908 \tab 5 \tab 3544 \cr
-   2024 \tab 2198 \tab 10 \tab 230 \tab - \tab 864 \tab 7 \tab 3309 \cr
-   Total \tab 33142 \tab 573 \tab 3948 \tab 103 \tab 37911 \tab 22 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/674/vshow}{GSS Data Explorer page for \code{polattak}}.
 }
 
 \seealso{

@@ -43,49 +43,9 @@ C. Would you approve of a man punching a stranger who had hit the man''s child a
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/667/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab not available in this year \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 489 \tab 27 \tab 470 \tab 7 \tab 511 \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 407 \tab 38 \tab 494 \tab 4 \tab 547 \tab - \tab 1490 \cr
-   1976 \tab - \tab 50 \tab 720 \tab 10 \tab 719 \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab - \tab 46 \tab 687 \tab 4 \tab 795 \tab - \tab 1532 \cr
-   1980 \tab - \tab 64 \tab 666 \tab 8 \tab 730 \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab - \tab 58 \tab 635 \tab 7 \tab 899 \tab - \tab 1599 \cr
-   1984 \tab - \tab 46 \tab 646 \tab 17 \tab 764 \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab - \tab 46 \tab 592 \tab 9 \tab 823 \tab - \tab 1470 \cr
-   1987 \tab - \tab 65 \tab 754 \tab 12 \tab 988 \tab - \tab 1819 \cr
-   1988 \tab 484 \tab 38 \tab 377 \tab 7 \tab 575 \tab - \tab 1481 \cr
-   1989 \tab 502 \tab 37 \tab 425 \tab 5 \tab 568 \tab - \tab 1537 \cr
-   1990 \tab 473 \tab 34 \tab 330 \tab 1 \tab 534 \tab - \tab 1372 \cr
-   1991 \tab 500 \tab 31 \tab 409 \tab 7 \tab 570 \tab - \tab 1517 \cr
-   1993 \tab 549 \tab 42 \tab 413 \tab 3 \tab 599 \tab - \tab 1606 \cr
-   1994 \tab 2481 \tab 7 \tab 212 \tab 2 \tab 290 \tab - \tab 2992 \cr
-   1996 \tab 2904 \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
-   1998 \tab 2832 \tab - \tab - \tab - \tab - \tab - \tab 2832 \cr
-   2000 \tab 2817 \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
-   2002 \tab 2765 \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab 2812 \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
-   2006 \tab 4510 \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
-   2008 \tab 2023 \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
-   2010 \tab 2044 \tab - \tab - \tab - \tab - \tab - \tab 2044 \cr
-   2012 \tab 1974 \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab 2538 \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
-   2016 \tab 2867 \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
-   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab 4032 \tab - \tab - \tab - \tab - \tab - \tab 4032 \cr
-   2022 \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab 3544 \cr
-   2024 \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
-   Total \tab 50372 \tab 629 \tab 7830 \tab 103 \tab 9912 \tab 6853 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/667/vshow}{GSS Data Explorer page for \code{hitchild}}.
 }
 
 \seealso{

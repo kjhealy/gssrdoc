@@ -63,49 +63,9 @@ Question B. During the last few years, has your financial situation been getting
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/573/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllll}{
-   year \tab better \tab don't know \tab no answer \tab stayed same \tab worse \tab iap \tab skipped on web \tab Total \cr
-   1972 \tab 687 \tab 8 \tab 15 \tab 615 \tab 288 \tab - \tab - \tab 1613 \cr
-   1973 \tab 618 \tab 1 \tab 41 \tab 605 \tab 239 \tab - \tab - \tab 1504 \cr
-   1974 \tab 583 \tab 4 \tab 6 \tab 571 \tab 320 \tab - \tab - \tab 1484 \cr
-   1975 \tab 520 \tab 6 \tab 5 \tab 541 \tab 418 \tab - \tab - \tab 1490 \cr
-   1976 \tab 538 \tab 3 \tab 3 \tab 614 \tab 341 \tab - \tab - \tab 1499 \cr
-   1977 \tab 582 \tab 7 \tab 6 \tab 604 \tab 331 \tab - \tab - \tab 1530 \cr
-   1978 \tab 633 \tab 5 \tab 1 \tab 607 \tab 286 \tab - \tab - \tab 1532 \cr
-   1980 \tab 502 \tab 2 \tab 4 \tab 589 \tab 371 \tab - \tab - \tab 1468 \cr
-   1982 \tab 554 \tab 5 \tab 6 \tab 725 \tab 570 \tab - \tab - \tab 1860 \cr
-   1983 \tab 553 \tab 15 \tab 12 \tab 593 \tab 426 \tab - \tab - \tab 1599 \cr
-   1984 \tab 568 \tab 4 \tab 8 \tab 577 \tab 316 \tab - \tab - \tab 1473 \cr
-   1985 \tab 590 \tab 4 \tab 3 \tab 605 \tab 332 \tab - \tab - \tab 1534 \cr
-   1986 \tab 590 \tab 4 \tab 6 \tab 557 \tab 313 \tab - \tab - \tab 1470 \cr
-   1987 \tab 710 \tab 5 \tab 7 \tab 755 \tab 342 \tab - \tab - \tab 1819 \cr
-   1988 \tab 593 \tab 4 \tab 4 \tab 608 \tab 272 \tab - \tab - \tab 1481 \cr
-   1989 \tab 654 \tab 2 \tab 5 \tab 603 \tab 273 \tab - \tab - \tab 1537 \cr
-   1990 \tab 527 \tab 3 \tab 2 \tab 558 \tab 282 \tab - \tab - \tab 1372 \cr
-   1991 \tab 529 \tab 4 \tab 6 \tab 644 \tab 334 \tab - \tab - \tab 1517 \cr
-   1993 \tab 552 \tab 9 \tab 4 \tab 619 \tab 422 \tab - \tab - \tab 1606 \cr
-   1994 \tab 1075 \tab 10 \tab 12 \tab 1221 \tab 674 \tab - \tab - \tab 2992 \cr
-   1996 \tab 1123 \tab 6 \tab 6 \tab 1159 \tab 610 \tab - \tab - \tab 2904 \cr
-   1998 \tab 1263 \tab 14 \tab 9 \tab 1103 \tab 443 \tab - \tab - \tab 2832 \cr
-   2000 \tab 1263 \tab 9 \tab 6 \tab 1065 \tab 474 \tab - \tab - \tab 2817 \cr
-   2002 \tab 558 \tab 2 \tab 1 \tab 494 \tab 317 \tab 1393 \tab - \tab 2765 \cr
-   2004 \tab 497 \tab 2 \tab 3 \tab 498 \tab 340 \tab 1472 \tab - \tab 2812 \cr
-   2006 \tab 1165 \tab 7 \tab 6 \tab 1150 \tab 664 \tab 1518 \tab - \tab 4510 \cr
-   2008 \tab 618 \tab 5 \tab 5 \tab 792 \tab 603 \tab - \tab - \tab 2023 \cr
-   2010 \tab 506 \tab 5 \tab 6 \tab 775 \tab 752 \tab - \tab - \tab 2044 \cr
-   2012 \tab 546 \tab 5 \tab 2 \tab 807 \tab 614 \tab - \tab - \tab 1974 \cr
-   2014 \tab 876 \tab 3 \tab 2 \tab 1030 \tab 627 \tab - \tab - \tab 2538 \cr
-   2016 \tab 1043 \tab 6 \tab 6 \tab 1203 \tab 609 \tab - \tab - \tab 2867 \cr
-   2018 \tab 969 \tab 5 \tab 4 \tab 987 \tab 383 \tab - \tab - \tab 2348 \cr
-   2021 \tab 1623 \tab 1 \tab - \tab 1587 \tab 811 \tab - \tab 10 \tab 4032 \cr
-   2022 \tab 1150 \tab 6 \tab 3 \tab 1319 \tab 1060 \tab - \tab 6 \tab 3544 \cr
-   2024 \tab 975 \tab 9 \tab 5 \tab 1271 \tab 1040 \tab - \tab 9 \tab 3309 \cr
-   Total \tab 26333 \tab 190 \tab 220 \tab 28051 \tab 16497 \tab 4383 \tab 25 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/573/vshow}{GSS Data Explorer page for \code{finalter}}.
 }
 
 \seealso{

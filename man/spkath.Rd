@@ -59,49 +59,9 @@ A. If such a person wanted to make a speech in your (city/town/community) agains
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/246/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllll}{
-   year \tab don't know \tab not allowed \tab yes, allowed to speak \tab no answer \tab iap \tab skipped on web \tab Total \cr
-   1972 \tab 37 \tab 527 \tab 1049 \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 10 \tab 511 \tab 982 \tab 1 \tab - \tab - \tab 1504 \cr
-   1974 \tab 20 \tab 547 \tab 915 \tab 2 \tab - \tab - \tab 1484 \cr
-   1975 \tab - \tab - \tab - \tab - \tab 1490 \tab - \tab 1490 \cr
-   1976 \tab 16 \tab 524 \tab 959 \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 9 \tab 566 \tab 952 \tab 3 \tab - \tab - \tab 1530 \cr
-   1978 \tab - \tab - \tab - \tab - \tab 1532 \tab - \tab 1532 \cr
-   1980 \tab 12 \tab 485 \tab 971 \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 35 \tab 684 \tab 1140 \tab 1 \tab - \tab - \tab 1860 \cr
-   1983 \tab - \tab - \tab - \tab - \tab 1599 \tab - \tab 1599 \cr
-   1984 \tab 8 \tab 459 \tab 1002 \tab 4 \tab - \tab - \tab 1473 \cr
-   1985 \tab 22 \tab 519 \tab 991 \tab 2 \tab - \tab - \tab 1534 \cr
-   1986 \tab - \tab - \tab - \tab - \tab 1470 \tab - \tab 1470 \cr
-   1987 \tab 13 \tab 564 \tab 1236 \tab 6 \tab - \tab - \tab 1819 \cr
-   1988 \tab 15 \tab 280 \tab 681 \tab 1 \tab 504 \tab - \tab 1481 \cr
-   1989 \tab 11 \tab 280 \tab 740 \tab 2 \tab 504 \tab - \tab 1537 \cr
-   1990 \tab 15 \tab 236 \tab 663 \tab 3 \tab 455 \tab - \tab 1372 \cr
-   1991 \tab 11 \tab 266 \tab 713 \tab 3 \tab 524 \tab - \tab 1517 \cr
-   1993 \tab 19 \tab 290 \tab 764 \tab 2 \tab 531 \tab - \tab 1606 \cr
-   1994 \tab 21 \tab 520 \tab 1451 \tab 4 \tab 996 \tab - \tab 2992 \cr
-   1996 \tab 27 \tab 483 \tab 1409 \tab 4 \tab 981 \tab - \tab 2904 \cr
-   1998 \tab 29 \tab 457 \tab 1393 \tab 3 \tab 950 \tab - \tab 2832 \cr
-   2000 \tab 25 \tab 450 \tab 1381 \tab 5 \tab 956 \tab - \tab 2817 \cr
-   2002 \tab 8 \tab 206 \tab 710 \tab - \tab 1841 \tab - \tab 2765 \cr
-   2004 \tab 7 \tab 200 \tab 689 \tab 2 \tab 1914 \tab - \tab 2812 \cr
-   2006 \tab 12 \tab 438 \tab 1553 \tab - \tab 2507 \tab - \tab 4510 \cr
-   2008 \tab 11 \tab 315 \tab 1021 \tab 5 \tab 671 \tab - \tab 2023 \cr
-   2010 \tab 11 \tab 312 \tab 956 \tab 2 \tab 763 \tab - \tab 2044 \cr
-   2012 \tab 15 \tab 281 \tab 1011 \tab 1 \tab 666 \tab - \tab 1974 \cr
-   2014 \tab 12 \tab 351 \tab 1345 \tab 6 \tab 824 \tab - \tab 2538 \cr
-   2016 \tab 11 \tab 378 \tab 1493 \tab 8 \tab 977 \tab - \tab 2867 \cr
-   2018 \tab 8 \tab 309 \tab 1253 \tab 4 \tab 774 \tab - \tab 2348 \cr
-   2021 \tab 1 \tab 244 \tab 1068 \tab - \tab 2714 \tab 5 \tab 4032 \cr
-   2022 \tab 11 \tab 238 \tab 909 \tab 1 \tab 2380 \tab 5 \tab 3544 \cr
-   2024 \tab 9 \tab 234 \tab 899 \tab - \tab 2163 \tab 4 \tab 3309 \cr
-   Total \tab 471 \tab 12154 \tab 32299 \tab 75 \tab 30686 \tab 14 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/246/vshow}{GSS Data Explorer page for \code{spkath}}.
 }
 
 \seealso{

@@ -31,49 +31,9 @@ B. Should such a person be allowed to teach in a college or university, or not?
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/250/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllll}{
-   year \tab allowed \tab don't know \tab no answer \tab not allowed \tab iap \tab not available in this year \tab Total \cr
-   1972 \tab 899 \tab 114 \tab 5 \tab 595 \tab - \tab - \tab 1613 \cr
-   1973 \tab 863 \tab 78 \tab 5 \tab 558 \tab - \tab - \tab 1504 \cr
-   1974 \tab 847 \tab 81 \tab 4 \tab 552 \tab - \tab - \tab 1484 \cr
-   1975 \tab - \tab - \tab - \tab - \tab 1490 \tab - \tab 1490 \cr
-   1976 \tab - \tab - \tab - \tab - \tab 1499 \tab - \tab 1499 \cr
-   1977 \tab - \tab - \tab - \tab - \tab 1530 \tab - \tab 1530 \cr
-   1978 \tab - \tab - \tab - \tab - \tab 1532 \tab - \tab 1532 \cr
-   1980 \tab - \tab - \tab - \tab - \tab 1468 \tab - \tab 1468 \cr
-   1982 \tab - \tab - \tab - \tab - \tab 1860 \tab - \tab 1860 \cr
-   1983 \tab - \tab - \tab - \tab - \tab 1599 \tab - \tab 1599 \cr
-   1984 \tab - \tab - \tab - \tab - \tab 1473 \tab - \tab 1473 \cr
-   1985 \tab - \tab - \tab - \tab - \tab 1534 \tab - \tab 1534 \cr
-   1986 \tab - \tab - \tab - \tab - \tab 1470 \tab - \tab 1470 \cr
-   1987 \tab - \tab - \tab - \tab - \tab 1819 \tab - \tab 1819 \cr
-   1988 \tab - \tab - \tab - \tab - \tab 1481 \tab - \tab 1481 \cr
-   1989 \tab - \tab - \tab - \tab - \tab 1537 \tab - \tab 1537 \cr
-   1990 \tab - \tab - \tab - \tab - \tab 1372 \tab - \tab 1372 \cr
-   1991 \tab - \tab - \tab - \tab - \tab 1517 \tab - \tab 1517 \cr
-   1993 \tab - \tab - \tab - \tab - \tab 1606 \tab - \tab 1606 \cr
-   1994 \tab - \tab - \tab - \tab - \tab 2992 \tab - \tab 2992 \cr
-   1996 \tab - \tab - \tab - \tab - \tab 2904 \tab - \tab 2904 \cr
-   1998 \tab - \tab - \tab - \tab - \tab 2832 \tab - \tab 2832 \cr
-   2000 \tab - \tab - \tab - \tab - \tab 2817 \tab - \tab 2817 \cr
-   2002 \tab - \tab - \tab - \tab - \tab 2765 \tab - \tab 2765 \cr
-   2004 \tab - \tab - \tab - \tab - \tab 2812 \tab - \tab 2812 \cr
-   2006 \tab - \tab - \tab - \tab - \tab 4510 \tab - \tab 4510 \cr
-   2008 \tab - \tab - \tab - \tab - \tab 2023 \tab - \tab 2023 \cr
-   2010 \tab - \tab - \tab - \tab - \tab 2044 \tab - \tab 2044 \cr
-   2012 \tab - \tab - \tab - \tab - \tab 1974 \tab - \tab 1974 \cr
-   2014 \tab - \tab - \tab - \tab - \tab 2538 \tab - \tab 2538 \cr
-   2016 \tab - \tab - \tab - \tab - \tab 2867 \tab - \tab 2867 \cr
-   2018 \tab - \tab - \tab - \tab - \tab 2348 \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab 4032 \tab - \tab 4032 \cr
-   2022 \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab 3544 \cr
-   2024 \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
-   Total \tab 2609 \tab 273 \tab 14 \tab 1705 \tab 64245 \tab 6853 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/250/vshow}{GSS Data Explorer page for \code{colsoc}}.
 }
 
 \seealso{

@@ -56,49 +56,9 @@ C. If some people in your community suggested that a book he wrote in favor of h
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/263/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab don't know \tab no answer \tab not remove \tab remove \tab skipped on web \tab not available in this year \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab - \tab 39 \tab 2 \tab 804 \tab 659 \tab - \tab - \tab 1504 \cr
-   1974 \tab - \tab 58 \tab 5 \tab 813 \tab 608 \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab - \tab 53 \tab 2 \tab 830 \tab 614 \tab - \tab - \tab 1499 \cr
-   1977 \tab - \tab 51 \tab 4 \tab 844 \tab 631 \tab - \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab - \tab 32 \tab 2 \tab 853 \tab 581 \tab - \tab - \tab 1468 \cr
-   1982 \tab - \tab 78 \tab 10 \tab 1005 \tab 767 \tab - \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab - \tab 43 \tab 5 \tab 873 \tab 552 \tab - \tab - \tab 1473 \cr
-   1985 \tab - \tab 45 \tab 5 \tab 848 \tab 636 \tab - \tab - \tab 1534 \cr
-   1986 \tab 1470 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab - \tab 46 \tab 6 \tab 1028 \tab 739 \tab - \tab - \tab 1819 \cr
-   1988 \tab 504 \tab 35 \tab 3 \tab 589 \tab 350 \tab - \tab - \tab 1481 \cr
-   1989 \tab 504 \tab 32 \tab 5 \tab 659 \tab 337 \tab - \tab - \tab 1537 \cr
-   1990 \tab 455 \tab 25 \tab 3 \tab 586 \tab 303 \tab - \tab - \tab 1372 \cr
-   1991 \tab 524 \tab 29 \tab 4 \tab 678 \tab 282 \tab - \tab - \tab 1517 \cr
-   1993 \tab 531 \tab 45 \tab 4 \tab 713 \tab 313 \tab - \tab - \tab 1606 \cr
-   1994 \tab 996 \tab 61 \tab 7 \tab 1366 \tab 562 \tab - \tab - \tab 2992 \cr
-   1996 \tab 981 \tab 57 \tab 5 \tab 1325 \tab 536 \tab - \tab - \tab 2904 \cr
-   1998 \tab 950 \tab 83 \tab 4 \tab 1316 \tab 479 \tab - \tab - \tab 2832 \cr
-   2000 \tab 956 \tab 61 \tab 5 \tab 1319 \tab 476 \tab - \tab - \tab 2817 \cr
-   2002 \tab 1841 \tab 21 \tab 3 \tab 694 \tab 206 \tab - \tab - \tab 2765 \cr
-   2004 \tab 1914 \tab 8 \tab 3 \tab 653 \tab 234 \tab - \tab - \tab 2812 \cr
-   2006 \tab 2507 \tab 33 \tab 4 \tab 1495 \tab 471 \tab - \tab - \tab 4510 \cr
-   2008 \tab 671 \tab 26 \tab 2 \tab 1010 \tab 314 \tab - \tab - \tab 2023 \cr
-   2010 \tab 763 \tab 15 \tab 8 \tab 985 \tab 273 \tab - \tab - \tab 2044 \cr
-   2012 \tab 666 \tab 22 \tab 8 \tab 1007 \tab 271 \tab - \tab - \tab 1974 \cr
-   2014 \tab 824 \tab 19 \tab 7 \tab 1370 \tab 318 \tab - \tab - \tab 2538 \cr
-   2016 \tab 977 \tab 23 \tab 8 \tab 1537 \tab 322 \tab - \tab - \tab 2867 \cr
-   2018 \tab 774 \tab 25 \tab 5 \tab 1305 \tab 239 \tab - \tab - \tab 2348 \cr
-   2021 \tab 2714 \tab 1 \tab 1 \tab 1134 \tab 174 \tab 8 \tab - \tab 4032 \cr
-   2022 \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab 3544 \cr
-   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
-   Total \tab 27756 \tab 1066 \tab 130 \tab 27639 \tab 12247 \tab 8 \tab 6853 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/263/vshow}{GSS Data Explorer page for \code{libhomo}}.
 }
 
 \seealso{

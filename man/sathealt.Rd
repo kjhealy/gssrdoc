@@ -51,49 +51,9 @@ E. Your health and physical condition.
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/447/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab a fair amount \tab a little \tab don't know \tab great deal \tab no answer \tab none \tab quite a bit \tab some \tab very great deal \tab not available in this year \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab - \tab 254 \tab 49 \tab 1 \tab 468 \tab 2 \tab 47 \tab 178 \tab 73 \tab 432 \tab - \tab 1504 \cr
-   1974 \tab - \tab 234 \tab 49 \tab 2 \tab 487 \tab - \tab 31 \tab 197 \tab 68 \tab 416 \tab - \tab 1484 \cr
-   1975 \tab - \tab 207 \tab 59 \tab 1 \tab 524 \tab 6 \tab 29 \tab 220 \tab 70 \tab 374 \tab - \tab 1490 \cr
-   1976 \tab - \tab 243 \tab 51 \tab 3 \tab 528 \tab 2 \tab 31 \tab 219 \tab 58 \tab 364 \tab - \tab 1499 \cr
-   1977 \tab - \tab 219 \tab 64 \tab 3 \tab 471 \tab 3 \tab 46 \tab 207 \tab 64 \tab 453 \tab - \tab 1530 \cr
-   1978 \tab - \tab 243 \tab 59 \tab 1 \tab 537 \tab 6 \tab 24 \tab 232 \tab 68 \tab 362 \tab - \tab 1532 \cr
-   1980 \tab - \tab 184 \tab 61 \tab 4 \tab 513 \tab - \tab 29 \tab 198 \tab 58 \tab 421 \tab - \tab 1468 \cr
-   1982 \tab - \tab 228 \tab 74 \tab 6 \tab 501 \tab 4 \tab 41 \tab 249 \tab 102 \tab 655 \tab - \tab 1860 \cr
-   1983 \tab - \tab 249 \tab 65 \tab 7 \tab 521 \tab 4 \tab 27 \tab 275 \tab 74 \tab 377 \tab - \tab 1599 \cr
-   1984 \tab - \tab 200 \tab 49 \tab 3 \tab 500 \tab 7 \tab 23 \tab 211 \tab 57 \tab 423 \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab - \tab 221 \tab 70 \tab 5 \tab 469 \tab 14 \tab 40 \tab 239 \tab 77 \tab 335 \tab - \tab 1470 \cr
-   1987 \tab - \tab 267 \tab 54 \tab 2 \tab 597 \tab 11 \tab 39 \tab 280 \tab 82 \tab 487 \tab - \tab 1819 \cr
-   1988 \tab 484 \tab 149 \tab 42 \tab 3 \tab 346 \tab 2 \tab 11 \tab 164 \tab 39 \tab 241 \tab - \tab 1481 \cr
-   1989 \tab 502 \tab 170 \tab 30 \tab - \tab 324 \tab 6 \tab 22 \tab 174 \tab 48 \tab 261 \tab - \tab 1537 \cr
-   1990 \tab 473 \tab 130 \tab 31 \tab - \tab 312 \tab 3 \tab 14 \tab 137 \tab 47 \tab 225 \tab - \tab 1372 \cr
-   1991 \tab 500 \tab 173 \tab 49 \tab 2 \tab 329 \tab 1 \tab 18 \tab 160 \tab 47 \tab 238 \tab - \tab 1517 \cr
-   1993 \tab 549 \tab 156 \tab 52 \tab 4 \tab 343 \tab 3 \tab 25 \tab 197 \tab 37 \tab 240 \tab - \tab 1606 \cr
-   1994 \tab 2481 \tab 72 \tab 22 \tab 1 \tab 174 \tab 1 \tab 8 \tab 81 \tab 30 \tab 122 \tab - \tab 2992 \cr
-   1996 \tab 2904 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
-   1998 \tab 2832 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2832 \cr
-   2000 \tab 2817 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
-   2002 \tab 2765 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab 2812 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
-   2006 \tab 4510 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
-   2008 \tab 2023 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
-   2010 \tab 2044 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2044 \cr
-   2012 \tab 1974 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab 2538 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
-   2016 \tab 2867 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
-   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab 4032 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \cr
-   2022 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab 3544 \cr
-   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
-   Total \tab 44602 \tab 3599 \tab 930 \tab 48 \tab 7944 \tab 75 \tab 505 \tab 3618 \tab 1099 \tab 6426 \tab 6853 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/447/vshow}{GSS Data Explorer page for \code{sathealt}}.
 }
 
 \seealso{

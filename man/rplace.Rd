@@ -66,49 +66,9 @@ As of 2024, RPLACE has been recoded to only account for five categories, combini
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/5436/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllllllllll}{
-   year \tab not available in this year \tab child (natural, adopted, step) \tab head of household \tab no answer \tab non-relative \tab other relative \tab parent/parent-in-law \tab son-/daughter-in-law \tab spouse \tab grand/great-grandchild \tab iap \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab - \tab 48 \tab 410 \tab 755 \tab 12 \tab 6 \tab 2 \tab 1 \tab 256 \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab - \tab 41 \tab 429 \tab 755 \tab 11 \tab 9 \tab 1 \tab 1 \tab 252 \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab - \tab 107 \tab 872 \tab 2 \tab 20 \tab 8 \tab 14 \tab 1 \tab 502 \tab 4 \tab - \tab - \tab 1530 \cr
-   1978 \tab - \tab 90 \tab 897 \tab 4 \tab 29 \tab 11 \tab 8 \tab 1 \tab 486 \tab 6 \tab - \tab - \tab 1532 \cr
-   1980 \tab - \tab 85 \tab 875 \tab 7 \tab 30 \tab 10 \tab 8 \tab 2 \tab 450 \tab 1 \tab - \tab - \tab 1468 \cr
-   1982 \tab - \tab 145 \tab 1115 \tab 15 \tab 46 \tab 16 \tab 13 \tab 3 \tab 504 \tab 3 \tab - \tab - \tab 1860 \cr
-   1983 \tab - \tab 99 \tab 946 \tab 9 \tab 33 \tab 13 \tab 9 \tab 4 \tab 484 \tab 2 \tab - \tab - \tab 1599 \cr
-   1984 \tab - \tab 95 \tab 859 \tab 5 \tab 45 \tab 9 \tab 8 \tab 4 \tab 447 \tab 1 \tab - \tab - \tab 1473 \cr
-   1985 \tab - \tab 82 \tab 937 \tab 2 \tab 52 \tab 8 \tab 9 \tab 2 \tab 441 \tab 1 \tab - \tab - \tab 1534 \cr
-   1986 \tab - \tab 91 \tab 849 \tab 2 \tab 45 \tab 16 \tab 10 \tab 3 \tab 451 \tab 3 \tab - \tab - \tab 1470 \cr
-   1987 \tab - \tab 107 \tab 1130 \tab 20 \tab 64 \tab 28 \tab 5 \tab 2 \tab 456 \tab 7 \tab - \tab - \tab 1819 \cr
-   1988 \tab - \tab 84 \tab 911 \tab 3 \tab 55 \tab 16 \tab 5 \tab 1 \tab 402 \tab 4 \tab - \tab - \tab 1481 \cr
-   1989 \tab - \tab 93 \tab 923 \tab 28 \tab 63 \tab 17 \tab 6 \tab 2 \tab 400 \tab 5 \tab - \tab - \tab 1537 \cr
-   1990 \tab - \tab 77 \tab 882 \tab 6 \tab 45 \tab 9 \tab 3 \tab 1 \tab 344 \tab 5 \tab - \tab - \tab 1372 \cr
-   1991 \tab - \tab 69 \tab 954 \tab 9 \tab 52 \tab 12 \tab 4 \tab 1 \tab 413 \tab 3 \tab - \tab - \tab 1517 \cr
-   1993 \tab - \tab 95 \tab 1000 \tab 4 \tab 64 \tab 19 \tab 5 \tab 2 \tab 416 \tab 1 \tab - \tab - \tab 1606 \cr
-   1994 \tab - \tab 154 \tab 1940 \tab 11 \tab 97 \tab 27 \tab 10 \tab 5 \tab 740 \tab 8 \tab - \tab - \tab 2992 \cr
-   1996 \tab - \tab 146 \tab 1906 \tab 61 \tab 99 \tab 29 \tab 9 \tab 10 \tab 640 \tab 4 \tab - \tab - \tab 2904 \cr
-   1998 \tab - \tab 136 \tab 1872 \tab 44 \tab 100 \tab 17 \tab 9 \tab 4 \tab 649 \tab 1 \tab - \tab - \tab 2832 \cr
-   2000 \tab - \tab 106 \tab 1982 \tab 53 \tab 107 \tab 19 \tab 11 \tab 2 \tab 527 \tab 10 \tab - \tab - \tab 2817 \cr
-   2002 \tab - \tab 151 \tab 1904 \tab 3 \tab 125 \tab 29 \tab 6 \tab 6 \tab 536 \tab 5 \tab - \tab - \tab 2765 \cr
-   2004 \tab - \tab 156 \tab 1863 \tab 3 \tab 106 \tab 25 \tab 14 \tab 7 \tab 631 \tab 7 \tab - \tab - \tab 2812 \cr
-   2006 \tab - \tab 226 \tab 3050 \tab 2 \tab 204 \tab 41 \tab 15 \tab 7 \tab 958 \tab 7 \tab - \tab - \tab 4510 \cr
-   2008 \tab - \tab 122 \tab 1365 \tab 5 \tab 74 \tab 26 \tab 5 \tab 1 \tab 421 \tab 4 \tab - \tab - \tab 2023 \cr
-   2010 \tab - \tab 131 \tab 1407 \tab 4 \tab 90 \tab 51 \tab 4 \tab - \tab 354 \tab 3 \tab - \tab - \tab 2044 \cr
-   2012 \tab - \tab 147 \tab 1309 \tab 4 \tab 76 \tab 50 \tab 8 \tab - \tab 378 \tab 2 \tab - \tab - \tab 1974 \cr
-   2014 \tab - \tab 180 \tab 1718 \tab 1 \tab 100 \tab 54 \tab 3 \tab 1 \tab 478 \tab 3 \tab - \tab - \tab 2538 \cr
-   2016 \tab - \tab 198 \tab 1952 \tab 2 \tab 104 \tab 80 \tab 8 \tab - \tab 519 \tab 4 \tab - \tab - \tab 2867 \cr
-   2018 \tab - \tab 161 \tab 1596 \tab 2 \tab 113 \tab 23 \tab 20 \tab 13 \tab 414 \tab 6 \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab 133 \tab 3076 \tab 202 \tab 150 \tab 25 \tab 17 \tab 2 \tab 394 \tab 8 \tab 10 \tab 15 \tab 4032 \cr
-   2022 \tab - \tab 92 \tab 1361 \tab 19 \tab 79 \tab 20 \tab 14 \tab 6 \tab 184 \tab 3 \tab 1764 \tab 2 \tab 3544 \cr
-   2024 \tab 3309 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \cr
-   Total \tab 7910 \tab 3647 \tab 42290 \tab 2042 \tab 2290 \tab 723 \tab 263 \tab 95 \tab 14527 \tab 121 \tab 1774 \tab 17 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/5436/vshow}{GSS Data Explorer page for \code{rplace}}.
 }
 
 \seealso{

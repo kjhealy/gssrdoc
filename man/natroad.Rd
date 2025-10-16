@@ -54,49 +54,9 @@ L. Highways and bridges
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/192/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab about right \tab don't know \tab no answer \tab too little \tab too much \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 484 \tab 419 \tab 37 \tab 16 \tab 452 \tab 65 \tab - \tab 1473 \cr
-   1985 \tab - \tab 705 \tab 76 \tab 10 \tab 627 \tab 116 \tab - \tab 1534 \cr
-   1986 \tab - \tab 760 \tab 66 \tab 11 \tab 511 \tab 122 \tab - \tab 1470 \cr
-   1987 \tab - \tab 917 \tab 103 \tab 24 \tab 606 \tab 169 \tab - \tab 1819 \cr
-   1988 \tab - \tab 758 \tab 63 \tab 22 \tab 527 \tab 111 \tab - \tab 1481 \cr
-   1989 \tab - \tab 739 \tab 96 \tab 13 \tab 583 \tab 106 \tab - \tab 1537 \cr
-   1990 \tab - \tab 586 \tab 87 \tab 21 \tab 592 \tab 86 \tab - \tab 1372 \cr
-   1991 \tab - \tab 749 \tab 82 \tab 20 \tab 511 \tab 155 \tab - \tab 1517 \cr
-   1993 \tab - \tab 764 \tab 80 \tab 15 \tab 603 \tab 144 \tab - \tab 1606 \cr
-   1994 \tab - \tab 1452 \tab 128 \tab 49 \tab 1141 \tab 222 \tab - \tab 2992 \cr
-   1996 \tab - \tab 1398 \tab 169 \tab 63 \tab 1018 \tab 256 \tab - \tab 2904 \cr
-   1998 \tab - \tab 1333 \tab 131 \tab 14 \tab 1082 \tab 272 \tab - \tab 2832 \cr
-   2000 \tab - \tab 1398 \tab 129 \tab 12 \tab 954 \tab 324 \tab - \tab 2817 \cr
-   2002 \tab - \tab 1377 \tab 98 \tab 3 \tab 950 \tab 337 \tab - \tab 2765 \cr
-   2004 \tab - \tab 1532 \tab 74 \tab 2 \tab 844 \tab 360 \tab - \tab 2812 \cr
-   2006 \tab 1518 \tab 1507 \tab 90 \tab 3 \tab 1049 \tab 343 \tab - \tab 4510 \cr
-   2008 \tab - \tab 847 \tab 66 \tab - \tab 917 \tab 193 \tab - \tab 2023 \cr
-   2010 \tab - \tab 888 \tab 56 \tab 2 \tab 887 \tab 211 \tab - \tab 2044 \cr
-   2012 \tab - \tab 825 \tab 54 \tab - \tab 847 \tab 248 \tab - \tab 1974 \cr
-   2014 \tab - \tab 1020 \tab 55 \tab 1 \tab 1161 \tab 301 \tab - \tab 2538 \cr
-   2016 \tab - \tab 1112 \tab 44 \tab 3 \tab 1423 \tab 285 \tab - \tab 2867 \cr
-   2018 \tab - \tab 817 \tab 39 \tab - \tab 1283 \tab 209 \tab - \tab 2348 \cr
-   2021 \tab - \tab 1504 \tab 6 \tab - \tab 2281 \tab 219 \tab 22 \tab 4032 \cr
-   2022 \tab - \tab 1269 \tab 50 \tab 1 \tab 1885 \tab 334 \tab 5 \tab 3544 \cr
-   2024 \tab - \tab 1207 \tab 51 \tab 1 \tab 1729 \tab 308 \tab 13 \tab 3309 \cr
-   Total \tab 17581 \tab 25883 \tab 1930 \tab 306 \tab 24463 \tab 5496 \tab 40 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/192/vshow}{GSS Data Explorer page for \code{natroad}}.
 }
 
 \seealso{

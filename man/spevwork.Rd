@@ -63,49 +63,9 @@ C. IF RETIRED, IN SCHOOL, KEEPING HOUSE, OR OTHER:  Did (he/she) ever work for a
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/26/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab no \tab no answer \tab yes \tab don't know \tab skipped on web \tab Total \cr
-   1972 \tab 1145 \tab 127 \tab 1 \tab 340 \tab - \tab - \tab 1613 \cr
-   1973 \tab 1108 \tab 108 \tab 1 \tab 286 \tab 1 \tab - \tab 1504 \cr
-   1974 \tab 1091 \tab 104 \tab - \tab 288 \tab 1 \tab - \tab 1484 \cr
-   1975 \tab 1131 \tab 83 \tab - \tab 276 \tab - \tab - \tab 1490 \cr
-   1976 \tab 1122 \tab 87 \tab 2 \tab 287 \tab 1 \tab - \tab 1499 \cr
-   1977 \tab 1170 \tab 83 \tab 1 \tab 275 \tab 1 \tab - \tab 1530 \cr
-   1978 \tab 1202 \tab 82 \tab 2 \tab 245 \tab 1 \tab - \tab 1532 \cr
-   1980 \tab 1166 \tab 61 \tab 2 \tab 239 \tab - \tab - \tab 1468 \cr
-   1982 \tab 1519 \tab 72 \tab 2 \tab 266 \tab 1 \tab - \tab 1860 \cr
-   1983 \tab 1284 \tab 70 \tab 1 \tab 244 \tab - \tab - \tab 1599 \cr
-   1984 \tab 1210 \tab 43 \tab 1 \tab 219 \tab - \tab - \tab 1473 \cr
-   1985 \tab 1233 \tab 46 \tab - \tab 255 \tab - \tab - \tab 1534 \cr
-   1986 \tab 1189 \tab 54 \tab 2 \tab 223 \tab 2 \tab - \tab 1470 \cr
-   1987 \tab 1548 \tab 46 \tab 4 \tab 220 \tab 1 \tab - \tab 1819 \cr
-   1988 \tab 1201 \tab 49 \tab 4 \tab 227 \tab - \tab - \tab 1481 \cr
-   1989 \tab 1270 \tab 44 \tab 3 \tab 219 \tab 1 \tab - \tab 1537 \cr
-   1990 \tab 1130 \tab 39 \tab 3 \tab 200 \tab - \tab - \tab 1372 \cr
-   1991 \tab 1247 \tab 33 \tab - \tab 235 \tab 2 \tab - \tab 1517 \cr
-   1993 \tab 1353 \tab 34 \tab 5 \tab 214 \tab - \tab - \tab 1606 \cr
-   1994 \tab 2531 \tab 70 \tab 1 \tab 389 \tab 1 \tab - \tab 2992 \cr
-   1996 \tab 2534 \tab 50 \tab 5 \tab 315 \tab - \tab - \tab 2904 \cr
-   1998 \tab 2466 \tab 40 \tab 8 \tab 317 \tab 1 \tab - \tab 2832 \cr
-   2000 \tab 2452 \tab 65 \tab 9 \tab 286 \tab 5 \tab - \tab 2817 \cr
-   2002 \tab 2405 \tab 49 \tab 2 \tab 307 \tab 2 \tab - \tab 2765 \cr
-   2004 \tab 2375 \tab 72 \tab 11 \tab 353 \tab 1 \tab - \tab 2812 \cr
-   2006 \tab 3811 \tab 130 \tab 12 \tab 556 \tab 1 \tab - \tab 4510 \cr
-   2008 \tab 1717 \tab 31 \tab 10 \tab 265 \tab - \tab - \tab 2023 \cr
-   2010 \tab 1727 \tab 35 \tab 8 \tab 274 \tab - \tab - \tab 2044 \cr
-   2012 \tab 1679 \tab 46 \tab 2 \tab 246 \tab 1 \tab - \tab 1974 \cr
-   2014 \tab 2150 \tab 58 \tab 5 \tab 325 \tab - \tab - \tab 2538 \cr
-   2016 \tab 2454 \tab 37 \tab 9 \tab 366 \tab 1 \tab - \tab 2867 \cr
-   2018 \tab 2028 \tab 30 \tab 8 \tab 282 \tab - \tab - \tab 2348 \cr
-   2021 \tab 3250 \tab 69 \tab 2 \tab 688 \tab 15 \tab 8 \tab 4032 \cr
-   2022 \tab 3001 \tab 49 \tab 10 \tab 478 \tab 1 \tab 5 \tab 3544 \cr
-   2024 \tab 2765 \tab 60 \tab 2 \tab 473 \tab 4 \tab 5 \tab 3309 \cr
-   Total \tab 62664 \tab 2156 \tab 138 \tab 10678 \tab 45 \tab 18 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/26/vshow}{GSS Data Explorer page for \code{spevwork}}.
 }
 
 \seealso{

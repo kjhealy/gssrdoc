@@ -47,49 +47,9 @@ Question Are the people who work where you work all white, mostly white, about h
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/1249/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab about half and half \tab all black \tab all white \tab don't know \tab mostly black \tab mostly white \tab no answer \tab works alone \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab 1470 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab 1819 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 1481 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1481 \cr
-   1989 \tab 1537 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1537 \cr
-   1990 \tab 495 \tab 98 \tab 8 \tab 276 \tab 58 \tab 25 \tab 387 \tab 24 \tab 1 \tab - \tab 1372 \cr
-   1991 \tab 1517 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
-   1993 \tab 1606 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab 2992 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2992 \cr
-   1996 \tab 2199 \tab 130 \tab 6 \tab 182 \tab 8 \tab 25 \tab 333 \tab 21 \tab - \tab - \tab 2904 \cr
-   1998 \tab 1564 \tab 224 \tab 13 \tab 366 \tab 17 \tab 46 \tab 581 \tab 21 \tab - \tab - \tab 2832 \cr
-   2000 \tab 1581 \tab 242 \tab 8 \tab 314 \tab 15 \tab 59 \tab 574 \tab 24 \tab - \tab - \tab 2817 \cr
-   2002 \tab 2156 \tab 117 \tab 7 \tab 155 \tab 10 \tab 28 \tab 291 \tab 1 \tab - \tab - \tab 2765 \cr
-   2004 \tab 2220 \tab 131 \tab 3 \tab 163 \tab 6 \tab 25 \tab 259 \tab 5 \tab - \tab - \tab 2812 \cr
-   2006 \tab 3264 \tab 307 \tab 7 \tab 290 \tab 33 \tab 52 \tab 548 \tab 9 \tab - \tab - \tab 4510 \cr
-   2008 \tab 1198 \tab 229 \tab 8 \tab 168 \tab 30 \tab 49 \tab 336 \tab 5 \tab - \tab - \tab 2023 \cr
-   2010 \tab 1284 \tab 167 \tab 4 \tab 159 \tab 30 \tab 37 \tab 358 \tab 5 \tab - \tab - \tab 2044 \cr
-   2012 \tab 1196 \tab 192 \tab 5 \tab 167 \tab 22 \tab 42 \tab 333 \tab 17 \tab - \tab - \tab 1974 \cr
-   2014 \tab 1504 \tab 321 \tab 5 \tab 194 \tab 23 \tab 42 \tab 443 \tab 6 \tab - \tab - \tab 2538 \cr
-   2016 \tab 1735 \tab 340 \tab 11 \tab 210 \tab 27 \tab 42 \tab 483 \tab 19 \tab - \tab - \tab 2867 \cr
-   2018 \tab 1389 \tab 291 \tab 6 \tab 160 \tab 41 \tab 59 \tab 387 \tab 15 \tab - \tab - \tab 2348 \cr
-   2021 \tab 2539 \tab 397 \tab 5 \tab 163 \tab 78 \tab 49 \tab 757 \tab 30 \tab - \tab 14 \tab 4032 \cr
-   2022 \tab 2196 \tab 456 \tab 11 \tab 146 \tab 71 \tab 67 \tab 580 \tab 14 \tab - \tab 3 \tab 3544 \cr
-   2024 \tab 2057 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1250 \tab - \tab 2 \tab 3309 \cr
-   Total \tab 59585 \tab 3642 \tab 107 \tab 3113 \tab 469 \tab 647 \tab 6650 \tab 1466 \tab 1 \tab 19 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/1249/vshow}{GSS Data Explorer page for \code{racwork}}.
 }
 
 \seealso{

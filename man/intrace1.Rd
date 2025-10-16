@@ -51,49 +51,9 @@ A. First mention.
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/5512/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllllllllllllllll}{
-   year \tab iap \tab american indian or alaska native \tab asian indian \tab black or african-american \tab chinese \tab don't know \tab filipino \tab hispanic \tab no answer \tab other asian \tab some other race \tab vietnamese \tab white \tab japanese \tab other pacific islander \tab korean \tab not available in this release \tab samoan \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab 1470 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab 1819 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 1481 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1481 \cr
-   1989 \tab 1537 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1537 \cr
-   1990 \tab 1372 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1372 \cr
-   1991 \tab 1517 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
-   1993 \tab 1606 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab 2992 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2992 \cr
-   1996 \tab 2904 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
-   1998 \tab 2832 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2832 \cr
-   2000 \tab 2817 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
-   2002 \tab 2765 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab - \tab 1 \tab 3 \tab 377 \tab 2 \tab 1 \tab 1 \tab 23 \tab 18 \tab 1 \tab 2 \tab 1 \tab 2382 \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
-   2006 \tab - \tab 60 \tab 38 \tab 556 \tab 8 \tab - \tab 1 \tab 66 \tab 18 \tab 3 \tab 70 \tab 14 \tab 3675 \tab 1 \tab - \tab - \tab - \tab - \tab 4510 \cr
-   2008 \tab - \tab 1 \tab 19 \tab 269 \tab - \tab - \tab 7 \tab 9 \tab 3 \tab - \tab 7 \tab 1 \tab 1707 \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
-   2010 \tab - \tab 27 \tab 23 \tab 282 \tab 16 \tab 1 \tab 7 \tab 10 \tab 31 \tab 2 \tab 26 \tab - \tab 1618 \tab - \tab 1 \tab - \tab - \tab - \tab 2044 \cr
-   2012 \tab - \tab 53 \tab 4 \tab 232 \tab 1 \tab 1 \tab - \tab 4 \tab 37 \tab - \tab 25 \tab 1 \tab 1611 \tab 5 \tab - \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab - \tab 13 \tab 10 \tab 259 \tab 1 \tab 1 \tab - \tab 16 \tab 34 \tab 6 \tab 25 \tab - \tab 2152 \tab - \tab - \tab 21 \tab - \tab - \tab 2538 \cr
-   2016 \tab - \tab 4 \tab 128 \tab 458 \tab 4 \tab 37 \tab 2 \tab 19 \tab 14 \tab 2 \tab 34 \tab 2 \tab 2162 \tab 1 \tab - \tab - \tab - \tab - \tab 2867 \cr
-   2018 \tab - \tab 1 \tab 51 \tab 347 \tab 9 \tab 2 \tab 7 \tab - \tab 43 \tab 1 \tab 41 \tab - \tab 1845 \tab - \tab 1 \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab - \tab 4032 \cr
-   2022 \tab 1642 \tab 8 \tab 112 \tab 260 \tab 8 \tab 15 \tab 2 \tab 42 \tab 26 \tab 2 \tab 3 \tab - \tab 1423 \tab - \tab - \tab - \tab - \tab 1 \tab 3544 \cr
-   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab - \tab 3309 \cr
-   Total \tab 45340 \tab 168 \tab 388 \tab 3040 \tab 49 \tab 58 \tab 27 \tab 189 \tab 224 \tab 17 \tab 233 \tab 19 \tab 18575 \tab 7 \tab 2 \tab 21 \tab 7341 \tab 1 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/5512/vshow}{GSS Data Explorer page for \code{intrace1}}.
 }
 
 \seealso{

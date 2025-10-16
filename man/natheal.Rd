@@ -63,49 +63,9 @@ C. Improving and protecting the nation's health
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/183/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab about right \tab don't know \tab no answer \tab too little \tab too much \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab - \tab 465 \tab 52 \tab 7 \tab 910 \tab 70 \tab - \tab 1504 \cr
-   1974 \tab - \tab 415 \tab 51 \tab 7 \tab 944 \tab 67 \tab - \tab 1484 \cr
-   1975 \tab - \tab 421 \tab 60 \tab 5 \tab 929 \tab 75 \tab - \tab 1490 \cr
-   1976 \tab - \tab 465 \tab 50 \tab 8 \tab 902 \tab 74 \tab - \tab 1499 \cr
-   1977 \tab - \tab 497 \tab 72 \tab 4 \tab 851 \tab 106 \tab - \tab 1530 \cr
-   1978 \tab - \tab 516 \tab 61 \tab - \tab 849 \tab 106 \tab - \tab 1532 \cr
-   1980 \tab - \tab 492 \tab 60 \tab 1 \tab 803 \tab 112 \tab - \tab 1468 \cr
-   1982 \tab - \tab 549 \tab 93 \tab 6 \tab 1095 \tab 117 \tab - \tab 1860 \cr
-   1983 \tab - \tab 536 \tab 60 \tab 8 \tab 913 \tab 82 \tab - \tab 1599 \cr
-   1984 \tab 983 \tab 153 \tab 21 \tab 4 \tab 280 \tab 32 \tab - \tab 1473 \cr
-   1985 \tab 783 \tab 248 \tab 22 \tab 2 \tab 432 \tab 47 \tab - \tab 1534 \cr
-   1986 \tab 740 \tab 247 \tab 24 \tab 4 \tab 426 \tab 29 \tab - \tab 1470 \cr
-   1987 \tab 1216 \tab 138 \tab 10 \tab 4 \tab 429 \tab 22 \tab - \tab 1819 \cr
-   1988 \tab 763 \tab 198 \tab 22 \tab 4 \tab 471 \tab 23 \tab - \tab 1481 \cr
-   1989 \tab 769 \tab 194 \tab 28 \tab 2 \tab 521 \tab 23 \tab - \tab 1537 \cr
-   1990 \tab 698 \tab 151 \tab 17 \tab 4 \tab 484 \tab 18 \tab - \tab 1372 \cr
-   1991 \tab 761 \tab 191 \tab 20 \tab 7 \tab 518 \tab 20 \tab - \tab 1517 \cr
-   1993 \tab 807 \tab 137 \tab 26 \tab 5 \tab 571 \tab 60 \tab - \tab 1606 \cr
-   1994 \tab 1484 \tab 349 \tab 62 \tab 6 \tab 964 \tab 127 \tab - \tab 2992 \cr
-   1996 \tab 1463 \tab 331 \tab 42 \tab 5 \tab 950 \tab 113 \tab - \tab 2904 \cr
-   1998 \tab 1451 \tab 345 \tab 34 \tab 2 \tab 922 \tab 78 \tab - \tab 2832 \cr
-   2000 \tab 1408 \tab 319 \tab 27 \tab 3 \tab 1010 \tab 50 \tab - \tab 2817 \cr
-   2002 \tab 1407 \tab 284 \tab 21 \tab 1 \tab 1000 \tab 52 \tab - \tab 2765 \cr
-   2004 \tab 1411 \tab 238 \tab 19 \tab - \tab 1081 \tab 63 \tab - \tab 2812 \cr
-   2006 \tab 3026 \tab 282 \tab 32 \tab 1 \tab 1094 \tab 75 \tab - \tab 4510 \cr
-   2008 \tab 1019 \tab 177 \tab 31 \tab - \tab 749 \tab 47 \tab - \tab 2023 \cr
-   2010 \tab 1030 \tab 234 \tab 25 \tab 1 \tab 597 \tab 157 \tab - \tab 2044 \cr
-   2012 \tab 976 \tab 260 \tab 27 \tab 2 \tab 599 \tab 110 \tab - \tab 1974 \cr
-   2014 \tab 1264 \tab 342 \tab 33 \tab 1 \tab 732 \tab 166 \tab - \tab 2538 \cr
-   2016 \tab 1430 \tab 353 \tab 29 \tab 3 \tab 914 \tab 138 \tab - \tab 2867 \cr
-   2018 \tab 1160 \tab 259 \tab 30 \tab 2 \tab 839 \tab 58 \tab - \tab 2348 \cr
-   2021 \tab 2045 \tab 483 \tab 5 \tab - \tab 1314 \tab 169 \tab 16 \tab 4032 \cr
-   2022 \tab 1764 \tab 398 \tab 23 \tab 2 \tab 1221 \tab 128 \tab 8 \tab 3544 \cr
-   2024 \tab 1626 \tab 294 \tab 26 \tab 1 \tab 1224 \tab 127 \tab 11 \tab 3309 \cr
-   Total \tab 33097 \tab 10961 \tab 1215 \tab 112 \tab 27538 \tab 2741 \tab 35 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/183/vshow}{GSS Data Explorer page for \code{natheal}}.
 }
 
 \seealso{

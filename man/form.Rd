@@ -60,49 +60,9 @@ Question A split ballot was used in the 1973, 1974, 1976, 1978, 1980, and 1982+.
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/697/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab alternate (y) \tab standard (x) \tab alternate (z) \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab - \tab 751 \tab 753 \tab - \tab 1504 \cr
-   1974 \tab - \tab 731 \tab 753 \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab - \tab 721 \tab 778 \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab - \tab 771 \tab 761 \tab - \tab 1532 \cr
-   1980 \tab - \tab 492 \tab 493 \tab 483 \tab 1468 \cr
-   1982 \tab - \tab 937 \tab 923 \tab - \tab 1860 \cr
-   1983 \tab - \tab 795 \tab 804 \tab - \tab 1599 \cr
-   1984 \tab - \tab 499 \tab 490 \tab 484 \tab 1473 \cr
-   1985 \tab - \tab 783 \tab 751 \tab - \tab 1534 \cr
-   1986 \tab - \tab 740 \tab 730 \tab - \tab 1470 \cr
-   1987 \tab - \tab 595 \tab 603 \tab 621 \tab 1819 \cr
-   1988 \tab - \tab 763 \tab 718 \tab - \tab 1481 \cr
-   1989 \tab - \tab 769 \tab 768 \tab - \tab 1537 \cr
-   1990 \tab - \tab 698 \tab 674 \tab - \tab 1372 \cr
-   1991 \tab - \tab 761 \tab 756 \tab - \tab 1517 \cr
-   1993 \tab - \tab 807 \tab 799 \tab - \tab 1606 \cr
-   1994 \tab - \tab 1484 \tab 1508 \tab - \tab 2992 \cr
-   1996 \tab - \tab 1463 \tab 1441 \tab - \tab 2904 \cr
-   1998 \tab - \tab 1451 \tab 1381 \tab - \tab 2832 \cr
-   2000 \tab - \tab 1408 \tab 1409 \tab - \tab 2817 \cr
-   2002 \tab - \tab 1407 \tab 1358 \tab - \tab 2765 \cr
-   2004 \tab - \tab 1411 \tab 1401 \tab - \tab 2812 \cr
-   2006 \tab - \tab 2290 \tab 2220 \tab - \tab 4510 \cr
-   2008 \tab - \tab 1019 \tab 1004 \tab - \tab 2023 \cr
-   2010 \tab - \tab 1030 \tab 1014 \tab - \tab 2044 \cr
-   2012 \tab - \tab 976 \tab 998 \tab - \tab 1974 \cr
-   2014 \tab - \tab 1264 \tab 1274 \tab - \tab 2538 \cr
-   2016 \tab - \tab 1430 \tab 1437 \tab - \tab 2867 \cr
-   2018 \tab - \tab 1160 \tab 1188 \tab - \tab 2348 \cr
-   2021 \tab - \tab 2045 \tab 1987 \tab - \tab 4032 \cr
-   2022 \tab - \tab 1764 \tab 1780 \tab - \tab 3544 \cr
-   2024 \tab - \tab 1626 \tab 1683 \tab - \tab 3309 \cr
-   Total \tab 4633 \tab 34841 \tab 34637 \tab 1588 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/697/vshow}{GSS Data Explorer page for \code{form}}.
 }
 
 \seealso{

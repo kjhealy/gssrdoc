@@ -51,49 +51,9 @@ B. Your non-working activities--hobbies and so on.
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/444/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab a fair amount \tab a little \tab don't know \tab great deal \tab no answer \tab none \tab quite a bit \tab some \tab very great deal \tab not available in this year \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab - \tab 192 \tab 87 \tab 11 \tab 430 \tab 6 \tab 66 \tab 251 \tab 78 \tab 383 \tab - \tab 1504 \cr
-   1974 \tab - \tab 196 \tab 71 \tab 5 \tab 467 \tab - \tab 74 \tab 239 \tab 88 \tab 344 \tab - \tab 1484 \cr
-   1975 \tab - \tab 182 \tab 70 \tab 9 \tab 482 \tab 4 \tab 61 \tab 240 \tab 83 \tab 359 \tab - \tab 1490 \cr
-   1976 \tab - \tab 163 \tab 74 \tab 6 \tab 524 \tab 4 \tab 45 \tab 267 \tab 84 \tab 332 \tab - \tab 1499 \cr
-   1977 \tab - \tab 206 \tab 66 \tab 9 \tab 447 \tab 2 \tab 47 \tab 292 \tab 75 \tab 386 \tab - \tab 1530 \cr
-   1978 \tab - \tab 190 \tab 54 \tab 6 \tab 520 \tab 6 \tab 54 \tab 278 \tab 59 \tab 365 \tab - \tab 1532 \cr
-   1980 \tab - \tab 161 \tab 60 \tab 7 \tab 500 \tab 1 \tab 38 \tab 230 \tab 72 \tab 399 \tab - \tab 1468 \cr
-   1982 \tab - \tab 276 \tab 97 \tab 12 \tab 536 \tab 5 \tab 78 \tab 348 \tab 122 \tab 386 \tab - \tab 1860 \cr
-   1983 \tab - \tab 219 \tab 52 \tab 13 \tab 507 \tab 3 \tab 57 \tab 319 \tab 103 \tab 326 \tab - \tab 1599 \cr
-   1984 \tab - \tab 168 \tab 45 \tab 6 \tab 522 \tab 9 \tab 35 \tab 253 \tab 65 \tab 370 \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab - \tab 191 \tab 71 \tab 9 \tab 497 \tab 13 \tab 71 \tab 274 \tab 76 \tab 268 \tab - \tab 1470 \cr
-   1987 \tab - \tab 218 \tab 76 \tab 13 \tab 619 \tab 11 \tab 47 \tab 319 \tab 92 \tab 424 \tab - \tab 1819 \cr
-   1988 \tab 484 \tab 117 \tab 35 \tab 4 \tab 359 \tab 2 \tab 30 \tab 181 \tab 56 \tab 213 \tab - \tab 1481 \cr
-   1989 \tab 502 \tab 110 \tab 40 \tab 5 \tab 368 \tab 4 \tab 34 \tab 178 \tab 53 \tab 243 \tab - \tab 1537 \cr
-   1990 \tab 473 \tab 105 \tab 27 \tab 5 \tab 317 \tab 2 \tab 32 \tab 154 \tab 52 \tab 205 \tab - \tab 1372 \cr
-   1991 \tab 500 \tab 133 \tab 39 \tab 3 \tab 350 \tab 2 \tab 31 \tab 178 \tab 58 \tab 223 \tab - \tab 1517 \cr
-   1993 \tab 549 \tab 125 \tab 40 \tab 4 \tab 345 \tab 7 \tab 28 \tab 193 \tab 63 \tab 252 \tab - \tab 1606 \cr
-   1994 \tab 2481 \tab 58 \tab 14 \tab - \tab 175 \tab 2 \tab 21 \tab 93 \tab 33 \tab 115 \tab - \tab 2992 \cr
-   1996 \tab 2904 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
-   1998 \tab 2832 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2832 \cr
-   2000 \tab 2817 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
-   2002 \tab 2765 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab 2812 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
-   2006 \tab 4510 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
-   2008 \tab 2023 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
-   2010 \tab 2044 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2044 \cr
-   2012 \tab 1974 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab 2538 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
-   2016 \tab 2867 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
-   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab 4032 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \cr
-   2022 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab 3544 \cr
-   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
-   Total \tab 44602 \tab 3010 \tab 1018 \tab 127 \tab 7965 \tab 83 \tab 849 \tab 4287 \tab 1312 \tab 5593 \tab 6853 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/444/vshow}{GSS Data Explorer page for \code{sathobby}}.
 }
 
 \seealso{

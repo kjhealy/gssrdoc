@@ -44,49 +44,9 @@ D. I don''t have a steady partner.
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/4151/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab i am living as married and my partner and i together live in the same household \tab i am married and living in the same household as my husband or wife \tab i don't have a steady partner \tab i have a husband or wife or steady partner, but we don't live in the same household \tab no answer \tab don't know \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab - \tab 48 \tab 810 \tab 490 \tab 104 \tab 18 \tab - \tab - \tab 1470 \cr
-   1987 \tab 1819 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 1481 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1481 \cr
-   1989 \tab 1537 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1537 \cr
-   1990 \tab 1372 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1372 \cr
-   1991 \tab 1517 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
-   1993 \tab 1606 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab 2992 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2992 \cr
-   1996 \tab 2904 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
-   1998 \tab 2832 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2832 \cr
-   2000 \tab 269 \tab 224 \tab 1027 \tab 905 \tab 213 \tab 178 \tab 1 \tab - \tab 2817 \cr
-   2002 \tab 2765 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab 1596 \tab 93 \tab 604 \tab 385 \tab 112 \tab 18 \tab 4 \tab - \tab 2812 \cr
-   2006 \tab 2992 \tab 114 \tab 740 \tab 520 \tab 131 \tab 8 \tab 5 \tab - \tab 4510 \cr
-   2008 \tab 2023 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
-   2010 \tab 2044 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2044 \cr
-   2012 \tab 976 \tab 82 \tab 428 \tab 391 \tab 87 \tab 4 \tab 6 \tab - \tab 1974 \cr
-   2014 \tab 1264 \tab 100 \tab 546 \tab 496 \tab 126 \tab 4 \tab 2 \tab - \tab 2538 \cr
-   2016 \tab 1443 \tab 121 \tab 579 \tab 573 \tab 151 \tab - \tab - \tab - \tab 2867 \cr
-   2018 \tab 1166 \tab 116 \tab 490 \tab 489 \tab 86 \tab 1 \tab - \tab - \tab 2348 \cr
-   2021 \tab 2045 \tab 169 \tab 945 \tab 727 \tab 129 \tab 1 \tab 2 \tab 14 \tab 4032 \cr
-   2022 \tab 1764 \tab 150 \tab 704 \tab 769 \tab 128 \tab 12 \tab 9 \tab 8 \tab 3544 \cr
-   2024 \tab 1626 \tab 137 \tab 646 \tab 739 \tab 135 \tab 11 \tab 5 \tab 10 \tab 3309 \cr
-   Total \tab 58619 \tab 1354 \tab 7519 \tab 6484 \tab 1402 \tab 255 \tab 34 \tab 32 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/4151/vshow}{GSS Data Explorer page for \code{posslq}}.
 }
 
 \seealso{

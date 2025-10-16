@@ -46,49 +46,9 @@ Question B. When your children are at the age you are now, do you think their st
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/587/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab about the same \tab don't know \tab much better \tab much worse \tab no answer \tab no children \tab somewhat better \tab somewhat worse \tab not available in this year \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab 1470 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab 1819 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 1481 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1481 \cr
-   1989 \tab 1537 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1537 \cr
-   1990 \tab 1372 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1372 \cr
-   1991 \tab 1517 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
-   1993 \tab 1606 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab 1492 \tab 309 \tab 62 \tab 248 \tab 72 \tab 6 \tab 145 \tab 425 \tab 233 \tab - \tab - \tab 2992 \cr
-   1996 \tab 979 \tab 370 \tab 71 \tab 380 \tab 93 \tab 6 \tab 157 \tab 525 \tab 323 \tab - \tab - \tab 2904 \cr
-   1998 \tab 921 \tab 367 \tab 80 \tab 415 \tab 60 \tab 5 \tab 204 \tab 608 \tab 172 \tab - \tab - \tab 2832 \cr
-   2000 \tab 921 \tab 301 \tab 67 \tab 532 \tab 54 \tab 10 \tab 241 \tab 553 \tab 138 \tab - \tab - \tab 2817 \cr
-   2002 \tab 1853 \tab 161 \tab 17 \tab 231 \tab 20 \tab - \tab 105 \tab 305 \tab 73 \tab - \tab - \tab 2765 \cr
-   2004 \tab 1936 \tab 183 \tab 12 \tab 209 \tab 30 \tab 2 \tab 83 \tab 260 \tab 97 \tab - \tab - \tab 2812 \cr
-   2006 \tab 2521 \tab 350 \tab 38 \tab 547 \tab 58 \tab 3 \tab 231 \tab 541 \tab 221 \tab - \tab - \tab 4510 \cr
-   2008 \tab 658 \tab 236 \tab 38 \tab 353 \tab 74 \tab 2 \tab 141 \tab 340 \tab 181 \tab - \tab - \tab 2023 \cr
-   2010 \tab 667 \tab 247 \tab 36 \tab 330 \tab 71 \tab 3 \tab 133 \tab 375 \tab 182 \tab - \tab - \tab 2044 \cr
-   2012 \tab 636 \tab 238 \tab 32 \tab 342 \tab 82 \tab 2 \tab 149 \tab 296 \tab 197 \tab - \tab - \tab 1974 \cr
-   2014 \tab 851 \tab 308 \tab 25 \tab 415 \tab 90 \tab 3 \tab 177 \tab 439 \tab 230 \tab - \tab - \tab 2538 \cr
-   2016 \tab 912 \tab 353 \tab 37 \tab 544 \tab 102 \tab 3 \tab 185 \tab 504 \tab 227 \tab - \tab - \tab 2867 \cr
-   2018 \tab 785 \tab 265 \tab 24 \tab 480 \tab 58 \tab 4 \tab 180 \tab 390 \tab 162 \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab - \tab 4032 \cr
-   2022 \tab 2337 \tab 211 \tab 41 \tab 317 \tab 67 \tab 7 \tab 130 \tab 276 \tab 158 \tab - \tab - \tab 3544 \cr
-   2024 \tab 2357 \tab 142 \tab 50 \tab 244 \tab 75 \tab 4 \tab 71 \tab 224 \tab 141 \tab - \tab 1 \tab 3309 \cr
-   Total \tab 49214 \tab 4041 \tab 630 \tab 5587 \tab 1006 \tab 60 \tab 2332 \tab 6061 \tab 2735 \tab 4032 \tab 1 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/587/vshow}{GSS Data Explorer page for \code{kidssol}}.
 }
 
 \seealso{

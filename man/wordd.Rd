@@ -53,49 +53,9 @@ D. Word D
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/5298/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab correct answer \tab incorrect answer \tab no answer \tab not available in this year \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab - \tab 1359 \tab 73 \tab 52 \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab - \tab 1304 \tab 88 \tab 107 \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab - \tab 1347 \tab 111 \tab 74 \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab - \tab 1556 \tab 123 \tab 181 \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab - \tab 1299 \tab 73 \tab 101 \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab 1470 \tab - \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab - \tab 1496 \tab 115 \tab 208 \tab - \tab 1819 \cr
-   1988 \tab 493 \tab 834 \tab 56 \tab 98 \tab - \tab 1481 \cr
-   1989 \tab 531 \tab 894 \tab 46 \tab 66 \tab - \tab 1537 \cr
-   1990 \tab 444 \tab 793 \tab 37 \tab 98 \tab - \tab 1372 \cr
-   1991 \tab 493 \tab 904 \tab 42 \tab 78 \tab - \tab 1517 \cr
-   1993 \tab 526 \tab 941 \tab 57 \tab 82 \tab - \tab 1606 \cr
-   1994 \tab 1015 \tab 1747 \tab 71 \tab 159 \tab - \tab 2992 \cr
-   1996 \tab 944 \tab 1753 \tab 81 \tab 126 \tab - \tab 2904 \cr
-   1998 \tab 1445 \tab 1229 \tab 40 \tab 118 \tab - \tab 2832 \cr
-   2000 \tab 1398 \tab 1211 \tab 69 \tab 139 \tab - \tab 2817 \cr
-   2002 \tab 2765 \tab - \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab 1340 \tab 1337 \tab 79 \tab 56 \tab - \tab 2812 \cr
-   2006 \tab 3041 \tab 1310 \tab 59 \tab 100 \tab - \tab 4510 \cr
-   2008 \tab 845 \tab 1087 \tab 50 \tab 41 \tab - \tab 2023 \cr
-   2010 \tab 614 \tab 1308 \tab 64 \tab 58 \tab - \tab 2044 \cr
-   2012 \tab 672 \tab 1194 \tab 68 \tab 40 \tab - \tab 1974 \cr
-   2014 \tab 863 \tab 1563 \tab 77 \tab 35 \tab - \tab 2538 \cr
-   2016 \tab 979 \tab 1758 \tab 92 \tab 38 \tab - \tab 2867 \cr
-   2018 \tab 789 \tab 1457 \tab 74 \tab 28 \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
-   2022 \tab 1178 \tab 2190 \tab 91 \tab 85 \tab - \tab 3544 \cr
-   2024 \tab 1126 \tab 2053 \tab 81 \tab 49 \tab - \tab 3309 \cr
-   Total \tab 33709 \tab 33924 \tab 1817 \tab 2217 \tab 4032 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/5298/vshow}{GSS Data Explorer page for \code{wordd}}.
 }
 
 \seealso{

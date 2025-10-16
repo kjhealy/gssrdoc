@@ -69,49 +69,9 @@ Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at col
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/5357/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab female \tab male \tab no answer \tab don't know \tab other \tab skipped on web \tab not available in this release \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1202 \tab 145 \tab 143 \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1369 \tab 60 \tab 70 \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1264 \tab 135 \tab 130 \tab 1 \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1293 \tab 118 \tab 120 \tab 1 \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1283 \tab 93 \tab 90 \tab 2 \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1610 \tab 120 \tab 128 \tab 2 \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1376 \tab 112 \tab 107 \tab 4 \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1280 \tab 95 \tab 98 \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab 1347 \tab 88 \tab 99 \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab 1265 \tab 103 \tab 101 \tab 1 \tab - \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab 1577 \tab 113 \tab 128 \tab 1 \tab - \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 1328 \tab 86 \tab 66 \tab 1 \tab - \tab - \tab - \tab - \tab 1481 \cr
-   1989 \tab 1356 \tab 88 \tab 89 \tab 4 \tab - \tab - \tab - \tab - \tab 1537 \cr
-   1990 \tab 1237 \tab 78 \tab 55 \tab 2 \tab - \tab - \tab - \tab - \tab 1372 \cr
-   1991 \tab 1367 \tab 75 \tab 74 \tab 1 \tab - \tab - \tab - \tab - \tab 1517 \cr
-   1993 \tab 1451 \tab 77 \tab 75 \tab 3 \tab - \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab 2729 \tab 120 \tab 140 \tab 3 \tab - \tab - \tab - \tab - \tab 2992 \cr
-   1996 \tab 2637 \tab 131 \tab 127 \tab 9 \tab - \tab - \tab - \tab - \tab 2904 \cr
-   1998 \tab 2588 \tab 125 \tab 115 \tab 4 \tab - \tab - \tab - \tab - \tab 2832 \cr
-   2000 \tab 2559 \tab 133 \tab 122 \tab 3 \tab - \tab - \tab - \tab - \tab 2817 \cr
-   2002 \tab 2556 \tab 102 \tab 107 \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab 2567 \tab 130 \tab 113 \tab 2 \tab - \tab - \tab - \tab - \tab 2812 \cr
-   2006 \tab 4086 \tab 206 \tab 210 \tab 1 \tab 7 \tab - \tab - \tab - \tab 4510 \cr
-   2008 \tab 1826 \tab 90 \tab 99 \tab 2 \tab 6 \tab - \tab - \tab - \tab 2023 \cr
-   2010 \tab 1861 \tab 101 \tab 76 \tab 4 \tab 2 \tab - \tab - \tab - \tab 2044 \cr
-   2012 \tab 1775 \tab 93 \tab 101 \tab 3 \tab 2 \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab 2325 \tab 101 \tab 108 \tab 2 \tab 2 \tab - \tab - \tab - \tab 2538 \cr
-   2016 \tab 2632 \tab 113 \tab 114 \tab 5 \tab 3 \tab - \tab - \tab - \tab 2867 \cr
-   2018 \tab 2192 \tab 80 \tab 71 \tab 3 \tab 2 \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab 3680 \tab 162 \tab 183 \tab - \tab - \tab 6 \tab 1 \tab - \tab 4032 \cr
-   2022 \tab 3404 \tab 74 \tab 64 \tab - \tab - \tab 2 \tab - \tab - \tab 3544 \cr
-   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
-   Total \tab 65623 \tab 3347 \tab 3323 \tab 64 \tab 24 \tab 8 \tab 1 \tab 3309 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/5357/vshow}{GSS Data Explorer page for \code{gender5}}.
 }
 
 \seealso{

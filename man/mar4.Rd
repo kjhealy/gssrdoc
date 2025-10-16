@@ -71,49 +71,9 @@ Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at col
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/5353/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab divorced \tab married \tab never married \tab no answer \tab separated \tab widowed \tab don't know \tab skipped on web \tab not available in this release \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1238 \tab 5 \tab 8 \tab 228 \tab 4 \tab 1 \tab 6 \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1414 \tab 4 \tab - \tab 78 \tab 2 \tab - \tab 1 \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1266 \tab 4 \tab 6 \tab 231 \tab 15 \tab 2 \tab 6 \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1309 \tab 2 \tab 8 \tab 189 \tab 18 \tab 2 \tab 4 \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1293 \tab 5 \tab 4 \tab 148 \tab 13 \tab 1 \tab 4 \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1635 \tab 3 \tab 14 \tab 190 \tab 12 \tab 2 \tab 4 \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1389 \tab 3 \tab 15 \tab 171 \tab 18 \tab 1 \tab 2 \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1302 \tab 2 \tab 7 \tab 147 \tab 14 \tab - \tab 1 \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab 1345 \tab 8 \tab 2 \tab 158 \tab 15 \tab 1 \tab 5 \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab 1288 \tab 5 \tab 7 \tab 153 \tab 13 \tab 2 \tab 2 \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab 1577 \tab 6 \tab 10 \tab 199 \tab 18 \tab 3 \tab 6 \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 1355 \tab 3 \tab 4 \tab 104 \tab 11 \tab 2 \tab 2 \tab - \tab - \tab - \tab 1481 \cr
-   1989 \tab 1348 \tab 3 \tab 10 \tab 158 \tab 15 \tab 1 \tab 2 \tab - \tab - \tab - \tab 1537 \cr
-   1990 \tab 1249 \tab - \tab 4 \tab 95 \tab 20 \tab 1 \tab 3 \tab - \tab - \tab - \tab 1372 \cr
-   1991 \tab 1376 \tab 4 \tab 7 \tab 115 \tab 11 \tab 2 \tab 2 \tab - \tab - \tab - \tab 1517 \cr
-   1993 \tab 1456 \tab 5 \tab 6 \tab 131 \tab 3 \tab 3 \tab 2 \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab 2715 \tab 4 \tab 20 \tab 230 \tab 18 \tab 3 \tab 2 \tab - \tab - \tab - \tab 2992 \cr
-   1996 \tab 2625 \tab 1 \tab 24 \tab 206 \tab 41 \tab 2 \tab 5 \tab - \tab - \tab - \tab 2904 \cr
-   1998 \tab 2607 \tab 4 \tab 16 \tab 179 \tab 23 \tab 1 \tab 2 \tab - \tab - \tab - \tab 2832 \cr
-   2000 \tab 2563 \tab 7 \tab 20 \tab 205 \tab 16 \tab 3 \tab 2 \tab 1 \tab - \tab - \tab 2817 \cr
-   2002 \tab 2560 \tab 2 \tab 19 \tab 164 \tab 19 \tab 1 \tab - \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab 2551 \tab 2 \tab 19 \tab 219 \tab 3 \tab 12 \tab 2 \tab 4 \tab - \tab - \tab 2812 \cr
-   2006 \tab 4076 \tab 6 \tab 25 \tab 385 \tab 2 \tab 12 \tab - \tab 4 \tab - \tab - \tab 4510 \cr
-   2008 \tab 1810 \tab 5 \tab 7 \tab 188 \tab 4 \tab 7 \tab 1 \tab 1 \tab - \tab - \tab 2023 \cr
-   2010 \tab 1841 \tab 3 \tab 19 \tab 167 \tab 2 \tab 5 \tab 3 \tab 4 \tab - \tab - \tab 2044 \cr
-   2012 \tab 1764 \tab 7 \tab 16 \tab 172 \tab 2 \tab 8 \tab 1 \tab 4 \tab - \tab - \tab 1974 \cr
-   2014 \tab 2265 \tab 2 \tab 20 \tab 226 \tab 4 \tab 10 \tab 5 \tab 6 \tab - \tab - \tab 2538 \cr
-   2016 \tab 2596 \tab 6 \tab 21 \tab 218 \tab 5 \tab 11 \tab 3 \tab 7 \tab - \tab - \tab 2867 \cr
-   2018 \tab 2108 \tab 3 \tab 22 \tab 199 \tab 1 \tab 10 \tab 2 \tab 3 \tab - \tab - \tab 2348 \cr
-   2021 \tab 3559 \tab 21 \tab 36 \tab 392 \tab - \tab 8 \tab 12 \tab - \tab 4 \tab - \tab 4032 \cr
-   2022 \tab 3386 \tab 5 \tab 17 \tab 131 \tab 4 \tab - \tab 1 \tab - \tab - \tab - \tab 3544 \cr
-   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
-   Total \tab 65467 \tab 140 \tab 413 \tab 5776 \tab 346 \tab 117 \tab 93 \tab 34 \tab 4 \tab 3309 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/5353/vshow}{GSS Data Explorer page for \code{mar4}}.
 }
 
 \seealso{

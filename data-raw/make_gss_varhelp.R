@@ -146,8 +146,34 @@ make_rd_describe <- function(value_labels) {
   o
 }
 
+## Old version; actually makes a crosstab
+# make_rd_yrfreq <- function(var_yrtab, norc_url) {
+#   if (!is_tibble(var_yrtab)) {
+#     return("\n#'")
+#   }
+#
+#   options(knitr.kable.NA = '-')
+#
+#   headstring <- paste0(
+#     c(
+#       paste0(
+#         "\n#' @section Overview: \n#' For further details see the [GSS Data Explorer page for this variable](",
+#         norc_url,
+#         ")."
+#       ),
+#       "#'",
+#       "#' Counts by year: \n#'\n"
+#     ),
+#     collapse = "\n"
+#   )
+#   o <- var_yrtab |>
+#     prettify_yrtab() |>
+#     knitr::kable()
+#   paste0(headstring, paste("#' ", o, collapse = "\n"))
+# }
 
-make_rd_yrfreq <- function(var_yrtab, norc_url) {
+## Experimenting with not going the crosstabs, on size grounds.
+make_rd_yrfreq <- function(variable, var_yrtab, norc_url) {
   if (!is_tibble(var_yrtab)) {
     return("\n#'")
   }
@@ -157,19 +183,16 @@ make_rd_yrfreq <- function(var_yrtab, norc_url) {
   headstring <- paste0(
     c(
       paste0(
-        "\n#' @section Overview: \n#' For further details see the [GSS Data Explorer page for this variable](",
+        "\n#' @section Link at the GSS: \n#' For further details see the [GSS Data Explorer page for `",
+        variable,
+        "`](",
         norc_url,
         ")."
       ),
-      "#'",
-      "#' Counts by year: \n#'\n"
+      "#'"
     ),
     collapse = "\n"
   )
-  o <- var_yrtab |>
-    prettify_yrtab() |>
-    knitr::kable()
-  paste0(headstring, paste("#' ", o, collapse = "\n"))
 }
 
 
@@ -295,7 +318,7 @@ gss_doc_rd <- gss_doc |>
 #     rd1 = pmap_chr(list(variable, label, var_text), make_rd_skel),
 #     rd2 = map_chr(value_labels, make_rd_describe),
 #     rd3 = map_chr(yrballot_df, make_rd_ballotinfo),
-#     rd4 = map2_chr(var_yrtab, norc_url, make_rd_yrfreq),
+#     rd4 = pmap_chr(list(variable, var_yrtab, norc_url), make_rd_yrfreq),
 #     rd4a = map_chr(
 #       module_df,
 #       with_empty_default(\(x) pmap_chr(x, make_rd_family))
@@ -339,7 +362,7 @@ docstring <- gss_doc_rd |>
     rd1 = pmap_chr(list(variable, label, var_text), make_rd_skel),
     rd2 = map_chr(value_labels, make_rd_describe),
     rd3 = map_chr(yrballot_df, make_rd_ballotinfo),
-    rd4 = map2_chr(var_yrtab, norc_url, make_rd_yrfreq),
+    rd4 = pmap_chr(list(variable, var_yrtab, norc_url), make_rd_yrfreq),
     rd4a = map_chr(
       module_df,
       with_empty_default(\(x) pmap_chr(x, make_rd_family))

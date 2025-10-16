@@ -57,49 +57,9 @@ Question A. Should divorce in this country be easier or more difficult to obtain
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/627/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab don't know \tab easier \tab more difficult \tab no answer \tab stay as is \tab not available in this year \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab - \tab 77 \tab 472 \tab 624 \tab 3 \tab 308 \tab - \tab 1484 \cr
-   1975 \tab - \tab 71 \tab 425 \tab 692 \tab 1 \tab 301 \tab - \tab 1490 \cr
-   1976 \tab - \tab 80 \tab 409 \tab 743 \tab 3 \tab 264 \tab - \tab 1499 \cr
-   1977 \tab - \tab 74 \tab 447 \tab 736 \tab 5 \tab 268 \tab - \tab 1530 \cr
-   1978 \tab - \tab 63 \tab 405 \tab 629 \tab 23 \tab 412 \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab - \tab 112 \tab 491 \tab 877 \tab 3 \tab 377 \tab - \tab 1860 \cr
-   1983 \tab - \tab 73 \tab 379 \tab 835 \tab 2 \tab 310 \tab - \tab 1599 \cr
-   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab - \tab 64 \tab 355 \tab 813 \tab 5 \tab 297 \tab - \tab 1534 \cr
-   1986 \tab - \tab 60 \tab 391 \tab 758 \tab 2 \tab 259 \tab - \tab 1470 \cr
-   1987 \tab 1819 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 493 \tab 53 \tab 241 \tab 472 \tab 6 \tab 216 \tab - \tab 1481 \cr
-   1989 \tab 531 \tab 62 \tab 251 \tab 512 \tab 1 \tab 180 \tab - \tab 1537 \cr
-   1990 \tab 444 \tab 48 \tab 212 \tab 456 \tab 1 \tab 211 \tab - \tab 1372 \cr
-   1991 \tab 493 \tab 46 \tab 284 \tab 493 \tab 3 \tab 198 \tab - \tab 1517 \cr
-   1993 \tab 526 \tab 75 \tab 280 \tab 511 \tab 3 \tab 211 \tab - \tab 1606 \cr
-   1994 \tab 1015 \tab 112 \tab 512 \tab 916 \tab 9 \tab 428 \tab - \tab 2992 \cr
-   1996 \tab 944 \tab 110 \tab 527 \tab 960 \tab 6 \tab 357 \tab - \tab 2904 \cr
-   1998 \tab 961 \tab 122 \tab 428 \tab 967 \tab 3 \tab 351 \tab - \tab 2832 \cr
-   2000 \tab 940 \tab 105 \tab 442 \tab 912 \tab 8 \tab 410 \tab - \tab 2817 \cr
-   2002 \tab 1857 \tab 23 \tab 238 \tab 447 \tab 4 \tab 196 \tab - \tab 2765 \cr
-   2004 \tab 1906 \tab 47 \tab 226 \tab 459 \tab 2 \tab 172 \tab - \tab 2812 \cr
-   2006 \tab 2518 \tab 83 \tab 494 \tab 879 \tab - \tab 536 \tab - \tab 4510 \cr
-   2008 \tab 694 \tab 52 \tab 364 \tab 609 \tab 5 \tab 299 \tab - \tab 2023 \cr
-   2010 \tab 614 \tab 83 \tab 450 \tab 579 \tab 5 \tab 313 \tab - \tab 2044 \cr
-   2012 \tab 672 \tab 88 \tab 432 \tab 503 \tab 6 \tab 273 \tab - \tab 1974 \cr
-   2014 \tab 863 \tab 94 \tab 574 \tab 663 \tab 5 \tab 339 \tab - \tab 2538 \cr
-   2016 \tab 979 \tab 87 \tab 702 \tab 705 \tab 11 \tab 383 \tab - \tab 2867 \cr
-   2018 \tab 789 \tab 104 \tab 648 \tab 502 \tab 10 \tab 295 \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
-   2022 \tab 2299 \tab 114 \tab 606 \tab 272 \tab 3 \tab 250 \tab - \tab 3544 \cr
-   2024 \tab 2324 \tab 79 \tab 455 \tab 243 \tab 3 \tab 205 \tab - \tab 3309 \cr
-   Total \tab 29739 \tab 2261 \tab 12140 \tab 18767 \tab 141 \tab 8619 \tab 4032 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/627/vshow}{GSS Data Explorer page for \code{divlaw}}.
 }
 
 \seealso{

@@ -54,49 +54,9 @@ F. Drug rehabilitation
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/204/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab about right \tab don't know \tab no answer \tab too little \tab too much \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 974 \tab 186 \tab 30 \tab 10 \tab 228 \tab 45 \tab - \tab 1473 \cr
-   1985 \tab 751 \tab 237 \tab 60 \tab 4 \tab 416 \tab 66 \tab - \tab 1534 \cr
-   1986 \tab 730 \tab 234 \tab 43 \tab 6 \tab 389 \tab 68 \tab - \tab 1470 \cr
-   1987 \tab 603 \tab 331 \tab 70 \tab 14 \tab 713 \tab 88 \tab - \tab 1819 \cr
-   1988 \tab 718 \tab 217 \tab 45 \tab 9 \tab 429 \tab 63 \tab - \tab 1481 \cr
-   1989 \tab 768 \tab 197 \tab 33 \tab 7 \tab 468 \tab 64 \tab - \tab 1537 \cr
-   1990 \tab 674 \tab 157 \tab 25 \tab 16 \tab 441 \tab 59 \tab - \tab 1372 \cr
-   1991 \tab 756 \tab 220 \tab 41 \tab 14 \tab 430 \tab 56 \tab - \tab 1517 \cr
-   1993 \tab 799 \tab 234 \tab 45 \tab 14 \tab 435 \tab 79 \tab - \tab 1606 \cr
-   1994 \tab 1508 \tab 437 \tab 88 \tab 36 \tab 757 \tab 166 \tab - \tab 2992 \cr
-   1996 \tab 1441 \tab 401 \tab 95 \tab 57 \tab 743 \tab 167 \tab - \tab 2904 \cr
-   1998 \tab 1381 \tab 419 \tab 101 \tab 7 \tab 761 \tab 163 \tab - \tab 2832 \cr
-   2000 \tab 1409 \tab 422 \tab 109 \tab 5 \tab 730 \tab 142 \tab - \tab 2817 \cr
-   2002 \tab 1358 \tab 425 \tab 85 \tab 6 \tab 715 \tab 176 \tab - \tab 2765 \cr
-   2004 \tab 1401 \tab 477 \tab 92 \tab 3 \tab 685 \tab 154 \tab - \tab 2812 \cr
-   2006 \tab 3002 \tab 463 \tab 113 \tab - \tab 777 \tab 155 \tab - \tab 4510 \cr
-   2008 \tab 1005 \tab 346 \tab 65 \tab 3 \tab 475 \tab 129 \tab - \tab 2023 \cr
-   2010 \tab 1014 \tab 334 \tab 76 \tab 4 \tab 499 \tab 117 \tab - \tab 2044 \cr
-   2012 \tab 998 \tab 326 \tab 89 \tab 2 \tab 404 \tab 155 \tab - \tab 1974 \cr
-   2014 \tab 1274 \tab 398 \tab 83 \tab 2 \tab 617 \tab 164 \tab - \tab 2538 \cr
-   2016 \tab 1437 \tab 357 \tab 70 \tab 2 \tab 850 \tab 151 \tab - \tab 2867 \cr
-   2018 \tab 1188 \tab 255 \tab 47 \tab 2 \tab 746 \tab 110 \tab - \tab 2348 \cr
-   2021 \tab 1987 \tab 595 \tab 11 \tab - \tab 1225 \tab 203 \tab 11 \tab 4032 \cr
-   2022 \tab 1780 \tab 435 \tab 56 \tab - \tab 1126 \tab 142 \tab 5 \tab 3544 \cr
-   2024 \tab 1683 \tab 432 \tab 54 \tab 1 \tab 979 \tab 159 \tab 1 \tab 3309 \cr
-   Total \tab 46218 \tab 8535 \tab 1626 \tab 224 \tab 16038 \tab 3041 \tab 17 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/204/vshow}{GSS Data Explorer page for \code{natdrugy}}.
 }
 
 \seealso{

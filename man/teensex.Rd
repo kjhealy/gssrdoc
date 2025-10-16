@@ -53,49 +53,9 @@ A. What if they are in their early teens, say 14 to 16 years old?  In that case,
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/632/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab almost always wrong \tab always wrong \tab don't know \tab no answer \tab not wrong at all \tab wrong only sometimes \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab - \tab 274 \tab 965 \tab 21 \tab 4 \tab 47 \tab 159 \tab - \tab 1470 \cr
-   1987 \tab 1819 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 493 \tab 158 \tab 675 \tab 11 \tab 4 \tab 32 \tab 108 \tab - \tab 1481 \cr
-   1989 \tab 531 \tab 158 \tab 702 \tab 12 \tab 3 \tab 43 \tab 88 \tab - \tab 1537 \cr
-   1990 \tab 444 \tab 160 \tab 615 \tab 26 \tab 4 \tab 29 \tab 94 \tab - \tab 1372 \cr
-   1991 \tab 493 \tab 177 \tab 678 \tab 24 \tab 6 \tab 44 \tab 95 \tab - \tab 1517 \cr
-   1993 \tab 526 \tab 186 \tab 733 \tab 16 \tab 4 \tab 39 \tab 102 \tab - \tab 1606 \cr
-   1994 \tab 1015 \tab 336 \tab 1363 \tab 17 \tab 8 \tab 77 \tab 176 \tab - \tab 2992 \cr
-   1996 \tab 944 \tab 321 \tab 1339 \tab 23 \tab 3 \tab 83 \tab 191 \tab - \tab 2904 \cr
-   1998 \tab 961 \tab 299 \tab 1318 \tab 30 \tab 3 \tab 64 \tab 157 \tab - \tab 2832 \cr
-   2000 \tab 940 \tab 280 \tab 1337 \tab 27 \tab 5 \tab 64 \tab 164 \tab - \tab 2817 \cr
-   2002 \tab 1857 \tab 131 \tab 644 \tab 16 \tab 2 \tab 37 \tab 78 \tab - \tab 2765 \cr
-   2004 \tab 1906 \tab 137 \tab 625 \tab 11 \tab - \tab 43 \tab 90 \tab - \tab 2812 \cr
-   2006 \tab 2518 \tab 302 \tab 1422 \tab 21 \tab 4 \tab 76 \tab 167 \tab - \tab 4510 \cr
-   2008 \tab 694 \tab 213 \tab 925 \tab 7 \tab 4 \tab 59 \tab 121 \tab - \tab 2023 \cr
-   2010 \tab 614 \tab 221 \tab 952 \tab 7 \tab 4 \tab 81 \tab 165 \tab - \tab 2044 \cr
-   2012 \tab 672 \tab 187 \tab 872 \tab 14 \tab 5 \tab 73 \tab 151 \tab - \tab 1974 \cr
-   2014 \tab 863 \tab 251 \tab 1108 \tab 7 \tab 2 \tab 102 \tab 205 \tab - \tab 2538 \cr
-   2016 \tab 979 \tab 309 \tab 1145 \tab 19 \tab 3 \tab 181 \tab 231 \tab - \tab 2867 \cr
-   2018 \tab 789 \tab 262 \tab 892 \tab 18 \tab 7 \tab 132 \tab 248 \tab - \tab 2348 \cr
-   2021 \tab 1316 \tab 581 \tab 1196 \tab 1 \tab 3 \tab 423 \tab 479 \tab 33 \tab 4032 \cr
-   2022 \tab 1168 \tab 456 \tab 1052 \tab 28 \tab 6 \tab 385 \tab 438 \tab 11 \tab 3544 \cr
-   2024 \tab 1126 \tab 396 \tab 1028 \tab 34 \tab 4 \tab 321 \tab 378 \tab 22 \tab 3309 \cr
-   Total \tab 41254 \tab 5795 \tab 21586 \tab 390 \tab 88 \tab 2435 \tab 4085 \tab 66 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/632/vshow}{GSS Data Explorer page for \code{teensex}}.
 }
 
 \seealso{

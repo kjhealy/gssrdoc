@@ -52,49 +52,9 @@ Question About how often did you have sex during the last 12 months?
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/5057/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab 2 or 3 times a month \tab 2 or 3 times a week \tab about once a week \tab more than 3 times a week \tab no answer \tab not at all \tab once a month \tab once or twice \tab don't know \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab 1470 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab 1819 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 1481 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1481 \cr
-   1989 \tab 136 \tab 221 \tab 307 \tab 258 \tab 64 \tab 40 \tab 298 \tab 114 \tab 99 \tab - \tab 1537 \cr
-   1990 \tab 199 \tab 91 \tab 108 \tab 110 \tab 37 \tab 621 \tab 110 \tab 57 \tab 39 \tab - \tab 1372 \cr
-   1991 \tab 221 \tab 181 \tab 265 \tab 233 \tab 72 \tab 44 \tab 292 \tab 108 \tab 99 \tab 2 \tab 1517 \cr
-   1993 \tab 114 \tab 221 \tab 273 \tab 272 \tab 97 \tab 64 \tab 309 \tab 164 \tab 92 \tab - \tab 1606 \cr
-   1994 \tab 201 \tab 416 \tab 538 \tab 483 \tab 155 \tab 155 \tab 563 \tab 290 \tab 188 \tab 3 \tab 2992 \cr
-   1996 \tab 258 \tab 412 \tab 565 \tab 471 \tab 164 \tab 116 \tab 476 \tab 248 \tab 192 \tab 2 \tab 2904 \cr
-   1998 \tab 383 \tab 358 \tab 458 \tab 425 \tab 125 \tab 127 \tab 516 \tab 263 \tab 175 \tab 2 \tab 2832 \cr
-   2000 \tab 417 \tab 360 \tab 446 \tab 391 \tab 152 \tab 135 \tab 509 \tab 204 \tab 202 \tab 1 \tab 2817 \cr
-   2002 \tab 489 \tab 350 \tab 415 \tab 341 \tab 163 \tab 107 \tab 484 \tab 212 \tab 186 \tab 18 \tab 2765 \cr
-   2004 \tab 584 \tab 364 \tab 377 \tab 376 \tab 147 \tab 99 \tab 445 \tab 240 \tab 160 \tab 20 \tab 2812 \cr
-   2006 \tab 2096 \tab 361 \tab 430 \tab 343 \tab 134 \tab 75 \tab 595 \tab 265 \tab 205 \tab 6 \tab 4510 \cr
-   2008 \tab 240 \tab 243 \tab 309 \tab 285 \tab 108 \tab 71 \tab 416 \tab 176 \tab 149 \tab 26 \tab 2023 \cr
-   2010 \tab 202 \tab 284 \tab 304 \tab 257 \tab 99 \tab 75 \tab 440 \tab 194 \tab 174 \tab 15 \tab 2044 \cr
-   2012 \tab 643 \tab 255 \tab 283 \tab 215 \tab 112 \tab 109 \tab 35 \tab 169 \tab 127 \tab 26 \tab 1974 \cr
-   2014 \tab 188 \tab 357 \tab 365 \tab 333 \tab 122 \tab 108 \tab 571 \tab 255 \tab 220 \tab 19 \tab 2538 \cr
-   2016 \tab 1096 \tab 274 \tab 271 \tab 244 \tab 90 \tab 53 \tab 439 \tab 216 \tab 178 \tab 6 \tab 2867 \cr
-   2018 \tab 942 \tab 208 \tab 197 \tab 214 \tab 84 \tab 43 \tab 365 \tab 162 \tab 127 \tab 6 \tab 2348 \cr
-   2021 \tab 1701 \tab 351 \tab 268 \tab 287 \tab 84 \tab 47 \tab 633 \tab 283 \tab 251 \tab 127 \tab 4032 \cr
-   2022 \tab 1927 \tab 224 \tab 207 \tab 198 \tab 76 \tab 73 \tab 481 \tab 181 \tab 140 \tab 37 \tab 3544 \cr
-   2024 \tab 1186 \tab 290 \tab 230 \tab 244 \tab 77 \tab 160 \tab 616 \tab 222 \tab 214 \tab 70 \tab 3309 \cr
-   Total \tab 36579 \tab 5821 \tab 6616 \tab 5980 \tab 2162 \tab 2322 \tab 8593 \tab 4023 \tab 3217 \tab 386 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/5057/vshow}{GSS Data Explorer page for \code{sexfreq}}.
 }
 
 \seealso{

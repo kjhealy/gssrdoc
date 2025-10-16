@@ -60,49 +60,9 @@ Question What is (PERSON)'s relationship to (HEAD OF HOUSEHOLD)?  SEE CODES BELO
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/5419/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllllllllllllllllllll}{
-   year \tab iap \tab brother, sister (full, half, or step sibling) \tab child of non-relative \tab child, natural or adopted, stepchild \tab friend \tab grandchild, great-grandchild \tab niece or nephew \tab no answer \tab other non-relative (employee, boarder) \tab parent \tab parent-in-law \tab partner, fiance(e), boyfriend, girlfriend, etc. \tab roommate, housemate \tab sibling-in-law \tab son-in-law, daughter-in-law \tab spouse \tab cousin \tab other relative (great-aunt, grandniece, etc.) \tab grandparent, great-grandparent \tab uncle or aunt \tab don't know \tab skipped on web \tab not available in this release \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab 1470 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab 1819 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 1481 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1481 \cr
-   1989 \tab 1537 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1537 \cr
-   1990 \tab 1372 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1372 \cr
-   1991 \tab 1517 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
-   1993 \tab 1190 \tab 1 \tab 3 \tab 371 \tab 2 \tab 15 \tab 4 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 7 \tab 1 \tab 2 \tab 3 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab 2274 \tab 2 \tab 11 \tab 624 \tab 3 \tab 34 \tab 5 \tab 3 \tab 1 \tab 3 \tab 3 \tab 2 \tab 9 \tab 4 \tab 5 \tab 5 \tab 1 \tab 3 \tab - \tab - \tab - \tab - \tab - \tab 2992 \cr
-   1996 \tab 2184 \tab 6 \tab 10 \tab 591 \tab 2 \tab 26 \tab 9 \tab 31 \tab 3 \tab 3 \tab 3 \tab 3 \tab 9 \tab 3 \tab 6 \tab 10 \tab 2 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab 2904 \cr
-   1998 \tab 2196 \tab 3 \tab 7 \tab 534 \tab - \tab 23 \tab 10 \tab 24 \tab 2 \tab 4 \tab 2 \tab 4 \tab 6 \tab 2 \tab 7 \tab 5 \tab - \tab 2 \tab 1 \tab - \tab - \tab - \tab - \tab 2832 \cr
-   2000 \tab 2127 \tab 5 \tab 5 \tab 569 \tab 3 \tab 35 \tab 1 \tab 35 \tab 2 \tab 5 \tab 2 \tab - \tab 11 \tab 4 \tab 6 \tab - \tab 2 \tab 2 \tab 2 \tab 1 \tab - \tab - \tab - \tab 2817 \cr
-   2002 \tab 2266 \tab 7 \tab 4 \tab 417 \tab 6 \tab 30 \tab 8 \tab 4 \tab 5 \tab - \tab 1 \tab - \tab 8 \tab - \tab 7 \tab - \tab - \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab 2765 \cr
-   2004 \tab 2214 \tab 6 \tab 2 \tab 522 \tab 2 \tab 31 \tab 4 \tab - \tab 5 \tab 3 \tab 2 \tab - \tab 8 \tab 1 \tab 5 \tab - \tab 1 \tab 3 \tab 1 \tab - \tab 2 \tab - \tab - \tab 2812 \cr
-   2006 \tab 3502 \tab 7 \tab 6 \tab 897 \tab 7 \tab 33 \tab 8 \tab - \tab 8 \tab 7 \tab 3 \tab - \tab 16 \tab 6 \tab 3 \tab - \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab 4510 \cr
-   2008 \tab 1547 \tab 5 \tab 4 \tab 405 \tab 3 \tab 34 \tab 4 \tab 1 \tab 3 \tab - \tab 2 \tab - \tab 8 \tab 1 \tab 4 \tab - \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab 2023 \cr
-   2010 \tab 1627 \tab 7 \tab 2 \tab 329 \tab 3 \tab 28 \tab 4 \tab 3 \tab 4 \tab 3 \tab 3 \tab 3 \tab 15 \tab 1 \tab 10 \tab - \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab 2044 \cr
-   2012 \tab 1526 \tab 6 \tab 4 \tab 361 \tab 2 \tab 28 \tab 8 \tab 1 \tab 2 \tab 5 \tab 1 \tab 2 \tab 11 \tab 6 \tab 4 \tab - \tab - \tab - \tab - \tab 6 \tab 1 \tab - \tab - \tab 1974 \cr
-   2014 \tab 2040 \tab 4 \tab 4 \tab 420 \tab 4 \tab 24 \tab 3 \tab 1 \tab 2 \tab 6 \tab 1 \tab 2 \tab 11 \tab - \tab 11 \tab - \tab 1 \tab 1 \tab - \tab 2 \tab 1 \tab - \tab - \tab 2538 \cr
-   2016 \tab 2353 \tab 5 \tab 2 \tab 426 \tab 1 \tab 34 \tab 5 \tab - \tab 3 \tab 6 \tab 2 \tab - \tab 10 \tab 1 \tab 10 \tab - \tab 1 \tab 2 \tab - \tab 3 \tab 3 \tab - \tab - \tab 2867 \cr
-   2018 \tab 1899 \tab 3 \tab 3 \tab 354 \tab 2 \tab 29 \tab 5 \tab - \tab 3 \tab 1 \tab 4 \tab - \tab 20 \tab 3 \tab 16 \tab - \tab 1 \tab 3 \tab - \tab 2 \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab 3169 \tab 10 \tab 11 \tab 698 \tab 13 \tab 40 \tab 6 \tab - \tab 8 \tab 17 \tab 3 \tab 3 \tab 29 \tab 5 \tab 10 \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab 8 \tab - \tab 4032 \cr
-   2022 \tab 3210 \tab 9 \tab 4 \tab 272 \tab 5 \tab 9 \tab 1 \tab 1 \tab 3 \tab 5 \tab 2 \tab 1 \tab 7 \tab 1 \tab 5 \tab - \tab 2 \tab 3 \tab 2 \tab - \tab - \tab 2 \tab - \tab 3544 \cr
-   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
-   Total \tab 63106 \tab 86 \tab 82 \tab 7790 \tab 58 \tab 453 \tab 85 \tab 106 \tab 56 \tab 69 \tab 35 \tab 21 \tab 185 \tab 39 \tab 111 \tab 23 \tab 15 \tab 23 \tab 10 \tab 17 \tab 10 \tab 10 \tab 3309 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/5419/vshow}{GSS Data Explorer page for \code{relhhd4}}.
 }
 
 \seealso{

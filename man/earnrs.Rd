@@ -60,49 +60,9 @@ Question Just thinking about your family now--those people in the household who 
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/103/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllllll}{
-   year \tab 0 \tab 1 \tab 2 \tab 3 or more \tab no answer \tab iap \tab skipped on web \tab don't know \tab Total \cr
-   1972 \tab 186 \tab 682 \tab 506 \tab 206 \tab 33 \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 162 \tab 608 \tab 506 \tab 218 \tab 10 \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 192 \tab 595 \tab 477 \tab 205 \tab 15 \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 201 \tab 593 \tab 483 \tab 205 \tab 8 \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 233 \tab 627 \tab 449 \tab 182 \tab 8 \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 214 \tab 613 \tab 494 \tab 205 \tab 4 \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 229 \tab 629 \tab 479 \tab 187 \tab 8 \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 249 \tab 544 \tab 483 \tab 173 \tab 19 \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 291 \tab 752 \tab 577 \tab 187 \tab 53 \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 234 \tab 621 \tab 544 \tab 183 \tab 17 \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 233 \tab 611 \tab 441 \tab 170 \tab 18 \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab 276 \tab 578 \tab 499 \tab 170 \tab 11 \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab 297 \tab 506 \tab 478 \tab 169 \tab 20 \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab 291 \tab 709 \tab 585 \tab 218 \tab 16 \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 275 \tab 560 \tab 452 \tab 184 \tab 10 \tab - \tab - \tab - \tab 1481 \cr
-   1989 \tab 286 \tab 553 \tab 475 \tab 211 \tab 12 \tab - \tab - \tab - \tab 1537 \cr
-   1990 \tab 248 \tab 508 \tab 456 \tab 152 \tab 8 \tab - \tab - \tab - \tab 1372 \cr
-   1991 \tab 320 \tab 581 \tab 459 \tab 146 \tab 11 \tab - \tab - \tab - \tab 1517 \cr
-   1993 \tab 298 \tab 577 \tab 556 \tab 155 \tab 20 \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab 493 \tab 1190 \tab 981 \tab 273 \tab 55 \tab - \tab - \tab - \tab 2992 \cr
-   1996 \tab 432 \tab 1213 \tab 920 \tab 276 \tab 63 \tab - \tab - \tab - \tab 2904 \cr
-   1998 \tab 429 \tab 1149 \tab 949 \tab 282 \tab 23 \tab - \tab - \tab - \tab 2832 \cr
-   2000 \tab 471 \tab 1162 \tab 942 \tab 235 \tab 7 \tab - \tab - \tab - \tab 2817 \cr
-   2002 \tab 466 \tab 1097 \tab 918 \tab 265 \tab 19 \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab 394 \tab 1131 \tab 996 \tab 284 \tab 7 \tab - \tab - \tab - \tab 2812 \cr
-   2006 \tab 645 \tab 1890 \tab 1502 \tab 452 \tab 21 \tab - \tab - \tab - \tab 4510 \cr
-   2008 \tab 328 \tab 791 \tab 668 \tab 233 \tab 3 \tab - \tab - \tab - \tab 2023 \cr
-   2010 \tab 354 \tab 825 \tab 632 \tab 219 \tab 14 \tab - \tab - \tab - \tab 2044 \cr
-   2012 \tab 369 \tab 770 \tab 637 \tab 186 \tab 12 \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab 467 \tab 1023 \tab 797 \tab 237 \tab 14 \tab - \tab - \tab - \tab 2538 \cr
-   2016 \tab 571 \tab 1104 \tab 891 \tab 282 \tab 19 \tab - \tab - \tab - \tab 2867 \cr
-   2018 \tab 423 \tab 891 \tab 762 \tab 260 \tab 12 \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab 832 \tab 1421 \tab 1216 \tab 426 \tab - \tab 58 \tab 79 \tab - \tab 4032 \cr
-   2022 \tab 736 \tab 1392 \tab 971 \tab 373 \tab 29 \tab 6 \tab 37 \tab - \tab 3544 \cr
-   2024 \tab 718 \tab 1314 \tab 842 \tab 370 \tab 9 \tab - \tab 44 \tab 12 \tab 3309 \cr
-   Total \tab 12843 \tab 29810 \tab 24023 \tab 8179 \tab 608 \tab 64 \tab 160 \tab 12 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/103/vshow}{GSS Data Explorer page for \code{earnrs}}.
 }
 
 \seealso{

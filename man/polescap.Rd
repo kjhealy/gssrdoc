@@ -58,49 +58,9 @@ C. Was attempting to escape from custody?
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/673/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 380 \tab 18 \tab 131 \tab 4 \tab 971 \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 343 \tab 38 \tab 123 \tab 8 \tab 978 \tab - \tab 1490 \cr
-   1976 \tab - \tab 59 \tab 273 \tab 6 \tab 1161 \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab - \tab 54 \tab 332 \tab 2 \tab 1144 \tab - \tab 1532 \cr
-   1980 \tab - \tab 62 \tab 293 \tab 7 \tab 1106 \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab - \tab 63 \tab 335 \tab 2 \tab 1199 \tab - \tab 1599 \cr
-   1984 \tab - \tab 52 \tab 342 \tab 15 \tab 1064 \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab - \tab 55 \tab 358 \tab 3 \tab 1054 \tab - \tab 1470 \cr
-   1987 \tab - \tab 101 \tab 382 \tab 8 \tab 1328 \tab - \tab 1819 \cr
-   1988 \tab 484 \tab 45 \tab 191 \tab 6 \tab 755 \tab - \tab 1481 \cr
-   1989 \tab 502 \tab 42 \tab 205 \tab 6 \tab 782 \tab - \tab 1537 \cr
-   1990 \tab 473 \tab 44 \tab 191 \tab 1 \tab 663 \tab - \tab 1372 \cr
-   1991 \tab 500 \tab 51 \tab 264 \tab 8 \tab 694 \tab - \tab 1517 \cr
-   1993 \tab 549 \tab 48 \tab 239 \tab 3 \tab 767 \tab - \tab 1606 \cr
-   1994 \tab 981 \tab 84 \tab 420 \tab 12 \tab 1495 \tab - \tab 2992 \cr
-   1996 \tab 979 \tab 99 \tab 513 \tab 7 \tab 1306 \tab - \tab 2904 \cr
-   1998 \tab 921 \tab 95 \tab 518 \tab 6 \tab 1292 \tab - \tab 2832 \cr
-   2000 \tab 921 \tab 89 \tab 535 \tab 13 \tab 1259 \tab - \tab 2817 \cr
-   2002 \tab 1853 \tab 76 \tab 224 \tab 1 \tab 611 \tab - \tab 2765 \cr
-   2004 \tab 1936 \tab 58 \tab 223 \tab 2 \tab 593 \tab - \tab 2812 \cr
-   2006 \tab 2521 \tab 121 \tab 503 \tab 1 \tab 1364 \tab - \tab 4510 \cr
-   2008 \tab 658 \tab 47 \tab 340 \tab 1 \tab 977 \tab - \tab 2023 \cr
-   2010 \tab 667 \tab 59 \tab 397 \tab 4 \tab 917 \tab - \tab 2044 \cr
-   2012 \tab 636 \tab 62 \tab 329 \tab - \tab 947 \tab - \tab 1974 \cr
-   2014 \tab 851 \tab 91 \tab 519 \tab 1 \tab 1076 \tab - \tab 2538 \cr
-   2016 \tab 911 \tab 73 \tab 589 \tab 4 \tab 1290 \tab - \tab 2867 \cr
-   2018 \tab 785 \tab 91 \tab 462 \tab 3 \tab 1007 \tab - \tab 2348 \cr
-   2021 \tab 1360 \tab 11 \tab 1060 \tab 2 \tab 1579 \tab 20 \tab 4032 \cr
-   2022 \tab 1173 \tab 34 \tab 932 \tab 4 \tab 1390 \tab 11 \tab 3544 \cr
-   2024 \tab 1116 \tab 29 \tab 845 \tab 6 \tab 1297 \tab 16 \tab 3309 \cr
-   Total \tab 29521 \tab 1851 \tab 12068 \tab 146 \tab 32066 \tab 47 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/673/vshow}{GSS Data Explorer page for \code{polescap}}.
 }
 
 \seealso{

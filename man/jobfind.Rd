@@ -55,49 +55,9 @@ Question B. About how easy would it be for you to find a job with another employ
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/547/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab don't know \tab no answer \tab not easy \tab somewhat easy \tab very easy \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 609 \tab 18 \tab 12 \tab 379 \tab 271 \tab 241 \tab - \tab 1530 \cr
-   1978 \tab 638 \tab 19 \tab 6 \tab 340 \tab 283 \tab 246 \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 795 \tab 29 \tab 13 \tab 545 \tab 261 \tab 217 \tab - \tab 1860 \cr
-   1983 \tab 654 \tab 20 \tab 5 \tab 473 \tab 271 \tab 176 \tab - \tab 1599 \cr
-   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab 583 \tab 16 \tab 11 \tab 397 \tab 292 \tab 235 \tab - \tab 1534 \cr
-   1986 \tab 595 \tab 16 \tab 5 \tab 335 \tab 281 \tab 238 \tab - \tab 1470 \cr
-   1987 \tab 1819 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 862 \tab 14 \tab 4 \tab 212 \tab 220 \tab 169 \tab - \tab 1481 \cr
-   1989 \tab 921 \tab 11 \tab 3 \tab 229 \tab 166 \tab 207 \tab - \tab 1537 \cr
-   1990 \tab 770 \tab 7 \tab 2 \tab 223 \tab 180 \tab 190 \tab - \tab 1372 \cr
-   1991 \tab 907 \tab 11 \tab 2 \tab 241 \tab 214 \tab 142 \tab - \tab 1517 \cr
-   1993 \tab 925 \tab 11 \tab 5 \tab 298 \tab 220 \tab 147 \tab - \tab 1606 \cr
-   1994 \tab 1681 \tab 30 \tab 9 \tab 585 \tab 419 \tab 268 \tab - \tab 2992 \cr
-   1996 \tab 1531 \tab 29 \tab 11 \tab 533 \tab 437 \tab 363 \tab - \tab 2904 \cr
-   1998 \tab 1571 \tab 28 \tab 12 \tab 408 \tab 437 \tab 376 \tab - \tab 2832 \cr
-   2000 \tab 1561 \tab 23 \tab 10 \tab 360 \tab 402 \tab 461 \tab - \tab 2817 \cr
-   2002 \tab 2180 \tab 9 \tab 3 \tab 206 \tab 211 \tab 156 \tab - \tab 2765 \cr
-   2004 \tab 1879 \tab 10 \tab 16 \tab 372 \tab 305 \tab 230 \tab - \tab 2812 \cr
-   2006 \tab 3284 \tab 11 \tab 11 \tab 392 \tab 433 \tab 379 \tab - \tab 4510 \cr
-   2008 \tab 1169 \tab 11 \tab 12 \tab 363 \tab 273 \tab 195 \tab - \tab 2023 \cr
-   2010 \tab 1220 \tab 8 \tab 12 \tab 432 \tab 269 \tab 103 \tab - \tab 2044 \cr
-   2012 \tab 1186 \tab 9 \tab 14 \tab 364 \tab 275 \tab 126 \tab - \tab 1974 \cr
-   2014 \tab 1505 \tab 10 \tab 2 \tab 475 \tab 349 \tab 197 \tab - \tab 2538 \cr
-   2016 \tab 1735 \tab 5 \tab 12 \tab 440 \tab 446 \tab 229 \tab - \tab 2867 \cr
-   2018 \tab 1379 \tab 9 \tab 11 \tab 355 \tab 370 \tab 224 \tab - \tab 2348 \cr
-   2021 \tab 2498 \tab 1 \tab 33 \tab 621 \tab 647 \tab 221 \tab 11 \tab 4032 \cr
-   2022 \tab 2138 \tab 10 \tab 2 \tab 411 \tab 577 \tab 403 \tab 3 \tab 3544 \cr
-   2024 \tab 2065 \tab 13 \tab 3 \tab 415 \tab 538 \tab 270 \tab 5 \tab 3309 \cr
-   Total \tab 49191 \tab 388 \tab 241 \tab 10404 \tab 9047 \tab 6409 \tab 19 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/547/vshow}{GSS Data Explorer page for \code{jobfind}}.
 }
 
 \seealso{

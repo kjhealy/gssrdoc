@@ -76,49 +76,9 @@ Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at col
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/5398/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab child (natural, adopted, step) \tab grand/great-grandchild \tab non-relative \tab other relative \tab parent/parent-in-law \tab son-/daughter-in-law \tab no answer \tab spouse \tab not available in this release \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1479 \tab 3 \tab 3 \tab 1 \tab 2 \tab 1 \tab 1 \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1495 \tab 1 \tab 1 \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1527 \tab - \tab - \tab 1 \tab - \tab - \tab 2 \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1521 \tab 3 \tab 4 \tab 1 \tab 1 \tab - \tab 1 \tab 1 \tab - \tab - \tab 1532 \cr
-   1980 \tab 1457 \tab 1 \tab 3 \tab 1 \tab 2 \tab - \tab 1 \tab 3 \tab - \tab - \tab 1468 \cr
-   1982 \tab 1855 \tab 1 \tab 1 \tab 2 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab 1860 \cr
-   1983 \tab 1593 \tab - \tab 2 \tab 1 \tab 2 \tab - \tab 1 \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1463 \tab 2 \tab 1 \tab - \tab 5 \tab 1 \tab - \tab 1 \tab - \tab - \tab 1473 \cr
-   1985 \tab 1528 \tab - \tab 1 \tab 1 \tab 2 \tab 2 \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab 1466 \tab 1 \tab - \tab - \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab 1812 \tab - \tab 4 \tab 1 \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 1478 \tab 1 \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 1481 \cr
-   1989 \tab 1531 \tab 1 \tab 1 \tab 2 \tab - \tab 2 \tab - \tab - \tab - \tab - \tab 1537 \cr
-   1990 \tab 1369 \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab 1372 \cr
-   1991 \tab 1512 \tab 1 \tab - \tab 2 \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab 1517 \cr
-   1993 \tab 1605 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab 2987 \tab - \tab - \tab 1 \tab 1 \tab 1 \tab 2 \tab - \tab - \tab - \tab 2992 \cr
-   1996 \tab 2896 \tab 3 \tab 1 \tab 1 \tab - \tab 2 \tab - \tab 1 \tab - \tab - \tab 2904 \cr
-   1998 \tab 2817 \tab 7 \tab 1 \tab 2 \tab - \tab 2 \tab 2 \tab 1 \tab - \tab - \tab 2832 \cr
-   2000 \tab 2813 \tab 2 \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 2817 \cr
-   2002 \tab 2764 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab 2812 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
-   2006 \tab 4498 \tab 2 \tab 1 \tab 2 \tab 3 \tab 3 \tab 1 \tab - \tab - \tab - \tab 4510 \cr
-   2008 \tab 2019 \tab - \tab - \tab 2 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
-   2010 \tab 2035 \tab 1 \tab 1 \tab 2 \tab - \tab 3 \tab - \tab 2 \tab - \tab - \tab 2044 \cr
-   2012 \tab 1971 \tab - \tab 1 \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab 2535 \tab 2 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
-   2016 \tab 2862 \tab - \tab - \tab 2 \tab 2 \tab - \tab 1 \tab - \tab - \tab - \tab 2867 \cr
-   2018 \tab 2343 \tab - \tab - \tab 3 \tab - \tab 2 \tab - \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab 4010 \tab 8 \tab 3 \tab 5 \tab 4 \tab - \tab 2 \tab - \tab - \tab - \tab 4032 \cr
-   2022 \tab 3541 \tab 1 \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
-   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
-   Total \tab 72195 \tab 42 \tab 32 \tab 38 \tab 30 \tab 23 \tab 17 \tab 12 \tab 1 \tab 3309 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/5398/vshow}{GSS Data Explorer page for \code{relate12}}.
 }
 
 \seealso{

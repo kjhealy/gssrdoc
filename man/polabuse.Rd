@@ -58,49 +58,9 @@ A. Had said vulgar and obscene things to the policeman?
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/671/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 380 \tab 17 \tab 855 \tab 1 \tab 251 \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 343 \tab 40 \tab 881 \tab 5 \tab 221 \tab - \tab 1490 \cr
-   1976 \tab - \tab 42 \tab 1158 \tab 4 \tab 295 \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab - \tab 31 \tab 1225 \tab 2 \tab 274 \tab - \tab 1532 \cr
-   1980 \tab - \tab 30 \tab 1232 \tab 8 \tab 198 \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab - \tab 38 \tab 1325 \tab 1 \tab 235 \tab - \tab 1599 \cr
-   1984 \tab - \tab 35 \tab 1258 \tab 4 \tab 176 \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab - \tab 21 \tab 1241 \tab 3 \tab 205 \tab - \tab 1470 \cr
-   1987 \tab - \tab 46 \tab 1576 \tab 7 \tab 190 \tab - \tab 1819 \cr
-   1988 \tab 484 \tab 18 \tab 857 \tab 4 \tab 118 \tab - \tab 1481 \cr
-   1989 \tab 502 \tab 18 \tab 899 \tab 5 \tab 113 \tab - \tab 1537 \cr
-   1990 \tab 473 \tab 31 \tab 759 \tab 1 \tab 108 \tab - \tab 1372 \cr
-   1991 \tab 500 \tab 21 \tab 902 \tab 7 \tab 87 \tab - \tab 1517 \cr
-   1993 \tab 549 \tab 19 \tab 961 \tab 4 \tab 73 \tab - \tab 1606 \cr
-   1994 \tab 981 \tab 19 \tab 1804 \tab 12 \tab 176 \tab - \tab 2992 \cr
-   1996 \tab 979 \tab 24 \tab 1756 \tab 7 \tab 138 \tab - \tab 2904 \cr
-   1998 \tab 921 \tab 31 \tab 1750 \tab 5 \tab 125 \tab - \tab 2832 \cr
-   2000 \tab 921 \tab 32 \tab 1738 \tab 11 \tab 115 \tab - \tab 2817 \cr
-   2002 \tab 1853 \tab 19 \tab 833 \tab 1 \tab 59 \tab - \tab 2765 \cr
-   2004 \tab 1936 \tab 26 \tab 783 \tab 1 \tab 66 \tab - \tab 2812 \cr
-   2006 \tab 2521 \tab 66 \tab 1787 \tab - \tab 136 \tab - \tab 4510 \cr
-   2008 \tab 658 \tab 45 \tab 1193 \tab 1 \tab 126 \tab - \tab 2023 \cr
-   2010 \tab 667 \tab 29 \tab 1220 \tab 2 \tab 126 \tab - \tab 2044 \cr
-   2012 \tab 636 \tab 38 \tab 1174 \tab 1 \tab 125 \tab - \tab 1974 \cr
-   2014 \tab 851 \tab 31 \tab 1508 \tab - \tab 148 \tab - \tab 2538 \cr
-   2016 \tab 911 \tab 38 \tab 1715 \tab 5 \tab 198 \tab - \tab 2867 \cr
-   2018 \tab 785 \tab 37 \tab 1374 \tab 2 \tab 150 \tab - \tab 2348 \cr
-   2021 \tab 2719 \tab 1 \tab 1204 \tab 1 \tab 100 \tab 7 \tab 4032 \cr
-   2022 \tab 2353 \tab 4 \tab 1076 \tab 1 \tab 106 \tab 4 \tab 3544 \cr
-   2024 \tab 2198 \tab 14 \tab 983 \tab 1 \tab 106 \tab 7 \tab 3309 \cr
-   Total \tab 33142 \tab 861 \tab 37027 \tab 107 \tab 4544 \tab 18 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/671/vshow}{GSS Data Explorer page for \code{polabuse}}.
 }
 
 \seealso{

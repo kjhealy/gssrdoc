@@ -38,49 +38,9 @@ Would you object strongly, mildly, or not at all?
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/384/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllll}{
-   year \tab don't know \tab iap \tab mildly object \tab no answer \tab not object \tab strongly object \tab not available in this year \tab Total \cr
-   1972 \tab 30 \tab 261 \tab 206 \tab 4 \tab 939 \tab 173 \tab - \tab 1613 \cr
-   1973 \tab 21 \tab 183 \tab 196 \tab 8 \tab 895 \tab 201 \tab - \tab 1504 \cr
-   1974 \tab 22 \tab 173 \tab 204 \tab 1 \tab 943 \tab 141 \tab - \tab 1484 \cr
-   1975 \tab - \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 33 \tab 129 \tab 196 \tab 5 \tab 963 \tab 173 \tab - \tab 1499 \cr
-   1977 \tab 16 \tab 176 \tab 220 \tab 5 \tab 959 \tab 154 \tab - \tab 1530 \cr
-   1978 \tab - \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 21 \tab - \tab 190 \tab 3 \tab 1105 \tab 149 \tab - \tab 1468 \cr
-   1982 \tab 21 \tab - \tab 186 \tab 6 \tab 1508 \tab 139 \tab - \tab 1860 \cr
-   1983 \tab - \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 18 \tab - \tab 160 \tab 5 \tab 1197 \tab 93 \tab - \tab 1473 \cr
-   1985 \tab 3 \tab 783 \tab 79 \tab 5 \tab 591 \tab 73 \tab - \tab 1534 \cr
-   1986 \tab - \tab 1470 \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab - \tab 1819 \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab - \tab 1481 \tab - \tab - \tab - \tab - \tab - \tab 1481 \cr
-   1989 \tab - \tab 1537 \tab - \tab - \tab - \tab - \tab - \tab 1537 \cr
-   1990 \tab - \tab 1372 \tab - \tab - \tab - \tab - \tab - \tab 1372 \cr
-   1991 \tab - \tab 1517 \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
-   1993 \tab - \tab 1606 \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab - \tab 2992 \tab - \tab - \tab - \tab - \tab - \tab 2992 \cr
-   1996 \tab - \tab 2904 \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
-   1998 \tab - \tab 2832 \tab - \tab - \tab - \tab - \tab - \tab 2832 \cr
-   2000 \tab - \tab 2817 \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
-   2002 \tab - \tab 2765 \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab - \tab 2812 \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
-   2006 \tab - \tab 4510 \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
-   2008 \tab - \tab 2023 \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
-   2010 \tab - \tab 2044 \tab - \tab - \tab - \tab - \tab - \tab 2044 \cr
-   2012 \tab - \tab 1974 \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab - \tab 2538 \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
-   2016 \tab - \tab 2867 \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
-   2018 \tab - \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab 4032 \tab - \tab - \tab - \tab - \tab - \tab 4032 \cr
-   2022 \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab 3544 \cr
-   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
-   Total \tab 185 \tab 56586 \tab 1637 \tab 42 \tab 9100 \tab 1296 \tab 6853 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/384/vshow}{GSS Data Explorer page for \code{racdin}}.
 }
 
 \seealso{

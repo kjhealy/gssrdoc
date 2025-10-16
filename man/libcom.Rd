@@ -59,49 +59,9 @@ C. Suppose he wrote a book which is in your public library. Somebody in your com
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/257/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllll}{
-   year \tab don't know \tab no answer \tab not remove \tab remove \tab iap \tab skipped on web \tab Total \cr
-   1972 \tab 76 \tab 5 \tab 851 \tab 681 \tab - \tab - \tab 1613 \cr
-   1973 \tab 35 \tab 6 \tab 876 \tab 587 \tab - \tab - \tab 1504 \cr
-   1974 \tab 51 \tab 6 \tab 866 \tab 561 \tab - \tab - \tab 1484 \cr
-   1975 \tab - \tab - \tab - \tab - \tab 1490 \tab - \tab 1490 \cr
-   1976 \tab 55 \tab 5 \tab 838 \tab 601 \tab - \tab - \tab 1499 \cr
-   1977 \tab 39 \tab 7 \tab 842 \tab 642 \tab - \tab - \tab 1530 \cr
-   1978 \tab - \tab - \tab - \tab - \tab 1532 \tab - \tab 1532 \cr
-   1980 \tab 55 \tab 3 \tab 839 \tab 571 \tab - \tab - \tab 1468 \cr
-   1982 \tab 107 \tab 14 \tab 1001 \tab 738 \tab - \tab - \tab 1860 \cr
-   1983 \tab - \tab - \tab - \tab - \tab 1599 \tab - \tab 1599 \cr
-   1984 \tab 49 \tab 6 \tab 873 \tab 545 \tab - \tab - \tab 1473 \cr
-   1985 \tab 57 \tab 6 \tab 874 \tab 597 \tab - \tab - \tab 1534 \cr
-   1986 \tab - \tab - \tab - \tab - \tab 1470 \tab - \tab 1470 \cr
-   1987 \tab 60 \tab 10 \tab 1078 \tab 671 \tab - \tab - \tab 1819 \cr
-   1988 \tab 30 \tab 3 \tab 579 \tab 365 \tab 504 \tab - \tab 1481 \cr
-   1989 \tab 44 \tab 6 \tab 633 \tab 350 \tab 504 \tab - \tab 1537 \cr
-   1990 \tab 31 \tab 3 \tab 584 \tab 299 \tab 455 \tab - \tab 1372 \cr
-   1991 \tab 29 \tab 4 \tab 667 \tab 293 \tab 524 \tab - \tab 1517 \cr
-   1993 \tab 46 \tab 6 \tab 713 \tab 310 \tab 531 \tab - \tab 1606 \cr
-   1994 \tab 54 \tab 4 \tab 1322 \tab 616 \tab 996 \tab - \tab 2992 \cr
-   1996 \tab 79 \tab 5 \tab 1241 \tab 598 \tab 981 \tab - \tab 2904 \cr
-   1998 \tab 90 \tab 7 \tab 1247 \tab 538 \tab 950 \tab - \tab 2832 \cr
-   2000 \tab 62 \tab 7 \tab 1223 \tab 569 \tab 956 \tab - \tab 2817 \cr
-   2002 \tab 22 \tab 3 \tab 636 \tab 263 \tab 1841 \tab - \tab 2765 \cr
-   2004 \tab 14 \tab 3 \tab 630 \tab 251 \tab 1914 \tab - \tab 2812 \cr
-   2006 \tab 40 \tab 2 \tab 1364 \tab 597 \tab 2507 \tab - \tab 4510 \cr
-   2008 \tab 41 \tab 2 \tab 900 \tab 409 \tab 671 \tab - \tab 2023 \cr
-   2010 \tab 34 \tab 4 \tab 876 \tab 367 \tab 763 \tab - \tab 2044 \cr
-   2012 \tab 51 \tab 3 \tab 919 \tab 335 \tab 666 \tab - \tab 1974 \cr
-   2014 \tab 39 \tab 7 \tab 1220 \tab 448 \tab 824 \tab - \tab 2538 \cr
-   2016 \tab 47 \tab 13 \tab 1350 \tab 480 \tab 977 \tab - \tab 2867 \cr
-   2018 \tab 62 \tab 7 \tab 1110 \tab 395 \tab 774 \tab - \tab 2348 \cr
-   2021 \tab 2 \tab - \tab 1025 \tab 278 \tab 2714 \tab 13 \tab 4032 \cr
-   2022 \tab 35 \tab 4 \tab 810 \tab 307 \tab 2380 \tab 8 \tab 3544 \cr
-   2024 \tab 28 \tab - \tab 789 \tab 324 \tab 2163 \tab 5 \tab 3309 \cr
-   Total \tab 1464 \tab 161 \tab 28776 \tab 14586 \tab 30686 \tab 26 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/257/vshow}{GSS Data Explorer page for \code{libcom}}.
 }
 
 \seealso{

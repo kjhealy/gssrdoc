@@ -62,49 +62,9 @@ F. If she is not married and does not want to marry the man?
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/606/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllll}{
-   year \tab don't know \tab no \tab no answer \tab yes \tab iap \tab skipped on web \tab Total \cr
-   1972 \tab 103 \tab 848 \tab 8 \tab 654 \tab - \tab - \tab 1613 \cr
-   1973 \tab 49 \tab 738 \tab 5 \tab 712 \tab - \tab - \tab 1504 \cr
-   1974 \tab 64 \tab 709 \tab - \tab 711 \tab - \tab - \tab 1484 \cr
-   1975 \tab 71 \tab 732 \tab 5 \tab 682 \tab - \tab - \tab 1490 \cr
-   1976 \tab 56 \tab 715 \tab 5 \tab 723 \tab - \tab - \tab 1499 \cr
-   1977 \tab 64 \tab 733 \tab 7 \tab 726 \tab - \tab - \tab 1530 \cr
-   1978 \tab 55 \tab 867 \tab 4 \tab 606 \tab - \tab - \tab 1532 \cr
-   1980 \tab 62 \tab 724 \tab 2 \tab 680 \tab - \tab - \tab 1468 \cr
-   1982 \tab 91 \tab 961 \tab 5 \tab 803 \tab - \tab - \tab 1860 \cr
-   1983 \tab 73 \tab 905 \tab 33 \tab 588 \tab - \tab - \tab 1599 \cr
-   1984 \tab 42 \tab 792 \tab 11 \tab 628 \tab - \tab - \tab 1473 \cr
-   1985 \tab 43 \tab 874 \tab 5 \tab 612 \tab - \tab - \tab 1534 \cr
-   1986 \tab - \tab - \tab - \tab - \tab 1470 \tab - \tab 1470 \cr
-   1987 \tab 65 \tab 1045 \tab 9 \tab 700 \tab - \tab - \tab 1819 \cr
-   1988 \tab 41 \tab 565 \tab 4 \tab 367 \tab 504 \tab - \tab 1481 \cr
-   1989 \tab 43 \tab 538 \tab 5 \tab 447 \tab 504 \tab - \tab 1537 \cr
-   1990 \tab 41 \tab 477 \tab 4 \tab 395 \tab 455 \tab - \tab 1372 \cr
-   1991 \tab 36 \tab 524 \tab 7 \tab 426 \tab 524 \tab - \tab 1517 \cr
-   1993 \tab 56 \tab 526 \tab 5 \tab 488 \tab 531 \tab - \tab 1606 \cr
-   1994 \tab 52 \tab 1015 \tab 6 \tab 923 \tab 996 \tab - \tab 2992 \cr
-   1996 \tab 80 \tab 1010 \tab 11 \tab 822 \tab 981 \tab - \tab 2904 \cr
-   1998 \tab 87 \tab 1033 \tab 5 \tab 757 \tab 950 \tab - \tab 2832 \cr
-   2000 \tab 88 \tab 1076 \tab 6 \tab 691 \tab 956 \tab - \tab 2817 \cr
-   2002 \tab 27 \tab 519 \tab 2 \tab 376 \tab 1841 \tab - \tab 2765 \cr
-   2004 \tab 20 \tab 512 \tab 12 \tab 354 \tab 1914 \tab - \tab 2812 \cr
-   2006 \tab 57 \tab 1159 \tab 10 \tab 777 \tab 2507 \tab - \tab 4510 \cr
-   2008 \tab 38 \tab 765 \tab 13 \tab 536 \tab 671 \tab - \tab 2023 \cr
-   2010 \tab 36 \tab 704 \tab 17 \tab 524 \tab 763 \tab - \tab 2044 \cr
-   2012 \tab 45 \tab 713 \tab 17 \tab 533 \tab 666 \tab - \tab 1974 \cr
-   2014 \tab 44 \tab 938 \tab 19 \tab 713 \tab 824 \tab - \tab 2538 \cr
-   2016 \tab 30 \tab 1051 \tab 27 \tab 782 \tab 977 \tab - \tab 2867 \cr
-   2018 \tab 38 \tab 816 \tab 20 \tab 700 \tab 774 \tab - \tab 2348 \cr
-   2021 \tab 11 \tab 612 \tab 1 \tab 813 \tab 2574 \tab 21 \tab 4032 \cr
-   2022 \tab 29 \tab 467 \tab 10 \tab 666 \tab 2367 \tab 5 \tab 3544 \cr
-   2024 \tab 57 \tab 695 \tab 18 \tab 830 \tab 1694 \tab 15 \tab 3309 \cr
-   Total \tab 1794 \tab 26358 \tab 318 \tab 21745 \tab 25443 \tab 41 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/606/vshow}{GSS Data Explorer page for \code{absingle}}.
 }
 
 \seealso{

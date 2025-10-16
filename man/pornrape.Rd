@@ -45,49 +45,9 @@ C. Sexual materials lead people to commit rape
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/638/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab not available in this year \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab - \tab 105 \tab 642 \tab 9 \tab 748 \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab - \tab 149 \tab 563 \tab 6 \tab 772 \tab - \tab 1490 \cr
-   1976 \tab - \tab 136 \tab 569 \tab 7 \tab 787 \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab - \tab 112 \tab 549 \tab 4 \tab 867 \tab - \tab 1532 \cr
-   1980 \tab - \tab 134 \tab 538 \tab 6 \tab 790 \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab - \tab 113 \tab 596 \tab 10 \tab 880 \tab - \tab 1599 \cr
-   1984 \tab - \tab 114 \tab 542 \tab 11 \tab 806 \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab - \tab 101 \tab 530 \tab 9 \tab 830 \tab - \tab 1470 \cr
-   1987 \tab - \tab 168 \tab 677 \tab 11 \tab 963 \tab - \tab 1819 \cr
-   1988 \tab 484 \tab 80 \tab 351 \tab 8 \tab 558 \tab - \tab 1481 \cr
-   1989 \tab 502 \tab 74 \tab 339 \tab 6 \tab 616 \tab - \tab 1537 \cr
-   1990 \tab 473 \tab 94 \tab 297 \tab 1 \tab 507 \tab - \tab 1372 \cr
-   1991 \tab 500 \tab 111 \tab 372 \tab 2 \tab 532 \tab - \tab 1517 \cr
-   1993 \tab 549 \tab 100 \tab 351 \tab 10 \tab 596 \tab - \tab 1606 \cr
-   1994 \tab 1965 \tab 104 \tab 426 \tab 6 \tab 491 \tab - \tab 2992 \cr
-   1996 \tab 2904 \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
-   1998 \tab 2832 \tab - \tab - \tab - \tab - \tab - \tab 2832 \cr
-   2000 \tab 2817 \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
-   2002 \tab 2765 \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab 2812 \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
-   2006 \tab 4510 \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
-   2008 \tab 2023 \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
-   2010 \tab 2044 \tab - \tab - \tab - \tab - \tab - \tab 2044 \cr
-   2012 \tab 1974 \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab 2538 \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
-   2016 \tab 2867 \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
-   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab 4032 \tab - \tab - \tab - \tab - \tab - \tab 4032 \cr
-   2022 \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab 3544 \cr
-   2024 \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
-   Total \tab 48960 \tab 1695 \tab 7342 \tab 106 \tab 10743 \tab 6853 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/638/vshow}{GSS Data Explorer page for \code{pornrape}}.
 }
 
 \seealso{

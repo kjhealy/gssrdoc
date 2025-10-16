@@ -54,49 +54,9 @@ A. A working mother can establish just as warm and secure a relationship with he
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/703/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab strongly agree \tab strongly disagree \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab - \tab 501 \tab 505 \tab 22 \tab 3 \tab 236 \tab 263 \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab - \tab 600 \tab 438 \tab 11 \tab 5 \tab 323 \tab 157 \tab - \tab 1534 \cr
-   1986 \tab - \tab 589 \tab 434 \tab 9 \tab 1 \tab 323 \tab 114 \tab - \tab 1470 \cr
-   1987 \tab 1819 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 493 \tab 384 \tab 271 \tab 9 \tab 2 \tab 233 \tab 89 \tab - \tab 1481 \cr
-   1989 \tab 531 \tab 420 \tab 286 \tab 12 \tab 4 \tab 214 \tab 70 \tab - \tab 1537 \cr
-   1990 \tab 444 \tab 382 \tab 267 \tab 6 \tab 1 \tab 201 \tab 71 \tab - \tab 1372 \cr
-   1991 \tab 493 \tab 458 \tab 287 \tab 11 \tab 2 \tab 202 \tab 64 \tab - \tab 1517 \cr
-   1993 \tab 526 \tab 496 \tab 283 \tab 15 \tab 2 \tab 217 \tab 67 \tab - \tab 1606 \cr
-   1994 \tab 1015 \tab 901 \tab 496 \tab 24 \tab 5 \tab 455 \tab 96 \tab - \tab 2992 \cr
-   1996 \tab 475 \tab 1012 \tab 624 \tab 29 \tab 7 \tab 579 \tab 178 \tab - \tab 2904 \cr
-   1998 \tab 961 \tab 841 \tab 470 \tab 26 \tab 5 \tab 407 \tab 122 \tab - \tab 2832 \cr
-   2000 \tab 940 \tab 752 \tab 540 \tab 22 \tab 9 \tab 376 \tab 178 \tab - \tab 2817 \cr
-   2002 \tab 1857 \tab 355 \tab 244 \tab 7 \tab - \tab 218 \tab 84 \tab - \tab 2765 \cr
-   2004 \tab 1906 \tab 379 \tab 244 \tab 9 \tab - \tab 211 \tab 63 \tab - \tab 2812 \cr
-   2006 \tab 2518 \tab 848 \tab 533 \tab 20 \tab - \tab 474 \tab 117 \tab - \tab 4510 \cr
-   2008 \tab 694 \tab 600 \tab 293 \tab 7 \tab 2 \tab 354 \tab 73 \tab - \tab 2023 \cr
-   2010 \tab 614 \tab 648 \tab 285 \tab 5 \tab 1 \tab 425 \tab 66 \tab - \tab 2044 \cr
-   2012 \tab 672 \tab 593 \tab 291 \tab 10 \tab - \tab 342 \tab 66 \tab - \tab 1974 \cr
-   2014 \tab 863 \tab 767 \tab 323 \tab 9 \tab - \tab 499 \tab 77 \tab - \tab 2538 \cr
-   2016 \tab 979 \tab 802 \tab 395 \tab 10 \tab - \tab 613 \tab 68 \tab - \tab 2867 \cr
-   2018 \tab 789 \tab 670 \tab 324 \tab 8 \tab 1 \tab 480 \tab 76 \tab - \tab 2348 \cr
-   2021 \tab 1315 \tab 1173 \tab 394 \tab - \tab - \tab 1062 \tab 85 \tab 3 \tab 4032 \cr
-   2022 \tab 1168 \tab 1031 \tab 439 \tab 11 \tab 1 \tab 796 \tab 98 \tab - \tab 3544 \cr
-   2024 \tab 1126 \tab 936 \tab 427 \tab 14 \tab 1 \tab 698 \tab 107 \tab - \tab 3309 \cr
-   Total \tab 37720 \tab 16138 \tab 9093 \tab 306 \tab 52 \tab 9938 \tab 2449 \tab 3 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/703/vshow}{GSS Data Explorer page for \code{fechld}}.
 }
 
 \seealso{

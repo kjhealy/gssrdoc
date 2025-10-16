@@ -63,49 +63,9 @@ As of 2024, TEENS has been recoded to only account for 0 to 2+ teenagers in the 
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/100/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllllllllll}{
-   year \tab 0 household members between 13 to 17 \tab 1 \tab 2 \tab 3 \tab 4 \tab 6 \tab 8 or more \tab 5 \tab no answer \tab 7 \tab skipped on web \tab iap \tab not available in this release \tab Total \cr
-   1972 \tab 1182 \tab 256 \tab 130 \tab 38 \tab 5 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1156 \tab 220 \tab 97 \tab 26 \tab 3 \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1112 \tab 215 \tab 103 \tab 47 \tab 5 \tab - \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1152 \tab 207 \tab 101 \tab 23 \tab 5 \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1189 \tab 182 \tab 92 \tab 24 \tab 10 \tab - \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1190 \tab 190 \tab 105 \tab 32 \tab 5 \tab - \tab - \tab - \tab 8 \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1204 \tab 200 \tab 89 \tab 25 \tab 5 \tab - \tab - \tab 1 \tab 8 \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1208 \tab 164 \tab 75 \tab 7 \tab 3 \tab - \tab - \tab 1 \tab 10 \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1535 \tab 215 \tab 86 \tab 16 \tab 4 \tab - \tab - \tab 1 \tab 3 \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1301 \tab 210 \tab 72 \tab 10 \tab 2 \tab - \tab - \tab - \tab 4 \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1220 \tab 169 \tab 65 \tab 16 \tab 1 \tab - \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab 1286 \tab 170 \tab 59 \tab 14 \tab 2 \tab - \tab - \tab - \tab 3 \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab 1209 \tab 186 \tab 59 \tab 10 \tab 1 \tab - \tab - \tab - \tab 5 \tab - \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab 1489 \tab 227 \tab 80 \tab 17 \tab 3 \tab 1 \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 1252 \tab 168 \tab 47 \tab 8 \tab - \tab - \tab - \tab - \tab 6 \tab - \tab - \tab - \tab - \tab 1481 \cr
-   1989 \tab 1254 \tab 210 \tab 49 \tab 9 \tab - \tab - \tab - \tab - \tab 15 \tab - \tab - \tab - \tab - \tab 1537 \cr
-   1990 \tab 1191 \tab 128 \tab 39 \tab 6 \tab 1 \tab - \tab - \tab - \tab 7 \tab - \tab - \tab - \tab - \tab 1372 \cr
-   1991 \tab 1315 \tab 146 \tab 47 \tab 5 \tab - \tab - \tab - \tab - \tab 4 \tab - \tab - \tab - \tab - \tab 1517 \cr
-   1993 \tab 1377 \tab 173 \tab 52 \tab 4 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab 2567 \tab 326 \tab 83 \tab 14 \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 2992 \cr
-   1996 \tab 2492 \tab 306 \tab 97 \tab 8 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
-   1998 \tab 2414 \tab 321 \tab 86 \tab 6 \tab 3 \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab 2832 \cr
-   2000 \tab 2360 \tab 316 \tab 79 \tab 18 \tab 1 \tab - \tab - \tab - \tab 43 \tab - \tab - \tab - \tab - \tab 2817 \cr
-   2002 \tab 2437 \tab 230 \tab 64 \tab 4 \tab - \tab - \tab - \tab - \tab 30 \tab - \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab 2427 \tab 256 \tab 102 \tab 8 \tab 2 \tab - \tab - \tab - \tab 16 \tab 1 \tab - \tab - \tab - \tab 2812 \cr
-   2006 \tab 3835 \tab 470 \tab 149 \tab 21 \tab 2 \tab - \tab - \tab 1 \tab 32 \tab - \tab - \tab - \tab - \tab 4510 \cr
-   2008 \tab 1711 \tab 207 \tab 64 \tab 10 \tab 1 \tab - \tab - \tab - \tab 30 \tab - \tab - \tab - \tab - \tab 2023 \cr
-   2010 \tab 1794 \tab 170 \tab 63 \tab 10 \tab 1 \tab - \tab 1 \tab - \tab 5 \tab - \tab - \tab - \tab - \tab 2044 \cr
-   2012 \tab 1713 \tab 185 \tab 48 \tab 7 \tab 1 \tab - \tab - \tab - \tab 20 \tab - \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab 2250 \tab 197 \tab 68 \tab 8 \tab 2 \tab - \tab - \tab - \tab 13 \tab - \tab - \tab - \tab - \tab 2538 \cr
-   2016 \tab 2520 \tab 237 \tab 76 \tab 14 \tab 3 \tab - \tab - \tab - \tab 17 \tab - \tab - \tab - \tab - \tab 2867 \cr
-   2018 \tab 2074 \tab 186 \tab 59 \tab 5 \tab - \tab - \tab - \tab - \tab 24 \tab - \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab 3622 \tab 293 \tab 103 \tab 10 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 3 \tab - \tab - \tab 4032 \cr
-   2022 \tab 1601 \tab 108 \tab 50 \tab 9 \tab - \tab - \tab - \tab - \tab 8 \tab - \tab 4 \tab 1764 \tab - \tab 3544 \cr
-   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
-   Total \tab 59639 \tab 7444 \tab 2638 \tab 489 \tab 74 \tab 2 \tab 2 \tab 9 \tab 321 \tab 1 \tab 7 \tab 1764 \tab 3309 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/100/vshow}{GSS Data Explorer page for \code{teens}}.
 }
 
 \seealso{

@@ -63,49 +63,9 @@ Question Taken all together, how would you say things are these days--would you 
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/434/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllll}{
-   year \tab no answer \tab not too happy \tab pretty happy \tab very happy \tab don't know \tab iap \tab skipped on web \tab Total \cr
-   1972 \tab 7 \tab 265 \tab 855 \tab 486 \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 4 \tab 196 \tab 766 \tab 538 \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 4 \tab 194 \tab 725 \tab 561 \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 5 \tab 194 \tab 803 \tab 488 \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab - \tab 188 \tab 800 \tab 511 \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 3 \tab 182 \tab 813 \tab 532 \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 15 \tab 145 \tab 851 \tab 521 \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 5 \tab 195 \tab 771 \tab 496 \tab 1 \tab - \tab - \tab 1468 \cr
-   1982 \tab 5 \tab 269 \tab 1019 \tab 567 \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 26 \tab 201 \tab 882 \tab 490 \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 27 \tab 187 \tab 756 \tab 502 \tab 1 \tab - \tab - \tab 1473 \cr
-   1985 \tab 4 \tab 174 \tab 918 \tab 438 \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab 21 \tab 165 \tab 816 \tab 468 \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab 39 \tab 239 \tab 1023 \tab 518 \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 15 \tab 136 \tab 832 \tab 498 \tab - \tab - \tab - \tab 1481 \cr
-   1989 \tab 11 \tab 148 \tab 880 \tab 498 \tab - \tab - \tab - \tab 1537 \cr
-   1990 \tab 11 \tab 122 \tab 784 \tab 455 \tab - \tab - \tab - \tab 1372 \cr
-   1991 \tab 13 \tab 165 \tab 872 \tab 467 \tab - \tab - \tab - \tab 1517 \cr
-   1993 \tab 5 \tab 178 \tab 917 \tab 506 \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab 14 \tab 364 \tab 1756 \tab 857 \tab 1 \tab - \tab - \tab 2992 \cr
-   1996 \tab 18 \tab 349 \tab 1659 \tab 877 \tab 1 \tab - \tab - \tab 2904 \cr
-   1998 \tab 24 \tab 340 \tab 1575 \tab 891 \tab 2 \tab - \tab - \tab 2832 \cr
-   2000 \tab 39 \tab 293 \tab 1603 \tab 881 \tab 1 \tab - \tab - \tab 2817 \cr
-   2002 \tab 2 \tab 170 \tab 784 \tab 415 \tab 1 \tab 1393 \tab - \tab 2765 \cr
-   2004 \tab 1 \tab 180 \tab 738 \tab 419 \tab 2 \tab 1472 \tab - \tab 2812 \cr
-   2006 \tab - \tab 390 \tab 1676 \tab 920 \tab 6 \tab 1518 \tab - \tab 4510 \cr
-   2008 \tab 6 \tab 316 \tab 1100 \tab 599 \tab 2 \tab - \tab - \tab 2023 \cr
-   2010 \tab 3 \tab 317 \tab 1184 \tab 538 \tab 2 \tab - \tab - \tab 2044 \cr
-   2012 \tab 4 \tab 277 \tab 1094 \tab 593 \tab 6 \tab - \tab - \tab 1974 \cr
-   2014 \tab 2 \tab 341 \tab 1403 \tab 786 \tab 6 \tab - \tab - \tab 2538 \cr
-   2016 \tab 5 \tab 452 \tab 1601 \tab 806 \tab 3 \tab - \tab - \tab 2867 \cr
-   2018 \tab - \tab 336 \tab 1307 \tab 701 \tab 4 \tab - \tab - \tab 2348 \cr
-   2021 \tab 1 \tab 923 \tab 2308 \tab 783 \tab 1 \tab - \tab 16 \tab 4032 \cr
-   2022 \tab 4 \tab 799 \tab 1942 \tab 779 \tab 11 \tab - \tab 9 \tab 3544 \cr
-   2024 \tab 3 \tab 705 \tab 1892 \tab 684 \tab 13 \tab - \tab 12 \tab 3309 \cr
-   Total \tab 346 \tab 10095 \tab 39705 \tab 21069 \tab 64 \tab 4383 \tab 37 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/434/vshow}{GSS Data Explorer page for \code{happy}}.
 }
 
 \seealso{

@@ -55,49 +55,9 @@ D. Is tired of living and ready to die?
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/652/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab - \tab 27 \tab 1294 \tab 7 \tab 202 \tab - \tab 1530 \cr
-   1978 \tab - \tab 20 \tab 1330 \tab 1 \tab 181 \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab - \tab 58 \tab 1551 \tab 12 \tab 239 \tab - \tab 1860 \cr
-   1983 \tab - \tab 41 \tab 1317 \tab 9 \tab 232 \tab - \tab 1599 \cr
-   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab - \tab 35 \tab 1304 \tab 4 \tab 191 \tab - \tab 1534 \cr
-   1986 \tab - \tab 20 \tab 1226 \tab 4 \tab 220 \tab - \tab 1470 \cr
-   1987 \tab 1819 \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 493 \tab 26 \tab 834 \tab 8 \tab 120 \tab - \tab 1481 \cr
-   1989 \tab 531 \tab 21 \tab 846 \tab 5 \tab 134 \tab - \tab 1537 \cr
-   1990 \tab 444 \tab 38 \tab 754 \tab 3 \tab 133 \tab - \tab 1372 \cr
-   1991 \tab 493 \tab 27 \tab 865 \tab 3 \tab 129 \tab - \tab 1517 \cr
-   1993 \tab 526 \tab 38 \tab 871 \tab 4 \tab 167 \tab - \tab 1606 \cr
-   1994 \tab 1015 \tab 59 \tab 1558 \tab 11 \tab 349 \tab - \tab 2992 \cr
-   1996 \tab 944 \tab 57 \tab 1556 \tab 6 \tab 341 \tab - \tab 2904 \cr
-   1998 \tab 961 \tab 72 \tab 1493 \tab 5 \tab 301 \tab - \tab 2832 \cr
-   2000 \tab 940 \tab 69 \tab 1494 \tab 7 \tab 307 \tab - \tab 2817 \cr
-   2002 \tab 1857 \tab 13 \tab 759 \tab - \tab 136 \tab - \tab 2765 \cr
-   2004 \tab 1906 \tab 16 \tab 729 \tab 4 \tab 157 \tab - \tab 2812 \cr
-   2006 \tab 2518 \tab 37 \tab 1631 \tab 6 \tab 318 \tab - \tab 4510 \cr
-   2008 \tab 694 \tab 29 \tab 1071 \tab 6 \tab 223 \tab - \tab 2023 \cr
-   2010 \tab 614 \tab 35 \tab 1130 \tab 6 \tab 259 \tab - \tab 2044 \cr
-   2012 \tab 672 \tab 37 \tab 1016 \tab 9 \tab 240 \tab - \tab 1974 \cr
-   2014 \tab 863 \tab 33 \tab 1306 \tab 6 \tab 330 \tab - \tab 2538 \cr
-   2016 \tab 979 \tab 33 \tab 1470 \tab 12 \tab 373 \tab - \tab 2867 \cr
-   2018 \tab 789 \tab 26 \tab 1192 \tab 11 \tab 330 \tab - \tab 2348 \cr
-   2021 \tab 2556 \tab 237 \tab 979 \tab 4 \tab 252 \tab 4 \tab 4032 \cr
-   2022 \tab 2373 \tab 20 \tab 845 \tab 3 \tab 296 \tab 7 \tab 3544 \cr
-   2024 \tab 1795 \tab 58 \tab 1092 \tab 4 \tab 347 \tab 13 \tab 3309 \cr
-   Total \tab 36313 \tab 1182 \tab 31513 \tab 160 \tab 6507 \tab 24 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/652/vshow}{GSS Data Explorer page for \code{suicide4}}.
 }
 
 \seealso{

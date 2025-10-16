@@ -39,49 +39,9 @@ B. Science makes our way of life change too fast.
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/3318/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab strongly agree \tab strongly disagree \tab skipped on web \tab not available in this year \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab 1470 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab 1819 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 1481 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1481 \cr
-   1989 \tab 1537 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1537 \cr
-   1990 \tab 1372 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1372 \cr
-   1991 \tab 1517 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
-   1993 \tab 1606 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab 2992 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2992 \cr
-   1996 \tab 2904 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
-   1998 \tab 2832 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2832 \cr
-   2000 \tab 2817 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
-   2002 \tab 2765 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab 2812 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
-   2006 \tab 2646 \tab 662 \tab 824 \tab 52 \tab 1 \tab 172 \tab 153 \tab - \tab - \tab 4510 \cr
-   2008 \tab 518 \tab 560 \tab 646 \tab 47 \tab 3 \tab 137 \tab 112 \tab - \tab - \tab 2023 \cr
-   2010 \tab 1353 \tab 272 \tab 291 \tab 17 \tab 4 \tab 53 \tab 54 \tab - \tab - \tab 2044 \cr
-   2012 \tab 972 \tab 315 \tab 512 \tab 37 \tab 6 \tab 92 \tab 40 \tab - \tab - \tab 1974 \cr
-   2014 \tab 1299 \tab 485 \tab 506 \tab 18 \tab 2 \tab 158 \tab 70 \tab - \tab - \tab 2538 \cr
-   2016 \tab 1477 \tab 552 \tab 541 \tab 25 \tab 4 \tab 162 \tab 106 \tab - \tab - \tab 2867 \cr
-   2018 \tab 1173 \tab 418 \tab 490 \tab 13 \tab 2 \tab 159 \tab 93 \tab - \tab - \tab 2348 \cr
-   2021 \tab 2150 \tab 617 \tab 875 \tab 2 \tab - \tab 163 \tab 207 \tab 18 \tab - \tab 4032 \cr
-   2022 \tab 2309 \tab 443 \tab 553 \tab - \tab - \tab 108 \tab 129 \tab 2 \tab - \tab 3544 \cr
-   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
-   Total \tab 60407 \tab 4324 \tab 5238 \tab 211 \tab 22 \tab 1204 \tab 964 \tab 20 \tab 3309 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/3318/vshow}{GSS Data Explorer page for \code{toofast}}.
 }
 
 \seealso{

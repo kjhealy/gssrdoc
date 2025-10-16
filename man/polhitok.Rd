@@ -57,49 +57,9 @@ Question Are there any situations you can imagine in which you would approve of 
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/670/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab - \tab 33 \tab 378 \tab 2 \tab 1091 \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab - \tab 52 \tab 343 \tab 15 \tab 1080 \tab - \tab 1490 \cr
-   1976 \tab - \tab 57 \tab 300 \tab 4 \tab 1138 \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab - \tab 52 \tab 308 \tab 5 \tab 1167 \tab - \tab 1532 \cr
-   1980 \tab - \tab 45 \tab 351 \tab 11 \tab 1061 \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab - \tab 44 \tab 310 \tab 19 \tab 1226 \tab - \tab 1599 \cr
-   1984 \tab - \tab 37 \tab 414 \tab 7 \tab 1015 \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab - \tab 41 \tab 368 \tab 17 \tab 1044 \tab - \tab 1470 \cr
-   1987 \tab - \tab 91 \tab 467 \tab 23 \tab 1238 \tab - \tab 1819 \cr
-   1988 \tab 484 \tab 44 \tab 224 \tab 10 \tab 719 \tab - \tab 1481 \cr
-   1989 \tab 502 \tab 60 \tab 240 \tab 17 \tab 718 \tab - \tab 1537 \cr
-   1990 \tab 473 \tab 48 \tab 222 \tab 12 \tab 617 \tab - \tab 1372 \cr
-   1991 \tab 500 \tab 43 \tab 305 \tab 8 \tab 661 \tab - \tab 1517 \cr
-   1993 \tab 549 \tab 49 \tab 234 \tab 4 \tab 770 \tab - \tab 1606 \cr
-   1994 \tab 981 \tab 61 \tab 517 \tab 13 \tab 1420 \tab - \tab 2992 \cr
-   1996 \tab 979 \tab 84 \tab 549 \tab 8 \tab 1284 \tab - \tab 2904 \cr
-   1998 \tab 921 \tab 82 \tab 574 \tab 9 \tab 1246 \tab - \tab 2832 \cr
-   2000 \tab 921 \tab 65 \tab 613 \tab 17 \tab 1201 \tab - \tab 2817 \cr
-   2002 \tab 1853 \tab 63 \tab 250 \tab - \tab 599 \tab - \tab 2765 \cr
-   2004 \tab 1936 \tab 52 \tab 242 \tab 4 \tab 578 \tab - \tab 2812 \cr
-   2006 \tab 2521 \tab 116 \tab 632 \tab 1 \tab 1240 \tab - \tab 4510 \cr
-   2008 \tab 1343 \tab 39 \tab 197 \tab 1 \tab 443 \tab - \tab 2023 \cr
-   2010 \tab 667 \tab 76 \tab 423 \tab 3 \tab 875 \tab - \tab 2044 \cr
-   2012 \tab 636 \tab 58 \tab 399 \tab 1 \tab 880 \tab - \tab 1974 \cr
-   2014 \tab 851 \tab 77 \tab 546 \tab 1 \tab 1063 \tab - \tab 2538 \cr
-   2016 \tab 911 \tab 75 \tab 584 \tab 5 \tab 1292 \tab - \tab 2867 \cr
-   2018 \tab 785 \tab 78 \tab 539 \tab 4 \tab 942 \tab - \tab 2348 \cr
-   2021 \tab 2719 \tab 2 \tab 410 \tab 1 \tab 890 \tab 10 \tab 4032 \cr
-   2022 \tab 2353 \tab 17 \tab 406 \tab 3 \tab 761 \tab 4 \tab 3544 \cr
-   2024 \tab 2198 \tab 15 \tab 367 \tab 1 \tab 723 \tab 5 \tab 3309 \cr
-   Total \tab 33104 \tab 1656 \tab 11712 \tab 226 \tab 28982 \tab 19 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/670/vshow}{GSS Data Explorer page for \code{polhitok}}.
 }
 
 \seealso{

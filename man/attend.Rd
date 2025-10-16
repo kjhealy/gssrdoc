@@ -69,49 +69,9 @@ Question How often do you attend religious services? (USE CATEGORIES AS PROBES, 
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/294/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllllllllll}{
-   year \tab 2-3 times a month \tab about once a month \tab about once or twice a year \tab don't know \tab every week \tab less than once a year \tab nearly every week \tab never \tab several times a week \tab several times a year \tab iap \tab no answer \tab skipped on web \tab Total \cr
-   1972 \tab 142 \tab 108 \tab 178 \tab 13 \tab 460 \tab 137 \tab 98 \tab 150 \tab 101 \tab 226 \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 125 \tab 93 \tab 194 \tab 9 \tab 308 \tab 117 \tab 116 \tab 204 \tab 112 \tab 226 \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 129 \tab 118 \tab 226 \tab 3 \tab 333 \tab 103 \tab 86 \tab 181 \tab 117 \tab 188 \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 133 \tab 102 \tab 184 \tab 3 \tab 334 \tab 108 \tab 99 \tab 216 \tab 102 \tab 209 \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 100 \tab 106 \tab 203 \tab 7 \tab 298 \tab 136 \tab 90 \tab 194 \tab 133 \tab 232 \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 138 \tab 113 \tab 204 \tab 9 \tab 328 \tab 127 \tab 87 \tab 212 \tab 123 \tab 189 \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 145 \tab 103 \tab 202 \tab 5 \tab 299 \tab 134 \tab 107 \tab 239 \tab 123 \tab 175 \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 118 \tab 98 \tab 230 \tab 7 \tab 316 \tab 109 \tab 91 \tab 167 \tab 109 \tab 223 \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 180 \tab 132 \tab 264 \tab 13 \tab 363 \tab 131 \tab 120 \tab 241 \tab 158 \tab 258 \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 155 \tab 105 \tab 210 \tab 4 \tab 366 \tab 130 \tab 85 \tab 222 \tab 136 \tab 186 \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 122 \tab 110 \tab 173 \tab 13 \tab 345 \tab 107 \tab 71 \tab 190 \tab 136 \tab 206 \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab 114 \tab 113 \tab 230 \tab 4 \tab 383 \tab 107 \tab 57 \tab 222 \tab 119 \tab 185 \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab 148 \tab 117 \tab 183 \tab 4 \tab 334 \tab 105 \tab 66 \tab 206 \tab 132 \tab 175 \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab 215 \tab 154 \tab 240 \tab 13 \tab 373 \tab 113 \tab 97 \tab 196 \tab 146 \tab 272 \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 143 \tab 116 \tab 168 \tab 3 \tab 277 \tab 108 \tab 109 \tab 254 \tab 109 \tab 194 \tab - \tab - \tab - \tab 1481 \cr
-   1989 \tab 125 \tab 123 \tab 199 \tab 4 \tab 347 \tab 111 \tab 80 \tab 252 \tab 107 \tab 189 \tab - \tab - \tab - \tab 1537 \cr
-   1990 \tab 127 \tab 105 \tab 163 \tab 39 \tab 306 \tab 114 \tab 70 \tab 180 \tab 93 \tab 175 \tab - \tab - \tab - \tab 1372 \cr
-   1991 \tab 148 \tab 118 \tab 202 \tab 25 \tab 344 \tab 136 \tab 83 \tab 190 \tab 92 \tab 179 \tab - \tab - \tab - \tab 1517 \cr
-   1993 \tab 137 \tab 112 \tab 193 \tab 38 \tab 321 \tab 136 \tab 99 \tab 259 \tab 135 \tab 176 \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab 274 \tab 221 \tab 416 \tab 51 \tab 560 \tab 226 \tab 146 \tab 481 \tab 235 \tab 382 \tab - \tab - \tab - \tab 2992 \cr
-   1996 \tab 271 \tab 190 \tab 400 \tab 81 \tab 486 \tab 253 \tab 160 \tab 438 \tab 209 \tab 416 \tab - \tab - \tab - \tab 2904 \cr
-   1998 \tab 244 \tab 206 \tab 296 \tab 44 \tab 489 \tab 294 \tab 188 \tab 546 \tab 218 \tab 307 \tab - \tab - \tab - \tab 2832 \cr
-   2000 \tab 221 \tab 197 \tab 334 \tab 80 \tab 488 \tab 219 \tab 131 \tab 583 \tab 195 \tab 369 \tab - \tab - \tab - \tab 2817 \cr
-   2002 \tab 258 \tab 188 \tab 385 \tab 22 \tab 455 \tab 194 \tab 180 \tab 513 \tab 213 \tab 357 \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab 255 \tab 191 \tab 396 \tab 11 \tab 508 \tab 198 \tab 169 \tab 471 \tab 242 \tab 371 \tab - \tab - \tab - \tab 2812 \cr
-   2006 \tab 380 \tab 308 \tab 571 \tab 19 \tab 839 \tab 302 \tab 240 \tab 1020 \tab 329 \tab 502 \tab - \tab - \tab - \tab 4510 \cr
-   2008 \tab 174 \tab 140 \tab 281 \tab 9 \tab 361 \tab 142 \tab 88 \tab 427 \tab 168 \tab 233 \tab - \tab - \tab - \tab 2023 \cr
-   2010 \tab 171 \tab 147 \tab 287 \tab 8 \tab 382 \tab 143 \tab 87 \tab 470 \tab 138 \tab 211 \tab - \tab - \tab - \tab 2044 \cr
-   2012 \tab 168 \tab 133 \tab 264 \tab 8 \tab 380 \tab 111 \tab 83 \tab 496 \tab 140 \tab 191 \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab 217 \tab 149 \tab 337 \tab 13 \tab 431 \tab 183 \tab 114 \tab 669 \tab 175 \tab 250 \tab - \tab - \tab - \tab 2538 \cr
-   2016 \tab 250 \tab 190 \tab 385 \tab 17 \tab 481 \tab 173 \tab 126 \tab 723 \tab 210 \tab 312 \tab - \tab - \tab - \tab 2867 \cr
-   2018 \tab 186 \tab 146 \tab 300 \tab 16 \tab 391 \tab 137 \tab 88 \tab 716 \tab 129 \tab 239 \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab 200 \tab 122 \tab 453 \tab - \tab 532 \tab 565 \tab 331 \tab 1178 \tab 178 \tab 403 \tab 40 \tab 3 \tab 27 \tab 4032 \cr
-   2022 \tab 201 \tab 157 \tab 464 \tab - \tab 441 \tab 416 \tab 187 \tab 1149 \tab 148 \tab 346 \tab 2 \tab 24 \tab 9 \tab 3544 \cr
-   2024 \tab 208 \tab 152 \tab 371 \tab - \tab 446 \tab 356 \tab 194 \tab 1028 \tab 168 \tab 353 \tab - \tab 19 \tab 14 \tab 3309 \cr
-   Total \tab 6322 \tab 4983 \tab 9786 \tab 595 \tab 14105 \tab 6181 \tab 4223 \tab 14883 \tab 5378 \tab 9105 \tab 42 \tab 46 \tab 50 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/294/vshow}{GSS Data Explorer page for \code{attend}}.
 }
 
 \seealso{

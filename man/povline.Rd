@@ -50,49 +50,9 @@ Question A. Poverty Status of Household
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/5196/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllllll}{
-   year \tab borderline \tab borderline -- imputed \tab not imputable \tab not poor \tab not poor -- imputed \tab poor \tab poor -- imputed \tab not available in this year \tab iap \tab Total \cr
-   1972 \tab 168 \tab 6 \tab 18 \tab 1155 \tab 81 \tab 145 \tab 40 \tab - \tab - \tab 1613 \cr
-   1973 \tab 104 \tab 3 \tab 17 \tab 1174 \tab 69 \tab 106 \tab 31 \tab - \tab - \tab 1504 \cr
-   1974 \tab 100 \tab 5 \tab 10 \tab 1158 \tab 83 \tab 99 \tab 29 \tab - \tab - \tab 1484 \cr
-   1975 \tab 117 \tab 1 \tab 8 \tab 1185 \tab 48 \tab 107 \tab 24 \tab - \tab - \tab 1490 \cr
-   1976 \tab 126 \tab 4 \tab 7 \tab 1151 \tab 69 \tab 114 \tab 28 \tab - \tab - \tab 1499 \cr
-   1977 \tab 74 \tab 3 \tab 13 \tab 1246 \tab 86 \tab 79 \tab 29 \tab - \tab - \tab 1530 \cr
-   1978 \tab 83 \tab 1 \tab 9 \tab 1203 \tab 75 \tab 143 \tab 18 \tab - \tab - \tab 1532 \cr
-   1980 \tab 63 \tab - \tab 13 \tab 1169 \tab 81 \tab 130 \tab 12 \tab - \tab - \tab 1468 \cr
-   1982 \tab 87 \tab 3 \tab 25 \tab 1310 \tab 131 \tab 286 \tab 18 \tab - \tab - \tab 1860 \cr
-   1983 \tab 59 \tab - \tab 14 \tab 1205 \tab 127 \tab 185 \tab 9 \tab - \tab - \tab 1599 \cr
-   1984 \tab 58 \tab 2 \tab 12 \tab 1105 \tab 99 \tab 183 \tab 14 \tab - \tab - \tab 1473 \cr
-   1985 \tab 63 \tab - \tab 14 \tab 1182 \tab 100 \tab 169 \tab 6 \tab - \tab - \tab 1534 \cr
-   1986 \tab 54 \tab 2 \tab 13 \tab 1096 \tab 108 \tab 190 \tab 7 \tab - \tab - \tab 1470 \cr
-   1987 \tab 45 \tab 1 \tab 20 \tab 1346 \tab 126 \tab 271 \tab 10 \tab - \tab - \tab 1819 \cr
-   1988 \tab 55 \tab - \tab 5 \tab 1142 \tab 111 \tab 167 \tab 1 \tab - \tab - \tab 1481 \cr
-   1989 \tab 37 \tab 1 \tab 9 \tab 1204 \tab 139 \tab 142 \tab 5 \tab - \tab - \tab 1537 \cr
-   1990 \tab 44 \tab - \tab 9 \tab 1059 \tab 125 \tab 134 \tab 1 \tab - \tab - \tab 1372 \cr
-   1991 \tab 47 \tab 1 \tab 13 \tab 1125 \tab 131 \tab 196 \tab 4 \tab - \tab - \tab 1517 \cr
-   1993 \tab 42 \tab - \tab 31 \tab 1231 \tab 113 \tab 186 \tab 3 \tab - \tab - \tab 1606 \cr
-   1994 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2992 \tab - \tab 2992 \cr
-   1996 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2904 \tab - \tab 2904 \cr
-   1998 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2832 \tab - \tab 2832 \cr
-   2000 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \tab - \tab 2817 \cr
-   2002 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \tab - \tab 2765 \cr
-   2004 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2812 \tab - \tab 2812 \cr
-   2006 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4510 \tab - \tab 4510 \cr
-   2008 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2023 \tab - \tab 2023 \cr
-   2010 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2044 \tab - \tab 2044 \cr
-   2012 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \tab - \tab 1974 \cr
-   2014 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \tab - \tab 2538 \cr
-   2016 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2867 \tab - \tab 2867 \cr
-   2018 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
-   2022 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab - \tab 3544 \cr
-   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab - \tab 3309 \cr
-   Total \tab 1426 \tab 33 \tab 260 \tab 22446 \tab 1902 \tab 3032 \tab 289 \tab 42279 \tab 4032 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/5196/vshow}{GSS Data Explorer page for \code{povline}}.
 }
 
 \seealso{

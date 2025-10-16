@@ -40,49 +40,9 @@ Look at the first set of contrasting images. If you think that "The world is bas
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/366/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab don't know \tab no answer \tab world is evil \tab world is good \tab not available in this year \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab - \tab 41 \tab 105 \tab 447 \tab 377 \tab 194 \tab 7 \tab 21 \tab 100 \tab 242 \tab - \tab 1534 \cr
-   1986 \tab 1470 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab - \tab 68 \tab 154 \tab 461 \tab 372 \tab 225 \tab - \tab 31 \tab 143 \tab 365 \tab - \tab 1819 \cr
-   1988 \tab - \tab 54 \tab 112 \tab 428 \tab 340 \tab 180 \tab 7 \tab 20 \tab 103 \tab 237 \tab - \tab 1481 \cr
-   1989 \tab 531 \tab 38 \tab 77 \tab 290 \tab 229 \tab 134 \tab - \tab 21 \tab 66 \tab 151 \tab - \tab 1537 \cr
-   1990 \tab 444 \tab 28 \tab 76 \tab 279 \tab 243 \tab 126 \tab 2 \tab 11 \tab 47 \tab 116 \tab - \tab 1372 \cr
-   1991 \tab 158 \tab 52 \tab 73 \tab 339 \tab 326 \tab 237 \tab 3 \tab 86 \tab 74 \tab 169 \tab - \tab 1517 \cr
-   1993 \tab 1606 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab 1522 \tab 61 \tab 155 \tab 418 \tab 345 \tab 196 \tab 1 \tab 20 \tab 78 \tab 196 \tab - \tab 2992 \cr
-   1996 \tab 944 \tab 65 \tab 179 \tab 553 \tab 467 \tab 298 \tab 5 \tab 18 \tab 107 \tab 268 \tab - \tab 2904 \cr
-   1998 \tab 463 \tab 92 \tab 196 \tab 687 \tab 542 \tab 384 \tab 7 \tab 29 \tab 125 \tab 307 \tab - \tab 2832 \cr
-   2000 \tab 940 \tab 74 \tab 135 \tab 503 \tab 465 \tab 327 \tab 4 \tab 20 \tab 71 \tab 278 \tab - \tab 2817 \cr
-   2002 \tab 1857 \tab 26 \tab 75 \tab 253 \tab 212 \tab 139 \tab 14 \tab 3 \tab 38 \tab 148 \tab - \tab 2765 \cr
-   2004 \tab 2812 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
-   2006 \tab 4510 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
-   2008 \tab 2023 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
-   2010 \tab 2044 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2044 \cr
-   2012 \tab 1974 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab 2538 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
-   2016 \tab 2867 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
-   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab 4032 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \cr
-   2022 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab 3544 \cr
-   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
-   Total \tab 52135 \tab 599 \tab 1337 \tab 4658 \tab 3918 \tab 2440 \tab 50 \tab 280 \tab 952 \tab 2477 \tab 6853 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/366/vshow}{GSS Data Explorer page for \code{world1}}.
 }
 
 \seealso{

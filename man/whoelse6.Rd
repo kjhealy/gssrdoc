@@ -42,49 +42,9 @@ F. No One
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/5555/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab not available in this year \tab not available in this release \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab 1470 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab 1819 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 1481 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1481 \cr
-   1989 \tab 1537 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1537 \cr
-   1990 \tab 1372 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1372 \cr
-   1991 \tab 1517 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
-   1993 \tab 1606 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab 1518 \tab 8 \tab 496 \tab 35 \tab 935 \tab - \tab - \tab 2992 \cr
-   1996 \tab - \tab 7 \tab 1089 \tab 71 \tab 1737 \tab - \tab - \tab 2904 \cr
-   1998 \tab - \tab 4 \tab 952 \tab 117 \tab 1759 \tab - \tab - \tab 2832 \cr
-   2000 \tab - \tab 2 \tab 907 \tab 146 \tab 1762 \tab - \tab - \tab 2817 \cr
-   2002 \tab - \tab 15 \tab 811 \tab - \tab 1939 \tab - \tab - \tab 2765 \cr
-   2004 \tab - \tab 21 \tab 841 \tab 12 \tab 1938 \tab - \tab - \tab 2812 \cr
-   2006 \tab - \tab 13 \tab 1335 \tab 10 \tab 3152 \tab - \tab - \tab 4510 \cr
-   2008 \tab - \tab - \tab 681 \tab 3 \tab 1339 \tab - \tab - \tab 2023 \cr
-   2010 \tab - \tab - \tab 807 \tab 8 \tab 1229 \tab - \tab - \tab 2044 \cr
-   2012 \tab - \tab - \tab 793 \tab 3 \tab 1178 \tab - \tab - \tab 1974 \cr
-   2014 \tab - \tab - \tab 1001 \tab 6 \tab 1531 \tab - \tab - \tab 2538 \cr
-   2016 \tab - \tab - \tab 1113 \tab 7 \tab 1747 \tab - \tab - \tab 2867 \cr
-   2018 \tab 9 \tab - \tab 898 \tab - \tab 1441 \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab - \tab 4032 \cr
-   2022 \tab 1642 \tab 94 \tab 1808 \tab - \tab - \tab - \tab - \tab 3544 \cr
-   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
-   Total \tab 32557 \tab 164 \tab 13532 \tab 418 \tab 21687 \tab 4032 \tab 3309 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/5555/vshow}{GSS Data Explorer page for \code{whoelse6}}.
 }
 
 \seealso{

@@ -60,49 +60,9 @@ Question How many brothers and sisters did you have?  Please count those born al
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/51/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllllllll}{
-   year \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 or more \tab don't know \tab no answer \tab iap \tab skipped on web \tab Total \cr
-   1972 \tab 103 \tab 249 \tab 249 \tab 217 \tab 169 \tab 130 \tab 489 \tab 1 \tab 6 \tab - \tab - \tab 1613 \cr
-   1973 \tab 86 \tab 221 \tab 231 \tab 197 \tab 159 \tab 129 \tab 478 \tab 3 \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 76 \tab 218 \tab 214 \tab 224 \tab 181 \tab 131 \tab 439 \tab 1 \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 95 \tab 206 \tab 243 \tab 212 \tab 145 \tab 125 \tab 459 \tab 2 \tab 3 \tab - \tab - \tab 1490 \cr
-   1976 \tab 89 \tab 194 \tab 222 \tab 222 \tab 175 \tab 153 \tab 443 \tab - \tab 1 \tab - \tab - \tab 1499 \cr
-   1977 \tab 80 \tab 194 \tab 249 \tab 188 \tab 183 \tab 138 \tab 495 \tab 1 \tab 2 \tab - \tab - \tab 1530 \cr
-   1978 \tab 98 \tab 216 \tab 268 \tab 210 \tab 168 \tab 133 \tab 439 \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 73 \tab 212 \tab 230 \tab 195 \tab 189 \tab 147 \tab 421 \tab 1 \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 103 \tab 240 \tab 269 \tab 273 \tab 211 \tab 179 \tab 580 \tab 2 \tab 3 \tab - \tab - \tab 1860 \cr
-   1983 \tab 98 \tab 237 \tab 274 \tab 253 \tab 185 \tab 154 \tab 397 \tab 1 \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 64 \tab 222 \tab 266 \tab 234 \tab 158 \tab 122 \tab 399 \tab - \tab 8 \tab - \tab - \tab 1473 \cr
-   1985 \tab 84 \tab 233 \tab 240 \tab 215 \tab 177 \tab 149 \tab 428 \tab 4 \tab 4 \tab - \tab - \tab 1534 \cr
-   1986 \tab 60 \tab 236 \tab 268 \tab 228 \tab 166 \tab 146 \tab 363 \tab - \tab 3 \tab - \tab - \tab 1470 \cr
-   1987 \tab 89 \tab 261 \tab 273 \tab 292 \tab 217 \tab 157 \tab 521 \tab 3 \tab 6 \tab - \tab - \tab 1819 \cr
-   1988 \tab 63 \tab 226 \tab 292 \tab 216 \tab 170 \tab 135 \tab 370 \tab 5 \tab 4 \tab - \tab - \tab 1481 \cr
-   1989 \tab 77 \tab 237 \tab 311 \tab 264 \tab 167 \tab 130 \tab 347 \tab - \tab 4 \tab - \tab - \tab 1537 \cr
-   1990 \tab 64 \tab 224 \tab 261 \tab 243 \tab 164 \tab 119 \tab 296 \tab - \tab 1 \tab - \tab - \tab 1372 \cr
-   1991 \tab 74 \tab 236 \tab 276 \tab 236 \tab 209 \tab 118 \tab 356 \tab 4 \tab 8 \tab - \tab - \tab 1517 \cr
-   1993 \tab 89 \tab 260 \tab 341 \tab 282 \tab 170 \tab 117 \tab 341 \tab 3 \tab 3 \tab - \tab - \tab 1606 \cr
-   1994 \tab 162 \tab 537 \tab 581 \tab 483 \tab 354 \tab 232 \tab 632 \tab 5 \tab 6 \tab - \tab - \tab 2992 \cr
-   1996 \tab 140 \tab 501 \tab 570 \tab 497 \tab 350 \tab 228 \tab 611 \tab 2 \tab 5 \tab - \tab - \tab 2904 \cr
-   1998 \tab 105 \tab 493 \tab 558 \tab 483 \tab 350 \tab 207 \tab 619 \tab 5 \tab 12 \tab - \tab - \tab 2832 \cr
-   2000 \tab 142 \tab 507 \tab 569 \tab 475 \tab 301 \tab 237 \tab 575 \tab 5 \tab 6 \tab - \tab - \tab 2817 \cr
-   2002 \tab 140 \tab 505 \tab 583 \tab 457 \tab 314 \tab 224 \tab 533 \tab 2 \tab 7 \tab - \tab - \tab 2765 \cr
-   2004 \tab 144 \tab 553 \tab 556 \tab 472 \tab 344 \tab 198 \tab 541 \tab 2 \tab 2 \tab - \tab - \tab 2812 \cr
-   2006 \tab 145 \tab 560 \tab 605 \tab 439 \tab 345 \tab 234 \tab 660 \tab 1 \tab 3 \tab 1518 \tab - \tab 4510 \cr
-   2008 \tab 89 \tab 394 \tab 400 \tab 315 \tab 250 \tab 160 \tab 413 \tab - \tab 2 \tab - \tab - \tab 2023 \cr
-   2010 \tab 94 \tab 401 \tab 412 \tab 320 \tab 239 \tab 167 \tab 405 \tab 1 \tab 5 \tab - \tab - \tab 2044 \cr
-   2012 \tab 96 \tab 368 \tab 410 \tab 331 \tab 208 \tab 147 \tab 411 \tab 2 \tab 1 \tab - \tab - \tab 1974 \cr
-   2014 \tab 95 \tab 461 \tab 496 \tab 436 \tab 287 \tab 214 \tab 542 \tab 1 \tab 6 \tab - \tab - \tab 2538 \cr
-   2016 \tab 130 \tab 550 \tab 596 \tab 452 \tab 319 \tab 206 \tab 609 \tab 2 \tab 3 \tab - \tab - \tab 2867 \cr
-   2018 \tab 95 \tab 472 \tab 483 \tab 384 \tab 244 \tab 176 \tab 489 \tab 4 \tab 1 \tab - \tab - \tab 2348 \cr
-   2021 \tab 216 \tab 886 \tab 935 \tab 679 \tab 406 \tab 287 \tab 559 \tab 49 \tab - \tab 4 \tab 11 \tab 4032 \cr
-   2022 \tab 174 \tab 743 \tab 790 \tab 565 \tab 400 \tab 243 \tab 604 \tab - \tab 12 \tab - \tab 13 \tab 3544 \cr
-   2024 \tab 157 \tab 745 \tab 729 \tab 504 \tab 397 \tab 246 \tab 513 \tab - \tab 6 \tab - \tab 12 \tab 3309 \cr
-   Total \tab 3689 \tab 12998 \tab 14250 \tab 11693 \tab 8471 \tab 6018 \tab 16777 \tab 112 \tab 133 \tab 1522 \tab 36 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/51/vshow}{GSS Data Explorer page for \code{sibs}}.
 }
 
 \seealso{

@@ -43,49 +43,9 @@ Question What about having a close relative marry a Hispanic American person? Wo
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/1224/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab don't know \tab favor \tab neither favor nor oppose \tab no answer \tab oppose \tab strongly favor \tab strongly oppose \tab skipped on web \tab not available in this release \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab 1470 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab 1819 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 1481 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1481 \cr
-   1989 \tab 1537 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1537 \cr
-   1990 \tab - \tab 19 \tab 94 \tab 636 \tab 10 \tab 343 \tab 62 \tab 208 \tab - \tab - \tab 1372 \cr
-   1991 \tab 1517 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
-   1993 \tab 1606 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab 2992 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2992 \cr
-   1996 \tab 2904 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
-   1998 \tab 2832 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2832 \cr
-   2000 \tab 1419 \tab 47 \tab 228 \tab 597 \tab 14 \tab 158 \tab 243 \tab 111 \tab - \tab - \tab 2817 \cr
-   2002 \tab 2765 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab 1906 \tab 3 \tab 140 \tab 484 \tab 4 \tab 100 \tab 121 \tab 54 \tab - \tab - \tab 2812 \cr
-   2006 \tab 2518 \tab 8 \tab 321 \tab 950 \tab 3 \tab 227 \tab 360 \tab 123 \tab - \tab - \tab 4510 \cr
-   2008 \tab 694 \tab 6 \tab 209 \tab 651 \tab 4 \tab 129 \tab 250 \tab 80 \tab - \tab - \tab 2023 \cr
-   2010 \tab 614 \tab 5 \tab 230 \tab 734 \tab 5 \tab 124 \tab 267 \tab 65 \tab - \tab - \tab 2044 \cr
-   2012 \tab 672 \tab 15 \tab 198 \tab 688 \tab 2 \tab 87 \tab 260 \tab 52 \tab - \tab - \tab 1974 \cr
-   2014 \tab 863 \tab 12 \tab 268 \tab 880 \tab 6 \tab 98 \tab 356 \tab 55 \tab - \tab - \tab 2538 \cr
-   2016 \tab 979 \tab 7 \tab 299 \tab 1013 \tab 6 \tab 109 \tab 412 \tab 42 \tab - \tab - \tab 2867 \cr
-   2018 \tab 789 \tab 6 \tab 241 \tab 788 \tab 8 \tab 87 \tab 381 \tab 48 \tab - \tab - \tab 2348 \cr
-   2021 \tab 1318 \tab - \tab 257 \tab 1794 \tab 2 \tab 82 \tab 517 \tab 40 \tab 22 \tab - \tab 4032 \cr
-   2022 \tab 1168 \tab 9 \tab 264 \tab 1356 \tab 4 \tab 69 \tab 630 \tab 39 \tab 5 \tab - \tab 3544 \cr
-   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
-   Total \tab 52449 \tab 137 \tab 2749 \tab 10571 \tab 68 \tab 1613 \tab 3859 \tab 917 \tab 27 \tab 3309 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/1224/vshow}{GSS Data Explorer page for \code{marhisp}}.
 }
 
 \seealso{

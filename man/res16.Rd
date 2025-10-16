@@ -66,49 +66,9 @@ Question Which of the categories on this card comes closest to the type of place
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/83/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllllllll}{
-   year \tab don't know \tab farm \tab in a large city (over 250,000) \tab in a medium-size city (50,000-250,000) \tab in a small city or town (under 50,000) \tab in a suburb near a large city \tab in open country but not on a farm \tab no answer \tab iap \tab skipped on web \tab Total \cr
-   1972 \tab 1 \tab 340 \tab 334 \tab 198 \tab 500 \tab 91 \tab 147 \tab 2 \tab - \tab - \tab 1613 \cr
-   1973 \tab 2 \tab 343 \tab 250 \tab 188 \tab 479 \tab 106 \tab 135 \tab 1 \tab - \tab - \tab 1504 \cr
-   1974 \tab - \tab 362 \tab 222 \tab 192 \tab 438 \tab 123 \tab 144 \tab 3 \tab - \tab - \tab 1484 \cr
-   1975 \tab - \tab 337 \tab 250 \tab 179 \tab 430 \tab 102 \tab 192 \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1 \tab 341 \tab 242 \tab 186 \tab 448 \tab 120 \tab 160 \tab 1 \tab - \tab - \tab 1499 \cr
-   1977 \tab 2 \tab 344 \tab 211 \tab 187 \tab 524 \tab 88 \tab 170 \tab 4 \tab - \tab - \tab 1530 \cr
-   1978 \tab 1 \tab 333 \tab 215 \tab 206 \tab 472 \tab 130 \tab 174 \tab 1 \tab - \tab - \tab 1532 \cr
-   1980 \tab - \tab 310 \tab 225 \tab 204 \tab 465 \tab 118 \tab 145 \tab 1 \tab - \tab - \tab 1468 \cr
-   1982 \tab - \tab 377 \tab 311 \tab 231 \tab 577 \tab 166 \tab 187 \tab 11 \tab - \tab - \tab 1860 \cr
-   1983 \tab - \tab 252 \tab 241 \tab 244 \tab 536 \tab 156 \tab 170 \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 2 \tab 318 \tab 206 \tab 200 \tab 466 \tab 133 \tab 144 \tab 4 \tab - \tab - \tab 1473 \cr
-   1985 \tab 1 \tab 281 \tab 189 \tab 235 \tab 523 \tab 154 \tab 146 \tab 5 \tab - \tab - \tab 1534 \cr
-   1986 \tab - \tab 268 \tab 229 \tab 247 \tab 449 \tab 137 \tab 140 \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab 1 \tab 341 \tab 306 \tab 295 \tab 489 \tab 176 \tab 206 \tab 5 \tab - \tab - \tab 1819 \cr
-   1988 \tab - \tab 252 \tab 219 \tab 217 \tab 477 \tab 142 \tab 172 \tab 2 \tab - \tab - \tab 1481 \cr
-   1989 \tab 1 \tab 258 \tab 203 \tab 239 \tab 496 \tab 169 \tab 168 \tab 3 \tab - \tab - \tab 1537 \cr
-   1990 \tab 2 \tab 236 \tab 227 \tab 196 \tab 437 \tab 139 \tab 134 \tab 1 \tab - \tab - \tab 1372 \cr
-   1991 \tab 2 \tab 251 \tab 215 \tab 212 \tab 501 \tab 158 \tab 176 \tab 2 \tab - \tab - \tab 1517 \cr
-   1993 \tab 2 \tab 288 \tab 236 \tab 220 \tab 466 \tab 205 \tab 187 \tab 2 \tab - \tab - \tab 1606 \cr
-   1994 \tab 2 \tab 405 \tab 456 \tab 469 \tab 931 \tab 368 \tab 357 \tab 4 \tab - \tab - \tab 2992 \cr
-   1996 \tab 3 \tab 374 \tab 418 \tab 494 \tab 922 \tab 357 \tab 333 \tab 3 \tab - \tab - \tab 2904 \cr
-   1998 \tab 2 \tab 371 \tab 462 \tab 450 \tab 857 \tab 361 \tab 327 \tab 2 \tab - \tab - \tab 2832 \cr
-   2000 \tab 1 \tab 385 \tab 449 \tab 461 \tab 871 \tab 333 \tab 311 \tab 6 \tab - \tab - \tab 2817 \cr
-   2002 \tab 3 \tab 315 \tab 459 \tab 439 \tab 831 \tab 390 \tab 327 \tab 1 \tab - \tab - \tab 2765 \cr
-   2004 \tab 1 \tab 274 \tab 429 \tab 427 \tab 999 \tab 364 \tab 318 \tab - \tab - \tab - \tab 2812 \cr
-   2006 \tab 2 \tab 268 \tab 434 \tab 523 \tab 1005 \tab 385 \tab 374 \tab 1 \tab 1518 \tab - \tab 4510 \cr
-   2008 \tab 1 \tab 213 \tab 337 \tab 340 \tab 653 \tab 252 \tab 227 \tab - \tab - \tab - \tab 2023 \cr
-   2010 \tab 2 \tab 198 \tab 328 \tab 369 \tab 672 \tab 261 \tab 213 \tab 1 \tab - \tab - \tab 2044 \cr
-   2012 \tab 1 \tab 206 \tab 298 \tab 376 \tab 596 \tab 280 \tab 217 \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab 2 \tab 211 \tab 421 \tab 438 \tab 813 \tab 377 \tab 275 \tab 1 \tab - \tab - \tab 2538 \cr
-   2016 \tab 4 \tab 234 \tab 438 \tab 493 \tab 979 \tab 413 \tab 304 \tab 2 \tab - \tab - \tab 2867 \cr
-   2018 \tab - \tab 154 \tab 391 \tab 450 \tab 774 \tab 324 \tab 255 \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab 1 \tab 204 \tab 692 \tab 777 \tab 1208 \tab 742 \tab 406 \tab - \tab - \tab 2 \tab 4032 \cr
-   2022 \tab 7 \tab 189 \tab 630 \tab 648 \tab 1135 \tab 604 \tab 330 \tab - \tab - \tab 1 \tab 3544 \cr
-   2024 \tab 2 \tab 205 \tab 548 \tab 626 \tab 1117 \tab 468 \tab 331 \tab 3 \tab - \tab 9 \tab 3309 \cr
-   Total \tab 52 \tab 10038 \tab 11721 \tab 11856 \tab 23536 \tab 8892 \tab 8002 \tab 72 \tab 1518 \tab 12 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/83/vshow}{GSS Data Explorer page for \code{res16}}.
 }
 
 \seealso{

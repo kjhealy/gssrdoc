@@ -50,49 +50,9 @@ Other
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/5276/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllllllll}{
-   year \tab not available in this year \tab another hispanic, latino, or spanish origin \tab cuban \tab don't know \tab mexican, mexican american, chicano/a \tab not hispanic \tab puerto rican \tab no answer \tab iap \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab 1470 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab 1819 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 1481 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1481 \cr
-   1989 \tab 1537 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1537 \cr
-   1990 \tab 1372 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1372 \cr
-   1991 \tab 1517 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
-   1993 \tab 1606 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab 2992 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2992 \cr
-   1996 \tab 2904 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
-   1998 \tab 2832 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2832 \cr
-   2000 \tab - \tab 52 \tab 6 \tab 1 \tab 110 \tab 2604 \tab 44 \tab - \tab - \tab - \tab 2817 \cr
-   2002 \tab - \tab 51 \tab 7 \tab 2 \tab 105 \tab 2561 \tab 39 \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab - \tab 47 \tab 7 \tab 3 \tab 156 \tab 2563 \tab 33 \tab 3 \tab - \tab - \tab 2812 \cr
-   2006 \tab - \tab 124 \tab 23 \tab 2 \tab 370 \tab 3922 \tab 69 \tab - \tab - \tab - \tab 4510 \cr
-   2008 \tab - \tab 50 \tab 15 \tab 1 \tab 148 \tab 1782 \tab 24 \tab 3 \tab - \tab - \tab 2023 \cr
-   2010 \tab - \tab 51 \tab 10 \tab 3 \tab 147 \tab 1803 \tab 27 \tab 3 \tab - \tab - \tab 2044 \cr
-   2012 \tab - \tab 70 \tab 9 \tab 3 \tab 168 \tab 1701 \tab 22 \tab 1 \tab - \tab - \tab 1974 \cr
-   2014 \tab - \tab 90 \tab 20 \tab 3 \tab 241 \tab 2139 \tab 42 \tab 3 \tab - \tab - \tab 2538 \cr
-   2016 \tab - \tab 89 \tab 18 \tab - \tab 216 \tab 2496 \tab 46 \tab 2 \tab - \tab - \tab 2867 \cr
-   2018 \tab - \tab 72 \tab 15 \tab 8 \tab 224 \tab 1984 \tab 38 \tab 7 \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab 137 \tab 21 \tab 1 \tab 245 \tab 3544 \tab 51 \tab 2 \tab 21 \tab 10 \tab 4032 \cr
-   2022 \tab - \tab 165 \tab 33 \tab 17 \tab 311 \tab 2930 \tab 68 \tab 5 \tab - \tab 15 \tab 3544 \cr
-   2024 \tab - \tab 138 \tab 28 \tab 5 \tab 235 \tab 2817 \tab 64 \tab 3 \tab - \tab 19 \tab 3309 \cr
-   Total \tab 38116 \tab 1136 \tab 212 \tab 49 \tab 2676 \tab 32846 \tab 567 \tab 32 \tab 21 \tab 44 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/5276/vshow}{GSS Data Explorer page for \code{hispanic}}.
 }
 
 \seealso{

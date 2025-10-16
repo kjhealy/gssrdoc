@@ -58,49 +58,9 @@ C. Fundamentalism/Liberalism of Religion of Spouse
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/354/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab fundamentalist \tab liberal \tab moderate \tab no answer \tab skipped on web \tab not available in this release \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 428 \tab 291 \tab 183 \tab 558 \tab 44 \tab - \tab - \tab 1504 \cr
-   1974 \tab 419 \tab 286 \tab 203 \tab 558 \tab 18 \tab - \tab - \tab 1484 \cr
-   1975 \tab 488 \tab 288 \tab 179 \tab 518 \tab 17 \tab - \tab - \tab 1490 \cr
-   1976 \tab 525 \tab 272 \tab 170 \tab 513 \tab 19 \tab - \tab - \tab 1499 \cr
-   1977 \tab 555 \tab 285 \tab 159 \tab 517 \tab 14 \tab - \tab - \tab 1530 \cr
-   1978 \tab 572 \tab 279 \tab 157 \tab 505 \tab 19 \tab - \tab - \tab 1532 \cr
-   1980 \tab 579 \tab 263 \tab 162 \tab 422 \tab 42 \tab - \tab - \tab 1468 \cr
-   1982 \tab 867 \tab 319 \tab 169 \tab 481 \tab 24 \tab - \tab - \tab 1860 \cr
-   1983 \tab 634 \tab 278 \tab 175 \tab 489 \tab 23 \tab - \tab - \tab 1599 \cr
-   1984 \tab 644 \tab 276 \tab 183 \tab 341 \tab 29 \tab - \tab - \tab 1473 \cr
-   1985 \tab 663 \tab 293 \tab 215 \tab 343 \tab 20 \tab - \tab - \tab 1534 \cr
-   1986 \tab 644 \tab 265 \tab 202 \tab 331 \tab 28 \tab - \tab - \tab 1470 \cr
-   1987 \tab 903 \tab 340 \tab 230 \tab 310 \tab 36 \tab - \tab - \tab 1819 \cr
-   1988 \tab 693 \tab 282 \tab 196 \tab 283 \tab 27 \tab - \tab - \tab 1481 \cr
-   1989 \tab 690 \tab 257 \tab 194 \tab 354 \tab 42 \tab - \tab - \tab 1537 \cr
-   1990 \tab 645 \tab 206 \tab 180 \tab 312 \tab 29 \tab - \tab - \tab 1372 \cr
-   1991 \tab 713 \tab 255 \tab 202 \tab 328 \tab 19 \tab - \tab - \tab 1517 \cr
-   1993 \tab 747 \tab 265 \tab 224 \tab 330 \tab 40 \tab - \tab - \tab 1606 \cr
-   1994 \tab 2213 \tab 224 \tab 212 \tab 287 \tab 56 \tab - \tab - \tab 2992 \cr
-   1996 \tab 2904 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
-   1998 \tab 2832 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2832 \cr
-   2000 \tab 2817 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
-   2002 \tab 2765 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab 2133 \tab 194 \tab 174 \tab 282 \tab 29 \tab - \tab - \tab 2812 \cr
-   2006 \tab 3095 \tab 396 \tab 386 \tab 563 \tab 70 \tab - \tab - \tab 4510 \cr
-   2008 \tab 1046 \tab 276 \tab 278 \tab 369 \tab 54 \tab - \tab - \tab 2023 \cr
-   2010 \tab 1155 \tab 230 \tab 268 \tab 352 \tab 39 \tab - \tab - \tab 2044 \cr
-   2012 \tab 1074 \tab 233 \tab 248 \tab 369 \tab 50 \tab - \tab - \tab 1974 \cr
-   2014 \tab 1380 \tab 245 \tab 341 \tab 511 \tab 61 \tab - \tab - \tab 2538 \cr
-   2016 \tab 1654 \tab 276 \tab 333 \tab 515 \tab 89 \tab - \tab - \tab 2867 \cr
-   2018 \tab 1350 \tab 236 \tab 292 \tab 386 \tab 84 \tab - \tab - \tab 2348 \cr
-   2021 \tab 2033 \tab 311 \tab 694 \tab 802 \tab 192 \tab - \tab - \tab 4032 \cr
-   2022 \tab 2074 \tab 258 \tab 481 \tab 612 \tab 109 \tab 10 \tab - \tab 3544 \cr
-   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
-   Total \tab 43547 \tab 7879 \tab 7090 \tab 12541 \tab 1323 \tab 10 \tab 3309 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/354/vshow}{GSS Data Explorer page for \code{spfund}}.
 }
 
 \seealso{

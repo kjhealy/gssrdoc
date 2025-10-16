@@ -55,49 +55,9 @@ Question Or consider a person who believes that Black people are genetically inf
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/252/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab don't know \tab no answer \tab not allowed \tab yes, allowed to speak \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab - \tab 28 \tab 4 \tab 558 \tab 909 \tab - \tab 1499 \cr
-   1977 \tab - \tab 27 \tab 5 \tab 605 \tab 893 \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab - \tab 39 \tab 4 \tab 523 \tab 902 \tab - \tab 1468 \cr
-   1982 \tab - \tab 55 \tab 6 \tab 754 \tab 1045 \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab - \tab 31 \tab 4 \tab 594 \tab 844 \tab - \tab 1473 \cr
-   1985 \tab - \tab 38 \tab 3 \tab 645 \tab 848 \tab - \tab 1534 \cr
-   1986 \tab 1470 \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab - \tab 35 \tab 11 \tab 699 \tab 1074 \tab - \tab 1819 \cr
-   1988 \tab 504 \tab 22 \tab 3 \tab 356 \tab 596 \tab - \tab 1481 \cr
-   1989 \tab 504 \tab 20 \tab 6 \tab 370 \tab 637 \tab - \tab 1537 \cr
-   1990 \tab 455 \tab 20 \tab 5 \tab 319 \tab 573 \tab - \tab 1372 \cr
-   1991 \tab 524 \tab 21 \tab 4 \tab 351 \tab 617 \tab - \tab 1517 \cr
-   1993 \tab 531 \tab 26 \tab 3 \tab 397 \tab 649 \tab - \tab 1606 \cr
-   1994 \tab 996 \tab 38 \tab 5 \tab 730 \tab 1223 \tab - \tab 2992 \cr
-   1996 \tab 981 \tab 42 \tab 3 \tab 714 \tab 1164 \tab - \tab 2904 \cr
-   1998 \tab 950 \tab 38 \tab 6 \tab 665 \tab 1173 \tab - \tab 2832 \cr
-   2000 \tab 956 \tab 24 \tab 9 \tab 707 \tab 1121 \tab - \tab 2817 \cr
-   2002 \tab 1841 \tab 19 \tab 5 \tab 322 \tab 578 \tab - \tab 2765 \cr
-   2004 \tab 1914 \tab 9 \tab 2 \tab 330 \tab 557 \tab - \tab 2812 \cr
-   2006 \tab 2507 \tab 24 \tab 3 \tab 740 \tab 1236 \tab - \tab 4510 \cr
-   2008 \tab 671 \tab 23 \tab 3 \tab 533 \tab 793 \tab - \tab 2023 \cr
-   2010 \tab 763 \tab 17 \tab 5 \tab 521 \tab 738 \tab - \tab 2044 \cr
-   2012 \tab 666 \tab 26 \tab 6 \tab 510 \tab 766 \tab - \tab 1974 \cr
-   2014 \tab 824 \tab 19 \tab 3 \tab 658 \tab 1034 \tab - \tab 2538 \cr
-   2016 \tab 977 \tab 20 \tab 7 \tab 727 \tab 1136 \tab - \tab 2867 \cr
-   2018 \tab 774 \tab 23 \tab 12 \tab 648 \tab 891 \tab - \tab 2348 \cr
-   2021 \tab 2714 \tab - \tab - \tab 671 \tab 639 \tab 8 \tab 4032 \cr
-   2022 \tab 2380 \tab 12 \tab 5 \tab 558 \tab 585 \tab 4 \tab 3544 \cr
-   2024 \tab 2163 \tab 11 \tab 4 \tab 574 \tab 554 \tab 3 \tab 3309 \cr
-   Total \tab 35287 \tab 707 \tab 136 \tab 15779 \tab 23775 \tab 15 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/252/vshow}{GSS Data Explorer page for \code{spkrac}}.
 }
 
 \seealso{

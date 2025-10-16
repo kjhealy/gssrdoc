@@ -54,49 +54,9 @@ Question When a person has a disease that cannot be cured, do you think Doctors 
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/647/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab - \tab 66 \tab 546 \tab 11 \tab 907 \tab - \tab 1530 \cr
-   1978 \tab - \tab 60 \tab 587 \tab 1 \tab 884 \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab - \tab 91 \tab 737 \tab 6 \tab 1026 \tab - \tab 1860 \cr
-   1983 \tab - \tab 70 \tab 519 \tab 5 \tab 1005 \tab - \tab 1599 \cr
-   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab - \tab 43 \tab 513 \tab 2 \tab 976 \tab - \tab 1534 \cr
-   1986 \tab - \tab 53 \tab 448 \tab 4 \tab 965 \tab - \tab 1470 \cr
-   1987 \tab 1819 \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 493 \tab 48 \tab 287 \tab 5 \tab 648 \tab - \tab 1481 \cr
-   1989 \tab 531 \tab 45 \tab 300 \tab 4 \tab 657 \tab - \tab 1537 \cr
-   1990 \tab 444 \tab 47 \tab 243 \tab 3 \tab 635 \tab - \tab 1372 \cr
-   1991 \tab 493 \tab 48 \tab 255 \tab 2 \tab 719 \tab - \tab 1517 \cr
-   1993 \tab 526 \tab 57 \tab 323 \tab 4 \tab 696 \tab - \tab 1606 \cr
-   1994 \tab 1015 \tab 96 \tab 537 \tab 10 \tab 1334 \tab - \tab 2992 \cr
-   1996 \tab 944 \tab 78 \tab 548 \tab 5 \tab 1329 \tab - \tab 2904 \cr
-   1998 \tab 961 \tab 106 \tab 499 \tab 7 \tab 1259 \tab - \tab 2832 \cr
-   2000 \tab 940 \tab 100 \tab 565 \tab 7 \tab 1205 \tab - \tab 2817 \cr
-   2002 \tab 1857 \tab 19 \tab 288 \tab 2 \tab 599 \tab - \tab 2765 \cr
-   2004 \tab 1906 \tab 30 \tab 275 \tab 5 \tab 596 \tab - \tab 2812 \cr
-   2006 \tab 2518 \tab 59 \tab 616 \tab 8 \tab 1309 \tab - \tab 4510 \cr
-   2008 \tab 1375 \tab 29 \tab 202 \tab 1 \tab 416 \tab - \tab 2023 \cr
-   2010 \tab 614 \tab 30 \tab 446 \tab 11 \tab 943 \tab - \tab 2044 \cr
-   2012 \tab 672 \tab 44 \tab 402 \tab 8 \tab 848 \tab - \tab 1974 \cr
-   2014 \tab 863 \tab 47 \tab 496 \tab 11 \tab 1121 \tab - \tab 2538 \cr
-   2016 \tab 979 \tab 46 \tab 482 \tab 10 \tab 1350 \tab - \tab 2867 \cr
-   2018 \tab 789 \tab 38 \tab 411 \tab 14 \tab 1096 \tab - \tab 2348 \cr
-   2021 \tab 2689 \tab 3 \tab 382 \tab 2 \tab 934 \tab 22 \tab 4032 \cr
-   2022 \tab 2339 \tab 23 \tab 291 \tab 6 \tab 882 \tab 3 \tab 3544 \cr
-   2024 \tab 2200 \tab 34 \tab 310 \tab 8 \tab 748 \tab 9 \tab 3309 \cr
-   Total \tab 37498 \tab 1410 \tab 11508 \tab 162 \tab 25087 \tab 34 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/647/vshow}{GSS Data Explorer page for \code{letdie1}}.
 }
 
 \seealso{

@@ -54,49 +54,9 @@ D. Assistance to big cities
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/202/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab about right \tab don't know \tab no answer \tab too little \tab too much \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 974 \tab 178 \tab 57 \tab 14 \tab 89 \tab 161 \tab - \tab 1473 \cr
-   1985 \tab 751 \tab 258 \tab 95 \tab 2 \tab 139 \tab 289 \tab - \tab 1534 \cr
-   1986 \tab 730 \tab 279 \tab 100 \tab 8 \tab 112 \tab 241 \tab - \tab 1470 \cr
-   1987 \tab 603 \tab 419 \tab 170 \tab 13 \tab 287 \tab 327 \tab - \tab 1819 \cr
-   1988 \tab 718 \tab 258 \tab 121 \tab 10 \tab 161 \tab 213 \tab - \tab 1481 \cr
-   1989 \tab 768 \tab 254 \tab 118 \tab 8 \tab 145 \tab 244 \tab - \tab 1537 \cr
-   1990 \tab 674 \tab 250 \tab 96 \tab 14 \tab 153 \tab 185 \tab - \tab 1372 \cr
-   1991 \tab 756 \tab 247 \tab 117 \tab 20 \tab 151 \tab 226 \tab - \tab 1517 \cr
-   1993 \tab 799 \tab 242 \tab 120 \tab 12 \tab 187 \tab 246 \tab - \tab 1606 \cr
-   1994 \tab 1508 \tab 471 \tab 199 \tab 35 \tab 347 \tab 432 \tab - \tab 2992 \cr
-   1996 \tab 1441 \tab 451 \tab 224 \tab 60 \tab 311 \tab 417 \tab - \tab 2904 \cr
-   1998 \tab 1381 \tab 524 \tab 242 \tab 12 \tab 275 \tab 398 \tab - \tab 2832 \cr
-   2000 \tab 1409 \tab 483 \tab 238 \tab 6 \tab 324 \tab 357 \tab - \tab 2817 \cr
-   2002 \tab 1358 \tab 579 \tab 148 \tab 6 \tab 221 \tab 453 \tab - \tab 2765 \cr
-   2004 \tab 1401 \tab 580 \tab 183 \tab 4 \tab 242 \tab 402 \tab - \tab 2812 \cr
-   2006 \tab 3002 \tab 567 \tab 178 \tab 2 \tab 290 \tab 471 \tab - \tab 4510 \cr
-   2008 \tab 1005 \tab 394 \tab 144 \tab 2 \tab 192 \tab 286 \tab - \tab 2023 \cr
-   2010 \tab 1014 \tab 381 \tab 147 \tab 4 \tab 177 \tab 321 \tab - \tab 2044 \cr
-   2012 \tab 998 \tab 341 \tab 167 \tab 6 \tab 140 \tab 322 \tab - \tab 1974 \cr
-   2014 \tab 1274 \tab 464 \tab 148 \tab 2 \tab 222 \tab 428 \tab - \tab 2538 \cr
-   2016 \tab 1437 \tab 529 \tab 152 \tab 1 \tab 309 \tab 439 \tab - \tab 2867 \cr
-   2018 \tab 1188 \tab 433 \tab 139 \tab 2 \tab 242 \tab 344 \tab - \tab 2348 \cr
-   2021 \tab 1987 \tab 846 \tab 9 \tab 1 \tab 526 \tab 642 \tab 21 \tab 4032 \cr
-   2022 \tab 1780 \tab 643 \tab 117 \tab - \tab 423 \tab 574 \tab 7 \tab 3544 \cr
-   2024 \tab 1683 \tab 557 \tab 101 \tab - \tab 364 \tab 597 \tab 7 \tab 3309 \cr
-   Total \tab 46218 \tab 10628 \tab 3530 \tab 244 \tab 6029 \tab 9015 \tab 35 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/202/vshow}{GSS Data Explorer page for \code{natcityy}}.
 }
 
 \seealso{

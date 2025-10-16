@@ -54,49 +54,9 @@ J. Assistance to other countries
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/208/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab about right \tab don't know \tab no answer \tab too little \tab too much \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 974 \tab 79 \tab 14 \tab 11 \tab 18 \tab 377 \tab - \tab 1473 \cr
-   1985 \tab 751 \tab 158 \tab 29 \tab 7 \tab 54 \tab 535 \tab - \tab 1534 \cr
-   1986 \tab 730 \tab 120 \tab 28 \tab 6 \tab 33 \tab 553 \tab - \tab 1470 \cr
-   1987 \tab 603 \tab 235 \tab 42 \tab 16 \tab 67 \tab 856 \tab - \tab 1819 \cr
-   1988 \tab 718 \tab 142 \tab 26 \tab 13 \tab 34 \tab 548 \tab - \tab 1481 \cr
-   1989 \tab 768 \tab 157 \tab 31 \tab 9 \tab 42 \tab 530 \tab - \tab 1537 \cr
-   1990 \tab 674 \tab 138 \tab 24 \tab 16 \tab 38 \tab 482 \tab - \tab 1372 \cr
-   1991 \tab 756 \tab 152 \tab 33 \tab 14 \tab 24 \tab 538 \tab - \tab 1517 \cr
-   1993 \tab 799 \tab 156 \tab 19 \tab 13 \tab 26 \tab 593 \tab - \tab 1606 \cr
-   1994 \tab 1508 \tab 254 \tab 52 \tab 40 \tab 58 \tab 1080 \tab - \tab 2992 \cr
-   1996 \tab 1441 \tab 259 \tab 49 \tab 57 \tab 55 \tab 1043 \tab - \tab 2904 \cr
-   1998 \tab 1381 \tab 292 \tab 78 \tab 15 \tab 88 \tab 978 \tab - \tab 2832 \cr
-   2000 \tab 1409 \tab 327 \tab 71 \tab 3 \tab 109 \tab 898 \tab - \tab 2817 \cr
-   2002 \tab 1358 \tab 276 \tab 38 \tab 4 \tab 123 \tab 966 \tab - \tab 2765 \cr
-   2004 \tab 1401 \tab 302 \tab 46 \tab 3 \tab 113 \tab 947 \tab - \tab 2812 \cr
-   2006 \tab 3002 \tab 317 \tab 55 \tab 2 \tab 145 \tab 989 \tab - \tab 4510 \cr
-   2008 \tab 1004 \tab 213 \tab 33 \tab 2 \tab 94 \tab 677 \tab - \tab 2023 \cr
-   2010 \tab 1014 \tab 269 \tab 31 \tab 1 \tab 72 \tab 657 \tab - \tab 2044 \cr
-   2012 \tab 998 \tab 186 \tab 40 \tab 2 \tab 56 \tab 692 \tab - \tab 1974 \cr
-   2014 \tab 1274 \tab 250 \tab 35 \tab 1 \tab 68 \tab 910 \tab - \tab 2538 \cr
-   2016 \tab 1437 \tab 330 \tab 40 \tab 2 \tab 104 \tab 954 \tab - \tab 2867 \cr
-   2018 \tab 1188 \tab 305 \tab 51 \tab 2 \tab 149 \tab 653 \tab - \tab 2348 \cr
-   2021 \tab 1987 \tab 609 \tab 4 \tab - \tab 202 \tab 1220 \tab 10 \tab 4032 \cr
-   2022 \tab 1780 \tab 480 \tab 45 \tab - \tab 172 \tab 1064 \tab 3 \tab 3544 \cr
-   2024 \tab 1683 \tab 370 \tab 39 \tab - \tab 131 \tab 1084 \tab 2 \tab 3309 \cr
-   Total \tab 46217 \tab 6376 \tab 953 \tab 239 \tab 2075 \tab 19824 \tab 15 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/208/vshow}{GSS Data Explorer page for \code{nataidy}}.
 }
 
 \seealso{

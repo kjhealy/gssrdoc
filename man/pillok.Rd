@@ -51,49 +51,9 @@ Question C. Do you strongly agree, agree, disagree, or strongly disagree that me
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/625/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab strongly agree \tab strongly disagree \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab - \tab 501 \tab 361 \tab 38 \tab 5 \tab 327 \tab 238 \tab - \tab 1470 \cr
-   1987 \tab 1819 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 493 \tab 287 \tab 220 \tab 45 \tab 1 \tab 266 \tab 169 \tab - \tab 1481 \cr
-   1989 \tab 531 \tab 266 \tab 243 \tab 28 \tab 2 \tab 270 \tab 197 \tab - \tab 1537 \cr
-   1990 \tab 444 \tab 286 \tab 210 \tab 36 \tab 1 \tab 251 \tab 144 \tab - \tab 1372 \cr
-   1991 \tab 493 \tab 343 \tab 202 \tab 27 \tab 1 \tab 277 \tab 174 \tab - \tab 1517 \cr
-   1993 \tab 526 \tab 325 \tab 242 \tab 36 \tab 7 \tab 279 \tab 191 \tab - \tab 1606 \cr
-   1994 \tab 1015 \tab 583 \tab 415 \tab 50 \tab 10 \tab 519 \tab 400 \tab - \tab 2992 \cr
-   1996 \tab 944 \tab 587 \tab 396 \tab 57 \tab 4 \tab 564 \tab 352 \tab - \tab 2904 \cr
-   1998 \tab 961 \tab 552 \tab 380 \tab 67 \tab 3 \tab 488 \tab 381 \tab - \tab 2832 \cr
-   2000 \tab 940 \tab 560 \tab 362 \tab 45 \tab 6 \tab 525 \tab 379 \tab - \tab 2817 \cr
-   2002 \tab 1857 \tab 238 \tab 175 \tab 19 \tab 1 \tab 274 \tab 201 \tab - \tab 2765 \cr
-   2004 \tab 1906 \tab 273 \tab 211 \tab 21 \tab - \tab 220 \tab 181 \tab - \tab 2812 \cr
-   2006 \tab 2518 \tab 568 \tab 477 \tab 33 \tab 3 \tab 502 \tab 409 \tab - \tab 4510 \cr
-   2008 \tab 1375 \tab 203 \tab 134 \tab 10 \tab 4 \tab 153 \tab 144 \tab - \tab 2023 \cr
-   2010 \tab 614 \tab 466 \tab 352 \tab 24 \tab 2 \tab 356 \tab 230 \tab - \tab 2044 \cr
-   2012 \tab 672 \tab 421 \tab 311 \tab 27 \tab 6 \tab 300 \tab 237 \tab - \tab 1974 \cr
-   2014 \tab 863 \tab 536 \tab 401 \tab 35 \tab 5 \tab 415 \tab 283 \tab - \tab 2538 \cr
-   2016 \tab 979 \tab 614 \tab 440 \tab 33 \tab 11 \tab 508 \tab 282 \tab - \tab 2867 \cr
-   2018 \tab 789 \tab 498 \tab 361 \tab 31 \tab 7 \tab 443 \tab 219 \tab - \tab 2348 \cr
-   2021 \tab 1317 \tab 885 \tab 505 \tab 7 \tab - \tab 947 \tab 354 \tab 17 \tab 4032 \cr
-   2022 \tab 1168 \tab 796 \tab 420 \tab 32 \tab 3 \tab 861 \tab 255 \tab 9 \tab 3544 \cr
-   2024 \tab 1126 \tab 706 \tab 433 \tab 41 \tab 1 \tab 659 \tab 325 \tab 18 \tab 3309 \cr
-   Total \tab 41936 \tab 10494 \tab 7251 \tab 742 \tab 83 \tab 9404 \tab 5745 \tab 44 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/625/vshow}{GSS Data Explorer page for \code{pillok}}.
 }
 
 \seealso{

@@ -57,49 +57,9 @@ Question Is there any area right around here--that is, within a mile--where you 
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/675/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab - \tab 8 \tab 877 \tab 8 \tab 611 \tab - \tab 1504 \cr
-   1974 \tab - \tab 8 \tab 809 \tab 4 \tab 663 \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab - \tab 5 \tab 835 \tab 2 \tab 657 \tab - \tab 1499 \cr
-   1977 \tab - \tab 9 \tab 834 \tab 1 \tab 686 \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab - \tab 10 \tab 827 \tab 2 \tab 629 \tab - \tab 1468 \cr
-   1982 \tab - \tab 7 \tab 947 \tab 3 \tab 903 \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab - \tab 17 \tab 840 \tab 5 \tab 611 \tab - \tab 1473 \cr
-   1985 \tab - \tab 13 \tab 901 \tab 3 \tab 617 \tab - \tab 1534 \cr
-   1986 \tab 1470 \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab - \tab 6 \tab 1083 \tab 9 \tab 721 \tab - \tab 1819 \cr
-   1988 \tab 504 \tab 9 \tab 575 \tab 2 \tab 391 \tab - \tab 1481 \cr
-   1989 \tab 504 \tab 5 \tab 619 \tab 1 \tab 408 \tab - \tab 1537 \cr
-   1990 \tab 455 \tab 10 \tab 530 \tab 3 \tab 374 \tab - \tab 1372 \cr
-   1991 \tab 524 \tab 5 \tab 556 \tab 6 \tab 426 \tab - \tab 1517 \cr
-   1993 \tab 531 \tab 3 \tab 609 \tab 2 \tab 461 \tab - \tab 1606 \cr
-   1994 \tab 996 \tab 15 \tab 1045 \tab 3 \tab 933 \tab - \tab 2992 \cr
-   1996 \tab 981 \tab 20 \tab 1099 \tab - \tab 804 \tab - \tab 2904 \cr
-   1998 \tab 950 \tab 28 \tab 1079 \tab 3 \tab 772 \tab - \tab 2832 \cr
-   2000 \tab 956 \tab 25 \tab 1106 \tab 5 \tab 725 \tab - \tab 2817 \cr
-   2002 \tab 1841 \tab 5 \tab 623 \tab - \tab 296 \tab - \tab 2765 \cr
-   2004 \tab 1914 \tab 3 \tab 612 \tab - \tab 283 \tab - \tab 2812 \cr
-   2006 \tab 2507 \tab 10 \tab 1274 \tab - \tab 719 \tab - \tab 4510 \cr
-   2008 \tab 671 \tab 3 \tab 896 \tab - \tab 453 \tab - \tab 2023 \cr
-   2010 \tab 763 \tab 4 \tab 854 \tab 1 \tab 422 \tab - \tab 2044 \cr
-   2012 \tab 666 \tab 7 \tab 855 \tab 1 \tab 445 \tab - \tab 1974 \cr
-   2014 \tab 824 \tab 10 \tab 1138 \tab - \tab 566 \tab - \tab 2538 \cr
-   2016 \tab 977 \tab 12 \tab 1271 \tab 3 \tab 604 \tab - \tab 2867 \cr
-   2018 \tab 774 \tab 6 \tab 1046 \tab 1 \tab 521 \tab - \tab 2348 \cr
-   2021 \tab - \tab 2 \tab 2613 \tab - \tab 1409 \tab 8 \tab 4032 \cr
-   2022 \tab 1203 \tab 18 \tab 1440 \tab 1 \tab 878 \tab 4 \tab 3544 \cr
-   2024 \tab 1067 \tab 11 \tab 1457 \tab 1 \tab 766 \tab 7 \tab 3309 \cr
-   Total \tab 27312 \tab 294 \tab 29250 \tab 70 \tab 18754 \tab 19 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/675/vshow}{GSS Data Explorer page for \code{fear}}.
 }
 
 \seealso{

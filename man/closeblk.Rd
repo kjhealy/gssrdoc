@@ -39,49 +39,9 @@ Question In the past few years, do you think conditions for black people have im
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/426/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllllllllllll}{
-   year \tab iap \tab 2 \tab 3 \tab 4 \tab 6 \tab 7 \tab 8 \tab don't know \tab neither one or the other \tab no answer \tab not at all close \tab very close \tab not available in this year \tab not available in this release \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab 1470 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab 1819 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 1481 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1481 \cr
-   1989 \tab 1537 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1537 \cr
-   1990 \tab 1372 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1372 \cr
-   1991 \tab 1517 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
-   1993 \tab 1606 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab 2992 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2992 \cr
-   1996 \tab 1932 \tab 24 \tab 45 \tab 48 \tab 76 \tab 100 \tab 33 \tab 12 \tab 427 \tab 6 \tab 64 \tab 137 \tab - \tab - \tab 2904 \cr
-   1998 \tab 950 \tab 86 \tab 97 \tab 77 \tab 138 \tab 197 \tab 97 \tab 28 \tab 797 \tab 15 \tab 119 \tab 231 \tab - \tab - \tab 2832 \cr
-   2000 \tab 956 \tab 54 \tab 83 \tab 73 \tab 152 \tab 208 \tab 115 \tab 18 \tab 751 \tab 31 \tab 130 \tab 246 \tab - \tab - \tab 2817 \cr
-   2002 \tab 1841 \tab 15 \tab 36 \tab 43 \tab 82 \tab 90 \tab 56 \tab 3 \tab 406 \tab 3 \tab 50 \tab 140 \tab - \tab - \tab 2765 \cr
-   2004 \tab 1914 \tab 18 \tab 24 \tab 45 \tab 73 \tab 119 \tab 56 \tab 5 \tab 402 \tab 2 \tab 33 \tab 121 \tab - \tab - \tab 2812 \cr
-   2006 \tab 2507 \tab 42 \tab 54 \tab 69 \tab 164 \tab 260 \tab 93 \tab 9 \tab 891 \tab 2 \tab 107 \tab 312 \tab - \tab - \tab 4510 \cr
-   2008 \tab 671 \tab 31 \tab 48 \tab 50 \tab 106 \tab 176 \tab 88 \tab 14 \tab 561 \tab 5 \tab 73 \tab 200 \tab - \tab - \tab 2023 \cr
-   2010 \tab 763 \tab 34 \tab 56 \tab 43 \tab 115 \tab 171 \tab 70 \tab 11 \tab 495 \tab 6 \tab 60 \tab 220 \tab - \tab - \tab 2044 \cr
-   2012 \tab 666 \tab 29 \tab 47 \tab 54 \tab 114 \tab 158 \tab 90 \tab 10 \tab 505 \tab 4 \tab 50 \tab 247 \tab - \tab - \tab 1974 \cr
-   2014 \tab 824 \tab 26 \tab 62 \tab 75 \tab 141 \tab 226 \tab 113 \tab 7 \tab 640 \tab 6 \tab 60 \tab 358 \tab - \tab - \tab 2538 \cr
-   2016 \tab 978 \tab 39 \tab 61 \tab 65 \tab 136 \tab 259 \tab 140 \tab 2 \tab 686 \tab 9 \tab 75 \tab 417 \tab - \tab - \tab 2867 \cr
-   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab 4032 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \cr
-   2022 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab - \tab 3544 \cr
-   2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
-   Total \tab 52762 \tab 398 \tab 613 \tab 642 \tab 1297 \tab 1964 \tab 951 \tab 119 \tab 6561 \tab 89 \tab 821 \tab 2629 \tab 3544 \tab 3309 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/426/vshow}{GSS Data Explorer page for \code{closeblk}}.
 }
 
 \seealso{

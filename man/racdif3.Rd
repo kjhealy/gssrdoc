@@ -51,49 +51,9 @@ C. Because most (Negroes/Blacks/African-Americans) don't have the chance for edu
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/730/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab don't know \tab no \tab no answer \tab yes \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1490 \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 176 \tab 48 \tab 642 \tab 8 \tab 656 \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1599 \tab - \tab - \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab - \tab 36 \tab 687 \tab 4 \tab 807 \tab - \tab 1534 \cr
-   1986 \tab - \tab 33 \tab 673 \tab 5 \tab 759 \tab - \tab 1470 \cr
-   1987 \tab 1819 \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 493 \tab 37 \tab 433 \tab 6 \tab 512 \tab - \tab 1481 \cr
-   1989 \tab 531 \tab 38 \tab 442 \tab 5 \tab 521 \tab - \tab 1537 \cr
-   1990 \tab - \tab 46 \tab 609 \tab 7 \tab 710 \tab - \tab 1372 \cr
-   1991 \tab 493 \tab 29 \tab 463 \tab 4 \tab 528 \tab - \tab 1517 \cr
-   1993 \tab 526 \tab 43 \tab 465 \tab 5 \tab 567 \tab - \tab 1606 \cr
-   1994 \tab 1015 \tab 70 \tab 926 \tab 12 \tab 969 \tab - \tab 2992 \cr
-   1996 \tab 944 \tab 64 \tab 1017 \tab 6 \tab 873 \tab - \tab 2904 \cr
-   1998 \tab 961 \tab 89 \tab 976 \tab 5 \tab 801 \tab - \tab 2832 \cr
-   2000 \tab 940 \tab 74 \tab 948 \tab 10 \tab 845 \tab - \tab 2817 \cr
-   2002 \tab 1857 \tab 26 \tab 491 \tab 1 \tab 390 \tab - \tab 2765 \cr
-   2004 \tab 1906 \tab 30 \tab 500 \tab 3 \tab 373 \tab - \tab 2812 \cr
-   2006 \tab 2518 \tab 55 \tab 1055 \tab 4 \tab 878 \tab - \tab 4510 \cr
-   2008 \tab 694 \tab 33 \tab 693 \tab 3 \tab 600 \tab - \tab 2023 \cr
-   2010 \tab 614 \tab 35 \tab 723 \tab 8 \tab 664 \tab - \tab 2044 \cr
-   2012 \tab 672 \tab 37 \tab 711 \tab 2 \tab 552 \tab - \tab 1974 \cr
-   2014 \tab 863 \tab 30 \tab 915 \tab 7 \tab 723 \tab - \tab 2538 \cr
-   2016 \tab 979 \tab 46 \tab 878 \tab 3 \tab 961 \tab - \tab 2867 \cr
-   2018 \tab 789 \tab 35 \tab 743 \tab 5 \tab 776 \tab - \tab 2348 \cr
-   2021 \tab 1315 \tab 17 \tab 1162 \tab 1 \tab 1511 \tab 26 \tab 4032 \cr
-   2022 \tab 2373 \tab 30 \tab 526 \tab 3 \tab 608 \tab 4 \tab 3544 \cr
-   2024 \tab 2235 \tab 33 \tab 508 \tab 5 \tab 519 \tab 9 \tab 3309 \cr
-   Total \tab 40235 \tab 1014 \tab 17186 \tab 122 \tab 17103 \tab 39 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/730/vshow}{GSS Data Explorer page for \code{racdif3}}.
 }
 
 \seealso{

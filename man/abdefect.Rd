@@ -62,49 +62,9 @@ A. If there is a strong chance of serious defect in the baby?
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/601/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllll}{
-   year \tab don't know \tab no \tab no answer \tab yes \tab iap \tab skipped on web \tab Total \cr
-   1972 \tab 81 \tab 327 \tab 6 \tab 1199 \tab - \tab - \tab 1613 \cr
-   1973 \tab 36 \tab 227 \tab 4 \tab 1237 \tab - \tab - \tab 1504 \cr
-   1974 \tab 44 \tab 214 \tab - \tab 1226 \tab - \tab - \tab 1484 \cr
-   1975 \tab 49 \tab 242 \tab 3 \tab 1196 \tab - \tab - \tab 1490 \cr
-   1976 \tab 38 \tab 234 \tab 4 \tab 1223 \tab - \tab - \tab 1499 \cr
-   1977 \tab 37 \tab 216 \tab 6 \tab 1271 \tab - \tab - \tab 1530 \cr
-   1978 \tab 31 \tab 270 \tab 4 \tab 1227 \tab - \tab - \tab 1532 \cr
-   1980 \tab 48 \tab 240 \tab 1 \tab 1179 \tab - \tab - \tab 1468 \cr
-   1982 \tab 80 \tab 317 \tab 5 \tab 1458 \tab - \tab - \tab 1860 \cr
-   1983 \tab 53 \tab 320 \tab 32 \tab 1194 \tab - \tab - \tab 1599 \cr
-   1984 \tab 44 \tab 281 \tab 8 \tab 1140 \tab - \tab - \tab 1473 \cr
-   1985 \tab 45 \tab 319 \tab 3 \tab 1167 \tab - \tab - \tab 1534 \cr
-   1986 \tab - \tab - \tab - \tab - \tab 1470 \tab - \tab 1470 \cr
-   1987 \tab 66 \tab 384 \tab 9 \tab 1360 \tab - \tab - \tab 1819 \cr
-   1988 \tab 31 \tab 200 \tab 2 \tab 744 \tab 504 \tab - \tab 1481 \cr
-   1989 \tab 34 \tab 186 \tab 4 \tab 809 \tab 504 \tab - \tab 1537 \cr
-   1990 \tab 35 \tab 165 \tab 2 \tab 715 \tab 455 \tab - \tab 1372 \cr
-   1991 \tab 41 \tab 156 \tab 8 \tab 788 \tab 524 \tab - \tab 1517 \cr
-   1993 \tab 37 \tab 193 \tab 5 \tab 840 \tab 531 \tab - \tab 1606 \cr
-   1994 \tab 68 \tab 341 \tab 2 \tab 1585 \tab 996 \tab - \tab 2992 \cr
-   1996 \tab 66 \tab 336 \tab 7 \tab 1514 \tab 981 \tab - \tab 2904 \cr
-   1998 \tab 79 \tab 385 \tab 3 \tab 1415 \tab 950 \tab - \tab 2832 \cr
-   2000 \tab 83 \tab 377 \tab 4 \tab 1397 \tab 956 \tab - \tab 2817 \cr
-   2002 \tab 24 \tab 193 \tab 4 \tab 703 \tab 1841 \tab - \tab 2765 \cr
-   2004 \tab 33 \tab 232 \tab 9 \tab 624 \tab 1914 \tab - \tab 2812 \cr
-   2006 \tab 68 \tab 495 \tab 15 \tab 1425 \tab 2507 \tab - \tab 4510 \cr
-   2008 \tab 61 \tab 321 \tab 18 \tab 952 \tab 671 \tab - \tab 2023 \cr
-   2010 \tab 32 \tab 304 \tab 24 \tab 921 \tab 763 \tab - \tab 2044 \cr
-   2012 \tab 52 \tab 313 \tab 24 \tab 919 \tab 666 \tab - \tab 1974 \cr
-   2014 \tab 54 \tab 402 \tab 27 \tab 1231 \tab 824 \tab - \tab 2538 \cr
-   2016 \tab 58 \tab 447 \tab 32 \tab 1353 \tab 977 \tab - \tab 2867 \cr
-   2018 \tab 44 \tab 339 \tab 27 \tab 1164 \tab 774 \tab - \tab 2348 \cr
-   2021 \tab 11 \tab 309 \tab 3 \tab 1126 \tab 2566 \tab 17 \tab 4032 \cr
-   2022 \tab 34 \tab 224 \tab 16 \tab 897 \tab 2367 \tab 6 \tab 3544 \cr
-   2024 \tab 60 \tab 297 \tab 21 \tab 1229 \tab 1694 \tab 8 \tab 3309 \cr
-   Total \tab 1657 \tab 9806 \tab 342 \tab 38428 \tab 25435 \tab 31 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/601/vshow}{GSS Data Explorer page for \code{abdefect}}.
 }
 
 \seealso{

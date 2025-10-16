@@ -63,49 +63,9 @@ I. The military, armaments and defense
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/189/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab about right \tab don't know \tab no answer \tab too little \tab too much \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab - \tab 673 \tab 89 \tab 8 \tab 167 \tab 567 \tab - \tab 1504 \cr
-   1974 \tab - \tab 671 \tab 99 \tab 5 \tab 250 \tab 459 \tab - \tab 1484 \cr
-   1975 \tab - \tab 679 \tab 97 \tab 6 \tab 247 \tab 461 \tab - \tab 1490 \cr
-   1976 \tab - \tab 628 \tab 97 \tab 7 \tab 360 \tab 407 \tab - \tab 1499 \cr
-   1977 \tab - \tab 694 \tab 123 \tab 3 \tab 361 \tab 349 \tab - \tab 1530 \cr
-   1978 \tab - \tab 666 \tab 116 \tab 3 \tab 413 \tab 334 \tab - \tab 1532 \cr
-   1980 \tab - \tab 377 \tab 95 \tab 3 \tab 825 \tab 168 \tab - \tab 1468 \cr
-   1982 \tab - \tab 651 \tab 110 \tab 12 \tab 485 \tab 602 \tab - \tab 1860 \cr
-   1983 \tab - \tab 603 \tab 89 \tab 4 \tab 385 \tab 518 \tab - \tab 1599 \cr
-   1984 \tab 983 \tab 200 \tab 17 \tab 4 \tab 84 \tab 185 \tab - \tab 1473 \cr
-   1985 \tab 783 \tab 315 \tab 25 \tab 4 \tab 107 \tab 300 \tab - \tab 1534 \cr
-   1986 \tab 740 \tab 279 \tab 35 \tab 4 \tab 118 \tab 294 \tab - \tab 1470 \cr
-   1987 \tab 1216 \tab 223 \tab 27 \tab 6 \tab 91 \tab 256 \tab - \tab 1819 \cr
-   1988 \tab 763 \tab 285 \tab 40 \tab 6 \tab 113 \tab 274 \tab - \tab 1481 \cr
-   1989 \tab 769 \tab 311 \tab 43 \tab 4 \tab 111 \tab 299 \tab - \tab 1537 \cr
-   1990 \tab 698 \tab 285 \tab 36 \tab 4 \tab 69 \tab 280 \tab - \tab 1372 \cr
-   1991 \tab 761 \tab 422 \tab 17 \tab 6 \tab 106 \tab 205 \tab - \tab 1517 \cr
-   1993 \tab 807 \tab 353 \tab 30 \tab 4 \tab 82 \tab 330 \tab - \tab 1606 \cr
-   1994 \tab 1484 \tab 710 \tab 59 \tab 7 \tab 239 \tab 493 \tab - \tab 2992 \cr
-   1996 \tab 1463 \tab 664 \tab 87 \tab 1 \tab 244 \tab 445 \tab - \tab 2904 \cr
-   1998 \tab 1451 \tab 640 \tab 74 \tab 8 \tab 241 \tab 418 \tab - \tab 2832 \cr
-   2000 \tab 1408 \tab 641 \tab 96 \tab 6 \tab 323 \tab 343 \tab - \tab 2817 \cr
-   2002 \tab 1407 \tab 615 \tab 33 \tab 1 \tab 414 \tab 295 \tab - \tab 2765 \cr
-   2004 \tab 1411 \tab 540 \tab 34 \tab - \tab 464 \tab 363 \tab - \tab 2812 \cr
-   2006 \tab 3026 \tab 475 \tab 41 \tab 1 \tab 379 \tab 588 \tab - \tab 4510 \cr
-   2008 \tab 1019 \tab 304 \tab 38 \tab 1 \tab 235 \tab 426 \tab - \tab 2023 \cr
-   2010 \tab 1030 \tab 370 \tab 26 \tab 2 \tab 271 \tab 345 \tab - \tab 2044 \cr
-   2012 \tab 976 \tab 401 \tab 31 \tab 2 \tab 243 \tab 321 \tab - \tab 1974 \cr
-   2014 \tab 1264 \tab 399 \tab 43 \tab 1 \tab 448 \tab 383 \tab - \tab 2538 \cr
-   2016 \tab 1430 \tab 491 \tab 37 \tab 2 \tab 533 \tab 374 \tab - \tab 2867 \cr
-   2018 \tab 1160 \tab 465 \tab 45 \tab 2 \tab 373 \tab 303 \tab - \tab 2348 \cr
-   2021 \tab 2045 \tab 814 \tab 5 \tab - \tab 513 \tab 647 \tab 8 \tab 4032 \cr
-   2022 \tab 1764 \tab 670 \tab 40 \tab 1 \tab 516 \tab 549 \tab 4 \tab 3544 \cr
-   2024 \tab 1626 \tab 641 \tab 47 \tab 3 \tab 510 \tab 475 \tab 7 \tab 3309 \cr
-   Total \tab 33097 \tab 17155 \tab 1921 \tab 131 \tab 10320 \tab 13056 \tab 19 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/189/vshow}{GSS Data Explorer page for \code{natarms}}.
 }
 
 \seealso{

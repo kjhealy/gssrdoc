@@ -56,49 +56,9 @@ Question Would you be for or against sex education in the public schools?
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/626/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab depends on age/grade (vol.) \tab don't know \tab favor \tab no answer \tab oppose \tab skipped on web \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab - \tab 9 \tab 50 \tab 1169 \tab 3 \tab 253 \tab - \tab 1484 \cr
-   1975 \tab - \tab - \tab 55 \tab 1136 \tab 2 \tab 297 \tab - \tab 1490 \cr
-   1976 \tab 1499 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab - \tab - \tab 32 \tab 1174 \tab 6 \tab 318 \tab - \tab 1530 \cr
-   1978 \tab 1532 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1468 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab - \tab - \tab 57 \tab 1524 \tab 3 \tab 276 \tab - \tab 1860 \cr
-   1983 \tab - \tab - \tab 44 \tab 1334 \tab 4 \tab 217 \tab - \tab 1599 \cr
-   1984 \tab 1473 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab - \tab - \tab 38 \tab 1252 \tab 8 \tab 236 \tab - \tab 1534 \cr
-   1986 \tab - \tab - \tab 41 \tab 1199 \tab 2 \tab 228 \tab - \tab 1470 \cr
-   1987 \tab 1819 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 493 \tab - \tab 27 \tab 833 \tab 4 \tab 124 \tab - \tab 1481 \cr
-   1989 \tab 531 \tab - \tab 34 \tab 847 \tab 3 \tab 122 \tab - \tab 1537 \cr
-   1990 \tab 444 \tab - \tab 24 \tab 809 \tab 4 \tab 91 \tab - \tab 1372 \cr
-   1991 \tab 493 \tab - \tab 31 \tab 870 \tab 2 \tab 121 \tab - \tab 1517 \cr
-   1993 \tab 526 \tab - \tab 28 \tab 890 \tab 3 \tab 159 \tab - \tab 1606 \cr
-   1994 \tab 1015 \tab - \tab 57 \tab 1671 \tab 12 \tab 237 \tab - \tab 2992 \cr
-   1996 \tab 944 \tab - \tab 47 \tab 1666 \tab 6 \tab 241 \tab - \tab 2904 \cr
-   1998 \tab 961 \tab - \tab 42 \tab 1585 \tab 8 \tab 236 \tab - \tab 2832 \cr
-   2000 \tab 940 \tab - \tab 44 \tab 1592 \tab 9 \tab 232 \tab - \tab 2817 \cr
-   2002 \tab 1857 \tab - \tab 18 \tab 787 \tab - \tab 103 \tab - \tab 2765 \cr
-   2004 \tab 1906 \tab - \tab 11 \tab 806 \tab 2 \tab 87 \tab - \tab 2812 \cr
-   2006 \tab 2518 \tab - \tab 29 \tab 1753 \tab 1 \tab 209 \tab - \tab 4510 \cr
-   2008 \tab 694 \tab - \tab 24 \tab 1184 \tab 2 \tab 119 \tab - \tab 2023 \cr
-   2010 \tab 614 \tab - \tab 15 \tab 1263 \tab 5 \tab 147 \tab - \tab 2044 \cr
-   2012 \tab 672 \tab - \tab 22 \tab 1157 \tab 6 \tab 117 \tab - \tab 1974 \cr
-   2014 \tab 863 \tab - \tab 14 \tab 1510 \tab 3 \tab 148 \tab - \tab 2538 \cr
-   2016 \tab 980 \tab - \tab 19 \tab 1722 \tab - \tab 146 \tab - \tab 2867 \cr
-   2018 \tab 789 \tab - \tab 16 \tab 1409 \tab 1 \tab 133 \tab - \tab 2348 \cr
-   2021 \tab 1320 \tab - \tab 8 \tab 2450 \tab 2 \tab 238 \tab 14 \tab 4032 \cr
-   2022 \tab 1168 \tab - \tab 27 \tab 2047 \tab 2 \tab 292 \tab 8 \tab 3544 \cr
-   2024 \tab 1126 \tab - \tab 38 \tab 1857 \tab 4 \tab 274 \tab 10 \tab 3309 \cr
-   Total \tab 31762 \tab 9 \tab 892 \tab 37496 \tab 107 \tab 5401 \tab 32 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/626/vshow}{GSS Data Explorer page for \code{sexeduc}}.
 }
 
 \seealso{

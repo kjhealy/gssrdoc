@@ -56,49 +56,9 @@ Question Do you think the use of marijuana should be made legal or not?
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/285/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab don't know \tab no answer \tab should be legal \tab should not be legal \tab not available in this year \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab - \tab 30 \tab 3 \tab 275 \tab 1196 \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab - \tab 72 \tab 4 \tab 301 \tab 1113 \tab - \tab 1490 \cr
-   1976 \tab - \tab 50 \tab 2 \tab 416 \tab 1031 \tab - \tab 1499 \cr
-   1977 \tab 1530 \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab - \tab 45 \tab 23 \tab 447 \tab 1017 \tab - \tab 1532 \cr
-   1980 \tab - \tab 45 \tab 3 \tab 364 \tab 1056 \tab - \tab 1468 \cr
-   1982 \tab 1860 \tab - \tab - \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab - \tab 52 \tab 1 \tab 324 \tab 1222 \tab - \tab 1599 \cr
-   1984 \tab - \tab 59 \tab 8 \tab 332 \tab 1074 \tab - \tab 1473 \cr
-   1985 \tab 1534 \tab - \tab - \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab - \tab 26 \tab 7 \tab 263 \tab 1174 \tab - \tab 1470 \cr
-   1987 \tab - \tab 56 \tab 2 \tab 300 \tab 1461 \tab - \tab 1819 \cr
-   1988 \tab 484 \tab 38 \tab 4 \tab 171 \tab 784 \tab - \tab 1481 \cr
-   1989 \tab 502 \tab 31 \tab 6 \tab 169 \tab 829 \tab - \tab 1537 \cr
-   1990 \tab 473 \tab 27 \tab 5 \tab 146 \tab 721 \tab - \tab 1372 \cr
-   1991 \tab 500 \tab 40 \tab 5 \tab 182 \tab 790 \tab - \tab 1517 \cr
-   1993 \tab 549 \tab 52 \tab 1 \tab 234 \tab 770 \tab - \tab 1606 \cr
-   1994 \tab 981 \tab 93 \tab 11 \tab 457 \tab 1450 \tab - \tab 2992 \cr
-   1996 \tab 979 \tab 99 \tab 2 \tab 492 \tab 1332 \tab - \tab 2904 \cr
-   1998 \tab 921 \tab 117 \tab 6 \tab 525 \tab 1263 \tab - \tab 2832 \cr
-   2000 \tab 921 \tab 111 \tab 5 \tab 597 \tab 1183 \tab - \tab 2817 \cr
-   2002 \tab 1853 \tab 61 \tab - \tab 306 \tab 545 \tab - \tab 2765 \cr
-   2004 \tab 1936 \tab 73 \tab 1 \tab 292 \tab 510 \tab - \tab 2812 \cr
-   2006 \tab 2521 \tab 161 \tab - \tab 672 \tab 1156 \tab - \tab 4510 \cr
-   2008 \tab 658 \tab 116 \tab 2 \tab 496 \tab 751 \tab - \tab 2023 \cr
-   2010 \tab 667 \tab 117 \tab 1 \tab 603 \tab 656 \tab - \tab 2044 \cr
-   2012 \tab 636 \tab 100 \tab 4 \tab 586 \tab 648 \tab - \tab 1974 \cr
-   2014 \tab 851 \tab 111 \tab 2 \tab 870 \tab 704 \tab - \tab 2538 \cr
-   2016 \tab 911 \tab 110 \tab 3 \tab 1126 \tab 717 \tab - \tab 2867 \cr
-   2018 \tab 785 \tab 112 \tab 4 \tab 938 \tab 509 \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
-   2022 \tab 2337 \tab 81 \tab 3 \tab 788 \tab 335 \tab - \tab 3544 \cr
-   2024 \tab 2357 \tab 84 \tab 1 \tab 594 \tab 273 \tab - \tab 3309 \cr
-   Total \tab 29843 \tab 2169 \tab 119 \tab 13266 \tab 26270 \tab 4032 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/285/vshow}{GSS Data Explorer page for \code{grass}}.
 }
 
 \seealso{

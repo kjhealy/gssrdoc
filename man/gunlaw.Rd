@@ -59,49 +59,9 @@ Question Would you favor or oppose a law which would require a person to obtain 
 }
 }
 
-\section{Overview}{
+\section{Link at the GSS}{
 
-For further details see the \href{https://gssdataexplorer.norc.org/variables/272/vshow}{GSS Data Explorer page for this variable}.
-
-Counts by year:\tabular{llllllll}{
-   year \tab don't know \tab favor \tab no answer \tab oppose \tab iap \tab skipped on web \tab Total \cr
-   1972 \tab 48 \tab 1131 \tab 3 \tab 431 \tab - \tab - \tab 1613 \cr
-   1973 \tab 25 \tab 1099 \tab 9 \tab 371 \tab - \tab - \tab 1504 \cr
-   1974 \tab 18 \tab 1112 \tab 7 \tab 347 \tab - \tab - \tab 1484 \cr
-   1975 \tab 38 \tab 1096 \tab 2 \tab 354 \tab - \tab - \tab 1490 \cr
-   1976 \tab 21 \tab 1068 \tab 6 \tab 404 \tab - \tab - \tab 1499 \cr
-   1977 \tab 29 \tab 1094 \tab 2 \tab 405 \tab - \tab - \tab 1530 \cr
-   1978 \tab - \tab - \tab - \tab - \tab 1532 \tab - \tab 1532 \cr
-   1980 \tab 28 \tab 1018 \tab 1 \tab 421 \tab - \tab - \tab 1468 \cr
-   1982 \tab 40 \tab 1347 \tab 6 \tab 467 \tab - \tab - \tab 1860 \cr
-   1983 \tab - \tab - \tab - \tab - \tab 1599 \tab - \tab 1599 \cr
-   1984 \tab 37 \tab 1034 \tab 6 \tab 396 \tab - \tab - \tab 1473 \cr
-   1985 \tab 19 \tab 1105 \tab 4 \tab 406 \tab - \tab - \tab 1534 \cr
-   1986 \tab - \tab - \tab - \tab - \tab 1470 \tab - \tab 1470 \cr
-   1987 \tab 36 \tab 1304 \tab 3 \tab 476 \tab - \tab - \tab 1819 \cr
-   1988 \tab 26 \tab 717 \tab 4 \tab 230 \tab 504 \tab - \tab 1481 \cr
-   1989 \tab 16 \tab 803 \tab 2 \tab 212 \tab 504 \tab - \tab 1537 \cr
-   1990 \tab 16 \tab 719 \tab 3 \tab 179 \tab 455 \tab - \tab 1372 \cr
-   1991 \tab 12 \tab 801 \tab 5 \tab 175 \tab 524 \tab - \tab 1517 \cr
-   1993 \tab 19 \tab 870 \tab 1 \tab 185 \tab 531 \tab - \tab 1606 \cr
-   1994 \tab 31 \tab 1551 \tab 8 \tab 406 \tab 996 \tab - \tab 2992 \cr
-   1996 \tab 37 \tab 1544 \tab 4 \tab 338 \tab 981 \tab - \tab 2904 \cr
-   1998 \tab 42 \tab 1535 \tab 3 \tab 302 \tab 950 \tab - \tab 2832 \cr
-   2000 \tab 46 \tab 1479 \tab 4 \tab 332 \tab 956 \tab - \tab 2817 \cr
-   2002 \tab 7 \tab 737 \tab 1 \tab 179 \tab 1841 \tab - \tab 2765 \cr
-   2004 \tab 6 \tab 709 \tab 1 \tab 182 \tab 1914 \tab - \tab 2812 \cr
-   2006 \tab 35 \tab 1568 \tab 5 \tab 395 \tab 2507 \tab - \tab 4510 \cr
-   2008 \tab 18 \tab 1050 \tab 1 \tab 283 \tab 671 \tab - \tab 2023 \cr
-   2010 \tab 9 \tab 947 \tab 1 \tab 324 \tab 763 \tab - \tab 2044 \cr
-   2012 \tab 21 \tab 944 \tab 4 \tab 339 \tab 666 \tab - \tab 1974 \cr
-   2014 \tab 17 \tab 1224 \tab 4 \tab 469 \tab 824 \tab - \tab 2538 \cr
-   2016 \tab 25 \tab 1330 \tab 7 \tab 528 \tab 977 \tab - \tab 2867 \cr
-   2018 \tab 26 \tab 1102 \tab 7 \tab 439 \tab 774 \tab - \tab 2348 \cr
-   2021 \tab 7 \tab 2686 \tab - \tab 1306 \tab - \tab 33 \tab 4032 \cr
-   2022 \tab 24 \tab 1643 \tab 6 \tab 659 \tab 1203 \tab 9 \tab 3544 \cr
-   2024 \tab 31 \tab 1523 \tab 7 \tab 668 \tab 1067 \tab 13 \tab 3309 \cr
-   Total \tab 810 \tab 37890 \tab 127 \tab 12608 \tab 24209 \tab 55 \tab 75699 \cr
-}
+For details see the \href{https://gssdataexplorer.norc.org/variables/272/vshow}{GSS Data Explorer page for \code{gunlaw}}.
 }
 
 \seealso{
