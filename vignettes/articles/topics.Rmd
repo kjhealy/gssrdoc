@@ -12,31 +12,30 @@ knitr::opts_chunk$set(
 This page provides a topical index of GSS variables based on the modules and subject areas that each variable is connected to, based on the GSS's own classification. Survey modules are groups of questions that were designed to be fielded together, and are closely related for that reason. Subject classifications are for convenience and are not meant to be exclusive or exhaustive.
 
 ```{r topics, echo=FALSE, message=FALSE, results='asis'}
-library(tidyverse)
 
 rd_files <- fs::dir_ls(here::here("man"), glob = "*.Rd")
 
 concept_map <- rd_files |> 
-  map_dfr(~ {
-    lines <- read_lines(.x)
-    concepts <- str_subset(lines, "\\\\concept\\{") |> 
-      str_extract("(?<=\\\\concept\\{)[^}]+")
+  purrr::map_dfr(~ {
+    lines <- readr::read_lines(.x)
+    concepts <- stringr::str_subset(lines, "\\\\concept\\{") |> 
+      stringr::str_extract("(?<=\\\\concept\\{)[^}]+")
     
-    name_line <- str_subset(lines, "\\\\name\\{")[1]
-    var_name <- str_extract(name_line, "(?<=\\\\name\\{)[^}]+")
+    name_line <- stringr::str_subset(lines, "\\\\name\\{")[1]
+    var_name <- stringr::str_extract(name_line, "(?<=\\\\name\\{)[^}]+")
     
-    tibble(concept = concepts, var_name = var_name)
+    tibble::tibble(concept = concepts, var_name = var_name)
   }) |> 
-  arrange(concept, var_name)
+  dplyr::arrange(concept, var_name)
 
 concept_map |> 
-  group_by(concept) |> 
-  summarize(
+  dplyr::group_by(concept) |> 
+  dplyr::summarize(
     variables = paste0("- [`", var_name, "`](../reference/", var_name, ".html)", collapse = "\n"),
     .groups = "drop"
   ) |> 
-  mutate(output = paste0("## ", concept, "\n\n", variables, "\n")) |> 
-  pull(output) |> 
+  dplyr::mutate(output = paste0("## ", concept, "\n\n", variables, "\n")) |> 
+  dplyr::pull(output) |> 
   paste(collapse = "\n") |> 
   cat()
 ```
