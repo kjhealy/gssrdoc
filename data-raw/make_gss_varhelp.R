@@ -249,13 +249,35 @@ load(here("data", "gss_dict.rda"))
 ## And by data-raw/make_gss_doc.R
 gss_doc <- readRDS(here("data-raw", "objects", "gss_doc.rda"))
 
-## Harmonize with gss_dict; replace NAs with something inoffensive
+## Harmonize with gss_dict; replace NAs with something inoffensive. Also fix at least
+## the following variables:
+## fileversion.Rd:5-7: Empty section \title
+## id.Rd:15-24: Empty section ‘Values’
+## intid.Rd:15-24: Empty section ‘Values’
+## random.Rd:15-24: Empty section ‘Values’
+## uscitznnv_2122.Rd:5-7: Empty section \title
+## uscitznv_2122.Rd:5-7: Empty section \title
+
 gss_doc_rd <- gss_doc |>
   rename(label = description, var_text = question) |>
   mutate(
     across(where(is.character), \(x) ifelse(is.na(x), "-", x)),
     var_text = map_chr(var_text, \(x) fix_rox_newlines(x)),
     var_text = map_chr(var_text, \(x) fix_rox_dashes(x))
+  ) |>
+  mutate(
+    label = ifelse(label == "-", variable, label),
+    var_text = ifelse(var_text == "-", variable, var_text),
+    norc_url = ifelse(
+      norc_url == "-",
+      "https://gssdataexplorer.norc.org",
+      norc_url
+    ),
+    value_labels = ifelse(
+      value_labels == "-",
+      "No applicable value labels.",
+      value_labels
+    )
   )
 
 

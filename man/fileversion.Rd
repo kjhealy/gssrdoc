@@ -2,9 +2,7 @@
 % Please edit documentation in R/gss_vars_641.R
 \name{fileversion}
 \alias{fileversion}
-\title{\itemize{
-\item 
-}}
+\title{Fileversion}
 \source{
 General Social Survey https://gss.norc.org
 }
@@ -12,7 +10,7 @@ General Social Survey https://gss.norc.org
 fileversion
 }
 \details{
-Question -
+Question fileversion
 }
 \section{Values}{
 
@@ -24,7 +22,7 @@ Question -
 
 \section{Overview}{
 
-For further details see the \href{-}{GSS Data Explorer page for this variable}.
+For further details see the \href{https://gssdataexplorer.norc.org}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lll}{
    year \tab 7224.1 \tab Total \cr

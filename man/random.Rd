@@ -15,10 +15,7 @@ Question Randomization for form
 \section{Values}{
 
 \itemize{
-\item 
-\itemize{
-\item 
-}
+\item No applicable value labels.
 \item 
 }
 }

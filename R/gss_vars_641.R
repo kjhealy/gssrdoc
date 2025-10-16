@@ -1,8 +1,8 @@
-#'  -
+#'  Fileversion
 #' 
 #'  fileversion
 #' 
-#' Question -
+#' Question fileversion
 #' 
 #' 
 #' @section Values: 
@@ -13,7 +13,7 @@
 #' 
 #' 
 #' @section Overview: 
-#' For further details see the [GSS Data Explorer page for this variable](-).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org).
 #'
 #' Counts by year: 
 #'

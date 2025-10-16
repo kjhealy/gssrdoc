@@ -2,9 +2,7 @@
 % Please edit documentation in R/gss_vars_687.R
 \name{uscitznnv_2122}
 \alias{uscitznnv_2122}
-\title{\itemize{
-\item 
-}}
+\title{Uscitznnv_2122}
 \source{
 General Social Survey https://gss.norc.org
 }
@@ -12,7 +10,7 @@ General Social Survey https://gss.norc.org
 uscitznnv_2122
 }
 \details{
-Question -
+Question uscitznnv_2122
 }
 \section{Values}{
 
@@ -27,7 +25,7 @@ Question -
 
 \section{Overview}{
 
-For further details see the \href{-}{GSS Data Explorer page for this variable}.
+For further details see the \href{https://gssdataexplorer.norc.org}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{lllllll}{
    year \tab not available in this year \tab a u.s. citizen \tab iap \tab not a u.s. citizen \tab skipped on web \tab Total \cr

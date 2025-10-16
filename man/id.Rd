@@ -15,10 +15,7 @@ Question Respondent id number
 \section{Values}{
 
 \itemize{
-\item 
-\itemize{
-\item 
-}
+\item No applicable value labels.
 \item 
 }
 }

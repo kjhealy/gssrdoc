@@ -15,10 +15,7 @@ Question No question asked; assigned administratively
 \section{Values}{
 
 \itemize{
-\item 
-\itemize{
-\item 
-}
+\item No applicable value labels.
 \item 
 }
 }

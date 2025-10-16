@@ -1,8 +1,8 @@
-#'  -
+#'  Uscitznv_2122
 #' 
 #'  uscitznv_2122
 #' 
-#' Question -
+#' Question uscitznv_2122
 #' 
 #' 
 #' @section Values: 
@@ -16,7 +16,7 @@
 #' 
 #' 
 #' @section Overview: 
-#' For further details see the [GSS Data Explorer page for this variable](-).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org).
 #'
 #' Counts by year: 
 #'
@@ -69,11 +69,11 @@
 NULL
 
 
-#'  -
+#'  Uscitznnv_2122
 #' 
 #'  uscitznnv_2122
 #' 
-#' Question -
+#' Question uscitznnv_2122
 #' 
 #' 
 #' @section Values: 
@@ -87,7 +87,7 @@ NULL
 #' 
 #' 
 #' @section Overview: 
-#' For further details see the [GSS Data Explorer page for this variable](-).
+#' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org).
 #'
 #' Counts by year: 
 #'

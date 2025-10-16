@@ -72,7 +72,7 @@ NULL
 #' 
 #' @section Values: 
 #' 
-#'   * -
+#'   * No applicable value labels.
 #'   * 
 #' 
 #' @section Question Years and Ballots: 

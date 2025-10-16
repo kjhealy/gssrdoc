@@ -2,9 +2,7 @@
 % Please edit documentation in R/gss_vars_687.R
 \name{uscitznv_2122}
 \alias{uscitznv_2122}
-\title{\itemize{
-\item 
-}}
+\title{Uscitznv_2122}
 \source{
 General Social Survey https://gss.norc.org
 }
@@ -12,7 +10,7 @@ General Social Survey https://gss.norc.org
 uscitznv_2122
 }
 \details{
-Question -
+Question uscitznv_2122
 }
 \section{Values}{
 
@@ -27,7 +25,7 @@ Question -
 
 \section{Overview}{
 
-For further details see the \href{-}{GSS Data Explorer page for this variable}.
+For further details see the \href{https://gssdataexplorer.norc.org}{GSS Data Explorer page for this variable}.
 
 Counts by year:\tabular{llllllllll}{
    year \tab not available in this year \tab a u.s. citizen \tab a u.s. citizen born in puerto rico, the u.s. virgin islands, or the northern marianas islands (phone mode only: v \tab born outside of the u.s. to parents who were u.s. citizens at that time (phone mode only: volunteered) \tab iap \tab no answer \tab not a u.s. citizen \tab skipped on web \tab Total \cr
