@@ -21,18 +21,16 @@ E. The chairman of a large national corporation?
 \item \code{99999993} same as now paid
 \item \code{99999994} less than now paid
 \item \code{99999997} never worked
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} can't choose / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1987 \tab -/-/- \tab full \cr
+   2000 \tab A/B/C \tab full \cr
+   2021 \tab B/C/- \tab partial \cr
 }
 }
 
@@ -78,15 +76,6 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
    2022 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab 3544 \cr
    2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
    Total \tab 64007 \tab 271 \tab 27 \tab 3 \tab 2 \tab 6 \tab 5 \tab 36 \tab 2 \tab 32 \tab 2 \tab 1 \tab 13 \tab 252 \tab 5 \tab 5 \tab 22 \tab 2 \tab 1 \tab 538 \tab 3 \tab 4 \tab 41 \tab 2 \tab 2 \tab 1 \tab 1 \tab 4 \tab 2 \tab 1 \tab 1 \tab 45 \tab 195 \tab 1 \tab 4 \tab 2 \tab 3 \tab 1 \tab 1 \tab 358 \tab 2 \tab 68 \tab 3 \tab 1 \tab 32 \tab 28 \tab 2 \tab 163 \tab 1 \tab 87 \tab 2 \tab 19 \tab 10 \tab 1 \tab 1 \tab 59 \tab 6 \tab 226 \tab 2 \tab 3 \tab 14 \tab 1 \tab 334 \tab 2 \tab 145 \tab 20 \tab 1 \tab 23 \tab 3 \tab 71 \tab 1 \tab 144 \tab 40 \tab 1 \tab 15 \tab 1 \tab 154 \tab 1 \tab 16 \tab 6 \tab 20 \tab 2 \tab 52 \tab 6 \tab 8 \tab 172 \tab 3 \tab 1 \tab 571 \tab 1 \tab 1 \tab 6 \tab 2 \tab 5 \tab 3 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 6 \tab 2 \tab 1 \tab 3 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 17 \tab 2 \tab 1 \tab 33 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 15 \tab 1 \tab 61 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 19 \tab 2 \tab 1 \tab 5 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 52 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 87 \tab 6853 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1987 \tab -/-/- \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2021 \tab B/C/- \tab partial \cr
 }
 }
 

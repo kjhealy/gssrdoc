@@ -12,19 +12,14 @@
 #'   * `3` not too scientific
 #'   * `4` not scientific at all
 #'   * `5` haven't heard of it (volunteered)
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |B/C     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3539/vshow).
 #'
@@ -68,12 +63,6 @@
 #'  |2022  |-     |-          |-                                 |-         |-                     |-                  |-                 |-               |3544                       |3544  |
 #'  |2024  |-     |-          |-                                 |-         |-                     |-                  |-                 |-               |3309                       |3309  |
 #'  |Total |68341 |15         |1                                 |3         |62                    |143                |193               |88              |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |B/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -102,19 +91,14 @@ NULL
 #'   * `3` not too scientific
 #'   * `4` not scientific at all
 #'   * `5` haven't heard of it (volunteered)
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |B/C     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3540/vshow).
 #'
@@ -158,12 +142,6 @@ NULL
 #'  |2022  |-     |-          |-                                 |-         |-                     |-                  |-                 |-               |3544                       |3544  |
 #'  |2024  |-     |-          |-                                 |-         |-                     |-                  |-                 |-               |3309                       |3309  |
 #'  |Total |68341 |23         |2                                 |3         |179                   |161                |101               |36              |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |B/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -192,19 +170,14 @@ NULL
 #'   * `3` not too scientific
 #'   * `4` not scientific at all
 #'   * `5` haven't heard of it (volunteered)
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |B/C     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3541/vshow).
 #'
@@ -248,12 +221,6 @@ NULL
 #'  |2022  |-     |-          |-         |-                     |-                  |-                 |-               |3544                       |3544  |
 #'  |2024  |-     |-          |-         |-                     |-                  |-                 |-               |3309                       |3309  |
 #'  |Total |68341 |9          |4         |3                     |14                 |93                |382             |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |B/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -282,19 +249,14 @@ NULL
 #'   * `3` not too scientific
 #'   * `4` not scientific at all
 #'   * `5` haven't heard of it (volunteered)
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |B/C     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3542/vshow).
 #'
@@ -338,12 +300,6 @@ NULL
 #'  |2022  |-     |-          |-         |-                     |-                  |-                 |-               |3544                       |3544  |
 #'  |2024  |-     |-          |-         |-                     |-                  |-                 |-               |3309                       |3309  |
 #'  |Total |68341 |22         |3         |38                    |72                 |189               |181             |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |B/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -372,19 +328,14 @@ NULL
 #'   * `3` not too scientific
 #'   * `4` not scientific at all
 #'   * `5` haven't heard of it (volunteered)
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |B/C     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3543/vshow).
 #'
@@ -428,12 +379,6 @@ NULL
 #'  |2022  |-     |-          |-                                 |-         |-                     |-                  |-                 |-               |3544                       |3544  |
 #'  |2024  |-     |-          |-                                 |-         |-                     |-                  |-                 |-               |3309                       |3309  |
 #'  |Total |68341 |16         |1                                 |3         |100                   |154                |159               |72              |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |B/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -462,19 +407,14 @@ NULL
 #'   * `3` not too scientific
 #'   * `4` not scientific at all
 #'   * `5` haven't heard of it (volunteered)
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |B/C     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3544/vshow).
 #'
@@ -518,12 +458,6 @@ NULL
 #'  |2022  |-     |-          |-                                 |-         |-                     |-                  |-                 |-               |3544                       |3544  |
 #'  |2024  |-     |-          |-                                 |-         |-                     |-                  |-                 |-               |3309                       |3309  |
 #'  |Total |68341 |14         |2                                 |3         |19                    |30                 |148               |289             |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |B/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -552,19 +486,14 @@ NULL
 #'   * `3` not too scientific
 #'   * `4` not scientific at all
 #'   * `5` haven't heard of it (volunteered)
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |B/C     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3545/vshow).
 #'
@@ -608,12 +537,6 @@ NULL
 #'  |2022  |-     |-          |-         |-                     |-                  |-                 |-               |3544                       |3544  |
 #'  |2024  |-     |-          |-         |-                     |-                  |-                 |-               |3309                       |3309  |
 #'  |Total |68341 |16         |3         |186                   |212                |61                |27              |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |B/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -642,19 +565,14 @@ NULL
 #'   * `3` not too scientific
 #'   * `4` not scientific at all
 #'   * `5` haven't heard of it (volunteered)
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |B/C     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3546/vshow).
 #'
@@ -698,12 +616,6 @@ NULL
 #'  |2022  |-     |-          |-         |-                     |-                  |-                 |-               |3544                       |3544  |
 #'  |2024  |-     |-          |-         |-                     |-                  |-                 |-               |3309                       |3309  |
 #'  |Total |68341 |18         |3         |16                    |53                 |156               |259             |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |B/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -732,19 +644,14 @@ NULL
 #'   * `3` not too scientific
 #'   * `4` not scientific at all
 #'   * `5` haven't heard of it (volunteered)
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |B/C     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3547/vshow).
 #'
@@ -788,12 +695,6 @@ NULL
 #'  |2022  |-     |-          |-                                 |-         |-                     |-                  |-                 |-               |3544                       |3544  |
 #'  |2024  |-     |-          |-                                 |-         |-                     |-                  |-                 |-               |3309                       |3309  |
 #'  |Total |68341 |16         |3                                 |3         |128                   |172                |131               |52              |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |B/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -817,19 +718,18 @@ NULL
 #' 
 #' @section Values: 
 #' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * 
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2022 |B/C/-   |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3551/vshow).
 #'
@@ -873,15 +773,6 @@ NULL
 #'  |2022  |3423  |39  |-  |17  |1  |-  |2  |2  |5  |30 |-  |4  |1  |-  |-  |-  |-  |-  |-  |-  |3  |-  |1  |-  |-  |-          |2         |3  |2  |-  |-  |-  |-  |-  |-  |-  |1  |1  |7              |-                          |3544  |
 #'  |2024  |-     |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |3309                       |3309  |
 #'  |Total |71676 |180 |14 |130 |4  |5  |11 |8  |12 |36 |2  |18 |51 |3  |15 |6  |1  |1  |7  |10 |10 |6  |8  |1  |4  |64         |70        |11 |8  |2  |1  |2  |1  |1  |1  |1  |1  |1  |7              |3309                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
-#'  |2018 |A/B/C   |full         |
-#'  |2022 |B/C/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Shared Capitalism

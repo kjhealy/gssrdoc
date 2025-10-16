@@ -9,19 +9,14 @@
 #' 
 #'   * `0` no trust at all
 #'   * `10` complete trust
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2024 |A/B     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/8176/vshow).
 #'
@@ -65,12 +60,6 @@
 #'  |2022  |3544                       |-  |-   |-   |-   |-   |-   |-  |-  |-  |-              |-          |-    |-         |-               |3544  |
 #'  |2024  |-                          |83 |156 |236 |152 |338 |127 |69 |45 |6  |17             |127        |1673 |18        |262             |3309  |
 #'  |Total |72390                      |83 |156 |236 |152 |338 |127 |69 |45 |6  |17             |127        |1673 |18        |262             |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2024 |A/B     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
@@ -94,19 +83,14 @@ NULL
 #'   * `1` online companies - as they need to ensure they process personal information safely
 #'   * `2` people - as they need to take care of their personal information
 #'   * `3` public authorities - as they need to ensure that personal information is protected
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2024 |A/B     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/8103/vshow).
 #'
@@ -150,12 +134,6 @@ NULL
 #'  |2022  |3544                       |-            |-    |-         |-                                                                                  |-                                                                |-                                                                                  |-              |3544  |
 #'  |2024  |-                          |271          |1673 |4         |542                                                                                |593                                                              |212                                                                                |14             |3309  |
 #'  |Total |72390                      |271          |1673 |4         |542                                                                                |593                                                              |212                                                                                |14             |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2024 |A/B     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
@@ -180,19 +158,14 @@ NULL
 #'   * `2` probably should have the right
 #'   * `3` probably should not have the right
 #'   * `4` definitely should not have the right
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2024 |A/B     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/8111/vshow).
 #'
@@ -236,12 +209,6 @@ NULL
 #'  |2022  |3544                       |-            |-                                |-                                    |-    |-         |-                              |-                                  |-              |3544  |
 #'  |2024  |-                          |138          |90                               |654                                  |1673 |6         |273                            |463                                |12             |3309  |
 #'  |Total |72390                      |138          |90                               |654                                  |1673 |6         |273                            |463                                |12             |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2024 |A/B     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
@@ -267,19 +234,14 @@ NULL
 #'   * `3` neither agree nor disagree
 #'   * `4` disagree
 #'   * `5` strongly disagree
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2024 |A/B     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/8052/vshow).
 #'
@@ -323,12 +285,6 @@ NULL
 #'  |2022  |3544                       |-     |-            |-        |-    |-                          |-         |-              |-              |-                 |3544  |
 #'  |2024  |-                          |209   |85           |411      |1673 |338                        |6         |10             |42             |535               |3309  |
 #'  |Total |72390                      |209   |85           |411      |1673 |338                        |6         |10             |42             |535               |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2024 |A/B     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
@@ -354,19 +310,14 @@ NULL
 #'   * `3` neither agree nor disagree
 #'   * `4` disagree
 #'   * `5` strongly disagree
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2024 |A/B     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/8053/vshow).
 #'
@@ -410,12 +361,6 @@ NULL
 #'  |2022  |3544                       |-     |-            |-        |-    |-                          |-         |-              |-              |-                 |3544  |
 #'  |2024  |-                          |123   |76           |515      |1673 |265                        |7         |12             |19             |619               |3309  |
 #'  |Total |72390                      |123   |76           |515      |1673 |265                        |7         |12             |19             |619               |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2024 |A/B     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
@@ -440,19 +385,14 @@ NULL
 #'   * `2` women and men are benefitting equally
 #'   * `3` men are benefitting more than women
 #'   * `4` neither men nor women are benefitting
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2024 |A/B     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/8110/vshow).
 #'
@@ -496,12 +436,6 @@ NULL
 #'  |2022  |3544                       |-            |-    |-                                   |-                                     |-         |-              |-                                     |-                                   |3544  |
 #'  |2024  |-                          |279          |1674 |179                                 |277                                   |8         |15             |742                                   |135                                 |3309  |
 #'  |Total |72390                      |279          |1674 |179                                 |277                                   |8         |15             |742                                   |135                                 |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2024 |A/B     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
@@ -526,19 +460,14 @@ NULL
 #'   * `2` older people and younger people are benefitting equally
 #'   * `3` younger people are benefitting more than older people
 #'   * `4` neither older nor younger are benefitting
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2024 |A/B     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/8043/vshow).
 #'
@@ -582,12 +511,6 @@ NULL
 #'  |2022  |3544                       |-            |-    |-                                         |-         |-                                                       |-                                                     |-              |-                                                     |3544  |
 #'  |2024  |-                          |150          |1675 |150                                       |4         |263                                                     |64                                                    |11             |992                                                   |3309  |
 #'  |Total |72390                      |150          |1675 |150                                       |4         |263                                                     |64                                                    |11             |992                                                   |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2024 |A/B     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
@@ -612,19 +535,14 @@ NULL
 #'   * `2` people who live in the countryside and people who live in cities are benefitting equally
 #'   * `3` people who live in cities are benefitting more than people who live in the countryside
 #'   * `4` neither people from the countryside nor from cities are benefitting
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2024 |A/B     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/8180/vshow).
 #'
@@ -668,12 +586,6 @@ NULL
 #'  |2022  |3544                       |-            |-    |-                                                                   |-         |-                                                                                      |-                                                                                        |-                                                                                      |-              |3544  |
 #'  |2024  |-                          |227          |1676 |191                                                                 |4         |667                                                                                    |422                                                                                      |108                                                                                    |14             |3309  |
 #'  |Total |72390                      |227          |1676 |191                                                                 |4         |667                                                                                    |422                                                                                      |108                                                                                    |14             |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2024 |A/B     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
@@ -698,19 +610,14 @@ NULL
 #'   * `2` the highly and the less well educated are benefitting equally
 #'   * `3` the less well educated are benefitting more than the highly educated
 #'   * `4` neither highly educated nor less well educated are benefitting
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2024 |A/B     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/8106/vshow).
 #'
@@ -754,12 +661,6 @@ NULL
 #'  |2022  |3544                       |-            |-    |-                                                              |-         |-              |-                                                             |-                                                                    |-                                                                    |3544  |
 #'  |2024  |-                          |241          |1676 |140                                                            |6         |17             |407                                                           |714                                                                  |108                                                                  |3309  |
 #'  |Total |72390                      |241          |1676 |140                                                            |6         |17             |407                                                           |714                                                                  |108                                                                  |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2024 |A/B     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies
@@ -784,19 +685,14 @@ NULL
 #'   * `2` rich and poor people are benefitting equally
 #'   * `3` poor people are benefitting more than rich people
 #'   * `4` neither rich people nor poor people are benefitting
-#'   * `NA(d)` can't choose
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` can't choose / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2024 |A/B     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/8070/vshow).
 #'
@@ -840,12 +736,6 @@ NULL
 #'  |2022  |3544                       |-            |-    |-                                                   |-         |-                                                 |-                                            |-                                                 |-              |3544  |
 #'  |2024  |-                          |194          |1676 |153                                                 |8         |52                                                |361                                          |849                                               |16             |3309  |
 #'  |Total |72390                      |194          |1676 |153                                                 |8         |52                                                |361                                          |849                                               |16             |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2024 |A/B     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Digital Societies

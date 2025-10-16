@@ -19,18 +19,14 @@ Question Some people seem to follow what's going on in government and public aff
 \item \code{2} some of the time
 \item \code{3} now and then
 \item \code{4} hardly at all
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1982 \tab - \tab full \cr
 }
 }
 
@@ -76,13 +72,6 @@ Counts by year:\tabular{llllllllll}{
    2022 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab 3544 \cr
    2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
    Total \tab 66986 \tab 11 \tab 192 \tab 632 \tab 10 \tab 366 \tab 649 \tab 6853 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1982 \tab - \tab full \cr
 }
 }
 

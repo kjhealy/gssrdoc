@@ -41,18 +41,18 @@ Just tell me the letter.
 \item \code{23} $110000 to $129999
 \item \code{24} $130000 to $149999
 \item \code{25} $150000 or over
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2006 \tab A/B/C/D \tab full \cr
+   2008 \tab A/B/C/- \tab full \cr
+   2010 \tab A/B/C/- \tab full \cr
+   2012 \tab A/B/C/- \tab full \cr
+   2014 \tab A/B/C/- \tab full \cr
 }
 }
 
@@ -98,17 +98,6 @@ Counts by year:\tabular{lllllllllllllllllllllllllllllll}{
    2022 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab 3544 \cr
    2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
    Total \tab 55757 \tab 141 \tab 446 \tab 473 \tab 381 \tab 310 \tab 374 \tab 802 \tab 281 \tab 417 \tab 419 \tab 604 \tab 107 \tab 659 \tab 597 \tab 66 \tab 1009 \tab 105 \tab 942 \tab 123 \tab 1118 \tab 144 \tab 865 \tab 243 \tab 731 \tab 579 \tab 986 \tab 167 \tab 6853 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
 }
 }
 

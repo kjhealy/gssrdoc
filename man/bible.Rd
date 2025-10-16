@@ -20,18 +20,36 @@ a.         The Bible is the actual word of God and is to be taken literally, wor
 \item \code{2} inspired word
 \item \code{3} ancient book
 \item \code{4} other (vol)
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1984 \tab -/-/- \tab full \cr
+   1985 \tab -/-/- \tab full \cr
+   1987 \tab -/-/- \tab full \cr
+   1988 \tab A/B/C \tab full \cr
+   1989 \tab A/B/- \tab partial \cr
+   1990 \tab A/B/- \tab partial \cr
+   1991 \tab A/B/- \tab partial \cr
+   1993 \tab A/B/- \tab partial \cr
+   1994 \tab A/B/- \tab partial \cr
+   1996 \tab A/B/- \tab partial \cr
+   1998 \tab A/B/C \tab full \cr
+   2000 \tab A/B/C \tab full \cr
+   2002 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2021 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 
@@ -77,35 +95,6 @@ Counts by year:\tabular{llllllllll}{
    2022 \tab 1705 \tab 441 \tab 37 \tab 787 \tab 18 \tab 28 \tab 528 \tab - \tab 3544 \cr
    2024 \tab 1823 \tab 288 \tab 45 \tab 602 \tab 12 \tab 43 \tab 496 \tab - \tab 3309 \cr
    Total \tab 31750 \tab 7152 \tab 663 \tab 18394 \tab 255 \tab 538 \tab 12915 \tab 4032 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/- \tab partial \cr
-   1990 \tab A/B/- \tab partial \cr
-   1991 \tab A/B/- \tab partial \cr
-   1993 \tab A/B/- \tab partial \cr
-   1994 \tab A/B/- \tab partial \cr
-   1996 \tab A/B/- \tab partial \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
 }
 }
 

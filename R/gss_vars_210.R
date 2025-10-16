@@ -8,19 +8,16 @@
 #' 
 #' @section Values: 
 #' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * 
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1982/vshow).
 #'
@@ -64,13 +61,6 @@
 #'  |2022  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |3544                       |3544  |
 #'  |2024  |-     |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |-   |3309                       |3309  |
 #'  |Total |67892 |13 |1  |20 |3  |1  |7  |3  |1  |3  |5  |8  |19 |5  |6  |3  |83 |72 |2          |67        |632 |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -92,19 +82,16 @@ NULL
 #' 
 #' @section Values: 
 #' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * 
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1983/vshow).
 #'
@@ -148,13 +135,6 @@ NULL
 #'  |2022  |-     |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-   |-   |3544                       |3544  |
 #'  |2024  |-     |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-   |-   |3309                       |3309  |
 #'  |Total |67376 |27  |11  |1   |3   |54  |9   |2   |5   |74  |11  |1   |2   |1   |3   |60  |5   |2   |123 |54  |27  |40  |15  |1   |3   |269 |12  |1   |1   |1   |5   |12  |6   |89  |314       |1   |225 |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -176,19 +156,16 @@ NULL
 #' 
 #' @section Values: 
 #' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * 
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1984/vshow).
 #'
@@ -232,13 +209,6 @@ NULL
 #'  |2022  |-     |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-   |-   |-   |-   |-   |-   |-   |-   |3544                       |3544  |
 #'  |2024  |-     |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-   |-   |-   |-   |-   |-   |-   |-   |3309                       |3309  |
 #'  |Total |67847 |17  |4   |34  |2   |8   |2   |58  |5   |4   |43  |1   |2   |37  |1   |5   |5   |13  |9   |2   |4   |58  |2   |1   |1   |1   |1   |8   |3   |79        |2   |1   |1   |1   |3   |63  |16  |502 |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -260,19 +230,16 @@ NULL
 #' 
 #' @section Values: 
 #' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * 
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1985/vshow).
 #'
@@ -316,13 +283,6 @@ NULL
 #'  |2022  |-     |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-   |-   |-   |-   |-   |3544                       |3544  |
 #'  |2024  |-     |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-         |-   |-   |-   |-   |-   |3309                       |3309  |
 #'  |Total |67980 |12  |2   |2   |12  |2   |6   |5   |21  |3   |1   |3   |14  |2   |10  |2   |4   |5   |3   |16  |1   |2   |3   |3   |76        |1   |1   |22  |4   |628 |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -433,19 +393,17 @@ NULL
 #'   * `88` 88: no problem, mary, white, college
 #'   * `89` 89: no problem, mary, african american, college
 #'   * `90` 90: no problem, mary, hispanic, college
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2018 |B/C/-   |partial      |
+#'  |2024 |A/B/-   |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1986/vshow).
 #'
@@ -489,15 +447,6 @@ NULL
 #'  |2022  |-     |-                                                 |-                                                            |-                                                    |-                                                |-                                                           |-                                                   |-                                            |-                                                       |-                                               |-                                               |-                                                 |-                                                          |-                                                  |-                                              |-                                                         |-                                                 |-                                          |-                                                     |-                                             |-                                               |-                                                          |-                                                            |-                                                  |-                                              |-                                                         |-                                                 |-                                          |-                                                     |-                                             |-                                            |-                                                       |-                                               |-                                                    |-                                           |-                                                      |-                                              |-                                       |-                                                  |-                                          |-                                            |-                                                       |-                                               |-                                           |-                                                |-                                                      |-                                              |-                                       |-                                                  |-                                          |-                                           |-                                                      |-                                              |-                                          |-                                                     |-                                                           |-                                             |-                                      |-                                                 |-                                         |-                                           |-                                                      |-                                              |-                                          |-                                                     |-                                             |-                                                   |-                                      |-                                                 |-                                         |-                                         |-                                                    |-                                            |-                                        |-                                                   |-                                           |-                                    |-                                            |-                                               |-                                       |-                                         |-                                                    |-                                            |-                                        |-                                                   |-                                           |-                                    |-                                               |-                                                       |-                                       |-                                               |3544                       |3544  |
 #'  |2024  |1670  |18                                                |14                                                           |15                                                   |15                                               |16                                                          |16                                                  |17                                           |12                                                      |20                                              |23                                              |19                                                |17                                                         |14                                                 |21                                             |18                                                        |15                                                |21                                         |15                                                    |13                                            |26                                              |10                                                         |28                                                           |19                                                 |15                                             |28                                                        |21                                                |10                                         |17                                                    |19                                            |22                                           |17                                                      |19                                              |16                                                   |16                                          |19                                                     |17                                             |13                                      |13                                                 |15                                         |23                                           |21                                                      |19                                              |18                                          |24                                               |26                                                     |21                                             |28                                      |17                                                 |16                                         |20                                          |20                                                     |21                                             |25                                         |19                                                    |14                                                          |21                                            |15                                     |21                                                |18                                        |10                                          |21                                                     |21                                             |20                                         |15                                                    |14                                            |23                                                  |14                                     |16                                                |20                                        |14                                        |22                                                   |13                                           |17                                       |18                                                  |18                                          |27                                   |17                                           |15                                              |21                                      |21                                        |15                                                   |18                                           |15                                       |15                                                  |19                                          |24                                   |16                                              |14                                                      |15                                      |25                                              |-                          |3309  |
 #'  |Total |66376 |72                                                |68                                                           |71                                                   |61                                               |58                                                          |58                                                  |74                                           |61                                                      |74                                              |70                                              |68                                                |67                                                         |63                                                 |73                                             |74                                                        |64                                                |77                                         |73                                                    |67                                            |77                                              |67                                                         |78                                                           |65                                                 |65                                             |84                                                        |68                                                |76                                         |66                                                    |74                                            |75                                           |69                                                      |72                                              |63                                                   |64                                          |69                                                     |69                                             |60                                      |58                                                 |56                                         |72                                           |73                                                      |71                                              |59                                          |84                                               |70                                                     |75                                             |82                                      |72                                                 |77                                         |49                                          |44                                                     |41                                             |51                                         |48                                                    |62                                                          |55                                            |46                                     |48                                                |51                                        |36                                          |52                                                     |53                                             |46                                         |47                                                    |43                                            |81                                                  |42                                     |50                                                |48                                        |66                                        |64                                                   |54                                           |74                                       |74                                                  |62                                          |76                                   |70                                           |58                                              |65                                      |71                                        |66                                                   |74                                           |57                                       |57                                                  |68                                          |71                                   |61                                              |58                                                      |69                                      |68                                              |3544                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2018 |B/C/-   |partial      |
-#'  |2024 |A/B/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -522,19 +471,17 @@ NULL
 #'   * `2` somewhat serious
 #'   * `3` not very serious
 #'   * `4` not at all serious
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2018 |B/C/-   |partial      |
+#'  |2024 |A/B/-   |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1987/vshow).
 #'
@@ -578,15 +525,6 @@ NULL
 #'  |2022  |-     |-          |-         |-                  |-                |-                |-            |3544                       |-              |3544  |
 #'  |2024  |1690  |8          |9         |71                 |190              |400              |928          |-                          |13             |3309  |
 #'  |Total |66482 |34         |66        |223                |640              |1322             |3375         |3544                       |13             |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2018 |B/C/-   |partial      |
-#'  |2024 |A/B/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -612,19 +550,17 @@ NULL
 #'   * `2` somewhat likely
 #'   * `3` not very likely
 #'   * `4` not at all likely
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2018 |B/C/-   |partial      |
+#'  |2024 |A/B/-   |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1988/vshow).
 #'
@@ -668,15 +604,6 @@ NULL
 #'  |2022  |-     |-          |-         |-                 |-               |-               |-           |3544                       |-              |3544  |
 #'  |2024  |1691  |20         |9         |382               |582             |453             |155         |-                          |17             |3309  |
 #'  |Total |66483 |125        |69        |1308              |1840            |1563            |750         |3544                       |17             |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2018 |B/C/-   |partial      |
-#'  |2024 |A/B/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -702,19 +629,17 @@ NULL
 #'   * `2` somewhat likely
 #'   * `3` not very likely
 #'   * `4` not at all likely
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2018 |B/C/-   |partial      |
+#'  |2024 |A/B/-   |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1989/vshow).
 #'
@@ -758,15 +683,6 @@ NULL
 #'  |2022  |-     |-          |-         |-                 |-               |-               |-           |3544                       |-              |3544  |
 #'  |2024  |1691  |39         |8         |102               |300             |717             |432         |-                          |20             |3309  |
 #'  |Total |66483 |241        |66        |481               |1024            |2384            |1456        |3544                       |20             |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2018 |B/C/-   |partial      |
-#'  |2024 |A/B/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -792,19 +708,17 @@ NULL
 #'   * `2` somewhat likely
 #'   * `3` not very likely
 #'   * `4` not at all likely
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2018 |B/C/-   |partial      |
+#'  |2024 |A/B/-   |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1990/vshow).
 #'
@@ -848,15 +762,6 @@ NULL
 #'  |2022  |-     |-          |-         |-                 |-               |-               |-           |3544                       |-              |3544  |
 #'  |2024  |1691  |38         |10        |296               |508             |599             |146         |-                          |21             |3309  |
 #'  |Total |66483 |172        |72        |1030              |1691            |2144            |542         |3544                       |21             |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2018 |B/C/-   |partial      |
-#'  |2024 |A/B/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -882,19 +787,17 @@ NULL
 #'   * `2` somewhat likely
 #'   * `3` not very likely
 #'   * `4` not at all likely
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2018 |B/C/-   |partial      |
+#'  |2024 |A/B/-   |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1991/vshow).
 #'
@@ -938,15 +841,6 @@ NULL
 #'  |2022  |-     |-          |-         |-                 |-               |-               |-           |3544                       |-              |3544  |
 #'  |2024  |1691  |23         |10        |69                |154             |843             |499         |-                          |20             |3309  |
 #'  |Total |66483 |110        |69        |221               |442             |2861            |1949        |3544                       |20             |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2018 |B/C/-   |partial      |
-#'  |2024 |A/B/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health

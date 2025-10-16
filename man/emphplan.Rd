@@ -53,18 +53,14 @@ Question Name of Insurance or HMO.
 \item \code{36} ghi
 \item \code{87} christian brothers employee benefit trust
 \item \code{89} other
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2008 \tab A/B/C \tab full \cr
 }
 }
 
@@ -110,13 +106,6 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllll}{
    2022 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab 3544 \cr
    2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
    Total \tab 68194 \tab 1 \tab 49 \tab 2 \tab 22 \tab 2 \tab 34 \tab 215 \tab 12 \tab 38 \tab 6 \tab 1 \tab 29 \tab 4 \tab 3 \tab 2 \tab 2 \tab 3 \tab 3 \tab 6 \tab 2 \tab 3 \tab 3 \tab 15 \tab 22 \tab 5 \tab 7 \tab 2 \tab 8 \tab 60 \tab 17 \tab 2 \tab 2 \tab 2 \tab 2 \tab 2 \tab 2 \tab 48 \tab 8 \tab 1 \tab 5 \tab 6853 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2008 \tab A/B/C \tab full \cr
 }
 }
 

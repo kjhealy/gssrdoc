@@ -19,6 +19,15 @@ Question Randomization for form
 \itemize{
 \item 
 }
+\item 
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
 }
 }
 
@@ -64,14 +73,6 @@ Counts by year:\tabular{llllll}{
    2022 \tab - \tab - \tab - \tab 3544 \tab 3544 \cr
    2024 \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
    Total \tab 66223 \tab 1308 \tab 1315 \tab 6853 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
 }
 }
 

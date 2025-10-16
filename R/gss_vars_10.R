@@ -8,19 +8,48 @@
 #' @section Values: 
 #' 
 #'   * `89` 89 or older
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/53/vshow).
 #'
@@ -64,46 +93,6 @@
 #'  |2022  |22  |29  |48  |46   |46   |53   |45   |45   |58   |46   |57   |61   |60   |68   |76   |69   |61   |58   |69   |47   |57   |72   |62   |48   |67   |45   |55   |56   |52   |53   |46   |51   |40   |55   |47   |38   |50   |60   |56   |53   |44   |51   |75   |57   |60   |48   |50  |65   |67  |44   |68  |56  |67  |40  |54  |34  |43  |34  |31  |32  |26  |30  |22  |15  |15  |13  |21  |8   |5   |4   |19          |208       |11  |-          |-   |3544  |
 #'  |2024  |30  |34  |27  |28   |38   |33   |44   |42   |54   |43   |44   |41   |50   |58   |59   |58   |62   |50   |68   |71   |54   |70   |47   |55   |70   |56   |48   |56   |49   |50   |56   |54   |37   |36   |42   |48   |46   |71   |47   |42   |46   |49   |70   |51   |52   |54   |72  |62   |65  |70   |50  |64  |49  |54  |37  |47  |55  |36  |33  |38  |19  |24  |28  |11  |18  |16  |10  |15  |3   |3   |28          |101       |11  |-          |-   |3309  |
 #'  |Total |297 |938 |978 |1112 |1197 |1354 |1340 |1511 |1492 |1515 |1592 |1492 |1621 |1522 |1625 |1584 |1614 |1553 |1560 |1552 |1520 |1443 |1459 |1401 |1415 |1397 |1337 |1255 |1285 |1261 |1249 |1281 |1185 |1227 |1170 |1193 |1152 |1125 |1184 |1088 |1124 |1096 |1155 |1026 |1054 |1022 |926 |1014 |939 |1003 |927 |882 |906 |773 |759 |681 |760 |631 |605 |584 |510 |470 |417 |386 |330 |306 |278 |236 |161 |133 |437         |643       |222 |1          |226 |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-/- |full         |
-#'  |1973 |-/-/-/- |full         |
-#'  |1974 |-/-/-/- |full         |
-#'  |1975 |-/-/-/- |full         |
-#'  |1976 |-/-/-/- |full         |
-#'  |1977 |-/-/-/- |full         |
-#'  |1978 |-/-/-/- |full         |
-#'  |1980 |-/-/-/- |full         |
-#'  |1982 |-/-/-/- |full         |
-#'  |1983 |-/-/-/- |full         |
-#'  |1984 |-/-/-/- |full         |
-#'  |1985 |-/-/-/- |full         |
-#'  |1986 |-/-/-/- |full         |
-#'  |1987 |-/-/-/- |full         |
-#'  |1988 |A/B/C/- |full         |
-#'  |1989 |A/B/C/- |full         |
-#'  |1990 |A/B/C/- |full         |
-#'  |1991 |A/B/C/- |full         |
-#'  |1993 |A/B/C/- |full         |
-#'  |1994 |A/B/C/- |full         |
-#'  |1996 |A/B/C/- |full         |
-#'  |1998 |A/B/C/- |full         |
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
-#'  |2022 |A/B/C/- |full         |
-#'  |2024 |A/B/C/- |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -125,19 +114,30 @@ NULL
 #' 
 #' @section Values: 
 #' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * 
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/54/vshow).
 #'
@@ -181,27 +181,6 @@ NULL
 #'  |2022  |1107  |1  |2  |7  |24  |53  |97   |133  |168  |176  |207  |147  |131  |129  |145  |138  |122  |117  |91  |121  |46  |59  |52  |42  |45  |28  |24  |24  |22  |14  |9  |11 |2  |1  |1          |8         |2  |3  |-  |2  |-  |6  |-  |1  |1  |-  |-  |-  |-  |1  |-  |-  |-  |22             |1  |1  |-                             |3544  |
 #'  |2024  |-     |-  |-  |-  |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-          |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-  |-  |3309                          |3309  |
 #'  |Total |43220 |9  |42 |98 |263 |741 |1206 |1829 |2160 |2395 |2566 |1979 |1827 |1735 |1866 |1458 |1387 |1256 |992 |1188 |632 |698 |521 |395 |426 |268 |203 |185 |146 |123 |67 |62 |22 |4  |66         |198       |17 |16 |6  |7  |1  |26 |14 |3  |9  |4  |2  |1  |1  |4  |1  |3  |1  |39             |1  |1  |3309                          |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1994 |A/B/C   |full         |
-#'  |1996 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
-#'  |2000 |A/B/C   |full         |
-#'  |2002 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/B/C   |full         |
-#'  |2012 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
-#'  |2016 |A/B/C   |full         |
-#'  |2018 |A/B/C   |full         |
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
-#'  |2024 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -248,19 +227,48 @@ NULL
 #'   * `18` 6 years of college
 #'   * `19` 7 years of college
 #'   * `20` 8 or more years of college
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/55/vshow).
 #'
@@ -304,46 +312,6 @@ NULL
 #'  |2022  |268               |78         |116        |909        |1         |506                |4         |189                |8         |697                |6         |167                |6         |210                |23        |79                 |12        |148                        |37        |57        |20        |3                   |-          |3544  |
 #'  |2024  |283               |69         |104        |801        |1         |443                |3         |177                |5         |672                |3         |179                |4         |242                |23        |54                 |10        |138                        |26        |37        |7         |12                  |16         |3309  |
 #'  |Total |6188              |3079       |4046       |22202      |50        |8651               |161       |3484               |273       |10666              |329       |2571               |414       |3187               |889       |1166               |906       |1941                       |2812      |2209      |179       |189                 |107        |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-/- |full         |
-#'  |1973 |-/-/-/- |full         |
-#'  |1974 |-/-/-/- |full         |
-#'  |1975 |-/-/-/- |full         |
-#'  |1976 |-/-/-/- |full         |
-#'  |1977 |-/-/-/- |full         |
-#'  |1978 |-/-/-/- |full         |
-#'  |1980 |-/-/-/- |full         |
-#'  |1982 |-/-/-/- |full         |
-#'  |1983 |-/-/-/- |full         |
-#'  |1984 |-/-/-/- |full         |
-#'  |1985 |-/-/-/- |full         |
-#'  |1986 |-/-/-/- |full         |
-#'  |1987 |-/-/-/- |full         |
-#'  |1988 |A/B/C/- |full         |
-#'  |1989 |A/B/C/- |full         |
-#'  |1990 |A/B/C/- |full         |
-#'  |1991 |A/B/C/- |full         |
-#'  |1993 |A/B/C/- |full         |
-#'  |1994 |A/B/C/- |full         |
-#'  |1996 |A/B/C/- |full         |
-#'  |1998 |A/B/C/- |full         |
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
-#'  |2022 |A/B/C/- |full         |
-#'  |2024 |A/B/C/- |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -385,19 +353,48 @@ NULL
 #'   * `18` 6 years of college
 #'   * `19` 7 years of college
 #'   * `20` 8 or more years of college
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/56/vshow).
 #'
@@ -441,46 +438,6 @@ NULL
 #'  |2022  |60                |91         |62         |1007       |5         |186                |10        |36                 |34        |413                |27        |29                 |26        |119                |71        |27                 |31        |104                        |152       |65        |333        |609   |-         |47                  |-                             |3544  |
 #'  |2024  |-                 |-          |-          |-          |-         |-                  |-         |-                  |-         |-                  |-         |-                  |-         |-                  |-         |-                  |-         |-                          |-         |-         |-          |-     |-         |-                   |3309                          |3309  |
 #'  |Total |1501              |2269       |1554       |15406      |133       |3194               |404       |674                |1349      |5385               |1174      |536                |1152      |1387               |2630      |409                |1311      |1282                       |6760      |1646      |7776       |12734 |351       |1373                |3309                          |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-   |full         |
-#'  |1973 |-/-/-   |full         |
-#'  |1974 |-/-/-   |full         |
-#'  |1975 |-/-/-   |full         |
-#'  |1976 |-/-/-   |full         |
-#'  |1977 |-/-/-   |full         |
-#'  |1978 |-/-/-   |full         |
-#'  |1980 |-/-/-   |full         |
-#'  |1982 |-/-/-   |full         |
-#'  |1983 |-/-/-   |full         |
-#'  |1984 |-/-/-   |full         |
-#'  |1985 |-/-/-   |full         |
-#'  |1986 |-/-/-   |full         |
-#'  |1987 |-/-/-   |full         |
-#'  |1988 |A/B/C   |full         |
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
-#'  |1991 |A/B/C   |full         |
-#'  |1993 |A/B/C   |full         |
-#'  |1994 |A/B/C   |full         |
-#'  |1996 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
-#'  |2000 |A/B/C   |full         |
-#'  |2002 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/B/C   |full         |
-#'  |2012 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
-#'  |2016 |A/B/C   |full         |
-#'  |2018 |A/B/C   |full         |
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
-#'  |2024 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -522,19 +479,48 @@ NULL
 #'   * `18` 6 years of college
 #'   * `19` 7 years of college
 #'   * `20` 8 or more years of college
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/57/vshow).
 #'
@@ -578,46 +564,6 @@ NULL
 #'  |2022  |120               |118        |87         |1339       |2         |272                |7         |55                 |31        |470                |23        |40                 |13        |109                |81        |11                 |26        |120       |68        |326        |98   |-         |50                  |78                         |-                             |3544  |
 #'  |2024  |-                 |-          |-          |-          |-         |-                  |-         |-                  |-         |-                  |-         |-                  |-         |-                  |-         |-                  |-         |-         |-         |-          |-    |-         |-                   |-                          |3309                          |3309  |
 #'  |Total |2118              |3137       |2331       |22815      |100       |4566               |322       |957                |890       |5226               |928       |406                |1002      |1146               |2312      |165                |1267      |6883      |1928      |7077       |4246 |464       |1578                |526                        |3309                          |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-   |full         |
-#'  |1973 |-/-/-   |full         |
-#'  |1974 |-/-/-   |full         |
-#'  |1975 |-/-/-   |full         |
-#'  |1976 |-/-/-   |full         |
-#'  |1977 |-/-/-   |full         |
-#'  |1978 |-/-/-   |full         |
-#'  |1980 |-/-/-   |full         |
-#'  |1982 |-/-/-   |full         |
-#'  |1983 |-/-/-   |full         |
-#'  |1984 |-/-/-   |full         |
-#'  |1985 |-/-/-   |full         |
-#'  |1986 |-/-/-   |full         |
-#'  |1987 |-/-/-   |full         |
-#'  |1988 |A/B/C   |full         |
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
-#'  |1991 |A/B/C   |full         |
-#'  |1993 |A/B/C   |full         |
-#'  |1994 |A/B/C   |full         |
-#'  |1996 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
-#'  |2000 |A/B/C   |full         |
-#'  |2002 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/B/C   |full         |
-#'  |2012 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
-#'  |2016 |A/B/C   |full         |
-#'  |2018 |A/B/C   |full         |
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
-#'  |2024 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -659,19 +605,47 @@ NULL
 #'   * `18` 6 years of college
 #'   * `19` 7 years of college
 #'   * `20` 8 or more years of college
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/58/vshow).
 #'
@@ -715,45 +689,6 @@ NULL
 #'  |2022  |92                |18         |28         |380        |-         |166                |3         |67                 |2         |319                |2         |65                 |1         |125                |11        |40                 |2         |82                         |15        |13        |21         |2074  |14        |3                   |1              |3544  |
 #'  |2024  |63                |20         |19         |352        |-         |170                |-         |53                 |-         |343                |-         |67                 |4         |100                |12        |31                 |2         |67                         |15        |10        |17         |1957  |-         |7                   |-              |3309  |
 #'  |Total |2447              |1491       |1713       |12595      |21        |4031               |57        |1312               |137       |5767               |142       |1117               |195       |1698               |447       |555                |430       |1010                       |1504      |907       |343        |37485 |190       |100                 |5              |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-/- |full         |
-#'  |1973 |-/-/-/- |full         |
-#'  |1974 |-/-/-/- |full         |
-#'  |1975 |-/-/-/- |full         |
-#'  |1976 |-/-/-/- |full         |
-#'  |1977 |-/-/-/- |full         |
-#'  |1978 |-/-/-/- |full         |
-#'  |1980 |-/-/-/- |full         |
-#'  |1982 |-/-/-/- |full         |
-#'  |1983 |-/-/-/- |full         |
-#'  |1984 |-/-/-/- |full         |
-#'  |1985 |-/-/-/- |full         |
-#'  |1986 |-/-/-/- |full         |
-#'  |1987 |-/-/-/- |full         |
-#'  |1988 |A/B/C/- |full         |
-#'  |1989 |A/B/C/- |full         |
-#'  |1990 |A/B/C/- |full         |
-#'  |1991 |A/B/C/- |full         |
-#'  |1993 |A/B/C/- |full         |
-#'  |1994 |A/B/C/- |full         |
-#'  |1996 |A/B/C/- |full         |
-#'  |1998 |A/B/C/- |full         |
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
-#'  |2022 |A/B/C/- |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -795,19 +730,20 @@ NULL
 #'   * `18` 6 years of college
 #'   * `19` 7 years of college
 #'   * `20` 8 or more years of college
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6160/vshow).
 #'
@@ -851,18 +787,6 @@ NULL
 #'  |2022  |3234  |20                |10         |10         |103        |37                 |17                 |56                 |-         |11                 |12                 |1         |4                  |1         |2                          |3         |8         |5          |5         |1         |2                   |2         |3544  |
 #'  |2024  |3049  |21                |12         |7          |89         |27                 |8                  |51                 |-         |7                  |12                 |3         |-                  |1         |6                          |2         |4         |9          |-         |-         |1                   |-         |3309  |
 #'  |Total |73881 |126               |65         |84         |634        |198                |71                 |287                |6         |48                 |60                 |18        |16                 |11        |31                         |19        |37        |65         |32        |3         |5                   |2         |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
-#'  |2016 |A/B/C   |full         |
-#'  |2018 |A/B/C   |full         |
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
-#'  |2024 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -888,19 +812,20 @@ NULL
 #'   * `2` associate/junior college
 #'   * `3` bachelor's
 #'   * `4` graduate
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/6161/vshow).
 #'
@@ -944,18 +869,6 @@ NULL
 #'  |2022  |3234  |28                       |55         |5          |24       |154         |44                    |-         |-              |3544  |
 #'  |2024  |3049  |19                       |51         |2          |19       |137         |32                    |-         |-              |3309  |
 #'  |Total |73881 |129                      |300        |39         |120      |966         |255                   |6         |3              |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
-#'  |2016 |A/B/C   |full         |
-#'  |2018 |A/B/C   |full         |
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
-#'  |2024 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -981,19 +894,48 @@ NULL
 #'   * `2` associate/junior college
 #'   * `3` bachelor's
 #'   * `4` graduate
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/59/vshow).
 #'
@@ -1037,46 +979,6 @@ NULL
 #'  |2022  |317                      |737        |477      |1654        |359                   |-         |-          |-              |3544  |
 #'  |2024  |299                      |721        |474      |1506        |306                   |-         |3          |-              |3309  |
 #'  |Total |4654                     |11969      |6427     |37952       |14498                 |143       |47         |9              |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-/- |full         |
-#'  |1973 |-/-/-/- |full         |
-#'  |1974 |-/-/-/- |full         |
-#'  |1975 |-/-/-/- |full         |
-#'  |1976 |-/-/-/- |full         |
-#'  |1977 |-/-/-/- |full         |
-#'  |1978 |-/-/-/- |full         |
-#'  |1980 |-/-/-/- |full         |
-#'  |1982 |-/-/-/- |full         |
-#'  |1983 |-/-/-/- |full         |
-#'  |1984 |-/-/-/- |full         |
-#'  |1985 |-/-/-/- |full         |
-#'  |1986 |-/-/-/- |full         |
-#'  |1987 |-/-/-/- |full         |
-#'  |1988 |A/B/C/- |full         |
-#'  |1989 |A/B/C/- |full         |
-#'  |1990 |A/B/C/- |full         |
-#'  |1991 |A/B/C/- |full         |
-#'  |1993 |A/B/C/- |full         |
-#'  |1994 |A/B/C/- |full         |
-#'  |1996 |A/B/C/- |full         |
-#'  |1998 |A/B/C/- |full         |
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
-#'  |2022 |A/B/C/- |full         |
-#'  |2024 |A/B/C/- |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -1102,19 +1004,48 @@ NULL
 #'   * `2` associate/junior college
 #'   * `3` bachelor's
 #'   * `4` graduate
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/60/vshow).
 #'
@@ -1158,46 +1089,6 @@ NULL
 #'  |2022  |381        |333        |295      |1181        |597   |663                   |-         |93                       |1              |3544  |
 #'  |2024  |342        |50         |248      |1156        |617   |799                   |-         |97                       |-              |3309  |
 #'  |Total |5565       |4598       |3784     |21358       |13335 |25208                 |599       |1248                     |4              |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-   |full         |
-#'  |1973 |-/-/-   |full         |
-#'  |1974 |-/-/-   |full         |
-#'  |1975 |-/-/-   |full         |
-#'  |1976 |-/-/-   |full         |
-#'  |1977 |-/-/-   |full         |
-#'  |1978 |-/-/-   |full         |
-#'  |1980 |-/-/-   |full         |
-#'  |1982 |-/-/-   |full         |
-#'  |1983 |-/-/-   |full         |
-#'  |1984 |-/-/-   |full         |
-#'  |1985 |-/-/-   |full         |
-#'  |1986 |-/-/-   |full         |
-#'  |1987 |-/-/-   |full         |
-#'  |1988 |A/B/C   |full         |
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
-#'  |1991 |A/B/C   |full         |
-#'  |1993 |A/B/C   |full         |
-#'  |1994 |A/B/C   |full         |
-#'  |1996 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
-#'  |2000 |A/B/C   |full         |
-#'  |2002 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/B/C   |full         |
-#'  |2012 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
-#'  |2016 |A/B/C   |full         |
-#'  |2018 |A/B/C   |full         |
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
-#'  |2024 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core

@@ -12,19 +12,14 @@
 #'   * `2` somewhat likely
 #'   * `3` not very likely
 #'   * `4` not at all likely
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |D       |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3749/vshow).
 #'
@@ -68,12 +63,6 @@
 #'  |2022  |-     |-          |-         |-                 |-               |-               |-           |3544                       |3544  |
 #'  |2024  |-     |-          |-         |-                 |-               |-               |-           |3309                       |3309  |
 #'  |Total |67421 |18         |6         |225               |344             |600             |232         |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -99,19 +88,14 @@ NULL
 #'   * `2` somewhat likely
 #'   * `3` not very likely
 #'   * `4` not at all likely
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |D       |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3750/vshow).
 #'
@@ -155,12 +139,6 @@ NULL
 #'  |2022  |-     |-          |-         |-                 |-               |-               |-           |3544                       |3544  |
 #'  |2024  |-     |-          |-         |-                 |-               |-               |-           |3309                       |3309  |
 #'  |Total |67421 |22         |6         |199               |274             |493             |431         |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -186,19 +164,14 @@ NULL
 #'   * `2` somewhat likely
 #'   * `3` not very likely
 #'   * `4` not at all likely
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |D       |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3751/vshow).
 #'
@@ -242,12 +215,6 @@ NULL
 #'  |2022  |-     |-          |-         |-                 |-               |-               |-           |3544                       |3544  |
 #'  |2024  |-     |-          |-         |-                 |-               |-               |-           |3309                       |3309  |
 #'  |Total |67421 |26         |6         |98                |232             |718             |345         |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -273,19 +240,14 @@ NULL
 #'   * `2` probably willing
 #'   * `3` probably unwilling
 #'   * `4` definitely unwilling
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |D       |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3752/vshow).
 #'
@@ -329,12 +291,6 @@ NULL
 #'  |2022  |-     |-                    |-                  |-          |-         |-                  |-                |3544                       |3544  |
 #'  |2024  |-     |-                    |-                  |-          |-         |-                  |-                |3309                       |3309  |
 #'  |Total |67421 |58                   |473                |20         |8         |175                |691              |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -360,19 +316,14 @@ NULL
 #'   * `2` probably willing
 #'   * `3` probably unwilling
 #'   * `4` definitely unwilling
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |D       |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3753/vshow).
 #'
@@ -416,12 +367,6 @@ NULL
 #'  |2022  |-     |-                    |-                  |-          |-         |-                  |-                |3544                       |3544  |
 #'  |2024  |-     |-                    |-                  |-          |-         |-                  |-                |3309                       |3309  |
 #'  |Total |67421 |64                   |370                |21         |6         |260                |704              |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -447,19 +392,14 @@ NULL
 #'   * `2` probably willing
 #'   * `3` probably unwilling
 #'   * `4` definitely unwilling
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |D       |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3754/vshow).
 #'
@@ -503,12 +443,6 @@ NULL
 #'  |2022  |-     |-                    |-                  |-          |-         |-                  |-                |3544                       |3544  |
 #'  |2024  |-     |-                    |-                  |-          |-         |-                  |-                |3309                       |3309  |
 #'  |Total |67421 |654                  |86                 |32         |7         |430                |216              |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -534,19 +468,14 @@ NULL
 #'   * `2` probably willing
 #'   * `3` probably unwilling
 #'   * `4` definitely unwilling
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |D       |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3755/vshow).
 #'
@@ -590,12 +519,6 @@ NULL
 #'  |2022  |-     |-                    |-                  |-          |-         |-                  |-                |3544                       |3544  |
 #'  |2024  |-     |-                    |-                  |-          |-         |-                  |-                |3309                       |3309  |
 #'  |Total |67421 |55                   |410                |18         |6         |160                |776              |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -621,19 +544,14 @@ NULL
 #'   * `2` probably willing
 #'   * `3` probably unwilling
 #'   * `4` definitely unwilling
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |D       |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3756/vshow).
 #'
@@ -677,12 +595,6 @@ NULL
 #'  |2022  |-     |-                    |-                  |-          |-         |-                  |-                |3544                       |3544  |
 #'  |2024  |-     |-                    |-                  |-          |-         |-                  |-                |3309                       |3309  |
 #'  |Total |67421 |142                  |310                |24         |6         |342                |601              |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -708,19 +620,14 @@ NULL
 #'   * `2` probably willing
 #'   * `3` probably unwilling
 #'   * `4` definitely unwilling
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |D       |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3757/vshow).
 #'
@@ -764,12 +671,6 @@ NULL
 #'  |2022  |-     |-                    |-                  |-          |-         |-                  |-                |3544                       |3544  |
 #'  |2024  |-     |-                    |-                  |-          |-         |-                  |-                |3309                       |3309  |
 #'  |Total |67421 |330                  |166                |65         |10        |409                |445              |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -794,19 +695,14 @@ NULL
 #'   * `2` somewhat likely
 #'   * `3` not very likely
 #'   * `4` not at all likely
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2006 |D       |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3758/vshow).
 #'
@@ -850,12 +746,6 @@ NULL
 #'  |2022  |-     |-          |-         |-                 |-               |-               |-           |3544                       |3544  |
 #'  |2024  |-     |-          |-         |-                 |-               |-               |-           |3309                       |3309  |
 #'  |Total |67421 |20         |7         |432               |651             |259             |56          |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2006 |D       |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV

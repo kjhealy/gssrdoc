@@ -18,19 +18,26 @@
 #'   * `7` -3
 #'   * `8` -4
 #'   * `9` -5
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5491/vshow).
 #'
@@ -74,24 +81,6 @@
 #'  |2022  |3544                       |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-           |3544  |
 #'  |2024  |3309                       |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-           |3309  |
 #'  |Total |54227                      |2898 |2298 |3046 |1424 |1246 |1419 |806 |833 |549 |1045 |5908        |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1974 |-/-     |full         |
-#'  |1975 |-/-     |full         |
-#'  |1977 |-/-     |full         |
-#'  |1982 |-/-     |full         |
-#'  |1983 |-/-     |full         |
-#'  |1985 |-/-     |full         |
-#'  |1986 |-/-     |full         |
-#'  |1988 |A/B     |partial      |
-#'  |1989 |A/B     |partial      |
-#'  |1990 |A/B     |partial      |
-#'  |1991 |A/B     |partial      |
-#'  |1993 |A/B     |partial      |
-#'  |1994 |A/B     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
@@ -124,19 +113,19 @@ NULL
 #'   * `7` -3
 #'   * `8` -4
 #'   * `9` -5
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-       |full         |
+#'  |1975 |-       |full         |
+#'  |1977 |-       |full         |
+#'  |1982 |-       |full         |
+#'  |1983 |-       |full         |
+#'  |1985 |-       |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5492/vshow).
 #'
@@ -180,17 +169,6 @@ NULL
 #'  |2022  |3544                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |3544  |
 #'  |2024  |3309                       |-    |-    |-    |-    |-    |-   |-   |-   |-  |-   |-           |3309  |
 #'  |Total |66202                      |1049 |1163 |1991 |1573 |1604 |300 |151 |145 |82 |138 |1301        |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1974 |-       |full         |
-#'  |1975 |-       |full         |
-#'  |1977 |-       |full         |
-#'  |1982 |-       |full         |
-#'  |1983 |-       |full         |
-#'  |1985 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
@@ -223,19 +201,26 @@ NULL
 #'   * `7` -3
 #'   * `8` -4
 #'   * `9` -5
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5493/vshow).
 #'
@@ -279,24 +264,6 @@ NULL
 #'  |2022  |3544                       |-    |-    |-    |-    |-    |-   |-   |-  |-  |-   |-           |3544  |
 #'  |2024  |3309                       |-    |-    |-    |-    |-    |-   |-   |-  |-  |-   |-           |3309  |
 #'  |Total |54227                      |1196 |1353 |2809 |3502 |6272 |224 |120 |98 |50 |118 |5730        |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1974 |-/-     |full         |
-#'  |1975 |-/-     |full         |
-#'  |1977 |-/-     |full         |
-#'  |1982 |-/-     |full         |
-#'  |1983 |-/-     |full         |
-#'  |1985 |-/-     |full         |
-#'  |1986 |-/-     |full         |
-#'  |1988 |A/B     |partial      |
-#'  |1989 |A/B     |partial      |
-#'  |1990 |A/B     |partial      |
-#'  |1991 |A/B     |partial      |
-#'  |1993 |A/B     |partial      |
-#'  |1994 |A/B     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
@@ -329,19 +296,19 @@ NULL
 #'   * `7` -3
 #'   * `8` -4
 #'   * `9` -5
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-       |full         |
+#'  |1975 |-       |full         |
+#'  |1977 |-       |full         |
+#'  |1982 |-       |full         |
+#'  |1983 |-       |full         |
+#'  |1985 |-       |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5494/vshow).
 #'
@@ -385,17 +352,6 @@ NULL
 #'  |2022  |3544                       |-    |-    |-    |-   |-   |-   |-   |-   |-   |-   |-           |3544  |
 #'  |2024  |3309                       |-    |-    |-    |-   |-   |-   |-   |-   |-   |-   |-           |3309  |
 #'  |Total |66202                      |2107 |1227 |1162 |576 |481 |908 |386 |296 |150 |204 |2000        |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1974 |-       |full         |
-#'  |1975 |-       |full         |
-#'  |1977 |-       |full         |
-#'  |1982 |-       |full         |
-#'  |1983 |-       |full         |
-#'  |1985 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
@@ -428,19 +384,26 @@ NULL
 #'   * `7` -3
 #'   * `8` -4
 #'   * `9` -5
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5495/vshow).
 #'
@@ -484,24 +447,6 @@ NULL
 #'  |2022  |3544                       |-    |-    |-    |-   |-   |-    |-    |-    |-   |-    |-           |3544  |
 #'  |2024  |3309                       |-    |-    |-    |-   |-   |-    |-    |-    |-   |-    |-           |3309  |
 #'  |Total |54227                      |3344 |1885 |1699 |763 |684 |2212 |1220 |1127 |776 |1599 |6163        |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1974 |-/-     |full         |
-#'  |1975 |-/-     |full         |
-#'  |1977 |-/-     |full         |
-#'  |1982 |-/-     |full         |
-#'  |1983 |-/-     |full         |
-#'  |1985 |-/-     |full         |
-#'  |1986 |-/-     |full         |
-#'  |1988 |A/B     |partial      |
-#'  |1989 |A/B     |partial      |
-#'  |1990 |A/B     |partial      |
-#'  |1991 |A/B     |partial      |
-#'  |1993 |A/B     |partial      |
-#'  |1994 |A/B     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
@@ -534,19 +479,26 @@ NULL
 #'   * `7` -3
 #'   * `8` -4
 #'   * `9` -5
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5496/vshow).
 #'
@@ -590,24 +542,6 @@ NULL
 #'  |2022  |3544                       |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-           |3544  |
 #'  |2024  |3309                       |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-           |3309  |
 #'  |Total |54227                      |2945 |1861 |2086 |1311 |1773 |1785 |971 |875 |524 |1071 |6270        |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1974 |-/-     |full         |
-#'  |1975 |-/-     |full         |
-#'  |1977 |-/-     |full         |
-#'  |1982 |-/-     |full         |
-#'  |1983 |-/-     |full         |
-#'  |1985 |-/-     |full         |
-#'  |1986 |-/-     |full         |
-#'  |1988 |A/B     |partial      |
-#'  |1989 |A/B     |partial      |
-#'  |1990 |A/B     |partial      |
-#'  |1991 |A/B     |partial      |
-#'  |1993 |A/B     |partial      |
-#'  |1994 |A/B     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
@@ -640,19 +574,26 @@ NULL
 #'   * `7` -3
 #'   * `8` -4
 #'   * `9` -5
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5497/vshow).
 #'
@@ -696,24 +637,6 @@ NULL
 #'  |2022  |3544                       |-    |-    |-    |-   |-   |-    |-    |-   |-   |-   |-           |3544  |
 #'  |2024  |3309                       |-    |-    |-    |-   |-   |-    |-    |-   |-   |-   |-           |3309  |
 #'  |Total |54227                      |3823 |1953 |1841 |931 |819 |2135 |1046 |893 |510 |948 |6573        |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1974 |-/-     |full         |
-#'  |1975 |-/-     |full         |
-#'  |1977 |-/-     |full         |
-#'  |1982 |-/-     |full         |
-#'  |1983 |-/-     |full         |
-#'  |1985 |-/-     |full         |
-#'  |1986 |-/-     |full         |
-#'  |1988 |A/B     |partial      |
-#'  |1989 |A/B     |partial      |
-#'  |1990 |A/B     |partial      |
-#'  |1991 |A/B     |partial      |
-#'  |1993 |A/B     |partial      |
-#'  |1994 |A/B     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family War and International
@@ -741,19 +664,14 @@ NULL
 #'   * `2` agree
 #'   * `3` disagree
 #'   * `4` strongly disagree
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-       |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5498/vshow).
 #'
@@ -797,12 +715,6 @@ NULL
 #'  |2022  |-     |-     |-        |-          |-         |-              |-                 |3544                       |3544  |
 #'  |2024  |-     |-     |-        |-          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |67376 |753   |191      |17         |1         |481            |27                |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1986 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Welfare
@@ -830,19 +742,14 @@ NULL
 #'   * `2` agree
 #'   * `3` disagree
 #'   * `4` strongly disagree
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-       |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5499/vshow).
 #'
@@ -886,12 +793,6 @@ NULL
 #'  |2022  |-     |-     |-        |-          |-         |-              |-                 |3544                       |3544  |
 #'  |2024  |-     |-     |-        |-          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |67376 |1040  |193      |10         |2         |183            |42                |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1986 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Welfare
@@ -919,19 +820,14 @@ NULL
 #'   * `2` agree
 #'   * `3` disagree
 #'   * `4` strongly disagree
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1986 |-       |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5500/vshow).
 #'
@@ -975,12 +871,6 @@ NULL
 #'  |2022  |-     |-     |-        |-          |-         |-              |-                 |3544                       |3544  |
 #'  |2024  |-     |-     |-        |-          |-         |-              |-                 |3309                       |3309  |
 #'  |Total |67376 |572   |484      |39         |2         |305            |68                |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1986 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Welfare

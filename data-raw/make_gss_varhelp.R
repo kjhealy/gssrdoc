@@ -140,11 +140,25 @@ make_rd_describe <- function(value_labels) {
   o <- str_replace(o, "^(NA\\([a-z]\\)\\])", "[\\1")
   o <- str_replace(o, "^(\\d{1}e\\+05)", "[\\1")
   o <- str_squish(str_replace(o, "\\[(.*?)\\](.*)", "`\\1` \\2"))
-  items <- paste0(c("#'   * "), o, collapse = "\n")
+
+  o_items <- o[!str_detect(o, "`NA\\(")]
+  o_missings <- o[str_detect(o, "`NA\\(")]
+
+  main_items <- paste0(c("#'   * "), o_items, collapse = "\n")
+  missings <- paste0(
+    c("   * "),
+    paste0(o_missings, collapse = " / "),
+    collapse = "\n"
+  )
   o <- paste0(
     "\n#' \n#' @section Values: \n#' \n",
-    items,
+    main_items,
     "\n#'"
+  )
+  o <- paste0(
+    o,
+    missings,
+    "\n#' "
   )
   o
 }
@@ -246,9 +260,9 @@ make_rd_varname <- function(variable) {
 #   filter(variable %in% c("padeg", "polviews", "fefam", "vote16")) |>
 #   mutate(
 #     rd1 = pmap_chr(list(variable, label, var_text), make_rd_skel),
-#     rd2 = map2_chr(var_yrtab, norc_url, make_rd_yrfreq),
-#     rd3 = map_chr(value_labels, make_rd_describe),
-#     rd4 = map_chr(yrballot_df, make_rd_ballotinfo),
+#     rd2 = map_chr(value_labels, make_rd_describe),
+#     rd3 = map_chr(yrballot_df, make_rd_ballotinfo),
+#     rd4 = map2_chr(var_yrtab, norc_url, make_rd_yrfreq),
 #     rd4a = map_chr(
 #       module_df,
 #       with_empty_default(\(x) pmap_chr(x, make_rd_family))
@@ -291,8 +305,8 @@ docstring <- gss_doc_rd |>
   mutate(
     rd1 = pmap_chr(list(variable, label, var_text), make_rd_skel),
     rd2 = map_chr(value_labels, make_rd_describe),
-    rd3 = map2_chr(var_yrtab, norc_url, make_rd_yrfreq),
-    rd4 = map_chr(yrballot_df, make_rd_ballotinfo),
+    rd3 = map_chr(yrballot_df, make_rd_ballotinfo),
+    rd4 = map2_chr(var_yrtab, norc_url, make_rd_yrfreq),
     rd4a = map_chr(
       module_df,
       with_empty_default(\(x) pmap_chr(x, make_rd_family))

@@ -18,18 +18,24 @@ A. Hours per week?
 \itemize{
 \item \code{0} 0 hours
 \item \code{168} 168 hours
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
+   2002 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2010 \tab A/B/- \tab partial \cr
+   2012 \tab A/B/- \tab partial \cr
+   2014 \tab A/B/- \tab partial \cr
+   2016 \tab A/B/- \tab partial \cr
+   2018 \tab A/B/- \tab partial \cr
+   2021 \tab A/B/- \tab partial \cr
+   2022 \tab A/B/- \tab partial \cr
 }
 }
 
@@ -75,23 +81,6 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
    2022 \tab 1271 \tab 174 \tab 155 \tab 204 \tab 48 \tab 6 \tab 51 \tab 93 \tab 9 \tab 3 \tab 154 \tab 165 \tab 34 \tab 2 \tab 51 \tab 30 \tab 115 \tab 94 \tab 24 \tab 1 \tab 128 \tab 93 \tab 7 \tab 12 \tab 1 \tab 145 \tab 32 \tab 67 \tab 23 \tab 84 \tab 88 \tab 11 \tab 1 \tab 20 \tab 14 \tab 5 \tab 3 \tab - \tab 7 \tab 2 \tab 22 \tab - \tab 1 \tab 1 \tab 4 \tab - \tab 6 \tab 1 \tab 1 \tab 2 \tab 2 \tab 2 \tab 12 \tab 6 \tab 1 \tab 18 \tab 2 \tab 3 \tab 1 \tab - \tab - \tab - \tab - \tab 2 \tab - \tab 2 \tab - \tab - \tab 2 \tab 1 \tab 1 \tab - \tab 7 \tab 1 \tab - \tab - \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2 \tab 1 \tab 3 \tab 1 \tab 3 \tab 1 \tab 3 \tab - \tab 3544 \cr
    2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
    Total \tab 54497 \tab 1549 \tab 1941 \tab 1551 \tab 331 \tab 33 \tab 377 \tab 661 \tab 60 \tab 19 \tab 1797 \tab 1041 \tab 164 \tab 14 \tab 311 \tab 108 \tab 1193 \tab 499 \tab 147 \tab 20 \tab 931 \tab 413 \tab 23 \tab 49 \tab 3 \tab 1305 \tab 168 \tab 568 \tab 121 \tab 667 \tab 519 \tab 67 \tab 4 \tab 80 \tab 524 \tab 27 \tab 21 \tab 3 \tab 38 \tab 14 \tab 90 \tab 7 \tab 6 \tab 4 \tab 13 \tab 3 \tab 23 \tab 2 \tab 2 \tab 7 \tab 10 \tab 12 \tab 52 \tab 15 \tab 8 \tab 67 \tab 9 \tab 7 \tab 4 \tab 1 \tab 2 \tab 2 \tab 2 \tab 9 \tab 1 \tab 8 \tab 2 \tab 1 \tab 5 \tab 2 \tab 2 \tab 2 \tab 20 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 103 \tab 2 \tab 1 \tab 3 \tab 1 \tab 3 \tab 1 \tab 3 \tab 3309 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/- \tab partial \cr
-   2012 \tab A/B/- \tab partial \cr
-   2014 \tab A/B/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
-   2022 \tab A/B/- \tab partial \cr
 }
 }
 

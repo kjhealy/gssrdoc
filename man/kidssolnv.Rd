@@ -21,18 +21,16 @@ Question When your children are at the age you are now, do you think their stand
 \item \code{4} somewhat worse
 \item \code{5} much worse
 \item \code{6} no children (phone mode only; volunteered)
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2021 \tab B/C \tab partial \cr
+   2022 \tab B/C \tab partial \cr
+   2024 \tab B/C \tab partial \cr
 }
 }
 
@@ -78,15 +76,6 @@ Counts by year:\tabular{llllllllllll}{
    2022 \tab 2954 \tab 135 \tab - \tab 111 \tab 51 \tab - \tab - \tab 25 \tab 158 \tab 110 \tab 3544 \cr
    2024 \tab 2663 \tab 136 \tab 1 \tab 102 \tab 68 \tab - \tab 1 \tab 18 \tab 174 \tab 146 \tab 3309 \cr
    Total \tab 73150 \tab 602 \tab 7 \tab 474 \tab 194 \tab 1 \tab 11 \tab 86 \tab 696 \tab 478 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab B/C \tab partial \cr
-   2022 \tab B/C \tab partial \cr
-   2024 \tab B/C \tab partial \cr
 }
 }
 

@@ -21,18 +21,17 @@ A. I would rather be a citizen of America than of any other country in the world
 \item \code{3} neither agree nor disagree
 \item \code{4} disagree
 \item \code{5} strongly disagree
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} can't choose / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2024 \tab B/C/- \tab partial \cr
 }
 }
 
@@ -78,16 +77,6 @@ Counts by year:\tabular{llllllllllll}{
    2022 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab - \tab 3544 \cr
    2024 \tab 1661 \tab 368 \tab 55 \tab 102 \tab 292 \tab 2 \tab 773 \tab 41 \tab - \tab 15 \tab 3309 \cr
    Total \tab 66650 \tab 1143 \tab 102 \tab 198 \tab 590 \tab 21 \tab 3371 \tab 65 \tab 3544 \tab 15 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2024 \tab B/C/- \tab partial \cr
 }
 }
 

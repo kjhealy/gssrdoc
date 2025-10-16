@@ -20,18 +20,19 @@ Question Do you own any shares of stock in the company where you now work, eithe
 \item \code{3} no, my company has stock but i do not own any
 \item \code{4} no, i do not own and do not know if my company has stock
 \item \code{5} i do not know if i own stock in my company
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 
@@ -77,18 +78,6 @@ Counts by year:\tabular{llllllllllll}{
    2022 \tab 2950 \tab 14 \tab 36 \tab 3 \tab 112 \tab 228 \tab 77 \tab 121 \tab 3 \tab - \tab 3544 \cr
    2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
    Total \tab 66764 \tab 34 \tab 330 \tab 122 \tab 862 \tab 2356 \tab 761 \tab 1158 \tab 3 \tab 3309 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
 }
 }
 

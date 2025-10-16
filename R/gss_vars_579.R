@@ -10,19 +10,38 @@
 #' 
 #'   * `0` incorrect answer
 #'   * `1` correct answer
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/-   |partial      |
+#'  |1989 |A/B/-   |partial      |
+#'  |1990 |A/B/-   |partial      |
+#'  |1991 |A/B/-   |partial      |
+#'  |1993 |A/B/-   |partial      |
+#'  |1994 |A/B/-   |partial      |
+#'  |1996 |A/B/-   |partial      |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/-   |partial      |
+#'  |2010 |A/B/-   |partial      |
+#'  |2012 |A/B/-   |partial      |
+#'  |2014 |A/B/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'  |2022 |A/B/-   |partial      |
+#'  |2024 |A/B/-   |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5303/vshow).
 #'
@@ -66,6 +85,31 @@
 #'  |2022  |2378  |861            |261              |44        |-                          |3544  |
 #'  |2024  |2235  |805            |243              |26        |-                          |3309  |
 #'  |Total |36018 |25784          |7621             |2244      |4032                       |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Vocabulary
+#' @family Knowledge
+#' @family Vocabulary Test
+#' 
+#' @keywords variable
+#' @md
+#' @name wordi
+NULL
+
+
+#'  Word j
+#' 
+#'  wordj
+#' 
+#' Question We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters -- like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone -- just give me your best guess if you are not sure of the answer. CIRCLE ONE CODE NUMBER FOR EACH ITEM BELOW.
+#' J. Word J
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` incorrect answer
+#'   * `1` correct answer
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -96,43 +140,7 @@
 #'  |2018 |A/B/-   |partial      |
 #'  |2022 |A/B/-   |partial      |
 #'  |2024 |A/B/-   |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Vocabulary
-#' @family Knowledge
-#' @family Vocabulary Test
 #' 
-#' @keywords variable
-#' @md
-#' @name wordi
-NULL
-
-
-#'  Word j
-#' 
-#'  wordj
-#' 
-#' Question We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters -- like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone -- just give me your best guess if you are not sure of the answer. CIRCLE ONE CODE NUMBER FOR EACH ITEM BELOW.
-#' J. Word J
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `0` incorrect answer
-#'   * `1` correct answer
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5304/vshow).
 #'
@@ -176,6 +184,30 @@ NULL
 #'  |2022  |1179  |838            |1384             |143       |-                          |3544  |
 #'  |2024  |1126  |837            |1245             |101       |-                          |3309  |
 #'  |Total |33710 |9300           |24817            |3840      |4032                       |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Vocabulary
+#' @family Knowledge
+#' @family Vocabulary Test
+#' 
+#' @keywords variable
+#' @md
+#' @name wordj
+NULL
+
+
+#'  Number words correct in vocabulary test
+#' 
+#'  wordsum
+#' 
+#' Question We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters -- like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone -- just give me your best guess if you are not sure of the answer. CIRCLE ONE CODE NUMBER FOR EACH ITEM BELOW.
+#' K. Total number of correct words.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * 
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -206,41 +238,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #'  |2022 |A/B/-   |partial      |
 #'  |2024 |A/B/-   |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Vocabulary
-#' @family Knowledge
-#' @family Vocabulary Test
 #' 
-#' @keywords variable
-#' @md
-#' @name wordj
-NULL
-
-
-#'  Number words correct in vocabulary test
-#' 
-#'  wordsum
-#' 
-#' Question We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters -- like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone -- just give me your best guess if you are not sure of the answer. CIRCLE ONE CODE NUMBER FOR EACH ITEM BELOW.
-#' K. Total number of correct words.
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5305/vshow).
 #'
@@ -284,36 +282,6 @@ NULL
 #'  |2022  |1168  |13  |48  |146  |74   |111  |193  |305  |425  |358  |347  |281  |-          |-                          |75        |3544  |
 #'  |2024  |1126  |15  |50  |113  |55   |133  |178  |278  |380  |330  |333  |293  |-          |-                          |25        |3309  |
 #'  |Total |33699 |256 |685 |1927 |1165 |2158 |3639 |5868 |7815 |5779 |4103 |3014 |1459       |4032                       |100       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1974 |-/-/-   |full         |
-#'  |1976 |-/-/-   |full         |
-#'  |1978 |-/-/-   |full         |
-#'  |1982 |-/-/-   |full         |
-#'  |1984 |-/-/-   |full         |
-#'  |1987 |-/-/-   |full         |
-#'  |1988 |A/B/-   |partial      |
-#'  |1989 |A/B/-   |partial      |
-#'  |1990 |A/B/-   |partial      |
-#'  |1991 |A/B/-   |partial      |
-#'  |1993 |A/B/-   |partial      |
-#'  |1994 |A/B/-   |partial      |
-#'  |1996 |A/B/-   |partial      |
-#'  |1998 |A/B/C   |full         |
-#'  |2000 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2008 |A/B/-   |partial      |
-#'  |2010 |A/B/-   |partial      |
-#'  |2012 |A/B/-   |partial      |
-#'  |2014 |A/B/-   |partial      |
-#'  |2016 |A/B/-   |partial      |
-#'  |2018 |A/B/-   |partial      |
-#'  |2022 |A/B/-   |partial      |
-#'  |2024 |A/B/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Vocabulary
@@ -339,19 +307,15 @@ NULL
 #' 
 #'   * `1` yes
 #'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/C/-   |partial      |
+#'  |1998 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5306/vshow).
 #'
@@ -395,13 +359,6 @@ NULL
 #'  |2022  |-     |-    |-         |-   |3544                       |3544  |
 #'  |2024  |-     |-    |-         |-   |3309                       |3309  |
 #'  |Total |66450 |1937 |5         |454 |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/C/-   |partial      |
-#'  |1998 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religious Attendance and Identity
@@ -426,19 +383,15 @@ NULL
 #' 
 #'   * `1` yes
 #'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/C/-   |partial      |
+#'  |1998 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5307/vshow).
 #'
@@ -482,13 +435,6 @@ NULL
 #'  |2022  |-     |-   |-         |-    |-          |3544                       |3544  |
 #'  |2024  |-     |-   |-         |-    |-          |3309                       |3309  |
 #'  |Total |66450 |466 |6         |1923 |1          |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/C/-   |partial      |
-#'  |1998 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religious Attendance and Identity
@@ -513,19 +459,15 @@ NULL
 #' 
 #'   * `1` yes
 #'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/C/-   |partial      |
+#'  |1998 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5308/vshow).
 #'
@@ -569,13 +511,6 @@ NULL
 #'  |2022  |-     |-    |-         |-   |3544                       |3544  |
 #'  |2024  |-     |-    |-         |-   |3309                       |3309  |
 #'  |Total |66450 |2066 |6         |324 |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/C/-   |partial      |
-#'  |1998 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religious Attendance and Identity
@@ -600,19 +535,15 @@ NULL
 #' 
 #'   * `1` yes
 #'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/C/-   |partial      |
+#'  |1998 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5309/vshow).
 #'
@@ -656,13 +587,6 @@ NULL
 #'  |2022  |-     |-    |-         |-   |3544                       |3544  |
 #'  |2024  |-     |-    |-         |-   |3309                       |3309  |
 #'  |Total |66450 |1597 |5         |794 |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/C/-   |partial      |
-#'  |1998 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religious Attendance and Identity
@@ -684,19 +608,16 @@ NULL
 #' 
 #' @section Values: 
 #' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * 
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/C/-   |partial      |
+#'  |1998 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5310/vshow).
 #'
@@ -740,13 +661,6 @@ NULL
 #'  |2022  |-     |-  |-   |-   |-  |-  |-  |-  |-  |-         |3544                       |3544  |
 #'  |2024  |-     |-  |-   |-   |-  |-  |-  |-  |-  |-         |3309                       |3309  |
 #'  |Total |68047 |3  |521 |147 |45 |15 |4  |3  |12 |49        |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/C/-   |partial      |
-#'  |1998 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religious Attendance and Identity
@@ -769,19 +683,15 @@ NULL
 #' 
 #'   * `1` yes
 #'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/C/-   |partial      |
+#'  |1998 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5311/vshow).
 #'
@@ -825,13 +735,6 @@ NULL
 #'  |2022  |-     |-  |-         |-   |3544                       |3544  |
 #'  |2024  |-     |-  |-         |-   |3309                       |3309  |
 #'  |Total |68047 |61 |65        |673 |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/C/-   |partial      |
-#'  |1998 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religious Attendance and Identity
@@ -854,19 +757,15 @@ NULL
 #' 
 #'   * `1` yes
 #'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1996 |A/C/-   |partial      |
+#'  |1998 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5312/vshow).
 #'
@@ -910,13 +809,6 @@ NULL
 #'  |2022  |-     |-   |-         |-   |3544                       |3544  |
 #'  |2024  |-     |-   |-         |-   |3309                       |3309  |
 #'  |Total |68047 |574 |186       |39  |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1996 |A/C/-   |partial      |
-#'  |1998 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religious Attendance and Identity

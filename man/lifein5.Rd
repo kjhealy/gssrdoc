@@ -17,18 +17,15 @@ Question If you were asked to rate your overall life from 0-10, where 10 represe
 \itemize{
 \item \code{0} 0 - worst possible state
 \item \code{10} 10 - best possible state
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2018 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 
@@ -74,14 +71,6 @@ Counts by year:\tabular{llllllllllllllllll}{
    2022 \tab 1560 \tab - \tab 13 \tab 398 \tab 6 \tab 8 \tab 20 \tab 42 \tab 115 \tab 110 \tab 282 \tab 480 \tab 471 \tab 14 \tab 25 \tab - \tab 3544 \cr
    2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
    Total \tab 68958 \tab 1 \tab 16 \tab 769 \tab 11 \tab 23 \tab 40 \tab 95 \tab 163 \tab 266 \tab 641 \tab 838 \tab 494 \tab 50 \tab 25 \tab 3309 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
 }
 }
 

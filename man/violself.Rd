@@ -19,18 +19,15 @@ Question B. How likely in your opinion is it (John/Mary) would do something viol
 \item \code{2} somewhat likely
 \item \code{3} not very likely
 \item \code{4} not likely at all
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
+   2024 \tab A/C/- \tab partial \cr
 }
 }
 
@@ -76,14 +73,6 @@ Counts by year:\tabular{lllllllllll}{
    2022 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab - \tab 3544 \cr
    2024 \tab 1663 \tab 59 \tab 6 \tab 208 \tab 545 \tab 647 \tab 148 \tab - \tab 33 \tab 3309 \cr
    Total \tab 69116 \tab 111 \tab 18 \tab 532 \tab 1060 \tab 970 \tab 315 \tab 3544 \tab 33 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2024 \tab A/C/- \tab partial \cr
 }
 }
 

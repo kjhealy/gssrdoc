@@ -10,19 +10,16 @@
 #' 
 #'   * `1` remove
 #'   * `2` not remove
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-       |full         |
+#'  |1973 |-       |full         |
+#'  |1974 |-       |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/251/vshow).
 #'
@@ -66,14 +63,6 @@
 #'  |2022  |-          |-         |-          |-      |-     |3544                       |3544  |
 #'  |2024  |-          |-         |-          |-      |-     |3309                       |3309  |
 #'  |Total |240        |19        |3181       |1161   |64245 |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-       |full         |
-#'  |1973 |-       |full         |
-#'  |1974 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -96,19 +85,41 @@ NULL
 #' 
 #'   * `1` yes, allowed to speak
 #'   * `2` not allowed
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |A/C     |partial      |
+#'  |1989 |A/C     |partial      |
+#'  |1990 |A/C     |partial      |
+#'  |1991 |A/C     |partial      |
+#'  |1993 |A/C     |partial      |
+#'  |1994 |A/C     |partial      |
+#'  |1996 |A/C     |partial      |
+#'  |1998 |A/C     |partial      |
+#'  |2000 |A/C     |partial      |
+#'  |2002 |A/C     |partial      |
+#'  |2004 |A/C     |partial      |
+#'  |2006 |A/C     |partial      |
+#'  |2008 |A/C     |partial      |
+#'  |2010 |A/C     |partial      |
+#'  |2012 |A/C     |partial      |
+#'  |2014 |A/C     |partial      |
+#'  |2016 |A/C     |partial      |
+#'  |2018 |A/C     |partial      |
+#'  |2021 |A/C     |partial      |
+#'  |2022 |A/C     |partial      |
+#'  |2024 |A/C     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/252/vshow).
 #'
@@ -152,6 +163,29 @@ NULL
 #'  |2022  |2380  |12         |5         |558         |585                   |4              |3544  |
 #'  |2024  |2163  |11         |4         |574         |554                   |3              |3309  |
 #'  |Total |35287 |707        |136       |15779       |23775                 |15             |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Civil Liberties
+#' 
+#' @keywords variable
+#' @md
+#' @name spkrac
+NULL
+
+
+#'  Allow racist to teach
+#' 
+#'  colrac
+#' 
+#' Question Or consider a person who believes that Black people are genetically inferior....B. Should such a person be allowed to teach in a college or university, or not?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `4` yes, allowed to teach
+#'   * `5` not allowed
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -185,41 +219,7 @@ NULL
 #'  |2021 |A/C     |partial      |
 #'  |2022 |A/C     |partial      |
 #'  |2024 |A/C     |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Civil Liberties
 #' 
-#' @keywords variable
-#' @md
-#' @name spkrac
-NULL
-
-
-#'  Allow racist to teach
-#' 
-#'  colrac
-#' 
-#' Question Or consider a person who believes that Black people are genetically inferior....B. Should such a person be allowed to teach in a college or university, or not?
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `4` yes, allowed to teach
-#'   * `5` not allowed
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/253/vshow).
 #'
@@ -263,6 +263,29 @@ NULL
 #'  |2022  |1203  |34         |8         |1455        |838                   |6              |3544  |
 #'  |2024  |1067  |49         |5         |1407        |770                   |11             |3309  |
 #'  |Total |31657 |1290       |148       |23927       |18629                 |48             |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Civil Liberties
+#' 
+#' @keywords variable
+#' @md
+#' @name colrac
+NULL
+
+
+#'  Allow racists book in library
+#' 
+#'  librac
+#' 
+#' Question Or consider a person who believes that Black people are genetically inferior.C. If some people in your community suggested that a book he wrote which said Black people are inferior should be taken out of your public library, would you favor removing this book, or not?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` remove
+#'   * `2` not remove
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -296,41 +319,7 @@ NULL
 #'  |2021 |A/C     |partial      |
 #'  |2022 |A/C     |partial      |
 #'  |2024 |A/C     |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Civil Liberties
 #' 
-#' @keywords variable
-#' @md
-#' @name colrac
-NULL
-
-
-#'  Allow racists book in library
-#' 
-#'  librac
-#' 
-#' Question Or consider a person who believes that Black people are genetically inferior.C. If some people in your community suggested that a book he wrote which said Black people are inferior should be taken out of your public library, would you favor removing this book, or not?
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` remove
-#'   * `2` not remove
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/254/vshow).
 #'
@@ -374,11 +363,38 @@ NULL
 #'  |2022  |2380  |24         |4         |677        |455    |4              |3544  |
 #'  |2024  |2163  |18         |2         |678        |445    |3              |3309  |
 #'  |Total |35287 |1086       |132       |25266      |13907  |21             |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Civil Liberties
+#' 
+#' @keywords variable
+#' @md
+#' @name librac
+NULL
+
+
+#'  Allow communist to speak
+#' 
+#'  spkcom
+#' 
+#' Question Now, I should like to ask you some questions about a man who admits he is a Communist.
+#' A. Suppose this admitted Communist wanted to make a speech in your community. Should he be allowed to speak, or not?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes, allowed to speak
+#'   * `2` not allowed
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
 #'  |year |ballots |availability |
 #'  |:----|:-------|:------------|
+#'  |1972 |-/-     |full         |
+#'  |1973 |-/-     |full         |
+#'  |1974 |-/-     |full         |
 #'  |1976 |-/-     |full         |
 #'  |1977 |-/-     |full         |
 #'  |1980 |-/-     |full         |
@@ -407,42 +423,7 @@ NULL
 #'  |2021 |A/C     |partial      |
 #'  |2022 |A/C     |partial      |
 #'  |2024 |A/C     |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Civil Liberties
 #' 
-#' @keywords variable
-#' @md
-#' @name librac
-NULL
-
-
-#'  Allow communist to speak
-#' 
-#'  spkcom
-#' 
-#' Question Now, I should like to ask you some questions about a man who admits he is a Communist.
-#' A. Suppose this admitted Communist wanted to make a speech in your community. Should he be allowed to speak, or not?
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes, allowed to speak
-#'   * `2` not allowed
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/255/vshow).
 #'
@@ -486,6 +467,30 @@ NULL
 #'  |2022  |29         |6         |336         |789                   |2380  |4              |3544  |
 #'  |2024  |33         |1         |376         |731                   |2163  |5              |3309  |
 #'  |Total |1166       |121       |15426       |28281                 |30686 |19             |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Civil Liberties
+#' 
+#' @keywords variable
+#' @md
+#' @name spkcom
+NULL
+
+
+#'  Should communist teacher be fired
+#' 
+#'  colcom
+#' 
+#' Question Now, I should like to ask you some questions about a man who admits he is a Communist.
+#' B. Suppose he is teaching in a college. Should he be fired, or not?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `4` yes, fired
+#'   * `5` not fired
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -522,42 +527,7 @@ NULL
 #'  |2021 |A/C     |partial      |
 #'  |2022 |A/C     |partial      |
 #'  |2024 |A/C     |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Civil Liberties
 #' 
-#' @keywords variable
-#' @md
-#' @name spkcom
-NULL
-
-
-#'  Should communist teacher be fired
-#' 
-#'  colcom
-#' 
-#' Question Now, I should like to ask you some questions about a man who admits he is a Communist.
-#' B. Suppose he is teaching in a college. Should he be fired, or not?
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `4` yes, fired
-#'   * `5` not fired
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/256/vshow).
 #'
@@ -601,6 +571,30 @@ NULL
 #'  |2022  |50         |8         |719       |379        |2380  |8              |3544  |
 #'  |2024  |47         |-         |699       |392        |2163  |8              |3309  |
 #'  |Total |2440       |199       |23625     |18715      |30686 |34             |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Civil Liberties
+#' 
+#' @keywords variable
+#' @md
+#' @name colcom
+NULL
+
+
+#'  Allow communists book in library
+#' 
+#'  libcom
+#' 
+#' Question Now, I should like to ask you some questions about a man who admits he is a Communist. 
+#' C. Suppose he wrote a book which is in your public library. Somebody in your community suggests that the book should be removed from the library. Would you favor removing it, or not?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` remove
+#'   * `2` not remove
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -637,42 +631,7 @@ NULL
 #'  |2021 |A/C     |partial      |
 #'  |2022 |A/C     |partial      |
 #'  |2024 |A/C     |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Civil Liberties
 #' 
-#' @keywords variable
-#' @md
-#' @name colcom
-NULL
-
-
-#'  Allow communists book in library
-#' 
-#'  libcom
-#' 
-#' Question Now, I should like to ask you some questions about a man who admits he is a Communist. 
-#' C. Suppose he wrote a book which is in your public library. Somebody in your community suggests that the book should be removed from the library. Would you favor removing it, or not?
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` remove
-#'   * `2` not remove
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/257/vshow).
 #'
@@ -716,14 +675,35 @@ NULL
 #'  |2022  |35         |4         |810        |307    |2380  |8              |3544  |
 #'  |2024  |28         |-         |789        |324    |2163  |5              |3309  |
 #'  |Total |1464       |161       |28776      |14586  |30686 |26             |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Civil Liberties
+#' 
+#' @keywords variable
+#' @md
+#' @name libcom
+NULL
+
+
+#'  Allow militarist to speak
+#' 
+#'  spkmil
+#' 
+#' Question Consider a person who advocates doing away with elections and letting the military run the country.
+#' A. If such a person wanted to make a speech in your community, should he be allowed to speak, or not?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes, allowed to speak
+#'   * `2` not allowed
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
 #'  |year |ballots |availability |
 #'  |:----|:-------|:------------|
-#'  |1972 |-/-     |full         |
-#'  |1973 |-/-     |full         |
-#'  |1974 |-/-     |full         |
 #'  |1976 |-/-     |full         |
 #'  |1977 |-/-     |full         |
 #'  |1980 |-/-     |full         |
@@ -750,44 +730,7 @@ NULL
 #'  |2016 |A/C     |partial      |
 #'  |2018 |A/C     |partial      |
 #'  |2021 |A/C     |partial      |
-#'  |2022 |A/C     |partial      |
-#'  |2024 |A/C     |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Civil Liberties
 #' 
-#' @keywords variable
-#' @md
-#' @name libcom
-NULL
-
-
-#'  Allow militarist to speak
-#' 
-#'  spkmil
-#' 
-#' Question Consider a person who advocates doing away with elections and letting the military run the country.
-#' A. If such a person wanted to make a speech in your community, should he be allowed to speak, or not?
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes, allowed to speak
-#'   * `2` not allowed
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/258/vshow).
 #'
@@ -831,6 +774,30 @@ NULL
 #'  |2022  |-     |-          |-         |-           |-                     |-              |3544                       |3544  |
 #'  |2024  |-     |-          |-         |-           |-                     |-              |3309                       |3309  |
 #'  |Total |30744 |747        |93        |13681       |23564                 |17             |6853                       |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Civil Liberties
+#' 
+#' @keywords variable
+#' @md
+#' @name spkmil
+NULL
+
+
+#'  Allow militarist to teach
+#' 
+#'  colmil
+#' 
+#' Question Consider a person who advocates doing away with elections and letting the military run the country.
+#' B. Should such a person be allowed to teach in a college or university, or not?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `4` yes, allowed to teach
+#'   * `5` not allowed
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -862,42 +829,7 @@ NULL
 #'  |2016 |A/C     |partial      |
 #'  |2018 |A/C     |partial      |
 #'  |2021 |A/C     |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Civil Liberties
 #' 
-#' @keywords variable
-#' @md
-#' @name spkmil
-NULL
-
-
-#'  Allow militarist to teach
-#' 
-#'  colmil
-#' 
-#' Question Consider a person who advocates doing away with elections and letting the military run the country.
-#' B. Should such a person be allowed to teach in a college or university, or not?
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `4` yes, allowed to teach
-#'   * `5` not allowed
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/259/vshow).
 #'
@@ -941,6 +873,30 @@ NULL
 #'  |2022  |-     |-          |-         |-           |-                     |-              |3544                       |3544  |
 #'  |2024  |-     |-          |-         |-           |-                     |-              |3309                       |3309  |
 #'  |Total |29387 |1353       |132       |19498       |18444                 |32             |6853                       |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Civil Liberties
+#' 
+#' @keywords variable
+#' @md
+#' @name colmil
+NULL
+
+
+#'  Allow militarists book in library
+#' 
+#'  libmil
+#' 
+#' Question Consider a person who advocates doing away with elections and letting the military run the country.
+#' C. Suppose he wrote a book advocating doing away with elections and letting the military run the country. somebody in your community suggests that the book be removed from the public library. Would you favor removing it, or not?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` remove
+#'   * `2` not remove
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -972,42 +928,7 @@ NULL
 #'  |2016 |A/C     |partial      |
 #'  |2018 |A/C     |partial      |
 #'  |2021 |A/C     |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Civil Liberties
 #' 
-#' @keywords variable
-#' @md
-#' @name colmil
-NULL
-
-
-#'  Allow militarists book in library
-#' 
-#'  libmil
-#' 
-#' Question Consider a person who advocates doing away with elections and letting the military run the country.
-#' C. Suppose he wrote a book advocating doing away with elections and letting the military run the country. somebody in your community suggests that the book be removed from the public library. Would you favor removing it, or not?
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` remove
-#'   * `2` not remove
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/260/vshow).
 #'
@@ -1051,37 +972,6 @@ NULL
 #'  |2022  |-     |-          |-         |-          |-      |-              |3544                       |3544  |
 #'  |2024  |-     |-          |-         |-          |-      |-              |3309                       |3309  |
 #'  |Total |30744 |1065       |120       |24291      |12612  |14             |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1976 |-/-     |full         |
-#'  |1977 |-/-     |full         |
-#'  |1980 |-/-     |full         |
-#'  |1982 |-/-     |full         |
-#'  |1984 |-/-     |full         |
-#'  |1985 |-/-     |full         |
-#'  |1987 |-/-     |full         |
-#'  |1988 |A/C     |partial      |
-#'  |1989 |A/C     |partial      |
-#'  |1990 |A/C     |partial      |
-#'  |1991 |A/C     |partial      |
-#'  |1993 |A/C     |partial      |
-#'  |1994 |A/C     |partial      |
-#'  |1996 |A/C     |partial      |
-#'  |1998 |A/C     |partial      |
-#'  |2000 |A/C     |partial      |
-#'  |2002 |A/C     |partial      |
-#'  |2004 |A/C     |partial      |
-#'  |2006 |A/C     |partial      |
-#'  |2008 |A/C     |partial      |
-#'  |2010 |A/C     |partial      |
-#'  |2012 |A/C     |partial      |
-#'  |2014 |A/C     |partial      |
-#'  |2016 |A/C     |partial      |
-#'  |2018 |A/C     |partial      |
-#'  |2021 |A/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core

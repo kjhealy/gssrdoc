@@ -12,19 +12,46 @@
 #'   * `1` a great deal
 #'   * `2` only some
 #'   * `3` hardly any
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1973 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'  |1996 |B/C     |partial      |
+#'  |1998 |B/C     |partial      |
+#'  |2000 |B/C     |partial      |
+#'  |2002 |B/C     |partial      |
+#'  |2004 |B/C     |partial      |
+#'  |2006 |B/C     |partial      |
+#'  |2008 |B/C     |partial      |
+#'  |2010 |B/C     |partial      |
+#'  |2012 |B/C     |partial      |
+#'  |2014 |B/C     |partial      |
+#'  |2016 |B/C     |partial      |
+#'  |2018 |B/C     |partial      |
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'  |2024 |B/C     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/455/vshow).
 #'
@@ -68,6 +95,33 @@
 #'  |2022  |1173  |786          |7          |373        |4         |1196      |5              |3544  |
 #'  |2024  |1116  |569          |19         |428        |1         |1162      |14             |3309  |
 #'  |Total |24408 |22240        |486        |4950       |117       |23470     |28             |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Confidence
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name conmedic
+NULL
+
+
+#'  Confidence in television
+#' 
+#'  contv
+#' 
+#' Question I am going to name some institutions in this country. As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them?  
+#' READ EACH ITEM; CODE ONE FOR EACH.
+#' I. TV
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` a great deal
+#'   * `2` only some
+#'   * `3` hardly any
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -106,45 +160,7 @@
 #'  |2021 |B/C     |partial      |
 #'  |2022 |B/C     |partial      |
 #'  |2024 |B/C     |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Confidence
-#' @family Split Ballots
 #' 
-#' @keywords variable
-#' @md
-#' @name conmedic
-NULL
-
-
-#'  Confidence in television
-#' 
-#'  contv
-#' 
-#' Question I am going to name some institutions in this country. As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them?  
-#' READ EACH ITEM; CODE ONE FOR EACH.
-#' I. TV
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` a great deal
-#'   * `2` only some
-#'   * `3` hardly any
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/456/vshow).
 #'
@@ -188,6 +204,33 @@ NULL
 #'  |2022  |1173  |187          |28         |1074       |1         |1075      |6              |3544  |
 #'  |2024  |1116  |181          |31         |987        |-         |986       |8              |3309  |
 #'  |Total |24408 |6251         |683        |17815      |140       |26380     |22             |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Confidence
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name contv
+NULL
+
+
+#'  Confid. in united states supreme court
+#' 
+#'  conjudge
+#' 
+#' Question I am going to name some institutions in this country. As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them?  
+#' READ EACH ITEM; CODE ONE FOR EACH.
+#' J. U.S. Supreme Court
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` a great deal
+#'   * `2` only some
+#'   * `3` hardly any
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -226,45 +269,7 @@ NULL
 #'  |2021 |B/C     |partial      |
 #'  |2022 |B/C     |partial      |
 #'  |2024 |B/C     |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Confidence
-#' @family Split Ballots
 #' 
-#' @keywords variable
-#' @md
-#' @name contv
-NULL
-
-
-#'  Confid. in united states supreme court
-#' 
-#'  conjudge
-#' 
-#' Question I am going to name some institutions in this country. As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them?  
-#' READ EACH ITEM; CODE ONE FOR EACH.
-#' J. U.S. Supreme Court
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` a great deal
-#'   * `2` only some
-#'   * `3` hardly any
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/457/vshow).
 #'
@@ -308,6 +313,34 @@ NULL
 #'  |2022  |1173  |373          |29         |894        |9         |1060      |6              |3544  |
 #'  |2024  |1116  |360          |38         |850        |2         |935       |8              |3309  |
 #'  |Total |24409 |14858        |1810       |8783       |149       |25670     |20             |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Corenfidence
+#' @family Courts
+#' @family Federal Government
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name conjudge
+NULL
+
+
+#'  Confidence in scientific community
+#' 
+#'  consci
+#' 
+#' Question I am going to name some institutions in this country. As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them?  
+#' READ EACH ITEM; CODE ONE FOR EACH.
+#' K. Scientific Community
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` a great deal
+#'   * `2` only some
+#'   * `3` hardly any
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -346,46 +379,7 @@ NULL
 #'  |2021 |B/C     |partial      |
 #'  |2022 |B/C     |partial      |
 #'  |2024 |B/C     |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Corenfidence
-#' @family Courts
-#' @family Federal Government
-#' @family Split Ballots
 #' 
-#' @keywords variable
-#' @md
-#' @name conjudge
-NULL
-
-
-#'  Confidence in scientific community
-#' 
-#'  consci
-#' 
-#' Question I am going to name some institutions in this country. As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them?  
-#' READ EACH ITEM; CODE ONE FOR EACH.
-#' K. Scientific Community
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` a great deal
-#'   * `2` only some
-#'   * `3` hardly any
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/458/vshow).
 #'
@@ -429,6 +423,33 @@ NULL
 #'  |2022  |1173  |930          |51         |296        |3         |1088      |3              |3544  |
 #'  |2024  |1116  |756          |61         |276        |-         |1089      |11             |3309  |
 #'  |Total |24408 |20537        |3220       |3710       |170       |23626     |28             |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Confidence
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name consci
+NULL
+
+
+#'  Confidence in congress
+#' 
+#'  conlegis
+#' 
+#' Question I am going to name some institutions in this country. As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them?  
+#' READ EACH ITEM; CODE ONE FOR EACH.
+#' L. Congress
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` a great deal
+#'   * `2` only some
+#'   * `3` hardly any
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -467,45 +488,7 @@ NULL
 #'  |2021 |B/C     |partial      |
 #'  |2022 |B/C     |partial      |
 #'  |2024 |B/C     |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Confidence
-#' @family Split Ballots
 #' 
-#' @keywords variable
-#' @md
-#' @name consci
-NULL
-
-
-#'  Confidence in congress
-#' 
-#'  conlegis
-#' 
-#' Question I am going to name some institutions in this country. As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them?  
-#' READ EACH ITEM; CODE ONE FOR EACH.
-#' L. Congress
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` a great deal
-#'   * `2` only some
-#'   * `3` hardly any
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/459/vshow).
 #'
@@ -549,6 +532,34 @@ NULL
 #'  |2022  |1173  |112          |26         |1315       |6         |904       |8              |3544  |
 #'  |2024  |1116  |113          |31         |1183       |2         |852       |12             |3309  |
 #'  |Total |24408 |5551         |1271       |17569      |147       |26726     |27             |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Confidence
+#' @family Federal Government
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name conlegis
+NULL
+
+
+#'  Confidence in military
+#' 
+#'  conarmy
+#' 
+#' Question I am going to name some institutions in this country. As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them?  
+#' READ EACH ITEM; CODE ONE FOR EACH.
+#' M. Military
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` a great deal
+#'   * `2` only some
+#'   * `3` hardly any
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -587,46 +598,7 @@ NULL
 #'  |2021 |B/C     |partial      |
 #'  |2022 |B/C     |partial      |
 #'  |2024 |B/C     |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Confidence
-#' @family Federal Government
-#' @family Split Ballots
 #' 
-#' @keywords variable
-#' @md
-#' @name conlegis
-NULL
-
-
-#'  Confidence in military
-#' 
-#'  conarmy
-#' 
-#' Question I am going to name some institutions in this country. As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them?  
-#' READ EACH ITEM; CODE ONE FOR EACH.
-#' M. Military
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` a great deal
-#'   * `2` only some
-#'   * `3` hardly any
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/460/vshow).
 #'
@@ -670,44 +642,6 @@ NULL
 #'  |2022  |1173  |1039         |17         |294        |2         |1017      |2              |3544  |
 #'  |2024  |1116  |914          |25         |271        |1         |970       |12             |3309  |
 #'  |Total |24408 |20952        |1187       |5936       |120       |23069     |27             |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1973 |-/-     |full         |
-#'  |1974 |-/-     |full         |
-#'  |1975 |-/-     |full         |
-#'  |1976 |-/-     |full         |
-#'  |1977 |-/-     |full         |
-#'  |1978 |-/-     |full         |
-#'  |1980 |-/-     |full         |
-#'  |1982 |-/-     |full         |
-#'  |1983 |-/-     |full         |
-#'  |1984 |-/-     |full         |
-#'  |1986 |-/-     |full         |
-#'  |1987 |-/-     |full         |
-#'  |1988 |B/C     |partial      |
-#'  |1989 |B/C     |partial      |
-#'  |1990 |B/C     |partial      |
-#'  |1991 |B/C     |partial      |
-#'  |1993 |B/C     |partial      |
-#'  |1994 |B/C     |partial      |
-#'  |1996 |B/C     |partial      |
-#'  |1998 |B/C     |partial      |
-#'  |2000 |B/C     |partial      |
-#'  |2002 |B/C     |partial      |
-#'  |2004 |B/C     |partial      |
-#'  |2006 |B/C     |partial      |
-#'  |2008 |B/C     |partial      |
-#'  |2010 |B/C     |partial      |
-#'  |2012 |B/C     |partial      |
-#'  |2014 |B/C     |partial      |
-#'  |2016 |B/C     |partial      |
-#'  |2018 |B/C     |partial      |
-#'  |2021 |B/C     |partial      |
-#'  |2022 |B/C     |partial      |
-#'  |2024 |B/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -734,19 +668,14 @@ NULL
 #' 
 #'   * `1` complete confidence
 #'   * `7` no confidence
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-       |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/461/vshow).
 #'
@@ -790,12 +719,6 @@ NULL
 #'  |2022  |-     |-  |-  |-   |-  |-  |-                   |-          |-         |-             |3544                       |3544  |
 #'  |2024  |-     |-  |-  |-   |-  |-  |-                   |-          |-         |-             |3309                       |3309  |
 #'  |Total |68362 |92 |98 |112 |39 |32 |63                  |9          |8         |31            |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -823,19 +746,14 @@ NULL
 #' 
 #'   * `1` complete confidence
 #'   * `7` no confidence
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-       |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/462/vshow).
 #'
@@ -879,12 +797,6 @@ NULL
 #'  |2022  |-     |-  |-   |-   |-  |-  |-                   |-          |-         |-             |3544                       |3544  |
 #'  |2024  |-     |-  |-   |-   |-  |-  |-                   |-          |-         |-             |3309                       |3309  |
 #'  |Total |68362 |76 |102 |142 |55 |16 |52                  |20         |6         |15            |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -911,19 +823,14 @@ NULL
 #' 
 #'   * `1` complete confidence
 #'   * `7` no confidence
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-       |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/463/vshow).
 #'
@@ -967,12 +874,6 @@ NULL
 #'  |2022  |-     |-  |-  |-  |-  |-  |-                   |-          |-         |-             |3544                       |3544  |
 #'  |2024  |-     |-  |-  |-  |-  |-  |-                   |-          |-         |-             |3309                       |3309  |
 #'  |Total |68362 |80 |82 |93 |49 |41 |83                  |13         |7         |36            |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -999,19 +900,14 @@ NULL
 #' 
 #'   * `1` complete confidence
 #'   * `7` no confidence
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-       |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/464/vshow).
 #'
@@ -1055,12 +951,6 @@ NULL
 #'  |2022  |-     |-  |-  |-  |-  |-  |-                   |-          |-         |-             |3544                       |3544  |
 #'  |2024  |-     |-  |-  |-  |-  |-  |-                   |-          |-         |-             |3309                       |3309  |
 #'  |Total |68362 |81 |92 |98 |81 |55 |42                  |6          |6         |23            |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core

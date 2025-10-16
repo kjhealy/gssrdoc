@@ -4,3 +4,4 @@
 - The complete text of each question is now included. 
 - New table showing the years and ballots the question was asked. 
 - The "See Also" section of the help now incorporates the GSS's own cross-referencing for survey modules and subjects.
+- More compact representation of missing value codes in the Values section.

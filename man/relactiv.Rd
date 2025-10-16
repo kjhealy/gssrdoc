@@ -26,18 +26,25 @@ Question How often do you take part in the activities and organizations of a chu
 \item \code{9} several times a week
 \item \code{10} once a day
 \item \code{11} several times a day
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1991 \tab A/B/C \tab full \cr
+   1998 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2021 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
+   2024 \tab A/B/C \tab full \cr
 }
 }
 
@@ -83,24 +90,6 @@ Counts by year:\tabular{lllllllllllllllll}{
    2022 \tab - \tab 145 \tab 164 \tab 438 \tab 207 \tab 413 \tab 85 \tab 1635 \tab 21 \tab 10 \tab 365 \tab 16 \tab 28 \tab - \tab 17 \tab 3544 \cr
    2024 \tab - \tab 129 \tab 146 \tab 414 \tab 217 \tab 380 \tab 94 \tab 1438 \tab 9 \tab 22 \tab 396 \tab 19 \tab 21 \tab - \tab 24 \tab 3309 \cr
    Total \tab 45385 \tab 1579 \tab 1648 \tab 3899 \tab 2101 \tab 2946 \tab 858 \tab 13150 \tab 226 \tab 287 \tab 3279 \tab 86 \tab 174 \tab 8 \tab 73 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1991 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
 }
 }
 

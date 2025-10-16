@@ -21,19 +21,44 @@
 #'   * `2` traveling
 #'   * `3` institution
 #'   * `4` other, don't know
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5343/vshow).
 #'
@@ -77,42 +102,6 @@
 #'  |2022  |3494  |19                |22        |-                 |-         |6           |-                          |3          |-                             |3544  |
 #'  |2024  |-     |-                 |-         |-                 |-         |-           |-                          |-          |3309                          |3309  |
 #'  |Total |67815 |267               |126       |30                |32        |85          |4032                       |3          |3309                          |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1975 |-/-/-/- |full         |
-#'  |1976 |-/-/-/- |full         |
-#'  |1977 |-/-/-/- |full         |
-#'  |1978 |-/-/-/- |full         |
-#'  |1980 |-/-/-/- |full         |
-#'  |1982 |-/-/-/- |full         |
-#'  |1983 |-/-/-/- |full         |
-#'  |1984 |-/-/-/- |full         |
-#'  |1985 |-/-/-/- |full         |
-#'  |1986 |-/-/-/- |full         |
-#'  |1987 |-/-/-/- |full         |
-#'  |1988 |A/B/C/- |full         |
-#'  |1989 |A/B/C/- |full         |
-#'  |1990 |A/B/C/- |full         |
-#'  |1991 |A/B/C/- |full         |
-#'  |1993 |A/B/C/- |full         |
-#'  |1994 |A/B/C/- |full         |
-#'  |1996 |A/B/C/- |full         |
-#'  |1998 |A/B/C/- |full         |
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
-#'  |2022 |A/B/C/- |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
@@ -152,19 +141,44 @@ NULL
 #'   * `6` parent/parent-in-law
 #'   * `7` other relative
 #'   * `8` non-relative
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5344/vshow).
 #'
@@ -208,6 +222,42 @@ NULL
 #'  |2022  |2985  |447                            |11                     |32           |31             |27                   |7                    |-      |3         |-                 |1              |-                             |3544  |
 #'  |2024  |-     |-                              |-                      |-            |-              |-                    |-                    |-      |-         |-                 |-              |3309                          |3309  |
 #'  |Total |45590 |22810                          |626                    |1246         |833            |567                  |185                  |129    |381       |5                 |18             |3309                          |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Household Members and Structure
+#' @family Cohabitation
+#' @family Family
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name relate3
+NULL
+
+
+#'  Gender of 3rd person
+#' 
+#'  gender3
+#' 
+#' Question Please tell me the names of the people who usually live in this household. Let's start with the head of the household. (LIST ON LINES 01-10 BELOW.)
+#' Have we forgotten anyone: such as babies or small children; roomers; people who usually live here, but are away temporarily--on business trips, vacations, at school, temporarily in a hospital, and so on? (LIST ADDITIONAL PERSONS ON LINES 01-10 BELOW.) 
+#' Are there any people currently staying here--visitors, friends or relatives--do not usually live here? (LIST VISITORS ON LINES 11-14 BELOW.)
+#' A. What is that (PERSON'S) relationship to the HEAD OF HOUSEHOLD?
+#' B. Code sex. (ASK IF NOT OBVIOUS).
+#' C. How old was (HEAD/PERSON) on (his/her) last birthday?
+#' D. IF 13 YRS OR OLDER ASK: Is (PERSON) now married, widowed, divorced, separated, or has (he/she) never been married?
+#' E. Are any of the people we have listed staying somewhere else right now? If yes, who is staying somewhere else right now?
+#' F. Where is (PERSON) staying right now? Is (PERSON) staying at another household; 
+#' Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at college or in a hospital or something; or what?
+#' 2. Gender of third person
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` male
+#'   * `2` female
+#'   * `3` other
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -244,54 +294,7 @@ NULL
 #'  |2018 |A/B/C/- |full         |
 #'  |2021 |A/B/C/- |full         |
 #'  |2022 |A/B/C/- |full         |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Household Members and Structure
-#' @family Cohabitation
-#' @family Family
-#' @family Household
 #' 
-#' @keywords variable
-#' @md
-#' @name relate3
-NULL
-
-
-#'  Gender of 3rd person
-#' 
-#'  gender3
-#' 
-#' Question Please tell me the names of the people who usually live in this household. Let's start with the head of the household. (LIST ON LINES 01-10 BELOW.)
-#' Have we forgotten anyone: such as babies or small children; roomers; people who usually live here, but are away temporarily--on business trips, vacations, at school, temporarily in a hospital, and so on? (LIST ADDITIONAL PERSONS ON LINES 01-10 BELOW.) 
-#' Are there any people currently staying here--visitors, friends or relatives--do not usually live here? (LIST VISITORS ON LINES 11-14 BELOW.)
-#' A. What is that (PERSON'S) relationship to the HEAD OF HOUSEHOLD?
-#' B. Code sex. (ASK IF NOT OBVIOUS).
-#' C. How old was (HEAD/PERSON) on (his/her) last birthday?
-#' D. IF 13 YRS OR OLDER ASK: Is (PERSON) now married, widowed, divorced, separated, or has (he/she) never been married?
-#' E. Are any of the people we have listed staying somewhere else right now? If yes, who is staying somewhere else right now?
-#' F. Where is (PERSON) staying right now? Is (PERSON) staying at another household; 
-#' Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at college or in a hospital or something; or what?
-#' 2. Gender of third person
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` male
-#'   * `2` female
-#'   * `3` other
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5345/vshow).
 #'
@@ -335,6 +338,41 @@ NULL
 #'  |2022  |2985  |263    |289   |1         |-          |6     |-              |-                             |3544  |
 #'  |2024  |-     |-      |-     |-         |-          |-     |-              |3309                          |3309  |
 #'  |Total |45586 |12680  |13830 |216       |47         |27    |4              |3309                          |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Household Members and Structure
+#' @family Family
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name gender3
+NULL
+
+
+#'  Age of 3rd person
+#' 
+#'  old3
+#' 
+#' Question Please tell me the names of the people who usually live in this household. Let's start with the head of the household. (LIST ON LINES 01-10 BELOW.)
+#' Have we forgotten anyone: such as babies or small children; roomers; people who usually live here, but are away temporarily--on business trips, vacations, at school, temporarily in a hospital, and so on? (LIST ADDITIONAL PERSONS ON LINES 01-10 BELOW.) 
+#' Are there any people currently staying here--visitors, friends or relatives--do not usually live here? (LIST VISITORS ON LINES 11-14 BELOW.)
+#' A. What is that (PERSON'S) relationship to the HEAD OF HOUSEHOLD?
+#' B. Code sex. (ASK IF NOT OBVIOUS).
+#' C. How old was (HEAD/PERSON) on (his/her) last birthday?
+#' D. IF 13 YRS OR OLDER ASK: Is (PERSON) now married, widowed, divorced, separated, or has (he/she) never been married?
+#' E. Are any of the people we have listed staying somewhere else right now? If yes, who is staying somewhere else right now?
+#' F. Where is (PERSON) staying right now? Is (PERSON) staying at another household; 
+#' Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at college or in a hospital or something; or what?
+#' 3. Age of third person
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `97` 97 or older
+#'   * `98` adult, age unspecified
+#'   * `99` child, age unspecified
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -371,53 +409,7 @@ NULL
 #'  |2018 |A/B/C/- |full         |
 #'  |2021 |A/B/C/- |full         |
 #'  |2022 |A/B/C/- |full         |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Household Members and Structure
-#' @family Family
-#' @family Household
 #' 
-#' @keywords variable
-#' @md
-#' @name gender3
-NULL
-
-
-#'  Age of 3rd person
-#' 
-#'  old3
-#' 
-#' Question Please tell me the names of the people who usually live in this household. Let's start with the head of the household. (LIST ON LINES 01-10 BELOW.)
-#' Have we forgotten anyone: such as babies or small children; roomers; people who usually live here, but are away temporarily--on business trips, vacations, at school, temporarily in a hospital, and so on? (LIST ADDITIONAL PERSONS ON LINES 01-10 BELOW.) 
-#' Are there any people currently staying here--visitors, friends or relatives--do not usually live here? (LIST VISITORS ON LINES 11-14 BELOW.)
-#' A. What is that (PERSON'S) relationship to the HEAD OF HOUSEHOLD?
-#' B. Code sex. (ASK IF NOT OBVIOUS).
-#' C. How old was (HEAD/PERSON) on (his/her) last birthday?
-#' D. IF 13 YRS OR OLDER ASK: Is (PERSON) now married, widowed, divorced, separated, or has (he/she) never been married?
-#' E. Are any of the people we have listed staying somewhere else right now? If yes, who is staying somewhere else right now?
-#' F. Where is (PERSON) staying right now? Is (PERSON) staying at another household; 
-#' Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at college or in a hospital or something; or what?
-#' 3. Age of third person
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `97` 97 or older
-#'   * `98` adult, age unspecified
-#'   * `99` child, age unspecified
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5346/vshow).
 #'
@@ -461,42 +453,6 @@ NULL
 #'  |2022  |2986  |11  |14  |22  |24  |18  |23   |19   |16   |16   |23   |17   |11   |14  |11  |18  |13  |14  |8   |7   |8   |5   |7   |3   |17  |3   |4   |5   |5   |2   |4  |5  |3  |3  |14  |4  |6  |-  |1  |15  |-  |2  |2  |1  |18  |2  |2  |-  |2  |17  |-  |1  |1  |-  |3  |-  |1  |1  |12  |-  |-  |2  |-  |21  |-  |-          |-  |1  |4  |1  |-  |1  |1  |1  |5         |2  |1  |-  |1  |5  |-  |-  |2  |1  |-  |-  |1  |1  |-  |-  |-           |4  |1  |3  |1  |-  |1  |1  |-  |-  |-  |8                      |9                      |1              |-                             |3544  |
 #'  |2024  |-     |-   |-   |-   |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-          |-  |-  |-  |-  |-  |-  |-  |-  |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-                      |-              |3309                          |3309  |
 #'  |Total |45588 |493 |824 |934 |880 |984 |1007 |1008 |1087 |1146 |1277 |1196 |1021 |860 |894 |806 |683 |578 |462 |426 |309 |258 |233 |192 |832 |180 |124 |135 |111 |100 |99 |61 |67 |74 |874 |52 |41 |48 |49 |874 |57 |37 |42 |38 |882 |38 |29 |23 |28 |843 |26 |24 |19 |16 |16 |18 |20 |23 |878 |29 |15 |19 |14 |862 |8  |98         |60 |33 |37 |28 |41 |21 |22 |14 |490       |44 |35 |18 |9  |91 |15 |16 |13 |18 |7  |9  |5  |48 |29 |22 |4           |88 |24 |26 |15 |8  |6  |46 |8  |3  |12 |24                     |27                     |5              |3309                          |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1975 |-/-/-/- |full         |
-#'  |1976 |-/-/-/- |full         |
-#'  |1977 |-/-/-/- |full         |
-#'  |1978 |-/-/-/- |full         |
-#'  |1980 |-/-/-/- |full         |
-#'  |1982 |-/-/-/- |full         |
-#'  |1983 |-/-/-/- |full         |
-#'  |1984 |-/-/-/- |full         |
-#'  |1985 |-/-/-/- |full         |
-#'  |1986 |-/-/-/- |full         |
-#'  |1987 |-/-/-/- |full         |
-#'  |1988 |A/B/C/- |full         |
-#'  |1989 |A/B/C/- |full         |
-#'  |1990 |A/B/C/- |full         |
-#'  |1991 |A/B/C/- |full         |
-#'  |1993 |A/B/C/- |full         |
-#'  |1994 |A/B/C/- |full         |
-#'  |1996 |A/B/C/- |full         |
-#'  |1998 |A/B/C/- |full         |
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
-#'  |2022 |A/B/C/- |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
@@ -533,19 +489,44 @@ NULL
 #'   * `3` divorced
 #'   * `4` separated
 #'   * `5` never married
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5347/vshow).
 #'
@@ -589,6 +570,40 @@ NULL
 #'  |2022  |3202  |22       |3          |26      |269           |5         |2         |13      |2              |-                             |3544  |
 #'  |2024  |-     |-        |-          |-       |-             |-         |-         |-       |-              |3309                          |3309  |
 #'  |Total |56645 |593      |88         |860     |12780         |642       |351       |422     |9              |3309                          |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Household Members and Structure
+#' @family Family
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name mar3
+NULL
+
+
+#'  Is 3rd person staying somewhere else now?
+#' 
+#'  away3
+#' 
+#' Question Please tell me the names of the people who usually live in this household. Let's start with the head of the household. (LIST ON LINES 01-10 BELOW.)
+#' Have we forgotten anyone: such as babies or small children; roomers; people who usually live here, but are away temporarily--on business trips, vacations, at school, temporarily in a hospital, and so on? (LIST ADDITIONAL PERSONS ON LINES 01-10 BELOW.) 
+#' Are there any people currently staying here--visitors, friends or relatives--do not usually live here? (LIST VISITORS ON LINES 11-14 BELOW.)
+#' A. What is that (PERSON'S) relationship to the HEAD OF HOUSEHOLD?
+#' B. Code sex. (ASK IF NOT OBVIOUS).
+#' C. How old was (HEAD/PERSON) on (his/her) last birthday?
+#' D. IF 13 YRS OR OLDER ASK: Is (PERSON) now married, widowed, divorced, separated, or has (he/she) never been married?
+#' E. Are any of the people we have listed staying somewhere else right now? If yes, who is staying somewhere else right now?
+#' F. Where is (PERSON) staying right now? Is (PERSON) staying at another household; 
+#' Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at college or in a hospital or something; or what?
+#' 5. Is the third person staying somewhere else right now?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` no
+#'   * `1` yes
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -625,52 +640,7 @@ NULL
 #'  |2018 |A/B/C/- |full         |
 #'  |2021 |A/B/C/- |full         |
 #'  |2022 |A/B/C/- |full         |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Household Members and Structure
-#' @family Family
-#' @family Household
 #' 
-#' @keywords variable
-#' @md
-#' @name mar3
-NULL
-
-
-#'  Is 3rd person staying somewhere else now?
-#' 
-#'  away3
-#' 
-#' Question Please tell me the names of the people who usually live in this household. Let's start with the head of the household. (LIST ON LINES 01-10 BELOW.)
-#' Have we forgotten anyone: such as babies or small children; roomers; people who usually live here, but are away temporarily--on business trips, vacations, at school, temporarily in a hospital, and so on? (LIST ADDITIONAL PERSONS ON LINES 01-10 BELOW.) 
-#' Are there any people currently staying here--visitors, friends or relatives--do not usually live here? (LIST VISITORS ON LINES 11-14 BELOW.)
-#' A. What is that (PERSON'S) relationship to the HEAD OF HOUSEHOLD?
-#' B. Code sex. (ASK IF NOT OBVIOUS).
-#' C. How old was (HEAD/PERSON) on (his/her) last birthday?
-#' D. IF 13 YRS OR OLDER ASK: Is (PERSON) now married, widowed, divorced, separated, or has (he/she) never been married?
-#' E. Are any of the people we have listed staying somewhere else right now? If yes, who is staying somewhere else right now?
-#' F. Where is (PERSON) staying right now? Is (PERSON) staying at another household; 
-#' Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at college or in a hospital or something; or what?
-#' 5. Is the third person staying somewhere else right now?
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `0` no
-#'   * `1` yes
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5348/vshow).
 #'
@@ -714,6 +684,42 @@ NULL
 #'  |2022  |3505  |39  |-         |-          |-                          |-                             |3544  |
 #'  |2024  |-     |-   |-         |-          |-                          |3309                          |3309  |
 #'  |Total |67747 |599 |10        |2          |4032                       |3309                          |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Household Members and Structure
+#' @family Family
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name away3
+NULL
+
+
+#'  Where is 3rd person staying?
+#' 
+#'  where3
+#' 
+#' Question Please tell me the names of the people who usually live in this household. Let's start with the head of the household. (LIST ON LINES 01-10 BELOW.)
+#' Have we forgotten anyone: such as babies or small children; roomers; people who usually live here, but are away temporarily--on business trips, vacations, at school, temporarily in a hospital, and so on? (LIST ADDITIONAL PERSONS ON LINES 01-10 BELOW.) 
+#' Are there any people currently staying here--visitors, friends or relatives--do not usually live here? (LIST VISITORS ON LINES 11-14 BELOW.)
+#' A. What is that (PERSON'S) relationship to the HEAD OF HOUSEHOLD?
+#' B. Code sex. (ASK IF NOT OBVIOUS).
+#' C. How old was (HEAD/PERSON) on (his/her) last birthday?
+#' D. IF 13 YRS OR OLDER ASK: Is (PERSON) now married, widowed, divorced, separated, or has (he/she) never been married?
+#' E. Are any of the people we have listed staying somewhere else right now? If yes, who is staying somewhere else right now?
+#' F. Where is (PERSON) staying right now? Is (PERSON) staying at another household; 
+#' Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at college or in a hospital or something; or what?
+#' 6. Where is the third person staying?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` another household
+#'   * `2` traveling
+#'   * `3` institution
+#'   * `4` other, don't know
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -750,54 +756,7 @@ NULL
 #'  |2018 |A/B/C/- |full         |
 #'  |2021 |A/B/C/- |full         |
 #'  |2022 |A/B/C/- |full         |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Household Members and Structure
-#' @family Family
-#' @family Household
 #' 
-#' @keywords variable
-#' @md
-#' @name away3
-NULL
-
-
-#'  Where is 3rd person staying?
-#' 
-#'  where3
-#' 
-#' Question Please tell me the names of the people who usually live in this household. Let's start with the head of the household. (LIST ON LINES 01-10 BELOW.)
-#' Have we forgotten anyone: such as babies or small children; roomers; people who usually live here, but are away temporarily--on business trips, vacations, at school, temporarily in a hospital, and so on? (LIST ADDITIONAL PERSONS ON LINES 01-10 BELOW.) 
-#' Are there any people currently staying here--visitors, friends or relatives--do not usually live here? (LIST VISITORS ON LINES 11-14 BELOW.)
-#' A. What is that (PERSON'S) relationship to the HEAD OF HOUSEHOLD?
-#' B. Code sex. (ASK IF NOT OBVIOUS).
-#' C. How old was (HEAD/PERSON) on (his/her) last birthday?
-#' D. IF 13 YRS OR OLDER ASK: Is (PERSON) now married, widowed, divorced, separated, or has (he/she) never been married?
-#' E. Are any of the people we have listed staying somewhere else right now? If yes, who is staying somewhere else right now?
-#' F. Where is (PERSON) staying right now? Is (PERSON) staying at another household; 
-#' Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at college or in a hospital or something; or what?
-#' 6. Where is the third person staying?
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` another household
-#'   * `2` traveling
-#'   * `3` institution
-#'   * `4` other, don't know
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5349/vshow).
 #'
@@ -841,42 +800,6 @@ NULL
 #'  |2022  |3505  |16                |6         |-                 |-         |15          |-                          |2          |-                             |3544  |
 #'  |2024  |-     |-                 |-         |-                 |-         |-           |-                          |-          |3309                          |3309  |
 #'  |Total |67747 |301               |44        |33                |46        |185         |4032                       |2          |3309                          |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1975 |-/-/-/- |full         |
-#'  |1976 |-/-/-/- |full         |
-#'  |1977 |-/-/-/- |full         |
-#'  |1978 |-/-/-/- |full         |
-#'  |1980 |-/-/-/- |full         |
-#'  |1982 |-/-/-/- |full         |
-#'  |1983 |-/-/-/- |full         |
-#'  |1984 |-/-/-/- |full         |
-#'  |1985 |-/-/-/- |full         |
-#'  |1986 |-/-/-/- |full         |
-#'  |1987 |-/-/-/- |full         |
-#'  |1988 |A/B/C/- |full         |
-#'  |1989 |A/B/C/- |full         |
-#'  |1990 |A/B/C/- |full         |
-#'  |1991 |A/B/C/- |full         |
-#'  |1993 |A/B/C/- |full         |
-#'  |1994 |A/B/C/- |full         |
-#'  |1996 |A/B/C/- |full         |
-#'  |1998 |A/B/C/- |full         |
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
-#'  |2022 |A/B/C/- |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
@@ -916,19 +839,44 @@ NULL
 #'   * `6` parent/parent-in-law
 #'   * `7` other relative
 #'   * `8` non-relative
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5350/vshow).
 #'
@@ -972,6 +920,42 @@ NULL
 #'  |2022  |3210  |272                            |9                      |20           |18             |7                    |5                    |-      |1         |-                 |2              |-                             |3544  |
 #'  |2024  |-     |-                              |-                      |-            |-              |-                    |-                    |-      |-         |-                 |-              |3309                          |3309  |
 #'  |Total |56482 |13663                          |691                    |557          |400            |151                  |165                  |48     |219       |4                 |10             |3309                          |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Household Members and Structure
+#' @family Cohabitation
+#' @family Family
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name relate4
+NULL
+
+
+#'  Gender of 4th person
+#' 
+#'  gender4
+#' 
+#' Question Please tell me the names of the people who usually live in this household. Let's start with the head of the household. (LIST ON LINES 01-10 BELOW.)
+#' Have we forgotten anyone: such as babies or small children; roomers; people who usually live here, but are away temporarily--on business trips, vacations, at school, temporarily in a hospital, and so on? (LIST ADDITIONAL PERSONS ON LINES 01-10 BELOW.) 
+#' Are there any people currently staying here--visitors, friends or relatives--do not usually live here? (LIST VISITORS ON LINES 11-14 BELOW.)
+#' A. What is that (PERSON'S) relationship to the HEAD OF HOUSEHOLD?
+#' B. Code sex. (ASK IF NOT OBVIOUS).
+#' C. How old was (HEAD/PERSON) on (his/her) last birthday?
+#' D. IF 13 YRS OR OLDER ASK: Is (PERSON) now married, widowed, divorced, separated, or has (he/she) never been married?
+#' E. Are any of the people we have listed staying somewhere else right now? If yes, who is staying somewhere else right now?
+#' F. Where is (PERSON) staying right now? Is (PERSON) staying at another household; 
+#' Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at college or in a hospital or something; or what?
+#' 2. Gender of fourth person
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` male
+#'   * `2` female
+#'   * `3` other
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -1008,54 +992,7 @@ NULL
 #'  |2018 |A/B/C/- |full         |
 #'  |2021 |A/B/C/- |full         |
 #'  |2022 |A/B/C/- |full         |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Household Members and Structure
-#' @family Cohabitation
-#' @family Family
-#' @family Household
 #' 
-#' @keywords variable
-#' @md
-#' @name relate4
-NULL
-
-
-#'  Gender of 4th person
-#' 
-#'  gender4
-#' 
-#' Question Please tell me the names of the people who usually live in this household. Let's start with the head of the household. (LIST ON LINES 01-10 BELOW.)
-#' Have we forgotten anyone: such as babies or small children; roomers; people who usually live here, but are away temporarily--on business trips, vacations, at school, temporarily in a hospital, and so on? (LIST ADDITIONAL PERSONS ON LINES 01-10 BELOW.) 
-#' Are there any people currently staying here--visitors, friends or relatives--do not usually live here? (LIST VISITORS ON LINES 11-14 BELOW.)
-#' A. What is that (PERSON'S) relationship to the HEAD OF HOUSEHOLD?
-#' B. Code sex. (ASK IF NOT OBVIOUS).
-#' C. How old was (HEAD/PERSON) on (his/her) last birthday?
-#' D. IF 13 YRS OR OLDER ASK: Is (PERSON) now married, widowed, divorced, separated, or has (he/she) never been married?
-#' E. Are any of the people we have listed staying somewhere else right now? If yes, who is staying somewhere else right now?
-#' F. Where is (PERSON) staying right now? Is (PERSON) staying at another household; 
-#' Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at college or in a hospital or something; or what?
-#' 2. Gender of fourth person
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` male
-#'   * `2` female
-#'   * `3` other
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5351/vshow).
 #'
@@ -1099,6 +1036,41 @@ NULL
 #'  |2022  |3210  |168    |163  |-         |-          |2     |1              |-                             |3544  |
 #'  |2024  |-     |-      |-    |-         |-          |-     |-              |3309                          |3309  |
 #'  |Total |56479 |7626   |8080 |143       |46         |13    |3              |3309                          |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Household Members and Structure
+#' @family Family
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name gender4
+NULL
+
+
+#'  Age of 4th person
+#' 
+#'  old4
+#' 
+#' Question Please tell me the names of the people who usually live in this household. Let's start with the head of the household. (LIST ON LINES 01-10 BELOW.)
+#' Have we forgotten anyone: such as babies or small children; roomers; people who usually live here, but are away temporarily--on business trips, vacations, at school, temporarily in a hospital, and so on? (LIST ADDITIONAL PERSONS ON LINES 01-10 BELOW.) 
+#' Are there any people currently staying here--visitors, friends or relatives--do not usually live here? (LIST VISITORS ON LINES 11-14 BELOW.)
+#' A. What is that (PERSON'S) relationship to the HEAD OF HOUSEHOLD?
+#' B. Code sex. (ASK IF NOT OBVIOUS).
+#' C. How old was (HEAD/PERSON) on (his/her) last birthday?
+#' D. IF 13 YRS OR OLDER ASK: Is (PERSON) now married, widowed, divorced, separated, or has (he/she) never been married?
+#' E. Are any of the people we have listed staying somewhere else right now? If yes, who is staying somewhere else right now?
+#' F. Where is (PERSON) staying right now? Is (PERSON) staying at another household; 
+#' Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at college or in a hospital or something; or what?
+#' 3. Age of fourth person
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `97` 97 or older
+#'   * `98` adult, age unspecified
+#'   * `99` child, age unspecified
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -1135,53 +1107,7 @@ NULL
 #'  |2018 |A/B/C/- |full         |
 #'  |2021 |A/B/C/- |full         |
 #'  |2022 |A/B/C/- |full         |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Household Members and Structure
-#' @family Family
-#' @family Household
 #' 
-#' @keywords variable
-#' @md
-#' @name gender4
-NULL
-
-
-#'  Age of 4th person
-#' 
-#'  old4
-#' 
-#' Question Please tell me the names of the people who usually live in this household. Let's start with the head of the household. (LIST ON LINES 01-10 BELOW.)
-#' Have we forgotten anyone: such as babies or small children; roomers; people who usually live here, but are away temporarily--on business trips, vacations, at school, temporarily in a hospital, and so on? (LIST ADDITIONAL PERSONS ON LINES 01-10 BELOW.) 
-#' Are there any people currently staying here--visitors, friends or relatives--do not usually live here? (LIST VISITORS ON LINES 11-14 BELOW.)
-#' A. What is that (PERSON'S) relationship to the HEAD OF HOUSEHOLD?
-#' B. Code sex. (ASK IF NOT OBVIOUS).
-#' C. How old was (HEAD/PERSON) on (his/her) last birthday?
-#' D. IF 13 YRS OR OLDER ASK: Is (PERSON) now married, widowed, divorced, separated, or has (he/she) never been married?
-#' E. Are any of the people we have listed staying somewhere else right now? If yes, who is staying somewhere else right now?
-#' F. Where is (PERSON) staying right now? Is (PERSON) staying at another household; 
-#' Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at college or in a hospital or something; or what?
-#' 3. Age of fourth person
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `97` 97 or older
-#'   * `98` adult, age unspecified
-#'   * `99` child, age unspecified
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5352/vshow).
 #'
@@ -1225,42 +1151,6 @@ NULL
 #'  |2022  |3211  |11  |15  |11  |11  |9   |17  |12  |7   |21  |4   |9   |6   |18  |7   |10  |11  |5   |-   |5  |-  |-  |12  |-  |3  |1  |14  |1  |1  |13  |1  |-  |-  |3  |18  |17  |-  |-  |13  |-  |14  |-  |6   |-  |1  |3         |3  |-  |2  |-  |-  |-  |-  |-  |-  |-  |-          |1  |-  |-  |1  |1  |1  |1  |-  |1  |1  |-  |-           |-  |-  |1  |-  |-  |-  |-  |1  |-  |-  |-  |-  |-  |-  |1  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |2                      |6                      |-              |-                             |3544  |
 #'  |2024  |-     |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-   |-  |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-   |-   |-  |-  |-   |-  |-   |-  |-   |-  |-  |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-           |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-                      |-                      |-              |3309                          |3309  |
 #'  |Total |56478 |454 |738 |671 |681 |748 |740 |756 |695 |644 |550 |519 |427 |776 |336 |284 |233 |184 |110 |93 |68 |59 |665 |26 |28 |19 |702 |9  |11 |727 |7  |7  |6  |10 |686 |720 |9  |10 |729 |9  |673 |2  |131 |7  |4  |317       |47 |22 |19 |7  |10 |4  |5  |6  |5  |4  |75         |12 |13 |10 |19 |6  |5  |52 |33 |6  |8  |6  |4           |17 |27 |12 |7  |7  |2  |3  |9  |10 |2  |8  |2  |34 |10 |28 |6  |2  |3  |1  |2  |1  |2  |4  |3  |4  |1  |9  |1  |5  |2  |9                      |18                     |3              |3309                          |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1975 |-/-/-/- |full         |
-#'  |1976 |-/-/-/- |full         |
-#'  |1977 |-/-/-/- |full         |
-#'  |1978 |-/-/-/- |full         |
-#'  |1980 |-/-/-/- |full         |
-#'  |1982 |-/-/-/- |full         |
-#'  |1983 |-/-/-/- |full         |
-#'  |1984 |-/-/-/- |full         |
-#'  |1985 |-/-/-/- |full         |
-#'  |1986 |-/-/-/- |full         |
-#'  |1987 |-/-/-/- |full         |
-#'  |1988 |A/B/C/- |full         |
-#'  |1989 |A/B/C/- |full         |
-#'  |1990 |A/B/C/- |full         |
-#'  |1991 |A/B/C/- |full         |
-#'  |1993 |A/B/C/- |full         |
-#'  |1994 |A/B/C/- |full         |
-#'  |1996 |A/B/C/- |full         |
-#'  |1998 |A/B/C/- |full         |
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
-#'  |2022 |A/B/C/- |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure

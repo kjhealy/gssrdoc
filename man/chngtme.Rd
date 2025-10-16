@@ -19,18 +19,19 @@ Question How often are you allowed to change your starting and quitting times on
 \item \code{2} sometimes
 \item \code{3} rarely
 \item \code{4} never
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 
@@ -76,18 +77,6 @@ Counts by year:\tabular{lllllllllll}{
    2022 \tab - \tab 12 \tab 1540 \tab 549 \tab 15 \tab 675 \tab 323 \tab 413 \tab 17 \tab 3544 \cr
    2024 \tab 3309 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \cr
    Total \tab 57950 \tab 49 \tab 8351 \tab 2792 \tab 86 \tab 3079 \tab 1456 \tab 1919 \tab 17 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
 }
 }
 

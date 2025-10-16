@@ -12,19 +12,14 @@
 #'   * `3` 3
 #'   * `4` 4
 #'   * `5` 5 extremely effective
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2008 |A/C     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3858/vshow).
 #'
@@ -68,12 +63,6 @@
 #'  |2022  |-     |-                      |-   |-   |-  |-                     |-          |-         |3544                       |3544  |
 #'  |2024  |-     |-                      |-   |-   |-  |-                     |-          |-         |3309                       |3309  |
 #'  |Total |67494 |823                    |138 |193 |44 |64                    |83         |7         |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparednesserrorism
@@ -100,19 +89,14 @@ NULL
 #'   * `1` yes, respondent
 #'   * `2` yes, someone respondent knows
 #'   * `3` yes, both respondent and someone respondent knows
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2008 |A/C     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3859/vshow).
 #'
@@ -156,12 +140,6 @@ NULL
 #'  |2022  |-     |-          |-    |-         |-                                                 |-               |-                             |3544                       |3544  |
 #'  |2024  |-     |-          |-    |-         |-                                                 |-               |-                             |3309                       |3309  |
 #'  |Total |67494 |13         |1242 |5         |17                                                |38              |37                            |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness
@@ -187,19 +165,14 @@ NULL
 #'   * `3` 3
 #'   * `4` 4
 #'   * `5` 5 extremely effective
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2008 |A/C     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3860/vshow).
 #'
@@ -243,12 +216,6 @@ NULL
 #'  |2022  |-     |-                      |-   |-   |-  |-                     |-          |-         |3544                       |3544  |
 #'  |2024  |-     |-                      |-   |-   |-  |-                     |-          |-         |3309                       |3309  |
 #'  |Total |67494 |634                    |140 |263 |88 |131                   |90         |6         |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness
@@ -275,19 +242,14 @@ NULL
 #'   * `1` yes, respondent
 #'   * `2` yes, someone respondent knows
 #'   * `3` yes, both respondent and someone respondent knows
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2008 |A/C     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3861/vshow).
 #'
@@ -331,12 +293,6 @@ NULL
 #'  |2022  |-     |-          |-   |-         |-                                                 |-               |-                             |3544                       |3544  |
 #'  |2024  |-     |-          |-   |-         |-                                                 |-               |-                             |3309                       |3309  |
 #'  |Total |67494 |23         |496 |6         |404                                               |358             |65                            |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness
@@ -362,19 +318,14 @@ NULL
 #'   * `3` 3
 #'   * `4` 4
 #'   * `5` 5 extremely effective
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2008 |A/C     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3862/vshow).
 #'
@@ -418,12 +369,6 @@ NULL
 #'  |2022  |-     |-                      |-  |-   |-   |-                     |-          |-         |3544                       |3544  |
 #'  |2024  |-     |-                      |-  |-   |-   |-                     |-          |-         |3309                       |3309  |
 #'  |Total |67494 |180                    |87 |320 |262 |442                   |53         |8         |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness
@@ -450,19 +395,14 @@ NULL
 #'   * `1` yes, respondent
 #'   * `2` yes, someone respondent knows
 #'   * `3` yes, both respondent and someone respondent knows
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2008 |A/C     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3863/vshow).
 #'
@@ -506,12 +446,6 @@ NULL
 #'  |2022  |-     |-          |-    |-         |-                                                 |-               |-                             |3544                       |3544  |
 #'  |2024  |-     |-          |-    |-         |-                                                 |-               |-                             |3309                       |3309  |
 #'  |Total |67494 |12         |1212 |7         |34                                                |47              |40                            |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparednesserrorism
@@ -537,19 +471,14 @@ NULL
 #'   * `3` 3
 #'   * `4` 4
 #'   * `5` 5 extremely effective
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2008 |A/C     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3864/vshow).
 #'
@@ -593,12 +522,6 @@ NULL
 #'  |2022  |-     |-                      |-   |-   |-  |-                     |-          |-         |3544                       |3544  |
 #'  |2024  |-     |-                      |-   |-   |-  |-                     |-          |-         |3309                       |3309  |
 #'  |Total |67494 |621                    |153 |268 |94 |130                   |78         |8         |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparednesserrorism
@@ -625,19 +548,14 @@ NULL
 #'   * `1` yes, respondent
 #'   * `2` yes, someone respondent knows
 #'   * `3` yes, both respondent and someone respondent knows
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2008 |A/C     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3865/vshow).
 #'
@@ -681,12 +599,6 @@ NULL
 #'  |2022  |-     |-          |-    |-         |-                                                 |-               |-                             |3544                       |3544  |
 #'  |2024  |-     |-          |-    |-         |-                                                 |-               |-                             |3309                       |3309  |
 #'  |Total |67494 |15         |1253 |6         |16                                                |39              |23                            |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness
@@ -712,19 +624,14 @@ NULL
 #'   * `3` 3
 #'   * `4` 4
 #'   * `5` 5 extremely effective
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2008 |A/C     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3866/vshow).
 #'
@@ -768,12 +675,6 @@ NULL
 #'  |2022  |-     |-                      |-   |-   |-  |-                     |-          |-         |3544                       |3544  |
 #'  |2024  |-     |-                      |-   |-   |-  |-                     |-          |-         |3309                       |3309  |
 #'  |Total |67494 |806                    |156 |186 |43 |87                    |66         |8         |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness
@@ -800,19 +701,14 @@ NULL
 #'   * `1` yes, respondent
 #'   * `2` yes, someone respondent knows
 #'   * `3` yes, both respondent and someone respondent knows
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2008 |A/C     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/3867/vshow).
 #'
@@ -856,12 +752,6 @@ NULL
 #'  |2022  |-     |-          |-    |-         |-                                                 |-               |-                             |3544                       |3544  |
 #'  |2024  |-     |-          |-    |-         |-                                                 |-               |-                             |3309                       |3309  |
 #'  |Total |67494 |13         |1301 |7         |11                                                |10              |10                            |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2008 |A/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparednesserrorism

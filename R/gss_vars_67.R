@@ -11,19 +11,14 @@
 #'   * `2` fairly often
 #'   * `3` occasionally
 #'   * `4` almost never
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-       |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/597/vshow).
 #'
@@ -67,12 +62,6 @@
 #'  |2022  |-     |-            |-          |-            |-         |-            |-          |3544                       |3544  |
 #'  |2024  |-     |-            |-          |-            |-         |-            |-          |3309                       |3309  |
 #'  |Total |68051 |201          |6          |147          |5         |341          |95         |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1983 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -96,19 +85,14 @@ NULL
 #' 
 #'   * `1` yes
 #'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-       |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/598/vshow).
 #'
@@ -152,12 +136,6 @@ NULL
 #'  |2022  |-     |-          |-   |-         |-   |3544                       |3544  |
 #'  |2024  |-     |-          |-   |-         |-   |3309                       |3309  |
 #'  |Total |68051 |1          |735 |4         |55  |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1983 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -181,19 +159,14 @@ NULL
 #' 
 #'   * `1` yes
 #'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-       |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/599/vshow).
 #'
@@ -237,12 +210,6 @@ NULL
 #'  |2022  |-     |-          |-   |-         |-   |3544                       |3544  |
 #'  |2024  |-     |-          |-   |-         |-   |3309                       |3309  |
 #'  |Total |68051 |1          |701 |5         |88  |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1983 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -266,19 +233,14 @@ NULL
 #' 
 #'   * `1` yes
 #'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1983 |-       |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/600/vshow).
 #'
@@ -322,12 +284,6 @@ NULL
 #'  |2022  |-     |-   |-         |-   |3544                       |3544  |
 #'  |2024  |-     |-   |-         |-   |3309                       |3309  |
 #'  |Total |68051 |755 |5         |35  |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1983 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -351,19 +307,47 @@ NULL
 #' 
 #'   * `1` yes
 #'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-     |full         |
+#'  |1973 |-/-     |full         |
+#'  |1974 |-/-     |full         |
+#'  |1975 |-/-     |full         |
+#'  |1976 |-/-     |full         |
+#'  |1977 |-/-     |full         |
+#'  |1978 |-/-     |full         |
+#'  |1980 |-/-     |full         |
+#'  |1982 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1985 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |A/C     |partial      |
+#'  |1989 |A/C     |partial      |
+#'  |1990 |A/C     |partial      |
+#'  |1991 |A/C     |partial      |
+#'  |1993 |A/C     |partial      |
+#'  |1994 |A/C     |partial      |
+#'  |1996 |A/C     |partial      |
+#'  |1998 |A/C     |partial      |
+#'  |2000 |A/C     |partial      |
+#'  |2002 |A/C     |partial      |
+#'  |2004 |A/C     |partial      |
+#'  |2006 |A/C     |partial      |
+#'  |2008 |A/C     |partial      |
+#'  |2010 |A/C     |partial      |
+#'  |2012 |A/C     |partial      |
+#'  |2014 |A/C     |partial      |
+#'  |2016 |A/C     |partial      |
+#'  |2018 |A/C     |partial      |
+#'  |2021 |A/C     |partial      |
+#'  |2022 |A/C     |partial      |
+#'  |2024 |A/C     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/601/vshow).
 #'
@@ -407,6 +391,31 @@ NULL
 #'  |2022  |34         |224  |16        |897   |2367  |6              |3544  |
 #'  |2024  |60         |297  |21        |1229  |1694  |8              |3309  |
 #'  |Total |1657       |9806 |342       |38428 |25435 |31             |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Abortion
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name abdefect
+NULL
+
+
+#'  Married--wants no more children
+#' 
+#'  abnomore
+#' 
+#' Question Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if. . .READ EACH STATEMENT, AND CIRCLE ONE CODE FOR EACH. 
+#' B. If she is married and does not want any more children?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -446,43 +455,7 @@ NULL
 #'  |2021 |A/C     |partial      |
 #'  |2022 |A/C     |partial      |
 #'  |2024 |A/C     |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Abortion
-#' @family Split Ballots
 #' 
-#' @keywords variable
-#' @md
-#' @name abdefect
-NULL
-
-
-#'  Married--wants no more children
-#' 
-#'  abnomore
-#' 
-#' Question Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if. . .READ EACH STATEMENT, AND CIRCLE ONE CODE FOR EACH. 
-#' B. If she is married and does not want any more children?
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/602/vshow).
 #'
@@ -526,6 +499,31 @@ NULL
 #'  |2022  |38         |438   |10        |684   |2367  |7              |3544  |
 #'  |2024  |61         |646   |18        |876   |1694  |14             |3309  |
 #'  |Total |1763       |26077 |311       |22063 |25443 |42             |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Abortion
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name abnomore
+NULL
+
+
+#'  Woman's health seriously endangered
+#' 
+#'  abhlth
+#' 
+#' Question Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if. . .READ EACH STATEMENT, AND CIRCLE ONE CODE FOR EACH. 
+#' C. If the woman''s own health is seriously endangered by the pregnancy?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -565,43 +563,7 @@ NULL
 #'  |2021 |A/C     |partial      |
 #'  |2022 |A/C     |partial      |
 #'  |2024 |A/C     |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Abortion
-#' @family Split Ballots
 #' 
-#' @keywords variable
-#' @md
-#' @name abnomore
-NULL
-
-
-#'  Woman's health seriously endangered
-#' 
-#'  abhlth
-#' 
-#' Question Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if. . .READ EACH STATEMENT, AND CIRCLE ONE CODE FOR EACH. 
-#' C. If the woman''s own health is seriously endangered by the pregnancy?
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/603/vshow).
 #'
@@ -645,6 +607,31 @@ NULL
 #'  |2022  |21         |80   |10        |1062  |2367  |4              |3544  |
 #'  |2024  |38         |118  |9         |1437  |1694  |13             |3309  |
 #'  |Total |1442       |4950 |292       |43538 |25443 |34             |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Abortion
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name abhlth
+NULL
+
+
+#'  Low income--cant afford more children
+#' 
+#'  abpoor
+#' 
+#' Question Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if. . .READ EACH STATEMENT, AND CIRCLE ONE CODE FOR EACH. 
+#' D. If the family has a very low income and cannot afford any more children?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -684,43 +671,7 @@ NULL
 #'  |2021 |A/C     |partial      |
 #'  |2022 |A/C     |partial      |
 #'  |2024 |A/C     |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Abortion
-#' @family Split Ballots
 #' 
-#' @keywords variable
-#' @md
-#' @name abhlth
-NULL
-
-
-#'  Low income--cant afford more children
-#' 
-#'  abpoor
-#' 
-#' Question Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if. . .READ EACH STATEMENT, AND CIRCLE ONE CODE FOR EACH. 
-#' D. If the family has a very low income and cannot afford any more children?
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/604/vshow).
 #'
@@ -764,6 +715,31 @@ NULL
 #'  |2022  |32         |446   |9         |680   |2367  |10             |3544  |
 #'  |2024  |56         |662   |17        |869   |1694  |11             |3309  |
 #'  |Total |1797       |24941 |316       |23164 |25443 |38             |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Abortion
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name abpoor
+NULL
+
+
+#'  Pregnant as result of rape
+#' 
+#'  abrape
+#' 
+#' Question Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if. . .READ EACH STATEMENT, AND CIRCLE ONE CODE FOR EACH. 
+#' E. If she became pregnant as a result of rape?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -803,43 +779,7 @@ NULL
 #'  |2021 |A/C     |partial      |
 #'  |2022 |A/C     |partial      |
 #'  |2024 |A/C     |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Abortion
-#' @family Split Ballots
 #' 
-#' @keywords variable
-#' @md
-#' @name abpoor
-NULL
-
-
-#'  Pregnant as result of rape
-#' 
-#'  abrape
-#' 
-#' Question Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if. . .READ EACH STATEMENT, AND CIRCLE ONE CODE FOR EACH. 
-#' E. If she became pregnant as a result of rape?
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/605/vshow).
 #'
@@ -883,6 +823,32 @@ NULL
 #'  |2022  |19         |2367  |157  |13        |982   |6              |3544  |
 #'  |2024  |57         |1694  |231  |21        |1298  |8              |3309  |
 #'  |Total |1872       |25444 |8783 |332       |39237 |31             |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Abortion
+#' @family Rape
+#' @family Split Ballots
+#' 
+#' @keywords variable
+#' @md
+#' @name abrape
+NULL
+
+
+#'  Not married
+#' 
+#'  absingle
+#' 
+#' Question Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if. . .READ EACH STATEMENT, AND CIRCLE ONE CODE FOR EACH. 
+#' F. If she is not married and does not want to marry the man?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` yes
+#'   * `2` no
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -922,44 +888,7 @@ NULL
 #'  |2021 |A/C     |partial      |
 #'  |2022 |A/C     |partial      |
 #'  |2024 |A/C     |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Abortion
-#' @family Rape
-#' @family Split Ballots
 #' 
-#' @keywords variable
-#' @md
-#' @name abrape
-NULL
-
-
-#'  Not married
-#' 
-#'  absingle
-#' 
-#' Question Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if. . .READ EACH STATEMENT, AND CIRCLE ONE CODE FOR EACH. 
-#' F. If she is not married and does not want to marry the man?
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` yes
-#'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/606/vshow).
 #'
@@ -1003,45 +932,6 @@ NULL
 #'  |2022  |29         |467   |10        |666   |2367  |5              |3544  |
 #'  |2024  |57         |695   |18        |830   |1694  |15             |3309  |
 #'  |Total |1794       |26358 |318       |21745 |25443 |41             |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-     |full         |
-#'  |1973 |-/-     |full         |
-#'  |1974 |-/-     |full         |
-#'  |1975 |-/-     |full         |
-#'  |1976 |-/-     |full         |
-#'  |1977 |-/-     |full         |
-#'  |1978 |-/-     |full         |
-#'  |1980 |-/-     |full         |
-#'  |1982 |-/-     |full         |
-#'  |1983 |-/-     |full         |
-#'  |1984 |-/-     |full         |
-#'  |1985 |-/-     |full         |
-#'  |1987 |-/-     |full         |
-#'  |1988 |A/C     |partial      |
-#'  |1989 |A/C     |partial      |
-#'  |1990 |A/C     |partial      |
-#'  |1991 |A/C     |partial      |
-#'  |1993 |A/C     |partial      |
-#'  |1994 |A/C     |partial      |
-#'  |1996 |A/C     |partial      |
-#'  |1998 |A/C     |partial      |
-#'  |2000 |A/C     |partial      |
-#'  |2002 |A/C     |partial      |
-#'  |2004 |A/C     |partial      |
-#'  |2006 |A/C     |partial      |
-#'  |2008 |A/C     |partial      |
-#'  |2010 |A/C     |partial      |
-#'  |2012 |A/C     |partial      |
-#'  |2014 |A/C     |partial      |
-#'  |2016 |A/C     |partial      |
-#'  |2018 |A/C     |partial      |
-#'  |2021 |A/C     |partial      |
-#'  |2022 |A/C     |partial      |
-#'  |2024 |A/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core

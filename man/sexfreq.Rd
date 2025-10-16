@@ -22,18 +22,33 @@ Question About how often did you have sex during the last 12 months?
 \item \code{4} about once a week
 \item \code{5} 2 or 3 times a week
 \item \code{6} more than 3 times a week
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1989 \tab A/B/C \tab full \cr
+   1990 \tab A/B/C \tab full \cr
+   1991 \tab A/B/C \tab full \cr
+   1993 \tab A/B/C \tab full \cr
+   1994 \tab A/B/C \tab full \cr
+   1996 \tab A/B/C \tab full \cr
+   1998 \tab A/B/C \tab full \cr
+   2000 \tab A/B/C \tab full \cr
+   2002 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab B/C/- \tab partial \cr
+   2018 \tab B/C/- \tab partial \cr
+   2021 \tab B/C/- \tab partial \cr
+   2022 \tab B/C/- \tab partial \cr
+   2024 \tab B/C/- \tab partial \cr
 }
 }
 
@@ -79,32 +94,6 @@ Counts by year:\tabular{llllllllllll}{
    2022 \tab 1927 \tab 224 \tab 207 \tab 198 \tab 76 \tab 73 \tab 481 \tab 181 \tab 140 \tab 37 \tab 3544 \cr
    2024 \tab 1186 \tab 290 \tab 230 \tab 244 \tab 77 \tab 160 \tab 616 \tab 222 \tab 214 \tab 70 \tab 3309 \cr
    Total \tab 36579 \tab 5821 \tab 6616 \tab 5980 \tab 2162 \tab 2322 \tab 8593 \tab 4023 \tab 3217 \tab 386 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab B/C/- \tab partial \cr
-   2018 \tab B/C/- \tab partial \cr
-   2021 \tab B/C/- \tab partial \cr
-   2022 \tab B/C/- \tab partial \cr
-   2024 \tab B/C/- \tab partial \cr
 }
 }
 

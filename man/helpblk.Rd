@@ -18,18 +18,39 @@ Question Now look at CARD BF. Some people think that Black people have been disc
 \item \code{1} government should help
 \item \code{3} agree with both
 \item \code{5} no special treatment
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1975 \tab -/-/- \tab full \cr
+   1983 \tab -/-/- \tab full \cr
+   1984 \tab -/-/- \tab full \cr
+   1986 \tab -/-/- \tab full \cr
+   1987 \tab -/-/- \tab full \cr
+   1988 \tab B/C/- \tab partial \cr
+   1989 \tab B/C/- \tab partial \cr
+   1990 \tab A/B/C \tab full \cr
+   1991 \tab B/C/- \tab partial \cr
+   1993 \tab B/C/- \tab partial \cr
+   1994 \tab B/C/- \tab partial \cr
+   1996 \tab B/C/- \tab partial \cr
+   1998 \tab B/C/- \tab partial \cr
+   2000 \tab B/C/- \tab partial \cr
+   2002 \tab B/C/- \tab partial \cr
+   2004 \tab B/C/- \tab partial \cr
+   2006 \tab B/C/- \tab partial \cr
+   2008 \tab B/C/- \tab partial \cr
+   2010 \tab B/C/- \tab partial \cr
+   2012 \tab B/C/- \tab partial \cr
+   2014 \tab B/C/- \tab partial \cr
+   2016 \tab B/C/- \tab partial \cr
+   2018 \tab B/C/- \tab partial \cr
+   2021 \tab B/C/- \tab partial \cr
+   2022 \tab B/C/- \tab partial \cr
+   2024 \tab B/C/- \tab partial \cr
 }
 }
 
@@ -75,38 +96,6 @@ Counts by year:\tabular{lllllllllll}{
    2022 \tab 1174 \tab 287 \tab 256 \tab 707 \tab 60 \tab 498 \tab 13 \tab 535 \tab 14 \tab 3544 \cr
    2024 \tab 1116 \tab 244 \tab 240 \tab 676 \tab 52 \tab 410 \tab 12 \tab 537 \tab 22 \tab 3309 \cr
    Total \tab 34353 \tab 4097 \tab 7122 \tab 12222 \tab 1219 \tab 4787 \tab 191 \tab 11638 \tab 70 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1975 \tab -/-/- \tab full \cr
-   1983 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab B/C/- \tab partial \cr
-   1989 \tab B/C/- \tab partial \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab B/C/- \tab partial \cr
-   1993 \tab B/C/- \tab partial \cr
-   1994 \tab B/C/- \tab partial \cr
-   1996 \tab B/C/- \tab partial \cr
-   1998 \tab B/C/- \tab partial \cr
-   2000 \tab B/C/- \tab partial \cr
-   2002 \tab B/C/- \tab partial \cr
-   2004 \tab B/C/- \tab partial \cr
-   2006 \tab B/C/- \tab partial \cr
-   2008 \tab B/C/- \tab partial \cr
-   2010 \tab B/C/- \tab partial \cr
-   2012 \tab B/C/- \tab partial \cr
-   2014 \tab B/C/- \tab partial \cr
-   2016 \tab B/C/- \tab partial \cr
-   2018 \tab B/C/- \tab partial \cr
-   2021 \tab B/C/- \tab partial \cr
-   2022 \tab B/C/- \tab partial \cr
-   2024 \tab B/C/- \tab partial \cr
 }
 }
 

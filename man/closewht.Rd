@@ -19,18 +19,25 @@ B. And in general, how close do you feel to Whites?
 \item \code{1} not at all close
 \item \code{5} neither one or the other
 \item \code{9} very close
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1996 \tab A/C \tab partial \cr
+   1998 \tab A/C \tab partial \cr
+   2000 \tab A/C \tab partial \cr
+   2002 \tab A/C \tab partial \cr
+   2004 \tab A/C \tab partial \cr
+   2006 \tab A/C \tab partial \cr
+   2008 \tab A/C \tab partial \cr
+   2010 \tab A/C \tab partial \cr
+   2012 \tab A/C \tab partial \cr
+   2014 \tab A/C \tab partial \cr
+   2016 \tab A/C \tab partial \cr
+   2018 \tab A/C \tab partial \cr
 }
 }
 
@@ -76,24 +83,6 @@ Counts by year:\tabular{llllllllllllllll}{
    2022 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab - \tab 3544 \cr
    2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
    Total \tab 52762 \tab 151 \tab 231 \tab 336 \tab 1059 \tab 2266 \tab 2002 \tab 102 \tab 4896 \tab 160 \tab 217 \tab 4664 \tab 3544 \tab 3309 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1996 \tab A/C \tab partial \cr
-   1998 \tab A/C \tab partial \cr
-   2000 \tab A/C \tab partial \cr
-   2002 \tab A/C \tab partial \cr
-   2004 \tab A/C \tab partial \cr
-   2006 \tab A/C \tab partial \cr
-   2008 \tab A/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
-   2012 \tab A/C \tab partial \cr
-   2014 \tab A/C \tab partial \cr
-   2016 \tab A/C \tab partial \cr
-   2018 \tab A/C \tab partial \cr
 }
 }
 

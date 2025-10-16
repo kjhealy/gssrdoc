@@ -18,18 +18,39 @@ B. Should such a person be allowed to teach in a college or university, or not?
 \itemize{
 \item \code{4} yes, allowed to teach
 \item \code{5} not allowed
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1976 \tab -/- \tab full \cr
+   1977 \tab -/- \tab full \cr
+   1980 \tab -/- \tab full \cr
+   1982 \tab -/- \tab full \cr
+   1984 \tab -/- \tab full \cr
+   1985 \tab -/- \tab full \cr
+   1987 \tab -/- \tab full \cr
+   1988 \tab A/C \tab partial \cr
+   1989 \tab A/C \tab partial \cr
+   1990 \tab A/C \tab partial \cr
+   1991 \tab A/C \tab partial \cr
+   1993 \tab A/C \tab partial \cr
+   1994 \tab A/C \tab partial \cr
+   1996 \tab A/C \tab partial \cr
+   1998 \tab A/C \tab partial \cr
+   2000 \tab A/C \tab partial \cr
+   2002 \tab A/C \tab partial \cr
+   2004 \tab A/C \tab partial \cr
+   2006 \tab A/C \tab partial \cr
+   2008 \tab A/C \tab partial \cr
+   2010 \tab A/C \tab partial \cr
+   2012 \tab A/C \tab partial \cr
+   2014 \tab A/C \tab partial \cr
+   2016 \tab A/C \tab partial \cr
+   2018 \tab A/C \tab partial \cr
+   2021 \tab A/C \tab partial \cr
 }
 }
 
@@ -75,38 +96,6 @@ Counts by year:\tabular{lllllllll}{
    2022 \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab 3544 \cr
    2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
    Total \tab 29387 \tab 1353 \tab 132 \tab 19498 \tab 18444 \tab 32 \tab 6853 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1976 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab A/C \tab partial \cr
-   1989 \tab A/C \tab partial \cr
-   1990 \tab A/C \tab partial \cr
-   1991 \tab A/C \tab partial \cr
-   1993 \tab A/C \tab partial \cr
-   1994 \tab A/C \tab partial \cr
-   1996 \tab A/C \tab partial \cr
-   1998 \tab A/C \tab partial \cr
-   2000 \tab A/C \tab partial \cr
-   2002 \tab A/C \tab partial \cr
-   2004 \tab A/C \tab partial \cr
-   2006 \tab A/C \tab partial \cr
-   2008 \tab A/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
-   2012 \tab A/C \tab partial \cr
-   2014 \tab A/C \tab partial \cr
-   2016 \tab A/C \tab partial \cr
-   2018 \tab A/C \tab partial \cr
-   2021 \tab A/C \tab partial \cr
 }
 }
 

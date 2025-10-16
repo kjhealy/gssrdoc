@@ -22,18 +22,18 @@ MARSAME is a rename from MARHOMO. MARSAME is asked in sequence with PILLOK and S
 \item \code{3} neither agree nor disagree
 \item \code{4} disagree
 \item \code{5} strongly disagree
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} can't choose / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1988 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2021 \tab A/C/- \tab partial \cr
+   2022 \tab A/C/- \tab partial \cr
+   2024 \tab A/C/- \tab partial \cr
 }
 }
 
@@ -79,17 +79,6 @@ Counts by year:\tabular{lllllllllll}{
    2022 \tab 1203 \tab 499 \tab 14 \tab 189 \tab 310 \tab 13 \tab 1047 \tab 262 \tab 7 \tab 3544 \cr
    2024 \tab 2163 \tab 262 \tab 9 \tab 83 \tab 175 \tab 4 \tab 460 \tab 147 \tab 6 \tab 3309 \cr
    Total \tab 66908 \tab 1595 \tab 132 \tab 1027 \tab 1273 \tab 53 \tab 2951 \tab 1737 \tab 23 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1988 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2021 \tab A/C/- \tab partial \cr
-   2022 \tab A/C/- \tab partial \cr
-   2024 \tab A/C/- \tab partial \cr
 }
 }
 

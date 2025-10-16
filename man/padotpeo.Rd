@@ -15,18 +15,31 @@ Question B. Father's Occupational Relationship with People.
 \section{Values}{
 
 \itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item 
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1972 \tab -/-/- \tab full \cr
+   1973 \tab -/-/- \tab full \cr
+   1974 \tab -/-/- \tab full \cr
+   1975 \tab -/-/- \tab full \cr
+   1976 \tab -/-/- \tab full \cr
+   1977 \tab -/-/- \tab full \cr
+   1978 \tab -/-/- \tab full \cr
+   1980 \tab -/-/- \tab full \cr
+   1982 \tab -/-/- \tab full \cr
+   1983 \tab -/-/- \tab full \cr
+   1984 \tab -/-/- \tab full \cr
+   1985 \tab -/-/- \tab full \cr
+   1986 \tab -/-/- \tab full \cr
+   1987 \tab -/-/- \tab full \cr
+   1988 \tab A/B/C \tab full \cr
+   1989 \tab A/B/C \tab full \cr
+   1990 \tab A/B/C \tab full \cr
 }
 }
 
@@ -72,29 +85,6 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
    2022 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab 3544 \cr
    2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
    Total \tab 27 \tab 159 \tab 40 \tab 93 \tab 112 \tab 56 \tab 9 \tab 77 \tab 61 \tab 71 \tab 45 \tab 28 \tab 118 \tab 23 \tab 82 \tab 31 \tab 56 \tab 25 \tab 30 \tab 539 \tab 196 \tab 29 \tab 78 \tab 82 \tab 22 \tab 35 \tab 104 \tab 43 \tab 32 \tab 24 \tab 45 \tab 22 \tab 17 \tab 17 \tab 43 \tab 99 \tab 35 \tab 24 \tab 19 \tab 16 \tab 23 \tab 18 \tab 11 \tab 27 \tab 24 \tab 10 \tab 50 \tab 15 \tab 33 \tab 49 \tab 41 \tab 26 \tab 1012 \tab 529 \tab 153 \tab 7 \tab 24 \tab 18 \tab 41 \tab 162 \tab 52 \tab 54 \tab 162 \tab 6 \tab 22 \tab 110 \tab 93 \tab 14 \tab 9 \tab 11 \tab 55 \tab 41 \tab 30 \tab 34 \tab 202 \tab 8 \tab 60 \tab 76 \tab 73 \tab 32 \tab 23 \tab 37 \tab 22 \tab 99 \tab 31 \tab 1 \tab 22 \tab 13 \tab 4 \tab 36 \tab 9 \tab 92 \tab 3 \tab 60 \tab 19 \tab 58 \tab 37 \tab 4 \tab 16 \tab 68 \tab 17 \tab 61 \tab 43 \tab 193 \tab 113 \tab 300 \tab 119 \tab 61 \tab 100 \tab 71 \tab 215 \tab 129 \tab 114 \tab 218 \tab 213 \tab 18 \tab 29 \tab 789 \tab 223 \tab 628 \tab 179 \tab 54 \tab 436 \tab 34 \tab 229 \tab 154 \tab 124 \tab 304 \tab 584 \tab 419 \tab 5018 \tab 450 \tab 2842 \tab 46841 \tab 23 \tab 8 \tab 6 \tab 20 \tab 7 \tab 12 \tab 11 \tab 10 \tab 2 \tab 8 \tab 10 \tab 4 \tab 17 \tab 9 \tab 12 \tab 4 \tab 1 \tab 6 \tab 83 \tab 7 \tab 6 \tab 7 \tab 12 \tab 16 \tab 14 \tab 24 \tab 4 \tab 14 \tab 31 \tab 5 \tab 14 \tab 33 \tab 6 \tab 10 \tab 11 \tab 1 \tab 17 \tab 27 \tab 4 \tab 25 \tab 9 \tab 3 \tab 5 \tab 2 \tab 9 \tab 22 \tab 12 \tab 6 \tab 3 \tab 13 \tab 6 \tab 18 \tab 6 \tab 8 \tab 7 \tab 3 \tab 13 \tab 4 \tab 2 \tab 4 \tab 4 \tab 1 \tab 4 \tab 9 \tab 3 \tab 1 \tab 6 \tab 15 \tab 2 \tab 8 \tab 8 \tab 1 \tab 4 \tab 4 \tab 4 \tab 1 \tab 2 \tab 2 \tab 1 \tab 2 \tab 3 \tab 3 \tab 1 \tab 2 \tab 1 \tab 1 \tab 6853 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/-/- \tab full \cr
-   1973 \tab -/-/- \tab full \cr
-   1974 \tab -/-/- \tab full \cr
-   1975 \tab -/-/- \tab full \cr
-   1976 \tab -/-/- \tab full \cr
-   1977 \tab -/-/- \tab full \cr
-   1978 \tab -/-/- \tab full \cr
-   1980 \tab -/-/- \tab full \cr
-   1982 \tab -/-/- \tab full \cr
-   1983 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
 }
 }
 

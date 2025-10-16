@@ -19,18 +19,20 @@ B. The second set of characteristics asks if people in the group tend to be hard
 \itemize{
 \item \code{1} 1 - hard-working
 \item \code{7} 7 - lazy
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1990 \tab A/B/C \tab full \cr
+   1994 \tab A/B/C \tab full \cr
+   2000 \tab A/B/C \tab full \cr
+   2018 \tab A/B/- \tab partial \cr
+   2021 \tab A/B/- \tab partial \cr
+   2022 \tab A/B/- \tab partial \cr
+   2024 \tab A/B/- \tab partial \cr
 }
 }
 
@@ -76,19 +78,6 @@ Counts by year:\tabular{llllllllllllll}{
    2022 \tab 1168 \tab 452 \tab 391 \tab 499 \tab 778 \tab 118 \tab 44 \tab 22 \tab 39 \tab 18 \tab 15 \tab - \tab 3544 \cr
    2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
    Total \tab 61494 \tab 1332 \tab 1428 \tab 2139 \tab 3735 \tab 1089 \tab 441 \tab 172 \tab 418 \tab 100 \tab 42 \tab 3309 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
-   2022 \tab A/B/- \tab partial \cr
-   2024 \tab A/B/- \tab partial \cr
 }
 }
 

@@ -19,18 +19,15 @@ Question Did you vote for Joe Biden or Donald Trump?
 \item \code{2} trump
 \item \code{3} other candidate
 \item \code{4} didn't vote for president
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2022 \tab A/B/C \tab full \cr
+   2024 \tab A/B/C \tab full \cr
 }
 }
 
@@ -76,14 +73,6 @@ Counts by year:\tabular{lllllllllll}{
    2022 \tab - \tab 1417 \tab 14 \tab 38 \tab 939 \tab 158 \tab 82 \tab 13 \tab 883 \tab 3544 \cr
    2024 \tab - \tab 1188 \tab 13 \tab 44 \tab 981 \tab 38 \tab 53 \tab 118 \tab 874 \tab 3309 \cr
    Total \tab 68846 \tab 2605 \tab 27 \tab 82 \tab 1920 \tab 196 \tab 135 \tab 131 \tab 1757 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
 }
 }
 

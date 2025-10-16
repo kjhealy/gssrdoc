@@ -23,18 +23,20 @@ Question Last week was your partner working full time, part time, going to schoo
 \item \code{6} in school
 \item \code{7} keeping house
 \item \code{8} other
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2021 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
+   2024 \tab A/B/C \tab full \cr
 }
 }
 
@@ -80,19 +82,6 @@ Counts by year:\tabular{lllllllllllll}{
    2022 \tab 3234 \tab 12 \tab 19 \tab 15 \tab 23 \tab 16 \tab 4 \tab 194 \tab 26 \tab 1 \tab - \tab 3544 \cr
    2024 \tab 3048 \tab 3 \tab 19 \tab 4 \tab 22 \tab 17 \tab 4 \tab 158 \tab 31 \tab 2 \tab 1 \tab 3309 \cr
    Total \tab 73879 \tab 47 \tab 159 \tab 49 \tab 148 \tab 121 \tab 32 \tab 1066 \tab 182 \tab 15 \tab 1 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
 }
 }
 

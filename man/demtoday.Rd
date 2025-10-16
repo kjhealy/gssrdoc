@@ -18,18 +18,16 @@ A. How well does democracy work in America today?
 \itemize{
 \item \code{0} very poorly
 \item \code{10} very well
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} can't choose / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2024 \tab B/C/- \tab partial \cr
 }
 }
 
@@ -75,15 +73,6 @@ Counts by year:\tabular{lllllllllllllllll}{
    2022 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab 3544 \cr
    2024 \tab 1663 \tab 29 \tab 64 \tab 123 \tab 159 \tab 309 \tab 215 \tab 228 \tab 138 \tab 37 \tab 127 \tab 22 \tab 111 \tab 84 \tab - \tab 3309 \cr
    Total \tab 67773 \tab 47 \tab 131 \tab 258 \tab 309 \tab 785 \tab 562 \tab 740 \tab 618 \tab 190 \tab 216 \tab 54 \tab 193 \tab 279 \tab 3544 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2024 \tab B/C/- \tab partial \cr
 }
 }
 

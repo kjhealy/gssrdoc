@@ -30,19 +30,24 @@
 #'   * `41` natural/biological child
 #'   * `42` adopted child
 #'   * `43` stepchild
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5463/vshow).
 #'
@@ -86,22 +91,6 @@
 #'  |2022  |3526  |2                                             |-                    |-                            |7                        |-               |-         |3      |1             |-         |3                                      |-              |1      |1      |-                                             |-                           |-                   |-                     |-             |-              |-                             |3544  |
 #'  |2024  |-     |-                                             |-                    |-                            |-                        |-               |-         |-      |-             |-         |-                                      |-              |-      |-      |-                                             |-                           |-                   |-                     |-             |-              |3309                          |3309  |
 #'  |Total |72212 |12                                            |16                   |9                            |34                       |8               |4         |19     |9             |8         |13                                     |10             |5      |17     |2                                             |1                           |5                   |2                     |1             |3              |3309                          |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
@@ -145,19 +134,24 @@ NULL
 #'   * `41` natural/biological child
 #'   * `42` adopted child
 #'   * `43` stepchild
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5464/vshow).
 #'
@@ -201,22 +195,6 @@ NULL
 #'  |2022  |3541  |-                    |-                            |2                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |1                                      |-                             |3544  |
 #'  |2024  |-     |-                    |-                            |-                        |-                           |-      |-      |-               |-                                             |-              |-         |-                     |-         |-      |-                   |-                                      |3309                          |3309  |
 #'  |Total |72353 |3                    |3                            |7                        |2                           |1      |2      |2               |3                                             |1              |1         |1                     |2         |5      |2                   |2                                      |3309                          |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
@@ -260,19 +238,24 @@ NULL
 #'   * `41` natural/biological child
 #'   * `42` adopted child
 #'   * `43` stepchild
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5465/vshow).
 #'
@@ -316,22 +299,6 @@ NULL
 #'  |2022  |3543  |1                        |-                     |-               |-         |-                            |-                    |-                             |3544  |
 #'  |2024  |-     |-                        |-                     |-               |-         |-                            |-                    |3309                          |3309  |
 #'  |Total |72380 |2                        |1                     |1               |2         |3                            |1                    |3309                          |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
@@ -375,19 +342,24 @@ NULL
 #'   * `41` natural/biological child
 #'   * `42` adopted child
 #'   * `43` stepchild
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5466/vshow).
 #'
@@ -431,22 +403,6 @@ NULL
 #'  |2022  |3543  |-               |-         |-                            |1         |-                             |3544  |
 #'  |2024  |-     |-               |-         |-                            |-         |3309                          |3309  |
 #'  |Total |72384 |1               |2         |2                            |1         |3309                          |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
@@ -467,19 +423,46 @@ NULL
 #' 
 #' @section Values: 
 #' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * 
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5467/vshow).
 #'
@@ -523,43 +506,6 @@ NULL
 #'  |2022  |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |1   |4   |32  |10  |-         |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |5   |23  |16  |11  |5   |3   |5   |10  |11  |6   |-   |4   |5   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |14  |-   |-   |-   |-   |-   |-   |-   |-   |1   |-   |-   |-   |-   |-   |13  |9   |1   |3   |-   |9   |-   |15  |8   |3   |5   |15  |9   |14  |9   |13  |11  |59  |43  |19  |45  |35  |22  |11  |13  |11  |13  |-   |14  |8   |10  |12  |11  |4   |2   |7    |6    |5    |7    |6    |10   |11   |14   |7    |-   |13   |16   |13   |9    |11   |28   |19   |15   |24   |21   |1   |24   |20   |21   |15   |17   |9    |12   |10   |20   |2   |17   |16   |11   |17   |12   |17   |14   |14   |8    |16   |10   |6    |12   |12   |45   |52   |24   |19   |22   |20   |14   |11   |1    |7    |6    |7    |23   |13   |16   |19   |10   |17   |10   |15   |7    |6    |9    |14   |20   |13   |9    |6    |7    |8    |7    |6    |8    |8    |11   |-    |-    |-    |-    |1    |-    |1    |1    |3    |1    |26  |16  |21  |11  |11  |12  |13  |20  |20  |29  |26  |17  |17  |11  |11  |21  |18  |15  |12  |7   |16  |17  |15  |9   |14  |19  |16  |11  |10  |7   |11  |11  |11  |15  |24  |18  |15  |16  |17  |8   |11  |8   |11  |6   |31  |30  |18  |5   |12  |7   |9   |20  |20  |11  |8   |12  |21  |18  |21  |20  |17  |36  |46  |32  |50  |31  |20  |19  |14  |25  |13  |17  |19  |27  |18  |23  |15  |19  |20  |37  |17  |47  |23  |13  |21  |27  |28  |31  |29  |32  |31  |26  |17  |19  |18  |15   |6    |12   |9    |-   |3   |-   |1   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |1    |-   |-   |-   |-   |-   |3544  |
 #'  |2024  |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |1   |4   |3   |9   |18  |21  |36  |24  |35  |17  |32  |9   |14  |7   |13  |10  |12  |5   |9   |-         |-   |10  |11  |32  |23  |13  |21  |13  |16  |37  |20  |22  |20  |19  |9   |15  |11  |15  |10  |6   |10  |6   |7   |3   |7   |4   |62  |88  |45  |33  |19  |20  |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |9   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |9   |7   |9   |27  |21  |21  |-   |7   |15  |9   |24  |16  |21  |15  |9   |15  |13  |9   |25  |17  |21  |15  |13  |9   |13  |21  |14  |-   |15  |15  |20  |9   |8   |16  |8   |3    |7    |1    |3    |2    |5    |7    |8    |4    |-   |5    |12   |6    |9    |13   |10   |11   |64   |48   |37   |-   |22   |23   |20   |15   |21   |16   |17   |15   |12   |-   |17   |13   |9    |8    |12   |5    |11   |12   |8    |6    |16   |8    |20   |17   |23   |13   |16   |11   |18   |9    |11   |12   |4    |14   |15   |13   |3    |5    |10   |11   |3    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |3   |6   |8   |7   |22  |8   |13  |9   |9   |11  |5   |12  |12  |9   |5   |8   |6   |12  |10  |11  |15  |6   |10  |12  |8   |10  |13  |16  |8   |16  |4   |8   |17  |7   |9   |4   |7   |6   |5   |8   |8   |11  |9   |12  |18  |11  |10  |17  |13  |10  |8   |15  |10  |9   |18  |10  |13  |9   |6   |9   |6   |9   |7   |6   |11  |14  |12  |8   |9   |10  |7   |10  |16  |11  |8   |47  |37  |33  |23  |12  |25  |9   |9   |12  |11  |19  |10  |11  |12  |12  |11  |15  |13  |19  |7   |23   |12   |5    |7    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-   |-   |-   |-   |3309  |
 #'  |Total |4601 |818 |801 |753 |732 |765 |771 |875 |726 |986 |844 |766 |784 |734 |873 |874 |961 |808 |713 |677 |673 |654 |666 |706 |652 |593 |615 |562 |622 |611 |628 |528 |495 |40  |454 |425 |455 |479 |453 |429 |425 |414 |423 |415 |444 |428 |431 |342 |332 |232 |253 |217 |228 |216 |195 |259 |233 |510       |191 |447 |404 |366 |371 |398 |334 |345 |363 |328 |310 |308 |297 |278 |277 |235 |239 |212 |235 |207 |225 |205 |242 |211 |248 |242 |295 |290 |238 |163 |133 |119 |235 |320 |309 |348 |362 |368 |468 |528 |576 |638 |675 |662 |692 |710 |685 |638 |739 |693 |737 |2   |183 |226 |21  |208 |64  |186 |63  |176 |179 |154 |194 |227 |50  |12  |98  |94  |63  |2   |212 |227 |129 |148 |130 |152 |11  |90  |138 |144 |145 |157 |143 |160 |141 |163 |160 |188 |201 |157 |182 |173 |165 |125 |144 |140 |141 |5   |152 |146 |146 |130 |114 |117 |133 |59   |56   |45   |59   |45   |73   |66   |60   |59   |10  |47   |78   |46   |49   |64   |73   |74   |114  |126  |107  |16  |82   |92   |85   |74   |66   |68   |65   |41   |47   |23  |47   |36   |26   |31   |37   |33   |32   |44   |31   |39   |38   |32   |53   |47   |93   |86   |62   |51   |50   |44   |41   |39   |12   |23   |29   |31   |39   |26   |34   |41   |27   |27   |34   |41   |35   |34   |35   |44   |68   |49   |50   |48   |78   |106  |69   |42   |37   |36   |37   |28   |23   |29   |8    |10   |10   |13   |21   |29   |12   |56  |57  |81  |70  |93  |83  |94  |101 |93  |109 |110 |78  |107 |90  |87  |85  |88  |81  |61  |63  |98  |101 |86  |82  |96  |74  |91  |82  |65  |76  |84  |82  |64  |84  |92  |89  |84  |80  |83  |58  |69  |71  |66  |63  |137 |143 |107 |82  |64  |56  |30  |71  |71  |57  |68  |78  |73  |80  |95  |90  |88  |128 |128 |108 |128 |117 |100 |82  |87  |105 |84  |81  |90  |104 |88  |139 |116 |117 |104 |113 |90  |100 |83  |68  |81  |83  |66  |78  |84  |74  |81  |65  |56  |73  |55  |43   |27   |19   |19   |31  |19  |10  |12  |8   |9   |10  |7   |11  |2   |5   |3   |4   |8   |4   |3   |1   |3    |14  |8   |23  |17  |1   |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1975 |-/-/-/- |full         |
-#'  |1976 |-/-/-/- |full         |
-#'  |1977 |-/-/-/- |full         |
-#'  |1978 |-/-/-/- |full         |
-#'  |1980 |-/-/-/- |full         |
-#'  |1982 |-/-/-/- |full         |
-#'  |1983 |-/-/-/- |full         |
-#'  |1984 |-/-/-/- |full         |
-#'  |1985 |-/-/-/- |full         |
-#'  |1986 |-/-/-/- |full         |
-#'  |1987 |-/-/-/- |full         |
-#'  |1988 |A/B/C/- |full         |
-#'  |1989 |A/B/C/- |full         |
-#'  |1990 |A/B/C/- |full         |
-#'  |1991 |A/B/C/- |full         |
-#'  |1993 |A/B/C/- |full         |
-#'  |1994 |A/B/C/- |full         |
-#'  |1996 |A/B/C/- |full         |
-#'  |1998 |A/B/C/- |full         |
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
-#'  |2022 |A/B/C/- |full         |
-#'  |2024 |A/B/C/- |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Date of Interview
@@ -580,19 +526,31 @@ NULL
 #' 
 #' @section Values: 
 #' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * 
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5468/vshow).
 #'
@@ -636,6 +594,28 @@ NULL
 #'  |2022  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-   |-   |-   |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-     |-   |-   |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-   |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |3544                       |3544  |
 #'  |2024  |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-   |-   |-   |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-     |-   |-   |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-   |-    |-    |-   |-    |-    |-    |-   |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |3309                       |3309  |
 #'  |Total |228  |94   |176  |414  |525  |58   |70   |101  |56   |10   |52   |45   |61   |38   |8    |32   |46   |22   |192  |22   |37   |28   |29  |137  |1510 |49  |63  |43  |24  |50  |38  |213  |153  |50  |277  |1035 |73   |460  |383  |83   |79   |119  |157  |82  |66   |111  |13   |18  |16   |96   |24   |137  |17   |90  |130  |179  |134  |22   |67   |683  |13   |10   |21   |25  |229  |40   |47   |139  |117  |28   |43   |980  |53   |170  |181  |30  |12   |577  |85   |132 |322  |185  |83   |256  |550  |85   |217  |49   |96   |131  |211  |17   |34   |5    |7    |53  |412  |11   |93  |143  |27  |54  |7   |325  |535 |11   |490 |20   |9    |16   |6    |15   |56   |15   |43   |51  |27  |71   |22   |53   |81   |356  |20   |51   |13   |17   |40  |41   |14   |742  |123 |124  |113  |5    |201  |36   |247  |321  |55   |14   |34   |148  |42   |23   |4    |95   |146  |59   |28   |34  |34   |41   |4    |16   |99   |3    |30   |256  |59   |15   |25   |276  |13   |221  |39   |11   |184  |193  |61   |102  |64   |7    |21   |2    |8    |14   |73   |341  |120  |3    |7    |557  |26   |44579 |33  |11  |27   |13   |41   |6    |19   |2   |13  |44   |20   |12   |6   |4    |24   |11   |8    |57   |20   |7    |12   |5    |9    |99   |7   |18   |38   |4   |5    |13   |6    |30   |26   |7    |46   |9    |8    |10   |4    |36   |16   |7    |27   |27   |8    |21   |14   |15   |15   |6    |2   |8    |18   |9    |10  |23  |16  |1    |5    |2   |8    |2    |8    |5   |16  |2    |3    |4   |6    |4    |2    |2    |8    |5    |5   |2    |4    |1    |9    |2    |7   |2    |1    |2    |6    |1    |2    |1    |2   |3    |6853                       |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Occupation
+#' @family Occupation
+#' 
+#' @keywords variable
+#' @md
+#' @name isco68
+NULL
+
+
+#'  R's father's occupation, 1970 census
+#' 
+#'  paisco68
+#' 
+#' Question Occupation of respondent's father (International Standard Classification Codes-1968)
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * 
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -658,39 +638,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #'  |1989 |A/B/C   |full         |
 #'  |1990 |A/B/C   |full         |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Occupation
-#' @family Occupation
 #' 
-#' @keywords variable
-#' @md
-#' @name isco68
-NULL
-
-
-#'  R's father's occupation, 1970 census
-#' 
-#'  paisco68
-#' 
-#' Question Occupation of respondent's father (International Standard Classification Codes-1968)
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5469/vshow).
 #'
@@ -734,6 +682,28 @@ NULL
 #'  |2022  |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-   |-   |-   |-   |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-     |-   |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |3544                       |3544  |
 #'  |2024  |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-   |-   |-   |-   |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-     |-   |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |3309                       |3309  |
 #'  |Total |45  |175  |94   |8    |3   |94   |84   |44   |54   |159  |31   |10   |20   |14   |22   |14   |8    |10   |26  |91   |2286 |80  |105 |90  |31  |6   |9   |75  |58   |115  |36   |48  |3    |56   |11   |6    |74   |34   |6    |24   |14   |54   |23   |120  |4    |10   |69   |100  |109  |2    |15   |18  |29  |159  |23   |46   |28   |152  |99   |23   |23   |589  |35   |107  |24  |31   |205  |116  |32   |102  |87   |162  |5    |101  |17   |295  |10   |7    |32   |112 |4032 |451  |40  |25   |37  |696  |573  |28  |47   |53   |14   |22   |18   |13   |42   |10   |112  |9    |67   |9   |68   |4    |64   |22   |24   |10   |30   |17   |54   |65   |82   |20   |833  |43   |118  |232  |50   |305  |338  |145  |21   |28   |203  |35   |45   |6    |182  |200  |100  |21   |33   |22   |4    |8   |47   |6    |14   |179  |24   |156  |158  |31   |33   |632  |26   |8    |346  |84   |33   |173  |48   |85   |212  |53   |22   |72   |12   |63   |59   |64   |548  |201  |33   |5    |851  |34   |46546 |4   |8    |18   |4    |11   |48   |20   |33  |12  |26   |5   |28  |2    |7    |9    |15   |7    |2    |5    |8    |9    |66   |9    |14   |12  |3   |35   |8   |14   |9    |1    |12  |6    |41   |10   |5    |42   |7    |3    |11   |15   |6    |5   |6    |7    |3    |8    |15   |2    |3    |5    |7    |4   |3    |3   |17   |3   |5    |10   |29  |9    |3    |6    |1    |2    |1    |8    |4    |3    |2    |2    |29  |15  |5    |4    |9    |3    |1    |8   |4    |2    |5   |2    |9    |2   |4   |4    |1   |3    |2    |1    |2    |1    |1    |1   |2    |2    |1   |1    |6853                       |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Occupation
+#' @family Occupation
+#' 
+#' @keywords variable
+#' @md
+#' @name paisco68
+NULL
+
+
+#'  R's spouse's occupation, 1970 census
+#' 
+#'  spisco68
+#' 
+#' Question Occupation of respondent's spouse (International Standard Classification Codes-1968)
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * 
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -756,39 +726,7 @@ NULL
 #'  |1988 |A/B/C   |full         |
 #'  |1989 |A/B/C   |full         |
 #'  |1990 |A/B/C   |full         |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Occupation
-#' @family Occupation
 #' 
-#' @keywords variable
-#' @md
-#' @name paisco68
-NULL
-
-
-#'  R's spouse's occupation, 1970 census
-#' 
-#'  spisco68
-#' 
-#' Question Occupation of respondent's spouse (International Standard Classification Codes-1968)
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5470/vshow).
 #'
@@ -832,28 +770,6 @@ NULL
 #'  |2022  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-   |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-   |-   |-   |-    |-   |-    |-   |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-     |-   |-   |-    |-    |-    |-    |-    |-   |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |3544                       |3544  |
 #'  |2024  |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-   |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-   |-   |-   |-    |-   |-    |-   |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-     |-   |-   |-    |-    |-    |-    |-    |-   |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |3309                       |3309  |
 #'  |Total |24  |159  |71   |96   |221  |307  |52   |55   |42   |27   |23   |20   |9    |4    |31   |12   |109  |20   |12   |13  |84   |1113 |36  |52  |41  |25  |109  |80   |39   |39  |119  |612  |48   |259  |168  |69   |44   |58   |81   |38  |36   |61   |6    |16   |60   |11   |63   |52  |87   |88   |84   |19   |34   |341  |9    |19   |21  |6   |156  |27   |41   |6    |8    |106  |75   |14   |31   |632  |25   |79   |13  |48   |18  |244  |22   |38   |55  |92   |78   |21   |179  |220  |34   |129  |37   |69   |70   |10   |177  |6    |9    |6    |49  |276  |37  |77   |35  |1   |14  |292  |292 |80   |213 |13   |2    |16   |14   |6   |24   |12  |51   |15   |3    |42   |202  |27   |11   |24   |2    |473  |28   |70  |76   |96   |21   |12   |176  |30   |174  |177  |17   |41   |79   |34   |39   |10   |75   |116  |47   |23   |14   |1    |17  |21   |29   |4    |11   |59   |158  |28   |15   |20   |195  |4    |9    |17   |119  |21   |105  |94   |37   |95   |51   |14   |20   |18   |52   |279  |91   |5    |16   |299  |12   |54282 |6   |4   |49   |17   |3    |15   |19   |33  |8   |18  |2    |10   |6    |11   |3    |4    |8    |6    |1    |19  |13   |9    |18   |14   |15   |9    |3   |31  |5    |1    |11   |12   |17   |6    |6    |11   |4   |4    |12   |22   |13   |19  |10   |7    |12   |7    |14  |4    |6    |2    |38  |1    |9    |10   |3    |2    |1    |11   |2    |14   |17   |2    |6    |4    |7    |4    |6    |1    |9    |2   |2    |5    |7   |1    |1    |3    |3   |4    |1    |3    |3    |4    |1    |3    |4    |2    |4    |4    |2    |1    |3    |3   |3    |5    |1    |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-   |full         |
-#'  |1973 |-/-/-   |full         |
-#'  |1974 |-/-/-   |full         |
-#'  |1975 |-/-/-   |full         |
-#'  |1976 |-/-/-   |full         |
-#'  |1977 |-/-/-   |full         |
-#'  |1978 |-/-/-   |full         |
-#'  |1980 |-/-/-   |full         |
-#'  |1982 |-/-/-   |full         |
-#'  |1983 |-/-/-   |full         |
-#'  |1984 |-/-/-   |full         |
-#'  |1985 |-/-/-   |full         |
-#'  |1986 |-/-/-   |full         |
-#'  |1987 |-/-/-   |full         |
-#'  |1988 |A/B/C   |full         |
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
@@ -874,19 +790,28 @@ NULL
 #' 
 #' @section Values: 
 #' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * 
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5471/vshow).
 #'
@@ -930,25 +855,6 @@ NULL
 #'  |2022  |-     |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-   |-   |-   |-   |-   |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-   |-    |-    |-   |-    |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-   |-   |-   |-    |-    |-    |-   |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |3544                       |3544  |
 #'  |2024  |-     |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-   |-   |-   |-   |-   |-   |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-   |-    |-    |-   |-    |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-   |-   |-   |-    |-    |-    |-   |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |3309                       |3309  |
 #'  |Total |37407 |31  |351  |258  |253  |371  |695  |110  |49   |183  |106  |68  |81   |21   |33   |108  |56   |83   |159  |56   |11   |47   |25   |10   |73   |66   |20   |276  |204  |121  |164  |53  |131  |2640 |34   |68  |113 |76  |25  |4   |86  |89  |178  |10  |78   |60  |969  |91   |121  |648  |111  |424  |72   |47   |144 |39   |66   |9    |176  |15   |135  |77   |91   |55  |158  |132  |179  |414  |231  |71   |48   |358  |6    |37  |1   |713  |105  |8    |285  |103  |192  |218  |86   |160  |201  |87   |920  |38   |98   |16   |12   |26  |244  |18  |160  |78   |405  |49   |97   |86   |466  |128 |198  |396  |118 |532  |57   |242  |111  |14   |241  |18   |71   |144  |207  |56   |162  |131  |32   |48   |626  |49   |124 |223  |16   |188 |146  |140  |43  |1    |20   |71  |19   |35  |26  |524  |738 |14   |36   |10   |32   |26   |14   |32   |19   |16  |49   |47   |43   |15   |212  |26   |33   |10   |24   |15   |389 |35   |479  |28   |6    |12   |206  |48   |147 |113  |284  |67   |227  |80   |116  |23   |158  |59   |21   |5    |135  |157  |74   |22   |13   |21   |31   |12   |14   |100  |22   |94   |38   |31   |61   |193  |64   |19   |50   |731  |7    |6    |156  |112  |120  |178  |8    |24   |30   |230  |17   |128  |597  |57   |22   |13   |328  |9    |36   |32   |11   |4   |35   |3    |42   |18   |20   |6    |29   |7    |9    |7   |37  |21   |77  |17   |16   |3    |19   |2    |6    |25   |17   |23   |62  |11   |12   |11   |10   |2    |11   |13   |9    |4    |31  |10   |13  |1    |31   |11  |8    |1    |5    |8   |5    |7    |10   |5    |9   |10  |2   |4    |1    |7    |4   |8    |5    |3   |6    |6    |16  |5    |2    |6    |1    |4    |1    |1    |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1988 |A/B/C/- |full         |
-#'  |1989 |A/B/C/- |full         |
-#'  |1990 |A/B/C/- |full         |
-#'  |1991 |A/B/C/- |full         |
-#'  |1993 |A/B/C/- |full         |
-#'  |1994 |A/B/C/- |full         |
-#'  |1996 |A/B/C/- |full         |
-#'  |1998 |A/B/C/- |full         |
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation
@@ -969,19 +875,28 @@ NULL
 #' 
 #' @section Values: 
 #' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * 
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5472/vshow).
 #'
@@ -1025,25 +940,6 @@ NULL
 #'  |2022  |-     |-   |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-   |-    |3544                       |3544  |
 #'  |2024  |-     |-   |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-   |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-    |-    |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-    |-    |-   |-    |-    |-    |-    |-   |-    |-   |-    |-    |-    |-    |-    |-   |-    |3309                       |3309  |
 #'  |Total |43333 |60  |265  |14  |171  |7   |156  |193  |129  |197  |29   |22   |12   |17   |43   |57   |48   |166  |9    |15   |47  |67   |2192 |161 |213 |164 |67  |106 |97  |43   |97   |60  |14   |8    |55   |51  |28   |105  |86   |80   |159  |30  |59   |46   |32   |58   |6    |52   |19   |841  |74   |19   |365  |38   |53   |98   |215  |15   |18   |434  |98   |30   |74   |29  |101  |16  |322  |31   |48   |66   |125  |198  |142  |31   |419  |21   |9    |16   |103  |182 |2845 |21   |452  |10   |128  |57  |11   |108  |60   |43  |988  |49   |8    |211  |36   |10   |4    |41   |5    |74   |47   |30   |15   |21   |128  |54   |14  |42   |45   |36   |10   |27   |13   |20   |74  |8    |134  |27   |622  |26   |17   |405  |54   |183  |233  |53   |439  |70   |66   |30   |314  |103  |224  |247  |84   |50   |56   |10   |96   |19  |23   |84   |166  |35   |37   |56   |97   |149  |26   |38   |24   |1253 |8    |7    |416  |84   |31   |51   |68   |48   |229  |34   |78   |80   |963  |87   |58   |9    |656  |32   |11  |41   |1    |33  |17   |47   |24   |25   |3    |4    |19   |14  |8   |2    |65  |31   |14   |8    |28   |26   |10   |5    |22   |6    |21  |8    |1   |10  |11   |23   |5    |14   |11   |41   |18   |13   |4    |44   |7    |4    |11  |10   |4    |3    |9    |21   |9    |23   |6   |23  |10  |62  |15   |30   |10   |7    |10   |4    |5    |17  |17   |13   |3    |11   |13   |15   |2   |3    |20   |6   |5    |7    |7    |10   |5    |6    |4    |7    |9    |6    |11   |6    |6    |2    |5   |5    |5    |3    |6   |5    |3    |3    |6    |2   |1    |2   |1    |2    |1    |1    |1    |1   |1    |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1988 |A/B/C   |full         |
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
-#'  |1991 |A/B/C   |full         |
-#'  |1993 |A/B/C   |full         |
-#'  |1994 |A/B/C   |full         |
-#'  |1996 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
-#'  |2000 |A/B/C   |full         |
-#'  |2002 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Occupation

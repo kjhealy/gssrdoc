@@ -105,20 +105,7 @@
 #'   * `202` 4+adlts,2mar,1+kids
 #'   * `203` 4+adlts,3mar,1+kids
 #'   * `204` 4+adlts,4+mar,1+kids
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
-#'
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -155,6 +142,8 @@
 #'  |2018 |A/B/C/- |full         |
 #'  |2021 |A/B/C/- |full         |
 #'  |2022 |A/B/C/- |full         |
+#' 
+#'
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
@@ -187,19 +176,45 @@ NULL
 #'   * `15` cohabitating couple with children
 #'   * `16` non-family with children
 #'   * `18` unsure with children
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5434/vshow).
 #'
@@ -243,6 +258,35 @@ NULL
 #'  |2022  |1764 |43                                |82                               |300                          |451                         |13        |12                       |28                      |47                         |80                        |594          |91            |28                   |11                  |-                             |3544  |
 #'  |2024  |-    |-                                 |-                                |-                            |-                           |-         |-                        |-                       |-                          |-                         |-            |-             |-                    |-                   |3309                          |3309  |
 #'  |Total |7120 |936                               |1812                             |15524                        |18809                       |1005      |136                      |1240                    |1377                       |2857                      |16312        |3900          |490                  |872                 |3309                          |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Household Members and Structure
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name hhtype1
+NULL
+
+
+#'  Number of family generations in household
+#' 
+#'  famgen
+#' 
+#' Question Number of family generations in household. 
+#'  As of 2024, FAMGEN has been recoded to only account for 3+ generations. This has been retroactively applied to all previous years of FAMGEN. The original FAMGEN containing data 1975 to 2022 has been renamed FAMGEN_7522.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` one generation
+#'   * `2` two generations, children
+#'   * `3` two generations, parents
+#'   * `4` two generations, grandchild(ren)
+#'   * `5` three generations, child(ren), grandchildren
+#'   * `6` three generations, child(ren), parent
+#'   * `7` four generations
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -280,47 +324,7 @@ NULL
 #'  |2021 |A/B/C/- |full         |
 #'  |2022 |A/B/C/- |full         |
 #'  |2024 |A/B/C/- |full         |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Household Members and Structure
-#' @family Household
 #' 
-#' @keywords variable
-#' @md
-#' @name hhtype1
-NULL
-
-
-#'  Number of family generations in household
-#' 
-#'  famgen
-#' 
-#' Question Number of family generations in household. 
-#'  As of 2024, FAMGEN has been recoded to only account for 3+ generations. This has been retroactively applied to all previous years of FAMGEN. The original FAMGEN containing data 1975 to 2022 has been renamed FAMGEN_7522.
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` one generation
-#'   * `2` two generations, children
-#'   * `3` two generations, parents
-#'   * `4` two generations, grandchild(ren)
-#'   * `5` three generations, child(ren), grandchildren
-#'   * `6` three generations, child(ren), parent
-#'   * `7` four generations
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5435/vshow).
 #'
@@ -364,6 +368,36 @@ NULL
 #'  |2022  |1764 |4                |1168           |15                                           |23                                    |515                       |16                               |39                       |-                          |3544  |
 #'  |2024  |-    |-                |-              |-                                            |-                                     |-                         |-                                |-                        |3309                       |3309  |
 #'  |Total |7120 |32               |36836          |1059                                         |556                                   |25741                     |461                              |585                      |3309                       |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Household Members and Structure
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name famgen
+NULL
+
+
+#'  R's relationship to household head
+#' 
+#'  rplace
+#' 
+#' Question Respondent's relationship to household head. 
+#'  As of 2024, RPLACE has been recoded to only account for five categories, combining son/daughter-in-law, grand/great-grandchild, and parent/parent-in-law into the "Other relative" category. This has been retroactively applied to all previous years of RPLACE. The original RPLACE containing data 1975 to 2022 has been renamed RPLACE_7522.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` head of household
+#'   * `2` spouse
+#'   * `3` child (natural, adopted, step)
+#'   * `4` son-/daughter-in-law
+#'   * `5` grand/great-grandchild
+#'   * `6` parent/parent-in-law
+#'   * `7` other relative
+#'   * `8` non-relative
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -401,48 +435,7 @@ NULL
 #'  |2021 |A/B/C/- |full         |
 #'  |2022 |A/B/C/- |full         |
 #'  |2024 |A/B/C/- |full         |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Household Members and Structure
-#' @family Household
 #' 
-#' @keywords variable
-#' @md
-#' @name famgen
-NULL
-
-
-#'  R's relationship to household head
-#' 
-#'  rplace
-#' 
-#' Question Respondent's relationship to household head. 
-#'  As of 2024, RPLACE has been recoded to only account for five categories, combining son/daughter-in-law, grand/great-grandchild, and parent/parent-in-law into the "Other relative" category. This has been retroactively applied to all previous years of RPLACE. The original RPLACE containing data 1975 to 2022 has been renamed RPLACE_7522.
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` head of household
-#'   * `2` spouse
-#'   * `3` child (natural, adopted, step)
-#'   * `4` son-/daughter-in-law
-#'   * `5` grand/great-grandchild
-#'   * `6` parent/parent-in-law
-#'   * `7` other relative
-#'   * `8` non-relative
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5436/vshow).
 #'
@@ -486,6 +479,29 @@ NULL
 #'  |2022  |-                          |92                             |1361              |19        |79           |20             |14                   |6                    |184    |3                      |1764 |2              |3544  |
 #'  |2024  |3309                       |-                              |-                 |-         |-            |-              |-                    |-                    |-      |-                      |-    |-              |3309  |
 #'  |Total |7910                       |3647                           |42290             |2042      |2290         |723            |263                  |95                   |14527  |121                    |1774 |17             |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Household Members and Structure
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name rplace
+NULL
+
+
+#'  Is r a visitor?
+#' 
+#'  rvisitor
+#' 
+#' Question Is respondent a visitor?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` r is household member
+#'   * `2` r is visitor
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -522,42 +538,7 @@ NULL
 #'  |2018 |A/B/C/- |full         |
 #'  |2021 |A/B/C/- |full         |
 #'  |2022 |A/B/C/- |full         |
-#'  |2024 |A/B/C/- |full         |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Household Members and Structure
-#' @family Household
 #' 
-#' @keywords variable
-#' @md
-#' @name rplace
-NULL
-
-
-#'  Is r a visitor?
-#' 
-#'  rvisitor
-#' 
-#' Question Is respondent a visitor?
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` r is household member
-#'   * `2` r is visitor
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5437/vshow).
 #'
@@ -601,6 +582,32 @@ NULL
 #'  |2022  |-    |3535                  |9            |-         |-                          |3544  |
 #'  |2024  |-    |-                     |-            |-         |3309                       |3309  |
 #'  |Total |5356 |66910                 |119          |5         |3309                       |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Household Members and Structure
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name rvisitor
+NULL
+
+
+#'  Number of visitor's in household
+#' 
+#'  visitors
+#' 
+#' Question Number of visitors in household.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` no visitors
+#'   * `1` 1 visitor
+#'   * `2` 2 visitors
+#'   * `3` 3 visitors
+#'   * `4` 4 visitors
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -637,44 +644,8 @@ NULL
 #'  |2018 |A/B/C/- |full         |
 #'  |2021 |A/B/C/- |full         |
 #'  |2022 |A/B/C/- |full         |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Household Members and Structure
-#' @family Household
+#'  |2024 |A/B/C/- |full         |
 #' 
-#' @keywords variable
-#' @md
-#' @name rvisitor
-NULL
-
-
-#'  Number of visitor's in household
-#' 
-#'  visitors
-#' 
-#' Question Number of visitors in household.
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `0` no visitors
-#'   * `1` 1 visitor
-#'   * `2` 2 visitors
-#'   * `3` 3 visitors
-#'   * `4` 4 visitors
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5438/vshow).
 #'
@@ -718,43 +689,6 @@ NULL
 #'  |2022  |-    |33        |2          |1          |3508        |-          |-                          |3544  |
 #'  |2024  |-    |-         |-          |-          |-           |-          |3309                       |3309  |
 #'  |Total |5356 |599       |142        |21         |66242       |30         |3309                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1975 |-/-/-/- |full         |
-#'  |1976 |-/-/-/- |full         |
-#'  |1977 |-/-/-/- |full         |
-#'  |1978 |-/-/-/- |full         |
-#'  |1980 |-/-/-/- |full         |
-#'  |1982 |-/-/-/- |full         |
-#'  |1983 |-/-/-/- |full         |
-#'  |1984 |-/-/-/- |full         |
-#'  |1985 |-/-/-/- |full         |
-#'  |1986 |-/-/-/- |full         |
-#'  |1987 |-/-/-/- |full         |
-#'  |1988 |A/B/C/- |full         |
-#'  |1989 |A/B/C/- |full         |
-#'  |1990 |A/B/C/- |full         |
-#'  |1991 |A/B/C/- |full         |
-#'  |1993 |A/B/C/- |full         |
-#'  |1994 |A/B/C/- |full         |
-#'  |1996 |A/B/C/- |full         |
-#'  |1998 |A/B/C/- |full         |
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
-#'  |2022 |A/B/C/- |full         |
-#'  |2024 |A/B/C/- |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
@@ -798,19 +732,24 @@ NULL
 #'   * `41` natural/biological child
 #'   * `42` adopted child
 #'   * `43` stepchild
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5439/vshow).
 #'
@@ -854,22 +793,6 @@ NULL
 #'  |2022  |1779  |1765              |-                             |3544  |
 #'  |2024  |-     |-                 |3309                          |3309  |
 #'  |Total |40106 |32284             |3309                          |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
@@ -913,19 +836,24 @@ NULL
 #'   * `41` natural/biological child
 #'   * `42` adopted child
 #'   * `43` stepchild
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5440/vshow).
 #'
@@ -969,22 +897,6 @@ NULL
 #'  |2022  |2378  |7             |17                                            |5                    |2      |15     |5                            |5                              |150                      |3               |4         |-                                             |24     |1             |165                                             |19                  |1              |1                           |726    |1         |1             |2                     |-          |8                                      |4              |-                             |3544  |
 #'  |2024  |-     |-             |-                                             |-                    |-      |-      |-                            |-                              |-                        |-               |-         |-                                             |-      |-             |-                                               |-                   |-              |-                           |-      |-         |-             |-                     |-          |-                                      |-              |3309                          |3309  |
 #'  |Total |49755 |28            |298                                           |1337                 |34     |152    |136                          |13                             |1697                     |66              |54        |3                                             |226    |6             |2516                                            |587                 |14             |49                          |15264  |18        |13            |7                     |25         |47                                     |45             |3309                          |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
@@ -1028,19 +940,24 @@ NULL
 #'   * `41` natural/biological child
 #'   * `42` adopted child
 #'   * `43` stepchild
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5441/vshow).
 #'
@@ -1084,22 +1001,6 @@ NULL
 #'  |2022  |2985  |14            |13                                            |3                     |3                    |1      |-          |6      |11                           |6                              |408                      |4               |3         |8                                      |3                                             |17     |10            |14                  |3              |7                           |22        |1             |1                                               |1              |-                             |3544  |
 #'  |2024  |-     |-             |-                                             |-                     |-                    |-      |-          |-      |-                            |-                              |-                        |-               |-         |-                                      |-                                             |-      |-             |-                   |-              |-                           |-         |-             |-                                               |-              |3309                          |3309  |
 #'  |Total |60503 |120           |183                                           |97                    |3672                 |28     |16         |127    |373                          |30                             |5581                     |85              |81        |86                                     |47                                            |244    |97            |360                 |72             |98                          |406       |32            |34                                              |18             |3309                          |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure
@@ -1143,19 +1044,24 @@ NULL
 #'   * `41` natural/biological child
 #'   * `42` adopted child
 #'   * `43` stepchild
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5442/vshow).
 #'
@@ -1199,22 +1105,6 @@ NULL
 #'  |2022  |3210  |4             |9                                             |4                     |1                    |2      |5      |9                            |2                              |256                      |1               |1         |3                                      |3                                             |5      |2             |7                   |1              |5                           |11        |-             |-          |1                                               |2              |-                             |3544  |
 #'  |2024  |-     |-             |-                                             |-                     |-                    |-      |-      |-                            |-                              |-                        |-               |-         |-                                      |-                                             |-      |-             |-                   |-              |-                           |-         |-             |-          |-                                               |-              |3309                          |3309  |
 #'  |Total |65596 |64            |74                                            |51                    |2118                 |12     |51     |355                          |8                              |3301                     |57              |46        |48                                     |18                                            |58     |26            |154                 |29             |91                          |187       |15            |10         |11                                              |10             |3309                          |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Household Members and Structure

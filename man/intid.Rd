@@ -19,6 +19,22 @@ Question No question asked; assigned administratively
 \itemize{
 \item 
 }
+\item 
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2004 \tab A/B/C/- \tab full \cr
+   2006 \tab A/B/C/D \tab full \cr
+   2008 \tab A/B/C/- \tab full \cr
+   2010 \tab A/B/C/- \tab full \cr
+   2012 \tab A/B/C/- \tab full \cr
+   2014 \tab A/B/C/- \tab full \cr
+   2016 \tab A/B/C/- \tab full \cr
+   2018 \tab A/B/C/- \tab full \cr
+   2022 \tab A/B/C/- \tab full \cr
 }
 }
 
@@ -64,21 +80,6 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
    2022 \tab 1638 \tab 56 \tab 14 \tab 10 \tab 9 \tab 1 \tab 2 \tab 1 \tab 3 \tab 4 \tab 5 \tab 1 \tab 2 \tab 33 \tab 3 \tab 9 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 12 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 18 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 5 \tab 38 \tab 23 \tab 4 \tab 25 \tab 46 \tab 55 \tab 8 \tab 13 \tab 31 \tab 4 \tab 41 \tab 5 \tab 3 \tab 14 \tab 7 \tab 24 \tab 14 \tab 36 \tab 10 \tab 19 \tab 1 \tab 24 \tab 28 \tab 4 \tab 30 \tab 15 \tab 2 \tab 37 \tab 4 \tab 33 \tab 20 \tab 35 \tab 12 \tab 36 \tab 18 \tab 19 \tab 41 \tab 29 \tab 17 \tab 7 \tab 76 \tab 2 \tab 18 \tab 1 \tab 21 \tab 2 \tab 9 \tab 54 \tab 34 \tab 61 \tab 25 \tab 21 \tab 14 \tab 22 \tab 28 \tab 11 \tab 4 \tab 17 \tab 3 \tab 3 \tab 18 \tab 3 \tab 9 \tab 20 \tab 7 \tab 28 \tab 5 \tab 1 \tab 1 \tab 28 \tab 35 \tab 58 \tab 6 \tab 2 \tab 4 \tab 10 \tab 2 \tab 2 \tab 23 \tab 1 \tab 22 \tab 11 \tab 42 \tab 6 \tab 12 \tab 4 \tab 1 \tab 19 \tab 17 \tab 13 \tab 11 \tab 18 \tab 21 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
    2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
    Total \tab 45336 \tab 284 \tab 152 \tab 142 \tab 235 \tab 116 \tab 158 \tab 160 \tab 166 \tab 175 \tab 161 \tab 174 \tab 135 \tab 163 \tab 105 \tab 175 \tab 123 \tab 125 \tab 173 \tab 152 \tab 140 \tab 94 \tab 112 \tab 204 \tab 151 \tab 70 \tab 60 \tab 102 \tab 82 \tab 263 \tab 159 \tab 151 \tab 122 \tab 222 \tab 168 \tab 105 \tab 106 \tab 196 \tab 213 \tab 143 \tab 103 \tab 83 \tab 93 \tab 62 \tab 57 \tab 175 \tab 90 \tab 179 \tab 141 \tab 122 \tab 125 \tab 161 \tab 147 \tab 100 \tab 228 \tab 136 \tab 121 \tab 193 \tab 111 \tab 88 \tab 188 \tab 140 \tab 141 \tab 141 \tab 119 \tab 76 \tab 143 \tab 215 \tab 152 \tab 161 \tab 101 \tab 153 \tab 220 \tab 53 \tab 192 \tab 206 \tab 164 \tab 97 \tab 196 \tab 141 \tab 104 \tab 143 \tab 121 \tab 124 \tab 239 \tab 168 \tab 144 \tab 232 \tab 144 \tab 84 \tab 168 \tab 142 \tab 103 \tab 102 \tab 156 \tab 158 \tab 330 \tab 154 \tab 142 \tab 110 \tab 129 \tab 124 \tab 155 \tab 179 \tab 122 \tab 102 \tab 104 \tab 147 \tab 200 \tab 106 \tab 206 \tab 180 \tab 110 \tab 105 \tab 100 \tab 120 \tab 84 \tab 142 \tab 244 \tab 167 \tab 195 \tab 153 \tab 179 \tab 115 \tab 119 \tab 92 \tab 114 \tab 134 \tab 133 \tab 263 \tab 101 \tab 133 \tab 234 \tab 126 \tab 168 \tab 226 \tab 188 \tab 227 \tab 193 \tab 86 \tab 90 \tab 83 \tab 52 \tab 48 \tab 76 \tab 45 \tab 50 \tab 32 \tab 86 \tab 35 \tab 82 \tab 83 \tab 21 \tab 55 \tab 20 \tab 53 \tab 63 \tab 50 \tab 58 \tab 54 \tab 26 \tab 38 \tab 24 \tab 12 \tab 22 \tab 15 \tab 22 \tab 63 \tab 25 \tab 20 \tab 29 \tab 28 \tab 32 \tab 97 \tab 47 \tab 92 \tab 62 \tab 49 \tab 86 \tab 38 \tab 18 \tab 10 \tab 18 \tab 25 \tab 2 \tab 14 \tab 10 \tab 2 \tab 33 \tab 6 \tab 5 \tab 12 \tab 13 \tab 9 \tab 10 \tab 1 \tab 26 \tab 12 \tab 16 \tab 12 \tab 4 \tab 50 \tab 15 \tab 5 \tab 2 \tab 10 \tab 5 \tab 48 \tab 1 \tab 4 \tab 4 \tab 12 \tab 5 \tab 18 \tab 4 \tab 8 \tab 6 \tab 22 \tab 3 \tab 2 \tab 6 \tab 5 \tab 7 \tab 1 \tab 4 \tab 1 \tab 15 \tab 14 \tab 7341 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2004 \tab A/B/C/- \tab full \cr
-   2006 \tab A/B/C/D \tab full \cr
-   2008 \tab A/B/C/- \tab full \cr
-   2010 \tab A/B/C/- \tab full \cr
-   2012 \tab A/B/C/- \tab full \cr
-   2014 \tab A/B/C/- \tab full \cr
-   2016 \tab A/B/C/- \tab full \cr
-   2018 \tab A/B/C/- \tab full \cr
-   2022 \tab A/B/C/- \tab full \cr
 }
 }
 

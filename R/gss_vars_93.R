@@ -12,19 +12,14 @@
 #'   * `1` very important
 #'   * `2` somewhat important
 #'   * `3` not obligation
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-       |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/840/vshow).
 #'
@@ -68,12 +63,6 @@
 #'  |2022  |-     |-          |-         |-              |-                  |-              |3544                       |3544  |
 #'  |2024  |-     |-          |-         |-              |-                  |-              |3309                       |3309  |
 #'  |Total |67373 |18         |23        |256            |700                |476            |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -99,19 +88,14 @@ NULL
 #'   * `1` very important
 #'   * `2` somewhat important
 #'   * `3` not obligation
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-       |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/841/vshow).
 #'
@@ -155,12 +139,6 @@ NULL
 #'  |2022  |-     |-          |-         |-              |-                  |-              |3544                       |3544  |
 #'  |2024  |-     |-          |-         |-              |-                  |-              |3309                       |3309  |
 #'  |Total |67373 |12         |21        |34             |198                |1208           |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -186,19 +164,14 @@ NULL
 #'   * `1` very important
 #'   * `2` somewhat important
 #'   * `3` not obligation
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-       |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/842/vshow).
 #'
@@ -242,12 +215,6 @@ NULL
 #'  |2022  |-     |-          |-         |-              |-                  |-              |3544                       |3544  |
 #'  |2024  |-     |-          |-         |-              |-                  |-              |3309                       |3309  |
 #'  |Total |67373 |20         |23        |449            |725                |256            |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -273,19 +240,14 @@ NULL
 #'   * `1` very important
 #'   * `2` somewhat important
 #'   * `3` not obligation
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-       |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/843/vshow).
 #'
@@ -329,12 +291,6 @@ NULL
 #'  |2022  |-     |-          |-         |-              |-                  |-              |3544                       |3544  |
 #'  |2024  |-     |-          |-         |-              |-                  |-              |3309                       |3309  |
 #'  |Total |67373 |16         |26        |237            |531                |663            |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -359,19 +315,39 @@ NULL
 #'   * `1` government should help
 #'   * `3` agree with both
 #'   * `5` people should care for themselves
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1975 |-/-     |full         |
+#'  |1983 |-/-     |full         |
+#'  |1984 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |B/C     |partial      |
+#'  |1989 |B/C     |partial      |
+#'  |1990 |B/C     |partial      |
+#'  |1991 |B/C     |partial      |
+#'  |1993 |B/C     |partial      |
+#'  |1994 |B/C     |partial      |
+#'  |1996 |B/C     |partial      |
+#'  |1998 |B/C     |partial      |
+#'  |2000 |B/C     |partial      |
+#'  |2002 |B/C     |partial      |
+#'  |2004 |B/C     |partial      |
+#'  |2006 |B/C     |partial      |
+#'  |2008 |B/C     |partial      |
+#'  |2010 |B/C     |partial      |
+#'  |2012 |B/C     |partial      |
+#'  |2014 |B/C     |partial      |
+#'  |2016 |B/C     |partial      |
+#'  |2018 |B/C     |partial      |
+#'  |2021 |B/C     |partial      |
+#'  |2022 |B/C     |partial      |
+#'  |2024 |B/C     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/844/vshow).
 #'
@@ -415,6 +391,33 @@ NULL
 #'  |2022  |1174  |270  |236  |922             |34         |652                    |242                               |7         |7              |3544  |
 #'  |2024  |1116  |247  |194  |913             |44         |577                    |198                               |4         |16             |3309  |
 #'  |Total |34817 |5054 |5384 |17332           |1035       |7589                   |4339                              |110       |39             |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Federal Government
+#' @family Inequality, Income
+#' 
+#' @keywords variable
+#' @md
+#' @name helppoor
+NULL
+
+
+#'  Should govt do more or less?
+#' 
+#'  helpnot
+#' 
+#' Question Now look at CARD BD. Some people think that the government in Washington is trying to do too many things that should be left to individuals and private businesses. Others disagree and think that the government should Do even 
+#' more to solve our country's problems. Still others have opinions somewhere in between.
+#' A. Where would you place yourself on this scale, or haven't you made up your mind on this?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` government should do more
+#'   * `3` agree with both
+#'   * `5` government does too much
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -446,45 +449,7 @@ NULL
 #'  |2021 |B/C     |partial      |
 #'  |2022 |B/C     |partial      |
 #'  |2024 |B/C     |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Federal Government
-#' @family Inequality, Income
 #' 
-#' @keywords variable
-#' @md
-#' @name helppoor
-NULL
-
-
-#'  Should govt do more or less?
-#' 
-#'  helpnot
-#' 
-#' Question Now look at CARD BD. Some people think that the government in Washington is trying to do too many things that should be left to individuals and private businesses. Others disagree and think that the government should Do even 
-#' more to solve our country's problems. Still others have opinions somewhere in between.
-#' A. Where would you place yourself on this scale, or haven't you made up your mind on this?
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` government should do more
-#'   * `3` agree with both
-#'   * `5` government does too much
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/845/vshow).
 #'
@@ -528,6 +493,31 @@ NULL
 #'  |2022  |1174  |260  |255  |906             |71         |335                      |520                       |7         |16             |3544  |
 #'  |2024  |1116  |238  |221  |879             |60         |320                      |448                       |3         |24             |3309  |
 #'  |Total |34821 |5008 |5860 |15658           |1793       |6004                     |6351                      |128       |76             |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Federal Government
+#' 
+#' @keywords variable
+#' @md
+#' @name helpnot
+NULL
+
+
+#'  Should govt help pay for medical care?
+#' 
+#'  helpsick
+#' 
+#' Question Look at CARD BE. In general, some people think that it is the responsibility of the government in Washington to see to it that people have help in paying for doctors and hospital bills. Others think that these matters are not the responsibility of the federal government and that people should take care of these things themselves.
+#' A. Where would you place yourself on this scale, or haven't you made up your mind on this? 
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` government should help
+#'   * `3` agree with both
+#'   * `5` people should care for themselves
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -558,44 +548,7 @@ NULL
 #'  |2018 |B/C     |partial      |
 #'  |2021 |B/C     |partial      |
 #'  |2022 |B/C     |partial      |
-#'  |2024 |B/C     |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Federal Government
 #' 
-#' @keywords variable
-#' @md
-#' @name helpnot
-NULL
-
-
-#'  Should govt help pay for medical care?
-#' 
-#'  helpsick
-#' 
-#' Question Look at CARD BE. In general, some people think that it is the responsibility of the government in Washington to see to it that people have help in paying for doctors and hospital bills. Others think that these matters are not the responsibility of the federal government and that people should take care of these things themselves.
-#' A. Where would you place yourself on this scale, or haven't you made up your mind on this? 
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` government should help
-#'   * `3` agree with both
-#'   * `5` people should care for themselves
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/846/vshow).
 #'
@@ -639,36 +592,6 @@ NULL
 #'  |2022  |1174  |381  |140  |687             |33         |949                    |4         |166                               |10             |3544  |
 #'  |2024  |1116  |347  |144  |686             |31         |820                    |3         |141                               |21             |3309  |
 #'  |Total |34821 |7809 |3695 |12649           |894        |12454                  |132       |3191                              |54             |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1975 |-/-     |full         |
-#'  |1983 |-/-     |full         |
-#'  |1984 |-/-     |full         |
-#'  |1986 |-/-     |full         |
-#'  |1987 |-/-     |full         |
-#'  |1988 |B/C     |partial      |
-#'  |1989 |B/C     |partial      |
-#'  |1990 |B/C     |partial      |
-#'  |1991 |B/C     |partial      |
-#'  |1993 |B/C     |partial      |
-#'  |1994 |B/C     |partial      |
-#'  |1996 |B/C     |partial      |
-#'  |1998 |B/C     |partial      |
-#'  |2000 |B/C     |partial      |
-#'  |2002 |B/C     |partial      |
-#'  |2004 |B/C     |partial      |
-#'  |2006 |B/C     |partial      |
-#'  |2008 |B/C     |partial      |
-#'  |2010 |B/C     |partial      |
-#'  |2012 |B/C     |partial      |
-#'  |2014 |B/C     |partial      |
-#'  |2016 |B/C     |partial      |
-#'  |2018 |B/C     |partial      |
-#'  |2021 |B/C     |partial      |
-#'  |2022 |B/C     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -693,19 +616,39 @@ NULL
 #'   * `1` government should help
 #'   * `3` agree with both
 #'   * `5` no special treatment
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1975 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |B/C/-   |partial      |
+#'  |1989 |B/C/-   |partial      |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |B/C/-   |partial      |
+#'  |1993 |B/C/-   |partial      |
+#'  |1994 |B/C/-   |partial      |
+#'  |1996 |B/C/-   |partial      |
+#'  |1998 |B/C/-   |partial      |
+#'  |2000 |B/C/-   |partial      |
+#'  |2002 |B/C/-   |partial      |
+#'  |2004 |B/C/-   |partial      |
+#'  |2006 |B/C/-   |partial      |
+#'  |2008 |B/C/-   |partial      |
+#'  |2010 |B/C/-   |partial      |
+#'  |2012 |B/C/-   |partial      |
+#'  |2014 |B/C/-   |partial      |
+#'  |2016 |B/C/-   |partial      |
+#'  |2018 |B/C/-   |partial      |
+#'  |2021 |B/C/-   |partial      |
+#'  |2022 |B/C/-   |partial      |
+#'  |2024 |B/C/-   |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/847/vshow).
 #'
@@ -749,37 +692,6 @@ NULL
 #'  |2022  |1174  |287  |256  |707             |60         |498                    |13        |535                  |14             |3544  |
 #'  |2024  |1116  |244  |240  |676             |52         |410                    |12        |537                  |22             |3309  |
 #'  |Total |34353 |4097 |7122 |12222           |1219       |4787                   |191       |11638                |70             |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1975 |-/-/-   |full         |
-#'  |1983 |-/-/-   |full         |
-#'  |1984 |-/-/-   |full         |
-#'  |1986 |-/-/-   |full         |
-#'  |1987 |-/-/-   |full         |
-#'  |1988 |B/C/-   |partial      |
-#'  |1989 |B/C/-   |partial      |
-#'  |1990 |A/B/C   |full         |
-#'  |1991 |B/C/-   |partial      |
-#'  |1993 |B/C/-   |partial      |
-#'  |1994 |B/C/-   |partial      |
-#'  |1996 |B/C/-   |partial      |
-#'  |1998 |B/C/-   |partial      |
-#'  |2000 |B/C/-   |partial      |
-#'  |2002 |B/C/-   |partial      |
-#'  |2004 |B/C/-   |partial      |
-#'  |2006 |B/C/-   |partial      |
-#'  |2008 |B/C/-   |partial      |
-#'  |2010 |B/C/-   |partial      |
-#'  |2012 |B/C/-   |partial      |
-#'  |2014 |B/C/-   |partial      |
-#'  |2016 |B/C/-   |partial      |
-#'  |2018 |B/C/-   |partial      |
-#'  |2021 |B/C/-   |partial      |
-#'  |2022 |B/C/-   |partial      |
-#'  |2024 |B/C/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -804,19 +716,17 @@ NULL
 #' 
 #' @section Values: 
 #' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * 
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |2004 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/848/vshow).
 #'
@@ -860,14 +770,6 @@ NULL
 #'  |2022  |-     |-   |-   |-   |-    |-   |-   |-   |-         |3544                       |3544  |
 #'  |2024  |-     |-   |-   |-   |-    |-   |-   |-   |-         |3309                       |3309  |
 #'  |Total |64021 |590 |796 |848 |1402 |473 |443 |205 |68        |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1985 |-/-/-   |full         |
-#'  |1987 |-/-/-   |full         |
-#'  |2004 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
@@ -891,19 +793,15 @@ NULL
 #'   * `1` yes
 #'   * `2` no
 #'   * `7` refused
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-       |full         |
+#'  |1987 |-       |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/849/vshow).
 #'
@@ -947,13 +845,6 @@ NULL
 #'  |2022  |-     |-    |-         |-    |3544                       |3544  |
 #'  |2024  |-     |-    |-         |-    |3309                       |3309  |
 #'  |Total |66242 |1065 |76        |1463 |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1985 |-       |full         |
-#'  |1987 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks

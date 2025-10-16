@@ -19,18 +19,28 @@ D. Do people in these groups tend to be unintelligent or tend to be intelligent?
 \itemize{
 \item \code{1} 1-unintelligent
 \item \code{7} 7-intelligent
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1990 \tab A/B/C \tab full \cr
+   1996 \tab A/B/- \tab partial \cr
+   1998 \tab A/B/- \tab partial \cr
+   2000 \tab A/B/C \tab full \cr
+   2002 \tab A/B/- \tab partial \cr
+   2004 \tab A/B/- \tab partial \cr
+   2006 \tab A/B/- \tab partial \cr
+   2008 \tab A/B/- \tab partial \cr
+   2010 \tab A/B/- \tab partial \cr
+   2012 \tab A/B/- \tab partial \cr
+   2014 \tab A/B/- \tab partial \cr
+   2016 \tab A/B/- \tab partial \cr
+   2018 \tab A/B/- \tab partial \cr
+   2021 \tab A/B/- \tab partial \cr
+   2022 \tab A/B/- \tab partial \cr
 }
 }
 
@@ -76,27 +86,6 @@ Counts by year:\tabular{llllllllllllll}{
    2022 \tab 1168 \tab 16 \tab 29 \tab 162 \tab 1281 \tab 459 \tab 156 \tab 202 \tab 37 \tab 22 \tab 12 \tab - \tab 3544 \cr
    2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
    Total \tab 47766 \tab 216 \tab 696 \tab 2593 \tab 12801 \tab 4542 \tab 1712 \tab 1149 \tab 630 \tab 242 \tab 43 \tab 3309 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1990 \tab A/B/C \tab full \cr
-   1996 \tab A/B/- \tab partial \cr
-   1998 \tab A/B/- \tab partial \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/- \tab partial \cr
-   2004 \tab A/B/- \tab partial \cr
-   2006 \tab A/B/- \tab partial \cr
-   2008 \tab A/B/- \tab partial \cr
-   2010 \tab A/B/- \tab partial \cr
-   2012 \tab A/B/- \tab partial \cr
-   2014 \tab A/B/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
-   2022 \tab A/B/- \tab partial \cr
 }
 }
 

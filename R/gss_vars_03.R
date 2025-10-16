@@ -14,19 +14,41 @@
 #'   * `5` not found, no answer
 #'   * `6` not found, coded
 #'   * `7` not found, no code assigned
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5982/vshow).
 #'
@@ -70,6 +92,30 @@
 #'  |2022  |-            |-          |-                |-                |-              |-                           |-                    |-     |3544                       |3544  |
 #'  |2024  |-            |-          |-                |-                |-              |-                           |-                    |-     |3309                       |3309  |
 #'  |Total |47807        |2592       |324              |2948             |526            |863                         |27                   |13759 |6853                       |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name occstatus
+NULL
+
+
+#'  Occ10 coding tag
+#' 
+#'  occtag
+#' 
+#' Question OCC10 Coding Tag
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` found
+#'   * `2` not found, assigned
+#'   * `3` not found, not assigned
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -103,42 +149,7 @@
 #'  |2006 |A/B/C/D |full         |
 #'  |2008 |A/B/C/- |full         |
 #'  |2010 |A/B/C/- |full         |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
 #' 
-#' 
-#' @keywords variable
-#' @md
-#' @name occstatus
-NULL
-
-
-#'  Occ10 coding tag
-#' 
-#'  occtag
-#' 
-#' Question OCC10 Coding Tag
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` found
-#'   * `2` not found, assigned
-#'   * `3` not found, not assigned
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5983/vshow).
 #'
@@ -182,6 +193,28 @@ NULL
 #'  |2022  |-     |-                   |-                       |-     |3544                       |3544  |
 #'  |2024  |-     |-                   |-                       |-     |3309                       |3309  |
 #'  |Total |50723 |3501                |863                     |13759 |6853                       |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name occtag
+NULL
+
+
+#'  R's occupational prestige score (2010)
+#' 
+#'  prestg10
+#' 
+#' Question PRESTG10 is based on the 2010 Census occupation classification. This standard prestige score is a simple mean value of ratings for each occupation category, converted to a scale of 0 (bottom) to 100 (top).
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * 
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -215,39 +248,14 @@ NULL
 #'  |2006 |A/B/C/D |full         |
 #'  |2008 |A/B/C/- |full         |
 #'  |2010 |A/B/C/- |full         |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
 #' 
-#' 
-#' @keywords variable
-#' @md
-#' @name occtag
-NULL
-
-
-#'  R's occupational prestige score (2010)
-#' 
-#'  prestg10
-#' 
-#' Question PRESTG10 is based on the 2010 Census occupation classification. This standard prestige score is a simple mean value of ratings for each occupation category, converted to a scale of 0 (bottom) to 100 (top).
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5706/vshow).
 #'
@@ -291,6 +299,28 @@ NULL
 #'  |2022  |6   |11  |5   |5   |36  |21  |62   |99   |15  |17  |115  |26  |9   |190  |79   |66   |45  |222  |59   |41   |151  |123  |36   |23  |46  |52  |75   |118  |67   |120  |168  |73   |85   |66   |34  |116  |27  |28  |14  |11  |17  |47  |114  |134  |38  |35  |126  |54  |17  |9   |2  |38  |19  |7   |34  |15  |28  |8   |21  |218  |1  |-  |-                             |3544  |
 #'  |2024  |-   |-   |-   |-   |-   |-   |-    |-    |-   |-   |-    |-   |-   |-    |-    |-    |-   |-    |-    |-    |-    |-    |-    |-   |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-   |-    |-   |-   |-   |-   |-   |-   |-    |-    |-   |-   |-    |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-   |-    |-  |-  |3309                          |3309  |
 #'  |Total |145 |289 |155 |107 |547 |412 |1523 |2701 |351 |811 |1958 |478 |303 |3951 |2050 |1519 |607 |4522 |1386 |1064 |3545 |2342 |1229 |372 |920 |888 |1302 |2962 |2146 |3748 |3018 |1565 |1635 |1003 |493 |1691 |474 |531 |244 |212 |332 |792 |1459 |1982 |466 |676 |2202 |592 |355 |100 |26 |669 |284 |120 |527 |407 |663 |100 |232 |5142 |64 |1  |3309                          |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name prestg10
+NULL
+
+
+#'  R's occupational prestige score using threshold method (2010)
+#' 
+#'  prestg105plus
+#' 
+#' Question PRESTG105PLUS is based on the 2010 Census occupation classification. This prestige score is calculated using an alternative method, based on the percentage of ratings that is greater than or equal to a threshold (rating five). The effect of individual raters is also removed using hierarchical linear modeling (HLM).
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * 
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -331,39 +361,7 @@ NULL
 #'  |2021 |A/B/C/- |full         |
 #'  |2022 |A/B/C/- |full         |
 #'  |2024 |A/B/C/- |full         |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
 #' 
-#' 
-#' @keywords variable
-#' @md
-#' @name prestg10
-NULL
-
-
-#'  R's occupational prestige score using threshold method (2010)
-#' 
-#'  prestg105plus
-#' 
-#' Question PRESTG105PLUS is based on the 2010 Census occupation classification. This prestige score is calculated using an alternative method, based on the percentage of ratings that is greater than or equal to a threshold (rating five). The effect of individual raters is also removed using hierarchical linear modeling (HLM).
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5707/vshow).
 #'
@@ -407,46 +405,6 @@ NULL
 #'  |2022  |1   |20  |39   |13  |35   |44   |129  |5   |100  |13  |83  |28  |12  |57  |56   |13  |87   |71   |107  |139  |5  |-   |29  |38  |14  |19  |9   |15  |22  |76   |20  |2  |83   |16  |76  |12  |16  |9   |30   |60   |6   |130  |33  |1   |17  |45   |114  |34  |4   |42   |24  |13  |20  |39  |42  |35  |80  |23  |41  |28  |6   |5  |16  |23  |28  |13  |28  |27  |3  |70  |14  |3   |56  |9   |30  |29  |138  |19  |104  |26  |25  |43  |39  |72   |9   |5  |51   |25  |218  |4   |18  |11  |3  |-                             |3544  |
 #'  |2024  |-   |-   |-    |-   |-    |-    |-    |-   |-    |-   |-   |-   |-   |-   |-    |-   |-    |-    |-    |-    |-  |-   |-   |-   |-   |-   |-   |-   |-   |-    |-   |-  |-    |-   |-   |-   |-   |-   |-    |-    |-   |-    |-   |-   |-   |-    |-    |-   |-   |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-  |-   |-   |-   |-   |-   |-   |-   |-    |-   |-    |-   |-   |-   |-   |-    |-   |-  |-    |-   |-    |-   |-   |-   |-  |3309                          |3309  |
 #'  |Total |134 |463 |1226 |432 |1280 |1168 |2948 |214 |2320 |433 |947 |723 |704 |778 |1191 |345 |1804 |1454 |2026 |3341 |83 |137 |588 |556 |286 |632 |244 |621 |803 |1586 |436 |24 |1125 |405 |663 |235 |419 |272 |1201 |1123 |125 |2818 |413 |119 |457 |1337 |3650 |579 |135 |1117 |422 |375 |372 |866 |773 |573 |948 |404 |661 |575 |127 |86 |146 |382 |599 |221 |443 |392 |78 |732 |203 |170 |762 |198 |412 |449 |2298 |395 |1407 |462 |403 |402 |682 |1401 |194 |56 |1211 |370 |5143 |147 |113 |177 |40 |3309                          |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-/- |full         |
-#'  |1973 |-/-/-/- |full         |
-#'  |1974 |-/-/-/- |full         |
-#'  |1975 |-/-/-/- |full         |
-#'  |1976 |-/-/-/- |full         |
-#'  |1977 |-/-/-/- |full         |
-#'  |1978 |-/-/-/- |full         |
-#'  |1980 |-/-/-/- |full         |
-#'  |1982 |-/-/-/- |full         |
-#'  |1983 |-/-/-/- |full         |
-#'  |1984 |-/-/-/- |full         |
-#'  |1985 |-/-/-/- |full         |
-#'  |1986 |-/-/-/- |full         |
-#'  |1987 |-/-/-/- |full         |
-#'  |1988 |A/B/C/- |full         |
-#'  |1989 |A/B/C/- |full         |
-#'  |1990 |A/B/C/- |full         |
-#'  |1991 |A/B/C/- |full         |
-#'  |1993 |A/B/C/- |full         |
-#'  |1994 |A/B/C/- |full         |
-#'  |1996 |A/B/C/- |full         |
-#'  |1998 |A/B/C/- |full         |
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
-#'  |2022 |A/B/C/- |full         |
-#'  |2024 |A/B/C/- |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -738,19 +696,48 @@ NULL
 #'   * `9870` active duty military personnel, all other
 #'   * `9890` uncodeable
 #'   * `9997` uncodeable
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-/- |full         |
+#'  |1973 |-/-/-/- |full         |
+#'  |1974 |-/-/-/- |full         |
+#'  |1975 |-/-/-/- |full         |
+#'  |1976 |-/-/-/- |full         |
+#'  |1977 |-/-/-/- |full         |
+#'  |1978 |-/-/-/- |full         |
+#'  |1980 |-/-/-/- |full         |
+#'  |1982 |-/-/-/- |full         |
+#'  |1983 |-/-/-/- |full         |
+#'  |1984 |-/-/-/- |full         |
+#'  |1985 |-/-/-/- |full         |
+#'  |1986 |-/-/-/- |full         |
+#'  |1987 |-/-/-/- |full         |
+#'  |1988 |A/B/C/- |full         |
+#'  |1989 |A/B/C/- |full         |
+#'  |1990 |A/B/C/- |full         |
+#'  |1991 |A/B/C/- |full         |
+#'  |1993 |A/B/C/- |full         |
+#'  |1994 |A/B/C/- |full         |
+#'  |1996 |A/B/C/- |full         |
+#'  |1998 |A/B/C/- |full         |
+#'  |2000 |A/B/C/- |full         |
+#'  |2002 |A/B/C/- |full         |
+#'  |2004 |A/B/C/- |full         |
+#'  |2006 |A/B/C/D |full         |
+#'  |2008 |A/B/C/- |full         |
+#'  |2010 |A/B/C/- |full         |
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/17/vshow).
 #'
@@ -794,6 +781,34 @@ NULL
 #'  |2022  |15                                                             |14                                                     |5                                                            |13                                        |11                               |14                                        |-                                   |1                                    |12                 |4                                |1                                         |2                                  |3                                       |5                 |25                                 |-                                                   |26                                               |9                                        |24                 |29                                |1                       |46                             |28            |8                             |7                      |2               |10                                     |17                            |21                        |-                                                   |1                    |3                                                        |32                      |27                                                                         |21              |-           |88                                                   |3                                                                        |4                                                       |2                                                           |1                                               |47                                           |245          |3                                                                      |29                      |17              |5                                 |2                                   |3                           |12                                    |6                                    |4                                                                       |4                                |2                                        |10                                                        |3                                                     |6                                                                                                                |1                                                         |11                                                     |215                              |5                   |-                                                                 |48                                       |1                                   |1                                                |1                             |2                      |2                        |1                                                               |2            |2                                                   |7                                     |12                                          |18                |2                                     |17                                                   |51             |2                                                                            |160       |5                                 |2                          |154  |15                                                                             |43                             |10                                     |64                                        |16                                  |7                                                    |61                                           |1                                                 |4            |24                   |4                                             |1                                                                     |36             |4                      |2                                                                 |12                              |5                                                        |5                 |46                                                        |13                                           |2                |5                                    |1                                                 |5                                                     |16                                       |13                                  |-                                                    |-                                                       |1                                     |9                           |12                                   |44                                                       |2                                                        |10                                                                 |32                                          |1                    |63        |21                                           |3                                                            |-                                        |3                             |3                                     |16                                     |3                              |31                         |7                             |40                      |1                                     |17                  |8                                     |28                    |1        |33                                                   |3                                   |-                                    |72                         |4                           |5                       |9                                                      |13                                                              |1                                          |1                                              |3                               |7                                          |10                                                  |1                                                      |1                  |7                                         |15                         |1                       |7                              |23             |-                                                     |16                                      |26                 |8                         |3                                 |4                                                                    |6                   |-                                    |52          |4                                                                     |3                                         |12                      |29                                           |155                                 |5               |2               |1                                          |3                                             |1                              |14                                           |5                                             |25                                                                      |18                                    |34                                  |3                           |4                      |6                                                    |12                          |4                     |4                                                                 |6                                                |2                                     |5                                                                         |2                                |1                                              |1                  |10                                           |34                     |41                   |-              |-         |-                |-          |4                       |21                      |8                                         |3                    |6                                                      |13                                |-                                                   |4                            |8                                                            |1                                                       |2                                              |-         |37                        |3       |-                            |3                           |1                        |2                                                                              |3                        |3                       |6                                 |48                      |1                                             |7                              |11                                                              |1                                     |5                                               |18                            |5                          |4                                            |-                     |-                 |-         |1                                  |-                                                |1                                                                      |1                                   |4                                             |1                                 |5               |-                                                           |1                       |7                                               |2                                                                        |-                                          |2                          |-                      |-                         |2            |7          |2                                                  |-                              |5                                             |3                                          |1                            |2                      |2           |-                                                             |-                                         |2            |-                                             |20                                        |4                                       |1                                 |-                                            |3                                       |3                   |6                                            |2                           |2                          |3                                                           |-                          |11                  |2                   |-                   |5              |-                             |3544  |
 #'  |2024  |-                                                              |-                                                      |-                                                            |-                                         |-                                |-                                         |-                                   |-                                    |-                  |-                                |-                                         |-                                  |-                                       |-                 |-                                  |-                                                   |-                                                |-                                        |-                  |-                                 |-                       |-                              |-             |-                             |-                      |-               |-                                      |-                             |-                         |-                                                   |-                    |-                                                        |-                       |-                                                                          |-               |-           |-                                                    |-                                                                        |-                                                       |-                                                           |-                                               |-                                            |-            |-                                                                      |-                       |-               |-                                 |-                                   |-                           |-                                     |-                                    |-                                                                       |-                                |-                                        |-                                                         |-                                                     |-                                                                                                                |-                                                         |-                                                      |-                                |-                   |-                                                                 |-                                        |-                                   |-                                                |-                             |-                      |-                        |-                                                               |-            |-                                                   |-                                     |-                                           |-                 |-                                     |-                                                    |-              |-                                                                            |-         |-                                 |-                          |-    |-                                                                              |-                              |-                                      |-                                         |-                                   |-                                                    |-                                            |-                                                 |-            |-                    |-                                             |-                                                                     |-              |-                      |-                                                                 |-                               |-                                                        |-                 |-                                                         |-                                            |-                |-                                    |-                                                 |-                                                     |-                                        |-                                   |-                                                    |-                                                       |-                                     |-                           |-                                    |-                                                        |-                                                        |-                                                                  |-                                           |-                    |-         |-                                            |-                                                            |-                                        |-                             |-                                     |-                                      |-                              |-                          |-                             |-                       |-                                     |-                   |-                                     |-                     |-        |-                                                    |-                                   |-                                    |-                          |-                           |-                       |-                                                      |-                                                               |-                                          |-                                              |-                               |-                                          |-                                                   |-                                                      |-                  |-                                         |-                          |-                       |-                              |-              |-                                                     |-                                       |-                  |-                         |-                                 |-                                                                    |-                   |-                                    |-           |-                                                                     |-                                         |-                       |-                                            |-                                   |-               |-               |-                                          |-                                             |-                              |-                                            |-                                             |-                                                                       |-                                     |-                                   |-                           |-                      |-                                                    |-                           |-                     |-                                                                 |-                                                |-                                     |-                                                                         |-                                |-                                              |-                  |-                                            |-                      |-                    |-              |-         |-                |-          |-                       |-                       |-                                         |-                    |-                                                      |-                                 |-                                                   |-                            |-                                                            |-                                                       |-                                              |-         |-                         |-       |-                            |-                           |-                        |-                                                                              |-                        |-                       |-                                 |-                       |-                                             |-                              |-                                                               |-                                     |-                                               |-                             |-                          |-                                            |-                     |-                 |-         |-                                  |-                                                |-                                                                      |-                                   |-                                             |-                                 |-               |-                                                           |-                       |-                                               |-                                                                        |-                                          |-                          |-                      |-                         |-            |-          |-                                                  |-                              |-                                             |-                                          |-                            |-                      |-           |-                                                             |-                                         |-            |-                                             |-                                         |-                                       |-                                 |-                                            |-                                       |-                   |-                                            |-                           |-                          |-                                                           |-                          |-                   |-                   |-                   |-              |3309                          |3309  |
 #'  |Total |377                                                            |294                                                    |125                                                          |404                                       |200                              |184                                       |26                                  |65                                   |222                |339                              |55                                        |88                                 |64                                      |477               |272                                |15                                                  |470                                              |176                                      |446                |469                               |105                     |1006                           |542           |60                            |124                    |39              |270                                    |206                           |258                       |71                                                  |21                   |72                                                       |612                     |370                                                                        |447             |129         |1615                                                 |97                                                                       |130                                                     |151                                                         |220                                             |448                                          |4046         |98                                                                     |211                     |500             |630                               |37                                  |86                          |1100                                  |179                                  |85                                                                      |273                              |61                                       |389                                                       |78                                                    |331                                                                                                              |74                                                        |315                                                    |4554                             |224                 |51                                                                |583                                      |185                                 |42                                               |53                            |100                    |40                       |137                                                             |60           |28                                                  |224                                   |326                                         |346               |122                                   |360                                                  |1135           |59                                                                           |3152      |90                                |48                         |3706 |323                                                                            |540                            |305                                    |1254                                      |180                                 |372                                                  |1154                                         |135                                               |76           |282                  |83                                            |35                                                                    |615            |125                    |114                                                               |366                             |151                                                      |61                |393                                                       |203                                          |59               |95                                   |32                                                |178                                                   |214                                      |257                                 |53                                                   |36                                                      |80                                    |164                         |174                                  |935                                                      |100                                                      |169                                                                |759                                         |226                  |767       |325                                          |45                                                           |43                                       |87                            |30                                    |353                                    |50                             |400                        |103                           |1042                    |58                                    |322                 |100                                   |578                   |40       |514                                                  |123                                 |91                                   |389                        |49                          |137                     |134                                                    |187                                                             |40                                         |39                                             |97                              |186                                        |144                                                 |82                                                     |131                |174                                       |326                        |23                      |190                            |471            |46                                                    |373                                     |984                |176                       |141                               |159                                                                  |292                 |23                                   |1040        |33                                                                    |49                                        |396                     |328                                          |2910                                |84              |92              |73                                         |164                                           |111                            |233                                          |80                                            |400                                                                     |298                                   |376                                 |47                          |96                     |86                                                   |162                         |109                   |106                                                               |115                                              |32                                    |193                                                                       |58                               |29                                             |53                 |108                                          |693                    |730                  |116            |131       |8                |736        |78                      |237                     |170                                       |49                   |113                                                    |728                               |48                                                  |60                           |52                                                           |41                                                      |52                                             |93        |389                       |78      |27                           |76                          |83                       |113                                                                            |47                       |41                      |135                               |431                     |14                                            |182                            |98                                                              |11                                    |69                                              |148                           |80                         |82                                           |46                    |13                |95        |59                                 |61                                               |40                                                                     |22                                  |66                                            |57                                |93              |23                                                          |42                      |91                                              |92                                                                       |32                                         |21                         |57                     |24                        |47           |43         |34                                                 |36                             |97                                            |92                                         |29                           |41                     |61          |63                                                            |15                                        |38           |28                                            |83                                        |60                                      |12                                |18                                           |35                                      |89                  |68                                           |16                          |9                          |19                                                          |18                         |38                  |13                  |3                   |10             |3309                          |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Occupation
+#' 
+#' @keywords variable
+#' @md
+#' @name indus10
+NULL
+
+
+#'  Indus10 coding status
+#' 
+#'  indstatus
+#' 
+#' Question IND10 Coding Status
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` found, iap
+#'   * `2` found, no answer
+#'   * `3` found, coded
+#'   * `4` not found, iap
+#'   * `5` not found, no answer
+#'   * `6` not found, coded
+#'   * `7` not found, no code assigned
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -827,53 +842,7 @@ NULL
 #'  |2006 |A/B/C/D |full         |
 #'  |2008 |A/B/C/- |full         |
 #'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
-#'  |2022 |A/B/C/- |full         |
-#'  |2024 |A/B/C/- |full         |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Occupation
 #' 
-#' @keywords variable
-#' @md
-#' @name indus10
-NULL
-
-
-#'  Indus10 coding status
-#' 
-#'  indstatus
-#' 
-#' Question IND10 Coding Status
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` found, iap
-#'   * `2` found, no answer
-#'   * `3` found, coded
-#'   * `4` not found, iap
-#'   * `5` not found, no answer
-#'   * `6` not found, coded
-#'   * `7` not found, no code assigned
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5984/vshow).
 #'
@@ -917,6 +886,30 @@ NULL
 #'  |2022  |-            |-          |-                |-                |-              |-                    |-                           |-     |3544                       |3544  |
 #'  |2024  |-            |-          |-                |-                |-              |-                    |-                           |-     |3309                       |3309  |
 #'  |Total |47684        |2592       |447              |3046             |526            |56                   |736                         |13759 |6853                       |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name indstatus
+NULL
+
+
+#'  Indus10 coding tag
+#' 
+#'  indtag
+#' 
+#' Question INDUS10 Coding Tag
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` found
+#'   * `2` not found, assigned
+#'   * `3` not found, not assigned
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -950,42 +943,7 @@ NULL
 #'  |2006 |A/B/C/D |full         |
 #'  |2008 |A/B/C/- |full         |
 #'  |2010 |A/B/C/- |full         |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
 #' 
-#' 
-#' @keywords variable
-#' @md
-#' @name indstatus
-NULL
-
-
-#'  Indus10 coding tag
-#' 
-#'  indtag
-#' 
-#' Question INDUS10 Coding Tag
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` found
-#'   * `2` not found, assigned
-#'   * `3` not found, not assigned
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5985/vshow).
 #'
@@ -1029,6 +987,32 @@ NULL
 #'  |2022  |-     |-                   |-                       |-     |3544                       |3544  |
 #'  |2024  |-     |-                   |-                       |-     |3309                       |3309  |
 #'  |Total |50723 |3628                |736                     |13759 |6853                       |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name indtag
+NULL
+
+
+#'  Marital status
+#' 
+#'  marital
+#' 
+#' Question Are you currently--married, widowed, divorced, separated, or have you never been married?
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` married
+#'   * `2` widowed
+#'   * `3` divorced
+#'   * `4` separated
+#'   * `5` never married
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -1062,44 +1046,14 @@ NULL
 #'  |2006 |A/B/C/D |full         |
 #'  |2008 |A/B/C/- |full         |
 #'  |2010 |A/B/C/- |full         |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
+#'  |2012 |A/B/C/- |full         |
+#'  |2014 |A/B/C/- |full         |
+#'  |2016 |A/B/C/- |full         |
+#'  |2018 |A/B/C/- |full         |
+#'  |2021 |A/B/C/- |full         |
+#'  |2022 |A/B/C/- |full         |
+#'  |2024 |A/B/C/- |full         |
 #' 
-#' 
-#' @keywords variable
-#' @md
-#' @name indtag
-NULL
-
-
-#'  Marital status
-#' 
-#'  marital
-#' 
-#' Question Are you currently--married, widowed, divorced, separated, or have you never been married?
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` married
-#'   * `2` widowed
-#'   * `3` divorced
-#'   * `4` separated
-#'   * `5` never married
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/18/vshow).
 #'
@@ -1143,46 +1097,6 @@ NULL
 #'  |2022  |608      |1468    |1095          |103       |255     |9         |1          |5              |3544  |
 #'  |2024  |516      |1363    |1059          |107       |249     |8         |-          |7              |3309  |
 #'  |Total |10158    |38959   |16963         |2548      |7005    |45        |2          |19             |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-/- |full         |
-#'  |1973 |-/-/-/- |full         |
-#'  |1974 |-/-/-/- |full         |
-#'  |1975 |-/-/-/- |full         |
-#'  |1976 |-/-/-/- |full         |
-#'  |1977 |-/-/-/- |full         |
-#'  |1978 |-/-/-/- |full         |
-#'  |1980 |-/-/-/- |full         |
-#'  |1982 |-/-/-/- |full         |
-#'  |1983 |-/-/-/- |full         |
-#'  |1984 |-/-/-/- |full         |
-#'  |1985 |-/-/-/- |full         |
-#'  |1986 |-/-/-/- |full         |
-#'  |1987 |-/-/-/- |full         |
-#'  |1988 |A/B/C/- |full         |
-#'  |1989 |A/B/C/- |full         |
-#'  |1990 |A/B/C/- |full         |
-#'  |1991 |A/B/C/- |full         |
-#'  |1993 |A/B/C/- |full         |
-#'  |1994 |A/B/C/- |full         |
-#'  |1996 |A/B/C/- |full         |
-#'  |1998 |A/B/C/- |full         |
-#'  |2000 |A/B/C/- |full         |
-#'  |2002 |A/B/C/- |full         |
-#'  |2004 |A/B/C/- |full         |
-#'  |2006 |A/B/C/D |full         |
-#'  |2008 |A/B/C/- |full         |
-#'  |2010 |A/B/C/- |full         |
-#'  |2012 |A/B/C/- |full         |
-#'  |2014 |A/B/C/- |full         |
-#'  |2016 |A/B/C/- |full         |
-#'  |2018 |A/B/C/- |full         |
-#'  |2021 |A/B/C/- |full         |
-#'  |2022 |A/B/C/- |full         |
-#'  |2024 |A/B/C/- |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -1207,19 +1121,20 @@ NULL
 #'   * `1` marriage between a man and a woman
 #'   * `2` marriage between two people of the same gender
 #'   * `3` not sure
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/19/vshow).
 #'
@@ -1263,18 +1178,6 @@ NULL
 #'  |2022  |2838  |682                                |4                                              |20       |-              |3544  |
 #'  |2024  |1959  |1317                               |22                                             |10       |1              |3309  |
 #'  |Total |69275 |6316                               |58                                             |49       |1              |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2012 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
-#'  |2016 |A/B/C   |full         |
-#'  |2018 |A/B/C   |full         |
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
-#'  |2024 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -1296,19 +1199,35 @@ NULL
 #' 
 #' @section Values: 
 #' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * 
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1972 |-/-/-   |full         |
+#'  |1973 |-/-/-   |full         |
+#'  |1974 |-/-/-   |full         |
+#'  |1975 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1977 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1980 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1983 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |2006 |D/-/-   |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/20/vshow).
 #'
@@ -1352,32 +1271,6 @@ NULL
 #'  |2022  |-  |-   |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-     |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |3544                       |3544  |
 #'  |2024  |-  |-   |-   |-   |-    |-    |-    |-    |-    |-    |-    |-    |-    |-   |-   |-   |-   |-   |-   |-   |-   |-   |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-     |-         |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |3309                       |3309  |
 #'  |Total |38 |106 |272 |843 |1453 |2767 |2886 |2719 |3324 |2291 |1980 |1633 |1477 |978 |867 |603 |452 |454 |230 |238 |160 |119 |135 |72 |58 |62 |56 |62 |35 |22 |23 |9  |7  |9  |8  |5  |42097 |187       |18 |12 |2  |8  |3  |4  |4  |8  |2  |19         |7  |4  |1  |1  |6  |1  |3  |2  |1  |1  |1  |1  |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1972 |-/-/-   |full         |
-#'  |1973 |-/-/-   |full         |
-#'  |1974 |-/-/-   |full         |
-#'  |1975 |-/-/-   |full         |
-#'  |1976 |-/-/-   |full         |
-#'  |1977 |-/-/-   |full         |
-#'  |1978 |-/-/-   |full         |
-#'  |1980 |-/-/-   |full         |
-#'  |1982 |-/-/-   |full         |
-#'  |1983 |-/-/-   |full         |
-#'  |1984 |-/-/-   |full         |
-#'  |1985 |-/-/-   |full         |
-#'  |1986 |-/-/-   |full         |
-#'  |1987 |-/-/-   |full         |
-#'  |1988 |A/B/C   |full         |
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
-#'  |1991 |A/B/C   |full         |
-#'  |1993 |A/B/C   |full         |
-#'  |1994 |A/B/C   |full         |
-#'  |2006 |D/-/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core

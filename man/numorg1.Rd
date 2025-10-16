@@ -28,18 +28,14 @@ Question About how many people work in your organization at all locations? Count
 \item \code{11} 10,000-50,000 in range
 \item \code{12} 50,000-100,000 in range
 \item \code{13} above 100,000 in range
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2022 \tab B/C \tab partial \cr
 }
 }
 
@@ -85,13 +81,6 @@ Counts by year:\tabular{llllllllllllllllllll}{
    2022 \tab - \tab 39 \tab 154 \tab 49 \tab 146 \tab 127 \tab 28 \tab 15 \tab 15 \tab 38 \tab 30 \tab 67 \tab 57 \tab 63 \tab 127 \tab 2569 \tab 10 \tab 10 \tab 3544 \cr
    2024 \tab 3309 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \cr
    Total \tab 72155 \tab 39 \tab 154 \tab 49 \tab 146 \tab 127 \tab 28 \tab 15 \tab 15 \tab 38 \tab 30 \tab 67 \tab 57 \tab 63 \tab 127 \tab 2569 \tab 10 \tab 10 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab B/C \tab partial \cr
 }
 }
 

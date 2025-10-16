@@ -18,18 +18,16 @@ Question Do you think the use of marijuana should be made legal or not?
 \item \code{1} should be legal
 \item \code{2} should not be legal
 \item \code{3} no opinion (phone mode only: volunteered)
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2021 \tab B/C \tab partial \cr
+   2022 \tab B/C \tab partial \cr
+   2024 \tab B/C \tab partial \cr
 }
 }
 
@@ -75,15 +73,6 @@ Counts by year:\tabular{llllllll}{
    2022 \tab 2954 \tab - \tab 1 \tab 449 \tab 137 \tab 3 \tab 3544 \cr
    2024 \tab 2663 \tab 2 \tab - \tab 451 \tab 190 \tab 3 \tab 3309 \cr
    Total \tab 73150 \tab 10 \tab 2 \tab 1859 \tab 663 \tab 15 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2021 \tab B/C \tab partial \cr
-   2022 \tab B/C \tab partial \cr
-   2024 \tab B/C \tab partial \cr
 }
 }
 

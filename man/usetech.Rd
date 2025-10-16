@@ -15,18 +15,17 @@ Question During a typical week, about what percentage of your total time at work
 \section{Values}{
 
 \itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item 
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2014 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 
@@ -72,15 +71,6 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
    2022 \tab 1547 \tab 171 \tab 21 \tab 1 \tab 80 \tab - \tab 465 \tab 3 \tab 25 \tab - \tab 28 \tab 10 \tab 71 \tab - \tab 63 \tab 4 \tab 63 \tab 4 \tab 8 \tab 2 \tab 5 \tab 73 \tab 4 \tab 69 \tab - \tab 148 \tab 1 \tab 6 \tab - \tab 46 \tab - \tab 5 \tab 3 \tab - \tab 44 \tab 81 \tab - \tab 7 \tab 115 \tab 24 \tab - \tab - \tab 137 \tab - \tab 54 \tab - \tab - \tab 9 \tab 14 \tab 21 \tab 10 \tab 1 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 56 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 27 \tab - \tab 3544 \cr
    2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
    Total \tab 67695 \tab 528 \tab 52 \tab 2 \tab 225 \tab 1 \tab 974 \tab 6 \tab 53 \tab 2 \tab 50 \tab 14 \tab 182 \tab 2 \tab 138 \tab 19 \tab 158 \tab 6 \tab 16 \tab 4 \tab 9 \tab 138 \tab 9 \tab 147 \tab 1 \tab 367 \tab 6 \tab 8 \tab 1 \tab 116 \tab 3 \tab 16 \tab 8 \tab 4 \tab 105 \tab 202 \tab 3 \tab 12 \tab 285 \tab 59 \tab 1 \tab 1 \tab 368 \tab 1 \tab 135 \tab 3 \tab 1 \tab 18 \tab 29 \tab 72 \tab 11 \tab 3 \tab 3 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 62 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 27 \tab 3309 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
 }
 }
 

@@ -15,18 +15,49 @@ Question PAPRES105PLUS is based on the 2010 Census occupation classification. Th
 \section{Values}{
 
 \itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item 
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1972 \tab -/-/- \tab full \cr
+   1973 \tab -/-/- \tab full \cr
+   1974 \tab -/-/- \tab full \cr
+   1975 \tab -/-/- \tab full \cr
+   1976 \tab -/-/- \tab full \cr
+   1977 \tab -/-/- \tab full \cr
+   1978 \tab -/-/- \tab full \cr
+   1980 \tab -/-/- \tab full \cr
+   1982 \tab -/-/- \tab full \cr
+   1983 \tab -/-/- \tab full \cr
+   1984 \tab -/-/- \tab full \cr
+   1985 \tab -/-/- \tab full \cr
+   1986 \tab -/-/- \tab full \cr
+   1987 \tab -/-/- \tab full \cr
+   1988 \tab A/B/C \tab full \cr
+   1989 \tab A/B/C \tab full \cr
+   1990 \tab A/B/C \tab full \cr
+   1991 \tab A/B/C \tab full \cr
+   1993 \tab A/B/C \tab full \cr
+   1994 \tab A/B/C \tab full \cr
+   1996 \tab A/B/C \tab full \cr
+   1998 \tab A/B/C \tab full \cr
+   2000 \tab A/B/C \tab full \cr
+   2002 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2008 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2021 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
+   2024 \tab A/B/C \tab full \cr
 }
 }
 
@@ -72,47 +103,6 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
    2022 \tab 1 \tab 13 \tab 9 \tab 2 \tab 7 \tab 43 \tab 75 \tab 5 \tab 121 \tab 25 \tab 23 \tab 14 \tab 6 \tab 104 \tab 17 \tab 16 \tab 65 \tab 40 \tab 85 \tab 177 \tab 12 \tab 10 \tab 40 \tab 21 \tab 23 \tab 21 \tab 44 \tab 19 \tab 76 \tab 22 \tab 3 \tab 104 \tab 22 \tab 13 \tab 16 \tab 8 \tab 14 \tab 80 \tab 100 \tab 24 \tab 6 \tab 20 \tab 51 \tab 49 \tab 11 \tab 140 \tab 19 \tab - \tab 5 \tab 25 \tab 56 \tab 40 \tab 14 \tab 41 \tab 9 \tab 16 \tab 4 \tab 11 \tab 48 \tab 83 \tab 54 \tab 1 \tab 43 \tab 16 \tab - \tab 18 \tab 9 \tab 63 \tab 25 \tab 18 \tab 8 \tab 28 \tab 44 \tab 58 \tab 11 \tab 73 \tab 37 \tab 770 \tab 44 \tab 3 \tab 8 \tab 3 \tab 3 \tab - \tab 9 \tab 7 \tab 3 \tab 3 \tab 2 \tab 11 \tab - \tab 3 \tab 1 \tab - \tab 3544 \cr
    2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
    Total \tab 47 \tab 303 \tab 379 \tab 73 \tab 115 \tab 864 \tab 1108 \tab 150 \tab 2693 \tab 854 \tab 400 \tab 540 \tab 193 \tab 1349 \tab 457 \tab 265 \tab 1199 \tab 894 \tab 1553 \tab 3259 \tab 336 \tab 243 \tab 527 \tab 329 \tab 738 \tab 532 \tab 1104 \tab 406 \tab 1734 \tab 472 \tab 40 \tab 1890 \tab 348 \tab 364 \tab 446 \tab 195 \tab 267 \tab 1848 \tab 1952 \tab 480 \tab 212 \tab 608 \tab 996 \tab 910 \tab 164 \tab 7260 \tab 257 \tab 46 \tab 119 \tab 567 \tab 1582 \tab 986 \tab 190 \tab 619 \tab 173 \tab 308 \tab 123 \tab 303 \tab 598 \tab 631 \tab 535 \tab 75 \tab 635 \tab 201 \tab 73 \tab 107 \tab 282 \tab 1123 \tab 492 \tab 245 \tab 124 \tab 408 \tab 740 \tab 934 \tab 195 \tab 1325 \tab 690 \tab 15147 \tab 749 \tab 32 \tab 102 \tab 41 \tab 37 \tab 12 \tab 89 \tab 88 \tab 72 \tab 24 \tab 26 \tab 140 \tab 5 \tab 32 \tab 12 \tab 3309 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/-/- \tab full \cr
-   1973 \tab -/-/- \tab full \cr
-   1974 \tab -/-/- \tab full \cr
-   1975 \tab -/-/- \tab full \cr
-   1976 \tab -/-/- \tab full \cr
-   1977 \tab -/-/- \tab full \cr
-   1978 \tab -/-/- \tab full \cr
-   1980 \tab -/-/- \tab full \cr
-   1982 \tab -/-/- \tab full \cr
-   1983 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
-   1991 \tab A/B/C \tab full \cr
-   1993 \tab A/B/C \tab full \cr
-   1994 \tab A/B/C \tab full \cr
-   1996 \tab A/B/C \tab full \cr
-   1998 \tab A/B/C \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2008 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
 }
 }
 

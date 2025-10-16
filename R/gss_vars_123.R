@@ -8,19 +8,15 @@
 #' 
 #' @section Values: 
 #' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * 
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1140/vshow).
 #'
@@ -64,12 +60,6 @@
 #'  |2022  |-     |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |3544                       |3544  |
 #'  |2024  |-     |-   |-  |-  |-   |-    |-     |-   |-  |-    |-   |-  |-   |-    |-    |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-   |-    |-  |-   |-  |-   |-    |-   |-    |-  |-  |-   |-     |-  |-   |-   |-  |-  |-  |-   |-          |-         |3309                       |3309  |
 #'  |Total |67401 |947 |1  |14 |54  |10   |5     |1   |2  |1    |4   |2  |5   |2    |1    |2  |13 |39  |9    |2   |21 |5   |2    |1     |4  |23  |5    |1  |1   |2  |11  |1    |1   |1    |7  |41 |28  |1     |2  |1   |3   |1  |4  |1  |1   |68         |94        |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -93,19 +83,15 @@ NULL
 #' 
 #' @section Values: 
 #' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * 
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1141/vshow).
 #'
@@ -149,12 +135,6 @@ NULL
 #'  |2022  |-     |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |3544                       |3544  |
 #'  |2024  |-     |-   |-  |-  |-   |-    |-     |-   |-   |-  |-   |-    |-   |-   |-  |-   |-    |-     |-   |-  |-  |-   |-    |-   |-  |-  |-   |-    |-   |-  |-   |-    |-     |-  |-    |-  |-   |-  |-   |-  |-   |-  |-  |-   |-    |-  |-    |-  |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-    |-    |-          |3309                       |3309  |
 #'  |Total |67401 |567 |1  |30 |130 |32   |4     |2   |1   |1  |1   |1    |4   |1   |5  |16  |5    |1     |1   |1  |32 |88  |13   |1   |2  |20 |12  |1    |1   |14 |46  |7    |1     |7  |1    |8  |16  |1  |2   |1  |1   |10 |94 |59  |3    |2  |1    |1  |4  |6   |1    |1  |2   |9  |1   |1  |2  |6   |1    |1    |161        |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -180,19 +160,14 @@ NULL
 #' 
 #'   * `1` yes
 #'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1142/vshow).
 #'
@@ -236,12 +211,6 @@ NULL
 #'  |2022  |-     |-          |-   |-         |-   |3544                       |3544  |
 #'  |2024  |-     |-          |-   |-         |-   |3309                       |3309  |
 #'  |Total |68036 |3          |405 |95        |307 |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -263,19 +232,15 @@ NULL
 #' 
 #' @section Values: 
 #' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * 
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1143/vshow).
 #'
@@ -319,12 +284,6 @@ NULL
 #'  |2022  |-     |-   |-   |-  |-   |-   |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3544                       |3544  |
 #'  |2024  |-     |-   |-   |-  |-   |-   |-  |-  |-   |-  |-  |-  |-   |-  |-   |-  |-   |-   |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |67401 |505 |159 |70 |5   |1   |2  |18 |5   |1  |4  |44 |4   |6  |1   |2  |1   |111 |37 |1   |1  |13 |12 |65 |70 |4  |5  |1  |78 |9  |2  |1  |1  |59 |8  |2  |23 |14 |1  |9  |1  |2  |31 |2  |5  |4  |18         |27        |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -345,19 +304,15 @@ NULL
 #' 
 #' @section Values: 
 #' 
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * 
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1144/vshow).
 #'
@@ -401,12 +356,6 @@ NULL
 #'  |2022  |-     |-   |-  |-  |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3544                       |3544  |
 #'  |2024  |-     |-   |-  |-  |-   |-  |-  |-   |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-   |-  |-  |-  |-  |-   |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-          |-         |3309                       |3309  |
 #'  |Total |67401 |749 |53 |64 |1   |1  |26 |1   |1  |6  |1   |30 |13 |1  |6  |1  |61 |38 |3   |1  |1  |7  |6  |1   |1  |2  |1  |42 |19 |4  |1  |1  |98 |9  |1  |40 |7  |38 |7  |1  |2  |9  |2  |2  |46 |1  |5  |2  |1  |5          |26        |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -428,19 +377,18 @@ NULL
 #' @section Values: 
 #' 
 #'   * `9996` 9996 or more
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1145/vshow).
 #'
@@ -484,16 +432,6 @@ NULL
 #'  |2022  |-     |-   |-    |-   |-   |-    |-   |-  |-   |-    |-   |-   |-    |-   |-    |-   |-  |-   |-    |-   |-    |-   |-   |-   |-   |-    |-   |-  |-   |-    |-   |-   |-   |-    |-  |-   |-    |-   |-   |-   |-    |-  |-   |-    |-   |-  |-   |-    |-   |-   |-  |-  |-   |-    |-  |-   |-    |-   |-   |-    |-  |-  |-  |-   |-    |-   |-   |-    |-  |-   |-    |-  |-   |-   |-  |-   |-  |-  |-  |-  |-   |-    |-    |-  |-   |-  |-   |-            |-          |-         |-  |-   |-   |-   |-   |-   |-    |-  |-   |-    |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-    |-   |-   |-   |-   |-    |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-  |-   |-    |-  |-   |-   |-   |-  |-   |-  |-   |-   |-    |-   |-  |-   |-   |-  |-    |-  |-   |-  |-   |-    |-    |-  |-   |-    |-    |-   |-   |-  |-  |-   |-  |-   |-    |-    |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-   |-   |-  |-  |-  |3544                       |3544  |
 #'  |2024  |-     |-   |-    |-   |-   |-    |-   |-  |-   |-    |-   |-   |-    |-   |-    |-   |-  |-   |-    |-   |-    |-   |-   |-   |-   |-    |-   |-  |-   |-    |-   |-   |-   |-    |-  |-   |-    |-   |-   |-   |-    |-  |-   |-    |-   |-  |-   |-    |-   |-   |-  |-  |-   |-    |-  |-   |-    |-   |-   |-    |-  |-  |-  |-   |-    |-   |-   |-    |-  |-   |-    |-  |-   |-   |-  |-   |-  |-  |-  |-  |-   |-    |-    |-  |-   |-  |-   |-            |-          |-         |-  |-   |-   |-   |-   |-   |-    |-  |-   |-    |-    |-    |-   |-   |-   |-   |-   |-   |-    |-    |-    |-   |-   |-   |-   |-    |-   |-   |-  |-  |-   |-   |-   |-  |-   |-   |-  |-  |-   |-    |-  |-   |-   |-   |-  |-   |-  |-   |-   |-    |-   |-  |-   |-   |-  |-    |-  |-   |-  |-   |-    |-    |-  |-   |-    |-    |-   |-   |-  |-  |-   |-  |-   |-    |-    |-   |-   |-   |-  |-  |-    |-   |-  |-  |-   |-  |-   |-    |-  |-   |-  |-   |-  |-  |-   |-   |-   |-  |-  |-  |3309                       |3309  |
 #'  |Total |60917 |469 |371  |1   |11  |12   |4   |12 |57  |55   |44  |14  |7    |10  |9    |2   |17 |258 |94   |15  |10   |1   |1   |15  |11  |8    |2   |42 |560 |227  |1   |6   |6   |4    |41 |157 |58   |3   |3   |8   |2    |93 |502 |129  |4   |29 |88  |16   |2   |5   |2  |91 |254 |40   |16 |28  |8    |228 |437 |111  |2  |1  |15 |16  |1    |100 |123 |21   |21 |8   |1    |51 |76  |1   |78 |20  |1  |1  |3  |45 |84  |14   |1    |18 |35  |2  |4   |96           |1234       |955       |17 |2   |2   |1   |3   |1   |1    |5  |1   |1    |2    |4    |1   |1   |3   |1   |2   |3   |1    |1    |1    |1   |1   |2   |1   |1    |1   |2   |1  |1  |2   |1   |1   |1  |1   |1   |1  |9  |1   |3    |1  |1   |1   |1   |2  |1   |3  |1   |2   |2    |1   |7  |1   |1   |2  |2    |1  |3   |1  |2   |2    |1    |1  |1   |2    |1    |2   |1   |1  |1  |1   |4  |1   |1    |5    |1   |1   |1   |2  |3  |1    |1   |1  |1  |1   |1  |2   |1    |3  |1   |2  |3   |1  |10 |1   |1   |1   |1  |1  |1  |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
-#'  |2000 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2012 |A/B/C   |full         |
-#'  |2018 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -516,19 +454,15 @@ NULL
 #' 
 #'   * `1` yes
 #'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1146/vshow).
 #'
@@ -572,13 +506,6 @@ NULL
 #'  |2022  |-     |-    |-         |-    |3544                       |3544  |
 #'  |2024  |-     |-    |-         |-    |3309                       |3309  |
 #'  |Total |64584 |1646 |25        |2591 |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
-#'  |2000 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -601,19 +528,15 @@ NULL
 #' 
 #'   * `1` yes
 #'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1147/vshow).
 #'
@@ -657,13 +580,6 @@ NULL
 #'  |2022  |-     |-   |-         |-    |-          |3544                       |3544  |
 #'  |2024  |-     |-   |-         |-    |-          |3309                       |3309  |
 #'  |Total |66230 |419 |56        |2139 |2          |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
-#'  |2000 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -689,19 +605,15 @@ NULL
 #' 
 #'   * `1` yes
 #'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1148/vshow).
 #'
@@ -745,13 +657,6 @@ NULL
 #'  |2022  |-     |-   |-         |-   |3544                       |3544  |
 #'  |2024  |-     |-   |-         |-   |3309                       |3309  |
 #'  |Total |68371 |343 |71        |61  |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
-#'  |2000 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -777,19 +682,15 @@ NULL
 #' 
 #'   * `1` yes
 #'   * `2` no
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/1149/vshow).
 #'
@@ -833,13 +734,6 @@ NULL
 #'  |2022  |-     |-   |-         |-   |3544                       |3544  |
 #'  |2024  |-     |-   |-         |-   |3309                       |3309  |
 #'  |Total |68371 |220 |71        |184 |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1998 |A/B/C   |full         |
-#'  |2000 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion

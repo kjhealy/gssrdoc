@@ -97,18 +97,19 @@ Question What was your major or field of study when you received your (RESPONDEN
 \item \code{80} information technology
 \item \code{81} fashion
 \item \code{82} counseling
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2021 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 
@@ -154,18 +155,6 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
    2022 \tab 2013 \tab 41 \tab 7 \tab 2 \tab 7 \tab 2 \tab 8 \tab 21 \tab 6 \tab 47 \tab 221 \tab 13 \tab 14 \tab 4 \tab 32 \tab 48 \tab 32 \tab - \tab 5 \tab 1 \tab 13 \tab 129 \tab 8 \tab 13 \tab 80 \tab 41 \tab 14 \tab 1 \tab 22 \tab 9 \tab 13 \tab 6 \tab - \tab 27 \tab 14 \tab 2 \tab 1 \tab 50 \tab 17 \tab 17 \tab 1 \tab 6 \tab 12 \tab 32 \tab 1 \tab 17 \tab 4 \tab 12 \tab 21 \tab 23 \tab 7 \tab 90 \tab 18 \tab 6 \tab 2 \tab 6 \tab 4 \tab 9 \tab 7 \tab 34 \tab 60 \tab 2 \tab 10 \tab 2 \tab 19 \tab 8 \tab 1 \tab 4 \tab 13 \tab 1 \tab 5 \tab 12 \tab - \tab 3 \tab 1 \tab 10 \tab 8 \tab 14 \tab 5 \tab 27 \tab 2 \tab 3 \tab - \tab 1 \tab 20 \tab - \tab 3544 \cr
    2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
    Total \tab 65046 \tab 230 \tab 53 \tab 8 \tab 41 \tab 18 \tab 37 \tab 79 \tab 16 \tab 208 \tab 1072 \tab 57 \tab 55 \tab 18 \tab 161 \tab 214 \tab 150 \tab 4 \tab 25 \tab 34 \tab 98 \tab 655 \tab 58 \tab 62 \tab 380 \tab 185 \tab 59 \tab 5 \tab 94 \tab 64 \tab 45 \tab 48 \tab 5 \tab 106 \tab 53 \tab 18 \tab 5 \tab 208 \tab 110 \tab 55 \tab 5 \tab 20 \tab 49 \tab 145 \tab 19 \tab 84 \tab 29 \tab 83 \tab 70 \tab 165 \tab 38 \tab 369 \tab 124 \tab 36 \tab 6 \tab 34 \tab 16 \tab 49 \tab 32 \tab 146 \tab 250 \tab 10 \tab 42 \tab 85 \tab 91 \tab 34 \tab 9 \tab 26 \tab 69 \tab 13 \tab 24 \tab 45 \tab 15 \tab 22 \tab 7 \tab 62 \tab 24 \tab 35 \tab 19 \tab 63 \tab 12 \tab 12 \tab 8 \tab 5 \tab 50 \tab 3309 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
 }
 }
 

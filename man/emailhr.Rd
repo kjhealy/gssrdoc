@@ -17,18 +17,23 @@ Question About how many minutes or hours per week do you spend sending and answe
 \itemize{
 \item \code{0} 0 hours
 \item \code{168} 168 hours
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
+   2002 \tab A/B/C \tab full \cr
+   2004 \tab B/C/- \tab partial \cr
+   2010 \tab A/B/- \tab partial \cr
+   2012 \tab A/B/- \tab partial \cr
+   2014 \tab A/B/- \tab partial \cr
+   2016 \tab A/B/- \tab partial \cr
+   2018 \tab A/B/- \tab partial \cr
+   2021 \tab A/B/- \tab partial \cr
+   2022 \tab A/B/- \tab partial \cr
 }
 }
 
@@ -74,22 +79,6 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
    2022 \tab 1271 \tab 524 \tab 408 \tab 124 \tab 22 \tab 16 \tab 38 \tab 2 \tab 5 \tab 247 \tab 72 \tab 3 \tab 4 \tab 34 \tab 1 \tab 144 \tab 34 \tab 6 \tab 99 \tab 59 \tab 141 \tab 11 \tab 52 \tab 7 \tab 66 \tab 62 \tab 10 \tab 28 \tab 21 \tab - \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 7 \tab - \tab 2 \tab - \tab 4 \tab 1 \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab 1 \tab 4 \tab - \tab - \tab - \tab - \tab 2 \tab - \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab 3544 \cr
    2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
    Total \tab 56798 \tab 3720 \tab 2755 \tab 860 \tab 157 \tab 137 \tab 317 \tab 30 \tab 21 \tab 1812 \tab 521 \tab 32 \tab 31 \tab 177 \tab 4 \tab 921 \tab 248 \tab 51 \tab 647 \tab 209 \tab 889 \tab 67 \tab 330 \tab 38 \tab 488 \tab 356 \tab 43 \tab 70 \tab 196 \tab 14 \tab 11 \tab 11 \tab 8 \tab 4 \tab 5 \tab 4 \tab 12 \tab 27 \tab 5 \tab 3 \tab 1 \tab 21 \tab 12 \tab 4 \tab 5 \tab 6 \tab 1 \tab 2 \tab 1 \tab 2 \tab 4 \tab 8 \tab 2 \tab 1 \tab 1 \tab 5 \tab 3 \tab 1 \tab 2 \tab 1 \tab 2 \tab 3 \tab 1 \tab 266 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3309 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
-   2002 \tab A/B/C \tab full \cr
-   2004 \tab B/C/- \tab partial \cr
-   2010 \tab A/B/- \tab partial \cr
-   2012 \tab A/B/- \tab partial \cr
-   2014 \tab A/B/- \tab partial \cr
-   2016 \tab A/B/- \tab partial \cr
-   2018 \tab A/B/- \tab partial \cr
-   2021 \tab A/B/- \tab partial \cr
-   2022 \tab A/B/- \tab partial \cr
 }
 }
 

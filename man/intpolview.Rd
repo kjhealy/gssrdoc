@@ -20,18 +20,14 @@ Question In the last 12 months, if at all, has your online contact with the foll
 \item \code{3} remained the same
 \item \code{4} somewhat increased
 \item \code{5} greatly increased
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} can't choose / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2024 \tab A/B \tab partial \cr
 }
 }
 
@@ -77,13 +73,6 @@ Counts by year:\tabular{llllllllllll}{
    2022 \tab 3544 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
    2024 \tab - \tab 262 \tab 60 \tab 25 \tab 1732 \tab 16 \tab 997 \tab 19 \tab 85 \tab 113 \tab 3309 \cr
    Total \tab 72390 \tab 262 \tab 60 \tab 25 \tab 1732 \tab 16 \tab 997 \tab 19 \tab 85 \tab 113 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2024 \tab A/B \tab partial \cr
 }
 }
 

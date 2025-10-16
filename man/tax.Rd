@@ -19,18 +19,41 @@ Question Do you consider the amount of federal income tax which you have to pay 
 \item \code{2} about right
 \item \code{3} too low
 \item \code{4} r pays no income tax (vol.)
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1976 \tab -/- \tab full \cr
+   1977 \tab -/- \tab full \cr
+   1980 \tab -/- \tab full \cr
+   1982 \tab -/- \tab full \cr
+   1983 \tab -/- \tab full \cr
+   1984 \tab -/- \tab full \cr
+   1985 \tab -/- \tab full \cr
+   1987 \tab -/- \tab full \cr
+   1988 \tab A/C \tab partial \cr
+   1989 \tab A/C \tab partial \cr
+   1990 \tab A/C \tab partial \cr
+   1991 \tab A/C \tab partial \cr
+   1993 \tab A/C \tab partial \cr
+   1994 \tab A/C \tab partial \cr
+   1996 \tab A/C \tab partial \cr
+   1998 \tab A/C \tab partial \cr
+   2000 \tab A/C \tab partial \cr
+   2002 \tab A/C \tab partial \cr
+   2004 \tab A/C \tab partial \cr
+   2006 \tab A/C \tab partial \cr
+   2008 \tab A/C \tab partial \cr
+   2010 \tab A/C \tab partial \cr
+   2012 \tab A/C \tab partial \cr
+   2014 \tab A/C \tab partial \cr
+   2016 \tab A/C \tab partial \cr
+   2018 \tab A/C \tab partial \cr
+   2021 \tab A/C \tab partial \cr
+   2022 \tab A/C \tab partial \cr
 }
 }
 
@@ -76,40 +99,6 @@ Counts by year:\tabular{llllllllll}{
    2022 \tab 1203 \tab 811 \tab 57 \tab 4 \tab - \tab 1414 \tab 46 \tab 9 \tab 3544 \cr
    2024 \tab 1067 \tab 634 \tab 53 \tab 3 \tab - \tab 1501 \tab 42 \tab 9 \tab 3309 \cr
    Total \tab 31664 \tab 15495 \tab 1333 \tab 235 \tab 302 \tab 26054 \tab 574 \tab 42 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1976 \tab -/- \tab full \cr
-   1977 \tab -/- \tab full \cr
-   1980 \tab -/- \tab full \cr
-   1982 \tab -/- \tab full \cr
-   1983 \tab -/- \tab full \cr
-   1984 \tab -/- \tab full \cr
-   1985 \tab -/- \tab full \cr
-   1987 \tab -/- \tab full \cr
-   1988 \tab A/C \tab partial \cr
-   1989 \tab A/C \tab partial \cr
-   1990 \tab A/C \tab partial \cr
-   1991 \tab A/C \tab partial \cr
-   1993 \tab A/C \tab partial \cr
-   1994 \tab A/C \tab partial \cr
-   1996 \tab A/C \tab partial \cr
-   1998 \tab A/C \tab partial \cr
-   2000 \tab A/C \tab partial \cr
-   2002 \tab A/C \tab partial \cr
-   2004 \tab A/C \tab partial \cr
-   2006 \tab A/C \tab partial \cr
-   2008 \tab A/C \tab partial \cr
-   2010 \tab A/C \tab partial \cr
-   2012 \tab A/C \tab partial \cr
-   2014 \tab A/C \tab partial \cr
-   2016 \tab A/C \tab partial \cr
-   2018 \tab A/C \tab partial \cr
-   2021 \tab A/C \tab partial \cr
-   2022 \tab A/C \tab partial \cr
 }
 }
 

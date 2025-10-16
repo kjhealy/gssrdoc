@@ -18,18 +18,14 @@ P. People in your occupation - about how much do they actually earn?
 \itemize{
 \item \code{1e+06} $1 million (or more, for 1987 & 2000)
 \item \code{99999997} never worked
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} can't choose / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2000 \tab A/B/C \tab full \cr
 }
 }
 
@@ -75,13 +71,6 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
    2022 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab 3544 \cr
    2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
    Total \tab 67574 \tab 3 \tab 4 \tab 20 \tab 1 \tab 1 \tab 2 \tab 1 \tab 28 \tab 5 \tab 1 \tab 1 \tab 7 \tab 10 \tab 1 \tab 35 \tab 12 \tab 9 \tab 1 \tab 1 \tab 10 \tab 1 \tab 25 \tab 6 \tab 20 \tab 3 \tab 76 \tab 3 \tab 23 \tab 4 \tab 13 \tab 91 \tab 4 \tab 3 \tab 7 \tab 10 \tab 1 \tab 2 \tab 1 \tab 107 \tab 8 \tab 3 \tab 4 \tab 78 \tab 6 \tab 3 \tab 3 \tab 1 \tab 2 \tab 63 \tab 5 \tab 1 \tab 1 \tab 1 \tab 30 \tab 1 \tab 3 \tab 2 \tab 7 \tab 73 \tab 1 \tab 11 \tab 1 \tab 1 \tab 8 \tab 47 \tab 1 \tab 10 \tab 1 \tab 5 \tab 11 \tab 1 \tab 2 \tab 25 \tab 2 \tab 1 \tab 8 \tab 21 \tab 4 \tab 8 \tab 2 \tab 1 \tab 43 \tab 18 \tab 191 \tab 6853 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2000 \tab A/B/C \tab full \cr
 }
 }
 

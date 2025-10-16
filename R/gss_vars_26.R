@@ -11,19 +11,38 @@
 #'   * `1` too little
 #'   * `2` about right
 #'   * `3` too much
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-/-/-   |full         |
+#'  |1985 |-/-/-   |full         |
+#'  |1986 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/C   |full         |
+#'  |1989 |A/B/C   |full         |
+#'  |1990 |A/B/C   |full         |
+#'  |1991 |A/B/C   |full         |
+#'  |1993 |A/B/C   |full         |
+#'  |1994 |A/B/C   |full         |
+#'  |1996 |A/B/C   |full         |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2002 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/C   |full         |
+#'  |2010 |A/B/C   |full         |
+#'  |2012 |A/B/C   |full         |
+#'  |2014 |A/B/C   |full         |
+#'  |2016 |A/B/C   |full         |
+#'  |2018 |A/B/C   |full         |
+#'  |2021 |A/B/C   |full         |
+#'  |2022 |A/B/C   |full         |
+#'  |2024 |A/B/C   |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/201/vshow).
 #'
@@ -67,6 +86,33 @@
 #'  |2022  |1780  |330         |22         |-         |1208       |201      |3              |3544  |
 #'  |2024  |1683  |291         |17         |1         |1111       |205      |1              |3309  |
 #'  |Total |46218 |6094        |664        |221       |19406      |3076     |20             |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Federal Governmentending
+#' @family Split Ballots
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name nathealy
+NULL
+
+
+#'  Assistance to big cities:version y
+#' 
+#'  natcityy
+#' 
+#' Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?
+#' D. Assistance to big cities
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` too little
+#'   * `2` about right
+#'   * `3` too much
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -97,45 +143,7 @@
 #'  |2021 |A/B/C   |full         |
 #'  |2022 |A/B/C   |full         |
 #'  |2024 |A/B/C   |full         |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Federal Governmentending
-#' @family Split Ballots
-#' @family United States
 #' 
-#' @keywords variable
-#' @md
-#' @name nathealy
-NULL
-
-
-#'  Assistance to big cities:version y
-#' 
-#'  natcityy
-#' 
-#' Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?
-#' D. Assistance to big cities
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` too little
-#'   * `2` about right
-#'   * `3` too much
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/202/vshow).
 #'
@@ -179,6 +187,33 @@ NULL
 #'  |2022  |1780  |643         |117        |-         |423        |574      |7              |3544  |
 #'  |2024  |1683  |557         |101        |-         |364        |597      |7              |3309  |
 #'  |Total |46218 |10628       |3530       |244       |6029       |9015     |35             |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Federal Governmentending
+#' @family Split Ballots
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name natcityy
+NULL
+
+
+#'  Law enforcement:version y
+#' 
+#'  natcrimy
+#' 
+#' Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?
+#' E. Law enforcement
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` too little
+#'   * `2` about right
+#'   * `3` too much
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -209,45 +244,7 @@ NULL
 #'  |2021 |A/B/C   |full         |
 #'  |2022 |A/B/C   |full         |
 #'  |2024 |A/B/C   |full         |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Federal Governmentending
-#' @family Split Ballots
-#' @family United States
 #' 
-#' @keywords variable
-#' @md
-#' @name natcityy
-NULL
-
-
-#'  Law enforcement:version y
-#' 
-#'  natcrimy
-#' 
-#' Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?
-#' E. Law enforcement
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` too little
-#'   * `2` about right
-#'   * `3` too much
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/203/vshow).
 #'
@@ -291,6 +288,34 @@ NULL
 #'  |2022  |1780  |489         |32         |-         |961        |281      |1              |3544  |
 #'  |2024  |1683  |519         |30         |2         |828        |244      |3              |3309  |
 #'  |Total |46218 |10131       |745        |227       |15338      |3028     |12             |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Crime
+#' @family Federal Governmentending
+#' @family Split Ballots
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name natcrimy
+NULL
+
+
+#'  Drug rehabilitation:version y
+#' 
+#'  natdrugy
+#' 
+#' Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?
+#' F. Drug rehabilitation
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` too little
+#'   * `2` about right
+#'   * `3` too much
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -321,46 +346,7 @@ NULL
 #'  |2021 |A/B/C   |full         |
 #'  |2022 |A/B/C   |full         |
 #'  |2024 |A/B/C   |full         |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Crime
-#' @family Federal Governmentending
-#' @family Split Ballots
-#' @family United States
 #' 
-#' @keywords variable
-#' @md
-#' @name natcrimy
-NULL
-
-
-#'  Drug rehabilitation:version y
-#' 
-#'  natdrugy
-#' 
-#' Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?
-#' F. Drug rehabilitation
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` too little
-#'   * `2` about right
-#'   * `3` too much
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/204/vshow).
 #'
@@ -404,6 +390,34 @@ NULL
 #'  |2022  |1780  |435         |56         |-         |1126       |142      |5              |3544  |
 #'  |2024  |1683  |432         |54         |1         |979        |159      |1              |3309  |
 #'  |Total |46218 |8535        |1626       |224       |16038      |3041     |17             |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Drug Use And Addiction
+#' @family Federal Governmentending
+#' @family Split Ballots
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name natdrugy
+NULL
+
+
+#'  Education:version y
+#' 
+#'  nateducy
+#' 
+#' Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?
+#' G. Education
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` too little
+#'   * `2` about right
+#'   * `3` too much
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -434,46 +448,7 @@ NULL
 #'  |2021 |A/B/C   |full         |
 #'  |2022 |A/B/C   |full         |
 #'  |2024 |A/B/C   |full         |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Drug Use And Addiction
-#' @family Federal Governmentending
-#' @family Split Ballots
-#' @family United States
 #' 
-#' @keywords variable
-#' @md
-#' @name natdrugy
-NULL
-
-
-#'  Education:version y
-#' 
-#'  nateducy
-#' 
-#' Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?
-#' G. Education
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` too little
-#'   * `2` about right
-#'   * `3` too much
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/205/vshow).
 #'
@@ -517,6 +492,33 @@ NULL
 #'  |2022  |1780  |277         |7          |-         |1357       |121      |2              |3544  |
 #'  |2024  |1683  |284         |16         |-         |1187       |137      |2              |3309  |
 #'  |Total |46217 |5719        |349        |202       |21487      |1711     |14             |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Education
+#' @family Federal Governmentending
+#' @family Split Ballots
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name nateducy
+NULL
+
+
+#'  Assistance to black people: version y
+#' 
+#'  natracey
+#' 
+#' Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?H. Assistance to Black people.
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` too little
+#'   * `2` about right
+#'   * `3` too much
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -547,45 +549,7 @@ NULL
 #'  |2021 |A/B/C   |full         |
 #'  |2022 |A/B/C   |full         |
 #'  |2024 |A/B/C   |full         |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Education
-#' @family Federal Governmentending
-#' @family Split Ballots
-#' @family United States
 #' 
-#' @keywords variable
-#' @md
-#' @name nateducy
-NULL
-
-
-#'  Assistance to black people: version y
-#' 
-#'  natracey
-#' 
-#' Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?H. Assistance to Black people.
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` too little
-#'   * `2` about right
-#'   * `3` too much
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/206/vshow).
 #'
@@ -629,6 +593,33 @@ NULL
 #'  |2022  |1780  |566         |97         |8         |808        |278      |7              |3544  |
 #'  |2024  |1683  |578         |115        |8         |632        |286      |7              |3309  |
 #'  |Total |46217 |11312       |2939       |329       |8960       |5908     |34             |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Federal Governmentending
+#' @family Split Ballots
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name natracey
+NULL
+
+
+#'  National defense:version y
+#' 
+#'  natarmsy
+#' 
+#' Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?
+#' I. National defense
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` too little
+#'   * `2` about right
+#'   * `3` too much
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -659,45 +650,7 @@ NULL
 #'  |2021 |A/B/C   |full         |
 #'  |2022 |A/B/C   |full         |
 #'  |2024 |A/B/C   |full         |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Federal Governmentending
-#' @family Split Ballots
-#' @family United States
 #' 
-#' @keywords variable
-#' @md
-#' @name natracey
-NULL
-
-
-#'  National defense:version y
-#' 
-#'  natarmsy
-#' 
-#' Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?
-#' I. National defense
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` too little
-#'   * `2` about right
-#'   * `3` too much
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/207/vshow).
 #'
@@ -741,6 +694,33 @@ NULL
 #'  |2022  |1780  |684         |50         |1         |550        |476      |3              |3544  |
 #'  |2024  |1683  |624         |53         |-         |514        |432      |3              |3309  |
 #'  |Total |46217 |11897       |1203       |222       |7035       |9112     |13             |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Federal Governmentending
+#' @family Split Ballots
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name natarmsy
+NULL
+
+
+#'  Assistance to other countries:ver y
+#' 
+#'  nataidy
+#' 
+#' Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?
+#' J. Assistance to other countries
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` too little
+#'   * `2` about right
+#'   * `3` too much
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -771,45 +751,7 @@ NULL
 #'  |2021 |A/B/C   |full         |
 #'  |2022 |A/B/C   |full         |
 #'  |2024 |A/B/C   |full         |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Federal Governmentending
-#' @family Split Ballots
-#' @family United States
 #' 
-#' @keywords variable
-#' @md
-#' @name natarmsy
-NULL
-
-
-#'  Assistance to other countries:ver y
-#' 
-#'  nataidy
-#' 
-#' Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?
-#' J. Assistance to other countries
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` too little
-#'   * `2` about right
-#'   * `3` too much
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/208/vshow).
 #'
@@ -853,6 +795,33 @@ NULL
 #'  |2022  |1780  |480         |45         |-         |172        |1064     |3              |3544  |
 #'  |2024  |1683  |370         |39         |-         |131        |1084     |2              |3309  |
 #'  |Total |46217 |6376        |953        |239       |2075       |19824    |15             |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Federal Governmentending
+#' @family Split Ballots
+#' @family United States
+#' 
+#' @keywords variable
+#' @md
+#' @name nataidy
+NULL
+
+
+#'  Assistance to the poor:version y
+#' 
+#'  natfarey
+#' 
+#' Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?
+#' K. Assistance to the poor
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `1` too little
+#'   * `2` about right
+#'   * `3` too much
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -883,45 +852,7 @@ NULL
 #'  |2021 |A/B/C   |full         |
 #'  |2022 |A/B/C   |full         |
 #'  |2024 |A/B/C   |full         |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' @family Federal Governmentending
-#' @family Split Ballots
-#' @family United States
 #' 
-#' @keywords variable
-#' @md
-#' @name nataidy
-NULL
-
-
-#'  Assistance to the poor:version y
-#' 
-#'  natfarey
-#' 
-#' Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?
-#' K. Assistance to the poor
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `1` too little
-#'   * `2` about right
-#'   * `3` too much
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/209/vshow).
 #'
@@ -965,36 +896,6 @@ NULL
 #'  |2022  |1780  |339         |18         |-         |1280       |127      |-              |3544  |
 #'  |2024  |1683  |334         |29         |-         |1116       |145      |2              |3309  |
 #'  |Total |46217 |6669        |668        |212       |19145      |2780     |8              |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-/-/-   |full         |
-#'  |1985 |-/-/-   |full         |
-#'  |1986 |-/-/-   |full         |
-#'  |1987 |-/-/-   |full         |
-#'  |1988 |A/B/C   |full         |
-#'  |1989 |A/B/C   |full         |
-#'  |1990 |A/B/C   |full         |
-#'  |1991 |A/B/C   |full         |
-#'  |1993 |A/B/C   |full         |
-#'  |1994 |A/B/C   |full         |
-#'  |1996 |A/B/C   |full         |
-#'  |1998 |A/B/C   |full         |
-#'  |2000 |A/B/C   |full         |
-#'  |2002 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2008 |A/B/C   |full         |
-#'  |2010 |A/B/C   |full         |
-#'  |2012 |A/B/C   |full         |
-#'  |2014 |A/B/C   |full         |
-#'  |2016 |A/B/C   |full         |
-#'  |2018 |A/B/C   |full         |
-#'  |2021 |A/B/C   |full         |
-#'  |2022 |A/B/C   |full         |
-#'  |2024 |A/B/C   |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -1021,19 +922,14 @@ NULL
 #'   * `1` too little
 #'   * `2` about right
 #'   * `3` too much
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1984 |-       |full         |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/210/vshow).
 #'
@@ -1077,12 +973,6 @@ NULL
 #'  |2022  |-     |-           |-          |-         |-          |-        |3544                       |3544  |
 #'  |2024  |-     |-           |-          |-         |-          |-        |3309                       |3309  |
 #'  |Total |68362 |225         |19         |3         |55         |182      |6853                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1984 |-       |full         |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core

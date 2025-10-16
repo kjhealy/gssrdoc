@@ -15,18 +15,20 @@ Question How many days per month do you work extra hours beyond your usual sched
 \section{Values}{
 
 \itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item 
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2002 \tab A/B/C \tab full \cr
+   2006 \tab A/B/C \tab full \cr
+   2010 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 
@@ -72,18 +74,6 @@ Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllll}{
    2022 \tab 1540 \tab 762 \tab 105 \tab 78 \tab - \tab 22 \tab - \tab 41 \tab 8 \tab 2 \tab 2 \tab - \tab 164 \tab 96 \tab 1 \tab 5 \tab 1 \tab 10 \tab 14 \tab 2 \tab 6 \tab 107 \tab 35 \tab 137 \tab 186 \tab 36 \tab 37 \tab 53 \tab 2 \tab 36 \tab 14 \tab 2 \tab 6 \tab 1 \tab 6 \tab 27 \tab - \tab 3544 \cr
    2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
    Total \tab 62971 \tab 3196 \tab 532 \tab 431 \tab 5 \tab 131 \tab 18 \tab 285 \tab 43 \tab 9 \tab 18 \tab 3 \tab 869 \tab 548 \tab 13 \tab 39 \tab 7 \tab 53 \tab 106 \tab 6 \tab 21 \tab 560 \tab 213 \tab 706 \tab 713 \tab 204 \tab 135 \tab 224 \tab 26 \tab 145 \tab 102 \tab 6 \tab 17 \tab 2 \tab 6 \tab 27 \tab 3309 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2002 \tab A/B/C \tab full \cr
-   2006 \tab A/B/C \tab full \cr
-   2010 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
 }
 }
 

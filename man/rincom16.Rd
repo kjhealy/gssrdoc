@@ -42,18 +42,18 @@ Question In which of these groups did your earnings from (job), from all sources
 \item \code{25} $150,000 to $169,999
 \item \code{26} $170,000 or over
 \item \code{27} refused
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2021 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
+   2024 \tab A/B/C \tab full \cr
 }
 }
 
@@ -99,17 +99,6 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllll}{
    2022 \tab 1308 \tab 35 \tab 70 \tab 79 \tab 43 \tab 56 \tab 49 \tab 32 \tab 42 \tab 115 \tab 78 \tab 62 \tab 93 \tab 29 \tab 123 \tab 108 \tab 20 \tab 161 \tab 26 \tab 188 \tab 17 \tab 205 \tab 20 \tab 146 \tab 52 \tab 118 \tab 111 \tab 113 \tab 23 \tab 22 \tab 3544 \cr
    2024 \tab 1202 \tab 40 \tab 55 \tab 82 \tab 37 \tab 58 \tab 37 \tab 52 \tab 41 \tab 129 \tab 57 \tab 54 \tab 65 \tab 25 \tab 110 \tab 105 \tab 30 \tab 166 \tab 31 \tab 150 \tab 20 \tab 199 \tab 20 \tab 144 \tab 32 \tab 121 \tab 136 \tab 33 \tab 30 \tab 48 \tab 3309 \cr
    Total \tab 65451 \tab 210 \tab 312 \tab 336 \tab 232 \tab 221 \tab 228 \tab 161 \tab 233 \tab 472 \tab 343 \tab 300 \tab 452 \tab 146 \tab 595 \tab 524 \tab 125 \tab 841 \tab 141 \tab 792 \tab 107 \tab 926 \tab 112 \tab 641 \tab 194 \tab 540 \tab 448 \tab 354 \tab 147 \tab 115 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
-   2024 \tab A/B/C \tab full \cr
 }
 }
 

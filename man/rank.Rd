@@ -19,18 +19,25 @@ HAND SCALE AND PENCIL TO RESPONDENT. LET RESPONDENT MARK SCALE. Be sure that the
 \itemize{
 \item \code{1} 1 - top
 \item \code{10} 10 - bottom
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1983 \tab -/-/- \tab full \cr
+   1987 \tab -/-/- \tab full \cr
+   2000 \tab A/B/C \tab full \cr
+   2004 \tab A/B/C \tab full \cr
+   2006 \tab D/-/- \tab partial \cr
+   2010 \tab A/B/C \tab full \cr
+   2012 \tab A/B/C \tab full \cr
+   2014 \tab A/B/C \tab full \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2021 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 
@@ -76,24 +83,6 @@ Counts by year:\tabular{llllllllllllllll}{
    2022 \tab 1755 \tab 109 \tab 38 \tab 61 \tab 238 \tab 286 \tab 604 \tab 165 \tab 132 \tab 76 \tab 16 \tab 42 \tab 9 \tab 13 \tab 3544 \cr
    2024 \tab 1656 \tab 85 \tab 37 \tab 58 \tab 223 \tab 227 \tab 584 \tab 149 \tab 131 \tab 72 \tab 17 \tab 38 \tab 9 \tab 23 \tab 3309 \cr
    Total \tab 52120 \tab 1308 \tab 403 \tab 903 \tab 3096 \tab 3405 \tab 8063 \tab 2403 \tab 1799 \tab 968 \tab 274 \tab 489 \tab 402 \tab 66 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1983 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   2000 \tab A/B/C \tab full \cr
-   2004 \tab A/B/C \tab full \cr
-   2006 \tab D/-/- \tab partial \cr
-   2010 \tab A/B/C \tab full \cr
-   2012 \tab A/B/C \tab full \cr
-   2014 \tab A/B/C \tab full \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
 }
 }
 

@@ -21,18 +21,17 @@ Question In your day-to-day life how often have any of the following things happ
 \item \code{4} a few times a year
 \item \code{5} less than once a year
 \item \code{6} never
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2018 \tab A/C \tab partial \cr
+   2021 \tab A/C \tab partial \cr
+   2022 \tab A/C \tab partial \cr
+   2024 \tab A/C \tab partial \cr
 }
 }
 
@@ -78,16 +77,6 @@ Counts by year:\tabular{lllllllllllll}{
    2022 \tab 1207 \tab 94 \tab 260 \tab 28 \tab 54 \tab 7 \tab 591 \tab 1296 \tab - \tab 7 \tab - \tab 3544 \cr
    2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
    Total \tab 65858 \tab 217 \tab 737 \tab 62 \tab 128 \tab 12 \tab 1673 \tab 3674 \tab 5 \tab 24 \tab 3309 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2018 \tab A/C \tab partial \cr
-   2021 \tab A/C \tab partial \cr
-   2022 \tab A/C \tab partial \cr
-   2024 \tab A/C \tab partial \cr
 }
 }
 

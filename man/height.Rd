@@ -15,18 +15,17 @@ Question About how tall are you without shoes? Reported in inches.
 \section{Values}{
 
 \itemize{
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item 
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2014 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 
@@ -72,15 +71,6 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllll}{
    2022 \tab 1627 \tab 3 \tab 4 \tab 25 \tab 51 \tab 51 \tab 108 \tab 134 \tab 150 \tab 160 \tab 165 \tab 169 \tab 143 \tab 143 \tab 142 \tab 129 \tab 137 \tab 68 \tab 56 \tab 29 \tab 21 \tab 15 \tab 5 \tab 2 \tab - \tab - \tab 1 \tab - \tab 1 \tab 2 \tab - \tab 2 \tab 1 \tab - \tab 3544 \cr
    2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
    Total \tab 67775 \tab 6 \tab 13 \tab 53 \tab 108 \tab 133 \tab 277 \tab 320 \tab 381 \tab 361 \tab 392 \tab 390 \tab 339 \tab 338 \tab 341 \tab 295 \tab 329 \tab 171 \tab 139 \tab 66 \tab 42 \tab 26 \tab 11 \tab 4 \tab 14 \tab 52 \tab 2 \tab 1 \tab 3 \tab 4 \tab 1 \tab 2 \tab 1 \tab 3309 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2014 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
 }
 }
 

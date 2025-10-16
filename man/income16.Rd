@@ -42,18 +42,17 @@ Total income includes interest or dividends, rent, Social Security, other pensio
 \item \code{24} $130,000 to $149,999
 \item \code{25} $150,000 to $169,999
 \item \code{26} $170,000 or over
-\item \code{NA(d)} don't know
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} don't know / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2016 \tab A/B/C \tab full \cr
+   2018 \tab A/B/C \tab full \cr
+   2021 \tab A/B/C \tab full \cr
+   2022 \tab A/B/C \tab full \cr
 }
 }
 
@@ -99,16 +98,6 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllll}{
    2022 \tab - \tab 33 \tab 104 \tab 169 \tab 83 \tab 147 \tab 64 \tab 97 \tab 51 \tab 330 \tab 92 \tab 100 \tab 129 \tab 18 \tab 162 \tab 152 \tab 11 \tab 211 \tab 16 \tab 239 \tab 14 \tab 304 \tab 16 \tab 240 \tab 40 \tab 249 \tab 268 \tab 132 \tab 39 \tab 34 \tab 3544 \cr
    2024 \tab - \tab 48 \tab 97 \tab 165 \tab 78 \tab 130 \tab 51 \tab 107 \tab 52 \tab 355 \tab 77 \tab 62 \tab 91 \tab 26 \tab 123 \tab 126 \tab 18 \tab 185 \tab 25 \tab 236 \tab 14 \tab 268 \tab 16 \tab 235 \tab 34 \tab 245 \tab 246 \tab 77 \tab 67 \tab 55 \tab 3309 \cr
    Total \tab 59599 \tab 193 \tab 446 \tab 795 \tab 382 \tab 594 \tab 298 \tab 477 \tab 271 \tab 1392 \tab 409 \tab 409 \tab 546 \tab 106 \tab 687 \tab 641 \tab 67 \tab 1039 \tab 92 \tab 1122 \tab 64 \tab 1412 \tab 86 \tab 1170 \tab 217 \tab 1144 \tab 1074 \tab 531 \tab 239 \tab 197 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2016 \tab A/B/C \tab full \cr
-   2018 \tab A/B/C \tab full \cr
-   2021 \tab A/B/C \tab full \cr
-   2022 \tab A/B/C \tab full \cr
 }
 }
 

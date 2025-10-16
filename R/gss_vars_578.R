@@ -10,19 +10,37 @@
 #'   * `1` own or is buying
 #'   * `2` pays rent
 #'   * `3` other
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1985 |-/-     |full         |
+#'  |1986 |-/-     |full         |
+#'  |1987 |-/-     |full         |
+#'  |1988 |A/B     |partial      |
+#'  |1989 |A/B     |partial      |
+#'  |1990 |A/B     |partial      |
+#'  |1991 |A/B     |partial      |
+#'  |1993 |A/B     |partial      |
+#'  |1994 |A/B     |partial      |
+#'  |1996 |A/B     |partial      |
+#'  |1998 |A/B     |partial      |
+#'  |2000 |A/B     |partial      |
+#'  |2002 |A/B     |partial      |
+#'  |2004 |A/B     |partial      |
+#'  |2006 |A/B     |partial      |
+#'  |2008 |A/B     |partial      |
+#'  |2010 |A/B     |partial      |
+#'  |2012 |A/B     |partial      |
+#'  |2014 |A/B     |partial      |
+#'  |2016 |A/B     |partial      |
+#'  |2018 |A/B     |partial      |
+#'  |2021 |A/B     |partial      |
+#'  |2022 |A/B     |partial      |
+#'  |2024 |A/B     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5294/vshow).
 #'
@@ -66,35 +84,6 @@
 #'  |2022  |1174  |4         |64    |1420             |878       |1          |3              |3544  |
 #'  |2024  |1126  |13        |13    |1323             |816       |5          |13             |3309  |
 #'  |Total |37971 |415       |703   |23466            |13089     |22         |33             |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1985 |-/-     |full         |
-#'  |1986 |-/-     |full         |
-#'  |1987 |-/-     |full         |
-#'  |1988 |A/B     |partial      |
-#'  |1989 |A/B     |partial      |
-#'  |1990 |A/B     |partial      |
-#'  |1991 |A/B     |partial      |
-#'  |1993 |A/B     |partial      |
-#'  |1994 |A/B     |partial      |
-#'  |1996 |A/B     |partial      |
-#'  |1998 |A/B     |partial      |
-#'  |2000 |A/B     |partial      |
-#'  |2002 |A/B     |partial      |
-#'  |2004 |A/B     |partial      |
-#'  |2006 |A/B     |partial      |
-#'  |2008 |A/B     |partial      |
-#'  |2010 |A/B     |partial      |
-#'  |2012 |A/B     |partial      |
-#'  |2014 |A/B     |partial      |
-#'  |2016 |A/B     |partial      |
-#'  |2018 |A/B     |partial      |
-#'  |2021 |A/B     |partial      |
-#'  |2022 |A/B     |partial      |
-#'  |2024 |A/B     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Residence
@@ -118,19 +107,17 @@ NULL
 #'   * `1` owned or was buying
 #'   * `2` paid rent
 #'   * `3` other
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |2018 |A/B     |partial      |
+#'  |2021 |A/B     |partial      |
+#'  |2022 |A/B     |partial      |
+#'  |2024 |A/B     |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/7299/vshow).
 #'
@@ -174,15 +161,6 @@ NULL
 #'  |2022  |1174  |16         |3         |53    |1673                |624       |1              |3544  |
 #'  |2024  |1126  |26         |12        |22    |1563                |546       |14             |3309  |
 #'  |Total |66922 |56         |17        |137   |6376                |2154      |37             |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |2018 |A/B     |partial      |
-#'  |2021 |A/B     |partial      |
-#'  |2022 |A/B     |partial      |
-#'  |2024 |A/B     |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -206,19 +184,38 @@ NULL
 #' 
 #'   * `0` incorrect answer
 #'   * `1` correct answer
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
+#' 
+#' @section Question Years and Ballots: 
 #'
+#'  |year |ballots |availability |
+#'  |:----|:-------|:------------|
+#'  |1974 |-/-/-   |full         |
+#'  |1976 |-/-/-   |full         |
+#'  |1978 |-/-/-   |full         |
+#'  |1982 |-/-/-   |full         |
+#'  |1984 |-/-/-   |full         |
+#'  |1987 |-/-/-   |full         |
+#'  |1988 |A/B/-   |partial      |
+#'  |1989 |A/B/-   |partial      |
+#'  |1990 |A/B/-   |partial      |
+#'  |1991 |A/B/-   |partial      |
+#'  |1993 |A/B/-   |partial      |
+#'  |1994 |A/B/-   |partial      |
+#'  |1996 |A/B/-   |partial      |
+#'  |1998 |A/B/C   |full         |
+#'  |2000 |A/B/C   |full         |
+#'  |2004 |A/B/C   |full         |
+#'  |2006 |A/B/C   |full         |
+#'  |2008 |A/B/-   |partial      |
+#'  |2010 |A/B/-   |partial      |
+#'  |2012 |A/B/-   |partial      |
+#'  |2014 |A/B/-   |partial      |
+#'  |2016 |A/B/-   |partial      |
+#'  |2018 |A/B/-   |partial      |
+#'  |2022 |A/B/-   |partial      |
+#'  |2024 |A/B/-   |partial      |
+#' 
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5295/vshow).
 #'
@@ -262,6 +259,31 @@ NULL
 #'  |2022  |2377  |857            |262              |48        |-                          |3544  |
 #'  |2024  |2235  |788            |254              |32        |-                          |3309  |
 #'  |Total |36017 |27545          |5893             |2212      |4032                       |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Vocabulary
+#' @family Knowledge
+#' @family Vocabulary Test
+#' 
+#' @keywords variable
+#' @md
+#' @name worda
+NULL
+
+
+#'  Word b
+#' 
+#'  wordb
+#' 
+#' Question We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters -- like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone -- just give me your best guess if you are not sure of the answer. CIRCLE ONE CODE NUMBER FOR EACH ITEM BELOW.
+#' B. Word B
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` incorrect answer
+#'   * `1` correct answer
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -292,43 +314,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #'  |2022 |A/B/-   |partial      |
 #'  |2024 |A/B/-   |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Vocabulary
-#' @family Knowledge
-#' @family Vocabulary Test
 #' 
-#' @keywords variable
-#' @md
-#' @name worda
-NULL
-
-
-#'  Word b
-#' 
-#'  wordb
-#' 
-#' Question We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters -- like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone -- just give me your best guess if you are not sure of the answer. CIRCLE ONE CODE NUMBER FOR EACH ITEM BELOW.
-#' B. Word B
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `0` incorrect answer
-#'   * `1` correct answer
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5296/vshow).
 #'
@@ -372,6 +358,31 @@ NULL
 #'  |2022  |1178  |2052           |195              |119       |-                          |3544  |
 #'  |2024  |1126  |1907           |194              |82        |-                          |3309  |
 #'  |Total |33709 |33008          |2420             |2530      |4032                       |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Vocabulary
+#' @family Knowledge
+#' @family Vocabulary Test
+#' 
+#' @keywords variable
+#' @md
+#' @name wordb
+NULL
+
+
+#'  Word c
+#' 
+#'  wordc
+#' 
+#' Question We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters -- like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone -- just give me your best guess if you are not sure of the answer. CIRCLE ONE CODE NUMBER FOR EACH ITEM BELOW.
+#' C. Word C
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` incorrect answer
+#'   * `1` correct answer
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -402,43 +413,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #'  |2022 |A/B/-   |partial      |
 #'  |2024 |A/B/-   |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Vocabulary
-#' @family Knowledge
-#' @family Vocabulary Test
 #' 
-#' @keywords variable
-#' @md
-#' @name wordb
-NULL
-
-
-#'  Word c
-#' 
-#'  wordc
-#' 
-#' Question We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters -- like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone -- just give me your best guess if you are not sure of the answer. CIRCLE ONE CODE NUMBER FOR EACH ITEM BELOW.
-#' C. Word C
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `0` incorrect answer
-#'   * `1` correct answer
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5297/vshow).
 #'
@@ -482,6 +457,31 @@ NULL
 #'  |2022  |1178  |494            |1596             |276       |-                          |3544  |
 #'  |2024  |1126  |450            |1472             |261       |-                          |3309  |
 #'  |Total |33709 |7649           |22119            |8190      |4032                       |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Vocabulary
+#' @family Knowledge
+#' @family Vocabulary Test
+#' 
+#' @keywords variable
+#' @md
+#' @name wordc
+NULL
+
+
+#'  Word d
+#' 
+#'  wordd
+#' 
+#' Question We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters -- like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone -- just give me your best guess if you are not sure of the answer. CIRCLE ONE CODE NUMBER FOR EACH ITEM BELOW.
+#' D. Word D
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` incorrect answer
+#'   * `1` correct answer
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -512,43 +512,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #'  |2022 |A/B/-   |partial      |
 #'  |2024 |A/B/-   |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Vocabulary
-#' @family Knowledge
-#' @family Vocabulary Test
 #' 
-#' @keywords variable
-#' @md
-#' @name wordc
-NULL
-
-
-#'  Word d
-#' 
-#'  wordd
-#' 
-#' Question We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters -- like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone -- just give me your best guess if you are not sure of the answer. CIRCLE ONE CODE NUMBER FOR EACH ITEM BELOW.
-#' D. Word D
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `0` incorrect answer
-#'   * `1` correct answer
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5298/vshow).
 #'
@@ -592,6 +556,31 @@ NULL
 #'  |2022  |1178  |2190           |91               |85        |-                          |3544  |
 #'  |2024  |1126  |2053           |81               |49        |-                          |3309  |
 #'  |Total |33709 |33924          |1817             |2217      |4032                       |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Vocabulary
+#' @family Knowledge
+#' @family Vocabulary Test
+#' 
+#' @keywords variable
+#' @md
+#' @name wordd
+NULL
+
+
+#'  Word e
+#' 
+#'  worde
+#' 
+#' Question We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters -- like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone -- just give me your best guess if you are not sure of the answer. CIRCLE ONE CODE NUMBER FOR EACH ITEM BELOW.
+#' E. Word E
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` incorrect answer
+#'   * `1` correct answer
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -622,43 +611,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #'  |2022 |A/B/-   |partial      |
 #'  |2024 |A/B/-   |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Vocabulary
-#' @family Knowledge
-#' @family Vocabulary Test
 #' 
-#' @keywords variable
-#' @md
-#' @name wordd
-NULL
-
-
-#'  Word e
-#' 
-#'  worde
-#' 
-#' Question We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters -- like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone -- just give me your best guess if you are not sure of the answer. CIRCLE ONE CODE NUMBER FOR EACH ITEM BELOW.
-#' E. Word E
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `0` incorrect answer
-#'   * `1` correct answer
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5299/vshow).
 #'
@@ -702,6 +655,31 @@ NULL
 #'  |2022  |1178  |1904           |345              |117       |-                          |3544  |
 #'  |2024  |1126  |1741           |366              |76        |-                          |3309  |
 #'  |Total |33709 |27390          |6922             |3646      |4032                       |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Vocabulary
+#' @family Knowledge
+#' @family Vocabulary Test
+#' 
+#' @keywords variable
+#' @md
+#' @name worde
+NULL
+
+
+#'  Word f
+#' 
+#'  wordf
+#' 
+#' Question We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters -- like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone -- just give me your best guess if you are not sure of the answer. CIRCLE ONE CODE NUMBER FOR EACH ITEM BELOW.
+#' F. Word F
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` incorrect answer
+#'   * `1` correct answer
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -732,43 +710,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #'  |2022 |A/B/-   |partial      |
 #'  |2024 |A/B/-   |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Vocabulary
-#' @family Knowledge
-#' @family Vocabulary Test
 #' 
-#' @keywords variable
-#' @md
-#' @name worde
-NULL
-
-
-#'  Word f
-#' 
-#'  wordf
-#' 
-#' Question We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters -- like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone -- just give me your best guess if you are not sure of the answer. CIRCLE ONE CODE NUMBER FOR EACH ITEM BELOW.
-#' F. Word F
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `0` incorrect answer
-#'   * `1` correct answer
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5300/vshow).
 #'
@@ -812,6 +754,31 @@ NULL
 #'  |2022  |1178  |1913           |326              |127       |-                          |3544  |
 #'  |2024  |1126  |1812           |269              |102       |-                          |3309  |
 #'  |Total |33709 |28493          |6030             |3435      |4032                       |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Vocabulary
+#' @family Knowledge
+#' @family Vocabulary Test
+#' 
+#' @keywords variable
+#' @md
+#' @name wordf
+NULL
+
+
+#'  Word g
+#' 
+#'  wordg
+#' 
+#' Question We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters -- like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone -- just give me your best guess if you are not sure of the answer. CIRCLE ONE CODE NUMBER FOR EACH ITEM BELOW.
+#' G. Word G
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` incorrect answer
+#'   * `1` correct answer
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -842,43 +809,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #'  |2022 |A/B/-   |partial      |
 #'  |2024 |A/B/-   |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Vocabulary
-#' @family Knowledge
-#' @family Vocabulary Test
 #' 
-#' @keywords variable
-#' @md
-#' @name wordf
-NULL
-
-
-#'  Word g
-#' 
-#'  wordg
-#' 
-#' Question We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters -- like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone -- just give me your best guess if you are not sure of the answer. CIRCLE ONE CODE NUMBER FOR EACH ITEM BELOW.
-#' G. Word G
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `0` incorrect answer
-#'   * `1` correct answer
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5301/vshow).
 #'
@@ -922,6 +853,31 @@ NULL
 #'  |2022  |2377  |400            |664              |103       |-                          |3544  |
 #'  |2024  |2235  |377            |628              |69        |-                          |3309  |
 #'  |Total |36017 |11240          |19693            |4717      |4032                       |75699 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Vocabulary
+#' @family Knowledge
+#' @family Vocabulary Test
+#' 
+#' @keywords variable
+#' @md
+#' @name wordg
+NULL
+
+
+#'  Word h
+#' 
+#'  wordh
+#' 
+#' Question We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters -- like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone -- just give me your best guess if you are not sure of the answer. CIRCLE ONE CODE NUMBER FOR EACH ITEM BELOW.
+#' H. Word H
+#' 
+#' 
+#' @section Values: 
+#' 
+#'   * `0` incorrect answer
+#'   * `1` correct answer
+#'   * `NA(d)` don't know / `NA(i)` iap / `NA(j)` I don't have a job / `NA(m)` dk, na, iap / `NA(n)` no answer / `NA(p)` not imputable / `NA(r)` refused / `NA(s)` skipped on web / `NA(u)` uncodeable / `NA(x)` not available in this release / `NA(y)` not available in this year / `NA(z)` see codebook
 #' 
 #' @section Question Years and Ballots: 
 #'
@@ -952,43 +908,7 @@ NULL
 #'  |2018 |A/B/-   |partial      |
 #'  |2022 |A/B/-   |partial      |
 #'  |2024 |A/B/-   |partial      |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Vocabulary
-#' @family Knowledge
-#' @family Vocabulary Test
 #' 
-#' @keywords variable
-#' @md
-#' @name wordg
-NULL
-
-
-#'  Word h
-#' 
-#'  wordh
-#' 
-#' Question We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters -- like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone -- just give me your best guess if you are not sure of the answer. CIRCLE ONE CODE NUMBER FOR EACH ITEM BELOW.
-#' H. Word H
-#' 
-#' 
-#' @section Values: 
-#' 
-#'   * `0` incorrect answer
-#'   * `1` correct answer
-#'   * `NA(d)` don't know
-#'   * `NA(i)` iap
-#'   * `NA(j)` I don't have a job
-#'   * `NA(m)` dk, na, iap
-#'   * `NA(n)` no answer
-#'   * `NA(p)` not imputable
-#'   * `NA(r)` refused
-#'   * `NA(s)` skipped on web
-#'   * `NA(u)` uncodeable
-#'   * `NA(x)` not available in this release
-#'   * `NA(y)` not available in this year
-#'   * `NA(z)` see codebook
-#'
 #' @section Overview: 
 #' For further details see the [GSS Data Explorer page for this variable](https://gssdataexplorer.norc.org/variables/5302/vshow).
 #'
@@ -1032,36 +952,6 @@ NULL
 #'  |2022  |1179  |862            |1179             |324       |-                          |3544  |
 #'  |2024  |1126  |799            |1085             |299       |-                          |3309  |
 #'  |Total |33710 |11226          |18438            |8293      |4032                       |75699 |
-#' 
-#' @section Question Years and Ballots: 
-#'
-#'  |year |ballots |availability |
-#'  |:----|:-------|:------------|
-#'  |1974 |-/-/-   |full         |
-#'  |1976 |-/-/-   |full         |
-#'  |1978 |-/-/-   |full         |
-#'  |1982 |-/-/-   |full         |
-#'  |1984 |-/-/-   |full         |
-#'  |1987 |-/-/-   |full         |
-#'  |1988 |A/B/-   |partial      |
-#'  |1989 |A/B/-   |partial      |
-#'  |1990 |A/B/-   |partial      |
-#'  |1991 |A/B/-   |partial      |
-#'  |1993 |A/B/-   |partial      |
-#'  |1994 |A/B/-   |partial      |
-#'  |1996 |A/B/-   |partial      |
-#'  |1998 |A/B/C   |full         |
-#'  |2000 |A/B/C   |full         |
-#'  |2004 |A/B/C   |full         |
-#'  |2006 |A/B/C   |full         |
-#'  |2008 |A/B/-   |partial      |
-#'  |2010 |A/B/-   |partial      |
-#'  |2012 |A/B/-   |partial      |
-#'  |2014 |A/B/-   |partial      |
-#'  |2016 |A/B/-   |partial      |
-#'  |2018 |A/B/-   |partial      |
-#'  |2022 |A/B/-   |partial      |
-#'  |2024 |A/B/-   |partial      |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Vocabulary

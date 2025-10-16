@@ -19,18 +19,14 @@ Question People have different opinions about who you can rely on and who should
 \item \code{4} you can rely equally on both
 \item \code{7} you can definitely rely more on close friends
 \item \code{8} you cannot rely on either of them
-\item \code{NA(d)} can't choose
-\item \code{NA(i)} iap
-\item \code{NA(j)} I don't have a job
-\item \code{NA(m)} dk, na, iap
-\item \code{NA(n)} no answer
-\item \code{NA(p)} not imputable
-\item \code{NA(r)} refused
-\item \code{NA(s)} skipped on web
-\item \code{NA(u)} uncodeable
-\item \code{NA(x)} not available in this release
-\item \code{NA(y)} not available in this year
-\item \code{NA(z)} see codebook
+\item \code{NA(d)} can't choose / \code{NA(i)} iap / \code{NA(j)} I don't have a job / \code{NA(m)} dk, na, iap / \code{NA(n)} no answer / \code{NA(p)} not imputable / \code{NA(r)} refused / \code{NA(s)} skipped on web / \code{NA(u)} uncodeable / \code{NA(x)} not available in this release / \code{NA(y)} not available in this year / \code{NA(z)} see codebook
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   2022 \tab A \tab partial \cr
 }
 }
 
@@ -76,13 +72,6 @@ Counts by year:\tabular{lllllllllllllll}{
    2022 \tab - \tab 111 \tab 101 \tab 43 \tab 30 \tab 91 \tab 56 \tab 2386 \tab 11 \tab 5 \tab 87 \tab 215 \tab 408 \tab 3544 \cr
    2024 \tab 3309 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \cr
    Total \tab 72155 \tab 111 \tab 101 \tab 43 \tab 30 \tab 91 \tab 56 \tab 2386 \tab 11 \tab 5 \tab 87 \tab 215 \tab 408 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   2022 \tab A \tab partial \cr
 }
 }
 

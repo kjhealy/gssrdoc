@@ -234,6 +234,30 @@ E. (Is/Was) (he/she) self-employed or (does/did) (he/she) work for someone else?
 \item \code{917} federal public administration
 \item \code{927} state public administration
 \item \code{937} local public administration
+\item 
+}
+}
+
+\section{Question Years and Ballots}{
+\tabular{lll}{
+   year \tab ballots \tab availability \cr
+   1972 \tab -/-/- \tab full \cr
+   1973 \tab -/-/- \tab full \cr
+   1974 \tab -/-/- \tab full \cr
+   1975 \tab -/-/- \tab full \cr
+   1976 \tab -/-/- \tab full \cr
+   1977 \tab -/-/- \tab full \cr
+   1978 \tab -/-/- \tab full \cr
+   1980 \tab -/-/- \tab full \cr
+   1982 \tab -/-/- \tab full \cr
+   1983 \tab -/-/- \tab full \cr
+   1984 \tab -/-/- \tab full \cr
+   1985 \tab -/-/- \tab full \cr
+   1986 \tab -/-/- \tab full \cr
+   1987 \tab -/-/- \tab full \cr
+   1988 \tab A/B/C \tab full \cr
+   1989 \tab A/B/C \tab full \cr
+   1990 \tab A/B/C \tab full \cr
 }
 }
 
@@ -279,29 +303,6 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
    2022 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab 3544 \cr
    2024 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3309 \tab 3309 \cr
    Total \tab 11599 \tab 165 \tab 49 \tab 25 \tab 6 \tab 391 \tab 44 \tab 66 \tab 113 \tab 260 \tab 106 \tab 114 \tab 26 \tab 28 \tab 269 \tab 19 \tab 113 \tab 37 \tab 125 \tab 6 \tab 41 \tab 88 \tab 45 \tab 27 \tab 217 \tab 19 \tab 29 \tab 19 \tab 38 \tab 151 \tab 50 \tab 74 \tab 37 \tab 25 \tab 285 \tab 34 \tab 3 \tab 62 \tab 36 \tab 23 \tab 13 \tab 4 \tab 456 \tab 47 \tab 98 \tab 22 \tab 21 \tab 151 \tab 58 \tab 944 \tab 24 \tab 56 \tab 67 \tab 28 \tab 21 \tab 472 \tab 110 \tab 35 \tab 27 \tab 11 \tab 16 \tab 74 \tab 72 \tab 21 \tab 71 \tab 314 \tab 144 \tab 251 \tab 48 \tab 29 \tab 89 \tab 588 \tab 72 \tab 27 \tab 36 \tab 42 \tab 344 \tab 23 \tab 78 \tab 8 \tab 103 \tab 23 \tab 37 \tab 297 \tab 39 \tab 51 \tab 59 \tab 123 \tab 77 \tab 40 \tab 38 \tab 38 \tab 74 \tab 71 \tab 21 \tab 39 \tab 123 \tab 19 \tab 31 \tab 42 \tab 129 \tab 28 \tab 14 \tab 28 \tab 111 \tab 284 \tab 68 \tab 15 \tab 55 \tab 31 \tab 6 \tab 46 \tab 10 \tab 19 \tab 26 \tab 13 \tab 13 \tab 19 \tab 64 \tab 15 \tab 110 \tab 32 \tab 33 \tab 60 \tab 20 \tab 9 \tab 36 \tab 22 \tab 44 \tab 35 \tab 122 \tab 156 \tab 173 \tab 30 \tab 31 \tab 56 \tab 9 \tab 127 \tab 176 \tab 80 \tab 62 \tab 24 \tab 44 \tab 18 \tab 9 \tab 45 \tab 27 \tab 37 \tab 23 \tab 433 \tab 161 \tab 54 \tab 7 \tab 14 \tab 169 \tab 31 \tab 33 \tab 9 \tab 221 \tab 32 \tab 27 \tab 22 \tab 67 \tab 40 \tab 83 \tab 114 \tab 25 \tab 16 \tab 45 \tab 20 \tab 43 \tab 38 \tab 12 \tab 27 \tab 30 \tab 10 \tab 25 \tab 41 \tab 48 \tab 52 \tab 29 \tab 13 \tab 21 \tab 13 \tab 28 \tab 9 \tab 20 \tab 11 \tab 34 \tab 11 \tab 23 \tab 5 \tab 23 \tab 4 \tab 3 \tab 52 \tab 10 \tab 10 \tab 24 \tab 18 \tab 12 \tab 14 \tab 3 \tab 7 \tab 4 \tab 6 \tab 4 \tab 11 \tab 11 \tab 2 \tab 2 \tab 4 \tab 3 \tab 1 \tab 6 \tab 49434 \tab 75699 \cr
-}
-}
-
-\section{Question Years and Ballots}{
-\tabular{lll}{
-   year \tab ballots \tab availability \cr
-   1972 \tab -/-/- \tab full \cr
-   1973 \tab -/-/- \tab full \cr
-   1974 \tab -/-/- \tab full \cr
-   1975 \tab -/-/- \tab full \cr
-   1976 \tab -/-/- \tab full \cr
-   1977 \tab -/-/- \tab full \cr
-   1978 \tab -/-/- \tab full \cr
-   1980 \tab -/-/- \tab full \cr
-   1982 \tab -/-/- \tab full \cr
-   1983 \tab -/-/- \tab full \cr
-   1984 \tab -/-/- \tab full \cr
-   1985 \tab -/-/- \tab full \cr
-   1986 \tab -/-/- \tab full \cr
-   1987 \tab -/-/- \tab full \cr
-   1988 \tab A/B/C \tab full \cr
-   1989 \tab A/B/C \tab full \cr
-   1990 \tab A/B/C \tab full \cr
 }
 }
 
